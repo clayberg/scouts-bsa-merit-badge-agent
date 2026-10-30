@@ -1,8 +1,8 @@
 # Forestry Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Forestry.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/forestry/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/forestry/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -53,10 +53,10 @@
 - **Pamphlet Fact:** Winter twigs display distinct leaf scars, vascular bundle patterns, and terminal buds that allow definitive dormant identification.
 
 **Gear & Readiness Checklist:**
-- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide
-- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Field notebook, make a collection
-- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
-- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
+- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
+- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Field notebook, make a collection.
+- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools.
+- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card.
 
 ![Forestry Requirement 1 figure showing alternate or opposite twig attachments provide immediate diagnostic separation.](/assets/pamphlet_images/forestry_p003_img1.png)
 
@@ -545,10 +545,10 @@
 - **Pamphlet Fact:** Professional foresters must earn accredited university degrees in forestry, dendrology, and geographic information systems.
 
 **Gear & Readiness Checklist:**
-- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide
-- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Forestry Careers and Pathways
-- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
-- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
+- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
+- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Forestry Careers and Pathways.
+- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools.
+- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card.
 
 ![A visitor in safety gear shakes hands with a manager at a timber facility.](/assets/pamphlet_images/forestry_p077_img1.png)
 

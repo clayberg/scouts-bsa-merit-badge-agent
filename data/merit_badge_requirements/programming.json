@@ -55,9 +55,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)",
           "common_misconception_pair": {
             "misconception": "Digital security safeguards only matter when entering credit card numbers into commercial shopping carts.",
-            "fact": "Source code repositories often expose private identity markers through commit log email addresses.",
-            "myth": "Digital security safeguards only matter when entering credit card numbers into commercial shopping carts.",
-            "fact_correction": "Source code repositories often expose private identity markers through commit log email addresses."
+            "fact": "Source code repositories often expose private identity markers through commit log email addresses."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -141,9 +139,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)",
           "common_misconception_pair": {
             "misconception": "Screen brightness settings have zero impact on physical eye strain during evening coding sprints.",
-            "fact": "Cervical muscle tension drops when monitors sit directly at natural horizontal eye level.",
-            "myth": "Screen brightness settings have zero impact on physical eye strain during evening coding sprints.",
-            "fact_correction": "Cervical muscle tension drops when monitors sit directly at natural horizontal eye level."
+            "fact": "Cervical muscle tension drops when monitors sit directly at natural horizontal eye level."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -238,9 +234,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Carpal tunnel syndrome only affects adult office workers who type continuously for decades.",
-        "fact": "Neutral wrist posture and scheduled hourly breaks prevent median nerve compression during long keyboard sessions.",
-        "myth": "Carpal tunnel syndrome only affects adult office workers who type continuously for decades.",
-        "fact_correction": "Neutral wrist posture and scheduled hourly breaks prevent median nerve compression during long keyboard sessions."
+        "fact": "Neutral wrist posture and scheduled hourly breaks prevent median nerve compression during long keyboard sessions."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -281,10 +275,10 @@
         "Step 4 - Timer Configuration: Set recurring alerts prompting mandatory physical standing stretches every forty minutes."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 1",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Digital Safety and Injury Prevention"
+        "Official Programming merit badge pamphlet and workbook organizer for Req 1.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Digital Safety and Injury Prevention."
       ],
       "comparison_data": {
         "left_header": "Req 1a: Digital Safety Video Instruction",
@@ -297,28 +291,28 @@
         ],
         "rows": [
           {
-            "attribute": "Personal Digital Safety Awareness",
-            "left": "(1a) Personal Digital Safety Awareness: The main programming-related injuries are repetitive stress injuries, or RSIs (p. 88).",
-            "right": "(1b) Repetitive Stress Injury Prevention: Just as in athletic activities, an RSI occurs when stress is placed on a joint, pulling on the tendons and muscles around the joint (p. 88)."
+            "attribute": "Digital Privacy Rule",
+            "left": "(1a) Digital Safety Video Instruction: Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables.",
+            "right": "(1b) Ergonomics And Injury Prevention: Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Athletic Prevention Techniques: But in fact, injuries from programming have much in common with sports injuries and can be prevented using some of the same techniques that athletes use (p. 88).",
-            "right": "Step 2 - Protect Joints and Tendons: Just as in athletic activities, an RSI occurs when stress is placed on a joint, pulling on the tendons and muscles around the joint (p. 88)."
+            "attribute": "Ergonomic Display Angle",
+            "left": "Req 1a: Digital Safety Video: Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables.",
+            "right": "Req 1b: Ergonomics And Injury: Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Repetitive Stress Injuries: The main programming-related injuries are repetitive stress injuries, or RSIs (p. 88).",
-            "right": "Step 3 - Allow Tissue Recovery Time: When the stress happens repeatedly, the body does not have time to recover and becomes irritated (p. 88)."
+            "attribute": "Twenty Minute Pause",
+            "left": "Digital Privacy Rule: Never share passwords or home location details in public forum profiles.",
+            "right": "Ergonomic Display Angle: Position monitors at eye level to prevent persistent cervical spine strain."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 1 Exemplar Workbook Entry: Digital Safety and Injury Prevention",
+        "title": "Programming Req 1 Exemplar Workbook Entry: Digital",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Digital Safety Video Instruction": "Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables.",
-          "Req 1b - Ergonomics And Injury Prevention": "Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals."
+          "Req 1a - Digital Safety Video": "Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables.",
+          "Req 1b - Ergonomics And Injury": "Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals."
         },
         "sample_output": "Digital Safety and Injury Prevention: The main programming-related injuries are repetitive stress injuries, or RSIs (p. 88).",
         "counselor_tip": "For Programming Requirement 1 (Digital Safety and Injury Prevention), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89))."
@@ -355,7 +349,33 @@
       "socratic_questions": [
         "How does poor chair height contribute directly to wrist tingling during extended programming sessions?",
         "Why is sharing project source code online risky if personal directory paths remain in configuration files?",
-        "Which physical symptoms indicate that a programmer needs an immediate twenty minute visual rest break?"
+        "Which physical symptoms indicate that a programmer needs an immediate twenty minute visual rest break?",
+        "What happens to the median nerve inside your wrist when you type for hours with your wrists bent upward on a desk edge?",
+        "Where should a Scout position the top of the monitor screen and set the viewing distance to prevent neck and eye strain?",
+        "Which physical indicator in your fingers or forearm warns of early repetitive stress injury before steady pain develops?",
+        "What measurement confirms that you are following the 20-20-20 rule properly during a long coding session at your desk?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Carpal tunnel syndrome only affects adult office workers who type continuously for decades.",
+          "fact": "Neutral wrist posture and scheduled hourly breaks prevent median nerve compression during long keyboard sessions."
+        },
+        {
+          "misconception": "Resting your wrists firmly on a padded gel wrist rest while actively typing prevents carpal tunnel syndrome and tendon strain.",
+          "fact": "Pressing wrists against a pad while typing compresses the carpal tunnel; float your wrists neutral and use rests only during pauses."
+        },
+        {
+          "misconception": "Typing harder and stretching aching fingers backward immediately relieves tendon inflammation during a long programming session.",
+          "fact": "Forceful stretching irritates inflamed tendons; stop typing right away, rest the hand in a neutral position, and apply a cold pack."
+        },
+        {
+          "misconception": "Sitting close to a bright monitor in a dark room sharpens text contrast and reduces eye fatigue during late-night coding.",
+          "fact": "High screen glare against a dark room forces your pupils to adjust constantly; match screen brightness to even ambient room lighting."
+        },
+        {
+          "misconception": "Sharing a screenshot of your full desktop or code editor online is safe as long as no password box is open on screen.",
+          "fact": "Full screenshots often leak API keys, local file paths, browser tabs, or personal data that should be cropped or redacted first."
+        }
       ]
     },
     {
@@ -428,9 +448,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Computer programming began only after silicon microprocessors were invented in California research labs.",
-        "fact": "Ada Lovelace documented algorithmic process execution on paper long before electronic computers existed.",
-        "myth": "Computer programming began only after silicon microprocessors were invented in California research labs.",
-        "fact_correction": "Ada Lovelace documented algorithmic process execution on paper long before electronic computers existed."
+        "fact": "Ada Lovelace documented algorithmic process execution on paper long before electronic computers existed."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -466,44 +484,44 @@
         "Step 4 - Counselor Presentation: Explain milestone impacts on modern application development during your patrol review session."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 2",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Evolution of Programming Languages"
+        "Official Programming merit badge pamphlet and workbook organizer for Req 2.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Evolution of Programming Languages."
       ],
       "comparison_data": {
-        "left_header": "Hardware-Specific Binary and Assembly",
-        "right_header": "Portable High-Level Programming Languages",
+        "left_header": "Req 2: Thousands of Languages Developed",
+        "right_header": "Req 2: Trace Early Assembly Roots",
         "left_points": [
           "Thousands of Languages Developed: As of the printing of this merit badge pamphlet, more than 2,500 programming languages have been developed (p. 18).",
           "Mid-Century Language Pioneers: By the 1950s and 1960s, many new languages were being introduced, including BASIC, Fortran, and LISP (p. 18).",
           "Moving Beyond Machine Assembly: These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18)."
         ],
         "right_points": [
-          "Step 1 - Trace Early Assembly Roots: These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18).",
-          "Step 2 - Compare Cross-Platform Portability: That is, programs written in these languages could runon two or more kinds of processors or with two or more kinds of operating systems (p. 18).",
-          "Step 3 - Examine Computer Science Concepts: Many languages, such as Pascal, we recreated to capture new concepts of computer science (p. 18)."
+          "Trace Early Assembly Roots: These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18).",
+          "Compare Cross-Platform Portability: That is, programs written in these languages could runon two or more kinds of processors or with two or more kinds of operating systems (p. 18).",
+          "Examine Computer Science Concepts: Many languages, such as Pascal, we recreated to capture new concepts of computer science (p. 18)."
         ],
         "rows": [
           {
-            "attribute": "Thousands of Languages Developed",
+            "attribute": "Analytical Engine Concept",
             "left": "Thousands of Languages Developed: As of the printing of this merit badge pamphlet, more than 2,500 programming languages have been developed (p. 18).",
-            "right": "Step 1 - Trace Early Assembly Roots: These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18)."
+            "right": "Trace Early Assembly Roots: These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Compiler Invention Impact",
             "left": "Mid-Century Language Pioneers: By the 1950s and 1960s, many new languages were being introduced, including BASIC, Fortran, and LISP (p. 18).",
-            "right": "Step 2 - Compare Cross-Platform Portability: That is, programs written in these languages could runon two or more kinds of processors or with two or more kinds of operating systems (p. 18)."
+            "right": "Compare Cross-Platform Portability: That is, programs written in these languages could runon two or more kinds of processors or with two or more kinds of operating systems (p. 18)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Stored Program Architecture",
             "left": "Moving Beyond Machine Assembly: These languages took programming beyond binary and assembly to allow portability of languages beyond just the processor hardware of the time (p. 18).",
-            "right": "Step 3 - Examine Computer Science Concepts: Many languages, such as Pascal, we recreated to capture new concepts of computer science (p. 18)."
+            "right": "Examine Computer Science Concepts: Many languages, such as Pascal, we recreated to capture new concepts of computer science (p. 18)."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 2 Exemplar Workbook Entry: Evolution of Programming Languages",
+        "title": "Programming Req 2 Exemplar Workbook Entry: Evolution",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Thousands of Languages Developed": "As of the printing of this merit badge pamphlet, more than 2,500 programming languages have been developed (p. 18).",
@@ -546,7 +564,33 @@
       "socratic_questions": [
         "How did Grace Hopper's invention of compilers change who could write functional computer programs?",
         "Why was storing instructions in memory more flexible than manually rewiring patch cords on hardware?",
-        "What trade-offs emerged when software shifted from assembly language toward interpreted scripting languages?"
+        "What trade-offs emerged when software shifted from assembly language toward interpreted scripting languages?",
+        "What happens to software portability when a programmer switches from hardware-specific assembly code to a compiled language?",
+        "Under what condition does an interpreter execute source code differently than a compiler such as Grace Hopper's A-0 system?",
+        "Which physical indicator on a torn or mispunched Hollerith card caused early mainframe batch programs to halt or misread data?",
+        "Why did early scientific programmers adopt FORTRAN in 1957 instead of writing raw binary machine instructions by hand?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Computer programming began only after silicon microprocessors were invented in California research labs.",
+          "fact": "Ada Lovelace documented algorithmic process execution on paper long before electronic computers existed."
+        },
+        {
+          "misconception": "Ada Lovelace wrote the first computer program by testing her code directly on a running electronic computer in the 1840s.",
+          "fact": "Lovelace wrote her Bernoulli number algorithm in 1843 for Charles Babbage's mechanical Analytical Engine, which was never completed."
+        },
+        {
+          "misconception": "High-level languages like FORTRAN and COBOL run directly on the processor without being translated into machine code first.",
+          "fact": "Processors execute only binary machine instructions, so a compiler or interpreter must translate high-level code before it can run."
+        },
+        {
+          "misconception": "Grace Hopper invented the term debugging purely as a metaphor because early computer programs had no actual physical hardware bugs.",
+          "fact": "In 1947, operators taped an actual moth into the Harvard Mark II logbook after removing it from a relay that caused a malfunction."
+        },
+        {
+          "misconception": "Object-oriented programming was invented in the 1990s specifically to build interactive web pages with Java and JavaScript.",
+          "fact": "Object-oriented concepts originated in the 1960s with Simula 67 and matured in the 1970s with Smalltalk long before the World Wide Web."
+        }
       ]
     },
     {
@@ -592,9 +636,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)",
           "common_misconception_pair": {
             "misconception": "Software engineers always choose the single newest programming language for every commercial project.",
-            "fact": "Language selection depends on garbage collection latency, concurrency needs, and available hardware architecture.",
-            "myth": "Software engineers always choose the single newest programming language for every commercial project.",
-            "fact_correction": "Language selection depends on garbage collection latency, concurrency needs, and available hardware architecture."
+            "fact": "Language selection depends on garbage collection latency, concurrency needs, and available hardware architecture."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -660,9 +702,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)",
           "common_misconception_pair": {
             "misconception": "Simple household appliances like microwave ovens contain no software or internal computer chips.",
-            "fact": "Modern vehicle control modules process real time sensor data over shared controller area networks.",
-            "myth": "Simple household appliances like microwave ovens contain no software or internal computer chips.",
-            "fact_correction": "Modern vehicle control modules process real time sensor data over shared controller area networks."
+            "fact": "Modern vehicle control modules process real time sensor data over shared controller area networks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -749,9 +789,7 @@
       },
       "common_misconception_pair": {
         "misconception": "All modern electronic gadgets run identical general purpose operating systems like desktop computers.",
-        "fact": "Embedded microcontroller software runs under strict memory constraints without interactive operating system shells.",
-        "myth": "All modern electronic gadgets run identical general purpose operating systems like desktop computers.",
-        "fact_correction": "Embedded microcontroller software runs under strict memory constraints without interactive operating system shells."
+        "fact": "Embedded microcontroller software runs under strict memory constraints without interactive operating system shells."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -787,14 +825,14 @@
         "Step 4 - Embedded Operation Analysis: Describe sensor inputs and mechanical actuator responses governed by each device firmware."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 3",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Modern Languages and Everyday Devices"
+        "Official Programming merit badge pamphlet and workbook organizer for Req 3.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Modern Languages and Everyday Devices."
       ],
       "comparison_data": {
         "left_header": "Req 3a: Popular Languages And Industries",
-        "right_header": "Req 3b: Programmed Daily Embedded Devices",
+        "right_header": "Req 3b: Programmed Daily Embedded",
         "left_points": [
           "(3a) Popular Languages And Industries: Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems."
         ],
@@ -803,28 +841,28 @@
         ],
         "rows": [
           {
-            "attribute": "Industry Programming Language Survey",
-            "left": "(3a) Industry Programming Language Survey: The billions of mobile devices in use around the world all need to be programmed (p. 35).",
-            "right": "(3b) Everyday Programmed Devices: Learning how to program a mobile device could be a great career choice, and an awesome and fun skill (p. 35)."
+            "attribute": "Enterprise Language Domain",
+            "left": "(3a) Popular Languages And Industries: Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
+            "right": "(3b) Programmed Daily Embedded Devices: Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Mobile Coding Career Paths: Learning how to program a mobile device could be a great career choice, and an awesome and fun skill (p. 35).",
-            "right": "Step 2 - Study Youth-Created Applications: Many apps (applications) and programs are written by young people like you every day (p. 35)."
+            "attribute": "Data Analysis Standard",
+            "left": "Req 3a: Popular Languages: Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
+            "right": "Req 3b: Programmed Daily Embedded: Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Accessible Youth App Development: While it might seem difficult, it is not out of your reach (p. 35).",
-            "right": "Step 3 - Compare Mobile and Desktop: Most mobile applications are different from traditional programming (p. 35)."
+            "attribute": "System Programming Role",
+            "left": "Enterprise Language Domain: Java provides robust type safety across large distributed commercial banking architectures.",
+            "right": "Data Analysis Standard: Python dominates machine learning environments due to extensive mathematical scientific libraries."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 3 Exemplar Workbook Entry: Modern Languages and Everyday Devices",
+        "title": "Programming Req 3 Exemplar Workbook Entry: Modern",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Popular Languages And Industries": "Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
-          "Req 3b - Programmed Daily Embedded Devices": "Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components."
+          "Req 3a - Popular Languages": "Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
+          "Req 3b - Programmed Daily Embedded": "Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components."
         },
         "sample_output": "Modern Languages and Everyday Devices: The billions of mobile devices in use around the world all need to be programmed (p. 35).",
         "counselor_tip": "For Programming Requirement 3 (Modern Languages and Everyday Devices), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68))."
@@ -861,7 +899,33 @@
       "socratic_questions": [
         "Why would an engineer select C over Python when programming an automotive braking system?",
         "How does the firmware inside a modern microwave differ from software running on a smartphone?",
-        "What architectural traits make JavaScript dominant in browser rendering engines rather than embedded engines?"
+        "What architectural traits make JavaScript dominant in browser rendering engines rather than embedded engines?",
+        "Under what condition does an automotive engineer choose C or C++ over Python for an anti-lock braking microcontroller?",
+        "What happens to a web application's database when backend code runs raw user input instead of parameterized SQL queries?",
+        "Which physical indicator or sensor input triggers a smart thermostat's embedded firmware to cycle a home heating relay?",
+        "What measurement confirms whether an embedded device has enough RAM and flash memory to run a managed language runtime?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "All modern electronic gadgets run identical general purpose operating systems like desktop computers.",
+          "fact": "Embedded microcontroller software runs under strict memory constraints without interactive operating system shells."
+        },
+        {
+          "misconception": "Java and JavaScript are two versions of the same programming language designed by the same engineering team for web browsers.",
+          "fact": "Java is a statically typed language compiled to bytecode, while JavaScript is a dynamic scripting language created for web interactivity."
+        },
+        {
+          "misconception": "Everyday household appliances like microwave ovens and washing machines operate purely on analog timers without programmed code.",
+          "fact": "Modern appliances contain embedded microcontrollers running C or assembly firmware that read sensors, update displays, and time cycles."
+        },
+        {
+          "misconception": "Python is the fastest language for raw CPU number crunching because it dominates data science and machine learning workflows.",
+          "fact": "Pure Python is relatively slow, so libraries like NumPy and PyTorch delegate heavy matrix math to compiled C, C++, and CUDA kernels."
+        },
+        {
+          "misconception": "SQL is a general-purpose programming language used to build mobile user interfaces and 3D game physics engines from scratch.",
+          "fact": "SQL is a domain-specific query language built to define, retrieve, and update relational database records rather than render graphics."
+        }
       ]
     },
     {
@@ -907,9 +971,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
           "common_misconception_pair": {
             "misconception": "A registered trademark prevents other programmers from writing code that performs identical calculations.",
-            "fact": "Trade secret protection remains valid indefinitely provided the proprietary source information stays strictly confidential.",
-            "myth": "A registered trademark prevents other programmers from writing code that performs identical calculations.",
-            "fact_correction": "Trade secret protection remains valid indefinitely provided the proprietary source information stays strictly confidential."
+            "fact": "Trade secret protection remains valid indefinitely provided the proprietary source information stays strictly confidential."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -980,9 +1042,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
           "common_misconception_pair": {
             "misconception": "Downloading a retail software installer transfers complete copyright ownership to the personal computer owner.",
-            "fact": "Software licensing contracts define precise constraints regarding concurrent installations and commercial distribution rights.",
-            "myth": "Downloading a retail software installer transfers complete copyright ownership to the personal computer owner.",
-            "fact_correction": "Software licensing contracts define precise constraints regarding concurrent installations and commercial distribution rights."
+            "fact": "Software licensing contracts define precise constraints regarding concurrent installations and commercial distribution rights."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1057,9 +1117,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
           "common_misconception_pair": {
             "misconception": "Freeware programs provide open access to their original source code without legal restrictions.",
-            "fact": "Open source licenses require redistributing modified code or preserving original author copyright headers.",
-            "myth": "Freeware programs provide open access to their original source code without legal restrictions.",
-            "fact_correction": "Open source licenses require redistributing modified code or preserving original author copyright headers."
+            "fact": "Open source licenses require redistributing modified code or preserving original author copyright headers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1160,9 +1218,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Purchasing a software license gives the buyer total legal ownership of the underlying codebase.",
-        "fact": "Copyright automatically covers original written code upon creation, while patents protect novel functional processes.",
-        "myth": "Purchasing a software license gives the buyer total legal ownership of the underlying codebase.",
-        "fact_correction": "Copyright automatically covers original written code upon creation, while patents protect novel functional processes."
+        "fact": "Copyright automatically covers original written code upon creation, while patents protect novel functional processes."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1198,14 +1254,14 @@
         "Step 4 - Ethics Evaluation Review: Present reasons why developers must respect license notices and creator attribution terms."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 4",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Software Licensing and Intellectual Property"
+        "Official Programming merit badge pamphlet and workbook organizer for Req 4.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Software Licensing and Intellectual Property."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Intellectual Property Protection T",
-        "right_header": "Req 4b: Software Licensing Versus Ownershi",
+        "left_header": "Req 4a: Intellectual Property Protection",
+        "right_header": "Req 4b: Software Licensing Versus",
         "left_points": [
           "(4a) Intellectual Property Protection Types: Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering."
         ],
@@ -1214,29 +1270,29 @@
         ],
         "rows": [
           {
-            "attribute": "Four Intellectual Property Protections",
-            "left": "(4a) Four Intellectual Property Protections: Software developers do not sell DVDs or other storage media (p. 84).",
-            "right": "(4b) Software Licensing Versus Ownership: What they actually sell is permission touse the programs they have created (p. 84)."
+            "attribute": "Copyright Code Protection",
+            "left": "(4a) Intellectual Property Protection Types: Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering.",
+            "right": "(4b) Software Licensing Versus Ownership: Software licenses grant conditional rights to install and run programs without transferring underlying copyright ownership. Commercial users must adhere to seat limits, reverse engineering prohibitions, and redistribution terms specified by the developer."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Beyond Physical Storage Media: Software developers do not sell DVDs or other storage media (p. 84).",
-            "right": "(4c) Freeware, Open Source, and Commercial: Licensing is more like renting a bike than buying one (p. 84)."
+            "attribute": "Patent Functional Scope",
+            "left": "Req 4a: Intellectual Property: Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering.",
+            "right": "Req 4b: Software Licensing Versus: Software licenses grant conditional rights to install and run programs without transferring underlying copyright ownership. Commercial users must adhere to seat limits, reverse engineering prohibitions, and redistribution terms specified by the developer."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Selling Permission to Use: What they actually sell is permission touse the programs they have created (p. 84).",
-            "right": "Step 3 - Understand Full Ownership Rights: When you buy a bike, you own it outright and can do what you want (p. 84)."
+            "attribute": "License Permission Boundaries",
+            "left": "Req 4c: Software Distribution Models: Freeware permits zero cost execution while keeping source code closed, whereas open source licenses expose source code under defined reuse criteria. Commercial software requires financial purchase and enforces strict proprietary legal restrictions.",
+            "right": "Patent Functional Scope: Patents safeguard novel algorithmic processes rather than specific written line implementations."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 4 Exemplar Workbook Entry: Software Licensing and Intellectual Property",
+        "title": "Programming Req 4 Exemplar Workbook Entry: Software",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 4a - Intellectual Property Protection": "Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering.",
-          "Req 4b - Software Licensing Versus Ownersh": "Software licenses grant conditional rights to install and run programs without transferring underlying copyright ownership. Commercial users must adhere to seat limits, reverse engineering prohibitions, and redistribution terms specified by the developer.",
-          "Req 4c - Software Distribution Models Comp": "Freeware permits zero cost execution while keeping source code closed, whereas open source licenses expose source code under defined reuse criteria. Commercial software requires financial purchase and enforces strict proprietary legal restrictions."
+          "Req 4a - Intellectual Property": "Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering.",
+          "Req 4b - Software Licensing Versus": "Software licenses grant conditional rights to install and run programs without transferring underlying copyright ownership. Commercial users must adhere to seat limits, reverse engineering prohibitions, and redistribution terms specified by the developer.",
+          "Req 4c - Software Distribution Models": "Freeware permits zero cost execution while keeping source code closed, whereas open source licenses expose source code under defined reuse criteria. Commercial software requires financial purchase and enforces strict proprietary legal restrictions."
         },
         "sample_output": "Software Licensing and Intellectual Property: Software developers do not sell DVDs or other storage media (p. 84).",
         "counselor_tip": "For Programming Requirement 4 (Software Licensing and Intellectual Property), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85))."
@@ -1273,7 +1329,33 @@
       "socratic_questions": [
         "Why does purchasing a proprietary software license not grant permission to disassemble the binary file?",
         "How does a copyleft open source license differ legally from a permissive MIT software license?",
-        "What protection does a registered patent offer an algorithm inventor that simple copyright cannot?"
+        "What protection does a registered patent offer an algorithm inventor that simple copyright cannot?",
+        "What happens to your legal rights when you click agree on an End User License Agreement after paying for a software download?",
+        "Under what condition does a company lose trade secret protection over a proprietary search or compression algorithm?",
+        "Why is it dangerous to copy a function from a GPL open-source repository into a closed-source commercial app without checking?",
+        "Which legal protection covers a software product's brand name and logo rather than its underlying source code or invention?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Purchasing a software license gives the buyer total legal ownership of the underlying codebase.",
+          "fact": "Copyright automatically covers original written code upon creation, while patents protect novel functional processes."
+        },
+        {
+          "misconception": "Buying a commercial video game or desktop program makes you the legal owner of the software code with full rights to resell copies.",
+          "fact": "Retail software purchases grant a conditional license to use the program under EULA terms while the publisher retains ownership."
+        },
+        {
+          "misconception": "Freeware and open-source software mean the exact same thing because neither requires the user to pay money to download it.",
+          "fact": "Freeware is free of charge but usually keeps its source code closed, whereas open-source software grants rights to inspect and modify code."
+        },
+        {
+          "misconception": "Any source code posted publicly on GitHub without a license file is automatically in the public domain for anyone to reuse.",
+          "fact": "Copyright attaches automatically upon creation, so public repositories without a license reserve all rights to the original author."
+        },
+        {
+          "misconception": "Copyright law prevents another programmer from writing fresh original code that performs the exact same task as your program.",
+          "fact": "Copyright protects the specific expression of source code, while only a utility patent can restrict others from implementing the method."
+        }
       ]
     },
     {
@@ -1319,9 +1401,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
           "common_misconception_pair": {
             "misconception": "Visual block languages cannot implement real algorithmic logic or complex mathematical calculation loops.",
-            "fact": "Block based environments teach control flow semantics without exposing users to textual syntax punctuation errors.",
-            "myth": "Visual block languages cannot implement real algorithmic logic or complex mathematical calculation loops.",
-            "fact_correction": "Block based environments teach control flow semantics without exposing users to textual syntax punctuation errors."
+            "fact": "Block based environments teach control flow semantics without exposing users to textual syntax punctuation errors."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1393,9 +1473,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
           "common_misconception_pair": {
             "misconception": "Scripting languages run instantly because they bypass all internal syntax parsing checks completely.",
-            "fact": "Interpreted languages check type mismatches dynamically at runtime rather than during ahead of time compilation.",
-            "myth": "Scripting languages run instantly because they bypass all internal syntax parsing checks completely.",
-            "fact_correction": "Interpreted languages check type mismatches dynamically at runtime rather than during ahead of time compilation."
+            "fact": "Interpreted languages check type mismatches dynamically at runtime rather than during ahead of time compilation."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1467,9 +1545,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
           "common_misconception_pair": {
             "misconception": "Compiled programs always require identical memory footprints regardless of target CPU platform architectures.",
-            "fact": "Compiled languages detect variable type mismatches during build passes before any program execution starts.",
-            "myth": "Compiled programs always require identical memory footprints regardless of target CPU platform architectures.",
-            "fact_correction": "Compiled languages detect variable type mismatches during build passes before any program execution starts."
+            "fact": "Compiled languages detect variable type mismatches during build passes before any program execution starts."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1567,9 +1643,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Programming languages execute directly on computer silicon without requiring any translation or runtime engine.",
-        "fact": "Source code must be translated into binary machine instructions or interpreted line by line at runtime.",
-        "myth": "Programming languages execute directly on computer silicon without requiring any translation or runtime engine.",
-        "fact_correction": "Source code must be translated into binary machine instructions or interpreted line by line at runtime."
+        "fact": "Source code must be translated into binary machine instructions or interpreted line by line at runtime."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1602,17 +1676,17 @@
         "Step 1 - Environment Configuration: Install the editor compiler toolchain for your first chosen programming language.",
         "Step 2 - Algorithm Logic Implementation: Write source code incorporating user input, conditional branches, and iterative loops.",
         "Step 3 - Systematic Debugging Pass: Run the interactive debugger to isolate syntax errors and incorrect variable assignments.",
-        "Step 4 - Functional Demonstration Execution: Demonstrate program execution to your counselor while explaining underlying algorithmic decision structures."
+        "Step 4 - Functional Demonstration: Demonstrate program execution to your counselor while explaining underlying algorithmic decision structures."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 5",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Writing and Debugging Multi-Language Programs"
+        "Official Programming merit badge pamphlet and workbook organizer for Req 5.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Writing and Debugging Multi-Language Programs."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: First Language Program Implementat",
-        "right_header": "Req 5b: Second Language Program Implementa",
+        "left_header": "Req 5a: First Language Program",
+        "right_header": "Req 5b: Second Language Program",
         "left_points": [
           "(5a) First Language Program Implementation: Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior."
         ],
@@ -1621,29 +1695,29 @@
         ],
         "rows": [
           {
-            "attribute": "First Language Coding Project",
-            "left": "(5a) First Language Coding Project: The roots of modern programming stretch back to before the first computers (p. 14).",
-            "right": "(5b) Second Language Coding Project: Most programming languages have their origins in early efforts to automate machines like calculating machines (p. 14)."
+            "attribute": "Integrated Environment Role",
+            "left": "(5a) First Language Program Implementation: Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior.",
+            "right": "(5b) Second Language Program Implementation: Building the second program in an interpreted language introduces text based syntax formatting and dynamic variable typing. Scouts write modular functions and handle basic runtime error exceptions during testing."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Translating Human Code Instructions: A programming language is the tool that converts the programmer'sinstructions into a form the processor can understand (p. 14).",
-            "right": "(5c) Third Language Coding Project: A program is a set of instructions that tells a processor how to do aparticular task (p. 14)."
+            "attribute": "Variable Typing Rule",
+            "left": "Req 5a: First Language Program: Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior.",
+            "right": "Req 5b: Second Language Program: Building the second program in an interpreted language introduces text based syntax formatting and dynamic variable typing. Scouts write modular functions and handle basic runtime error exceptions during testing."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Pre-Computer Automation Roots: The roots of modern programming stretch back to before the first computers (p. 14).",
-            "right": "Step 3 - Recognize Native Binary Code: Before the development of modern programming languages, developers used binary code, which is the \"native language\" of a machine/computer (p. 14)."
+            "attribute": "Conditional Branching Logic",
+            "left": "Req 5c: Third Language Program: The third project in a statically compiled language emphasizes explicit memory usage, rigid type declarations, and linker mechanics. Scouts compile source files into executable binaries and validate program performance against requirements.",
+            "right": "Variable Typing Rule: Strict variable types prevent mathematical operations on mismatched textual data values."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 5 Exemplar Workbook Entry: Writing and Debugging Multi-Language Programs",
+        "title": "Programming Req 5 Exemplar Workbook Entry: Writing",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - First Language Program Implementa": "Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior.",
-          "Req 5b - Second Language Program Implement": "Building the second program in an interpreted language introduces text based syntax formatting and dynamic variable typing. Scouts write modular functions and handle basic runtime error exceptions during testing.",
-          "Req 5c - Third Language Program Implementa": "The third project in a statically compiled language emphasizes explicit memory usage, rigid type declarations, and linker mechanics. Scouts compile source files into executable binaries and validate program performance against requirements."
+          "Req 5a - First Language Program": "Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior.",
+          "Req 5b - Second Language Program": "Building the second program in an interpreted language introduces text based syntax formatting and dynamic variable typing. Scouts write modular functions and handle basic runtime error exceptions during testing.",
+          "Req 5c - Third Language Program": "The third project in a statically compiled language emphasizes explicit memory usage, rigid type declarations, and linker mechanics. Scouts compile source files into executable binaries and validate program performance against requirements."
         },
         "sample_output": "Writing and Debugging Multi-Language Programs: The roots of modern programming stretch back to before the first computers (p. 14).",
         "counselor_tip": "For Programming Requirement 5 (Writing and Debugging Multi-Language Programs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18))."
@@ -1680,7 +1754,33 @@
       "socratic_questions": [
         "How does an integrated development environment debugger help isolate variable assignment errors rapidly?",
         "Why is modular functional decomposition superior to writing one massive sequential script file?",
-        "What differences did you observe between how interpreted scripts and compiled programs report syntax mistakes?"
+        "What differences did you observe between how interpreted scripts and compiled programs report syntax mistakes?",
+        "What happens to a Python program when you pass a user string directly from the input function into an arithmetic calculation?",
+        "Where should a Scout place a debugger breakpoint when a loop outputs the wrong total only on the final iteration?",
+        "Under what condition does a program compile with zero syntax errors in your IDE yet still crash or print wrong results?",
+        "What test input confirms that your conditional logic handles boundary values, zero, and unexpected negative numbers safely?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Programming languages execute directly on computer silicon without requiring any translation or runtime engine.",
+          "fact": "Source code must be translated into binary machine instructions or interpreted line by line at runtime."
+        },
+        {
+          "misconception": "A program that compiles and runs without throwing an error message is guaranteed to produce accurate output for every user input.",
+          "fact": "Logic bugs and off-by-one errors compile cleanly, so you must test normal, boundary, and invalid inputs to verify correct behavior."
+        },
+        {
+          "misconception": "Changing five or six lines of code at once is the fastest way to isolate and fix a stubborn bug during a debugging session.",
+          "fact": "Editing multiple variables at once masks the true cause; change one thing at a time and re-run your test case to confirm the fix."
+        },
+        {
+          "misconception": "An Integrated Development Environment is the programming language itself rather than a tool suite for editing and running code.",
+          "fact": "An IDE is just a workspace combining a text editor, debugger, and build runner; the actual language is defined by its compiler or runtime."
+        },
+        {
+          "misconception": "Hardcoding the sample answer directly into a print statement satisfies the requirement to process user input and produce output.",
+          "fact": "A valid program must read live input into variables, apply conditional or mathematical logic, and compute the resulting output dynamically."
+        }
       ]
     },
     {
@@ -1744,9 +1844,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)",
           "common_misconception_pair": {
             "misconception": "Earning a technical degree guarantees immediate qualification for senior system architect management roles.",
-            "fact": "Enterprise engineering positions often require passing rigorous peer code reviews and architectural security screenings.",
-            "myth": "Earning a technical degree guarantees immediate qualification for senior system architect management roles.",
-            "fact_correction": "Enterprise engineering positions often require passing rigorous peer code reviews and architectural security screenings."
+            "fact": "Enterprise engineering positions often require passing rigorous peer code reviews and architectural security screenings."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1821,9 +1919,7 @@
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)",
           "common_misconception_pair": {
             "misconception": "Programming skills offer zero personal value unless utilized to earn full time corporate employment.",
-            "fact": "Contributing to non profit open source projects builds demonstrable technical portfolios for amateur developers.",
-            "myth": "Programming skills offer zero personal value unless utilized to earn full time corporate employment.",
-            "fact_correction": "Contributing to non profit open source projects builds demonstrable technical portfolios for amateur developers."
+            "fact": "Contributing to non profit open source projects builds demonstrable technical portfolios for amateur developers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1927,9 +2023,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A professional programmer spends entire workdays writing brand new code without reading documentation.",
-        "fact": "Software engineering roles require proficiency in continuous integration, unit testing, and team source control.",
-        "myth": "A professional programmer spends entire workdays writing brand new code without reading documentation.",
-        "fact_correction": "Software engineering roles require proficiency in continuous integration, unit testing, and team source control."
+        "fact": "Software engineering roles require proficiency in continuous integration, unit testing, and team source control."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1970,13 +2064,13 @@
         "Step 4 - Career Summary Documentation: Prepare a structured report detailing required technical skills and daily job responsibilities."
       ],
       "gear_checklist": [
-        "Official Programming merit badge pamphlet and workbook organizer for Req 6",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Programming Careers and Personal Hobbies"
+        "Official Programming merit badge pamphlet and workbook organizer for Req 6.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Programming Careers and Personal Hobbies."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Software Engineering Career Explor",
+        "left_header": "Req 6a: Software Engineering Career",
         "right_header": "Req 6b: Computing Hobbies And Lifestyle",
         "left_points": [
           "(6a) Software Engineering Career Exploration: Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards."
@@ -1986,28 +2080,28 @@
         ],
         "rows": [
           {
-            "attribute": "Software Career Path Research",
-            "left": "(6a) Software Career Path Research: And that means programmers are used everywhere, too (p. 78).",
-            "right": "(6b) Coding Hobbies and Lifestyles: Programming languages can be learned through online courses, guidebooks, and home study (p. 78)."
+            "attribute": "Degree Pathway Focus",
+            "left": "(6a) Software Engineering Career Exploration: Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards.",
+            "right": "(6b) Computing Hobbies And Lifestyle: Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Hands-On Debugging Experience: Writing code and working out the bugs on your own is astraightforward way of getting practical experience (p. 78).",
-            "right": "Step 2 - Identify Programmer Career Roles: And that means programmers are used everywhere, too (p. 78)."
+            "attribute": "Apprenticeship Value",
+            "left": "Req 6a: Software Engineering Career: Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards.",
+            "right": "Req 6b: Computing Hobbies: Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Programming Across Every Industry: As you can see from all the different languages and industries covered in this pamphlet, programming is used EVERYWHERE (p. 78).",
-            "right": "Step 3 - Evaluate Non-Tech Industry Demand: It would be hard to find an industry today that doesn't have some need for programmers (p. 78)."
+            "attribute": "Quality Assurance Duty",
+            "left": "Degree Pathway Focus: Computer science degree curricula prioritize discrete mathematics, data structures, and algorithmic complexity.",
+            "right": "Apprenticeship Value: Practical coding bootcamps and open source contributions provide alternative career entry points."
           }
         ]
       },
       "worked_example": {
-        "title": "Programming Req 6 Exemplar Workbook Entry: Programming Careers and Personal Hobbies",
+        "title": "Programming Req 6 Exemplar Workbook Entry: Programming",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 6a - Software Engineering Career Explo": "Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards.",
-          "Req 6b - Computing Hobbies And Lifestyle": "Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement."
+          "Req 6a - Software Engineering Career": "Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards.",
+          "Req 6b - Computing Hobbies": "Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement."
         },
         "sample_output": "Programming Careers and Personal Hobbies: And that means programmers are used everywhere, too (p. 78).",
         "counselor_tip": "For Programming Requirement 6 (Programming Careers and Personal Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92))."
@@ -2042,9 +2136,35 @@
       "workbook_visual_caption": "Floating digital interfaces illustrate modern computing careers.",
       "pamphlet_summary": "Career exploration in software engineering encompasses software architecture, quality assurance, cybersecurity analysis, and database administration. Maintaining coding as a personal hobby promotes problem solving skills through robotics clubs, game design, and civic hacking projects.",
       "socratic_questions": [
-        "How do day to day tasks of a cybersecurity analyst differ from a frontend web developer?",
+        "In what specific ways do day to day tasks of a cybersecurity analyst differ from a frontend web developer?",
         "Why are collaborative communication skills equally important as coding proficiency in commercial development teams?",
-        "Which local volunteer organizations or amateur clubs allow student programmers to apply technical skills?"
+        "Which local volunteer organizations or amateur clubs allow student programmers to apply technical skills?",
+        "What happens to a software team's release schedule when engineers only write code and skip code reviews and automated testing?",
+        "Which portfolio artifact demonstrates your real programming skill to a hiring manager better than listing languages on a resume?",
+        "Under what condition does an entry-level developer benefit more from contributing to an open-source project than taking a course?",
+        "What measurement confirms whether a computer science degree or a coding bootcamp offers a better return on tuition cost?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A professional programmer spends entire workdays writing brand new code without reading documentation.",
+          "fact": "Software engineering roles require proficiency in continuous integration, unit testing, and team source control."
+        },
+        {
+          "misconception": "Professional software engineers spend forty hours a week working alone in silence writing brand-new code from scratch.",
+          "fact": "Engineers spend much of their week reading existing code, debugging systems, writing design docs, and reviewing changes with teammates."
+        },
+        {
+          "misconception": "Memorizing every function in a language reference manual is required before you can qualify for an entry-level coding job.",
+          "fact": "Employers value problem-solving, version control habits, and debugging skills because developers look up API syntax details every day."
+        },
+        {
+          "misconception": "Career advancement in software engineering always requires giving up programming to become a full-time people manager.",
+          "fact": "Most technology companies offer parallel individual contributor tracks such as Staff and Principal Engineer focused on technical leadership."
+        },
+        {
+          "misconception": "Only full-time software company employees use programming skills, leaving little room for coding in outdoor or creative hobbies.",
+          "fact": "Hobbyists regularly write code for robotics competitions, amateur radio, home weather stations, music synthesis, and game modding."
+        }
       ]
     }
   ],

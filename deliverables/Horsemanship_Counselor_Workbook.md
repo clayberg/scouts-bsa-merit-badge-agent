@@ -1,8 +1,8 @@
 # Horsemanship Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Horsemanship.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/horsemanship/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/horsemanship/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -31,9 +31,9 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 7:** Demonstrate how to groom a horse, including picking hooves and caring for a horse after a ride.
-- [ ] **Station Req 9:** Do the following: (a) Name 10 parts of the saddle and bridle that you will use, and explain how to care for this equipment. (b) Show how to properly saddle and bridle a horse. (c) Demonstrate how to safely mount and dismount a horse.
-- [ ] **Station Req 10:** Explain and demonstrate how to approach and lead a horse safely from a stall, corral, or field and how to tie the horse securely.
+- [ ] **Station Req 7:** Scout must individually demonstrate mastery of Requirement 7 to the Merit Badge Counselor.
+- [ ] **Station Req 9:** Scout must individually demonstrate mastery of Requirement 9 to the Merit Badge Counselor.
+- [ ] **Station Req 10:** Scout must individually explain mastery of Requirement 10 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -194,10 +194,10 @@
 - **Pamphlet Fact:** Cooling down a hot horse with walking and cooling sponges prevents muscular cramping and colic.
 
 **Gear & Readiness Checklist:**
-- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear)
-- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet
-- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area
-- [ ] Inspected Horsemanship equipment sized to the Scout and pre-session safety check card
+- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear).
+- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet.
+- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area.
+- [ ] Inspected Horsemanship equipment sized to the Scout and pre-session safety check card.
 
 ![A hand wearing a red grooming mitt brushes dirt from the coat of a horse.](/assets/pamphlet_images/horsemanship_p038_img1.png)
 
@@ -330,10 +330,10 @@
 - **Pamphlet Fact:** Looking forward toward a distant horizon marker keeps the horse tracking straight and true.
 
 **Gear & Readiness Checklist:**
-- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear)
-- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet
-- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area
-- [ ] Inspected Horsemanship equipment sized to the Scout and pre-session safety check card
+- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear).
+- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet.
+- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area.
+- [ ] Inspected Horsemanship equipment sized to the Scout and pre-session safety check card.
 
 ![A rider demonstrates balanced upright posture while seated in the saddle.](/assets/pamphlet_images/horsemanship_p073_img1.png)
 

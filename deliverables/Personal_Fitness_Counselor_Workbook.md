@@ -429,10 +429,10 @@
 - **Pamphlet Fact:** Dynamic warm-up exercises increase intramuscular temperature, stimulate synovial fluid production, and prepare neural pathways.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Personal Fitness merit badge pamphlet and training log for Req 6
-- [ ] Supportive athletic footwear, breathable workout apparel, and water bottle
-- [ ] Stopwatch, measuring tape, and heart-rate or fitness tracking sheet
-- [ ] Recorded baseline and progress measurements for Designing Your Twelve Week Program
+- [ ] Official Personal Fitness merit badge pamphlet and training log for Req 6.
+- [ ] Supportive athletic footwear, breathable workout apparel, and water bottle.
+- [ ] Stopwatch, measuring tape, and heart-rate or fitness tracking sheet.
+- [ ] Recorded baseline and progress measurements for Designing Your Twelve Week Program.
 
 ![A boy demonstrates the cat stretch position on an exercise mat for flexibility.](/assets/pamphlet_images/personal_fitness_p071_img1.png)
 

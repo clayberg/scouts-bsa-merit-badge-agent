@@ -1,8 +1,8 @@
 # Mammal Study Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Mammal%20Study.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/mammal-study/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/mammal-study/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 

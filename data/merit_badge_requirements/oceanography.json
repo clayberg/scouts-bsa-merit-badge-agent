@@ -66,9 +66,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often view oceanography solely as the study of marine animals like fish.",
-        "fact": "Oceanography integrates geology, chemistry, physics, and biology to study marine basins and life.",
-        "myth": "Scouts often view oceanography solely as the study of marine animals like fish.",
-        "fact_correction": "Oceanography integrates geology, chemistry, physics, and biology to study marine basins and life."
+        "fact": "Oceanography integrates geology, chemistry, physics, and biology to study marine basins and life."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -105,38 +103,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Geological and Physical Ocean Studies",
-        "right_header": "Biological and Chemical Ocean Studies",
+        "left_header": "Req 1: Atmospheric Carbon Cycle Role",
+        "right_header": "Req 1: Track Four Year Cycles",
         "left_points": [
           "Atmospheric Carbon Cycle Role: The Oceans and the Atmosphere We still have a lot to learn about the role of oceans in the atmospheric carbon cycle (p. 32).",
           "Warm Pacific Current Flow: El Niño (ehl NEEN yoh) is a warm current in the Pacific Ocean that flows southward along South America'swest coast (p. 32).",
           "El Niño Return Cycle: It usually lasts nine to 12 months and returns on average every four years (p. 32)."
         ],
         "right_points": [
-          "Step 1 - Track Four Year Cycles: It usually lasts nine to 12 months and returns on average every four years (p. 32).",
-          "Step 2 - Assess Regional Weather Extremes: A powerful El Niño in 1982 and 1983 caused severe drought in Australia and Indonesia and an unusually large number of storms in California (p. 32).",
-          "Step 3 - Compare Historical Event Severity: More recent El Niño events in 2003 and 2006 were not as devastating (p. 32)."
+          "Track Four Year Cycles: It usually lasts nine to 12 months and returns on average every four years (p. 32).",
+          "Assess Regional Weather Extremes: A powerful El Niño in 1982 and 1983 caused severe drought in Australia and Indonesia and an unusually large number of storms in California (p. 32).",
+          "Compare Historical Event Severity: More recent El Niño events in 2003 and 2006 were not as devastating (p. 32)."
         ],
         "rows": [
           {
-            "attribute": "Atmospheric Carbon Cycle Role",
+            "attribute": "Subdiscipline Divisions",
             "left": "Atmospheric Carbon Cycle Role: The Oceans and the Atmosphere We still have a lot to learn about the role of oceans in the atmospheric carbon cycle (p. 32).",
-            "right": "Step 1 - Track Four Year Cycles: It usually lasts nine to 12 months and returns on average every four years (p. 32)."
+            "right": "Track Four Year Cycles: It usually lasts nine to 12 months and returns on average every four years (p. 32)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Atmospheric Regulation",
             "left": "Warm Pacific Current Flow: El Niño (ehl NEEN yoh) is a warm current in the Pacific Ocean that flows southward along South America'swest coast (p. 32).",
-            "right": "Step 2 - Assess Regional Weather Extremes: A powerful El Niño in 1982 and 1983 caused severe drought in Australia and Indonesia and an unusually large number of storms in California (p. 32)."
+            "right": "Assess Regional Weather Extremes: A powerful El Niño in 1982 and 1983 caused severe drought in Australia and Indonesia and an unusually large number of storms in California (p. 32)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Resource Provision",
             "left": "El Niño Return Cycle: It usually lasts nine to 12 months and returns on average every four years (p. 32).",
-            "right": "Step 3 - Compare Historical Event Severity: More recent El Niño events in 2003 and 2006 were not as devastating (p. 32)."
+            "right": "Compare Historical Event Severity: More recent El Niño events in 2003 and 2006 were not as devastating (p. 32)."
           }
         ]
       },
       "worked_example": {
-        "title": "Oceanography Req 1 Exemplar Workbook Entry: Branches and Importance of Oceanography",
+        "title": "Oceanography Req 1 Exemplar Workbook Entry: Branches",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Atmospheric Carbon Cycle Role": "The Oceans and the Atmosphere We still have a lot to learn about the role of oceans in the atmospheric carbon cycle (p. 32).",
@@ -148,7 +146,7 @@
         "counselor_tip": "For Oceanography Requirement 1 (Branches and Importance of Oceanography), verify the Scout's own observations and specific pamphlet details (Official Scouting America Oceanography Merit Badge Pamphlet (p. 32, p. 34))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do marine phytoplankton and the global ocean interact with Earth's atmosphere to support life and regulate climate?",
+        "scenario_prompt": "In what specific ways do marine phytoplankton and the global ocean interact with Earth's atmosphere to support life and regulate climate?",
         "question": "How do marine phytoplankton and the global ocean interact with Earth's atmosphere to support life and regulate climate?",
         "options": [
           "A. Deep-sea hydrothermal vents produce most atmospheric oxygen, while surface currents reflect all incoming solar heat back into space.",
@@ -177,9 +175,35 @@
       "workbook_visual_caption": "Illustrated panels show marine research vessels, deep-sea submersibles, coral reef surveys, and ocean water sampling.",
       "pamphlet_summary": "Oceanography synthesizes biological, chemical, geological, and physical disciplines to investigate planetary water basins. Understanding marine systems remains essential for weather prediction, food harvesting, natural resource stewardship, and international commerce.",
       "socratic_questions": [
-        "How do physical ocean currents influence regional weather patterns and human agriculture on adjacent continents?",
+        "In what specific ways do physical ocean currents influence regional weather patterns and human agriculture on adjacent continents?",
         "In what ways does geological seafloor spreading affect the chemical composition of deep ocean water?",
-        "Why must modern marine scientists synthesize multiple scientific disciplines rather than working within one isolated field?"
+        "Why must modern marine scientists synthesize multiple scientific disciplines rather than working within one isolated field?",
+        "Which oceanographic branch investigates hydrothermal vent mineral deposits on the deep seafloor?",
+        "What happens to global atmospheric oxygen levels if marine phytoplankton populations collapse?",
+        "Which physical indicator separates a chemical oceanographer's water log from a physical wave study?",
+        "Why is it dangerous to plan coastal shipping routes without consulting physical oceanography data?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often view oceanography solely as the study of marine animals like fish.",
+          "fact": "Oceanography integrates geology, chemistry, physics, and biology to study marine basins and life."
+        },
+        {
+          "misconception": "Terrestrial rainforests generate the vast majority of the breathable oxygen in Earth's atmosphere.",
+          "fact": "Marine photosynthesizers like phytoplankton and kelp produce over half of the world's atmospheric oxygen."
+        },
+        {
+          "misconception": "Geological oceanography only studies coastal beach sand erosion and shallow continental rocks.",
+          "fact": "Geological oceanographers map deep-sea trenches, plate tectonics, submarine volcanoes, and abyssal sediment cores."
+        },
+        {
+          "misconception": "Biological and chemical oceanographers work independently because marine life does not alter water chemistry.",
+          "fact": "Marine organisms directly drive ocean chemistry by consuming dissolved carbon dioxide, oxygen, and silica."
+        },
+        {
+          "misconception": "Inland agricultural communities are unaffected by changes in global ocean surface temperatures.",
+          "fact": "Ocean temperature anomalies drive continental rainfall patterns, droughts, and severe inland weather systems."
+        }
       ]
     },
     {
@@ -252,9 +276,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think seawater salinity remains completely uniform across all depths and latitudes.",
-        "fact": "A CTD rosette electronically records conductivity, temperature, and depth throughout the entire water column.",
-        "myth": "Scouts often think seawater salinity remains completely uniform across all depths and latitudes.",
-        "fact_correction": "A CTD rosette electronically records conductivity, temperature, and depth throughout the entire water column."
+        "fact": "A CTD rosette electronically records conductivity, temperature, and depth throughout the entire water column."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -291,38 +313,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Wind Driven Surface Ocean Currents",
-        "right_header": "Density Driven Deep Water Currents",
+        "left_header": "Req 2: Global Wind Circulation Systems",
+        "right_header": "Req 2: Observe Temperate Westerly Winds",
         "left_points": [
           "Global Wind Circulation Systems: The Oceans and the Atmosphere Great wind circulation systems form (p. 32).",
           "Equatorial East Trade Winds: Close to the equator, trade winds blow from the east (p. 32).",
           "Temperate Zone Westerly Winds: In the temperate zone, steady winds called westerlies blow from the west (p. 32)."
         ],
         "right_points": [
-          "Step 1 - Observe Temperate Westerly Winds: In the temperate zone, steady winds called westerlies blow from the west (p. 32).",
-          "Step 2 - Map Wind Driven Currents: Winds blowing across the ocean's surface create currents (p. 32).",
-          "Step 3 - Trace Circular Basin Gyres: When the trade winds and westerlies blow across the oceans, they cause the currents in each ocean basin to move in acircular pattern (p. 32)."
+          "Observe Temperate Westerly Winds: In the temperate zone, steady winds called westerlies blow from the west (p. 32).",
+          "Map Wind Driven Currents: Winds blowing across the ocean's surface create currents (p. 32).",
+          "Trace Circular Basin Gyres: When the trade winds and westerlies blow across the oceans, they cause the currents in each ocean basin to move in acircular pattern (p. 32)."
         ],
         "rows": [
           {
-            "attribute": "Global Wind Circulation Systems",
+            "attribute": "Salinity Measurement",
             "left": "Global Wind Circulation Systems: The Oceans and the Atmosphere Great wind circulation systems form (p. 32).",
-            "right": "Step 1 - Observe Temperate Westerly Winds: In the temperate zone, steady winds called westerlies blow from the west (p. 32)."
+            "right": "Observe Temperate Westerly Winds: In the temperate zone, steady winds called westerlies blow from the west (p. 32)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Thermal Profiles",
             "left": "Equatorial East Trade Winds: Close to the equator, trade winds blow from the east (p. 32).",
-            "right": "Step 2 - Map Wind Driven Currents: Winds blowing across the ocean's surface create currents (p. 32)."
+            "right": "Map Wind Driven Currents: Winds blowing across the ocean's surface create currents (p. 32)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Density Gradients",
             "left": "Temperate Zone Westerly Winds: In the temperate zone, steady winds called westerlies blow from the west (p. 32).",
-            "right": "Step 3 - Trace Circular Basin Gyres: When the trade winds and westerlies blow across the oceans, they cause the currents in each ocean basin to move in acircular pattern (p. 32)."
+            "right": "Trace Circular Basin Gyres: When the trade winds and westerlies blow across the oceans, they cause the currents in each ocean basin to move in acircular pattern (p. 32)."
           }
         ]
       },
       "worked_example": {
-        "title": "Oceanography Req 2 Exemplar Workbook Entry: Seawater Properties and Ocean Currents",
+        "title": "Oceanography Req 2 Exemplar Workbook Entry: Seawater",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Global Wind Circulation Systems": "The Oceans and the Atmosphere Great wind circulation systems form (p. 32).",
@@ -334,7 +356,7 @@
         "counselor_tip": "For Oceanography Requirement 2 (Seawater Properties and Ocean Currents), verify the Scout's own observations and specific pamphlet details (Official Scouting America Oceanography Merit Badge Pamphlet (p. 32, p. 34))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do the trade winds and westerlies work together to shape surface circulation in each ocean basin?",
+        "scenario_prompt": "In what specific ways do the trade winds and westerlies work together to shape surface circulation in each ocean basin?",
         "question": "How do the trade winds and westerlies work together to shape surface circulation in each ocean basin?",
         "options": [
           "A. They cancel each other out so that mid-ocean waters remain completely still",
@@ -364,8 +386,34 @@
       "pamphlet_summary": "Seawater density depends directly on temperature and salinity, creating stratified layers throughout the global ocean. Marine scientists deploy conductivity, temperature, and depth instruments to map thermohaline circulation systems driving global climate.",
       "socratic_questions": [
         "Why does dense polar water sink to the seafloor rather than staying at the surface?",
-        "How do changes in ocean temperature influence the speed and direction of surface currents?",
-        "What prevents deep ocean water from immediately mixing with warmer surface layers above it?"
+        "In what specific ways do changes in ocean temperature influence the speed and direction of surface currents?",
+        "What prevents deep ocean water from immediately mixing with warmer surface layers above it?",
+        "What happens to seawater density when polar sea ice freezes and leaves dissolved salt behind?",
+        "Which instrument on a CTD rosette measures salinity by passing an electric current through water?",
+        "Under what condition does warm Gulf Stream water sink to drive deep thermohaline circulation?",
+        "Why must an oceanographer rinse conductivity sensors with fresh water immediately after hauling gear?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think seawater salinity remains completely uniform across all depths and latitudes.",
+          "fact": "A CTD rosette electronically records conductivity, temperature, and depth throughout the entire water column."
+        },
+        {
+          "misconception": "Modern oceanographers measure salinity primarily by evaporating seawater and weighing the dry salt.",
+          "fact": "Oceanographers measure salinity in situ using electrical conductivity sensors on CTD profilers or refractometers."
+        },
+        {
+          "misconception": "Deep ocean currents move solely because surface winds push water all the way to the abyssal floor.",
+          "fact": "Surface winds drive only the upper few hundred meters, while density differences from temperature and salinity drive deep currents."
+        },
+        {
+          "misconception": "The Coriolis effect pulls surface ocean currents straight left in the Northern Hemisphere.",
+          "fact": "Earth's rotation deflects moving surface water to the right in the Northern Hemisphere and to the left in the Southern Hemisphere."
+        },
+        {
+          "misconception": "Freshwater and saltwater freeze at the exact same zero-degree Celsius temperature point.",
+          "fact": "Dissolved salts lower the freezing point of typical seawater to approximately minus 1.8 degrees Celsius."
+        }
       ]
     },
     {
@@ -415,9 +463,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)",
           "common_misconception_pair": {
             "misconception": "Scouts frequently assume that tidal waves are simply unusually large storm surges.",
-            "fact": "A storm surge is driven by low pressure and wind, while tsunamis stem from seismic displacement.",
-            "myth": "Scouts frequently assume that tidal waves are simply unusually large storm surges.",
-            "fact_correction": "A storm surge is driven by low pressure and wind, while tsunamis stem from seismic displacement."
+            "fact": "A storm surge is driven by low pressure and wind, while tsunamis stem from seismic displacement."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -497,9 +543,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)",
           "common_misconception_pair": {
             "misconception": "Scouts often confuse local choppy wind waves with distant oceanic swells.",
-            "fact": "Swell represents wind waves that have traveled out of their generating area and organized into regular patterns.",
-            "myth": "Scouts often confuse local choppy wind waves with distant oceanic swells.",
-            "fact_correction": "Swell represents wind waves that have traveled out of their generating area and organized into regular patterns."
+            "fact": "Swell represents wind waves that have traveled out of their generating area and organized into regular patterns."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -570,9 +614,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)",
           "common_misconception_pair": {
             "misconception": "Scouts think waves break because surface winds push the crest forward faster than normal.",
-            "fact": "A breaker forms when water depth decreases to approximately 1.3 times the wave height.",
-            "myth": "Scouts think waves break because surface winds push the crest forward faster than normal.",
-            "fact_correction": "A breaker forms when water depth decreases to approximately 1.3 times the wave height."
+            "fact": "A breaker forms when water depth decreases to approximately 1.3 times the wave height."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -647,9 +689,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)",
           "common_misconception_pair": {
             "misconception": "Scouts frequently believe rip currents act as undertows that drag swimmers beneath the surface.",
-            "fact": "Rip currents flow horizontally away from shore through gaps in sandbars and do not pull swimmers under.",
-            "myth": "Scouts frequently believe rip currents act as undertows that drag swimmers beneath the surface.",
-            "fact_correction": "Rip currents flow horizontally away from shore through gaps in sandbars and do not pull swimmers under."
+            "fact": "Rip currents flow horizontally away from shore through gaps in sandbars and do not pull swimmers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -769,9 +809,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe tidal waves and tsunamis refer to the exact same physical phenomenon.",
-        "fact": "Tsunamis are seismic sea waves caused by seafloor earthquakes, whereas tidal bores arise from gravitational tides.",
-        "myth": "Scouts often believe tidal waves and tsunamis refer to the exact same physical phenomenon.",
-        "fact_correction": "Tsunamis are seismic sea waves caused by seafloor earthquakes, whereas tidal bores arise from gravitational tides."
+        "fact": "Tsunamis are seismic sea waves caused by seafloor earthquakes, whereas tidal bores arise from gravitational tides."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -808,8 +846,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Distinctions Among Extreme Marine",
-        "right_header": "Req 3c: Formation Mechanics of Breaking Wa",
+        "left_header": "Req 3a: Distinctions Among Extreme",
+        "right_header": "Req 3c: Formation Mechanics of Breaking",
         "left_points": [
           "(3a) Distinctions Among Extreme Marine Waves: Storm surges result from coastal wind pileup and low atmospheric pressure, whereas tsunamis stem from sudden seafloor seismic displacement. True tidal waves and bores arise exclusively from astronomical gravitational pulls funneled into narrow estuaries.",
           "(3b) Sea Swell and Surf Distinctions: Sea describes chaotic, steep waves driven by local winds directly within an active storm fetch. Swells represent mature, rounded wave trains that have traveled far beyond their storm origin into coastal surf zones."
@@ -820,30 +858,30 @@
         ],
         "rows": [
           {
-            "attribute": "Storm Surge Tsunami Tidal Wave and Tidal",
-            "left": "(3a) Storm Surge Tsunami Tidal Wave and Tidal: Only ammonia has a greater capacity to hold heat than water (p. 18).",
-            "right": "(3c) How Ocean Breakers Form: Over time, ocean waves can dissolve even massive ocean cliffs (p. 18)."
+            "attribute": "Wave Anatomy",
+            "left": "(3a) Distinctions Among Extreme Marine Waves: Storm surges result from coastal wind pileup and low atmospheric pressure, whereas tsunamis stem from sudden seafloor seismic displacement. True tidal waves and bores arise exclusively from astronomical gravitational pulls funneled into narrow estuaries.",
+            "right": "(3c) Formation Mechanics of Breaking Waves: Breakers form when water depth decreases to roughly one point three times the incoming wave height, causing bottom friction. This drag slows the wave base while the crest continues forward, steepening until it curls and collapses."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(3b) Sea, Swell, and Coastal Surf: Surface molecules cling together so tightly that water can support objects heavier than itself (p. 18).",
-            "right": "(3d) Rip Current Is How to Avoid Them: Water also dissolves nutrients on land that eventually find their way to rivers and into the sea (p. 18)."
+            "attribute": "Seismic Displacements",
+            "left": "(3b) Sea Swell and Surf Distinctions: Sea describes chaotic, steep waves driven by local winds directly within an active storm fetch. Swells represent mature, rounded wave trains that have traveled far beyond their storm origin into coastal surf zones.",
+            "right": "(3d) Rip Current Dynamics and Safety: Rip currents are narrow, powerful channels of water moving rapidly away from the shore through breaches in offshore sandbars. Swimmers must remain calm and swim parallel to the coastline to escape the seaward flow before heading ashore."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Coastal Cliff Wave Erosion: Over time, ocean waves can dissolve even massive ocean cliffs (p. 18).",
-            "right": "Step 3 - Examine Cellular Nutrient Transport: Inside an animal's body, water also helps dissolve food and carry it to the animal's cells (p. 18)."
+            "attribute": "Swell Development",
+            "left": "Req 3a: Distinctions Among Extreme: Storm surges result from coastal wind pileup and low atmospheric pressure, whereas tsunamis stem from sudden seafloor seismic displacement. True tidal waves and bores arise exclusively from astronomical gravitational pulls funneled into narrow estuaries.",
+            "right": "Req 3b: Sea Swell and Surf: Sea describes chaotic, steep waves driven by local winds directly within an active storm fetch. Swells represent mature, rounded wave trains that have traveled far beyond their storm origin into coastal surf zones."
           }
         ]
       },
       "worked_example": {
-        "title": "Oceanography Req 3 Exemplar Workbook Entry: Ocean Waves and Rip Currents",
+        "title": "Oceanography Req 3 Exemplar Workbook Entry: Ocean Waves",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 3a - Distinctions Among Extreme Marine": "Storm surges result from coastal wind pileup and low atmospheric pressure, whereas tsunamis stem from sudden seafloor seismic displacement. True tidal waves and bores arise exclusively from astronomical gravitational pulls funneled into narrow estuaries.",
-          "Req 3b - Sea Swell and Surf Distinctions": "Sea describes chaotic, steep waves driven by local winds directly within an active storm fetch. Swells represent mature, rounded wave trains that have traveled far beyond their storm origin into coastal surf zones.",
-          "Req 3c - Formation Mechanics of Breaking W": "Breakers form when water depth decreases to roughly one point three times the incoming wave height, causing bottom friction. This drag slows the wave base while the crest continues forward, steepening until it curls and collapses.",
-          "Req 3d - Rip Current Dynamics and Safety": "Rip currents are narrow, powerful channels of water moving rapidly away from the shore through breaches in offshore sandbars. Swimmers must remain calm and swim parallel to the coastline to escape the seaward flow before heading ashore."
+          "Req 3a - Distinctions Among Extreme": "Storm surges result from coastal wind pileup and low atmospheric pressure, whereas tsunamis stem from sudden seafloor seismic displacement. True tidal waves and bores arise exclusively from astronomical gravitational pulls funneled into narrow estuaries.",
+          "Req 3b - Sea Swell and Surf": "Sea describes chaotic, steep waves driven by local winds directly within an active storm fetch. Swells represent mature, rounded wave trains that have traveled far beyond their storm origin into coastal surf zones.",
+          "Req 3c - Formation Mechanics": "Breakers form when water depth decreases to roughly one point three times the incoming wave height, causing bottom friction. This drag slows the wave base while the crest continues forward, steepening until it curls and collapses.",
+          "Req 3d - Rip Current Dynamics": "Rip currents are narrow, powerful channels of water moving rapidly away from the shore through breaches in offshore sandbars. Swimmers must remain calm and swim parallel to the coastline to escape the seaward flow before heading ashore."
         },
         "sample_output": "Ocean Waves and Rip Currents: Only ammonia has a greater capacity to hold heat than water (p. 18).",
         "counselor_tip": "For Oceanography Requirement 3 (Ocean Waves and Rip Currents), verify the Scout's own observations and specific pamphlet details (Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27))."
@@ -880,7 +918,33 @@
       "socratic_questions": [
         "Why does wave height increase dramatically when deep ocean swells reach shallow coastal sandbars?",
         "How can an observer on the beach distinguish between incoming swell and local wind chop?",
-        "What natural underwater topography causes rip currents to form along predictable sections of coastline?"
+        "What natural underwater topography causes rip currents to form along predictable sections of coastline?",
+        "What happens to a wave's speed and height when its orbital base touches the shallowing seafloor?",
+        "Which physical indicator on the beach warns a swimmer that a narrow rip current is flowing seaward?",
+        "Where should a swimmer direct their stroke to escape a strong rip current without exhausting energy?",
+        "What distinguishes a seismic tsunami from a gravitational tidal bore moving up a narrow estuary?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often believe tidal waves and tsunamis refer to the exact same physical phenomenon.",
+          "fact": "Tsunamis are seismic sea waves caused by seafloor earthquakes, whereas tidal bores arise from gravitational tides."
+        },
+        {
+          "misconception": "Tsunamis and tidal waves are identical phenomena caused by the gravitational pull of the moon.",
+          "fact": "Tsunamis are seismic sea waves triggered by underwater earthquakes or landslides, whereas true tidal waves follow astronomical tides."
+        },
+        {
+          "misconception": "Rip currents pull swimmers underwater and hold them down on the sandy ocean bottom.",
+          "fact": "Rip currents do not pull swimmers underwater; they carry surface water offshore through a narrow channel in the sandbar."
+        },
+        {
+          "misconception": "Swimmers caught in a rip current should sprint straight back toward the beach against the flow.",
+          "fact": "Swimmers must swim parallel to the shoreline until free of the narrow outward channel, then angle back to the beach."
+        },
+        {
+          "misconception": "Open-ocean swell waves carry individual water molecules thousands of miles across the basin.",
+          "fact": "Wave energy travels across the ocean basin while individual water particles move in localized circular orbits."
+        }
       ]
     },
     {
@@ -921,9 +985,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)",
           "common_misconception_pair": {
             "misconception": "Scouts often think the sea drops off into abyssal darkness immediately at the coastline.",
-            "fact": "The continental shelf is a gently sloping submerged edge of a continent with average water depths around 400 feet.",
-            "myth": "Scouts often think the sea drops off into abyssal darkness immediately at the coastline.",
-            "fact_correction": "The continental shelf is a gently sloping submerged edge of a continent with average water depths around 400 feet."
+            "fact": "The continental shelf is a gently sloping submerged edge of a continent with average water depths around 400 feet."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -989,9 +1051,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)",
           "common_misconception_pair": {
             "misconception": "Scouts often believe the slope is a vertical cliff dropping straight down thousands of feet.",
-            "fact": "The continental slope has an average inclination of four degrees and marks the true structural boundary of continents.",
-            "myth": "Scouts often believe the slope is a vertical cliff dropping straight down thousands of feet.",
-            "fact_correction": "The continental slope has an average inclination of four degrees and marks the true structural boundary of continents."
+            "fact": "The continental slope has an average inclination of four degrees and marks the true structural boundary of continents."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1057,9 +1117,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)",
           "common_misconception_pair": {
             "misconception": "Scouts assume abyssal plains are completely barren of sediment due to high water pressures.",
-            "fact": "Abyssal plains are among the flattest surfaces on Earth because thick sediments blanket volcanic seafloor irregularities.",
-            "myth": "Scouts assume abyssal plains are completely barren of sediment due to high water pressures.",
-            "fact_correction": "Abyssal plains are among the flattest surfaces on Earth because thick sediments blanket volcanic seafloor irregularities."
+            "fact": "Abyssal plains are among the flattest surfaces on Earth because thick sediments blanket volcanic seafloor irregularities."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1152,9 +1210,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe the ocean floor is a flat, featureless sandy expanse stretching between continents.",
-        "fact": "The Mariana Trench plunges nearly 36000 feet deep, far exceeding Mount Everest height of 29029 feet.",
-        "myth": "Scouts often believe the ocean floor is a flat, featureless sandy expanse stretching between continents.",
-        "fact_correction": "The Mariana Trench plunges nearly 36000 feet deep, far exceeding Mount Everest height of 29029 feet."
+        "fact": "The Mariana Trench plunges nearly 36000 feet deep, far exceeding Mount Everest height of 29029 feet."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1191,8 +1247,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Continental Shelf Structural Featu",
-        "right_header": "Req 4b: Continental Slope Topographic Prof",
+        "left_header": "Req 4a: Continental Shelf Structural",
+        "right_header": "Req 4b: Continental Slope Topographic",
         "left_points": [
           "(4a) Continental Shelf Structural Features: The continental shelf forms a gently sloping submerged extension of the continental landmass extending seaward to an average depth of one hundred thirty meters. It supports abundant fisheries and high biological productivity due to sunlight penetration and nutrient runoff."
         ],
@@ -1201,29 +1257,29 @@
         ],
         "rows": [
           {
-            "attribute": "Shallow Continental Shelf Zone",
-            "left": "(4a) Shallow Continental Shelf Zone: Their cone-shaped peaks remain submerged unless the water level drops (p. 14).",
-            "right": "(4b) Steep Continental Slope Drop: During the last Ice Age, much of the ocean's water froze to form vast glaciers, and the ocean's level fell much lower than what it is today (p. 14)."
+            "attribute": "Continental Margins",
+            "left": "(4a) Continental Shelf Structural Features: The continental shelf forms a gently sloping submerged extension of the continental landmass extending seaward to an average depth of one hundred thirty meters. It supports abundant fisheries and high biological productivity due to sunlight penetration and nutrient runoff.",
+            "right": "(4b) Continental Slope Topographic Profile: The continental slope marks the true transition boundary between thick continental granite crust and thin oceanic basalt bedrock. Submarine canyons frequently dissect this steep incline, transporting coastal sediment into deep oceanic basins via turbidity currents."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Submerged Cone Shaped Summits: Their cone-shaped peaks remain submerged unless the water level drops (p. 14).",
-            "right": "(4c) Deep Flat Abyssal Plain: Wave action eroded and flattened the tops of exposed seamount peaks and resulted in what are called guyots (p. 14)."
+            "attribute": "Spreading Ridges",
+            "left": "Req 4a: Continental Shelf Structural: The continental shelf forms a gently sloping submerged extension of the continental landmass extending seaward to an average depth of one hundred thirty meters. It supports abundant fisheries and high biological productivity due to sunlight penetration and nutrient runoff.",
+            "right": "Req 4b: Continental Slope: The continental slope marks the true transition boundary between thick continental granite crust and thin oceanic basalt bedrock. Submarine canyons frequently dissect this steep incline, transporting coastal sediment into deep oceanic basins via turbidity currents."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Ice Age Sea Level Drop: During the last Ice Age, much of the ocean's water froze to form vast glaciers, and the ocean's level fell much lower than what it is today (p. 14).",
-            "right": "Step 3 - Illustrate Submerged Guyot Depth: When the glaciers melted, the ocean levels rose and covered up those guyots (p. 14)."
+            "attribute": "Subduction Trenches",
+            "left": "Req 4c: Abyssal Plain: Abyssal plains are vast, remarkably level plains on the deep ocean floor lying between four and six thousand meters depth. Thick layers of marine sediment blanket underlying volcanic bedrock, creating some of the flattest terrain on Earth.",
+            "right": "Spreading Ridges: Mid oceanic mountain ridges form where tectonic plates separate and create new oceanic crust."
           }
         ]
       },
       "worked_example": {
-        "title": "Oceanography Req 4 Exemplar Workbook Entry: Underwater Topography and Seafloor Features",
+        "title": "Oceanography Req 4 Exemplar Workbook Entry: Underwater",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 4a - Continental Shelf Structural Feat": "The continental shelf forms a gently sloping submerged extension of the continental landmass extending seaward to an average depth of one hundred thirty meters. It supports abundant fisheries and high biological productivity due to sunlight penetration and nutrient runoff.",
-          "Req 4b - Continental Slope Topographic Pro": "The continental slope marks the true transition boundary between thick continental granite crust and thin oceanic basalt bedrock. Submarine canyons frequently dissect this steep incline, transporting coastal sediment into deep oceanic basins via turbidity currents.",
-          "Req 4c - Abyssal Plain Geomorphological Pl": "Abyssal plains are vast, remarkably level plains on the deep ocean floor lying between four and six thousand meters depth. Thick layers of marine sediment blanket underlying volcanic bedrock, creating some of the flattest terrain on Earth."
+          "Req 4a - Continental Shelf Structural": "The continental shelf forms a gently sloping submerged extension of the continental landmass extending seaward to an average depth of one hundred thirty meters. It supports abundant fisheries and high biological productivity due to sunlight penetration and nutrient runoff.",
+          "Req 4b - Continental Slope Topographic": "The continental slope marks the true transition boundary between thick continental granite crust and thin oceanic basalt bedrock. Submarine canyons frequently dissect this steep incline, transporting coastal sediment into deep oceanic basins via turbidity currents.",
+          "Req 4c - Abyssal Plain": "Abyssal plains are vast, remarkably level plains on the deep ocean floor lying between four and six thousand meters depth. Thick layers of marine sediment blanket underlying volcanic bedrock, creating some of the flattest terrain on Earth."
         },
         "sample_output": "Underwater Topography and Seafloor Features: Their cone-shaped peaks remain submerged unless the water level drops (p. 14).",
         "counselor_tip": "For Oceanography Requirement 4 (Underwater Topography and Seafloor Features), verify the Scout's own observations and specific pamphlet details (Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15))."
@@ -1259,8 +1315,34 @@
       "pamphlet_summary": "Underwater bathymetry features dramatic topography including expansive abyssal plains, volcanic seamounts, mid ocean ridges, and profound trenches. Oceanic trenches reach depths that significantly exceed the terrestrial elevation of Earth highest mountain ranges above sea level.",
       "socratic_questions": [
         "What plate tectonic mechanisms create mid ocean ridges compared to deep subduction trenches?",
-        "How do turbidity currents carve submarine canyons across the continental shelf and slope?",
-        "Why does sediment accumulate much more thickly on abyssal plains than on mid ocean ridges?"
+        "In what specific ways do turbidity currents carve submarine canyons across the continental shelf and slope?",
+        "Why does sediment accumulate much more thickly on abyssal plains than on mid ocean ridges?",
+        "What geological process flattens a volcanic seamount into a table-topped guyot before it subsides?",
+        "Where should a Scout position a rift valley on a bathymetric cross-section of a mid-oceanic ridge?",
+        "What depth measurement compares the Mariana Trench against the summit elevation of Mount Everest?",
+        "Which feature marks the steep transition between the shallow continental shelf and the abyssal plain?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often believe the ocean floor is a flat, featureless sandy expanse stretching between continents.",
+          "fact": "The Mariana Trench plunges nearly 36000 feet deep, far exceeding Mount Everest height of 29029 feet."
+        },
+        {
+          "misconception": "The deepest ocean trenches always lie in the exact geographic center of an ocean basin.",
+          "fact": "Deep ocean trenches form near continental margins or island arcs where one tectonic plate subducts beneath another."
+        },
+        {
+          "misconception": "Seamounts and guyots are identical conical peaks that have never reached the ocean surface.",
+          "fact": "Seamounts have pointed peaks, whereas guyots are ancient volcanic islands eroded flat by surface waves before sinking."
+        },
+        {
+          "misconception": "Mount Everest is taller above sea level than the Mariana Trench is deep below sea level.",
+          "fact": "Challenger Deep in the Mariana Trench reaches nearly 11,000 meters down, exceeding Mount Everest's 8,849-meter height."
+        },
+        {
+          "misconception": "Submarine canyons cut mainly across the flat middle of the deep abyssal plain.",
+          "fact": "Submarine canyons carve steeply into the continental shelf and continental slope, often carved by turbidity currents."
+        }
       ]
     },
     {
@@ -1325,9 +1407,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think seawater salinity fluctuates wildly in ionic chemical proportions in the open sea.",
-        "fact": "Six ions, primarily chloride and sodium, comprise over ninety-nine percent of all dissolved salts in open seawater.",
-        "myth": "Scouts often think seawater salinity fluctuates wildly in ionic chemical proportions in the open sea.",
-        "fact_correction": "Six ions, primarily chloride and sodium, comprise over ninety-nine percent of all dissolved salts in open seawater."
+        "fact": "Six ions, primarily chloride and sodium, comprise over ninety-nine percent of all dissolved salts in open seawater."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1364,38 +1444,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "High Evaporation Increases Local Salinity",
-        "right_header": "Heavy Precipitation Dilutes Surface Salinity",
+        "left_header": "Req 5: Atmospheric Wind Circulation",
+        "right_header": "Req 5: Identify Temperate Wind Belts",
         "left_points": [
           "Atmospheric Wind Circulation Patterns: The Oceans and the Atmosphere Great wind circulation systems form (p. 31).",
           "Tropical Easterly Trade Winds: Close to the equator, trade winds blow from the east (p. 31).",
           "Steady Temperate Westerly Winds: In the temperate zone, steady winds called westerlies blow from the west (p. 31)."
         ],
         "right_points": [
-          "Step 1 - Identify Temperate Wind Belts: In the temperate zone, steady winds called westerlies blow from the west (p. 31).",
-          "Step 2 - Link Winds to Currents: Winds blowing across the ocean's surface create currents (p. 31).",
-          "Step 3 - Chart Basin Gyre Circulation: When the trade winds and westerlies blow across the oceans, they cause the currents in each ocean basin to move in acircular pattern (p. 31)."
+          "Identify Temperate Wind Belts: In the temperate zone, steady winds called westerlies blow from the west (p. 31).",
+          "Link Winds to Currents: Winds blowing across the ocean's surface create currents (p. 31).",
+          "Chart Basin Gyre Circulation: When the trade winds and westerlies blow across the oceans, they cause the currents in each ocean basin to move in acircular pattern (p. 31)."
         ],
         "rows": [
           {
-            "attribute": "Atmospheric Wind Circulation Patterns",
+            "attribute": "Constant Proportions",
             "left": "Atmospheric Wind Circulation Patterns: The Oceans and the Atmosphere Great wind circulation systems form (p. 31).",
-            "right": "Step 1 - Identify Temperate Wind Belts: In the temperate zone, steady winds called westerlies blow from the west (p. 31)."
+            "right": "Identify Temperate Wind Belts: In the temperate zone, steady winds called westerlies blow from the west (p. 31)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Gas Solubility",
             "left": "Tropical Easterly Trade Winds: Close to the equator, trade winds blow from the east (p. 31).",
-            "right": "Step 2 - Link Winds to Currents: Winds blowing across the ocean's surface create currents (p. 31)."
+            "right": "Link Winds to Currents: Winds blowing across the ocean's surface create currents (p. 31)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Nutrient Cycling",
             "left": "Steady Temperate Westerly Winds: In the temperate zone, steady winds called westerlies blow from the west (p. 31).",
-            "right": "Step 3 - Chart Basin Gyre Circulation: When the trade winds and westerlies blow across the oceans, they cause the currents in each ocean basin to move in acircular pattern (p. 31)."
+            "right": "Chart Basin Gyre Circulation: When the trade winds and westerlies blow across the oceans, they cause the currents in each ocean basin to move in acircular pattern (p. 31)."
           }
         ]
       },
       "worked_example": {
-        "title": "Oceanography Req 5 Exemplar Workbook Entry: Seawater Chemistry and Salinity Balance",
+        "title": "Oceanography Req 5 Exemplar Workbook Entry: Seawater",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
           "Atmospheric Wind Circulation Patterns": "The Oceans and the Atmosphere Great wind circulation systems form (p. 31).",
@@ -1407,7 +1487,7 @@
         "counselor_tip": "For Oceanography Requirement 5 (Seawater Chemistry and Salinity Balance), verify the Scout's own observations and specific pamphlet details (Official Scouting America Oceanography Merit Badge Pamphlet (p. 31, p. 32))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do differences in evaporation and precipitation affect the salinity of surface ocean water?",
+        "scenario_prompt": "In what specific ways do differences in evaporation and precipitation affect the salinity of surface ocean water?",
         "question": "How do differences in evaporation and precipitation affect the salinity of surface ocean water?",
         "options": [
           "A. High evaporation removes fresh water and raises salinity, while heavy precipitation adds fresh water and lowers salinity",
@@ -1438,7 +1518,33 @@
       "socratic_questions": [
         "Why do the relative ratios of major salts remain identical even when total salinity changes?",
         "How does cold polar water act as a carbon sink compared to warm equatorial water?",
-        "What causes dissolved oxygen levels to decrease below the photic zone before rising in abyssal waters?"
+        "What causes dissolved oxygen levels to decrease below the photic zone before rising in abyssal waters?",
+        "What happens to surface salinity in subtropical gyres where evaporation exceeds annual rainfall?",
+        "Which two dissolved ions make up more than 85 percent of all the dissolved salts in seawater?",
+        "Under what condition does cold polar water hold more dissolved oxygen than warm tropical water?",
+        "What chemical shift occurs in sunlit surface water during a rapid daytime phytoplankton bloom?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think seawater salinity fluctuates wildly in ionic chemical proportions in the open sea.",
+          "fact": "Six ions, primarily chloride and sodium, comprise over ninety-nine percent of all dissolved salts in open seawater."
+        },
+        {
+          "misconception": "Warm tropical surface water holds more dissolved oxygen gas than frigid polar seawater.",
+          "fact": "Gas solubility increases as water temperature drops, allowing cold polar seas to hold far more dissolved oxygen."
+        },
+        {
+          "misconception": "Heavy tropical rainstorms increase surface salinity by washing atmospheric salt into the sea.",
+          "fact": "Precipitation adds fresh water that dilutes dissolved ions and lowers the surface salinity of the upper ocean."
+        },
+        {
+          "misconception": "Sodium and chloride are the only dissolved mineral ions present in natural ocean water.",
+          "fact": "Seawater also contains major ions of sulfate, magnesium, calcium, and potassium alongside trace nutrients like nitrate."
+        },
+        {
+          "misconception": "Marine animals and plants consume dissolved nutrients without ever returning them to the water.",
+          "fact": "Bacterial decomposition of sinking organic waste releases nitrates, phosphates, and carbon back into deep seawater."
+        }
       ]
     },
     {
@@ -1511,9 +1617,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe that all organisms classified as plankton are microscopic single-celled creatures.",
-        "fact": "Phytoplankton generate more than half of global atmospheric oxygen through marine photosynthetic primary production.",
-        "myth": "Scouts often believe that all organisms classified as plankton are microscopic single-celled creatures.",
-        "fact_correction": "Phytoplankton generate more than half of global atmospheric oxygen through marine photosynthetic primary production."
+        "fact": "Phytoplankton generate more than half of global atmospheric oxygen through marine photosynthetic primary production."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1550,38 +1654,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Drifting Plankton and Swimming Nekton",
-        "right_header": "Seafloor Dwelling Benthos Organisms",
+        "left_header": "Req 6: Drifting Marine Plankton",
+        "right_header": "Req 6: Distinguish Plankton",
         "left_points": [
           "Drifting Marine Plankton Wanderers: The term plankton comes from the Greek word planktos, which means \"wanderer.\" Plankton includes marine plants and animals that drift with the currents (p. 45).",
           "Swimmers and Bottom Dwellers: Because they drift, plankton differ from nekton, animals that actively swim or lie on or burrow into the seafloor, such as clams and worms (p. 45).",
           "Contrast With Large Seaweeds: They also differ from marine plants such as large seaweeds (p. 45)."
         ],
         "right_points": [
-          "Step 1 - Distinguish Plankton From Seaweeds: They also differ from marine plants such as large seaweeds (p. 45).",
-          "Step 2 - Measure Microscopic Plankton Cells: Plankton cells are seldom larger in diameter than a few tenths of an inch (p. 45).",
-          "Step 3 - Trace Marine Food Chains: Plankton forms the basis of all major ocean food chains (p. 45)."
+          "Distinguish Plankton From Seaweeds: They also differ from marine plants such as large seaweeds (p. 45).",
+          "Measure Microscopic Plankton Cells: Plankton cells are seldom larger in diameter than a few tenths of an inch (p. 45).",
+          "Trace Marine Food Chains: Plankton forms the basis of all major ocean food chains (p. 45)."
         ],
         "rows": [
           {
-            "attribute": "Drifting Marine Plankton Wanderers",
+            "attribute": "Ecological Divisions",
             "left": "Drifting Marine Plankton Wanderers: The term plankton comes from the Greek word planktos, which means \"wanderer.\" Plankton includes marine plants and animals that drift with the currents (p. 45).",
-            "right": "Step 1 - Distinguish Plankton From Seaweeds: They also differ from marine plants such as large seaweeds (p. 45)."
+            "right": "Distinguish Plankton From Seaweeds: They also differ from marine plants such as large seaweeds (p. 45)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Primary Producers",
             "left": "Swimmers and Bottom Dwellers: Because they drift, plankton differ from nekton, animals that actively swim or lie on or burrow into the seafloor, such as clams and worms (p. 45).",
-            "right": "Step 2 - Measure Microscopic Plankton Cells: Plankton cells are seldom larger in diameter than a few tenths of an inch (p. 45)."
+            "right": "Measure Microscopic Plankton Cells: Plankton cells are seldom larger in diameter than a few tenths of an inch (p. 45)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Nekton Mobility",
             "left": "Contrast With Large Seaweeds: They also differ from marine plants such as large seaweeds (p. 45).",
-            "right": "Step 3 - Trace Marine Food Chains: Plankton forms the basis of all major ocean food chains (p. 45)."
+            "right": "Trace Marine Food Chains: Plankton forms the basis of all major ocean food chains (p. 45)."
           }
         ]
       },
       "worked_example": {
-        "title": "Oceanography Req 6 Exemplar Workbook Entry: Marine Life Groups and Phytoplankton",
+        "title": "Oceanography Req 6 Exemplar Workbook Entry: Marine Life",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Drifting Marine Plankton Wanderers": "The term plankton comes from the Greek word planktos, which means \"wanderer.\" Plankton includes marine plants and animals that drift with the currents (p. 45).",
@@ -1623,8 +1727,34 @@
       "pamphlet_summary": "Marine organisms occupy specific ecological zones categorized as plankton, free-swimming nekton, and bottom-dwelling benthos. Phytoplankton serve as the primary trophic base of marine food webs, converting solar radiation and nutrients into biomass.",
       "socratic_questions": [
         "Why do phytoplankton blooms occur primarily in coastal upwelling zones rather than open ocean waters?",
-        "How do the physical adaptations of nekton differ fundamentally from those of benthic organisms?",
-        "What ecological consequences occur throughout the food web when zooplankton populations collapse from temperature shifts?"
+        "In what specific ways do the physical adaptations of nekton differ fundamentally from those of benthic organisms?",
+        "What ecological consequences occur throughout the food web when zooplankton populations collapse from temperature shifts?",
+        "What physical trait classifies a giant jellyfish as plankton rather than free-swimming nekton?",
+        "Why are photosynthetic phytoplankton restricted to the upper sunlit euphotic zone of the ocean?",
+        "Which biological group includes burrowing clams, sea stars, and crabs living on the seafloor?",
+        "What happens to nekton fish stocks when coastal upwelling fails to deliver nutrients to diatoms?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often believe that all organisms classified as plankton are microscopic single-celled creatures.",
+          "fact": "Phytoplankton generate more than half of global atmospheric oxygen through marine photosynthetic primary production."
+        },
+        {
+          "misconception": "All marine plankton are microscopic organisms that cannot be seen with the naked human eye.",
+          "fact": "Plankton is defined by drifting with currents rather than size, so large jellyfish and floating sargassum weed are plankton."
+        },
+        {
+          "misconception": "Zooplankton form the primary photosynthetic base of the marine food chain in open ocean waters.",
+          "fact": "Phytoplankton such as diatoms and dinoflagellates are the primary producers that convert sunlight into food for zooplankton."
+        },
+        {
+          "misconception": "Benthic organisms live only in the pitch-black trenches of the deepest abyssal ocean floor.",
+          "fact": "Benthos includes any organism living on or in the seafloor, from shallow intertidal barnacles and kelp to deep-sea tube worms."
+        },
+        {
+          "misconception": "Adult squid, tuna, and baleen whales belong to the plankton group because they migrate with currents.",
+          "fact": "Squid, fish, and marine mammals are nekton because they swim powerfully enough to move independently of ocean currents."
+        }
       ]
     },
     {
@@ -1680,9 +1810,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
             "misconception": "Scouts often assume towing a net faster captures a greater density of marine plankton.",
-            "fact": "Tow nets require slow speeds to prevent water backwash and mesh blowout while collecting plankton.",
-            "myth": "Scouts often assume towing a net faster captures a greater density of marine plankton.",
-            "fact_correction": "Tow nets require slow speeds to prevent water backwash and mesh blowout while collecting plankton."
+            "fact": "Tow nets require slow speeds to prevent water backwash and mesh blowout while collecting plankton."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1761,9 +1889,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
             "misconception": "Scouts frequently believe atolls form directly on coral that grew up from deep ocean trenches.",
-            "fact": "Charles Darwin correctly theorized that coral atolls develop as volcanic islands gradually subside into ocean basins.",
-            "myth": "Scouts frequently believe atolls form directly on coral that grew up from deep ocean trenches.",
-            "fact_correction": "Charles Darwin correctly theorized that coral atolls develop as volcanic islands gradually subside into ocean basins."
+            "fact": "Charles Darwin correctly theorized that coral atolls develop as volcanic islands gradually subside into ocean basins."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1841,9 +1967,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
             "misconception": "Scouts believe shallow water bodies maintain identical temperatures from surface to muddy bottom throughout daytime.",
-            "fact": "Water bodies develop a warm epilimnion, sharp thermocline, and cold hypolimnion through solar warming.",
-            "myth": "Scouts believe shallow water bodies maintain identical temperatures from surface to muddy bottom throughout daytime.",
-            "fact_correction": "Water bodies develop a warm epilimnion, sharp thermocline, and cold hypolimnion through solar warming."
+            "fact": "Water bodies develop a warm epilimnion, sharp thermocline, and cold hypolimnion through solar warming."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1918,9 +2042,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
             "misconception": "Scouts think beach sand simply moves straight in and out with rising and falling tides.",
-            "fact": "Littoral drift transports sand along the coast through combined zig-zag swash action and longshore currents.",
-            "myth": "Scouts think beach sand simply moves straight in and out with rising and falling tides.",
-            "fact_correction": "Littoral drift transports sand along the coast through combined zig-zag swash action and longshore currents."
+            "fact": "Littoral drift transports sand along the coast through combined zig-zag swash action and longshore currents."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2011,9 +2133,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
             "misconception": "Scouts often confuse groins and jetties with offshore breakwaters designed to dissipate wave energy.",
-            "fact": "Breakwaters absorb wave energy offshore, whereas groins intercept moving sand perpendicular to the sandy beach.",
-            "myth": "Scouts often confuse groins and jetties with offshore breakwaters designed to dissipate wave energy.",
-            "fact_correction": "Breakwaters absorb wave energy offshore, whereas groins intercept moving sand perpendicular to the sandy beach."
+            "fact": "Breakwaters absorb wave energy offshore, whereas groins intercept moving sand perpendicular to the sandy beach."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2089,9 +2209,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
             "misconception": "Scouts assume ocean satellites only take standard optical photographs like a common digital camera.",
-            "fact": "Satellite infrared sensors measure sea surface temperature anomalies, while altimeters track ocean surface heights.",
-            "myth": "Scouts assume ocean satellites only take standard optical photographs like a common digital camera.",
-            "fact_correction": "Satellite infrared sensors measure sea surface temperature anomalies, while altimeters track ocean surface heights."
+            "fact": "Satellite infrared sensors measure sea surface temperature anomalies, while altimeters track ocean surface heights."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -2231,9 +2349,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think building an oceanographic apparatus requires commercial laboratory equipment rather than simple materials.",
-        "fact": "Plankton nets use fine-mesh silk or nylon bolting cloth to capture micro-crustaceans and colonial diatoms.",
-        "myth": "Scouts often think building an oceanographic apparatus requires commercial laboratory equipment rather than simple materials.",
-        "fact_correction": "Plankton nets use fine-mesh silk or nylon bolting cloth to capture micro-crustaceans and colonial diatoms."
+        "fact": "Plankton nets use fine-mesh silk or nylon bolting cloth to capture micro-crustaceans and colonial diatoms."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2274,14 +2390,14 @@
         "Step 4 - Findings Documentation: Record all experimental observations measurements and microscope sketches in your field laboratory logbook."
       ],
       "gear_checklist": [
-        "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled",
-        "Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle",
-        "BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist",
-        "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer"
+        "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.",
+        "Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.",
+        "BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.",
+        "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Plankton Sampling Net Construction",
-        "right_header": "Req 7d: Inshore Sediment Transport Modelin",
+        "left_header": "Req 7a: Plankton Sampling Net",
+        "right_header": "Req 7d: Inshore Sediment Transport",
         "left_points": [
           "(7a) Plankton Sampling Net Construction: Construct a conical plankton net using fine stocking mesh, wire ring, and collection vial to sample aquatic life. Tow the net slowly through coastal waters for twenty minutes, then examine concentrated specimens under magnification.",
           "(7b) Coral Reef Evolution Modeling: Build sequential physical models illustrating how coral structures transition from fringing reefs to barrier reefs and atolls. Document how gradual volcanic island subsidence balances upward coral growth according to Charles Darwin subsidence theory.",
@@ -2294,30 +2410,30 @@
         ],
         "rows": [
           {
-            "attribute": "Plankton Net Tow and Microscopy",
-            "left": "(7a) Plankton Net Tow and Microscopy: Not all ocean waves occur on the surface of the water (p. 23).",
-            "right": "(7d) Inshore Sediment Movement Model: They can also hinder the monitoring of underwater environments and endanger submersibles (p. 23)."
+            "attribute": "Net Construction",
+            "left": "(7a) Plankton Sampling Net Construction: Construct a conical plankton net using fine stocking mesh, wire ring, and collection vial to sample aquatic life. Tow the net slowly through coastal waters for twenty minutes, then examine concentrated specimens under magnification.",
+            "right": "(7d) Inshore Sediment Transport Modeling: Construct a littoral drift wave tank model demonstrating how longshore currents transport sediment along coastlines. Feature dynamic sand formations including low-tide terraces, berms, and barrier spits created by angled wave action."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(7b) Volcanic Island and Atoll Models: The resulting waves can reach heights above 300 feet (91 meters), much higher than typical surface waves (p. 23).",
-            "right": "(7e) Wave Generator and Coastal Barriers: Not all ocean waves occur on the surface of the water (p. 23)."
+            "attribute": "Reef Evolution",
+            "left": "(7b) Coral Reef Evolution Modeling: Build sequential physical models illustrating how coral structures transition from fringing reefs to barrier reefs and atolls. Document how gradual volcanic island subsidence balances upward coral growth according to Charles Darwin subsidence theory.",
+            "right": "(7e) Wave Generator and Coastal Structures: Build a wave generator in a shallow basin to observe physical wave reflection and refraction around coastal structures. Test how hard engineering interventions like groins, jetties, and breakwaters alter incoming wave energy and deposition."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "(7c) Five Day Water Temperature Log: Internal waves can influence the amount and diversity of nutrients available and the water temperature in an area (p. 23).",
-            "right": "(7f) Satellite Oceanography Image Tracking: The resulting waves can reach heights above 300 feet (91 meters), much higher than typical surface waves (p. 23)."
+            "attribute": "Thermal Stratification",
+            "left": "(7c) Water Column Thermal Profiling: Measure water temperatures at surface, mid-depth, and benthic levels four times daily across five consecutive days. Chart your recorded temperature gradients over time to analyze solar warming, night cooling, and thermal stratification.",
+            "right": "(7f) Satellite Oceanographic Data Tracking: Monitor online satellite imagery of a selected marine area over three weeks to track dynamic oceanographic processes. Analyze satellite observations of sea surface temperature anomalies, phytoplankton chlorophyll concentrations, or major oceanic current movements."
           }
         ]
       },
       "worked_example": {
-        "title": "Oceanography Req 7 Exemplar Workbook Entry: Hands On Oceanography Field Investigations",
+        "title": "Oceanography Req 7 Exemplar Workbook Entry: Hands",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Plankton Sampling Net Constructio": "Construct a conical plankton net using fine stocking mesh, wire ring, and collection vial to sample aquatic life. Tow the net slowly through coastal waters for twenty minutes, then examine concentrated specimens under magnification.",
+          "Req 7a - Plankton Sampling Net": "Construct a conical plankton net using fine stocking mesh, wire ring, and collection vial to sample aquatic life. Tow the net slowly through coastal waters for twenty minutes, then examine concentrated specimens under magnification.",
           "Req 7b - Coral Reef Evolution Modeling": "Build sequential physical models illustrating how coral structures transition from fringing reefs to barrier reefs and atolls. Document how gradual volcanic island subsidence balances upward coral growth according to Charles Darwin subsidence theory.",
-          "Req 7c - Water Column Thermal Profiling": "Measure water temperatures at surface, mid-depth, and benthic levels four times daily across five consecutive days. Chart your recorded temperature gradients over time to analyze solar warming, night cooling, and thermal stratification.",
-          "Req 7d - Inshore Sediment Transport Modeli": "Construct a littoral drift wave tank model demonstrating how longshore currents transport sediment along coastlines. Feature dynamic sand formations including low-tide terraces, berms, and barrier spits created by angled wave action."
+          "Req 7c - Water Column Thermal": "Measure water temperatures at surface, mid-depth, and benthic levels four times daily across five consecutive days. Chart your recorded temperature gradients over time to analyze solar warming, night cooling, and thermal stratification.",
+          "Req 7d - Inshore Sediment Transport": "Construct a littoral drift wave tank model demonstrating how longshore currents transport sediment along coastlines. Feature dynamic sand formations including low-tide terraces, berms, and barrier spits created by angled wave action."
         },
         "sample_output": "Hands On Oceanography Field Investigations: Not all ocean waves occur on the surface of the water (p. 23).",
         "counselor_tip": "For Oceanography Requirement 7 (Hands On Oceanography Field Investigations), verify the Scout's own observations and specific pamphlet details (Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70))."
@@ -2354,7 +2470,33 @@
       "socratic_questions": [
         "How does the mesh size of a plankton net determine which marine organisms are collected?",
         "What environmental forces drive coastal erosion and sand migration along public beaches and jetties?",
-        "Why does water temperature vary between surface layers and bottom sediments across consecutive days?"
+        "Why does water temperature vary between surface layers and bottom sediments across consecutive days?",
+        "Why is it dangerous to wade or tow a plankton net from a rowboat without wearing a fitted life jacket?",
+        "What happens to delicate plankton specimens if you tow a fine-mesh net too fast through the water?",
+        "Which microscope adjustment brings translucent copepods and diatoms into sharp focus on a glass slide?",
+        "What field data must you record on your sample jar label immediately after completing a 20-minute tow?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think building an oceanographic apparatus requires commercial laboratory equipment rather than simple materials.",
+          "fact": "Plankton nets use fine-mesh silk or nylon bolting cloth to capture micro-crustaceans and colonial diatoms."
+        },
+        {
+          "misconception": "Coarse window screening or cheesecloth makes an effective mesh cone for catching microscopic diatoms.",
+          "fact": "Fine nylon bolting cloth or tight nylon stocking material is required so microscopic phytoplankton do not pass right."
+        },
+        {
+          "misconception": "Towing a plankton net at high speed behind a motorboat collects a cleaner, larger biological sample.",
+          "fact": "Excessive towing speed creates a bow wave that pushes water aside and crushes fragile organisms against the mesh."
+        },
+        {
+          "misconception": "Live plankton samples stay healthy for days in a sealed jar left sitting in warm direct sunlight.",
+          "fact": "Warmth and crowded respiration rapidly deplete dissolved oxygen in a closed sample jar, killing the organisms within hours."
+        },
+        {
+          "misconception": "Wading in shallow water with a plankton net requires no personal flotation device or buddy oversight.",
+          "fact": "Scouts working near docks, currents, or boats must follow Safe Swim Defense and Safety Afloat rules, including life jackets."
+        }
       ]
     },
     {
@@ -2395,9 +2537,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)",
           "common_misconception_pair": {
             "misconception": "Scouts often assume any novel set at sea qualifies as an oceanographic text.",
-            "fact": "Oceanographic literature covers specialized domains ranging from polar exploration to deep ocean hydrothermal vents.",
-            "myth": "Scouts often assume any novel set at sea qualifies as an oceanographic text.",
-            "fact_correction": "Oceanographic literature covers specialized domains ranging from polar exploration to deep ocean hydrothermal vents."
+            "fact": "Oceanographic literature covers specialized domains ranging from polar exploration to deep ocean hydrothermal vents."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2624,9 +2764,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)",
           "common_misconception_pair": {
             "misconception": "Scouts think public aquariums and commercial tourist boats operate identically to scientific research laboratories.",
-            "fact": "Research vessels function as self-contained floating laboratories equipped with dynamic positioning systems and winches.",
-            "myth": "Scouts think public aquariums and commercial tourist boats operate identically to scientific research laboratories.",
-            "fact_correction": "Research vessels function as self-contained floating laboratories equipped with dynamic positioning systems and winches."
+            "fact": "Research vessels function as self-contained floating laboratories equipped with dynamic positioning systems and winches."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2701,9 +2839,7 @@
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)",
           "common_misconception_pair": {
             "misconception": "Scouts assume careers in ocean science are limited entirely to training dolphins at aquariums.",
-            "fact": "Oceanographic careers span federal hydrography, marine robotics engineering, environmental consulting, and academic research.",
-            "myth": "Scouts assume careers in ocean science are limited entirely to training dolphins at aquariums.",
-            "fact_correction": "Oceanographic careers span federal hydrography, marine robotics engineering, environmental consulting, and academic research."
+            "fact": "Oceanographic careers span federal hydrography, marine robotics engineering, environmental consulting, and academic research."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2804,9 +2940,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts believe oceanography careers require working exclusively aboard offshore research vessels at sea.",
-        "fact": "Marine science careers encompass biological research, chemical engineering, hydrographic surveying, and physical oceanography.",
-        "myth": "Scouts believe oceanography careers require working exclusively aboard offshore research vessels at sea.",
-        "fact_correction": "Marine science careers encompass biological research, chemical engineering, hydrographic surveying, and physical oceanography."
+        "fact": "Marine science careers encompass biological research, chemical engineering, hydrographic surveying, and physical oceanography."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2847,14 +2981,14 @@
         "Step 4 - Presentation Delivery: Deliver your five minute troop presentation or submit your five hundred word report."
       ],
       "gear_checklist": [
-        "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled",
-        "Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle",
-        "BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist",
-        "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer"
+        "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.",
+        "Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.",
+        "BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.",
+        "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Oceanographic Literature Analysis",
-        "right_header": "Req 8b: Marine Facility Educational Visit",
+        "left_header": "Req 8a: Oceanographic Literature",
+        "right_header": "Req 8b: Marine Facility Educational",
         "left_points": [
           "(8a) Oceanographic Literature Analysis Report: Read an approved scientific book detailing ocean exploration, marine geology, or biological oceanography. Author a five-hundred-word critical report summarizing central research methodologies, marine discoveries, and scientific conclusions."
         ],
@@ -2863,29 +2997,29 @@
         ],
         "rows": [
           {
-            "attribute": "Approved Oceanography Book Report",
-            "left": "(8a) Approved Oceanography Book Report: Your education should include an undergraduate degree (four years) and at least a master's degree (two more years) (p. 57).",
-            "right": "(8b) Research Ship or Aquarium Visit: An oceanographer may choose from several types of careers after completing training (p. 57)."
+            "attribute": "Literature Review",
+            "left": "(8a) Oceanographic Literature Analysis Report: Read an approved scientific book detailing ocean exploration, marine geology, or biological oceanography. Author a five-hundred-word critical report summarizing central research methodologies, marine discoveries, and scientific conclusions.",
+            "right": "(8b) Marine Facility Educational Visit: Tour an oceanographic research vessel, marine laboratory, or public aquarium to observe active marine scientific work. Document research equipment, biological holding systems, and ongoing experiments in a detailed five-hundred-word report."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Graduate Degree Education Path: Your education should include an undergraduate degree (four years) and at least a master's degree (two more years) (p. 57).",
-            "right": "(8c) Five Minute Troop Oceanography Speech: Colleges and universities provide teaching and research opportunities (p. 57)."
+            "attribute": "Research Vessels",
+            "left": "Req 8a: Oceanographic Literature: Read an approved scientific book detailing ocean exploration, marine geology, or biological oceanography. Author a five-hundred-word critical report summarizing central research methodologies, marine discoveries, and scientific conclusions.",
+            "right": "Req 8b: Marine Facility Educational: Tour an oceanographic research vessel, marine laboratory, or public aquarium to observe active marine scientific work. Document research equipment, biological holding systems, and ongoing experiments in a detailed five-hundred-word report."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Diverse Oceanography Career Paths: An oceanographer may choose from several types of careers after completing training (p. 57).",
-            "right": "Step 3 - Review Federal Agency Careers: The government employs oceanographers in areas such as the Department of Commerce and the Environmental Protection Agency (p. 57)."
+            "attribute": "Marine Facilities",
+            "left": "Req 8c: Oceanographic Careers Troop: Prepare and deliver a five-minute educational speech to your troop addressing ocean importance or career pathways. Review the speech outline with your counselor beforehand, explaining professional opportunities across diverse marine industries.",
+            "right": "Research Vessels: Oceanographic research ships operate specialized laboratory equipment winches and acoustic profiling sensors offshore."
           }
         ]
       },
       "worked_example": {
-        "title": "Oceanography Req 8 Exemplar Workbook Entry: Oceanography Reports, Visits, and Careers",
+        "title": "Oceanography Req 8 Exemplar Workbook Entry: Oceanography",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 8a - Oceanographic Literature Analysis": "Read an approved scientific book detailing ocean exploration, marine geology, or biological oceanography. Author a five-hundred-word critical report summarizing central research methodologies, marine discoveries, and scientific conclusions.",
-          "Req 8b - Marine Facility Educational Visit": "Tour an oceanographic research vessel, marine laboratory, or public aquarium to observe active marine scientific work. Document research equipment, biological holding systems, and ongoing experiments in a detailed five-hundred-word report.",
-          "Req 8c - Oceanographic Careers Troop Prese": "Prepare and deliver a five-minute educational speech to your troop addressing ocean importance or career pathways. Review the speech outline with your counselor beforehand, explaining professional opportunities across diverse marine industries."
+          "Req 8a - Oceanographic Literature": "Read an approved scientific book detailing ocean exploration, marine geology, or biological oceanography. Author a five-hundred-word critical report summarizing central research methodologies, marine discoveries, and scientific conclusions.",
+          "Req 8b - Marine Facility Educational": "Tour an oceanographic research vessel, marine laboratory, or public aquarium to observe active marine scientific work. Document research equipment, biological holding systems, and ongoing experiments in a detailed five-hundred-word report.",
+          "Req 8c - Oceanographic Careers Troop": "Prepare and deliver a five-minute educational speech to your troop addressing ocean importance or career pathways. Review the speech outline with your counselor beforehand, explaining professional opportunities across diverse marine industries."
         },
         "sample_output": "Oceanography Reports, Visits, and Careers: Your education should include an undergraduate degree (four years) and at least a master's degree (two more years) (p. 57).",
         "counselor_tip": "For Oceanography Requirement 8 (Oceanography Reports, Visits, and Careers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62))."
@@ -2920,9 +3054,35 @@
       "workbook_visual_caption": "An oceanographic vessel uses heavy stern cranes to deploy deep-sea scientific instruments.",
       "pamphlet_summary": "Exploration of oceanographic literature, research institutions, and career paths provides insight into professional marine science disciplines. Scouts synthesize their findings through comprehensive written reports, research facility tours, or structured troop presentations.",
       "socratic_questions": [
-        "How do marine institutions collaborate with academic universities and government agencies on oceanic research?",
+        "In what specific ways do marine institutions collaborate with academic universities and government agencies on oceanic research?",
         "What educational preparation and technical skills are required for careers in physical oceanography?",
-        "Why is public education regarding ocean science vital for passing effective coastal conservation policies?"
+        "Why is public education regarding ocean science vital for passing effective coastal conservation policies?",
+        "Why must a Scout obtain counselor approval for an oceanography book before writing the 500-word report?",
+        "What deck safety rules must visitors follow when boarding an active oceanographic research vessel?",
+        "Which visual aids make a five-minute troop speech on oceanography clearer for younger Scouts to follow?",
+        "What specific sampling instruments or lab tanks should you document in your marine institute field log?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts believe oceanography careers require working exclusively aboard offshore research vessels at sea.",
+          "fact": "Marine science careers encompass biological research, chemical engineering, hydrographic surveying, and physical oceanography."
+        },
+        {
+          "misconception": "Any fictional sea adventure novel qualifies for the 500-word oceanography book report requirement.",
+          "fact": "The book must focus on scientific oceanography and receive merit badge counselor approval before the Scout writes the report."
+        },
+        {
+          "misconception": "Visiting a public beach or recreational fishing pier satisfies the oceanographic facility visit option.",
+          "fact": "Requirement 8b specifies visiting an oceanographic research ship, marine laboratory, oceanographic institute, or marine aquarium."
+        },
+        {
+          "misconception": "Copying promotional brochures from a marine aquarium fulfills the 500-word visit report requirement.",
+          "fact": "The 500-word report must be written in the Scout's own words, detailing specific exhibits, research methods, and observations."
+        },
+        {
+          "misconception": "Delivering a five-minute troop speech requires reading a written essay word-for-word without notes.",
+          "fact": "An effective five-minute troop presentation uses concise outline notes, clear examples, and visual diagrams to engage the audience."
+        }
       ]
     },
     {
@@ -2981,9 +3141,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think oceanographers still rely primarily on lead lines and simple bucket samplers.",
-        "fact": "Modern marine scientists combine autonomous profiling gliders, acoustic multibeam sonars, and sediment cores for multi-domain mapping.",
-        "myth": "Scouts often think oceanographers still rely primarily on lead lines and simple bucket samplers.",
-        "fact_correction": "Modern marine scientists combine autonomous profiling gliders, acoustic multibeam sonars, and sediment cores for multi-domain mapping."
+        "fact": "Modern marine scientists combine autonomous profiling gliders, acoustic multibeam sonars, and sediment cores for multi-domain mapping."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3020,38 +3178,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Inshore Shallow Neritic Water Zone",
-        "right_header": "Open Sea Deep Oceanic Zone",
+        "left_header": "Req 9: Diverse Marine Life Habitats",
+        "right_header": "Req 9: Observe Bioluminescent Sea Life",
         "left_points": [
           "Diverse Marine Life Habitats: A rich assortment of living things calls the ocean home (p. 36).",
           "Microscopic to Giant Organisms: Big and small, long and short, multicolored and drab, active and inactive, sea life ranges from microscopic plankton to the largest creatures on Earth (p. 36).",
           "Bioluminescent Deep Sea Organisms: Some organisms even light up, like ghostly neon lights (p. 36)."
         ],
         "right_points": [
-          "Step 1 - Observe Bioluminescent Sea Life: Some organisms even light up, like ghostly neon lights (p. 36).",
-          "Step 2 - Classify Major Ocean Zones: The sea is so vast that scientists have divided it into zones (p. 36).",
-          "Step 3 - Map Open Pelagic Waters: The pelagic zone includes all the environments of the ocean above the bottom, or living in open oceans or seas rather than in waters next to land (p. 36)."
+          "Observe Bioluminescent Sea Life: Some organisms even light up, like ghostly neon lights (p. 36).",
+          "Classify Major Ocean Zones: The sea is so vast that scientists have divided it into zones (p. 36).",
+          "Map Open Pelagic Waters: The pelagic zone includes all the environments of the ocean above the bottom, or living in open oceans or seas rather than in waters next to land (p. 36)."
         ],
         "rows": [
           {
-            "attribute": "Diverse Marine Life Habitats",
+            "attribute": "Acoustic Mapping",
             "left": "Diverse Marine Life Habitats: A rich assortment of living things calls the ocean home (p. 36).",
-            "right": "Step 1 - Observe Bioluminescent Sea Life: Some organisms even light up, like ghostly neon lights (p. 36)."
+            "right": "Observe Bioluminescent Sea Life: Some organisms even light up, like ghostly neon lights (p. 36)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Sediment Coring",
             "left": "Microscopic to Giant Organisms: Big and small, long and short, multicolored and drab, active and inactive, sea life ranges from microscopic plankton to the largest creatures on Earth (p. 36).",
-            "right": "Step 2 - Classify Major Ocean Zones: The sea is so vast that scientists have divided it into zones (p. 36)."
+            "right": "Classify Major Ocean Zones: The sea is so vast that scientists have divided it into zones (p. 36)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Submersible Exploration",
             "left": "Bioluminescent Deep Sea Organisms: Some organisms even light up, like ghostly neon lights (p. 36).",
-            "right": "Step 3 - Map Open Pelagic Waters: The pelagic zone includes all the environments of the ocean above the bottom, or living in open oceans or seas rather than in waters next to land (p. 36)."
+            "right": "Map Open Pelagic Waters: The pelagic zone includes all the environments of the ocean above the bottom, or living in open oceans or seas rather than in waters next to land (p. 36)."
           }
         ]
       },
       "worked_example": {
-        "title": "Oceanography Req 9 Exemplar Workbook Entry: Marine Research Methods and Ocean Zones",
+        "title": "Oceanography Req 9 Exemplar Workbook Entry: Marine",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Diverse Marine Life Habitats": "A rich assortment of living things calls the ocean home (p. 36).",
@@ -3063,7 +3221,7 @@
         "counselor_tip": "For Oceanography Requirement 9 (Marine Research Methods and Ocean Zones), verify the Scout's own observations and specific pamphlet details (Official Scouting America Oceanography Merit Badge Pamphlet (p. 36, p. 38))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do marine scientists divide the pelagic zone of the ocean?",
+        "scenario_prompt": "In what specific ways do marine scientists divide the pelagic zone of the ocean?",
         "question": "How do marine scientists divide the pelagic zone of the ocean?",
         "options": [
           "A. Into the inshore neritic zone adjoining the seacoast and the open-sea oceanic zone",
@@ -3094,7 +3252,33 @@
       "socratic_questions": [
         "How does multibeam sonar imaging improve seafloor resolution compared to traditional single-beam echo sounders?",
         "What distinct geological records can scientists extract by analyzing deep ocean sediment cores?",
-        "Why are autonomous underwater gliders increasingly favored over traditional manned research ships for monitoring?"
+        "Why are autonomous underwater gliders increasingly favored over traditional manned research ships for monitoring?",
+        "What triggers a Niskin bottle on a CTD rosette to seal water from a specific target depth without surface contamination?",
+        "Which acoustic method penetrates beneath the seafloor to image buried rock layers rather than only mapping surface bathymetry?",
+        "What measurement confirms the true depth of a towed plankton net when strong currents push the winch cable at a steep angle?",
+        "Why is it dangerous to stand inside the bight of a tensioned winch cable while deploying a heavy sediment corer at sea?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think oceanographers still rely primarily on lead lines and simple bucket samplers.",
+          "fact": "Modern marine scientists combine autonomous profiling gliders, acoustic multibeam sonars, and sediment cores for multi-domain mapping."
+        },
+        {
+          "misconception": "Niskin bottles are lowered down the cable already sealed with air so surface water cannot enter on the way down.",
+          "fact": "Niskin bottles descend wide open at both ends so water flushes freely until triggered to snap shut at the target depth."
+        },
+        {
+          "misconception": "Optical satellite cameras photograph the deep ocean floor directly from orbit by looking through clear seawater.",
+          "fact": "Sunlight absorbs within a few hundred meters, so deep seafloor mapping relies on shipboard sonar and radar altimetry."
+        },
+        {
+          "misconception": "Surface grab samplers preserve intact vertical layers of ancient marine sediment spanning millions of years.",
+          "fact": "Grab samplers mix top surface muds, whereas piston corers drive long tubes deep into the seabed to keep layers intact."
+        },
+        {
+          "misconception": "A CTD profiler measures ocean temperature, depth, and dissolved oxygen directly using three chemical reagent chambers.",
+          "fact": "CTD stands for conductivity, temperature, and depth, using electronic sensors to calculate salinity and density profiles."
+        }
       ]
     }
   ],

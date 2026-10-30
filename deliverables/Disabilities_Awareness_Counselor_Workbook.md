@@ -1,8 +1,8 @@
 # Disabilities Awareness Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Disabilities%20Awareness.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/disabilities-awareness/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/disabilities-awareness/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -15,7 +15,8 @@
 | **1** | Req 1: Disability Terminology and Etiquette | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 9, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Community Disability Agency Site Visit | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 56) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Personal Perspectives and Adaptive Experiences | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Facility Accessibility and Accommodation Audit | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4a** | Access: Accessibility Audit of School, Worship, Camp & Public Sites | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4b** | Accommodation: Facility Accommodations at Community & Scouting Sites | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Disability Advocacy and Community Outreach | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 47) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Personal Inclusion Commitment Plan | Show | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 44, p. 52) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Disability Services Professional Careers | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -23,7 +24,8 @@
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
 - [ ] **Req 2 (Prepare):** Visit an agency that works with people with physical, mental, emotional, or educational disabilities. Collect and read information about the agency's activities. Learn about opportunities its members have for training, employment, and education. Discuss what you have learned with your counselor.
-- [ ] **Req 4 (Prepare):** Do ONE of the following options: (a) Option A, Access. Visit TWO of the following locations and take notes about the accessibility to people with disabilities. In your notes, give examples of five things that could be done to improve upon the site and five things about the site that make it friendly to people with disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park) (b) Option B, Accommodation. Visit TWO of the following locations and take notes while observing features and methods that are used to accommodate people with invisible disabilities. While there, ask staff members to explain any accommodation features that may not be obvious. Note anything you think could be done to better accommodate people who have invisible disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park)
+- [ ] **Req 4a (Discuss):** Option A, Access. Visit TWO of the following locations and take notes about the accessibility to people with disabilities. In your notes, give examples of five things that could be done to improve upon the site and five things about the site that make it friendly to people with disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park)
+- [ ] **Req 4b (Explain):** Option B, Accommodation. Visit TWO of the following locations and take notes while observing features and methods that are used to accommodate people with invisible disabilities. While there, ask staff members to explain any accommodation features that may not be obvious. Note anything you think could be done to better accommodate people who have invisible disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park)
 - [ ] **Req 5 (Explain):** Explain what advocacy is. Do ONE of the following: (a) Present a counselor-approved disabilities awareness program to a Cub Scout pack or other group. During your presentation, explain and use person-first language. (b) Find out about disabilities awareness education programs in your school or school system, or contact a disability advocacy agency. Volunteer with a program or agency for eight hours. (c) Using resources such as disability advocacy agencies, government agencies, the internet (with your parent or guardian's permission), and news magazines, learn about myths and misconceptions that influence the general public's understanding of people with disabilities. List 10 myths and misconceptions about people with disabilities and learn the facts about each myth. Share your list with your counselor, then use it to make a presentation to a Cub Scout pack or other group.
 
 ## 3. Hands-On Skill Station Verification Rubric
@@ -82,9 +84,9 @@
 - **Pamphlet Fact:** Modern disability organizations prioritize competitive integrated employment and autonomous community living outcomes.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Disabilities Awareness Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Agency That Works With People)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Agency That Works With People
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Disabilities Awareness Merit: Agency That Works With People.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Agency That Works With People.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A Scout using a wheelchair participates in an outdoor presentation discussing accessibility and universal design.](/assets/ai_illustrations/disabilities_awareness_req_2_nano_hero.png)
 
@@ -191,55 +193,141 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Facility Accessibility and Accommodation Audit
-**Official Requirement 4 (Parent Overview):** Do ONE of the following options: (a) Option A, Access. Visit TWO of the following locations and take notes about the accessibility to people with disabilities. In your notes, give examples of five things that could be done to improve upon the site and five things about the site that make it friendly to people with disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park) (b) Option B, Accommodation. Visit TWO of the following locations and take notes while observing features and methods that are used to accommodate people with invisible disabilities. While there, ask staff members to explain any accommodation features that may not be obvious. Note anything you think could be done to better accommodate people who have invisible disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park)
+### Access: Accessibility Audit of School, Worship, Camp & Public Sites
+**Official Requirement 4a (Parent Overview):** Option A, Access. Visit TWO of the following locations and take notes about the accessibility to people with disabilities. In your notes, give examples of five things that could be done to improve upon the site and five things about the site that make it friendly to people with disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park)
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Use a standard tape measure cautiously to avoid blocking emergency exit corridors or tripping pedestrian traffic during audits.
-- **Common Myth:** Having a concrete ramp at a side entrance guarantees full building accessibility.
-- **Pamphlet Fact:** Accessibility requires accessible parking, wide doorways, restrooms, unobstructed corridors, and reachable hardware throughout.
-
-**Official Pamphlet Summary:**
-- Ramp Gradient: Accessible entrance ramps require a maximum slope ratio of one inch per foot.
-- Doorway Clearance: Minimum clear opening width for accessible commercial doorways measures thirty-two continuous clear inches.
-- Acoustic Attenuation: Absorptive ceiling baffles and carpeting reduce disruptive reverberation for individuals with auditory hypersensitivity.
-- Visual Wayfinding: High-contrast sans-serif signage accompanied by Grade Two Braille allows independent navigation for visitors.
-
-#### Req 4a: Physical Architectural Access Audit
-**Official Requirement 4a:** Option A, Access. Visit TWO of the following locations and take notes about the accessibility to people with disabilities. In your notes, give examples of five things that could be done to improve upon the site and five things about the site that make it friendly to people with disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park)
-**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Access Locations Notes Accessibility)
 - **Common Myth:** A building built before 1990 is entirely exempt from providing reasonable physical accessibility modifications.
 - **Pamphlet Fact:** Public accommodations must remove architectural barriers in existing facilities when modifications are readily achievable.
 
-**Gear & Readiness Checklist:**
-- [ ] Official Disabilities Awareness Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Access Locations Notes Accessibility)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Access Locations Notes Accessibility
-- [ ] Buddy-pair checklist and counselor review rubric
+**Official Pamphlet Summary:**
+- Req 4a(1) (1): Your school.
+- Req 4a(2) (2): Your place of worship.
+- Req 4a(3) (3): A Scouting event or campsite.
+- Req 4a(4) (4): A public exhibit or attraction (such as a theater, museum, or park)
 
-![Access / Accommodation procedures and verification checkpoints for Disabilities Awareness Requirement 4.](/assets/ai_illustrations/disabilities_awareness_req_4_topic_visual.png)
+#### Req 4a(1): School Physical Architectural Accessibility Audit
+**Official Requirement 4a(1):** Your school.
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4a(1) Structured Technical Study & Explanation Matrix (Disabilities Awareness School Principles)
+- **Common Myth:** Schools built under modern building codes lack architectural barriers because elevators alone satisfy full accessibility standards.
+- **Pamphlet Fact:** Elevators satisfy multi-floor transport, but heavy fire doors without automated actuators, high science lab tables, and inaccessible athletic bleachers still present significant physical barriers.
 
-| Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+![A motorized lift deploys from the rear of a transport van to assist a passenger in a wheelchair.](/assets/pamphlet_images/disabilities_awareness_p036_img1.png)
+
+| Req 4a(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **(1) Your school.** | `____________________________________` | `____________________________________` |
-| **(2) Your place of worship.** | `____________________________________` | `____________________________________` |
-| **(3) A Scouting event or campsite.** | `____________________________________` | `____________________________________` |
-| **(4) A public exhibit or attraction (such as a theater, museum, or park)** | `____________________________________` | `____________________________________` |
+| **1. Your school** | `____________________________________` | `____________________________________` |
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Invisible Disability Accommodations Audit
-**Official Requirement 4b:** Option B, Accommodation. Visit TWO of the following locations and take notes while observing features and methods that are used to accommodate people with invisible disabilities. While there, ask staff members to explain any accommodation features that may not be obvious. Note anything you think could be done to better accommodate people who have invisible disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park)
-**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Accommodation Locations Notes Observing)
+#### Req 4a(2): Place of Worship Accessibility Audit
+**Official Requirement 4a(2):** Your place of worship.
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4a(2) Structured Technical Study & Explanation Matrix (Place of Worship)
+- **Common Myth:** Religious buildings always feature modern physical accommodations because public assembly halls must follow municipal building codes.
+- **Pamphlet Fact:** Religious organizations often hold legal exemptions from standard federal accessibility mandates, leaving older sanctuaries with stepped entrances, narrow pews, and raised pulpits that restrict physical access.
+
+![An adaptive skier uses a monoski and outriggers while navigating a downhill slope with a guide.](/assets/pamphlet_images/disabilities_awareness_p030_img1.png)
+
+| Req 4a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. Your place of worship** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 4a(3): Scouting Campsite Physical Access Assessment
+**Official Requirement 4a(3):** A Scouting event or campsite.
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4a(3) Structured Technical Study & Explanation Matrix (Scouting Event or Campsite)
+- **Common Myth:** Natural outdoor trails and primitive campsites cannot accommodate wheelchair users without ruining the rugged wilderness experience.
+- **Pamphlet Fact:** Campsites achieve physical accessibility through firmly packed aggregate paths, boardwalk transitions, zero-step tent platforms, and roll-in latrines that preserve the outdoor environment while ensuring universal access.
+
+![A young athlete with a lower limb prosthesis prepares equipment on a grass field before an activity.](/assets/pamphlet_images/disabilities_awareness_p033_img1.png)
+
+| Req 4a(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. A Scouting event or campsite** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 4a(4): Public Exhibit Physical Accessibility Survey
+**Official Requirement 4a(4):** A public exhibit or attraction (such as a theater, museum, or park)
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4a(4) Structured Technical Study & Explanation Matrix (Public Exhibit or Attraction)
+- **Common Myth:** Placing designated wheelchair spaces in the back row of an auditorium or theater fulfills physical accessibility standards.
+- **Pamphlet Fact:** Accessibility guidelines require integrated wheelchair seating with companion seating and unobstructed sightlines across various viewing angles rather than isolating individuals in back corners.
+
+![Volunteers construct a wooden accessibility ramp to provide barrier-free entrance to a building.](/assets/pamphlet_images/disabilities_awareness_p037_img1.png)
+
+| Req 4a(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. A public exhibit or attraction (such as a theater, museum, or park)** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+### Accommodation: Facility Accommodations at Community & Scouting Sites
+**Official Requirement 4b (Parent Overview):** Option B, Accommodation. Visit TWO of the following locations and take notes while observing features and methods that are used to accommodate people with invisible disabilities. While there, ask staff members to explain any accommodation features that may not be obvious. Note anything you think could be done to better accommodate people who have invisible disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park)
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Group Organizer:** Concept & Examples Notes
+> **Guide to Safe Scouting Warning:** Use a standard tape measure cautiously to avoid blocking emergency exit corridors or tripping pedestrian traffic during audits.
 - **Common Myth:** Accommodating invisible disabilities always requires expensive structural renovations and specialized architectural construction.
 - **Pamphlet Fact:** Many effective accommodations involve low-cost procedural changes like visual schedules, designated quiet areas, and dimmed lighting.
 
+**Official Pamphlet Summary:**
+- Req 4b(1) (1): Your school.
+- Req 4b(2) (2): Your place of worship.
+- Req 4b(3) (3): A Scouting event or campsite.
+- Req 4b(4) (4): A public exhibit or attraction (such as a theater, museum, or park)
+
+#### Req 4b(1): School Invisible Disability Accommodation Review
+**Official Requirement 4b(1):** Your school.
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4b(1) Structured Technical Study & Explanation Matrix (Disabilities Awareness School Principles)
+- **Common Myth:** Academic accommodations for invisible disabilities consist solely of granting extra time on written examinations.
+- **Pamphlet Fact:** Effective school accommodations include sensory decompression spaces, visual instruction cues, modified lighting, and speech-to-text assistive technology that support diverse learning and neurological needs.
+
 ![An interpreter provides American Sign Language translation for audience members at a large event.](/assets/pamphlet_images/disabilities_awareness_p041_img1.png)
 
-| Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| Req 4b(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. (1) Your school** | `____________________________________` | `____________________________________` |
-| **2. (2) Your place of worship** | `____________________________________` | `____________________________________` |
-| **3. (3) A Scouting event or campsite** | `____________________________________` | `____________________________________` |
-| **4. (4) A public exhibit or attraction (such as a theater, museum, or park)** | `____________________________________` | `____________________________________` |
+| **1. Your school** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 4b(2): Place of Worship Invisible Disability Audit
+**Official Requirement 4b(2):** Your place of worship.
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4b(2) Structured Technical Study & Explanation Matrix (Place of Worship)
+- **Common Myth:** Places of worship require complete silence and uniform participation, making quiet rooms suitable only for infants rather than neurodivergent worshippers.
+- **Pamphlet Fact:** Inclusive congregations establish dedicated sensory rooms, provide tactile fidget kits, and offer visual service schedules so individuals with cognitive or sensory differences can participate comfortably.
+
+![Scouts observe an audio technician with visual impairment operating a professional mixing console.](/assets/pamphlet_images/disabilities_awareness_p047_img1.png)
+
+| Req 4b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. Your place of worship** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 4b(3): Scouting Event Invisible Disability
+**Official Requirement 4b(3):** A Scouting event or campsite.
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4b(3) Structured Technical Study & Explanation Matrix (Scouting Event or Campsite)
+- **Common Myth:** Scouting camp leaders must treat every Scout identically during outdoor activities to maintain discipline and fairness.
+- **Pamphlet Fact:** Fairness in Scouting means offering flexible adjustments like quiet cool-down areas, visual daily schedules, and personalized communication styles to help each Scout succeed.
+
+![A girl in a wheelchair hugs her service dog outdoors, showing the vital role of assistance animals.](/assets/pamphlet_images/disabilities_awareness_p049_img1.png)
+
+| Req 4b(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. A Scouting event or campsite** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 4b(4): Public Attraction Invisible Accommodation Audit
+**Official Requirement 4b(4):** A public exhibit or attraction (such as a theater, museum, or park)
+**Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4b(4) Structured Technical Study & Explanation Matrix (Public Exhibit or Attraction)
+- **Common Myth:** Public museums and theaters support invisible disabilities simply by posting general warning signs near strobe lights and loud exhibits.
+- **Pamphlet Fact:** Effective public venues provide comprehensive accommodations including sensory-friendly performance hours, visual social stories, tactile guides, and dedicated calming spaces.
+
+![Scouts practice emergency lifesaving techniques using a ring buoy and rescue line at a lake camp.](/assets/pamphlet_images/disabilities_awareness_p052_img1.png)
+
+| Req 4b(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. A public exhibit or attraction (such as a theater, museum, or park)** | `____________________________________` | `____________________________________` |
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
@@ -279,7 +367,7 @@
 - **Common Myth:** Volunteers must hold specialized medical certifications to provide any helpful assistance at disability agencies.
 - **Pamphlet Fact:** Trained agency staff supervise volunteers who assist with recreational activities, equipment staging, and social peer support.
 
-![An adaptive skier uses a monoski and outriggers while navigating a downhill slope with a guide.](/assets/pamphlet_images/disabilities_awareness_p030_img1.png)
+![A practitioner fits a supportive wrist and hand orthotic splint to enhance independent mobility.](/assets/pamphlet_images/disabilities_awareness_p059_img1.png)
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -294,8 +382,6 @@
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Disabilities Awareness Req 5c with your parent or guardian's approval in compliance with BSA Youth Protection.
 - **Common Myth:** Employees with disabilities show higher rates of workplace absenteeism and lower productivity than peers.
 - **Pamphlet Fact:** Department of Labor studies show workers with disabilities have equal or superior attendance and job retention rates.
-
-![A young athlete with a lower limb prosthesis prepares equipment on a grass field before an activity.](/assets/pamphlet_images/disabilities_awareness_p033_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -313,9 +399,9 @@
 - **Pamphlet Fact:** True positive attitude rejects pity and embraces mutual respect, civil rights, and equal participation as peers.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Disabilities Awareness Merit Badge Pamphlet and Fillable Scout Workbook (Req 6: Commitment to your counselor describing)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Commitment to your counselor describing
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Disabilities Awareness Merit: Commitment to your counselor describing.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Commitment to your counselor describing.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Scouts talk with a young man using an advanced power wheelchair equipped with specialized controls.](/assets/pamphlet_images/disabilities_awareness_p044_img1.png)
 

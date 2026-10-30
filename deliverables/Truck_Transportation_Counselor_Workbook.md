@@ -1,8 +1,8 @@
 # Truck Transportation Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Truck%20Transportation.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/truck-transportation/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/truck-transportation/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -161,9 +161,9 @@
 - **Pamphlet Fact:** Scheduled preventive maintenance prevents catastrophic highway component failures and roadside out-of-service violations.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Truck Transportation Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Truck Transportation Careers and Pathways)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Truck Transportation Careers and Pathways
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Truck Transportation Merit: Truck Transportation Careers and Pathways.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Truck Transportation Careers and Pathways.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A truck driver speaks with Scouts from the cab during an educational truck terminal visit.](/assets/pamphlet_images/truck_transportation_p030_img1.png)
 
@@ -251,9 +251,9 @@
 - **Pamphlet Fact:** Trucking departments manage dedicated responsibilities that support continuous commercial freight movement.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Truck Transportation Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Outline The General Organization)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Outline The General Organization
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Truck Transportation Merit: Outline The General Organization.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Outline The General Organization.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A driver daily logbook tracks commercial service hours to comply with federal highway regulations.](/assets/pamphlet_images/truck_transportation_p023_img1.png)
 

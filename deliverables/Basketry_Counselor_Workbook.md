@@ -1,8 +1,8 @@
 # Basketry Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Basketry.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/basketry/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/basketry/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -87,10 +87,10 @@
 - **Pamphlet Fact:** Coiled baskets rely on continuous sewing stitches that bind successive rounds of core material.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Basketry merit badge pamphlet and pattern worksheet for Req 2
-- [ ] Fabric swatches, thread spools, hand-sewing needles, and pin cushion
-- [ ] Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk
-- [ ] Completed sample piece and stitch log for Basket Types and Weaving Techniques
+- [ ] Official Basketry merit badge pamphlet and pattern worksheet for Req 2.
+- [ ] Fabric swatches, thread spools, hand-sewing needles, and pin cushion.
+- [ ] Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk.
+- [ ] Completed sample piece and stitch log for Basket Types and Weaving Techniques.
 
 ![Basketry Requirement 2 figure showing interlacing flat parallel splints creates checkerboard patterns across the basket wall.](/assets/pamphlet_images/basketry_p007_img1.png)
 

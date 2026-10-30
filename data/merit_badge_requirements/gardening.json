@@ -55,9 +55,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
           "common_misconception_pair": {
             "misconception": "Thirst serves as the primary indicator for when a gardener should consume water outdoors.",
-            "fact": "Regular water consumption and broad brimmed hats prevent heat exhaustion before dehydration sets in.",
-            "myth": "Thirst serves as the primary indicator for when a gardener should consume water outdoors.",
-            "fact_correction": "Regular water consumption and broad brimmed hats prevent heat exhaustion before dehydration sets in."
+            "fact": "Regular water consumption and broad brimmed hats prevent heat exhaustion before dehydration sets."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -128,9 +126,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
           "common_misconception_pair": {
             "misconception": "Minor scrapes from rusted metal tools require care only if active bleeding persists.",
-            "fact": "Garden soils harbor Clostridium tetani bacteria that enter through minor deep punctures.",
-            "myth": "Minor scrapes from rusted metal tools require care only if active bleeding persists.",
-            "fact_correction": "Garden soils harbor Clostridium tetani bacteria that enter through minor deep punctures."
+            "fact": "Garden soils harbor Clostridium tetani bacteria that enter through minor deep punctures."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -218,9 +214,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Gardening tools cause minimal bodily injury because manual soil cultivation requires little mechanical force.",
-        "fact": "Proper ergonomic posture and sharp hand bypass pruners reduce physical strain while preventing bacterial cross contamination in cuts.",
-        "myth": "Gardening tools cause minimal bodily injury because manual soil cultivation requires little mechanical force.",
-        "fact_correction": "Proper ergonomic posture and sharp hand bypass pruners reduce physical strain while preventing bacterial cross contamination in cuts."
+        "fact": "Proper ergonomic posture and sharp hand bypass pruners reduce physical strain while preventing bacterial cross contamination in cuts."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -256,13 +250,13 @@
         "Step 4 - Sanitizing Puncture Wounds: Flush abrasions with clean tap water and dress them with sterile gauze."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Gardening Hazards and First Aid",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Gardening Hazards and First Aid.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Garden Hazard Prevention Strategie",
+        "left_header": "Req 1a: Garden Hazard Prevention",
         "right_header": "Req 1b: Garden Injury First Aid",
         "left_points": [
           "(1a) Garden Hazard Prevention Strategies: Sunburn, dehydration, and sharp mechanical implements pose persistent dangers during seasonal plot preparation. Gardeners anticipate these risks by wearing protective gear and scheduling rest breaks in shaded areas."
@@ -272,27 +266,27 @@
         ],
         "rows": [
           {
-            "attribute": "Anticipating Common Garden Hazards",
-            "left": "(1a) Anticipating Common Garden Hazards: To ward off sunburn, frequently apply sunscreen with an SPFof at least 15 (p. 42).",
-            "right": "(1b) First Aid for Garden Injuries: You should at least be prepared for the following (p. 42)."
+            "attribute": "Tool Storage Safety",
+            "left": "(1a) Garden Hazard Prevention Strategies: Sunburn, dehydration, and sharp mechanical implements pose persistent dangers during seasonal plot preparation. Gardeners anticipate these risks by wearing protective gear and scheduling rest breaks in shaded areas.",
+            "right": "(1b) Garden Injury First Aid: Immediate first aid prevents secondary bacterial infections from soil organisms like tetanus. Promptly treat heat cramps with rest, cooling measures, and balanced electrolyte fluids."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Protective Garden Clothing: You can start by dressing appropriately for gardening, for instance, jeans, boots, gloves, hat, and a long-sleeved shirt for protection (p. 42).",
-            "right": "Step 2 - Prepare Emergency Supplies: You should at least be prepared for the following (p. 42)."
+            "attribute": "Hydration Maintenance",
+            "left": "Req 1a: Garden Hazard Prevention: Sunburn, dehydration, and sharp mechanical implements pose persistent dangers during seasonal plot preparation. Gardeners anticipate these risks by wearing protective gear and scheduling rest breaks in shaded areas.",
+            "right": "Req 1b: Garden Injury First Aid: Immediate first aid prevents secondary bacterial infections from soil organisms like tetanus. Promptly treat heat cramps with rest, cooling measures, and balanced electrolyte fluids."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Sunscreen Protection Standards: To ward off sunburn, frequently apply sunscreen with an SPFof at least 15 (p. 42).",
-            "right": "Step 3 - Flush Cuts With Water: Treat minor cuts and scrapes by flushing the area with clean water for at least five minutes to wash away foreign matter (p. 42)."
+            "attribute": "Tetanus Protection Protocol",
+            "left": "Tool Storage Safety: Place garden rakes and hoes with tines pointed downward into soil.",
+            "right": "Hydration Maintenance: Drink eight ounces of cool potable water every thirty minutes outdoors."
           }
         ]
       },
       "worked_example": {
-        "title": "Gardening Req 1 Exemplar Workbook Entry: Garden Safety and First Aid",
+        "title": "Gardening Req 1 Exemplar Workbook Entry: Garden Safety",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Garden Hazard Prevention Strategi": "Sunburn, dehydration, and sharp mechanical implements pose persistent dangers during seasonal plot preparation. Gardeners anticipate these risks by wearing protective gear and scheduling rest breaks in shaded areas.",
+          "Req 1a - Garden Hazard Prevention": "Sunburn, dehydration, and sharp mechanical implements pose persistent dangers during seasonal plot preparation. Gardeners anticipate these risks by wearing protective gear and scheduling rest breaks in shaded areas.",
           "Req 1b - Garden Injury First Aid": "Immediate first aid prevents secondary bacterial infections from soil organisms like tetanus. Promptly treat heat cramps with rest, cooling measures, and balanced electrolyte fluids."
         },
         "sample_output": "Garden Safety and First Aid: To ward off sunburn, frequently apply sunscreen with an SPFof at least 15 (p. 42).",
@@ -330,7 +324,33 @@
       "socratic_questions": [
         "How does resting tools with sharp edges pointed down prevent serious puncture trauma?",
         "Why is soil contamination particularly dangerous when treating an open skin puncture?",
-        "Which early physiological indicators warn you that heat exhaustion is starting to develop?"
+        "Which early physiological indicators warn you that heat exhaustion is starting to develop?",
+        "Why is it dangerous to leave a deep soil puncture wound unwashed even if the bleeding stops right away?",
+        "Which physical indicator distinguishes heat exhaustion from life-threatening heatstroke during summer weeding?",
+        "What happens to urushiol oil from poison ivy if you wipe your forehead with contaminated gardening gloves?",
+        "Under what condition does a routine bee or wasp sting in the garden require an immediate epinephrine injection?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Gardening tools cause minimal bodily injury because manual soil cultivation requires little mechanical force.",
+          "fact": "Proper ergonomic posture and sharp hand bypass pruners reduce physical strain while preventing bacterial cross contamination in cuts."
+        },
+        {
+          "misconception": "Tetanus bacteria only live on rusty metal garden tools rather than in organic garden soil and compost.",
+          "fact": "Clostridium tetani spores thrive in rich garden soil and manure, entering the body through any dirty puncture or scratch."
+        },
+        {
+          "misconception": "Burning pulled poison ivy vines with yard waste safely destroys the allergenic plant oils on contact.",
+          "fact": "Burning poison ivy vaporizes urushiol oil into the smoke, which can cause severe, life-threatening lung inflammation if inhaled."
+        },
+        {
+          "misconception": "Squeezing a honeybee venom sac with tweezers pulls the stinger out cleanly without injecting more venom.",
+          "fact": "Pinching the attached venom sac forces more toxin into the skin; scrape the stinger sideways using a flat edge like a credit card."
+        },
+        {
+          "misconception": "Cloudy overcast days block ultraviolet radiation enough that gardeners do not need sunscreen or wide-brimmed hats.",
+          "fact": "Up to 80 percent of solar ultraviolet rays penetrate cloud cover, requiring broad-spectrum SPF 30 sunscreen and protective clothing."
+        }
       ]
     },
     {
@@ -384,9 +404,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
             "misconception": "Direct sowing cool weather squash seeds into cold early spring soil accelerates development.",
-            "fact": "Tomato and pepper transplants require consistent root zone warmth above sixty degrees Fahrenheit.",
-            "myth": "Direct sowing cool weather squash seeds into cold early spring soil accelerates development.",
-            "fact_correction": "Tomato and pepper transplants require consistent root zone warmth above sixty degrees Fahrenheit."
+            "fact": "Tomato and pepper transplants require consistent root zone warmth above sixty degrees Fahrenheit."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -461,9 +479,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
             "misconception": "Annual flowering plants flourish best when seed pods form naturally on mature stems.",
-            "fact": "Removing spent blossoms redirects carbohydrates toward continuous floral bud production.",
-            "myth": "Annual flowering plants flourish best when seed pods form naturally on mature stems.",
-            "fact_correction": "Removing spent blossoms redirects carbohydrates toward continuous floral bud production."
+            "fact": "Removing spent blossoms redirects carbohydrates toward continuous floral bud production."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -562,9 +578,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Indoor vegetable seedlings can move straight into full outdoor sun without intermediate acclimation.",
-        "fact": "Seedlings need gradual outdoor hardening over one week to withstand ambient solar intensity.",
-        "myth": "Indoor vegetable seedlings can move straight into full outdoor sun without intermediate acclimation.",
-        "fact_correction": "Seedlings need gradual outdoor hardening over one week to withstand ambient solar intensity."
+        "fact": "Seedlings need gradual outdoor hardening over one week to withstand ambient solar intensity."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -600,14 +614,14 @@
         "Step 4 - Vegetative Growth Monitoring: Track weekly stem height, leaf expansion, blossom timing, and fruit maturity."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Flowers Three From Seeds",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Flowers Three From Seeds.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Vegetable Crop Cultivation Methods",
-        "right_header": "Req 2b: Ornamental Flower Care Techniques",
+        "left_header": "Req 2a: Vegetable Crop Cultivation",
+        "right_header": "Req 2b: Ornamental Flower Care",
         "left_points": [
           "(2a) Vegetable Crop Cultivation Methods: Vegetables demand balanced nitrogen for foliar growth and potassium for root expansion. Sowing seeds alongside transplanted starts teaches complementary irrigation and harvest schedules."
         ],
@@ -616,28 +630,28 @@
         ],
         "rows": [
           {
-            "attribute": "Cultivating Vegetables Through Harvest",
-            "left": "(2a) Cultivating Vegetables Through Harvest: Your garden has a better chance of surviving outdoors if you plant seedlings that already have roots (p. 45).",
-            "right": "(2b) Cultivating Flowers Through Blooming: Growing from seed is fun because you can watch the entire life cycle of a plant (p. 45)."
+            "attribute": "Seed Planting Depth",
+            "left": "(2a) Vegetable Crop Cultivation Methods: Vegetables demand balanced nitrogen for foliar growth and potassium for root expansion. Sowing seeds alongside transplanted starts teaches complementary irrigation and harvest schedules.",
+            "right": "(2b) Ornamental Flower Care Techniques: Flowering annuals and perennials enhance garden biodiversity while attracting specialized pollinators to adjacent crops. Soil pH and drainage dictate blossom pigmentation, stem rigidity, and root vigor."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Indoor Seed Germination Kits: It is best to sprout, germinate, seeds indoors in small pots or from seed-starting kits (p. 45).",
-            "right": "Step 2 - Transplant Rooted Seedlings Outdoors: Your garden has a better chance of surviving outdoors if you plant seedlings that already have roots (p. 45)."
+            "attribute": "Seedling Hardening Process",
+            "left": "Req 2a: Vegetable Crop Cultivation: Vegetables demand balanced nitrogen for foliar growth and potassium for root expansion. Sowing seeds alongside transplanted starts teaches complementary irrigation and harvest schedules.",
+            "right": "Req 2b: Ornamental Flower Care: Flowering annuals and perennials enhance garden biodiversity while attracting specialized pollinators to adjacent crops. Soil pH and drainage dictate blossom pigmentation, stem rigidity, and root vigor."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Daily Indoor Plant Observation: In addition, starting seeds indoors gives you the chance to see your plants several times a day (p. 45).",
-            "right": "Step 3 - Follow Your Garden Map: When you are ready to plant, use the map of your garden to place your plants in the areas you planned (p. 45)."
+            "attribute": "Flower Bed Mulching",
+            "left": "Seed Planting Depth: Bury vegetable seeds at depth equal to three times their width.",
+            "right": "Seedling Hardening Process: Acclimate indoor starts outdoors in partial shade over seven consecutive days."
           }
         ]
       },
       "worked_example": {
-        "title": "Gardening Req 2 Exemplar Workbook Entry: Growing Vegetables and Flowers",
+        "title": "Gardening Req 2 Exemplar Workbook Entry: Growing",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Vegetable Crop Cultivation Method": "Vegetables demand balanced nitrogen for foliar growth and potassium for root expansion. Sowing seeds alongside transplanted starts teaches complementary irrigation and harvest schedules.",
-          "Req 2b - Ornamental Flower Care Techniques": "Flowering annuals and perennials enhance garden biodiversity while attracting specialized pollinators to adjacent crops. Soil pH and drainage dictate blossom pigmentation, stem rigidity, and root vigor."
+          "Req 2a - Vegetable Crop Cultivation": "Vegetables demand balanced nitrogen for foliar growth and potassium for root expansion. Sowing seeds alongside transplanted starts teaches complementary irrigation and harvest schedules.",
+          "Req 2b - Ornamental Flower Care": "Flowering annuals and perennials enhance garden biodiversity while attracting specialized pollinators to adjacent crops. Soil pH and drainage dictate blossom pigmentation, stem rigidity, and root vigor."
         },
         "sample_output": "Growing Vegetables and Flowers: Your garden has a better chance of surviving outdoors if you plant seedlings that already have roots (p. 45).",
         "counselor_tip": "For Gardening Requirement 2 (Growing Vegetables and Flowers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47))."
@@ -674,7 +688,33 @@
       "socratic_questions": [
         "Why do direct seeded crops often develop stronger taproots than transplanted nursery seedlings?",
         "What environmental indicators tell a grower that a vegetable has reached peak maturity?",
-        "How does deadheading spent blooms stimulate secondary bud development on flowering annuals?"
+        "How does deadheading spent blooms stimulate secondary bud development on flowering annuals?",
+        "What happens to indoor-grown vegetable seedlings if you transplant them into full sun without hardening them off?",
+        "Which physical indicator on a seedling root ball shows that a nursery transplant has become severely root-bound?",
+        "Where should a Scout position tall stake-supported crops like tomatoes so they do not shade low-growing flowers?",
+        "What measurement confirms that your garden soil has warmed enough to direct-sow warm-season vegetable seeds?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Indoor vegetable seedlings can move straight into full outdoor sun without intermediate acclimation.",
+          "fact": "Seedlings need gradual outdoor hardening over one week to withstand ambient solar intensity."
+        },
+        {
+          "misconception": "Planting vegetable seeds twice as deep as the packet recommends anchors the emerging stem against heavy wind.",
+          "fact": "Sowing seeds too deeply exhausts their stored cotyledon energy before the shoot can reach sunlight at the soil surface."
+        },
+        {
+          "misconception": "Watering garden beds lightly every afternoon with a mist nozzle builds deep, drought-tolerant root systems.",
+          "fact": "Shallow daily sprinkling keeps roots near the hot surface and wets foliage; deep, infrequent morning soaking promotes deep roots."
+        },
+        {
+          "misconception": "Root vegetables like carrots and radishes recover quickly when started in indoor cell trays and transplanted.",
+          "fact": "Disturbing the delicate taproot of carrots or radishes during transplanting causes forked, stunted, or malformed storage roots."
+        },
+        {
+          "misconception": "High-nitrogen lawn fertilizer forces flowering annuals and fruiting tomatoes to produce maximum blossoms.",
+          "fact": "Excess nitrogen stimulates lush, leafy green foliage at the expense of flower buds and fruit set, which require phosphorus and potassium."
+        }
       ]
     },
     {
@@ -728,9 +768,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
             "misconception": "Root vegetables supply only simple sugars without contributing meaningful dietary vitamins.",
-            "fact": "Sweet potatoes store carotenoids and potassium within swollen storage root tissues.",
-            "myth": "Root vegetables supply only simple sugars without contributing meaningful dietary vitamins.",
-            "fact_correction": "Sweet potatoes store carotenoids and potassium within swollen storage root tissues."
+            "fact": "Sweet potatoes store carotenoids and potassium within swollen storage root tissues."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -809,9 +847,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
             "misconception": "Aboveground vegetables lack complex minerals because those elements remain locked inside soil roots.",
-            "fact": "Spinach and cabbage leaves deliver lutein, calcium, and vitamin K per serving.",
-            "myth": "Aboveground vegetables lack complex minerals because those elements remain locked inside soil roots.",
-            "fact_correction": "Spinach and cabbage leaves deliver lutein, calcium, and vitamin K per serving."
+            "fact": "Spinach and cabbage leaves deliver lutein, calcium, and vitamin K per serving."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -891,9 +927,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
             "misconception": "Botanical fruits contain the exact same sugar and fiber profiles as vegetative stems.",
-            "fact": "Melons and tree fruits synthesize high concentrations of natural fructose and pectin.",
-            "myth": "Botanical fruits contain the exact same sugar and fiber profiles as vegetative stems.",
-            "fact_correction": "Melons and tree fruits synthesize high concentrations of natural fructose and pectin."
+            "fact": "Melons and tree fruits synthesize high concentrations of natural fructose and pectin."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1010,9 +1044,7 @@
       },
       "common_misconception_pair": {
         "misconception": "All vegetables possess identical vitamin profiles regardless of whether roots or leaves are eaten.",
-        "fact": "Carrot roots synthesize beta carotene while storing carbohydrates for biennial plant survival.",
-        "myth": "All vegetables possess identical vitamin profiles regardless of whether roots or leaves are eaten.",
-        "fact_correction": "Carrot roots synthesize beta carotene while storing carbohydrates for biennial plant survival."
+        "fact": "Carrot roots synthesize beta carotene while storing carbohydrates for biennial plant survival."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1050,7 +1082,7 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 3a: Root And Tuber Nutrition",
-        "right_header": "Req 3b: Aboveground Vegetable Dietary Valu",
+        "right_header": "Req 3b: Aboveground Vegetable Dietary",
         "left_points": [
           "(3a) Root And Tuber Nutrition: Subterranean storage organs such as carrots, beets, and potatoes store energy as starch. These dense roots and tubers deliver essential potassium, iron, and antioxidant compounds."
         ],
@@ -1059,28 +1091,28 @@
         ],
         "rows": [
           {
-            "attribute": "Root and Tuber Crops",
-            "left": "(3a) Root and Tuber Crops: No matter what kind of garden you choose to grow, you will use special tools, called implements, to help you work with your garden (p. 41).",
-            "right": "(3b) Vegetables Bearing Above Ground: You probably will need aspade or small shovel, a hoe, a rake, a yardstick, bamboo or other wooden stakes, and stretchable garden string (p. 41)."
+            "attribute": "Carrot Nutritional Value",
+            "left": "(3a) Root And Tuber Nutrition: Subterranean storage organs such as carrots, beets, and potatoes store energy as starch. These dense roots and tubers deliver essential potassium, iron, and antioxidant compounds.",
+            "right": "(3b) Aboveground Vegetable Dietary Value: Aboveground vegetables including broccoli, green beans, and leafy greens capture direct solar energy. Their edible tissues provide concentrated vitamin K, folates, and dietary roughage."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Tools and Measuring Supplies: You probably will need aspade or small shovel, a hoe, a rake, a yardstick, bamboo or other wooden stakes, and stretchable garden string (p. 41).",
-            "right": "(3c) Nutrient Rich Fruit Crops: You also might want a pair of garden gloves to help protect your hands (p. 41)."
+            "attribute": "Broccoli Floret Chemistry",
+            "left": "Req 3a: Root And Tuber Nutrition: Subterranean storage organs such as carrots, beets, and potatoes store energy as starch. These dense roots and tubers deliver essential potassium, iron, and antioxidant compounds.",
+            "right": "Req 3b: Aboveground Vegetable: Aboveground vegetables including broccoli, green beans, and leafy greens capture direct solar energy. Their edible tissues provide concentrated vitamin K, folates, and dietary roughage."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Hand Protection Gloves: You also might want a pair of garden gloves to help protect your hands (p. 41).",
-            "right": "Step 3 - Select Compatible Food Crops: Before you plant your garden, Planning Your Garden decide what crops After you have decided what you want to grow, identify which crops grow (p. 41)."
+            "attribute": "Berry Nutrient Content",
+            "left": "Req 3c: Fruit Nutrient Profiles: Mature fruit bodies protect developing botanical seeds while concentrating sugars and organic acids. They provide essential ascorbic acid, bioflavonoids, and soluble pectin fibers.",
+            "right": "Broccoli Floret Chemistry: Aboveground green clusters supply significant dietary fiber along with ascorbic acid."
           }
         ]
       },
       "worked_example": {
-        "title": "Gardening Req 3 Exemplar Workbook Entry: Nutritional Value of Garden Crops",
+        "title": "Gardening Req 3 Exemplar Workbook Entry: Nutritional",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 3a - Root And Tuber Nutrition": "Subterranean storage organs such as carrots, beets, and potatoes store energy as starch. These dense roots and tubers deliver essential potassium, iron, and antioxidant compounds.",
-          "Req 3b - Aboveground Vegetable Dietary Val": "Aboveground vegetables including broccoli, green beans, and leafy greens capture direct solar energy. Their edible tissues provide concentrated vitamin K, folates, and dietary roughage.",
+          "Req 3b - Aboveground Vegetable Dietary": "Aboveground vegetables including broccoli, green beans, and leafy greens capture direct solar energy. Their edible tissues provide concentrated vitamin K, folates, and dietary roughage.",
           "Req 3c - Fruit Nutrient Profiles": "Mature fruit bodies protect developing botanical seeds while concentrating sugars and organic acids. They provide essential ascorbic acid, bioflavonoids, and soluble pectin fibers."
         },
         "sample_output": "Nutritional Value of Garden Crops: No matter what kind of garden you choose to grow, you will use special tools, called implements, to help you work with your garden (p. 41).",
@@ -1118,7 +1150,33 @@
       "socratic_questions": [
         "Why do underground storage organs accumulate higher starch concentrations than aboveground leaves?",
         "How does solar radiation alter the nutrient composition of exposed fruits versus subterranean roots?",
-        "Which physiological functions do dietary fiber and ascorbic acid support in human metabolism?"
+        "Which physiological functions do dietary fiber and ascorbic acid support in human metabolism?",
+        "Which botanical structure inside a ripened flower ovary classifies a tomato or squash as a fruit rather than a vegetable?",
+        "What happens to the water-soluble vitamin C content of broccoli or spinach when boiled in a large pot of water?",
+        "Why is it nutritionally beneficial to scrub rather than peel thin-skinned tuber crops like potatoes before cooking?",
+        "Which fat-soluble vitamin precursor gives orange root crops like carrots and sweet potatoes their vibrant pigment?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "All vegetables possess identical vitamin profiles regardless of whether roots or leaves are eaten.",
+          "fact": "Carrot roots synthesize beta carotene while storing carbohydrates for biennial plant survival."
+        },
+        {
+          "misconception": "White potatoes and sweet potatoes are both modified taproots that store identical amounts of beta-carotene.",
+          "fact": "White potatoes are stem tubers rich in potassium and vitamin C, while sweet potatoes are storage roots packed with beta-carotene."
+        },
+        {
+          "misconception": "Botanical fruits must taste sweet and grow on woody trees or perennial bushes rather than annual garden vines.",
+          "fact": "Any seed-bearing structure that develops from the fertilized ovary of a flower, including cucumbers, peppers, and peas, is a fruit."
+        },
+        {
+          "misconception": "Dietary fiber in leafy greens and fruit skins provides a major source of digestible calories for human muscles.",
+          "fact": "Human enzymes cannot digest plant cellulose fiber, which instead adds bulk to aid digestion and regulate blood sugar absorption."
+        },
+        {
+          "misconception": "Harvested sweet corn and garden peas gain additional simple sugars as they sit on a warm kitchen counter for days.",
+          "fact": "Respiration rapidly converts the natural sugars in freshly picked sweet corn and peas into starchy carbohydrates unless chilled."
+        }
       ]
     },
     {
@@ -1177,9 +1235,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Every commercial seed within a packet is guaranteed to produce a viable seedling.",
-        "fact": "Low seed germination percentages often result from old embryonic age or excessive damping off fungal moisture.",
-        "myth": "Every commercial seed within a packet is guaranteed to produce a viable seedling.",
-        "fact_correction": "Low seed germination percentages often result from old embryonic age or excessive damping off fungal moisture."
+        "fact": "Low seed germination percentages often result from old embryonic age or excessive damping off fungal moisture."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1216,38 +1272,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Viable Sprouting Seeds in Tests",
-        "right_header": "Dormant or Nonviable Seed Causes",
+        "left_header": "Req 4: Delayed Chemical Burn Symptoms",
+        "right_header": "Req 4: Brush Off Dry Chemicals",
         "left_points": [
           "Delayed Chemical Burn Symptoms: A chemical burn might not be immediately noticeable (p. 59).",
           "Persistent Dry Chemical Hazards: However, as long as the dry chemical is on the skin, it will continue to burn (p. 59).",
           "Brushing Off Dry Chemicals: Quickly brush off as much of the chemical as possible using a gloved hand (p. 59)."
         ],
         "right_points": [
-          "Step 1 - Brush Off Dry Chemicals: Quickly brush off as much of the chemical as possible using a gloved hand (p. 59).",
-          "Step 2 - Flush Skin With Water: Dilute the exposure by continuously flushing the area with water for at least 15 to 20 minutes and seek medical attention (p. 59).",
-          "Step 3 - Protect Local Pollinator Habitats: In recent years, scientists have been concerned about the declining populations of pollinators, very likely caused by habitat loss (p. 59)."
+          "Brush Off Dry Chemicals: Quickly brush off as much of the chemical as possible using a gloved hand (p. 59).",
+          "Flush Skin With Water: Dilute the exposure by continuously flushing the area with water for at least 15 to 20 minutes and seek medical attention (p. 59).",
+          "Protect Local Pollinator Habitats: In recent years, scientists have been concerned about the declining populations of pollinators, very likely caused by habitat loss (p. 59)."
         ],
         "rows": [
           {
-            "attribute": "Delayed Chemical Burn Symptoms",
+            "attribute": "Moisture Towel Setup",
             "left": "Delayed Chemical Burn Symptoms: A chemical burn might not be immediately noticeable (p. 59).",
-            "right": "Step 1 - Brush Off Dry Chemicals: Quickly brush off as much of the chemical as possible using a gloved hand (p. 59)."
+            "right": "Brush Off Dry Chemicals: Quickly brush off as much of the chemical as possible using a gloved hand (p. 59)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Incubation Temperature Control",
             "left": "Persistent Dry Chemical Hazards: However, as long as the dry chemical is on the skin, it will continue to burn (p. 59).",
-            "right": "Step 2 - Flush Skin With Water: Dilute the exposure by continuously flushing the area with water for at least 15 to 20 minutes and seek medical attention (p. 59)."
+            "right": "Flush Skin With Water: Dilute the exposure by continuously flushing the area with water for at least 15 to 20 minutes and seek medical attention (p. 59)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Sprout Viability Standard",
             "left": "Brushing Off Dry Chemicals: Quickly brush off as much of the chemical as possible using a gloved hand (p. 59).",
-            "right": "Step 3 - Protect Local Pollinator Habitats: In recent years, scientists have been concerned about the declining populations of pollinators, very likely caused by habitat loss (p. 59)."
+            "right": "Protect Local Pollinator Habitats: In recent years, scientists have been concerned about the declining populations of pollinators, very likely caused by habitat loss (p. 59)."
           }
         ]
       },
       "worked_example": {
-        "title": "Gardening Req 4 Exemplar Workbook Entry: Seed Germination Rate Testing",
+        "title": "Gardening Req 4 Exemplar Workbook Entry: Seed",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Delayed Chemical Burn Symptoms": "A chemical burn might not be immediately noticeable (p. 59).",
@@ -1290,7 +1346,33 @@
       "socratic_questions": [
         "What biological factors cause some seeds in a uniform lot to fail to germinate?",
         "How would you adjust your outdoor planting density if your sample achieved only sixty percent germination?",
-        "Why must seeds maintain constant contact with moisture and oxygen during the sprouting process?"
+        "Why must seeds maintain constant contact with moisture and oxygen during the sprouting process?",
+        "Why is it important to test exactly 100 randomly selected seeds rather than cherry-picking only the plumpest ones?",
+        "What happens to dormant seeds inside a sealed germination bag if the paper towel is dripping wet with standing water?",
+        "Which embryonic plant part emerges first from a viable seed coat to confirm that germination has truly begun?",
+        "What adjustment should a Scout make to garden row spacing if a viability test shows only 60 percent germination?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Every commercial seed within a packet is guaranteed to produce a viable seedling.",
+          "fact": "Low seed germination percentages often result from old embryonic age or excessive damping off fungal moisture."
+        },
+        {
+          "misconception": "All vegetable seeds require bright direct sunlight on a sunny windowsill to trigger initial radicle emergence.",
+          "fact": "Most vegetable seeds germinate best in warm darkness because they rely on stored endosperm food until their leaves reach light."
+        },
+        {
+          "misconception": "Seeds that float to the top of a glass of water are guaranteed to be dead, while all sinking seeds will sprout.",
+          "fact": "Float tests are unreliable because many viable thin or winged seeds naturally trap air, while waterlogged dead seeds can sink."
+        },
+        {
+          "misconception": "Storing leftover seed packets in a hot, humid garden shed preserves embryo viability until the next planting season.",
+          "fact": "High heat and humidity accelerate seed respiration and fungal mold; seeds stay viable longest in cool, dry, airtight containers."
+        },
+        {
+          "misconception": "A seed lot with a 50 percent germination rate must be thrown away because none of its seedlings will grow vigorously.",
+          "fact": "Seed lots with moderate viability can still produce healthy crops if you sow them at twice the normal density and thin as needed."
+        }
       ]
     },
     {
@@ -1347,9 +1429,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Agricultural extension services exist solely to assist large commercial farming corporations.",
-        "fact": "County extension agents analyze local soil chemistry and provide tailored crop recommendations for regional microclimates.",
-        "myth": "Agricultural extension services exist solely to assist large commercial farming corporations.",
-        "fact_correction": "County extension agents analyze local soil chemistry and provide tailored crop recommendations for regional microclimates."
+        "fact": "County extension agents analyze local soil chemistry and provide tailored crop recommendations for regional microclimates."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1385,44 +1465,44 @@
         "Step 4 - Findings Summary Report: Present observed agricultural methods and soil testing procedures to the counselor."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for County Extension Office Local University",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for County Extension Office Local University.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Research Focused County Extension Offices",
-        "right_header": "Living Displays at Botanical Gardens",
+        "left_header": "Req 5: Zippered Protective Bee Suits",
+        "right_header": "Req 5: Put On Structured Veil",
         "left_points": [
           "Zippered Protective Bee Suits: A bee suit, a zippered coverall fastened at the wrists and ankles with loop and hook bands, is safe and easy to use (p. 47).",
           "Boots and Leather Gloves: Wear high-topped shoes or boots and good leather gloves (p. 47).",
           "Stiff Wire Screen Veils: Always wear a veil, preferably one with a stiff screen made of wire or plastic so it stands out from your face (p. 47)."
         ],
         "right_points": [
-          "Step 1 - Put On Structured Veil: Always wear a veil, preferably one with a stiff screen made of wire or plastic so it stands out from your face (p. 47).",
-          "Step 2 - Keep Veil On Always: You should never be without a veil when working with bees (p. 47).",
-          "Step 3 - Verify Gear Fits Securely: Most important is that you feel safe with your gear (p. 47)."
+          "Put On Structured Veil: Always wear a veil, preferably one with a stiff screen made of wire or plastic so it stands out from your face (p. 47).",
+          "Keep Veil On Always: You should never be without a veil when working with bees (p. 47).",
+          "Verify Gear Fits Securely: Most important is that you feel safe with your gear (p. 47)."
         ],
         "rows": [
           {
-            "attribute": "Zippered Protective Bee Suits",
+            "attribute": "Site Resource Identification",
             "left": "Zippered Protective Bee Suits: A bee suit, a zippered coverall fastened at the wrists and ankles with loop and hook bands, is safe and easy to use (p. 47).",
-            "right": "Step 1 - Put On Structured Veil: Always wear a veil, preferably one with a stiff screen made of wire or plastic so it stands out from your face (p. 47)."
+            "right": "Put On Structured Veil: Always wear a veil, preferably one with a stiff screen made of wire or plastic so it stands out from your face (p. 47)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Soil Testing Support",
             "left": "Boots and Leather Gloves: Wear high-topped shoes or boots and good leather gloves (p. 47).",
-            "right": "Step 2 - Keep Veil On Always: You should never be without a veil when working with bees (p. 47)."
+            "right": "Keep Veil On Always: You should never be without a veil when working with bees (p. 47)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Nursery Crop Selection",
             "left": "Stiff Wire Screen Veils: Always wear a veil, preferably one with a stiff screen made of wire or plastic so it stands out from your face (p. 47).",
-            "right": "Step 3 - Verify Gear Fits Securely: Most important is that you feel safe with your gear (p. 47)."
+            "right": "Verify Gear Fits Securely: Most important is that you feel safe with your gear (p. 47)."
           }
         ]
       },
       "worked_example": {
-        "title": "Gardening Req 5 Exemplar Workbook Entry: Exploring Agricultural and Botanical Sites",
+        "title": "Gardening Req 5 Exemplar Workbook Entry: Exploring",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Zippered Protective Bee Suits": "A bee suit, a zippered coverall fastened at the wrists and ankles with loop and hook bands, is safe and easy to use (p. 47).",
@@ -1464,8 +1544,34 @@
       "pamphlet_summary": "Visiting an agricultural extension office or commercial horticultural facility connects home gardening concepts to professional crop science. Scouts explore regional soil analysis, climate adapted plant cultivars, and integrated pest management systems practiced by horticultural specialists.",
       "socratic_questions": [
         "What specific agricultural challenges in our local county do extension agents help gardeners solve?",
-        "How do commercial nurseries control environmental variables like humidity, light, and irrigation?",
-        "Which discoveries from your agricultural site visit can you adopt in your own home garden?"
+        "In what specific ways do commercial nurseries control environmental variables like humidity, light, and irrigation?",
+        "Which discoveries from your agricultural site visit can you adopt in your own home garden?",
+        "What soil sampling procedure must you follow in your garden before bringing a sample to a county extension office?",
+        "Which scientific naming convention on botanical garden plaques avoids confusion caused by regional common plant names?",
+        "Where should a nursery quarantine newly delivered plant stock to prevent introducing pests into production greenhouses?",
+        "What environmental parameters inside a commercial greenhouse are regulated to harden or force seasonal plant growth?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Agricultural extension services exist solely to assist large commercial farming corporations.",
+          "fact": "County extension agents analyze local soil chemistry and provide tailored crop recommendations for regional microclimates."
+        },
+        {
+          "misconception": "An arboretum and a commercial retail nursery serve the exact same scientific mission of selling seasonal bedding plants.",
+          "fact": "An arboretum is a living museum dedicated to researching, conserving, and displaying woody trees and shrubs for public education."
+        },
+        {
+          "misconception": "A single scoop of soil taken from one corner of a garden bed gives a county extension lab an accurate nutrient profile.",
+          "fact": "Accurate soil tests require mixing multiple core samples taken from 6 inches deep across the entire planting area into a composite."
+        },
+        {
+          "misconception": "County cooperative extension offices only advise multi-acre commercial farms and do not assist backyard gardeners.",
+          "fact": "Land-grant university extension offices provide local homeowners and Scouts with soil testing, pest diagnostics, and planting guides."
+        },
+        {
+          "misconception": "Any thriving perennial displayed inside a botanical garden conservatory will survive outdoors in the local winter zone.",
+          "fact": "Glass conservatories maintain controlled tropical or arid microclimates for plants that would freeze outdoors in local USDA zones."
+        }
       ]
     },
     {
@@ -1526,9 +1632,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Wind and self pollination can easily replace bee pollination for all commercial fruit crops.",
-        "fact": "Honeybees carry pollen in specialized corbiculae while pollinating approximately one third of human food crops.",
-        "myth": "Wind and self pollination can easily replace bee pollination for all commercial fruit crops.",
-        "fact_correction": "Honeybees carry pollen in specialized corbiculae while pollinating approximately one third of human food crops."
+        "fact": "Honeybees carry pollen in specialized corbiculae while pollinating approximately one third of human food crops."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1565,38 +1669,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Managed Honeybee Colony Pollination Advantages",
-        "right_header": "Wild Pollinators Like Bats and Birds",
+        "left_header": "Req 6: Ancient Human Bee Partnership",
+        "right_header": "Req 6: Recognize Crop Pollination Value",
         "left_points": [
           "Ancient Human Bee Partnership: You may have never thought much about honey bees, but there has been a strong relationship between bees and humans for thousands of years (p. 59).",
           "Pollinator Importance for Food: Without these winged creatures, many of our food sources would be in great peril (p. 59).",
           "Crop and Feed Pollination: We rely on honeybees not only for the sweet honey they make, but more importantly for their ability to pollinate many of the crops and livestock feed (p. 59)."
         ],
         "right_points": [
-          "Step 1 - Recognize Crop Pollination Value: We rely on honeybees not only for the sweet honey they make, but more importantly for their ability to pollinate many of the crops and livestock feed (p. 59).",
-          "Step 2 - Observe Flower Pollen Transfer: Some plants can produce seeds only if pollen is exchanged between flowers on the same plant, or from flowers of different plants from the same variety (p. 59).",
-          "Step 3 - Identify Diverse Native Pollinators: Birds, bats, bumblebees, butterflies, and many other creatures help transfer pollen as they flit from flower to flower or feed on the nectar (p. 59)."
+          "Recognize Crop Pollination Value: We rely on honeybees not only for the sweet honey they make, but more importantly for their ability to pollinate many of the crops and livestock feed (p. 59).",
+          "Observe Flower Pollen Transfer: Some plants can produce seeds only if pollen is exchanged between flowers on the same plant, or from flowers of different plants from the same variety (p. 59).",
+          "Identify Diverse Native Pollinators: Birds, bats, bumblebees, butterflies, and many other creatures help transfer pollen as they flit from flower to flower or feed on the nectar (p. 59)."
         ],
         "rows": [
           {
-            "attribute": "Ancient Human Bee Partnership",
+            "attribute": "Foraging Behavior Mechanism",
             "left": "Ancient Human Bee Partnership: You may have never thought much about honey bees, but there has been a strong relationship between bees and humans for thousands of years (p. 59).",
-            "right": "Step 1 - Recognize Crop Pollination Value: We rely on honeybees not only for the sweet honey they make, but more importantly for their ability to pollinate many of the crops and livestock feed (p. 59)."
+            "right": "Recognize Crop Pollination Value: We rely on honeybees not only for the sweet honey they make, but more importantly for their ability to pollinate many of the crops and livestock feed (p. 59)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Pollination Food Impact",
             "left": "Pollinator Importance for Food: Without these winged creatures, many of our food sources would be in great peril (p. 59).",
-            "right": "Step 2 - Observe Flower Pollen Transfer: Some plants can produce seeds only if pollen is exchanged between flowers on the same plant, or from flowers of different plants from the same variety (p. 59)."
+            "right": "Observe Flower Pollen Transfer: Some plants can produce seeds only if pollen is exchanged between flowers on the same plant, or from flowers of different plants from the same variety (p. 59)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Colony Stress Factors",
             "left": "Crop and Feed Pollination: We rely on honeybees not only for the sweet honey they make, but more importantly for their ability to pollinate many of the crops and livestock feed (p. 59).",
-            "right": "Step 3 - Identify Diverse Native Pollinators: Birds, bats, bumblebees, butterflies, and many other creatures help transfer pollen as they flit from flower to flower or feed on the nectar (p. 59)."
+            "right": "Identify Diverse Native Pollinators: Birds, bats, bumblebees, butterflies, and many other creatures help transfer pollen as they flit from flower to flower or feed on the nectar (p. 59)."
           }
         ]
       },
       "worked_example": {
-        "title": "Gardening Req 6 Exemplar Workbook Entry: Honeybee Pollination and Population Threats",
+        "title": "Gardening Req 6 Exemplar Workbook Entry: Honeybee",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Ancient Human Bee Partnership": "You may have never thought much about honey bees, but there has been a strong relationship between bees and humans for thousands of years (p. 59).",
@@ -1639,7 +1743,33 @@
       "socratic_questions": [
         "How does the anatomical structure of a honeybee facilitate pollen transfer between flowering plants?",
         "What biological pressures have contributed to widespread colony collapse disorder over recent decades?",
-        "In what ways would human dietary nutrition change if insect pollinated crops disappeared?"
+        "In what ways would human dietary nutrition change if insect pollinated crops disappeared?",
+        "Which behavioral trait makes honeybees called floral-constant during a single foraging trip across an orchard?",
+        "Why is it dangerous to honeybees when a gardener sprays broad-spectrum insecticides on open blossoms during midday?",
+        "What happens to the shape and seed development of a cucumber or squash if its female flower receives too little pollen?",
+        "Which parasitic mite feeds on developing honeybee pupae inside capped brood cells and transmits debilitating viruses?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Wind and self pollination can easily replace bee pollination for all commercial fruit crops.",
+          "fact": "Honeybees carry pollen in specialized corbiculae while pollinating approximately one third of human food crops."
+        },
+        {
+          "misconception": "Cereal grains like wheat, corn, and rice depend on honeybee visits to set seed and would vanish without insect pollinators.",
+          "fact": "Wind pollinates staple grasses like wheat, corn, and rice, whereas insects pollinate nutrient-dense fruits, nuts, and vegetables."
+        },
+        {
+          "misconception": "Worker honeybees intentionally collect pollen grains just to fertilize the flowers they visit for the gardener.",
+          "fact": "Bees gather protein-rich pollen and sugary nectar to feed their colony brood, transferring pollen between flower stigmas by accident."
+        },
+        {
+          "misconception": "Systemic neonicotinoid pesticides applied to soil stay locked in plant roots and never reach flower nectar or pollen.",
+          "fact": "Vascular tissues transport systemic insecticides throughout the entire plant, exposing foraging bees to neurotoxins in nectar."
+        },
+        {
+          "misconception": "Large single-crop agricultural monocultures provide year-round balanced nutrition for resident honeybee colonies.",
+          "fact": "Monoculture fields bloom for only a few weeks, leaving bees with a nutritional desert unless diverse wildflowers bloom nearby."
+        }
       ]
     },
     {
@@ -1702,9 +1832,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Broad spectrum synthetic pesticides should be sprayed immediately at the first sight of insects.",
-        "fact": "Insecticidal soap dissolves protective cuticles of soft bodied pests while preserving soil microbial integrity.",
-        "myth": "Broad spectrum synthetic pesticides should be sprayed immediately at the first sight of insects.",
-        "fact_correction": "Insecticidal soap dissolves protective cuticles of soft bodied pests while preserving soil microbial integrity."
+        "fact": "Insecticidal soap dissolves protective cuticles of soft bodied pests while preserving soil microbial integrity."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1741,38 +1869,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Organic and Biological Pest Controls",
-        "right_header": "Regulated Chemical Pesticide Applications",
+        "left_header": "Req 7: Reading Treatment Labels",
+        "right_header": "Req 7: Identify Target Insect Pests",
         "left_points": [
           "Reading Treatment Labels Carefully: Always carefully read the label on all pesticides, fertilizers, and other treatments (p. 58).",
           "Adult Supervision for Chemicals: Follow the manufacturer'sinstructions, and use these chemicals only under close adult supervision (p. 58).",
           "How Chemical Insecticides Work: Pesticides, also called insecticides, are chemical mixtures that kill bugs (p. 58)."
         ],
         "right_points": [
-          "Step 1 - Identify Target Insect Pests: Pesticides, also called insecticides, are chemical mixtures that kill bugs (p. 58).",
-          "Step 2 - Apply Treatments Properly: Properly used, they provide quick, effective ways to control insects and disease in your garden (p. 58).",
-          "Step 3 - Check State Pesticide Regulations: Many states further regulate the use of some pesticides (p. 58)."
+          "Identify Target Insect Pests: Pesticides, also called insecticides, are chemical mixtures that kill bugs (p. 58).",
+          "Apply Treatments Properly: Properly used, they provide quick, effective ways to control insects and disease in your garden (p. 58).",
+          "Check State Pesticide Regulations: Many states further regulate the use of some pesticides (p. 58)."
         ],
         "rows": [
           {
-            "attribute": "Reading Treatment Labels Carefully",
+            "attribute": "Aphid Damage Detection",
             "left": "Reading Treatment Labels Carefully: Always carefully read the label on all pesticides, fertilizers, and other treatments (p. 58).",
-            "right": "Step 1 - Identify Target Insect Pests: Pesticides, also called insecticides, are chemical mixtures that kill bugs (p. 58)."
+            "right": "Identify Target Insect Pests: Pesticides, also called insecticides, are chemical mixtures that kill bugs (p. 58)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Fungal Blight Symptoms",
             "left": "Adult Supervision for Chemicals: Follow the manufacturer'sinstructions, and use these chemicals only under close adult supervision (p. 58).",
-            "right": "Step 2 - Apply Treatments Properly: Properly used, they provide quick, effective ways to control insects and disease in your garden (p. 58)."
+            "right": "Apply Treatments Properly: Properly used, they provide quick, effective ways to control insects and disease in your garden (p. 58)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Organic Soap Control",
             "left": "How Chemical Insecticides Work: Pesticides, also called insecticides, are chemical mixtures that kill bugs (p. 58).",
-            "right": "Step 3 - Check State Pesticide Regulations: Many states further regulate the use of some pesticides (p. 58)."
+            "right": "Check State Pesticide Regulations: Many states further regulate the use of some pesticides (p. 58)."
           }
         ]
       },
       "worked_example": {
-        "title": "Gardening Req 7 Exemplar Workbook Entry: Identifying Pests and Organic Controls",
+        "title": "Gardening Req 7 Exemplar Workbook Entry: Identifying",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Reading Treatment Labels Carefully": "Always carefully read the label on all pesticides, fertilizers, and other treatments (p. 58).",
@@ -1814,8 +1942,34 @@
       "pamphlet_summary": "Effective integrated pest management begins with scouting for specific plant symptoms like leaf curling, stippling, and fungal spores. Controlling garden pests requires combining organic solutions such as predatory insects or horticultural soaps alongside targeted physical or chemical treatments.",
       "socratic_questions": [
         "Why is preserving beneficial predatory insects essential when managing an active aphid infestation?",
-        "How do cultural controls like crop rotation disrupt recurring fungal and insect life cycles?",
-        "What distinguishes an organic mechanical control from a systemic synthetic chemical treatment?"
+        "In what specific ways do cultural controls like crop rotation disrupt recurring fungal and insect life cycles?",
+        "What distinguishes an organic mechanical control from a systemic synthetic chemical treatment?",
+        "Why is it critical to distinguish chewing damage from piercing-sucking damage before choosing an organic pest control?",
+        "What happens to beneficial ladybugs and lacewings when you spray a non-selective synthetic pyrethroid across a garden?",
+        "Under what condition does splashing irrigation water onto lower tomato leaves trigger an outbreak of early blight?",
+        "Where should a Scout inspect host plants to locate camouflaged tomato hornworms or clusters of squash bug eggs?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Broad spectrum synthetic pesticides should be sprayed immediately at the first sight of insects.",
+          "fact": "Insecticidal soap dissolves protective cuticles of soft bodied pests while preserving soil microbial integrity."
+        },
+        {
+          "misconception": "Every beetle or insect larva spotted on a vegetable leaf is a destructive pest that should be crushed immediately.",
+          "fact": "Many garden insects, including alligator-shaped ladybug larvae and hoverfly maggots, are beneficial predators that devour aphids."
+        },
+        {
+          "misconception": "Spraying bacterial Bacillus thuringiensis (Bt) kills sap-sucking aphids, spider mites, and adult squash bugs on contact.",
+          "fact": "Standard Bt (kurstaki) must be eaten by actively feeding caterpillars to work and has no effect on aphids, beetles, or spider mites."
+        },
+        {
+          "misconception": "Organic insecticidal soap and neem oil cannot burn plant leaves even when sprayed in hot midday summer sunlight.",
+          "fact": "Applying soaps or horticultural oils above 85 degrees Fahrenheit or in direct sun causes severe leaf scorch (phytotoxicity)."
+        },
+        {
+          "misconception": "Composting tomato vines infected with late blight or wilt fungi in a cold backyard pile sterilizes the plant pathogens.",
+          "fact": "Cold home compost piles rarely get hot enough to kill fungal spores, so diseased vines must be bagged and removed from the garden."
+        }
       ]
     },
     {
@@ -1861,9 +2015,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
             "misconception": "Piling dry leaves in an unmixed heap produces finished compost in two weeks.",
-            "fact": "Maintaining internal pile temperatures above one hundred thirty degrees destroys weed seeds.",
-            "myth": "Piling dry leaves in an unmixed heap produces finished compost in two weeks.",
-            "fact_correction": "Maintaining internal pile temperatures above one hundred thirty degrees destroys weed seeds."
+            "fact": "Maintaining internal pile temperatures above one hundred thirty degrees destroys weed seeds."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1934,9 +2086,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
             "misconception": "Common earthworms dug from garden soil perform effectively inside closed indoor worm bins.",
-            "fact": "Red wigglers thrive inside shredded damp cardboard within fifty five to seventy seven degrees.",
-            "myth": "Common earthworms dug from garden soil perform effectively inside closed indoor worm bins.",
-            "fact_correction": "Red wigglers thrive inside shredded damp cardboard within fifty five to seventy seven degrees."
+            "fact": "Red wigglers thrive inside shredded damp cardboard within fifty five to seventy seven degrees."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2013,9 +2163,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
             "misconception": "Plants grown in hydroponic water reservoirs do not require supplemental root zone oxygen.",
-            "fact": "Hydroponic crops need daily electrical conductivity and pH monitoring between 5.5 and 6.5.",
-            "myth": "Plants grown in hydroponic water reservoirs do not require supplemental root zone oxygen.",
-            "fact_correction": "Hydroponic crops need daily electrical conductivity and pH monitoring between 5.5 and 6.5."
+            "fact": "Hydroponic crops need daily electrical conductivity and pH monitoring between 5.5 and 6.5."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2088,9 +2236,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
             "misconception": "Clear decorative garden ponds require continuous chemical algaecide treatments to stay clean.",
-            "fact": "Submerged aquatic plants produce dissolved oxygen while outcompeting single celled green algae.",
-            "myth": "Clear decorative garden ponds require continuous chemical algaecide treatments to stay clean.",
-            "fact_correction": "Submerged aquatic plants produce dissolved oxygen while outcompeting single celled green algae."
+            "fact": "Submerged aquatic plants produce dissolved oxygen while outcompeting single celled green algae."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2168,9 +2314,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
             "misconception": "Removing a honey super causes permanent catastrophic starvation to the parent bee colony.",
-            "fact": "Centrifugal extractors spin liquid honey from uncapped wax frames without destroying combs.",
-            "myth": "Removing a honey super causes permanent catastrophic starvation to the parent bee colony.",
-            "fact_correction": "Centrifugal extractors spin liquid honey from uncapped wax frames without destroying combs."
+            "fact": "Centrifugal extractors spin liquid honey from uncapped wax frames without destroying combs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2251,9 +2395,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
             "misconception": "Pouring high concentration liquid synthetic fertilizer compensates completely for compacted clay soil.",
-            "fact": "Incorporating aged compost improves soil structure, water retention, and cation exchange capacity.",
-            "myth": "Pouring high concentration liquid synthetic fertilizer compensates completely for compacted clay soil.",
-            "fact_correction": "Incorporating aged compost improves soil structure, water retention, and cation exchange capacity."
+            "fact": "Incorporating aged compost improves soil structure, water retention, and cation exchange capacity."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2385,9 +2527,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Organic matter decomposes into nutrient rich humus just as quickly without moisture or aeration.",
-        "fact": "Compost piles require a thirty to one carbon to nitrogen ratio and adequate oxygen to sustain thermophilic decomposition.",
-        "myth": "Organic matter decomposes into nutrient rich humus just as quickly without moisture or aeration.",
-        "fact_correction": "Compost piles require a thirty to one carbon to nitrogen ratio and adequate oxygen to sustain thermophilic decomposition."
+        "fact": "Compost piles require a thirty to one carbon to nitrogen ratio and adequate oxygen to sustain thermophilic decomposition."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2428,10 +2568,10 @@
         "Step 4 - Weekly Observation Tracking: Record structural changes, biological activity, and chemical conditions across ninety days."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for And record weekly observations",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for And record weekly observations.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
         "left_header": "Req 8a: Aerobic Compost Bin Construction",
@@ -2448,29 +2588,29 @@
         ],
         "rows": [
           {
-            "attribute": "Ninety Day Compost Bin",
-            "left": "(8a) Ninety Day Compost Bin: The term water wise means being smart about water conservation by applying water in well-controlled amounts and locations in your garden (p. 27).",
-            "right": "(8d) Aquatic Container or Pond Garden: One of the easiest ways to foolproof a garden is to grow plants that will survive if you forget to water them (p. 27)."
+            "attribute": "Aerobic Decomposition Metric",
+            "left": "(8a) Aerobic Compost Bin Construction: Aerobic composting combines carbon rich brown materials with nitrogen rich green materials. Regular turning injects atmospheric oxygen to feed heat producing thermophilic decomposers.",
+            "right": "(8d) Aquatic Water Garden Design: Water gardens balance aquatic plants, surface shading, and biological filtration in a shallow reservoir. Establishing biological equilibrium prevents stagnant conditions while creating microhabitats for beneficial wildlife."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(8b) Ninety Day Vermicompost Bin: The concept of water-wise gardening is based on the following seven rules, 1 (p. 27).",
-            "right": "(8e) Honey Super Hive Management: The term water wise means being smart about water conservation by applying water in well-controlled amounts and locations in your garden (p. 27)."
+            "attribute": "Red Wiggler Biology",
+            "left": "(8b) Vermicomposting Bin System Care: Vermiculture uses specialized Eisenia fetida worms to process kitchen vegetable scraps into castings. Managing bedding moisture and neutral pH prevents anaerobic odors in the bin.",
+            "right": "(8e) Honey Super Hive Management: Beekeepers add honey supers above queen excluders to harvest surplus nectar converted to honey. Extracting, filtering, and bottling honey requires sanitary handling and moisture testing under eighteen percent."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "(8c) Soilless Hydroponic Plant System: Plan and design for water conservation and beauty from the start (p. 27).",
-            "right": "(8f) Ninety Day Soil Garden Project: The concept of water-wise gardening is based on the following seven rules, 1 (p. 27)."
+            "attribute": "Hydroponic Nutrient Delivery",
+            "left": "(8c) Hydroponic Garden System Maintenance: Hydroponic farming suspends plant roots in oxygenated nutrient solution without traditional soil media. Managing water temperature, dissolved salts, and light cycles ensures vigorous vegetable production.",
+            "right": "(8f) Ninety Day Garden Production: Cultivating a dedicated plot or container garden demonstrates season long crop management skills. Regular watering, staking, mulching, and weeding sustain plant vitality through the harvest period."
           }
         ]
       },
       "worked_example": {
-        "title": "Gardening Req 8 Exemplar Workbook Entry: Extended Composting and Specialty Gardens",
+        "title": "Gardening Req 8 Exemplar Workbook Entry: Extended",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 8a - Aerobic Compost Bin Construction": "Aerobic composting combines carbon rich brown materials with nitrogen rich green materials. Regular turning injects atmospheric oxygen to feed heat producing thermophilic decomposers.",
-          "Req 8b - Vermicomposting Bin System Care": "Vermiculture uses specialized Eisenia fetida worms to process kitchen vegetable scraps into castings. Managing bedding moisture and neutral pH prevents anaerobic odors in the bin.",
-          "Req 8c - Hydroponic Garden System Maintena": "Hydroponic farming suspends plant roots in oxygenated nutrient solution without traditional soil media. Managing water temperature, dissolved salts, and light cycles ensures vigorous vegetable production.",
+          "Req 8a - Aerobic Compost Bin": "Aerobic composting combines carbon rich brown materials with nitrogen rich green materials. Regular turning injects atmospheric oxygen to feed heat producing thermophilic decomposers.",
+          "Req 8b - Vermicomposting Bin System": "Vermiculture uses specialized Eisenia fetida worms to process kitchen vegetable scraps into castings. Managing bedding moisture and neutral pH prevents anaerobic odors in the bin.",
+          "Req 8c - Hydroponic Garden System": "Hydroponic farming suspends plant roots in oxygenated nutrient solution without traditional soil media. Managing water temperature, dissolved salts, and light cycles ensures vigorous vegetable production.",
           "Req 8d - Aquatic Water Garden Design": "Water gardens balance aquatic plants, surface shading, and biological filtration in a shallow reservoir. Establishing biological equilibrium prevents stagnant conditions while creating microhabitats for beneficial wildlife."
         },
         "sample_output": "Extended Composting and Specialty Gardens: The term water wise means being smart about water conservation by applying water in well-controlled amounts and locations in your garden (p. 27).",
@@ -2508,7 +2648,33 @@
       "socratic_questions": [
         "What role do thermophilic bacteria play in raising compost temperatures above one hundred thirty degrees?",
         "How does oxygen availability dictate whether organic matter decomposes through aerobic or anaerobic pathways?",
-        "Which biological mechanisms maintain chemical equilibrium in a balanced decorative backyard water garden?"
+        "Which biological mechanisms maintain chemical equilibrium in a balanced decorative backyard water garden?",
+        "What happens to a 90-day outdoor compost pile if you load it with wet green grass clippings and no dry brown leaves?",
+        "Which physical indicator or smell warns you that a vermicompost worm bin has gone anaerobic from overfeeding?",
+        "What measurement confirms that your hydroponic nutrient solution has the proper acidity for plant roots to absorb iron?",
+        "Why is it dangerous to red wiggler worms if a vermicompost bin reaches the 140-degree temperatures of hot composting?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Organic matter decomposes into nutrient rich humus just as quickly without moisture or aeration.",
+          "fact": "Compost piles require a thirty to one carbon to nitrogen ratio and adequate oxygen to sustain thermophilic decomposition."
+        },
+        {
+          "misconception": "Deep-burrowing earthworms dug up from backyard lawn soil thrive inside shallow indoor vermicompost bins.",
+          "fact": "Vermicomposting requires surface-dwelling epigeic worms like Eisenia fetida (red wigglers), as soil-burrowing nightcrawlers die in bins."
+        },
+        {
+          "misconception": "Adding meat scraps, dairy products, and pet waste to a backyard compost bin speeds up healthy microbial breakdown.",
+          "fact": "Meat, dairy, and pet feces attract scavenging rodents, create putrid odors, and harbor human pathogens that survive home composting."
+        },
+        {
+          "misconception": "Plant roots submerged in a stationary bucket of hydroponic water absorb plenty of oxygen directly from the water molecules.",
+          "fact": "Submerged roots suffocate and develop Pythium root rot unless an air stone or air gap supplies dissolved oxygen to the root zone."
+        },
+        {
+          "misconception": "Sealing a compost bin completely airtight traps heat and accelerates the aerobic bacteria that break down yard waste.",
+          "fact": "Thermophilic composting microbes require continuous oxygen flow from vents and regular turning to prevent foul anaerobic fermentation."
+        }
       ]
     },
     {
@@ -2564,9 +2730,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
           "common_misconception_pair": {
             "misconception": "Professional nursery operators require only informal hands on experience without business education.",
-            "fact": "Certified crop advisers must pass rigorous international examinations and complete recurring continuing education.",
-            "myth": "Professional nursery operators require only informal hands on experience without business education.",
-            "fact_correction": "Certified crop advisers must pass rigorous international examinations and complete recurring continuing education."
+            "fact": "Certified crop advisers must pass rigorous international examinations and complete recurring continuing education."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2641,9 +2805,7 @@
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
           "common_misconception_pair": {
             "misconception": "Backyard gardening yields insufficient physical activity to qualify as meaningful personal wellness.",
-            "fact": "Growing home food crops increases daily vegetable consumption while delivering moderate cardiovascular physical exercise.",
-            "myth": "Backyard gardening yields insufficient physical activity to qualify as meaningful personal wellness.",
-            "fact_correction": "Growing home food crops increases daily vegetable consumption while delivering moderate cardiovascular physical exercise."
+            "fact": "Growing home food crops increases daily vegetable consumption while delivering moderate cardiovascular physical exercise."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2739,9 +2901,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Horticultural professions consist solely of unskilled manual tasks with no professional certifications.",
-        "fact": "Landscape architects and crop agronomists require formal four year degrees in plant sciences and regional licensing.",
-        "myth": "Horticultural professions consist solely of unskilled manual tasks with no professional certifications.",
-        "fact_correction": "Landscape architects and crop agronomists require formal four year degrees in plant sciences and regional licensing."
+        "fact": "Landscape architects and crop agronomists require formal four year degrees in plant sciences and regional licensing."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2778,7 +2938,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9a: Horticultural Career Investigation",
+        "left_header": "Req 9a: Horticultural Career",
         "right_header": "Req 9b: Gardening For Personal Wellness",
         "left_points": [
           "(9a) Horticultural Career Investigation: Careers in commercial plant science encompass greenhouse operation, agricultural inspection, plant breeding, and arboriculture. Entering these fields requires coursework in botany, soil chemistry, pathology, and business administration."
@@ -2788,28 +2948,28 @@
         ],
         "rows": [
           {
-            "attribute": "Exploring Professional Horticulture Careers",
-            "left": "(9a) Exploring Professional Horticulture Careers: You are usually outdoors so you can experience the joys of nature in your environment (p. 64).",
-            "right": "(9b) Gardening for Lifelong Health: To take a seed or small plant and watch it grow is truly exciting (p. 64)."
+            "attribute": "Horticulture Career Path",
+            "left": "(9a) Horticultural Career Investigation: Careers in commercial plant science encompass greenhouse operation, agricultural inspection, plant breeding, and arboriculture. Entering these fields requires coursework in botany, soil chemistry, pathology, and business administration.",
+            "right": "(9b) Gardening For Personal Wellness: Hobby gardening provides lifelong outdoor recreation, improves mental well being, and delivers nutritious homegrown food. Participating in community garden clubs and master gardener seminars connects hobbyists with regional expertise."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Diverse Plant Cultivation Skills: You may learn how to grow vegetables, fruits, flowers, shrubs and trees (p. 64).",
-            "right": "Step 2 - Nurture Seeds Into Plants: To take a seed or small plant and watch it grow is truly exciting (p. 64)."
+            "attribute": "Agronomy Science Role",
+            "left": "Req 9a: Horticultural Career: Careers in commercial plant science encompass greenhouse operation, agricultural inspection, plant breeding, and arboriculture. Entering these fields requires coursework in botany, soil chemistry, pathology, and business administration.",
+            "right": "Req 9b: Gardening For Personal: Hobby gardening provides lifelong outdoor recreation, improves mental well being, and delivers nutritious homegrown food. Participating in community garden clubs and master gardener seminars connects hobbyists with regional expertise."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Outdoor Connection With Nature: You are usually outdoors so you can experience the joys of nature in your environment (p. 64).",
-            "right": "Step 3 - Investigate and Overcome Setbacks: If there are setbacks, which can happen, you can be a detective and try to determine what went wrong and tryagain (p. 64)."
+            "attribute": "Landscape Architecture Scope",
+            "left": "Horticulture Career Path: Greenhouse managers oversee propagation, climate automation, and sales logistics schedules.",
+            "right": "Agronomy Science Role: Crop agronomists analyze soil fertility and guide sustainable commercial grain production."
           }
         ]
       },
       "worked_example": {
-        "title": "Gardening Req 9 Exemplar Workbook Entry: Horticultural Careers and Lifelong Hobbies",
+        "title": "Gardening Req 9 Exemplar Workbook Entry: Horticultural",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 9a - Horticultural Career Investigatio": "Careers in commercial plant science encompass greenhouse operation, agricultural inspection, plant breeding, and arboriculture. Entering these fields requires coursework in botany, soil chemistry, pathology, and business administration.",
-          "Req 9b - Gardening For Personal Wellness": "Hobby gardening provides lifelong outdoor recreation, improves mental well being, and delivers nutritious homegrown food. Participating in community garden clubs and master gardener seminars connects hobbyists with regional expertise."
+          "Req 9a - Horticultural Career": "Careers in commercial plant science encompass greenhouse operation, agricultural inspection, plant breeding, and arboriculture. Entering these fields requires coursework in botany, soil chemistry, pathology, and business administration.",
+          "Req 9b - Gardening For Personal": "Hobby gardening provides lifelong outdoor recreation, improves mental well being, and delivers nutritious homegrown food. Participating in community garden clubs and master gardener seminars connects hobbyists with regional expertise."
         },
         "sample_output": "Horticultural Careers and Lifelong Hobbies: You are usually outdoors so you can experience the joys of nature in your environment (p. 64).",
         "counselor_tip": "For Gardening Requirement 9 (Horticultural Careers and Lifelong Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97))."
@@ -2845,8 +3005,34 @@
       "pamphlet_summary": "Gardening expertise prepares individuals for diverse scientific careers in agronomy, nursery management, landscape architecture, and urban forestry. Maintaining a personal garden also supports a healthy lifestyle by providing physical exercise, stress reduction, and fresh produce.",
       "socratic_questions": [
         "What educational degrees and certifications distinguish a commercial grower from a landscape designer?",
-        "How do technological advancements in automation and genomics influence modern horticultural careers?",
-        "In what ways does regular gardening support long term personal physical and mental health?"
+        "In what specific ways do technological advancements in automation and genomics influence modern horticultural careers?",
+        "In what ways does regular gardening support long term personal physical and mental health?",
+        "What state licensing step must an aspiring commercial nursery manager complete before applying restricted-use pesticides?",
+        "Which credential distinguishes a certified arborist or extension Master Gardener from an unlicensed residential landscaper?",
+        "What startup expense metrics should your hobby or career log track when comparing greenhouse propagation against open beds?",
+        "Why is it dangerous to enter a commercial greenhouse or turf management job without verifying EPA Worker Protection training?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Horticultural professions consist solely of unskilled manual tasks with no professional certifications.",
+          "fact": "Landscape architects and crop agronomists require formal four year degrees in plant sciences and regional licensing."
+        },
+        {
+          "misconception": "Commercial horticulturists and landscape contractors can legally apply any agricultural pesticide without state certification.",
+          "fact": "Commercial applicators must pass state licensing exams and complete continuing education before handling restricted-use chemicals."
+        },
+        {
+          "misconception": "University Cooperative Extension Master Gardener titles are paid commercial degrees used to bill clients for landscaping.",
+          "fact": "Master Gardener programs train volunteer educators through university extension offices to provide public gardening outreach."
+        },
+        {
+          "misconception": "Professional gardening careers are limited to seasonal lawn mowing and offer no laboratory or year-round management paths.",
+          "fact": "Horticulture careers span plant pathology, controlled-environment greenhouse management, arboriculture, and seed breeding."
+        },
+        {
+          "misconception": "Specialty gardening hobbies like orchid propagation or beekeeping require no ongoing club dues or equipment budgets after setup.",
+          "fact": "Advanced gardening hobbies involve recurring costs for media, pest monitoring, climate gear, and society memberships."
+        }
       ]
     }
   ],

@@ -1,0 +1,194 @@
+{
+  "badge_slug": "farm-mechanics",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Rotating machinery can snag glove fabric and pull fingers into the tool, so bare hands are required near spinning shop equipment.",
+          "misconception": "Heavy canvas or leather work gloves protect a mechanic's hands when operating spinning drill presses, lathes, or bench grinders."
+        },
+        {
+          "fact": "Hydraulic seals and hoses can fail without warning, so rigid jack stands or mechanical cylinder stops must support raised loads.",
+          "misconception": "Hydraulic valves alone hold a raised tractor loader or implement safely in place while a mechanic crawls underneath for repairs."
+        },
+        {
+          "fact": "Everyday lenses can shatter on impact and lack side shields, whereas ANSI Z87.1 safety glasses and face shields stop flying debris.",
+          "misconception": "Standard prescription eyeglasses provide sufficient eye protection when grinding metal or hammering hardened pins in a farm shop."
+        },
+        {
+          "fact": "Diesel and gasoline exhaust rapidly reaches lethal levels indoors unless routed outside through a dedicated exhaust hose or open bays.",
+          "misconception": "Running a tractor engine inside a farm shop with the walk-in door cracked open vents enough exhaust to prevent carbon monoxide buildup."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to wear leather work gloves while operating a high-speed rotating drill press or bench grinder?",
+        "Where should a Scout position the ABC fire extinguisher and eyewash station on a farm shop floor plan for emergency access?",
+        "What happens to a raised hydraulic loader boom if a mechanic works underneath it without installing cylinder safety locks?",
+        "Which physical indicator on a pair of safety glasses confirms they meet impact standards for heavy farm shop repair work?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Diesel engines ignite fuel strictly through the high heat of compressed air, while glow plugs only warm cold cylinders at startup.",
+          "misconception": "Glow plugs in a diesel tractor engine fire on every power stroke just like spark plugs in a gasoline engine to ignite the fuel."
+        },
+        {
+          "fact": "A hydraulic pump produces fluid flow only, and system pressure builds only when that flow encounters resistance from a load or valve.",
+          "misconception": "Hydraulic pumps generate system pressure directly regardless of whether any load or resistance is connected to the actuator."
+        },
+        {
+          "fact": "Higher gears trade torque for speed, while lower reduction gears multiply engine torque at the axle to pull heavy tillage implements.",
+          "misconception": "Shifting a tractor transmission into a higher road gear increases both ground speed and maximum drawbar pulling torque at the wheels."
+        },
+        {
+          "fact": "Liquid hydraulic oil is nearly incompressible, which allows it to transmit force instantaneously and rigidly through sealed lines.",
+          "misconception": "Hydraulic fluid compresses significantly under heavy loads to act as a natural shock absorber inside tractor lifting cylinders."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the air inside a diesel engine cylinder during the compression stroke to ignite fuel without a spark plug?",
+        "Under what condition does Pascal's law allow a small hydraulic pump piston to lift a heavy multi-ton agricultural planter?",
+        "What measurement confirms the torque multiplication ratio when a small input gear drives a larger output gear in a transmission?",
+        "Why is it dangerous to run a tractor power takeoff shaft at 1,000 RPM when the attached implement is rated only for 540 RPM?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A tapered tip cams out of the slot under torque and strips the fastener, so the blade faces must be filed nearly parallel and flat.",
+          "misconception": "Filing a flat-blade screwdriver tip to a sharp, tapered wedge helps it wedge tightly into different sizes of slotted screw heads."
+        },
+        {
+          "fact": "Water swells wood temporarily but crushes the cellular fibers, leaving the handle looser than before once the wood dries out again.",
+          "misconception": "Soaking a loose wooden axe or hammer head in a bucket of water permanently swells the wood fibers to secure the tool head."
+        },
+        {
+          "fact": "Six radial head markings identify a heat-treated Grade 8 bolt, which has roughly double the tensile strength of an unmarked Grade 2 bolt.",
+          "misconception": "Grade 2 and Grade 8 hex bolts of the same diameter and thread pitch can be mixed in one bin because they have identical strength."
+        },
+        {
+          "fact": "Filing a slight bevel around the perimeter of the struck head directs hammer force inward and slows future metal mushrooming.",
+          "misconception": "Grinding a cold chisel's struck head completely flat with sharp 90-degree edges prevents the steel from mushrooming again."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to strike a cold chisel that has a curled, mushroomed metal lip around its struck head?",
+        "What measurement confirms that a newly dressed flat-blade screwdriver tip fits the fastener slot without camming out under torque?",
+        "Which physical indicator on a replacement hickory hammer handle shows proper grain orientation to resist snapping under impact?",
+        "What happens to a hand file's cutting teeth if you drag the blade backward under heavy pressure during the return stroke?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Over-greasing a sealed bearing pops the protective rubber lip seal, allowing abrasive field dust and moisture to enter the race.",
+          "misconception": "Pumping grease into every sealed bearing until grease bursts out past the rubber lip seal guarantees full bearing lubrication."
+        },
+        {
+          "fact": "Wrench-tightening crushes the rubber gasket and distorts the canister; oil filters should be oiled and tightened by hand to spec.",
+          "misconception": "Tightening a spin-on engine oil filter with a heavy metal strap wrench prevents high-pressure oil leaks around the base gasket."
+        },
+        {
+          "fact": "Air directed from the outside drives fine grit deeper into the paper pores, whereas low-pressure air must blow from inside out.",
+          "misconception": "Blowing compressed air from the dirty outside surface of a paper air filter toward the inside clears dust out of the pleats."
+        },
+        {
+          "fact": "Air pockets in a diesel fuel system cause airlock and starve the injectors, so the primer pump and bleed screw must purge all air.",
+          "misconception": "Replacing a diesel fuel filter without bleeding trapped air from the lines allows the injection pump to self-prime on startup."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to internal bearing races if a Scout pumps grease into a zerk fitting without wiping off the crusted dirt first?",
+        "Which physical indicator on the old oil filter housing must you verify before spinning on the new replacement filter?",
+        "Under what condition does blowing high-pressure shop air through a radiator or paper air filter element ruin the component?",
+        "Why is it dangerous to twist off a pressurized tractor radiator cap immediately after shutting down a hot diesel engine?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Agricultural machines often run at high load while stationary or moving slowly, so service intervals are tracked by engine hours.",
+          "misconception": "Tractor maintenance schedules should be tracked by calendar months or road miles just like a passenger car or pickup truck."
+        },
+        {
+          "fact": "Substandard fluids lack the friction modifiers needed for wet clutches and brakes, causing chatter, glazing, and gear failure.",
+          "misconception": "Cheaper universal tractor hydraulic fluid works identically to manufacturer-specified fluid in modern wet-brake transmissions."
+        },
+        {
+          "fact": "Harvest downtime costs thousands of dollars per day in crop loss and emergency labor, dwarfing the cost of off-season maintenance.",
+          "misconception": "Waiting until a combine or planter breaks down in the field is cheaper than paying for preseason dealership inspection checklists."
+        },
+        {
+          "fact": "Detergent additives in diesel oil are designed to hold soot in suspension, so laboratory oil analysis rather than color checks health.",
+          "misconception": "Dark black diesel engine oil on the dipstick proves the oil is worn out and has lost all of its lubricating additives."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What measurement confirms to a dealership technician whether used engine oil contains internal bearing wear metals or coolant leaks?",
+        "Under what condition does deferring a routine fluid and filter service cost a farmer far more than the price of the parts?",
+        "Which physical indicator on a diagnostic trouble code report helps a service manager trace intermittent implement sensor faults?",
+        "Where should a Scout record engine hour-meter readings and filter part numbers to keep a tractor's warranty valid at the dealer?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Flared and O-ring fittings seal on precision metal cones or elastomers, and loose tape shreds can contaminate hydraulic valves.",
+          "misconception": "Wrapping Teflon thread tape around JIC flared or O-ring boss hydraulic fittings stops stubborn high-pressure oil seepage."
+        },
+        {
+          "fact": "Contact above the wheel centerline allows upward-moving bristles to catch the edge and hurl the metal part back at the operator.",
+          "misconception": "Holding a small steel bracket above the horizontal centerline of a spinning wire wheel gives the cleanest rust removal angle."
+        },
+        {
+          "fact": "The inner safety element protects the intake while the outer filter is removed and must be replaced, never cleaned or tapped.",
+          "misconception": "Tapping a dusty inner safety air filter element against a shop bench or tire cleans it for reuse alongside the primary filter."
+        },
+        {
+          "fact": "Hydraulic fluid escaping a pinhole at 2,000 PSI pierces skin and leather, causing severe tissue necrosis that requires surgery.",
+          "misconception": "Pinholes in a high-pressure hydraulic hose only spray harmless oil mist that can be wiped off with a gloved hand while running."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to sweep your bare fingers along a hydraulic hose to search for a pinhole fluid leak under pressure?",
+        "Where should a Scout position a metal workpiece against a rotating bench wire wheel so the bristles do not snatch the part?",
+        "Which physical indicator inside a bright flashlight beam reveals that a paper air filter element has a pinhole tear?",
+        "What happens to a flared JIC hydraulic fitting if a mechanic wraps PTFE thread tape around the flare cone before tightening?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Today's agricultural technicians troubleshoot CAN-bus networks, GPS autosteering, telemetry modems, and Tier 4 emissions systems.",
+          "misconception": "Modern farm equipment mechanics only need basic hand tools and mechanical wrenching skills because tractors have simple engines."
+        },
+        {
+          "fact": "Most master dealership technicians earn a two-year associate degree in diesel technology combined with manufacturer apprenticeships.",
+          "misconception": "A four-year university engineering degree is required before anyone can qualify as a certified dealership service technician."
+        },
+        {
+          "fact": "Field technicians operate service trucks with cranes, welders, and compressors while managing weather, mud, and remote safety risks.",
+          "misconception": "Mobile agricultural mechanics perform the exact same tasks in a farmer's field as technicians working inside a dealership bay."
+        },
+        {
+          "fact": "Agricultural engineers design and test new machinery systems, whereas technicians diagnose, calibrate, and repair field equipment.",
+          "misconception": "Agricultural engineering and farm equipment technician careers are identical roles that share the same daily shop duties."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What measurement confirms that a precision agriculture specialist has calibrated a tractor's RTK GPS receiver to centimeter accuracy?",
+        "Under what condition does a mobile field service technician need both CAN-bus laptop diagnostics and heavy rigging certifications?",
+        "Which physical indicator on a dynamometer test run verifies that an overhauled diesel tractor engine meets factory PTO horsepower?",
+        "Where should a Scout gain hands-on shop hours and manufacturer credentials before applying for an implement dealership apprenticeship?"
+      ],
+      "req_id": "7"
+    }
+  ]
+}

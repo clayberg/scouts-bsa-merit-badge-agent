@@ -1,8 +1,8 @@
 # Reading Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Reading.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/reading/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/reading/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -53,9 +53,9 @@
 - **Pamphlet Fact:** Libraries supply meeting spaces, digital subscriptions, technical equipment, and research reference specialists.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Reading Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Take a tour of a library)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Take a tour of a library
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Reading Merit Badge Pamphlet: Take a tour of a library.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Take a tour of a library.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Reading Requirement 1 figure showing ten numerical classes organize all human knowledge across nonfiction book shelves.](/assets/pamphlet_images/reading_p003_img1.png)
 

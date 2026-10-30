@@ -1,0 +1,302 @@
+{
+  "badge_slug": "electricity",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Shoe soles can still conduct current or fail to stop skin contact, so shut off power first or use a dry nonconductive object.",
+          "misconception": "Rubber-soled sneakers provide enough insulation to let you safely grab a person who is in contact with a live household wire."
+        },
+        {
+          "fact": "High voltage bridges tires easily, and stepping out creates a lethal path through your body between the car and the earth.",
+          "misconception": "Rubber tires insulate a car completely from a downed power line, making it safe to step out onto the pavement normally."
+        },
+        {
+          "fact": "Wall switches usually control only ceiling fixtures or half-switched outlets, so you must trip the circuit breaker or main switch.",
+          "misconception": "Flipping a wall light switch to the off position cuts all electrical power to a frayed appliance cord plugged into that room."
+        },
+        {
+          "fact": "Wide steps create a dangerous voltage difference between your feet, so shuffle with both feet together or hop away slowly.",
+          "misconception": "Running with long strides away from a downed power line gets you out of the ground voltage gradient zone with the least risk."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your body if you touch both the car frame and the ground at once while escaping a vehicle on a downed power line?",
+        "Why is it dangerous to use a wet wooden broom handle or damp rope to pull a shock victim away from an energized household wire?",
+        "Which physical indicator on a home service panel distinguishes the main disconnect breaker from individual branch circuit breakers?",
+        "In what manner must you move your feet across the ground after jumping clear of a car energized by a fallen overhead power line?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Power strips only add outlets without raising circuit capacity, and plugging them into ungrounded adapters removes ground safety.",
+          "misconception": "A three-prong power strip adds surge protection and increases the safe amperage capacity of an older two-slot wall receptacle."
+        },
+        {
+          "fact": "Internal trip mechanisms can corrode and stick over time, so every GFCI receptacle should be tested monthly with its test button.",
+          "misconception": "Pressing the test button on a GFCI outlet is unnecessary as long as the small green indicator light on the faceplate stays lit."
+        },
+        {
+          "fact": "Extension cords are rated only for temporary portable use and degrade or overheat when used as permanent household wiring.",
+          "misconception": "Heavy-duty orange extension cords can safely replace permanent wall wiring if they are tucked neatly along the room baseboards."
+        },
+        {
+          "fact": "Warmth, discoloration, or buzzing at a switch signals loose terminals or overloaded contacts that can start an electrical fire.",
+          "misconception": "Warmth or a faint buzzing sound at a wall switch is normal whenever several high-wattage lamps are turned on in the same room."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the insulation on an extension cord when it is run underneath a heavy area rug or pinched inside a doorway?",
+        "Which physical indicator on a wall receptacle or faceplate warns you that internal wiring connections may be loose and arcing?",
+        "Where should a Scout verify that Ground Fault Circuit Interrupter outlets are installed and tested during a home safety audit?",
+        "Why is it dangerous to screw a 100-watt incandescent bulb into an enclosed ceiling fixture rated for a maximum of 60 watts?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Bare wire turns touch each other and short-circuit the current across the nail, preventing the coil from forming a magnetic field.",
+          "misconception": "Bare copper wire wrapped tightly around a steel nail creates a stronger electromagnet because no plastic insulation blocks the flux."
+        },
+        {
+          "fact": "Only ferromagnetic metals like soft iron and steel concentrate magnetic flux lines strongly enough to multiply the coil field.",
+          "misconception": "An aluminum bolt or brass rod makes just as strong a core for a battery-powered electromagnet as a soft iron or steel nail."
+        },
+        {
+          "fact": "An energized coil has distinct north and south poles that repel the like pole of a compass needle or permanent bar magnet.",
+          "misconception": "An electromagnet only attracts metal objects like paper clips and cannot push away the pole of a permanent bar magnet."
+        },
+        {
+          "fact": "Hardened steel retains residual magnetism after power stops, whereas soft iron demagnetizes quickly when the circuit opens.",
+          "misconception": "Hardened high-carbon steel makes the ideal electromagnet core because it shuts off its magnetism the instant current stops."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the north and south poles of your homemade electromagnet when you reverse the battery wire connections?",
+        "Under what condition does wrapping more turns of insulated copper wire around an iron nail increase its magnetic lifting force?",
+        "Why is it dangerous to leave your electromagnet coil connected across a fresh lantern or D-cell battery for several minutes?",
+        "What measurement confirms that your nail core has reversed magnetic polarity when tested beside a permanent magnetic compass?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Solar cells produce direct current through the photovoltaic effect and require an inverter to convert it to alternating current.",
+          "misconception": "Solar photovoltaic panels generate 120-volt alternating current directly from sunlight to run standard household appliances."
+        },
+        {
+          "fact": "Transformers rely on a constantly changing magnetic field and only work with alternating current or pulsed current waveforms.",
+          "misconception": "Transformers can step up the voltage of a 12-volt car battery directly without any switching electronics or inverter circuit."
+        },
+        {
+          "fact": "In alternating current, electrons oscillate back and forth in place 60 times per second while electromagnetic energy moves fast.",
+          "misconception": "Electrons in a 60-hertz household alternating current circuit travel all the way from the power plant to your lamp every second."
+        },
+        {
+          "fact": "All three plants spin a turbine connected to an electromagnetic generator rotor to induce alternating current in stator coils.",
+          "misconception": "Coal, nuclear, and hydroelectric power plants use completely different electrical mechanisms to generate grid alternating current."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is alternating current preferred over direct current for stepping voltage up and down across long-distance power grids?",
+        "What happens to electrons inside a copper wire coil when a permanent magnet is pushed rapidly back and forth through the center?",
+        "Which physical process produces direct current inside a flashlight battery compared to a rooftop solar photovoltaic panel?",
+        "Under what condition does stepping alternating current up to high voltage reduce power losses in utility transmission lines?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The battery supplies steady direct current, and the bell's own spring-loaded interrupter contact rapidly opens and closes the loop.",
+          "misconception": "An electric bell rings continuously because the battery sends alternating pulses of current when you hold down the pushbutton."
+        },
+        {
+          "fact": "Pulling the armature forward breaks the contact point, cutting coil current so the spring snaps the striker back repeatedly.",
+          "misconception": "The iron armature stays pulled tightly against the electromagnet core for the entire time the doorbell button is held closed."
+        },
+        {
+          "fact": "Without the return spring, the armature cannot snap back against the contact screw to re-close the circuit for the next strike.",
+          "misconception": "Removing the spring from the armature arm makes the bell ring louder because the electromagnet faces less mechanical resistance."
+        },
+        {
+          "fact": "The gong is purely an acoustic resonator struck by the hammer, while current flows only through the coil and breaker contact.",
+          "misconception": "The metal gong must be wired directly into the battery circuit so current can flow through the bell dome when the hammer hits."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the electromagnet in a classic electric bell at the exact moment the striker arm pulls away from the contact screw?",
+        "Why does an electric bell strike the gong only once if you wire the battery return lead directly to the coil instead of the contact?",
+        "Which component in an electric bell diagram pulls the iron armature back to close the circuit after the electromagnet de-energizes?",
+        "Where must the pushbutton switch be placed in your series circuit diagram to control when the battery energizes the bell coil?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Overcurrent devices protect the house wiring inside walls from overheating and catching fire when excessive current is drawn.",
+          "misconception": "Circuit breakers and fuses are installed primarily to protect sensitive electronics like televisions and computers from damage."
+        },
+        {
+          "fact": "A 20-ampere breaker on 14-gauge wire lets the conductor overheat past its safe insulation rating before the breaker ever trips.",
+          "misconception": "Upgrading a tripping 15-ampere circuit breaker to a 20-ampere breaker safely lets you run more high-wattage kitchen appliances."
+        },
+        {
+          "fact": "Only active appliances draw full operating current, though devices in standby mode still consume a small phantom load in watts.",
+          "misconception": "Every device plugged into a bedroom branch circuit draws its full nameplate wattage even when its power switch is turned off."
+        },
+        {
+          "fact": "Modern breakers have trip-free internal mechanisms that still open under overload, and forcing a faulty circuit risks a fire.",
+          "misconception": "Holding a circuit breaker toggle handle in the on position with tape prevents nuisance tripping during heavy appliance usage."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What total current in amperes is drawn when a 1,200-watt hair dryer and an 840-watt space heater run on one 120-volt branch circuit?",
+        "What happens to the metallic strip or fusible link inside an overcurrent device when circuit amperage exceeds its rated limit?",
+        "Why is it dangerous to replace a blown 15-ampere screw-in fuse with a 20-ampere fuse on a circuit wired with 14-gauge copper?",
+        "Where on a household appliance nameplate can you find the electrical values needed to calculate its current draw on a branch circuit?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Electricians often wire ceiling lights and wall receptacles on separate circuits so a tripped outlet breaker leaves lights on.",
+          "misconception": "Every electrical outlet and light switch located inside the same bedroom is always wired to a single branch circuit breaker."
+        },
+        {
+          "fact": "Panel directory labels are frequently outdated after renovations, so you must verify each outlet and switch with a plug tester.",
+          "misconception": "Handwritten room labels inside an older electrical panel door are always accurate enough to map a room diagram without testing."
+        },
+        {
+          "fact": "Household receptacles are wired in parallel so every outlet receives full 120-volt potential and operates independently.",
+          "misconception": "Wall outlets in a home branch circuit are wired in series so that electricity flows sequentially through every plugged-in lamp."
+        },
+        {
+          "fact": "Split-wired duplex receptacles can be fed by two separate branch circuits, so both the top and bottom sockets must be tested.",
+          "misconception": "If the top socket of a duplex outlet turns off when a breaker trips, the bottom socket is guaranteed to be dead as well."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What procedure lets you verify which specific breaker in the service panel controls each duplex receptacle and ceiling light?",
+        "Why are the ceiling lights and wall outlets in a single room often split across two different branch breakers in the main panel?",
+        "Which standard schematic symbols on a floor plan distinguish a duplex wall receptacle from a single-pole wall switch and fixture?",
+        "What measurement or test confirms whether both sockets of a duplex wall outlet are permanently hot or controlled by a wall switch?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "You always record the lower number that the dial pointer has just passed, unless it rests directly on a digit and check the next.",
+          "misconception": "When an analog electric meter pointer sits between 4 and 5, you round up to 5 if the pointer is more than halfway past the 4."
+        },
+        {
+          "fact": "Adjacent gear-driven meter dials alternate between clockwise and counterclockwise rotation, so read each scale direction carefully.",
+          "misconception": "Every dial on a five-dial residential electric meter turns clockwise just like the hands on a standard analog wall clock."
+        },
+        {
+          "fact": "Kilowatts measure the instantaneous rate of power demand, while kilowatt-hours measure total energy consumed over a period of time.",
+          "misconception": "Kilowatts and kilowatt-hours measure the exact same electrical quantity on a household utility meter and monthly billing statement."
+        },
+        {
+          "fact": "Space heating, air conditioning, and electric water heaters consume far more household energy than lighting in almost every home.",
+          "misconception": "Replacing incandescent bulbs with LEDs is the single biggest way to cut a home electric bill, ahead of heating and water heaters."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which number should you record when a pointer on an analog dial electric meter stands directly between two digits on the scale?",
+        "Why do adjacent dials on a mechanical kilowatt-hour meter rotate in opposite clockwise and counterclockwise directions?",
+        "What formula converts a 1,500-watt space heater running for four hours per day into kilowatt-hours billed over thirty days?",
+        "How does the utility delivery and transmission fee on a monthly electric bill differ from the per-kilowatt-hour supply charge?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Watts measure the instantaneous rate of power use, whereas watt-hours measure total energy consumed over a period of time.",
+          "misconception": "Watts and watt-hours measure the exact same electrical property and can be swapped on an appliance nameplate."
+        },
+        {
+          "fact": "Current is the flow of electrons through the conductor, while voltage is the potential difference pushing those charges.",
+          "misconception": "Voltage flows through a copper wire just like water moving through a garden hose when a switch closes."
+        },
+        {
+          "fact": "An open circuit breaks the conducting path and stops current flow completely, whereas a short circuit spikes current and trips breakers.",
+          "misconception": "An open circuit causes circuit breakers to trip immediately because electricity spills out of the broken wire."
+        },
+        {
+          "fact": "The neutral wire carries normal return current, while the ground wire only conducts fault current during an insulation failure.",
+          "misconception": "The bare copper ground wire carries normal return current back to the breaker panel whenever a lamp is turned on."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes a 100-watt bulb's instantaneous power draw from the watt-hours recorded on a utility meter?",
+        "Why is a low-resistance short circuit far more likely to melt wire insulation than an accidental open circuit?",
+        "What step must you take before touching ohmmeter probes to a resistor so circuit voltage does not damage the meter?",
+        "Under what condition can a bird perch on a high-voltage line without current flowing through its body to ground?"
+      ],
+      "req_id": "9"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Copper has very low resistance and insulation blocks the wiper contact, so a rheostat requires bare nichrome wire or graphite.",
+          "misconception": "Wrapping thick insulated copper hookup wire around a dowel creates an effective variable resistor for dimming a flashlight bulb."
+        },
+        {
+          "fact": "A single-pole, double-throw switch routes one common input terminal to either of two selectable output paths.",
+          "misconception": "A single-pole, double-throw switch controls two completely separate battery sources at the exact same time."
+        },
+        {
+          "fact": "Leaving half the enamel on one axle lead acts as a commutator that cuts current each half-turn so magnetic torque stays in one direction.",
+          "misconception": "Stripping every bit of enamel from both axle leads of a simple wire-coil motor makes the coil spin faster."
+        },
+        {
+          "fact": "Wiring a switch directly across battery terminals creates a dead short when closed; the switch must be wired in series with the load.",
+          "misconception": "A switch must be wired across the positive and negative battery terminals in parallel with the buzzer to turn it off."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a homemade DC motor's rotation if you sand all the insulating enamel off both ends of the coil wire?",
+        "Where should a Scout connect the battery feed on a single-pole, double-throw switch to alternate between two lamps?",
+        "Which physical change in your pencil-lead or nichrome rheostat dims the test bulb as you slide the wiper clip?",
+        "Why is it dangerous to leave a homemade motor coil stalled across a lantern battery when the rotor stops spinning?"
+      ],
+      "req_id": "10"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Most electrical apprenticeships use an earn-while-you-learn model where apprentices receive hourly wages while completing field hours.",
+          "misconception": "Entering a trade union or contractor electrical apprenticeship requires paying four years of university tuition before earning pay."
+        },
+        {
+          "fact": "Installing building wiring legally requires a state electrician license earned through supervised field hours and code exams.",
+          "misconception": "Graduating with a bachelor's degree in electrical engineering automatically grants a state license to wire residential homes."
+        },
+        {
+          "fact": "Apprentices must work under a licensed journeyman or master electrician, and pulling permits typically requires a master license.",
+          "misconception": "A newly indentured first-year electrical apprentice can legally pull municipal building permits and work unsupervised on job sites."
+        },
+        {
+          "fact": "Most states require licensed electricians to take continuing education courses whenever the National Electrical Code is updated.",
+          "misconception": "Once an electrician passes the initial journeyman exam, their license remains valid for life without further code training."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What combination of classroom instruction and supervised on-the-job hours is required to qualify for a journeyman exam?",
+        "Which daily responsibilities separate a licensed inside wireman from a utility lineworker or an electrical engineer?",
+        "What out-of-pocket expenses for insulated hand tools, boots, and licensing fees should an apprentice budget in year one?",
+        "Why must licensed electricians complete continuing education on National Electrical Code updates to keep their credentials?"
+      ],
+      "req_id": "11"
+    }
+  ]
+}

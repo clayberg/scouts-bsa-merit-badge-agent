@@ -1,8 +1,8 @@
 # Artificial Intelligence Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** None  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/artificial-intelligence/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/artificial-intelligence/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -27,7 +27,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 6:** Developing AI Skills. Do the following and share what you learned with your counselor: (a) Discuss the learning process for AI and its limitations. (b) Identify five methods of how to effectively communicate with AI. (c) Explain the importance of prompt engineering when using AI to create better output. (d) Demonstrate three examples of writing clear instructions for a school-related task.
+- [ ] **Station Req 6:** Scout must individually demonstrate mastery of Requirement 6 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -226,10 +226,10 @@
 - **Pamphlet Fact:** Facial recognition error rates increase significantly when training repositories fail to include balanced demographic representation.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Artificial Intelligence merit badge pamphlet and workbook organizer for Req 4
-- [ ] Computer or workstation with approved development or analysis tools
-- [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook
-- [ ] Saved project files, screenshots, or code listing for Ethical AI and Responsible Use
+- [ ] Official Artificial Intelligence merit badge pamphlet and workbook organizer for Req 4.
+- [ ] Computer or workstation with approved development or analysis tools.
+- [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.
+- [ ] Saved project files, screenshots, or code listing for Ethical AI and Responsible Use.
 
 ![Artificial Intelligence Requirement 4 figure showing skewed training corpora cause predictive algorithms to deliver systematically unequal.](/assets/pamphlet_images/artificial_intelligence_p004_img1.png)
 

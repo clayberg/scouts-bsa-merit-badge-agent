@@ -170,9 +170,9 @@
 - **Pamphlet Fact:** The requirement mandates attending an active in-person governing session to observe live civic deliberation.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Citizenship in the Community Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: In-person Meeting of Your City)
-- [ ] Field notebook, verification log sheet, and demonstration materials for In-person Meeting of Your City
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Citizenship in the Community: In-person Meeting of Your City.
+- [ ] Field notebook, verification log sheet, and demonstration materials for In-person Meeting of Your City.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A courtroom session in progress shows citizens participating in the local judicial system.](/assets/pamphlet_images/citizenship_in_the_community_p023_img1.png)
 
@@ -219,9 +219,9 @@
 - **Pamphlet Fact:** Legislative councils establish policy and budgets while executive departments execute daily maintenance and public works.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Citizenship in the Community Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Issue That Is Important)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Issue That Is Important
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Citizenship in the Community: Issue That Is Important.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Issue That Is Important.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Citizens discuss local issues around a conference table at a public town committee meeting.](/assets/pamphlet_images/citizenship_in_the_community_p025_img1.png)
 

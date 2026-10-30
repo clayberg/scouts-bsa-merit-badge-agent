@@ -92,10 +92,10 @@
 - **Pamphlet Fact:** Safety Data Sheets identify acute inhalation toxicity and specific fire extinguishing media for fluxes.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Safety Gear and Clothing
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Welding
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Safety Gear and Clothing.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Welding.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![Welding Requirement 2 figure showing safety Data Sheets document hazardous decomposition products generated during thermal.](/assets/pamphlet_images/welding_p007_img1.png)
 
@@ -200,10 +200,10 @@
 - **Pamphlet Fact:** Stick welding equipment requires no bulky gas cylinders and handles field welding in remote wind.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Welding Processes
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Welding
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Welding Processes.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Welding.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![Sturdy leather work boots protect a welder's feet from falling sparks and hot metal slag.](/assets/pamphlet_images/welding_p022_img1.png)
 
@@ -355,10 +355,10 @@
 - **Pamphlet Fact:** Many specialized welding careers rely on vocational technical diplomas and trade union apprenticeships.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Welding Careers and Pathways
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Welding
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Welding Careers and Pathways.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Welding.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![A machine-guided thermal cutting nozzle pierces thick steel plate, creating bright spark streams.](/assets/pamphlet_images/welding_p036_img1.png)
 

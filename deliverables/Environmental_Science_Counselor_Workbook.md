@@ -79,10 +79,10 @@
 - **Pamphlet Fact:** Sensory tracking over multiple days reveals cyclic behaviors invisible during single visits.
 
 **Gear & Readiness Checklist:**
-- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide
-- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Environmental Science Core Field Standard
-- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
-- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
+- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
+- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Environmental Science Core Field Standard.
+- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools.
+- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card.
 
 ![Environmental Science Requirement 2 figure showing soil mineral chemistry and solar radiation regulate plant growth across terrestrial.](/assets/pamphlet_images/environmental_science_p007_img1.png)
 

@@ -58,10 +58,10 @@
 - **Pamphlet Fact:** Four sided physical barrier fencing prevents accidental deep water entry by unattended children.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Swimming Requirement 1 figure showing every activity requires an adult supervisor trained in Safe Swim Defense standards.](/assets/pamphlet_images/swimming_p003_img1.png)
 
@@ -127,10 +127,10 @@
 - **Pamphlet Fact:** Rotary breathing requires turning the face sideways into the bow wave trough.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Swimming Requirement 3 figure showing alternate arm pulls combine with rhythmic flutter kicking and smooth bilateral head turns.](/assets/pamphlet_images/swimming_p012_img1.png)
 
@@ -236,13 +236,13 @@
 **Official Requirement 5a:** Demonstrate water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by throwing lines and objects. Explain why swimming rescues should not be attempted when a reaching or throwing rescue is possible, and explain why and how a rescue swimmer should avoid contact with the victim.
 **Source:** *Official Scouting America Swimming Merit Badge Pamphlet (p. 22, p. 27)* • **Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist (Water Rescue Methods By Reaching)
 - **Common Myth:** Rescuers should stand upright on slippery pool edges while extending heavy reaching poles.
-- **Pamphlet Fact:** Lying prone distributes weight and prevents the distressed swimmer from pulling you in.
+- **Pamphlet Fact:** Lying prone distributes weight and prevents the distressed swimmer from pulling you.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Swimmers hold onto a flotation device during waterfront water safety.](/assets/pamphlet_images/swimming_p023_img1.png)
 
@@ -288,10 +288,10 @@
 - **Pamphlet Fact:** Lifting the head forces hips downward, causing legs to sink rapidly beneath surface.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![A youth floats faceup with relaxed breathing to conserve energy.](/assets/pamphlet_images/swimming_p030_img1.png)
 

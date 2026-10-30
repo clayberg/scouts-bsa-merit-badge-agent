@@ -2,7 +2,7 @@
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf  
-**Digital Resource Guide (DRG):** 
+**Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/cycling/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -17,17 +17,19 @@
 | **3** | Req 3: Cycling Safety Gear Standards | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Cycling Merit Badge Pamphlet (p. 94, p. 95) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Bicycle Maintenance and Inspection | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Cycling Merit Badge Pamphlet (p. 54, p. 94) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Bicycle Handling and Control Skills | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Cycling Merit Badge Pamphlet (p. 53, p. 55) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Structured Cycling Tour Execution | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6a** | Road Biking: Traffic Safety Test, Handling & Distance Rides | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6b** | Trail or Mixed Surface Biking: Trail Skills, Etiquette & Rides | Demonstrate | `Hands-On Skill Station` | **Pre-Class Prerequisite** | Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
-- [ ] **Req 6 (Explain):** Using the Scouting America buddy system, complete all of the requirements for ONE of the following options: Road Biking OR Trail or Mixed Surface Biking. Resource: The Buddy System in Scouting: Why No Scout Should Go It Alone (website) (a) Option A, Road Biking. Do ALL of the following: (1) Take a road safety test with your counselor and demonstrate the following: (a) On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic. (b) Properly execute a right turn. (c) Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight. (d) Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars. (e) Cross railroad tracks properly. (2) Avoiding main highways, take two rides of 10 miles each, two rides of 15 miles each, and two rides of 25 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen on the ride. (3) After completing requirement (2) for the road biking option, do ONE of the following: (a) Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less. (b) Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride. (b) Option B, Trail or Mixed Surface Biking. Do ALL of the following: Note: These requirements may be completed using a mountain bike or other properly equipped, manually-powered cycle such as a gravel bike, tandem bike, hand-powered bike, recumbent bike, adult tricycle, or adaptive cycle. If a tandem bike is used, the Scout must actively power the cycle in concert with the other rider. (1) Demonstrate the following mountain bike handling skills to your counselor: (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing. (2) Take a trail safety test with your counselor and demonstrate the following: (a) Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video) (b) Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle. (c) Cross rocks, gravel, and roots properly (3) Describe the rules of trail riding, including how to know when a trail is unsuitable for riding. (4) On mountain biking or multi-use trails approved by your counselor, take two rides of 2 miles each, two rides of 5 miles each, and two rides of 8 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen. (5) After fulfilling the previous requirement, lay out on a trail map a 22-mile trip. You may include multiple trail systems, if needed. Stay away from main highways. Using your map, complete this ride in one day.
+- [ ] **Req 6a (Demonstrate):** Option A, Road Biking. Do ALL of the following: (1) Take a road safety test with your counselor and demonstrate the following: (a) On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic. (b) Properly execute a right turn. (c) Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight. (d) Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars. (e) Cross railroad tracks properly. (2) Avoiding main highways, take two rides of 10 miles each, two rides of 15 miles each, and two rides of 25 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen on the ride. (3) After completing requirement (2) for the road biking option, do ONE of the following: (a) Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less. (b) Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride.
+- [ ] **Req 6b (Demonstrate):** Option B, Trail or Mixed Surface Biking. Do ALL of the following: Note: These requirements may be completed using a mountain bike or other properly equipped, manually-powered cycle such as a gravel bike, tandem bike, hand-powered bike, recumbent bike, adult tricycle, or adaptive cycle. If a tandem bike is used, the Scout must actively power the cycle in concert with the other rider. (1) Demonstrate the following mountain bike handling skills to your counselor: (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing. (2) Take a trail safety test with your counselor and demonstrate the following: (a) Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video) (b) Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle. (c) Cross rocks, gravel, and roots properly (3) Describe the rules of trail riding, including how to know when a trail is unsuitable for riding. (4) On mountain biking or multi-use trails approved by your counselor, take two rides of 2 miles each, two rides of 5 miles each, and two rides of 8 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen. (5) After fulfilling the previous requirement, lay out on a trail map a 22-mile trip. You may include multiple trail systems, if needed. Stay away from main highways. Using your map, complete this ride in one day.
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in cycling activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready. (b) Show that you know first aid for injuries or illnesses that could occur while cycling, including cuts, scratches, concussions, blisters, sunburn, heat exhaustion, heatstroke, hypothermia, frostbite, dehydration, insect stings, tick bites, and snakebite. Explain to your counselor why you should be able to identify the poisonous plants and poisonous animals that are found in your area.
-- [ ] **Station Req 4:** Using a bicycle safety checklist, clean and adjust a bicycle and present it to your counselor for inspection. Do the following: (a) Show points that should be checked regularly to make sure the bicycle is safe to ride. (b) Show how to adjust the saddle and handlebars for a proper fit. (c) Show how to adjust brakes and gear shifting (derailleurs). (d) Show all points that need regular lubrication. (e) Show how to repair a flat by removing the tire, replacing or patching the tube, and remounting the tire. (f) Show that the bicycle meets local laws.
-- [ ] **Station Req 5:** Demonstrate basic bicycle handling skills to your counselor, to include how to properly mount your bicycle, starting and stopping (to include emergency stops), riding in a straight line, turning, shifting gears, scanning, and signaling.
+- [ ] **Station Req 1:** Scout must individually demonstrate mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -225,10 +227,10 @@
 - **Pamphlet Fact:** Grabbing only the front brake can throw the rider forward over the bicycle handlebars.
 
 **Gear & Readiness Checklist:**
-- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear)
-- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet
-- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area
-- [ ] Inspected Cycling equipment sized to the Scout and pre-session safety check card
+- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear).
+- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet.
+- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area.
+- [ ] Inspected Cycling equipment sized to the Scout and pre-session safety check card.
 
 ![A handlebar mounted rearview mirror helps cyclists monitor traffic approaching from behind.](/assets/pamphlet_images/cycling_p051_img1.png)
 
@@ -244,21 +246,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Structured Cycling Tour Execution
-**Official Requirement 6 (Parent Overview):** Using the Scouting America buddy system, complete all of the requirements for ONE of the following options: Road Biking OR Trail or Mixed Surface Biking. Resource: The Buddy System in Scouting: Why No Scout Should Go It Alone (website) (a) Option A, Road Biking. Do ALL of the following: (1) Take a road safety test with your counselor and demonstrate the following: (a) On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic. (b) Properly execute a right turn. (c) Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight. (d) Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars. (e) Cross railroad tracks properly. (2) Avoiding main highways, take two rides of 10 miles each, two rides of 15 miles each, and two rides of 25 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen on the ride. (3) After completing requirement (2) for the road biking option, do ONE of the following: (a) Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less. (b) Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride. (b) Option B, Trail or Mixed Surface Biking. Do ALL of the following: Note: These requirements may be completed using a mountain bike or other properly equipped, manually-powered cycle such as a gravel bike, tandem bike, hand-powered bike, recumbent bike, adult tricycle, or adaptive cycle. If a tandem bike is used, the Scout must actively power the cycle in concert with the other rider. (1) Demonstrate the following mountain bike handling skills to your counselor: (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing. (2) Take a trail safety test with your counselor and demonstrate the following: (a) Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video) (b) Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle. (c) Cross rocks, gravel, and roots properly (3) Describe the rules of trail riding, including how to know when a trail is unsuitable for riding. (4) On mountain biking or multi-use trails approved by your counselor, take two rides of 2 miles each, two rides of 5 miles each, and two rides of 8 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen. (5) After fulfilling the previous requirement, lay out on a trail map a 22-mile trip. You may include multiple trail systems, if needed. Stay away from main highways. Using your map, complete this ride in one day.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Never ride two abreast on narrow winding roads with blind curves or heavy vehicle traffic.
-> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Cycling Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Toughing it out alone ahead of the group shows cycling endurance and leadership.
-- **Pamphlet Fact:** Riding ahead breaks the buddy system and leaves trailing riders stranded during roadside emergencies.
-
-**Official Pamphlet Summary:**
-- Buddy System Discipline: Ride within conversational distance and monitor your partner for fatigue or mechanicals.
-- Spin steady pedal cadence between seventy and ninety revolutions each minute continuously.
-- Yield the trail to hikers and announce passes to avoid startling horses.
-- Rest Stop Nutrition: Consume carbohydrate snacks and fluids every forty-five minutes during long distance rides.
-
-### Req 6a: Road Biking Tour Requirements
+### Road Biking: Traffic Safety Test, Handling & Distance Rides
 **Official Requirement 6a (Parent Overview):** Option A, Road Biking. Do ALL of the following: (1) Take a road safety test with your counselor and demonstrate the following: (a) On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic. (b) Properly execute a right turn. (c) Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight. (d) Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars. (e) Cross railroad tracks properly. (2) Avoiding main highways, take two rides of 10 miles each, two rides of 15 miles each, and two rides of 25 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen on the ride. (3) After completing requirement (2) for the road biking option, do ONE of the following: (a) Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less. (b) Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride.
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Never ride two abreast on narrow winding roads with blind curves or heavy vehicle traffic.
@@ -267,24 +255,92 @@
 - **Pamphlet Fact:** The fifty-mile tour requires progressive physical conditioning through mandated shorter rides to prevent severe exhaustion.
 
 **Official Pamphlet Summary:**
-- The road biking option focuses on highway navigation, road safety tests, and multiple progressive endurance tours culminating in a fifty-mile ride. Cyclists must navigate traffic safely and sustain pedaling rhythm over asphalt terrain.
-- Req 6a Standard (Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)): Option A, Road Biking. Do ALL of the following: (1) Take a road safety test with your counselor and demonstrate the following: (a) On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic. (b) Properly execute a right turn. (c) Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight. (d) Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars. (e) Cross railroad tracks properly. (2) Avoiding main highways, take two rides of 10 miles each, two rides of 15 miles each, and two rides of 25 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen on the ride. (3) After completing requirement (2) for the road biking option, do ONE of the following: (a) Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less. (b) Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride.
+- Req 6a(1) (1): Take a road safety test with your counselor and demonstrate the following: (a) On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic. (b) Properly execute a right turn. (c) Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight. (d) Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars. (e) Cross railroad tracks properly.
+- Req 6a(2) (2): Avoiding main highways, take two rides of 10 miles each, two rides of 15 miles each, and two rides of 25 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen on the ride.
+- Req 6a(3) (3): After completing requirement (2) for the road biking option, do ONE of the following: (a) Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less. (b) Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride.
+- On theride, modify the cue sheet with actual signals and mileage from a cycle computer, if available.
 
-#### Req 6a(1): Road Cycling Safety Demonstration Test
-**Official Requirement 6a(1):** Take a road safety test with your counselor and demonstrate the following: (a) On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic. (b) Properly execute a right turn. (c) Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight. (d) Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars. (e) Cross railroad tracks properly.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6a(1) Hands-On Skill Station & EDGE Verification Checklist (Road Safety)
+### Req 6a(1): Road Cycling Safety Demonstration Test
+**Official Requirement 6a(1) (Parent Overview):** Take a road safety test with your counselor and demonstrate the following: (a) On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic. (b) Properly execute a right turn. (c) Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight. (d) Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars. (e) Cross railroad tracks properly.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Group Organizer:** Skill Demonstration Checklist
+> **Guide to Safe Scouting Warning:** Never ride two abreast on narrow winding roads with blind curves or heavy vehicle traffic.
+> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Cycling Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Bicyclists should ride on pedestrian sidewalks rather than city streets to avoid traffic dangers during a road safety test.
 - **Pamphlet Fact:** Bicycles are legal vehicles that belong on the roadway obeying standard traffic laws because sidewalks present severe collision hazards at driveways and intersections.
 
-![A mounted digital cyclometer records distance and current speed during long touring rides.](/assets/pamphlet_images/cycling_p073_img1.png)
+**Official Pamphlet Summary:**
+- Road Cycling Safety Demonstration Test: Scouts demonstrate vehicular cycling competencies under counselor observation, confirming mastery of lane positioning, hand signals, and traffic negotiation. Counselors verify that riders operate predictably as drivers of vehicles while scanning for roadway hazards and obeying traffic control devices (p. 36).
+- Req 6a(1) Standard (Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)): Take a road safety test with your counselor and demonstrate the following: (a) On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic. (b) Properly execute a right turn. (c) Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight. (d) Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars. (e) Cross railroad tracks properly.
+
+#### Req 6a(1)(a): Urban Vehicular Left Turn Execution
+**Official Requirement 6a(1)(a):** On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6a(1)(a) Hands-On Skill Station & EDGE Verification Checklist (Urban Street With Light Traffic)
+- **Common Myth:** Cyclists should always make left turns by hugging the right curb all the way through an intersection.
+- **Pamphlet Fact:** Turning left from the far right curb cuts across traffic lanes unpredictably and places the cyclist directly in the blind spot of forward-moving vehicles.
+
+![A Scout kneels beside touring bicycles to plot navigation waypoints on a paper route map during a long ride.](/assets/ai_illustrations/cycling_req_6_nano_hero.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **(a) On an urban street with light traffic, properly execute a left turn from the center of the street; also demonstrate an alternate left-turn technique used during periods of heavy traffic.** | `____________________________________` | `____________________________________` |
-| **(b) Properly execute a right turn.** | `____________________________________` | `____________________________________` |
-| **(c) Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight.** | `____________________________________` | `____________________________________` |
-| **(d) Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars.** | `____________________________________` | `____________________________________` |
-| **(e) Cross railroad tracks properly.** | `____________________________________` | `____________________________________` |
+| **1. On an urban street with light traffic, properly execute a left turn from the center of the street** | `____________________________________` | `____________________________________` |
+| **2. also demonstrate an alternate left-turn technique used during periods of heavy traffic** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 6a(1)(b): Right Turn Traffic Signaling Procedure
+**Official Requirement 6a(1)(b):** Properly execute a right turn.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6a(1)(b) Structured Technical Study & Explanation Matrix (Right Turn)
+- **Common Myth:** Cyclists do not need to check behind them before turning right because they already occupy the right edge of the street.
+- **Pamphlet Fact:** Rear scanning is essential before a right turn to detect overtaking vehicles, right-turning motorists, and pedestrians stepping off the curb.
+
+![A cyclist positions the ball of the foot properly over the pedal axle for efficient pedaling.](/assets/pamphlet_images/cycling_p053_img1.png)
+
+| Req 6a(1)(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. Properly execute a right turn** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 6a(1)(c): Right Turn Only Lane Positioning
+**Official Requirement 6a(1)(c):** Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6a(1)(c) Hands-On Skill Station & EDGE Verification Checklist (Actions At A Right-turn-only Lane)
+- **Common Myth:** Cyclists going straight through an intersection should stay along the far right curb even inside a right-turn-only lane.
+- **Pamphlet Fact:** Riding straight from inside a right-turn-only lane puts the cyclist on a direct collision course with turning motor vehicles.
+
+![An emergency ambulance represents authorized vehicles that cyclists must yield to on roads.](/assets/pamphlet_images/cycling_p061_img1.png)
+
+| Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
+| :--- | :--- | :--- |
+| **1. Demonstrate appropriate actions at a right-turn-only lane when you are continuing straight** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 6a(1)(d): Roadside Positioning and Door Zone Safety
+**Official Requirement 6a(1)(d):** Show proper curbside and road-edge riding. Show how to ride safely along a row of parked cars.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6a(1)(d) Hands-On Skill Station & EDGE Verification Checklist (Curbside and Road-edge Riding)
+- **Common Myth:** Hugging parked car doors as tightly as possible gives moving cars behind more room and keeps the cyclist safe.
+- **Pamphlet Fact:** Riding inside the door zone leaves zero reaction time to avoid an opening car door, which can cause severe blunt impact or throw a cyclist under overtaking traffic.
+
+![A portable first aid kit carries bandages and antiseptic supplies for cycling injuries.](/assets/pamphlet_images/cycling_p084_img1.png)
+
+| Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
+| :--- | :--- | :--- |
+| **1. Show proper curb side and road-edge riding.** | `____________________________________` | `____________________________________` |
+| **2. Show how to ride safely along a row of parked cars.** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 6a(1)(e): Perpendicular Railroad Track Crossing
+**Official Requirement 6a(1)(e):** Cross railroad tracks properly.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6a(1)(e) Structured Technical Study & Explanation Matrix (Cross Railroad)
+- **Common Myth:** Speeding diagonally across railroad tracks gets the wheels across faster and reduces the chance of falling.
+- **Pamphlet Fact:** Approaching tracks diagonally causes the front tire to drop into the flangeway gap between the pavement and steel rail, throwing the rider instantly.
+
+![A young cyclist repairs a bicycle chain on a woodland trail using portable hand tools.](/assets/pamphlet_images/cycling_p088_img1.png)
+
+| Req 6a(1)(e) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. Cross railroad tracks properly** | `____________________________________` | `____________________________________` |
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
@@ -294,7 +350,7 @@
 - **Common Myth:** A Scout can combine multiple short neighborhood errands together to calculate total mileage toward the designated tour distances.
 - **Pamphlet Fact:** The requirement mandates structured continuous touring rides on planned routes away from main highways rather than an accumulation of random daily utility trips.
 
-![A cyclist positions the ball of the foot properly over the pedal axle for efficient pedaling.](/assets/pamphlet_images/cycling_p053_img1.png)
+![A mounted digital cyclometer records distance and current speed during long touring rides.](/assets/pamphlet_images/cycling_p073_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -304,20 +360,31 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6a(3): Fifty Mile Road Endurance Challenge
-**Official Requirement 6a(3):** After completing requirement (2) for the road biking option, do ONE of the following: (a) Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less. (b) Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6a(3) Hands-On Skill Station & EDGE Verification Checklist (Completing Requirement for The Road)
+### Req 6a(3): Fifty Mile Road Endurance Challenge
+**Official Requirement 6a(3) (Parent Overview):** After completing requirement (2) for the road biking option, do ONE of the following: (a) Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less. (b) Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Group Organizer:** Skill Demonstration Checklist
 - **Common Myth:** The eight-hour cutoff time excludes rest breaks, lunchtime stops, and mechanical repairs.
 - **Pamphlet Fact:** The eight-hour time limit is continuous elapsed clock time from departure to return, meaning extended stops reduce available riding time.
 
-![An emergency ambulance represents authorized vehicles that cyclists must yield to on roads.](/assets/pamphlet_images/cycling_p061_img1.png)
+**Official Pamphlet Summary:**
+- Fifty Mile Road Endurance Challenge: After finishing the preparation rides, Scouts demonstrate advanced cycling stamina by completing a fifty-mile road journey within an eight-hour window. The option allows either executing an independently mapped route along rural backroads or joining a sanctioned century-style group tour (p. 46).
+- Req 6a(3) Standard (Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)): After completing requirement (2) for the road biking option, do ONE of the following: (a) Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less. (b) Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride.
 
-| Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
+#### Req 6a(3)(a): Independent Road Map Course Execution
+**Official Requirement 6a(3)(a):** Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6a(3)(a) Structured Technical Study & Explanation Matrix (Lay Out on A Road)
+- **Common Myth:** Fast state highways with wide paved shoulders are preferable because they offer the most direct route for a fifty-mile ride.
+- **Pamphlet Fact:** The handbook explicitly directs Scouts away from main highways to minimize exposure to high-speed commercial traffic and dangerous interchange ramps.
+
+![A road bicycle features thin high-pressure tires and drop handlebars for paved riding.](/assets/pamphlet_images/cycling_p092_img1.png)
+
+| Req 6a(3)(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **(a) Lay out on a road map a 50-mile trip. Stay away from main highways. Using your map, make this ride in eight hours or less.** | `____________________________________` | `____________________________________` |
-| **(b) Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride.** | `____________________________________` | `____________________________________` |
+| **1. Lay out on a road map a 50-mile trip.** | `____________________________________` | `____________________________________` |
+| **2. Stay away from main highways.** | `____________________________________` | `____________________________________` |
+| **3. Using your map, make this ride in eight hours or less.** | `____________________________________` | `____________________________________` |
 
-**[Field Sketch & Diagram Canvas - Req 6a(3) Unlined Dot-Grid / Horizon / Moon Sketch Box]:**
+**[Field Sketch & Diagram Canvas - Req 6a(3)(a) Unlined Dot-Grid / Horizon / Moon Sketch Box]:**
 ```text
 +-----------------------------------------------------------------------+
 | .   .   .   .   .   .   [ SKETCH / DIAGRAM CANVAS ]   .   .   .   .   |
@@ -327,46 +394,137 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6b: Trail Surface Biking Requirements
+#### Req 6a(3)(b): Organized Tour Navigation and Mapping
+**Official Requirement 6a(3)(b):** Participate in an organized bike tour of at least 50 miles. Make this ride in eight hours or less. Afterward, use the tour's cue sheet to make a map of the ride.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6a(3)(b) Hands-On Skill Station & EDGE Verification Checklist (Organized Bike Tour)
+- **Common Myth:** Riding in an organized group event means the cyclist does not need to pay attention to turns or route directions.
+- **Pamphlet Fact:** Organized tour riders must track cue sheet instructions independently to navigate safely and fulfill the post-ride mapping requirement.
+
+![A dual-suspension mountain bike provides traction and shock absorption on rough trails.](/assets/pamphlet_images/cycling_p093_img1.png)
+
+| Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
+| :--- | :--- | :--- |
+| **1. Participate in an organized bike tour of at least 50 miles.** | `____________________________________` | `____________________________________` |
+| **2. Make this ride in eight hours or less.** | `____________________________________` | `____________________________________` |
+| **3. Afterward, use the tour's cue sheet to make a map of the ride.** | `____________________________________` | `____________________________________` |
+
+**[Field Sketch & Diagram Canvas - Req 6a(3)(b) Unlined Dot-Grid / Horizon / Moon Sketch Box]:**
+```text
++-----------------------------------------------------------------------+
+| .   .   .   .   .   .   [ SKETCH / DIAGRAM CANVAS ]   .   .   .   .   |
+| .   .   .   .   .   .   Label key landmarks & compass .   .   .   .   |
++-----------------------------------------------------------------------+
+```
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+### Trail or Mixed Surface Biking: Trail Skills, Etiquette & Rides
 **Official Requirement 6b (Parent Overview):** Option B, Trail or Mixed Surface Biking. Do ALL of the following: Note: These requirements may be completed using a mountain bike or other properly equipped, manually-powered cycle such as a gravel bike, tandem bike, hand-powered bike, recumbent bike, adult tricycle, or adaptive cycle. If a tandem bike is used, the Scout must actively power the cycle in concert with the other rider. (1) Demonstrate the following mountain bike handling skills to your counselor: (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing. (2) Take a trail safety test with your counselor and demonstrate the following: (a) Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video) (b) Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle. (c) Cross rocks, gravel, and roots properly (3) Describe the rules of trail riding, including how to know when a trail is unsuitable for riding. (4) On mountain biking or multi-use trails approved by your counselor, take two rides of 2 miles each, two rides of 5 miles each, and two rides of 8 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen. (5) After fulfilling the previous requirement, lay out on a trail map a 22-mile trip. You may include multiple trail systems, if needed. Stay away from main highways. Using your map, complete this ride in one day.
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Group Organizer:** Skill Demonstration Checklist
-> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Cycling Req 6b preparation with your Merit Badge Counselor before moving to subsequent tasks.
+> **Guide to Safe Scouting Warning:** Never ride two abreast on narrow winding roads with blind curves or heavy vehicle traffic.
+> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Cycling Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Skidding rear wheels around tight dirt corners is an effective mountain bike steering technique.
 - **Pamphlet Fact:** Skidding causes loss of braking traction and damages trail tread surfaces, violating trail conservation ethics.
 
 **Official Pamphlet Summary:**
-- The trail option tests off-road bike handling over gravel, roots, rocks, and uneven dirt paths across multiple off-road treks. Cyclists adapt tire pressures for traction and navigate varying trail grades while respecting wilderness path ethics.
-- Req 6b Standard (Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)): Option B, Trail or Mixed Surface Biking. Do ALL of the following: Note: These requirements may be completed using a mountain bike or other properly equipped, manually-powered cycle such as a gravel bike, tandem bike, hand-powered bike, recumbent bike, adult tricycle, or adaptive cycle. If a tandem bike is used, the Scout must actively power the cycle in concert with the other rider. (1) Demonstrate the following mountain bike handling skills to your counselor: (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing. (2) Take a trail safety test with your counselor and demonstrate the following: (a) Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video) (b) Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle. (c) Cross rocks, gravel, and roots properly (3) Describe the rules of trail riding, including how to know when a trail is unsuitable for riding. (4) On mountain biking or multi-use trails approved by your counselor, take two rides of 2 miles each, two rides of 5 miles each, and two rides of 8 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen. (5) After fulfilling the previous requirement, lay out on a trail map a 22-mile trip. You may include multiple trail systems, if needed. Stay away from main highways. Using your map, complete this ride in one day.
+- Req 6b(1) (1): Demonstrate the following mountain bike handling skills to your counselor: (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing. (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering. (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing.
+- Req 6b(2) (2): Take a trail safety test with your counselor and demonstrate the following: (a) Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video) (b) Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle. (c) Cross rocks, gravel, and roots properly.
+- Req 6b(3) (3): Describe the rules of trail riding, including how to know when a trail is unsuitable for riding.
+- Req 6b(4) (4): On mountain biking or multi-use trails approved by your counselor, take two rides of 2 miles each, two rides of 5 miles each, and two rides of 8 miles each. You must make a report of the rides taken. List dates for the routes traveled, and interesting things seen.
+- Req 6b(5) (5): After fulfilling the previous requirement, lay out on a trail map a 22-mile trip. You may include multiple trail systems, if needed. Stay away from main highways. Using your map, complete this ride in one day.
 
-#### Req 6b(1): Mountain Bike Handling Skill Fundamentals
-**Official Requirement 6b(1):** Demonstrate the following mountain bike handling skills to your counselor: (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing. (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering. (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6b(1) Hands-On Skill Station & EDGE Verification Checklist (Mountain Bike Handling Skills)
+### Req 6b(1): Mountain Bike Handling Skill Fundamentals
+**Official Requirement 6b(1) (Parent Overview):** Demonstrate the following mountain bike handling skills to your counselor: (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Group Organizer:** Skill Demonstration Checklist
+> **Guide to Safe Scouting Warning:** Never ride two abreast on narrow winding roads with blind curves or heavy vehicle traffic.
+> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Cycling Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Mountain bike handling relies strictly on stiff arm strength to force the handlebars wherever the trail goes.
 - **Pamphlet Fact:** Effective off-road handling depends on loose limbs acting as shock absorbers and allowing the bicycle to move independently beneath the torso.
 
-![A portable first aid kit carries bandages and antiseptic supplies for cycling injuries.](/assets/pamphlet_images/cycling_p084_img1.png)
+**Official Pamphlet Summary:**
+- Mountain Bike Handling Skill Fundamentals: Mountain bike handling requires active dynamic balance, proactive cadence management, and calculated body positioning over varied off-road terrain. Riders demonstrate core body positions, smooth gear shifts ahead of steep trail grades, and weighted wheel control on ascents and descents (p. 52).
+- Req 6b(1) Standard (Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)): Demonstrate the following mountain bike handling skills to your counselor: (a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering (b) Show shifting skills as applicable to climbs and obstacles. (c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing.
 
-| Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
+#### Req 6b(1)(a): Body Bike Separation and Cornering
+**Official Requirement 6b(1)(a):** Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6b(1)(a) Structured Technical Study & Explanation Matrix (Neutral Position Ready Position Bike)
+- **Common Myth:** A cyclist should lean their entire body and head at the exact same angle as the bicycle when taking tight dirt turns.
+- **Pamphlet Fact:** Leaning the bike into the turn while keeping the body upright presses the aggressive side knobs of the trail tires into the dirt for maximum cornering grip.
+
+| Req 6b(1)(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **(a) Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering.** | `____________________________________` | `____________________________________` |
-| **(b) Show shifting skills as applicable to climbs and obstacles.** | `____________________________________` | `____________________________________` |
-| **(c) Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing.** | `____________________________________` | `____________________________________` |
+| **1. Neutral position, ready position, bike body separation (side to side, and forward and back), and body positioning for cornering** | `____________________________________` | `____________________________________` |
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(2): Trail Etiquette and Obstacle Clearance
-**Official Requirement 6b(2):** Take a trail safety test with your counselor and demonstrate the following: (a) Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video) (b) Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle. (c) Cross rocks, gravel, and roots properly.
-**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6b(2) Hands-On Skill Station & EDGE Verification Checklist (Trail Safety)
+#### Req 6b(1)(b): Anticipatory Off Road Gear Shifting
+**Official Requirement 6b(1)(b):** Show shifting skills as applicable to climbs and obstacles.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6b(1)(b) Structured Technical Study & Explanation Matrix (Shifting Skills As Applicable to)
+- **Common Myth:** Waiting to downshift until your pedals grind to a near halt on a steep hill produces the most climbing torque.
+- **Pamphlet Fact:** Shifting under heavy chain tension causes chain suck, missed shifts, and mechanical breakage that stalls the climb.
+
+| Req 6b(1)(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. Show shifting skills as applicable to climbs and obstacles** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 6b(1)(c): Ascent and Descent Body Stances
+**Official Requirement 6b(1)(c):** Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6b(1)(c) Structured Technical Study & Explanation Matrix (Technique for Riding Up and)
+- **Common Myth:** Standing straight up and pedaling as hard as possible is the best way to conquer a steep loose-rock trail climb.
+- **Pamphlet Fact:** Standing straight up unweights the rear tire, causing it to spin out uselessly on loose rocks or dirt surfaces.
+
+| Req 6b(1)(c) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. Show proper technique for riding up and down hills, including when you would ride seated, crouched, or standing** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+### Req 6b(2): Trail Etiquette and Obstacle Clearance
+**Official Requirement 6b(2) (Parent Overview):** Take a trail safety test with your counselor and demonstrate the following: (a) Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video) (b) Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle. (c) Cross rocks, gravel, and roots properly.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Group Organizer:** Skill Demonstration Checklist
 - **Common Myth:** Downhill mountain bikers have the right of way over uphill cyclists and hikers because of their higher speed and momentum.
 - **Pamphlet Fact:** Bicyclists must always yield the trail to hikers and equestrians, and downhill riders must yield to uphill cyclists who have the right of way.
 
-![A young cyclist repairs a bicycle chain on a woodland trail using portable hand tools.](/assets/pamphlet_images/cycling_p088_img1.png)
+**Official Pamphlet Summary:**
+- Trail Etiquette and Obstacle Clearance: Scouts demonstrate courteous shared-use trail protocols by slowing down, communicating audibly, and yielding to hikers and equestrians. The test also requires executing obstacle-clearing techniques such as unweighting wheels or lofting the front wheel over rocks and fallen logs (p. 60).
+- Req 6b(2) Standard (Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)): Take a trail safety test with your counselor and demonstrate the following: (a) Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video) (b) Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle. (c) Cross rocks, gravel, and roots properly.
+
+#### Req 6b(2)(a): Trail Right of Way Etiquette
+**Official Requirement 6b(2)(a):** Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video)
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6b(2)(a) Structured Technical Study & Explanation Matrix (Trail Etiquette to Hikers)
+- **Common Myth:** Downhill cyclists have the right of way over climbing riders because high speed makes braking on a descent harder.
+- **Pamphlet Fact:** Climbing riders always retain the right of way because restarting momentum on a steep incline is far more difficult than braking while rolling downhill.
+
+| Req 6b(2)(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way.** | `____________________________________` | `____________________________________` |
+| **2. Resource: Bike Trail Etiquette (video)** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 6b(2)(b): Trail Obstacle Crossing Techniques
+**Official Requirement 6b(2)(b):** Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Skill Demonstration Checklist):** Req 6b(2)(b) Hands-On Skill Station & EDGE Verification Checklist (Cross An Obstacle By Either)
+- **Common Myth:** Pulling straight upward on the handlebars while seated in the saddle is the proper way to lift a front wheel over a trail obstacle.
+- **Pamphlet Fact:** A rider must rise into the standing ready position and shift weight backward while applying a pedal punch to float the front wheel cleanly across the hazard.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **(a) Show proper trail etiquette to hikers and other cyclists, including when to yield the right-of-way. Resource: Bike Trail Etiquette (video)** | `____________________________________` | `____________________________________` |
-| **(b) Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle.** | `____________________________________` | `____________________________________` |
-| **(c) Cross rocks, gravel, and roots properly.** | `____________________________________` | `____________________________________` |
+| **1. Demonstrate how to correctly cross an obstacle by either going over the obstacle on your bike or dismounting your bike and crossing over or around the obstacle** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 6b(2)(c): Loose Trail Surface Riding Techniques
+**Official Requirement 6b(2)(c):** Cross rocks, gravel, and roots properly.
+**Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6b(2)(c) Structured Technical Study & Explanation Matrix (Cross Rocks Gravel and Roots)
+- **Common Myth:** Grabbing the front brake lever helps stabilize the bicycle when steering through loose gravel or wet roots.
+- **Pamphlet Fact:** Sudden front braking on loose or slick surfaces causes the front wheel to tuck and skid, requiring riders to feather the rear brake instead.
+
+| Req 6b(2)(c) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. Cross rocks, gravel, and roots properly** | `____________________________________` | `____________________________________` |
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
@@ -375,8 +533,6 @@
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 80, p. 94)* • **Organizer (Concept & Examples Notes):** Req 6b(3) Structured Technical Study & Explanation Matrix (Trail Riding Including How to)
 - **Common Myth:** Riding across saturated muddy trails is harmless because drying dirt naturally smooths over bicycle tracks.
 - **Pamphlet Fact:** Tires cut deep ruts into saturated soil that funnel water runoff into destructive erosion gullies and ruin the tread surface.
-
-![A road bicycle features thin high-pressure tires and drop handlebars for paved riding.](/assets/pamphlet_images/cycling_p092_img1.png)
 
 | Req 6b(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -390,8 +546,6 @@
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Cycling Req 6b(4) preparation with your Merit Badge Counselor before moving to subsequent tasks.
 - **Common Myth:** Scouts can combine the two separate 5-mile rides into a single 10-mile outing to fulfill the requirement faster.
 - **Pamphlet Fact:** Each mileage target must be performed as an independent training session so the rider progressively builds off-road stamina and bike handling skill.
-
-![A dual-suspension mountain bike provides traction and shock absorption on rough trails.](/assets/pamphlet_images/cycling_p093_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

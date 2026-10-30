@@ -1,8 +1,8 @@
 # Moviemaking Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Moviemaking.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/moviemaking/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/moviemaking/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -24,8 +24,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Discuss and demonstrate the proper elements of a good motion picture. In your discussion, include visual storytelling, rhythm, the 180-axis rule, camera movement, framing and composition of camera shots, and lens selection.
-- [ ] **Station Req 2:** Do the following: (a) In a three- or four-paragraph treatment, tell the story you plan to produce, making sure that the treatment conveys a visual picture. (b) Prepare a storyboard for your motion picture. Note: This can be done with rough sketches and stick figures. (c) Demonstrate the following motion picture shooting techniques: (1) Using a tripod (2) Panning a camera (3) Framing a shot (4) Selecting an angle (5) Selecting proper lighting (6) Handheld shooting (d) Using motion picture shooting techniques, plan ONE of the following programs. Start with a treatment and complete the requirement by presenting this program to a pack or your troop, patrol, or class. (1) Film a court of honor and show it to an audience. (2) Create a short feature of your own design, using the techniques you learned. (3) Shoot a vignette that could be used to train a new Scout in a Scouting skill.
+- [ ] **Station Req 1:** Scout must individually discuss mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -71,9 +71,9 @@
 - **Pamphlet Fact:** Treatments describe characters, physical actions, and narrative settings in straight prose without technical script directions.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Moviemaking Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Three- or Four-paragraph Treatment)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Three- or Four-paragraph Treatment
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Moviemaking Merit Badge: Three- or Four-paragraph Treatment.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Three- or Four-paragraph Treatment.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Moviemaking Requirement 2 figure showing narrative prose outlines character motives and visual story progression.](/assets/pamphlet_images/moviemaking_p007_img1.png)
 

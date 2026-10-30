@@ -904,6 +904,19 @@ def _scope_req_dict_for_slide(
         if sub_socratic:
             scoped["socratic_questions"] = sub_socratic
 
+        sub_misc_pool: List[Dict[str, str]] = []
+        for sr in matched_subs:
+            if isinstance(sr.get("common_misconception_pair"), dict):
+                sub_misc_pool.append(sr["common_misconception_pair"])
+            for mp_item in (sr.get("misconception_pool") or []):
+                if isinstance(mp_item, dict):
+                    sub_misc_pool.append(mp_item)
+        for mp_item in (scoped.get("misconception_pool") or []):
+            if isinstance(mp_item, dict):
+                sub_misc_pool.append(mp_item)
+        if sub_misc_pool:
+            scoped["misconception_pool"] = sub_misc_pool
+
         # Scope common_misconception_pair: pick non-generic sub-req misconception distinct from parent if present, else clear for synthesis
         parent_mp_raw = (req_data or {}).get("common_misconception_pair")
         parent_myth_norm = (
@@ -1245,17 +1258,26 @@ def _build_slide_teaching_notes(
     sub_misc_candidates: List[Tuple[str, str]] = []
     seen_sub_myths: set = {parent_myth_norm} if parent_myth_norm else set()
 
+    def _add_misc_candidate(mp_obj: Any) -> None:
+        if not isinstance(mp_obj, dict):
+            return
+        sm = _sanitize_no_ellipsis_or_emdash(str(mp_obj.get("misconception") or mp_obj.get("myth") or ""))
+        sf = _sanitize_no_ellipsis_or_emdash(str(mp_obj.get("fact") or mp_obj.get("fact_correction") or ""))
+        sm_low = sm.strip().lower()
+        if sm and sf and not _is_generic_meta_misconception(sm, sf) and sm_low not in seen_sub_myths:
+            seen_sub_myths.add(sm_low)
+            sub_misc_candidates.append((sm, sf))
+
+    for mp_it in list(req_data.get("misconception_pool") or []) + list((req_dict or {}).get("misconception_pool") or []):
+        _add_misc_candidate(mp_it)
+
     def _collect_sub_miscs_recursive(nodes_list: List[Any]) -> None:
         for sr_item in nodes_list:
             if not isinstance(sr_item, dict):
                 continue
-            if isinstance(sr_item.get("common_misconception_pair"), dict):
-                sm = _sanitize_no_ellipsis_or_emdash(str(sr_item["common_misconception_pair"].get("misconception") or sr_item["common_misconception_pair"].get("myth") or ""))
-                sf = _sanitize_no_ellipsis_or_emdash(str(sr_item["common_misconception_pair"].get("fact") or sr_item["common_misconception_pair"].get("fact_correction") or ""))
-                sm_low = sm.strip().lower()
-                if not _is_generic_meta_misconception(sm, sf) and sm_low not in seen_sub_myths:
-                    seen_sub_myths.add(sm_low)
-                    sub_misc_candidates.append((sm, sf))
+            _add_misc_candidate(sr_item.get("common_misconception_pair"))
+            for mp_it in (sr_item.get("misconception_pool") or []):
+                _add_misc_candidate(mp_it)
             ch_list = sr_item.get("children") or sr_item.get("sub_requirements") or []
             if ch_list:
                 _collect_sub_miscs_recursive(list(ch_list))
@@ -1263,16 +1285,12 @@ def _build_slide_teaching_notes(
     _collect_sub_miscs_recursive(list((req_dict or {}).get("sub_requirements") or []))
 
     used_myths_in_deck = s_dict.get("_used_myths_in_deck")
-    _specialized_archs = (
+    _quiz_only_archs = (
         SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value,
-        SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value,
-        SlideArchetype.GEAR_CHECKLIST_GRID.value,
-        SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value,
-        SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value,
     )
 
     chosen_pair: Optional[Tuple[str, str]] = None
-    if arch not in _specialized_archs:
+    if arch not in _quiz_only_archs and not quiz_item:
         ordered_candidates: List[Tuple[str, str]] = []
         if slide_idx_in_req == 0:
             if parent_myth and parent_fact:
@@ -1288,6 +1306,10 @@ def _build_slide_teaching_notes(
             if sub_misc_candidates:
                 rot_idx = (slide_idx_in_req - 1) % len(sub_misc_candidates)
                 ordered_candidates.extend(sub_misc_candidates[rot_idx:] + sub_misc_candidates[:rot_idx])
+            if parent_myth and parent_fact:
+                ordered_candidates.append((parent_myth, parent_fact))
+            if raw_myth and raw_fact:
+                ordered_candidates.append((raw_myth, raw_fact))
             if precomp_myth and precomp_fact and precomp_myth.strip().lower() != parent_myth_norm:
                 ordered_candidates.append((precomp_myth, precomp_fact))
         for cm, cf in ordered_candidates:
@@ -1296,6 +1318,11 @@ def _build_slide_teaching_notes(
                 if not isinstance(used_myths_in_deck, set) or cm_low not in used_myths_in_deck:
                     chosen_pair = (cm, cf)
                     break
+        if chosen_pair is None and ordered_candidates:
+            base_m, base_f = ordered_candidates[slide_idx_in_req % len(ordered_candidates)]
+            if not _is_generic_meta_misconception(base_m, base_f):
+                ctx_m = f"{base_m.rstrip('.!? ')} (specifically during \"{clean_title}\")."
+                chosen_pair = (ctx_m, base_f)
 
     if chosen_pair is not None:
         myth_txt, fact_txt = chosen_pair
@@ -1473,8 +1500,59 @@ def _build_slide_teaching_notes(
         f"{pacing_walkthroughs[tpl_idx]}{visual_tie_in}{safety_note}{local_cue}{audience_cue}"
     )
 
-    # 2. [ASK SCOUTS FIRST] — Archetype-aware + 6 distinct Socratic templates with proper singular/plural grammar
-    if arch == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value or comparison_data:
+    # 2. [ASK SCOUTS FIRST] — Prioritize Gemini-curated Socratic questions across all non-quiz archetypes
+    curated_socratic: List[str] = []
+    for q in list(req_data.get("socratic_questions") or []) + list((req_dict or {}).get("socratic_questions") or []):
+        q_c = _sanitize_no_ellipsis_or_emdash(str(q).strip())
+        if len(q_c) >= 25 and q_c not in curated_socratic:
+            curated_socratic.append(q_c)
+
+    def _collect_sub_socratic_recursive(nodes_list: List[Any]) -> None:
+        for sr_item in nodes_list:
+            if not isinstance(sr_item, dict):
+                continue
+            for q in (sr_item.get("socratic_questions") or []):
+                q_c = _sanitize_no_ellipsis_or_emdash(str(q).strip())
+                if len(q_c) >= 25 and q_c not in curated_socratic:
+                    curated_socratic.append(q_c)
+            ch_list = sr_item.get("children") or sr_item.get("sub_requirements") or []
+            if ch_list:
+                _collect_sub_socratic_recursive(list(ch_list))
+
+    _collect_sub_socratic_recursive(list((req_dict or {}).get("sub_requirements") or []))
+
+    used_asks_in_deck = s_dict.get("_used_asks_in_deck")
+    if arch == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value or quiz_item:
+        qi = quiz_item or {}
+        scenario = _sanitize_no_ellipsis_or_emdash(
+            str(qi.get("scenario_prompt") or (pts[0] if pts else f"What action should your patrol take during {clean_title}?"))
+        )
+        if scenario.startswith("How do "):
+            scenario = "In what specific ways do " + scenario[len("How do "):]
+        if is_hazard_ctx:
+            ask_block = (
+                f"[ASK SCOUTS FIRST] Pose this scenario to buddy pairs before revealing the answer key: \"{scenario}\" Which option do you choose first, and what hazard does it prevent?"
+            )
+        else:
+            ask_block = (
+                f"[ASK SCOUTS FIRST] Pose this scenario to buddy pairs before revealing the answer key: \"{scenario}\" Which option do you choose first, and why does it satisfy the {clean_badge} Merit Badge Pamphlet standard?"
+            )
+    elif curated_socratic:
+        chosen_q = ""
+        start_q_idx = slide_idx_in_req % len(curated_socratic)
+        rotated_q = curated_socratic[start_q_idx:] + curated_socratic[:start_q_idx]
+        for cand_q in rotated_q:
+            q_norm = cand_q.rstrip("?.! ").lower()
+            if not isinstance(used_asks_in_deck, set) or q_norm not in used_asks_in_deck:
+                chosen_q = cand_q.rstrip("?.! ") + "?"
+                break
+        if not chosen_q:
+            base_q = rotated_q[0].rstrip("?.! ") + "?"
+            chosen_q = f"{base_q} (Focus on {topic_1} and {topic_2} on \"{clean_title}\".)"
+        if isinstance(used_asks_in_deck, set):
+            used_asks_in_deck.add(chosen_q.rstrip("?.! ").lower())
+        ask_block = f"[ASK SCOUTS FIRST] {chosen_q}"
+    elif arch == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value or comparison_data:
         cd = comparison_data or {}
         left_h = _sanitize_no_ellipsis_or_emdash(str(cd.get("left_header") or topic_1))
         right_h = _sanitize_no_ellipsis_or_emdash(str(cd.get("right_header") or topic_2))
@@ -1484,19 +1562,6 @@ def _build_slide_teaching_notes(
             f"[ASK SCOUTS FIRST] Why does confusing {left_h} with {right_h} lead to the wrong action in {clean_badge} {req_display_label}, and what check separates them?",
         ]
         ask_block = comp_asks[tpl_idx % len(comp_asks)]
-    elif arch == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value or quiz_item:
-        qi = quiz_item or {}
-        scenario = _sanitize_no_ellipsis_or_emdash(
-            str(qi.get("scenario_prompt") or (pts[0] if pts else f"How should your patrol apply {clean_title}?"))
-        )
-        if is_hazard_ctx:
-            ask_block = (
-                f"[ASK SCOUTS FIRST] Pose this scenario to buddy pairs before revealing the answer key: \"{scenario}\" Which option do you choose first, and what hazard does it prevent?"
-            )
-        else:
-            ask_block = (
-                f"[ASK SCOUTS FIRST] Pose this scenario to buddy pairs before revealing the answer key: \"{scenario}\" Which option do you choose first, and why does it satisfy the {clean_badge} Merit Badge Pamphlet standard?"
-            )
     elif arch == SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value:
         proc_asks = [
             f"[ASK SCOUTS FIRST] Why must your buddy pair complete {topic_1} before moving to {topic_2} during \"{clean_title},\" and what goes wrong if Step 1 is skipped?",
@@ -1514,63 +1579,26 @@ def _build_slide_teaching_notes(
         ask_block = (
             f"[ASK SCOUTS FIRST] Compare a vague one-line note with this worked example for \"{clean_title}\": what specific detail in {topic_1} makes this log ready for {clean_badge} {req_display_label} sign-off?"
         )
+    elif len(dedup_topics) >= 2:
+        general_asks_plural = [
+            f"[ASK SCOUTS FIRST] How do {topic_1} and {topic_2} reinforce each other in {clean_badge} {req_display_label}, and where would your patrol apply both on a troop outing?",
+            f"[ASK SCOUTS FIRST] If a younger Scout asked you why {topic_1} matters alongside {topic_2} in {clean_badge} {req_display_label}, what real-world example would you give first?",
+            f"[ASK SCOUTS FIRST] What is the practical connection between {topic_1} and {topic_2} during \"{clean_title},\" and what field clue tells you both are working?",
+            f"[ASK SCOUTS FIRST] Before we unpack the cards on screen, how would your buddy pair use {topic_1} and {topic_2} to solve a real problem in {clean_badge} {req_display_label}?",
+            f"[ASK SCOUTS FIRST] Between {topic_1} and {topic_2} on this slide, which one requires the most preparation ahead of time for {clean_badge} {req_display_label}, and why?",
+            f"[ASK SCOUTS FIRST] When evaluating {clean_title} ({clean_badge} {req_display_label}), how does mastering {topic_1} prepare your patrol to handle {topic_2}?",
+        ]
+        ask_block = general_asks_plural[tpl_idx]
     else:
-        curated_socratic: List[str] = []
-        for q in list(req_data.get("socratic_questions") or []) + list((req_dict or {}).get("socratic_questions") or []):
-            q_c = _sanitize_no_ellipsis_or_emdash(str(q).strip())
-            if len(q_c) >= 25 and q_c not in curated_socratic:
-                curated_socratic.append(q_c)
-
-        def _collect_sub_socratic_recursive(nodes_list: List[Any]) -> None:
-            for sr_item in nodes_list:
-                if not isinstance(sr_item, dict):
-                    continue
-                for q in (sr_item.get("socratic_questions") or []):
-                    q_c = _sanitize_no_ellipsis_or_emdash(str(q).strip())
-                    if len(q_c) >= 25 and q_c not in curated_socratic:
-                        curated_socratic.append(q_c)
-                ch_list = sr_item.get("children") or sr_item.get("sub_requirements") or []
-                if ch_list:
-                    _collect_sub_socratic_recursive(list(ch_list))
-
-        _collect_sub_socratic_recursive(list((req_dict or {}).get("sub_requirements") or []))
-
-        used_asks_in_deck = s_dict.get("_used_asks_in_deck")
-        if curated_socratic:
-            chosen_q = ""
-            start_q_idx = slide_idx_in_req % len(curated_socratic)
-            rotated_q = curated_socratic[start_q_idx:] + curated_socratic[:start_q_idx]
-            for cand_q in rotated_q:
-                q_norm = cand_q.rstrip("?.! ").lower()
-                if not isinstance(used_asks_in_deck, set) or q_norm not in used_asks_in_deck:
-                    chosen_q = cand_q.rstrip("?.! ") + "?"
-                    break
-            if not chosen_q:
-                base_q = rotated_q[0].rstrip("?.! ") + "?"
-                chosen_q = f"{base_q} (Focus on {topic_1} and {topic_2} on \"{clean_title}\".)"
-            if isinstance(used_asks_in_deck, set):
-                used_asks_in_deck.add(chosen_q.rstrip("?.! ").lower())
-            ask_block = f"[ASK SCOUTS FIRST] {chosen_q}"
-        elif len(dedup_topics) >= 2:
-            general_asks_plural = [
-                f"[ASK SCOUTS FIRST] How do {topic_1} and {topic_2} reinforce each other in {clean_badge} {req_display_label}, and where would your patrol apply both on a troop outing?",
-                f"[ASK SCOUTS FIRST] If a younger Scout asked you why {topic_1} matters alongside {topic_2} in {clean_badge} {req_display_label}, what real-world example would you give first?",
-                f"[ASK SCOUTS FIRST] What is the practical connection between {topic_1} and {topic_2} during \"{clean_title},\" and what field clue tells you both are working?",
-                f"[ASK SCOUTS FIRST] Before we unpack the cards on screen, how would your buddy pair use {topic_1} and {topic_2} to solve a real problem in {clean_badge} {req_display_label}?",
-                f"[ASK SCOUTS FIRST] Between {topic_1} and {topic_2} on this slide, which one requires the most preparation ahead of time for {clean_badge} {req_display_label}, and why?",
-                f"[ASK SCOUTS FIRST] When evaluating {clean_title} ({clean_badge} {req_display_label}), how does mastering {topic_1} prepare your patrol to handle {topic_2}?",
-            ]
-            ask_block = general_asks_plural[tpl_idx]
-        else:
-            general_asks_singular = [
-                f"[ASK SCOUTS FIRST] How does {topic_1} apply in {clean_badge} {req_display_label}, and where can your patrol see its impact on a real Scouting activity?",
-                f"[ASK SCOUTS FIRST] Why is {topic_1} a core requirement in {clean_badge} {req_display_label}, and what field sign shows a Scout has mastered it?",
-                f"[ASK SCOUTS FIRST] If you had to coach a Tenderfoot buddy on {topic_1} for {clean_badge} {req_display_label}, what is the very first check you would show them?",
-                f"[ASK SCOUTS FIRST] What makes {topic_1} essential during \"{clean_title},\" and how do you verify it under real outdoor conditions?",
-                f"[ASK SCOUTS FIRST] Before we review the pamphlet standard for {clean_badge} {req_display_label}, what is the most important rule to remember about {topic_1}?",
-                f"[ASK SCOUTS FIRST] How does understanding {topic_1} help your patrol stay prepared and effective during {clean_badge} {req_display_label}?",
-            ]
-            ask_block = general_asks_singular[tpl_idx]
+        general_asks_singular = [
+            f"[ASK SCOUTS FIRST] How does {topic_1} apply in {clean_badge} {req_display_label}, and where can your patrol see its impact on a real Scouting activity?",
+            f"[ASK SCOUTS FIRST] Why is {topic_1} a core requirement in {clean_badge} {req_display_label}, and what field sign shows a Scout has mastered it?",
+            f"[ASK SCOUTS FIRST] If you had to coach a Tenderfoot buddy on {topic_1} for {clean_badge} {req_display_label}, what is the very first check you would show them?",
+            f"[ASK SCOUTS FIRST] What makes {topic_1} essential during \"{clean_title},\" and how do you verify it under real outdoor conditions?",
+            f"[ASK SCOUTS FIRST] Before we review the pamphlet standard for {clean_badge} {req_display_label}, what is the most important rule to remember about {topic_1}?",
+            f"[ASK SCOUTS FIRST] How does understanding {topic_1} help your patrol stay prepared and effective during {clean_badge} {req_display_label}?",
+        ]
+        ask_block = general_asks_singular[tpl_idx]
 
     # 3. [EXPECTED PAMPHLET ANSWER KEY] — Scoped sub-requirements & rotated pamphlet excerpts
     sub_reqs = list(req_data.get("sub_requirements") or [])
@@ -1850,7 +1878,7 @@ def _polish_slide_bullet_for_card(
         "until", "unless", "since", "whether", "whereas", "your", "their", "our",
         "my", "his", "her", "its", "this", "these", "those", "some", "any", "each",
         "every", "either", "neither", "both", "such", "what", "whatever", "not", "no",
-        "very", "more", "most", "other", "another",
+        "very", "more", "most", "other", "another", "and/or",
     }
     _abbrev_tails = {
         "e.g", "i.e", "u.s", "dr", "mr", "mrs", "ms", "st", "ft", "in", "oz", "lb",

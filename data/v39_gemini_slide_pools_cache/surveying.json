@@ -1,0 +1,221 @@
+{
+  "badge_slug": "surveying",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Heat or suffocation causes the tick to regurgitate infectious fluids into the wound; grasp it near the skin with fine tweezers and pull up.",
+          "misconception": "Burning an attached tick with a match or coating it in petroleum jelly forces it to back out safely."
+        },
+        {
+          "fact": "Incising or sucking a snakebite damages blood vessels and introduces bacteria; keep the victim calm, immobilize the limb, and get medical help.",
+          "misconception": "Cutting a snakebite wound and sucking out the venom reduces the amount of toxin entering the bloodstream."
+        },
+        {
+          "fact": "Squeezing the venom sac injects more toxin into the skin; scrape the stinger sideways using the edge of a credit card or dull knife blade.",
+          "misconception": "Pinching a bee stinger between your thumb and forefinger is the fastest way to stop venom injection."
+        },
+        {
+          "fact": "Gulping cold water can trigger severe stomach cramps and vomiting; move the person to shade, cool the skin, and give small sips of water.",
+          "misconception": "Drinking a large bottle of ice water all at once is the safest treatment for a surveyor with heat exhaustion."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to embedded mouthparts if you twist or squeeze an attached tick instead of pulling straight up with fine tweezers?",
+        "Which physical indicator distinguishes life-threatening heatstroke from heat exhaustion during an afternoon boundary survey?",
+        "Why is it dangerous to apply a tourniquet or cut and suck venom after a venomous snakebite in a remote survey brushline?",
+        "Where should a rod person inspect on a wooden stake or brush line before clearing a sightline in copperhead and poison ivy habitat?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Adjusting leveling screws tilts the vertical axis slightly; always recheck and recenter the optical plummet or plumb bob after final leveling.",
+          "misconception": "Leveling the transit head with the leveling screws automatically keeps the optical plummet centered over the corner tack."
+        },
+        {
+          "fact": "Boundary plats require horizontal distances; surveyors must either hold the tape level with a plumb bob or apply a slope angle correction.",
+          "misconception": "Pulling a survey tape along the ground slope gives the true horizontal distance required for boundary calculations."
+        },
+        {
+          "fact": "Erasing destroys original legal evidence in a field book; cross out errors with a single line and write the corrected value neatly above it.",
+          "misconception": "Erasing a mistaken distance in the field notebook keeps legal survey records cleaner and more accurate."
+        },
+        {
+          "fact": "A range pole held out of plumb shifts the line of sight horizontally; always sight the lowest visible point near the tack or plumb the pole.",
+          "misconception": "Sighting the top of a tilted range pole yields the same horizontal angle as sighting the bottom tip on the corner tack."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to every recorded horizontal angle if the tripod shifts or loses center over the occupied corner hub mid-survey?",
+        "Which field check at the end of a radial round confirms that the theodolite horizontal circle did not slip on the tripod head?",
+        "Under what condition does a sloped steel tape measurement overestimate the true horizontal distance between two lot corners?",
+        "Why is it dangerous to erase an erroneous angle entry in a surveyor's field book instead of lining it out with a single stroke?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Photocopying or resizing changes paper dimensions and invalidates written ratios, whereas a drawn graphic scale bar shrinks proportionally.",
+          "misconception": "A written scale statement such as 1 inch equals 30 feet remains accurate even when a plat is photocopied at a reduced size."
+        },
+        {
+          "fact": "Survey distances are recorded in decimal feet, requiring an engineer's scale graduated in multiples of ten units per inch for accurate plotting.",
+          "misconception": "Measuring decimal feet on a plat with a standard 16ths-of-an-inch ruler produces exact engineering scale lengths."
+        },
+        {
+          "fact": "All radial angles were turned from a single instrument station, so the protractor must stay centered on that station aligned to the baseline.",
+          "misconception": "Radial angles recorded from a reference corner are plotted by moving the protractor center to each newly drawn perimeter point."
+        },
+        {
+          "fact": "Magnetic north differs from true north by the local magnetic declination angle, so a survey plat must note which north reference is shown.",
+          "misconception": "Magnetic north and true geodetic north point in the exact same direction on a property survey map."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the plotted position of a distant lot corner if your protractor baseline is off by even one degree at the station?",
+        "Why is a graphic scale bar essential on a boundary plat even when a written ratio like 1 inch equals 20 feet is printed on the page?",
+        "Where should the protractor index center and zero-degree baseline align when plotting radial angles turned from your reference line?",
+        "Which distinction separates an engineer's scale divided into tenths of an inch from a standard architect's fractional inch ruler?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Height of Instrument is the elevation of the level line of sight, calculated by adding the benchmark elevation and the backsight rod reading.",
+          "misconception": "Height of Instrument in differential leveling is found by measuring from the ground beneath the tripod up to the telescope eyepiece."
+        },
+        {
+          "fact": "Because the level sightline stays fixed above the rod, a larger foresight reading means the ground dropped further below the line of sight.",
+          "misconception": "A larger foresight reading on the leveling rod indicates that the sighted corner stake sits at a higher ground elevation."
+        },
+        {
+          "fact": "Any forward or backward tilt makes the rod a hypotenuse, causing the crosshair to read a higher number than the true vertical height.",
+          "misconception": "Tilting the leveling rod slightly away from the instrument makes the crosshair reading smaller than the true vertical height."
+        },
+        {
+          "fact": "Survey leveling rods are graduated in feet, tenths, and hundredths of a foot so elevations can be added and subtracted using decimal arithmetic.",
+          "misconception": "Philadelphia leveling rods are graduated in feet and twelve inches just like a carpenter's tape measure."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What calculation determines the Height of Instrument after sighting the leveling rod held on the 100-foot benchmark?",
+        "Why does reading a higher number on the Philadelphia rod mean the ground corner marker is actually at a lower elevation?",
+        "What happens to the rod reading if the rod person tilts the leveling rod forward or backward instead of holding it strictly plumb?",
+        "Which field procedure at the end of a level loop verifies that no rod reading blunders or tripod settlement occurred during the run?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Street addresses and tax numbers are only for mail and assessment; the legal description of courses, monuments, or subdivision lots governs.",
+          "misconception": "A property's street address or tax parcel number in a deed is the legally binding definition of its boundary lines."
+        },
+        {
+          "fact": "Under the legal hierarchy of evidence, undisturbed natural and artificial monuments called for in the deed control over bearings and distances.",
+          "misconception": "Written distances and acreage numbers in a deed always override physical boundary monuments found in the ground."
+        },
+        {
+          "fact": "An easement grants a specific right of use or access across the land while the property owner retains underlying title to the parcel.",
+          "misconception": "A utility easement recorded in a property deed transfers ownership of that strip of land to the utility company."
+        },
+        {
+          "fact": "A quitclaim deed transfers only whatever interest the grantor currently possesses, whereas a warranty deed guarantees clear title and defense.",
+          "misconception": "A quitclaim deed guarantees that the grantor holds clear, unencumbered title and surveyed boundaries to the parcel."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the legal validity of a metes and bounds description if the perimeter calls fail to return to the Point of Beginning?",
+        "Which legal rule resolves a boundary conflict when a deed's written distance disagrees with an original iron monument?",
+        "What distinction separates a recorded Plat Lot and Block legal description from a traditional metes and bounds boundary description?",
+        "Why must a surveyor review utility and access easements listed in a deed even though easements do not transfer fee simple ownership?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Optical photogrammetry only maps visible top surfaces like leaves, whereas LiDAR laser pulses penetrate small canopy gaps to hit bare ground.",
+          "misconception": "Standard drone camera photogrammetry can measure bare-earth ground elevations directly through a closed, leafy forest canopy."
+        },
+        {
+          "fact": "Standard autonomous drone GPS drifts by several feet; survey-grade accuracy requires Ground Control Points or RTK/PPK carrier-phase corrections.",
+          "misconception": "Consumer drone GPS receivers alone achieve survey-grade centimeter accuracy without ground control points or RTK corrections."
+        },
+        {
+          "fact": "Laser scanners are strictly line-of-sight instruments, so surveyors must register scans from multiple stations to eliminate shadow occlusions.",
+          "misconception": "A single terrestrial laser scanner setup can capture every wall and surface of a building without any blind spots."
+        },
+        {
+          "fact": "Laser scanners only record surface geometry; locating buried ferrous monuments and interpreting legal title still require a ground surveyor.",
+          "misconception": "Dense 3D point clouds from laser scanners automatically identify buried iron boundary pins and legal property lines."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the elevation accuracy of an optical drone photogrammetry survey over dense forest canopy compared to airborne LiDAR?",
+        "Why must a surveyor establish surveyed Ground Control Points on the terrain before flying a photogrammetric mapping drone mission?",
+        "Under what site condition does a terrestrial 3D laser scanner require multiple overlapping setups to capture a complete structure?",
+        "Which regulatory and legal limitation prevents an aerial drone orthomosaic map from replacing a ground-monumented boundary survey?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "GPS satellites are one-way broadcast beacons; ground receivers only listen to timed signals and compute position by trilateration.",
+          "misconception": "Surveyors using GPS equipment transmit radio signals up to the satellites in orbit to request their ground coordinates."
+        },
+        {
+          "fact": "A fourth satellite signal is mandatory to solve for the timing clock bias between the receiver's quartz clock and the satellite atomic clocks.",
+          "misconception": "Three GPS satellites are sufficient to determine exact latitude, longitude, and elevation on a standard survey receiver."
+        },
+        {
+          "fact": "Consumer GPS reads coarse code signals accurate to several meters, while survey RTK receivers track carrier-wave phase for centimeter accuracy.",
+          "misconception": "Handheld hiking GPS units and survey-grade RTK GNSS rovers use the same signal measurement method and achieve identical accuracy."
+        },
+        {
+          "fact": "Satellites bunched together create poor geometry and high PDOP error; wide angular separation across the sky yields the strongest 3D position.",
+          "misconception": "Closely clustered satellites directly overhead provide better geometric dilution of precision than satellites spread across the sky."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why does a GPS receiver require simultaneous signals from at least four satellites instead of three to solve a 3D survey position?",
+        "What happens to RTK GNSS accuracy when a rover operates next to tall metal buildings or under heavy overhead tree canopy?",
+        "Which physical error source does a stationary RTK base station measure and broadcast to the rover to achieve centimeter precision?",
+        "Where does a GPS satellite range signal travel compared to an optical total station sightline between two mountain valley corners?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Establishing legal property boundaries is restricted by state law to licensed Professional Land Surveyors who have passed state boundary exams.",
+          "misconception": "Any licensed civil engineer is legally authorized to monument property boundaries and stamp subdivision plats in every state."
+        },
+        {
+          "fact": "Passing the FS exam earns Surveyor-in-Training status; full licensure requires years of supervised experience plus the PS and state exams.",
+          "misconception": "Passing the NCEES Fundamentals of Surveying exam immediately grants a surveyor a full license to sign and seal boundary surveys."
+        },
+        {
+          "fact": "Modern surveyors blend field robotics and drone flight with CAD drafting, GIS database management, courthouse title research, and boundary law.",
+          "misconception": "Modern surveying careers consist almost entirely of outdoor manual labor cutting brush and holding range poles."
+        },
+        {
+          "fact": "Many technicians enter as paid rod or instrument operators through technical colleges or apprenticeships while working toward full licensure.",
+          "misconception": "A four-year college degree is the only pathway to enter the surveying profession and earn an income in the field."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What legal authority distinguishes a licensed Professional Land Surveyor from an unlicensed survey field technician?",
+        "Which examination and field apprenticeship milestones must a graduate complete after passing the Fundamentals of Surveying exam?",
+        "Where do hydrographic, geodetic, and construction layout surveyors differ in the primary measurements and clients they serve?",
+        "Why do states require licensed land surveyors to carry errors and omissions liability insurance and complete continuing education?"
+      ],
+      "req_id": "8"
+    }
+  ]
+}

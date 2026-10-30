@@ -1,0 +1,167 @@
+{
+  "badge_slug": "electronics",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Large electrolytic filter capacitors retain lethal high-voltage charges long after power is removed and must be safely discharged first.",
+          "misconception": "Unplugging an AC power cord from the wall immediately removes all electrical shock hazards inside an amplifier or power supply."
+        },
+        {
+          "fact": "Never wear a grounded wrist strap near live high voltage because it creates a direct low-resistance path for lethal current through your body.",
+          "misconception": "Wearing an anti-static wrist strap is safer when probing live mains-powered equipment on the workbench."
+        },
+        {
+          "fact": "Currents as small as 100 milliamperes across the chest can stop the human heart, and 120 volts easily drives that current through skin.",
+          "misconception": "Household 120-volt AC outlets cannot cause a fatal injury because the voltage is relatively low compared to power lines."
+        },
+        {
+          "fact": "Clipped component leads fly at high speed and molten solder or overheated capacitors can pop, requiring eye protection during all bench work.",
+          "misconception": "Safety glasses are only needed when cutting metal enclosures or drilling holes in circuit boards."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to probe inside an unplugged power supply before discharging its filter capacitors?",
+        "What happens to an integrated circuit when electrostatic discharge passes from your fingers into its pins?",
+        "What measurement confirms that a high-voltage capacitor has been safely bled down to zero volts?",
+        "Where should a Scout position one hand while probing a live high-voltage chassis to prevent current across the heart?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Schematics show logical electrical connections and signal flow from left to right rather than the physical arrangement of components.",
+          "misconception": "The layout of symbols on a schematic diagram shows the exact physical positions of parts on the finished circuit board."
+        },
+        {
+          "fact": "Crossing lines without a solid junction dot pass over each other without connecting, while a dot marks a deliberate electrical splice.",
+          "misconception": "Two crossing lines on a modern schematic always mean the wires are electrically connected at that intersection."
+        },
+        {
+          "fact": "Electrolytic capacitors are polarized and can vent or burst if connected with reverse voltage, whereas ceramic capacitors are non-polarized.",
+          "misconception": "Ceramic and electrolytic capacitors are completely interchangeable on a schematic regardless of polarity markings."
+        },
+        {
+          "fact": "Schematic symbols group IC pins by function for clarity, while the physical chip package numbers pins counter-clockwise from pin 1.",
+          "misconception": "Integrated circuit pin numbers on a schematic symbol are always arranged in sequential counter-clockwise order around the box."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which physical indicator on an electrolytic capacitor matches the curved or minus-marked plate on a schematic diagram?",
+        "What happens to the collector-emitter current in an NPN transistor when a small forward current enters the base terminal?",
+        "Why is it dangerous to install a polarized capacitor backwards relative to the schematic voltage markings?",
+        "Where should a Scout position a current-limiting resistor in an LED schematic to protect the diode from burning out?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Both the component lead and copper pad must be heated simultaneously so the flux cleans the metal and molten solder flows into the joint.",
+          "misconception": "Melting a blob of solder onto the iron tip and wiping it onto a cold wire creates a strong electrical connection."
+        },
+        {
+          "fact": "Acid flux corrodes copper traces and component leads over time; electronic assembly strictly requires rosin-core or no-clean electronic flux.",
+          "misconception": "Acid-core plumber's solder works well for assembling printed circuit boards when rosin-core solder is unavailable."
+        },
+        {
+          "fact": "Heat transfer relies on a clean, tinned tip with a tiny solder bridge, whereas heavy mechanical pressure damages and lifts copper pads.",
+          "misconception": "Pressing harder with the soldering iron tip transfers heat faster into a stubborn circuit board pad."
+        },
+        {
+          "fact": "Cooling a joint too quickly or moving the wire before the solder freezes causes micro-fractures and creates a brittle cold solder joint.",
+          "misconception": "Blowing on a freshly soldered connection helps it solidify into a stronger, more reliable mechanical joint."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to solder wetting when you melt solder directly onto the iron tip instead of heating the pad and lead first?",
+        "Which physical indicator distinguishes a smooth, concave wetting joint from a dull, grainy cold solder joint?",
+        "Where should a Scout position a copper alligator clip heat sink when soldering a heat-sensitive transistor lead?",
+        "Under what condition does a copper trace or pad delaminate and lift off a fiberglass printed circuit board?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Logic families define voltage ranges for high and low states so small noise fluctuations do not cause false switching between 0 and 1.",
+          "misconception": "Digital logic circuits represent ones and zeros using exact voltages with zero tolerance for electrical noise."
+        },
+        {
+          "fact": "Real-world sound, light, and radio waves are continuous analog signals that still require analog amplifiers, filters, and converters.",
+          "misconception": "Analog electronics are obsolete because digital microcontrollers can connect directly to speakers and antennas without conversion."
+        },
+        {
+          "fact": "The rightmost bit is the least significant bit with a weight of 1, while each position to the left doubles in power-of-two value.",
+          "misconception": "The rightmost bit in a standard binary number holds the largest place value just like the leftmost digit in decimal."
+        },
+        {
+          "fact": "Logic pins supply only a few milliamperes of control signal and require a power transistor, MOSFET, or relay to switch heavy motor currents.",
+          "misconception": "A small microcontroller output pin can drive a heavy DC motor directly without an external transistor or relay."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Under what condition does a two-input AND gate output a high logic 1 signal compared to a two-input OR gate?",
+        "What happens to the decimal value of a binary number when every bit is shifted one position to the left?",
+        "Which physical indicator or sensor feedback allows a closed-loop thermostat circuit to regulate room temperature?",
+        "What measurement confirms whether an audio microphone signal is a continuous analog wave rather than a discrete digital pulse?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "An ammeter has near-zero resistance and must be wired in series with the load, or it will short the power source and blow its fuse.",
+          "misconception": "Measuring current with a digital multimeter is done by placing the test probes in parallel across the component under test."
+        },
+        {
+          "fact": "On a four-band resistor, the first two bands give the significant digits while the third band is the power-of-ten multiplier.",
+          "misconception": "The third color band on a standard four-band resistor represents the third digit of the resistance value in ohms."
+        },
+        {
+          "fact": "Ohmmeters inject a small test current and will produce false readings or suffer damage if connected to an energized circuit.",
+          "misconception": "Resistance can be accurately measured with an ohmmeter while the circuit is still powered on and operating."
+        },
+        {
+          "fact": "Metallic gold and silver bands represent 5 percent and 10 percent tolerance and always sit at the right-hand end of the color code.",
+          "misconception": "A gold or silver band on a resistor indicates the first digit of its resistance value and should be read from that end."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the total current in a 12-volt circuit when you replace a 100-ohm resistor with a 200-ohm resistor?",
+        "Why is it dangerous to connect a multimeter set to the current-measuring amp jack directly across a battery's terminals?",
+        "What measurement confirms the actual resistance of a resistor whose bands read brown, black, red, and gold?",
+        "Under what condition does an in-circuit resistance reading give a false value compared to measuring the resistor out of the circuit?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Skilled electronics, avionics, and semiconductor technicians enter strong careers via two-year associate degrees or apprenticeships.",
+          "misconception": "Every high-paying career in the electronics industry requires a four-year university bachelor's degree in electrical engineering."
+        },
+        {
+          "fact": "Engineers focus on circuit architecture, simulation, CAD layout, and firmware, while electronics technicians build, test, and repair hardware.",
+          "misconception": "Electrical engineers spend most of their workday hand-soldering components and repairing broken circuit boards at a workbench."
+        },
+        {
+          "fact": "Aerospace, defense, and marine employers frequently require IPC soldering or FCC licensing before a technician can touch certified hardware.",
+          "misconception": "Industry certifications like IPC J-STD-001 or FCC GROL are optional paperwork that never affect hiring for bench technicians."
+        },
+        {
+          "fact": "Hospitals, power utilities, manufacturing plants, aviation hubs, and telecom providers employ electronics specialists in nearly every region.",
+          "misconception": "Modern electronics jobs only exist in consumer smartphone factories and have disappeared from local communities."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a hardware project when the design engineer and the test technician do not share clear schematic documentation?",
+        "Which physical indicator or bench skill do employers test during a practical interview for an avionics or PCB repair technician?",
+        "Under what condition does an electronics engineer need a Professional Engineer license or an IPC soldering certification?",
+        "Where should a Scout position hands-on projects, Amateur Radio licenses, or robotics logs when applying for an internship?"
+      ],
+      "req_id": "6"
+    }
+  ]
+}

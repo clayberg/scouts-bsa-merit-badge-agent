@@ -142,10 +142,10 @@
 - **Pamphlet Fact:** Type III life jackets offer freedom of arm rotation needed for continuous paddling.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Scouts and counselor demonstrate Kayaking Requirement 3 field procedures and safety checks.](/assets/pamphlet_images/kayaking_p012_img1.png)
 
@@ -384,10 +384,10 @@
 - **Pamphlet Fact:** Planting the blade close to the hull produces forward motion without unnecessary yawing.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![A paddler executes a forward power stroke to propel the kayak across the water.](/assets/pamphlet_images/kayaking_p075_img1.png)
 
@@ -501,10 +501,10 @@
 - **Pamphlet Fact:** Equal cadence and stroke depth on both sides keeps the hull tracking true.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Proper hand spacing and grip technique ensure efficient forward paddling strokes.](/assets/pamphlet_images/kayaking_p067_img2.png)
 

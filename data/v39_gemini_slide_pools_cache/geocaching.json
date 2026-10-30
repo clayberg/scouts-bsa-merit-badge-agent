@@ -1,0 +1,248 @@
+{
+  "badge_slug": "geocaching",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Squeezing a tick's body injects infectious fluids into the bite; grasp it close to the skin with fine-tipped tweezers and pull upward.",
+          "misconception": "Grabbing an embedded tick by its swollen body with bare fingers is the fastest way to remove it safely."
+        },
+        {
+          "fact": "Urban environments pose traffic hazards, broken glass, and sharp metal edges that still require a buddy pair and a pocket first aid kit.",
+          "misconception": "Urban geocaches located in parking lots eliminate the need for a buddy system or basic first aid supplies."
+        },
+        {
+          "fact": "Urushiol binds to skin proteins within minutes, so immediate washing with soap, cold water, and friction is required to prevent a rash.",
+          "misconception": "Rubbing alcohol neutralizes urushiol oil on skin even several hours after brushing against poison ivy leaves."
+        },
+        {
+          "fact": "Intact skin over a blister provides a sterile barrier against bacteria; cover it with a moleskin doughnut pad to relieve pressure.",
+          "misconception": "Popping a friction blister on the trail with an unsterilized pocketknife speeds up skin recovery during a hike."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to reach blindly into a hollow log or rock crevice when searching for a hidden container?",
+        "What happens to your situational awareness when you stare continuously at a GPS screen while walking on uneven terrain?",
+        "Which physical indicator distinguishes life-threatening heatstroke from heat exhaustion during a summer cache hunt?",
+        "Under what condition does a minor heel hot spot turn into a debilitating blister if left untreated on the trail?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Geocaching rules strictly prohibit burying caches because digging destroys vegetation, accelerates soil erosion, and damages park property.",
+          "misconception": "Burying a geocache under a few inches of soil is permitted as long as the cache page includes a shovel attribute."
+        },
+        {
+          "fact": "Food and scented items attract rodents and bears that chew through plastic containers and become habituated to human food sources.",
+          "misconception": "Placing wrapped candy or scented soap inside a forest geocache rewards finders without affecting local wildlife."
+        },
+        {
+          "fact": "Proper geocaching etiquette requires trading even or trading up so the container remains rewarding for future finders.",
+          "misconception": "Taking a high-value trade item from a cache without leaving an item of equal or greater value is standard practice."
+        },
+        {
+          "fact": "Every physical geocache placement requires explicit permission from the landowner or park agency before submitting the listing for review.",
+          "misconception": "Public parkland is open to everyone, so hiding a physical cache container never requires permission from the land manager."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to fragile root systems and topsoil when dozens of geocachers dig around a buried container?",
+        "Where should a Scout position a cache relative to an established trail to prevent creating destructive social trails?",
+        "What steps must a cache owner complete when dismantling and archiving a retired geocache listing?",
+        "Why is it important to observe nearby bystanders before retrieving or re-hiding a container in a public park?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Trackables are game pieces with unique codes meant to move from cache to cache toward a stated goal, never kept as personal trade items.",
+          "misconception": "Travel Bugs and collectible geocoins with tracking codes are SWAG prizes meant to be kept permanently in a personal collection."
+        },
+        {
+          "fact": "Difficulty measures the mental challenge of solving or spotting the hide, whereas the terrain rating indicates physical travel demands.",
+          "misconception": "A 5-star difficulty rating means the hike to the cache requires rock climbing gear, a boat, or scuba equipment."
+        },
+        {
+          "fact": "Traditional caches sit at the posted coordinates, while Multi and Puzzle caches require solving stages or clues for the final location.",
+          "misconception": "Multi-caches and Mystery or Puzzle caches always have the physical container hidden at the posted header coordinates."
+        },
+        {
+          "fact": "Micro and nano caches hold only a tiny rolled logsheet, requiring geocachers to bring their own pen or pencil to sign the log.",
+          "misconception": "Micro and nano containers are large enough to hold full-sized notebooks, pencils, and multiple trade items."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes a trackable item like a Travel Bug from standard SWAG trinkets found inside a cache container?",
+        "Under what condition does a geocache receive a 5-star terrain rating even if the difficulty rating is only 1 star?",
+        "Which physical indicator on a cache page warns you whether dogs, bicycles, or winter access are allowed at the site?",
+        "Why does logging a Did Not Find (DNF) entry help both the cache owner and the next geocacher who searches the area?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Standard GPS receivers are passive listeners that calculate position by measuring time delays of radio signals broadcast from satellites.",
+          "misconception": "Handheld GPS receivers transmit radio signals upward to orbiting satellites so the satellites can track the user."
+        },
+        {
+          "fact": "Mismatched coordinate formats or datums shift the plotted waypoint by hundreds of meters or several miles from the actual target.",
+          "misconception": "Entering coordinates in the wrong datum or format still guides you within ten feet of the intended waypoint."
+        },
+        {
+          "fact": "Without a triaxial magnetic sensor, a GPS unit calculates heading from movement between points and spins randomly when you stop walking.",
+          "misconception": "The electronic pointer arrow on a standard non-compass GPS receiver stays accurate even when you stand completely still."
+        },
+        {
+          "fact": "Atmospheric interference, dense foliage, and steep canyon walls limit consumer GPS accuracy to roughly ten to thirty feet.",
+          "misconception": "Consumer GPS units pinpoint a geocache to the exact inch regardless of overhead tree canopy or canyon walls."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why must a GPS receiver lock onto at least four satellites to calculate both three-dimensional position and elevation?",
+        "What happens to your target location if you enter WGS 84 Degrees and Decimal Minutes into a unit set to Decimal Degrees?",
+        "Which environmental obstacles cause multipath signal reflection and degrade coordinate accuracy in the field?",
+        "What measurement confirms your GPS receiver has settled enough to average and mark a reliable new waypoint?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Batteries drain rapidly in cold weather and screens shatter on rocks, making a non-powered map and compass essential backup tools.",
+          "misconception": "Carrying a fully charged smartphone or GPS receiver makes a paper topographic map and magnetic compass obsolete."
+        },
+        {
+          "fact": "A straight-line GPS pointer ignores terrain obstacles like cliffs, deep streams, and private property that a topographic map clearly shows.",
+          "misconception": "Following the straight-line bearing on a GPS screen always provides the safest and fastest route to a geocache."
+        },
+        {
+          "fact": "Closely packed contour lines represent steep elevation changes or cliffs, while widely spaced lines indicate gentle slopes or flat ground.",
+          "misconception": "Closely spaced contour lines on a topographic map indicate a flat, easy meadow suitable for rapid off-trail travel."
+        },
+        {
+          "fact": "A compass needle aligns with local magnetic north, requiring declination adjustment to match the true north grid lines on a map.",
+          "misconception": "A magnetic compass needle points directly toward true geographic north on every USGS topographic quadrangle."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to follow a straight-line GPS Go-To arrow without checking contour lines on a topographic map?",
+        "What happens to your compass bearing if you fail to adjust for local magnetic declination over a two-mile hike?",
+        "Which topographic map features reveal impassable cliffs, rivers, or swamps that a basic GPS waypoint arrow omits?",
+        "Under what condition does a magnetic baseplate compass outperform an electronic GPS receiver in backcountry terrain?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Official geocaching rules require signing the physical logbook inside the container before logging a Found It entry online.",
+          "misconception": "Signing only the online cache page counts as an official find even if you skip signing the physical paper logbook."
+        },
+        {
+          "fact": "Satellite drift makes the final twenty to thirty feet imprecise, so you must stop watching the screen and search likely hiding spots visually.",
+          "misconception": "Walking with your eyes glued to the GPS distance counter until it reads zero feet is the best way to spot a cache."
+        },
+        {
+          "fact": "Moving a cache ruins the owner's coordinates and hint; always return the container to the exact spot and cover it as you found it.",
+          "misconception": "Moving a found geocache to an easier spot helps the next seeker and improves the overall quality of the hide."
+        },
+        {
+          "fact": "A manually marked waypoint defaults to a sequential number, so you must edit the name and symbol yourself to identify it later.",
+          "misconception": "Saving a waypoint on a GPS unit automatically names it with the official GC code and difficulty rating from the website."
+        }
+      ],
+      "extra_socratic_questions": [
+        "At what distance from Ground Zero should you put away the GPS screen and rely on your eyes and geocaching sense?",
+        "Why should you record a new waypoint at your trailhead parking spot before hiking out to search for your first cache?",
+        "What happens to a geocache's survival rate if you fail to return the container to its exact original position and camouflage?",
+        "Which details should you include or omit when signing the physical paper logbook and posting your online Found It log?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Multiple consecutive Did Not Find logs or a disabled status usually mean the container is missing or damaged, so check recent logs first.",
+          "misconception": "Every geocache listed on the map is ready to be found, even if the last five online logs are Did Not Find entries."
+        },
+        {
+          "fact": "Spoiler photos ruin the search challenge for future finders and violate etiquette unless the cache owner explicitly requests a photo.",
+          "misconception": "Posting a photo of the exact hiding spot and open container in your online log is helpful to the geocaching community."
+        },
+        {
+          "fact": "ROT13 simply shifts each letter thirteen places in the alphabet, allowing anyone to decode the hint by hand using the key on the page.",
+          "misconception": "Decoding an encrypted ROT13 hint on a cache printout requires a paid subscription or a special electronic decoder."
+        },
+        {
+          "fact": "Beginners succeed far more often by selecting a recently found Traditional cache with low difficulty, low terrain, and a regular container.",
+          "misconception": "Picking a high-difficulty micro cache for your very first search is the easiest way to complete Requirement 7."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which clues in the recent activity logs tell you whether a local geocache is currently active or likely missing?",
+        "Why does the ROT13 substitution cipher protect the encrypted hint on a cache listing until you choose to decode it?",
+        "What information on the cache page helps you choose an appropriate first target from three local listings?",
+        "Why is parent or guardian permission required before creating an account or searching local caches on Geocaching.com?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Cache owners must monitor online logs, replace soaked logbooks, repair broken containers, and maintain the site for as long as it is active.",
+          "misconception": "Hiding a new public geocache is a one-time task that requires no follow-up once the volunteer reviewer publishes the page."
+        },
+        {
+          "fact": "Geocaching placement guidelines require at least 0.1 miles (528 feet) between physical caches to prevent saturation and searcher confusion.",
+          "misconception": "Physical geocaches can be hidden twenty feet apart as long as they belong to different cache owners or different series."
+        },
+        {
+          "fact": "A Travel Bug must be activated online with a stated mission and attached to a Hitchhiker object before finders can log its movements.",
+          "misconception": "Releasing a Scouting Travel Bug into a cache without registering or activating its tracking code online lets you track its miles."
+        },
+        {
+          "fact": "Cache In Trash Out is both a formal community event type and an everyday habit of carrying a trash bag to clean litter on every cache hunt.",
+          "misconception": "Cache In Trash Out (CITO) applies only to organized annual cleanup events rather than everyday solo geocaching outings."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What details on a Cache to Eagle listing educate visiting geocachers about the Eagle Scout service project at that site?",
+        "What minimum distance must separate a new physical geocache from any existing physical cache stage during placement?",
+        "Which ongoing maintenance duties must a Scout perform during the three months after publishing a new public geocache?",
+        "What safety and scoring procedures are needed when setting up a multi-team GeoHunt or Cache In Trash Out service event?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Basic GPS units calculate heading from movement between satellite fixes, so players must walk several steps to orient the arrow.",
+          "misconception": "A basic handheld GPS receiver points its directional arrow toward the next waypoint even when the player stands completely still."
+        },
+        {
+          "fact": "Initial satellite locks have wide position error; letting the receiver settle or average readings for two minutes tightens accuracy.",
+          "misconception": "Marking a course waypoint the instant the GPS unit acquires its first satellite fix gives players the most accurate coordinates."
+        },
+        {
+          "fact": "Metal roofs and indoor walls block or bounce microwave satellite signals, causing severe multipath drift that confuses youth players.",
+          "misconception": "Hiding geohunt containers inside buildings or under metal pavilion roofs works well because GPS signals penetrate solid structures."
+        },
+        {
+          "fact": "Public listing sites require permanent caches maintained for at least three months; temporary group geohunts use printed sheets only.",
+          "misconception": "Temporary waypoints set up for a one-day troop or pack geohunt should be submitted for publication on public geocaching websites."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to player navigation when two geohunt waypoints sit closer together than the GPS unit's 20-foot accuracy margin?",
+        "Under what condition will entering identical waypoint coordinates on two GPS units send teams to spots 200 meters apart?",
+        "What measurement on the satellite status screen confirms you have waited long enough before saving a new course waypoint?",
+        "Why is it dangerous to let novice players walk toward a waypoint while staring continuously at the GPS compass arrow?"
+      ],
+      "req_id": "9"
+    }
+  ]
+}

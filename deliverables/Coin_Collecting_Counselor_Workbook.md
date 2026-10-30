@@ -1,8 +1,8 @@
 # Coin Collecting Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Coin%20Collecting.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/coin-collecting/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/coin-collecting/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -115,9 +115,9 @@
 - **Pamphlet Fact:** The Union Shield reverse designed by Lyndall Bass replaced Frank Gasparro Lincoln Memorial motif in 2010.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Coin Collecting Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Coin Collecting Core Field Standard)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Coin Collecting Core Field Standard
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Coin Collecting Merit Badge: Coin Collecting Core Field Standard.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Coin Collecting Core Field Standard.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![The reverse of a Peace dollar features an eagle perched above an olive branch.](/assets/pamphlet_images/coin_collecting_p032_img5.png)
 

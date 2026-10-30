@@ -1,8 +1,8 @@
 # Automotive Maintenance Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Automotive%20Maintenance.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/automotive-maintenance/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/automotive-maintenance/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -31,11 +31,11 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** General Maintenance. Do the following: (a) Demonstrate how to check the following: (1) Brake fluid (2) Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid (7) Battery fluid (if possible) and condition of the battery terminals (b) Locate the fuse boxes; determine the type and size of fuses. Demonstrate the proper replacement of burned-out fuses. (c) Demonstrate how to check the condition and tension of belts and hoses. (d) Check the vehicle for proper operation of its lights, including the interior overhead lights, instrument lights, warning lights, and exterior bulbs. (e) Locate and check the air filter(s).
-- [ ] **Station Req 4:** Tires. Do the following: (a) Explain the difference between tire manufacturer's and vehicle manufacturer's specifications and show where to find them. (b) Demonstrate how to check tire pressure and properly inflate a tire. Check the spare tire and make sure it is ready for use. (c) Explain why wheel alignment is important to the life of a tire. Explain caster, camber, and toe-in adjustments on wheel alignment. (d) Explain the purpose of the lateral-wear bar indicator. (e) Explain how to dispose of old tires in accordance with local laws and regulations.
-- [ ] **Station Req 8:** Ignition and Electrical Systems. Do the following: (a) Diagram and explain the parts of one of the following electrical systems: (1) Starting/charging system (2) Hybrid or electric vehicle inverter (3) Lighting system (b) Explain the engine's firing order. (c) Explain the purpose of the spark gap. (d) Demonstrate how to safely connect jumper cables to your car battery. (e) Discuss with your counselor what factors can affect range on an electrified vehicle. Explain the procedure for recharging an electric or plug-in hybrid vehicle. (f) Explain what other vehicle systems are dependent on a reliable electrical system.
-- [ ] **Station Req 10:** Brake System. Do the following: (a) Explain the brake system (including antilock systems) and how it operates. (b) Explain the differences between disc and drum brake systems. (c) Demonstrate how to check the condition of a vehicle's brake system. After checking, make recommendations for repairs (if necessary).
-- [ ] **Station Req 11:** Do TWO of the following: (a) Determine the value of three different vehicles you are interested in purchasing. One must be new and one must be used; the third vehicle can be new or used. For each vehicle, find out the requirements and cost of automobile insurance to include basic liability and options for collision, comprehensive, towing, and rental car. Using the three vehicles you chose and with your counselor's assistance, complete the operation/maintenance chart provided in the Automotive Maintenance merit badge pamphlet. Use this information to determine the operating cost per mile for each vehicle, and discuss what you learn with your counselor. (b) Choose a car cleaner and wax product for a vehicle you want to clean. Explain clear-coat paint and the precautions necessary for care. Clean the vehicle, both inside and out, and wax the exterior. Use a vinyl and rubber protectant (on vinyl tops, rubber door seals, sidewalls, etc.) and explain the importance of this protectant. (c) Locate the manufacturer's jack. Use the jack to demonstrate how to engage the jack correctly on the vehicle, then change a tire correctly. (d) Perform an oil filter and oil change on a vehicle. Explain how to properly dispose of the used oil and filter.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 8:** Scout must individually explain mastery of Requirement 8 to the Merit Badge Counselor.
+- [ ] **Station Req 10:** Scout must individually explain mastery of Requirement 10 to the Merit Badge Counselor.
+- [ ] **Station Req 11:** Scout must individually explain mastery of Requirement 11 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -186,10 +186,10 @@
 - **Pamphlet Fact:** Brake fluid absorbs atmospheric moisture over time, lowering its boiling point and inducing pedal fade.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools
-- [ ] Schematic diagram, component kit, and diagnostic test bench for General Maintenance
-- [ ] Lockout/de-energization verification checklist and fire extinguisher reference
-- [ ] Engineering logbook and technical specification sheet for Automotive Maintenance Requirement 2
+- [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools.
+- [ ] Schematic diagram, component kit, and diagnostic test bench for General Maintenance.
+- [ ] Lockout/de-energization verification checklist and fire extinguisher reference.
+- [ ] Engineering logbook and technical specification sheet for Automotive Maintenance Requirement 2.
 
 ![Automotive Maintenance Requirement 2 figure showing examine fluid levels on level ground before starting or after adequate cooldown.](/assets/pamphlet_images/automotive_maintenance_p007_img1.png)
 

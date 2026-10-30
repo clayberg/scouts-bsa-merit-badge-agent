@@ -1,8 +1,8 @@
 # Dog Care Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Dog%20Care.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/dog-care/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/dog-care/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -29,7 +29,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 7:** Do the following: (a) Explain precautions to take in handling a hurt dog. (b) Show how to put on an emergency muzzle. (c) Explain how to treat wounds. Explain first aid for a dog bite. (d) Show how to put on a simple dressing and bandage the foot, body, or head of your dog. (e) Explain what to do if a dog is hit by a car. (f) List the things needed in every dog owner's first-aid kit. (g) Tell the dangers of home treatment of a serious ailment. (h) Briefly discuss the cause and method of spread, the signs and symptoms and the methods of prevention of rabies, parvovirus, distemper, and heartworms in dogs.
+- [ ] **Station Req 7:** Scout must individually demonstrate mastery of Requirement 7 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -53,9 +53,9 @@
 - **Pamphlet Fact:** Mitochondrial DNA studies place canine domestication alongside hunter gatherers prior to agricultural settlement.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Dog Care Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Dog Care Origins and Evolution)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Dog Care Origins and Evolution
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Dog Care Merit Badge Pamphlet: Dog Care Origins and Evolution.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Dog Care Origins and Evolution.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Dog Care Requirement 1 figure showing archaeological evidence shows domestic canines emerged from ancestral canids.](/assets/pamphlet_images/dog_care_p003_img1.png)
 
@@ -448,9 +448,9 @@
 - **Pamphlet Fact:** Modern animal shelters and veterinary clinics enforce strict biosecurity isolation protocols to prevent contagion.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Dog Care Merit Badge Pamphlet and Fillable Scout Workbook (Req 8: Veterinary Hospital or An Animal)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Veterinary Hospital or An Animal
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Dog Care Merit Badge Pamphlet: Veterinary Hospital or An Animal.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Veterinary Hospital or An Animal.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Handlers praise their dogs during a structured obedience class to reinforce positive socialization.](/assets/pamphlet_images/dog_care_p038_img1.png)
 

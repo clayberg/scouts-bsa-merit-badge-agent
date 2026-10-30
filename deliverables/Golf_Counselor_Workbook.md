@@ -193,7 +193,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(4)(b): Conditioning Exercises for Throwing Performance
+#### Req 2b(4)(b): Conditioning Exercises for Throwing
 **Official Requirement 2b(4)(b):** Tell how a disc golf exercise plan can help you play better. Show two exercises that would help improve your game.
 **Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(4)(b) Structured Technical Study & Explanation Matrix (Disc Golf Exercise Plan Can)
 - **Common Myth:** Throwing distance depends exclusively on forearm snap rather than overall core and leg conditioning.
@@ -228,10 +228,10 @@
 - **Pamphlet Fact:** A secure power grip tucks the fingers firmly against the inside rim while the thumb presses down directly opposite the index finger to generate necessary rotational spin.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Golf merit badge pamphlet and USGA Rules of Golf book for Req 2
-- [ ] Matched set of golf clubs (driver, irons, wedge, putter) and golf bag
-- [ ] Golf balls, tees, ball marker, divot repair tool, and scorecard
-- [ ] Practice range log and grip/stance notes for Traditional and Disc Golf Fundamentals
+- [ ] Official Golf merit badge pamphlet and USGA Rules of Golf book for Req 2.
+- [ ] Matched set of golf clubs (driver, irons, wedge, putter) and golf bag.
+- [ ] Golf balls, tees, ball marker, divot repair tool, and scorecard.
+- [ ] Practice range log and grip/stance notes for Traditional and Disc Golf Fundamentals.
 
 ![Centering ball position in the stance to produce a crisp downward iron strike and follow-through.](/assets/pamphlet_images/golf_p039_img1.png)
 
@@ -401,10 +401,10 @@
 - **Pamphlet Fact:** Official PDGA rules mandate that the player whose lie is farthest from the target throws first to ensure player safety and orderly play.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Golf merit badge pamphlet and USGA Rules of Golf book for Req 2
-- [ ] Matched set of golf clubs (driver, irons, wedge, putter) and golf bag
-- [ ] Golf balls, tees, ball marker, divot repair tool, and scorecard
-- [ ] Practice range log and grip/stance notes for Traditional and Disc Golf Fundamentals
+- [ ] Official Golf merit badge pamphlet and USGA Rules of Golf book for Req 2.
+- [ ] Matched set of golf clubs (driver, irons, wedge, putter) and golf bag.
+- [ ] Golf balls, tees, ball marker, divot repair tool, and scorecard.
+- [ ] Practice range log and grip/stance notes for Traditional and Disc Golf Fundamentals.
 
 ![A young player throws a disc down the fairway toward a target basket.](/assets/pamphlet_images/golf_p083_img1.png)
 

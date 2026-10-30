@@ -1,8 +1,8 @@
 # Bird Study Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Bird%20Study.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/bird-study/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/bird-study/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -32,9 +32,9 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Demonstrate that you know how to properly use and care for binoculars, a spotting scope, or a monocular. (a) Explain what the specification numbers mean on binoculars, a spotting scope, or a monocular. (b) Show how to adjust the eyepiece and how to focus for proper viewing. (c) Show how to properly care for and clean the lenses. (d) Describe when and where each type of viewing device would be most effective.
-- [ ] **Station Req 4:** Demonstrate that you know how to use a bird field guide. Show your counselor that you are able to understand a range map by locating in the book and pointing out the wintering range, the breeding range, and/or the year-round range of one species of each of the following types of birds: (a) Seabird (b) Plover (c) Falcon or hawk (d) Warbler or vireo (e) Heron or egret (f) Sparrow
-- [ ] **Station Req 9:** Do ONE of the following. For the item you choose, describe what birds you hope to attract, and why. Describe the necessary maintenance required with the item that you choose. (a) Build a bird feeder and put it in an appropriate place in your yard or another location. (b) Build a birdbath and put it in an appropriate place. (c) Build a backyard sanctuary for birds by planting trees and shrubs for food and cover. (d) Build a nest box for a species of your choice using plans approved by your counselor. (e) Describe the elements of a backyard bird habitat for a given area and draw a plan for one, including lists of birds you hope to attract, appropriate plantings for food, cover, and nesting.
+- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually demonstrate mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 9:** Scout must individually describe mastery of Requirement 9 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -206,10 +206,10 @@
 - **Pamphlet Fact:** Pelagic seabirds spend nonbreeding months on open ocean water miles from land.
 
 **Gear & Readiness Checklist:**
-- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide
-- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for That you know how to use
-- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
-- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
+- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
+- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for That you know how to use.
+- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools.
+- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card.
 
 ![A perched raptor displays brown wing plumage and mottled breast markings.](/assets/pamphlet_images/bird_study_p048_img1.png)
 
@@ -309,10 +309,10 @@
 - **Pamphlet Fact:** Avian vocalization and foraging peak during the first two hours following morning sunrise.
 
 **Gear & Readiness Checklist:**
-- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide
-- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Species of Wild Birds
-- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
-- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
+- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
+- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Species of Wild Birds.
+- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools.
+- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card.
 
 ![A birder marks sightings with a pen inside a printed species checklist booklet.](/assets/pamphlet_images/bird_study_p057_img1.png)
 

@@ -1,8 +1,8 @@
 # Scholarship Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scholarship.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/scholarship/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/scholarship/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -48,9 +48,9 @@
 - **Pamphlet Fact:** Standard unweighted grade point averages of 3.0 or numeric averages of eighty percent fully satisfy criteria.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Scholarship Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: That you have had an average)
-- [ ] Field notebook, verification log sheet, and demonstration materials for That you have had an average
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Scholarship Merit Badge: That you have had an average.
+- [ ] Field notebook, verification log sheet, and demonstration materials for That you have had an average.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Scholarship Requirement 1 figure showing official school report cards substantiate academic achievement across a complete.](/assets/pamphlet_images/scholarship_p003_img1.png)
 
@@ -96,9 +96,9 @@
 - **Pamphlet Fact:** The visit requires active self study focused on a chosen subject and an analytical oral or written report.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Scholarship Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Scholarship Careers and Pathways)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Scholarship Careers and Pathways
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Scholarship Merit Badge: Scholarship Careers and Pathways.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Scholarship Careers and Pathways.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Scholarship Requirement 2 figure showing community museums and public planetariums provide interactive resources for self.](/assets/pamphlet_images/scholarship_p007_img1.png)
 
@@ -197,9 +197,9 @@
 - **Pamphlet Fact:** Performing arts ensembles, academic competition teams, debate squads, and hobby clubs all qualify equally.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Scholarship Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: That you have taken part)
-- [ ] Field notebook, verification log sheet, and demonstration materials for That you have taken part
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Scholarship Merit Badge: That you have taken part.
+- [ ] Field notebook, verification log sheet, and demonstration materials for That you have taken part.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![High school students collaborate happily during an extracurricular club.](/assets/pamphlet_images/scholarship_p052_img1.png)
 

@@ -71,9 +71,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Plants only provide shelter and shade rather than acting as primary food and oxygen sources.",
-        "fact": "Plants form the foundational trophic level by converting solar energy into edible biomass and oxygen for animal survival.",
-        "myth": "Plants only provide shelter and shade rather than acting as primary food and oxygen sources.",
-        "fact_correction": "Plants form the foundational trophic level by converting solar energy into edible biomass and oxygen for animal survival."
+        "fact": "Plants form the foundational trophic level by converting solar energy into edible biomass and oxygen for animal survival."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -110,38 +108,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "How Plants Support Wildlife",
-        "right_header": "Why Protected Plants Face Risk",
+        "left_header": "Req 1: Plant Temperature Requirements",
+        "right_header": "Req 1: Compare Elevation to Latitude",
         "left_points": [
           "Plant Temperature Requirements: In the same way that plants have soil requirements, they have requirements of temperature range, from hot to cold (p. 11).",
           "Elevation and Rainfall: The higher you go, generally the colder the temperature and the higher the rainfall (p. 11).",
           "Mountain Slope Climates: As far as plants are concerned, going up the side of a mountain is much the same as going north (p. 11)."
         ],
         "right_points": [
-          "Step 1 - Compare Elevation to Latitude: As far as plants are concerned, going up the side of a mountain is much the same as going north (p. 11).",
-          "Step 2 - Calculate Altitude Equivalence: Going up 300 to 500 feet of altitude is roughly equivalent to moving northward one degree of latitude (68 miles) (p. 11).",
-          "Step 3 - Observe Southern Elevations: So, the same plants will grow at a higher elevation in the South than in the North (p. 11)."
+          "Compare Elevation to Latitude: As far as plants are concerned, going up the side of a mountain is much the same as going north (p. 11).",
+          "Calculate Altitude Equivalence: Going up 300 to 500 feet of altitude is roughly equivalent to moving northward one degree of latitude (68 miles) (p. 11).",
+          "Observe Southern Elevations: So, the same plants will grow at a higher elevation in the South than in the North (p. 11)."
         ],
         "rows": [
           {
-            "attribute": "Plant Temperature Requirements",
+            "attribute": "Oxygen Production",
             "left": "Plant Temperature Requirements: In the same way that plants have soil requirements, they have requirements of temperature range, from hot to cold (p. 11).",
-            "right": "Step 1 - Compare Elevation to Latitude: As far as plants are concerned, going up the side of a mountain is much the same as going north (p. 11)."
+            "right": "Compare Elevation to Latitude: As far as plants are concerned, going up the side of a mountain is much the same as going north (p. 11)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Nutritional Foundation",
             "left": "Elevation and Rainfall: The higher you go, generally the colder the temperature and the higher the rainfall (p. 11).",
-            "right": "Step 2 - Calculate Altitude Equivalence: Going up 300 to 500 feet of altitude is roughly equivalent to moving northward one degree of latitude (68 miles) (p. 11)."
+            "right": "Calculate Altitude Equivalence: Going up 300 to 500 feet of altitude is roughly equivalent to moving northward one degree of latitude (68 miles) (p. 11)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Protective Cover",
             "left": "Mountain Slope Climates: As far as plants are concerned, going up the side of a mountain is much the same as going north (p. 11).",
-            "right": "Step 3 - Observe Southern Elevations: So, the same plants will grow at a higher elevation in the South than in the North (p. 11)."
+            "right": "Observe Southern Elevations: So, the same plants will grow at a higher elevation in the South than in the North (p. 11)."
           }
         ]
       },
       "worked_example": {
-        "title": "Nature Req 1 Exemplar Workbook Entry: Importance of Plants to Animals",
+        "title": "Nature Req 1 Exemplar Workbook Entry: Importance",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Plant Temperature Requirements": "In the same way that plants have soil requirements, they have requirements of temperature range, from hot to cold (p. 11).",
@@ -184,7 +182,33 @@
       "socratic_questions": [
         "How would a total collapse of primary producer biomass alter energy availability across secondary trophic levels?",
         "In what ways do non-native fungal blights disrupt established ecological relationships within native forest communities?",
-        "Why do state conservation departments restrict the collection of specific vascular plants on public lands?"
+        "Why do state conservation departments restrict the collection of specific vascular plants on public lands?",
+        "What happens to dissolved oxygen levels in a shallow pond if submerged aquatic plants die off during a late-summer heat wave?",
+        "Which official state heritage database or agency list verifies whether a local wildflower holds legal protection status?",
+        "What habitat data should you record in your field notebook instead of picking a specimen when documenting a rare native orchid?",
+        "Why is it dangerous to rely solely on leaf shape when distinguishing toxic poison hemlock from edible wild carrot in the field?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Plants only provide shelter and shade rather than acting as primary food and oxygen sources.",
+          "fact": "Plants form the foundational trophic level by converting solar energy into edible biomass and oxygen for animal survival."
+        },
+        {
+          "misconception": "Plants only benefit animals that eat leaves, seeds, or fruit directly as herbivorous food sources in terrestrial habitats.",
+          "fact": "Plants also generate atmospheric oxygen, build structural nesting cover, and anchor soil that filters clean water for carnivores."
+        },
+        {
+          "misconception": "Digging up a single protected wildflower to replant in a home garden helps conserve the threatened species from local extinction.",
+          "fact": "Removing wild plants is illegal for protected species and usually kills them because they depend on native soil mycorrhizal fungi."
+        },
+        {
+          "misconception": "Dead standing trees and rotting logs have no remaining ecological value to forest wildlife once photosynthesis stops.",
+          "fact": "Standing snags and decaying logs provide essential den cavities, foraging substrates, and moist microhabitats for amphibians."
+        },
+        {
+          "misconception": "Invasive non-native shrubs support the same native insect and songbird populations as the native plants they crowd out.",
+          "fact": "Most native caterpillars require specific host plant leaf chemistry and cannot digest the foliage of introduced invasive shrubs."
+        }
       ]
     },
     {
@@ -241,9 +265,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Plants can reproduce and spread seeds across ecosystems entirely without any animal interaction.",
-        "fact": "Animals provide essential ecosystem services to plants including pollination, seed dispersal, nutrient recycling, and natural pest suppression.",
-        "myth": "Plants can reproduce and spread seeds across ecosystems entirely without any animal interaction.",
-        "fact_correction": "Animals provide essential ecosystem services to plants including pollination, seed dispersal, nutrient recycling, and natural pest suppression."
+        "fact": "Animals provide essential ecosystem services to plants including pollination, seed dispersal, nutrient recycling, and natural pest suppression."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -280,38 +302,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Animal Roles in Plant Reproduction",
-        "right_header": "Animal Roles in Soil Enrichment",
+        "left_header": "Req 2: Dry Soil Sod Formers",
+        "right_header": "Req 2: Identify Climax Vegetation",
         "left_points": [
           "Dry Soil Sod Formers: Sod-forming plants can grow in soil that is dryer than what the first two groups of plants need (p. 11).",
           "Building Suitable Soil: When the sod-formers have helped build up a suitable soil, and a sufficient amount of water has been replaced, still different plants will grow (p. 11).",
           "Climax Shrubs and Grasses: These plants might be swamp shrubs or lowland prairie grasses, depending on the climax (p. 11)."
         ],
         "right_points": [
-          "Step 1 - Identify Climax Vegetation: These plants might be swamp shrubs or lowland prairie grasses, depending on the climax (p. 11).",
-          "Step 2 - Observe Reptile Diets: Some insects eat other insects; some snakes, turtles, and lizards, as well as amphibious frogs and salamanders, eat insects, while other snakes eat (p. 11).",
-          "Step 3 - Track Bird Predation: There are birds that eat insects, fish, mammals, and other birds (p. 11)."
+          "Identify Climax Vegetation: These plants might be swamp shrubs or lowland prairie grasses, depending on the climax (p. 11).",
+          "Observe Reptile Diets: Some insects eat other insects; some snakes, turtles, and lizards, as well as amphibious frogs and salamanders, eat insects, while other snakes eat (p. 11).",
+          "Track Bird Predation: There are birds that eat insects, fish, mammals, and other birds (p. 11)."
         ],
         "rows": [
           {
-            "attribute": "Dry Soil Sod Formers",
+            "attribute": "Pollination Biology",
             "left": "Dry Soil Sod Formers: Sod-forming plants can grow in soil that is dryer than what the first two groups of plants need (p. 11).",
-            "right": "Step 1 - Identify Climax Vegetation: These plants might be swamp shrubs or lowland prairie grasses, depending on the climax (p. 11)."
+            "right": "Identify Climax Vegetation: These plants might be swamp shrubs or lowland prairie grasses, depending on the climax (p. 11)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Seed Dispersal",
             "left": "Building Suitable Soil: When the sod-formers have helped build up a suitable soil, and a sufficient amount of water has been replaced, still different plants will grow (p. 11).",
-            "right": "Step 2 - Observe Reptile Diets: Some insects eat other insects; some snakes, turtles, and lizards, as well as amphibious frogs and salamanders, eat insects, while other snakes eat (p. 11)."
+            "right": "Observe Reptile Diets: Some insects eat other insects; some snakes, turtles, and lizards, as well as amphibious frogs and salamanders, eat insects, while other snakes eat (p. 11)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Soil Enrichment",
             "left": "Climax Shrubs and Grasses: These plants might be swamp shrubs or lowland prairie grasses, depending on the climax (p. 11).",
-            "right": "Step 3 - Track Bird Predation: There are birds that eat insects, fish, mammals, and other birds (p. 11)."
+            "right": "Track Bird Predation: There are birds that eat insects, fish, mammals, and other birds (p. 11)."
           }
         ]
       },
       "worked_example": {
-        "title": "Nature Req 2 Exemplar Workbook Entry: How Animals Support Plant Life",
+        "title": "Nature Req 2 Exemplar Workbook Entry: How Animals",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Dry Soil Sod Formers": "Sod-forming plants can grow in soil that is dryer than what the first two groups of plants need (p. 11).",
@@ -354,7 +376,33 @@
       "socratic_questions": [
         "What structural adaptations do specialized flowers possess to attract specific animal pollinators over generalists?",
         "How does the extirpation of apex frugivores affect the spatial distribution of hardwood seedlings?",
-        "Why are habitat specialists significantly more vulnerable to regional extirpation than generalist wildlife species?"
+        "Why are habitat specialists significantly more vulnerable to regional extirpation than generalist wildlife species?",
+        "What happens to oak and hickory forest regeneration when scatter-hoarding squirrels and jays disappear from a fragmented woodlot?",
+        "Which floral traits indicate that a flowering plant relies on nocturnal bats or moths rather than daytime bees for pollination?",
+        "What minimum observation distance and optical gear prevent observer disturbance when logging an endangered bird species at a nest?",
+        "Under what condition does earthworm or beetle burrowing change compacted forest soil in ways that directly benefit plant roots?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Plants can reproduce and spread seeds across ecosystems entirely without any animal interaction.",
+          "fact": "Animals provide essential ecosystem services to plants including pollination, seed dispersal, nutrient recycling, and natural pest suppression."
+        },
+        {
+          "misconception": "European honeybees can fully replace native bumblebees and solitary bees for pollinating all wild native flowering plants.",
+          "fact": "Many native plants such as blueberries and nightshades require buzz pollination at specific frequencies that only native bees perform."
+        },
+        {
+          "misconception": "Seeds that pass through the digestive tract of a fruit-eating bird or mammal are destroyed by stomach acid and cannot sprout.",
+          "fact": "Digestive scarification softens hard seed coats and deposits the intact seed in nutrient-rich droppings far from the parent plant."
+        },
+        {
+          "misconception": "All grazing and browsing by wild herbivores permanently damages grassland and savanna plant communities over time.",
+          "fact": "Moderate grazing removes dead thatch, recycles nitrogen through manure, and stimulates deep root growth in native prairie grasses."
+        },
+        {
+          "misconception": "An animal species is only listed as state-protected once fewer than one hundred individuals remain alive across the entire country.",
+          "fact": "State agencies protect regional populations early when habitat loss, disease, or pollution threatens local survival within state borders."
+        }
       ]
     },
     {
@@ -413,9 +461,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Apex predators sit at the top of food chains with infinite energy accumulated from lower levels.",
-        "fact": "Energy decreases by approximately ninety percent at each successive trophic transfer in terrestrial and aquatic food chains.",
-        "myth": "Apex predators sit at the top of food chains with infinite energy accumulated from lower levels.",
-        "fact_correction": "Energy decreases by approximately ninety percent at each successive trophic transfer in terrestrial and aquatic food chains."
+        "fact": "Energy decreases by approximately ninety percent at each successive trophic transfer in terrestrial and aquatic food chains."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -452,38 +498,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Four Step Land Food Chain",
-        "right_header": "Four Step Water Food Chain",
+        "left_header": "Req 3: Deep Water Phytoplankton",
+        "right_header": "Req 3: Examine Microscopic Phytoplankton",
         "left_points": [
           "Deep Water Phytoplankton: Where the water is too deep for rooted plants, microscopic floating plant-like organisms take (p. 10).",
           "Abundance Over Size: What these phytoplankton lack in size they make upfor in numbers (p. 10).",
           "Thousands per Water Drop: A single drop of water can hold thousands of them (p. 10)."
         ],
         "right_points": [
-          "Step 1 - Examine Microscopic Phytoplankton: A single drop of water can hold thousands of them (p. 10).",
-          "Step 2 - Trace Zooplankton Consumers: Living on these tiny organisms are equally tiny animals called zooplankton (p. 10).",
-          "Step 3 - Follow Ocean Food Chains: Together the plank tons form the base of the ocean food chain that supports animals as large as whales (p. 10)."
+          "Examine Microscopic Phytoplankton: A single drop of water can hold thousands of them (p. 10).",
+          "Trace Zooplankton Consumers: Living on these tiny organisms are equally tiny animals called zooplankton (p. 10).",
+          "Follow Ocean Food Chains: Together the plank tons form the base of the ocean food chain that supports animals as large as whales (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Deep Water Phytoplankton",
+            "attribute": "Trophic Dynamics",
             "left": "Deep Water Phytoplankton: Where the water is too deep for rooted plants, microscopic floating plant-like organisms take (p. 10).",
-            "right": "Step 1 - Examine Microscopic Phytoplankton: A single drop of water can hold thousands of them (p. 10)."
+            "right": "Examine Microscopic Phytoplankton: A single drop of water can hold thousands of them (p. 10)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Terrestrial Sequence",
             "left": "Abundance Over Size: What these phytoplankton lack in size they make upfor in numbers (p. 10).",
-            "right": "Step 2 - Trace Zooplankton Consumers: Living on these tiny organisms are equally tiny animals called zooplankton (p. 10)."
+            "right": "Trace Zooplankton Consumers: Living on these tiny organisms are equally tiny animals called zooplankton (p. 10)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Aquatic Sequence",
             "left": "Thousands per Water Drop: A single drop of water can hold thousands of them (p. 10).",
-            "right": "Step 3 - Follow Ocean Food Chains: Together the plank tons form the base of the ocean food chain that supports animals as large as whales (p. 10)."
+            "right": "Follow Ocean Food Chains: Together the plank tons form the base of the ocean food chain that supports animals as large as whales (p. 10)."
           }
         ]
       },
       "worked_example": {
-        "title": "Nature Req 3 Exemplar Workbook Entry: Land and Water Food Chains",
+        "title": "Nature Req 3 Exemplar Workbook Entry: Land and Water",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Deep Water Phytoplankton": "Where the water is too deep for rooted plants, microscopic floating plant-like organisms take (p. 10).",
@@ -526,7 +572,33 @@
       "socratic_questions": [
         "Why do ecological pyramids rarely sustain more than four or five distinct consumer trophic levels?",
         "What happens to primary producer biomass when apex carnivores are abruptly removed from a lake?",
-        "How do detritivores and decomposers prevent the total depletion of inorganic nutrients in soils?"
+        "In what specific ways do detritivores and decomposers prevent the total depletion of inorganic nutrients in soils?",
+        "What happens to roughly ninety percent of the chemical energy at each trophic transfer between producer and apex predator?",
+        "Which microscopic organism serves as the primary producer at step one of a deep-water lake food chain away from shoreline reeds?",
+        "Where do directional arrows point in a standard ecological food chain diagram to show the flow of energy between organisms?",
+        "Why does bioaccumulation of mercury or pesticides hit fourth-step aquatic predators like ospreys harder than mayfly nymphs?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Apex predators sit at the top of food chains with infinite energy accumulated from lower levels.",
+          "fact": "Energy decreases by approximately ninety percent at each successive trophic transfer in terrestrial and aquatic food chains."
+        },
+        {
+          "misconception": "The arrows in a scientific food chain diagram point from the predator toward the prey item that it hunts and consumes.",
+          "fact": "Food chain arrows always point from the organism being eaten toward the consumer to show the direction of energy transfer."
+        },
+        {
+          "misconception": "Every aquatic food chain begins with rooted green pondweeds or cattails growing along the sunny edges of a lake or river.",
+          "fact": "Open-water food chains rely on microscopic phytoplankton and algae suspended in the sunlit surface zone as their base producers."
+        },
+        {
+          "misconception": "Top apex predators at the fourth step of a food chain outnumber primary herbivores because predators are larger and stronger.",
+          "fact": "High heat and metabolic energy loss at each step mean an ecosystem can support far fewer apex predators than primary consumers."
+        },
+        {
+          "misconception": "Fungi and bacteria sit at the first step of a land food chain because they grow directly on forest soil and fallen timber.",
+          "fact": "Fungi and bacteria are decomposers that break down dead organic matter from all trophic levels rather than photosynthesizing sunlight."
+        }
       ]
     },
     {
@@ -734,9 +806,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
             "misconception": "Any wooden box with a hole will serve as a suitable birdhouse for any backyard songbird.",
-            "fact": "Nest box entrance holes must be sized precisely to millimeters to exclude invasive European starlings and house sparrows.",
-            "myth": "Any wooden box with a hole will serve as a suitable birdhouse for any backyard songbird.",
-            "fact_correction": "Nest box entrance holes must be sized precisely to millimeters to exclude invasive European starlings and house sparrows."
+            "fact": "Nest box entrance holes must be sized precisely to millimeters to exclude invasive European starlings and house sparrows."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -962,9 +1032,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
             "misconception": "Mammal tracks can be accurately identified in loose dry sand without measuring stride and straddle.",
-            "fact": "Plaster of Paris expands slightly upon setting, capturing minute claw and pad details inside animal track footprints.",
-            "myth": "Mammal tracks can be accurately identified in loose dry sand without measuring stride and straddle.",
-            "fact_correction": "Plaster of Paris expands slightly upon setting, capturing minute claw and pad details inside animal track footprints."
+            "fact": "Plaster of Paris expands slightly upon setting, capturing minute claw and pad details inside animal track footprints."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1239,7 +1307,7 @@
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
               "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
               "socratic_questions": [
-                "How do the arrangement and shape of jelly-coated eggs in a pond reveal whether a frog or a toad laid them?"
+                "In what ways do the arrangement and shape of jelly-coated eggs in a pond reveal whether a frog or a toad laid them?"
               ]
             }
           ],
@@ -1272,9 +1340,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
             "misconception": "All snakes with triangular heads or vibrating tails are dangerously venomous pit vipers.",
-            "fact": "Venomous pit vipers possess diagnostic heat-sensing loreal pits located between the eye and nostril.",
-            "myth": "All snakes with triangular heads or vibrating tails are dangerously venomous pit vipers.",
-            "fact_correction": "Venomous pit vipers possess diagnostic heat-sensing loreal pits located between the eye and nostril."
+            "fact": "Venomous pit vipers possess diagnostic heat-sensing loreal pits located between the eye and nostril."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1379,7 +1445,7 @@
               "id": "4d(1)",
               "sub_req_label": "4d(1)",
               "sub_req_text": "Collect and identify either in the field or through photographs 10 species of insects or spiders. Photos may be taken with your own equipment or gathered from other sources.",
-              "topic_title": "Req 4d(1): Arthropod Photographic Documentation and Classification",
+              "topic_title": "Req 4d(1): Arthropod Photographic Documentation",
               "pamphlet_summary": "Arthropod Photographic Documentation and Classification: Cataloging arthropods requires examining body tagmata, antennae structure, leg counts, and wing venation to determine taxonomic order and family. Close-up photography preserves fragile specimens and allows non-invasive field study across varied microhabitats (p. 60).",
               "pamphlet_excerpts": [
                 "Arthropod Photographic Documentation and Classification: Cataloging arthropods requires examining body tagmata, antennae structure, leg counts, and wing venation to determine taxonomic order and family. Close-up photography preserves fragile specimens and allows non-invasive field study across varied microhabitats (p. 60)."
@@ -1512,9 +1578,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
             "misconception": "Spiders are classified as true insects because both groups are small terrestrial arthropods.",
-            "fact": "Insects possess three distinct body segments and six legs, whereas spiders possess two tagmata and eight legs.",
-            "myth": "Spiders are classified as true insects because both groups are small terrestrial arthropods.",
-            "fact_correction": "Insects possess three distinct body segments and six legs, whereas spiders possess two tagmata and eight legs."
+            "fact": "Insects possess three distinct body segments and six legs, whereas spiders possess two tagmata and eight legs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1731,9 +1795,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
             "misconception": "Native predatory game fish rely exclusively on commercial pellet feed or terrestrial earthworms in wild streams.",
-            "fact": "Benthic macroinvertebrates such as mayfly nymphs and caddisfly larvae serve as primary food sources for native stream fish.",
-            "myth": "Native predatory game fish rely exclusively on commercial pellet feed or terrestrial earthworms in wild streams.",
-            "fact_correction": "Benthic macroinvertebrates such as mayfly nymphs and caddisfly larvae serve as primary food sources for native stream fish."
+            "fact": "Benthic macroinvertebrates such as mayfly nymphs and caddisfly larvae serve as primary food sources for native stream fish."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1958,9 +2020,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
             "misconception": "Crab exoskeletons and mollusk shells are constructed from identical biochemical compounds and organic processes.",
-            "fact": "Bivalves possess two hinged calcium carbonate shells, whereas gastropods produce a single univalve spiral shell.",
-            "myth": "Crab exoskeletons and mollusk shells are constructed from identical biochemical compounds and organic processes.",
-            "fact_correction": "Bivalves possess two hinged calcium carbonate shells, whereas gastropods produce a single univalve spiral shell."
+            "fact": "Bivalves possess two hinged calcium carbonate shells, whereas gastropods produce a single univalve spiral shell."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2276,7 +2336,7 @@
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
               "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
               "socratic_questions": [
-                "How do careful leaf pressing techniques and detailed location notes transform a simple leaf collection into a valuable scientific record?"
+                "In what ways do careful leaf pressing techniques and detailed location notes transform a simple leaf collection into a valuable scientific record?"
               ]
             }
           ],
@@ -2307,9 +2367,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
             "misconception": "All wild plants with compound leaflets represent toxic poison ivy or hazardous nettles.",
-            "fact": "Leaf arrangement patterns such as alternate, opposite, and whorled are primary diagnostic keys for botanical taxonomy.",
-            "myth": "All wild plants with compound leaflets represent toxic poison ivy or hazardous nettles.",
-            "fact_correction": "Leaf arrangement patterns such as alternate, opposite, and whorled are primary diagnostic keys for botanical taxonomy."
+            "fact": "Leaf arrangement patterns such as alternate, opposite, and whorled are primary diagnostic keys for botanical taxonomy."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2530,9 +2588,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
             "misconception": "Soil is simply crushed rock fragments without any living biological or decayed organic components.",
-            "fact": "Humus consists of decomposed organic matter that vastly improves soil water retention and cation exchange capacity.",
-            "myth": "Soil is simply crushed rock fragments without any living biological or decayed organic components.",
-            "fact_correction": "Humus consists of decomposed organic matter that vastly improves soil water retention and cation exchange capacity."
+            "fact": "Humus consists of decomposed organic matter that vastly improves soil water retention and cation exchange capacity."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2741,9 +2797,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can fulfill the five study fields by casually observing common domestic pets and backyard landscaping plants.",
-        "fact": "Field taxonomy requires verifiable morphology, behavior, track measurements, and microhabitat characteristics rather than unverified casual sightings.",
-        "myth": "Scouts can fulfill the five study fields by casually observing common domestic pets and backyard landscaping plants.",
-        "fact_correction": "Field taxonomy requires verifiable morphology, behavior, track measurements, and microhabitat characteristics rather than unverified casual sightings."
+        "fact": "Field taxonomy requires verifiable morphology, behavior, track measurements, and microhabitat characteristics rather than unverified casual sightings."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2779,14 +2833,14 @@
         "Step 4 - Portfolio Submission: Compile field notes, specimen labels, and diagnostic photographs into a comprehensive demonstration binder."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Do ALL the requirements",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Do ALL the requirements.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Avian Identification and Nesting S",
-        "right_header": "Req 4e: Ichthyology and Aquatic Prey Sampl",
+        "left_header": "Req 4a: Avian Identification and Nesting",
+        "right_header": "Req 4e: Ichthyology and Aquatic Prey",
         "left_points": [
           "(4a) Avian Identification and Nesting Support: Identify eight wild bird species by flight pattern, plumage field marks, and vocalizations. Construct and monitor a species-specific nest box, feeding station, or clean avian bath.",
           "(4b) Mammalian Tracking and Cast Preservation: Locate and identify three wild mammal species through direct observation or diagnostic scat and bedding sign. Mix plaster of Paris to create permanent casts of wild animal track impressions in mud.",
@@ -2799,30 +2853,30 @@
         ],
         "rows": [
           {
-            "attribute": "Bird Identification and Shelters",
-            "left": "(4a) Bird Identification and Shelters: When the sod-formers have helped build up a suitable soil, and a sufficient amount of water has been replaced, still different plants will grow (p. 17).",
-            "right": "(4e) Native Fish and Baits: When the sod-formers have helped build up a suitable soil, and a sufficient amount of water has been replaced, still different plants will grow (p. 17)."
+            "attribute": "Taxonomic Identification",
+            "left": "(4a) Avian Identification and Nesting Support: Identify eight wild bird species by flight pattern, plumage field marks, and vocalizations. Construct and monitor a species-specific nest box, feeding station, or clean avian bath.",
+            "right": "(4e) Ichthyology and Aquatic Prey Sampling: Identify two indigenous fish species by fin morphology, body shape, and lateral line markings. Collect four natural aquatic organisms eaten by wild fish, including stonefly nymphs, hellgrammites, or minnows."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(4b) Mammal Tracks and Identification: These plants might be swamp shrubs or lowland prairie grasses, depending on the climax (p. 17).",
-            "right": "(4f) Mollusks and Crustaceans Study: These plants might be swamp shrubs or lowland prairie grasses, depending on the climax (p. 17)."
+            "attribute": "Specimen Preservation",
+            "left": "(4b) Mammalian Tracking and Cast Preservation: Locate and identify three wild mammal species through direct observation or diagnostic scat and bedding sign. Mix plaster of Paris to create permanent casts of wild animal track impressions in mud.",
+            "right": "(4f) Malacology and Crustacean Shell Mounting: Identify five native mollusk and crustacean species found in marine, estuarine, or freshwater ecosystems. Collect, clean, mount, and systematically label six non-living molluscan shell specimens with taxonomic data."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "(4c) Reptiles and Amphibians Study: Some insects eat other insects; some snakes, turtles, and lizards, as well as amphibious frogs and salamanders, eat insects, while other snakes eat (p. 17).",
-            "right": "(4g) Wild Plants and Leaves: Some insects eat other insects; some snakes, turtles, and lizards, as well as amphibious frogs and salamanders, eat insects, while other snakes eat (p. 17)."
+            "attribute": "Substrate Analysis",
+            "left": "(4c) Herpetological Identification and Snake Safety: Demonstrate accurate visual recognition of regional venomous snake species using pupil shape, pit presence, and scale patterns. Identify three wild reptile or amphibian species during diurnal or nocturnal field searches.",
+            "right": "(4g) Field Botany and Botanical Herbarium: Locate and identify fifteen wild herbaceous and woody plant species using leaf morphology and floral structures. Collect and label six plant seed dispersal mechanisms or press ten diagnostic forest leaves."
           }
         ]
       },
       "worked_example": {
-        "title": "Nature Req 4 Exemplar Workbook Entry: Field Studies Across Eight Categories",
+        "title": "Nature Req 4 Exemplar Workbook Entry: Field Studies",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 4a - Avian Identification and Nesting": "Identify eight wild bird species by flight pattern, plumage field marks, and vocalizations. Construct and monitor a species-specific nest box, feeding station, or clean avian bath.",
-          "Req 4b - Mammalian Tracking and Cast Prese": "Locate and identify three wild mammal species through direct observation or diagnostic scat and bedding sign. Mix plaster of Paris to create permanent casts of wild animal track impressions in mud.",
-          "Req 4c - Herpetological Identification and": "Demonstrate accurate visual recognition of regional venomous snake species using pupil shape, pit presence, and scale patterns. Identify three wild reptile or amphibian species during diurnal or nocturnal field searches.",
-          "Req 4d - Entomological and Arachnid Classi": "Collect and classify ten invertebrate species through macroscopic field photography or careful net sweeping. Distinguish structural differences across prominent orders including Coleoptera, Lepidoptera, Hymenoptera, and Araneae."
+          "Req 4a - Avian Identification": "Identify eight wild bird species by flight pattern, plumage field marks, and vocalizations. Construct and monitor a species-specific nest box, feeding station, or clean avian bath.",
+          "Req 4b - Mammalian Tracking and Cast": "Locate and identify three wild mammal species through direct observation or diagnostic scat and bedding sign. Mix plaster of Paris to create permanent casts of wild animal track impressions in mud.",
+          "Req 4c - Herpetological Identification": "Demonstrate accurate visual recognition of regional venomous snake species using pupil shape, pit presence, and scale patterns. Identify three wild reptile or amphibian species during diurnal or nocturnal field searches.",
+          "Req 4d - Entomological and Arachnid": "Collect and classify ten invertebrate species through macroscopic field photography or careful net sweeping. Distinguish structural differences across prominent orders including Coleoptera, Lepidoptera, Hymenoptera, and Araneae."
         },
         "sample_output": "Field Studies Across Eight Categories: When the sod-formers have helped build up a suitable soil, and a sufficient amount of water has been replaced, still different plants will grow (p. 17).",
         "counselor_tip": "For Nature Requirement 4 (Field Studies Across Eight Categories), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44))."
@@ -2857,9 +2911,35 @@
       "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
       "pamphlet_summary": "Scouts must complete five specialized natural history investigations covering systematic field identification, physical sampling, and ecological data collection. Hands-on projects include constructing artificial nesting structures, pouring plaster casts of mammal tracks, collecting native shells, and classifying mineral soils.",
       "socratic_questions": [
-        "How do diagnostic field marks distinguish morphologically similar species within identical avian or botanical families?",
+        "In what specific ways do diagnostic field marks distinguish morphologically similar species within identical avian or botanical families?",
         "Why is plaster of Paris preferred over standard cement when casting delicate mammalian track impressions in mud?",
-        "In what ways do varying proportions of clay and organic humus dictate local plant community distributions?"
+        "In what ways do varying proportions of clay and organic humus dictate local plant community distributions?",
+        "Which specific field marks and behavioral notes confirm a wild bird or mammal species when lighting conditions obscure feather color?",
+        "What water-to-plaster ratio and negative-ring mold preparation produce a clean plaster cast of a raccoon track in soft creek mud?",
+        "Why is it dangerous to handle wild amphibians with bare hands coated in DEET insect repellent or sunscreen during field surveys?",
+        "Where should a Scout position a handmade birdhouse entrance hole and predator baffle to protect nesting songbirds from raccoons?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts can fulfill the five study fields by casually observing common domestic pets and backyard landscaping plants.",
+          "fact": "Field taxonomy requires verifiable morphology, behavior, track measurements, and microhabitat characteristics rather than unverified casual sightings."
+        },
+        {
+          "misconception": "Adding a wooden dowel perch just below the entrance hole of a nesting box helps native cavity-nesting songbirds enter safely.",
+          "fact": "Cavity-nesting birds grip rough wood easily without a perch, whereas exterior perches help predators and invasive house sparrows attack."
+        },
+        {
+          "misconception": "All venomous snakes in North America can be identified reliably from a distance solely by looking for a triangular head shape.",
+          "fact": "Many harmless watersnakes and hog-nosed snakes flatten their heads into triangles when threatened, and coral snakes have round heads."
+        },
+        {
+          "misconception": "Bivalve mollusk shells and gastropod snail shells are interchangeable terms because every shelled aquatic creature is a single-shell snail.",
+          "fact": "Bivalves like clams and mussels have two hinged shells, while gastropods like snails and conchs grow a single coiled or spiral shell."
+        },
+        {
+          "misconception": "Birdbaths and seed feeders can be left uncleaned for an entire month-long observation period without harming visiting wild birds.",
+          "fact": "Stagnant bath water breeds mosquitoes and damp, moldy seed hulls spread avian salmonellosis and finch eye disease across flocks."
+        }
       ]
     },
     {
@@ -2924,9 +3004,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Leaving biodegradable apple cores or bread crusts along hiking trails does not violate wilderness conservation standards.",
-        "fact": "The Outdoor Code and Leave No Trace principles provide specific behavioral protocols that prevent ecological degradation during field exploration.",
-        "myth": "Leaving biodegradable apple cores or bread crusts along hiking trails does not violate wilderness conservation standards.",
-        "fact_correction": "The Outdoor Code and Leave No Trace principles provide specific behavioral protocols that prevent ecological degradation during field exploration."
+        "fact": "The Outdoor Code and Leave No Trace principles provide specific behavioral protocols that prevent ecological degradation during field exploration."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2963,38 +3041,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Observing Specimens in Place",
-        "right_header": "Responsible Collection Where Permitted",
+        "left_header": "Req 5: Clean Outdoor Manners",
+        "right_header": "Req 5: Plan Before Field Trips",
         "left_points": [
           "Clean Outdoor Manners: As an American, I will do my best to, Be clean in my outdoor manners (p. 9).",
           "Keeping Nature Natural: Do your part to keep nature natural by following these principles (p. 9).",
           "Planning and Preparation: Proper planning and preparation increases safety, reduces the impact of your visit on the environment, and helps make your outdoor experience (p. 9)."
         ],
         "right_points": [
-          "Step 1 - Plan Before Field Trips: Proper planning and preparation increases safety, reduces the impact of your visit on the environment, and helps make your outdoor experience (p. 9).",
-          "Step 2 - Protect Fragile Ground: Natural environments are easily damaged by foot traffic (p. 9).",
-          "Step 3 - Walk on Durable Surfaces: Use existing trails or travel on durable surfaces such as rock, gravel, sand, compacted soil, dry grasses, or snow (p. 9)."
+          "Plan Before Field Trips: Proper planning and preparation increases safety, reduces the impact of your visit on the environment, and helps make your outdoor experience (p. 9).",
+          "Protect Fragile Ground: Natural environments are easily damaged by foot traffic (p. 9).",
+          "Walk on Durable Surfaces: Use existing trails or travel on durable surfaces such as rock, gravel, sand, compacted soil, dry grasses, or snow (p. 9)."
         ],
         "rows": [
           {
-            "attribute": "Clean Outdoor Manners",
+            "attribute": "Outdoor Code Ethic",
             "left": "Clean Outdoor Manners: As an American, I will do my best to, Be clean in my outdoor manners (p. 9).",
-            "right": "Step 1 - Plan Before Field Trips: Proper planning and preparation increases safety, reduces the impact of your visit on the environment, and helps make your outdoor experience (p. 9)."
+            "right": "Plan Before Field Trips: Proper planning and preparation increases safety, reduces the impact of your visit on the environment, and helps make your outdoor experience (p. 9)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Travel On Surfaces",
             "left": "Keeping Nature Natural: Do your part to keep nature natural by following these principles (p. 9).",
-            "right": "Step 2 - Protect Fragile Ground: Natural environments are easily damaged by foot traffic (p. 9)."
+            "right": "Protect Fragile Ground: Natural environments are easily damaged by foot traffic (p. 9)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Waste Disposal Protocol",
             "left": "Planning and Preparation: Proper planning and preparation increases safety, reduces the impact of your visit on the environment, and helps make your outdoor experience (p. 9).",
-            "right": "Step 3 - Walk on Durable Surfaces: Use existing trails or travel on durable surfaces such as rock, gravel, sand, compacted soil, dry grasses, or snow (p. 9)."
+            "right": "Walk on Durable Surfaces: Use existing trails or travel on durable surfaces such as rock, gravel, sand, compacted soil, dry grasses, or snow (p. 9)."
           }
         ]
       },
       "worked_example": {
-        "title": "Nature Req 5 Exemplar Workbook Entry: Leave No Trace in Nature",
+        "title": "Nature Req 5 Exemplar Workbook Entry: Leave No Trace",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Clean Outdoor Manners": "As an American, I will do my best to, Be clean in my outdoor manners (p. 9).",
@@ -3037,7 +3115,33 @@
       "socratic_questions": [
         "Why does disposing of organic fruit peels near wild trails disrupt natural animal foraging behaviors?",
         "How does stepping off designated trail treads across wet meadows accelerate destructive gully erosion?",
-        "What management challenges occur when recreationists build unapproved campfire rings in fire-sensitive forests?"
+        "What management challenges occur when recreationists build unapproved campfire rings in fire-sensitive forests?",
+        "What happens to salamander and beetle microhabitats if a Scout flips over decaying logs or creek stones and leaves them upturned?",
+        "Under what condition does the Leave No Trace principle of Leave What You Find allow collecting rock, soil, or leaf samples?",
+        "What behavioral signs from a wild mammal or nesting bird indicate that you have approached too closely and must step back?",
+        "Which durable surfaces should your group use when moving off-trail to inspect a wetland plant community without trampling bog moss?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Leaving biodegradable apple cores or bread crusts along hiking trails does not violate wilderness conservation standards.",
+          "fact": "The Outdoor Code and Leave No Trace principles provide specific behavioral protocols that prevent ecological degradation during field exploration."
+        },
+        {
+          "misconception": "Flipping rocks and rotting logs to find insects or salamanders causes no harm as long as you do not touch the animals directly.",
+          "fact": "Leaving rocks or logs overturned exposes moist soil microhabitats to sun and wind, drying out eggs, fungi, and gill-breathing invertebrates."
+        },
+        {
+          "misconception": "Collecting live seashells, wildflowers, and shed antlers is permitted inside National Parks when done for a Scouting merit badge.",
+          "fact": "Federal regulations prohibit removing natural objects from National Parks without a research permit; use photos and sketches instead."
+        },
+        {
+          "misconception": "Playing recorded bird calls repeatedly on a phone speaker during breeding season is a harmless way to bring shy birds closer.",
+          "fact": "Repeated audio playback lures territorial birds away from eggs and chicks, wasting vital energy and exposing nests to predators."
+        },
+        {
+          "misconception": "Tossing biodegradable apple cores and orange peels into bushes along a nature trail feeds local wildlife and enriches forest soil.",
+          "fact": "Food scraps take months to rot in dry climates, attract wildlife to human trails, and habituate animals to begging near roadways."
+        }
       ]
     },
     {
@@ -3087,9 +3191,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Ecological succession only occurs when humans actively replant grass and trees on cleared construction parcels.",
-            "fact": "Primary succession initiates on barren substrates devoid of topsoil, whereas secondary succession begins where soil already exists.",
-            "myth": "Ecological succession only occurs when humans actively replant grass and trees on cleared construction parcels.",
-            "fact_correction": "Primary succession initiates on barren substrates devoid of topsoil, whereas secondary succession begins where soil already exists."
+            "fact": "Primary succession initiates on barren substrates devoid of topsoil, whereas secondary succession begins where soil already exists."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3162,9 +3264,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "A mature climax forest will revert to barren sand overnight without a catastrophic geological disruption.",
-            "fact": "Pioneer flora like lichens and annual weeds create soil conditions that eventually favor deep-rooted perennial woody vegetation.",
-            "myth": "A mature climax forest will revert to barren sand overnight without a catastrophic geological disruption.",
-            "fact_correction": "Pioneer flora like lichens and annual weeds create soil conditions that eventually favor deep-rooted perennial woody vegetation."
+            "fact": "Pioneer flora like lichens and annual weeds create soil conditions that eventually favor deep-rooted perennial woody vegetation."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3255,9 +3355,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Forests remain completely static and unchanging over centuries unless human timber harvesting clearcuts the land.",
-        "fact": "Ecological succession is a predictable, orderly process of biotic community change following disturbance toward an equilibrium climax state.",
-        "myth": "Forests remain completely static and unchanging over centuries unless human timber harvesting clearcuts the land.",
-        "fact_correction": "Ecological succession is a predictable, orderly process of biotic community change following disturbance toward an equilibrium climax state."
+        "fact": "Ecological succession is a predictable, orderly process of biotic community change following disturbance toward an equilibrium climax state."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3293,13 +3391,13 @@
         "Step 4 - Trajectory Prediction: Determine the present successional stage and predict future botanical composition changes over fifty years."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Succession Natural Area Forest",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Succession Natural Area Forest.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Succession Principles and Mechanis",
+        "left_header": "Req 6a: Succession Principles",
         "right_header": "Req 6b: Field Habitat Seral Assessment",
         "left_points": [
           "(6a) Succession Principles and Mechanisms: Ecological succession represents the chronological transition of species composition in an ecosystem following environmental disruption. Pioneer autotrophs stabilize harsh microclimates, facilitating colonization by successive communities until an equilibrium climax stage develops."
@@ -3309,28 +3407,28 @@
         ],
         "rows": [
           {
-            "attribute": "Principles of Ecological Succession",
-            "left": "(6a) Principles of Ecological Succession: Animals such as clams or mussels might be found on the bottom (p. 19).",
-            "right": "(6b) Field Analysis of Succession Stages: There might be fish such as bass, and down deep there might be lake trout (p. 19)."
+            "attribute": "Pioneering Colonization",
+            "left": "(6a) Succession Principles and Mechanisms: Ecological succession represents the chronological transition of species composition in an ecosystem following environmental disruption. Pioneer autotrophs stabilize harsh microclimates, facilitating colonization by successive communities until an equilibrium climax stage develops.",
+            "right": "(6b) Field Habitat Seral Assessment: Conduct an on-site field assessment of a chosen natural habitat to categorize its present successional seral stage. Identify resident flora and fauna indicators to predict what subsequent ecological community will replace the current species."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Diving Duck Foraging: A few diving ducks, such as mergansers, might find food (p. 19).",
-            "right": "Step 2 - Check Bottom Habitats: Animals such as clams or mussels might be found on the bottom (p. 19)."
+            "attribute": "Intermediate Succession",
+            "left": "Req 6a: Succession Principles: Ecological succession represents the chronological transition of species composition in an ecosystem following environmental disruption. Pioneer autotrophs stabilize harsh microclimates, facilitating colonization by successive communities until an equilibrium climax stage develops.",
+            "right": "Req 6b: Field Habitat Seral: Conduct an on-site field assessment of a chosen natural habitat to categorize its present successional seral stage. Identify resident flora and fauna indicators to predict what subsequent ecological community will replace the current species."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Surface Hunting Ospreys: An osprey might catch a fish near the surface of the water (p. 19).",
-            "right": "Step 3 - Inspect Shallow Water Plants: In shallower water, plants such as algae and pond weed will live and provide food for more animals (p. 19)."
+            "attribute": "Climax Equilibrium",
+            "left": "Pioneering Colonization: Fast-growing sun-tolerant grasses and forbs quickly colonize bare mineral soils after severe disturbances.",
+            "right": "Intermediate Succession: Shade-intolerant softwood shrubs and pine saplings establish canopies that alter understory light levels."
           }
         ]
       },
       "worked_example": {
-        "title": "Nature Req 6 Exemplar Workbook Entry: Ecological Succession in Natural Areas",
+        "title": "Nature Req 6 Exemplar Workbook Entry: Ecological",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Succession Principles and Mechani": "Ecological succession represents the chronological transition of species composition in an ecosystem following environmental disruption. Pioneer autotrophs stabilize harsh microclimates, facilitating colonization by successive communities until an equilibrium climax stage develops.",
-          "Req 6b - Field Habitat Seral Assessment": "Conduct an on-site field assessment of a chosen natural habitat to categorize its present successional seral stage. Identify resident flora and fauna indicators to predict what subsequent ecological community will replace the current species."
+          "Req 6a - Succession Principles": "Ecological succession represents the chronological transition of species composition in an ecosystem following environmental disruption. Pioneer autotrophs stabilize harsh microclimates, facilitating colonization by successive communities until an equilibrium climax stage develops.",
+          "Req 6b - Field Habitat Seral": "Conduct an on-site field assessment of a chosen natural habitat to categorize its present successional seral stage. Identify resident flora and fauna indicators to predict what subsequent ecological community will replace the current species."
         },
         "sample_output": "Ecological Succession in Natural Areas: Animals such as clams or mussels might be found on the bottom (p. 19).",
         "counselor_tip": "For Nature Requirement 6 (Ecological Succession in Natural Areas), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nature Merit Badge Pamphlet (p. 19, p. 21))."
@@ -3365,9 +3463,35 @@
       "workbook_visual_caption": "A small yellow warbler perches among flowering tree branches in an early spring forest.",
       "pamphlet_summary": "Ecological succession describes the orderly progression of plant and animal community replacements across a landscape over time following a physical disturbance. Primary succession begins on barren substrates devoid of organic soil, whereas secondary succession reclaims previously vegetated sites with intact seedbanks.",
       "socratic_questions": [
-        "How do early pioneer annual weeds chemically and physically alter sterile substrates for woody shrubs?",
+        "In what specific ways do early pioneer annual weeds chemically and physically alter sterile substrates for woody shrubs?",
         "Why do open grassland songbirds abandon abandoned agricultural fields once pine saplings close their canopy?",
-        "What natural disturbance regimes historically arrested early-successional ecosystems before fire suppression became widespread policy?"
+        "What natural disturbance regimes historically arrested early-successional ecosystems before fire suppression became widespread policy?",
+        "Which soil condition separates primary succession on bare rock from secondary succession in an abandoned farm field?",
+        "What happens to sun-loving pine seedlings beneath a dense canopy of mature oak, beech, and maple trees in a late-stage forest?",
+        "Which plant and animal indicators in a shallow pond show that aquatic succession is converting open water into a wet meadow?",
+        "What canopy cover and sapling measurements in your field log distinguish a mid-successional woodlot from a climax forest community?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Forests remain completely static and unchanging over centuries unless human timber harvesting clearcuts the land.",
+          "fact": "Ecological succession is a predictable, orderly process of biotic community change following disturbance toward an equilibrium climax state."
+        },
+        {
+          "misconception": "Primary succession occurs whenever a forest regrows after a wildfire, tornado, or timber harvest clears the standing trees.",
+          "fact": "Regrowth after fire or logging is secondary succession because intact mineral soil, organic humus, and buried seed banks already exist."
+        },
+        {
+          "misconception": "A late-stage climax forest supports higher total animal species diversity than a landscape with mixed early and mid-successional stages.",
+          "fact": "Many songbirds, pollinators, and browsers require sunny shrublands and young forests, so a mosaic of stages holds the highest diversity."
+        },
+        {
+          "misconception": "Natural wildfires always halt ecological succession and permanently degrade native conifer and prairie grassland ecosystems.",
+          "fact": "Periodic low-intensity fires clear competing brush, recycle soil nutrients, and open serotinous pine cones in fire-adapted habitats."
+        },
+        {
+          "misconception": "Freshwater ponds remain open bodies of deep water indefinitely unless human construction fills them with imported gravel and dirt.",
+          "fact": "Ponds naturally fill in over decades as silt washes in and decaying cattails, sedges, and peat moss build dry soil from the shoreline."
+        }
       ]
     },
     {
@@ -3427,9 +3551,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
             "misconception": "Working as a professional wildlife biologist merely entails feeding captive zoo animals and patrolling park trails.",
-            "fact": "State wildlife agencies generally require wildlife biologists to hold at least a bachelor of science degree in ecology.",
-            "myth": "Working as a professional wildlife biologist merely entails feeding captive zoo animals and patrolling park trails.",
-            "fact_correction": "State wildlife agencies generally require wildlife biologists to hold at least a bachelor of science degree in ecology."
+            "fact": "State wildlife agencies generally require wildlife biologists to hold at least a bachelor of science degree in ecology."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3508,9 +3630,7 @@
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
             "misconception": "Natural history hobbies are solitary passive pastimes that produce no tangible benefits for scientific research communities.",
-            "fact": "Amateur ornithologists and botanists regularly contribute rigorous observational data to worldwide biodiversity repositories like eBird and iNaturalist.",
-            "myth": "Natural history hobbies are solitary passive pastimes that produce no tangible benefits for scientific research communities.",
-            "fact_correction": "Amateur ornithologists and botanists regularly contribute rigorous observational data to worldwide biodiversity repositories like eBird and iNaturalist."
+            "fact": "Amateur ornithologists and botanists regularly contribute rigorous observational data to worldwide biodiversity repositories like eBird and iNaturalist."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3614,9 +3734,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Nature careers and wildlife hobbies only require casual enthusiasm without scientific methodology or legal permitting knowledge.",
-        "fact": "Professional natural resource careers require formal university training in quantitative population ecology, Geographic Information Systems, and environmental policy.",
-        "myth": "Nature careers and wildlife hobbies only require casual enthusiasm without scientific methodology or legal permitting knowledge.",
-        "fact_correction": "Professional natural resource careers require formal university training in quantitative population ecology, Geographic Information Systems, and environmental policy."
+        "fact": "Professional natural resource careers require formal university training in quantitative population ecology, Geographic Information Systems, and environmental policy."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3653,7 +3771,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Professional Natural Resource Care",
+        "left_header": "Req 7a: Professional Natural Resource",
         "right_header": "Req 7b: Amateur Natural History Pursuits",
         "left_points": [
           "(7a) Professional Natural Resource Careers: Investigate three distinct natural resource professions such as wildlife biology, park interpretation, or environmental science. Detail the academic coursework, field internships, technical certifications, and initial economic expenditures needed to enter the chosen career."
@@ -3663,28 +3781,28 @@
         ],
         "rows": [
           {
-            "attribute": "Natural Science Career Exploration",
-            "left": "(7a) Natural Science Career Exploration: In the same way that plants have soil requirements, they have requirements of temperature range, from hot to cold (p. 11).",
-            "right": "(7b) Lifelong Nature Hobby Planning: The higher you go, generally the colder the temperature and the higher the rainfall (p. 11)."
+            "attribute": "Wildlife Biologist",
+            "left": "(7a) Professional Natural Resource Careers: Investigate three distinct natural resource professions such as wildlife biology, park interpretation, or environmental science. Detail the academic coursework, field internships, technical certifications, and initial economic expenditures needed to enter the chosen career.",
+            "right": "(7b) Amateur Natural History Pursuits: Investigate a personal naturalist pursuit such as wildlife photography, bird monitoring, or native plant propagation. Determine equipment investments, club memberships, and specialized field workshops necessary to participate meaningfully in citizen science."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "High Elevation Climate: The higher you go, generally the colder the temperature and the higher the rainfall (p. 11).",
-            "right": "Step 2 - Measure Elevation Shifts: Going up 300 to 500 feet of altitude is roughly equivalent to moving northward one degree of latitude (68 miles) (p. 11)."
+            "attribute": "Park Naturalist",
+            "left": "Req 7a: Professional Natural: Investigate three distinct natural resource professions such as wildlife biology, park interpretation, or environmental science. Detail the academic coursework, field internships, technical certifications, and initial economic expenditures needed to enter the chosen career.",
+            "right": "Req 7b: Amateur Natural History: Investigate a personal naturalist pursuit such as wildlife photography, bird monitoring, or native plant propagation. Determine equipment investments, club memberships, and specialized field workshops necessary to participate meaningfully in citizen science."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Mountain Slope Ecology: As far as plants are concerned, going up the side of a mountain is much the same as going north (p. 11).",
-            "right": "Step 3 - Compare Regional Growth: So, the same plants will grow at a higher elevation in the South than in the North (p. 11)."
+            "attribute": "Conservation Forester",
+            "left": "Wildlife Biologist: Professionals design field studies to evaluate population dynamics, migratory flyways, and disease spread.",
+            "right": "Park Naturalist: Interpretive rangers educate park visitors regarding regional geomorphology, wildlife protection, and ecological stewardship."
           }
         ]
       },
       "worked_example": {
-        "title": "Nature Req 7 Exemplar Workbook Entry: Nature Careers and Personal Hobbies",
+        "title": "Nature Req 7 Exemplar Workbook Entry: Nature Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 7a - Professional Natural Resource Car": "Investigate three distinct natural resource professions such as wildlife biology, park interpretation, or environmental science. Detail the academic coursework, field internships, technical certifications, and initial economic expenditures needed to enter the chosen career.",
-          "Req 7b - Amateur Natural History Pursuits": "Investigate a personal naturalist pursuit such as wildlife photography, bird monitoring, or native plant propagation. Determine equipment investments, club memberships, and specialized field workshops necessary to participate meaningfully in citizen science."
+          "Req 7a - Professional Natural Resource": "Investigate three distinct natural resource professions such as wildlife biology, park interpretation, or environmental science. Detail the academic coursework, field internships, technical certifications, and initial economic expenditures needed to enter the chosen career.",
+          "Req 7b - Amateur Natural History": "Investigate a personal naturalist pursuit such as wildlife photography, bird monitoring, or native plant propagation. Determine equipment investments, club memberships, and specialized field workshops necessary to participate meaningfully in citizen science."
         },
         "sample_output": "Nature Careers and Personal Hobbies: In the same way that plants have soil requirements, they have requirements of temperature range, from hot to cold (p. 11).",
         "counselor_tip": "For Nature Requirement 7 (Nature Careers and Personal Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Nature Merit Badge Pamphlet (p. 11, p. 13))."
@@ -3719,9 +3837,35 @@
       "workbook_visual_caption": "Boaters paddle across an open lake observing aquatic plants and shoreline habitats.",
       "pamphlet_summary": "Professional careers in the natural sciences demand accredited degrees in biology, forestry, or natural resource management along with field experience. Serious hobbyists apply natural history skills through competitive birding, native plant horticulture, and organized citizen science biodiversity initiatives.",
       "socratic_questions": [
-        "How do geographic information systems modern spatial mapping tools transform modern wildlife management and conservation biology?",
+        "In what specific ways do geographic information systems modern spatial mapping tools transform modern wildlife management and conservation biology?",
         "What professional licensing certifications differentiate an industrial timber forester from an environmental research consultant?",
-        "In what ways does crowdsourced amateur citizen science data assist academic biologists tracking regional species declines?"
+        "In what ways does crowdsourced amateur citizen science data assist academic biologists tracking regional species declines?",
+        "Which specific coursework and field practicum hours qualify an applicant for Associate Wildlife Biologist certification?",
+        "What daily duties separate a state conservation law enforcement officer from a research ecologist or an interpretive park naturalist?",
+        "Why do entry-level wildlife biology positions often require seasonal field technician internships before permanent hiring?",
+        "What tuition, field gear, and licensing costs should you compare against entry-level agency pay scales when planning this career?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Nature careers and wildlife hobbies only require casual enthusiasm without scientific methodology or legal permitting knowledge.",
+          "fact": "Professional natural resource careers require formal university training in quantitative population ecology, Geographic Information Systems, and environmental policy."
+        },
+        {
+          "misconception": "Professional wildlife biologists spend nearly all of their working hours outdoors hiking and observing wild animals in remote forests.",
+          "fact": "Most senior wildlife biologists spend significant office time analyzing GIS data, writing grant proposals, and drafting regulatory reports."
+        },
+        {
+          "misconception": "A four-year bachelor degree alone guarantees immediate placement as a lead research scientist at a federal natural resource agency.",
+          "fact": "Lead research scientist and supervisory biologist roles typically require a master degree or doctorate plus multi-year field experience."
+        },
+        {
+          "misconception": "Natural science careers exist only within state park agencies and the federal National Park Service or Forest Service.",
+          "fact": "Environmental consulting firms, timber companies, land trusts, utilities, and museums also employ biologists and wetland specialists."
+        },
+        {
+          "misconception": "Park rangers and interpretive naturalists perform the exact same legal duties as commissioned state game wardens in the field.",
+          "fact": "Game wardens and conservation officers are sworn law enforcement officers who enforce wildlife codes, while naturalists focus on education."
+        }
       ]
     }
   ],

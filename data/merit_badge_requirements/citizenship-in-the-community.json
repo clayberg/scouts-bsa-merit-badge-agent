@@ -74,9 +74,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A person fulfills community citizenship simply by residing within city boundaries and avoiding criminal behavior.",
-        "fact": "True citizenship demands active civic participation, including voting, serving public needs, and defending community members' civil rights.",
-        "myth": "A person fulfills community citizenship simply by residing within city boundaries and avoiding criminal behavior.",
-        "fact_correction": "True citizenship demands active civic participation, including voting, serving public needs, and defending community members' civil rights."
+        "fact": "True citizenship demands active civic participation, including voting, serving public needs, and defending community members' civil rights."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -112,43 +110,43 @@
         "Step 4 - Counselor Discussion: Present your civic analysis and action plans during an individual counseling conference."
       ],
       "gear_checklist": [
-        "Official Citizenship in the Community Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Citizenship in The Community Means)",
-        "Field notebook, verification log sheet, and demonstration materials for Citizenship in The Community Means",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Citizenship in the Community: Citizenship in The Community Means.",
+        "Field notebook, verification log sheet, and demonstration materials for Citizenship in The Community Means.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Active and Connected Citizens",
-        "right_header": "Uninvolved and Apathetic Residents",
+        "left_header": "Req 1: Defining Public Policy",
+        "right_header": "Req 1: Recognize Neighborhood Changes",
         "left_points": [
           "Defining Public Policy: Public policy includes the goals the government sets as well as the actions required to achieve those goals (p. 10).",
           "Forfeiting Your Civic Voice: Some citizens do not vote, voluntarily giving up their voice in the government (p. 10).",
           "Consequences of Local Apathy: Other citizens do not know or care about what is going on in their community, until a prison is built in their neighborhood, or the crime rate grows (p. 10)."
         ],
         "right_points": [
-          "Step 1 - Recognize Neighborhood Changes Early: Other citizens do not know or care about what is going on in their community, until a prison is built in their neighborhood, or the crime rate grows (p. 10).",
-          "Step 2 - Stay Engaged Beyond Crises: Unless they are upset about a particular issue, most citizens leave the decisions to elected representatives and local activists (p. 10).",
-          "Step 3 - Build Strong Local Connections: People who feel connected to their community tend to participate (p. 10)."
+          "Recognize Neighborhood Changes Early: Other citizens do not know or care about what is going on in their community, until a prison is built in their neighborhood, or the crime rate grows (p. 10).",
+          "Stay Engaged Beyond Crises: Unless they are upset about a particular issue, most citizens leave the decisions to elected representatives and local activists (p. 10).",
+          "Build Strong Local Connections: People who feel connected to their community tend to participate (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Defining Public Policy",
+            "attribute": "Civil Liberties",
             "left": "Defining Public Policy: Public policy includes the goals the government sets as well as the actions required to achieve those goals (p. 10).",
-            "right": "Step 1 - Recognize Neighborhood Changes Early: Other citizens do not know or care about what is going on in their community, until a prison is built in their neighborhood, or the crime rate grows (p. 10)."
+            "right": "Recognize Neighborhood Changes Early: Other citizens do not know or care about what is going on in their community, until a prison is built in their neighborhood, or the crime rate grows (p. 10)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Mandatory Civic Duties",
             "left": "Forfeiting Your Civic Voice: Some citizens do not vote, voluntarily giving up their voice in the government (p. 10).",
-            "right": "Step 2 - Stay Engaged Beyond Crises: Unless they are upset about a particular issue, most citizens leave the decisions to elected representatives and local activists (p. 10)."
+            "right": "Stay Engaged Beyond Crises: Unless they are upset about a particular issue, most citizens leave the decisions to elected representatives and local activists (p. 10)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Voluntary Obligations",
             "left": "Consequences of Local Apathy: Other citizens do not know or care about what is going on in their community, until a prison is built in their neighborhood, or the crime rate grows (p. 10).",
-            "right": "Step 3 - Build Strong Local Connections: People who feel connected to their community tend to participate (p. 10)."
+            "right": "Build Strong Local Connections: People who feel connected to their community tend to participate (p. 10)."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Community Req 1 Exemplar Workbook Entry: Rights and Duties of Community Citizenship",
+        "title": "Citizenship in the Community Req 1 Exemplar Workbook",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
           "Defining Public Policy": "Public policy includes the goals the government sets as well as the actions required to achieve those goals (p. 10).",
@@ -191,7 +189,33 @@
       "socratic_questions": [
         "How does a mandatory civic duty like paying property taxes differ from a voluntary civic obligation?",
         "In what ways do local municipal ordinances protect individual freedom while maintaining community order?",
-        "Which community issues in your neighborhood require immediate citizen involvement rather than government action alone?"
+        "Which community issues in your neighborhood require immediate citizen involvement rather than government action alone?",
+        "What distinguishes a legally enforceable civic duty from a voluntary moral obligation in your town?",
+        "What happens to local public services when residents exercise their rights but neglect civic duties?",
+        "Which specific actions demonstrate active citizenship inside your Scouting unit versus at your school?",
+        "Under what condition does exercising personal free speech conflict with community safety and order?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A person fulfills community citizenship simply by residing within city boundaries and avoiding criminal behavior.",
+          "fact": "True citizenship demands active civic participation, including voting, serving public needs, and defending community members' civil rights."
+        },
+        {
+          "misconception": "Good citizenship in a community applies only to adults who are old enough to vote and pay local taxes.",
+          "fact": "Youth demonstrate vital citizenship by obeying laws, volunteering, stewarding shared spaces, and leading peers."
+        },
+        {
+          "misconception": "Civic duties and civic obligations are identical terms that both describe optional community volunteering.",
+          "fact": "Duties like obeying laws and serving on a jury are required by law, while obligations like voting are voluntary."
+        },
+        {
+          "misconception": "Constitutional rights grant citizens unlimited freedom to act in public spaces without local restrictions.",
+          "fact": "Individual rights are balanced against public safety and the rights of others through municipal ordinances."
+        },
+        {
+          "misconception": "Practicing good citizenship inside a Scouting troop is unrelated to municipal civic responsibility.",
+          "fact": "Leading patrol service projects and following the Scout Oath directly build habits of local civic stewardship."
+        }
       ]
     },
     {
@@ -536,9 +560,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
             "misconception": "Digital mapping tools eliminate the practical need to understand physical routes and neighborhood terrain.",
-            "fact": "Comparing walking and driving times demonstrates transit accessibility disparities across different community zones.",
-            "myth": "Digital mapping tools eliminate the practical need to understand physical routes and neighborhood terrain.",
-            "fact_correction": "Comparing walking and driving times demonstrates transit accessibility disparities across different community zones."
+            "fact": "Comparing walking and driving times demonstrates transit accessibility disparities across different community zones."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -615,9 +637,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
             "misconception": "City department heads function independently without oversight from the elected municipal council.",
-            "fact": "Appointed department heads report directly to the city manager or elected mayor for administrative oversight.",
-            "myth": "City department heads function independently without oversight from the elected municipal council.",
-            "fact_correction": "Appointed department heads report directly to the city manager or elected mayor for administrative oversight."
+            "fact": "Appointed department heads report directly to the city manager or elected mayor for administrative oversight."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -723,9 +743,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Every municipal leader with executive decision power is chosen through direct public election by registered voters.",
-        "fact": "Key local administrators like city managers, police chiefs, and public works directors are appointed by elected councils.",
-        "myth": "Every municipal leader with executive decision power is chosen through direct public election by registered voters.",
-        "fact_correction": "Key local administrators like city managers, police chiefs, and public works directors are appointed by elected councils."
+        "fact": "Key local administrators like city managers, police chiefs, and public works directors are appointed by elected councils."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -761,13 +779,13 @@
         "Step 4 - Status Classification: Label each municipal office on your chart as either an elected or appointed position."
       ],
       "gear_checklist": [
-        "Official Citizenship in the Community Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Electronic Mapping Tool or Paper)",
-        "Field notebook, verification log sheet, and demonstration materials for Electronic Mapping Tool or Paper",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Citizenship in the Community: Electronic Mapping Tool or Paper.",
+        "Field notebook, verification log sheet, and demonstration materials for Electronic Mapping Tool or Paper.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Community Landmark Distance Mappin",
-        "right_header": "Req 2b: Local Government Organizational Hi",
+        "left_header": "Req 2a: Community Landmark Distance",
+        "right_header": "Req 2b: Local Government Organizational",
         "left_points": [
           "(2a) Community Landmark Distance Mapping: Scouts calculate pedestrian, bicycling, and vehicular transit corridors connecting homes to essential community services. This spatial analysis reveals infrastructure distribution and municipal access equity."
         ],
@@ -776,28 +794,28 @@
         ],
         "rows": [
           {
-            "attribute": "Locating Essential Community Services",
-            "left": "(2a) Locating Essential Community Services: Municipal governments are organized according to their charters (p. 14).",
-            "right": "(2b) Charting Local Government Structure: Organization of one typical county government Municipalities A charter is aformal, legal document that defines the boundaries of acity (p. 14)."
+            "attribute": "Geographic Pinpointing",
+            "left": "(2a) Community Landmark Distance Mapping: Scouts calculate pedestrian, bicycling, and vehicular transit corridors connecting homes to essential community services. This spatial analysis reveals infrastructure distribution and municipal access equity.",
+            "right": "(2b) Local Government Organizational Hierarchy: Creating a structural diagram of local municipal government distinguishes legislative bodies from appointed professional directors. This hierarchy illustrates how administrative departments execute council policies."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Types of Urban Municipalities: Municipalities (cities, towns, villages, and boroughs) are densely populated urban areas with local governments (p. 14).",
-            "right": "Step 2 - Identify Your City Structure: Municipal governments are organized according to their charters (p. 14)."
+            "attribute": "Travel Metric Recording",
+            "left": "Req 2a: Community Landmark Distance: Scouts calculate pedestrian, bicycling, and vehicular transit corridors connecting homes to essential community services. This spatial analysis reveals infrastructure distribution and municipal access equity.",
+            "right": "Req 2b: Local Government: Creating a structural diagram of local municipal government distinguishes legislative bodies from appointed professional directors. This hierarchy illustrates how administrative departments execute council policies."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Charters as Local Constitutions: The state creates them by charters or other legislation, which then serve as local constitutions (p. 14).",
-            "right": "Step 3 - Examine Mayor-Council Systems: The most widely used form of city government is the mayor-council charter (p. 14)."
+            "attribute": "Organizational Governance Hierarchy",
+            "left": "Geographic Pinpointing: Spatial mapping identifies emergency response stations, public schools, municipal offices, and recreation centers.",
+            "right": "Travel Metric Recording: Accurate navigation requires logging driving travel time and pedestrian or cycling travel distances."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Community Req 2 Exemplar Workbook Entry: Mapping Services and Local Government",
+        "title": "Citizenship in the Community Req 2 Exemplar Workbook",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 2a - Community Landmark Distance Mappi": "Scouts calculate pedestrian, bicycling, and vehicular transit corridors connecting homes to essential community services. This spatial analysis reveals infrastructure distribution and municipal access equity.",
-          "Req 2b - Local Government Organizational H": "Creating a structural diagram of local municipal government distinguishes legislative bodies from appointed professional directors. This hierarchy illustrates how administrative departments execute council policies."
+          "Req 2a - Community Landmark Distance": "Scouts calculate pedestrian, bicycling, and vehicular transit corridors connecting homes to essential community services. This spatial analysis reveals infrastructure distribution and municipal access equity.",
+          "Req 2b - Local Government": "Creating a structural diagram of local municipal government distinguishes legislative bodies from appointed professional directors. This hierarchy illustrates how administrative departments execute council policies."
         },
         "sample_output": "Mapping Services and Local Government: Municipal governments are organized according to their charters (p. 14).",
         "counselor_tip": "For Citizenship in the Community Requirement 2 (Mapping Services and Local Government), verify the Scout's own observations and specific pamphlet details (Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16))."
@@ -834,7 +852,33 @@
       "socratic_questions": [
         "Why does municipal emergency planning depend heavily on driving and walking times from residential neighborhoods?",
         "How does the council-manager system divide authority between elected policy makers and professional appointed administrators?",
-        "What geographic factors influence where a city builds fire stations, hospitals, and public health facilities?"
+        "What geographic factors influence where a city builds fire stations, hospitals, and public health facilities?",
+        "What measurement confirms you recorded both required travel modes from your home to each civic landmark?",
+        "Which structural feature distinguishes a council manager town government from a strong mayor system?",
+        "Where should a Scout verify the exact location of the nearest fire station and trauma hospital on a map?",
+        "Why is it important to map public works and utility facilities alongside emergency response stations?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Every municipal leader with executive decision power is chosen through direct public election by registered voters.",
+          "fact": "Key local administrators like city managers, police chiefs, and public works directors are appointed by elected councils."
+        },
+        {
+          "misconception": "Recording only the straight line mileage from your home to city hall satisfies the mapping requirement.",
+          "fact": "You must record route distances along with both driving time and either walking or biking travel time."
+        },
+        {
+          "misconception": "Every municipal government in the United States operates under an elected mayor with executive veto power.",
+          "fact": "Many cities use a council manager or town meeting structure where a hired manager handles daily operations."
+        },
+        {
+          "misconception": "County courthouses and municipal city halls belong to the same level of local government jurisdiction.",
+          "fact": "City hall houses municipal administration, whereas the county courthouse serves a broader countywide region."
+        },
+        {
+          "misconception": "Charting a local government requires listing only the names of elected officials currently in office.",
+          "fact": "An organizational chart must show the legislative, executive, and judicial branches and how authority flows."
+        }
       ]
     },
     {
@@ -898,9 +942,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 21, p. 24)",
           "common_misconception_pair": {
             "misconception": "Scouts can fulfill the meeting attendance requirement by reading published meeting minutes online.",
-            "fact": "The requirement mandates attending an active in-person governing session to observe live civic deliberation.",
-            "myth": "Scouts can fulfill the meeting attendance requirement by reading published meeting minutes online.",
-            "fact_correction": "The requirement mandates attending an active in-person governing session to observe live civic deliberation."
+            "fact": "The requirement mandates attending an active in-person governing session to observe live civic deliberation."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -975,9 +1017,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 21, p. 24)",
           "common_misconception_pair": {
             "misconception": "Civic debate analysis requires agreeing with the final vote outcome chosen by the elected council.",
-            "fact": "Scouts may defend a minority dissenting perspective if they provide logical arguments grounded in public welfare.",
-            "myth": "Civic debate analysis requires agreeing with the final vote outcome chosen by the elected council.",
-            "fact_correction": "Scouts may defend a minority dissenting perspective if they provide logical arguments grounded in public welfare."
+            "fact": "Scouts may defend a minority dissenting perspective if they provide logical arguments grounded in public welfare."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1084,9 +1124,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Public council meetings are purely ceremonial gatherings where officials rubber-stamp decisions already settled in private.",
-        "fact": "State sunshine laws require official deliberations and votes to occur publicly with recorded citizen comments.",
-        "myth": "Public council meetings are purely ceremonial gatherings where officials rubber-stamp decisions already settled in private.",
-        "fact_correction": "State sunshine laws require official deliberations and votes to occur publicly with recorded citizen comments."
+        "fact": "State sunshine laws require official deliberations and votes to occur publicly with recorded citizen comments."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1122,13 +1160,13 @@
         "Step 4 - Opinion Justification: Formulate a reasoned position supporting one perspective using fiscal, ethical, or legal community evidence."
       ],
       "gear_checklist": [
-        "Official Citizenship in the Community Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: In-person Meeting of Your City)",
-        "Field notebook, verification log sheet, and demonstration materials for In-person Meeting of Your City",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Citizenship in the Community: In-person Meeting of Your City.",
+        "Field notebook, verification log sheet, and demonstration materials for In-person Meeting of Your City.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Municipal Public Hearing Attendanc",
-        "right_header": "Req 3b: Public Debate Perspective Analysis",
+        "left_header": "Req 3a: Municipal Public Hearing",
+        "right_header": "Req 3b: Public Debate Perspective",
         "left_points": [
           "(3a) Municipal Public Hearing Attendance: Observing municipal legislative sessions demonstrates how parliamentary law maintains order during public deliberations. Scouts witness firsthand how local ordinances and school policies receive public scrutiny."
         ],
@@ -1137,34 +1175,34 @@
         ],
         "rows": [
           {
-            "attribute": "Attending a Local Public Meeting",
-            "left": "(3a) Attending a Local Public Meeting: An editorial is apiece of writing that expresses the writer's opinions (p. 21).",
-            "right": "(3b) Analyzing Competing Community Viewpoints: Editorials usually are separated from regular news stories in the newspaper (p. 21)."
+            "attribute": "Sunshine Law Compliance",
+            "left": "(3a) Municipal Public Hearing Attendance: Observing municipal legislative sessions demonstrates how parliamentary law maintains order during public deliberations. Scouts witness firsthand how local ordinances and school policies receive public scrutiny.",
+            "right": "(3b) Public Debate Perspective Analysis: Evaluating opposing viewpoints presented at public hearings requires identifying underlying values, costs, and constituent impacts. Scouts articulate reasoned conclusions grounded in community benefit rather than peer bias."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Separating Opinion From News: Editorials usually are separated from regular news stories in the newspaper (p. 21).",
-            "right": "Step 2 - Note Public Discussions Locally: You might hear people talking in the grocery store, in the post office, in restaurants, or in the stands at athletic events (p. 21)."
+            "attribute": "Public Comment Protocols",
+            "left": "Req 3a: Municipal Public Hearing: Observing municipal legislative sessions demonstrates how parliamentary law maintains order during public deliberations. Scouts witness firsthand how local ordinances and school policies receive public scrutiny.",
+            "right": "Req 3b: Public Debate Perspective: Evaluating opposing viewpoints presented at public hearings requires identifying underlying values, costs, and constituent impacts. Scouts articulate reasoned conclusions grounded in community benefit rather than peer bias."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Paying Attention to Surroundings: You can learn a lot about your community just by paying attention to what is going (p. 21).",
-            "right": "Step 3 - Follow Local News Outlets: Listen closely, read the newspaper, watch the local news on television, and you will find out what issues concern the public (p. 21)."
+            "attribute": "Legislative Deliberation Mechanics",
+            "left": "Sunshine Law Compliance: Public open meeting statutes require municipal bodies to publish agendas and deliberate openly.",
+            "right": "Public Comment Protocols: Citizens present structured arguments during designated floor sessions subject to strict procedural time limits."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Community Req 3 Exemplar Workbook Entry: Observing Local Government Meetings",
+        "title": "Citizenship in the Community Req 3 Exemplar Workbook",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 3a - Municipal Public Hearing Attendan": "Observing municipal legislative sessions demonstrates how parliamentary law maintains order during public deliberations. Scouts witness firsthand how local ordinances and school policies receive public scrutiny.",
-          "Req 3b - Public Debate Perspective Analysi": "Evaluating opposing viewpoints presented at public hearings requires identifying underlying values, costs, and constituent impacts. Scouts articulate reasoned conclusions grounded in community benefit rather than peer bias."
+          "Req 3a - Municipal Public Hearing": "Observing municipal legislative sessions demonstrates how parliamentary law maintains order during public deliberations. Scouts witness firsthand how local ordinances and school policies receive public scrutiny.",
+          "Req 3b - Public Debate Perspective": "Evaluating opposing viewpoints presented at public hearings requires identifying underlying values, costs, and constituent impacts. Scouts articulate reasoned conclusions grounded in community benefit rather than peer bias."
         },
         "sample_output": "Observing Local Government Meetings: An editorial is apiece of writing that expresses the writer's opinions (p. 21).",
         "counselor_tip": "For Citizenship in the Community Requirement 3 (Observing Local Government Meetings), verify the Scout's own observations and specific pamphlet details (Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 21, p. 24))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do newspapers typically handle editorials compared to regular local news stories?",
+        "scenario_prompt": "In what specific ways do newspapers typically handle editorials compared to regular local news stories?",
         "question": "How do newspapers typically handle editorials compared to regular local news stories?",
         "options": [
           "A. Editorials express the writer's opinions and are usually separated from regular news stories",
@@ -1193,9 +1231,35 @@
       "workbook_visual_caption": "A courtroom session in progress shows citizens participating in the local judicial system.",
       "pamphlet_summary": "Attending open local governing body meetings provides firsthand observation of parliamentary procedure and public testimony in action. Analyzing contentious civic debates reveals how elected officials weigh community desires against fiscal and legal constraints.",
       "socratic_questions": [
-        "How do public comment rules protect democratic speech while maintaining orderly legislative procedure?",
+        "In what specific ways do public comment rules protect democratic speech while maintaining orderly legislative procedure?",
         "What objective evidence should an elected official prioritize when community members express opposing viewpoints?",
-        "Why are open meeting laws essential for preventing municipal corruption and maintaining voter trust?"
+        "Why are open meeting laws essential for preventing municipal corruption and maintaining voter trust?",
+        "What step must you complete with your counselor before attending an alternative state or local meeting?",
+        "Which agenda section during a city council or school board session allows residents to voice differing views?",
+        "What details should you record in your field notes when two speakers present opposing arguments on a motion?",
+        "Why is it important to explain why you agree with one perspective rather than merely summarizing both sides?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Public council meetings are purely ceremonial gatherings where officials rubber-stamp decisions already settled in private.",
+          "fact": "State sunshine laws require official deliberations and votes to occur publicly with recorded citizen comments."
+        },
+        {
+          "misconception": "Watching a recorded video stream of a past town council session fulfills the meeting attendance rule.",
+          "fact": "Requirement 3a specifies attending an in person local government meeting or court session with approval."
+        },
+        {
+          "misconception": "Routine ceremonial proclamations and unanimous consent agendas satisfy the issue analysis requirement.",
+          "fact": "You must select a debated agenda item where differing opinions were expressed and evaluate each position."
+        },
+        {
+          "misconception": "Public attendees at a city council session can interrupt council members at any point to debate a vote.",
+          "fact": "Public meetings follow parliamentary rules that restrict citizen comments to designated comment periods."
+        },
+        {
+          "misconception": "Attending any neighborhood homeowner association gathering automatically counts as a government meeting.",
+          "fact": "Only official city, town, county, school board, court, or counselor approved government sessions qualify."
+        }
       ]
     },
     {
@@ -1236,9 +1300,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
             "misconception": "City councils handle daily operational fixes rather than delegating them to administrative department directors.",
-            "fact": "Legislative councils establish policy and budgets while executive departments execute daily maintenance and public works.",
-            "myth": "City councils handle daily operational fixes rather than delegating them to administrative department directors.",
-            "fact_correction": "Legislative councils establish policy and budgets while executive departments execute daily maintenance and public works."
+            "fact": "Legislative councils establish policy and budgets while executive departments execute daily maintenance and public works."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1311,9 +1373,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
             "misconception": "Interviewing a government official means advocating aggressively for a personal political outcome.",
-            "fact": "The civic interview is an information-gathering dialogue designed to understand administrative processes and operational constraints.",
-            "myth": "Interviewing a government official means advocating aggressively for a personal political outcome.",
-            "fact_correction": "The civic interview is an information-gathering dialogue designed to understand administrative processes and operational constraints."
+            "fact": "The civic interview is an information-gathering dialogue designed to understand administrative processes and operational constraints."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1385,9 +1445,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
             "misconception": "A successful presentation only requires summarizing basic biographical details of the interviewed official.",
-            "fact": "The presentation must analyze concrete actions, departmental policies, and community impacts learned during the interview.",
-            "myth": "A successful presentation only requires summarizing basic biographical details of the interviewed official.",
-            "fact_correction": "The presentation must analyze concrete actions, departmental policies, and community impacts learned during the interview."
+            "fact": "The presentation must analyze concrete actions, departmental policies, and community impacts learned during the interview."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1472,9 +1530,7 @@
       },
       "common_misconception_pair": {
         "misconception": "The mayor personally manages and directly resolves all neighborhood infrastructure problems and civic complaints.",
-        "fact": "Municipal charters assign specific operational tasks to specialized departments like public works, health, or zoning.",
-        "myth": "The mayor personally manages and directly resolves all neighborhood infrastructure problems and civic complaints.",
-        "fact_correction": "Municipal charters assign specific operational tasks to specialized departments like public works, health, or zoning."
+        "fact": "Municipal charters assign specific operational tasks to specialized departments like public works, health, or zoning."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1515,13 +1571,13 @@
         "Step 4 - Finding Presentation: Synthesize interview responses into an organized briefing delivered directly to your merit badge counselor."
       ],
       "gear_checklist": [
-        "Official Citizenship in the Community Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Issue That Is Important)",
-        "Field notebook, verification log sheet, and demonstration materials for Issue That Is Important",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Citizenship in the Community: Issue That Is Important.",
+        "Field notebook, verification log sheet, and demonstration materials for Issue That Is Important.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Municipal Department Jurisdiction",
-        "right_header": "Req 4b: Municipal Government Official Inte",
+        "left_header": "Req 4a: Municipal Department",
+        "right_header": "Req 4b: Municipal Government Official",
         "left_points": [
           "(4a) Municipal Department Jurisdiction Identification: Researching town charters and departmental directories reveals which branch holds legal authority over local issues. Identifying the correct department ensures citizen advocacy targets the appropriate decision makers."
         ],
@@ -1530,29 +1586,29 @@
         ],
         "rows": [
           {
-            "attribute": "Interviewing a Local Government Official",
-            "left": "Investigating Issues and Interviewing Officials: Review the Citizenship in the Community pamphlet standards for investigating issues and interviewing officials, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 24).",
-            "right": "(4b) Interviewing a Local Government Official: Then request an interview (by telephone probably is the most convenient) (p. 24)."
+            "attribute": "Jurisdictional Mapping",
+            "left": "(4a) Municipal Department Jurisdiction Identification: Researching town charters and departmental directories reveals which branch holds legal authority over local issues. Identifying the correct department ensures citizen advocacy targets the appropriate decision makers.",
+            "right": "(4b) Municipal Government Official Interview: Interviewing administrative personnel provides insight into active projects, regulatory limitations, and strategic municipal initiatives. Scouts develop professional questioning techniques while gathering objective data on local problem solving."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Locating the Right Official: Once you know which branch, board, or committee is responsible, find out who might be willing to discuss the issue with you and how to reach that person (p. 24).",
-            "right": "(4c) Sharing Interview Findings With Counselor: Allow yourself enough time before the interview to thoroughly prepare (p. 24)."
+            "attribute": "Administrative Authority",
+            "left": "Req 4a: Municipal Department: Researching town charters and departmental directories reveals which branch holds legal authority over local issues. Identifying the correct department ensures citizen advocacy targets the appropriate decision makers.",
+            "right": "Req 4b: Municipal Government: Interviewing administrative personnel provides insight into active projects, regulatory limitations, and strategic municipal initiatives. Scouts develop professional questioning techniques while gathering objective data on local problem solving."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Scheduling a Convenient Interview: Then request an interview (by telephone probably is the most convenient) (p. 24).",
-            "right": "Step 3 - Research All Competing Viewpoints: Try to find out as much as you can about all sides of the issue (p. 24)."
+            "attribute": "Professional Interview Preparation",
+            "left": "Req 4c: Civic Research Finding: Synthesizing interview responses into a coherent oral report allows Scouts to evaluate government responsiveness. This briefing demonstrates mastery of local government mechanisms to the merit badge counselor.",
+            "right": "Administrative Authority: Public works, zoning boards, and law enforcement agencies handle distinct civic complaints."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Community Req 4 Exemplar Workbook Entry: Investigating Issues and Interviewing Officials",
+        "title": "Citizenship in the Community Req 4 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Municipal Department Jurisdiction": "Researching town charters and departmental directories reveals which branch holds legal authority over local issues. Identifying the correct department ensures citizen advocacy targets the appropriate decision makers.",
-          "Req 4b - Municipal Government Official Int": "Interviewing administrative personnel provides insight into active projects, regulatory limitations, and strategic municipal initiatives. Scouts develop professional questioning techniques while gathering objective data on local problem solving.",
-          "Req 4c - Civic Research Finding Presentati": "Synthesizing interview responses into a coherent oral report allows Scouts to evaluate government responsiveness. This briefing demonstrates mastery of local government mechanisms to the merit badge counselor."
+          "Req 4a - Municipal Department": "Researching town charters and departmental directories reveals which branch holds legal authority over local issues. Identifying the correct department ensures citizen advocacy targets the appropriate decision makers.",
+          "Req 4b - Municipal Government Official": "Interviewing administrative personnel provides insight into active projects, regulatory limitations, and strategic municipal initiatives. Scouts develop professional questioning techniques while gathering objective data on local problem solving.",
+          "Req 4c - Civic Research Finding": "Synthesizing interview responses into a coherent oral report allows Scouts to evaluate government responsiveness. This briefing demonstrates mastery of local government mechanisms to the merit badge counselor."
         },
         "sample_output": "Investigating Issues and Interviewing Officials: Once you know which branch, board, or committee is responsible, find out who might be willing to discuss the issue with you and how to reach that person (p. 24).",
         "counselor_tip": "For Citizenship in the Community Requirement 4 (Investigating Issues and Interviewing Officials), verify the Scout's own observations and specific pamphlet details (Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25))."
@@ -1588,8 +1644,34 @@
       "pamphlet_summary": "Investigating a pressing neighborhood concern requires tracing municipal jurisdiction to the appropriate municipal department or board. Interviewing local officials clarifies active policy initiatives, budget realities, and operational hurdles confronting community reform.",
       "socratic_questions": [
         "Why is determining proper jurisdictional authority the critical first step in solving a neighborhood problem?",
-        "How do municipal budget constraints limit an agency's ability to resolve ongoing community challenges?",
-        "What strategies can citizens use to maintain dialogue with department leaders after an initial interview?"
+        "In what specific ways do municipal budget constraints limit an agency's ability to resolve ongoing community challenges?",
+        "What strategies can citizens use to maintain dialogue with department leaders after an initial interview?",
+        "Which two adults must approve your interview plan before you contact a local government official?",
+        "What research steps confirm which specific branch and department of local government handles your issue?",
+        "What questions during your official interview uncover how individual citizens can influence that issue?",
+        "Where should a Scout log the interviewee's title, department, and specific recommendations during the talk?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "The mayor personally manages and directly resolves all neighborhood infrastructure problems and civic complaints.",
+          "fact": "Municipal charters assign specific operational tasks to specialized departments like public works, health, or zoning."
+        },
+        {
+          "misconception": "Contacting a municipal official for an interview requires no prior permission if done by email or phone.",
+          "fact": "Youth Protection and merit badge rules require approval from both your counselor and a parent or guardian."
+        },
+        {
+          "misconception": "Interviewing a private business owner or neighbor about a local problem fulfills Requirement 4b.",
+          "fact": "You must interview an official or staff member from the specific branch of local government responsible."
+        },
+        {
+          "misconception": "Every community issue falls under the direct authority of the mayor or the chief executive office.",
+          "fact": "Zoning laws belong to the legislative council, code enforcement to executive agencies, and disputes to courts."
+        },
+        {
+          "misconception": "Reading a city website FAQ page can substitute for conducting a live interview with a government worker.",
+          "fact": "Direct dialogue with a public servant lets you ask follow up questions about how citizens can get involved."
+        }
       ]
     },
     {
@@ -1646,9 +1728,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Effective community improvement depicted in movies results from solitary heroic actions without broader public cooperation.",
-        "fact": "Meaningful civic achievements require building cooperative coalitions, educating the public, and sustaining collective community action.",
-        "myth": "Effective community improvement depicted in movies results from solitary heroic actions without broader public cooperation.",
-        "fact_correction": "Meaningful civic achievements require building cooperative coalitions, educating the public, and sustaining collective community action."
+        "fact": "Meaningful civic achievements require building cooperative coalitions, educating the public, and sustaining collective community action."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1690,38 +1770,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Aiming a Narrow Single-View Spotlight",
-        "right_header": "Shining a Broad Community Floodlight",
+        "left_header": "Req 5: Inspiring Stories in Cinema",
+        "right_header": "Req 5: Select an Approved Civic Film",
         "left_points": [
           "Inspiring Stories in Cinema: Filmmakers love to turn these bigger-than-life stories into movies (p. 29).",
           "Documentaries and Feature Films: You can find documentary films (factual or objective films) and blockbusters about people who acted alone or with others to have a positive effect (p. 29).",
           "Leadership in Business and Government: Also look for movies about people who played a powerful role in business or government to benefit society (p. 29)."
         ],
         "right_points": [
-          "Step 1 - Select an Approved Civic Film: Also look for movies about people who played a powerful role in business or government to benefit society (p. 29).",
-          "Step 2 - Identify Narrow Single Perspectives: Shining a Light on Your Community When you aim a spotlight at something, your focus is narrow (p. 29).",
-          "Step 3 - Look Beyond Isolated Viewpoints: You have chosen one perspective to highlight and ignored the rest (p. 29)."
+          "Select an Approved Civic Film: Also look for movies about people who played a powerful role in business or government to benefit society (p. 29).",
+          "Identify Narrow Single Perspectives: Shining a Light on Your Community When you aim a spotlight at something, your focus is narrow (p. 29).",
+          "Look Beyond Isolated Viewpoints: You have chosen one perspective to highlight and ignored the rest (p. 29)."
         ],
         "rows": [
           {
-            "attribute": "Inspiring Stories in Cinema",
+            "attribute": "Individual Initiative Impact",
             "left": "Inspiring Stories in Cinema: Filmmakers love to turn these bigger-than-life stories into movies (p. 29).",
-            "right": "Step 1 - Select an Approved Civic Film: Also look for movies about people who played a powerful role in business or government to benefit society (p. 29)."
+            "right": "Select an Approved Civic Film: Also look for movies about people who played a powerful role in business or government to benefit society (p. 29)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Collaborative Coalition Building",
             "left": "Documentaries and Feature Films: You can find documentary films (factual or objective films) and blockbusters about people who acted alone or with others to have a positive effect (p. 29).",
-            "right": "Step 2 - Identify Narrow Single Perspectives: Shining a Light on Your Community When you aim a spotlight at something, your focus is narrow (p. 29)."
+            "right": "Identify Narrow Single Perspectives: Shining a Light on Your Community When you aim a spotlight at something, your focus is narrow (p. 29)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Civic Resilience Dynamics",
             "left": "Leadership in Business and Government: Also look for movies about people who played a powerful role in business or government to benefit society (p. 29).",
-            "right": "Step 3 - Look Beyond Isolated Viewpoints: You have chosen one perspective to highlight and ignored the rest (p. 29)."
+            "right": "Look Beyond Isolated Viewpoints: You have chosen one perspective to highlight and ignored the rest (p. 29)."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Community Req 5 Exemplar Workbook Entry: Analyzing Positive Community Impact in Film",
+        "title": "Citizenship in the Community Req 5 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Inspiring Stories in Cinema": "Filmmakers love to turn these bigger-than-life stories into movies (p. 29).",
@@ -1764,7 +1844,33 @@
       "socratic_questions": [
         "What personal qualities enable an individual to challenge an unjust or ineffective community policy?",
         "How did the protagonist in the movie build trust among skeptical or indifferent community members?",
-        "Which ethical dilemma faced by the characters appears most frequently in modern local municipal governance?"
+        "Which ethical dilemma faced by the characters appears most frequently in modern local municipal governance?",
+        "What permissions must you secure before watching your selected movie for this merit badge requirement?",
+        "Which specific actions taken by the main character or group created a lasting positive community change?",
+        "What obstacles or community resistance did the protagonist overcome to solve the public problem in the film?",
+        "Which leadership principle from the film can you apply directly to a real civic challenge in your town?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Effective community improvement depicted in movies results from solitary heroic actions without broader public cooperation.",
+          "fact": "Meaningful civic achievements require building cooperative coalitions, educating the public, and sustaining collective community action."
+        },
+        {
+          "misconception": "Any action adventure film where a superhero saves a city satisfies the community movie requirement.",
+          "fact": "The film must realistically portray how concerned individuals or groups organize to improve their community."
+        },
+        {
+          "misconception": "Scouts may pick and watch any film on their own and inform their counselor during the final review.",
+          "fact": "Both your merit badge counselor and a parent or guardian must approve the movie choice before you watch it."
+        },
+        {
+          "misconception": "Summarizing the movie plot from start to finish is sufficient for the counselor discussion in Requirement 5.",
+          "fact": "You must analyze what the characters' actions teach about being a concerned and valuable community member."
+        },
+        {
+          "misconception": "Only a famous political leader or wealthy philanthropist in a film can create meaningful community change.",
+          "fact": "Ordinary citizens often spark lasting reform through persistence, coalition building, and civic courage."
+        }
       ]
     },
     {
@@ -1825,9 +1931,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Public municipal services generate sufficient internal user fees to operate without subsidization from taxpayer revenues.",
-        "fact": "Facilities like parks, public transit, and emergency services rely primarily on general tax revenue allocations to remain accessible.",
-        "myth": "Public municipal services generate sufficient internal user fees to operate without subsidization from taxpayer revenues.",
-        "fact_correction": "Facilities like parks, public transit, and emergency services rely primarily on general tax revenue allocations to remain accessible."
+        "fact": "Facilities like parks, public transit, and emergency services rely primarily on general tax revenue allocations to remain accessible."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1864,38 +1968,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "City wide Municipal Court Divisions",
-        "right_header": "County and State Trial Courts",
+        "left_header": "Req 6: Finding Local Service Directories",
+        "right_header": "Req 6: Review Municipal Court Divisions",
         "left_points": [
           "Finding Local Service Directories: For a quick overview of the variety of services provided by your community, look under \"Government and Community Services\" (the blue pages) (p. 20).",
           "Searching Online With Permission: Or, search the internet with your parent or guardian's permission (p. 20).",
           "Municipal Court Divisions: Municipal courts have city wide authority and are organized in divisions, civil, criminal, domestic relations, small claims, traffic, and probate (p. 20)."
         ],
         "right_points": [
-          "Step 1 - Review Municipal Court Divisions: Municipal courts have city wide authority and are organized in divisions, civil, criminal, domestic relations, small claims, traffic, and probate (p. 20).",
-          "Step 2 - Observe Local Misdemeanor Cases: If you sit in on a session of one of these courts, you will hear cases involving misdemeanors (less serious crimes) and matters involving small amounts (p. 20).",
-          "Step 3 - Compare County Trial Courts: County and state courts (known as general trial courts) handle more serious civil and criminal cases, which are tried before a judge (p. 20)."
+          "Review Municipal Court Divisions: Municipal courts have city wide authority and are organized in divisions, civil, criminal, domestic relations, small claims, traffic, and probate (p. 20).",
+          "Observe Local Misdemeanor Cases: If you sit in on a session of one of these courts, you will hear cases involving misdemeanors (less serious crimes) and matters involving small amounts (p. 20).",
+          "Compare County Trial Courts: County and state courts (known as general trial courts) handle more serious civil and criminal cases, which are tried before a judge (p. 20)."
         ],
         "rows": [
           {
-            "attribute": "Finding Local Service Directories",
+            "attribute": "Public Revenue Allocation",
             "left": "Finding Local Service Directories: For a quick overview of the variety of services provided by your community, look under \"Government and Community Services\" (the blue pages) (p. 20).",
-            "right": "Step 1 - Review Municipal Court Divisions: Municipal courts have city wide authority and are organized in divisions, civil, criminal, domestic relations, small claims, traffic, and probate (p. 20)."
+            "right": "Review Municipal Court Divisions: Municipal courts have city wide authority and are organized in divisions, civil, criminal, domestic relations, small claims, traffic, and probate (p. 20)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Shared Infrastructure Equity",
             "left": "Searching Online With Permission: Or, search the internet with your parent or guardian's permission (p. 20).",
-            "right": "Step 2 - Observe Local Misdemeanor Cases: If you sit in on a session of one of these courts, you will hear cases involving misdemeanors (less serious crimes) and matters involving small amounts (p. 20)."
+            "right": "Observe Local Misdemeanor Cases: If you sit in on a session of one of these courts, you will hear cases involving misdemeanors (less serious crimes) and matters involving small amounts (p. 20)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Civic Knowledge Resources",
             "left": "Municipal Court Divisions: Municipal courts have city wide authority and are organized in divisions, civil, criminal, domestic relations, small claims, traffic, and probate (p. 20).",
-            "right": "Step 3 - Compare County Trial Courts: County and state courts (known as general trial courts) handle more serious civil and criminal cases, which are tried before a judge (p. 20)."
+            "right": "Compare County Trial Courts: County and state courts (known as general trial courts) handle more serious civil and criminal cases, which are tried before a judge (p. 20)."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Community Req 6 Exemplar Workbook Entry: Taxpayer-Funded Community Services",
+        "title": "Citizenship in the Community Req 6 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Finding Local Service Directories": "For a quick overview of the variety of services provided by your community, look under \"Government and Community Services\" (the blue pages) (p. 20).",
@@ -1938,7 +2042,33 @@
       "socratic_questions": [
         "Why does a community fund public libraries and recreation centers with tax dollars instead of charging admission?",
         "What consequences would occur if emergency fire and police services operated as private fee-for-service companies?",
-        "How should a city council balance conflicting budget demands between public transportation and road maintenance?"
+        "How should a city council balance conflicting budget demands between public transportation and road maintenance?",
+        "Which local tax revenue sources fund public safety, libraries, and transit systems in your municipality?",
+        "What happens to neighborhood safety, property values, and public health when municipal services lose funding?",
+        "What distinguishes a taxpayer funded municipal utility or library from a private subscription business?",
+        "Which taxpayer funded services in your town support residents who cannot afford private alternatives?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Public municipal services generate sufficient internal user fees to operate without subsidization from taxpayer revenues.",
+          "fact": "Facilities like parks, public transit, and emergency services rely primarily on general tax revenue allocations to remain accessible."
+        },
+        {
+          "misconception": "Public libraries, city parks, and municipal fire departments are free services that cost residents nothing.",
+          "fact": "Taxpayers fund these shared community services through local property, sales, and municipal income taxes."
+        },
+        {
+          "misconception": "Residents who do not ride public buses or visit the recreation center receive zero benefit from those taxes.",
+          "fact": "Public transit and recreation centers reduce traffic congestion, boost local commerce, and aid youth safety."
+        },
+        {
+          "misconception": "Federal income taxes collected in Washington pay directly for all routine neighborhood street maintenance.",
+          "fact": "Local property taxes, municipal bonds, and state fuel taxes provide the primary funding for city streets."
+        },
+        {
+          "misconception": "Private companies could easily replace municipal police and fire departments through individual user fees.",
+          "fact": "Public safety is a shared civic good that protects every resident and property regardless of income level."
+        }
       ]
     },
     {
@@ -2008,9 +2138,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
             "misconception": "Any local commercial business providing community discounts qualifies as a charitable organization.",
-            "fact": "Qualifying organizations must operate as tax-exempt nonprofits dedicated entirely to public and community welfare.",
-            "myth": "Any local commercial business providing community discounts qualifies as a charitable organization.",
-            "fact_correction": "Qualifying organizations must operate as tax-exempt nonprofits dedicated entirely to public and community welfare."
+            "fact": "Qualifying organizations must operate as tax-exempt nonprofits dedicated entirely to public and community welfare."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2099,9 +2227,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
             "misconception": "Internet websites provide the only reliable information needed to evaluate a charitable organization.",
-            "fact": "Speaking directly with staff and reviewing official annual reports reveals true volunteer needs and budget allocations.",
-            "myth": "Internet websites provide the only reliable information needed to evaluate a charitable organization.",
-            "fact_correction": "Speaking directly with staff and reviewing official annual reports reveals true volunteer needs and budget allocations."
+            "fact": "Speaking directly with staff and reviewing official annual reports reveals true volunteer needs and budget allocations."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2176,9 +2302,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
             "misconception": "Scouts may count service hours completed for school graduation or court mandates toward this badge.",
-            "fact": "The service hours must be dedicated explicitly to fulfilling this requirement with advance counselor and parental approval.",
-            "myth": "Scouts may count service hours completed for school graduation or court mandates toward this badge.",
-            "fact_correction": "The service hours must be dedicated explicitly to fulfilling this requirement with advance counselor and parental approval."
+            "fact": "The service hours must be dedicated explicitly to fulfilling this requirement with advance counselor and parental approval."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -2312,9 +2436,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Charitable organizations operate without formal corporate structure, professional management, or rigorous financial accounting systems.",
-        "fact": "Legitimate charities maintain registered nonprofit legal status, professional staff, independent governing boards, and audited public budgets.",
-        "myth": "Charitable organizations operate without formal corporate structure, professional management, or rigorous financial accounting systems.",
-        "fact_correction": "Legitimate charities maintain registered nonprofit legal status, professional staff, independent governing boards, and audited public budgets."
+        "fact": "Legitimate charities maintain registered nonprofit legal status, professional staff, independent governing boards, and audited public budgets."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2355,13 +2477,13 @@
         "Step 4 - Service Execution: Complete and document eight hours of active volunteer service for the selected community organization."
       ],
       "gear_checklist": [
-        "Official Citizenship in the Community Merit Badge Pamphlet and Fillable Scout Workbook (Req 7: Charitable Organizations Outside of Scouting)",
-        "Field notebook, verification log sheet, and demonstration materials for Charitable Organizations Outside of Scouting",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Citizenship in the Community: Charitable Organizations Outside of Scouting.",
+        "Field notebook, verification log sheet, and demonstration materials for Charitable Organizations Outside of Scouting.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Community Charitable Organization",
-        "right_header": "Req 7b: Charity Mission and Operations Inv",
+        "left_header": "Req 7a: Community Charitable",
+        "right_header": "Req 7b: Charity Mission and Operations",
         "left_points": [
           "(7a) Community Charitable Organization Selection: Identifying three charitable groups outside Scouting encourages Scouts to survey the diverse landscape of local volunteer initiatives. These organizations unite volunteers around food security, housing, animal welfare, or environmental restoration."
         ],
@@ -2370,29 +2492,29 @@
         ],
         "rows": [
           {
-            "attribute": "Identifying Three Community Charities",
-            "left": "Volunteering With Local Charitable Organizations: Review the Citizenship in the Community pamphlet standards for volunteering with local charitable organizations, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 27).",
-            "right": "(7b) Researching One Selected Charity: Small efforts make a difference, and you also can join forces with others to benefit many people (p. 27)."
+            "attribute": "Nonprofit Sector Role",
+            "left": "(7a) Community Charitable Organization Selection: Identifying three charitable groups outside Scouting encourages Scouts to survey the diverse landscape of local volunteer initiatives. These organizations unite volunteers around food security, housing, animal welfare, or environmental restoration.",
+            "right": "(7b) Charity Mission and Operations Investigation: Investigating a single chosen charity using diverse informational sources reveals how nonprofits manage logistics and personnel. Scouts learn to evaluate annual reports, community outreach materials, and operational expenditure ratios."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Joining Forces With Others: Small efforts make a difference, and you also can join forces with others to benefit many people (p. 27).",
-            "right": "(7c) Volunteering Time for Community Good: Young citizens who participate in Scouting, school activities, and religious organizations tend to volunteer far more often than students (p. 27)."
+            "attribute": "Institutional Fact Finding",
+            "left": "Req 7a: Community Charitable: Identifying three charitable groups outside Scouting encourages Scouts to survey the diverse landscape of local volunteer initiatives. These organizations unite volunteers around food security, housing, animal welfare, or environmental restoration.",
+            "right": "Req 7b: Charity Mission: Investigating a single chosen charity using diverse informational sources reveals how nonprofits manage logistics and personnel. Scouts learn to evaluate annual reports, community outreach materials, and operational expenditure ratios."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Youth Participation and Volunteering: Young citizens who participate in Scouting, school activities, and religious organizations tend to volunteer far more often than students (p. 27).",
-            "right": "Step 3 - Contribute Directly to Neighbors: By fulfilling requirement 7, you will make a real contribution to your community and open the door to a lifetime of rewarding experiences (p. 27)."
+            "attribute": "Youth Volunteer Engagement",
+            "left": "Req 7c: Volunteer Service Hours: Directly coordinating with an approved charity enables Scouts to perform eight hours of meaningful community volunteer service. This practical fieldwork reinforces civic responsibility through personal investment of time and labor.",
+            "right": "Institutional Fact Finding: Comprehensive charity research reviews mission statements, operational budgets, volunteer requirements, and public disclosures."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Community Req 7 Exemplar Workbook Entry: Volunteering With Local Charitable Organizations",
+        "title": "Citizenship in the Community Req 7 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Community Charitable Organization": "Identifying three charitable groups outside Scouting encourages Scouts to survey the diverse landscape of local volunteer initiatives. These organizations unite volunteers around food security, housing, animal welfare, or environmental restoration.",
-          "Req 7b - Charity Mission and Operations In": "Investigating a single chosen charity using diverse informational sources reveals how nonprofits manage logistics and personnel. Scouts learn to evaluate annual reports, community outreach materials, and operational expenditure ratios.",
-          "Req 7c - Volunteer Service Hours Completio": "Directly coordinating with an approved charity enables Scouts to perform eight hours of meaningful community volunteer service. This practical fieldwork reinforces civic responsibility through personal investment of time and labor."
+          "Req 7a - Community Charitable": "Identifying three charitable groups outside Scouting encourages Scouts to survey the diverse landscape of local volunteer initiatives. These organizations unite volunteers around food security, housing, animal welfare, or environmental restoration.",
+          "Req 7b - Charity Mission": "Investigating a single chosen charity using diverse informational sources reveals how nonprofits manage logistics and personnel. Scouts learn to evaluate annual reports, community outreach materials, and operational expenditure ratios.",
+          "Req 7c - Volunteer Service Hours": "Directly coordinating with an approved charity enables Scouts to perform eight hours of meaningful community volunteer service. This practical fieldwork reinforces civic responsibility through personal investment of time and labor."
         },
         "sample_output": "Volunteering With Local Charitable Organizations: A good citizen looks for opportunities to help improve the community (p. 27).",
         "counselor_tip": "For Citizenship in the Community Requirement 7 (Volunteering With Local Charitable Organizations), verify the Scout's own observations and specific pamphlet details (Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28))."
@@ -2427,9 +2549,35 @@
       "workbook_visual_caption": "Diverse residents assemble to collaborate on local volunteer projects and public service.",
       "pamphlet_summary": "Nonprofit charitable organizations address societal vulnerabilities by organizing volunteers, securing philanthropic capital, and providing targeted social services. Completing eight hours of service with an approved agency demonstrates how direct volunteerism strengthens community resilience.",
       "socratic_questions": [
-        "How do charitable nonprofits complement or fill gaps left by tax-funded municipal welfare services?",
+        "In what specific ways do charitable nonprofits complement or fill gaps left by tax-funded municipal welfare services?",
         "What criteria should a volunteer use to determine whether a charitable organization uses donations responsibly?",
-        "In what ways did your eight hours of service contribute to the long-term mission of the organization?"
+        "In what ways did your eight hours of service contribute to the long-term mission of the organization?",
+        "What criteria must the three charitable organizations meet to qualify under Requirement 7a?",
+        "Which printed and digital sources should you consult to research your chosen charity before calling them?",
+        "What measurement and counselor approval confirm your volunteer service meets Requirement 7c standards?",
+        "Which safety and Youth Protection rules apply when volunteering eight hours with a local charity?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Charitable organizations operate without formal corporate structure, professional management, or rigorous financial accounting systems.",
+          "fact": "Legitimate charities maintain registered nonprofit legal status, professional staff, independent governing boards, and audited public budgets."
+        },
+        {
+          "misconception": "Volunteering for a Scouting food drive or Order of the Arrow service project satisfies Requirement 7.",
+          "fact": "All three charitable organizations and your eight service hours must be with groups outside of Scouting."
+        },
+        {
+          "misconception": "Splitting eight service hours across three different charities fulfills the volunteering requirement.",
+          "fact": "You must work at least eight volunteer hours for the single charitable organization researched in part 7b."
+        },
+        {
+          "misconception": "Glancing at a charity homepage for two minutes is enough research before contacting the organization.",
+          "fact": "Requirement 7b requires using multiple resources like newspapers, flyers, literature, and the internet."
+        },
+        {
+          "misconception": "Charitable nonprofit organizations operate with the same legal authority as municipal government agencies.",
+          "fact": "Nonprofits rely on private donations, grants, and volunteers rather than tax authority to serve residents."
+        }
       ]
     },
     {
@@ -2492,9 +2640,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A community presentation should function exclusively as promotional tourism marketing that ignores local problems.",
-        "fact": "A comprehensive presentation must address community challenges such as affordable housing, transit, or environmental concerns.",
-        "myth": "A community presentation should function exclusively as promotional tourism marketing that ignores local problems.",
-        "fact_correction": "A comprehensive presentation must address community challenges such as affordable housing, transit, or environmental concerns."
+        "fact": "A comprehensive presentation must address community challenges such as affordable housing, transit, or environmental concerns."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2531,38 +2677,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Celebrating Local History and Strengths",
-        "right_header": "Addressing Real Community Challenges",
+        "left_header": "Req 8: Defining Population Demographics",
+        "right_header": "Req 8: Highlight Best Local Features",
         "left_points": [
           "Defining Population Demographics: Demographics are statistical characteristics of human populations that reflect the composition of a group of people (community, state, or country) (p. 30).",
           "Commonly Tracked Demographic Traits: Commonly tracked characteristics include ethnicity, age, income, religious preference, and level of education (p. 30).",
           "Promoting Your Hometown Proudly: Every community needs an enthusiastic supporter who will promote it as a great place to live (p. 30)."
         ],
         "right_points": [
-          "Step 1 - Highlight Best Local Features: Every community needs an enthusiastic supporter who will promote it as a great place to live (p. 30).",
-          "Step 2 - Create Your Public Presentation: You can be a booster for your community when you make your public presentation for requirement 8 (p. 30).",
-          "Step 3 - Include Current Community Challenges: To make a fair and balanced speech or exhibit, be sure to also point out the challenges your community faces and what the community is doing (p. 30)."
+          "Highlight Best Local Features: Every community needs an enthusiastic supporter who will promote it as a great place to live (p. 30).",
+          "Create Your Public Presentation: You can be a booster for your community when you make your public presentation for requirement 8 (p. 30).",
+          "Include Current Community Challenges: To make a fair and balanced speech or exhibit, be sure to also point out the challenges your community faces and what the community is doing (p. 30)."
         ],
         "rows": [
           {
-            "attribute": "Defining Population Demographics",
+            "attribute": "Historical Research Synthesis",
             "left": "Defining Population Demographics: Demographics are statistical characteristics of human populations that reflect the composition of a group of people (community, state, or country) (p. 30).",
-            "right": "Step 1 - Highlight Best Local Features: Every community needs an enthusiastic supporter who will promote it as a great place to live (p. 30)."
+            "right": "Highlight Best Local Features: Every community needs an enthusiastic supporter who will promote it as a great place to live (p. 30)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Cultural Heritage Integration",
             "left": "Commonly Tracked Demographic Traits: Commonly tracked characteristics include ethnicity, age, income, religious preference, and level of education (p. 30).",
-            "right": "Step 2 - Create Your Public Presentation: You can be a booster for your community when you make your public presentation for requirement 8 (p. 30)."
+            "right": "Create Your Public Presentation: You can be a booster for your community when you make your public presentation for requirement 8 (p. 30)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Balanced Community Appraisal",
             "left": "Promoting Your Hometown Proudly: Every community needs an enthusiastic supporter who will promote it as a great place to live (p. 30).",
-            "right": "Step 3 - Include Current Community Challenges: To make a fair and balanced speech or exhibit, be sure to also point out the challenges your community faces and what the community is doing (p. 30)."
+            "right": "Include Current Community Challenges: To make a fair and balanced speech or exhibit, be sure to also point out the challenges your community faces and what the community is doing (p. 30)."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Community Req 8 Exemplar Workbook Entry: Presenting Your Community History and Culture",
+        "title": "Citizenship in the Community Req 8 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Defining Population Demographics": "Demographics are statistical characteristics of human populations that reflect the composition of a group of people (community, state, or country) (p. 30).",
@@ -2603,9 +2749,35 @@
       "workbook_visual_caption": "A uniformed Scout addresses an audience at a podium while giving a civic presentation.",
       "pamphlet_summary": "Developing a multimedia presentation on community heritage requires synthesizing historical records, cultural traditions, and demographic data. Presenting to an audience communicates appreciation for local strengths while honestly addressing ongoing municipal challenges.",
       "socratic_questions": [
-        "How do the distinct cultures and ethnic groups in your community shape its public events and traditions?",
+        "In what specific ways do the distinct cultures and ethnic groups in your community shape its public events and traditions?",
         "Why is it important to present both community strengths and pressing municipal challenges in the same presentation?",
-        "What historical events had the largest influence on how your town or city developed physically and economically?"
+        "What historical events had the largest influence on how your town or city developed physically and economically?",
+        "Which three core topics must your public presentation cover to represent your community accurately?",
+        "What evidence shows how diverse cultures and ethnic groups shaped your town's history and traditions?",
+        "Why is it important to include current municipal challenges alongside your community's best features?",
+        "What equipment and visual checks ensure your slide show, video, or photo exhibit is ready for an audience?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A community presentation should function exclusively as promotional tourism marketing that ignores local problems.",
+          "fact": "A comprehensive presentation must address community challenges such as affordable housing, transit, or environmental concerns."
+        },
+        {
+          "misconception": "Creating a promotional tourism brochure that only praises local attractions satisfies Requirement 8.",
+          "fact": "A complete presentation must cover local history, diverse cultures, gathering places, and real challenges."
+        },
+        {
+          "misconception": "Drafting a private essay that only you read silently in your bedroom fulfills the presentation requirement.",
+          "fact": "Requirement 8 calls for developing a public presentation such as a speech, video, slide show, or exhibit."
+        },
+        {
+          "misconception": "Community history in a public presentation only includes events from the founding century of the town.",
+          "fact": "Comprehensive community profiles connect early founding history with waves of cultural growth up to today."
+        },
+        {
+          "misconception": "Listing municipal challenges in a presentation makes a town look bad and undermines civic pride.",
+          "fact": "Examining local challenges honestly invites citizens to collaborate on solutions and improve their town."
+        }
       ]
     }
   ],

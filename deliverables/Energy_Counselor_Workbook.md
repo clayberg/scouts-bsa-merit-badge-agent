@@ -1,8 +1,8 @@
 # Energy Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Energy.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/energy/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/energy/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -27,7 +27,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Show you understand energy forms and conversions by doing the following: (a) Explain how THREE of the following devices use energy, and explain their energy conversions: toaster, greenhouse, lightbulb, bow drill, cell phone, nuclear reactor, sauna, or electric vehicles. (b) Construct a system that makes at least two energy conversions and explain this to your counselor.
+- [ ] **Station Req 2:** Scout must individually explain mastery of Requirement 2 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -53,10 +53,10 @@
 - **Pamphlet Fact:** Reputable energy journalism reports generation statistics using precise standard electrical and thermal units.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Energy merit badge pamphlet and workbook organizer for Req 1
-- [ ] Energy field toolkit, inspection gauge, and protective eyewear for Energy Media Research Project
-- [ ] Manufacturer technical manual or BSA reference guide for the system studied
-- [ ] Completed observation table and counselor review notes for Req 1
+- [ ] Official Energy merit badge pamphlet and workbook organizer for Req 1.
+- [ ] Energy field toolkit, inspection gauge, and protective eyewear for Energy Media Research Project.
+- [ ] Manufacturer technical manual or BSA reference guide for the system studied.
+- [ ] Completed observation table and counselor review notes for Req 1.
 
 ![Energy Requirement 1 figure showing independent verification of digital claims ensures sound understanding of regional.](/assets/pamphlet_images/energy_p003_img1.png)
 
@@ -212,10 +212,10 @@
 - **Pamphlet Fact:** Different residential fuels require distinct delivery infrastructure, standardized units of measure, and billing tariffs.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools
-- [ ] Schematic diagram, component kit, and diagnostic test bench for Energy Audit of Your Home
-- [ ] Lockout/de-energization verification checklist and fire extinguisher reference
-- [ ] Engineering logbook and technical specification sheet for Energy Requirement 4
+- [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools.
+- [ ] Schematic diagram, component kit, and diagnostic test bench for Energy Audit of Your Home.
+- [ ] Lockout/de-energization verification checklist and fire extinguisher reference.
+- [ ] Engineering logbook and technical specification sheet for Energy Requirement 4.
 
 ![A modern building incorporates passive solar heating and energy-smart design.](/assets/pamphlet_images/energy_p058_img1.png)
 

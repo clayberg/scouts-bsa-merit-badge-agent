@@ -1,8 +1,8 @@
 # Water Sports Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Water%20Sports.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/water-sports/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/water-sports/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -25,9 +25,9 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Do the following: (a) Discuss with your counselor the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn while waterskiing or wakeboarding. Then demonstrate how to select and fit a life jacket for water sports activities. (b) Review and discuss the Water Sports Safety Code with your counselor. Promise that you will live up to it and follow it in all water work for this merit badge. Review the safety precautions that must be used by the boat operator in pulling waterskiers and wakeboarders.
-- [ ] **Station Req 5:** Showing reasonable control while using two skis, one ski, or a wakeboard, do the following: (a) Show how to enter the water from a boat and make a deepwater start without help. (b) Starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, without falling. (c) Show you can fall properly to avoid an obstacle. Also show that you can drop handle and coast to a stop without losing your balance.
-- [ ] **Station Req 6:** While on shore, show that you know how to properly adjust the bindings of your ski(s) or wakeboard to fit yourself. Then, in deep water, show you can adjust bindings to fit. Recover and put on your ski(s) or wakeboard that has come off during a fall.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
+- [ ] **Station Req 6:** Scout must individually show mastery of Requirement 6 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -172,10 +172,10 @@
 - **Pamphlet Fact:** Outboard engine roar and wind noise completely drown out shouts from a towed skier.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![A water skier draws a hand across his throat to signal the boat driver to cut the motor.](/assets/pamphlet_images/water_sports_p020_img1.png)
 
@@ -211,10 +211,10 @@
 - **Pamphlet Fact:** Bending your arms exhausts back muscles and tips your center of balance backward.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![A skier in a life jacket crouches in the water holding the tow handle for a deepwater start.](/assets/pamphlet_images/water_sports_p058_img1.png)
 
@@ -261,10 +261,10 @@
 - **Pamphlet Fact:** Water ski bindings must release the feet during violent falls to prevent severe lower-leg fractures.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![A wakeboarder slides their foot securely into an adjustable boot binding on the board deck.](/assets/pamphlet_images/water_sports_p049_img1.png)
 

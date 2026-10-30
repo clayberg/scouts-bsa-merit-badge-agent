@@ -1,0 +1,248 @@
+{
+  "badge_slug": "cybersecurity",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Other users can screenshot posts within seconds, and third-party web archives or server backups often retain copies indefinitely.",
+          "misconception": "Deleting a social media post from your profile immediately erases every copy of that content from the internet."
+        },
+        {
+          "fact": "Account visibility only restricts other users; you must revoke OS-level location and contact permissions to stop app data collection.",
+          "misconception": "Setting a social media account to private prevents mobile apps from collecting your device location and contact list."
+        },
+        {
+          "fact": "Private browsing only prevents your local browser from saving history and cookies; networks and websites still see your traffic.",
+          "misconception": "Incognito or private browsing mode hides your internet activity from your internet service provider and school network."
+        },
+        {
+          "fact": "Voice chat background noise, reused usernames, and linked platform accounts can reveal your real identity and physical location.",
+          "misconception": "Strangers in online gaming lobbies only know the profile information you explicitly type into the text chat window."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to embedded EXIF GPS coordinates when you upload a smartphone photo without stripping metadata first?",
+        "Which technical detail separates an active digital footprint from passive tracking data collected by app telemetry?",
+        "What audit entry in your mobile OS privacy dashboard confirms an app accessed your microphone while running in the background?",
+        "Why is it dangerous to link your real full name and school location to a public online gaming profile or voice chat lobby?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Probing or accessing any system without explicit prior authorization from the owner violates computer crime laws and cyber ethics.",
+          "misconception": "Testing a website for security flaws without the owner's permission is ethical as long as you do not steal any data."
+        },
+        {
+          "fact": "Publicly accessible work remains protected by copyright unless the creator grants a license such as Creative Commons or open source.",
+          "misconception": "Any image or code snippet found through a public search engine is free to use in your own projects without attribution."
+        },
+        {
+          "fact": "Amplifying humiliation spreads harm to the target; a courteous and kind Scout refuses to share it and supports the targeted person.",
+          "misconception": "Forwarding a funny meme or screenshot that mocks a classmate is harmless because you did not create the original post."
+        },
+        {
+          "fact": "Impersonating another user on an unlocked device violates trustworthiness and constitutes unauthorized access to their account.",
+          "misconception": "Using a friend's logged-in device to post a prank status update is acceptable because no password hacking took place."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What steps should a Scout follow upon discovering an unlocked account or exposed password on a shared school computer?",
+        "Which legal and ethical boundary separates authorized vulnerability testing from criminal unauthorized computer intrusion?",
+        "What evidence should you record before reporting cyberbullying or harassment to a platform moderator and trusted adult?",
+        "Under what condition does downloading or sharing software, music, or source code online comply with copyright and Scout ethics?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Encryption protects confidentiality, but verifying integrity requires cryptographic hashes, message authentication codes, or digital signatures.",
+          "misconception": "Encrypting a database automatically guarantees data integrity and prevents unauthorized users from corrupting the stored records."
+        },
+        {
+          "fact": "Every computing system from a personal phone to a hospital infusion pump relies on confidentiality, integrity, and availability.",
+          "misconception": "The C.I.A. Triad applies only to cloud servers and corporate databases rather than personal laptops or industrial machinery."
+        },
+        {
+          "fact": "Disconnecting a server protects confidentiality from remote attackers, but it destroys availability for legitimate users who need access.",
+          "misconception": "Unplugging a server from the network achieves complete cybersecurity by eliminating every component of the C.I.A. Triad risk."
+        },
+        {
+          "fact": "Denial of service attacks target availability by flooding a server with traffic so legitimate users cannot reach the service.",
+          "misconception": "A Distributed Denial of Service attack compromises confidentiality by reading private customer passwords from a web server."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What verification method confirms that a medical or financial file has not been altered in transit or storage?",
+        "Which pillar of the C.I.A. Triad fails when an attacker alters a bank account balance without stealing any customer records?",
+        "What cryptographic hash comparison proves that a downloaded operating system installer still maintains full data integrity?",
+        "Why is availability often prioritized first when securing industrial control systems like water treatment plants or power grids?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A vulnerability is a weakness in software or hardware, whereas an exploit is the specific tool or technique used to trigger that weakness.",
+          "misconception": "A software vulnerability and an exploit are two interchangeable words for the same piece of malicious computer code."
+        },
+        {
+          "fact": "Worms self-replicate automatically across networks by exploiting unpatched network service vulnerabilities without any user interaction.",
+          "misconception": "Computer worms require a human user to open an infected email attachment or click a malicious file before they can spread."
+        },
+        {
+          "fact": "A Trojan disguises itself as legitimate software to trick the user into running it, rather than self-replicating into other files.",
+          "misconception": "Trojan horse malware replicates itself into other system files on your hard drive just like a traditional file-infecting virus."
+        },
+        {
+          "fact": "Attackers frequently fail to provide working decryption keys, retain stolen data for extortion, and target paying victims again.",
+          "misconception": "Paying the demanded cryptocurrency ransom after a ransomware attack guarantees that criminals will restore all of your files."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What immediate physical network action should you take first if ransomware or a worm begins encrypting files on your workstation?",
+        "Which propagation mechanism distinguishes a self-replicating network worm from a computer virus or a Trojan horse program?",
+        "What abnormal indicator in your system task manager or network monitor suggests that hidden spyware or a backdoor is active?",
+        "Under what condition does an unpatched software vulnerability in a web server turn into an active security breach?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A VPN only encrypts traffic in transit between your device and the VPN server; it does not block malicious downloads or fake login pages.",
+          "misconception": "Connecting through a Virtual Private Network makes your computer immune to phishing websites and downloaded malware payloads."
+        },
+        {
+          "fact": "Firewalls allow normal web and email traffic on permitted ports, so unpatched browsers and apps remain vulnerable to exploits.",
+          "misconception": "Enabling a network firewall removes the need to install regular security patches on your operating system and web browser."
+        },
+        {
+          "fact": "Traditional signature scanners only recognize known malware hashes and must pair with behavioral heuristics to catch novel threats.",
+          "misconception": "Signature-based antivirus software automatically detects and blocks every brand-new zero-day malware strain on arrival."
+        },
+        {
+          "fact": "Security updates patch publicly disclosed vulnerabilities that automated attack bots actively scan for and exploit within hours.",
+          "misconception": "Software updates only add cosmetic interface features and slow down older computers without improving system security."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What sequence of checks should you complete before applying a firmware or operating system security patch to a home device?",
+        "Which operational action separates an inline Intrusion Prevention System from a passive Intrusion Detection System on a network?",
+        "What version build number and update history log in your OS settings confirm that automatic security patching succeeded?",
+        "Why is it dangerous to log in to everyday tasks using a daily administrator account instead of a standard user account?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "HTTPS only proves that traffic between your browser and that server is encrypted; phishing sites routinely obtain valid TLS certificates.",
+          "misconception": "The padlock icon and HTTPS prefix in a browser address bar prove that the website owner is trustworthy and safe from fraud."
+        },
+        {
+          "fact": "Asymmetric cryptography is slow and is only used during the TLS handshake to exchange a fast symmetric key like AES for bulk data.",
+          "misconception": "Asymmetric public-key encryption is used to encrypt every megabyte of video and file traffic during an HTTPS web session."
+        },
+        {
+          "fact": "Your public key is shared openly so others can encrypt messages or verify signatures, while only your private key remains secret.",
+          "misconception": "In public-key cryptography, you must keep both your public key and your private key secret from everyone on the network."
+        },
+        {
+          "fact": "Full-disk encryption protects data at rest when the device is powered off or locked, not while the operating system has mounted the drive.",
+          "misconception": "Full-disk encryption on a laptop protects your files from remote hackers while you are logged in and browsing the internet."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where in your web browser can you inspect the Certificate Authority, validity dates, and cipher suite of an HTTPS site?",
+        "Which key-sharing problem does asymmetric public-key cryptography solve before a browser switches to symmetric session encryption?",
+        "What letter frequency pattern in a long ciphertext allows an analyst to break a monoalphabetic Caesar or substitution cipher?",
+        "Why is it dangerous to treat an HTTPS padlock icon as proof that a website is operated by a legitimate business or bank?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Attackers compromise poorly secured IoT devices to assemble massive botnets like Mirai or to pivot into laptops on the same local network.",
+          "misconception": "Smart lightbulbs and Wi-Fi thermostats have no personal files on them, so hackers have no reason to target those devices."
+        },
+        {
+          "fact": "Cloud vulnerabilities, Universal Plug and Play port forwarding, or local malware can still access devices using default credentials.",
+          "misconception": "Setting a strong Wi-Fi network password protects smart cameras even if you leave their factory admin password unchanged."
+        },
+        {
+          "fact": "Many low-cost IoT vendors stop releasing firmware patches after a few years, leaving older devices permanently exposed to exploits.",
+          "misconception": "Internet of Things devices automatically receive lifetime security updates from their manufacturer without user intervention."
+        },
+        {
+          "fact": "Placing IoT devices on a separate guest VLAN prevents a compromised smart appliance from scanning or attacking your personal computers.",
+          "misconception": "Connecting smart home gadgets and work computers to the same single Wi-Fi subnet provides the safest home network layout."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What router configuration step isolates smart cameras and thermostats from the laptops that store your family tax records?",
+        "Which hardware and software limitations make smart home sensors harder to patch and monitor than a standard desktop computer?",
+        "What client list entry in your home router administration page reveals an unrecognized or rogue IoT device on your Wi-Fi?",
+        "Why is it dangerous to leave Universal Plug and Play enabled and factory default admin passwords active on a smart camera?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Middle and high school events offer beginner divisions, guided training modules, and foundational system administration challenges.",
+          "misconception": "Youth cybersecurity competitions like CyberPatriot and picoCTF require years of college-level programming before you can join."
+        },
+        {
+          "fact": "Attacking competition infrastructure or other teams outside the defined scope violates rules of engagement and causes disqualification.",
+          "misconception": "Capture the Flag participants are allowed to scan or attack the competition scoring servers to earn extra bonus points."
+        },
+        {
+          "fact": "Many competitions focus heavily on hardening operating systems, auditing user accounts, analyzing logs, and securing network services.",
+          "misconception": "Cybersecurity competitions only test offensive hacking skills and ignore defensive administration, forensics, and policy work."
+        },
+        {
+          "fact": "Winning teams divide roles across operating systems and categories, share notes in real time, and verify changes before breaking services.",
+          "misconception": "Working alone in silence is the fastest way for a team to win a timed cybersecurity defense or Capture the Flag competition."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What baseline checklist should a youth defense team follow during the first ten minutes of a CyberPatriot image hardening round?",
+        "Which scoring and gameplay format separates a Jeopardy-style Capture the Flag contest from a live Red-versus-Blue competition?",
+        "What specific details belong in your competition logbook so teammates can reproduce how you solved a forensics challenge?",
+        "Why is it dangerous to run competition exploit scripts or Reverse Engineering binaries outside an isolated virtual machine?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Full CISSP certification requires at least four to five years of verified, paid, full-time work experience across multiple security domains.",
+          "misconception": "Passing the CISSP exam immediately qualifies a beginner for a senior cybersecurity management title without prior work experience."
+        },
+        {
+          "fact": "Many essential cybersecurity roles focus on governance, risk assessment, compliance auditing, policy design, and cloud configuration review.",
+          "misconception": "Every cybersecurity job requires writing custom kernel exploits and reverse engineering assembly code every single day."
+        },
+        {
+          "fact": "Employers routinely verify practical defensive and troubleshooting skills through industry certifications, internships, and CTF lab portfolios.",
+          "misconception": "Earning a four-year university degree in computer science eliminates the need for industry certifications or hands-on home lab practice."
+        },
+        {
+          "fact": "Most industry certifications expire every three years unless the holder logs continuing education units and pays annual maintenance fees.",
+          "misconception": "Cybersecurity certifications are permanent credentials that never expire or incur renewal expenses once you pass the initial exam."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What separates a defensive SOC analyst's daily log triage from an offensive penetration tester's authorized exploit validation?",
+        "Under what condition does an entry-level certification like CompTIA Security+ require continuing education credits to stay active?",
+        "What metric on CyberSeek or the Bureau of Labor Statistics confirms regional demand and starting salary ranges for a security role?",
+        "Why is it dangerous to practice vulnerability scanning on external networks instead of an isolated home lab or legal CTF platform?"
+      ],
+      "req_id": "9"
+    }
+  ]
+}

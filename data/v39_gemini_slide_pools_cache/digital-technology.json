@@ -1,0 +1,248 @@
+{
+  "badge_slug": "digital-technology",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Recipients can capture screenshots immediately, and remote servers often retain cached backups long after a user deletes a post.",
+          "misconception": "Deleting an embarrassing photo or message from a social media app permanently erases every copy from the internet."
+        },
+        {
+          "fact": "Incognito mode only prevents the local device from saving browsing history; websites and networks still log your IP address and traffic.",
+          "misconception": "Private or incognito browser windows hide your identity and online messages from websites and internet providers."
+        },
+        {
+          "fact": "Imposters frequently scrape public photos and add mutual contacts to build convincing fake profiles that deceive young users.",
+          "misconception": "Online accounts displaying a teenager's profile photo and mutual friends are always operated by real peers."
+        },
+        {
+          "fact": "Engaging escalates harassment; Scouts should stop replying immediately, save screenshots as evidence, block the sender, and tell an adult.",
+          "misconception": "Replying to a cyberbully or predator to demand that they stop is the safest way to resolve online harassment."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to share photos containing embedded GPS EXIF metadata on public social profiles?",
+        "Under what condition does an online conversation cross the boundary into grooming or coercion?",
+        "What steps preserve digital evidence if a Scout receives a threatening or inappropriate message?",
+        "Which privacy settings prevent strangers from viewing your real-time location or personal contact info?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "First-generation computers used thousands of vacuum tubes for logic and relied on paper punch cards and plugboards for input and output.",
+          "misconception": "Early electronic computers like ENIAC stored data on magnetic hard drives and displayed output on video monitors."
+        },
+        {
+          "fact": "Moore's Law is an empirical observation about transistor density on integrated circuits, and heat limits have slowed clock speed gains.",
+          "misconception": "Moore's Law is a physical law of nature that guarantees computer processor clock speeds will double every two years."
+        },
+        {
+          "fact": "Packet-switched networks like ARPANET began in the late 1960s, while Tim Berners-Lee created the World Wide Web protocols around 1990.",
+          "misconception": "The World Wide Web and the internet were invented at the same time as a single communication system."
+        },
+        {
+          "fact": "A single modern smartphone processor executes billions of instructions per second, millions of times faster than the Apollo Guidance Computer.",
+          "misconception": "Modern smartphones have less raw computing power than the mainframe computers used during the Apollo moon landings."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What physical limitation caused vacuum tube computers to fail much more often than solid-state transistor systems?",
+        "In what way did replacing wired transistors with silicon integrated circuits change computer size and power draw?",
+        "Which architectural shift allowed computers to move from room-sized mainframes to portable personal devices?",
+        "What physical constraints limit how many microscopic transistors engineers can pack onto a silicon chip today?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Lossy compression permanently discards data during encoding, so converting to a lossless format never restores the discarded detail.",
+          "misconception": "Converting a low-quality MP3 or JPEG file into a lossless format like WAV or PNG restores the original lost detail."
+        },
+        {
+          "fact": "Stretching an existing bitmap only enlarges or interpolates existing pixels without capturing any new optical detail from the scene.",
+          "misconception": "Increasing the pixel dimensions of a digital image by stretching it on screen increases its true optical resolution."
+        },
+        {
+          "fact": "Analog-to-digital converters sample the sound wave thousands of times per second and quantize each sample into binary numbers.",
+          "misconception": "Digital audio recorders store continuous smooth sound waves directly inside flash memory chips."
+        },
+        {
+          "fact": "Lossless compression replaces repeated byte patterns with shorter tokens so the exact original file can be reconstructed bit for bit.",
+          "misconception": "Lossless compression algorithms like ZIP reduce file sizes by throwing away unimportant characters and numbers."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to an executable program or spreadsheet if you compress and decompress it using a lossy algorithm?",
+        "What measurement confirms whether an audio sampling rate is high enough to capture a specific sound frequency?",
+        "Why does encoding text in Unicode UTF-8 support international alphabets that 7-bit ASCII cannot represent?",
+        "Under what condition does saving a photograph as a JPEG introduce visible blocky artifacts around sharp edges?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Drives provide persistent long-term storage, whereas RAM is high-speed volatile working memory that holds active instructions for the CPU.",
+          "misconception": "Adding a larger hard drive or solid-state drive increases the amount of active RAM available for running apps."
+        },
+        {
+          "fact": "Attackers create new malware variants daily, so security software requires regular signature updates and OS patches to detect new exploits.",
+          "misconception": "Antivirus software that was installed two years ago without updates still blocks modern zero-day malware threats."
+        },
+        {
+          "fact": "A Trojan disguises itself as legitimate software and relies on a user to download and launch the program before it can execute its payload.",
+          "misconception": "Trojan horse malware spreads automatically across local networks without any user interaction or file execution."
+        },
+        {
+          "fact": "Every operating system contains software vulnerabilities and can be compromised by phishing, malicious apps, or unpatched browser exploits.",
+          "misconception": "Mac, Linux, and mobile operating systems are immune to malware and never require security updates or caution."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to unsaved data held in volatile RAM if a computer suddenly loses electrical power?",
+        "Why must the operating system load program instructions from solid-state storage into RAM before the CPU runs them?",
+        "Which behavioral difference distinguishes a self-replicating network worm from a file-infecting computer virus?",
+        "Why is it dangerous to pay a ransomware demand without having an offline backup and patched security vulnerabilities?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Wireless signals only bridge the short hop to a local router or cell tower, after which undersea and underground fiber-optic cables carry data.",
+          "misconception": "Wi-Fi and cellular data connections carry internet traffic all the way across the world without using physical cables."
+        },
+        {
+          "fact": "Search rankings reflect keyword relevance, link popularity, or paid advertising rather than independent verification of factual accuracy.",
+          "misconception": "The top result returned by an internet search engine is always the most accurate and trustworthy source on a topic."
+        },
+        {
+          "fact": "HTTPS only encrypts data in transit; phishing sites routinely obtain valid TLS certificates for deceptive domain names.",
+          "misconception": "An HTTPS padlock icon in the browser address bar proves that the website owner is honest and safe from phishing."
+        },
+        {
+          "fact": "TCP/IP breaks data into small numbered packets that route independently across hops and reassemble in order at the destination device.",
+          "misconception": "Internet data travels from sender to receiver as a single unbroken stream over a dedicated circuit like a phone call."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a large file transfer when routers split it into IP packets that travel along different network paths?",
+        "Which physical indicator and protocol verify that a website encrypts your login credentials during transit?",
+        "Under what condition does a fiber-optic cable transmit data much farther and faster than a twisted-pair copper wire?",
+        "Why is it dangerous to log into banking or email accounts over an unencrypted public Wi-Fi hotspot?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "If that single drive fails or is lost, both folders disappear; true backups must reside on separate physical media or off-site storage.",
+          "misconception": "Saving a second copy of a project file in a different folder on the same hard drive protects it as a true backup."
+        },
+        {
+          "fact": "Operating systems cache writes in memory, so pulling a drive before using safe eject can corrupt the file system and ruin the backup.",
+          "misconception": "Unplugging an external USB flash drive while a file transfer is still writing data is safe once the progress bar hits 99%."
+        },
+        {
+          "fact": "Typing text symbols into cells can turn numbers into text strings that formulas ignore; store raw numbers and apply currency formatting.",
+          "misconception": "Formatting numbers with dollar signs by typing text characters into spreadsheet cells still allows math formulas to sum them."
+        },
+        {
+          "fact": "Uncompressed images bloat presentation file sizes and slow down rendering without adding detail beyond the projector's native resolution.",
+          "misconception": "Embedding high-resolution uncompressed photos into a slide deck always improves projection quality without any downside."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a campout budget total if you type a static number instead of a dynamic SUM formula in a cell?",
+        "Where should a Scout store a secondary backup copy so a single lost USB drive does not erase all project files?",
+        "Which spreadsheet reference style keeps a tax or per-camper rate cell locked when you copy a formula down a column?",
+        "What verification step confirms that files copied to an external backup drive can actually be opened on another PC?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Copyright protection attaches automatically the moment an original work is fixed in a tangible medium, even without a copyright notice.",
+          "misconception": "Any image, song, or program found on a public website without a copyright symbol is in the public domain and free to copy."
+        },
+        {
+          "fact": "Commercial software purchases grant a limited End User License Agreement for specific devices, not ownership or redistribution rights.",
+          "misconception": "Buying a commercial software application gives you the legal right to install copies on all of your friends' computers."
+        },
+        {
+          "fact": "Freeware costs nothing to run but usually keeps its source code closed and forbids modification, unlike open-source licenses.",
+          "misconception": "Freeware and open-source software are identical because both let users modify the source code and sell copies freely."
+        },
+        {
+          "fact": "A patent requires full public disclosure of how the invention works in exchange for a temporary legal monopoly to exclude copycats.",
+          "misconception": "Registering a patent keeps an invention's technical design hidden from the public so competitors cannot study it."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Under what condition is it legal to accept and install a free copy of a software program from a friend?",
+        "Which legal protection covers a functional invention mechanism rather than the source code or brand logo?",
+        "What happens to a company's trade secret protection if a competitor independently reverse-engineers the product?",
+        "Why does a Creative Commons or open-source license still require users to follow attribution or share-alike rules?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Curbside bins are built for paper, glass, and cans; lithium batteries in e-waste frequently spark fires inside sorting trucks and plants.",
+          "misconception": "Tossing old cell phones and circuit boards into a municipal curbside recycling bin ensures they are recycled safely."
+        },
+        {
+          "fact": "Standard deletion only removes file pointers, so recovery tools can read private data until the drive is securely overwritten or wiped.",
+          "misconception": "Dragging personal files to the desktop trash can or recycle bin removes your private data before donating a computer."
+        },
+        {
+          "fact": "Uncertified collectors often ship e-waste overseas for open-air burning; look for R2 or e-Stewards certification to verify safe processing.",
+          "misconception": "All companies advertising free electronics drop-off dismantle toxic components safely inside regulated domestic facilities."
+        },
+        {
+          "fact": "Electronic devices still contain hazardous substances like lead solder, cadmium, mercury, and brominated flame retardants.",
+          "misconception": "Modern flat-screen devices and circuit boards contain only harmless plastics and aluminum with no toxic heavy metals."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to crush or puncture a swollen lithium-ion battery inside a discarded smartphone or laptop?",
+        "What happens to groundwater when lead solder, mercury, and cadmium from landfilled circuit boards leach into soil?",
+        "Which third-party certification confirms that an electronics recycler processes hazardous e-waste safely and legally?",
+        "What data sanitization step must a Scout complete before donating or recycling an old computer or mobile phone?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Many network, cloud, and cybersecurity roles hire candidates with associate degrees, apprenticeships, or vendor certifications.",
+          "misconception": "Every high-paying digital technology career requires a four-year university degree in computer science before you can get hired."
+        },
+        {
+          "fact": "Entry-level pay is typically in the lower quartile of national medians and varies widely by local cost of living and credentials.",
+          "misconception": "National average salary figures represent the exact starting paycheck a newly hired entry-level technician will earn in any city."
+        },
+        {
+          "fact": "Industrial facilities also rely on programmable logic controllers, barcode scanners, automated sensors, and inventory systems.",
+          "misconception": "Digital technology in an industrial facility is limited to the desktop computers and laptops inside the main administrative office."
+        },
+        {
+          "fact": "Digital professionals must complete continuing education and renew technical certifications every few years to keep up with new systems.",
+          "misconception": "Initial technical training is enough to sustain a digital career for decades without ongoing study or credential renewal."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Under what condition may a Scout conduct an online interview or visit a digital technology workplace for career research?",
+        "Which credential difference separates an accredited degree from a vendor certification for entry-level IT roles?",
+        "What measurement in the Occupational Outlook Handbook confirms whether a digital career has growing 10-year job demand?",
+        "Why is it dangerous to photograph proprietary screens or touch server racks without clearance during a workplace facility tour?"
+      ],
+      "req_id": "9"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # Salesmanship Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Salesmanship.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/salesmanship/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/salesmanship/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -205,9 +205,9 @@
 - **Pamphlet Fact:** Successful unit fundraisers rely on clear product demonstrations, polite customer engagement, and transparent explanations of program goals.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Salesmanship Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Help Your Unit Raise Funds & Sell Your Services)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Help Your Unit Raise Funds & Sell Your Services
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Salesmanship Merit Badge: Help Your Unit Raise Funds & Sell Your Services.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Help Your Unit Raise Funds & Sell Your Services.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A promotional flyer for a youth lawn care service demonstrates marketing to attract local clients.](/assets/pamphlet_images/salesmanship_p031_img1.png)
 

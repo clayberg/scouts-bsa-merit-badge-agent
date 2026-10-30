@@ -61,9 +61,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Auctions originated as a modern American invention for selling salvaged agricultural equipment and surplus household goods.",
-        "fact": "Auctions originated in ancient Babylon and Rome thousands of years before American colonial auction houses formed.",
-        "myth": "Auctions originated as a modern American invention for selling salvaged agricultural equipment and surplus household goods.",
-        "fact_correction": "Auctions originated in ancient Babylon and Rome thousands of years before American colonial auction houses formed."
+        "fact": "Auctions originated in ancient Babylon and Rome thousands of years before American colonial auction houses formed."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -100,38 +98,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Ancient Roman Spoils Auctions",
-        "right_header": "Modern Global Commodity Markets",
+        "left_header": "Req 1: Global History of Auction Markets",
+        "right_header": "Req 1: Practice EDGE Peer Review",
         "left_points": [
           "Global History of Auction Markets: Review the Auctioneering pamphlet standards for global history of auction markets, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 4).",
           "Historical Venues and Goods: Cite where these auctions were held and the types of items sold (p. 4).",
           "Peer Teaching Review: Cross-check your Worldwide History of Auctions & Asset Markets technique, measurements, and results with a patrol (p. 10)."
         ],
         "right_points": [
-          "Step 1 - Practice EDGE Peer Review: Cross-check your Worldwide History of Auctions & Asset Markets technique, measurements, and results (p. 10).",
-          "Step 2 - Present Historical Findings: Review your completed Worldwide History of Auctions & Asset Markets evidence and demonstrate proficiency during your counselor conference (p. 10).",
-          "Step 3 - Study Historical Auction Terms: For Auctioneering Requirement 1 (Worldwide History of Auctions & Asset Markets), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 4)."
+          "Practice EDGE Peer Review: Cross-check your Worldwide History of Auctions & Asset Markets technique, measurements, and results (p. 10).",
+          "Present Historical Findings: Review your completed Worldwide History of Auctions & Asset Markets evidence and demonstrate proficiency during your counselor conference (p. 10).",
+          "Study Historical Auction Terms: For Auctioneering Requirement 1 (Worldwide History of Auctions & Asset Markets), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 4)."
         ],
         "rows": [
           {
-            "attribute": "Global History of Auction Markets",
+            "attribute": "Roman Spear Tradition",
             "left": "Global History of Auction Markets: Review the Auctioneering pamphlet standards for global history of auction markets, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 4).",
-            "right": "Step 1 - Practice EDGE Peer Review: Cross-check your Worldwide History of Auctions & Asset Markets technique, measurements, and results (p. 10)."
+            "right": "Practice EDGE Peer Review: Cross-check your Worldwide History of Auctions & Asset Markets technique, measurements, and results (p. 10)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Babylonian Annual Assemblies",
             "left": "Historical Venues and Goods: Cite where these auctions were held and the types of items sold (p. 4).",
-            "right": "Step 2 - Present Historical Findings: Review your completed Worldwide History of Auctions & Asset Markets evidence and demonstrate proficiency during your counselor conference (p. 10)."
+            "right": "Present Historical Findings: Review your completed Worldwide History of Auctions & Asset Markets evidence and demonstrate proficiency during your counselor conference (p. 10)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Candle Auction Timing",
             "left": "Peer Teaching Review: Cross-check your Worldwide History of Auctions & Asset Markets technique, measurements, and results with a patrol (p. 10).",
-            "right": "Step 3 - Study Historical Auction Terms: For Auctioneering Requirement 1 (Worldwide History of Auctions & Asset Markets), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 4)."
+            "right": "Study Historical Auction Terms: For Auctioneering Requirement 1 (Worldwide History of Auctions & Asset Markets), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 4)."
           }
         ]
       },
       "worked_example": {
-        "title": "Auctioneering Req 1 Exemplar Workbook Entry: Global History of Auction Markets",
+        "title": "Auctioneering Req 1 Exemplar Workbook Entry: Global",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Global Auction Origins": "Global History of Auction Markets: Global history of auction markets, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 4).",
@@ -179,7 +177,33 @@
       "socratic_questions": [
         "Why did Roman military authorities place a spear in the ground before commencing public property sales?",
         "How did the expiration of a burning candle stub prevent unfair bidding manipulation in English auctions?",
-        "What economic factors caused public auctions to emerge across widely separated ancient cultures without direct contact?"
+        "What economic factors caused public auctions to emerge across widely separated ancient cultures without direct contact?",
+        "What ancient Babylonian marriage market custom did the Greek historian Herodotus document around 500 BC?",
+        "Why did Roman soldiers plant a spear called a sub hasta into the ground before selling captured war spoils?",
+        "Which physical indicator in a seventeenth-century London candle auction signaled that the final bid had won the lot?",
+        "Which historical shift transformed auctions from liquidating distressed estates into selling fine art at Sotheby's?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Auctions originated as a modern American invention for selling salvaged agricultural equipment and surplus household goods.",
+          "fact": "Auctions originated in ancient Babylon and Rome thousands of years before American colonial auction houses formed."
+        },
+        {
+          "misconception": "Auctions were invented in eighteenth-century England when Sotheby's and Christie's first opened in London.",
+          "fact": "Documented auctions date back to 500 BC in Babylon and were widely used across ancient Greece and the Roman Empire."
+        },
+        {
+          "misconception": "In a traditional English candle auction, bidders had to place their highest written offer before the wick was lit.",
+          "fact": "Bidders called out ascending offers while a one-inch candle stub burned, and the last bid before the flame died won."
+        },
+        {
+          "misconception": "The Latin phrase sub hasta meant that ancient Roman auctioneers sold only military weapons and armor to citizens.",
+          "fact": "Selling under the spear began with war booty, but Romans also used sub hasta auctions for land, debtors' estates, and household goods."
+        },
+        {
+          "misconception": "Historical auctions always used ascending bids where the price climbed higher until only one buyer remained.",
+          "fact": "Descending-price auctions, such as the Dutch flower auction and ancient Babylonian reverse bids for dowries, lowered prices until accepted."
+        }
       ]
     },
     {
@@ -226,9 +250,7 @@
       },
       "common_misconception_pair": {
         "misconception": "The auctioneer manages the entire auction alone from the podium without needing clerical or spotting support.",
-        "fact": "Professional auctions require ringmen, clerks, runners, and cashiers working simultaneously to ensure legal and financial accuracy.",
-        "myth": "The auctioneer manages the entire auction alone from the podium without needing clerical or spotting support.",
-        "fact_correction": "Professional auctions require ringmen, clerks, runners, and cashiers working simultaneously to ensure legal and financial accuracy."
+        "fact": "Professional auctions require ringmen, clerks, runners, and cashiers working simultaneously to ensure legal and financial accuracy."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -265,38 +287,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Auctioneer Podium Bid Calling",
-        "right_header": "Ringperson Crowd Bid Spotting",
+        "left_header": "Req 2: Core Auction Team Roles",
+        "right_header": "Req 2: Demonstrate Team Role Knowledge",
         "left_points": [
           "Core Auction Team Roles: Describe to your counselor the different roles in an auction (p. 10).",
           "Patrol Buddy Role Review: Cross-check your Professional Roles in an Auction Team technique, measurements, and results with a patrol (p. 14).",
           "Counselor Role Demonstration: Review your completed Professional Roles in an Auction Team evidence and demonstrate proficiency during your counselor conference (p. 14)."
         ],
         "right_points": [
-          "Step 1 - Demonstrate Team Role Knowledge: Review your completed Professional Roles in an Auction Team evidence and demonstrate proficiency during your counselor conference (p. 14).",
-          "Step 2 - Verify Pamphlet Role Standards: Cross-check every sub-requirement of Requirement 2 (Roles in An Auction) against the Scouting America Auctioneering pamphlet standard (p. 10).",
-          "Step 3 - Review Auction Staff Duties: For Auctioneering Requirement 2 (Roles in An Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 10)."
+          "Demonstrate Team Role Knowledge: Review your completed Professional Roles in an Auction Team evidence and demonstrate proficiency during your counselor conference (p. 14).",
+          "Verify Pamphlet Role Standards: Cross-check every sub-requirement of Requirement 2 (Roles in An Auction) against the Scouting America Auctioneering pamphlet standard (p. 10).",
+          "Review Auction Staff Duties: For Auctioneering Requirement 2 (Roles in An Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Core Auction Team Roles",
+            "attribute": "Lead Auctioneer Duties",
             "left": "Core Auction Team Roles: Describe to your counselor the different roles in an auction (p. 10).",
-            "right": "Step 1 - Demonstrate Team Role Knowledge: Review your completed Professional Roles in an Auction Team evidence and demonstrate proficiency during your counselor conference (p. 14)."
+            "right": "Demonstrate Team Role Knowledge: Review your completed Professional Roles in an Auction Team evidence and demonstrate proficiency during your counselor conference (p. 14)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Ringman Field Spotting",
             "left": "Patrol Buddy Role Review: Cross-check your Professional Roles in an Auction Team technique, measurements, and results with a patrol (p. 14).",
-            "right": "Step 2 - Verify Pamphlet Role Standards: Cross-check every sub-requirement of Requirement 2 (Roles in An Auction) against the Scouting America Auctioneering pamphlet standard (p. 10)."
+            "right": "Verify Pamphlet Role Standards: Cross-check every sub-requirement of Requirement 2 (Roles in An Auction) against the Scouting America Auctioneering pamphlet standard (p. 10)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Clerk Record Keeping",
             "left": "Counselor Role Demonstration: Review your completed Professional Roles in an Auction Team evidence and demonstrate proficiency during your counselor conference (p. 14).",
-            "right": "Step 3 - Review Auction Staff Duties: For Auctioneering Requirement 2 (Roles in An Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 10)."
+            "right": "Review Auction Staff Duties: For Auctioneering Requirement 2 (Roles in An Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 10)."
           }
         ]
       },
       "worked_example": {
-        "title": "Auctioneering Req 2 Exemplar Workbook Entry: Roles Within an Auction Team",
+        "title": "Auctioneering Req 2 Exemplar Workbook Entry: Roles",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Core Auction Team Roles": "Describe to your counselor the different roles in an auction (p. 10).",
@@ -344,7 +366,33 @@
       "socratic_questions": [
         "What financial or legal complications arise if a clerk records the incorrect buyer paddle number?",
         "Why must ringmen maintain direct eye contact with bidders rather than looking back at the auctioneer?",
-        "How does the division of labor between cashier and clerk prevent fraud during rapid settlement cycles?"
+        "How does the division of labor between cashier and clerk prevent fraud during rapid settlement cycles?",
+        "What specific hand gesture and vocal signal does a ringman use to relay a floor bid to the auctioneer on the block?",
+        "Why must the auction clerk record the winning bidder number and hammer price immediately after each lot closes?",
+        "Where should ringmen position themselves in a crowded auction tent to spot hesitant bidders and prevent missed bids?",
+        "What security protocols separate the cashier station from the clerking table during high-volume settlement?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "The auctioneer manages the entire auction alone from the podium without needing clerical or spotting support.",
+          "fact": "Professional auctions require ringmen, clerks, runners, and cashiers working simultaneously to ensure legal and financial accuracy."
+        },
+        {
+          "misconception": "The auctioneer works alone on the podium to spot every bid, record buyer numbers, and collect payments from the crowd.",
+          "fact": "Live auctions rely on a coordinated team of ringmen, clerks, cashiers, and lot handlers so the auctioneer can focus on the chant."
+        },
+        {
+          "misconception": "Ringmen are placed in the audience primarily to bid against customers and artificially drive up the final sale price.",
+          "fact": "Ringmen act as bid spotters and communication relays who assist buyers, answer lot questions, and pass legitimate bids to the block."
+        },
+        {
+          "misconception": "The auction clerk and the auction cashier perform the exact same job at the end of a live auction event.",
+          "fact": "The clerk logs each lot number, buyer number, and price during the sale, whereas the cashier collects payment and issues receipts."
+        },
+        {
+          "misconception": "Setup crew members only unload trucks before the sale and have no safety responsibilities once bidding begins.",
+          "fact": "Lot handlers and yard crew manage crowd safety around moving equipment, display items on cue, and verify paid receipts during load-out."
+        }
       ]
     },
     {
@@ -391,9 +439,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Auctions are only suitable as a desperate last resort for distressed goods sold below wholesale value.",
-        "fact": "Auctions frequently achieve record premium prices for unique assets through intense, transparent open market competitive bidding.",
-        "myth": "Auctions are only suitable as a desperate last resort for distressed goods sold below wholesale value.",
-        "fact_correction": "Auctions frequently achieve record premium prices for unique assets through intense, transparent open market competitive bidding."
+        "fact": "Auctions frequently achieve record premium prices for unique assets through intense, transparent open market competitive bidding."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -430,38 +476,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Competitive Auction Price Discovery",
-        "right_header": "Traditional Negotiated Fixed Pricing",
+        "left_header": "Req 3: Price Discovery Versus Retail",
+        "right_header": "Req 3: Present Sales Model Evidence",
         "left_points": [
           "Price Discovery Versus Retail: Describe to your counselor the differences and similarities between the auction method and the traditional method of sales (p. 16).",
           "Peer Review of Sales Models: Cross-check your Auction Price Discovery vs. Fixed-Price Sales technique, measurements, and results (p. 18).",
           "Counselor Sales Model Discussion: Review your completed Auction Price Discovery vs. Fixed-Price Sales evidence and demonstrate proficiency during your counselor conference (p. 18)."
         ],
         "right_points": [
-          "Step 1 - Present Sales Model Evidence: Review your completed Auction Price Discovery vs. Fixed-Price Sales evidence and demonstrate proficiency during your counselor conference (p. 18).",
-          "Step 2 - Compare Auction and Retail: Describe to your counselor the differences and similarities between the auction method and the traditional method of sales (p. 16).",
-          "Step 3 - Study Price Discovery Terms: For Auctioneering Requirement 3 (Similarities Between The Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 16)."
+          "Present Sales Model Evidence: Review your completed Auction Price Discovery vs. Fixed-Price Sales evidence and demonstrate proficiency during your counselor conference (p. 18).",
+          "Compare Auction and Retail: Describe to your counselor the differences and similarities between the auction method and the traditional method of sales (p. 16).",
+          "Study Price Discovery Terms: For Auctioneering Requirement 3 (Similarities Between The Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 16)."
         ],
         "rows": [
           {
-            "attribute": "Price Discovery Versus Retail",
+            "attribute": "True Price Discovery",
             "left": "Price Discovery Versus Retail: Describe to your counselor the differences and similarities between the auction method and the traditional method of sales (p. 16).",
-            "right": "Step 1 - Present Sales Model Evidence: Review your completed Auction Price Discovery vs. Fixed-Price Sales evidence and demonstrate proficiency during your counselor conference (p. 18)."
+            "right": "Present Sales Model Evidence: Review your completed Auction Price Discovery vs. Fixed-Price Sales evidence and demonstrate proficiency during your counselor conference (p. 18)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Fixed Date Liquidation",
             "left": "Peer Review of Sales Models: Cross-check your Auction Price Discovery vs. Fixed-Price Sales technique, measurements, and results (p. 18).",
-            "right": "Step 2 - Compare Auction and Retail: Describe to your counselor the differences and similarities between the auction method and the traditional method of sales (p. 16)."
+            "right": "Compare Auction and Retail: Describe to your counselor the differences and similarities between the auction method and the traditional method of sales (p. 16)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "As Is Transactions",
             "left": "Counselor Sales Model Discussion: Review your completed Auction Price Discovery vs. Fixed-Price Sales evidence and demonstrate proficiency during your counselor conference (p. 18).",
-            "right": "Step 3 - Study Price Discovery Terms: For Auctioneering Requirement 3 (Similarities Between The Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 16)."
+            "right": "Study Price Discovery Terms: For Auctioneering Requirement 3 (Similarities Between The Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 16)."
           }
         ]
       },
       "worked_example": {
-        "title": "Auctioneering Req 3 Exemplar Workbook Entry: Auction Versus Fixed-Price Sales",
+        "title": "Auctioneering Req 3 Exemplar Workbook Entry: Auction",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
           "Price Discovery Versus Retail": "Describe to your counselor the differences and similarities between the auction method and the traditional method of sales (p. 16).",
@@ -509,7 +555,33 @@
       "socratic_questions": [
         "Why might a rare collector item fetch a higher price at auction than through retail listing?",
         "What financial risks does a seller accept when choosing an unreserved absolute auction format?",
-        "How do contingency periods in traditional real estate sales compare with unconditional auction sales terms?"
+        "In what specific ways do contingency periods in traditional real estate sales compare with unconditional auction sales terms?",
+        "What happens to the maximum achievable sale price when a fixed-price tag is replaced by competitive open bidding?",
+        "Under what market condition does a traditional negotiated listing outperform a date-certain public auction?",
+        "Which contract terms exist in both a traditional retail purchase agreement and an auction bidder registration card?",
+        "Why does an auction create urgency among buyers that a traditional open-ended listing cannot easily replicate?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Auctions are only suitable as a desperate last resort for distressed goods sold below wholesale value.",
+          "fact": "Auctions frequently achieve record premium prices for unique assets through intense, transparent open market competitive bidding."
+        },
+        {
+          "misconception": "Auctions are only used for distressed foreclosures or bankruptcies when traditional retail sales have already failed.",
+          "fact": "Sellers choose auctions as a primary marketing method for high-demand real estate, collector cars, livestock, and rare art."
+        },
+        {
+          "misconception": "Traditional fixed-price sales discover true market value faster than an auction because the seller sets the asking price.",
+          "fact": "Fixed asking prices cap the upside and can sit unsold for months, whereas competitive bidding discovers real-time market value on sale day."
+        },
+        {
+          "misconception": "Buyers at a public auction always pay less than the seller's listed price because there is no negotiation allowed.",
+          "fact": "Competitive bidding starts low and climbs upward, often pushing the final hammer price above what a seller would have asked in a fixed sale."
+        },
+        {
+          "misconception": "An auction sale requires no marketing or buyer qualification because the crowd will naturally show up on sale day.",
+          "fact": "Both auctions and traditional sales require targeted advertising, accurate asset descriptions, and clear terms of sale to attract buyers."
+        }
       ]
     },
     {
@@ -556,9 +628,7 @@
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
             "misconception": "Shadowing an auctioneer consists entirely of listening to rapid chant practice in an office setting.",
-            "fact": "Shadowing exposes candidates to lot staging, client contract negotiations, consignor accounting, and equipment load outs.",
-            "myth": "Shadowing an auctioneer consists entirely of listening to rapid chant practice in an office setting.",
-            "fact_correction": "Shadowing exposes candidates to lot staging, client contract negotiations, consignor accounting, and equipment load outs."
+            "fact": "Shadowing exposes candidates to lot staging, client contract negotiations, consignor accounting, and equipment load outs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -627,9 +697,7 @@
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
             "misconception": "Bid spotters only look for bidders who jump up or wave their arms frantically.",
-            "fact": "Trained ringmen watch for subtle physical cues like pen taps, slight head nods, and raised eyebrows.",
-            "myth": "Bid spotters only look for bidders who jump up or wave their arms frantically.",
-            "fact_correction": "Trained ringmen watch for subtle physical cues like pen taps, slight head nods, and raised eyebrows."
+            "fact": "Trained ringmen watch for subtle physical cues like pen taps, slight head nods, and raised eyebrows."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -695,9 +763,7 @@
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
             "misconception": "Online auctions close instantly at a predetermined minute regardless of active last second bids.",
-            "fact": "Most online auction software features dynamic soft close timers extending bidding whenever late bids occur.",
-            "myth": "Online auctions close instantly at a predetermined minute regardless of active last second bids.",
-            "fact_correction": "Most online auction software features dynamic soft close timers extending bidding whenever late bids occur."
+            "fact": "Most online auction software features dynamic soft close timers extending bidding whenever late bids occur."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -771,9 +837,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Auctioneers only work during the few hours when they stand at the podium calling bids.",
-        "fact": "Auctioneers dedicate eighty percent of their business time to marketing, cataloging, contract negotiation, and settlement accounting.",
-        "myth": "Auctioneers only work during the few hours when they stand at the podium calling bids.",
-        "fact_correction": "Auctioneers dedicate eighty percent of their business time to marketing, cataloging, contract negotiation, and settlement accounting."
+        "fact": "Auctioneers dedicate eighty percent of their business time to marketing, cataloging, contract negotiation, and settlement accounting."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -814,12 +878,12 @@
         "Step 4 - Counselor Debrief: Review observed bidder interactions, rhythmic chant variations, and field lessons with your merit counselor."
       ],
       "gear_checklist": [
-        "Official Auctioneering Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Auctioneering Careers and Pathways)",
-        "Field notebook, verification log sheet, and demonstration materials for Auctioneering Careers and Pathways",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Auctioneering Merit Badge: Auctioneering Careers and Pathways.",
+        "Field notebook, verification log sheet, and demonstration materials for Auctioneering Careers and Pathways.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 4A: Auctioneer Workplace Shadow Experi",
+        "left_header": "Req 4A: Auctioneer Workplace Shadow",
         "right_header": "Req 4B: Live Auction Field Observation",
         "left_points": [
           "(4A) Auctioneer Workplace Shadow Experience: Shadowing a professional auctioneer reveals the rigorous behind the scenes logistics of lot numbering, consignor contracts, and post sale payment settlement. Scouts observe firsthand how staff prepare the auction gallery hours before the first bidder arrives."
@@ -829,29 +893,29 @@
         ],
         "rows": [
           {
-            "attribute": "Shadowing a Working Auctioneer",
-            "left": "(4A) Shadowing a Working Auctioneer: Attend a live auction of any type (p. 22).",
-            "right": "(4B) Observing a Live Auction: View an online auction until the sale is concluded and discuss it with your counselor (p. 22)."
+            "attribute": "Interview Protocol Planning",
+            "left": "(4A) Auctioneer Workplace Shadow Experience: Shadowing a professional auctioneer reveals the rigorous behind the scenes logistics of lot numbering, consignor contracts, and post sale payment settlement. Scouts observe firsthand how staff prepare the auction gallery hours before the first bidder arrives.",
+            "right": "(4B) Live Auction Field Observation: Attending a live public auction allows Scouts to witness real time crowd psychology and rapid fire bid spotting in action. Observers track how auctioneers use eye contact, humor, and urgency to stimulate competitive bids."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Live Auction Attendance: Attend a live auction of any type (p. 22).",
-            "right": "(4C) Tracking an Online Auction: With permission from your parents or Guardian, contact a professional auctioneer and record an interview with the auctioneer that lasts approximately (p. 22)."
+            "attribute": "Bidder Observation Habits",
+            "left": "Req 4A: Auctioneer Workplace Shadow: Shadowing a professional auctioneer reveals the rigorous behind the scenes logistics of lot numbering, consignor contracts, and post sale payment settlement. Scouts observe firsthand how staff prepare the auction gallery hours before the first bidder arrives.",
+            "right": "Req 4B: Live Auction Field: Attending a live public auction allows Scouts to witness real time crowd psychology and rapid fire bid spotting in action. Observers track how auctioneers use eye contact, humor, and urgency to stimulate competitive bids."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Online Sale Observation: View an online auction until the sale is concluded and discuss it with your counselor (p. 22).",
-            "right": "Step 3 - Review Field Notes with Buddy: Cross-check your Careers and Professional Pathways technique, measurements, and results (p. 22)."
+            "attribute": "Catalog Preparation Standards",
+            "left": "Req 4C: Online Auction Process: Monitoring a virtual auction from start to finish highlights digital cataloging, automated bidding increments, and soft close timer extensions. Scouts observe how digital platforms replicate live auction urgency through countdown timers.",
+            "right": "Bidder Observation Habits: Watch how seasoned auctioneers detect subtle bidder nods, finger twitches, and hesitant pauses."
           }
         ]
       },
       "worked_example": {
-        "title": "Auctioneering Req 4 Exemplar Workbook Entry: Professional Interviews and Field Observation",
+        "title": "Auctioneering Req 4 Exemplar Workbook Entry",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 4A - Auctioneer Workplace Shadow Exper": "Shadowing a professional auctioneer reveals the rigorous behind the scenes logistics of lot numbering, consignor contracts, and post sale payment settlement. Scouts observe firsthand how staff prepare the auction gallery hours before the first bidder arrives.",
-          "Req 4B - Live Auction Field Observation": "Attending a live public auction allows Scouts to witness real time crowd psychology and rapid fire bid spotting in action. Observers track how auctioneers use eye contact, humor, and urgency to stimulate competitive bids.",
-          "Req 4C - Online Auction Process Analysis": "Monitoring a virtual auction from start to finish highlights digital cataloging, automated bidding increments, and soft close timer extensions. Scouts observe how digital platforms replicate live auction urgency through countdown timers."
+          "Req 4A - Auctioneer Workplace Shadow": "Shadowing a professional auctioneer reveals the rigorous behind the scenes logistics of lot numbering, consignor contracts, and post sale payment settlement. Scouts observe firsthand how staff prepare the auction gallery hours before the first bidder arrives.",
+          "Req 4B - Live Auction Field": "Attending a live public auction allows Scouts to witness real time crowd psychology and rapid fire bid spotting in action. Observers track how auctioneers use eye contact, humor, and urgency to stimulate competitive bids.",
+          "Req 4C - Online Auction Process": "Monitoring a virtual auction from start to finish highlights digital cataloging, automated bidding increments, and soft close timer extensions. Scouts observe how digital platforms replicate live auction urgency through countdown timers."
         },
         "sample_output": "Professional Interviews and Field Observation: Attend a live auction of any type (p. 22).",
         "counselor_tip": "For Auctioneering Requirement 4 (Professional Interviews and Field Observation), verify the Scout's own observations and specific pamphlet details (Auctioneering Test Lab Resource Guide, pp. 22-27)."
@@ -893,7 +957,33 @@
       "socratic_questions": [
         "How does an auctioneer maintain crowd focus and energy during a multi hour estate sale?",
         "What ethical safeguards must an auctioneer uphold when handling consigned family property or estate settlements?",
-        "Which surprised you more during your interview, the administrative preparation or the live chant performance?"
+        "Which surprised you more during your interview, the administrative preparation or the live chant performance?",
+        "What parental permission and two-deep leadership steps must you complete before contacting or shadowing an auctioneer?",
+        "Which audio check confirms your recorder captures clear speech in a noisy auction barn before the 5-minute interview?",
+        "What pre-sale inspection duties did you observe the auctioneer complete before calling the first lot to the block?",
+        "Where should you stand while shadowing on an active auction floor to stay clear of moving livestock or heavy machinery?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Auctioneers only work during the few hours when they stand at the podium calling bids.",
+          "fact": "Auctioneers dedicate eighty percent of their business time to marketing, cataloging, contract negotiation, and settlement accounting."
+        },
+        {
+          "misconception": "A Scout can contact and meet a professional auctioneer alone as long as the interview lasts less than ten minutes.",
+          "fact": "Scouts must obtain parent or guardian permission first and follow Youth Protection guidelines during all interviews and shadowing."
+        },
+        {
+          "misconception": "A professional auctioneer's workday begins when they step up to the microphone and ends when the final gavel falls.",
+          "fact": "Most of an auctioneer's day involves client contracts, cataloging lots, inspecting inventory, answering buyer questions, and settlement."
+        },
+        {
+          "misconception": "Recording an interview on a smartphone requires no consent from the auctioneer if the conversation is only for a merit badge.",
+          "fact": "Ethical and legal standards require asking the auctioneer's explicit permission before starting any audio or video recording."
+        },
+        {
+          "misconception": "Shadowing an auctioneer means stepping onto the block to call live bids for paying clients during the commercial sale.",
+          "fact": "Shadowing is a structured observation role where the Scout watches pre-sale setup, bid calling, clerking, and load-out safety."
+        }
       ]
     },
     {
@@ -940,9 +1030,7 @@
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
             "misconception": "Only second hand used household furniture and old knickknacks sell at commercial auctions.",
-            "fact": "Multimillion dollar industrial manufacturing plants, commercial real estate, and municipal utilities routinely sell at auction.",
-            "myth": "Only second hand used household furniture and old knickknacks sell at commercial auctions.",
-            "fact_correction": "Multimillion dollar industrial manufacturing plants, commercial real estate, and municipal utilities routinely sell at auction."
+            "fact": "Multimillion dollar industrial manufacturing plants, commercial real estate, and municipal utilities routinely sell at auction."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1008,9 +1096,7 @@
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
             "misconception": "Auction clients are simply casual everyday shoppers who want to get rid of junk.",
-            "fact": "Primary consignors include fiduciary attorneys, commercial banking officers, estate executors, and corporate liquidators.",
-            "myth": "Auction clients are simply casual everyday shoppers who want to get rid of junk.",
-            "fact_correction": "Primary consignors include fiduciary attorneys, commercial banking officers, estate executors, and corporate liquidators."
+            "fact": "Primary consignors include fiduciary attorneys, commercial banking officers, estate executors, and corporate liquidators."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1076,9 +1162,7 @@
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
             "misconception": "Simulcast auctions require remote bidders to phone in bids manually to an assistant.",
-            "fact": "Simulcast platforms stream live audio and video while instantly syncing internet clicks with floor bidding.",
-            "myth": "Simulcast auctions require remote bidders to phone in bids manually to an assistant.",
-            "fact_correction": "Simulcast platforms stream live audio and video while instantly syncing internet clicks with floor bidding."
+            "fact": "Simulcast platforms stream live audio and video while instantly syncing internet clicks with floor bidding."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1149,9 +1233,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Online auctions have made live in person outcry auctions obsolete across every commercial asset category.",
-        "fact": "Live auctions remain the preferred industry standard for livestock, heavy machinery, and local community benefit sales.",
-        "myth": "Online auctions have made live in person outcry auctions obsolete across every commercial asset category.",
-        "fact_correction": "Live auctions remain the preferred industry standard for livestock, heavy machinery, and local community benefit sales."
+        "fact": "Live auctions remain the preferred industry standard for livestock, heavy machinery, and local community benefit sales."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1188,7 +1270,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5A: Auctionable Asset Classifications",
+        "left_header": "Req 5A: Auctionable Asset",
         "right_header": "Req 5B: Auction Consignor Client Types",
         "left_points": [
           "(5A) Auctionable Asset Classifications: Asset classes sold at auction encompass agricultural acreage, commercial real estate, industrial machinery, motor vehicles, livestock, and specialty estate items. Valuing these assets demands rigorous market appraisals and condition verification."
@@ -1198,29 +1280,29 @@
         ],
         "rows": [
           {
-            "attribute": "Auctioned Asset Categories",
-            "left": "(5A) Auctioned Asset Categories: List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a live auction versus (p. 28).",
-            "right": "(5B) Seller and Client Profiles: (A) Types of assets sold at auction (B) Types of customers you would be selling these assets for (C) List the types (p. 28)."
+            "attribute": "Commercial Asset Diversity",
+            "left": "(5A) Auctionable Asset Classifications: Asset classes sold at auction encompass agricultural acreage, commercial real estate, industrial machinery, motor vehicles, livestock, and specialty estate items. Valuing these assets demands rigorous market appraisals and condition verification.",
+            "right": "(5B) Auction Consignor Client Types: Auctioneers represent diverse clients including estate executors, bankruptcy trustees, financial institutions, municipal agencies, and retiring business owners. Managing these relationships requires tailored legal contracts and sensitive fiduciary communication."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Profiles of Selling Clients: Types of customers you would be selling these assets (p. 28).",
-            "right": "(5C) Auction Formats and Channels: Types of assets sold at auction (p. 28)."
+            "attribute": "Consignor Client Profiles",
+            "left": "Req 5A: Auctionable Asset: Asset classes sold at auction encompass agricultural acreage, commercial real estate, industrial machinery, motor vehicles, livestock, and specialty estate items. Valuing these assets demands rigorous market appraisals and condition verification.",
+            "right": "Req 5B: Auction Consignor Client: Auctioneers represent diverse clients including estate executors, bankruptcy trustees, financial institutions, municipal agencies, and retiring business owners. Managing these relationships requires tailored legal contracts and sensitive fiduciary communication."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Live Versus Online Formats: List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a live auction versus (p. 28).",
-            "right": "Step 3 - Review Formats with Patrol Buddy: Cross-check your Auction Asset Classes, Sellers & Sale Formats technique, measurements (p. 26)."
+            "attribute": "Simulcast Format Power",
+            "left": "Req 5C: Auction Delivery Format: Auctioneers select live, timed online, or simulcast formats depending on bidder location, inventory transport costs, and market demand. Simulcast merges live crowd enthusiasm with remote global bidding access.",
+            "right": "Consignor Client Profiles: Clients include estate executors, corporate liquidators, banking institutions, farmers, and private collectors seeking sales."
           }
         ]
       },
       "worked_example": {
-        "title": "Auctioneering Req 5 Exemplar Workbook Entry: Asset Classes, Clients, and Formats",
+        "title": "Auctioneering Req 5 Exemplar Workbook Entry: Asset",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 5A - Auctionable Asset Classifications": "Asset classes sold at auction encompass agricultural acreage, commercial real estate, industrial machinery, motor vehicles, livestock, and specialty estate items. Valuing these assets demands rigorous market appraisals and condition verification.",
-          "Req 5B - Auction Consignor Client Types": "Auctioneers represent diverse clients including estate executors, bankruptcy trustees, financial institutions, municipal agencies, and retiring business owners. Managing these relationships requires tailored legal contracts and sensitive fiduciary communication.",
-          "Req 5C - Auction Delivery Format Selection": "Auctioneers select live, timed online, or simulcast formats depending on bidder location, inventory transport costs, and market demand. Simulcast merges live crowd enthusiasm with remote global bidding access."
+          "Req 5A - Auctionable Asset": "Asset classes sold at auction encompass agricultural acreage, commercial real estate, industrial machinery, motor vehicles, livestock, and specialty estate items. Valuing these assets demands rigorous market appraisals and condition verification.",
+          "Req 5B - Auction Consignor Client": "Auctioneers represent diverse clients including estate executors, bankruptcy trustees, financial institutions, municipal agencies, and retiring business owners. Managing these relationships requires tailored legal contracts and sensitive fiduciary communication.",
+          "Req 5C - Auction Delivery Format": "Auctioneers select live, timed online, or simulcast formats depending on bidder location, inventory transport costs, and market demand. Simulcast merges live crowd enthusiasm with remote global bidding access."
         },
         "sample_output": "Asset Classes, Clients, and Formats: List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a live auction versus (p. 28).",
         "counselor_tip": "For Auctioneering Requirement 5 (Asset Classes, Clients, and Formats), verify the Scout's own observations and specific pamphlet details (Auctioneering Test Lab Resource Guide, pp. 28-33)."
@@ -1261,8 +1343,34 @@
       "pamphlet_summary": "Auctioneers liquidate diverse asset classes ranging from agricultural real estate and heavy machinery to business inventories, livestock, and rare antiques. Choosing between live, online, or simulcast formats depends on target buyer demographics, geographic distribution, and transport costs.",
       "socratic_questions": [
         "Why might a farm equipment liquidator choose a simulcast format over a traditional live outcry auction?",
-        "How do target bidder demographics influence whether an estate is sold online or in person?",
-        "What specific liabilities must an auctioneer manage when handling municipal government asset liquidations?"
+        "In what specific ways do target bidder demographics influence whether an estate is sold online or in person?",
+        "What specific liabilities must an auctioneer manage when handling municipal government asset liquidations?",
+        "What distinguishes an absolute auction from a reserve auction in terms of seller risk and bidder participation?",
+        "Why would an auctioneer recommend a simulcast format for heavy construction equipment instead of an online-only sale?",
+        "What happens to the closing clock in a soft-close online auction when a bidder places an offer in the final minute?",
+        "Which client goals differ when selling an estate for a probate executor versus liquidating surplus fleet vehicles?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Online auctions have made live in person outcry auctions obsolete across every commercial asset category.",
+          "fact": "Live auctions remain the preferred industry standard for livestock, heavy machinery, and local community benefit sales."
+        },
+        {
+          "misconception": "In a reserve auction, the auctioneer is legally required to announce the exact dollar amount of the reserve before bidding starts.",
+          "fact": "The seller's minimum acceptable price in a reserve auction is typically kept confidential until bidding reaches or exceeds that threshold."
+        },
+        {
+          "misconception": "An absolute auction allows the seller to reject the highest bid at the end if the final price is lower than expected.",
+          "fact": "An absolute auction has no minimum reserve, meaning the asset must be sold to the highest legitimate bidder regardless of the price."
+        },
+        {
+          "misconception": "Online-only auctions and simulcast auctions are identical because both allow remote buyers to place bids on a computer.",
+          "fact": "Timed online auctions run automatically over days, while simulcast auctions combine an in-person crowd with live remote internet bidding."
+        },
+        {
+          "misconception": "Real estate and intellectual property cannot be sold at auction because buyers only bid on small physical goods they can carry home.",
+          "fact": "Auctioneers regularly sell real estate, agricultural land, business equipment, livestock, vehicles, fine art, and commercial rights."
+        }
       ]
     },
     {
@@ -1311,9 +1419,7 @@
       },
       "common_misconception_pair": {
         "misconception": "An auctioneer chants rapidly solely to confuse bidders into bidding higher than they intended.",
-        "fact": "The chant establishes a rhythmic, clear cadence that communicates current bids and next asking prices transparently.",
-        "myth": "An auctioneer chants rapidly solely to confuse bidders into bidding higher than they intended.",
-        "fact_correction": "The chant establishes a rhythmic, clear cadence that communicates current bids and next asking prices transparently."
+        "fact": "The chant establishes a rhythmic, clear cadence that communicates current bids and next asking prices transparently."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1350,38 +1456,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Current High Bid Dollar Number",
-        "right_header": "Rhythmic Filler Words and Ask",
+        "left_header": "Req 6: Building Your Auction Chant",
+        "right_header": "Req 6: Practice Chant with Buddy",
         "left_points": [
           "Building Your Auction Chant: Develop and practice your auction chant (p. 34).",
           "Unit Meeting Chant Performance: Perform the auction chant for your counselor and at a unit meeting (p. 34).",
           "Patrol Buddy Chant Critique: Cross-check your Developing & Performing an Auction Chant technique, measurements, and results (p. 30)."
         ],
         "right_points": [
-          "Step 1 - Practice Chant with Buddy: Cross-check your Developing & Performing an Auction Chant technique, measurements, and results (p. 30).",
-          "Step 2 - Perform Chant for Counselor: Review your completed Developing & Performing an Auction Chant evidence and demonstrate proficiency during your counselor conference (p. 30).",
-          "Step 3 - Master Numbers and Filler Words: For Auctioneering Requirement 6 (Develop and Practice Your Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 34)."
+          "Practice Chant with Buddy: Cross-check your Developing & Performing an Auction Chant technique, measurements, and results (p. 30).",
+          "Perform Chant for Counselor: Review your completed Developing & Performing an Auction Chant evidence and demonstrate proficiency during your counselor conference (p. 30).",
+          "Master Numbers and Filler Words: For Auctioneering Requirement 6 (Develop and Practice Your Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 34)."
         ],
         "rows": [
           {
-            "attribute": "Building Your Auction Chant",
+            "attribute": "Chant Structure Basics",
             "left": "Building Your Auction Chant: Develop and practice your auction chant (p. 34).",
-            "right": "Step 1 - Practice Chant with Buddy: Cross-check your Developing & Performing an Auction Chant technique, measurements, and results (p. 30)."
+            "right": "Practice Chant with Buddy: Cross-check your Developing & Performing an Auction Chant technique, measurements, and results (p. 30)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Filler Word Purpose",
             "left": "Unit Meeting Chant Performance: Perform the auction chant for your counselor and at a unit meeting (p. 34).",
-            "right": "Step 2 - Perform Chant for Counselor: Review your completed Developing & Performing an Auction Chant evidence and demonstrate proficiency during your counselor conference (p. 30)."
+            "right": "Perform Chant for Counselor: Review your completed Developing & Performing an Auction Chant evidence and demonstrate proficiency during your counselor conference (p. 30)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Diaphragmatic Breath Control",
             "left": "Patrol Buddy Chant Critique: Cross-check your Developing & Performing an Auction Chant technique, measurements, and results (p. 30).",
-            "right": "Step 3 - Master Numbers and Filler Words: For Auctioneering Requirement 6 (Develop and Practice Your Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 34)."
+            "right": "Master Numbers and Filler Words: For Auctioneering Requirement 6 (Develop and Practice Your Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 34)."
           }
         ]
       },
       "worked_example": {
-        "title": "Auctioneering Req 6 Exemplar Workbook Entry: Developing and Performing the Chant",
+        "title": "Auctioneering Req 6 Exemplar Workbook Entry: Developing",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Building Your Auction Chant": "Develop and practice your auction chant (p. 34).",
@@ -1428,8 +1534,34 @@
       "pamphlet_summary": "The auction chant, or bid call, blends rapid number pronunciation with rhythmic filler words to maintain pacing and clear price progression. Mastering the chant requires consistent diaphragm breathing, tongue twisters, number drills, and steady articulation without straining vocal cords.",
       "socratic_questions": [
         "Why is rhythmic vocal clarity far more important for an auctioneer than sheer speaking speed?",
-        "How do rhythmic filler words help bidders process changing numbers during an intense bidding war?",
-        "What physiological techniques prevent an auctioneer from losing their voice during a multi hour session?"
+        "In what specific ways do rhythmic filler words help bidders process changing numbers during an intense bidding war?",
+        "What physiological techniques prevent an auctioneer from losing their voice during a multi hour session?",
+        "What happens to bidder comprehension if your filler words overshadow the have-and-want numbers in your chant?",
+        "Which breathing technique from the diaphragm prevents vocal cord strain during a fast, rhythmic bid call?",
+        "Why should you master counting brackets like quarters and halves cleanly before adding speed or filler words?",
+        "What microphone distance and posture keep your voice clear and distortion-free during your unit meeting performance?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "An auctioneer chants rapidly solely to confuse bidders into bidding higher than they intended.",
+          "fact": "The chant establishes a rhythmic, clear cadence that communicates current bids and next asking prices transparently."
+        },
+        {
+          "misconception": "The most important measure of a skilled auction chant is speaking as fast as humanly possible without taking a breath.",
+          "fact": "Clarity, rhythm, and distinct pronunciation of the current bid and the asking increment matter far more than raw speaking speed."
+        },
+        {
+          "misconception": "An auction chant consists of random fast syllables designed to confuse buyers into bidding more than they intended.",
+          "fact": "Every professional chant repeats two clear numbers, the bid currently held and the next bid requested, linked by rhythmic filler words."
+        },
+        {
+          "misconception": "Shouting from the throat is the best way to project an auction chant across a noisy room when no microphone is available.",
+          "fact": "Throat shouting strains vocal cords quickly, so auctioneers use diaphragmatic breathing, proper posture, and vocal warm-ups to project."
+        },
+        {
+          "misconception": "Once an auctioneer starts calling bids in hundred-dollar increments, they cannot reduce the increment for the rest of the lot.",
+          "fact": "Auctioneers adjust bid increments downward to halves or quarters as bidding slows to capture the maximum final price from the crowd."
+        }
       ]
     },
     {
@@ -1476,9 +1608,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A unit auction can be run spontaneously without preparing catalog sheets or registering numbered bidder paddles.",
-        "fact": "Careful pre-auction cataloging and assigned bidder paddles are essential to prevent disputes over who placed winning bids.",
-        "myth": "A unit auction can be run spontaneously without preparing catalog sheets or registering numbered bidder paddles.",
-        "fact_correction": "Careful pre-auction cataloging and assigned bidder paddles are essential to prevent disputes over who placed winning bids."
+        "fact": "Careful pre-auction cataloging and assigned bidder paddles are essential to prevent disputes over who placed winning bids."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1515,38 +1645,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Pre-Auction Lot Cataloging and Setup",
-        "right_header": "Sale-Day Bidding and Checkout",
+        "left_header": "Req 7: End-to-End Unit Auction Plan",
+        "right_header": "Req 7: Present Completed Auction Plan",
         "left_points": [
           "End-to-End Unit Auction Plan: Plan a simple live or online auction at your unit meeting and document the steps from start to finish (p. 40).",
           "Peer Review of Event Plan: Cross-check your Planning & Running a Unit Auction Event technique, measurements, and results with a patrol (p. 34).",
           "Counselor Event Plan Review: Review your completed Planning & Running a Unit Auction Event evidence and demonstrate proficiency during your counselor conference (p. 34)."
         ],
         "right_points": [
-          "Step 1 - Present Completed Auction Plan: Review your completed Planning & Running a Unit Auction Event evidence and demonstrate proficiency during your counselor conference (p. 34).",
-          "Step 2 - Verify Event Plan Completeness: Cross-check every sub-requirement of Requirement 7 (Simple Live or Online Auction) against the Scouting America Auctioneering pamphlet standard (p. 40).",
-          "Step 3 - Outline Cataloging and Rules: For Auctioneering Requirement 7 (Simple Live or Online Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 40)."
+          "Present Completed Auction Plan: Review your completed Planning & Running a Unit Auction Event evidence and demonstrate proficiency during your counselor conference (p. 34).",
+          "Verify Event Plan Completeness: Cross-check every sub-requirement of Requirement 7 (Simple Live or Online Auction) against the Scouting America Auctioneering pamphlet standard (p. 40).",
+          "Outline Cataloging and Rules: For Auctioneering Requirement 7 (Simple Live or Online Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 40)."
         ],
         "rows": [
           {
-            "attribute": "End-to-End Unit Auction Plan",
+            "attribute": "Item Catalog Intake",
             "left": "End-to-End Unit Auction Plan: Plan a simple live or online auction at your unit meeting and document the steps from start to finish (p. 40).",
-            "right": "Step 1 - Present Completed Auction Plan: Review your completed Planning & Running a Unit Auction Event evidence and demonstrate proficiency during your counselor conference (p. 34)."
+            "right": "Present Completed Auction Plan: Review your completed Planning & Running a Unit Auction Event evidence and demonstrate proficiency during your counselor conference (p. 34)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Bidder Paddle Issuance",
             "left": "Peer Review of Event Plan: Cross-check your Planning & Running a Unit Auction Event technique, measurements, and results with a patrol (p. 34).",
-            "right": "Step 2 - Verify Event Plan Completeness: Cross-check every sub-requirement of Requirement 7 (Simple Live or Online Auction) against the Scouting America Auctioneering pamphlet standard (p. 40)."
+            "right": "Verify Event Plan Completeness: Cross-check every sub-requirement of Requirement 7 (Simple Live or Online Auction) against the Scouting America Auctioneering pamphlet standard (p. 40)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Clerk Ledger Maintenance",
             "left": "Counselor Event Plan Review: Review your completed Planning & Running a Unit Auction Event evidence and demonstrate proficiency during your counselor conference (p. 34).",
-            "right": "Step 3 - Outline Cataloging and Rules: For Auctioneering Requirement 7 (Simple Live or Online Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 40)."
+            "right": "Outline Cataloging and Rules: For Auctioneering Requirement 7 (Simple Live or Online Auction), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 40)."
           }
         ]
       },
       "worked_example": {
-        "title": "Auctioneering Req 7 Exemplar Workbook Entry: Planning a Unit Auction Event",
+        "title": "Auctioneering Req 7 Exemplar Workbook Entry: Planning",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "End-to-End Unit Auction Plan": "Plan a simple live or online auction at your unit meeting and document the steps from start to finish (p. 40).",
@@ -1594,7 +1724,33 @@
       "socratic_questions": [
         "What steps prevent confusion when two bidders claim to have offered the exact same bid?",
         "How does keeping a dual record between the clerk and cashier protect against financial bookkeeping errors?",
-        "What ground rules must be announced before opening bidding to ensure fairness for every participant?"
+        "What ground rules must be announced before opening bidding to ensure fairness for every participant?",
+        "What details must appear in your lot catalog before you open the preview period at your unit meeting auction?",
+        "Why must you announce the terms of sale, payment rules, and bid increments before calling the very first lot?",
+        "Which reconciliation check verifies that your clerk's lot log matches the cashier's total at the end of the meeting?",
+        "Where should display tables and bidder chairs be placed to keep aisles clear and every bid card visible to the block?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A unit auction can be run spontaneously without preparing catalog sheets or registering numbered bidder paddles.",
+          "fact": "Careful pre-auction cataloging and assigned bidder paddles are essential to prevent disputes over who placed winning bids."
+        },
+        {
+          "misconception": "Planning a unit auction only requires bringing a gavel to the meeting and asking Scouts to empty their pockets for items.",
+          "fact": "A complete auction plan covers sourcing items, tagging lots, registering bidders with paddles, announcing rules, clerking, and checkout."
+        },
+        {
+          "misconception": "Allowing bidders to shout out offers without registered bidder numbers makes checkout faster at a small unit auction.",
+          "fact": "Numbered bid cards let the auctioneer and clerk identify winning buyers accurately and prevent disputes when items are paid for and picked up."
+        },
+        {
+          "misconception": "Bidders do not need time to inspect the items before the auction starts if the auctioneer holds each item up on stage.",
+          "fact": "A scheduled preview period lets buyers examine item condition closely, which builds buyer confidence and leads to stronger bidding."
+        },
+        {
+          "misconception": "Clerks can wait until all items are sold before writing down who bought each lot and what price they agreed to pay.",
+          "fact": "The clerk must record the lot number, winning bidder number, and final hammer price immediately after each gavel drop to avoid errors."
+        }
       ]
     },
     {
@@ -1641,9 +1797,7 @@
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
             "misconception": "Auction schools only teach students how to speak fast into a microphone.",
-            "fact": "Curricula cover Uniform Commercial Code, escrow trust accounting, business law, marketing, and asset appraisal.",
-            "myth": "Auction schools only teach students how to speak fast into a microphone.",
-            "fact_correction": "Curricula cover Uniform Commercial Code, escrow trust accounting, business law, marketing, and asset appraisal."
+            "fact": "Curricula cover Uniform Commercial Code, escrow trust accounting, business law, marketing, and asset appraisal."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1709,9 +1863,7 @@
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
             "misconception": "Auctioneer licenses issued in one state automatically permit unrestricted sales in all other states.",
-            "fact": "Auctioneers must verify reciprocity agreements or obtain separate licenses in each state where they conduct sales.",
-            "myth": "Auctioneer licenses issued in one state automatically permit unrestricted sales in all other states.",
-            "fact_correction": "Auctioneers must verify reciprocity agreements or obtain separate licenses in each state where they conduct sales."
+            "fact": "Auctioneers must verify reciprocity agreements or obtain separate licenses in each state where they conduct sales."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1777,9 +1929,7 @@
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
             "misconception": "Every auctioneer operates as a generalist selling mixed boxes of everyday secondhand merchandise.",
-            "fact": "Top auctioneers specialize in high value niches like classic automobiles, purebred cattle, or heavy construction equipment.",
-            "myth": "Every auctioneer operates as a generalist selling mixed boxes of everyday secondhand merchandise.",
-            "fact_correction": "Top auctioneers specialize in high value niches like classic automobiles, purebred cattle, or heavy construction equipment."
+            "fact": "Top auctioneers specialize in high value niches like classic automobiles, purebred cattle, or heavy construction equipment."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1850,9 +2000,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Anyone who can speak quickly can legally set up an auction business without schooling or licensing.",
-        "fact": "Most jurisdictions mandate formal auction school graduation, state board licensing examinations, surety bonding, and strict ethical compliance.",
-        "myth": "Anyone who can speak quickly can legally set up an auction business without schooling or licensing.",
-        "fact_correction": "Most jurisdictions mandate formal auction school graduation, state board licensing examinations, surety bonding, and strict ethical compliance."
+        "fact": "Most jurisdictions mandate formal auction school graduation, state board licensing examinations, surety bonding, and strict ethical compliance."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1889,8 +2037,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8A: Auction School Curriculum Standard",
-        "right_header": "Req 8B: State Auctioneer Licensing Require",
+        "left_header": "Req 8A: Auction School Curriculum",
+        "right_header": "Req 8B: State Auctioneer Licensing",
         "left_points": [
           "(8A) Auction School Curriculum Standards: Accredited auction schools provide intensive courses in chant mechanics, contract drafting, public speaking, and commercial valuation. Students complete simulated sales to build confidence under real time pressure."
         ],
@@ -1899,29 +2047,29 @@
         ],
         "rows": [
           {
-            "attribute": "Accredited Auction Schools",
-            "left": "(8A) Accredited Auction Schools: Auction schools, licensing, and careers, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 46).",
-            "right": "(8B) State Licensing Requirements: Future Career Paths (p. 46)."
+            "attribute": "Youth Entry Opportunities",
+            "left": "(8A) Auction School Curriculum Standards: Accredited auction schools provide intensive courses in chant mechanics, contract drafting, public speaking, and commercial valuation. Students complete simulated sales to build confidence under real time pressure.",
+            "right": "(8B) State Auctioneer Licensing Requirements: State licensing boards require prospective auctioneers to pass written tests on state statutes, complete apprenticeships, and obtain surety bonds. These regulations safeguard consumers against fraudulent consignment practices."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Long-Term Industry Careers: Future Career Paths (p. 46).",
-            "right": "(8C) Industry Career Pathways: Describe for your counselor the steps you can take to become involved in the auction industry, both as a youth and an adult (p. 46)."
+            "attribute": "Auction School Curriculum",
+            "left": "Req 8A: Auction School Curriculum: Accredited auction schools provide intensive courses in chant mechanics, contract drafting, public speaking, and commercial valuation. Students complete simulated sales to build confidence under real time pressure.",
+            "right": "Req 8B: State Auctioneer Licensing: State licensing boards require prospective auctioneers to pass written tests on state statutes, complete apprenticeships, and obtain surety bonds. These regulations safeguard consumers against fraudulent consignment practices."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Youth and Adult Entry Steps: Describe for your counselor the steps you can take to become involved in the auction industry, both as a youth and an adult (p. 46).",
-            "right": "Step 3 - Present Career Plan to Counselor: Review your completed Careers and Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 38)."
+            "attribute": "Licensing Statute Compliance",
+            "left": "Req 8C: Auction Industry Career: Auctioneers can pursue diverse career paths specializing in commercial real estate, thoroughbred livestock, collector automobiles, or government asset disposition. Advanced credentials from professional associations enhance credibility.",
+            "right": "Auction School Curriculum: Accredited auction schools teach bid calling, auction law, appraisal methodology, marketing, and ethical standards."
           }
         ]
       },
       "worked_example": {
-        "title": "Auctioneering Req 8 Exemplar Workbook Entry: Auction Schools, Licensing, and Careers",
+        "title": "Auctioneering Req 8 Exemplar Workbook Entry: Auction",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 8A - Auction School Curriculum Standar": "Accredited auction schools provide intensive courses in chant mechanics, contract drafting, public speaking, and commercial valuation. Students complete simulated sales to build confidence under real time pressure.",
-          "Req 8B - State Auctioneer Licensing Requir": "State licensing boards require prospective auctioneers to pass written tests on state statutes, complete apprenticeships, and obtain surety bonds. These regulations safeguard consumers against fraudulent consignment practices.",
-          "Req 8C - Auction Industry Career Specializ": "Auctioneers can pursue diverse career paths specializing in commercial real estate, thoroughbred livestock, collector automobiles, or government asset disposition. Advanced credentials from professional associations enhance credibility."
+          "Req 8A - Auction School Curriculum": "Accredited auction schools provide intensive courses in chant mechanics, contract drafting, public speaking, and commercial valuation. Students complete simulated sales to build confidence under real time pressure.",
+          "Req 8B - State Auctioneer Licensing": "State licensing boards require prospective auctioneers to pass written tests on state statutes, complete apprenticeships, and obtain surety bonds. These regulations safeguard consumers against fraudulent consignment practices.",
+          "Req 8C - Auction Industry Career": "Auctioneers can pursue diverse career paths specializing in commercial real estate, thoroughbred livestock, collector automobiles, or government asset disposition. Advanced credentials from professional associations enhance credibility."
         },
         "sample_output": "Auction Schools, Licensing, and Careers: Auction schools, licensing, and careers, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 46).",
         "counselor_tip": "For Auctioneering Requirement 8 (Auction Schools, Licensing, and Careers), verify the Scout's own observations and specific pamphlet details (Auctioneering Test Lab Resource Guide, pp. 46-51)."
@@ -1963,7 +2111,33 @@
       "socratic_questions": [
         "Why do state governments impose licensing and surety bonding requirements on professional practicing auctioneers?",
         "How does formal coursework at an auction school prepare students for legal and ethical challenges?",
-        "Which auction specialization area, such as real estate or fine art, aligns best with your interests?"
+        "Which auction specialization area, such as real estate or fine art, aligns best with your interests?",
+        "Which entry-level tasks can a youth legally perform at a local auction house before reaching the minimum licensing age?",
+        "What state licensing requirements, such as training hours, exams, or surety bonds, apply to auctioneers in your state?",
+        "Beyond chant drills, what legal, ethical, and business subjects are taught at an accredited auctioneering school?",
+        "Which specialized designations from the National Auction Association prepare an auctioneer for niche career paths?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Anyone who can speak quickly can legally set up an auction business without schooling or licensing.",
+          "fact": "Most jurisdictions mandate formal auction school graduation, state board licensing examinations, surety bonding, and strict ethical compliance."
+        },
+        {
+          "misconception": "Youth under age eighteen are barred from working in any role at an auction company until they earn a state license.",
+          "fact": "Youth can gain hands-on experience by cataloging inventory, photographing lots, assisting ringmen, clerking, and helping at charity sales."
+        },
+        {
+          "misconception": "Every state in the United States uses the exact same national auctioneer license and requires no local bond or exam.",
+          "fact": "Auctioneer licensing is regulated at the state or local level, with varying rules for minimum age, school hours, exams, and surety bonds."
+        },
+        {
+          "misconception": "Auction school teaches only fast talking and breathing drills, leaving graduates to learn business law on their own.",
+          "fact": "Accredited auction schools teach Uniform Commercial Code law, contract writing, ethics, accounting, marketing, and asset appraisal."
+        },
+        {
+          "misconception": "Professional auctioneers only work at rural livestock barns or estate tag sales and have few specialized career options.",
+          "fact": "Career paths span commercial real estate, wholesale auto auctions, fundraising benefits, heavy equipment, fine art, and online platforms."
+        }
       ]
     },
     {
@@ -2005,9 +2179,7 @@
       },
       "common_misconception_pair": {
         "misconception": "The merit badge survey is an optional test where answers are graded as right or wrong.",
-        "fact": "The survey is a constructive feedback tool used by curriculum developers to improve future badge materials.",
-        "myth": "The merit badge survey is an optional test where answers are graded as right or wrong.",
-        "fact_correction": "The survey is a constructive feedback tool used by curriculum developers to improve future badge materials."
+        "fact": "The survey is a constructive feedback tool used by curriculum developers to improve future badge materials."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2044,38 +2216,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Provisional Test Lab Badge Trial",
-        "right_header": "Permanent Official Merit Badge Adoption",
+        "left_header": "Req 9: Completing the Test Lab Survey",
+        "right_header": "Req 9: Confirm Survey Completion",
         "left_points": [
           "Completing the Test Lab Survey: Complete the survey below to complete the test lab requirements (p. 52).",
           "Test Lab Feedback and Evaluation: Review the Auctioneering pamphlet standards for test lab feedback and evaluation, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 42).",
           "Final Counselor Sign: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 42)."
         ],
         "right_points": [
-          "Step 1 - Confirm Survey Completion with Counselor: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 42).",
-          "Step 2 - Verify All Test Lab Requirements: Cross-check every sub-requirement of Requirement 9 (Survey Below) against the Scouting America Auctioneering pamphlet standard (p. 52).",
-          "Step 3 - Review Test Lab Evaluation Goals: For Auctioneering Requirement 9 (Survey Below), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 52)."
+          "Confirm Survey Completion with Counselor: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 42).",
+          "Verify All Test Lab Requirements: Cross-check every sub-requirement of Requirement 9 (Survey Below) against the Scouting America Auctioneering pamphlet standard (p. 52).",
+          "Review Test Lab Evaluation Goals: For Auctioneering Requirement 9 (Survey Below), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 52)."
         ],
         "rows": [
           {
-            "attribute": "Completing the Test Lab Survey",
+            "attribute": "Program Evaluation Purpose",
             "left": "Completing the Test Lab Survey: Complete the survey below to complete the test lab requirements (p. 52).",
-            "right": "Step 1 - Confirm Survey Completion with Counselor: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 42)."
+            "right": "Confirm Survey Completion with Counselor: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 42)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Skill Mastery Reflection",
             "left": "Test Lab Feedback and Evaluation: Review the Auctioneering pamphlet standards for test lab feedback and evaluation, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 42).",
-            "right": "Step 2 - Verify All Test Lab Requirements: Cross-check every sub-requirement of Requirement 9 (Survey Below) against the Scouting America Auctioneering pamphlet standard (p. 52)."
+            "right": "Verify All Test Lab Requirements: Cross-check every sub-requirement of Requirement 9 (Survey Below) against the Scouting America Auctioneering pamphlet standard (p. 52)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Counselor Interaction Assessment",
             "left": "Final Counselor Sign: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 42).",
-            "right": "Step 3 - Review Test Lab Evaluation Goals: For Auctioneering Requirement 9 (Survey Below), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 52)."
+            "right": "Review Test Lab Evaluation Goals: For Auctioneering Requirement 9 (Survey Below), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 52)."
           }
         ]
       },
       "worked_example": {
-        "title": "Auctioneering Req 9 Exemplar Workbook Entry: Test Lab Feedback and Evaluation",
+        "title": "Auctioneering Req 9 Exemplar Workbook Entry: Test Lab",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Completing the Test Lab Survey": "Complete the survey below to complete the test lab requirements (p. 52).",
@@ -2123,7 +2295,33 @@
       "socratic_questions": [
         "Which aspect of the auctioneering badge proved more challenging than you initially expected?",
         "How did conducting a mock auction improve your public speaking and leadership confidence?",
-        "What constructive suggestions would you offer to help future Scouts learn the auction chant?"
+        "What constructive suggestions would you offer to help future Scouts learn the auction chant?",
+        "What happens to a Scout's Test Lab completion record if the feedback survey is skipped after the mock auction?",
+        "Which specific details distinguish actionable Test Lab requirement feedback from a generic comment about enjoying bid calling?",
+        "What logged evidence from your mock auction clerking sheet helps you rate each requirement on the survey?",
+        "Where should a Scout document hazards encountered with PA audio levels or crowd flow during the Test Lab feedback review?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "The merit badge survey is an optional test where answers are graded as right or wrong.",
+          "fact": "The survey is a constructive feedback tool used by curriculum developers to improve future badge materials."
+        },
+        {
+          "misconception": "Completing the Test Lab survey automatically awards permanent rank credit even without a counselor's signed verification.",
+          "fact": "Scouts must finish all Auctioneering requirements with a registered counselor and submit the survey to earn Test Lab completion."
+        },
+        {
+          "misconception": "Negative ratings on the Auctioneering Test Lab survey lower a Scout's chance of earning the merit badge completion certificate.",
+          "fact": "Honest critiques of chant drills or catalog exercises help the national committee refine the requirements before official release."
+        },
+        {
+          "misconception": "A registered Merit Badge Counselor can submit the Test Lab feedback form on behalf of an entire patrol using one summary entry.",
+          "fact": "Each Scout must submit an individual survey response reflecting their own hands-on experience with bid calling and lot cataloging."
+        },
+        {
+          "misconception": "Test Lab Auctioneering requirements are permanently locked into the official Scouts BSA pamphlet before the survey period closes.",
+          "fact": "Scout and counselor survey responses directly determine whether the Test Lab badge becomes an official merit badge or is revised."
+        }
       ]
     }
   ],

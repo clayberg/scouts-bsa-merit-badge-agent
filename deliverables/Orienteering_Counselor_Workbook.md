@@ -1,8 +1,8 @@
 # Orienteering Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/orienteering/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/orienteering/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -29,9 +29,9 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, scratches, blisters, snakebite, insect stings, tick bites, heat and cold reactions (sunburn, heatstroke, heat exhaustion, hypothermia), dehydration. Explain to your counselor why you should be able to identify poisonous plants and poisonous animals that are found in your area.
-- [ ] **Station Req 3:** Do the following: (a) Explain how a compass works. Describe the features of an orienteering compass. (b) In the field, show how to take a compass bearing and follow it.
-- [ ] **Station Req 4:** Do the following: (a) Explain how a topographic map shows terrain features. Point out and name five terrain features on a map and in the field. (b) Point out and name 10 symbols on a topographic map. (c) Explain the meaning of declination. Tell why you must consider declination when using map and compass together. (d) Show a topographic map with magnetic north-south lines. (e) Show how to measure distances on a map using an orienteering compass. (f) Show how to orient a map using a compass.
+- [ ] **Station Req 1:** Scout must individually show mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually demonstrate mastery of Requirement 4 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -43,10 +43,10 @@
 - **Pamphlet Fact:** Pressure immobilization bandages and prompt evacuation supersede obsolete incision or suction treatments for envenomation.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![Illustrated panels show map and compass navigation, course running, control point punching, and trail first aid preparedness.](/assets/ai_illustrations/orienteering_req_1_nano_hero.png)
 
@@ -372,10 +372,10 @@
 - **Pamphlet Fact:** Cross country orienteering requires visiting flags in predetermined numerical sequence without skipping any checkpoints.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![A competitor punches an electronic timing stick into a control marker station on course.](/assets/pamphlet_images/orienteering_p028_img1.png)
 

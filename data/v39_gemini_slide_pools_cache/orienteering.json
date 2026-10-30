@@ -1,0 +1,275 @@
+{
+  "badge_slug": "orienteering",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Incising or sucking a snakebite damages tissue and risks infection; keep the limb immobilized below heart level and evacuate.",
+          "misconception": "Cutting across snakebite fang marks and sucking out the venom stops toxin spread in the field."
+        },
+        {
+          "fact": "Suffocating or heating a tick makes it regurgitate infectious fluids into the wound; pull it straight out with fine tweezers.",
+          "misconception": "Smothering an attached tick with petroleum jelly or heat forces it to back out safely on its own."
+        },
+        {
+          "fact": "Intact blister skin forms a sterile barrier against bacteria, so leave small blisters unbroken and pad them with moleskin.",
+          "misconception": "Popping every friction blister on the trail immediately relieves pressure and speeds skin healing."
+        },
+        {
+          "fact": "Altered mental status and hot skin signal heatstroke, a medical emergency requiring rapid external cooling and immediate EMS.",
+          "misconception": "A runner who stops sweating and becomes confused on a hot course only needs shade and cold water."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should fine-tipped tweezers grasp an embedded tick so its mouthparts release cleanly without squeezing the body?",
+        "Which physical indicator distinguishes life-threatening heatstroke from heat exhaustion during a warm-weather course?",
+        "What specific details about a snakebite and its timing should a buddy record before evacuating a runner to medical care?",
+        "Why is it dangerous to bushwhack through dense brush on an off-trail leg without recognizing local poisonous plants?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Orienteering rewards route choice and map reading across unmarked terrain, where a slower, accurate navigator beats a lost sprinter.",
+          "misconception": "Orienteering races are won by the fastest sprinter following a marked trail from start to finish."
+        },
+        {
+          "fact": "Cross-country courses require visiting controls in exact numerical order, whereas score events allow choosing points freely.",
+          "misconception": "Competitors in a standard cross-country event may visit the numbered control flags in any sequence."
+        },
+        {
+          "fact": "Traditional foot orienteering prohibits GPS navigation aids, requiring competitors to rely solely on a map and magnetic compass.",
+          "misconception": "Handheld GPS receivers and smartphone mapping apps are standard navigation tools in foot orienteering."
+        },
+        {
+          "fact": "Every competitor must report to the finish table even when abandoning a course so organizers do not launch a search party.",
+          "misconception": "A runner who retires early from an orienteering course can head straight to camp without checking in."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What sequence of map and compass actions allows a competitor to navigate between control points in unfamiliar terrain?",
+        "What rules distinguish a cross-country point-to-point orienteering event from a timed score orienteering competition?",
+        "What verification mechanism on a control punch or electronic finger stick proves a runner visited each marker in order?",
+        "Why must every runner know the safety bearing and course closure time before leaving the start triangle?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The magnetized needle aligns with Earth's magnetic field lines and points toward Magnetic North rather than geographic True North.",
+          "misconception": "The red end of a magnetic compass needle points directly toward the geographic North Pole on a map."
+        },
+        {
+          "fact": "Staring at the compass causes lateral drift and tripping hazards; sight a distant landmark on the bearing and walk to that point.",
+          "misconception": "Walking while staring continuously down at the compass dial is the most accurate way to hold a bearing."
+        },
+        {
+          "fact": "The needle moves independently of the bezel and remains aligned with Magnetic North while you turn the housing to set degrees.",
+          "misconception": "Rotating the compass bezel changes the direction in which the magnetized needle points inside the capsule."
+        },
+        {
+          "fact": "Large bubbles can pin or deflect the lightweight magnetic needle on uneven ground, causing inaccurate degree readings in the field.",
+          "misconception": "A large air bubble inside the liquid-filled compass housing has no effect on taking accurate bearings."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a Scout position the baseplate direction-of-travel arrow while rotating the body to put red in the shed?",
+        "What functional difference separates the rotating azimuth housing dial from the magnetized needle suspended in liquid?",
+        "What intermediate landmark method keeps you on a degree bearing when trees block your direct line of sight?",
+        "What happens to the magnetic needle reading if you hold your baseplate compass next to a steel belt buckle or phone?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Contour V-shapes in a valley or stream drainage always point upstream toward higher elevation, opposite the flow of water.",
+          "misconception": "V-shaped contour lines that cross a stream always point downstream in the direction of water flow."
+        },
+        {
+          "fact": "Earth's magnetic poles shift over time, so navigators must check the map date and update declination on older USGS quadrangles.",
+          "misconception": "Magnetic declination stays constant forever on a printed topographic map regardless of publication year."
+        },
+        {
+          "fact": "Dedicated orienteering maps are printed with meridian lines already aligned to Magnetic North, eliminating declination math.",
+          "misconception": "Orienteering maps and standard USGS topographic maps both require manual degree calculations for declination."
+        },
+        {
+          "fact": "Wide spacing between contour lines represents gentle or flat terrain, whereas tightly packed or touching contours show steep slopes.",
+          "misconception": "Widely spaced brown contour lines on a topographic map indicate a steep cliff or vertical rock face."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which direction do V-shaped contour lines point when they cross a creek or drainage draw on a topographic map?",
+        "What visual difference on a topographic map separates an enclosed hilltop contour loop from a depression contour?",
+        "What paper-strip technique measures the true curved trail distance between two points against the map bar scale?",
+        "What lateral position error occurs over one kilometer if you ignore a 15-degree declination on a USGS quad map?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A standard orienteering pace is a double step counted each time the same foot hits the ground, keeping numbers smaller and easier.",
+          "misconception": "One pace in orienteering distance measurement equals a single step taken by either the left or right foot."
+        },
+        {
+          "fact": "Slopes, mud, and undergrowth shorten stride length, requiring more double-step paces to cover 100 meters of horizontal map distance.",
+          "misconception": "A Scout's 100-meter pace count measured on a flat paved track stays identical in steep or marshy woods."
+        },
+        {
+          "fact": "Running lengthens your stride, so your running pace count for 100 meters is lower than your walking pace count over flat ground.",
+          "misconception": "Running a 100-meter leg requires the exact same number of double-step paces as walking the same distance."
+        },
+        {
+          "fact": "A pace course must be laid out with a surveyor's tape or verified 100-meter track so stride errors do not compound across legs.",
+          "misconception": "Measuring a 100-meter calibration course by estimating steps from another Scout is accurate enough for events."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why do orienteers count every time the same foot strikes the ground rather than counting every individual step?",
+        "What happens to your 100-meter pace count when you transition from walking on a flat track to running uphill?",
+        "What averaging method across multiple out-and-back runs on a 100-meter tape produces a reliable personal pace table?",
+        "Why is a calibrated pace count essential when navigating toward a subtle control in low-visibility forest terrain?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Column A shows the sequential control order, while Column B gives the unique identification code printed on the field marker flag.",
+          "misconception": "The number printed in Column B of a control description sheet matches the sequential order of the control."
+        },
+        {
+          "fact": "Aiming off intentionally biases your bearing left or right of the target so you know which way to turn upon hitting the line feature.",
+          "misconception": "Aiming off means sighting your compass directly at a point feature on a trail and hoping not to drift."
+        },
+        {
+          "fact": "A catching feature is a large linear barrier located past the control that alerts a runner they have overshot the target zone.",
+          "misconception": "A catching feature is a prominent landmark located right in front of the control that leads you into it."
+        },
+        {
+          "fact": "IOF control descriptions use standardized pictorial symbols in columns so competitors speaking any language get identical clues.",
+          "misconception": "International control description sheets use written English sentences so only English speakers can read them."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a runner aim when using aiming off to hit a stream-junction control located along a linear trail?",
+        "What tactical role separates a collecting feature used on approach from a catching feature beyond the control?",
+        "Which columns on an IOF control description sheet specify the exact feature and the flag position on that feature?",
+        "Under what terrain condition does contour-lining around a steep spur save more energy than climbing straight over?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A post-event route map must trace the exact trails, contours, and errors you actually traveled so you can analyze time losses.",
+          "misconception": "Drawing straight lines between control circles on your post-race map accurately represents the route you ran."
+        },
+        {
+          "fact": "Scouting America Youth Protection rules require the buddy system, so Scouts complete requirement 7a in pairs or small groups.",
+          "misconception": "Scouts must run completely alone in the woods to satisfy the three-event requirement for the Orienteering badge."
+        },
+        {
+          "fact": "Steep climbs, marshes, and thick green vegetation slow runners down, making a longer trail or contour route faster overall.",
+          "misconception": "The shortest straight-line path drawn in purple between two controls is always the fastest route on the ground."
+        },
+        {
+          "fact": "Effective post-race reports isolate navigation mistakes such as parallel errors, missed attack points, or poor exit bearings.",
+          "misconception": "Blaming slow overall times on running speed alone is enough analysis for an orienteering post-event report."
+        }
+      ],
+      "extra_socratic_questions": [
+        "When should you draw your actual route on the competition map so you do not forget detours or hesitation points?",
+        "What split-time evidence distinguishes a poor strategic route choice from a technical compass execution error?",
+        "What specific leg-by-leg notes in your post-event report reveal why a longer trail route beat a straight bushwhack?",
+        "What buddy-system roles keep two Scouts together on a cross-country course while sharing map and compass duties?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Orienteering tests navigation rather than hide-and-seek, so flags must be visible once a runner reaches the described feature.",
+          "misconception": "Good orienteering control placement means hiding the orange-and-white flag inside bushes so runners must search."
+        },
+        {
+          "fact": "Score courses assign higher point values to distant or technically difficult controls to create strategic route-planning tradeoffs.",
+          "misconception": "All 12 controls on a score orienteering course should receive the exact same point value regardless of distance."
+        },
+        {
+          "fact": "Official cross-country course length is measured as the sum of straight-line distances from the start through each control to finish.",
+          "misconception": "Course length for a 2,000-meter cross-country event is measured along the longest possible trail detour route."
+        },
+        {
+          "fact": "Course planners must vet every control site in the field to confirm map accuracy, vegetation changes, and safe footing.",
+          "misconception": "Desktop map work alone is sufficient to finalize a master map and control description sheet before an event."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What field-vetting step ensures each control flag hangs on the exact feature shown on the master map?",
+        "What design goal separates assigning point values on a 12-control score course from ordering a 2,000-meter course?",
+        "What map scale calculation confirms your five-control cross-country course meets the 2,000-meter minimum length?",
+        "Why must a course planner avoid placing control legs that tempt runners to cross cliffs, deep water, or busy roads?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Staggering start times by one to three minutes prevents runners from following each other and preserves solo navigation.",
+          "misconception": "Starting all competitors in the same class at once speeds up course administration without affecting navigation."
+        },
+        {
+          "fact": "Finish officials must match each unique pin-punch pattern in the exact numbered box sequence against the master control card.",
+          "misconception": "Counting the total number of pin holes on a control card is enough to verify that a runner completed a cross-country course."
+        },
+        {
+          "fact": "Every starter must check in at the finish table even when retiring early so officials do not launch an overdue-runner search.",
+          "misconception": "Runners who abandon a course early due to fatigue or injury can return straight to camp without visiting the finish table."
+        },
+        {
+          "fact": "Master maps belong 20 to 50 meters past the start line so route copying and planning occur on the competitor's running time.",
+          "misconception": "Placing the master maps directly at the start line allows runners to copy control circles before their clock begins."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to course fairness if the starter releases two runners on the same course less than two minutes apart?",
+        "Under what condition does a finish official classify a runner's control card as Did Not Finish instead of a mispunch?",
+        "What calculation confirms a competitor's net elapsed time when reconciling the finish clock against the start list?",
+        "Why is it dangerous to close the finish table before matching every registration stub against returned control cards?"
+      ],
+      "req_id": "9"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Measuring a map bearing with a baseplate compass uses the map's meridian lines as a protractor regardless of how the sheet lies.",
+          "misconception": "A topographic map must be oriented to magnetic north before you can measure a protractor bearing between two map points."
+        },
+        {
+          "fact": "Orienteers count double paces every time the same foot strikes the ground to halve the mental tally and reduce counting errors.",
+          "misconception": "Counting every single footstep is more accurate than counting every second step when measuring distance over rough ground."
+        },
+        {
+          "fact": "Aiming deliberately a few degrees left or right of the target guarantees you know which direction to turn upon hitting the stream.",
+          "misconception": "Aiming dead center at a stream junction gives a beginner the fastest recovery if compass drift occurs in thick woods."
+        },
+        {
+          "fact": "Folding the map small and pinning your thumb on your current position keeps eyes moving quickly between terrain and map symbols.",
+          "misconception": "Keeping the full map unfolded during a run helps beginners see the entire park and prevents them from losing their place."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a Scout position the compass baseplate edge on the map before rotating the capsule to align orienting lines?",
+        "Which map feature makes an effective catching feature behind a control versus an attack point in front of it?",
+        "What measurement confirms that a Scout's double-pace count is calibrated for both flat trails and steep uphill terrain?",
+        "Why is it dangerous to let Scouts practice taking magnetic bearings while leaning over a steel picnic table or belt buckle?"
+      ],
+      "req_id": "10"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # Gardening Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/gardening/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/gardening/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -50,7 +50,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Gardening Hazards and First Aid)
 - **Common Myth:** Thirst serves as the primary indicator for when a gardener should consume water outdoors.
-- **Pamphlet Fact:** Regular water consumption and broad brimmed hats prevent heat exhaustion before dehydration sets in.
+- **Pamphlet Fact:** Regular water consumption and broad brimmed hats prevent heat exhaustion before dehydration sets.
 
 ![Gardening Requirement 1 figure showing place garden rakes and hoes with tines pointed downward into soil.](/assets/pamphlet_images/gardening_p003_img1.png)
 
@@ -94,10 +94,10 @@
 - **Pamphlet Fact:** Tomato and pepper transplants require consistent root zone warmth above sixty degrees Fahrenheit.
 
 **Gear & Readiness Checklist:**
-- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide
-- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Flowers Three From Seeds
-- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
-- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
+- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
+- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Flowers Three From Seeds.
+- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools.
+- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card.
 
 ![Gardening Requirement 2 figure showing bury vegetable seeds at depth equal to three times their width.](/assets/pamphlet_images/gardening_p007_img1.png)
 
@@ -207,10 +207,10 @@
 - **Pamphlet Fact:** County extension agents analyze local soil chemistry and provide tailored crop recommendations for regional microclimates.
 
 **Gear & Readiness Checklist:**
-- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide
-- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for County Extension Office Local University
-- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
-- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
+- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
+- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for County Extension Office Local University.
+- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools.
+- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card.
 
 ![A beekeeper in protective clothing inspects honeycombs in a wooden hive box.](/assets/pamphlet_images/gardening_p089_img1.png)
 

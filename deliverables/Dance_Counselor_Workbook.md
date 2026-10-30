@@ -1,8 +1,8 @@
 # Dance Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Test%20Lab/Test%20Lab%20to%20Scouts%20BSA%20Merit%20Badges%20FAQs.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/skills/merit-badges/test-lab/dance/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/dance/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -26,8 +26,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Preventing Injury. Do the following: (a) Explain to your counselor how you can prevent injuries while participating in dancing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Explain what you need to take into consideration before trying potentially dangerous moves including but not limited to jumps, flips, and lifts. (b) Explain to your counselor how to appropriately warm-up prior to dancing activities to protect joints and prevent injury. Demonstrate three dance warm-ups. (c) Show that you know first aid for injuries that could occur while dancing, including cuts, scratches, abrasions, concussions, blisters, sprains, stress fractures, tendonitis, and back injuries. (d) Explain the importance of wearing the right clothing and gear for dance, including appropriate footwear.
-- [ ] **Station Req 5:** Learn and Perform a Dance. Do the following: (a) Learn a dance. Use at least THREE types of warm-ups prior to your routine to prepare different muscle groups for the exercise. The dance may be solo, group, or partner dance and can use a memorized choreographed routine or an improvised dance. It should be a minimum of 2 minutes long or several shorter dances that add up to at least 2 minutes. The dance should demonstrate at least three different dance moves/steps and should contain music with Scout-appropriate lyrics, if applicable. (b) Perform the dance for your counselor or submit a video of your performance to your counselor. Describe to your counselor what precautions you took to avoid injury before and during your performance. Name or describe the 3 different dance moves that you learned, the 3 different warm-ups you chose, and the 5 Elements of Dance in your routine.
+- [ ] **Station Req 1:** Scout must individually explain mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -439,9 +439,9 @@
 - **Pamphlet Fact:** Targeted warmups activate motor units and lubricate articular cartilage across specific targeted regions.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Dance Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Learn and Perform a Dance)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Learn and Perform a Dance
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Dance Merit Badge Pamphlet: Learn and Perform a Dance.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Learn and Perform a Dance.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Dance Requirement 5 figure showing breaking choreography into small musical counts ensures accurate technical memory retention.](/assets/pamphlet_images/dance_p005_img1.png)
 

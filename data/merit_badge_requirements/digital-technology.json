@@ -64,9 +64,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Digital safety guidelines only apply when connecting to public networks outside the home.",
-        "fact": "Viewing the training module with family members ensures household alignment on digital reporting rules.",
-        "myth": "Digital safety guidelines only apply when connecting to public networks outside the home.",
-        "fact_correction": "Viewing the training module with family members ensures household alignment on digital reporting rules."
+        "fact": "Viewing the training module with family members ensures household alignment on digital reporting rules."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -107,44 +105,44 @@
         "Step 4 - Completion Logging: Record the viewing date in your advancement book with your counselor."
       ],
       "gear_checklist": [
-        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 1",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Personal Digital Safety Awareness"
+        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 1.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Personal Digital Safety Awareness."
       ],
       "comparison_data": {
-        "left_header": "Safe Online Learning Practices",
-        "right_header": "Risky Unverified File Downloads",
+        "left_header": "Req 1: Online Safety Video Requirement",
+        "right_header": "Req 1: Locate the Parent Guide",
         "left_points": [
           "Online Safety Video Requirement: The Internet and the World Wide Web Stay Safe Online Learn about internet safety by viewing the Digital Safety video that is required for Scout rank (p. 63).",
           "Parent Guide Exercises: Before reviewing this video, Scouts should complete the exercises in the \"How to Protect Your Children from Child Abuse, A Parent's Guide\" pamphlet (p. 63).",
           "Handbook Pamphlet Location: This pamphlet can be found in the front of the Scouts BSA Handbook (p. 63)."
         ],
         "right_points": [
-          "Step 1 - Locate the Parent Guide: This pamphlet can be found in the front of the Scouts BSA Handbook (p. 63).",
-          "Step 2 - Explore Helpful Online Resources: You can find help with your hobbies and interests, learn all sorts of things, click your way to a wide world of instant information, and even read (p. 63).",
-          "Step 3 - Recognize Potential Internet Risks: Along with the convenience of the internet, however, comes some risk (p. 63)."
+          "Locate the Parent Guide: This pamphlet can be found in the front of the Scouts BSA Handbook (p. 63).",
+          "Explore Helpful Online Resources: You can find help with your hobbies and interests, learn all sorts of things, click your way to a wide world of instant information, and even read (p. 63).",
+          "Recognize Potential Internet Risks: Along with the convenience of the internet, however, comes some risk (p. 63)."
         ],
         "rows": [
           {
-            "attribute": "Online Safety Video Requirement",
+            "attribute": "Cyberbullying Reporting",
             "left": "Online Safety Video Requirement: The Internet and the World Wide Web Stay Safe Online Learn about internet safety by viewing the Digital Safety video that is required for Scout rank (p. 63).",
-            "right": "Step 1 - Locate the Parent Guide: This pamphlet can be found in the front of the Scouts BSA Handbook (p. 63)."
+            "right": "Locate the Parent Guide: This pamphlet can be found in the front of the Scouts BSA Handbook (p. 63)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Location Privacy",
             "left": "Parent Guide Exercises: Before reviewing this video, Scouts should complete the exercises in the \"How to Protect Your Children from Child Abuse, A Parent's Guide\" pamphlet (p. 63).",
-            "right": "Step 2 - Explore Helpful Online Resources: You can find help with your hobbies and interests, learn all sorts of things, click your way to a wide world of instant information, and even read (p. 63)."
+            "right": "Explore Helpful Online Resources: You can find help with your hobbies and interests, learn all sorts of things, click your way to a wide world of instant information, and even read (p. 63)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Password Security",
             "left": "Handbook Pamphlet Location: This pamphlet can be found in the front of the Scouts BSA Handbook (p. 63).",
-            "right": "Step 3 - Recognize Potential Internet Risks: Along with the convenience of the internet, however, comes some risk (p. 63)."
+            "right": "Recognize Potential Internet Risks: Along with the convenience of the internet, however, comes some risk (p. 63)."
           }
         ]
       },
       "worked_example": {
-        "title": "Digital Technology Req 1 Exemplar Workbook Entry: Personal Digital Safety Awareness",
+        "title": "Digital Technology Req 1 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Online Safety Video Requirement": "The Internet and the World Wide Web Stay Safe Online Learn about internet safety by viewing the Digital Safety video that is required for Scout rank (p. 63).",
@@ -187,7 +185,33 @@
       "socratic_questions": [
         "How does sharing your daily schedule on public social media jeopardize your personal physical security?",
         "Why should you involve a parent or trusted adult immediately when receiving suspicious direct messages?",
-        "What specific technical measures can you configure on personal devices to limit data harvesting?"
+        "What specific technical measures can you configure on personal devices to limit data harvesting?",
+        "Why is it dangerous to share photos containing embedded GPS EXIF metadata on public social profiles?",
+        "Under what condition does an online conversation cross the boundary into grooming or coercion?",
+        "What steps preserve digital evidence if a Scout receives a threatening or inappropriate message?",
+        "Which privacy settings prevent strangers from viewing your real-time location or personal contact info?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Digital safety guidelines only apply when connecting to public networks outside the home.",
+          "fact": "Viewing the training module with family members ensures household alignment on digital reporting rules."
+        },
+        {
+          "misconception": "Deleting an embarrassing photo or message from a social media app permanently erases every copy from the internet.",
+          "fact": "Recipients can capture screenshots immediately, and remote servers often retain cached backups long after a user deletes a post."
+        },
+        {
+          "misconception": "Private or incognito browser windows hide your identity and online messages from websites and internet providers.",
+          "fact": "Incognito mode only prevents the local device from saving browsing history; websites and networks still log your IP address and traffic."
+        },
+        {
+          "misconception": "Online accounts displaying a teenager's profile photo and mutual friends are always operated by real peers.",
+          "fact": "Imposters frequently scrape public photos and add mutual contacts to build convincing fake profiles that deceive young users."
+        },
+        {
+          "misconception": "Replying to a cyberbully or predator to demand that they stop is the safest way to resolve online harassment.",
+          "fact": "Engaging escalates harassment; Scouts should stop replying immediately, save screenshots as evidence, block the sender, and tell an adult."
+        }
       ]
     },
     {
@@ -243,9 +267,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
             "misconception": "Personal home computers were widely available to the public throughout the nineteen fifties.",
-            "fact": "Transistors replaced fragile vacuum tubes to drastically reduce hardware power consumption and physical footprint.",
-            "myth": "Personal home computers were widely available to the public throughout the nineteen fifties.",
-            "fact_correction": "Transistors replaced fragile vacuum tubes to drastically reduce hardware power consumption and physical footprint."
+            "fact": "Transistors replaced fragile vacuum tubes to drastically reduce hardware power consumption and physical footprint."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -316,9 +338,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
             "misconception": "Future computers will only increase raw clock speeds without changing underlying architecture.",
-            "fact": "Future computing paradigms incorporate quantum superposition and specialized neural processing chips for complex tasks.",
-            "myth": "Future computers will only increase raw clock speeds without changing underlying architecture.",
-            "fact_correction": "Future computing paradigms incorporate quantum superposition and specialized neural processing chips for complex tasks."
+            "fact": "Future computing paradigms incorporate quantum superposition and specialized neural processing chips for complex tasks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -413,9 +433,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Early mainframes possessed computational architectures fundamentally identical to modern portable smartphones.",
-        "fact": "Modern microprocessors contain billions of nanoscale transistors operating at gigahertz switching frequencies.",
-        "myth": "Early mainframes possessed computational architectures fundamentally identical to modern portable smartphones.",
-        "fact_correction": "Modern microprocessors contain billions of nanoscale transistors operating at gigahertz switching frequencies."
+        "fact": "Modern microprocessors contain billions of nanoscale transistors operating at gigahertz switching frequencies."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -451,14 +469,14 @@
         "Step 4 - Counselor Presentation: Present your historical comparison chart during your merit badge coaching session."
       ],
       "gear_checklist": [
-        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 2",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Evolution of Computing Technology"
+        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 2.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Evolution of Computing Technology."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Digital Technology Historical Time",
-        "right_header": "Req 2b: Future Computing Device Architectu",
+        "left_header": "Req 2a: Digital Technology Historical",
+        "right_header": "Req 2b: Future Computing Device",
         "left_points": [
           "(2a) Digital Technology Historical Timeline: Scouts outline key hardware milestones from vacuum tubes to microprocessors while comparing historical computing constraints with modern mobile capabilities. This analysis highlights how rapidly miniaturization transformed communication and daily work across three generations."
         ],
@@ -467,28 +485,28 @@
         ],
         "rows": [
           {
-            "attribute": "History of Digital Technology",
-            "left": "(2a) History of Digital Technology: The original IBM PC cost $3,000 when it debuted in 1981, around $7,500 in 2012, adjusted for inflation (p. 23).",
-            "right": "(2b) Future Computing Devices: This program, which was not available for mainframe computers, helped start a trend of companies installing personal computers in the workplace (p. 23)."
+            "attribute": "Vacuum Tube Evolution",
+            "left": "(2a) Digital Technology Historical Timeline: Scouts outline key hardware milestones from vacuum tubes to microprocessors while comparing historical computing constraints with modern mobile capabilities. This analysis highlights how rapidly miniaturization transformed communication and daily work across three generations.",
+            "right": "(2b) Future Computing Device Architecture: Scouts explore emerging technologies such as quantum computing, optical interconnects, and embedded biomedical sensors. They formulate realistic predictions regarding how artificial intelligence and miniaturization will redefine consumer hardware."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "The Original IBM PC: Two years later, IBM introduced its PC (or personal computer) based on the Intel 8088 microprocessor (p. 23).",
-            "right": "Step 2 - Compare Historical Hardware Prices: The original IBM PC cost $3,000 when it debuted in 1981, around $7,500 in 2012, adjusted for inflation (p. 23)."
+            "attribute": "Integrated Circuit Breakthrough",
+            "left": "Req 2a: Digital Technology: Scouts outline key hardware milestones from vacuum tubes to microprocessors while comparing historical computing constraints with modern mobile capabilities. This analysis highlights how rapidly miniaturization transformed communication and daily work across three generations.",
+            "right": "Req 2b: Future Computing Device: Scouts explore emerging technologies such as quantum computing, optical interconnects, and embedded biomedical sensors. They formulate realistic predictions regarding how artificial intelligence and miniaturization will redefine consumer hardware."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Early Spreadsheet and Word Software: The PC ran it sown version of Visi Calc as well as other software programs, including a word processor (p. 23).",
-            "right": "Step 3 - Evaluate Modern Processing Power: Today's desktop computers, thousands of times more powerful, can be purchased for only a fewhundred dollars (p. 23)."
+            "attribute": "Storage Density Increase",
+            "left": "Vacuum Tube Evolution: Early mainframe computers used delicate glass vacuum tubes that generated immense heat.",
+            "right": "Integrated Circuit Breakthrough: Silicon microchips allowed engineers to shrink room size mainframes into desktops."
           }
         ]
       },
       "worked_example": {
-        "title": "Digital Technology Req 2 Exemplar Workbook Entry: Evolution of Computing Technology",
+        "title": "Digital Technology Req 2 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Digital Technology Historical Tim": "Scouts outline key hardware milestones from vacuum tubes to microprocessors while comparing historical computing constraints with modern mobile capabilities. This analysis highlights how rapidly miniaturization transformed communication and daily work across three generations.",
-          "Req 2b - Future Computing Device Architect": "Scouts explore emerging technologies such as quantum computing, optical interconnects, and embedded biomedical sensors. They formulate realistic predictions regarding how artificial intelligence and miniaturization will redefine consumer hardware."
+          "Req 2a - Digital Technology Historical": "Scouts outline key hardware milestones from vacuum tubes to microprocessors while comparing historical computing constraints with modern mobile capabilities. This analysis highlights how rapidly miniaturization transformed communication and daily work across three generations.",
+          "Req 2b - Future Computing Device": "Scouts explore emerging technologies such as quantum computing, optical interconnects, and embedded biomedical sensors. They formulate realistic predictions regarding how artificial intelligence and miniaturization will redefine consumer hardware."
         },
         "sample_output": "Evolution of Computing Technology: The original IBM PC cost $3,000 when it debuted in 1981, around $7,500 in 2012, adjusted for inflation (p. 23).",
         "counselor_tip": "For Digital Technology Requirement 2 (Evolution of Computing Technology), verify the Scout's own observations and specific pamphlet details (Official Scouting America Digital Technology Merit Badge Pamphlet (p. 23, p. 25))."
@@ -525,7 +543,33 @@
       "socratic_questions": [
         "How did the invention of the silicon transistor transform computing access for individual households?",
         "In what ways did earlier generations communicate across long distances without instant mobile data?",
-        "What physical constraints limit how small silicon microprocessors can shrink in coming decades?"
+        "What physical constraints limit how small silicon microprocessors can shrink in coming decades?",
+        "What physical limitation caused vacuum tube computers to fail much more often than solid-state transistor systems?",
+        "In what way did replacing wired transistors with silicon integrated circuits change computer size and power draw?",
+        "Which architectural shift allowed computers to move from room-sized mainframes to portable personal devices?",
+        "What physical constraints limit how many microscopic transistors engineers can pack onto a silicon chip today?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Early mainframes possessed computational architectures fundamentally identical to modern portable smartphones.",
+          "fact": "Modern microprocessors contain billions of nanoscale transistors operating at gigahertz switching frequencies."
+        },
+        {
+          "misconception": "Early electronic computers like ENIAC stored data on magnetic hard drives and displayed output on video monitors.",
+          "fact": "First-generation computers used thousands of vacuum tubes for logic and relied on paper punch cards and plugboards for input and output."
+        },
+        {
+          "misconception": "Moore's Law is a physical law of nature that guarantees computer processor clock speeds will double every two years.",
+          "fact": "Moore's Law is an empirical observation about transistor density on integrated circuits, and heat limits have slowed clock speed gains."
+        },
+        {
+          "misconception": "The World Wide Web and the internet were invented at the same time as a single communication system.",
+          "fact": "Packet-switched networks like ARPANET began in the late 1960s, while Tim Berners-Lee created the World Wide Web protocols around 1990."
+        },
+        {
+          "misconception": "Modern smartphones have less raw computing power than the mainframe computers used during the Apollo moon landings.",
+          "fact": "A single modern smartphone processor executes billions of instructions per second, millions of times faster than the Apollo Guidance Computer."
+        }
       ]
     },
     {
@@ -575,9 +619,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)",
           "common_misconception_pair": {
             "misconception": "Digital images store physical ink dots rather than numeric color values per coordinate.",
-            "fact": "Standard ASCII assigns seven or eight bits per character, while Unicode supports international character sets.",
-            "myth": "Digital images store physical ink dots rather than numeric color values per coordinate.",
-            "fact_correction": "Standard ASCII assigns seven or eight bits per character, while Unicode supports international character sets."
+            "fact": "Standard ASCII assigns seven or eight bits per character, while Unicode supports international character sets."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -649,9 +691,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)",
           "common_misconception_pair": {
             "misconception": "Lossy compression allows complete mathematical reconstruction of the uncompressed original source file.",
-            "fact": "Lossless compression preserves every bit of original data, whereas lossy compression permanently discards redundant data.",
-            "myth": "Lossy compression allows complete mathematical reconstruction of the uncompressed original source file.",
-            "fact_correction": "Lossless compression preserves every bit of original data, whereas lossy compression permanently discards redundant data."
+            "fact": "Lossless compression preserves every bit of original data, whereas lossy compression permanently discards redundant data."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -722,9 +762,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)",
           "common_misconception_pair": {
             "misconception": "Modern digital devices function purely through physical electronic switches without internal firmware.",
-            "fact": "Embedded microcontrollers execute programmed firmware routines to adjust device operation based on sensor feedback.",
-            "myth": "Modern digital devices function purely through physical electronic switches without internal firmware.",
-            "fact_correction": "Embedded microcontrollers execute programmed firmware routines to adjust device operation based on sensor feedback."
+            "fact": "Embedded microcontrollers execute programmed firmware routines to adjust device operation based on sensor feedback."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -799,9 +837,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)",
           "common_misconception_pair": {
             "misconception": "Consoles and mobile phones share identical hardware configurations and operating system schedulers.",
-            "fact": "Gaming consoles utilize specialized graphic processing architectures, whereas mobile devices prioritize thermal battery management.",
-            "myth": "Consoles and mobile phones share identical hardware configurations and operating system schedulers.",
-            "fact_correction": "Gaming consoles utilize specialized graphic processing architectures, whereas mobile devices prioritize thermal battery management."
+            "fact": "Gaming consoles utilize specialized graphic processing architectures, whereas mobile devices prioritize thermal battery management."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -872,9 +908,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)",
           "common_misconception_pair": {
             "misconception": "Home Wi-Fi routers communicate across continents without routing through external service providers.",
-            "fact": "A local area network connects nearby equipment, while wide area networks interconnect geographically dispersed systems.",
-            "myth": "Home Wi-Fi routers communicate across continents without routing through external service providers.",
-            "fact_correction": "A local area network connects nearby equipment, while wide area networks interconnect geographically dispersed systems."
+            "fact": "A local area network connects nearby equipment, while wide area networks interconnect geographically dispersed systems."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -987,9 +1021,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Digital audio files store continuous sound waves directly onto storage media without sampling.",
-        "fact": "Digitization converts analog waveforms into discrete binary numbers using defined sampling rates and bit depths.",
-        "myth": "Digital audio files store continuous sound waves directly onto storage media without sampling.",
-        "fact_correction": "Digitization converts analog waveforms into discrete binary numbers using defined sampling rates and bit depths."
+        "fact": "Digitization converts analog waveforms into discrete binary numbers using defined sampling rates and bit depths."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1025,14 +1057,14 @@
         "Step 4 - Network Architecture Mapping: Diagram how your home router interfaces with external wide area infrastructure."
       ],
       "gear_checklist": [
-        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 3",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Data Representation and Computer Networks"
+        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 3.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Data Representation and Computer Networks."
       ],
       "comparison_data": {
         "left_header": "Req 3a: Data Digitization And Storage",
-        "right_header": "Req 3c: Programmable Digital Hardware Util",
+        "right_header": "Req 3c: Programmable Digital Hardware",
         "left_points": [
           "(3a) Data Digitization And Storage: Scouts explain how text, sound, and pictures convert into binary zeros and ones. The handbook covers ASCII text encoding, audio sampling rates, and pixel color matrices.",
           "(3b) Data Compression Methodology Differences: Scouts contrast lossless methods like ZIP and PNG with lossy formats like MP3 and JPEG. They identify appropriate use cases where file size savings outweigh minor fidelity losses."
@@ -1043,30 +1075,30 @@
         ],
         "rows": [
           {
-            "attribute": "Digitizing Text, Sound, and Pictures",
-            "left": "(3a) Digitizing Text, Sound, and Pictures: The U. S. military used first-generation digital computers like this ENIAC to calculate trajectories of artillery shells and to help build weapons (p. 22).",
-            "right": "(3c) Programmable Digital Devices: Each of these computers weighed tons, filled an entire room, and consumed enough electricity to light up a small town (p. 22)."
+            "attribute": "Binary Representation",
+            "left": "(3a) Data Digitization And Storage: Scouts explain how text, sound, and pictures convert into binary zeros and ones. The handbook covers ASCII text encoding, audio sampling rates, and pixel color matrices.",
+            "right": "(3c) Programmable Digital Hardware Utility: Scouts describe how programmable microchips enhance everyday devices like digital thermostats and engine control units. Programming allows these systems to dynamically respond to environmental sensor inputs."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(3b) Lossy and Lossless Compression: The military used these first-generation digital computers to calculate weapon trajectories and help build atomic bombs (p. 22).",
-            "right": "(3d) Computers, Mobile Devices, and Consoles: They also required thousands of vacuum tubes, which tended to overheat and burn out, needing to be replaced often (p. 22)."
+            "attribute": "Audio Sampling Rate",
+            "left": "(3b) Data Compression Methodology Differences: Scouts contrast lossless methods like ZIP and PNG with lossy formats like MP3 and JPEG. They identify appropriate use cases where file size savings outweigh minor fidelity losses.",
+            "right": "(3d) Computing Platform Architecture Comparison: Scouts compare desktop personal computers, portable mobile smartphones, and dedicated gaming platforms. They examine shared CPU-memory structures alongside specialized hardware cooling and input interfaces."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Massive Size and Power Consumption: Each of these computers weighed tons, filled an entire room, and consumed enough electricity to light up a small town (p. 22).",
-            "right": "(3e) Local and Wide Area Networks: The U. S. military used first-generation digital computers like this ENIAC to calculate trajectories of artillery shells and to help build weapons (p. 22)."
+            "attribute": "Pixel Color Mapping",
+            "left": "Req 3a: Data Digitization: Scouts explain how text, sound, and pictures convert into binary zeros and ones. The handbook covers ASCII text encoding, audio sampling rates, and pixel color matrices.",
+            "right": "Req 3b: Data Compression Methodology: Scouts contrast lossless methods like ZIP and PNG with lossy formats like MP3 and JPEG. They identify appropriate use cases where file size savings outweigh minor fidelity losses."
           }
         ]
       },
       "worked_example": {
-        "title": "Digital Technology Req 3 Exemplar Workbook Entry: Data Representation and Computer Networks",
+        "title": "Digital Technology Req 3 Exemplar Workbook Entry: Data",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
           "Req 3a - Data Digitization And Storage": "Scouts explain how text, sound, and pictures convert into binary zeros and ones. The handbook covers ASCII text encoding, audio sampling rates, and pixel color matrices.",
-          "Req 3b - Data Compression Methodology Diff": "Scouts contrast lossless methods like ZIP and PNG with lossy formats like MP3 and JPEG. They identify appropriate use cases where file size savings outweigh minor fidelity losses.",
-          "Req 3c - Programmable Digital Hardware Uti": "Scouts describe how programmable microchips enhance everyday devices like digital thermostats and engine control units. Programming allows these systems to dynamically respond to environmental sensor inputs.",
-          "Req 3d - Computing Platform Architecture C": "Scouts compare desktop personal computers, portable mobile smartphones, and dedicated gaming platforms. They examine shared CPU-memory structures alongside specialized hardware cooling and input interfaces."
+          "Req 3b - Data Compression Methodology": "Scouts contrast lossless methods like ZIP and PNG with lossy formats like MP3 and JPEG. They identify appropriate use cases where file size savings outweigh minor fidelity losses.",
+          "Req 3c - Programmable Digital Hardware": "Scouts describe how programmable microchips enhance everyday devices like digital thermostats and engine control units. Programming allows these systems to dynamically respond to environmental sensor inputs.",
+          "Req 3d - Computing Platform": "Scouts compare desktop personal computers, portable mobile smartphones, and dedicated gaming platforms. They examine shared CPU-memory structures alongside specialized hardware cooling and input interfaces."
         },
         "sample_output": "Data Representation and Computer Networks: The U. S. military used first-generation digital computers like this ENIAC to calculate trajectories of artillery shells and to help build weapons (p. 22).",
         "counselor_tip": "For Digital Technology Requirement 3 (Data Representation and Computer Networks), verify the Scout's own observations and specific pamphlet details (Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26))."
@@ -1103,7 +1135,33 @@
       "socratic_questions": [
         "Why does increasing the sampling rate improve the audio fidelity of a digital recording?",
         "How does a lossless compression algorithm reconstruct an exact original file without data loss?",
-        "What architectural trade-offs exist between a dedicated gaming console and a general purpose workstation?"
+        "What architectural trade-offs exist between a dedicated gaming console and a general purpose workstation?",
+        "What happens to an executable program or spreadsheet if you compress and decompress it using a lossy algorithm?",
+        "What measurement confirms whether an audio sampling rate is high enough to capture a specific sound frequency?",
+        "Why does encoding text in Unicode UTF-8 support international alphabets that 7-bit ASCII cannot represent?",
+        "Under what condition does saving a photograph as a JPEG introduce visible blocky artifacts around sharp edges?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Digital audio files store continuous sound waves directly onto storage media without sampling.",
+          "fact": "Digitization converts analog waveforms into discrete binary numbers using defined sampling rates and bit depths."
+        },
+        {
+          "misconception": "Converting a low-quality MP3 or JPEG file into a lossless format like WAV or PNG restores the original lost detail.",
+          "fact": "Lossy compression permanently discards data during encoding, so converting to a lossless format never restores the discarded detail."
+        },
+        {
+          "misconception": "Increasing the pixel dimensions of a digital image by stretching it on screen increases its true optical resolution.",
+          "fact": "Stretching an existing bitmap only enlarges or interpolates existing pixels without capturing any new optical detail from the scene."
+        },
+        {
+          "misconception": "Digital audio recorders store continuous smooth sound waves directly inside flash memory chips.",
+          "fact": "Analog-to-digital converters sample the sound wave thousands of times per second and quantize each sample into binary numbers."
+        },
+        {
+          "misconception": "Lossless compression algorithms like ZIP reduce file sizes by throwing away unimportant characters and numbers.",
+          "fact": "Lossless compression replaces repeated byte patterns with shorter tokens so the exact original file can be reconstructed bit for bit."
+        }
       ]
     },
     {
@@ -1157,9 +1215,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66)",
           "common_misconception_pair": {
             "misconception": "Software code resides permanently in CPU registers even when computer power is removed.",
-            "fact": "The CPU executes binary operations at clock rates regulated by an internal crystal oscillator.",
-            "myth": "Software code resides permanently in CPU registers even when computer power is removed.",
-            "fact_correction": "The CPU executes binary operations at clock rates regulated by an internal crystal oscillator."
+            "fact": "The CPU executes binary operations at clock rates regulated by an internal crystal oscillator."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1230,9 +1286,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66)",
           "common_misconception_pair": {
             "misconception": "Word processors and navigation tools rely on identical algorithmic logic to perform work.",
-            "fact": "Productivity suites use structured relational databases and document object models to manage complex data.",
-            "myth": "Word processors and navigation tools rely on identical algorithmic logic to perform work.",
-            "fact_correction": "Productivity suites use structured relational databases and document object models to manage complex data."
+            "fact": "Productivity suites use structured relational databases and document object models to manage complex data."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1303,9 +1357,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66)",
           "common_misconception_pair": {
             "misconception": "Installing one antivirus program permanently immunizes an operating system against all phishing scams.",
-            "fact": "Firewalls monitor incoming and outgoing packet traffic based on predetermined transport layer security rules.",
-            "myth": "Installing one antivirus program permanently immunizes an operating system against all phishing scams.",
-            "fact_correction": "Firewalls monitor incoming and outgoing packet traffic based on predetermined transport layer security rules."
+            "fact": "Firewalls monitor incoming and outgoing packet traffic based on predetermined transport layer security rules."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1371,9 +1423,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66)",
           "common_misconception_pair": {
             "misconception": "Standard printed barcodes transmit radio frequency tracking signals across several hundred yards.",
-            "fact": "Radio frequency identification readers energize passive transponder tags using electromagnetic induction to read data.",
-            "myth": "Standard printed barcodes transmit radio frequency tracking signals across several hundred yards.",
-            "fact_correction": "Radio frequency identification readers energize passive transponder tags using electromagnetic induction to read data."
+            "fact": "Radio frequency identification readers energize passive transponder tags using electromagnetic induction to read data."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1476,9 +1526,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Computer applications run directly inside secondary storage hard drives without using system RAM.",
-        "fact": "The central processing unit fetches instructions from RAM and processes them through arithmetic logic registers.",
-        "myth": "Computer applications run directly inside secondary storage hard drives without using system RAM.",
-        "fact_correction": "The central processing unit fetches instructions from RAM and processes them through arithmetic logic registers."
+        "fact": "The central processing unit fetches instructions from RAM and processes them through arithmetic logic registers."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1514,13 +1562,13 @@
         "Step 4 - Optical Tag Identification: Scan a product barcode and QR code to contrast encoded data."
       ],
       "gear_checklist": [
-        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 4",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Software Execution and Device Security"
+        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 4.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Software Execution and Device Security."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Software Application Execution Arc",
+        "left_header": "Req 4a: Software Application Execution",
         "right_header": "Req 4c: Malware Threats And Defense",
         "left_points": [
           "(4a) Software Application Execution Architecture: Scouts explain how compiled software instructions move from storage into RAM for rapid execution by the CPU. The lesson details register storage, instruction cycles, and processing bottlenecks.",
@@ -1532,30 +1580,30 @@
         ],
         "rows": [
           {
-            "attribute": "CPU and Memory Program Execution",
-            "left": "(4a) CPU and Memory Program Execution: Such programs, often attached to some useful software, \"spy\" on you, tracking your movements on the web (p. 49).",
-            "right": "(4c) Malware Threats and Device Protection: Database manager (DBM) programs are used for organizing, storing, and keeping track of a set of information called a database (p. 49)."
+            "attribute": "Instruction Cycle Sequence",
+            "left": "(4a) Software Application Execution Architecture: Scouts explain how compiled software instructions move from storage into RAM for rapid execution by the CPU. The lesson details register storage, instruction cycles, and processing bottlenecks.",
+            "right": "(4c) Malware Threats And Defense: Scouts define common malware categories including viruses, ransomware, spyware, and worms. They implement defensive countermeasures including automated patching, multi-factor authentication, and offline backups."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(4b) Everyday Family Software Applications: Spyware can also install secret programs on your computer (p. 49).",
-            "right": "(4d) Barcodes, QR Codes, and RFID: This applies not only to your home computer but also to any device that can be connected to the internet such as cell phones (p. 49)."
+            "attribute": "Volatile Memory Role",
+            "left": "(4b) Everyday Software Utility Analysis: Scouts examine four common applications, such as web browsers, spreadsheets, navigation maps, and word processors. They explain how underlying computational algorithms deliver specific real-world benefits.",
+            "right": "(4d) Data Capture Identification Systems: Scouts compare one-dimensional optical barcodes, two-dimensional matrix QR codes, and radio frequency identification tags. They examine industrial use cases including retail checkout, logistics tracking, and contactless payments."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Unauthorized Secret Program Installation: Spyware can also install secret programs on your computer (p. 49).",
-            "right": "Step 3 - Structure Data Into Records: The data are organized in lines called records, with each record consisting of a number of fields (p. 49)."
+            "attribute": "Malware Signature Detection",
+            "left": "Req 4a: Software Application: Scouts explain how compiled software instructions move from storage into RAM for rapid execution by the CPU. The lesson details register storage, instruction cycles, and processing bottlenecks.",
+            "right": "Req 4b: Everyday Software Utility: Scouts examine four common applications, such as web browsers, spreadsheets, navigation maps, and word processors. They explain how underlying computational algorithms deliver specific real-world benefits."
           }
         ]
       },
       "worked_example": {
-        "title": "Digital Technology Req 4 Exemplar Workbook Entry: Software Execution and Device Security",
+        "title": "Digital Technology Req 4 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Software Application Execution Ar": "Scouts explain how compiled software instructions move from storage into RAM for rapid execution by the CPU. The lesson details register storage, instruction cycles, and processing bottlenecks.",
-          "Req 4b - Everyday Software Utility Analysi": "Scouts examine four common applications, such as web browsers, spreadsheets, navigation maps, and word processors. They explain how underlying computational algorithms deliver specific real-world benefits.",
+          "Req 4a - Software Application": "Scouts explain how compiled software instructions move from storage into RAM for rapid execution by the CPU. The lesson details register storage, instruction cycles, and processing bottlenecks.",
+          "Req 4b - Everyday Software Utility": "Scouts examine four common applications, such as web browsers, spreadsheets, navigation maps, and word processors. They explain how underlying computational algorithms deliver specific real-world benefits.",
           "Req 4c - Malware Threats And Defense": "Scouts define common malware categories including viruses, ransomware, spyware, and worms. They implement defensive countermeasures including automated patching, multi-factor authentication, and offline backups.",
-          "Req 4d - Data Capture Identification Syste": "Scouts compare one-dimensional optical barcodes, two-dimensional matrix QR codes, and radio frequency identification tags. They examine industrial use cases including retail checkout, logistics tracking, and contactless payments."
+          "Req 4d - Data Capture Identification": "Scouts compare one-dimensional optical barcodes, two-dimensional matrix QR codes, and radio frequency identification tags. They examine industrial use cases including retail checkout, logistics tracking, and contactless payments."
         },
         "sample_output": "Software Execution and Device Security: Such programs, often attached to some useful software, \"spy\" on you, tracking your movements on the web (p. 49).",
         "counselor_tip": "For Digital Technology Requirement 4 (Software Execution and Device Security), verify the Scout's own observations and specific pamphlet details (Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66))."
@@ -1592,7 +1640,33 @@
       "socratic_questions": [
         "How does the CPU fetch-decode-execute cycle allow a single processor to run complex games?",
         "What technical features distinguish a worm from a Trojan horse in computer network environments?",
-        "Why does a passive RFID tag require no internal battery to transmit inventory information?"
+        "Why does a passive RFID tag require no internal battery to transmit inventory information?",
+        "What happens to unsaved data held in volatile RAM if a computer suddenly loses electrical power?",
+        "Why must the operating system load program instructions from solid-state storage into RAM before the CPU runs them?",
+        "Which behavioral difference distinguishes a self-replicating network worm from a file-infecting computer virus?",
+        "Why is it dangerous to pay a ransomware demand without having an offline backup and patched security vulnerabilities?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Computer applications run directly inside secondary storage hard drives without using system RAM.",
+          "fact": "The central processing unit fetches instructions from RAM and processes them through arithmetic logic registers."
+        },
+        {
+          "misconception": "Adding a larger hard drive or solid-state drive increases the amount of active RAM available for running apps.",
+          "fact": "Drives provide persistent long-term storage, whereas RAM is high-speed volatile working memory that holds active instructions for the CPU."
+        },
+        {
+          "misconception": "Antivirus software that was installed two years ago without updates still blocks modern zero-day malware threats.",
+          "fact": "Attackers create new malware variants daily, so security software requires regular signature updates and OS patches to detect new exploits."
+        },
+        {
+          "misconception": "Trojan horse malware spreads automatically across local networks without any user interaction or file execution.",
+          "fact": "A Trojan disguises itself as legitimate software and relies on a user to download and launch the program before it can execute its payload."
+        },
+        {
+          "misconception": "Mac, Linux, and mobile operating systems are immune to malware and never require security updates or caution.",
+          "fact": "Every operating system contains software vulnerabilities and can be compromised by phishing, malicious apps, or unpatched browser exploits."
+        }
       ]
     },
     {
@@ -1646,9 +1720,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 59, p. 61)",
           "common_misconception_pair": {
             "misconception": "Internet data flows as one continuous unbroken electric current from origin to destination.",
-            "fact": "Internet protocol suites segment data streams into addressed packets routed dynamically across intermediary nodes.",
-            "myth": "Internet data flows as one continuous unbroken electric current from origin to destination.",
-            "fact_correction": "Internet protocol suites segment data streams into addressed packets routed dynamically across intermediary nodes."
+            "fact": "Internet protocol suites segment data streams into addressed packets routed dynamically across intermediary nodes."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1716,9 +1788,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 59, p. 61)",
           "common_misconception_pair": {
             "misconception": "Search engines index every existing webpage simultaneously in real time without crawling databases.",
-            "fact": "Effective search queries use boolean quotation operators to locate exact strings across web archives.",
-            "myth": "Search engines index every existing webpage simultaneously in real time without crawling databases.",
-            "fact_correction": "Effective search queries use boolean quotation operators to locate exact strings across web archives."
+            "fact": "Effective search queries use boolean quotation operators to locate exact strings across web archives."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1796,9 +1866,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 59, p. 61)",
           "common_misconception_pair": {
             "misconception": "The padlock icon guarantees that a website content is honest, accurate, and completely trustworthy.",
-            "fact": "Transport Layer Security encrypts plaintext HTTP traffic using asymmetric public and private key pairs.",
-            "myth": "The padlock icon guarantees that a website content is honest, accurate, and completely trustworthy.",
-            "fact_correction": "Transport Layer Security encrypts plaintext HTTP traffic using asymmetric public and private key pairs."
+            "fact": "Transport Layer Security encrypts plaintext HTTP traffic using asymmetric public and private key pairs."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1900,9 +1968,7 @@
       },
       "common_misconception_pair": {
         "misconception": "All internet web traffic routes exclusively through orbiting commercial satellites across space.",
-        "fact": "Fiber optic cables transmit binary data as pulses of light through reflective glass cores.",
-        "myth": "All internet web traffic routes exclusively through orbiting commercial satellites across space.",
-        "fact_correction": "Fiber optic cables transmit binary data as pulses of light through reflective glass cores."
+        "fact": "Fiber optic cables transmit binary data as pulses of light through reflective glass cores."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1943,14 +2009,14 @@
         "Step 4 - Certificate Validation: View public key expiration dates and certificate authority details in browser settings."
       ],
       "gear_checklist": [
-        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 5",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Internet Data Transfer and Security"
+        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 5.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Internet Data Transfer and Security."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Internet Data Transmission Pathway",
-        "right_header": "Req 5b: Search Engine Research Strategies",
+        "left_header": "Req 5a: Internet Data Transmission",
+        "right_header": "Req 5b: Search Engine Research",
         "left_points": [
           "(5a) Internet Data Transmission Pathways: Scouts investigate physical transmission media including undersea fiber optics, terrestrial copper Ethernet, and cellular microwave links. They learn how packet switching routes data packets across varied networks."
         ],
@@ -1959,29 +2025,29 @@
         ],
         "rows": [
           {
-            "attribute": "Internet Data Transfer Methods",
-            "left": "(5a) Internet Data Transfer Methods: HTTP, which stands for hypertext transfer protocol, is a set of standards governing the exchange of data as text (p. 59).",
-            "right": "(5b) Online Scouting Research: This is the most common type of request sent through the internet (p. 59)."
+            "attribute": "Fiber Optic Light",
+            "left": "(5a) Internet Data Transmission Pathways: Scouts investigate physical transmission media including undersea fiber optics, terrestrial copper Ethernet, and cellular microwave links. They learn how packet switching routes data packets across varied networks.",
+            "right": "(5b) Search Engine Research Strategies: Scouts utilize search engines to discover creative troop court of honor or campfire program ceremonies. They evaluate search results for author credibility, date relevance, and source authenticity."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Plain Text Versus Encrypted Protocols: But in front of that is an important part which tells the browser how to communicate the information, http (plain text) or https (encrypted) (p. 59).",
-            "right": "(5c) Secure HTTPS Web Connections: The Internet and the World Wide Web Internet Security When most users type in a web address, they usually start with the \"www\" part of the URL (p. 59)."
+            "attribute": "Radio Wave Transfer",
+            "left": "Req 5a: Internet Data Transmission: Scouts investigate physical transmission media including undersea fiber optics, terrestrial copper Ethernet, and cellular microwave links. They learn how packet switching routes data packets across varied networks.",
+            "right": "Req 5b: Search Engine Research: Scouts utilize search engines to discover creative troop court of honor or campfire program ceremonies. They evaluate search results for author credibility, date relevance, and source authenticity."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Hypertext Transfer Protocol Standards: HTTP, which stands for hypertext transfer protocol, is a set of standards governing the exchange of data as text (p. 59).",
-            "right": "Step 3 - Verify HTTPS Before Logging: You will typically see https used whenever you are asked to log in to a website or send personal information (p. 59)."
+            "attribute": "Search Query Filtering",
+            "left": "Req 5c: Secure Web Certificate: Scouts inspect SSL and TLS certificates inside modern browsers to verify cryptographic domain validation. They examine certificate revocation lists, issuer credentials, and cryptographic hash fingerprints.",
+            "right": "Radio Wave Transfer: Cellular towers and wireless access points transfer packets across radio spectrums."
           }
         ]
       },
       "worked_example": {
-        "title": "Digital Technology Req 5 Exemplar Workbook Entry: Internet Data Transfer and Security",
+        "title": "Digital Technology Req 5 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Internet Data Transmission Pathwa": "Scouts investigate physical transmission media including undersea fiber optics, terrestrial copper Ethernet, and cellular microwave links. They learn how packet switching routes data packets across varied networks.",
-          "Req 5b - Search Engine Research Strategies": "Scouts utilize search engines to discover creative troop court of honor or campfire program ceremonies. They evaluate search results for author credibility, date relevance, and source authenticity.",
-          "Req 5c - Secure Web Certificate Authentica": "Scouts inspect SSL and TLS certificates inside modern browsers to verify cryptographic domain validation. They examine certificate revocation lists, issuer credentials, and cryptographic hash fingerprints."
+          "Req 5a - Internet Data Transmission": "Scouts investigate physical transmission media including undersea fiber optics, terrestrial copper Ethernet, and cellular microwave links. They learn how packet switching routes data packets across varied networks.",
+          "Req 5b - Search Engine Research": "Scouts utilize search engines to discover creative troop court of honor or campfire program ceremonies. They evaluate search results for author credibility, date relevance, and source authenticity.",
+          "Req 5c - Secure Web Certificate": "Scouts inspect SSL and TLS certificates inside modern browsers to verify cryptographic domain validation. They examine certificate revocation lists, issuer credentials, and cryptographic hash fingerprints."
         },
         "sample_output": "Internet Data Transfer and Security: HTTP, which stands for hypertext transfer protocol, is a set of standards governing the exchange of data as text (p. 59).",
         "counselor_tip": "For Digital Technology Requirement 5 (Internet Data Transfer and Security), verify the Scout's own observations and specific pamphlet details (Official Scouting America Digital Technology Merit Badge Pamphlet (p. 59, p. 61))."
@@ -2017,8 +2083,34 @@
       "pamphlet_summary": "Data travels across the global internet through physical fiber optic trunks, copper cabling, and wireless electromagnetic radio signals. Secure web browsing relies on transport layer encryption certificates to authenticate server identities and prevent unauthorized packet inspection.",
       "socratic_questions": [
         "What physical path does an internet data packet traverse from a home router to an overseas server?",
-        "How do search engine ranking algorithms determine which websites appear at the top of search results?",
-        "What visual and cryptographic indicators tell a user that an HTTPS connection is properly authenticated?"
+        "In what specific ways do search engine ranking algorithms determine which websites appear at the top of search results?",
+        "What visual and cryptographic indicators tell a user that an HTTPS connection is properly authenticated?",
+        "What happens to a large file transfer when routers split it into IP packets that travel along different network paths?",
+        "Which physical indicator and protocol verify that a website encrypts your login credentials during transit?",
+        "Under what condition does a fiber-optic cable transmit data much farther and faster than a twisted-pair copper wire?",
+        "Why is it dangerous to log into banking or email accounts over an unencrypted public Wi-Fi hotspot?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "All internet web traffic routes exclusively through orbiting commercial satellites across space.",
+          "fact": "Fiber optic cables transmit binary data as pulses of light through reflective glass cores."
+        },
+        {
+          "misconception": "Wi-Fi and cellular data connections carry internet traffic all the way across the world without using physical cables.",
+          "fact": "Wireless signals only bridge the short hop to a local router or cell tower, after which undersea and underground fiber-optic cables carry data."
+        },
+        {
+          "misconception": "The top result returned by an internet search engine is always the most accurate and trustworthy source on a topic.",
+          "fact": "Search rankings reflect keyword relevance, link popularity, or paid advertising rather than independent verification of factual accuracy."
+        },
+        {
+          "misconception": "An HTTPS padlock icon in the browser address bar proves that the website owner is honest and safe from phishing.",
+          "fact": "HTTPS only encrypts data in transit; phishing sites routinely obtain valid TLS certificates for deceptive domain names."
+        },
+        {
+          "misconception": "Internet data travels from sender to receiver as a single unbroken stream over a dedicated circuit like a phone call.",
+          "fact": "TCP/IP breaks data into small numbered packets that route independently across hops and reassemble in order at the destination device."
+        }
       ]
     },
     {
@@ -2068,9 +2160,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Spreadsheets can only format text and cannot perform dynamic mathematical conditional evaluations.",
-            "fact": "Spreadsheet sum functions automatically recalculate totals whenever individual line item prices change.",
-            "myth": "Spreadsheets can only format text and cannot perform dynamic mathematical conditional evaluations.",
-            "fact_correction": "Spreadsheet sum functions automatically recalculate totals whenever individual line item prices change."
+            "fact": "Spreadsheet sum functions automatically recalculate totals whenever individual line item prices change."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2138,9 +2228,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Pressing the spacebar repeatedly is the standard method for aligning indented document columns.",
-            "fact": "Consistent paragraph styles and standardized tab stops ensure uniform margins throughout formal business correspondence.",
-            "myth": "Pressing the spacebar repeatedly is the standard method for aligning indented document columns.",
-            "fact_correction": "Consistent paragraph styles and standardized tab stops ensure uniform margins throughout formal business correspondence."
+            "fact": "Consistent paragraph styles and standardized tab stops ensure uniform margins throughout formal business correspondence."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2211,9 +2299,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Digital graphic applications only create hand drawings and cannot incorporate external photographs.",
-            "fact": "Vector graphics scale infinitely without resolution loss, whereas bitmap graphics pixelate when enlarged.",
-            "myth": "Digital graphic applications only create hand drawings and cannot incorporate external photographs.",
-            "fact_correction": "Vector graphics scale infinitely without resolution loss, whereas bitmap graphics pixelate when enlarged."
+            "fact": "Vector graphics scale infinitely without resolution loss, whereas bitmap graphics pixelate when enlarged."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2286,9 +2372,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Professional presentations should contain complete paragraph transcripts on every visual slide displayed.",
-            "fact": "Effective presentation slides limit text density to keep audience focus centered on speaker remarks.",
-            "myth": "Professional presentations should contain complete paragraph transcripts on every visual slide displayed.",
-            "fact_correction": "Effective presentation slides limit text density to keep audience focus centered on speaker remarks."
+            "fact": "Effective presentation slides limit text density to keep audience focus centered on speaker remarks."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2366,9 +2450,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Exporting digital photos from smartphones always causes loss of file resolution data.",
-            "fact": "Digital camera sensors convert optical photons into electronic charge values stored inside image files.",
-            "myth": "Exporting digital photos from smartphones always causes loss of file resolution data.",
-            "fact_correction": "Digital camera sensors convert optical photons into electronic charge values stored inside image files."
+            "fact": "Digital camera sensors convert optical photons into electronic charge values stored inside image files."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2439,9 +2521,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Digital voice recordings require physical magnetic tape to transfer across separate computer systems.",
-            "fact": "Microphone diaphragms translate acoustic sound waves into alternating voltage signals digitized by audio codecs.",
-            "myth": "Digital voice recordings require physical magnetic tape to transfer across separate computer systems.",
-            "fact_correction": "Microphone diaphragms translate acoustic sound waves into alternating voltage signals digitized by audio codecs."
+            "fact": "Microphone diaphragms translate acoustic sound waves into alternating voltage signals digitized by audio codecs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2520,9 +2600,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Online blogs publish entries instantly without requiring underlying web servers or databases.",
-            "fact": "Static blog generators compile markdown articles into static HTML pages for reliable server hosting.",
-            "myth": "Online blogs publish entries instantly without requiring underlying web servers or databases.",
-            "fact_correction": "Static blog generators compile markdown articles into static HTML pages for reliable server hosting."
+            "fact": "Static blog generators compile markdown articles into static HTML pages for reliable server hosting."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -2606,9 +2684,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Creating a functional webpage requires expensive commercial software rather than standard text markup.",
-            "fact": "Hypertext Markup Language provides semantic structure, while Cascading Style Sheets define visual presentation styles.",
-            "myth": "Creating a functional webpage requires expensive commercial software rather than standard text markup.",
-            "fact_correction": "Hypertext Markup Language provides semantic structure, while Cascading Style Sheets define visual presentation styles."
+            "fact": "Hypertext Markup Language provides semantic structure, while Cascading Style Sheets define visual presentation styles."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -2732,9 +2808,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Editing a file on a cloud drive provides a detached offline disaster recovery backup.",
-        "fact": "The 3-2-1 backup strategy maintains three data copies across two media types with one offsite copy.",
-        "myth": "Editing a file on a cloud drive provides a detached offline disaster recovery backup.",
-        "fact_correction": "The 3-2-1 backup strategy maintains three data copies across two media types with one offsite copy."
+        "fact": "The 3-2-1 backup strategy maintains three data copies across two media types with one offsite copy."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2775,13 +2849,13 @@
         "Step 4 - Counselor Review: Display finished projects and demonstrate operational backup integrity to your counselor."
       ],
       "gear_checklist": [
-        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 6",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Practical Digital Creation Projects"
+        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 6.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Practical Digital Creation Projects."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Patrol Spreadsheet Budget Developm",
+        "left_header": "Req 6a: Patrol Spreadsheet Budget",
         "right_header": "Req 6e: Digital Image Capture Transfer",
         "left_points": [
           "(6a) Patrol Spreadsheet Budget Development: Scouts construct an organized patrol campout food budget or troop roster using spreadsheet functions. They enter formulas to calculate costs per Scout and total patrol expenditures.",
@@ -2795,30 +2869,30 @@
         ],
         "rows": [
           {
-            "attribute": "Campout Budget or Troop Roster",
-            "left": "(6a) Campout Budget or Troop Roster: A troop attendance database could be set up with a record for each Scout in the troop (p. 49).",
-            "right": "(6e) Troop Activity Digital Photography: A troop attendance database could be set up with a record for each Scout in the troop (p. 49)."
+            "attribute": "Formula Cell Calculations",
+            "left": "(6a) Patrol Spreadsheet Budget Development: Scouts construct an organized patrol campout food budget or troop roster using spreadsheet functions. They enter formulas to calculate costs per Scout and total patrol expenditures.",
+            "right": "(6e) Digital Image Capture Transfer: Scouts photograph an outdoor troop activity and transfer the image file across devices for sharing. They verify file resolution, image clarity, and transfer integrity."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(6b) Court of Honor Invitation Letter: Database manager (DBM) programs are used for organizing, storing, and keeping track of a set of information called a database (p. 49).",
-            "right": "(6f) Digital Voice Recording Transfer: Database manager (DBM) programs are used for organizing, storing, and keeping track of a set of information called a database (p. 49)."
+            "attribute": "Typography Document Hierarchy",
+            "left": "(6b) Word Processing Document Layout: Scouts draft a formal troop event invitation letter using word processing layout tools. They format headers, body text, bullet lists, and sign-off blocks cleanly.",
+            "right": "(6f) Digital Voice Recording Playback: Scouts record their voice speaking troop announcements, export the digital audio file, and transfer it. The counselor verifies successful playback on a secondary receiving device."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "(6c) Campsite Plan or Event Flyer: The data are organized in lines called records, with each record consisting of a number of fields (p. 49).",
-            "right": "(6g) Scouting Activity Online Blog: The data are organized in lines called records, with each record consisting of a number of fields (p. 49)."
+            "attribute": "Vector Coordinate Graphics",
+            "left": "(6c) Graphic Design Layout Production: Scouts produce an accurate campsite map or promotional troop event flyer using graphic design software. They balance typography, imported imagery, and vector shapes.",
+            "right": "(6g) Scouting Activity Online Journal: Scouts establish an online journal documenting five Scouting activities with text and photos. They manage publication settings, content categories, and reader access permissions securely."
           }
         ]
       },
       "worked_example": {
-        "title": "Digital Technology Req 6 Exemplar Workbook Entry: Practical Digital Creation Projects",
+        "title": "Digital Technology Req 6 Exemplar Workbook Entry",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a - Patrol Spreadsheet Budget Develop": "Scouts construct an organized patrol campout food budget or troop roster using spreadsheet functions. They enter formulas to calculate costs per Scout and total patrol expenditures.",
-          "Req 6b - Word Processing Document Layout": "Scouts draft a formal troop event invitation letter using word processing layout tools. They format headers, body text, bullet lists, and sign-off blocks cleanly.",
-          "Req 6c - Graphic Design Layout Production": "Scouts produce an accurate campsite map or promotional troop event flyer using graphic design software. They balance typography, imported imagery, and vector shapes.",
-          "Req 6d - Multimedia Presentation Design Ar": "Scouts develop a five slide multimedia presentation on an approved digital technology subject. Each slide integrates structured textual points, relevant diagrams, and consistent visual branding."
+          "Req 6a - Patrol Spreadsheet Budget": "Scouts construct an organized patrol campout food budget or troop roster using spreadsheet functions. They enter formulas to calculate costs per Scout and total patrol expenditures.",
+          "Req 6b - Word Processing Document": "Scouts draft a formal troop event invitation letter using word processing layout tools. They format headers, body text, bullet lists, and sign-off blocks cleanly.",
+          "Req 6c - Graphic Design Layout": "Scouts produce an accurate campsite map or promotional troop event flyer using graphic design software. They balance typography, imported imagery, and vector shapes.",
+          "Req 6d - Multimedia Presentation": "Scouts develop a five slide multimedia presentation on an approved digital technology subject. Each slide integrates structured textual points, relevant diagrams, and consistent visual branding."
         },
         "sample_output": "Practical Digital Creation Projects: A troop attendance database could be set up with a record for each Scout in the troop (p. 49).",
         "counselor_tip": "For Digital Technology Requirement 6 (Practical Digital Creation Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53))."
@@ -2855,7 +2929,33 @@
       "socratic_questions": [
         "Why is an automated formula more reliable than manual calculation when budgeting patrol campouts?",
         "What design principles ensure a promotional troop flyer clearly communicates essential logistics to families?",
-        "How does maintaining an isolated external backup protect project files from catastrophic ransomware encryption?"
+        "How does maintaining an isolated external backup protect project files from catastrophic ransomware encryption?",
+        "What happens to a campout budget total if you type a static number instead of a dynamic SUM formula in a cell?",
+        "Where should a Scout store a secondary backup copy so a single lost USB drive does not erase all project files?",
+        "Which spreadsheet reference style keeps a tax or per-camper rate cell locked when you copy a formula down a column?",
+        "What verification step confirms that files copied to an external backup drive can actually be opened on another PC?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Editing a file on a cloud drive provides a detached offline disaster recovery backup.",
+          "fact": "The 3-2-1 backup strategy maintains three data copies across two media types with one offsite copy."
+        },
+        {
+          "misconception": "Saving a second copy of a project file in a different folder on the same hard drive protects it as a true backup.",
+          "fact": "If that single drive fails or is lost, both folders disappear; true backups must reside on separate physical media or off-site storage."
+        },
+        {
+          "misconception": "Unplugging an external USB flash drive while a file transfer is still writing data is safe once the progress bar hits 99%.",
+          "fact": "Operating systems cache writes in memory, so pulling a drive before using safe eject can corrupt the file system and ruin the backup."
+        },
+        {
+          "misconception": "Formatting numbers with dollar signs by typing text characters into spreadsheet cells still allows math formulas to sum them.",
+          "fact": "Typing text symbols into cells can turn numbers into text strings that formulas ignore; store raw numbers and apply currency formatting."
+        },
+        {
+          "misconception": "Embedding high-resolution uncompressed photos into a slide deck always improves projection quality without any downside.",
+          "fact": "Uncompressed images bloat presentation file sizes and slow down rendering without adding detail beyond the projector's native resolution."
+        }
       ]
     },
     {
@@ -2901,9 +3001,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81)",
           "common_misconception_pair": {
             "misconception": "Registering a brand trademark gives the owner complete patent rights over manufacturing mechanics.",
-            "fact": "Copyright applies automatically upon creation, whereas patents require rigorous governmental examination and approval.",
-            "myth": "Registering a brand trademark gives the owner complete patent rights over manufacturing mechanics.",
-            "fact_correction": "Copyright applies automatically upon creation, whereas patents require rigorous governmental examination and approval."
+            "fact": "Copyright applies automatically upon creation, whereas patents require rigorous governmental examination and approval."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2974,9 +3072,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81)",
           "common_misconception_pair": {
             "misconception": "Any digital file shared by a close friend is legally permissible to copy.",
-            "fact": "Freeware and open source licenses explicitly authorize copying, while proprietary software end-user agreements prohibit it.",
-            "myth": "Any digital file shared by a close friend is legally permissible to copy.",
-            "fact_correction": "Freeware and open source licenses explicitly authorize copying, while proprietary software end-user agreements prohibit it."
+            "fact": "Freeware and open source licenses explicitly authorize copying, while proprietary software end-user agreements prohibit it."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3047,9 +3143,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81)",
           "common_misconception_pair": {
             "misconception": "Nonprofit educational use grants automatic total immunity from all federal copyright infringement claims.",
-            "fact": "Legal fair use defenses depend on educational purpose, nature of work, and market impact.",
-            "myth": "Nonprofit educational use grants automatic total immunity from all federal copyright infringement claims.",
-            "fact_correction": "Legal fair use defenses depend on educational purpose, nature of work, and market impact."
+            "fact": "Legal fair use defenses depend on educational purpose, nature of work, and market impact."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -3148,9 +3242,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Purchasing commercial software conveys complete underlying copyright ownership of that code base.",
-        "fact": "Open source licenses permit software redistribution under specific terms, unlike unauthorized commercial file sharing.",
-        "myth": "Purchasing commercial software conveys complete underlying copyright ownership of that code base.",
-        "fact_correction": "Open source licenses permit software redistribution under specific terms, unlike unauthorized commercial file sharing."
+        "fact": "Open source licenses permit software redistribution under specific terms, unlike unauthorized commercial file sharing."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -3191,14 +3283,14 @@
         "Step 4 - Legal Briefing: Summarize the findings of your legal case research for your counselor."
       ],
       "gear_checklist": [
-        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 7",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Intellectual Property and Software Licensing"
+        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 7.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Intellectual Property and Software Licensing."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Intellectual Property Legal Protec",
-        "right_header": "Req 7b: Software Distribution Licensing Co",
+        "left_header": "Req 7a: Intellectual Property Legal",
+        "right_header": "Req 7b: Software Distribution Licensing",
         "left_points": [
           "(7a) Intellectual Property Legal Protections: Scouts define copyright, patents, trademarks, and trade secrets, clarifying why legal protections stimulate innovation. They examine statutory registration requirements and enforcement mechanisms."
         ],
@@ -3207,29 +3299,29 @@
         ],
         "rows": [
           {
-            "attribute": "Copyrights, Patents, Trademarks, and Secrets",
-            "left": "(7a) Copyrights, Patents, Trademarks, and Secrets: Look at the copyright notice on page 2 of this merit badge pamphlet (p. 80).",
-            "right": "(7b) Permissible Free Software Sharing: © (a circled capital) (p. 80)."
+            "attribute": "Copyright Scope",
+            "left": "(7a) Intellectual Property Legal Protections: Scouts define copyright, patents, trademarks, and trade secrets, clarifying why legal protections stimulate innovation. They examine statutory registration requirements and enforcement mechanisms.",
+            "right": "(7b) Software Distribution Licensing Compliance: Scouts evaluate when receiving software from an acquaintance violates copyright statutes or terms of service. They contrast open-source permissive licensing with closed commercial proprietary restrictions."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "The Standard Copyright Symbol: © (a circled capital) (p. 80).",
-            "right": "(7c) Intellectual Property Case Discussion: Also look at the acknowledgments in the back of the pamphlet (p. 80)."
+            "attribute": "Patent Function",
+            "left": "Req 7a: Intellectual Property Legal: Scouts define copyright, patents, trademarks, and trade secrets, clarifying why legal protections stimulate innovation. They examine statutory registration requirements and enforcement mechanisms.",
+            "right": "Req 7b: Software Distribution: Scouts evaluate when receiving software from an acquaintance violates copyright statutes or terms of service. They contrast open-source permissive licensing with closed commercial proprietary restrictions."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Reviewing Creator Acknowledgments: Also look at the acknowledgments in the back of the pamphlet (p. 80).",
-            "right": "Step 3 - Refuse Unauthorized Media Copying: One major restriction imposed by copyright law is that you cannot make illegal copies of protected works (p. 80)."
+            "attribute": "Trademark Purpose",
+            "left": "Req 7c: Digital Technology: Scouts analyze a current legal dispute involving digital technology, media streaming, or proprietary algorithm theft. They explain the core claims, defense arguments, and judicial ruling outcomes.",
+            "right": "Patent Function: Patents grant inventors exclusive rights over novel functional machines, processes, and systems."
           }
         ]
       },
       "worked_example": {
-        "title": "Digital Technology Req 7 Exemplar Workbook Entry: Intellectual Property and Software Licensing",
+        "title": "Digital Technology Req 7 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Intellectual Property Legal Prote": "Scouts define copyright, patents, trademarks, and trade secrets, clarifying why legal protections stimulate innovation. They examine statutory registration requirements and enforcement mechanisms.",
-          "Req 7b - Software Distribution Licensing C": "Scouts evaluate when receiving software from an acquaintance violates copyright statutes or terms of service. They contrast open-source permissive licensing with closed commercial proprietary restrictions.",
-          "Req 7c - Digital Technology Litigation Ana": "Scouts analyze a current legal dispute involving digital technology, media streaming, or proprietary algorithm theft. They explain the core claims, defense arguments, and judicial ruling outcomes."
+          "Req 7a - Intellectual Property Legal": "Scouts define copyright, patents, trademarks, and trade secrets, clarifying why legal protections stimulate innovation. They examine statutory registration requirements and enforcement mechanisms.",
+          "Req 7b - Software Distribution": "Scouts evaluate when receiving software from an acquaintance violates copyright statutes or terms of service. They contrast open-source permissive licensing with closed commercial proprietary restrictions.",
+          "Req 7c - Digital Technology Litigation": "Scouts analyze a current legal dispute involving digital technology, media streaming, or proprietary algorithm theft. They explain the core claims, defense arguments, and judicial ruling outcomes."
         },
         "sample_output": "Intellectual Property and Software Licensing: Look at the copyright notice on page 2 of this merit badge pamphlet (p. 80).",
         "counselor_tip": "For Digital Technology Requirement 7 (Intellectual Property and Software Licensing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81))."
@@ -3266,7 +3358,33 @@
       "socratic_questions": [
         "Why does the law distinguish between a patentable functional invention and a copyrighted expressive work?",
         "Under what precise legal conditions is it acceptable to install software shared by an associate?",
-        "How did recent digital copyright lawsuits balance intellectual property rights against fair use exceptions?"
+        "How did recent digital copyright lawsuits balance intellectual property rights against fair use exceptions?",
+        "Under what condition is it legal to accept and install a free copy of a software program from a friend?",
+        "Which legal protection covers a functional invention mechanism rather than the source code or brand logo?",
+        "What happens to a company's trade secret protection if a competitor independently reverse-engineers the product?",
+        "Why does a Creative Commons or open-source license still require users to follow attribution or share-alike rules?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Purchasing commercial software conveys complete underlying copyright ownership of that code base.",
+          "fact": "Open source licenses permit software redistribution under specific terms, unlike unauthorized commercial file sharing."
+        },
+        {
+          "misconception": "Any image, song, or program found on a public website without a copyright symbol is in the public domain and free to copy.",
+          "fact": "Copyright protection attaches automatically the moment an original work is fixed in a tangible medium, even without a copyright notice."
+        },
+        {
+          "misconception": "Buying a commercial software application gives you the legal right to install copies on all of your friends' computers.",
+          "fact": "Commercial software purchases grant a limited End User License Agreement for specific devices, not ownership or redistribution rights."
+        },
+        {
+          "misconception": "Freeware and open-source software are identical because both let users modify the source code and sell copies freely.",
+          "fact": "Freeware costs nothing to run but usually keeps its source code closed and forbids modification, unlike open-source licenses."
+        },
+        {
+          "misconception": "Registering a patent keeps an invention's technical design hidden from the public so competitors cannot study it.",
+          "fact": "A patent requires full public disclosure of how the invention works in exchange for a temporary legal monopoly to exclude copycats."
+        }
       ]
     },
     {
@@ -3318,9 +3436,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
             "misconception": "Electronic devices consist exclusively of nontoxic silicon and common household steel alloys.",
-            "fact": "Brominated flame retardants in plastics bioaccumulate in animal tissue if released into ecosystems.",
-            "myth": "Electronic devices consist exclusively of nontoxic silicon and common household steel alloys.",
-            "fact_correction": "Brominated flame retardants in plastics bioaccumulate in animal tissue if released into ecosystems."
+            "fact": "Brominated flame retardants in plastics bioaccumulate in animal tissue if released into ecosystems."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3392,9 +3508,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
             "misconception": "Every local scrap metal collector recycles electronics with certified environmental health standards.",
-            "fact": "Third party certification programs mandate verified downstream tracking to halt illegal e-waste dumping.",
-            "myth": "Every local scrap metal collector recycles electronics with certified environmental health standards.",
-            "fact_correction": "Third party certification programs mandate verified downstream tracking to halt illegal e-waste dumping."
+            "fact": "Third party certification programs mandate verified downstream tracking to halt illegal e-waste dumping."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3469,9 +3583,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
             "misconception": "Charitable hardware donation programs automatically shred every donated computer without testing functionality.",
-            "fact": "Responsible reclamation programs dismantle electronics to supply purified raw commodities to industrial manufacturers.",
-            "myth": "Charitable hardware donation programs automatically shred every donated computer without testing functionality.",
-            "fact_correction": "Responsible reclamation programs dismantle electronics to supply purified raw commodities to industrial manufacturers."
+            "fact": "Responsible reclamation programs dismantle electronics to supply purified raw commodities to industrial manufacturers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3546,9 +3658,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
             "misconception": "Electronics recycling centers throw crushed components directly into standard community composting bins.",
-            "fact": "Industrial shredders use optical sorters and eddy currents to separate metals from circuit boards.",
-            "myth": "Electronics recycling centers throw crushed components directly into standard community composting bins.",
-            "fact_correction": "Industrial shredders use optical sorters and eddy currents to separate metals from circuit boards."
+            "fact": "Industrial shredders use optical sorters and eddy currents to separate metals from circuit boards."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3622,9 +3732,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
             "misconception": "Alkaline and lithium rechargeable batteries follow identical pyrometallurgical refining processes without sorting.",
-            "fact": "Taping lithium battery terminals with electrical tape prevents short circuits during transit to recyclers.",
-            "myth": "Alkaline and lithium rechargeable batteries follow identical pyrometallurgical refining processes without sorting.",
-            "fact_correction": "Taping lithium battery terminals with electrical tape prevents short circuits during transit to recyclers."
+            "fact": "Taping lithium battery terminals with electrical tape prevents short circuits during transit to recyclers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3733,9 +3841,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Discarded electronic circuit boards dissolve harmlessly when buried in standard municipal landfill waste.",
-        "fact": "Lead solder and mercury switches in discarded circuit boards leach into ground water if landfilled.",
-        "myth": "Discarded electronic circuit boards dissolve harmlessly when buried in standard municipal landfill waste.",
-        "fact_correction": "Lead solder and mercury switches in discarded circuit boards leach into ground water if landfilled."
+        "fact": "Lead solder and mercury switches in discarded circuit boards leach into ground water if landfilled."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3771,14 +3877,14 @@
         "Step 4 - Battery Handling Briefing: Explain proper terminal taping protocols for safely recycling depleted battery packs."
       ],
       "gear_checklist": [
-        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 8",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Electronic Waste and Responsible Recycling"
+        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 8.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Electronic Waste and Responsible Recycling."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Electronic Waste Chemical Hazards",
-        "right_header": "Req 8c: Hardware Repurposing Organization",
+        "left_header": "Req 8a: Electronic Waste Chemical",
+        "right_header": "Req 8c: Hardware Repurposing",
         "left_points": [
           "(8a) Electronic Waste Chemical Hazards: Scouts explain why throwing digital hardware in municipal trash harms ecosystems, identifying lead, mercury, and cadmium hazards. They review environmental regulations governing toxic electronic scrap.",
           "(8b) Certified E-Waste Recycling Standards: Scouts investigate R2 and e-Stewards recycling certifications, discovering why certified downstream processors protect worker health. Certified handlers guarantee electronics avoid substandard foreign dumping grounds."
@@ -3789,30 +3895,30 @@
         ],
         "rows": [
           {
-            "attribute": "Hazardous Chemicals in Electronics",
-            "left": "(8a) Hazardous Chemicals in Electronics: The best form of recycling is to donate your old digital technology to a good cause (p. 73).",
-            "right": "(8c) Electronics Donation and Recycling Programs: Many companies will responsibly recycle digital e-waste for you; make sure you use a certified recycler (p. 73)."
+            "attribute": "Toxic Heavy Metals",
+            "left": "(8a) Electronic Waste Chemical Hazards: Scouts explain why throwing digital hardware in municipal trash harms ecosystems, identifying lead, mercury, and cadmium hazards. They review environmental regulations governing toxic electronic scrap.",
+            "right": "(8c) Hardware Repurposing Organization Operations: Scouts research an organization that collects discarded hardware for refurbishment or material shredding. They document how functional computers are refurbished for schools while obsolete units are refined."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(8b) Certified Electronic Waste Recyclers: According to the EPA, for every million cell phones we recycle, 35,000 pounds of copper, 772 pounds of silver, 75 pounds of gold, and 33 pounds (p. 73).",
-            "right": "(8d) Visiting an Electronics Recycling Center: Do your part to reduce e-waste by following the four R's of digital-device disposal, Reuse (p. 73)."
+            "attribute": "Certified Recycler Standards",
+            "left": "(8b) Certified E-Waste Recycling Standards: Scouts investigate R2 and e-Stewards recycling certifications, discovering why certified downstream processors protect worker health. Certified handlers guarantee electronics avoid substandard foreign dumping grounds.",
+            "right": "(8d) Recycling Center Facility Processing: Scouts tour or research an electronic waste recycling facility, observing mechanical sorting, shredding, and chemical reclamation processes. They summarize how commodity metals return to manufacturing supply chains."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Precious Metals in Cell Phones: According to the EPA, for every million cell phones we recycle, 35,000 pounds of copper, 772 pounds of silver, 75 pounds of gold, and 33 pounds (p. 73).",
-            "right": "(8e) Local Battery Recycling Operations: The best form of recycling is to donate your old digital technology to a good cause (p. 73)."
+            "attribute": "Secondary Material Recovery",
+            "left": "Req 8a: Electronic Waste Chemical: Scouts explain why throwing digital hardware in municipal trash harms ecosystems, identifying lead, mercury, and cadmium hazards. They review environmental regulations governing toxic electronic scrap.",
+            "right": "Req 8b: Certified E-Waste Recycling: Scouts investigate R2 and e-Stewards recycling certifications, discovering why certified downstream processors protect worker health. Certified handlers guarantee electronics avoid substandard foreign dumping grounds."
           }
         ]
       },
       "worked_example": {
-        "title": "Digital Technology Req 8 Exemplar Workbook Entry: Electronic Waste and Responsible Recycling",
+        "title": "Digital Technology Req 8 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a - Electronic Waste Chemical Hazards": "Scouts explain why throwing digital hardware in municipal trash harms ecosystems, identifying lead, mercury, and cadmium hazards. They review environmental regulations governing toxic electronic scrap.",
-          "Req 8b - Certified E-Waste Recycling Stand": "Scouts investigate R2 and e-Stewards recycling certifications, discovering why certified downstream processors protect worker health. Certified handlers guarantee electronics avoid substandard foreign dumping grounds.",
-          "Req 8c - Hardware Repurposing Organization": "Scouts research an organization that collects discarded hardware for refurbishment or material shredding. They document how functional computers are refurbished for schools while obsolete units are refined.",
-          "Req 8d - Recycling Center Facility Process": "Scouts tour or research an electronic waste recycling facility, observing mechanical sorting, shredding, and chemical reclamation processes. They summarize how commodity metals return to manufacturing supply chains."
+          "Req 8a - Electronic Waste Chemical": "Scouts explain why throwing digital hardware in municipal trash harms ecosystems, identifying lead, mercury, and cadmium hazards. They review environmental regulations governing toxic electronic scrap.",
+          "Req 8b - Certified E-Waste Recycling": "Scouts investigate R2 and e-Stewards recycling certifications, discovering why certified downstream processors protect worker health. Certified handlers guarantee electronics avoid substandard foreign dumping grounds.",
+          "Req 8c - Hardware Repurposing": "Scouts research an organization that collects discarded hardware for refurbishment or material shredding. They document how functional computers are refurbished for schools while obsolete units are refined.",
+          "Req 8d - Recycling Center Facility": "Scouts tour or research an electronic waste recycling facility, observing mechanical sorting, shredding, and chemical reclamation processes. They summarize how commodity metals return to manufacturing supply chains."
         },
         "sample_output": "Electronic Waste and Responsible Recycling: The best form of recycling is to donate your old digital technology to a good cause (p. 73).",
         "counselor_tip": "For Digital Technology Requirement 8 (Electronic Waste and Responsible Recycling), verify the Scout's own observations and specific pamphlet details (Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75))."
@@ -3849,7 +3955,33 @@
       "socratic_questions": [
         "What chemical reactions occur when heavy metals from crushed electronics enter municipal aquifers?",
         "Why should consumers verify that an e-waste processing facility carries certified industry credentials?",
-        "What specialized extraction steps separate dangerous battery electrolytes from reusable cobalt and nickel?"
+        "What specialized extraction steps separate dangerous battery electrolytes from reusable cobalt and nickel?",
+        "Why is it dangerous to crush or puncture a swollen lithium-ion battery inside a discarded smartphone or laptop?",
+        "What happens to groundwater when lead solder, mercury, and cadmium from landfilled circuit boards leach into soil?",
+        "Which third-party certification confirms that an electronics recycler processes hazardous e-waste safely and legally?",
+        "What data sanitization step must a Scout complete before donating or recycling an old computer or mobile phone?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Discarded electronic circuit boards dissolve harmlessly when buried in standard municipal landfill waste.",
+          "fact": "Lead solder and mercury switches in discarded circuit boards leach into ground water if landfilled."
+        },
+        {
+          "misconception": "Tossing old cell phones and circuit boards into a municipal curbside recycling bin ensures they are recycled safely.",
+          "fact": "Curbside bins are built for paper, glass, and cans; lithium batteries in e-waste frequently spark fires inside sorting trucks and plants."
+        },
+        {
+          "misconception": "Dragging personal files to the desktop trash can or recycle bin removes your private data before donating a computer.",
+          "fact": "Standard deletion only removes file pointers, so recovery tools can read private data until the drive is securely overwritten or wiped."
+        },
+        {
+          "misconception": "All companies advertising free electronics drop-off dismantle toxic components safely inside regulated domestic facilities.",
+          "fact": "Uncertified collectors often ship e-waste overseas for open-air burning; look for R2 or e-Stewards certification to verify safe processing."
+        },
+        {
+          "misconception": "Modern flat-screen devices and circuit boards contain only harmless plastics and aluminum with no toxic heavy metals.",
+          "fact": "Electronic devices still contain hazardous substances like lead solder, cadmium, mercury, and brominated flame retardants."
+        }
       ]
     },
     {
@@ -3905,9 +4037,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 71)",
           "common_misconception_pair": {
             "misconception": "Software development careers consist entirely of writing repetitive website code without collaboration.",
-            "fact": "Cloud architects design distributed infrastructure requiring expertise in virtualization, storage networks, and systems security.",
-            "myth": "Software development careers consist entirely of writing repetitive website code without collaboration.",
-            "fact_correction": "Cloud architects design distributed infrastructure requiring expertise in virtualization, storage networks, and systems security."
+            "fact": "Cloud architects design distributed infrastructure requiring expertise in virtualization, storage networks, and systems security."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -3991,9 +4121,7 @@
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 71)",
           "common_misconception_pair": {
             "misconception": "Digital technology hobbies require thousands of dollars in commercial software licensing to begin.",
-            "fact": "Building open source software projects helps hobbyists develop practical version control and collaboration skills.",
-            "myth": "Digital technology hobbies require thousands of dollars in commercial software licensing to begin.",
-            "fact_correction": "Building open source software projects helps hobbyists develop practical version control and collaboration skills."
+            "fact": "Building open source software projects helps hobbyists develop practical version control and collaboration skills."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -4093,9 +4221,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Entering a software engineering career requires no formal technical training or project portfolio.",
-        "fact": "Information security analysts need certifications and strong foundations in networking, cryptography, and operating systems.",
-        "myth": "Entering a software engineering career requires no formal technical training or project portfolio.",
-        "fact_correction": "Information security analysts need certifications and strong foundations in networking, cryptography, and operating systems."
+        "fact": "Information security analysts need certifications and strong foundations in networking, cryptography, and operating systems."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -4136,14 +4262,14 @@
         "Step 4 - Counselor Career Review: Present a detailed summary of your career or hobby findings to your counselor."
       ],
       "gear_checklist": [
-        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 9",
-        "Computer or workstation with approved development or analysis tools",
-        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook",
-        "Saved project files, screenshots, or code listing for Digital Technology Careers and Hobbies"
+        "Official Digital Technology merit badge pamphlet and workbook organizer for Req 9.",
+        "Computer or workstation with approved development or analysis tools.",
+        "Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.",
+        "Saved project files, screenshots, or code listing for Digital Technology Careers and Hobbies."
       ],
       "comparison_data": {
-        "left_header": "Req 9a: Digital Technology Career Pathways",
-        "right_header": "Req 9b: Digital Technology Technical Hobbi",
+        "left_header": "Req 9a: Digital Technology Career",
+        "right_header": "Req 9b: Digital Technology Technical",
         "left_points": [
           "(9a) Digital Technology Career Pathways: Scouts research an industry profession within computing, analyzing university degree costs, starting compensation, and required technical credentials. They map potential career advancement routes from junior contributor to senior engineering leadership."
         ],
@@ -4152,28 +4278,28 @@
         ],
         "rows": [
           {
-            "attribute": "Digital Technology Career Research",
-            "left": "(9a) Digital Technology Career Research: This pamphlet can be found in the front of the Scouts BSA Handbook (p. 63).",
-            "right": "(9b) Technology Skills for Personal Hobbies: You can find help with your hobbies and interests, learn all sorts of things, click your way to a wide world of instant information, and even read (p. 63)."
+            "attribute": "Degree Education Paths",
+            "left": "(9a) Digital Technology Career Pathways: Scouts research an industry profession within computing, analyzing university degree costs, starting compensation, and required technical credentials. They map potential career advancement routes from junior contributor to senior engineering leadership.",
+            "right": "(9b) Digital Technology Technical Hobbies: Scouts examine how digital knowledge unlocks creative hobbies such as robotics, digital audio workstations, or home automation. They estimate basic starter tool expenses, explore hobby clubs, and identify community learning groups."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Parent Permitted Online Exploration: Before reviewing this video, Scouts should complete the exercises in the \"How to Protect Your Children from Child Abuse, A Parent's Guide\" pamphlet (p. 63).",
-            "right": "Step 2 - Research Careers and Hobbies Online: You can find help with your hobbies and interests, learn all sorts of things, click your way to a wide world of instant information, and even read (p. 63)."
+            "attribute": "Industry Certification Value",
+            "left": "Req 9a: Digital Technology Career: Scouts research an industry profession within computing, analyzing university degree costs, starting compensation, and required technical credentials. They map potential career advancement routes from junior contributor to senior engineering leadership.",
+            "right": "Req 9b: Digital Technology Technical: Scouts examine how digital knowledge unlocks creative hobbies such as robotics, digital audio workstations, or home automation. They estimate basic starter tool expenses, explore hobby clubs, and identify community learning groups."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Scouts BSA Handbook Guidance: This pamphlet can be found in the front of the Scouts BSA Handbook (p. 63).",
-            "right": "Step 3 - Practice Safe Research Habits: Along with the convenience of the internet, however, comes some risk (p. 63)."
+            "attribute": "Amateur Radio Integration",
+            "left": "Degree Education Paths: University computer science degrees provide foundational algorithmic and system design training.",
+            "right": "Industry Certification Value: Specialized technical certifications demonstrate verified hands-on competency in cybersecurity or networking."
           }
         ]
       },
       "worked_example": {
-        "title": "Digital Technology Req 9 Exemplar Workbook Entry: Digital Technology Careers and Hobbies",
+        "title": "Digital Technology Req 9 Exemplar Workbook Entry",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 9a - Digital Technology Career Pathway": "Scouts research an industry profession within computing, analyzing university degree costs, starting compensation, and required technical credentials. They map potential career advancement routes from junior contributor to senior engineering leadership.",
-          "Req 9b - Digital Technology Technical Hobb": "Scouts examine how digital knowledge unlocks creative hobbies such as robotics, digital audio workstations, or home automation. They estimate basic starter tool expenses, explore hobby clubs, and identify community learning groups."
+          "Req 9a - Digital Technology Career": "Scouts research an industry profession within computing, analyzing university degree costs, starting compensation, and required technical credentials. They map potential career advancement routes from junior contributor to senior engineering leadership.",
+          "Req 9b - Digital Technology Technical": "Scouts examine how digital knowledge unlocks creative hobbies such as robotics, digital audio workstations, or home automation. They estimate basic starter tool expenses, explore hobby clubs, and identify community learning groups."
         },
         "sample_output": "Digital Technology Careers and Hobbies: This pamphlet can be found in the front of the Scouts BSA Handbook (p. 63).",
         "counselor_tip": "For Digital Technology Requirement 9 (Digital Technology Careers and Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 71))."
@@ -4208,9 +4334,35 @@
       "workbook_visual_caption": "Rows of server racks in a modern data center house network infrastructure that powers the internet.",
       "pamphlet_summary": "Careers across digital technology span software engineering, network administration, cybersecurity analysis, and database management. Knowledge of digital systems also enables engaging lifelong technical hobbies including amateur radio packet communication, robotics, and open-source programming.",
       "socratic_questions": [
-        "How do educational degree requirements differ between specialized cybersecurity analysts and hardware technicians?",
+        "In what specific ways do educational degree requirements differ between specialized cybersecurity analysts and hardware technicians?",
         "What industry standard certifications help entry level professionals demonstrate mastery to prospective employers?",
-        "In what ways does experimenting with hobbyist microcontrollers prepare an individual for engineering careers?"
+        "In what ways does experimenting with hobbyist microcontrollers prepare an individual for engineering careers?",
+        "Under what condition may a Scout conduct an online interview or visit a digital technology workplace for career research?",
+        "Which credential difference separates an accredited degree from a vendor certification for entry-level IT roles?",
+        "What measurement in the Occupational Outlook Handbook confirms whether a digital career has growing 10-year job demand?",
+        "Why is it dangerous to photograph proprietary screens or touch server racks without clearance during a workplace facility tour?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Entering a software engineering career requires no formal technical training or project portfolio.",
+          "fact": "Information security analysts need certifications and strong foundations in networking, cryptography, and operating systems."
+        },
+        {
+          "misconception": "Every high-paying digital technology career requires a four-year university degree in computer science before you can get hired.",
+          "fact": "Many network, cloud, and cybersecurity roles hire candidates with associate degrees, apprenticeships, or vendor certifications."
+        },
+        {
+          "misconception": "National average salary figures represent the exact starting paycheck a newly hired entry-level technician will earn in any city.",
+          "fact": "Entry-level pay is typically in the lower quartile of national medians and varies widely by local cost of living and credentials."
+        },
+        {
+          "misconception": "Digital technology in an industrial facility is limited to the desktop computers and laptops inside the main administrative office.",
+          "fact": "Industrial facilities also rely on programmable logic controllers, barcode scanners, automated sensors, and inventory systems."
+        },
+        {
+          "misconception": "Initial technical training is enough to sustain a digital career for decades without ongoing study or credential renewal.",
+          "fact": "Digital professionals must complete continuing education and renew technical certifications every few years to keep up with new systems."
+        }
       ]
     }
   ],

@@ -1,8 +1,8 @@
 # Wildland Fire Management Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** None  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/wildland-fire-management/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/wildland-fire-management/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -31,8 +31,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 7:** Wildfire Suppression Tactics. Do the following: (a) Alone or with a small team, using the diagram you created in Requirement 5(c) or a map of a wildfire, and tokens to represent firefighting resources, demonstrate the following wildland fire suppression tactics. Explain under which conditions each tactic would be used: (1) Direct attack (2) Indirect attack (3) Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration (b) Draw a diagram of the Incident Command System. Alone or with your team, explain the responsibilities of the Command and General Staff positions on a wildfire incident.
-- [ ] **Station Req 8:** Wildfire Suppression Tools. Do the following: (a) Demonstrate the use of three hand tools unique to wildland fire suppression. Use one of these tools to demonstrate how to construct a fireline. (b) Discuss seven other tools, equipment, or apparatus that are unique to wildland fire suppression and explain how these resources are used.
+- [ ] **Station Req 7:** Scout must individually explain mastery of Requirement 7 to the Merit Badge Counselor.
+- [ ] **Station Req 8:** Scout must individually demonstrate mastery of Requirement 8 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -386,9 +386,9 @@
 - **Pamphlet Fact:** Nomex fabric does not melt or drip when exposed to intense heat, shielding firefighters from severe burns.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Wildland Fire Management Merit Badge Pamphlet and Fillable Scout Workbook (Req 6: Wildland Firefighter Safety)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Wildland Firefighter Safety
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Wildland Fire Management Merit: Wildland Firefighter Safety.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Wildland Firefighter Safety.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Wildland Fire Management Requirement 6 figure showing aramid clothing resists direct flame and high heat without melting onto skin.](/assets/pamphlet_images/wildland_fire_management_p006_img1.png)
 
@@ -495,9 +495,9 @@
 - **Pamphlet Fact:** Constructing an effective handline requires clearing surface vegetation and scraping duff down to bare mineral soil.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Wildland Fire Management Merit Badge Pamphlet and Fillable Scout Workbook (Req 8: Wildfire Suppression Tools)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Wildfire Suppression Tools
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Wildland Fire Management Merit: Wildfire Suppression Tools.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Wildfire Suppression Tools.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Wildland Fire Management Requirement 8 figure showing the Pulaski chops thick roots with its axe blade and grubs mineral soil.](/assets/pamphlet_images/wildland_fire_management_p008_img1.png)
 
@@ -542,9 +542,9 @@
 - **Pamphlet Fact:** A wildland readiness map highlights primary access routes, helicopter dip sites, fire hydrants, and natural ridgeline barriers.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Wildland Fire Management Merit Badge Pamphlet and Fillable Scout Workbook (Req 9: Wildland Fire Management Hazards and First Aid)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Wildland Fire Management Hazards and First Aid
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Wildland Fire Management Merit: Wildland Fire Management Hazards and First Aid.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Wildland Fire Management Hazards and First Aid.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Wildland Fire Management Requirement 9 figure showing map water supply points, natural firebreaks, and primary ingress roads.](/assets/pamphlet_images/wildland_fire_management_p009_img1.png)
 
@@ -657,9 +657,9 @@
 - **Pamphlet Fact:** Wildland fire careers include hotshot crew members, smokejumpers, wildland fire investigators, and certified fire behavior analysts.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Wildland Fire Management Merit Badge Pamphlet and Fillable Scout Workbook (Req 11: Wildland Fire Management Careers and Pathways)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Wildland Fire Management Careers and Pathways
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Wildland Fire Management Merit: Wildland Fire Management Careers and Pathways.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Wildland Fire Management Careers and Pathways.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Wildland firefighters demonstrate brush clearing tools and controlled burn management practices to Scouts in a pine forest.](/assets/ai_illustrations/wildland_fire_management_req_11_nano_hero.png)
 

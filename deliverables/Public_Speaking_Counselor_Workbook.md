@@ -1,8 +1,8 @@
 # Public Speaking Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Public%20Speaking.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/public-speaking/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/public-speaking/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -57,9 +57,9 @@
 - **Pamphlet Fact:** Visual aids must rely on bold graphics or minimal text to support the speaker rather than compete for attention.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Public Speaking Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Three- to Five-minute Talk)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Three- to Five-minute Talk
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Public Speaking Merit Badge: Three- to Five-minute Talk.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Three- to Five-minute Talk.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A Scout presents a formal speech to his patrol during a meeting.](/assets/pamphlet_images/public_speaking_p007_img1.png)
 
@@ -128,9 +128,9 @@
 - **Pamphlet Fact:** Members must be recognized by the presiding officer and speak only to the pending motion.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Public Speaking Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: You know parliamentary procedure by leading)
-- [ ] Field notebook, verification log sheet, and demonstration materials for You know parliamentary procedure by leading
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Public Speaking Merit Badge: You know parliamentary procedure by leading.
+- [ ] Field notebook, verification log sheet, and demonstration materials for You know parliamentary procedure by leading.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A girl holds a microphone to practice clear speech projection.](/assets/pamphlet_images/public_speaking_p048_img1.png)
 

@@ -1,8 +1,8 @@
 # Graphic Arts Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Graphic%20Arts.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/graphic-arts/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/graphic-arts/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -194,7 +194,7 @@
 - **Pamphlet Fact:** Industrial guillotine cutters rely on mechanical clamps and precision back gauges to achieve square cuts.
 
 **Official Pamphlet Summary:**
-- Guillotine Cutting: Clamping bars flatten paper lifts firmly before angled knives slice cleanly through.
+- Guillotine Cutting: Clamping bars flatten paper lifts firmly before angled knives slice cleanly.
 - Hole Drilling: Hollow spinning bits clear paper cores smoothly without overheating during thick operations.
 - Adhesive Padding: Liquid plastic compound binds jogged sheet edges securely to cardboard backing strips.
 - Signature Assembly: Folded press sheets nest together chronologically before spine staples drive through folds.

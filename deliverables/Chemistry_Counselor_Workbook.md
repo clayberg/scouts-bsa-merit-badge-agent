@@ -1,8 +1,8 @@
 # Chemistry Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Chemistry.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/chemistry/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/chemistry/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -27,7 +27,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Chemistry and First Aid. After successfully completing requirement 1, do the following: (a) Discuss with your counselor why you think soap and alcohol are used to clean cuts and scrapes. Discuss how you could test your hypotheses with your counselor. (b) Coat your hands with a mixture of cooking oil and a nontoxic powder, such as sand or cocoa. Wash your hands with water and observe what happens. Coat your hands again, then wash with soap and water. Discuss the differences with your counselor. (c) Perform an experiment to demonstrate how rubbing alcohol affects microbial growth using baker's yeast. Discuss the results with your counselor. Resource: Watching How Alcohol Kills Virus and Bacteria Under a Microscope (video)
+- [ ] **Station Req 2:** Scout must individually explain mastery of Requirement 2 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -51,9 +51,9 @@
 - **Pamphlet Fact:** Suspended airborne sugar dust creates severe deflagration hazards despite sucrose being nontoxic to touch.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Chemistry Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Chemistry and Safety)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Chemistry and Safety
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Chemistry Merit Badge Pamphlet: Chemistry and Safety.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Chemistry and Safety.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Chemistry Requirement 1 figure showing section two outlines specific physical and health hazards alongside standardized.](/assets/pamphlet_images/chemistry_p003_img1.png)
 
@@ -113,7 +113,7 @@
 **Official Requirement 2 (Parent Overview):** Chemistry and First Aid. After successfully completing requirement 1, do the following: (a) Discuss with your counselor why you think soap and alcohol are used to clean cuts and scrapes. Discuss how you could test your hypotheses with your counselor. (b) Coat your hands with a mixture of cooking oil and a nontoxic powder, such as sand or cocoa. Wash your hands with water and observe what happens. Coat your hands again, then wash with soap and water. Discuss the differences with your counselor. (c) Perform an experiment to demonstrate how rubbing alcohol affects microbial growth using baker's yeast. Discuss the results with your counselor. Resource: Watching How Alcohol Kills Virus and Bacteria Under a Microscope (video)
 **Source:** *Official Scouting America Chemistry Merit Badge Pamphlet (p. 40, p. 68)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Keep rubbing alcohol away from open flames, heat sources, eyes, and broken mucous membranes.
-- **Common Myth:** Beginners often think alcohol cleans skin by chemically dissolving dirt particles like soap does.
+- **Common Myth:** Beginners often think alcohol cleans skin by chemically dissolving dirt particles like soap.
 - **Pamphlet Fact:** Alcohol denatures proteins and kills microbes, but lacks surfactant properties needed to lift physical soils.
 
 **Official Pamphlet Summary:**

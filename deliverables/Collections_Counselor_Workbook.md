@@ -1,8 +1,8 @@
 # Collections Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Collections.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/collections/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/collections/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -26,7 +26,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 4:** Demonstrate your knowledge of collecting and investing. Discuss with your counselor: (a) How investing and speculation would apply to your collection (b) What you would look for in purchasing other collections similar to yours (c) What you would expect in return value if you decided to sell all or part of the collection
+- [ ] **Station Req 4:** Scout must individually discuss mastery of Requirement 4 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -38,9 +38,9 @@
 - **Pamphlet Fact:** A written collection overview establishes provenance, personal acquisition history, and intellectual value.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Collections Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Short Written Report or Outline)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Short Written Report or Outline
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Collections Merit Badge: Short Written Report or Outline.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Short Written Report or Outline.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Uniformed Scout presenting a written collection outline and display tray of geological, fossil, and shell specimens.](/assets/ai_illustrations/collections_req_1_nano_hero.png)
 

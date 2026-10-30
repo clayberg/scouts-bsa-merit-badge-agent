@@ -1,0 +1,140 @@
+{
+  "badge_slug": "aviation",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A stall occurs whenever the wing exceeds its critical angle of attack, which can happen at any airspeed or flight attitude.",
+          "misconception": "An airplane stalls only when its forward airspeed drops below a fixed number of knots, regardless of wing angle."
+        },
+        {
+          "fact": "Rudder pedals control yaw around the vertical axis, while pulling back on the yoke or stick moves the elevator to pitch the nose up.",
+          "misconception": "Pulling back on the rudder pedals raises the airplane's nose to initiate a climb during normal flight."
+        },
+        {
+          "fact": "Thrust propels the aircraft forward against drag, while airflow over the wing's airfoil generates upward lift to oppose weight.",
+          "misconception": "Engine thrust directly lifts a fixed-wing aircraft upward into the sky against the pull of gravity."
+        },
+        {
+          "fact": "The attitude indicator relies on an internal spinning gyroscope or solid-state AHRS sensors, not pitot-static air pressure.",
+          "misconception": "The attitude indicator measures aircraft pitch and bank angles by sensing outside barometric air pressure changes."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to an airplane's roll and yaw axes when the pilot deflects the left aileron upward and the right aileron downward?",
+        "Which physical mechanism allows a helicopter rotor to generate lift while hovering at zero forward airspeed unlike a fixed wing?",
+        "What measurement on the altimeter's Kollsman window must a pilot set before takeoff to read accurate altitude above sea level?",
+        "Why is it dangerous to fly with a blocked pitot tube even if the static port remains completely clear of ice or debris?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Launching too steeply or forcefully causes the glider to stall and dive; a gentle, level throw near stall speed maximizes glide.",
+          "misconception": "Throwing a foam plate glider as hard as possible with the nose pointed straight up produces the longest glide distance."
+        },
+        {
+          "fact": "Downward elevons increase lift at the tail and pitch the nose down, whereas upward elevons push the tail down and raise the nose.",
+          "misconception": "Bending both trailing-edge elevons downward on an FPG-9 glider causes the nose to pitch upward into a climb."
+        },
+        {
+          "fact": "A tail-heavy center of gravity makes a model unstable and prone to sudden stalls; the balance point belongs near the forward wing spar.",
+          "misconception": "Adding clay weight to the tail of a nose-heavy model until it balances behind the wing improves longitudinal stability."
+        },
+        {
+          "fact": "Unpowered hand-glide tests must come first so trim errors can be corrected gently before full propeller torque causes a crash.",
+          "misconception": "Winding a balsa airplane's rubber motor to maximum tension on the first test flight is the best way to check wing alignment."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your FPG-9 glider's flight path if both elevons are bent slightly upward before a hand launch?",
+        "Under what condition does shifting a model airplane's center of gravity too far aft behind the wing cause unstable flight?",
+        "What measurement confirms your balsa model achieved a true 25-foot straight-line flight rather than a wide turning arc?",
+        "Where should a Scout position spectators and patrol members before launching a wound balsa model or remote-controlled aircraft?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Water is denser than aviation fuel and settles at the bottom of the tank, where it must be drained from sump valves before flight.",
+          "misconception": "Water contamination in aviation gasoline floats on top of the fuel and evaporates harmlessly through the tank vents."
+        },
+        {
+          "fact": "Aircraft magnetos are self-contained engine-driven generators that can fire spark plugs even when the battery switch is completely off.",
+          "misconception": "Turning off the aircraft master battery switch disables the engine magnetos and prevents the propeller from firing."
+        },
+        {
+          "fact": "On a stabilized final approach, pitch attitude primarily controls airspeed while power adjustments control the rate of descent.",
+          "misconception": "During a landing approach, pilots control their descent path strictly with the elevator and control airspeed only with throttle."
+        },
+        {
+          "fact": "Written preflight checklists are mandatory to prevent omission errors such as leaving pitot covers, control locks, or fuel caps loose.",
+          "misconception": "A visual walkaround without a printed checklist is sufficient once a pilot memorizes the aircraft's exterior inspection points."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which physical indicator inside a fuel tester cup reveals water contamination drained from a wing tank sump valve?",
+        "What happens to your ground track on a flight simulator course if you fly a magnetic heading without correcting for crosswind drift?",
+        "What measurement confirms whether your aircraft is ahead of or behind schedule when crossing a visual checkpoint along your route?",
+        "Why is it dangerous to turn a propeller by hand during a preflight inspection without verifying the magnetos are switched off?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Runway numbers represent the runway's magnetic compass heading rounded to the nearest ten degrees with the trailing zero omitted.",
+          "misconception": "Airport runways are numbered sequentially starting from 1 based on the chronological order in which they were paved."
+        },
+        {
+          "fact": "Active runways are selected so aircraft take off and land into a headwind, which increases wing lift at lower ground speeds.",
+          "misconception": "Airplanes take off and land with a strong tailwind so the wind pushes the aircraft down the runway faster."
+        },
+        {
+          "fact": "Runways use white markings and white edge lights, whereas taxiways use yellow paint markings, blue edge lights, and green centerline lights.",
+          "misconception": "Yellow markings and blue edge lights identify active runways, while white markings and green centerline lights mark taxiways."
+        },
+        {
+          "fact": "Tower controllers manage airport surface and pattern traffic, while TRACON and ARTCC facilities handle radar approach and en route flights.",
+          "misconception": "An Airport Traffic Control Tower controller tracks and vectors high-altitude airliners across multistate en route airways."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Under what condition does an airport switch its active runway from Runway 09 to Runway 27 during changing weather?",
+        "Which physical marking and lighting color distinguish an airport taxiway centerline from an active runway centerline at night?",
+        "What measurement determines why a runway aligned with a 268-degree magnetic compass azimuth is painted with the number 27?",
+        "Why is it dangerous to taxi an aircraft across double solid yellow hold-short lines without explicit tower clearance?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Private pilots can only share pro-rata trip expenses with passengers; flying for compensation requires a Commercial Pilot Certificate.",
+          "misconception": "A Private Pilot Certificate allows a pilot to fly passengers for hire and accept full payment for charter flights."
+        },
+        {
+          "fact": "Part 107 remote pilots must stay at or below 400 feet AGL and obtain prior FAA airspace authorization before flying in controlled airspace.",
+          "misconception": "Holding an FAA Remote Pilot Certificate authorizes a drone operator to fly above 400 feet in controlled airspace without approval."
+        },
+        {
+          "fact": "Student pilots are prohibited from carrying passengers on solo flights and must hold specific instructor endorsements for every solo flight.",
+          "misconception": "A Student Pilot Certificate permits a trainee to bring family members along on solo cross-country practice flights."
+        },
+        {
+          "fact": "Any private pilot can add an Instrument Rating to fly safely through clouds and low visibility under Instrument Flight Rules.",
+          "misconception": "An Instrument Rating is only useful for commercial airline captains flying large multi-engine jets at high altitudes."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a VFR-only private pilot's legal options when cloud ceilings drop below basic Visual Flight Rules minimums?",
+        "Which legal privilege distinguishes a Commercial Pilot Certificate holder from a Private Pilot Certificate holder under FAA rules?",
+        "What measurement of logged flight hours and recent takeoffs and landings must a pilot record to carry passengers legally?",
+        "Why is it dangerous to fly into clouds without an instrument rating and current proficiency in instrument flight reference?"
+      ],
+      "req_id": "5"
+    }
+  ]
+}

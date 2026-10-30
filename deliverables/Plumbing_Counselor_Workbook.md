@@ -1,8 +1,8 @@
 # Plumbing Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Plumbing.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/plumbing/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/plumbing/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -26,7 +26,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Show how to use five important plumber's tools.
+- [ ] **Station Req 3:** Scout must individually show mastery of Requirement 3 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -105,10 +105,10 @@
 - **Pamphlet Fact:** Freezing ice traps water downstream and builds extreme hydraulic pressure that bursts the pipe elsewhere.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Drawing
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Plumbing
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Drawing.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Plumbing.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![A professional plumber inspects and tightens drain fittings beneath a modern residential kitchen counter.](/assets/pamphlet_images/plumbing_p007_img1.png)
 
@@ -158,10 +158,10 @@
 - **Pamphlet Fact:** Serrated pipe wrench teeth will gouge and crush delicate chrome finish, which requires smooth-jaw wrenches.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Important Plumber's Tools
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Plumbing
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Important Plumber's Tools.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Plumbing.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![An adult instructor demonstrates how to cut, fit, and solder copper water pipes at an outdoor workbench.](/assets/ai_illustrations/plumbing_req_3_nano_hero.png)
 

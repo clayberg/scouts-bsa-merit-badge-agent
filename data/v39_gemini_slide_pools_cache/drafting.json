@@ -1,0 +1,221 @@
+{
+  "badge_slug": "drafting",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Standard office and masking tapes have aggressive adhesives that tear paper fibers upon removal, unlike low-tack drafting tape.",
+          "misconception": "Masking tape or transparent office tape holds drawing paper to a drafting board just as cleanly as drafting tape."
+        },
+        {
+          "fact": "Light construction guidelines drawn with a hard 4H or 6H lead remain barely visible on the sheet and should never be erased.",
+          "misconception": "Title block guidelines should be erased after completing single-stroke Gothic lettering so the block looks clean."
+        },
+        {
+          "fact": "Borders require a thick, dark line drawn with a softer F or HB lead, whereas guidelines need an ultra-light 4H or 6H pencil.",
+          "misconception": "Border lines and construction guidelines use the same pencil lead hardness and line weight across a drawing sheet."
+        },
+        {
+          "fact": "An ANSI B-size sheet measures 11 by 17 inches, which doubles only the short 8.5-inch side of an 8.5 by 11-inch A-size sheet.",
+          "misconception": "Standard ANSI B-size architectural and engineering sheets measure exactly twice the width and length of an A-size sheet."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your orthographic view spacing if you select a sheet size before sketching the part dimensions and layout?",
+        "Which lead grade produces crisp, dense border lines without smudging across the paper when your triangle slides over them?",
+        "Where should a drafter anchor the corners of the vellum sheet with drafting tape to keep the T-square aligned to the edge?",
+        "What measurement confirms that your light guideline spacing matches the standard fraction height for title block lettering?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Drawing with a pencil along a scale wears down the calibrated markings and warps the edge; only triangles and T-squares guide lines.",
+          "misconception": "Triangular architect's and engineer's scales serve as straightedges for drawing pencil lines along a T-square."
+        },
+        {
+          "fact": "A visible gap of about one-sixteenth of an inch must separate the object corner from the start of the extension line.",
+          "misconception": "Extension lines must touch the corners of the visible object lines so the machinist knows where the measurement starts."
+        },
+        {
+          "fact": "Double dimensioning violates ASME standards and causes manufacturing conflicts when tolerances accumulate or one view changes.",
+          "misconception": "Repeating the same overall length dimension on both the front and top orthographic views makes a drawing easier to read."
+        },
+        {
+          "fact": "Center lines must extend uniformly past the perimeter of the circular feature by about one-eighth to one-quarter of an inch.",
+          "misconception": "Center lines terminate right at the outer circle edge of a drilled hole in an orthographic mechanical view."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Under what condition does a hidden line take precedence over a center line when two features align in an orthographic view?",
+        "Why is it dangerous to scale distances directly off a printed manual drawing with a ruler on the manufacturing shop floor?",
+        "Which physical indicator on a triangular architect's scale prevents you from reading the wrong ratio from the opposite end?",
+        "Where should a Scout position extension lines relative to the object outline so a machinist never confuses them with part edges?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Model space geometry is always drawn at full 1:1 real-world size, and scaling occurs only within the paper space layout viewport.",
+          "misconception": "Large architectural floor plans should be drawn scaled down inside CAD model space so they fit inside the screen border."
+        },
+        {
+          "fact": "Visual placement leaves microscopic gaps or overlaps that break CNC toolpaths; always engage endpoint or intersection object snaps.",
+          "misconception": "Zooming in closely on the monitor and clicking by eye connects two CAD line endpoints accurately enough for CNC machining."
+        },
+        {
+          "fact": "Separate named layers with ByLayer linetype and lineweight properties allow teams to toggle visibility and plot standards cleanly.",
+          "misconception": "Putting visible edges, hidden lines, and dimensions on Layer 0 with manual color overrides simplifies CAD file management."
+        },
+        {
+          "fact": "Manual text overrides break associative dimensioning and leave the underlying 3D model or 2D geometry at the wrong physical size.",
+          "misconception": "Overwriting the dimension text string manually is the best way to fix a measurement error on a CAD shop drawing."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your dimension values if you draw geometry at half size in model space instead of true 1:1 full scale?",
+        "Which CAD object snap setting guarantees that a tangent arc connects cleanly to a circle without leaving an open gap?",
+        "Under what condition does freezing a CAD layer affect system regeneration differently than turning that layer off?",
+        "What measurement confirms that your paper space viewport scale matches the ratio recorded inside the CAD title block?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The revision block is a permanent chronological log that must retain earlier entries so engineers can track every design change.",
+          "misconception": "Previous rows in the drawing revision table should be deleted whenever a new revision letter is released to manufacturing."
+        },
+        {
+          "fact": "Redline refers to the reviewer's red ink or digital markups on a check print requesting additions, deletions, or dimension fixes.",
+          "misconception": "Redline markups on a check print mean that only red-colored lines exist on the final production engineering drawing."
+        },
+        {
+          "fact": "Every added or removed component on an assembly view requires an immediate quantity or item row update in the Bill of Materials.",
+          "misconception": "Adding an extra mounting bracket to a mechanical assembly drawing leaves the Bill of Materials table unchanged."
+        },
+        {
+          "fact": "A stainless steel erasing shield isolates the target line and prevents friction from tearing thin vellum or smudging nearby views.",
+          "misconception": "Erasing a manual pencil revision works best by scrubbing rapidly without a backing shield across the vellum surface."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to part traceability in a machine shop if you fix a redlined dimension without incrementing the revision letter?",
+        "Where should a Scout place the revision triangle callout and revision table on an engineering drawing sheet?",
+        "Which physical tool allows you to erase a single redlined feature on a manual pencil drawing without wiping out adjacent lines?",
+        "Why is it dangerous to discard the counselor's redlined markup before verifying every change against the updated BOM table?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Two-dimensional CAD stores independent lines and arcs, while parametric modelers build 3D solids driven by feature history trees.",
+          "misconception": "Two-dimensional drafting programs and three-dimensional parametric solid modelers store part geometry in the exact same way."
+        },
+        {
+          "fact": "CAD software automates line generation, but the drafter still chooses view placement, datum selection, and ASME tolerance callouts.",
+          "misconception": "Using CAD software eliminates the need for a drafter to know orthographic projection rules or standard dimensioning practices."
+        },
+        {
+          "fact": "Manual drafting requires erasing and redrawing every affected projection view by hand whenever a part's length or profile changes.",
+          "misconception": "Stretching a feature during a manual paper revision automatically updates the adjoining side view and section view dimensions."
+        },
+        {
+          "fact": "A standard 2D PDF captures only static vector print lines; sharing editable solid geometry requires native files or STEP exports.",
+          "misconception": "Exporting a 3D CAD model to a flat PDF file preserves the parametric feature tree for another engineer to edit later."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to associative dimensions and orthogonal views in parametric CAD when you modify a single feature on the part?",
+        "Under what condition does a quick manual pencil sketch on grid paper beat launching a 3D parametric CAD workstation?",
+        "Which workflow difference made executing the requirement 4 redline faster in your CAD file than on your manual vellum sheet?",
+        "What file format distinction separates a native parametric CAD assembly from a neutral exchange file like STEP or DXF?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Single-stroke means the width of each stem or curve equals the thickness of one pencil stroke, though letters use multiple strokes.",
+          "misconception": "Single-stroke Gothic lettering means writing each alphabet character without ever lifting the pencil tip off the drawing paper."
+        },
+        {
+          "fact": "Engineering drawings use all-uppercase single-stroke Gothic characters so microfilm or half-size prints stay clear and unambiguous.",
+          "misconception": "Mixing lowercase and uppercase cursive handwriting is acceptable on engineering blueprints as long as the writer is neat."
+        },
+        {
+          "fact": "Requirement 6 prohibits templates and lettering guides for forming characters; only parallel pencil guidelines may assist your hand.",
+          "misconception": "Plastic lettering stencils and Ames lettering guides are permitted for writing the body text in requirement 6."
+        },
+        {
+          "fact": "Slowly rotating the pencil between strokes wears the graphite tip evenly so letter stems keep a uniform line width across the page.",
+          "misconception": "Rotating a conical mechanical pencil lead never matters during long paragraphs of hand lettering on vellum."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the legibility of a reduced-scale blueprint if you add decorative serifs or curls to your hand lettering?",
+        "Which stroke sequence keeps the crossbar of a capital letter A or H balanced in single-stroke Gothic hand lettering?",
+        "Where should a drafter rest a protective scrap sheet under the hand while lettering a long paragraph from top to bottom?",
+        "Under what condition does uneven spacing between words make technical notes harder to read than slight slant variations?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Professional workplaces use Product Data Management vaults to enforce check-in locks, revision history, and release sign-off.",
+          "misconception": "Commercial engineering firms store production CAD models on individual desktop hard drives without centralized version control."
+        },
+        {
+          "fact": "Many fabrication shops and construction sites still plot large-format check prints for floor inspections and redline markups.",
+          "misconception": "Modern CAD models never leave the computer screen because factories and construction crews have stopped using paper prints."
+        },
+        {
+          "fact": "Electronics drafters use EDA schematic and PCB trace routing software, whereas civil drafters use GIS and corridor terrain tools.",
+          "misconception": "Electronic printed circuit board drafters use the exact same civil terrain modeling tools as highway survey drafters."
+        },
+        {
+          "fact": "Industrial facilities enforce strict non-disclosure and export-control rules that forbid photographing proprietary drawings.",
+          "misconception": "Visitors touring a manufacturing plant may freely take smartphone photos of unreleased blueprints on drafting tables."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to version control in an engineering office when two drafters edit local copies of a drawing without a PDM vault?",
+        "Which physical output device in a commercial design firm prints full-size 24 by 36-inch architectural D-size check plots?",
+        "Under what condition does an architectural or manufacturing workplace still rely on hand sketching alongside CAD workstations?",
+        "Why is it dangerous to photograph proprietary drawings or monitor screens during a tour of an engineering workplace?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Many employers hire drafters with a two-year associate degree or technical diploma from an accredited community college program.",
+          "misconception": "Every entry-level CAD technician job requires a four-year university bachelor's degree in mechanical or civil engineering."
+        },
+        {
+          "fact": "Only a licensed Architect or Professional Engineer holds the legal authority to seal construction drawings for public safety.",
+          "misconception": "A certified architectural drafter can legally stamp and seal structural building plans for municipal permit approval."
+        },
+        {
+          "fact": "Experienced drafters frequently advance into senior CAD designer, BIM coordinator, checker, or engineering project manager roles.",
+          "misconception": "Career growth in drafting stops at entry-level trace work with no path toward design leadership or project management."
+        },
+        {
+          "fact": "Vendor exams test specific software tools like AutoCAD or SolidWorks, while ADDA exams test broad ASME and ANSI drafting standards.",
+          "misconception": "Vendor-specific CAD certificates and ADDA Certified Drafter credentials measure the exact same software keystroke skills."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes the legal stamp authority of a licensed Professional Engineer from the role of a senior CAD drafter?",
+        "Which industry certification demonstrates entry-level proficiency in American Design Drafting Association or CAD standards?",
+        "What educational pathway allows a high school graduate to enter mechanical or civil drafting in two years with low debt?",
+        "Under what condition does learning Building Information Modeling or GD&T open higher-paying advancement tracks for a drafter?"
+      ],
+      "req_id": "8"
+    }
+  ]
+}

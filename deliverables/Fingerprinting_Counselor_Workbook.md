@@ -1,8 +1,8 @@
 # Fingerprinting Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Fingerprinting.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/fingerprinting/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fingerprinting/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -197,9 +197,9 @@
 - **Pamphlet Fact:** Loops constitute approximately sixty five percent of human patterns, while arches occur in roughly five percent.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Fingerprinting Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Your counselor you can identify)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Your counselor you can identify
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Fingerprinting Merit Badge: Your counselor you can identify.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Your counselor you can identify.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A high-contrast fingerprint impression displays curving ridge lines of a loop pattern.](/assets/pamphlet_images/fingerprinting_p023_img1.png)
 

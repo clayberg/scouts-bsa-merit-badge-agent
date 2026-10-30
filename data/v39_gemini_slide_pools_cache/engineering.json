@@ -1,0 +1,248 @@
+{
+  "badge_slug": "engineering",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "High-voltage capacitors retain lethal electrical charges long after unplugging and must never be touched during an inspection.",
+          "misconception": "Unplugging a television or microwave from the wall outlet immediately removes all electrical shock hazards inside the casing."
+        },
+        {
+          "fact": "Appliance creation requires materials engineers for heat plastics, electrical engineers for circuits, and manufacturing teams.",
+          "misconception": "Mechanical engineers alone design household appliances without input from electrical, materials, or manufacturing engineers."
+        },
+        {
+          "fact": "Engineers often specify nylon sacrificial gears to shear safely under a jam and protect the expensive electric motor from burning out.",
+          "misconception": "Plastic gears inside a cordless drill or kitchen mixer are chosen only to lower production cost rather than for engineering reasons."
+        },
+        {
+          "fact": "Puncturing a lithium-ion cell triggers thermal runaway and fire, so battery subsystems must be studied only from external labels.",
+          "misconception": "Investigating how a sealed lithium-ion battery pack works requires prying open the metal cell pouch with a flathead screwdriver."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to pry open a household appliance before unplugging the power cord and discharging internal capacitors?",
+        "What happens to your reassembly accuracy when you photograph each fastener layer and wire connection before removing parts?",
+        "Which physical indicator inside a toaster distinguishes a thermal bimetallic switch from a resistive nichrome heating element?",
+        "What measurement confirms whether a motor gear train inside a toy increases rotational torque or increases output shaft speed?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Landmark projects succeed through iterative testing, prototype failures, and continuous redesigns when field obstacles appear.",
+          "misconception": "Major engineering achievements like the Golden Gate Bridge or Apollo 11 succeeded because the initial blueprints had zero flaws."
+        },
+        {
+          "fact": "Scientists discover natural laws, whereas engineers apply those laws within cost, material, and safety limits to build solutions.",
+          "misconception": "Scientific discovery and engineering achievement are identical activities that follow the exact same research goals and methods."
+        },
+        {
+          "fact": "Megaprojects rely on hundreds of specialized engineers coordinating across geotechnical, metallurgical, and systems disciplines.",
+          "misconception": "One famous chief engineer single-handedly solves every structural, electrical, and logistical obstacle on a historic megaproject."
+        },
+        {
+          "fact": "Every major feat introduces trade-offs, such as dam sediment buildup or grid load demands, that require ongoing engineering care.",
+          "misconception": "Engineering achievements only benefit society and never create secondary environmental or infrastructure challenges to manage."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What primary source records reveal how the chief engineers on your chosen project solved unexpected soil, thermal, or load failures?",
+        "Under what condition does a pure scientific discovery become a practical engineering achievement that serves millions of people?",
+        "What quantitative metric best documents how the Panama Canal or Apollo program changed global transport speed or reliability?",
+        "Which safety standards emerged only after engineers analyzed structural failures or worker hazards on landmark construction projects?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Architects focus on spatial form and building use, while civil engineers calculate structural loads, foundations, and fluid flow.",
+          "misconception": "Civil engineers and architects perform the exact same job when designing skyscrapers, bridges, and municipal water systems."
+        },
+        {
+          "fact": "Chemical engineers scale lab reactions into full industrial plants by managing heat transfer, fluid piping, and reactor safety.",
+          "misconception": "Chemical engineers spend their careers mixing small test tubes in a laboratory exactly like research chemists do every day."
+        },
+        {
+          "fact": "Embedded systems require electrical and mechanical engineers to co-design circuit boards that survive heat, shock, and enclosure size.",
+          "misconception": "Software and electrical engineers work in isolated silos and never need to understand mechanical vibration or thermal limits."
+        },
+        {
+          "fact": "Industrial engineers analyze cycle times, ergonomics, and statistical process control to reduce waste across entire organizations.",
+          "misconception": "Industrial engineers only repair factory conveyor belts rather than optimizing human workflows, supply chains, and quality systems."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where does the responsibility of a chemical engineer end and the work of a mechanical engineer begin inside a battery factory?",
+        "What shared mathematical and physical principles connect civil structural analysis with aerospace airframe stress calculations?",
+        "Which test measurements must an electrical engineer and a biomedical engineer exchange when building a wearable heart monitor?",
+        "Why is it dangerous to design a highway bridge using only civil traffic load models without geotechnical soil bearing data?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Modern engineers spend much of their time collaborating in teams, writing specifications, reviewing CAD models, and testing data.",
+          "misconception": "Professional engineers spend ninety percent of their workday alone at a desk solving calculus equations by hand on paper."
+        },
+        {
+          "fact": "CAD tools only geometry-model what the user inputs; engineers must still verify material limits, tolerances, and physical test loads.",
+          "misconception": "Computer-aided design software automatically guarantees that a 3D model can be manufactured safely and will not fail under load."
+        },
+        {
+          "fact": "Engineering results must be clearly documented in reports, peer-reviewed for errors, and presented to fabrication and client teams.",
+          "misconception": "An engineer's job ends the moment a technical drawing or calculation spreadsheet is finished on their workstation computer."
+        },
+        {
+          "fact": "Manufacturing floors and test labs mandate closed-toe shoes, eye protection, and host escort briefings before visitors enter.",
+          "misconception": "Visiting an engineering workplace only requires casual clothing and a notebook without checking facility safety rules beforehand."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What question during your interview uncovers how the engineer validates computer simulation outputs against physical test results?",
+        "Which project constraint forced your interviewed engineer to trade peak theoretical performance for lower cost or manufacturability?",
+        "What peer review checklists and revision logs does the engineer use to communicate test results to clients and team members?",
+        "Where should a Scout verify personal protective equipment and site visitor rules before touring an active engineering lab or plant?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Systems engineering starts by defining user needs and measurable constraints, then compares alternatives before building a prototype.",
+          "misconception": "Systems engineering means building the first idea that comes to mind and writing down the specifications after it is finished."
+        },
+        {
+          "fact": "Prototype test failures provide essential feedback data that guides the next design iteration to strengthen weak interfaces.",
+          "misconception": "A prototype test that bends, jams, or falls short of the target metric proves that the systems engineering process has failed."
+        },
+        {
+          "fact": "Overbuilding individual parts can make a camp system too heavy to carry; systems engineering balances interfaces across the whole unit.",
+          "misconception": "Optimizing every single component for maximum strength and weight always produces the best overall patrol equipment system."
+        },
+        {
+          "fact": "A buildable engineering design requires dimensioned drawings, tolerances, and a material list so another person can reproduce it.",
+          "misconception": "Sketching a rough picture without dimensions, material callouts, or bill of materials is sufficient for an engineering design plan."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your patrol gear build if you jump straight to cutting materials before writing measurable design requirements?",
+        "Which criterion in a systems engineering trade matrix separates a mandatory safety constraint from a nice-to-have design wish?",
+        "What measurement confirms that your prototype device actually meets your original weight, load, or setup-time target in camp?",
+        "Why is it dangerous to test a load-bearing garage or patrol device to failure without setting up a clear drop zone and eye gear?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Simple machines cannot create energy; multiplying force by four requires pulling the input rope or lever four times the distance.",
+          "misconception": "A lever or pulley system that multiplies lifting force by four also multiplies the total mechanical energy output by four."
+        },
+        {
+          "fact": "Friction at pivot pins, gear teeth, and sliding surfaces always reduces actual mechanical advantage below the ideal geometric ratio.",
+          "misconception": "Ideal mechanical advantage and actual measured mechanical advantage are identical in real wood, plastic, and metal mechanisms."
+        },
+        {
+          "fact": "A wedge is two inclined planes placed back-to-back, and a screw is an inclined plane wrapped helically around a central cylinder.",
+          "misconception": "Screws and wedges are completely unrelated to inclined planes and operate on entirely different physical principles of force."
+        },
+        {
+          "fact": "Gearing up for higher rotational speed proportionally reduces output torque, while gearing down increases torque at lower speed.",
+          "misconception": "Increasing the gear ratio to spin an output wheel faster also increases the twisting torque available to climb a steep ramp."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What mechanical trade-off occurs between input force and travel distance when you move a lever fulcrum closer to the heavy load?",
+        "Which linkage or cam geometry converts continuous rotary shaft motion into back-and-forth linear reciprocating motion in your model?",
+        "What measurement confirms the actual mechanical advantage of your inclined plane or pulley model compared to its ideal ratio?",
+        "Where should a Scout position hands and clamps when cutting dowels, tensioning springs, or testing moving gears on a workbench?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A college graduate must pass the FE exam, work four years under a PE, and pass the PE exam before earning state licensure.",
+          "misconception": "Graduating from an accredited four-year university engineering program automatically grants the legal title of Professional Engineer."
+        },
+        {
+          "fact": "Stamping a plan means the PE took responsible charge of the design and accepts personal legal liability for public safety.",
+          "misconception": "A Professional Engineer stamp is merely a rubber-stamp formality that transfers all legal liability to the construction contractor."
+        },
+        {
+          "fact": "Licensing boards require Professional Engineers to seal only drawings within their tested area of technical competence.",
+          "misconception": "A licensed civil Professional Engineer is legally permitted to stamp complex electrical grid or chemical plant designs outside their field."
+        },
+        {
+          "fact": "Most state boards require licensed Professional Engineers to log continuing professional development hours to maintain registration.",
+          "misconception": "Once an engineer passes the PE exam, their license stays active forever without any continuing education or ethics renewal."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What four milestones in education, examination, and supervised experience must an engineer complete to earn a state PE license?",
+        "Under what legal condition must engineering blueprints be stamped by a licensed Professional Engineer rather than an unlicensed grad?",
+        "What verification records must a Professional Engineer review and retain before placing a signed seal on public bridge drawings?",
+        "Why is it dangerous to allow unsealed structural or municipal water designs to go into public construction without PE oversight?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The first fundamental canon of engineering ethics requires engineers to hold paramount the safety, health, and welfare of the public.",
+          "misconception": "An engineer's highest ethical duty under the Code of Ethics is to maximize employer profits and keep every client request secret."
+        },
+        {
+          "fact": "Falsifying or selectively omitting test data violates engineering ethics and can cause catastrophic structural or mechanical failure.",
+          "misconception": "Rounding down an unfavorable stress test measurement to pass an inspection is acceptable if the project is behind schedule."
+        },
+        {
+          "fact": "Undisclosed vendor gifts create a conflict of interest that compromises objective engineering judgment and violates ethical canons.",
+          "misconception": "Accepting undisclosed gifts from a material vendor is harmless as long as the vendor's steel meets the minimum specification."
+        },
+        {
+          "fact": "Both codes demand honesty, public service, environmental stewardship, and the courage to speak truth when safety is at risk.",
+          "misconception": "The Scout Oath and Law apply only to youth camping activities and have little in common with professional engineering rules."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What must an engineer do first when a manager pressures them to approve a part that failed its safety factor test in the lab?",
+        "Which canon of the Engineer's Code of Ethics directly parallels the Scout Law mandate to remain trustworthy and brave under pressure?",
+        "Why is it dangerous to alter or omit a single outlier data point from an official engineering test log to meet a launch deadline?",
+        "Where should a practicing engineer report an unresolved public safety hazard when internal project leadership refuses to halt work?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Engineers must pass the FE exam, log four years of supervised work, and pass the PE exam before stamping public plans.",
+          "misconception": "Graduating with a four-year bachelor's degree in engineering automatically grants legal authority to stamp public drawings."
+        },
+        {
+          "fact": "Most state licensing boards require a degree from an ABET-accredited program to qualify for standard FE and PE licensure tracks.",
+          "misconception": "Any university engineering program qualifies a graduate to sit for state Fundamentals of Engineering licensure exams."
+        },
+        {
+          "fact": "Practicing engineers spend significant time in cross-functional teams writing specs, testing prototypes, and reviewing budgets.",
+          "misconception": "Entry-level engineers spend their entire workday alone at a computer running CAD models and mathematical calculations."
+        },
+        {
+          "fact": "Complete education cost estimates must include lab fees, software, living expenses, exam fees, and paid co-op salary offsets.",
+          "misconception": "Total college tuition is the only financial cost to evaluate when researching an engineering education pathway."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why must you obtain parent or guardian permission and follow two-deep leadership before interviewing a practicing engineer?",
+        "What legal authority distinguishes a licensed Professional Engineer (PE) from a graduate who only passed the FE exam?",
+        "Which Bureau of Labor Statistics metric reveals whether an engineering specialty is growing faster than the national average?",
+        "Under what condition does an ABET-accredited engineering degree shorten the experience required for state PE licensure?"
+      ],
+      "req_id": "9"
+    }
+  ]
+}

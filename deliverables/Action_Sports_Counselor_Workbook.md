@@ -1,8 +1,8 @@
 # Action Sports Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Action%20Sports.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/action-sports/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/action-sports/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -15,7 +15,8 @@
 | **1** | Req 1: Action Sports Environmental Hazard Management | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Action Sports Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Park Etiquette and Athletic Conditioning | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Action Sports Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Equipment Anatomy and Maintenance | Identify | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Action Sports Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Fundamental Board Control Techniques | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Action Sports Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4a** | Skateboarding: Stance, Pushing, Braking & Skatepark Carving | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Action Sports Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4b** | Snowboarding: Stance, Gliding, Edge Control & Slope Turns | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Action Sports Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Intermediate Maneuvers and Park Stewardship | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Action Sports Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
@@ -24,9 +25,10 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Do the following: (a) Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule is vital to rider and bystander safety. (b) Demonstrate a warm-up, stretching, and conditioning routine for action sports.
-- [ ] **Station Req 3:** Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning, and maintenance.
-- [ ] **Station Req 4:** Choose ONE option (Skateboarding OR Snowboarding) and demonstrate fundamental riding skills: (a) Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape). (b) Carving turns (frontside and backside), weight transfer, falling safely, and navigating slopes or skatepark transitions under full control.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Scout must individually identify mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 4a:** Scout must individually demonstrate mastery of Requirement 4a to the Merit Badge Counselor.
+- [ ] **Station Req 4b:** Scout must individually demonstrate mastery of Requirement 4b to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -152,50 +154,81 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Fundamental Board Control Techniques
-**Official Requirement 4 (Parent Overview):** Choose ONE option (Skateboarding OR Snowboarding) and demonstrate fundamental riding skills: (a) Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape). (b) Carving turns (frontside and backside), weight transfer, falling safely, and navigating slopes or skatepark transitions under full control.
+### Skateboarding: Stance, Pushing, Braking & Skatepark Carving
+**Official Requirement 4a (Parent Overview):** Option A - Skateboarding. Demonstrate fundamental skateboarding riding skills.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Never look down at your board while riding downhill because tracking eye gaze forward stabilizes inner ear equilibrium.
 - **Common Myth:** Riders think extending rigid arms directly toward the ground safely breaks a sudden backward fall.
 - **Pamphlet Fact:** Bracing with stiff locked wrists fractures the scaphoid bone and radial head, requiring tucked shoulder rolls instead.
 
 **Official Pamphlet Summary:**
-- Stance Determination: The dominant forward foot establishes either regular stance or goofy stance for boarders.
-- Edge Engagement: Pressing toe edges or heel edges forces the board into smooth carved arcs.
-- Lowering the rear foot flat against asphalt applies friction without destabilizing your center.
-- Impact Dissipation: Tucking the chin and rolling sideways redistributes downward fall kinetic energy across shoulders.
+- Req 4a(1) (1): Skateboarding Stance, Mounting/Dismounting, Pushing & Controlled Braking: Demonstrate regular vs. goofy stance, mounting/dismounting, pushing/gliding on flat terrain, and foot/heel-drag controlled stopping.
+- Req 4a(2) (2): Skateboarding Carving Turns, Weight Transfer & Skatepark Transitions: Demonstrate frontside and backside carving turns, kickturns, safe falling technique, and navigating skatepark banks or transitions.
 
-#### Req 4a: Stance and Propulsion Fundamentals
-**Official Requirement 4a:** Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape)
-**Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Stance Regular vs Goofy Mounting/dismounting)
-- **Common Myth:** Beginners assume pushing mongo with the forward foot provides superior stability and easier board control.
-- **Pamphlet Fact:** Pushing with the front foot shifts body mass behind the steering truck, destabilizing the deck and delaying foot repositioning.
+#### Req 4a(1): Skateboarding: Stance, Pushing, Braking & Skatepark Carving (4a(1))
+**Official Requirement 4a(1):** Skateboarding Stance, Mounting/Dismounting, Pushing & Controlled Braking: Demonstrate regular vs. goofy stance, mounting/dismounting, pushing/gliding on flat terrain, and foot/heel-drag controlled stopping.
+**Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Step-by-Step Skill Checklist):** Req 4a(1) Study & Verification Organizer
 
 **Gear & Readiness Checklist:**
-- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear)
-- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet
-- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area
-- [ ] Inspected Action Sports equipment sized to the Scout and pre-session safety check card
+- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear).
+- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet.
+- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area.
+- [ ] Inspected Action Sports equipment sized to the Scout and pre-session safety check card.
 
 ![Instructional diagrams compare regular and goofy stances while showing step-by-step balance motions for mounting a board.](/assets/ai_illustrations/action_sports_req_4_topic_visual.png)
 
-| Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape)** | `____________________________________` | `____________________________________` |
+| Req 4a(1) Prompt / Step | Scout Notes, Measurements & Field Evidence |
+| :--- | :--- |
+| **1. Skateboarding Stance, Mounting/Dismounting, Pushing & Controlled Braking: Demonstrate regular vs. goofy stance, mounting/dismounting, pushing/gliding on flat terrain, and foot/heel-drag controlled stopping.** | `____________________________________` |
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Carving Transitions and Safe Bailing
-**Official Requirement 4b:** Carving turns (frontside and backside), weight transfer, falling safely, and navigating slopes or skatepark transitions under full control.
-**Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Carving Turns Frontside and Backside)
-- **Common Myth:** Riders believe catching a downhill edge on snow or concrete is unavoidable during sharp turns.
-- **Pamphlet Fact:** Maintaining active knee flex and keeping the uphill edge slightly elevated prevents the downhill edge from hooking the surface.
+#### Req 4a(2): Skateboarding: Stance, Pushing, Braking & Skatepark Carving (4a(2))
+**Official Requirement 4a(2):** Skateboarding Carving Turns, Weight Transfer & Skatepark Transitions: Demonstrate frontside and backside carving turns, kickturns, safe falling technique, and navigating skatepark banks or transitions.
+**Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Step-by-Step Skill Checklist):** Req 4a(2) Study & Verification Organizer
+
+![A rollerblader wearing a helmet and wrist guards demonstrates balanced carving maneuvers along a paved park path.](/assets/ai_illustrations/action_sports_req_4_nano_hero.png)
+
+| Req 4a(2) Prompt / Step | Scout Notes, Measurements & Field Evidence |
+| :--- | :--- |
+| **1. Skateboarding Carving Turns, Weight Transfer & Skatepark Transitions: Demonstrate frontside and backside carving turns, kickturns, safe falling technique, and navigating skatepark banks or transitions.** | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+### Snowboarding: Stance, Gliding, Edge Control & Slope Turns
+**Official Requirement 4b (Parent Overview):** Option B - Snowboarding. Demonstrate fundamental snowboarding riding skills.
+**Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Group Organizer:** Skill Demonstration Checklist
+> **Guide to Safe Scouting Warning:** Never look down at your board while riding downhill because tracking eye gaze forward stabilizes inner ear equilibrium.
+
+**Official Pamphlet Summary:**
+- Req 4b(1) (1): Snowboarding Stance, Binding Entry/Exit, Skating & Straight Gliding: Demonstrate regular vs. goofy stance, strapping in on flat snow, one-foot skating, and straight gliding with controlled heel/toe stops.
+- Req 4b(2) (2): Snowboarding Heel/Toe Edge Carving, Weight Transfer & Slope Navigation: Demonstrate linked heel-side and toe-side turns, weight transfer, safe falling posture, and riding beginner/intermediate slopes.
+
+#### Req 4b(1): Snowboarding: Stance, Gliding, Edge Control & Slope Turns (4b(1))
+**Official Requirement 4b(1):** Snowboarding Stance, Binding Entry/Exit, Skating & Straight Gliding: Demonstrate regular vs. goofy stance, strapping in on flat snow, one-foot skating, and straight gliding with controlled heel/toe stops.
+**Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Step-by-Step Skill Checklist):** Req 4b(1) Study & Verification Organizer
+
+**Gear & Readiness Checklist:**
+- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear).
+- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet.
+- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area.
+- [ ] Inspected Action Sports equipment sized to the Scout and pre-session safety check card.
 
 ![Carving Turns Frontside and Backside equipment, field technique, and safety checks for Action Sports Requirement 4b.](/assets/ai_illustrations/action_sports_req_4b_nano_hero.png)
 
-| Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Carving turns (frontside and backside), weight transfer, falling safely, and navigating slopes or skatepark transitions under full control** | `____________________________________` | `____________________________________` |
+| Req 4b(1) Prompt / Step | Scout Notes, Measurements & Field Evidence |
+| :--- | :--- |
+| **1. Snowboarding Stance, Binding Entry/Exit, Skating & Straight Gliding: Demonstrate regular vs. goofy stance, strapping in on flat snow, one-foot skating, and straight gliding with controlled heel/toe stops.** | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 4b(2): Snowboarding: Stance, Gliding, Edge Control & Slope Turns (4b(2))
+**Official Requirement 4b(2):** Snowboarding Heel/Toe Edge Carving, Weight Transfer & Slope Navigation: Demonstrate linked heel-side and toe-side turns, weight transfer, safe falling posture, and riding beginner/intermediate slopes.
+**Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Step-by-Step Skill Checklist):** Req 4b(2) Study & Verification Organizer
+
+| Req 4b(2) Prompt / Step | Scout Notes, Measurements & Field Evidence |
+| :--- | :--- |
+| **1. Snowboarding Heel/Toe Edge Carving, Weight Transfer & Slope Navigation: Demonstrate linked heel-side and toe-side turns, weight transfer, safe falling posture, and riding beginner/intermediate slopes.** | `____________________________________` |
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
@@ -221,10 +254,10 @@
 - **Pamphlet Fact:** Leaning back removes weight from the front foot, kicking the board out and causing direct hip-to-rail impacts.
 
 **Gear & Readiness Checklist:**
-- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear)
-- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet
-- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area
-- [ ] Inspected Action Sports equipment sized to the Scout and pre-session safety check card
+- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear).
+- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet.
+- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area.
+- [ ] Inspected Action Sports equipment sized to the Scout and pre-session safety check card.
 
 ![Graphic panels highlight bicycling over dirt jumps, downhill skiing, halfpipe skateboarding tricks, and disc golf throws.](/assets/ai_illustrations/action_sports_req_5_topic_visual.png)
 
@@ -237,7 +270,7 @@
 #### Req 5b: Resort Stewardship and Careers
 **Official Requirement 5b:** Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and explore careers or volunteer roles (such as National Ski Patrol, adaptive sports instructor, or equipment engineer) in action sports.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Organizer (Career & Profession Exploration Card):** Req 5b Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Visitors assume municipal parks and ski resorts have dedicated maintenance crews that handle all trash left behind.
+- **Common Myth:** Visitors assume municipal parks and ski resorts have dedicated maintenance crews that handle all trash left.
 - **Pamphlet Fact:** Neglected trash attracts wildlife into active zones, while litter on skate ramps creates severe wheel-stop collision hazards.
 
 ![Two skateboarders wearing safety helmets practice balancing techniques and rail slides across a low metal grind bar.](/assets/ai_illustrations/action_sports_req_5_nano_hero.png)

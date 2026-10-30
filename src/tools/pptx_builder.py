@@ -224,7 +224,7 @@ _DANGLING_TAIL_WORDS = {
     "each", "every", "both", "either", "neither", "more", "most", "other", "another",
     "than", "about", "against", "among", "around", "without", "within", "upon",
     "toward", "towards", "across", "behind", "beyond", "near", "off", "out",
-    "&", "-", "/",
+    "and/or", "&", "-", "/",
 }
 
 _VALID_TWO_CHAR_WORDS = {
@@ -354,7 +354,11 @@ def _trim_dangling_words(tokens: List[str], min_keep: int = 3) -> List[str]:
     """Removes trailing prepositions, pronouns, modals, conjunctions, and clipped 1-2 char fragments."""
     out = list(tokens)
     while len(out) > min_keep:
-        last_clean = out[-1].lower().strip(",;:-.()[]\"'&/")
+        raw_last = out[-1].lower().strip(",;:-.()[]\"'")
+        if raw_last in ("and/or", "&", "-", "/"):
+            out.pop()
+            continue
+        last_clean = raw_last.strip("&/")
         if not last_clean:
             out.pop()
             continue
@@ -451,8 +455,10 @@ def _concise_anchor_title(raw_anchor: str, max_chars: int = 44) -> str:
     if len(s) <= max_chars:
         s_words = _trim_dangling_words(s.split(), min_keep=1)
         s_clean = " ".join(s_words).strip(" .,:;-—–&/(")
-        if s_clean.count("(") > s_clean.count(")"):
+        while s_clean.count("(") > s_clean.count(")"):
             s_clean = s_clean.rsplit("(", 1)[0].strip(" .,:;-—–&/(")
+        if s_clean.count("(") != s_clean.count(")"):
+            s_clean = s_clean.replace("(", "").replace(")", "").strip()
         return s_clean or s
     # If there is a parenthetical label like 'Req 1a (Long Topic Name)' or 'Requirement 4c (Long Topic Name)', shorten inside parens
     m_req = re.match(r"^(Req(?:uirement)?)\s+([0-9a-zA-Z().\-]+)\s*\((.+)\)$", s, flags=re.IGNORECASE)
@@ -489,8 +495,10 @@ def _concise_anchor_title(raw_anchor: str, max_chars: int = 44) -> str:
             break
     kept_words = _trim_dangling_words(kept_words, min_keep=1)
     res = " ".join(kept_words).rstrip(",;:-(&/")
-    if res.count("(") > res.count(")"):
+    while res.count("(") > res.count(")"):
         res = res.rsplit("(", 1)[0].strip().rstrip(",;:-&/")
+    if res.count("(") != res.count(")"):
+        res = res.replace("(", "").replace(")", "").strip()
     return res or s[:max_chars].strip(" .,:;-—–&/(")
 
 

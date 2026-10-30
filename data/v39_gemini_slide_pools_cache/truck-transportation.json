@@ -1,0 +1,275 @@
+{
+  "badge_slug": "truck-transportation",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Many tractor-trailers belong to private corporate fleets that haul only that company's own retail or manufacturing goods.",
+          "misconception": "Every large semi-truck driving through town belongs to a public for-hire freight company."
+        },
+        {
+          "fact": "Long-haul carriers transfer local freight at regional terminals to smaller city delivery trucks for final neighborhood stops.",
+          "misconception": "National long-haul truck lines make direct residential deliveries with 53-foot highway trailers."
+        },
+        {
+          "fact": "Carriers must hold specific federal hazmat endorsements, safety permits, and insurance before transporting regulated materials.",
+          "misconception": "Any trucking company listed in a local directory can legally haul hazardous materials through town."
+        },
+        {
+          "fact": "Independent owner-operators and intermodal drayage drivers routinely pull trailers owned by railroads, leasing firms, or shippers.",
+          "misconception": "The brand name painted on a trailer always identifies the motor carrier operating the tractor pulling it."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes a less-than-truckload carrier from a full-truckload carrier serving your town?",
+        "Which physical indicator on a tractor cab door identifies a motor carrier's federal registration?",
+        "Under what condition does a regional short-haul carrier hand off freight to a national line-haul fleet?",
+        "Where can you verify whether a local trucking company operates as a private fleet or a for-hire carrier?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Ships and trains rely on drayage and distribution trucks to complete the first-mile pickup and final-mile store delivery.",
+          "misconception": "Ocean container ships and freight trains can complete end-to-end retail deliveries without motor carriers."
+        },
+        {
+          "fact": "Modern freight commerce integrates physical cargo transport with electronic billing, payment settlement, and live tracking data.",
+          "misconception": "Commerce in trucking involves only the physical movement of pallets from one loading dock to another."
+        },
+        {
+          "fact": "Just-in-time trucking lowers warehouse storage costs by delivering smaller, scheduled replenishment loads as items sell.",
+          "misconception": "Holding massive inventory in retail backrooms is cheaper than scheduling frequent truck deliveries."
+        },
+        {
+          "fact": "Sealed intermodal containers are lifted directly onto skeletal truck chassis at the port so cargo stays untouched in transit.",
+          "misconception": "Overseas containers are always unloaded piece by piece at the seaport pier before boarding highway trucks."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a manufacturer's assembly line when a just-in-time truck delivery is delayed by four hours?",
+        "Which document travels with intermodal freight to track ownership and liability from port to warehouse?",
+        "Where does drayage trucking fit when moving an ocean container from a seaport crane to an inland rail yard?",
+        "Why is electronic data interchange between a carrier and a retailer essential before a truck reaches the dock?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Diesel engines compress intake air until it is hot enough to auto-ignite fuel the instant the injector sprays it in.",
+          "misconception": "Diesel truck engines use high-voltage spark plugs to ignite fuel inside the combustion chamber."
+        },
+        {
+          "fact": "Heavy trucks depend on high low-end torque at low RPM to overcome inertia and pull heavy loads up steep highway grades.",
+          "misconception": "High horsepower at high engine RPM is the primary metric needed to start an 80,000-pound load moving."
+        },
+        {
+          "fact": "Gasoline engines have lower upfront purchase and maintenance costs, making them practical for light-duty local route vans.",
+          "misconception": "Diesel engines are always more economical than gasoline engines regardless of vehicle size or daily mileage."
+        },
+        {
+          "fact": "Diesel fuel contains roughly 10 to 15 percent more energy per gallon and operates at higher thermal compression efficiency.",
+          "misconception": "Diesel fuel has less energy per gallon than gasoline and therefore delivers lower highway fuel mileage."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What ignites the air-fuel mixture inside a heavy-duty diesel cylinder if there is no spark plug present?",
+        "Why do heavy Class 8 tractor-trailers rely on high low-RPM torque from diesel engines when climbing grades?",
+        "Under what operating schedule does a gasoline-powered delivery van cost less to run than a diesel truck?",
+        "What role does Diesel Exhaust Fluid play in reducing nitrogen oxide emissions from modern truck engines?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A truck under 80,000 pounds is still illegal and unsafe if an individual steer, drive, or trailer axle exceeds its weight limit.",
+          "misconception": "A truck is legal for highway travel as long as its total gross weight stays under 80,000 pounds."
+        },
+        {
+          "fact": "Federal law requires most interstate commercial trucks to use tamper-resistant Electronic Logging Devices wired to the engine.",
+          "misconception": "Commercial drivers still record their driving hours exclusively on paper graph grids that can be altered."
+        },
+        {
+          "fact": "Terminals enforce scheduled preventive maintenance intervals based on mileage and daily driver inspection reports to stop failures.",
+          "misconception": "Fleet mechanics wait until a truck breaks down on the highway before replacing worn brakes, tires, or hoses."
+        },
+        {
+          "fact": "Cross-docking moves inbound freight directly across the terminal floor into outbound trailers within hours without long storage.",
+          "misconception": "Cross-docking at a freight terminal means storing pallets in high-bay racks for several weeks before shipping."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What measurement on a terminal cat scale confirms that a loaded trailer meets per-axle bridge weight limits?",
+        "Why is it dangerous to load the heaviest pallets at the very rear of a trailer behind the tandem axles?",
+        "Which federal Hours of Service limit restricts how many hours a commercial driver may drive after ten hours off?",
+        "What inspection steps must a driver and mechanic complete before a red-tagged tractor can return to service?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Motor carriers rely on coordinated departments for safety, dispatch, maintenance, sales, load planning, and freight billing.",
+          "misconception": "A commercial trucking company employs only truck drivers and a few mechanics in a garage."
+        },
+        {
+          "fact": "Dispatchers match load schedules and freight requirements against each driver's remaining legal Hours of Service and truck readiness.",
+          "misconception": "Dispatchers simply hand keys to drivers without checking available driving hours or equipment inspection status."
+        },
+        {
+          "fact": "Safety departments run continuous driver training, license monitoring, Hours of Service audits, and preventive compliance checks.",
+          "misconception": "The safety director's job begins only after a truck is involved in a highway collision."
+        },
+        {
+          "fact": "Dock personnel follow load plans to sequence deliveries in reverse stop order while balancing weight across trailer axles.",
+          "misconception": "Dockworkers load pallets into trailers in whatever order they arrive on the staging floor."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens when the sales department books a specialized load without consulting dispatch and equipment planners?",
+        "Which department audits driver qualification files, drug testing records, and accident reports for compliance?",
+        "Why must the freight claims and billing team inspect a signed delivery receipt before issuing a customer invoice?",
+        "What daily coordination links the terminal dock supervisor, the load planner, and the line-haul dispatcher?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Drivers of heavy trucks must pass written and skills exams to earn a state-issued Commercial Driver's License with endorsements.",
+          "misconception": "A regular state passenger car driver's license allows a person to operate any commercial tractor-trailer."
+        },
+        {
+          "fact": "The Federal Highway Administration oversees highway infrastructure, while the FMCSA regulates commercial driver and carrier safety.",
+          "misconception": "The Federal Motor Carrier Safety Administration builds interstate highways and repairs deteriorated bridges."
+        },
+        {
+          "fact": "Federal PHMSA regulations mandate specific hazard class placards and shipping papers so emergency responders know the exact risk.",
+          "misconception": "Hazardous materials diamond placards on a trailer are optional warning stickers chosen by the freight shipper."
+        },
+        {
+          "fact": "State transportation departments and highway patrols enforce axle weight limits, permits, and roadside safety inspections daily.",
+          "misconception": "Interstate trucks only have to obey federal rules and are exempt from state weight limits or port-of-entry checks."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which federal agency within the Department of Transportation issues USDOT numbers and enforces Hours of Service?",
+        "Under what authority can a state weigh-station inspector place a commercial vehicle immediately out of service?",
+        "What role does the Environmental Protection Agency play in regulating heavy-duty truck exhaust and idling limits?",
+        "Why does the Pipeline and Hazardous Materials Safety Administration require diamond placards on hazmat trailers?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Reefer trailers maintain precise temperatures year-round and also heat sensitive cargo like produce or paint in subfreezing weather.",
+          "misconception": "A refrigerated reefer trailer is only used to keep ice cream and frozen meat cold during summer heat."
+        },
+        {
+          "fact": "Unbaffled liquid cargo surges forward and backward during braking and turns, which can push a tractor into an intersection.",
+          "misconception": "Liquid tank trailers are simple hollow tubes that carry any liquid cargo without affecting how the truck stops."
+        },
+        {
+          "fact": "Tall, heavy machinery requires a lowboy or drop-deck flatbed trailer to keep the center of gravity low and clear highway bridges.",
+          "misconception": "Dry van trailers can safely haul oversized construction excavators as long as the rear doors are tied open."
+        },
+        {
+          "fact": "Straight trucks mount the cab and cargo body on a single rigid frame, making them ideal for tight urban streets and local stops.",
+          "misconception": "Every commercial freight truck consists of a detachable tractor cab coupled to a separate semi-trailer."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why do liquid tanker trailers use internal baffles or compartments instead of a single open cylinder?",
+        "What cargo characteristics require a shipper to book a flatbed or lowboy trailer instead of a 53-foot dry van?",
+        "Which temperature-monitoring equipment inside a refrigerated reefer trailer prevents frozen food spoilage?",
+        "Where does a straight box truck with a hydraulic liftgate outperform a full-size tractor-trailer in city delivery?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Carriers price LTL freight using NMFC freight classes based on density, stowability, handling difficulty, and liability risk.",
+          "misconception": "Less-than-truckload shipping rates depend only on total weight and distance regardless of what the boxes contain."
+        },
+        {
+          "fact": "Securing cartons to a sturdy wooden pallet with corner boards and stretch wrap prevents crushing during forklift transfers.",
+          "misconception": "Loose cardboard boxes stacked on the floor of an LTL trailer travel just as safely as unitized pallet loads."
+        },
+        {
+          "fact": "Standard carrier liability often pays only a capped amount per pound unless the shipper declares excess value or buys insurance.",
+          "misconception": "A carrier's standard base tariff automatically reimburses the full retail price of any cargo damaged in transit."
+        },
+        {
+          "fact": "Shippers must weigh transit-time reliability, terminal transfers, claim ratios, and accessorial fees alongside the base freight rate.",
+          "misconception": "The cheapest LTL carrier quote is always the best choice for a time-critical three-day delivery commitment."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What four freight characteristics determine why your 500-pound shipment is rated as NMFC freight class 65?",
+        "Why should a shipper band and stretch-wrap cartons onto a wooden pallet before a carrier arrives for pickup?",
+        "Under what condition does standard carrier released-value liability fail to cover the full value of damaged goods?",
+        "Which details on a Bill of Lading must match the pallet labels to prevent a 500-mile shipment from going astray?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A bill of lading is a binding legal contract and receipt detailing the cargo type, quantity, shipper, carrier, and consignee.",
+          "misconception": "A bill of lading is simply a price invoice sent from the carrier to the shipper after freight arrives."
+        },
+        {
+          "fact": "The carrier is the transportation company moving the goods, while the consignee is the final recipient taking delivery of the shipment.",
+          "misconception": "The consignee is the trucking company hired to haul freight across state lines for the warehouse owner."
+        },
+        {
+          "fact": "Standardized intermodal containers transfer directly between ships, railcars, and truck chassis without unpacking the cargo inside.",
+          "misconception": "Intermodal shipping requires workers to unload and repack loose cargo boxes every time freight switches from rail to truck."
+        },
+        {
+          "fact": "In freight transportation, a tariff is the published schedule of shipping rates, rules, and charges set by a carrier for moving goods.",
+          "misconception": "A trucking tariff is strictly a foreign customs tax paid at international border crossings by the driver."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to legal cargo liability when the carrier and consignee both sign the bill of lading at delivery?",
+        "Which operational boundary distinguishes a drayage haul between an intermodal rail yard and port from local cartage?",
+        "What logbook or electronic logging device record confirms a driver has enough hours of service left to meet an ETA?",
+        "Why is it dangerous to move an intermodal container onto a highway chassis before verifying all four corner twistlocks?"
+      ],
+      "req_id": "9"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Federal regulations require interstate commercial truck drivers to be at least twenty one years old and hold a valid CDL.",
+          "misconception": "Eighteen year old drivers with a standard state license can immediately haul interstate commercial freight across state lines."
+        },
+        {
+          "fact": "Trucking careers include diesel mechanics, freight dispatchers, logistics planners, safety compliance officers, and fleet managers.",
+          "misconception": "Career pathways in the truck transportation industry are limited exclusively to long haul tractor trailer driving positions."
+        },
+        {
+          "fact": "Federal Entry Level Driver Training mandates registered classroom instruction and behind the wheel range and road proficiency testing.",
+          "misconception": "A new driver can earn a Commercial Driver License simply by passing a written multiple choice test at the local DMV office."
+        },
+        {
+          "fact": "Carrier sponsored CDL schools typically require newly licensed drivers to work for that fleet for a set period to pay off tuition.",
+          "misconception": "Company sponsored CDL training programs always cover full tuition costs with no employment contract or repayment obligation."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What Youth Protection step is required before you contact a fleet manager or commercial driver for a career interview?",
+        "Under what condition does a commercial driver need a Class A license with a HazMat endorsement instead of a Class B license?",
+        "What specific cost and salary metrics should you record when comparing community college CDL training to company tuition programs?",
+        "Which physical qualification and safety inspection duties must a commercial driver or diesel technician pass to stay certified?"
+      ],
+      "req_id": "10"
+    }
+  ]
+}

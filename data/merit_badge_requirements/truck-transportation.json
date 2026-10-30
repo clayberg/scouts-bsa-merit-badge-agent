@@ -64,9 +64,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Every motor carrier operates identical routes with uniform terminal network capabilities across communities.",
-        "fact": "Regional less-than-truckload carriers maintain dedicated terminal docks to consolidate daily cross-dock freight.",
-        "myth": "Every motor carrier operates identical routes with uniform terminal network capabilities across communities.",
-        "fact_correction": "Regional less-than-truckload carriers maintain dedicated terminal docks to consolidate daily cross-dock freight."
+        "fact": "Regional less-than-truckload carriers maintain dedicated terminal docks to consolidate daily cross-dock freight."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -103,38 +101,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Interstate Long-Haul Freight Lines",
-        "right_header": "Local Regional Delivery Carriers",
+        "left_header": "Req 1: Highway Freight Carriers",
+        "right_header": "Req 1: Spot Refrigerated Deliveries",
         "left_points": [
           "Highway Freight Carriers: On the highway, there are tractor-trailers for general cargo, trucks that haul dirt, trucks that deliver new cars to a showroom, and trucks that carry bulk (p. 10).",
           "Neighborhood Service Trucks: In your neighborhood, you may have seen special trucks that pick up trash or recycling materials (p. 10).",
           "Refrigerated Produce Delivery: Refrigerated trucks deliver frozen produce to retailers (p. 10)."
         ],
         "right_points": [
-          "Step 1 - Spot Refrigerated Deliveries: Refrigerated trucks deliver frozen produce to retailers (p. 10).",
-          "Step 2 - Identify Flatbed Hauls: Flatbed trucks are used to move cargo that is not easily stowed, loaded into, or unloaded from the more common tractor-trailer (p. 10).",
-          "Step 3 - Catalog Local Truck Lines: Before meeting with your counselor, think of the different types of trucks you have seen and what they transport (p. 10)."
+          "Spot Refrigerated Deliveries: Refrigerated trucks deliver frozen produce to retailers (p. 10).",
+          "Identify Flatbed Hauls: Flatbed trucks are used to move cargo that is not easily stowed, loaded into, or unloaded from the more common tractor-trailer (p. 10).",
+          "Catalog Local Truck Lines: Before meeting with your counselor, think of the different types of trucks you have seen and what they transport (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Highway Freight Carriers",
+            "attribute": "Carrier Classification",
             "left": "Highway Freight Carriers: On the highway, there are tractor-trailers for general cargo, trucks that haul dirt, trucks that deliver new cars to a showroom, and trucks that carry bulk (p. 10).",
-            "right": "Step 1 - Spot Refrigerated Deliveries: Refrigerated trucks deliver frozen produce to retailers (p. 10)."
+            "right": "Spot Refrigerated Deliveries: Refrigerated trucks deliver frozen produce to retailers (p. 10)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Terminal Operations",
             "left": "Neighborhood Service Trucks: In your neighborhood, you may have seen special trucks that pick up trash or recycling materials (p. 10).",
-            "right": "Step 2 - Identify Flatbed Hauls: Flatbed trucks are used to move cargo that is not easily stowed, loaded into, or unloaded from the more common tractor-trailer (p. 10)."
+            "right": "Identify Flatbed Hauls: Flatbed trucks are used to move cargo that is not easily stowed, loaded into, or unloaded from the more common tractor-trailer (p. 10)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Service Directory",
             "left": "Refrigerated Produce Delivery: Refrigerated trucks deliver frozen produce to retailers (p. 10).",
-            "right": "Step 3 - Catalog Local Truck Lines: Before meeting with your counselor, think of the different types of trucks you have seen and what they transport (p. 10)."
+            "right": "Catalog Local Truck Lines: Before meeting with your counselor, think of the different types of trucks you have seen and what they transport (p. 10)."
           }
         ]
       },
       "worked_example": {
-        "title": "Truck Transportation Req 1 Exemplar Workbook Entry: Major Local Truck Lines",
+        "title": "Truck Transportation Req 1 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Highway Freight Carriers": "On the highway, there are tractor-trailers for general cargo, trucks that haul dirt, trucks that deliver new cars to a showroom, and trucks that carry bulk (p. 10).",
@@ -175,9 +173,35 @@
       "workbook_visual_caption": "Sequential diagrams demonstrate emergency first aid response, shock management, and roadside communication after a vehicular collision.",
       "pamphlet_summary": "Local freight movement depends on common carriers and contract haulers operating regional distribution terminals. Shippers select motor lines based on lane coverage, direct points, and terminal handling capabilities.",
       "socratic_questions": [
-        "How do private carriage fleets differ from common carriers serving regional commercial distribution centers?",
+        "In what specific ways do private carriage fleets differ from common carriers serving regional commercial distribution centers?",
         "Why do industrial parks cluster around interstate highway corridors and rail freight junctions?",
-        "Which factors determine whether a manufacturer contracts with specialized haulers instead of general freight?"
+        "Which factors determine whether a manufacturer contracts with specialized haulers instead of general freight?",
+        "What distinguishes a less-than-truckload carrier from a full-truckload carrier serving your town?",
+        "Which physical indicator on a tractor cab door identifies a motor carrier's federal registration?",
+        "Under what condition does a regional short-haul carrier hand off freight to a national line-haul fleet?",
+        "Where can you verify whether a local trucking company operates as a private fleet or a for-hire carrier?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Every motor carrier operates identical routes with uniform terminal network capabilities across communities.",
+          "fact": "Regional less-than-truckload carriers maintain dedicated terminal docks to consolidate daily cross-dock freight."
+        },
+        {
+          "misconception": "Every large semi-truck driving through town belongs to a public for-hire freight company.",
+          "fact": "Many tractor-trailers belong to private corporate fleets that haul only that company's own retail or manufacturing goods."
+        },
+        {
+          "misconception": "National long-haul truck lines make direct residential deliveries with 53-foot highway trailers.",
+          "fact": "Long-haul carriers transfer local freight at regional terminals to smaller city delivery trucks for final neighborhood stops."
+        },
+        {
+          "misconception": "Any trucking company listed in a local directory can legally haul hazardous materials through town.",
+          "fact": "Carriers must hold specific federal hazmat endorsements, safety permits, and insurance before transporting regulated materials."
+        },
+        {
+          "misconception": "The brand name painted on a trailer always identifies the motor carrier operating the tractor pulling it.",
+          "fact": "Independent owner-operators and intermodal drayage drivers routinely pull trailers owned by railroads, leasing firms, or shippers."
+        }
       ]
     },
     {
@@ -223,9 +247,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)",
           "common_misconception_pair": {
             "misconception": "Truck transportation represents only vehicle driving rather than integrated financial and cargo management.",
-            "fact": "Motor freight bridges producers and consumers by synchronizing physical cargo with billing records.",
-            "myth": "Truck transportation represents only vehicle driving rather than integrated financial and cargo management.",
-            "fact_correction": "Motor freight bridges producers and consumers by synchronizing physical cargo with billing records."
+            "fact": "Motor freight bridges producers and consumers by synchronizing physical cargo with billing records."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -307,9 +329,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)",
           "common_misconception_pair": {
             "misconception": "Manufacturing supply chains can function seamlessly using solely railway or air cargo movements.",
-            "fact": "Truck fleets provide point-to-point agility that fixed-path transportation systems cannot achieve alone.",
-            "myth": "Manufacturing supply chains can function seamlessly using solely railway or air cargo movements.",
-            "fact_correction": "Truck fleets provide point-to-point agility that fixed-path transportation systems cannot achieve alone."
+            "fact": "Truck fleets provide point-to-point agility that fixed-path transportation systems cannot achieve alone."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -380,9 +400,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)",
           "common_misconception_pair": {
             "misconception": "Overseas goods travel directly from foreign manufacturing plants to stores inside one single vehicle.",
-            "fact": "Ocean container shipments require intermodal transfers before highway tractors deliver cargo inland.",
-            "myth": "Overseas goods travel directly from foreign manufacturing plants to stores inside one single vehicle.",
-            "fact_correction": "Ocean container shipments require intermodal transfers before highway tractors deliver cargo inland."
+            "fact": "Ocean container shipments require intermodal transfers before highway tractors deliver cargo inland."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -484,9 +502,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Trucking operates completely isolated from global marine shipping containers and railroad networks.",
-        "fact": "Truck transportation handles the majority of domestic commercial freight tonnage through intermodal integration.",
-        "myth": "Trucking operates completely isolated from global marine shipping containers and railroad networks.",
-        "fact_correction": "Truck transportation handles the majority of domestic commercial freight tonnage through intermodal integration."
+        "fact": "Truck transportation handles the majority of domestic commercial freight tonnage through intermodal integration."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -522,9 +538,9 @@
         "Step 4 - System Synthesis: Present complete supply chain connections showing physical movements alongside information flow updates."
       ],
       "gear_checklist": [
-        "Official Truck Transportation Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Role of truck transportation within commerce)",
-        "Field notebook, verification log sheet, and demonstration materials for Role of truck transportation within commerce",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Truck Transportation Merit: Role of truck transportation within commerce.",
+        "Field notebook, verification log sheet, and demonstration materials for Role of truck transportation within commerce.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 2a: Commercial Cargo Velocity",
@@ -537,29 +553,29 @@
         ],
         "rows": [
           {
-            "attribute": "Role of Trucks in Commerce",
-            "left": "(2a) Role of Trucks in Commerce: Trucks pick up raw materials at one company and deliver them to another, where they are used to make a product (p. 16).",
-            "right": "(2b) Company Supply Chain Integration: Trucks play a major role in today's world economy (p. 16)."
+            "attribute": "Economic Integration",
+            "left": "(2a) Commercial Cargo Velocity: Truck transportation serves as the physical backbone of commercial trade by connecting production sites to markets. Modern trucking contracts manage freight payments, bills of lading, and shipping manifests.",
+            "right": "(2b) Supply Chain Logistics: Trucks provide flexible freight delivery directly linking distribution warehouses with retail display shelves. Manufacturing assembly schedules rely on scheduled motor deliveries to support inventory management systems."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Supply Chain Continuity: They provide a smooth flow of goods through the global supply chain (p. 16).",
-            "right": "(2c) Mapping Overseas Freight Routes: They provide a smooth flow of goods through the global supply chain (p. 16)."
+            "attribute": "Cash Flow Velocity",
+            "left": "Req 2a: Commercial Cargo Velocity: Truck transportation serves as the physical backbone of commercial trade by connecting production sites to markets. Modern trucking contracts manage freight payments, bills of lading, and shipping manifests.",
+            "right": "Req 2b: Supply Chain Logistics: Trucks provide flexible freight delivery directly linking distribution warehouses with retail display shelves. Manufacturing assembly schedules rely on scheduled motor deliveries to support inventory management systems."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "United States Commerce Flow: Just think for a minute about how trucks fit into U. S. commerce (p. 16).",
-            "right": "Step 3 - Map Warehouse Distribution: That product may then be shipped by truck to a warehouse, where it is stored (p. 16)."
+            "attribute": "Information Interchange",
+            "left": "Req 2c: International Multimodal: International freight relies on container ships, harbor cranes, rail networks, and motor highway carriers. Drayage tractors haul intermodal shipping containers from marine piers to inland distribution hubs.",
+            "right": "Cash Flow Velocity: Rapid highway transit reduces customer inventory carrying expenses across modern supply pipelines."
           }
         ]
       },
       "worked_example": {
-        "title": "Truck Transportation Req 2 Exemplar Workbook Entry: Trucks in Global Supply Chains",
+        "title": "Truck Transportation Req 2 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 2a - Commercial Cargo Velocity": "Truck transportation serves as the physical backbone of commercial trade by connecting production sites to markets. Modern trucking contracts manage freight payments, bills of lading, and shipping manifests.",
           "Req 2b - Supply Chain Logistics": "Trucks provide flexible freight delivery directly linking distribution warehouses with retail display shelves. Manufacturing assembly schedules rely on scheduled motor deliveries to support inventory management systems.",
-          "Req 2c - International Multimodal Transit": "International freight relies on container ships, harbor cranes, rail networks, and motor highway carriers. Drayage tractors haul intermodal shipping containers from marine piers to inland distribution hubs."
+          "Req 2c - International Multimodal": "International freight relies on container ships, harbor cranes, rail networks, and motor highway carriers. Drayage tractors haul intermodal shipping containers from marine piers to inland distribution hubs."
         },
         "sample_output": "Trucks in Global Supply Chains: Trucks pick up raw materials at one company and deliver them to another, where they are used to make a product (p. 16).",
         "counselor_tip": "For Truck Transportation Requirement 2 (Trucks in Global Supply Chains), verify the Scout's own observations and specific pamphlet details (Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46))."
@@ -596,7 +612,33 @@
       "socratic_questions": [
         "How does motor freight velocity influence the retail pricing of imported consumer goods?",
         "What economic consequences happen when seaport drayage movements experience prolonged logistical bottlenecks?",
-        "Why is real-time inventory visibility critical for modern lean manufacturing production assembly lines?"
+        "Why is real-time inventory visibility critical for modern lean manufacturing production assembly lines?",
+        "What happens to a manufacturer's assembly line when a just-in-time truck delivery is delayed by four hours?",
+        "Which document travels with intermodal freight to track ownership and liability from port to warehouse?",
+        "Where does drayage trucking fit when moving an ocean container from a seaport crane to an inland rail yard?",
+        "Why is electronic data interchange between a carrier and a retailer essential before a truck reaches the dock?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Trucking operates completely isolated from global marine shipping containers and railroad networks.",
+          "fact": "Truck transportation handles the majority of domestic commercial freight tonnage through intermodal integration."
+        },
+        {
+          "misconception": "Ocean container ships and freight trains can complete end-to-end retail deliveries without motor carriers.",
+          "fact": "Ships and trains rely on drayage and distribution trucks to complete the first-mile pickup and final-mile store delivery."
+        },
+        {
+          "misconception": "Commerce in trucking involves only the physical movement of pallets from one loading dock to another.",
+          "fact": "Modern freight commerce integrates physical cargo transport with electronic billing, payment settlement, and live tracking data."
+        },
+        {
+          "misconception": "Holding massive inventory in retail backrooms is cheaper than scheduling frequent truck deliveries.",
+          "fact": "Just-in-time trucking lowers warehouse storage costs by delivering smaller, scheduled replenishment loads as items sell."
+        },
+        {
+          "misconception": "Overseas containers are always unloaded piece by piece at the seaport pier before boarding highway trucks.",
+          "fact": "Sealed intermodal containers are lifted directly onto skeletal truck chassis at the port so cargo stays untouched in transit."
+        }
       ]
     },
     {
@@ -653,9 +695,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Gasoline and diesel truck engines share identical ignition mechanics and fuel delivery components.",
-        "fact": "Diesel engines utilize high compression ratios to ignite fuel without electrical spark plug systems.",
-        "myth": "Gasoline and diesel truck engines share identical ignition mechanics and fuel delivery components.",
-        "fact_correction": "Diesel engines utilize high compression ratios to ignite fuel without electrical spark plug systems."
+        "fact": "Diesel engines utilize high compression ratios to ignite fuel without electrical spark plug systems."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -692,38 +732,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Spark-Ignited Gasoline Truck Engines",
-        "right_header": "Compression-Ignited Diesel Truck Engines",
+        "left_header": "Req 3: Exterior Fleet Maintenance",
+        "right_header": "Req 3: Examine Light-Duty Gas Engines",
         "left_points": [
           "Exterior Fleet Maintenance: Keeping a truck clean helps prolong the life of the truck and ensure the company maintains a \"clean\" image (p. 31).",
           "Primary Truck Engine Types: The Engine There are two main types of truck engine, gasoline and diesel (p. 31).",
           "Light-Duty Gasoline Engines: The gasoline engine in a truck is similar to that used in most automobiles and is typically found in smaller trucks such as pickups, vans, and sport (p. 31)."
         ],
         "right_points": [
-          "Step 1 - Examine Light-Duty Gas Engines: The gasoline engine in a truck is similar to that used in most automobiles and is typically found in smaller trucks such as pickups, vans, and sport (p. 31).",
-          "Step 2 - Inspect Heavy-Duty Diesel Engines: While diesel engines are used in some cars and small trucks, they are most commonly found in big trucks (p. 31).",
-          "Step 3 - Compare Compression and Heat: Diesel engine parts are exposed to higher temperatures and compression pressure than are gasoline engines (p. 31)."
+          "Examine Light-Duty Gas Engines: The gasoline engine in a truck is similar to that used in most automobiles and is typically found in smaller trucks such as pickups, vans, and sport (p. 31).",
+          "Inspect Heavy-Duty Diesel Engines: While diesel engines are used in some cars and small trucks, they are most commonly found in big trucks (p. 31).",
+          "Compare Compression and Heat: Diesel engine parts are exposed to higher temperatures and compression pressure than are gasoline engines (p. 31)."
         ],
         "rows": [
           {
-            "attribute": "Exterior Fleet Maintenance",
+            "attribute": "Compression Ignition",
             "left": "Exterior Fleet Maintenance: Keeping a truck clean helps prolong the life of the truck and ensure the company maintains a \"clean\" image (p. 31).",
-            "right": "Step 1 - Examine Light-Duty Gas Engines: The gasoline engine in a truck is similar to that used in most automobiles and is typically found in smaller trucks such as pickups, vans, and sport (p. 31)."
+            "right": "Examine Light-Duty Gas Engines: The gasoline engine in a truck is similar to that used in most automobiles and is typically found in smaller trucks such as pickups, vans, and sport (p. 31)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Spark Ignition",
             "left": "Primary Truck Engine Types: The Engine There are two main types of truck engine, gasoline and diesel (p. 31).",
-            "right": "Step 2 - Inspect Heavy-Duty Diesel Engines: While diesel engines are used in some cars and small trucks, they are most commonly found in big trucks (p. 31)."
+            "right": "Inspect Heavy-Duty Diesel Engines: While diesel engines are used in some cars and small trucks, they are most commonly found in big trucks (p. 31)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Torque Output",
             "left": "Light-Duty Gasoline Engines: The gasoline engine in a truck is similar to that used in most automobiles and is typically found in smaller trucks such as pickups, vans, and sport (p. 31).",
-            "right": "Step 3 - Compare Compression and Heat: Diesel engine parts are exposed to higher temperatures and compression pressure than are gasoline engines (p. 31)."
+            "right": "Compare Compression and Heat: Diesel engine parts are exposed to higher temperatures and compression pressure than are gasoline engines (p. 31)."
           }
         ]
       },
       "worked_example": {
-        "title": "Truck Transportation Req 3 Exemplar Workbook Entry: Gasoline and Diesel Truck Engines",
+        "title": "Truck Transportation Req 3 Exemplar Workbook Entry",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
           "Exterior Fleet Maintenance": "Keeping a truck clean helps prolong the life of the truck and ensure the company maintains a \"clean\" image (p. 31).",
@@ -766,7 +806,33 @@
       "socratic_questions": [
         "Why do heavy long-haul tractor-trailers operate almost exclusively with turbocharged diesel internal combustion engines?",
         "How does compression ignition achieve greater thermal efficiency than spark ignition fuel delivery systems?",
-        "Which operating cost trade-offs guide fleet managers purchasing gasoline cargo vans versus diesel trucks?"
+        "Which operating cost trade-offs guide fleet managers purchasing gasoline cargo vans versus diesel trucks?",
+        "What ignites the air-fuel mixture inside a heavy-duty diesel cylinder if there is no spark plug present?",
+        "Why do heavy Class 8 tractor-trailers rely on high low-RPM torque from diesel engines when climbing grades?",
+        "Under what operating schedule does a gasoline-powered delivery van cost less to run than a diesel truck?",
+        "What role does Diesel Exhaust Fluid play in reducing nitrogen oxide emissions from modern truck engines?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Gasoline and diesel truck engines share identical ignition mechanics and fuel delivery components.",
+          "fact": "Diesel engines utilize high compression ratios to ignite fuel without electrical spark plug systems."
+        },
+        {
+          "misconception": "Diesel truck engines use high-voltage spark plugs to ignite fuel inside the combustion chamber.",
+          "fact": "Diesel engines compress intake air until it is hot enough to auto-ignite fuel the instant the injector sprays it."
+        },
+        {
+          "misconception": "High horsepower at high engine RPM is the primary metric needed to start an 80,000-pound load moving.",
+          "fact": "Heavy trucks depend on high low-end torque at low RPM to overcome inertia and pull heavy loads up steep highway grades."
+        },
+        {
+          "misconception": "Diesel engines are always more economical than gasoline engines regardless of vehicle size or daily mileage.",
+          "fact": "Gasoline engines have lower upfront purchase and maintenance costs, making them practical for light-duty local route vans."
+        },
+        {
+          "misconception": "Diesel fuel has less energy per gallon than gasoline and therefore delivers lower highway fuel mileage.",
+          "fact": "Diesel fuel contains roughly 10 to 15 percent more energy per gallon and operates at higher thermal compression efficiency."
+        }
       ]
     },
     {
@@ -820,9 +886,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)",
           "common_misconception_pair": {
             "misconception": "Trucking companies only repair equipment after parts break down completely during highway transport.",
-            "fact": "Scheduled preventive maintenance prevents catastrophic highway component failures and roadside out-of-service violations.",
-            "myth": "Trucking companies only repair equipment after parts break down completely during highway transport.",
-            "fact_correction": "Scheduled preventive maintenance prevents catastrophic highway component failures and roadside out-of-service violations."
+            "fact": "Scheduled preventive maintenance prevents catastrophic highway component failures and roadside out-of-service violations."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -893,9 +957,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)",
           "common_misconception_pair": {
             "misconception": "Dispatch centers rely exclusively on two-way citizens band radios to reach highway drivers.",
-            "fact": "Cellular and satellite telematics relay navigation alerts, load manifests, and real-time tractor diagnostics.",
-            "myth": "Dispatch centers rely exclusively on two-way citizens band radios to reach highway drivers.",
-            "fact_correction": "Cellular and satellite telematics relay navigation alerts, load manifests, and real-time tractor diagnostics."
+            "fact": "Cellular and satellite telematics relay navigation alerts, load manifests, and real-time tractor diagnostics."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -974,9 +1036,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)",
           "common_misconception_pair": {
             "misconception": "Large commercial tractor-trailers stop within identical braking distances as passenger sedans.",
-            "fact": "Professional commercial drivers maintain generous following cushions and scan far ahead for roadway hazards.",
-            "myth": "Large commercial tractor-trailers stop within identical braking distances as passenger sedans.",
-            "fact_correction": "Professional commercial drivers maintain generous following cushions and scan far ahead for roadway hazards."
+            "fact": "Professional commercial drivers maintain generous following cushions and scan far ahead for roadway hazards."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1049,9 +1109,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)",
           "common_misconception_pair": {
             "misconception": "Drivers create log entries by handwriting rough daily mileage estimates at weekly intervals.",
-            "fact": "Electronic logging devices record engine run time, geographic position, and duty status automatically.",
-            "myth": "Drivers create log entries by handwriting rough daily mileage estimates at weekly intervals.",
-            "fact_correction": "Electronic logging devices record engine run time, geographic position, and duty status automatically."
+            "fact": "Electronic logging devices record engine run time, geographic position, and duty status automatically."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1131,9 +1189,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)",
           "common_misconception_pair": {
             "misconception": "Individual highway transport companies invent their own arbitrary highway safety and operating limits.",
-            "fact": "Federal Motor Carrier Safety Administration rules govern vehicle weight thresholds and operator rest breaks.",
-            "myth": "Individual highway transport companies invent their own arbitrary highway safety and operating limits.",
-            "fact_correction": "Federal Motor Carrier Safety Administration rules govern vehicle weight thresholds and operator rest breaks."
+            "fact": "Federal Motor Carrier Safety Administration rules govern vehicle weight thresholds and operator rest breaks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1260,9 +1316,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Truck terminals function merely as vehicle parking lots with zero structured maintenance oversight.",
-        "fact": "Federal motor safety regulations mandate driver qualification files, regular mechanical inspections, and rest hours.",
-        "myth": "Truck terminals function merely as vehicle parking lots with zero structured maintenance oversight.",
-        "fact_correction": "Federal motor safety regulations mandate driver qualification files, regular mechanical inspections, and rest hours."
+        "fact": "Federal motor safety regulations mandate driver qualification files, regular mechanical inspections, and rest hours."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1298,9 +1352,9 @@
         "Step 4 - Compliance Review: Audit driver electronic logging records alongside mandatory federal motor carrier safety regulations."
       ],
       "gear_checklist": [
-        "Official Truck Transportation Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Truck Transportation Careers and Pathways)",
-        "Field notebook, verification log sheet, and demonstration materials for Truck Transportation Careers and Pathways",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Truck Transportation Merit: Truck Transportation Careers and Pathways.",
+        "Field notebook, verification log sheet, and demonstration materials for Truck Transportation Careers and Pathways.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 4a: Fleet Preventive Maintenance",
@@ -1315,24 +1369,24 @@
         ],
         "rows": [
           {
-            "attribute": "Fleet Preventive Maintenance Programs",
-            "left": "(4a) Fleet Preventive Maintenance Programs: As the trucking industry grew, it became so important to the economy of the United States that the federal government stepped in to set some rules (p. 18).",
-            "right": "(4c) Professional Highway Safety Practices: An agency known as the Interstate Commerce Commission enforced these rules, which were very helpful at the time they were introduced (p. 18)."
+            "attribute": "Terminal Maintenance",
+            "left": "(4a) Fleet Preventive Maintenance: Fleet maintenance programs follow structured mileage intervals for fluid analysis, brake adjustments, and tire inspections. Systematic mechanical oversight preserves road safety and prevents roadside enforcement citations.",
+            "right": "(4c) Defensive Driving Standards: Professional truck operators adhere to specialized safety protocols covering space management and speed control. Drivers master blind-spot awareness and pre-trip inspections to protect surrounding highway motorists."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(4b) Dispatcher and Driver Communication: Through the Motor Carrier Act of 1935, the government regulated where a trucking company, or carrier, could operate and what it could charge (p. 18).",
-            "right": "(4d) Driver Duty Status Logs: Keeping trucks well-maintained helps ensure not only the driver'ssafety and safety on the road, but also helps keep trucks working so that carriers (p. 18)."
+            "attribute": "Dispatch Communication",
+            "left": "(4b) Fleet Dispatch Telematics: Modern fleet dispatchers coordinate transit movements through onboard computers and satellite communication networks. Digital systems transmit weather warnings, route changes, and urgent customer delivery instructions instantly.",
+            "right": "(4d) Electronic Logging Records: Commercial motor vehicle operators document on-duty, driving, sleeper berth, and off-duty periods. Federal inspectors review these tamper-resistant digital records to enforce strict driver fatigue limitations."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Motor Carrier Act Rules: Through the Motor Carrier Act of 1935, the government regulated where a trucking company, or carrier, could operate and what it could charge (p. 18).",
-            "right": "(4e) Federal Public Safety Regulations: As the trucking industry grew, it became so important to the economy of the United States that the federal government stepped in to set some rules (p. 18)."
+            "attribute": "Highway Safety",
+            "left": "Req 4a: Fleet Preventive Maintenance: Fleet maintenance programs follow structured mileage intervals for fluid analysis, brake adjustments, and tire inspections. Systematic mechanical oversight preserves road safety and prevents roadside enforcement citations.",
+            "right": "Req 4b: Fleet Dispatch Telematics: Modern fleet dispatchers coordinate transit movements through onboard computers and satellite communication networks. Digital systems transmit weather warnings, route changes, and urgent customer delivery instructions instantly."
           }
         ]
       },
       "worked_example": {
-        "title": "Truck Transportation Req 4 Exemplar Workbook Entry: Truck Terminal Operations and Safety",
+        "title": "Truck Transportation Req 4 Exemplar Workbook Entry",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
           "Req 4a - Fleet Preventive Maintenance": "Fleet maintenance programs follow structured mileage intervals for fluid analysis, brake adjustments, and tire inspections. Systematic mechanical oversight preserves road safety and prevents roadside enforcement citations.",
@@ -1373,9 +1427,35 @@
       "workbook_visual_caption": "A truck driver speaks with Scouts from the cab during an educational truck terminal visit.",
       "pamphlet_summary": "Commercial motor carrier terminals centralize fleet preventive maintenance, digital dispatch routing, and safety compliance operations. Terminal managers enforce commercial driver licensing rules, vehicle roadworthiness checks, and federal safety standards.",
       "socratic_questions": [
-        "How do digital logging devices protect public safety compared with historic paper logbook sheets?",
+        "In what specific ways do digital logging devices protect public safety compared with historic paper logbook sheets?",
         "What mechanical systems must technicians examine before releasing a commercial tractor-trailer onto highways?",
-        "Why do defensive driving standards for commercial vehicle operators exceed standard automobile traffic rules?"
+        "Why do defensive driving standards for commercial vehicle operators exceed standard automobile traffic rules?",
+        "What measurement on a terminal cat scale confirms that a loaded trailer meets per-axle bridge weight limits?",
+        "Why is it dangerous to load the heaviest pallets at the very rear of a trailer behind the tandem axles?",
+        "Which federal Hours of Service limit restricts how many hours a commercial driver may drive after ten hours off?",
+        "What inspection steps must a driver and mechanic complete before a red-tagged tractor can return to service?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Truck terminals function merely as vehicle parking lots with zero structured maintenance oversight.",
+          "fact": "Federal motor safety regulations mandate driver qualification files, regular mechanical inspections, and rest hours."
+        },
+        {
+          "misconception": "A truck is legal for highway travel as long as its total gross weight stays under 80,000 pounds.",
+          "fact": "A truck under 80,000 pounds is still illegal and unsafe if an individual steer, drive, or trailer axle exceeds its weight limit."
+        },
+        {
+          "misconception": "Commercial drivers still record their driving hours exclusively on paper graph grids that can be altered.",
+          "fact": "Federal law requires most interstate commercial trucks to use tamper-resistant Electronic Logging Devices wired to the engine."
+        },
+        {
+          "misconception": "Fleet mechanics wait until a truck breaks down on the highway before replacing worn brakes, tires, or hoses.",
+          "fact": "Terminals enforce scheduled preventive maintenance intervals based on mileage and daily driver inspection reports to stop failures."
+        },
+        {
+          "misconception": "Cross-docking at a freight terminal means storing pallets in high-bay racks for several weeks before shipping.",
+          "fact": "Cross-docking moves inbound freight directly across the terminal floor into outbound trailers within hours without long storage."
+        }
       ]
     },
     {
@@ -1418,9 +1498,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)",
           "common_misconception_pair": {
             "misconception": "Every office employee at a trucking terminal handles identical random logistical duties daily.",
-            "fact": "Trucking departments manage dedicated responsibilities that support continuous commercial freight movement.",
-            "myth": "Every office employee at a trucking terminal handles identical random logistical duties daily.",
-            "fact_correction": "Trucking departments manage dedicated responsibilities that support continuous commercial freight movement."
+            "fact": "Trucking departments manage dedicated responsibilities that support continuous commercial freight movement."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1491,9 +1569,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)",
           "common_misconception_pair": {
             "misconception": "Trucking organizations offer career opportunities exclusively for individuals holding commercial driver licenses.",
-            "fact": "Modern motor carriers employ diverse personnel spanning safety directors, diesel technicians, and freight dispatchers.",
-            "myth": "Trucking organizations offer career opportunities exclusively for individuals holding commercial driver licenses.",
-            "fact_correction": "Modern motor carriers employ diverse personnel spanning safety directors, diesel technicians, and freight dispatchers."
+            "fact": "Modern motor carriers employ diverse personnel spanning safety directors, diesel technicians, and freight dispatchers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1576,9 +1652,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A trucking company consists solely of vehicle drivers managed directly by one owner.",
-        "fact": "Trucking operations coordinate specialized departments including dispatch, safety, billing, maintenance, and freight sales.",
-        "myth": "A trucking company consists solely of vehicle drivers managed directly by one owner.",
-        "fact_correction": "Trucking operations coordinate specialized departments including dispatch, safety, billing, maintenance, and freight sales."
+        "fact": "Trucking operations coordinate specialized departments including dispatch, safety, billing, maintenance, and freight sales."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1614,13 +1688,13 @@
         "Step 4 - Workflow Tracing: Trace customer shipping orders from initial sales quotes through administrative freight billing."
       ],
       "gear_checklist": [
-        "Official Truck Transportation Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Outline The General Organization)",
-        "Field notebook, verification log sheet, and demonstration materials for Outline The General Organization",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Truck Transportation Merit: Outline The General Organization.",
+        "Field notebook, verification log sheet, and demonstration materials for Outline The General Organization.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 5a: Corporate Carrier Organization",
-        "right_header": "Req 5b: Professional Motor Carrier Careers",
+        "right_header": "Req 5b: Professional Motor Carrier",
         "left_points": [
           "(5a) Corporate Carrier Organization: Motor carrier organizations separate freight sales, line-haul dispatch, vehicle maintenance, and safety compliance. Each division provides specialized oversight to ensure profitable and legally compliant freight transport."
         ],
@@ -1629,28 +1703,28 @@
         ],
         "rows": [
           {
-            "attribute": "Trucking Company Departmental Organization",
-            "left": "(5a) Trucking Company Departmental Organization: Some trucking companies are made up of just a driver and that driver's truck (p. 25).",
-            "right": "(5b) Key Trucking Industry Positions: Such businesspeople are known as owner-operators, drivers who own and operate their own truck (p. 25)."
+            "attribute": "Dispatch Operations",
+            "left": "(5a) Corporate Carrier Organization: Motor carrier organizations separate freight sales, line-haul dispatch, vehicle maintenance, and safety compliance. Each division provides specialized oversight to ensure profitable and legally compliant freight transport.",
+            "right": "(5b) Professional Motor Carrier Careers: Career paths in commercial trucking encompass operations management, mechanical maintenance, pricing analysis, and driver supervision. Each role requires specialized technical skills, industry training, and administrative competency."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Small Fleet Industry Majority: The majority, approximately 97 percent, of all trucking companies operate 20 or fewer trucks (p. 25).",
-            "right": "Step 2 - Understand Owner-Operator Roles: Such business people are known as owner-operators, drivers who own and operate their own truck and trucking company (p. 25)."
+            "attribute": "Safety Management",
+            "left": "Req 5a: Corporate Carrier: Motor carrier organizations separate freight sales, line-haul dispatch, vehicle maintenance, and safety compliance. Each division provides specialized oversight to ensure profitable and legally compliant freight transport.",
+            "right": "Req 5b: Professional Motor Carrier: Career paths in commercial trucking encompass operations management, mechanical maintenance, pricing analysis, and driver supervision. Each role requires specialized technical skills, industry training, and administrative competency."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Single-Truck Business Operations: Some trucking companies are made up of just a driver and that driver's truck (p. 25).",
-            "right": "Step 3 - Map Core Company Departments: Except for the very smallest operations, most trucking companies are organized along similar lines and have similar departments to handle (p. 25)."
+            "attribute": "Fleet Maintenance",
+            "left": "Dispatch Operations: Terminal dispatch departments assign freight loads and schedule drivers on optimal highways.",
+            "right": "Safety Management: Corporate safety directors enforce regulatory compliance standards and conduct driver safety reviews."
           }
         ]
       },
       "worked_example": {
-        "title": "Truck Transportation Req 5 Exemplar Workbook Entry: Trucking Company Structure and Roles",
+        "title": "Truck Transportation Req 5 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Corporate Carrier Organization": "Motor carrier organizations separate freight sales, line-haul dispatch, vehicle maintenance, and safety compliance. Each division provides specialized oversight to ensure profitable and legally compliant freight transport.",
-          "Req 5b - Professional Motor Carrier Career": "Career paths in commercial trucking encompass operations management, mechanical maintenance, pricing analysis, and driver supervision. Each role requires specialized technical skills, industry training, and administrative competency."
+          "Req 5a - Corporate Carrier": "Motor carrier organizations separate freight sales, line-haul dispatch, vehicle maintenance, and safety compliance. Each division provides specialized oversight to ensure profitable and legally compliant freight transport.",
+          "Req 5b - Professional Motor Carrier": "Career paths in commercial trucking encompass operations management, mechanical maintenance, pricing analysis, and driver supervision. Each role requires specialized technical skills, industry training, and administrative competency."
         },
         "sample_output": "Trucking Company Structure and Roles: Some trucking companies are made up of just a driver and that driver's truck (p. 25).",
         "counselor_tip": "For Truck Transportation Requirement 5 (Trucking Company Structure and Roles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27))."
@@ -1687,7 +1761,33 @@
       "socratic_questions": [
         "How does the fleet safety department interact with operations dispatchers when assigning urgent freight?",
         "What critical role do rate clerks perform to ensure commercial carrier profitability and solvency?",
-        "Why must heavy vehicle maintenance departments maintain direct communication with terminal freight dispatchers?"
+        "Why must heavy vehicle maintenance departments maintain direct communication with terminal freight dispatchers?",
+        "What happens when the sales department books a specialized load without consulting dispatch and equipment planners?",
+        "Which department audits driver qualification files, drug testing records, and accident reports for compliance?",
+        "Why must the freight claims and billing team inspect a signed delivery receipt before issuing a customer invoice?",
+        "What daily coordination links the terminal dock supervisor, the load planner, and the line-haul dispatcher?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A trucking company consists solely of vehicle drivers managed directly by one owner.",
+          "fact": "Trucking operations coordinate specialized departments including dispatch, safety, billing, maintenance, and freight sales."
+        },
+        {
+          "misconception": "A commercial trucking company employs only truck drivers and a few mechanics in a garage.",
+          "fact": "Motor carriers rely on coordinated departments for safety, dispatch, maintenance, sales, load planning, and freight billing."
+        },
+        {
+          "misconception": "Dispatchers simply hand keys to drivers without checking available driving hours or equipment inspection status.",
+          "fact": "Dispatchers match load schedules and freight requirements against each driver's remaining legal Hours of Service and truck readiness."
+        },
+        {
+          "misconception": "The safety director's job begins only after a truck is involved in a highway collision.",
+          "fact": "Safety departments run continuous driver training, license monitoring, Hours of Service audits, and preventive compliance checks."
+        },
+        {
+          "misconception": "Dockworkers load pallets into trailers in whatever order they arrive on the staging floor.",
+          "fact": "Dock personnel follow load plans to sequence deliveries in reverse stop order while balancing weight across trailer axles."
+        }
       ]
     },
     {
@@ -1744,9 +1844,7 @@
       },
       "common_misconception_pair": {
         "misconception": "One single government agency controls all commercial vehicle design, highway safety, and driver taxation.",
-        "fact": "Regulatory enforcement spans multiple agencies managing highway safety, infrastructure protection, and environmental compliance.",
-        "myth": "One single government agency controls all commercial vehicle design, highway safety, and driver taxation.",
-        "fact_correction": "Regulatory enforcement spans multiple agencies managing highway safety, infrastructure protection, and environmental compliance."
+        "fact": "Regulatory enforcement spans multiple agencies managing highway safety, infrastructure protection, and environmental compliance."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1783,38 +1881,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Federal Motor Carrier Safety Rules",
-        "right_header": "State Highway Enforcement and Licensing",
+        "left_header": "Req 6: Safety Through Proper Maintenance",
+        "right_header": "Req 6: Follow Federal Inspection Rules",
         "left_points": [
           "Safety Through Proper Maintenance: One of the keys to truck safety is proper maintenance (p. 22).",
           "Driver Pre-Trip and Post-Trip Checks: The driver plays a major role in this by inspecting the truck at the beginning and end of each run (p. 22).",
           "Mandatory Daily Safety Inspections: These daily inspections are required by government regulations and go a long way toward making sure the truck is safe when it hits the road (p. 22)."
         ],
         "right_points": [
-          "Step 1 - Follow Federal Inspection Rules: These daily inspections are required by government regulations and go a long way toward making sure the truck is safe when it hits the road (p. 22).",
-          "Step 2 - Maintain Fixed Service Schedules: In addition to the driver's daily checks, trucking companies have fixed schedules for maintaining their trucks (p. 22).",
-          "Step 3 - Review Highway Accident Statistics: The Department of Transportation estimates that more than 500,000 truck accidents occur every year (p. 22)."
+          "Follow Federal Inspection Rules: These daily inspections are required by government regulations and go a long way toward making sure the truck is safe when it hits the road (p. 22).",
+          "Maintain Fixed Service Schedules: In addition to the driver's daily checks, trucking companies have fixed schedules for maintaining their trucks (p. 22).",
+          "Review Highway Accident Statistics: The Department of Transportation estimates that more than 500,000 truck accidents occur every year (p. 22)."
         ],
         "rows": [
           {
-            "attribute": "Safety Through Proper Maintenance",
+            "attribute": "Federal Safety",
             "left": "Safety Through Proper Maintenance: One of the keys to truck safety is proper maintenance (p. 22).",
-            "right": "Step 1 - Follow Federal Inspection Rules: These daily inspections are required by government regulations and go a long way toward making sure the truck is safe when it hits the road (p. 22)."
+            "right": "Follow Federal Inspection Rules: These daily inspections are required by government regulations and go a long way toward making sure the truck is safe when it hits the road (p. 22)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Highway Administration",
             "left": "Driver Pre-Trip and Post-Trip Checks: The driver plays a major role in this by inspecting the truck at the beginning and end of each run (p. 22).",
-            "right": "Step 2 - Maintain Fixed Service Schedules: In addition to the driver's daily checks, trucking companies have fixed schedules for maintaining their trucks (p. 22)."
+            "right": "Maintain Fixed Service Schedules: In addition to the driver's daily checks, trucking companies have fixed schedules for maintaining their trucks (p. 22)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Environmental Standards",
             "left": "Mandatory Daily Safety Inspections: These daily inspections are required by government regulations and go a long way toward making sure the truck is safe when it hits the road (p. 22).",
-            "right": "Step 3 - Review Highway Accident Statistics: The Department of Transportation estimates that more than 500,000 truck accidents occur every year (p. 22)."
+            "right": "Review Highway Accident Statistics: The Department of Transportation estimates that more than 500,000 truck accidents occur every year (p. 22)."
           }
         ]
       },
       "worked_example": {
-        "title": "Truck Transportation Req 6 Exemplar Workbook Entry: Government Agencies Regulating Trucking",
+        "title": "Truck Transportation Req 6 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Safety Through Proper Maintenance": "One of the keys to truck safety is proper maintenance (p. 22).",
@@ -1857,7 +1955,33 @@
       "socratic_questions": [
         "How does the Federal Motor Carrier Safety Administration coordinate with state highway patrol troopers?",
         "Why do Department of Transportation weight standards enforce axle limits rather than just total weight?",
-        "In what ways does Environmental Protection Agency regulation shape heavy diesel engine technology?"
+        "In what ways does Environmental Protection Agency regulation shape heavy diesel engine technology?",
+        "Which federal agency within the Department of Transportation issues USDOT numbers and enforces Hours of Service?",
+        "Under what authority can a state weigh-station inspector place a commercial vehicle immediately out of service?",
+        "What role does the Environmental Protection Agency play in regulating heavy-duty truck exhaust and idling limits?",
+        "Why does the Pipeline and Hazardous Materials Safety Administration require diamond placards on hazmat trailers?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "One single government agency controls all commercial vehicle design, highway safety, and driver taxation.",
+          "fact": "Regulatory enforcement spans multiple agencies managing highway safety, infrastructure protection, and environmental compliance."
+        },
+        {
+          "misconception": "A regular state passenger car driver's license allows a person to operate any commercial tractor-trailer.",
+          "fact": "Drivers of heavy trucks must pass written and skills exams to earn a state-issued Commercial Driver's License with endorsements."
+        },
+        {
+          "misconception": "The Federal Motor Carrier Safety Administration builds interstate highways and repairs deteriorated bridges.",
+          "fact": "The Federal Highway Administration oversees highway infrastructure, while the FMCSA regulates commercial driver and carrier safety."
+        },
+        {
+          "misconception": "Hazardous materials diamond placards on a trailer are optional warning stickers chosen by the freight shipper.",
+          "fact": "Federal PHMSA regulations mandate specific hazard class placards and shipping papers so emergency responders know the exact risk."
+        },
+        {
+          "misconception": "Interstate trucks only have to obey federal rules and are exempt from state weight limits or port-of-entry checks.",
+          "fact": "State transportation departments and highway patrols enforce axle weight limits, permits, and roadside safety inspections daily."
+        }
       ]
     },
     {
@@ -1914,9 +2038,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Standard enclosed dry van semi-trailers transport all commercial agricultural and industrial products safely.",
-        "fact": "Truck configurations match specific payload densities, temperature requirements, and unloading dock environments.",
-        "myth": "Standard enclosed dry van semi-trailers transport all commercial agricultural and industrial products safely.",
-        "fact_correction": "Truck configurations match specific payload densities, temperature requirements, and unloading dock environments."
+        "fact": "Truck configurations match specific payload densities, temperature requirements, and unloading dock environments."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1953,38 +2075,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Single-Unit Straight Delivery Trucks",
-        "right_header": "Articulated Tractor-Trailer Freight Rigs",
+        "left_header": "Req 7: Cross-Country Freight Scenario",
+        "right_header": "Req 7: Obtain Parent Internet Permission",
         "left_points": [
           "Cross-Country Freight Scenario: Let's say you have 12 unassembled bicycles to ship from New Jersey to California (p. 12).",
           "Shipper Packaging Responsibilities: As the shipper, you are responsible for preparing the goods for shipment (p. 12).",
           "Online Research Safety Permission: Before you use the internet, always get your parent or guardian's permission (p. 12)."
         ],
         "right_points": [
-          "Step 1 - Obtain Parent Internet Permission: Before you use the internet, always get your parent or guardian's permission (p. 12).",
-          "Step 2 - Weigh the Palletized Shipment: Next, weigh the pallet of bicycles so you know the total weight of your shipment (p. 12).",
-          "Step 3 - Provide Freight Details to Carriers: You will need to give this information to the trucking company (p. 12)."
+          "Obtain Parent Internet Permission: Before you use the internet, always get your parent or guardian's permission (p. 12).",
+          "Weigh the Palletized Shipment: Next, weigh the pallet of bicycles so you know the total weight of your shipment (p. 12).",
+          "Provide Freight Details to Carriers: You will need to give this information to the trucking company (p. 12)."
         ],
         "rows": [
           {
-            "attribute": "Cross-Country Freight Scenario",
+            "attribute": "Refrigerated Transport",
             "left": "Cross-Country Freight Scenario: Let's say you have 12 unassembled bicycles to ship from New Jersey to California (p. 12).",
-            "right": "Step 1 - Obtain Parent Internet Permission: Before you use the internet, always get your parent or guardian's permission (p. 12)."
+            "right": "Obtain Parent Internet Permission: Before you use the internet, always get your parent or guardian's permission (p. 12)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Flatbed Service",
             "left": "Shipper Packaging Responsibilities: As the shipper, you are responsible for preparing the goods for shipment (p. 12).",
-            "right": "Step 2 - Weigh the Palletized Shipment: Next, weigh the pallet of bicycles so you know the total weight of your shipment (p. 12)."
+            "right": "Weigh the Palletized Shipment: Next, weigh the pallet of bicycles so you know the total weight of your shipment (p. 12)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Liquid Bulk",
             "left": "Online Research Safety Permission: Before you use the internet, always get your parent or guardian's permission (p. 12).",
-            "right": "Step 3 - Provide Freight Details to Carriers: You will need to give this information to the trucking company (p. 12)."
+            "right": "Provide Freight Details to Carriers: You will need to give this information to the trucking company (p. 12)."
           }
         ]
       },
       "worked_example": {
-        "title": "Truck Transportation Req 7 Exemplar Workbook Entry: Specialized Trucks and Their Services",
+        "title": "Truck Transportation Req 7 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Cross-Country Freight Scenario": "Let's say you have 12 unassembled bicycles to ship from New Jersey to California (p. 12).",
@@ -2027,7 +2149,33 @@
       "socratic_questions": [
         "Why do refrigerated semi-trailers require independent secondary diesel cooling units on highway routes?",
         "How does liquid cargo sloshing inside non-baffled tanker trailers impact vehicle roll stability?",
-        "Which structural design elements allow heavy vocational dump trucks to survive off-road quarries?"
+        "Which structural design elements allow heavy vocational dump trucks to survive off-road quarries?",
+        "Why do liquid tanker trailers use internal baffles or compartments instead of a single open cylinder?",
+        "What cargo characteristics require a shipper to book a flatbed or lowboy trailer instead of a 53-foot dry van?",
+        "Which temperature-monitoring equipment inside a refrigerated reefer trailer prevents frozen food spoilage?",
+        "Where does a straight box truck with a hydraulic liftgate outperform a full-size tractor-trailer in city delivery?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Standard enclosed dry van semi-trailers transport all commercial agricultural and industrial products safely.",
+          "fact": "Truck configurations match specific payload densities, temperature requirements, and unloading dock environments."
+        },
+        {
+          "misconception": "A refrigerated reefer trailer is only used to keep ice cream and frozen meat cold during summer heat.",
+          "fact": "Reefer trailers maintain precise temperatures year-round and also heat sensitive cargo like produce or paint in subfreezing weather."
+        },
+        {
+          "misconception": "Liquid tank trailers are simple hollow tubes that carry any liquid cargo without affecting how the truck stops.",
+          "fact": "Unbaffled liquid cargo surges forward and backward during braking and turns, which can push a tractor into an intersection."
+        },
+        {
+          "misconception": "Dry van trailers can safely haul oversized construction excavators as long as the rear doors are tied open.",
+          "fact": "Tall, heavy machinery requires a lowboy or drop-deck flatbed trailer to keep the center of gravity low and clear highway bridges."
+        },
+        {
+          "misconception": "Every commercial freight truck consists of a detachable tractor cab coupled to a separate semi-trailer.",
+          "fact": "Straight trucks mount the cab and cargo body on a single rigid frame, making them ideal for tight urban streets and local stops."
+        }
       ]
     },
     {
@@ -2081,9 +2229,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)",
           "common_misconception_pair": {
             "misconception": "Loose cardboard boxes placed directly on trailer floors survive regional freight handling safely.",
-            "fact": "Shrink wrapping and metal banding prevent freight shifting and cargo damage during terminal transfers.",
-            "myth": "Loose cardboard boxes placed directly on trailer floors survive regional freight handling safely.",
-            "fact_correction": "Shrink wrapping and metal banding prevent freight shifting and cargo damage during terminal transfers."
+            "fact": "Shrink wrapping and metal banding prevent freight shifting and cargo damage during terminal transfers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2158,9 +2304,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)",
           "common_misconception_pair": {
             "misconception": "All motor freight carriers charge identical tariffs for transporting identical cargo weights and distances.",
-            "fact": "Carrier rate tariffs reflect terminal network density, direct lane authority, and guaranteed transit times.",
-            "myth": "All motor freight carriers charge identical tariffs for transporting identical cargo weights and distances.",
-            "fact_correction": "Carrier rate tariffs reflect terminal network density, direct lane authority, and guaranteed transit times."
+            "fact": "Carrier rate tariffs reflect terminal network density, direct lane authority, and guaranteed transit times."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2226,9 +2370,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)",
           "common_misconception_pair": {
             "misconception": "Choosing the lowest quoted transportation price always provides the most effective shipping solution.",
-            "fact": "Selecting motor carriers involves balancing transit reliability records against base transportation freight costs.",
-            "myth": "Choosing the lowest quoted transportation price always provides the most effective shipping solution.",
-            "fact_correction": "Selecting motor carriers involves balancing transit reliability records against base transportation freight costs."
+            "fact": "Selecting motor carriers involves balancing transit reliability records against base transportation freight costs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2299,9 +2441,7 @@
           "pamphlet_page_citation": "Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)",
           "common_misconception_pair": {
             "misconception": "Carriers automatically reimburse full retail value for damaged cargo without declared value coverage.",
-            "fact": "Third-party transit insurance protects shippers beyond the limited liability caps of standard tariffs.",
-            "myth": "Carriers automatically reimburse full retail value for damaged cargo without declared value coverage.",
-            "fact_correction": "Third-party transit insurance protects shippers beyond the limited liability caps of standard tariffs."
+            "fact": "Third-party transit insurance protects shippers beyond the limited liability caps of standard tariffs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2408,9 +2548,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Commercial freight pricing depends solely on total shipment weight without regard to commodity density.",
-        "fact": "Freight classification, palletized packaging, carrier tariffs, and cargo insurance determine total shipment cost.",
-        "myth": "Commercial freight pricing depends solely on total shipment weight without regard to commodity density.",
-        "fact_correction": "Freight classification, palletized packaging, carrier tariffs, and cargo insurance determine total shipment cost."
+        "fact": "Freight classification, palletized packaging, carrier tariffs, and cargo insurance determine total shipment cost."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2459,24 +2597,24 @@
         ],
         "rows": [
           {
-            "attribute": "Preparing Freight for Shipment",
-            "left": "(8a) Preparing Freight for Shipment: This document tells the driver what is being picked up, where it is going, how much it weighs, and who is paying the freight charge, you (the shipper) (p. 35).",
-            "right": "(8c) Selecting the Best Freight Carrier: It is important to keep this document in case the shipment is lost or damaged (p. 35)."
+            "attribute": "Pallet Packaging",
+            "left": "(8a) Freight Cargo Preparation: Proper freight preparation involves stacking boxes squarely on standard wooden pallets without edge overhang. Heavy plastic stretch film and corner boards reinforce cargo stability during cross-dock forklift handling.",
+            "right": "(8c) Carrier Selection Criteria: Logistics managers evaluate carrier safety scores, on-time delivery percentages, and claims handling ratios. The optimal carrier satisfies the three-day delivery deadline while providing cost-effective transportation rates."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(8b) Comparing Carrier Rates and Transit: The driver will sign this bill of lading and give you a copy as a receipt (p. 35).",
-            "right": "(8d) Insuring Cargo Against Damage: When the carrier arrives to pick up your shipment, you must give the driver a bill of lading (p. 35)."
+            "attribute": "Tariff Comparison",
+            "left": "(8b) Carrier Rate Comparison: Shippers request price quotes and transit timetables from competing less-than-truckload commercial carriers. Evaluating carrier tariffs reveals differences in lane efficiency, direct-point coverage, and terminal transfer delays.",
+            "right": "(8d) Transit Cargo Insurance: Carrier bills of lading typically limit damage reimbursement to pennies per pound under published tariffs. Shippers purchase declared-value coverage or third-party cargo insurance policies to protect full inventory worth."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Signed Driver Pickup Receipt: The driver will sign this bill of lading and give you a copy as a receipt (p. 35).",
-            "right": "Step 3 - Verify Proof of Shipment: The bill of lading serves as your proof that the goods have been shipped (p. 35)."
+            "attribute": "Carrier Selection",
+            "left": "Req 8a: Freight Cargo Preparation: Proper freight preparation involves stacking boxes squarely on standard wooden pallets without edge overhang. Heavy plastic stretch film and corner boards reinforce cargo stability during cross-dock forklift handling.",
+            "right": "Req 8b: Carrier Rate Comparison: Shippers request price quotes and transit timetables from competing less-than-truckload commercial carriers. Evaluating carrier tariffs reveals differences in lane efficiency, direct-point coverage, and terminal transfer delays."
           }
         ]
       },
       "worked_example": {
-        "title": "Truck Transportation Req 8 Exemplar Workbook Entry: Planning and Insuring Freight Shipments",
+        "title": "Truck Transportation Req 8 Exemplar Workbook Entry",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
           "Req 8a - Freight Cargo Preparation": "Proper freight preparation involves stacking boxes squarely on standard wooden pallets without edge overhang. Heavy plastic stretch film and corner boards reinforce cargo stability during cross-dock forklift handling.",
@@ -2519,7 +2657,33 @@
       "socratic_questions": [
         "Why does freight classification factor in cargo stowability and handling alongside sheer physical density?",
         "What legal liability differences exist between standard carrier released value and declared freight insurance?",
-        "How do guaranteed transit schedules impact rate quotations when shipping time-sensitive freight shipments?"
+        "In what specific ways do guaranteed transit schedules impact rate quotations when shipping time-sensitive freight shipments?",
+        "What four freight characteristics determine why your 500-pound shipment is rated as NMFC freight class 65?",
+        "Why should a shipper band and stretch-wrap cartons onto a wooden pallet before a carrier arrives for pickup?",
+        "Under what condition does standard carrier released-value liability fail to cover the full value of damaged goods?",
+        "Which details on a Bill of Lading must match the pallet labels to prevent a 500-mile shipment from going astray?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Commercial freight pricing depends solely on total shipment weight without regard to commodity density.",
+          "fact": "Freight classification, palletized packaging, carrier tariffs, and cargo insurance determine total shipment cost."
+        },
+        {
+          "misconception": "Less-than-truckload shipping rates depend only on total weight and distance regardless of what the boxes contain.",
+          "fact": "Carriers price LTL freight using NMFC freight classes based on density, stowability, handling difficulty, and liability risk."
+        },
+        {
+          "misconception": "Loose cardboard boxes stacked on the floor of an LTL trailer travel just as safely as unitized pallet loads.",
+          "fact": "Securing cartons to a sturdy wooden pallet with corner boards and stretch wrap prevents crushing during forklift transfers."
+        },
+        {
+          "misconception": "A carrier's standard base tariff automatically reimburses the full retail price of any cargo damaged in transit.",
+          "fact": "Standard carrier liability often pays only a capped amount per pound unless the shipper declares excess value or buys insurance."
+        },
+        {
+          "misconception": "The cheapest LTL carrier quote is always the best choice for a time-critical three-day delivery commitment.",
+          "fact": "Shippers must weigh transit-time reliability, terminal transfers, claim ratios, and accessorial fees alongside the base freight rate."
+        }
       ]
     },
     {
@@ -2586,9 +2750,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Terms like bill of lading, tariff, and drayage represent interchangeable informal commercial slang.",
-        "fact": "Standardized shipping terminology establishes clear legal liabilities between shippers, carriers, consignees, and terminal operators.",
-        "myth": "Terms like bill of lading, tariff, and drayage represent interchangeable informal commercial slang.",
-        "fact_correction": "Standardized shipping terminology establishes clear legal liabilities between shippers, carriers, consignees, and terminal operators."
+        "fact": "Standardized shipping terminology establishes clear legal liabilities between shippers, carriers, consignees, and terminal operators."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2625,38 +2787,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Origin Shipper Sending Freight",
-        "right_header": "Destination Consignee Receiving Freight",
+        "left_header": "Req 9: Bill of Lading Definition",
+        "right_header": "Req 9: Define Consignee and Commerce",
         "left_points": [
           "Bill of Lading Definition: A shipping document that lists the goods in the shipment. carrier (p. 37).",
           "Port and Airport Drayage: The action of moving freight to and from an airport or seaport. commerce (p. 37).",
           "Commerce and Freight Movement: The movement of goods, funds, and information. consignee (p. 37)."
         ],
         "right_points": [
-          "Step 1 - Define Consignee and Commerce: The movement of goods, funds, and information. consignee (p. 37).",
-          "Step 2 - Identify Intermodal Steel Containers: A steel box, normally 20 to 40 feet long, used primarily in ocean freight transportation (p. 37).",
-          "Step 3 - Inspect Weather-Tight Cargo Storage: Freight is stored inside the container, which is weather tight (p. 37)."
+          "Define Consignee and Commerce: The movement of goods, funds, and information. consignee (p. 37).",
+          "Identify Intermodal Steel Containers: A steel box, normally 20 to 40 feet long, used primarily in ocean freight transportation (p. 37).",
+          "Inspect Weather-Tight Cargo Storage: Freight is stored inside the container, which is weather tight (p. 37)."
         ],
         "rows": [
           {
-            "attribute": "Bill of Lading Definition",
+            "attribute": "Bill of Lading",
             "left": "Bill of Lading Definition: A shipping document that lists the goods in the shipment. carrier (p. 37).",
-            "right": "Step 1 - Define Consignee and Commerce: The movement of goods, funds, and information. consignee (p. 37)."
+            "right": "Define Consignee and Commerce: The movement of goods, funds, and information. consignee (p. 37)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Intermodal Containers",
             "left": "Port and Airport Drayage: The action of moving freight to and from an airport or seaport. commerce (p. 37).",
-            "right": "Step 2 - Identify Intermodal Steel Containers: A steel box, normally 20 to 40 feet long, used primarily in ocean freight transportation (p. 37)."
+            "right": "Identify Intermodal Steel Containers: A steel box, normally 20 to 40 feet long, used primarily in ocean freight transportation (p. 37)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Drayage Operations",
             "left": "Commerce and Freight Movement: The movement of goods, funds, and information. consignee (p. 37).",
-            "right": "Step 3 - Inspect Weather-Tight Cargo Storage: Freight is stored inside the container, which is weather tight (p. 37)."
+            "right": "Inspect Weather-Tight Cargo Storage: Freight is stored inside the container, which is weather tight (p. 37)."
           }
         ]
       },
       "worked_example": {
-        "title": "Truck Transportation Req 9 Exemplar Workbook Entry: Essential Trucking and Freight Terminology",
+        "title": "Truck Transportation Req 9 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Bill of Lading Definition": "A shipping document that lists the goods in the shipment. carrier (p. 37).",
@@ -2699,7 +2861,33 @@
       "socratic_questions": [
         "Why does a bill of lading serve simultaneously as a cargo receipt, contract, and document of title?",
         "How does containerized drayage differ functionally from short-haul municipal commercial delivery cartage?",
-        "What legal disputes arise when an inaccurate estimated time of arrival causes assembly line delays?"
+        "What legal disputes arise when an inaccurate estimated time of arrival causes assembly line delays?",
+        "What happens to legal cargo liability when the carrier and consignee both sign the bill of lading at delivery?",
+        "Which operational boundary distinguishes a drayage haul between an intermodal rail yard and port from local cartage?",
+        "What logbook or electronic logging device record confirms a driver has enough hours of service left to meet an ETA?",
+        "Why is it dangerous to move an intermodal container onto a highway chassis before verifying all four corner twistlocks?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Terms like bill of lading, tariff, and drayage represent interchangeable informal commercial slang.",
+          "fact": "Standardized shipping terminology establishes clear legal liabilities between shippers, carriers, consignees, and terminal operators."
+        },
+        {
+          "misconception": "A bill of lading is simply a price invoice sent from the carrier to the shipper after freight arrives.",
+          "fact": "A bill of lading is a binding legal contract and receipt detailing the cargo type, quantity, shipper, carrier, and consignee."
+        },
+        {
+          "misconception": "The consignee is the trucking company hired to haul freight across state lines for the warehouse owner.",
+          "fact": "The carrier is the transportation company moving the goods, while the consignee is the final recipient taking delivery of the shipment."
+        },
+        {
+          "misconception": "Intermodal shipping requires workers to unload and repack loose cargo boxes every time freight switches from rail to truck.",
+          "fact": "Standardized intermodal containers transfer directly between ships, railcars, and truck chassis without unpacking the cargo inside."
+        },
+        {
+          "misconception": "A trucking tariff is strictly a foreign customs tax paid at international border crossings by the driver.",
+          "fact": "In freight transportation, a tariff is the published schedule of shipping rates, rules, and charges set by a carrier for moving goods."
+        }
       ]
     },
     {
@@ -2776,9 +2964,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Working in the trucking industry offers no professional advancement beyond basic entry-level positions.",
-        "fact": "Transportation careers extend beyond driving to encompass fleet safety managers, mechanics, and freight dispatchers.",
-        "myth": "Working in the trucking industry offers no professional advancement beyond basic entry-level positions.",
-        "fact_correction": "Transportation careers extend beyond driving to encompass fleet safety managers, mechanics, and freight dispatchers."
+        "fact": "Transportation careers extend beyond driving to encompass fleet safety managers, mechanics, and freight dispatchers."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2819,43 +3005,43 @@
         "Step 4 - Advancement Mapping: Chart realistic career advancement pathways from entry-level positions to executive fleet operational management."
       ],
       "gear_checklist": [
-        "Official Truck Transportation Merit Badge Pamphlet and Fillable Scout Workbook (Req 10: Truck Transportation Careers and Pathways)",
-        "Field notebook, verification log sheet, and demonstration materials for Truck Transportation Careers and Pathways",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Truck Transportation Merit: Truck Transportation Careers and Pathways.",
+        "Field notebook, verification log sheet, and demonstration materials for Truck Transportation Careers and Pathways.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Over-the-Road Commercial Truck Drivers",
-        "right_header": "Terminal Diesel Technicians and Dispatchers",
+        "left_header": "Req 10: Strong Industry Job Prospects",
+        "right_header": "Req 10: Examine Commercial Driver Demand",
         "left_points": [
           "Strong Industry Job Prospects: This means good career prospects for all positions within the industry, although most openings will be for drivers and diesel mechanics (p. 41).",
           "Diverse Trucking Career Paths: Here are some of the career opportunities in truck transportation (p. 41).",
           "Commercial Driving Workforce Share: About 44 percent of all people employed in truck transportation are drivers, making it the industry's single largest occupation (p. 41)."
         ],
         "right_points": [
-          "Step 1 - Examine Commercial Driver Demand: About 44 percent of all people employed in truck transportation are drivers, making it the industry's single largest occupation (p. 41).",
-          "Step 2 - Research CDL Training Requirements: Truck drivers not only pilot their trucks but also are responsible In order to get their commercial driver's license, truck drivers need to be trained, too (p. 41).",
-          "Step 3 - Consider Driving Instructor Careers: If you have a knack for teaching others, you might want to think about becoming acommercial driving instructor (p. 41)."
+          "Examine Commercial Driver Demand: About 44 percent of all people employed in truck transportation are drivers, making it the industry's single largest occupation (p. 41).",
+          "Research CDL Training Requirements: Truck drivers not only pilot their trucks but also are responsible In order to get their commercial driver's license, truck drivers need to be trained, too (p. 41).",
+          "Consider Driving Instructor Careers: If you have a knack for teaching others, you might want to think about becoming acommercial driving instructor (p. 41)."
         ],
         "rows": [
           {
-            "attribute": "Strong Industry Job Prospects",
+            "attribute": "Diesel Technology",
             "left": "Strong Industry Job Prospects: This means good career prospects for all positions within the industry, although most openings will be for drivers and diesel mechanics (p. 41).",
-            "right": "Step 1 - Examine Commercial Driver Demand: About 44 percent of all people employed in truck transportation are drivers, making it the industry's single largest occupation (p. 41)."
+            "right": "Examine Commercial Driver Demand: About 44 percent of all people employed in truck transportation are drivers, making it the industry's single largest occupation (p. 41)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Logistics Management",
             "left": "Diverse Trucking Career Paths: Here are some of the career opportunities in truck transportation (p. 41).",
-            "right": "Step 2 - Research CDL Training Requirements: Truck drivers not only pilot their trucks but also are responsible In order to get their commercial driver's license, truck drivers need to be trained, too (p. 41)."
+            "right": "Research CDL Training Requirements: Truck drivers not only pilot their trucks but also are responsible In order to get their commercial driver's license, truck drivers need to be trained, too (p. 41)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Safety Leadership",
             "left": "Commercial Driving Workforce Share: About 44 percent of all people employed in truck transportation are drivers, making it the industry's single largest occupation (p. 41).",
-            "right": "Step 3 - Consider Driving Instructor Careers: If you have a knack for teaching others, you might want to think about becoming acommercial driving instructor (p. 41)."
+            "right": "Consider Driving Instructor Careers: If you have a knack for teaching others, you might want to think about becoming acommercial driving instructor (p. 41)."
           }
         ]
       },
       "worked_example": {
-        "title": "Truck Transportation Req 10 Exemplar Workbook Entry: Careers in Truck Transportation",
+        "title": "Truck Transportation Req 10 Exemplar Workbook Entry",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
           "Strong Industry Job Prospects": "This means good career prospects for all positions within the industry, although most openings will be for drivers and diesel mechanics (p. 41).",
@@ -2898,7 +3084,33 @@
       "socratic_questions": [
         "How have digital supply chain systems altered the daily responsibilities of modern freight dispatchers?",
         "What educational certifications separate entry-level truck technicians from master certified diesel diagnostic specialists?",
-        "Why do motor carriers invest heavily in executive leadership development and safety management pathways?"
+        "Why do motor carriers invest heavily in executive leadership development and safety management pathways?",
+        "What Youth Protection step is required before you contact a fleet manager or commercial driver for a career interview?",
+        "Under what condition does a commercial driver need a Class A license with a HazMat endorsement instead of a Class B license?",
+        "What specific cost and salary metrics should you record when comparing community college CDL training to company tuition programs?",
+        "Which physical qualification and safety inspection duties must a commercial driver or diesel technician pass to stay certified?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Working in the trucking industry offers no professional advancement beyond basic entry-level positions.",
+          "fact": "Transportation careers extend beyond driving to encompass fleet safety managers, mechanics, and freight dispatchers."
+        },
+        {
+          "misconception": "Eighteen year old drivers with a standard state license can immediately haul interstate commercial freight across state lines.",
+          "fact": "Federal regulations require interstate commercial truck drivers to be at least twenty one years old and hold a valid CDL."
+        },
+        {
+          "misconception": "Career pathways in the truck transportation industry are limited exclusively to long haul tractor trailer driving positions.",
+          "fact": "Trucking careers include diesel mechanics, freight dispatchers, logistics planners, safety compliance officers, and fleet managers."
+        },
+        {
+          "misconception": "A new driver can earn a Commercial Driver License simply by passing a written multiple choice test at the local DMV office.",
+          "fact": "Federal Entry Level Driver Training mandates registered classroom instruction and behind the wheel range and road proficiency testing."
+        },
+        {
+          "misconception": "Company sponsored CDL training programs always cover full tuition costs with no employment contract or repayment obligation.",
+          "fact": "Carrier sponsored CDL schools typically require newly licensed drivers to work for that fleet for a set period to pay off tuition."
+        }
       ]
     }
   ],

@@ -72,9 +72,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think shivering means hypothermia has already reached its final and most dangerous stage.",
-        "fact": "Shivering ceases during severe hypothermia when core body temperature drops below ninety degrees Fahrenheit, signaling a medical emergency.",
-        "myth": "Scouts often think shivering means hypothermia has already reached its final and most dangerous stage.",
-        "fact_correction": "Shivering ceases during severe hypothermia when core body temperature drops below ninety degrees Fahrenheit, signaling a medical emergency."
+        "fact": "Shivering ceases during severe hypothermia when core body temperature drops below ninety degrees Fahrenheit, signaling a medical emergency."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -111,38 +109,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Pit Viper Circulatory System Venom",
-        "right_header": "Coral Snake Nervous System Venom",
+        "left_header": "Req 1: North American Venomous Snakes",
+        "right_header": "Req 1: Identify Coral Snake Markings",
         "left_points": [
           "North American Venomous Snakes: There are two types of venomous snakes in the United States (p. 22).",
           "Pit Viper Head Anatomy: Pit vipers (rattlesnakes, copperheads, and cottonmouths) have triangular heads with pit marks on both sides of the head (p. 22).",
           "Coral Snake Color Bands: Coral snakes have black snouts and bands of red and yellow separated by bands of black (p. 22)."
         ],
         "right_points": [
-          "Step 1 - Identify Coral Snake Markings: Coral snakes have black snouts and bands of red and yellow separated by bands of black (p. 22).",
-          "Step 2 - Distinguish Venom Body Effects: Coral snakes inject powerful venom that works on the victim's nervous system; pit-viper venom affects the circulatory system (p. 22).",
-          "Step 3 - Carry a Hiking Stick: A hiking stick does double duty when you walk through places where snakes might lurk (p. 22)."
+          "Identify Coral Snake Markings: Coral snakes have black snouts and bands of red and yellow separated by bands of black (p. 22).",
+          "Distinguish Venom Body Effects: Coral snakes inject powerful venom that works on the victim's nervous system; pit-viper venom affects the circulatory system (p. 22).",
+          "Carry a Hiking Stick: A hiking stick does double duty when you walk through places where snakes might lurk (p. 22)."
         ],
         "rows": [
           {
-            "attribute": "North American Venomous Snakes",
+            "attribute": "Core Temperature Defense",
             "left": "North American Venomous Snakes: There are two types of venomous snakes in the United States (p. 22).",
-            "right": "Step 1 - Identify Coral Snake Markings: Coral snakes have black snouts and bands of red and yellow separated by bands of black (p. 22)."
+            "right": "Identify Coral Snake Markings: Coral snakes have black snouts and bands of red and yellow separated by bands of black (p. 22)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Heat Cramp Resolution",
             "left": "Pit Viper Head Anatomy: Pit vipers (rattlesnakes, copperheads, and cottonmouths) have triangular heads with pit marks on both sides of the head (p. 22).",
-            "right": "Step 2 - Distinguish Venom Body Effects: Coral snakes inject powerful venom that works on the victim's nervous system; pit-viper venom affects the circulatory system (p. 22)."
+            "right": "Distinguish Venom Body Effects: Coral snakes inject powerful venom that works on the victim's nervous system; pit-viper venom affects the circulatory system (p. 22)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Rapid Blister Prevention",
             "left": "Coral Snake Color Bands: Coral snakes have black snouts and bands of red and yellow separated by bands of black (p. 22).",
-            "right": "Step 3 - Carry a Hiking Stick: A hiking stick does double duty when you walk through places where snakes might lurk (p. 22)."
+            "right": "Carry a Hiking Stick: A hiking stick does double duty when you walk through places where snakes might lurk (p. 22)."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 1 Exemplar Workbook Entry: Trail Health Concerns and First Aid",
+        "title": "Backpacking Req 1 Exemplar Workbook Entry: Trail Health",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "North American Venomous Snakes": "There are two types of venomous snakes in the United States (p. 22).",
@@ -185,7 +183,33 @@
       "socratic_questions": [
         "Why does cotton clothing drastically increase the risk of hypothermia in mild rainy weather?",
         "How can a patrol identify heat exhaustion before a Scout collapses from heatstroke?",
-        "What physical indicators differentiate a simple trail hot spot from an unstageable blister?"
+        "What physical indicators differentiate a simple trail hot spot from an unstageable blister?",
+        "Where should fine-tipped tweezers grasp an embedded tick to prevent squeezing infectious fluids into the skin?",
+        "Which neurological and skin indicators distinguish life-threatening heatstroke from moderate heat exhaustion?",
+        "What urine color and output frequency confirm that a hiker has corrected early-stage backcountry dehydration?",
+        "Why is it dangerous to ignore a minor foot hot spot until reaching the evening campsite instead of stopping immediately?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think shivering means hypothermia has already reached its final and most dangerous stage.",
+          "fact": "Shivering ceases during severe hypothermia when core body temperature drops below ninety degrees Fahrenheit, signaling a medical emergency."
+        },
+        {
+          "misconception": "Rubbing frostbitten fingers or toes vigorously with snow restores circulation without damaging the frozen tissue.",
+          "fact": "Friction from rubbing or snow crystals ruptures frozen cells; rewarm frostbite gently in 99 to 102 degree Fahrenheit water."
+        },
+        {
+          "misconception": "Cutting a pit viper bite and sucking out the venom prevents the toxin from spreading through the bloodstream.",
+          "fact": "Incising or sucking a snakebite damages blood vessels and nerves while introducing bacteria; keep the limb still and evacuate."
+        },
+        {
+          "misconception": "Smothering an attached tick with petroleum jelly or a hot match forces it to back out safely on its own.",
+          "fact": "Suffocating or burning a tick causes it to regurgitate pathogen-laden saliva into the wound before detaching."
+        },
+        {
+          "misconception": "Popping every intact friction blister on the trail with a pocketknife speeds up skin healing inside hiking boots.",
+          "fact": "Intact skin forms a sterile barrier against dirt and bacteria; cover small blisters with moleskin or adhesive bandage padding."
+        }
       ]
     },
     {
@@ -231,9 +255,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56)",
           "common_misconception_pair": {
             "misconception": "Beginners assume the ten essentials are optional recommendations reserved exclusively for multi-week wilderness expeditions.",
-            "fact": "Each essential serves a specific survival function, such as preventing hypothermia or signaling rescuers during unexpected wilderness delays.",
-            "myth": "Beginners assume the ten essentials are optional recommendations reserved exclusively for multi-week wilderness expeditions.",
-            "fact_correction": "Each essential serves a specific survival function, such as preventing hypothermia or signaling rescuers during unexpected wilderness delays."
+            "fact": "Each essential serves a specific survival function, such as preventing hypothermia or signaling rescuers during unexpected wilderness delays."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -304,9 +326,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56)",
           "common_misconception_pair": {
             "misconception": "Hikers assume cutting toothbrush handles and discarding first aid tape are the primary methods for reducing pack bulk.",
-            "fact": "Repackaging bulky bulk food items and sharing tent bodies significantly reduces carried base weight without compromising comfort.",
-            "myth": "Hikers assume cutting toothbrush handles and discarding first aid tape are the primary methods for reducing pack bulk.",
-            "fact_correction": "Repackaging bulky bulk food items and sharing tent bodies significantly reduces carried base weight without compromising comfort."
+            "fact": "Repackaging bulky bulk food items and sharing tent bodies significantly reduces carried base weight without compromising comfort."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -393,9 +413,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe cutting safety gear and first aid supplies is acceptable to lighten pack weight.",
-        "fact": "Trimming excess packaging, sharing group shelters, and measuring precise food rations reduces pack weight safely.",
-        "myth": "Scouts often believe cutting safety gear and first aid supplies is acceptable to lighten pack weight.",
-        "fact_correction": "Trimming excess packaging, sharing group shelters, and measuring precise food rations reduces pack weight safely."
+        "fact": "Trimming excess packaging, sharing group shelters, and measuring precise food rations reduces pack weight safely."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -431,10 +449,10 @@
         "Step 4 - Volume Compression: Pack sleeping bags into compression sacks and repackage bulky bulk commercial food."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
         "left_header": "Req 2a: Ten Scout Basic Essentials",
@@ -447,24 +465,24 @@
         ],
         "rows": [
           {
-            "attribute": "Ten Scout Basic Essentials",
-            "left": "(2a) Ten Scout Basic Essentials: Do a shakedown before every trip to \"shake out\" everything you won't need (p. 53).",
-            "right": "(2b) Reducing Pack Weight and Bulk: How much your pack weighs depends on the length of the adventure you have planned, the amount of food and equipment you must carry, and your personal (p. 53)."
+            "attribute": "Essential Navigation Trio",
+            "left": "(2a) Ten Scout Basic Essentials: Carrying the ten basic essentials guarantees each backpacker possesses immediate survival resources for sudden weather shifts or navigation errors. Individual preparedness prevents routine route delays from deteriorating into acute wilderness survival crises.",
+            "right": "(2b) Pack Weight Reduction Methods: Trimming unnecessary pack weight focuses on selecting dual-purpose equipment, eliminating heavy commercial containers, and distributing heavy group gear across patrol members. Efficient packing preserves physical stamina and reduces musculoskeletal stress on long mountain ascents."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Twenty Five Percent Rule: For comfort on the trail, a pack containing everything you need for a safe trek should tip the scale at no more than 25 percent of your body's weight (p. 53).",
-            "right": "Step 2 - Conduct a Gear Shakedown: Do a shakedown before every trip to \"shake out\" everything you won't need (p. 53)."
+            "attribute": "Insulation Safety Margin",
+            "left": "Req 2a: Ten Scout Basic Essentials: Carrying the ten basic essentials guarantees each backpacker possesses immediate survival resources for sudden weather shifts or navigation errors. Individual preparedness prevents routine route delays from deteriorating into acute wilderness survival crises.",
+            "right": "Req 2b: Pack Weight Reduction: Trimming unnecessary pack weight focuses on selecting dual-purpose equipment, eliminating heavy commercial containers, and distributing heavy group gear across patrol members. Efficient packing preserves physical stamina and reduces musculoskeletal stress on long mountain ascents."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Safe Weight Reduction Strategies: If your pack weighs more, here are some tips for lightening your pack without compromising your health or safety (p. 53).",
-            "right": "Step 3 - Divide Shared Crew Equipment: Divide group gear so that each person carries a fair share (p. 53)."
+            "attribute": "Bulk Reduction Tactics",
+            "left": "Essential Navigation Trio: Topographic maps, liquid filled compasses, and redundant fire starters safeguard remote wilderness travelers.",
+            "right": "Insulation Safety Margin: Extra clothing layers must provide warmth even when soaked by continuous mountain storms."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 2 Exemplar Workbook Entry: Scout Basic Essentials and Pack Weight",
+        "title": "Backpacking Req 2 Exemplar Workbook Entry: Scout Basic",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 2a - Ten Scout Basic Essentials": "Carrying the ten basic essentials guarantees each backpacker possesses immediate survival resources for sudden weather shifts or navigation errors. Individual preparedness prevents routine route delays from deteriorating into acute wilderness survival crises.",
@@ -505,7 +523,33 @@
       "socratic_questions": [
         "Which essential gear items provide life support if your patrol gets stranded overnight?",
         "Where does the boundary lie between lightweight backpacking and dangerous gear omission?",
-        "How does eliminating dead space inside a backpack improve hiker balance on steep terrain?"
+        "How does eliminating dead space inside a backpack improve hiker balance on steep terrain?",
+        "What steps during a pre-trek pack shakedown eliminate duplicate cooking and shelter items across a patrol?",
+        "What happens to the insulating value of cotton clothing compared to wool or synthetics once soaked by rain or sweat?",
+        "What maximum percentage of a Scout's body weight should a fully loaded backpack weigh on a multi-day trek?",
+        "Why is it dangerous to store your headlamp and rain shell at the bottom of your pack instead of an accessible pocket?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often believe cutting safety gear and first aid supplies is acceptable to lighten pack weight.",
+          "fact": "Trimming excess packaging, sharing group shelters, and measuring precise food rations reduces pack weight safely."
+        },
+        {
+          "misconception": "Leaving the topographic map and compass behind saves weight safely whenever a Scout carries a charged smartphone GPS.",
+          "fact": "Cold temperatures and impacts rapidly drain or break electronics, making a physical map and compass mandatory on every trek."
+        },
+        {
+          "misconception": "Cutting emergency first-aid supplies and rain gear in half is the safest way to drop base pack weight below twenty pounds.",
+          "fact": "Weight reduction must target heavy cookware, extra clothing, and food packaging rather than life-saving safety essentials."
+        },
+        {
+          "misconception": "Carrying full retail bottles of soap, sunscreen, and fuel is required to keep supplies organized for a weekend hike.",
+          "fact": "Repackaging liquids and food into smaller labeled containers cuts substantial weight and trash bulk without reducing safety."
+        },
+        {
+          "misconception": "Every Scout on a patrol trek must carry a personal stove, pot, and tent to remain self-sufficient in the backcountry.",
+          "fact": "Sharing crew gear like tents, stoves, water filters, and cookware across tent partners cuts per-hiker weight significantly."
+        }
       ]
     },
     {
@@ -555,9 +599,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Scouts assume larger groups traveling together always provide greater safety regardless of campsite overcrowding or trail damage.",
-            "fact": "Crews numbering between six and twelve people preserve patrol self-sufficiency while complying with federal wilderness area regulations.",
-            "myth": "Scouts assume larger groups traveling together always provide greater safety regardless of campsite overcrowding or trail damage.",
-            "fact_correction": "Crews numbering between six and twelve people preserve patrol self-sufficiency while complying with federal wilderness area regulations."
+            "fact": "Crews numbering between six and twelve people preserve patrol self-sufficiency while complying with federal wilderness area regulations."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -633,9 +675,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Beginners think the crew leader must personally pitch every tent, cook every meal, and navigate every trail intersection.",
-            "fact": "Rotating functional responsibilities across all crew members builds individual self-reliance and prevents single points of camp failure.",
-            "myth": "Beginners think the crew leader must personally pitch every tent, cook every meal, and navigate every trail intersection.",
-            "fact_correction": "Rotating functional responsibilities across all crew members builds individual self-reliance and prevents single points of camp failure."
+            "fact": "Rotating functional responsibilities across all crew members builds individual self-reliance and prevents single points of camp failure."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -701,9 +741,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Hikers assume risk management starts only after someone suffers an injury or gets trapped on high terrain.",
-            "fact": "Proactive trail risk management identifies environmental hazards early to avoid forced crossings of swollen mountain torrents.",
-            "myth": "Hikers assume risk management starts only after someone suffers an injury or gets trapped on high terrain.",
-            "fact_correction": "Proactive trail risk management identifies environmental hazards early to avoid forced crossings of swollen mountain torrents."
+            "fact": "Proactive trail risk management identifies environmental hazards early to avoid forced crossings of swollen mountain torrents."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -775,9 +813,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
             "misconception": "Scouts think an emergency response plan consists merely of keeping a mobile telephone in a pack pocket.",
-            "fact": "A comprehensive emergency response plan details exact primary and secondary evacuation corridors and satellite communicator contact numbers.",
-            "myth": "Scouts think an emergency response plan consists merely of keeping a mobile telephone in a pack pocket.",
-            "fact_correction": "A comprehensive emergency response plan details exact primary and secondary evacuation corridors and satellite communicator contact numbers."
+            "fact": "A comprehensive emergency response plan details exact primary and secondary evacuation corridors and satellite communicator contact numbers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -880,9 +916,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume wilderness emergencies can be resolved entirely through improvisation without advance written plans.",
-        "fact": "A written emergency response plan provides designated evacuation corridors, local emergency numbers, and prearranged rendezvous checkpoints.",
-        "myth": "Scouts assume wilderness emergencies can be resolved entirely through improvisation without advance written plans.",
-        "fact_correction": "A written emergency response plan provides designated evacuation corridors, local emergency numbers, and prearranged rendezvous checkpoints."
+        "fact": "A written emergency response plan provides designated evacuation corridors, local emergency numbers, and prearranged rendezvous checkpoints."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -918,14 +952,14 @@
         "Step 4 - Emergency Protocol Drafting: Print primary evacuation paths, satellite communicator protocols, and emergency medical contacts for leaders."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
         "left_header": "Req 3a: Trek Crew Size Limits",
-        "right_header": "Req 3c: Trek Risk Minimization Strategies",
+        "right_header": "Req 3c: Trek Risk Minimization",
         "left_points": [
           "(3a) Trek Crew Size Limits: Land management agencies establish group size limits to prevent trail erosion and protect fragile alpine campsites from overcrowding. Four backpackers represent the absolute safety minimum needed to attend an injured person while sending two for help.",
           "(3b) Patrol Crew Organization Structure: Organizing a trek crew involves distributing operational roles including navigator, chaplain aide, gear manager, and wilderness first aid coordinator. Clear role division creates efficient camp setups and fosters accountability throughout demanding backcountry travel."
@@ -936,30 +970,30 @@
         ],
         "rows": [
           {
-            "attribute": "Trek Crew Size Limits",
-            "left": "(3a) Trek Crew Size Limits: Developing an emergency response plan in advance gives you and your crew important information to use if you encounter backcountry difficulties (p. 17).",
-            "right": "(3c) Backcountry Risk Minimization Strategies: If you are delayed, notify your contacts so that they don't initiate an emergency response (p. 17)."
+            "attribute": "Optimal Crew Sizing",
+            "left": "(3a) Trek Crew Size Limits: Land management agencies establish group size limits to prevent trail erosion and protect fragile alpine campsites from overcrowding. Four backpackers represent the absolute safety minimum needed to attend an injured person while sending two for help.",
+            "right": "(3c) Trek Risk Minimization Strategies: Risk minimization relies on continuous environmental awareness, enforcing trail safety rules, and monitoring crew fatigue levels on difficult terrain. Preemptive rests, proper gear staging, and turn-around thresholds protect the patrol from cascading wilderness accidents."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(3b) Patrol Method Crew Organization: Along with copies of your trip plan, provide copies of your emergency response plan to people in the frontcountry who can assist your group should you need (p. 17).",
-            "right": "(3d) Emergency Response Plan Purpose: Upon your return, let them know you are back so they won't report you missing (p. 17)."
+            "attribute": "Leadership Delegation Strategy",
+            "left": "(3b) Patrol Crew Organization Structure: Organizing a trek crew involves distributing operational roles including navigator, chaplain aide, gear manager, and wilderness first aid coordinator. Clear role division creates efficient camp setups and fosters accountability throughout demanding backcountry travel.",
+            "right": "(3d) Emergency Response Plan Architecture: An emergency response plan outlines precise communication protocols, ranger station coordinates, and designated bail-out trailheads for sudden crises. Having written contingency instructions ensures coherent decision making when acute illness or severe weather forces an immediate retreat."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Communicating Trail Schedule Delays: If you are delayed, notify your contacts so that they don't initiate an emergency response (p. 17).",
-            "right": "Step 3 - Organize Using Patrol Method: The patrol method is an effective way to organize a trek (p. 17)."
+            "attribute": "Trail Hazard Identification",
+            "left": "Req 3a: Trek Crew Size Limits: Land management agencies establish group size limits to prevent trail erosion and protect fragile alpine campsites from overcrowding. Four backpackers represent the absolute safety minimum needed to attend an injured person while sending two for help.",
+            "right": "Req 3b: Patrol Crew Organization: Organizing a trek crew involves distributing operational roles including navigator, chaplain aide, gear manager, and wilderness first aid coordinator. Clear role division creates efficient camp setups and fosters accountability throughout demanding backcountry travel."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 3 Exemplar Workbook Entry: Crew Organization and Emergency Response Plans",
+        "title": "Backpacking Req 3 Exemplar Workbook Entry: Crew",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 3a - Trek Crew Size Limits": "Land management agencies establish group size limits to prevent trail erosion and protect fragile alpine campsites from overcrowding. Four backpackers represent the absolute safety minimum needed to attend an injured person while sending two for help.",
-          "Req 3b - Patrol Crew Organization Structur": "Organizing a trek crew involves distributing operational roles including navigator, chaplain aide, gear manager, and wilderness first aid coordinator. Clear role division creates efficient camp setups and fosters accountability throughout demanding backcountry travel.",
-          "Req 3c - Trek Risk Minimization Strategies": "Risk minimization relies on continuous environmental awareness, enforcing trail safety rules, and monitoring crew fatigue levels on difficult terrain. Preemptive rests, proper gear staging, and turn-around thresholds protect the patrol from cascading wilderness accidents.",
-          "Req 3d - Emergency Response Plan Architect": "An emergency response plan outlines precise communication protocols, ranger station coordinates, and designated bail-out trailheads for sudden crises. Having written contingency instructions ensures coherent decision making when acute illness or severe weather forces an immediate retreat."
+          "Req 3b - Patrol Crew Organization": "Organizing a trek crew involves distributing operational roles including navigator, chaplain aide, gear manager, and wilderness first aid coordinator. Clear role division creates efficient camp setups and fosters accountability throughout demanding backcountry travel.",
+          "Req 3c - Trek Risk Minimization": "Risk minimization relies on continuous environmental awareness, enforcing trail safety rules, and monitoring crew fatigue levels on difficult terrain. Preemptive rests, proper gear staging, and turn-around thresholds protect the patrol from cascading wilderness accidents.",
+          "Req 3d - Emergency Response Plan": "An emergency response plan outlines precise communication protocols, ranger station coordinates, and designated bail-out trailheads for sudden crises. Having written contingency instructions ensures coherent decision making when acute illness or severe weather forces an immediate retreat."
         },
         "sample_output": "Crew Organization and Emergency Response Plans: Developing an emergency response plan in advance gives you and your crew important information to use if you encounter backcountry difficulties (p. 17).",
         "counselor_tip": "For Backpacking Requirement 3 (Crew Organization and Emergency Response Plans), verify the Scout's own observations and specific pamphlet details (Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19))."
@@ -996,7 +1030,33 @@
       "socratic_questions": [
         "Why does a crew smaller than four backpackers present significant risks during a medical evacuation?",
         "How does dividing camp duties among specific patrol roles prevent exhaustion and safety lapses?",
-        "What specific information must an emergency response plan communicate to outside search personnel?"
+        "What specific information must an emergency response plan communicate to outside search personnel?",
+        "Where should a trek leader position the pace-setter and sweep hikers to keep a crew together at trail junctions?",
+        "Which backcountry risks come from environmental terrain hazards versus human decision errors within the trek crew?",
+        "What specific route details, bailout coordinates, and return deadlines must be logged in a written trip plan left at home?",
+        "Under what condition does an oversized trek crew violate wilderness land-manager permits and slow emergency evacuation?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts assume wilderness emergencies can be resolved entirely through improvisation without advance written plans.",
+          "fact": "A written emergency response plan provides designated evacuation corridors, local emergency numbers, and prearranged rendezvous checkpoints."
+        },
+        {
+          "misconception": "Placing the fastest hikers at the front to set the pace helps a slower crew reach the evening campsite earlier.",
+          "fact": "Fast leaders exhaust slower hikers and split the group; pacing to the slowest member keeps the crew cohesive and safe."
+        },
+        {
+          "misconception": "Solo hiking or splitting into groups larger than twelve is acceptable whenever trails are well marked and popular.",
+          "fact": "Backcountry crews need at least four members for emergency assistance and rarely exceed twelve to limit campsite damage."
+        },
+        {
+          "misconception": "Cell phone coverage in national parks removes the need to file a written itinerary and emergency plan with a contact.",
+          "fact": "Mountain terrain blocks cell signals, so a written trip plan with bailout routes and overdue times guides search teams."
+        },
+        {
+          "misconception": "Only adult advisors need to know the evacuation routes, medical kits, and emergency response roles during a trek.",
+          "fact": "Every youth member must know the emergency response plan in case an adult advisor becomes the injured or ill party."
+        }
       ]
     },
     {
@@ -1042,9 +1102,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)",
           "common_misconception_pair": {
             "misconception": "Hikers believe stepping off trail edges into vegetation is courteous behavior when passing muddy tread sections.",
-            "fact": "Traveling single file down the center of muddy trails stops vegetative trampling and prevents irreversible trail braiding.",
-            "myth": "Hikers believe stepping off trail edges into vegetation is courteous behavior when passing muddy tread sections.",
-            "fact_correction": "Traveling single file down the center of muddy trails stops vegetative trampling and prevents irreversible trail braiding."
+            "fact": "Traveling single file down the center of muddy trails stops vegetative trampling and prevents irreversible trail braiding."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1117,9 +1175,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)",
           "common_misconception_pair": {
             "misconception": "Campers think burying human waste underneath riverbank stones is sanitary because moving water cleanses pathogens quickly.",
-            "fact": "Catholes must be dug six to eight inches deep in organic soil two hundred feet from all water sources.",
-            "myth": "Campers think burying human waste underneath riverbank stones is sanitary because moving water cleanses pathogens quickly.",
-            "fact_correction": "Catholes must be dug six to eight inches deep in organic soil two hundred feet from all water sources."
+            "fact": "Catholes must be dug six to eight inches deep in organic soil two hundred feet from all water sources."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1190,9 +1246,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)",
           "common_misconception_pair": {
             "misconception": "Scouts assume soft grassy clearings right next to rivers represent ideal backcountry tent sites.",
-            "fact": "Selecting campsites on durable mineral soil, sand, or pine duff prevents long-term destruction of delicate meadow flora.",
-            "myth": "Scouts assume soft grassy clearings right next to rivers represent ideal backcountry tent sites.",
-            "fact_correction": "Selecting campsites on durable mineral soil, sand, or pine duff prevents long-term destruction of delicate meadow flora."
+            "fact": "Selecting campsites on durable mineral soil, sand, or pine duff prevents long-term destruction of delicate meadow flora."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1285,9 +1339,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Campers assume biodegradable soap is completely harmless when suds are rinsed directly into alpine lakes.",
-        "fact": "Washing dishes or bathing must occur at least two hundred feet from natural water sources to protect aquatic ecosystems.",
-        "myth": "Campers assume biodegradable soap is completely harmless when suds are rinsed directly into alpine lakes.",
-        "fact_correction": "Washing dishes or bathing must occur at least two hundred feet from natural water sources to protect aquatic ecosystems."
+        "fact": "Washing dishes or bathing must occur at least two hundred feet from natural water sources to protect aquatic ecosystems."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1323,10 +1375,10 @@
         "Step 4 - Morning Pack Inspection: Police the campsite in a line sweep to pack out every tiny microtrash scrap."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
         "left_header": "Req 4a: Leave No Trace Principles",
@@ -1339,28 +1391,28 @@
         ],
         "rows": [
           {
-            "attribute": "Leave No Trace Principles",
-            "left": "(4a) Leave No Trace Principles: If you carry a mobile telephone for emergency communication, turn it off and stow it in your pack until you need (p. 61).",
-            "right": "(4b) Backcountry Waste Disposal Methods: Appreciate the company of those you meet on the trail and at campsites near yours, but respect their desire for quiet and solitude (p. 61)."
+            "attribute": "Durable Travel Surfaces",
+            "left": "(4a) Leave No Trace Principles: The Leave No Trace Seven Principles provide an ethical framework for conserving fragile ecosystems while traveling and camping in wilderness areas. Practical application includes respecting wildlife, minimizing campfire impacts, and leaving natural artifacts completely undisturbed for others.",
+            "right": "(4b) Backcountry Waste And Sanitation: Proper waste disposal protects backcountry water sheds from harmful enteric pathogens like Giardia lamblia and Cryptosporidium. Maintaining personal hygiene through hand washing prevents common fecal-oral illness outbreaks that incapacitate backcountry hiking patrols."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Stowing Emergency Mobile Phones: If you carry a mobile telephone for emergency communication, turn it off and stow it in your pack until you need (p. 61).",
-            "right": "(4c) Low-Impact Campsite Selection Factors: If you encounter horseback riders or pack animals, stop and ask the lead rider (p. 61)."
+            "attribute": "Cathole Sanitation Standards",
+            "left": "Req 4a: Leave No Trace Principles: The Leave No Trace Seven Principles provide an ethical framework for conserving fragile ecosystems while traveling and camping in wilderness areas. Practical application includes respecting wildlife, minimizing campfire impacts, and leaving natural artifacts completely undisturbed for others.",
+            "right": "Req 4b: Backcountry Waste: Proper waste disposal protects backcountry water sheds from harmful enteric pathogens like Giardia lamblia and Cryptosporidium. Maintaining personal hygiene through hand washing prevents common fecal-oral illness outbreaks that incapacitate backcountry hiking patrols."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Respecting Quiet and Solitude: Appreciate the company of those you meet on the trail and at campsites near yours, but respect their desire for quiet and solitude (p. 61).",
-            "right": "Step 3 - Step Downhill For Horses: The lead rider will probably ask you to step a fewpaces downhill from the trail and stand quietly while the animals pass (p. 61)."
+            "attribute": "Camp Selection Protocols",
+            "left": "Req 4c: Low Impact Campsite: Choosing a proper campsite balances environmental durability with natural hazard avoidance, including flash flooding and falling dead timber. Campers must evaluate wind exposure, insect breeding zones, drainage contours, and proximity to bear attractants before pitching tents.",
+            "right": "Cathole Sanitation Standards: Dig catholes six to eight inches deep into organic soil well away from lakes."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 4 Exemplar Workbook Entry: Leave No Trace and Waste Disposal",
+        "title": "Backpacking Req 4 Exemplar Workbook Entry: Leave No",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 4a - Leave No Trace Principles": "The Leave No Trace Seven Principles provide an ethical framework for conserving fragile ecosystems while traveling and camping in wilderness areas. Practical application includes respecting wildlife, minimizing campfire impacts, and leaving natural artifacts completely undisturbed for others.",
-          "Req 4b - Backcountry Waste And Sanitation": "Proper waste disposal protects backcountry water sheds from harmful enteric pathogens like Giardia lamblia and Cryptosporidium. Maintaining personal hygiene through hand washing prevents common fecal-oral illness outbreaks that incapacitate backcountry hiking patrols.",
+          "Req 4b - Backcountry Waste": "Proper waste disposal protects backcountry water sheds from harmful enteric pathogens like Giardia lamblia and Cryptosporidium. Maintaining personal hygiene through hand washing prevents common fecal-oral illness outbreaks that incapacitate backcountry hiking patrols.",
           "Req 4c - Low Impact Campsite Selection": "Choosing a proper campsite balances environmental durability with natural hazard avoidance, including flash flooding and falling dead timber. Campers must evaluate wind exposure, insect breeding zones, drainage contours, and proximity to bear attractants before pitching tents."
         },
         "sample_output": "Leave No Trace and Waste Disposal: If you carry a mobile telephone for emergency communication, turn it off and stow it in your pack until you need (p. 61).",
@@ -1398,7 +1450,33 @@
       "socratic_questions": [
         "Why does walking around trail puddles cause irreversible erosion on steep backcountry switchbacks?",
         "How does the bear triangle layout protect sleeping backpackers from nocturnal wildlife encounters?",
-        "What criteria determine whether an established campsite is safer than an untouched clearing?"
+        "What criteria determine whether an established campsite is safer than an untouched clearing?",
+        "What straining and dispersal procedure handles dishwashing greywater without attracting wildlife to the sleeping area?",
+        "Which ground surfaces qualify as durable travel zones when a crew must hike off-trail in alpine or desert terrain?",
+        "What exact soil depth and distance from water sources, trails, and campsites define a compliant backcountry cathole?",
+        "Under what environmental conditions must a crew carry commercial waste-disposal bags instead of digging catholes?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Campers assume biodegradable soap is completely harmless when suds are rinsed directly into alpine lakes.",
+          "fact": "Washing dishes or bathing must occur at least two hundred feet from natural water sources to protect aquatic ecosystems."
+        },
+        {
+          "misconception": "Biodegradable camp soap breaks down harmlessly when used directly inside alpine lakes, rivers, or mountain streams.",
+          "fact": "Even biodegradable soap requires soil microbes to decompose; wash dishes 200 feet from any water source and scatter wastewater."
+        },
+        {
+          "misconception": "Burying leftover food scraps and apple cores in a cathole feeds soil microbes without disturbing local wildlife.",
+          "fact": "Animals dig up buried food scraps and habituate to human scent; pack out all uneaten food and organic trash in sealed bags."
+        },
+        {
+          "misconception": "Digging a cathole two feet deep in sandy mineral soil speeds up the decomposition of solid human waste.",
+          "fact": "Beneficial bacteria live in the top 6 to 8 inches of organic topsoil, where heat and moisture break down waste fastest."
+        },
+        {
+          "misconception": "Cutting switchbacks on steep mountain trails creates a harmless shortcut that saves time and energy for the crew.",
+          "fact": "Shortcut paths strip away stabilizing plants and channel runoff into deep gullies that cause severe trail erosion."
+        }
       ]
     },
     {
@@ -1444,9 +1522,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 26, p. 84)",
           "common_misconception_pair": {
             "misconception": "Scouts assume chemical chlorine tablets instantly neutralize all aquatic pathogens upon mixing into cloudy stream water.",
-            "fact": "Purification tablets require up to four hours of exposure time to destroy tough Cryptosporidium oocysts in cold water.",
-            "myth": "Scouts assume chemical chlorine tablets instantly neutralize all aquatic pathogens upon mixing into cloudy stream water.",
-            "fact_correction": "Purification tablets require up to four hours of exposure time to destroy tough Cryptosporidium oocysts in cold water."
+            "fact": "Purification tablets require up to four hours of exposure time to destroy tough Cryptosporidium oocysts in cold water."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1518,9 +1594,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 26, p. 84)",
           "common_misconception_pair": {
             "misconception": "Beginners believe feeling thirsty is the earliest and most reliable physiological warning of backcountry dehydration.",
-            "fact": "Breathing dry mountain air increases respiratory water loss significantly before sweat becomes visibly noticeable on skin.",
-            "myth": "Beginners believe feeling thirsty is the earliest and most reliable physiological warning of backcountry dehydration.",
-            "fact_correction": "Breathing dry mountain air increases respiratory water loss significantly before sweat becomes visibly noticeable on skin."
+            "fact": "Breathing dry mountain air increases respiratory water loss significantly before sweat becomes visibly noticeable on skin."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1607,9 +1681,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Hikers assume crystal clear mountain runoff flowing over granite rocks is completely safe for unboiled consumption.",
-        "fact": "Boiling water for one full minute kills bacteria, viruses, and parasites regardless of water source turbidity.",
-        "myth": "Hikers assume crystal clear mountain runoff flowing over granite rocks is completely safe for unboiled consumption.",
-        "fact_correction": "Boiling water for one full minute kills bacteria, viruses, and parasites regardless of water source turbidity."
+        "fact": "Boiling water for one full minute kills bacteria, viruses, and parasites regardless of water source turbidity."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1645,14 +1717,14 @@
         "Step 4 - Hydration Monitoring: Drink small portions of treated water every thirty minutes while monitoring urine color daily."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Water Treatment Methodology Verifi",
-        "right_header": "Req 5b: Backcountry Hydration Management P",
+        "left_header": "Req 5a: Water Treatment Methodology",
+        "right_header": "Req 5b: Backcountry Hydration Management",
         "left_points": [
           "(5a) Water Treatment Methodology Verification: Backcountry water treatment methods include thermal boiling, mechanical ceramic or hollow-fiber filtration, and chemical halogen treatments. Applying effective treatment protocols eliminates dangerous waterborne parasites that cause severe dehydration and gastrointestinal illness on trails."
         ],
@@ -1661,28 +1733,28 @@
         ],
         "rows": [
           {
-            "attribute": "Backcountry Water Treatment Methods",
-            "left": "(5a) Backcountry Water Treatment Methods: If astorm catches you, find a cave or a low spot among the rocks (p. 26).",
-            "right": "(5b) Importance of Trail Hydration: Avoid prominent outcroppings, overhangs, and flood zones. If you cannot find shelter, become the smallest target (p. 26)."
+            "attribute": "Vigorous Rolling Boil",
+            "left": "(5a) Water Treatment Methodology Verification: Backcountry water treatment methods include thermal boiling, mechanical ceramic or hollow-fiber filtration, and chemical halogen treatments. Applying effective treatment protocols eliminates dangerous waterborne parasites that cause severe dehydration and gastrointestinal illness on trails.",
+            "right": "(5b) Backcountry Hydration Management Protocol: Proper hydration supports cardiovascular efficiency, thermoregulation, and muscular performance while carrying heavy loads across uneven terrain. Maintaining fluid and electrolyte balance prevents heat illnesses, debilitating muscle cramps, and cognitive fatigue during high altitude travel."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Avoiding Conductive Metal Gear: Metal conducts electricity, so avoid metal poles (p. 26).",
-            "right": "Step 2 - Crouch Into Smallest Target: Avoid prominent outcroppings, overhangs, and flood zones. If you cannot find shelter, become the smallest target (p. 26)."
+            "attribute": "Hollow Fiber Filtration",
+            "left": "Req 5a: Water Treatment Methodology: Backcountry water treatment methods include thermal boiling, mechanical ceramic or hollow-fiber filtration, and chemical halogen treatments. Applying effective treatment protocols eliminates dangerous waterborne parasites that cause severe dehydration and gastrointestinal illness on trails.",
+            "right": "Req 5b: Backcountry Hydration: Proper hydration supports cardiovascular efficiency, thermoregulation, and muscular performance while carrying heavy loads across uneven terrain. Maintaining fluid and electrolyte balance prevents heat illnesses, debilitating muscle cramps, and cognitive fatigue during high altitude travel."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Seeking Low Ground Shelter: If astorm catches you, find a cave or a low spot among the rocks (p. 26).",
-            "right": "Step 3 - Avoid Lying Flat Outdoors: Do not lie flat on the ground, because lying flat makes you a bigger target than crouching (p. 26)."
+            "attribute": "Hydration Balance Metrics",
+            "left": "Vigorous Rolling Boil: Maintain a rolling boil for sixty seconds, extending to three minutes above high elevations.",
+            "right": "Hollow Fiber Filtration: Microfiltration removes protozoan cysts and bacteria but requires chemical treatment to neutralize viruses."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 5 Exemplar Workbook Entry: Backcountry Water Treatment and Hydration",
+        "title": "Backpacking Req 5 Exemplar Workbook Entry: Backcountry",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Water Treatment Methodology Verif": "Backcountry water treatment methods include thermal boiling, mechanical ceramic or hollow-fiber filtration, and chemical halogen treatments. Applying effective treatment protocols eliminates dangerous waterborne parasites that cause severe dehydration and gastrointestinal illness on trails.",
-          "Req 5b - Backcountry Hydration Management": "Proper hydration supports cardiovascular efficiency, thermoregulation, and muscular performance while carrying heavy loads across uneven terrain. Maintaining fluid and electrolyte balance prevents heat illnesses, debilitating muscle cramps, and cognitive fatigue during high altitude travel."
+          "Req 5a - Water Treatment Methodology": "Backcountry water treatment methods include thermal boiling, mechanical ceramic or hollow-fiber filtration, and chemical halogen treatments. Applying effective treatment protocols eliminates dangerous waterborne parasites that cause severe dehydration and gastrointestinal illness on trails.",
+          "Req 5b - Backcountry Hydration": "Proper hydration supports cardiovascular efficiency, thermoregulation, and muscular performance while carrying heavy loads across uneven terrain. Maintaining fluid and electrolyte balance prevents heat illnesses, debilitating muscle cramps, and cognitive fatigue during high altitude travel."
         },
         "sample_output": "Backcountry Water Treatment and Hydration: If astorm catches you, find a cave or a low spot among the rocks (p. 26).",
         "counselor_tip": "For Backpacking Requirement 5 (Backcountry Water Treatment and Hydration), verify the Scout's own observations and specific pamphlet details (Official Scouting America Backpacking Merit Badge Pamphlet (p. 26, p. 84))."
@@ -1719,7 +1791,33 @@
       "socratic_questions": [
         "Why do mechanical filters with zero-point-two micron pores fail to eliminate waterborne viral pathogens?",
         "How does chronic mild dehydration reduce a backpacker's physical endurance and decision making capacity?",
-        "What physiological hazards arise when an exhausted hiker drinks large amounts of water without salt?"
+        "What physiological hazards arise when an exhausted hiker drinks large amounts of water without salt?",
+        "What step must a hiker take before treating cloudy glacial or silty river water with UV light or chemical tablets?",
+        "Which waterborne pathogens pass through standard 0.2-micron microfilters or resist chlorine treatment in cold water?",
+        "What rolling-boil duration or chemical contact time guarantees safe drinking water at high elevation in cold streams?",
+        "Why is it dangerous to leave a wet hollow-fiber water filter outside your sleeping bag on a freezing night?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Hikers assume crystal clear mountain runoff flowing over granite rocks is completely safe for unboiled consumption.",
+          "fact": "Boiling water for one full minute kills bacteria, viruses, and parasites regardless of water source turbidity."
+        },
+        {
+          "misconception": "Clear, fast-moving alpine stream water above timberline is pure enough to drink without boiling, filtering, or chemicals.",
+          "fact": "Wilderness streams often carry Giardia cysts and Cryptosporidium oocysts from upstream wildlife feces regardless of clarity."
+        },
+        {
+          "misconception": "Standard iodine or chlorine tablets kill Cryptosporidium cysts within thirty minutes in icy mountain water.",
+          "fact": "Cryptosporidium has a tough outer shell that resists iodine and chlorine; remove it with a 1-micron filter, chlorine dioxide, or boiling."
+        },
+        {
+          "misconception": "Waiting until you feel thirsty on a cold or windy hike prevents dehydration without carrying extra water weight.",
+          "fact": "Thirst lags behind fluid loss, especially in cold dry air where respiration and sweat deplete body water before you notice."
+        },
+        {
+          "misconception": "Hollow-fiber membrane filters continue working safely after freezing solid inside an exterior pack pocket overnight.",
+          "fact": "Ice expansion cracks microscopic hollow fibers internally, allowing untreated pathogens to pass through undetected."
+        }
       ]
     },
     {
@@ -1765,9 +1863,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75)",
           "common_misconception_pair": {
             "misconception": "Beginners assume contour lines on topographic maps represent man-made walking trails or logging access roads.",
-            "fact": "Index contours are heavier brown lines that display elevation numbers along their paths at regular intervals.",
-            "myth": "Beginners assume contour lines on topographic maps represent man-made walking trails or logging access roads.",
-            "fact_correction": "Index contours are heavier brown lines that display elevation numbers along their paths at regular intervals."
+            "fact": "Index contours are heavier brown lines that display elevation numbers along their paths at regular intervals."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1838,9 +1934,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75)",
           "common_misconception_pair": {
             "misconception": "Scouts think a handheld GPS receiver guarantees navigation accuracy without cross-checking batteries or physical paper maps.",
-            "fact": "Triangulating your position requires measuring compass bearings to three separate landmarks that produce an intersecting resection triangle.",
-            "myth": "Scouts think a handheld GPS receiver guarantees navigation accuracy without cross-checking batteries or physical paper maps.",
-            "fact_correction": "Triangulating your position requires measuring compass bearings to three separate landmarks that produce an intersecting resection triangle."
+            "fact": "Triangulating your position requires measuring compass bearings to three separate landmarks that produce an intersecting resection triangle."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1912,9 +2006,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75)",
           "common_misconception_pair": {
             "misconception": "Hikers assume running downhill along creek beds is always the fastest way back to human civilization.",
-            "fact": "Hugging a tree and remaining stationary preserves search clues and prevents walking deeper into dangerous terrain.",
-            "myth": "Hikers assume running downhill along creek beds is always the fastest way back to human civilization.",
-            "fact_correction": "Hugging a tree and remaining stationary preserves search clues and prevents walking deeper into dangerous terrain."
+            "fact": "Hugging a tree and remaining stationary preserves search clues and prevents walking deeper into dangerous terrain."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2007,9 +2099,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe the red magnetic needle of a compass points directly toward true geographic north everywhere.",
-        "fact": "Contour line spacing indicates terrain steepness, with closely spaced lines representing steep cliffs and wide lines gentle slopes.",
-        "myth": "Scouts often believe the red magnetic needle of a compass points directly toward true geographic north everywhere.",
-        "fact_correction": "Contour line spacing indicates terrain steepness, with closely spaced lines representing steep cliffs and wide lines gentle slopes."
+        "fact": "Contour line spacing indicates terrain steepness, with closely spaced lines representing steep cliffs and wide lines gentle slopes."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2045,14 +2135,14 @@
         "Step 4 - Lost Protocol Action: Sit down, blow signaling whistles in bursts of three, and prepare emergency shelter."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Topographic Map Interpretation Ski",
-        "right_header": "Req 6b: Field Position Triangulation Metho",
+        "left_header": "Req 6a: Topographic Map Interpretation",
+        "right_header": "Req 6b: Field Position Triangulation",
         "left_points": [
           "(6a) Topographic Map Interpretation Skills: Reading topographic maps involves analyzing elevation contours, measuring horizontal scale distances, and identifying standard symbols for vegetation and hydrology. Mastery of map reading allows navigators to visualize three-dimensional terrain profiles from flat printed sheets."
         ],
@@ -2061,29 +2151,29 @@
         ],
         "rows": [
           {
-            "attribute": "Reading Topographic Contour Maps",
-            "left": "(6a) Reading Topographic Contour Maps: You must carry atopographic map where you can easily refer to it, that is, in your shirt or pants pocket rather than in your pack (p. 74).",
-            "right": "(6b) Establishing Position in Field: Maps, compasses, and GPS receivers will be of little help if you don't remember to use them (p. 74)."
+            "attribute": "Contour Line Interpretation",
+            "left": "(6a) Topographic Map Interpretation Skills: Reading topographic maps involves analyzing elevation contours, measuring horizontal scale distances, and identifying standard symbols for vegetation and hydrology. Mastery of map reading allows navigators to visualize three-dimensional terrain profiles from flat printed sheets.",
+            "right": "(6b) Field Position Triangulation Methods: Field position fixing involves sighting visible landmarks with a compass to calculate resection bearings on a topographic map. Electronic satellite receivers provide rapid coordinates but require cross-referencing against printed charts to confirm terrain navigability and battery reserves."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Thumbnail Navigation Secret: One of the secrets of safe backcountry hiking is the use of thumbnail navigation (p. 74).",
-            "right": "(6c) Staying Found and Lost Protocol: One of the secrets of safe backcountry hiking is the use of thumbnail navigation (p. 74)."
+            "attribute": "Magnetic Declination Adjustment",
+            "left": "Req 6a: Topographic Map: Reading topographic maps involves analyzing elevation contours, measuring horizontal scale distances, and identifying standard symbols for vegetation and hydrology. Mastery of map reading allows navigators to visualize three-dimensional terrain profiles from flat printed sheets.",
+            "right": "Req 6b: Field Position Triangulation: Field position fixing involves sighting visible landmarks with a compass to calculate resection bearings on a topographic map. Electronic satellite receivers provide rapid coordinates but require cross-referencing against printed charts to confirm terrain navigability and battery reserves."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Constant Position Awareness: This technique calls for your constant awareness of your position (p. 74).",
-            "right": "Step 3 - Match Terrain With Map: As you hike, you should continuously try to matchup features around you with points on your map (p. 74)."
+            "attribute": "Triangulation Fix Method",
+            "left": "Req 6c: Wilderness Lost Protocol: Staying found relies on continuous map tracking, noting terrain features, and recognizing navigational uncertainty before disorientation occurs. When lost, executing the STOP protocol prevents panic, stabilizes physical safety, and simplifies rescue efforts by professional search teams.",
+            "right": "Magnetic Declination Adjustment: Adjust compass declination dials to align magnetic bearings with true geographic grid north."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 6 Exemplar Workbook Entry: Topographic Map and Compass Navigation",
+        "title": "Backpacking Req 6 Exemplar Workbook Entry: Topographic",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a - Topographic Map Interpretation Sk": "Reading topographic maps involves analyzing elevation contours, measuring horizontal scale distances, and identifying standard symbols for vegetation and hydrology. Mastery of map reading allows navigators to visualize three-dimensional terrain profiles from flat printed sheets.",
-          "Req 6b - Field Position Triangulation Meth": "Field position fixing involves sighting visible landmarks with a compass to calculate resection bearings on a topographic map. Electronic satellite receivers provide rapid coordinates but require cross-referencing against printed charts to confirm terrain navigability and battery reserves.",
-          "Req 6c - Wilderness Lost Protocol Executio": "Staying found relies on continuous map tracking, noting terrain features, and recognizing navigational uncertainty before disorientation occurs. When lost, executing the STOP protocol prevents panic, stabilizes physical safety, and simplifies rescue efforts by professional search teams."
+          "Req 6a - Topographic Map": "Reading topographic maps involves analyzing elevation contours, measuring horizontal scale distances, and identifying standard symbols for vegetation and hydrology. Mastery of map reading allows navigators to visualize three-dimensional terrain profiles from flat printed sheets.",
+          "Req 6b - Field Position Triangulation": "Field position fixing involves sighting visible landmarks with a compass to calculate resection bearings on a topographic map. Electronic satellite receivers provide rapid coordinates but require cross-referencing against printed charts to confirm terrain navigability and battery reserves.",
+          "Req 6c - Wilderness Lost Protocol": "Staying found relies on continuous map tracking, noting terrain features, and recognizing navigational uncertainty before disorientation occurs. When lost, executing the STOP protocol prevents panic, stabilizes physical safety, and simplifies rescue efforts by professional search teams."
         },
         "sample_output": "Topographic Map and Compass Navigation: You must carry atopographic map where you can easily refer to it, that is, in your shirt or pants pocket rather than in your pack (p. 74).",
         "counselor_tip": "For Backpacking Requirement 6 (Topographic Map and Compass Navigation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75))."
@@ -2120,7 +2210,33 @@
       "socratic_questions": [
         "How does local magnetic declination alter your compass bearing across a five-mile mountain traverse?",
         "What visible terrain features on a topographic map provide definitive clues for dead reckoning navigation?",
-        "Why is staying in place far safer than continuing to walk when disoriented in wilderness?"
+        "Why is staying in place far safer than continuing to walk when disoriented in wilderness?",
+        "What sequence of bearings on distant landmarks plots your exact position on a topographic map through triangulation?",
+        "Which direction do contour-line V shapes point when crossing a stream drainage versus projecting down a ridge spur?",
+        "What angular error occurs after one mile of travel if a navigator forgets to adjust for a 15-degree magnetic declination?",
+        "Why is it dangerous to take a compass bearing while standing next to a metal belt buckle, trekking pole, or GPS unit?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often believe the red magnetic needle of a compass points directly toward true geographic north everywhere.",
+          "fact": "Contour line spacing indicates terrain steepness, with closely spaced lines representing steep cliffs and wide lines gentle slopes."
+        },
+        {
+          "misconception": "A magnetic compass needle always points toward true geographic north as printed on the margins of a USGS quadrangle.",
+          "fact": "Compass needles align with local magnetic field lines, requiring declination adjustment to match true north map grid lines."
+        },
+        {
+          "misconception": "Closely spaced brown contour lines on a topographic map indicate a flat meadow suitable for pitching patrol tents.",
+          "fact": "Tightly packed contour lines represent steep elevation gain or cliffs, whereas wide spacing shows gentle, campable terrain."
+        },
+        {
+          "misconception": "Contour V-shapes that point downhill always mark a creek bed or drainage gully where a crew can find water.",
+          "fact": "Contour V-shapes pointing toward higher elevation mark stream drainages, while V-shapes pointing downhill indicate ridges."
+        },
+        {
+          "misconception": "Reading a latitude and longitude coordinate from a GPS screen tells you where you are without matching map datum settings.",
+          "fact": "Mismatched datums such as NAD27 and WGS84 shift plotted positions by hundreds of meters on a printed topographic map."
+        }
       ]
     },
     {
@@ -2175,9 +2291,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts believe severe hypothermia requires freezing sub-zero temperatures and heavy snowfall to endanger backpackers.",
-        "fact": "Hypothermia happens frequently in fifty-degree weather when wind evaporates cold rain from wet cotton clothing.",
-        "myth": "Scouts believe severe hypothermia requires freezing sub-zero temperatures and heavy snowfall to endanger backpackers.",
-        "fact_correction": "Hypothermia happens frequently in fifty-degree weather when wind evaporates cold rain from wet cotton clothing."
+        "fact": "Hypothermia happens frequently in fifty-degree weather when wind evaporates cold rain from wet cotton clothing."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2213,44 +2327,44 @@
         "Step 4 - Lightning Position Defense: Spread crew members thirty feet apart crouching on foam pads in low forests."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Moisture-Wicking Base and Insulating Layers",
-        "right_header": "Breathable Waterproof Outer Shell Protection",
+        "left_header": "Req 7: Preparing for Trail Injuries",
+        "right_header": "Req 7: Treat Minor Wounds Promptly",
         "left_points": [
           "Preparing for Trail Injuries: Getting injured while out on the trail is one of the biggest risks for which you need to be prepared (p. 16).",
           "Common Minor Trail Ailments: Fortunately, many trail injuries, scrapes, bruises, blisters, and sunburn, usually are not very troublesome (p. 16).",
           "Essential First Aid Supplies: Soap, water, bandages, and other items in your first-aid kit will take care of the majority of medical problems you may encounter (p. 16)."
         ],
         "right_points": [
-          "Step 1 - Treat Minor Wounds Promptly: Soap, water, bandages, and other items in your first-aid kit will take care of the majority of medical problems you may encounter (p. 16).",
-          "Step 2 - Factor In Remote Distance: However, the danger of a more serious injury is magnified by your distance from emergency response (p. 16).",
-          "Step 3 - Rely on Crew Resources: Miles up a trail, you must rely on your own resources and those of your companions (p. 16)."
+          "Treat Minor Wounds Promptly: Soap, water, bandages, and other items in your first-aid kit will take care of the majority of medical problems you may encounter (p. 16).",
+          "Factor In Remote Distance: However, the danger of a more serious injury is magnified by your distance from emergency response (p. 16).",
+          "Rely on Crew Resources: Miles up a trail, you must rely on your own resources and those of your companions (p. 16)."
         ],
         "rows": [
           {
-            "attribute": "Preparing for Trail Injuries",
+            "attribute": "Preemptive Rain Shells",
             "left": "Preparing for Trail Injuries: Getting injured while out on the trail is one of the biggest risks for which you need to be prepared (p. 16).",
-            "right": "Step 1 - Treat Minor Wounds Promptly: Soap, water, bandages, and other items in your first-aid kit will take care of the majority of medical problems you may encounter (p. 16)."
+            "right": "Treat Minor Wounds Promptly: Soap, water, bandages, and other items in your first-aid kit will take care of the majority of medical problems you may encounter (p. 16)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Lightning Safety Posture",
             "left": "Common Minor Trail Ailments: Fortunately, many trail injuries, scrapes, bruises, blisters, and sunburn, usually are not very troublesome (p. 16).",
-            "right": "Step 2 - Factor In Remote Distance: However, the danger of a more serious injury is magnified by your distance from emergency response (p. 16)."
+            "right": "Factor In Remote Distance: However, the danger of a more serious injury is magnified by your distance from emergency response (p. 16)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Wind Chill Mitigation",
             "left": "Essential First Aid Supplies: Soap, water, bandages, and other items in your first-aid kit will take care of the majority of medical problems you may encounter (p. 16).",
-            "right": "Step 3 - Rely on Crew Resources: Miles up a trail, you must rely on your own resources and those of your companions (p. 16)."
+            "right": "Rely on Crew Resources: Miles up a trail, you must rely on your own resources and those of your companions (p. 16)."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 7 Exemplar Workbook Entry: Preparing for Inclement Backcountry Weather",
+        "title": "Backpacking Req 7 Exemplar Workbook Entry: Preparing",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Preparing for Trail Injuries": "Getting injured while out on the trail is one of the biggest risks for which you need to be prepared (p. 16).",
@@ -2293,7 +2407,33 @@
       "socratic_questions": [
         "How does wind chill accelerate heat loss from damp clothing even during mild spring afternoons?",
         "Why should a backpacking crew avoid sheltering beneath tall, isolated trees during sudden electrical storms?",
-        "What packing techniques guarantee your sleeping bag stays dry if your pack falls into water?"
+        "What packing techniques guarantee your sleeping bag stays dry if your pack falls into water?",
+        "Where should crew members position themselves and how far apart must they spread when caught near an exposed ridge in a storm?",
+        "Which cloud formations and barometric shifts warn a crew of an approaching cold front several hours before rain begins?",
+        "What flash-to-bang second count confirms that lightning is within five miles and requires immediate descent from high ground?",
+        "Why is it dangerous to pitch tents in a dry canyon wash or beneath tall solitary trees when storms threaten?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts believe severe hypothermia requires freezing sub-zero temperatures and heavy snowfall to endanger backpackers.",
+          "fact": "Hypothermia happens frequently in fifty-degree weather when wind evaporates cold rain from wet cotton clothing."
+        },
+        {
+          "misconception": "Pitching a tent directly under the tallest isolated pine tree protects a crew from lightning and heavy wind gusts.",
+          "fact": "Tall solitary trees attract lightning strikes and drop heavy widowmaker branches during high winds; camp in lower uniform trees."
+        },
+        {
+          "misconception": "Sweating inside a sealed waterproof rain jacket keeps a hiker warmer during a cold mountain rainstorm.",
+          "fact": "Trapped sweat soaks base layers from the inside out and accelerates conductive heat loss as soon as the hiker stops moving."
+        },
+        {
+          "misconception": "Dry desert slot canyons and sandy washes make safe storm shelters when no rain is falling directly overhead.",
+          "fact": "Thunderstorms miles upstream can send sudden walls of flash-flood water down dry canyons with little local warning."
+        },
+        {
+          "misconception": "Lying flat on the ground is the safest body posture when caught in the open during an active lightning storm.",
+          "fact": "Lying flat maximizes ground-current flow through the heart; crouch low on an insulating foam pad with heels touching."
+        }
       ]
     },
     {
@@ -2339,9 +2479,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)",
           "common_misconception_pair": {
             "misconception": "Hikers assume all backpacking stoves produce identical heat energy regardless of ambient temperatures or altitudes.",
-            "fact": "Liquid white gas burns reliably below zero degrees Fahrenheit, whereas inverted canisters struggle in subfreezing alpine weather.",
-            "myth": "Hikers assume all backpacking stoves produce identical heat energy regardless of ambient temperatures or altitudes.",
-            "fact_correction": "Liquid white gas burns reliably below zero degrees Fahrenheit, whereas inverted canisters struggle in subfreezing alpine weather."
+            "fact": "Liquid white gas burns reliably below zero degrees Fahrenheit, whereas inverted canisters struggle in subfreezing alpine weather."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2413,9 +2551,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)",
           "common_misconception_pair": {
             "misconception": "Campers think filling a white gas fuel bottle to the very rim maximizes stove run time.",
-            "fact": "Filling liquid fuel tanks requires leaving an air space to permit proper hand pumping pressure.",
-            "myth": "Campers think filling a white gas fuel bottle to the very rim maximizes stove run time.",
-            "fact_correction": "Filling liquid fuel tanks requires leaving an air space to permit proper hand pumping pressure."
+            "fact": "Filling liquid fuel tanks requires leaving an air space to permit proper hand pumping pressure."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2481,9 +2617,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)",
           "common_misconception_pair": {
             "misconception": "Scouts think cooking raw meats and complex multi-pot recipes on the trail is simple and efficient.",
-            "fact": "Carbohydrate-dense dehydrated meals require less cooking fuel and provide rapid glycogen replacement during strenuous trail ascents.",
-            "myth": "Scouts think cooking raw meats and complex multi-pot recipes on the trail is simple and efficient.",
-            "fact_correction": "Carbohydrate-dense dehydrated meals require less cooking fuel and provide rapid glycogen replacement during strenuous trail ascents."
+            "fact": "Carbohydrate-dense dehydrated meals require less cooking fuel and provide rapid glycogen replacement during strenuous trail ascents."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2555,9 +2689,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)",
           "common_misconception_pair": {
             "misconception": "Beginners believe keeping food bags inside backpacks inside tent vestibules protects rations from nocturnal rodents.",
-            "fact": "Hanging a bear bag requires suspending food ten feet high and four feet out from branches.",
-            "myth": "Beginners believe keeping food bags inside backpacks inside tent vestibules protects rations from nocturnal rodents.",
-            "fact_correction": "Hanging a bear bag requires suspending food ten feet high and four feet out from branches."
+            "fact": "Hanging a bear bag requires suspending food ten feet high and four feet out from branches."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2648,9 +2780,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume pressurized fuel canisters function at full heat output regardless of subfreezing temperatures.",
-        "fact": "Canister stoves lose fuel pressure rapidly in freezing weather because liquid isobutane cannot vaporize adequately.",
-        "myth": "Scouts assume pressurized fuel canisters function at full heat output regardless of subfreezing temperatures.",
-        "fact_correction": "Canister stoves lose fuel pressure rapidly in freezing weather because liquid isobutane cannot vaporize adequately."
+        "fact": "Canister stoves lose fuel pressure rapidly in freezing weather because liquid isobutane cannot vaporize adequately."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2686,14 +2816,14 @@
         "Step 4 - Sanitary Cookware Cleaning: Scrape food scraps into trash bags and wash pots in three separate basins."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Backpacking Stove Fuel Comparison",
-        "right_header": "Req 8c: Backcountry Meal Cooking Execution",
+        "left_header": "Req 8a: Backpacking Stove Fuel",
+        "right_header": "Req 8c: Backcountry Meal Cooking",
         "left_points": [
           "(8a) Backpacking Stove Fuel Comparison: Backpacking stoves utilize canister gas, liquid white gas, or denatured alcohol, each offering unique trade-offs in simmer control, fuel weight, and cold-weather output. Evaluating fuel availability, boil times, and container recycling helps crews select optimal cooking systems for planned routes.",
           "(8b) Stove Operation And Safety: Operating backpacking stoves safely demands stable stove placement on level mineral ground and meticulous inspection of fuel connections. Handling liquid fuels requires using dedicated funnels, closing fuel bottles before lighting, and maintaining generous distances from open flames."
@@ -2704,29 +2834,29 @@
         ],
         "rows": [
           {
-            "attribute": "Stove Types and Fuel Comparison",
-            "left": "(8a) Stove Types and Fuel Comparison: Use compressed- or liquid-gas stoves only with knowledgeable adult supervision and only where and when permitted (p. 53).",
-            "right": "(8c) Preparing Three Backcountry Meals: Read and understand the manufacturer's instructions before lighting any stove (p. 53)."
+            "attribute": "Canister Stove Advantages",
+            "left": "(8a) Backpacking Stove Fuel Comparison: Backpacking stoves utilize canister gas, liquid white gas, or denatured alcohol, each offering unique trade-offs in simmer control, fuel weight, and cold-weather output. Evaluating fuel availability, boil times, and container recycling helps crews select optimal cooking systems for planned routes.",
+            "right": "(8c) Backcountry Meal Cooking Execution: Planning and preparing three trail meals requires selecting lightweight, nutrient-dense ingredients that cook quickly to conserve carried stove fuel. Simple boiling and rehydration techniques minimize cleanup time while delivering adequate caloric intake for arduous mountain trekking."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(8b) Safe Stove and Fuel Operation: At home, store fuel containers in a shed, garage, or other uninhabited structure (p. 53).",
-            "right": "(8d) Sanitary Dish washing and Food Storage: Follow these guidelines for the safe use of chemical-fuel stoves (p. 53)."
+            "attribute": "White Gas Versatility",
+            "left": "(8b) Stove Operation And Safety: Operating backpacking stoves safely demands stable stove placement on level mineral ground and meticulous inspection of fuel connections. Handling liquid fuels requires using dedicated funnels, closing fuel bottles before lighting, and maintaining generous distances from open flames.",
+            "right": "(8d) Camp Sanitation And Storage: Maintaining kitchen cleanliness requires washing eating utensils in hot soapy water followed by a sanitizing rinse to eliminate enteric pathogens. Proper backcountry food storage involves using approved bear-resistant canisters or hanging counterbalance food bags well above animal reach."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Home Fuel Storage Location: At home, store fuel containers in a shed, garage, or other uninhabited structure (p. 53).",
-            "right": "Step 3 - Use Approved Fuel Bottles: Keep liquid fuels in well-marked, approved containers only and never in a glass container (p. 53)."
+            "attribute": "Priming Safety Precautions",
+            "left": "Req 8a: Backpacking Stove Fuel: Backpacking stoves utilize canister gas, liquid white gas, or denatured alcohol, each offering unique trade-offs in simmer control, fuel weight, and cold-weather output. Evaluating fuel availability, boil times, and container recycling helps crews select optimal cooking systems for planned routes.",
+            "right": "Req 8b: Stove Operation And Safety: Operating backpacking stoves safely demands stable stove placement on level mineral ground and meticulous inspection of fuel connections. Handling liquid fuels requires using dedicated funnels, closing fuel bottles before lighting, and maintaining generous distances from open flames."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 8 Exemplar Workbook Entry: Backpacking Stoves and Camp Cooking",
+        "title": "Backpacking Req 8 Exemplar Workbook Entry: Backpacking",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 8a - Backpacking Stove Fuel Comparison": "Backpacking stoves utilize canister gas, liquid white gas, or denatured alcohol, each offering unique trade-offs in simmer control, fuel weight, and cold-weather output. Evaluating fuel availability, boil times, and container recycling helps crews select optimal cooking systems for planned routes.",
+          "Req 8a - Backpacking Stove Fuel": "Backpacking stoves utilize canister gas, liquid white gas, or denatured alcohol, each offering unique trade-offs in simmer control, fuel weight, and cold-weather output. Evaluating fuel availability, boil times, and container recycling helps crews select optimal cooking systems for planned routes.",
           "Req 8b - Stove Operation And Safety": "Operating backpacking stoves safely demands stable stove placement on level mineral ground and meticulous inspection of fuel connections. Handling liquid fuels requires using dedicated funnels, closing fuel bottles before lighting, and maintaining generous distances from open flames.",
-          "Req 8c - Backcountry Meal Cooking Executio": "Planning and preparing three trail meals requires selecting lightweight, nutrient-dense ingredients that cook quickly to conserve carried stove fuel. Simple boiling and rehydration techniques minimize cleanup time while delivering adequate caloric intake for arduous mountain trekking.",
+          "Req 8c - Backcountry Meal Cooking": "Planning and preparing three trail meals requires selecting lightweight, nutrient-dense ingredients that cook quickly to conserve carried stove fuel. Simple boiling and rehydration techniques minimize cleanup time while delivering adequate caloric intake for arduous mountain trekking.",
           "Req 8d - Camp Sanitation And Storage": "Maintaining kitchen cleanliness requires washing eating utensils in hot soapy water followed by a sanitizing rinse to eliminate enteric pathogens. Proper backcountry food storage involves using approved bear-resistant canisters or hanging counterbalance food bags well above animal reach."
         },
         "sample_output": "Backpacking Stoves and Camp Cooking: Use compressed- or liquid-gas stoves only with knowledgeable adult supervision and only where and when permitted (p. 53).",
@@ -2764,7 +2894,33 @@
       "socratic_questions": [
         "Why do liquid fuel stoves perform more reliably than canister stoves during winter backpacking trips?",
         "What dangers occur when an unvented gas stove is operated inside an enclosed nylon tent?",
-        "How does proper graywater straining prevent animals from scavenging camp wash sites after dark?"
+        "How does proper graywater straining prevent animals from scavenging camp wash sites after dark?",
+        "What cool-down and distance procedures must a cook follow before refilling a liquid-fuel stove bottle on the trail?",
+        "Under what temperature and altitude conditions does a liquid white-gas stove outperform an upright isobutane canister stove?",
+        "What weight measurement or float test confirms how many ounces of fuel remain inside a sealed isobutane canister before a trek?",
+        "Why is it dangerous to wrap a tight foil windscreen completely around an upright pressurized fuel canister while cooking?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts assume pressurized fuel canisters function at full heat output regardless of subfreezing temperatures.",
+          "fact": "Canister stoves lose fuel pressure rapidly in freezing weather because liquid isobutane cannot vaporize adequately."
+        },
+        {
+          "misconception": "Cooking inside a zipped tent or vestibule during a snowstorm is safe as long as the stove flame burns clean blue.",
+          "fact": "Backpacking stoves produce odorless carbon monoxide that causes fatal poisoning in enclosed tents and melts nylon fabric."
+        },
+        {
+          "misconception": "Standard upright butane-propane canisters maintain full vapor pressure and flame output in sub-freezing winter weather.",
+          "fact": "Cold temperatures drop canister internal pressure below the boiling point of butane, starving the burner unless inverted or warmed."
+        },
+        {
+          "misconception": "Wrapping a tight aluminum windscreen completely around a canister stove saves fuel safely in high mountain winds.",
+          "fact": "Enclosing a pressurized fuel canister traps radiant heat that can overpressurize and rupture the canister."
+        },
+        {
+          "misconception": "Refilling a warm white-gas fuel bottle right next to a simmering stove saves time when cooking for a large crew.",
+          "fact": "Liquid fuel vapors ignite explosively from hot metal or nearby flames; always cool the stove completely and refill 20 feet away."
+        }
       ]
     },
     {
@@ -2807,9 +2963,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
             "misconception": "Beginners think trail hiking speed matches sidewalk walking speed regardless of steep topographic contours and pack loads.",
-            "fact": "Calculating trail schedules using distance plus elevation gain prevents crews from arriving at campsites after dark.",
-            "myth": "Beginners think trail hiking speed matches sidewalk walking speed regardless of steep topographic contours and pack loads.",
-            "fact_correction": "Calculating trail schedules using distance plus elevation gain prevents crews from arriving at campsites after dark."
+            "fact": "Calculating trail schedules using distance plus elevation gain prevents crews from arriving at campsites after dark."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2885,9 +3039,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
             "misconception": "Scouts assume individual hikers always remember their essential survival gear without a formal patrol equipment check.",
-            "fact": "Checking every Scout's footwear, water supply, and rain shell before departure catches missing survival gear early.",
-            "myth": "Scouts assume individual hikers always remember their essential survival gear without a formal patrol equipment check.",
-            "fact_correction": "Checking every Scout's footwear, water supply, and rain shell before departure catches missing survival gear early."
+            "fact": "Checking every Scout's footwear, water supply, and rain shell before departure catches missing survival gear early."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2958,9 +3110,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
             "misconception": "Hikers assume gear can be tossed randomly into an internal frame pack without altering walking stability.",
-            "fact": "Packing the sleeping bag into the bottom compartment creates a stable, shock-absorbing base for the pack.",
-            "myth": "Hikers assume gear can be tossed randomly into an internal frame pack without altering walking stability.",
-            "fact_correction": "Packing the sleeping bag into the bottom compartment creates a stable, shock-absorbing base for the pack."
+            "fact": "Packing the sleeping bag into the bottom compartment creates a stable, shock-absorbing base for the pack."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3031,9 +3181,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
             "misconception": "Beginners believe shoulder straps should carry the entire downward weight of a loaded internal frame backpack.",
-            "fact": "Eighty percent of pack weight must rest securely on the hip bones rather than the shoulders.",
-            "myth": "Beginners believe shoulder straps should carry the entire downward weight of a loaded internal frame backpack.",
-            "fact_correction": "Eighty percent of pack weight must rest securely on the hip bones rather than the shoulders."
+            "fact": "Eighty percent of pack weight must rest securely on the hip bones rather than the shoulders."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3099,9 +3247,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
             "misconception": "Scouts think charging uphill at maximum speed is the best technique to finish a loaded backpacking hike.",
-            "fact": "Taking short, rhythmic rest steps on steep ascents conserves leg energy and maintains cardiovascular efficiency.",
-            "myth": "Scouts think charging uphill at maximum speed is the best technique to finish a loaded backpacking hike.",
-            "fact_correction": "Taking short, rhythmic rest steps on steep ascents conserves leg energy and maintains cardiovascular efficiency."
+            "fact": "Taking short, rhythmic rest steps on steep ascents conserves leg energy and maintains cardiovascular efficiency."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3203,9 +3349,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts think packing the heaviest gear at the very bottom of the pack provides the best balance.",
-        "fact": "Positioning heavy equipment close to the spine between shoulder blades provides optimal balance and center of gravity.",
-        "myth": "Scouts think packing the heaviest gear at the very bottom of the pack provides the best balance.",
-        "fact_correction": "Positioning heavy equipment close to the spine between shoulder blades provides optimal balance and center of gravity."
+        "fact": "Positioning heavy equipment close to the spine between shoulder blades provides optimal balance and center of gravity."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3241,10 +3385,10 @@
         "Step 4 - Suspension Harness Fitting: Buckle the hip belt over iliac crests, tighten shoulder straps, and snug load lifters."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
         "left_header": "Req 9a: Patrol Hike Schedule Formulation",
@@ -3259,30 +3403,30 @@
         ],
         "rows": [
           {
-            "attribute": "Two-Mile Conditioning Hike Plan",
-            "left": "(9a) Two-Mile Conditioning Hike Plan: Figure out how you will divide up the food and group equipment you will be taking (p. 56).",
-            "right": "(9c) Proper Pack Weight Distribution: A day or two before you depart on a backpacking trip, spread out all the equipment, clothing, and provisions you and your group intend to take (p. 56)."
+            "attribute": "Route Pacing Formula",
+            "left": "(9a) Patrol Hike Schedule Formulation: Writing a patrol hike plan requires calculating realistic travel times based on distance, elevation gain, trail difficulty, and rest intervals. Establishing precise departure times and intermediate checkpoints ensures the crew maintains a steady pace and completes routes safely.",
+            "right": "(9c) Pack Loading And Organization: Proper packing involves loading lightweight bulky items low, centering heavy dense gear against the back, and keeping rain gear accessible. Organizing gear logically protects fragile equipment from impacts and maintains the hiker's natural balance on rugged trails."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(9b) Patrol Prehike Gear Inspection: Everyone should share the responsibility of carrying the group's equipment (p. 56).",
-            "right": "(9d) Shouldering and Adjusting Pack: Are there some items laid out that are not absolutely necessary (p. 56)."
+            "attribute": "Prehike Gear Audit",
+            "left": "(9b) Prehike Crew Inspection Standards: Conducting a prehike inspection confirms each patrol member carries appropriate clothing, adequate water, and personal first aid supplies. Systematic equipment audits detect broken boot laces, missing raingear, or forgotten group gear before leaving the trailhead.",
+            "right": "(9d) Pack Suspension System Fitting: Shouldering a heavy pack requires lifting it by the haul loop onto an elevated knee before slipping arms through straps. Adjusting the hip belt, shoulder straps, load lifters, and sternum strap transfers weight onto the pelvic skeleton comfortably."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Dividing Crew Provisions: Figure out how you will divide up the food and group equipment you will be taking (p. 56).",
-            "right": "(9e) Completing Conditioning Training Hike: Figure out how you will divide up the food and group equipment you will be taking (p. 56)."
+            "attribute": "Pack Weight Distribution",
+            "left": "Req 9a: Patrol Hike Schedule: Writing a patrol hike plan requires calculating realistic travel times based on distance, elevation gain, trail difficulty, and rest intervals. Establishing precise departure times and intermediate checkpoints ensures the crew maintains a steady pace and completes routes safely.",
+            "right": "Req 9b: Prehike Crew Inspection: Conducting a prehike inspection confirms each patrol member carries appropriate clothing, adequate water, and personal first aid supplies. Systematic equipment audits detect broken boot laces, missing raingear, or forgotten group gear before leaving the trailhead."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 9 Exemplar Workbook Entry: Prehike Inspection and Packing Skills",
+        "title": "Backpacking Req 9 Exemplar Workbook Entry: Prehike",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 9a - Patrol Hike Schedule Formulation": "Writing a patrol hike plan requires calculating realistic travel times based on distance, elevation gain, trail difficulty, and rest intervals. Establishing precise departure times and intermediate checkpoints ensures the crew maintains a steady pace and completes routes safely.",
-          "Req 9b - Prehike Crew Inspection Standards": "Conducting a prehike inspection confirms each patrol member carries appropriate clothing, adequate water, and personal first aid supplies. Systematic equipment audits detect broken boot laces, missing raingear, or forgotten group gear before leaving the trailhead.",
+          "Req 9a - Patrol Hike Schedule": "Writing a patrol hike plan requires calculating realistic travel times based on distance, elevation gain, trail difficulty, and rest intervals. Establishing precise departure times and intermediate checkpoints ensures the crew maintains a steady pace and completes routes safely.",
+          "Req 9b - Prehike Crew Inspection": "Conducting a prehike inspection confirms each patrol member carries appropriate clothing, adequate water, and personal first aid supplies. Systematic equipment audits detect broken boot laces, missing raingear, or forgotten group gear before leaving the trailhead.",
           "Req 9c - Pack Loading And Organization": "Proper packing involves loading lightweight bulky items low, centering heavy dense gear against the back, and keeping rain gear accessible. Organizing gear logically protects fragile equipment from impacts and maintains the hiker's natural balance on rugged trails.",
-          "Req 9d - Pack Suspension System Fitting": "Shouldering a heavy pack requires lifting it by the haul loop onto an elevated knee before slipping arms through straps. Adjusting the hip belt, shoulder straps, load lifters, and sternum strap transfers weight onto the pelvic skeleton comfortably."
+          "Req 9d - Pack Suspension System": "Shouldering a heavy pack requires lifting it by the haul loop onto an elevated knee before slipping arms through straps. Adjusting the hip belt, shoulder straps, load lifters, and sternum strap transfers weight onto the pelvic skeleton comfortably."
         },
         "sample_output": "Prehike Inspection and Packing Skills: Figure out how you will divide up the food and group equipment you will be taking (p. 56).",
         "counselor_tip": "For Backpacking Requirement 9 (Prehike Inspection and Packing Skills), verify the Scout's own observations and specific pamphlet details (Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57))."
@@ -3319,7 +3463,33 @@
       "socratic_questions": [
         "Why does placing heavy gear low in a pack cause a hiker to lean forward unnaturally?",
         "How does using Naismith's hiking rule improve schedule accuracy across steep mountainous terrain profiles?",
-        "What mechanical adjustments on a backpack harness relieve painful pressure points on trail shoulders?"
+        "What mechanical adjustments on a backpack harness relieve painful pressure points on trail shoulders?",
+        "Where should a Scout position the heaviest food and water items inside an internal-frame backpack?",
+        "What happens to your lower back and balance when heavy gear sits at the outer bottom of the pack instead of against your spine?",
+        "What angle on the load-lifter straps confirms that an internal-frame pack torso length matches the hiker's back?",
+        "Why is it dangerous to skip weighing each Scout's loaded pack against their body weight during the prehike inspection?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts think packing the heaviest gear at the very bottom of the pack provides the best balance.",
+          "fact": "Positioning heavy equipment close to the spine between shoulder blades provides optimal balance and center of gravity."
+        },
+        {
+          "misconception": "Tightening the shoulder straps first allows the upper body to carry the majority of a backpack's weight comfortably.",
+          "fact": "Fasten and tension the padded hip belt over the iliac crest first so the pelvis supports 70 to 80 percent of the pack load."
+        },
+        {
+          "misconception": "Heavy cookware and water bladders belong at the very bottom of the pack to lower the hiker's center of gravity.",
+          "fact": "Place the heaviest items in the middle of the pack close to the spine, with lighter sleeping gear in the bottom compartment."
+        },
+        {
+          "misconception": "Dangling pots, sleeping bags, and extra shoes from external pack loops improves balance on steep trail sections.",
+          "fact": "Swinging external gear shifts your center of balance, snags on brush, and gets soaked in rain; store gear inside the pack."
+        },
+        {
+          "misconception": "A two-mile trail schedule uses standard sidewalk walking speeds without adjusting for elevation gain or pack weight.",
+          "fact": "Trail schedules must add roughly 30 minutes for every 1,000 feet of elevation gain plus scheduled rest and hydration stops."
+        }
       ]
     },
     {
@@ -3380,9 +3550,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume taking day packs while adults transport base camp gear fulfills multi-day backpacking trek requirements.",
-        "fact": "Carrying all personal and shared equipment across three fifteen-mile treks builds self-sufficiency and muscle memory.",
-        "myth": "Scouts assume taking day packs while adults transport base camp gear fulfills multi-day backpacking trek requirements.",
-        "fact_correction": "Carrying all personal and shared equipment across three fifteen-mile treks builds self-sufficiency and muscle memory."
+        "fact": "Carrying all personal and shared equipment across three fifteen-mile treks builds self-sufficiency and muscle memory."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3419,38 +3587,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Uphill Hikers With Right of Way",
-        "right_header": "Downhill Hikers Stepping Aside Courteously",
+        "left_header": "Req 10: Practicing Trail Visitor",
+        "right_header": "Req 10: Respect Neighboring Campsite",
         "left_points": [
           "Practicing Trail Visitor Courtesy: Extending courtesy to other outdoor visitors is a natural habit of backpackers (p. 61).",
           "Stowing Emergency Phones Away: If you carry a mobile telephone for emergency communication, turn it off and stow it in your pack until you need (p. 61).",
           "Preserving Wilderness Solitude: Appreciate the company of those you meet on the trail and at campsites near yours, but respect their desire for quiet and solitude (p. 61)."
         ],
         "right_points": [
-          "Step 1 - Respect Neighboring Campsite Quiet: Appreciate the company of those you meet on the trail and at campsites near yours, but respect their desire for quiet and solitude (p. 61).",
-          "Step 2 - Ask Lead Rider Directions: If you encounter horseback riders or pack animals, stop and ask the lead rider (p. 61).",
-          "Step 3 - Wait Quietly Downhill: The lead rider will probably ask you to step a fewpaces downhill from the trail and stand quietly while the animals pass (p. 61)."
+          "Respect Neighboring Campsite Quiet: Appreciate the company of those you meet on the trail and at campsites near yours, but respect their desire for quiet and solitude (p. 61).",
+          "Ask Lead Rider Directions: If you encounter horseback riders or pack animals, stop and ask the lead rider (p. 61).",
+          "Wait Quietly Downhill: The lead rider will probably ask you to step a fewpaces downhill from the trail and stand quietly while the animals pass (p. 61)."
         ],
         "rows": [
           {
-            "attribute": "Practicing Trail Visitor Courtesy",
+            "attribute": "Trek Distance Requirements",
             "left": "Practicing Trail Visitor Courtesy: Extending courtesy to other outdoor visitors is a natural habit of backpackers (p. 61).",
-            "right": "Step 1 - Respect Neighboring Campsite Quiet: Appreciate the company of those you meet on the trail and at campsites near yours, but respect their desire for quiet and solitude (p. 61)."
+            "right": "Respect Neighboring Campsite Quiet: Appreciate the company of those you meet on the trail and at campsites near yours, but respect their desire for quiet and solitude (p. 61)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Campsite Relocation Rules",
             "left": "Stowing Emergency Phones Away: If you carry a mobile telephone for emergency communication, turn it off and stow it in your pack until you need (p. 61).",
-            "right": "Step 2 - Ask Lead Rider Directions: If you encounter horseback riders or pack animals, stop and ask the lead rider (p. 61)."
+            "right": "Ask Lead Rider Directions: If you encounter horseback riders or pack animals, stop and ask the lead rider (p. 61)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Total Self Sufficiency",
             "left": "Preserving Wilderness Solitude: Appreciate the company of those you meet on the trail and at campsites near yours, but respect their desire for quiet and solitude (p. 61).",
-            "right": "Step 3 - Wait Quietly Downhill: The lead rider will probably ask you to step a fewpaces downhill from the trail and stand quietly while the animals pass (p. 61)."
+            "right": "Wait Quietly Downhill: The lead rider will probably ask you to step a fewpaces downhill from the trail and stand quietly while the animals pass (p. 61)."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 10 Exemplar Workbook Entry: Three-Day Fifteen-Mile Backpacking Treks",
+        "title": "Backpacking Req 10 Exemplar Workbook Entry: Three-Day",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Practicing Trail Visitor Courtesy": "Extending courtesy to other outdoor visitors is a natural habit of backpackers (p. 61).",
@@ -3493,7 +3661,33 @@
       "socratic_questions": [
         "How does changing campsites each night test a patrol's camp efficiency and packing discipline?",
         "What physical and mental adjustments occur between the first day and third day of a trek?",
-        "How did your crew adjust water consumption across different terrain types and daily weather shifts?"
+        "How did your crew adjust water consumption across different terrain types and daily weather shifts?",
+        "What sequence should a patrol follow when breaking down a backcountry campsite to leave zero trace before hiking to the next site?",
+        "Under what condition does Leave No Trace call for spreading tents out on pristine ground instead of using a compacted campsite?",
+        "What measurement confirms that your tent, dishwashing sump, and cathole are far enough from lakes and streams?",
+        "Which physical indicator on a Scout's feet at the first night's camp signals that boot lacing or sock layers need immediate change?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts assume taking day packs while adults transport base camp gear fulfills multi-day backpacking trek requirements.",
+          "fact": "Carrying all personal and shared equipment across three fifteen-mile treks builds self-sufficiency and muscle memory."
+        },
+        {
+          "misconception": "Three day hikes taken from a single stationary basecamp satisfy the multi-day backpacking trek campsite requirement.",
+          "fact": "Each three-day, 15-mile trek must use at least two different overnight campsites while you carry all your gear on the trail."
+        },
+        {
+          "misconception": "Biodegradable camp soap is safe to use directly inside cold mountain streams and alpine lakes during a multi-day trek.",
+          "fact": "Even biodegradable soap pollutes water sources; carry wash water 200 feet away and scatter strained greywater over soil."
+        },
+        {
+          "misconception": "Digging a drainage trench around a tent footprint is an accepted Leave No Trace method for keeping rain out of camp.",
+          "fact": "Trenching causes severe soil erosion and scars campsites; pitch tents on slightly crowned ground with a taut rainfly instead."
+        },
+        {
+          "misconception": "Burying leftover oatmeal and fruit peels in a six-inch cathole helps organic food decompose safely in the backcountry.",
+          "fact": "Animals dig up buried food scraps and become habituated to campsites; pack out all food waste and trash in sealed odor bags."
+        }
       ]
     },
     {
@@ -3538,9 +3732,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)",
           "common_misconception_pair": {
             "misconception": "Hikers assume a five-day trek plan requires only a highway map showing the trail parking lot.",
-            "fact": "A thirty-mile trek plan must incorporate daily topographic elevation profiles, contingency bail-out trails, and water source reliability.",
-            "myth": "Hikers assume a five-day trek plan requires only a highway map showing the trail parking lot.",
-            "fact_correction": "A thirty-mile trek plan must incorporate daily topographic elevation profiles, contingency bail-out trails, and water source reliability."
+            "fact": "A thirty-mile trek plan must incorporate daily topographic elevation profiles, contingency bail-out trails, and water source reliability."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3608,9 +3800,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)",
           "common_misconception_pair": {
             "misconception": "Scouts think establishing a base camp and taking five consecutive day hikes fulfills thirty-mile trek requirements.",
-            "fact": "Moving camp across at least three distinct backcountry sites over five days tests crew endurance and camp efficiency.",
-            "myth": "Scouts think establishing a base camp and taking five consecutive day hikes fulfills thirty-mile trek requirements.",
-            "fact_correction": "Moving camp across at least three distinct backcountry sites over five days tests crew endurance and camp efficiency."
+            "fact": "Moving camp across at least three distinct backcountry sites over five days tests crew endurance and camp efficiency."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3683,9 +3873,7 @@
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)",
           "common_misconception_pair": {
             "misconception": "Beginners think trail journals need only state the weather and bedtime hours to be useful.",
-            "fact": "Documenting specific equipment flaws, blister treatments, and meal performance in daily journals enables systemic improvements on subsequent treks.",
-            "myth": "Beginners think trail journals need only state the weather and bedtime hours to be useful.",
-            "fact_correction": "Documenting specific equipment flaws, blister treatments, and meal performance in daily journals enables systemic improvements on subsequent treks."
+            "fact": "Documenting specific equipment flaws, blister treatments, and meal performance in daily journals enables systemic improvements on subsequent treks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3767,9 +3955,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume trail journals are mere personal diaries containing only emotional reflections rather than technical observations.",
-        "fact": "Daily trail journaling captures operational gear failures, physical conditioning notes, and route timing metrics for future treks.",
-        "myth": "Scouts assume trail journals are mere personal diaries containing only emotional reflections rather than technical observations.",
-        "fact_correction": "Daily trail journaling captures operational gear failures, physical conditioning notes, and route timing metrics for future treks."
+        "fact": "Daily trail journaling captures operational gear failures, physical conditioning notes, and route timing metrics for future treks."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3810,13 +3996,13 @@
         "Step 4 - Daily Field Journaling: Record daily mileage, trail observations, gear performance, and group dynamics every single evening."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 11a: Expedition Route Itinerary Design",
+        "left_header": "Req 11a: Expedition Route Itinerary",
         "right_header": "Req 11b: Long Distance Trek Execution",
         "left_points": [
           "(11a) Expedition Route Itinerary Design: Writing a comprehensive thirty-mile expedition plan requires outlining daily route descriptions, elevation changes, campsites, and water sources. Incorporating contingency options and emergency bailout routes ensures the crew can respond safely to unexpected trail closures or injuries."
@@ -3826,29 +4012,29 @@
         ],
         "rows": [
           {
-            "attribute": "Five-Day Expedition Trek Plan",
-            "left": "(11a) Five-Day Expedition Trek Plan: Use a loose-leaf notebook, blank journal, or scrapbook (p. 16).",
-            "right": "(11b) Completing Thirty-Mile Backcountry Trek: While it is important to be alert to potential dangers, don't forget to enjoy your time outdoors (p. 16)."
+            "attribute": "Thirty Mile Route Planning",
+            "left": "(11a) Expedition Route Itinerary Design: Writing a comprehensive thirty-mile expedition plan requires outlining daily route descriptions, elevation changes, campsites, and water sources. Incorporating contingency options and emergency bailout routes ensures the crew can respond safely to unexpected trail closures or injuries.",
+            "right": "(11b) Long Distance Trek Execution: Completing a five-day wilderness trek of at least thirty miles requires sustained physical conditioning, trail leadership, and environmental ethics. Crews carry full gear loads between multiple campsites, adapting daily routines to changing weather conditions and challenging terrain."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Observing Natural Trail Wonders: You might discover a field of ripe blackberries, a hidden waterfall, or a massive beaver dam (p. 16).",
-            "right": "(11c) Keeping a Daily Trek Journal: You might discover a field of ripe blackberries, a hidden waterfall, or a massive beaver dam (p. 16)."
+            "attribute": "Logistical Boundary Identification",
+            "left": "Req 11a: Expedition Route Itinerary: Writing a comprehensive thirty-mile expedition plan requires outlining daily route descriptions, elevation changes, campsites, and water sources. Incorporating contingency options and emergency bailout routes ensures the crew can respond safely to unexpected trail closures or injuries.",
+            "right": "Req 11b: Long Distance Trek: Completing a five-day wilderness trek of at least thirty miles requires sustained physical conditioning, trail leadership, and environmental ethics. Crews carry full gear loads between multiple campsites, adapting daily routines to changing weather conditions and challenging terrain."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Keeping a Trek Logbook: A good way to document the highlights of your back country trip is to keep a trek journal or logbook (p. 16).",
-            "right": "Step 3 - Record Route and Companions: Include a description of your route and a list of your companions (p. 16)."
+            "attribute": "Expedition Movement Pacing",
+            "left": "Req 11c: Daily Expedition Journaling: Keeping a daily field journal during a wilderness expedition provides a structured record of daily mileage, gear performance, and trail conditions. Reflecting on operational successes and areas for improvement develops mature wilderness judgment and refines future expedition planning skills.",
+            "right": "Logistical Boundary Identification: Identify road access points, resupply trailheads, reliable springs, and ranger check-in locations in advance."
           }
         ]
       },
       "worked_example": {
-        "title": "Backpacking Req 11 Exemplar Workbook Entry: Five-Day Thirty-Mile Expedition and Journal",
+        "title": "Backpacking Req 11 Exemplar Workbook Entry: Five-Day",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 11a - Expedition Route Itinerary Desig": "Writing a comprehensive thirty-mile expedition plan requires outlining daily route descriptions, elevation changes, campsites, and water sources. Incorporating contingency options and emergency bailout routes ensures the crew can respond safely to unexpected trail closures or injuries.",
+          "Req 11a - Expedition Route Itinerary": "Writing a comprehensive thirty-mile expedition plan requires outlining daily route descriptions, elevation changes, campsites, and water sources. Incorporating contingency options and emergency bailout routes ensures the crew can respond safely to unexpected trail closures or injuries.",
           "Req 11b - Long Distance Trek Execution": "Completing a five-day wilderness trek of at least thirty miles requires sustained physical conditioning, trail leadership, and environmental ethics. Crews carry full gear loads between multiple campsites, adapting daily routines to changing weather conditions and challenging terrain.",
-          "Req 11c - Daily Expedition Journaling Refl": "Keeping a daily field journal during a wilderness expedition provides a structured record of daily mileage, gear performance, and trail conditions. Reflecting on operational successes and areas for improvement develops mature wilderness judgment and refines future expedition planning skills."
+          "Req 11c - Daily Expedition Journaling": "Keeping a daily field journal during a wilderness expedition provides a structured record of daily mileage, gear performance, and trail conditions. Reflecting on operational successes and areas for improvement develops mature wilderness judgment and refines future expedition planning skills."
         },
         "sample_output": "Five-Day Thirty-Mile Expedition and Journal: Use a loose-leaf notebook, blank journal, or scrapbook (p. 16).",
         "counselor_tip": "For Backpacking Requirement 11 (Five-Day Thirty-Mile Expedition and Journal), verify the Scout's own observations and specific pamphlet details (Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92))."
@@ -3885,7 +4071,33 @@
       "socratic_questions": [
         "How does planning a five-day expedition differ logistically from preparing for a weekend overnight hike?",
         "What unexpected gear failures occurred during the trek, and how did your crew adapt?",
-        "Why is documenting trail lessons in a daily journal valuable for future high-adventure planning?"
+        "Why is documenting trail lessons in a daily journal valuable for future high-adventure planning?",
+        "Where should a Scout position emergency bailout points and water resupply sources along a five-day, 30-mile expedition route?",
+        "What happens to pack weight and crew stamina on day four if a five-day menu relies on heavy canned foods instead of dry rations?",
+        "What measurement confirms that a five-day meal plan provides enough daily calories without exceeding target food weight per day?",
+        "Why is it dangerous to start a 30-mile expedition without leaving a written route schedule and overdue trigger time at home?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts assume trail journals are mere personal diaries containing only emotional reflections rather than technical observations.",
+          "fact": "Daily trail journaling captures operational gear failures, physical conditioning notes, and route timing metrics for future treks."
+        },
+        {
+          "misconception": "A standard smartphone emergency call plan is sufficient for a five-day, 30-mile wilderness expedition safety strategy.",
+          "fact": "Backcountry valleys rarely have cell service; a written safety plan requires bailout routes, first aid, and a satellite messenger."
+        },
+        {
+          "misconception": "Dividing a 30-mile trek into five equal six-mile days guarantees balanced daily effort across mountain terrain.",
+          "fact": "Daily mileage targets must adjust for steep elevation gain, water availability, exposed ridgelines, and legal campsite locations."
+        },
+        {
+          "misconception": "Every Scout should carry all five days of drinking water from the trailhead to avoid running dry on a 30-mile trek.",
+          "fact": "Five days of water weighs over 40 pounds; expedition plans map reliable water sources along the route and carry treatment gear."
+        },
+        {
+          "misconception": "Fresh fruits and canned stews are ideal staples for a five-day backpacking menu because they require no cooking fuel.",
+          "fact": "Canned and wet foods carry heavy water weight; five-day menus need dehydrated foods yielding at least 100 calories per ounce."
+        }
       ]
     }
   ],

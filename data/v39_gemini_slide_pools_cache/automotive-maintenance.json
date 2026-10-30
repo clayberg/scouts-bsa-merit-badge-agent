@@ -1,0 +1,329 @@
+{
+  "badge_slug": "automotive-maintenance",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Hydraulic seals can fail without warning, so you must always lower the vehicle onto rated jack stands on level ground.",
+          "misconception": "A hydraulic floor jack locks mechanically in place and can safely hold a raised car while you work underneath."
+        },
+        {
+          "fact": "Safety glasses or goggles rated to ANSI Z87.1 with side shields are required to protect eyes from chemical splashes and debris.",
+          "misconception": "Standard prescription eyeglasses provide sufficient side protection against flying metal shards or splashed battery acid."
+        },
+        {
+          "fact": "Metal jewelry bridging a positive terminal and ground conducts hundreds of amps instantly, causing severe burns.",
+          "misconception": "Leaving a metal wedding band or watch on during battery service poses only a minor scratch risk to painted surfaces."
+        },
+        {
+          "fact": "Colorless, odorless carbon monoxide accumulates rapidly indoors, so engines should only run outside or with active exhaust hoses.",
+          "misconception": "Opening a single small window in an attached garage vents all exhaust gases safely while testing a running engine."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to crawl beneath a vehicle supported only by a hydraulic floor jack without rigid jack stands?",
+        "Where on a vehicle can you verify the 17-character Vehicle Identification Number against the state registration card?",
+        "What physical hazard arises if you wear loose sleeves, rings, or a wristwatch near a running engine's serpentine belt?",
+        "Under what condition does running an engine inside a closed garage create a lethal carbon monoxide hazard within minutes?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Wait several minutes on level ground after shutdown so oil drains from the upper cylinder head back into the oil pan.",
+          "misconception": "Checking engine oil immediately after shutting off the motor gives the most accurate reading on the dipstick crosshatch."
+        },
+        {
+          "fact": "An oversized fuse allows excessive current to overheat and melt the wire insulation, creating a serious electrical fire hazard.",
+          "misconception": "Replacing a blown 15-amp automotive fuse with a 25-amp fuse upgrades the circuit and prevents nuisance blowouts."
+        },
+        {
+          "fact": "Harsh degreasers in dish soap strip protective wax and dry out clear-coat finishes; always use dedicated car wash soap.",
+          "misconception": "Household dish soap strips only road grime from a car exterior while preserving the protective automotive wax layer."
+        },
+        {
+          "fact": "As disc brake pads wear thinner, caliper pistons extend further out, lowering the reservoir fluid level even without a leak.",
+          "misconception": "Low brake fluid in a sealed master cylinder always means fluid has evaporated through the plastic reservoir cap."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why must you wipe the engine oil dipstick clean with a lint-free rag before re-inserting it to take an accurate reading?",
+        "What does a drop in the brake fluid reservoir level usually indicate when there are no visible leaks in the brake lines?",
+        "What happens to the wiring harness if you replace a blown 10-amp blade fuse with a 30-amp fuse to stop repeat failures?",
+        "Which physical indicator on a lead-acid battery post shows that acidic vapors are corroding the cable clamp connection?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A red oil light signals a critical loss of oil pressure that can seize bearings in seconds; pull over safely and shut off the engine.",
+          "misconception": "A glowing red oil pressure warning light simply means the crankcase is half a quart low and can wait until the next gas stop."
+        },
+        {
+          "fact": "Yellow lights advise that a system needs prompt inspection or service soon, whereas red lights demand immediate safety action.",
+          "misconception": "Yellow dashboard warning symbols indicate critical emergencies that require stopping the vehicle on the shoulder immediately."
+        },
+        {
+          "fact": "The battery light indicates the alternator and charging system are failing to supply voltage, running the car solely on battery power.",
+          "misconception": "The battery charging icon on the instrument cluster lights up only when the 12-volt battery needs distilled water added."
+        },
+        {
+          "fact": "The speedometer displays road speed in miles or kilometers per hour, while the tachometer shows engine speed in thousands of RPM.",
+          "misconception": "The speedometer measures crankshaft revolutions per minute while the tachometer measures road speed in miles per hour."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What immediate action should a driver take when a red oil pressure warning light illuminates while driving on the highway?",
+        "What is the operational difference between a steady yellow warning symbol and a flashing red symbol on the instrument cluster?",
+        "What measurement does the tachometer display, and why is operating the engine in the redline zone harmful to internal parts?",
+        "Why do all dashboard warning lamps illuminate briefly for a few seconds when you first turn the ignition key to the ON position?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The sidewall lists the tire's maximum safe pressure, whereas the vehicle placard inside the door jamb specifies the target cold PSI.",
+          "misconception": "Tires should be inflated to the maximum PSI pressure stamped in raised letters on the rubber tire sidewall."
+        },
+        {
+          "fact": "Friction heats the air and raises pressure by 3 to 5 PSI during driving, so bleeding a hot tire leaves it underinflated when cool.",
+          "misconception": "Bleeding air out of a hot tire right after highway driving brings the cold inflation pressure back to the proper specification."
+        },
+        {
+          "fact": "Temporary spares have thin tread and light construction rated only for restricted speeds around 50 mph and short distances.",
+          "misconception": "Compact temporary donut spare tires can be driven indefinitely at normal highway speeds just like full-size radial tires."
+        },
+        {
+          "fact": "Balancing adds small weights to the rim to stop wheel hop, while alignment adjusts suspension angles so tires roll straight and flat.",
+          "misconception": "Wheel balancing and wheel alignment are identical procedures that adjust the angles of the steering and suspension arms."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why must you measure and adjust tire inflation pressure when the tires are cold rather than right after a highway drive?",
+        "Why does the PSI number molded on a tire's sidewall differ from the recommended PSI printed on the driver's door jamb placard?",
+        "What measurement confirms that a tire's tread grooves have worn down to the legal minimum limit of 2/32 of an inch?",
+        "Which uneven tread wear pattern appears across a front tire when the suspension camber or toe alignment is out of specification?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Diesel engines compress intake air to extreme pressures and temperatures, causing injected diesel fuel to self-ignite on contact.",
+          "misconception": "Diesel engines use high-voltage spark plugs to ignite fuel just like standard four-stroke gasoline engines."
+        },
+        {
+          "fact": "The W stands for Winter, indicating that the oil is formulated to remain thin enough to pump rapidly during cold-weather starts.",
+          "misconception": "The letter W in an SAE 10W-30 motor oil viscosity rating stands for the physical weight of the oil in the container."
+        },
+        {
+          "fact": "Over-tightening crushes and distorts the rubber O-ring gasket; oil filters should be lubricated with clean oil and tightened as specified.",
+          "misconception": "Tightening a new spin-on oil filter with a heavy wrench as hard as possible guarantees a leak-free seal against the engine block."
+        },
+        {
+          "fact": "Standard hybrids recharge their high-voltage battery automatically through regenerative braking and the onboard gasoline engine.",
+          "misconception": "Gasoline-electric hybrid vehicles must always be plugged into an external wall outlet overnight to recharge their drive battery."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the intake and exhaust valves inside the cylinder head during the compression and power strokes of an engine?",
+        "Under what condition does fuel ignite inside a diesel engine cylinder without a spark plug to initiate combustion?",
+        "What do the two numbers in an SAE 5W-30 multigrade oil rating tell you about cold-start flow and operating-temperature thickness?",
+        "Why is it dangerous to install a spin-on oil filter without first checking that the old rubber gasket came off with the old filter?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Pure ethylene glycol transfers heat poorly and gels at higher temperatures than a 50/50 blend of coolant and distilled water.",
+          "misconception": "Filling a radiator with 100 percent pure concentrated antifreeze provides better freeze and heat protection than a 50/50 water mix."
+        },
+        {
+          "fact": "Ethylene glycol coolant is highly toxic to animals and humans and must be sealed in a labeled container for hazardous waste recycling.",
+          "misconception": "Drained engine coolant is biodegradable and can be poured safely down a residential storm drain or onto a gravel driveway."
+        },
+        {
+          "fact": "Different coolant families use distinct corrosion inhibitors, and mixing incompatible types can form thick gel that clogs radiator cores.",
+          "misconception": "All automotive coolants are chemically identical inside and are dyed green, orange, or pink only for marketing appeal."
+        },
+        {
+          "fact": "Calcium and magnesium in tap water form insulating scale deposits inside hot radiator tubes; always mix concentrate with distilled water.",
+          "misconception": "Mineral-rich hard tap water is ideal for mixing with concentrated coolant because minerals coat and strengthen metal water pumps."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to twist open a radiator pressure cap while the engine coolant is still at operating temperature?",
+        "What happens to the freezing and boiling points of water when you mix it 50/50 with ethylene glycol antifreeze?",
+        "Which chemical reaction occurs inside aluminum radiator passages if you mix incompatible OAT and IAT coolant formulas together?",
+        "Where should you store and dispose of drained ethylene glycol coolant so its sweet taste cannot poison pets or wildlife?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Modern engine computers measure actual airflow and reduce fuel injection proportionally, so a clogged filter mainly restricts peak power.",
+          "misconception": "A severely clogged paper engine air filter causes modern fuel-injected engines to burn way too much raw gasoline per cylinder stroke."
+        },
+        {
+          "fact": "The engine computer pulses each injector open for precise milliseconds to atomize the exact fuel mass needed for the measured airflow.",
+          "misconception": "Electronic fuel injectors stay open continuously like a garden hose nozzle whenever the driver presses the accelerator pedal."
+        },
+        {
+          "fact": "Silica dust is harder than cylinder iron and acts like grinding compound, rapidly scoring piston rings and cylinder walls.",
+          "misconception": "Running an engine briefly without an air filter in a dusty environment causes no lasting wear because dust burns up in combustion."
+        },
+        {
+          "fact": "The fuel filter sits in the fuel line between the tank and injectors to trap rust and dirt, while the catalytic converter cleans exhaust.",
+          "misconception": "The fuel filter is located inside the exhaust tailpipe to trap unburned hydrocarbons before they exit into the atmosphere."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What physical check confirms whether a pleated paper engine air filter element is too clogged to pass clean intake air?",
+        "What specific engine components are protected from abrasive silica dust by the air filter versus rust particles by the fuel filter?",
+        "What exhaust measurement does the oxygen sensor send to the engine computer to keep the air-fuel ratio near 14.7 to 1?",
+        "Why must a technician relieve residual fuel rail pressure before disconnecting a fuel filter line on a fuel-injected engine?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Clamp the final negative lead to an unpainted metal engine bracket away from the battery so any arc cannot ignite vented hydrogen gas.",
+          "misconception": "The final jumper cable clamp during a jump-start should always be attached directly to the negative post of the dead battery."
+        },
+        {
+          "fact": "Once the engine starts, the belt-driven alternator powers all vehicle electronics and recharges the battery for the next crank.",
+          "misconception": "The 12-volt lead-acid battery supplies all electrical power to the headlights, ignition coils, and fuel pump while driving."
+        },
+        {
+          "fact": "Each cylinder must receive its spark only near top dead center of its compression stroke, or the engine will misfire and backfire.",
+          "misconception": "Connecting spark plug leads in random order has no effect on engine operation as long as every plug receives a high-voltage spark."
+        },
+        {
+          "fact": "Prying against a fine-wire center electrode snaps the brittle tip; gap adjustments must only bend the outer ground strap carefully.",
+          "misconception": "Prying directly against the thin center tip of an iridium spark plug with a coin gauge is the proper way to widen the spark gap."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should you clamp the final negative jumper cable connection to avoid igniting hydrogen gas near the dead battery?",
+        "What distinct roles do the starter motor, the 12-volt battery, and the belt-driven alternator play before and after engine start?",
+        "What happens to ignition coil voltage demand and combustion reliability if a spark plug's electrode gap erodes far too wide?",
+        "Why must spark plug wires or ignition coils be connected in the exact cylinder firing order specified by the engine manufacturer?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Each transmission design requires a specific friction modifier formula, and mixing incompatible fluids causes clutch slippage.",
+          "misconception": "All automatic transmission fluids are interchangeable as long as they are dyed red and meet basic viscosity ratings."
+        },
+        {
+          "fact": "High-sulfur extreme-pressure additives in GL-5 gear oil corrode yellow brass synchronizer rings inside many manual gearboxes.",
+          "misconception": "Heavyweight GL-5 hypoid gear oil protects every manual transmission better than lighter factory-specified fluids."
+        },
+        {
+          "fact": "Part-time transfer cases lock the front and rear driveshafts together, causing severe driveline windup and gear damage on dry pavement.",
+          "misconception": "Engaging four-wheel drive on dry pavement improves cornering grip and prevents tire slip during normal highway driving."
+        },
+        {
+          "fact": "Resting a foot on the clutch pedal partially disengages the pressure plate, overheating the friction disc and wearing the release bearing.",
+          "misconception": "Riding the clutch pedal lightly with your foot while cruising reduces shift time without affecting the clutch assembly."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the outer and inner drive wheels when a differential allows them to rotate at different speeds in a turn?",
+        "Which physical indicator on an automatic transmission dipstick signals that the fluid has overheated and oxidized?",
+        "Why is it dangerous to check automatic transmission fluid on an unlevel surface without engaging the parking brake?",
+        "Under what condition does a torque converter multiply engine torque before locking the turbine to the impeller?"
+      ],
+      "req_id": "9"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Fluid drops naturally in the reservoir as caliper pistons extend outward to compensate for normal disc brake pad wear.",
+          "misconception": "A low brake fluid reservoir always indicates an external hydraulic leak somewhere along the brake lines or calipers."
+        },
+        {
+          "fact": "Antilock brakes modulate hydraulic pressure to prevent wheel lockup so the driver can steer, which can lengthen stops on loose gravel.",
+          "misconception": "Antilock braking systems shorten stopping distances on every road surface by clamping the brake rotors with extra force."
+        },
+        {
+          "fact": "DOT 5 is silicone-based and immiscible with glycol-based DOT 3 or DOT 4 fluids, causing seal swelling and spongy pedal failure.",
+          "misconception": "DOT 5 silicone brake fluid can be poured into a DOT 3 or DOT 4 brake system to raise the boiling point of the fluid."
+        },
+        {
+          "fact": "Compressed air launches hazardous friction dust into the air; technicians must use wet brake wash or a HEPA vacuum enclosure instead.",
+          "misconception": "Cleaning dusty brake drums and rotors with compressed shop air is the safest way to inspect friction linings and springs."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the master cylinder fluid level as disc brake pads wear thinner over thousands of miles of driving?",
+        "What measurement confirms whether a brake rotor has enough metal thickness remaining to be safely resurfaced or reused?",
+        "Why is it dangerous to pump the brake pedal repeatedly when an antilock braking system is actively pulsing in a skid?",
+        "Which physical indicator on a brake hose or steel line shows that hydraulic pressure could fail during an emergency stop?"
+      ],
+      "req_id": "10"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Liability coverage pays only for injuries and property damage you cause to others; repairing your own car requires collision coverage.",
+          "misconception": "State minimum liability insurance pays to repair your own vehicle if you slide into a guardrail on an icy highway."
+        },
+        {
+          "fact": "Actual cash value is based on regional sales data, mileage, trim, and condition adjustments rather than the seller's asking price.",
+          "misconception": "A dealer sticker price or online listing price represents the true market value that an insurer or lender assigns a car."
+        },
+        {
+          "fact": "Frequent short trips, heavy idling, and dusty roads qualify as severe service and require shorter oil and filter change intervals.",
+          "misconception": "Following the normal-service maintenance schedule is sufficient for a vehicle driven mostly on short stop-and-go errands."
+        },
+        {
+          "fact": "History reports only log events reported to insurers or police, so cash repairs at independent body shops never appear on the record.",
+          "misconception": "A clean vehicle history report guarantees that a used car has never been in an accident or suffered structural damage."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your out-of-pocket repair cost and monthly insurance premium when you raise a collision deductible?",
+        "Which physical indicator or inspection record helps a buyer spot flood or frame damage that a valuation guide misses?",
+        "Under what condition does comprehensive coverage pay for vehicle damage when collision insurance does not apply?",
+        "What measurement or maintenance log entry confirms whether a used car received its scheduled timing belt and fluid service?"
+      ],
+      "req_id": "11"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Earning ASE certification requires passing specific specialty exams plus documenting two years of qualified hands-on work experience.",
+          "misconception": "Passing a single written ASE test immediately certifies a student as a Master Automotive Technician with no shop hours."
+        },
+        {
+          "fact": "Today's technicians diagnose multiplexed CAN-bus networks, interpret oscilloscope waveforms, and calibrate radar and camera sensors.",
+          "misconception": "Modern automotive service technicians spend all day turning wrenches and rarely need computer networking or math skills."
+        },
+        {
+          "fact": "Federal law requires technicians who service mobile air conditioning systems to hold an EPA Section 609 refrigerant certification.",
+          "misconception": "Any mechanic can legally vent or recharge air conditioning refrigerant without holding a federal regulatory credential."
+        },
+        {
+          "fact": "The automotive sector includes propulsion engineering, collision estimating, fleet management, motorsport, and autonomous calibration.",
+          "misconception": "Automotive career pathways are limited to dealership repair bays and independent neighborhood mechanic garages."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What measurement or hands-on work experience requirement must a technician log before earning full ASE certification?",
+        "Why is it dangerous to service high-voltage hybrid or electric vehicle drivetrains without insulated PPE and training?",
+        "Under what condition does an automotive technician need an EPA Section 609 credential before opening a vehicle system?",
+        "Which physical indicator or diagnostic data stream does a service technician record to justify a warranty repair claim?"
+      ],
+      "req_id": "12"
+    }
+  ]
+}

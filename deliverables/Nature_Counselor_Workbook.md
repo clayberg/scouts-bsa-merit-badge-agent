@@ -1,8 +1,8 @@
 # Nature Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Nature.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/nature/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/nature/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -226,7 +226,7 @@
 - Collect and classify ten invertebrate species through macroscopic field photography or careful net sweeping. Distinguish structural differences across prominent orders including Coleoptera, Lepidoptera, Hymenoptera, and Araneae.
 - Req 4d Standard (Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)): Insects and Spiders. Do ALL of the following: (1) Collect and identify either in the field or through photographs 10 species of insects or spiders. Photos may be taken with your own equipment or gathered from other sources. (2) Hatch an insect from the pupa or cocoon; OR hatch adults from nymphs; OR keep larvae until they form pupae or cocoons; OR keep a colony of ants or bees through one season.
 
-#### Req 4d(1): Arthropod Photographic Documentation and Classification
+#### Req 4d(1): Arthropod Photographic Documentation
 **Official Requirement 4d(1):** Collect and identify either in the field or through photographs 10 species of insects or spiders. Photos may be taken with your own equipment or gathered from other sources.
 **Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Organizer (Concept & Examples Notes):** Req 4d(1) Structured Technical Study & Explanation Matrix (Field or Through Photographs Species)
 - **Common Myth:** Spiders are classified as true insects because they are small crawling terrestrial arthropods.

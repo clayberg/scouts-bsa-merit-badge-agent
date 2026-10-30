@@ -1,8 +1,8 @@
 # Model Design and Building Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Model%20Design.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/model-design-and-building/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/model-design-and-building/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -25,8 +25,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 4:** Build Your Model. Do ONE of the following using physical and/or computer design methods. Before beginning any model, discuss your approach with your counselor, including the possible use of computer design software such as CAD or 3D modeling tools. Present your plans and completed model to your counselor. (a) Architectural Model. Design and build a model of a house to a scale of 1⁄4" = 1'0" (1:48 scale). Begin by creating floor plans and elevations. Include windows, doors, and structural elements. Discuss with your counselor the materials you intend to use, the amount of detail required, outside treatment (finish, shrubbery, walks, etc.), and color selections. You may choose to 3D print elements or use laser-cut parts based on using computer design. Present both your design and final model to your counselor for evaluation. (b) Structural Model. Construct a scale model showing corner construction of a wood-frame building to a scale of 1 1⁄2" = 1'0" (1:8 scale). Begin with a structural layout showing the parts of the floor and wall frames, such as intermediate girder, joist, bridging, subfloor, sill, sole plate, stud, and rafter. Use your plans to assist in building a physical model with cardboard, foam board, or wood. Review with your counselor the parts of the structure and discuss challenges in both your design and build process, gathering the materials and supporting the structure. (c) Process Model. Design and build a model showing the plumbing system of your house to a scale of 3⁄4" = 1'0" (1:16 scale) or an agreed-upon scale. Show hot and cold-water supply, all waste returns, and venting. After creating your plan, talk to your counselor about how to begin this model, and present the scale and the materials you will use. Build the model using appropriate materials such as tubing, straws, or printed parts. After completion, present your model to your counselor, and be prepared to discuss any problems you had building this model. (d) Mechanical Model. Build a model of a mechanical device that incorporates at least two of the six simple machines. You can use digital tools to design and simulate the device before constructing it. Once your design is approved by your counselor, build a working physical model using materials such as wood, plastic, or 3D printed parts. Present your models to your counselor and be prepared to discuss materials used, the machine's function, and challenges you encountered during the construction process. (e) Industrial Model. Build a model of an actual passenger-carrying vehicle to a scale of 1" = 1'0" or 1⁄2" = 1'0" (1:12 or 1:24 scale). Begin by measuring a real vehicle and modeling it from multiple views (top, front, rear, sides). You can draw it or use computer design software. From your plans, build a physical model or use digital rendering or 3D printing to produce the final version. Discuss with your counselor which parts were most challenging.
-- [ ] **Station Req 5:** Special-Effects Fantasy Model. Design and build a fantasy spacecraft model suitable for a science-fiction film, using traditional modeling and/or computer design techniques. Determine an appropriate scale for your design, one that makes practical sense. Do the following: (a) Research real-world aircraft, submarines, and naval ships for design inspiration. (b) Design individual components (such as the cockpit, living areas, engines, and storage). (c) Produce a final sketch or a rendered image of the complete model from multiple angles. (d) Discuss your design process and scale choices with your counselor. Describe the materials (physical and/or digital) you used, how you engineered your model and discuss any difficulties you encountered and what you learned.
+- [ ] **Station Req 4:** Scout must individually demonstrate mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -50,10 +50,10 @@
 - **Pamphlet Fact:** Dull blades require excessive forward force, causing uncontrollable knife slips across work surfaces.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Model Design and Building Core Field Standard
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Model Design and Building
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Model Design and Building Core Field Standard.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Model Design and Building.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![Model Design and Building Requirement 1 figure showing safety glasses shield eyes from airborne plastic shards during mechanical tool cutting.](/assets/pamphlet_images/model_design_and_building_p003_img1.png)
 
@@ -237,10 +237,10 @@
 - **Pamphlet Fact:** Floor plan alignment dictates exterior wall placement and prevents structural sagging across roof expanses.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Model Physical And/or Computer
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Model Design and Building
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Model Physical And/or Computer.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Model Design and Building.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![Model Design and Building Requirement 4 figure showing architectural models built at quarter-inch scale require accurate door and window openings.](/assets/pamphlet_images/model_design_and_building_p004_img1.png)
 
@@ -344,10 +344,10 @@
 - **Pamphlet Fact:** Studying real submarines and military jets reveals authentic aerodynamic, hydraulic, and structural design solutions.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Special-Effects Fantasy Model
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Model Design and Building
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Special-Effects Fantasy Model.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Model Design and Building.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![Illustrated panels highlight scale models of space shuttles, medieval castles, motor vehicles, and industrial structures.](/assets/ai_illustrations/model_design_and_building_req_5_topic_visual.png)
 
@@ -413,10 +413,10 @@
 - **Pamphlet Fact:** Medical device firms and aerospace manufacturers continuously employ physical modelmakers to validate ergonomics and aerodynamic prototypes.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Model Design and Building Careers and Pathways
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Model Design and Building
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Model Design and Building Careers and Pathways.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Model Design and Building.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![A Scout gestures toward a wooden miniature campsite layout while explaining design details to fellow troop members outdoors.](/assets/ai_illustrations/model_design_and_building_req_6_nano_hero.png)
 

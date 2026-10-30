@@ -1,0 +1,194 @@
+{
+  "badge_slug": "graphic-arts",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Offset lithography uses a flat planographic plate that transfers ink to a rubber blanket cylinder before pressing onto the paper.",
+          "misconception": "Offset lithography uses raised metal letters on the plate cylinder to press ink directly onto the moving paper web."
+        },
+        {
+          "fact": "Gravure cylinders hold liquid ink inside etched recessed cells while a steel doctor blade wipes the raised surface clean.",
+          "misconception": "Gravure printing holds ink on the raised surface areas of the cylinder while the recessed cells remain completely dry."
+        },
+        {
+          "fact": "Digital presses image each sheet directly from computer data using laser drums or inkjet heads without physical printing plates.",
+          "misconception": "Digital laser printers require a new aluminum or photopolymer printing plate whenever a single word changes on the page."
+        },
+        {
+          "fact": "Screen printing pushes heavy ink layers through mesh stencils onto curved glass bottles, circuit boards, metal signs, and textiles.",
+          "misconception": "Screen printing works only on flat cotton T-shirts and cannot deposit thick opaque ink onto glass, metal, or plastic."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What physical principle keeps ink and fountain solution separate on a flat offset lithography printing plate?",
+        "Which microscopic ink-edge pattern under a loupe distinguishes a gravure sample from a relief-printed sample?",
+        "Under what run-length and variable-data conditions does digital printing cost less per sheet than offset?",
+        "What happens to the printed image orientation if an offset plate transfers ink directly to paper without a blanket?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Halftone screens simulate shades of gray by printing tiny solid black dots of varying sizes spaced across white paper.",
+          "misconception": "Halftone printing creates gray shades by mixing black ink with white ink in different ratios inside the press fountain."
+        },
+        {
+          "fact": "Scaling up a low-resolution raster image stretches existing pixels over a larger area, producing blurry or jagged edges in print.",
+          "misconception": "Enlarging a 72-PPI web graphic to twelve inches wide in page layout software automatically adds sharp print detail."
+        },
+        {
+          "fact": "Vector graphics store shapes as mathematical paths and curves that scale to any dimension without losing edge sharpness.",
+          "misconception": "Vector illustrations store images as a fixed grid of colored pixels that lose clarity whenever the art is resized."
+        },
+        {
+          "fact": "Commercial presses print with subtractive CMYK inks, which have a smaller color gamut than additive RGB computer monitors.",
+          "misconception": "RGB color files sent directly to a four-color commercial press will match the bright neon colors seen on a monitor."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why can a standard offset press not print a continuous-tone photograph without first converting it into a halftone screen?",
+        "What happens to the sharpness of a raster bitmap logo compared to a vector file when scaled up to poster size?",
+        "What measurement in lines per inch or dots per inch confirms that a scanned image has enough resolution for print?",
+        "Under what condition does saving line art as a heavily compressed JPEG introduce visible blocky artifacts around sharp edges?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Limiting a layout to one or two contrasting typefaces establishes clear visual hierarchy and keeps body copy legible.",
+          "misconception": "Combining four or five fancy script typefaces on one poster makes the event announcement easier to read from afar."
+        },
+        {
+          "fact": "Background graphics must extend at least one-eighth inch past the trim edge as bleed to prevent white paper gaps.",
+          "misconception": "Stopping a full-color background box right on the exact page edge guarantees ink will reach the border after trimming."
+        },
+        {
+          "fact": "Deliberate white space separates information groups, reduces visual clutter, and guides the reader toward key messages.",
+          "misconception": "Filling every square inch of a flyer with text and clip art maximizes visual impact and reader comprehension."
+        },
+        {
+          "fact": "Print shops require packaged font files, high-resolution linked graphics, or a press-ready PDF with embedded fonts.",
+          "misconception": "Sending a native layout document to a print shop without fonts or linked images ensures the text prints identically."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to reader eye flow and visual hierarchy when five decorative display fonts compete on a single flyer?",
+        "Where should background artwork extend relative to the trim line so no unprinted white slivers appear after cutting?",
+        "Which physical indicator on a proof reveals that body copy leading is set too tight for comfortable reading?",
+        "What measurement confirms that critical text sits safely inside the margin away from the guillotine cutter path?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Plastisol ink requires heat curing at roughly 320 degrees Fahrenheit so the PVC resin fuses into the fabric fibers.",
+          "misconception": "Plastisol screen-printing ink air-dries permanently on cotton shirts within ten minutes of sitting on a drying rack."
+        },
+        {
+          "fact": "Excess water emulsifies the offset ink, causing washed-out gray solids, snowflaking, and slow drying on the delivery pile.",
+          "misconception": "Adding excess fountain solution to an offset press makes the printed ink look darker and dry faster on coated stock."
+        },
+        {
+          "fact": "Open mesh areas between the stencil and the frame must be taped off so stray ink does not squeeze onto the garment.",
+          "misconception": "Leaving screen mesh edges unmasked around a small stencil saves tape without affecting the clean margins of the shirt."
+        },
+        {
+          "fact": "Pressroom solvents and stencil strippers release fumes and irritate skin, requiring nitrile gloves, goggles, and ventilation.",
+          "misconception": "Washout solvents and press blanket cleaners are harmless household soaps that need neither gloves nor shop ventilation."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a photo-emulsion screen stencil if it is exposed to sunlight before the washout step is finished?",
+        "Why is it dangerous to reach toward a moving offset cylinder or belt to clear a jammed sheet while the press runs?",
+        "Which physical indicator on a test print shows that squeegee angle or flood pressure changed mid-stroke?",
+        "What measurement or registration mark check confirms that the image sits square on all 50 sheets during the press run?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Commercial binderies use hollow rotating steel bits on a paper drill press to bore clean holes through thick paper lifts.",
+          "misconception": "Print shops punch binder holes into a 500-sheet stack of paper using a standard desktop three-hole squeeze punch."
+        },
+        {
+          "fact": "Thick nested signatures cause inner pages to extend past outer pages, making perfect binding better for thick publications.",
+          "misconception": "Saddle stitching can bind a 400-page catalog cleanly without the center folded signatures pushing outward at the fore-edge."
+        },
+        {
+          "fact": "Perfect binding glues page edges into a flat spine that resists lying flat, whereas spiral coils let pages fold all the way back.",
+          "misconception": "Perfect-bound paperback books open completely flat to 360 degrees just like spiral-bound notebooks on a music stand."
+        },
+        {
+          "fact": "Padding adhesive is painted onto only one clamped edge backed by chipboard so individual sheets tear off cleanly.",
+          "misconception": "Padding compound must be brushed heavily across all four sides of a notepad stack so the sheets stay together."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to bypass the two-hand safety switches on a powered guillotine paper cutter during trimming?",
+        "What happens to the outer edges of a thick saddle-stitched booklet before a face trim removes page creep?",
+        "Under what page-count and usage condition is perfect binding or case binding chosen instead of saddle stitching?",
+        "Which physical indicator on the spine distinguishes a sewn hardcover case binding from a glued paperback perfect bind?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Newspaper plants unwind continuous rolls of newsprint through high-speed web offset presses that print, fold, and trim inline.",
+          "misconception": "Daily newspapers feed individual cut sheets of paper one at a time through small tabletop printers for morning delivery."
+        },
+        {
+          "fact": "Commercial plants inspect press sheets inside standardized 5000-Kelvin viewing booths and measure color bars with densitometers.",
+          "misconception": "Press operators judge color accuracy under whatever fluorescent shop bulbs happen to hang above the delivery tray."
+        },
+        {
+          "fact": "Every commercial print job travels with a detailed job jacket or digital ticket specifying stock, ink, quantity, and finishing.",
+          "misconception": "Verbal instructions passed between shifts are sufficient to run a complex multi-color job without a written job ticket."
+        },
+        {
+          "fact": "Printing plants bale paper waste and recycle used aluminum plates to recover material costs and reduce environmental waste.",
+          "misconception": "Aluminum offset plates and paper trimmings from a newspaper press run must be thrown into general landfill dumpsters."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a print job deadline if the prepress department skips customer proofing before burning metal plates?",
+        "Where should visitors stand and what personal protective gear must they wear near high-speed web presses and folders?",
+        "Which physical indicator on a press sheet color bar tells the operator that cyan ink density has drifted off target?",
+        "What measurement on a job ticket tracks a project as it moves from estimation through prepress, press, and bindery?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The graphic communications industry includes prepress specialists, color scientists, packaging engineers, estimators, and press operators.",
+          "misconception": "Graphic arts careers are limited strictly to freelance logo designers working alone on laptops at coffee shops."
+        },
+        {
+          "fact": "Designers who understand press registration, bleed, folding, and paper weight avoid costly production errors and reprints.",
+          "misconception": "Graphic designers only need artistic talent and never need to understand paper grain, ink trapping, or bindery limits."
+        },
+        {
+          "fact": "Automated presses require trained technicians who can calibrate spectrophotometers, troubleshoot workflows, and maintain machinery.",
+          "misconception": "Automation and computer-to-plate systems have eliminated the need for skilled human technicians in modern printing plants."
+        },
+        {
+          "fact": "Many graphic arts professionals enter through trade schools, community college certificates, union apprenticeships, or print programs.",
+          "misconception": "A four-year fine art painting degree is the only educational path accepted for technical roles in commercial printing."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a designer's artwork on press when a prepress technician finds missing bleeds or low-resolution images?",
+        "Which portfolio artifacts demonstrate that a graphic arts applicant understands production constraints as well as design?",
+        "Under what condition must a packaging designer collaborate directly with a structural die-cutter and press operator?",
+        "What measurement and color-management skills distinguish a trained press operator from an entry-level bindery helper?"
+      ],
+      "req_id": "7"
+    }
+  ]
+}

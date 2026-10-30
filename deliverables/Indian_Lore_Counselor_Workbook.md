@@ -1,8 +1,8 @@
 # Indian Lore Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Indian_Lore.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/indian-lore/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/indian-lore/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -92,9 +92,9 @@
 - **Pamphlet Fact:** Indigenous languages feature complex polysynthetic grammars, extensive verb conjugations, and sophisticated tonal systems.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Indian Lore Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Learn 10 common terms)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Learn 10 common terms
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Indian Lore Merit Badge: Learn 10 common terms.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Learn 10 common terms.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Indian Lore Requirement 3 figure showing sequoyah developed eighty-five written symbols representing every distinct syllable.](/assets/pamphlet_images/indian_lore_p012_img1.png)
 

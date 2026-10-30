@@ -1,8 +1,8 @@
 # Home Repairs Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Home%20Repairs.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/home-repairs/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/home-repairs/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -26,8 +26,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Under the supervision of your parent, guardian, or counselor, do THREE of the following: (a) Maintain or recondition a yard tool and show that you know how to clean up and properly store this equipment. (b) Weatherstrip a window or door. (c) Caulk cracks or joints open to the weather. (d) Repair a break in a concrete or asphalt surface. (e) Repair or replace the screen in a window or door. (f) Replace a pane of glass.
-- [ ] **Station Req 3:** Under the supervision of your parent, guardian, or counselor, do THREE of the following: (a) Install or build equipment for storing tools. (b) Build a workbench. (c) Repair a piece of furniture. (d) Paint or varnish a piece of furniture, a door, or trim on a house. (e) Repair a sagging door or gate. (f) Repair a loose step or railing. (g) Repair a fence.
+- [ ] **Station Req 2:** Scout must individually explain mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Scout must individually explain mastery of Requirement 3 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 

@@ -1,8 +1,8 @@
 # American Indian Culture Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Indian_Lore.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/american-indian-culture/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/american-indian-culture/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -92,9 +92,9 @@
 - **Pamphlet Fact:** Many Indigenous words are polysynthetic verbs that communicate complex situational actions.
 
 **Gear & Readiness Checklist:**
-- [ ] Official American Indian Culture Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Learn 10 common terms)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Learn 10 common terms
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official American Indian Culture Merit: Learn 10 common terms.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Learn 10 common terms.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![American Indian Culture Requirement 3 figure showing oral traditions preserve complex verb systems and grammatical nuances without written.](/assets/pamphlet_images/american_indian_culture_p012_img1.png)
 

@@ -68,9 +68,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe the terms fiber, yarn, fabric, and textile are interchangeable synonyms.",
-        "fact": "Fibers are microscopic individual units spun into yarns, which are constructed into fabrics, forming textiles.",
-        "myth": "Beginners often believe the terms fiber, yarn, fabric, and textile are interchangeable synonyms.",
-        "fact_correction": "Fibers are microscopic individual units spun into yarns, which are constructed into fabrics, forming textiles."
+        "fact": "Fibers are microscopic individual units spun into yarns, which are constructed into fabrics, forming textiles."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -106,44 +104,44 @@
         "Step 4 - Technical Discussion: Present daily textile uses and basic structural differences directly to the counselor."
       ],
       "gear_checklist": [
-        "Official Textile merit badge pamphlet and pattern worksheet for Req 1",
-        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion",
-        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk",
-        "Completed sample piece and stitch log for Fibers, Fabrics, and Everyday Textiles"
+        "Official Textile merit badge pamphlet and pattern worksheet for Req 1.",
+        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion.",
+        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk.",
+        "Completed sample piece and stitch log for Fibers, Fabrics, and Everyday Textiles."
       ],
       "comparison_data": {
-        "left_header": "Everyday Apparel and Household Fabrics",
-        "right_header": "Industrial and Architectural Textiles",
+        "left_header": "Req 1: Athletic Apparel Performance",
+        "right_header": "Req 1: Identify Extreme Environment Uses",
         "left_points": [
           "Athletic Apparel Performance Fabrics: Nylon and spandex are also used in swimsuits and other kinds of athletic clothing (p. 10).",
           "Industrial Nylon Safety Nets: Nylon safety nets protect construction workers from falls (p. 10).",
           "Extreme Climate Protective Gear: In the Arctic (p. 10)."
         ],
         "right_points": [
-          "Step 1 - Identify Extreme Environment Uses: In the Arctic (p. 10).",
-          "Step 2 - Examine Architectural Textile Structures: The Denver International Airport terminal is a fabric building on a grand scale (p. 10).",
-          "Step 3 - Layer Woven Fiberglass Panels: Two layers of woven fiberglass let sunlight in but resist dirt (p. 10)."
+          "Identify Extreme Environment Uses: In the Arctic (p. 10).",
+          "Examine Architectural Textile Structures: The Denver International Airport terminal is a fabric building on a grand scale (p. 10).",
+          "Layer Woven Fiberglass Panels: Two layers of woven fiberglass let sunlight in but resist dirt (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Athletic Apparel Performance Fabrics",
+            "attribute": "Raw Fiber Definition",
             "left": "Athletic Apparel Performance Fabrics: Nylon and spandex are also used in swimsuits and other kinds of athletic clothing (p. 10).",
-            "right": "Step 1 - Identify Extreme Environment Uses: In the Arctic (p. 10)."
+            "right": "Identify Extreme Environment Uses: In the Arctic (p. 10)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Interlocking Fabric Matrix",
             "left": "Industrial Nylon Safety Nets: Nylon safety nets protect construction workers from falls (p. 10).",
-            "right": "Step 2 - Examine Architectural Textile Structures: The Denver International Airport terminal is a fabric building on a grand scale (p. 10)."
+            "right": "Examine Architectural Textile Structures: The Denver International Airport terminal is a fabric building on a grand scale (p. 10)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Broad Textile Category",
             "left": "Extreme Climate Protective Gear: In the Arctic (p. 10).",
-            "right": "Step 3 - Layer Woven Fiberglass Panels: Two layers of woven fiberglass let sunlight in but resist dirt (p. 10)."
+            "right": "Layer Woven Fiberglass Panels: Two layers of woven fiberglass let sunlight in but resist dirt (p. 10)."
           }
         ]
       },
       "worked_example": {
-        "title": "Textile Req 1 Exemplar Workbook Entry: Fibers, Fabrics, and Everyday Textiles",
+        "title": "Textile Req 1 Exemplar Workbook Entry: Fibers, Fabrics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Athletic Apparel Performance Fabrics": "Nylon and spandex are also used in swimsuits and other kinds of athletic clothing (p. 10).",
@@ -155,7 +153,7 @@
         "counselor_tip": "For Textile Requirement 1 (Fibers, Fabrics, and Everyday Textiles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Textile Merit Badge Pamphlet (p. 10, p. 25))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do woven fabrics and knitted fabrics differ in the way yarns are assembled, and how does that structure affect the fabric's behavior?",
+        "scenario_prompt": "In what specific ways do woven fabrics and knitted fabrics differ in the way yarns are assembled, and how does that structure affect the fabric's behavior?",
         "question": "How do woven fabrics and knitted fabrics differ in the way yarns are assembled, and how does that structure affect the fabric's behavior?",
         "options": [
           "A. Woven fabrics are fused directly from loose fibers using heat and glue, whereas knitted fabrics are spun without yarn.",
@@ -186,7 +184,33 @@
       "socratic_questions": [
         "Why does an emergency vehicle seatbelt require completely different textile characteristics than a summer neckerchief?",
         "How does the physical diameter of a raw fiber dictate the flexibility of a finished fabric?",
-        "What daily textile objects inside your home serve non-clothing functions without being woven?"
+        "What daily textile objects inside your home serve non-clothing functions without being woven?",
+        "What structural change turns raw loose fibers into a usable yarn before it becomes a woven or knitted fabric?",
+        "Which physical indicator shows whether an everyday item like a seat belt or surgical mask qualifies as a textile?",
+        "Under what condition does a collection of raw fibers qualify as a nonwoven fabric without being spun into yarn?",
+        "Why is it dangerous to wear loose, untreated cotton clothing instead of flame-resistant textiles near an open campfire?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Beginners often believe the terms fiber, yarn, fabric, and textile are interchangeable synonyms.",
+          "fact": "Fibers are microscopic individual units spun into yarns, which are constructed into fabrics, forming textiles."
+        },
+        {
+          "misconception": "Every textile product must be woven or knitted from spun yarn to be classified as a true fabric.",
+          "fact": "Nonwoven fabrics like felt and medical masks bond fibers directly together using heat, chemicals, or mechanical entanglement."
+        },
+        {
+          "misconception": "The terms fiber, yarn, and fabric mean the exact same thing in textile engineering and manufacturing.",
+          "fact": "Fibers are the individual hair-like units that are twisted into yarn, which is then interlaced or bonded to form a finished fabric."
+        },
+        {
+          "misconception": "Textiles are only used for clothing, bedding, and household upholstery rather than heavy industrial engineering.",
+          "fact": "Industrial technical textiles reinforce automobile tires, filter municipal water, and form heat shields on spacecraft."
+        },
+        {
+          "misconception": "All fibers used to make everyday fabrics come exclusively from agricultural plants or sheared farm animals.",
+          "fact": "Manufactured fibers extruded from petrochemicals, wood pulp, and molten glass make up a large share of modern everyday textiles."
+        }
       ]
     },
     {
@@ -231,9 +255,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)",
           "common_misconception_pair": {
             "misconception": "Novelty fabric labels always guarantee 100 percent pure fiber content without hidden core blends.",
-            "fact": "Commercial garment labels must state legal fiber percentages, which requires checking garment care tags.",
-            "myth": "Novelty fabric labels always guarantee 100 percent pure fiber content without hidden core blends.",
-            "fact_correction": "Commercial garment labels must state legal fiber percentages, which requires checking garment care tags."
+            "fact": "Commercial garment labels must state legal fiber percentages, which requires checking garment care tags."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -306,9 +328,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)",
           "common_misconception_pair": {
             "misconception": "Synthetic fibers rot and decompose at similar speeds to natural protein and bast fibers.",
-            "fact": "Petroleum-based synthetic polymers resist biological breakdown and persist in landfills for decades.",
-            "myth": "Synthetic fibers rot and decompose at similar speeds to natural protein and bast fibers.",
-            "fact_correction": "Petroleum-based synthetic polymers resist biological breakdown and persist in landfills for decades."
+            "fact": "Petroleum-based synthetic polymers resist biological breakdown and persist in landfills for decades."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -391,9 +411,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)",
           "common_misconception_pair": {
             "misconception": "Fabrics emerge directly from raw sheared fleece without intermediate carding or spinning steps.",
-            "fact": "Disorganized raw fibers must be aligned into slivers and twisted into yarns before fabric creation.",
-            "myth": "Fabrics emerge directly from raw sheared fleece without intermediate carding or spinning steps.",
-            "fact_correction": "Disorganized raw fibers must be aligned into slivers and twisted into yarns before fabric creation."
+            "fact": "Disorganized raw fibers must be aligned into slivers and twisted into yarns before fabric creation."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -461,9 +479,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)",
           "common_misconception_pair": {
             "misconception": "A garment composed of 100 percent natural fibers is always superior for wet winter expeditions.",
-            "fact": "Cellulose fibers like cotton absorb water and lose insulation properties, causing hypothermia in cold rain.",
-            "myth": "A garment composed of 100 percent natural fibers is always superior for wet winter expeditions.",
-            "fact_correction": "Cellulose fibers like cotton absorb water and lose insulation properties, causing hypothermia in cold rain."
+            "fact": "Cellulose fibers like cotton absorb water and lose insulation properties, causing hypothermia in cold rain."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -566,9 +582,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts frequently think rayon is a fully synthetic petrochemical plastic like nylon or polyester.",
-        "fact": "Rayon is a manufactured cellulosic fiber processed from natural wood pulp or plant polymers.",
-        "myth": "Scouts frequently think rayon is a fully synthetic petrochemical plastic like nylon or polyester.",
-        "fact_correction": "Rayon is a manufactured cellulosic fiber processed from natural wood pulp or plant polymers."
+        "fact": "Rayon is a manufactured cellulosic fiber processed from natural wood pulp or plant polymers."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -604,14 +618,14 @@
         "Step 4 - Garment Specification: Formulate a technical justification for chosen fiber blends in a targeted garment."
       ],
       "gear_checklist": [
-        "Official Textile merit badge pamphlet and pattern worksheet for Req 2",
-        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion",
-        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk",
-        "Completed sample piece and stitch log for Fiber Classifications and Fabric Production"
+        "Official Textile merit badge pamphlet and pattern worksheet for Req 2.",
+        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion.",
+        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk.",
+        "Completed sample piece and stitch log for Fiber Classifications and Fabric Production."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Fabric Swatch Specimen Collection",
-        "right_header": "Req 2c: Fiber to Fabric Processing Sequenc",
+        "left_header": "Req 2a: Fabric Swatch Specimen",
+        "right_header": "Req 2c: Fiber to Fabric Processing",
         "left_points": [
           "(2a) Fabric Swatch Specimen Collection: Gathering unblended natural, fully synthetic, and regenerated cellulosic fabric swatches enables direct physical comparison. Clean edges allow unhindered examination of yarn twists.",
           "(2b) Fiber Origin and Chemical Classification: Natural fibers derive from agricultural plants or animals, whereas synthetics originate from synthesized petroleum chemicals. Cellulosic manufactured fibers chemically dissolve natural cellulose before extruding filaments."
@@ -622,30 +636,30 @@
         ],
         "rows": [
           {
-            "attribute": "Collecting Pure Fiber Swatches",
-            "left": "(2a) Collecting Pure Fiber Swatches: Carbon fibers are extremely strong, stiff, lightweight fibers of nearly pure carbon made by \"baking\" or \"charring\" rayon, pitch, or acrylic fibers (p. 27).",
-            "right": "(2c) Spinning Yarn and Weaving Fabric: Skis with aramid-fiber cores last longer and perform better (p. 27)."
+            "attribute": "Natural Fiber Origin",
+            "left": "(2a) Fabric Swatch Specimen Collection: Gathering unblended natural, fully synthetic, and regenerated cellulosic fabric swatches enables direct physical comparison. Clean edges allow unhindered examination of yarn twists.",
+            "right": "(2c) Fiber to Fabric Processing Sequence: Raw fibers undergo opening, carding, drawing, and spinning to create continuous yarn packages. Weaving on mechanical looms or interlooping on knitting frames converts these yarns into structural fabric."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(2b) Fiber Origins and Characteristics: Aramid fibers are increasingly being used as replacements for steel, fiberglass, asbestos, and aluminum (p. 27).",
-            "right": "(2d) Evaluating Garment Care Labels: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27)."
+            "attribute": "Polymer Extrusion Process",
+            "left": "(2b) Fiber Origin and Chemical Classification: Natural fibers derive from agricultural plants or animals, whereas synthetics originate from synthesized petroleum chemicals. Cellulosic manufactured fibers chemically dissolve natural cellulose before extruding filaments.",
+            "right": "(2d) Garment Fiber Blend Selection Strategy: Evaluating intended environmental conditions helps determine optimal fiber ratios for comfort, moisture wicking, and abrasion resistance. Blending synthetic durability with natural moisture management optimizes outerwear utility."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Flame-Resistant Racing Driver Suits: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27).",
-            "right": "Step 3 - Reinforce Aerospace Composite Structures: They are used to strengthen airplanes and spacecraft (p. 27)."
+            "attribute": "Regenerated Wood Pulp",
+            "left": "Req 2a: Fabric Swatch Specimen: Gathering unblended natural, fully synthetic, and regenerated cellulosic fabric swatches enables direct physical comparison. Clean edges allow unhindered examination of yarn twists.",
+            "right": "Req 2b: Fiber Origin and Chemical: Natural fibers derive from agricultural plants or animals, whereas synthetics originate from synthesized petroleum chemicals. Cellulosic manufactured fibers chemically dissolve natural cellulose before extruding filaments."
           }
         ]
       },
       "worked_example": {
-        "title": "Textile Req 2 Exemplar Workbook Entry: Fiber Classifications and Fabric Production",
+        "title": "Textile Req 2 Exemplar Workbook Entry: Fiber",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Fabric Swatch Specimen Collection": "Gathering unblended natural, fully synthetic, and regenerated cellulosic fabric swatches enables direct physical comparison. Clean edges allow unhindered examination of yarn twists.",
-          "Req 2b - Fiber Origin and Chemical Classif": "Natural fibers derive from agricultural plants or animals, whereas synthetics originate from synthesized petroleum chemicals. Cellulosic manufactured fibers chemically dissolve natural cellulose before extruding filaments.",
-          "Req 2c - Fiber to Fabric Processing Sequen": "Raw fibers undergo opening, carding, drawing, and spinning to create continuous yarn packages. Weaving on mechanical looms or interlooping on knitting frames converts these yarns into structural fabric.",
-          "Req 2d - Garment Fiber Blend Selection Str": "Evaluating intended environmental conditions helps determine optimal fiber ratios for comfort, moisture wicking, and abrasion resistance. Blending synthetic durability with natural moisture management optimizes outerwear utility."
+          "Req 2a - Fabric Swatch Specimen": "Gathering unblended natural, fully synthetic, and regenerated cellulosic fabric swatches enables direct physical comparison. Clean edges allow unhindered examination of yarn twists.",
+          "Req 2b - Fiber Origin and Chemical": "Natural fibers derive from agricultural plants or animals, whereas synthetics originate from synthesized petroleum chemicals. Cellulosic manufactured fibers chemically dissolve natural cellulose before extruding filaments.",
+          "Req 2c - Fiber to Fabric Processing": "Raw fibers undergo opening, carding, drawing, and spinning to create continuous yarn packages. Weaving on mechanical looms or interlooping on knitting frames converts these yarns into structural fabric.",
+          "Req 2d - Garment Fiber Blend Selection": "Evaluating intended environmental conditions helps determine optimal fiber ratios for comfort, moisture wicking, and abrasion resistance. Blending synthetic durability with natural moisture management optimizes outerwear utility."
         },
         "sample_output": "Fiber Classifications and Fabric Production: Carbon fibers are extremely strong, stiff, lightweight fibers of nearly pure carbon made by \"baking\" or \"charring\" rayon, pitch, or acrylic fibers (p. 27).",
         "counselor_tip": "For Textile Requirement 2 (Fiber Classifications and Fabric Production), verify the Scout's own observations and specific pamphlet details (Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62))."
@@ -682,7 +696,33 @@
       "socratic_questions": [
         "Why would a mountaineering shell jacket blend nylon with polyurethane rather than pure cotton?",
         "What mechanical differences occur when spinning short natural staples compared to continuous synthetic filaments?",
-        "How do the absorbency properties of linen compare to hydrophobic synthetic fabrics during exertion?"
+        "In what specific ways do the absorbency properties of linen compare to hydrophobic synthetic fabrics during exertion?",
+        "What happens to a synthetic polyester swatch compared to a 100% cotton swatch when exposed to high heat?",
+        "Which physical indicator on a garment care label confirms that a swatch is a pure fiber rather than a blended fabric?",
+        "Why is rayon classified as a manufactured cellulosic fiber even though it starts from natural wood pulp?",
+        "What happens to the insulating ability of wool versus cotton when a hiker's base layer gets soaked in cold rain?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts frequently think rayon is a fully synthetic petrochemical plastic like nylon or polyester.",
+          "fact": "Rayon is a manufactured cellulosic fiber processed from natural wood pulp or plant polymers."
+        },
+        {
+          "misconception": "Rayon and lyocell are natural plant fibers because their raw material originates from harvested trees and bamboo.",
+          "fact": "Rayon and lyocell are manufactured cellulosic fibers because wood pulp must be chemically dissolved and extruded through a spinneret."
+        },
+        {
+          "misconception": "A 50/50 cotton-polyester blend shirt satisfies the swatch requirement for a pure natural or synthetic sample.",
+          "fact": "Requirement 2a specifies 100% unblended swatches so you can observe the distinct traits of each individual fiber class."
+        },
+        {
+          "misconception": "Synthetic fibers like nylon and polyester absorb more moisture into their core than natural cotton or wool.",
+          "fact": "Most synthetic fibers are hydrophobic and absorb very little water, which helps them dry quickly but can trap body sweat."
+        },
+        {
+          "misconception": "Silk is a plant-based cellulosic fiber harvested from tropical seed pods in the same manner as cotton.",
+          "fact": "Silk is a natural protein fiber extruded by silkworm larvae when they spin protective cocoons during metamorphosis."
+        }
       ]
     },
     {
@@ -725,9 +765,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
             "misconception": "Modern textile manufacturing relies entirely on hand-operated wooden spinning wheels and manual looms.",
-            "fact": "Commercial textile plants use computerized air-jet looms running over one thousand picks per minute.",
-            "myth": "Modern textile manufacturing relies entirely on hand-operated wooden spinning wheels and manual looms.",
-            "fact_correction": "Commercial textile plants use computerized air-jet looms running over one thousand picks per minute."
+            "fact": "Commercial textile plants use computerized air-jet looms running over one thousand picks per minute."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -798,9 +836,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
             "misconception": "Weaving can occur without creating tension across longitudinal warp threads on the frame.",
-            "fact": "Warp yarns must remain under uniform tension to prevent weft distortion and uneven cloth.",
-            "myth": "Weaving can occur without creating tension across longitudinal warp threads on the frame.",
-            "fact_correction": "Warp yarns must remain under uniform tension to prevent weft distortion and uneven cloth."
+            "fact": "Warp yarns must remain under uniform tension to prevent weft distortion and uneven cloth."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -875,9 +911,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
             "misconception": "Knitted fabrics and woven fabrics share the same rigid square grid structure under magnification.",
-            "fact": "Knitted fabrics consist of interlocking curvilinear yarn loops that stretch in multiple directions.",
-            "myth": "Knitted fabrics and woven fabrics share the same rigid square grid structure under magnification.",
-            "fact_correction": "Knitted fabrics consist of interlocking curvilinear yarn loops that stretch in multiple directions."
+            "fact": "Knitted fabrics consist of interlocking curvilinear yarn loops that stretch in multiple directions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -948,9 +982,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
             "misconception": "Synthetic nylon fibers felt together through agitation and warm water just like sheep wool.",
-            "fact": "Synthetic filaments lack the microscopic overlapping cuticle scales essential for natural friction-induced felting.",
-            "myth": "Synthetic nylon fibers felt together through agitation and warm water just like sheep wool.",
-            "fact_correction": "Synthetic filaments lack the microscopic overlapping cuticle scales essential for natural friction-induced felting."
+            "fact": "Synthetic filaments lack the microscopic overlapping cuticle scales essential for natural friction-induced felting."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1029,9 +1061,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
             "misconception": "Natural plant dyes adhere permanently to cotton fibers without mordant pretreatments or simmering heat.",
-            "fact": "Unmordanted botanical dyes fade rapidly during wash cycles because pigments cannot form permanent bonds.",
-            "myth": "Natural plant dyes adhere permanently to cotton fibers without mordant pretreatments or simmering heat.",
-            "fact_correction": "Unmordanted botanical dyes fade rapidly during wash cycles because pigments cannot form permanent bonds."
+            "fact": "Unmordanted botanical dyes fade rapidly during wash cycles because pigments cannot form permanent bonds."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1106,9 +1136,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
             "misconception": "Waterproofing fabric requires completely coating it with solid impermeable rubber that stops air.",
-            "fact": "Durable water-repellent finishes coat fibers to increase liquid contact angles while allowing air permeability.",
-            "myth": "Waterproofing fabric requires completely coating it with solid impermeable rubber that stops air.",
-            "fact_correction": "Durable water-repellent finishes coat fibers to increase liquid contact angles while allowing air permeability."
+            "fact": "Durable water-repellent finishes coat fibers to increase liquid contact angles while allowing air permeability."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1179,9 +1207,7 @@
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
             "misconception": "All synthetic fibers melt into identical hard black beads when exposed to flame.",
-            "fact": "Nylon forms a hard round amber bead, whereas polyester produces a hard black bead.",
-            "myth": "All synthetic fibers melt into identical hard black beads when exposed to flame.",
-            "fact_correction": "Nylon forms a hard round amber bead, whereas polyester produces a hard black bead."
+            "fact": "Nylon forms a hard round amber bead, whereas polyester produces a hard black bead."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1306,9 +1332,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think nonwoven felt is produced by interlocking perpendicular yarns like denim.",
-        "fact": "Felt is a nonwoven sheet assembled by entangling unspun fibers through moisture, heat, and friction.",
-        "myth": "Scouts often think nonwoven felt is produced by interlocking perpendicular yarns like denim.",
-        "fact_correction": "Felt is a nonwoven sheet assembled by entangling unspun fibers through moisture, heat, and friction."
+        "fact": "Felt is a nonwoven sheet assembled by entangling unspun fibers through moisture, heat, and friction."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1344,10 +1368,10 @@
         "Step 4 - Technical Evaluation: Document structural differences, water penetration resistance, and weave consistency for counselor review."
       ],
       "gear_checklist": [
-        "Official Textile merit badge pamphlet and pattern worksheet for Req 3",
-        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion",
-        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk",
-        "Completed sample piece and stitch log for Hands-On Weaving, Dyeing, and Testing"
+        "Official Textile merit badge pamphlet and pattern worksheet for Req 3.",
+        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion.",
+        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk.",
+        "Completed sample piece and stitch log for Hands-On Weaving, Dyeing, and Testing."
       ],
       "comparison_data": {
         "left_header": "Req 3a: Industrial Textile Facility Tour",
@@ -1364,29 +1388,29 @@
         ],
         "rows": [
           {
-            "attribute": "Textile Facility or School Visit",
-            "left": "(3a) Textile Facility or School Visit: You will notice that the natural fibers have scales or a twisted or kinky construction (p. 27).",
-            "right": "(3d) Handcrafted Wool Felt Making: Manufactured fibers are smooth or have been given lengthwise grooves and specially treated to be crimped or twisted (p. 27)."
+            "attribute": "Tensioned Warp Threading",
+            "left": "(3a) Industrial Textile Facility Tour: Touring an operational textile mill or collegiate testing laboratory reveals commercial automation and rigorous quality assurance protocols. Observing large-scale carding machines and high-speed rapier looms illustrates industrial scale production.",
+            "right": "(3d) Wool Fiber Felting Process: Applying warm water, mild soap, and vigorous compression to carded wool causes directional microscopic surface scales to open and interlock. The resulting nonwoven fabric requires neither spinning nor weaving to maintain integrity."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(3b) Simple Loom Weaving Project: Cotton fiber, for instance, looks like a twisted ribbon under a microscope (p. 27).",
-            "right": "(3e) Natural Fabric Dyeing Process: You will notice that the natural fibers have scales or a twisted or kinky construction (p. 27)."
+            "attribute": "Wool Felting Action",
+            "left": "(3b) Simple Loom Weaving Project: Building a cardboard or wooden frame loom teaches fundamental warp tensioning and shed creation. Weaving weft yarns over and under alternating warp ends produces a stable, functional woven article.",
+            "right": "(3e) Natural Botanical Fabric Dyeing: Extracting pigments from onion skins, walnut hulls, or berries produces natural liquid dyes. Preparing fabric with alum mordant bonds botanical chromophores directly into the fiber polymer chains."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "(3c) Magnified Fabric Structure Sketches: The rough texture of natural fibers helps the fibers stay together when they are twisted into yarns (p. 27).",
-            "right": "(3f) Fabric Waterproofing Treatment: Cotton fiber, for instance, looks like a twisted ribbon under a microscope (p. 27)."
+            "attribute": "Natural Mordant Binding",
+            "left": "(3c) Microscopic Fabric Structure Examination: Magnification reveals distinct structural matrices: interlaced perpendicular yarns in wovens, interconnected loops in knits, and random tangled fibers in nonwovens. Sketching these configurations clarifies stretch, porosity, and drape differences.",
+            "right": "(3f) Fabric Water Repellency Treatment: Treating porous woven textiles with molten wax blends or chemical repellents coats individual yarn surfaces without sealing breathable pores. Testing treated specimens under water droplets confirms surface tension resistance."
           }
         ]
       },
       "worked_example": {
-        "title": "Textile Req 3 Exemplar Workbook Entry: Hands-On Weaving, Dyeing, and Testing",
+        "title": "Textile Req 3 Exemplar Workbook Entry: Hands-On Weaving",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Industrial Textile Facility Tour": "Touring an operational textile mill or collegiate testing laboratory reveals commercial automation and rigorous quality assurance protocols. Observing large-scale carding machines and high-speed rapier looms illustrates industrial scale production.",
+          "Req 3a - Industrial Textile Facility": "Touring an operational textile mill or collegiate testing laboratory reveals commercial automation and rigorous quality assurance protocols. Observing large-scale carding machines and high-speed rapier looms illustrates industrial scale production.",
           "Req 3b - Simple Loom Weaving Project": "Building a cardboard or wooden frame loom teaches fundamental warp tensioning and shed creation. Weaving weft yarns over and under alternating warp ends produces a stable, functional woven article.",
-          "Req 3c - Microscopic Fabric Structure Exam": "Magnification reveals distinct structural matrices: interlaced perpendicular yarns in wovens, interconnected loops in knits, and random tangled fibers in nonwovens. Sketching these configurations clarifies stretch, porosity, and drape differences.",
+          "Req 3c - Microscopic Fabric Structure": "Magnification reveals distinct structural matrices: interlaced perpendicular yarns in wovens, interconnected loops in knits, and random tangled fibers in nonwovens. Sketching these configurations clarifies stretch, porosity, and drape differences.",
           "Req 3d - Wool Fiber Felting Process": "Applying warm water, mild soap, and vigorous compression to carded wool causes directional microscopic surface scales to open and interlock. The resulting nonwoven fabric requires neither spinning nor weaving to maintain integrity."
         },
         "sample_output": "Hands-On Weaving, Dyeing, and Testing: You will notice that the natural fibers have scales or a twisted or kinky construction (p. 27).",
@@ -1424,7 +1448,33 @@
       "socratic_questions": [
         "Why does wool felt shrink irreversibly when washed in hot agitated water while polyester does not?",
         "How does the interlacing angle of warp and weft yarns provide structural stability in plain weaves?",
-        "What chemical role does a mordant play in preventing botanical dyes from washing out?"
+        "What chemical role does a mordant play in preventing botanical dyes from washing out?",
+        "Which visual pattern under a magnifying glass distinguishes a knitted fabric from a plain woven or nonwoven sample?",
+        "What happens to the width of a handwoven belt on a simple cardboard loom if you pull the weft yarn too tight on each pass?",
+        "Why is it dangerous to boil natural dye baths or apply waterproofing chemicals in unventilated indoor spaces or food pots?",
+        "What microscopic surface structure on wool fibers allows hot water and agitation to lock them into a dense felt sheet?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think nonwoven felt is produced by interlocking perpendicular yarns like denim.",
+          "fact": "Felt is a nonwoven sheet assembled by entangling unspun fibers through moisture, heat, and friction."
+        },
+        {
+          "misconception": "Knitted fabrics are constructed by crisscrossing two perpendicular sets of straight yarns over and under each other.",
+          "fact": "Woven fabrics interlace perpendicular warp and weft yarns, whereas knitted fabrics form interlocking loops that stretch easily."
+        },
+        {
+          "misconception": "Acrylic and polyester yarns will felt and shrink into a solid mat just like 100% animal wool in hot soapy water.",
+          "fact": "Only animal hair fibers like wool have microscopic overlapping scales that ratchet together during wet felting agitation."
+        },
+        {
+          "misconception": "Natural plant dyes from berries or onion skins bond permanently to cotton fibers without needing a mordant.",
+          "fact": "Most natural dyes wash out of cellulose fibers rapidly unless the fabric is pre-treated with a mineral mordant like alum or iron."
+        },
+        {
+          "misconception": "Waterproofed canvas and water-repellent fabrics block liquid water using the exact same pore-sealing coating.",
+          "fact": "Water-repellent finishes cause droplets to bead while leaving pores breathable, whereas waterproof coatings seal pores completely."
+        }
       ]
     },
     {
@@ -1479,9 +1529,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often confuse warp and weft yarns, assuming warp runs horizontally across width.",
-        "fact": "Warp yarns run lengthwise under tension, while weft yarns travel crosswise through the shed.",
-        "myth": "Scouts often confuse warp and weft yarns, assuming warp runs horizontally across width.",
-        "fact_correction": "Warp yarns run lengthwise under tension, while weft yarns travel crosswise through the shed."
+        "fact": "Warp yarns run lengthwise under tension, while weft yarns travel crosswise through the shed."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1517,44 +1565,44 @@
         "Step 4 - Counselor Presentation: Explain ten chosen definitions clearly to the counselor using diagrams and swatches."
       ],
       "gear_checklist": [
-        "Official Textile merit badge pamphlet and pattern worksheet for Req 4",
-        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion",
-        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk",
-        "Completed sample piece and stitch log for Essential Weaving and Fiber Vocabulary"
+        "Official Textile merit badge pamphlet and pattern worksheet for Req 4.",
+        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion.",
+        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk.",
+        "Completed sample piece and stitch log for Essential Weaving and Fiber Vocabulary."
       ],
       "comparison_data": {
-        "left_header": "Loom Components and Weaving Mechanics",
-        "right_header": "Fiber Spinning and Extrusion Terms",
+        "left_header": "Req 4: Aramid Industrial Fiber Uses",
+        "right_header": "Req 4: Define Flame-Resistant Aramid",
         "left_points": [
           "Aramid Industrial Fiber Uses: Aramid fibers are increasingly being used as replacements for steel, fiberglass, asbestos, and aluminum (p. 27).",
           "Durable Aramid Ski Cores: Skis with aramid-fiber cores last longer and perform better (p. 27).",
           "Thermal Protection in Racing: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27)."
         ],
         "right_points": [
-          "Step 1 - Define Flame-Resistant Aramid Terms: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27).",
-          "Step 2 - Explain Carbon Fiber Pyrolysis: Carbon fibers are extremely strong, stiff, lightweight fibers of nearly pure carbon made by \"baking\" or \"charring\" rayon, pitch, or acrylic fibers (p. 27).",
-          "Step 3 - Connect Terms to Aerospace Uses: They are used to strengthen airplanes and spacecraft (p. 27)."
+          "Define Flame-Resistant Aramid Terms: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27).",
+          "Explain Carbon Fiber Pyrolysis: Carbon fibers are extremely strong, stiff, lightweight fibers of nearly pure carbon made by \"baking\" or \"charring\" rayon, pitch, or acrylic fibers (p. 27).",
+          "Connect Terms to Aerospace Uses: They are used to strengthen airplanes and spacecraft (p. 27)."
         ],
         "rows": [
           {
-            "attribute": "Aramid Industrial Fiber Uses",
+            "attribute": "Loom Harness Function",
             "left": "Aramid Industrial Fiber Uses: Aramid fibers are increasingly being used as replacements for steel, fiberglass, asbestos, and aluminum (p. 27).",
-            "right": "Step 1 - Define Flame-Resistant Aramid Terms: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27)."
+            "right": "Define Flame-Resistant Aramid Terms: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Spinneret Extrusion Role",
             "left": "Durable Aramid Ski Cores: Skis with aramid-fiber cores last longer and perform better (p. 27).",
-            "right": "Step 2 - Explain Carbon Fiber Pyrolysis: Carbon fibers are extremely strong, stiff, lightweight fibers of nearly pure carbon made by \"baking\" or \"charring\" rayon, pitch, or acrylic fibers (p. 27)."
+            "right": "Explain Carbon Fiber Pyrolysis: Carbon fibers are extremely strong, stiff, lightweight fibers of nearly pure carbon made by \"baking\" or \"charring\" rayon, pitch, or acrylic fibers (p. 27)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Aramid Polymer Strength",
             "left": "Thermal Protection in Racing: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27).",
-            "right": "Step 3 - Connect Terms to Aerospace Uses: They are used to strengthen airplanes and spacecraft (p. 27)."
+            "right": "Connect Terms to Aerospace Uses: They are used to strengthen airplanes and spacecraft (p. 27)."
           }
         ]
       },
       "worked_example": {
-        "title": "Textile Req 4 Exemplar Workbook Entry: Essential Weaving and Fiber Vocabulary",
+        "title": "Textile Req 4 Exemplar Workbook Entry: Essential Weaving",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Aramid Industrial Fiber Uses": "Aramid fibers are increasingly being used as replacements for steel, fiberglass, asbestos, and aluminum (p. 27).",
@@ -1597,7 +1645,33 @@
       "socratic_questions": [
         "Why must aramid fibers be solution-spun through specialized spinnerets rather than melt-spun like polyester?",
         "How does the mechanical motion of the loom harness create the shed for weft insertion?",
-        "What processing steps must greige goods undergo before becoming retail clothing fabric?"
+        "What processing steps must greige goods undergo before becoming retail clothing fabric?",
+        "What mechanical role do the harness and heddles play in opening a shed for the shuttle to pass through on a loom?",
+        "Which processing step separates a soft carded sliver from a finished worsted yarn ready for weaving suiting fabric?",
+        "What happens to a polymer solution as it is forced through the tiny holes of a spinneret during synthetic fiber extrusion?",
+        "Why do textile mills inspect and test greige goods before investing energy and chemicals into bleaching, dyeing, or printing?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often confuse warp and weft yarns, assuming warp runs horizontally across width.",
+          "fact": "Warp yarns run lengthwise under tension, while weft yarns travel crosswise through the shed."
+        },
+        {
+          "misconception": "The shed on a weaving loom refers to the storage room where raw cotton bales and wooden spindles are kept dry.",
+          "fact": "In weaving, the shed is the temporary V-shaped opening between raised and lowered warp threads through which the weft passes."
+        },
+        {
+          "misconception": "Aramid and carbon fibers are stretchy elastomers used alongside spandex in athletic compression shorts.",
+          "fact": "Aramid fibers provide heat and ballistic protection, while carbon fibers offer rigid, high-strength reinforcement for aerospace parts."
+        },
+        {
+          "misconception": "Greige goods are defective fabrics that have turned gray from mildew damage during ocean shipping.",
+          "fact": "Greige goods are freshly woven or knitted fabrics straight off the loom that have not yet been bleached, dyed, or finished."
+        },
+        {
+          "misconception": "All natural fibers come in continuous filaments, whereas all manufactured fibers are produced only in short staple lengths.",
+          "fact": "Most natural fibers except silk grow in short staple lengths, while extruded synthetic filaments are often cut into staple for blending."
+        }
       ]
     },
     {
@@ -1654,9 +1728,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts frequently assume all natural plant fibers are ecologically harmless compared to synthetics.",
-        "fact": "Conventional cotton farming consumes intense irrigation water volumes and heavy synthetic agricultural pesticides.",
-        "myth": "Scouts frequently assume all natural plant fibers are ecologically harmless compared to synthetics.",
-        "fact_correction": "Conventional cotton farming consumes intense irrigation water volumes and heavy synthetic agricultural pesticides."
+        "fact": "Conventional cotton farming consumes intense irrigation water volumes and heavy synthetic agricultural pesticides."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1692,44 +1764,44 @@
         "Step 4 - Discussion Delivery: Review life-cycle impacts and sustainable garment care practices thoroughly with the counselor."
       ],
       "gear_checklist": [
-        "Official Textile merit badge pamphlet and pattern worksheet for Req 5",
-        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion",
-        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk",
-        "Completed sample piece and stitch log for Fiber Trade-Offs and Ecological Concerns"
+        "Official Textile merit badge pamphlet and pattern worksheet for Req 5.",
+        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion.",
+        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk.",
+        "Completed sample piece and stitch log for Fiber Trade-Offs and Ecological Concerns."
       ],
       "comparison_data": {
-        "left_header": "Biodegradable Natural Fiber Advantages",
-        "right_header": "Durable Synthetic Fiber Trade-Offs",
+        "left_header": "Req 5: Replacing Hazardous Asbestos",
+        "right_header": "Req 5: Compare Specialized Fiber",
         "left_points": [
           "Replacing Hazardous Asbestos Fibers: Aramid fibers are increasingly being used as replacements for steel, fiberglass, asbestos, and aluminum (p. 27).",
           "Extending Product Service Life: Skis with aramid-fiber cores last longer and perform better (p. 27).",
           "Specialized Protective Fiber Benefits: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27)."
         ],
         "right_points": [
-          "Step 1 - Compare Specialized Fiber Strengths: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27).",
-          "Step 2 - Assess Manufacturing Energy Demands: Carbon fibers are extremely strong, stiff, lightweight fibers of nearly pure carbon made by \"baking\" or \"charring\" rayon, pitch, or acrylic fibers (p. 27).",
-          "Step 3 - Weigh Durability Against Cost: They are used to strengthen airplanes and spacecraft (p. 27)."
+          "Compare Specialized Fiber Strengths: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27).",
+          "Assess Manufacturing Energy Demands: Carbon fibers are extremely strong, stiff, lightweight fibers of nearly pure carbon made by \"baking\" or \"charring\" rayon, pitch, or acrylic fibers (p. 27).",
+          "Weigh Durability Against Cost: They are used to strengthen airplanes and spacecraft (p. 27)."
         ],
         "rows": [
           {
-            "attribute": "Replacing Hazardous Asbestos Fibers",
+            "attribute": "Agricultural Water Consumption",
             "left": "Replacing Hazardous Asbestos Fibers: Aramid fibers are increasingly being used as replacements for steel, fiberglass, asbestos, and aluminum (p. 27).",
-            "right": "Step 1 - Compare Specialized Fiber Strengths: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27)."
+            "right": "Compare Specialized Fiber Strengths: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Microplastic Marine Contamination",
             "left": "Extending Product Service Life: Skis with aramid-fiber cores last longer and perform better (p. 27).",
-            "right": "Step 2 - Assess Manufacturing Energy Demands: Carbon fibers are extremely strong, stiff, lightweight fibers of nearly pure carbon made by \"baking\" or \"charring\" rayon, pitch, or acrylic fibers (p. 27)."
+            "right": "Assess Manufacturing Energy Demands: Carbon fibers are extremely strong, stiff, lightweight fibers of nearly pure carbon made by \"baking\" or \"charring\" rayon, pitch, or acrylic fibers (p. 27)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Wool Methane Emissions",
             "left": "Specialized Protective Fiber Benefits: Racing drivers wear aramid suits that help prevent them from burning to death in fiery, high-speed crashes (p. 27).",
-            "right": "Step 3 - Weigh Durability Against Cost: They are used to strengthen airplanes and spacecraft (p. 27)."
+            "right": "Weigh Durability Against Cost: They are used to strengthen airplanes and spacecraft (p. 27)."
           }
         ]
       },
       "worked_example": {
-        "title": "Textile Req 5 Exemplar Workbook Entry: Fiber Trade-Offs and Ecological Concerns",
+        "title": "Textile Req 5 Exemplar Workbook Entry: Fiber Trade-Offs",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
           "Replacing Hazardous Asbestos Fibers": "Aramid fibers are increasingly being used as replacements for steel, fiberglass, asbestos, and aluminum (p. 27).",
@@ -1772,7 +1844,33 @@
       "socratic_questions": [
         "How does the water consumption of conventional cotton compare to that of rain-fed bast linen?",
         "What engineering solutions prevent microplastics from shedding during residential washing machine agitation cycles?",
-        "Why does closed-loop lyocell processing present lower environmental hazards than traditional viscose rayon manufacturing?"
+        "Why does closed-loop lyocell processing present lower environmental hazards than traditional viscose rayon manufacturing?",
+        "What happens to synthetic fleece garments in a home washing machine that creates an ecological hazard in waterways?",
+        "Which resource trade-off must you weigh when comparing irrigation-heavy cotton farming against petroleum-based polyester?",
+        "Under what condition does manufacturing cellulosic rayon cause severe chemical pollution despite using renewable wood pulp?",
+        "What changes in consumer laundry habits reduce the largest share of energy consumption across a garment's life cycle?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts frequently assume all natural plant fibers are ecologically harmless compared to synthetics.",
+          "fact": "Conventional cotton farming consumes intense irrigation water volumes and heavy synthetic agricultural pesticides."
+        },
+        {
+          "misconception": "Natural plant fibers like conventional cotton have zero environmental footprint because they are biodegradable crops.",
+          "fact": "Conventional cotton cultivation requires large volumes of irrigation water, synthetic fertilizers, and agricultural pesticides."
+        },
+        {
+          "misconception": "Synthetic garments only pollute the environment when they are discarded into municipal landfills at the end of their use.",
+          "fact": "Synthetic textiles shed thousands of microscopic plastic fibers into wastewater during every routine household laundry cycle."
+        },
+        {
+          "misconception": "Manufacturing factory production accounts for nearly all of the energy consumed over a textile garment's life cycle.",
+          "fact": "Repeated consumer washing in hot water and high-heat tumble drying often consume more total energy than initial fabric manufacturing."
+        },
+        {
+          "misconception": "Blended fabrics like poly-cotton are the easiest textiles to recycle into new high-grade clothing fibers.",
+          "fact": "Intimately blended natural and synthetic fibers are difficult to separate chemically or mechanically during textile recycling."
+        }
       ]
     },
     {
@@ -1845,9 +1943,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume modern textile industry jobs are limited to manual sewing machine operators.",
-        "fact": "Textile careers heavily emphasize materials science, polymer chemistry, automated robotics engineering, and software design.",
-        "myth": "Scouts often assume modern textile industry jobs are limited to manual sewing machine operators.",
-        "fact_correction": "Textile careers heavily emphasize materials science, polymer chemistry, automated robotics engineering, and software design."
+        "fact": "Textile careers heavily emphasize materials science, polymer chemistry, automated robotics engineering, and software design."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1883,44 +1979,44 @@
         "Step 4 - Counselor Briefing: Deliver a structured written or verbal career report directly to the counselor."
       ],
       "gear_checklist": [
-        "Official Textile merit badge pamphlet and pattern worksheet for Req 6",
-        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion",
-        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk",
-        "Completed sample piece and stitch log for Careers in the Textile Industry"
+        "Official Textile merit badge pamphlet and pattern worksheet for Req 6.",
+        "Fabric swatches, thread spools, hand-sewing needles, and pin cushion.",
+        "Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk.",
+        "Completed sample piece and stitch log for Careers in the Textile Industry."
       ],
       "comparison_data": {
-        "left_header": "Textile Engineering and Mill Production",
-        "right_header": "Marketing, Sales, and Communications Roles",
+        "left_header": "Req 6: Advertising and Public Relations",
+        "right_header": "Req 6: Explore Creative Communication",
         "left_points": [
           "Advertising and Public Relations: If you are good in English, a textile company might hire you to work in its advertising or public relations departments (p. 71).",
           "Print and Broadcast Campaigns: You see fabric advertisements in magazines and newspapers and look at television commercials for items made of fabrics (p. 71).",
           "Creative Artists and Copywriters: This work is done by artists and writers who work either for the textile companies or for their advertising agencies (p. 71)."
         ],
         "right_points": [
-          "Step 1 - Explore Creative Communication Roles: This work is done by artists and writers who work either for the textile companies or for their advertising agencies (p. 71).",
-          "Step 2 - Develop Deep Product Knowledge: Selling calls for people who like people, who welcome challenges, who are enthusiastic, and who know the product they sell (p. 71).",
-          "Step 3 - Evaluate Sales and Marketing Paths: If you think you have these qualities, you could think about a career in textile sales, sales management, or marketing (p. 71)."
+          "Explore Creative Communication Roles: This work is done by artists and writers who work either for the textile companies or for their advertising agencies (p. 71).",
+          "Develop Deep Product Knowledge: Selling calls for people who like people, who welcome challenges, who are enthusiastic, and who know the product they sell (p. 71).",
+          "Evaluate Sales and Marketing Paths: If you think you have these qualities, you could think about a career in textile sales, sales management, or marketing (p. 71)."
         ],
         "rows": [
           {
-            "attribute": "Advertising and Public Relations",
+            "attribute": "Textile Chemist Responsibilities",
             "left": "Advertising and Public Relations: If you are good in English, a textile company might hire you to work in its advertising or public relations departments (p. 71).",
-            "right": "Step 1 - Explore Creative Communication Roles: This work is done by artists and writers who work either for the textile companies or for their advertising agencies (p. 71)."
+            "right": "Explore Creative Communication Roles: This work is done by artists and writers who work either for the textile companies or for their advertising agencies (p. 71)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Materials Engineering Roles",
             "left": "Print and Broadcast Campaigns: You see fabric advertisements in magazines and newspapers and look at television commercials for items made of fabrics (p. 71).",
-            "right": "Step 2 - Develop Deep Product Knowledge: Selling calls for people who like people, who welcome challenges, who are enthusiastic, and who know the product they sell (p. 71)."
+            "right": "Develop Deep Product Knowledge: Selling calls for people who like people, who welcome challenges, who are enthusiastic, and who know the product they sell (p. 71)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Weave Room Management",
             "left": "Creative Artists and Copywriters: This work is done by artists and writers who work either for the textile companies or for their advertising agencies (p. 71).",
-            "right": "Step 3 - Evaluate Sales and Marketing Paths: If you think you have these qualities, you could think about a career in textile sales, sales management, or marketing (p. 71)."
+            "right": "Evaluate Sales and Marketing Paths: If you think you have these qualities, you could think about a career in textile sales, sales management, or marketing (p. 71)."
           }
         ]
       },
       "worked_example": {
-        "title": "Textile Req 6 Exemplar Workbook Entry: Careers in the Textile Industry",
+        "title": "Textile Req 6 Exemplar Workbook Entry: Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
           "Advertising and Public Relations": "If you are good in English, a textile company might hire you to work in its advertising or public relations departments (p. 71).",
@@ -1963,7 +2059,33 @@
       "socratic_questions": [
         "How does an education in polymer chemistry prepare a scientist for technical outerwear design?",
         "What commercial advantages does a textile plant gain by employing dedicated quality assurance technicians?",
-        "Which emerging textile careers address microplastic pollution and post-consumer garment recycling challenges?"
+        "Which emerging textile careers address microplastic pollution and post-consumer garment recycling challenges?",
+        "Which daily engineering duties separate a textile chemical colorist from a mechanical loom maintenance technician?",
+        "What laboratory tests would a textile quality assurance engineer run before approving fabric for firefighter turnout gear?",
+        "Where do polymer chemists and industrial designers collaborate when developing a new moisture-wicking athletic fabric?",
+        "What financial and career factors should you compare between a technical apprenticeship and a four-year textile degree?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often assume modern textile industry jobs are limited to manual sewing machine operators.",
+          "fact": "Textile careers heavily emphasize materials science, polymer chemistry, automated robotics engineering, and software design."
+        },
+        {
+          "misconception": "Careers in the textile industry are limited to low-skill sewing machine operation and retail clothing sales.",
+          "fact": "The modern textile sector employs polymer chemists, biomedical engineers, automated loom programmers, and supply chain analysts."
+        },
+        {
+          "misconception": "Every high-paying technical position in a modern textile plant requires a four-year university engineering degree.",
+          "fact": "Automated weaving technicians and dyeing machinery specialists often train through community colleges and paid manufacturer apprenticeships."
+        },
+        {
+          "misconception": "Fashion designers select fabric aesthetics without needing to understand fiber chemistry, weave structure, or shrinkage.",
+          "fact": "Apparel and textile designers must evaluate drape, tensile strength, colorfastness, and care requirements so garments perform in use."
+        },
+        {
+          "misconception": "The United States textile industry has completely vanished and no longer conducts research or manufacturing.",
+          "fact": "Domestic textile mills and universities lead global research in nonwoven medical fabrics, aerospace composites, and smart e-textiles."
+        }
       ]
     }
   ],

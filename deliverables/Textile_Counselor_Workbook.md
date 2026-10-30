@@ -1,8 +1,8 @@
 # Textile Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Textile.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/textile/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/textile/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -72,10 +72,10 @@
 - **Pamphlet Fact:** Commercial garment labels must state legal fiber percentages, which requires checking garment care tags.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Textile merit badge pamphlet and pattern worksheet for Req 2
-- [ ] Fabric swatches, thread spools, hand-sewing needles, and pin cushion
-- [ ] Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk
-- [ ] Completed sample piece and stitch log for Fiber Classifications and Fabric Production
+- [ ] Official Textile merit badge pamphlet and pattern worksheet for Req 2.
+- [ ] Fabric swatches, thread spools, hand-sewing needles, and pin cushion.
+- [ ] Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk.
+- [ ] Completed sample piece and stitch log for Fiber Classifications and Fabric Production.
 
 ![Textile Requirement 2 figure showing plant crops and animal fleeces yield staple fibers without synthetic chemical synthesis.](/assets/pamphlet_images/textile_p007_img1.png)
 

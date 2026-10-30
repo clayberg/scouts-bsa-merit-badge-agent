@@ -1,0 +1,275 @@
+{
+  "badge_slug": "signs-signals-and-codes",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Codes like Morse, Braille, and ASCII were created for efficient transmission and accessibility rather than secrecy.",
+          "misconception": "All communication codes are designed to hide secret information from unauthorized eavesdroppers."
+        },
+        {
+          "fact": "Smoke signals relied on prearranged meanings between specific lookouts, such as one puff for attention or three for danger.",
+          "misconception": "Smoke signals used by Indigenous peoples transmitted complex, universal sentences across any tribe."
+        },
+        {
+          "fact": "A sign is a passive, permanent marker like a stop octagon, while a signal changes state dynamically like a traffic light.",
+          "misconception": "A road sign and a traffic signal are identical communication tools because both guide drivers on the street."
+        },
+        {
+          "fact": "Claude Chappe built a nationwide optical semaphore tower network across France decades before electric telegraph wires existed.",
+          "misconception": "The electric telegraph was the first long-distance communication network capable of relaying coded messages."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes a universal static sign from a dynamic signal or a secret cipher in field communication?",
+        "Under what environmental conditions did early Chappe optical telegraphs fail compared to electric telegraphs?",
+        "Which historical limitation of smoke and drum relays drove the invention of standardized alphanumeric codes?",
+        "Why is shared context between sender and receiver required before a symbol can function as a reliable sign?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A true rescue signal mirror includes a retroreflective sighting hole that aligns the reflected sunbeam directly onto the target.",
+          "misconception": "An ordinary pocket cosmetic mirror works just as well as a dedicated rescue signal mirror for aircraft."
+        },
+        {
+          "fact": "Three evenly spaced whistle blasts, flashes, or smoke columns form the universal wilderness distress signal, whereas two mean all clear.",
+          "misconception": "Two whistle blasts or two fire columns represent the universal wilderness distress call across North America."
+        },
+        {
+          "fact": "Ground-to-air symbols must be at least 10 feet tall and 3 feet wide with high shadow or color contrast to be seen from the air.",
+          "misconception": "Ground-to-air symbols drawn at normal handwriting scale in the dirt are visible to search aircraft crews."
+        },
+        {
+          "fact": "Thick white smoke from damp foliage works best in daylight, while a bright open flame stands out only after dark.",
+          "misconception": "A bright, smokeless flame is the most effective fire signal for attracting rescue helicopters at midday."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a Scout position ground-to-air symbols so an aircraft pilot at altitude can spot them clearly?",
+        "What happens to a daytime signal fire when you pile green pine needles or damp leaves onto hot dry coals?",
+        "What minimum trench length and width make a ground-to-air V or X readable from a search helicopter?",
+        "Why is it dangerous to aim a rescue laser flare directly into the cockpit of an approaching aircraft?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "American Sign Language is an independent language with its own topic-comment grammar, spatial syntax, and facial modifiers.",
+          "misconception": "American Sign Language is simply a word-for-word manual translation of spoken English grammar and syntax."
+        },
+        {
+          "fact": "Fluent ASL signers reserve fingerspelling mainly for proper nouns, technical terms, and words without an established sign.",
+          "misconception": "Fingerspelling every single word in a conversation is the standard way fluent ASL signers communicate."
+        },
+        {
+          "fact": "A standard Morse dash lasts three dot units, the pause between letters is three units, and the pause between words is seven units.",
+          "misconception": "A Morse code dash lasts twice as long as a dot, and the gap between words equals three dot lengths."
+        },
+        {
+          "fact": "Learning the rhythmic sound or light cadence of each complete character allows operators to copy messages at practical speeds.",
+          "misconception": "Counting individual dots and dashes visually on a paper chart is the fastest way to copy live Morse code."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What timing ratio between a dot, a dash, a letter pause, and a word pause prevents Morse letters from merging?",
+        "Which facial expressions and eyebrow movements change a statement into a question in American Sign Language?",
+        "What happens to receiver accuracy when a sender speeds up individual Morse letters without widening the spaces?",
+        "Where should you hold your dominant hand during ASL fingerspelling to prevent eye strain for the viewer?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Semaphore characters depend solely on the clock-face angles of the two flags, regardless of which hand holds each position.",
+          "misconception": "Each of the two hand flags in semaphore has a unique meaning based on whether it is in the left or right hand."
+        },
+        {
+          "fact": "Every single nautical flag also carries an urgent standalone meaning, such as Alfa for a diver down or Oscar for man overboard.",
+          "misconception": "International maritime signal flags can only spell out words letter by letter across a ship's halyard."
+        },
+        {
+          "fact": "Semaphore uses eight arm positions in combinations and reuses letters A through I and K for digits after a numeral prefix sign.",
+          "misconception": "Semaphore uses thirty-six distinct arm angles so that letters A through Z and digits 0 through 9 never overlap."
+        },
+        {
+          "fact": "The sender always faces the receiver squarely with arms fully extended in the same vertical plane, and the viewer reads the mirror image.",
+          "misconception": "A semaphore sender faces away from the receiver so the clock-face angles match the viewer's left and right."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why do Navy signalmen choose diagonal red-and-yellow Oscar flags over blue-and-white Papa flags at sea?",
+        "What happens to a semaphore message when the sender forgets to flash the numeral sign before sending digits?",
+        "Where should a semaphore sender stand relative to the horizon or trees so the receiver reads clean angles?",
+        "Which operational need makes U.S. Navy warships use flaghoist or semaphore during Underway Replenishment?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Braille is a tactile writing code with specific alphabets mapped to English, Spanish, French, music, and mathematics.",
+          "misconception": "Braille is a universal spoken language that replaces English, Spanish, or French for blind readers."
+        },
+        {
+          "fact": "A six-dot cell allows only 63 dot patterns, so prefix indicators precede cells to shift them into capitals or numbers.",
+          "misconception": "Every single Braille cell represents a unique capital letter, lowercase letter, or numeric digit on its own."
+        },
+        {
+          "fact": "Tactile readers glide the pads of both index fingers lightly from left to right across the line to sense dot shapes.",
+          "misconception": "Pushing hard on a single stationary Braille cell with one thumb is the proper technique for tactile reading."
+        },
+        {
+          "fact": "Because the stylus pushes dots down into the back of the paper, you must emboss mirror-reversed cells from right to left.",
+          "misconception": "When using a handheld slate and stylus, you punch dots from left to right just as you read the finished page."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why must a writer punch dots from right to left when embossing paper manually with a slate and stylus?",
+        "Which dot numbers form the left column and right column of a standard six-dot Braille cell when reading?",
+        "What happens to raised Braille dots if you rub your fingertips up and down instead of gliding left to right?",
+        "What pattern connects the first ten Braille letters A through J to the second decade of letters K through T?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Visual hand signals require an unobstructed line of sight and relay Scouts at every bend, whereas sound penetrates fog and brush.",
+          "misconception": "Silent Scout hand signals work through dense fog or thick forest canopy because Scouts sense the motion."
+        },
+        {
+          "fact": "Pumping a closed fist up and down commands the patrol to move faster or double-time, while a flat palm pushed down means crouch.",
+          "misconception": "Pumping a closed fist up and down in a Scout formation instructs the patrol to sit down and rest in place."
+        },
+        {
+          "fact": "Every Scout in the column must watch the leader and relay the hand signal backward so the entire file receives the command.",
+          "misconception": "Only the Scout at the very back of a hiking line needs to watch the patrol leader for silent trail signals."
+        },
+        {
+          "fact": "High-frequency tones reflect off hard walls and confuse direction, which is why modern emergency vehicles add broadband white noise.",
+          "misconception": "High-pitched electronic sirens give listeners exact directional awareness inside urban canyons or buildings."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Under what weather or terrain conditions do acoustic whistle blasts outperform silent hand signals on a hike?",
+        "Which physical indicator tells a patrol leader that every Scout in a single-file column received a silent halt?",
+        "What happens to a patrol's reaction when a leader gives the silent assembly gesture versus the rally gesture?",
+        "Why is it dangerous to rely solely on voice commands when guiding a patrol across a noisy whitewater river?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Cutting bark wounds living trees and violates the Outdoor Code; Scouts use reversible rocks, dead twigs, or tied grass instead.",
+          "misconception": "Hacking bark blazes into live trees with a hatchet is an acceptable way for Scouts to mark a temporary trail."
+        },
+        {
+          "fact": "A smaller pointer stone placed on the right side of a base rock directs hikers to turn right, while left placement means turn left.",
+          "misconception": "In a two-rock trail sign, a smaller stone placed to the right of a large base stone means turn left."
+        },
+        {
+          "fact": "Three stacked stones or three stones in a row warn of danger or mean stop, whereas two stacked stones mean this is the trail.",
+          "misconception": "Three pebbles stacked in a single vertical column tell following Scouts that the trail is safe and clear ahead."
+        },
+        {
+          "fact": "Leave No Trace requires using only fallen deadwood, loose pebbles, or gently knotted grass that can be untied without damage.",
+          "misconception": "Snapping green branches in half is the proper way to build pointer arrows along a wilderness footpath."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where along a trail intersection should you place a turn marker so following Scouts do not walk past the fork?",
+        "Which twig, pebble, or grass arrangement indicates a right turn versus warning of an obstacle ahead?",
+        "Why is it dangerous to leave practice rock cairns standing after your patrol finishes a one-mile trail exercise?",
+        "What cleanup role should the sweep Scout at the back of the patrol perform on a Leave No Trace trail course?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A left arm extended straight out horizontally signals a left turn, while a left arm bent downward at 90 degrees signals a stop.",
+          "misconception": "A cyclist extending the left arm straight out to the left side is signaling an immediate stop to traffic."
+        },
+        {
+          "fact": "Only one designated signal person may direct the crane operator at a time, except that anyone may give an emergency stop signal.",
+          "misconception": "Any crew member on a construction site may direct a crane operator whenever they notice the load shifting."
+        },
+        {
+          "fact": "If the equipment operator loses direct eye contact with the spotter for even a second, the operator must stop all machine motion.",
+          "misconception": "A heavy-equipment spotter standing in a blind spot can still guide a bulldozer safely using hand signals."
+        },
+        {
+          "fact": "Jet blast noise exceeds 140 decibels and radio channels can fail, so color-coded deck crews rely on visual catapult hand signals.",
+          "misconception": "Aircraft carrier flight deck crews use radio headsets for all launch commands because hand signs are slow."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which two distinct left-arm positions allow a cyclist to signal a right turn to trailing drivers?",
+        "Why is it dangerous for two ground spotters to give simultaneous hand signals to a crane operator?",
+        "What happens when anyone on a crane jobsite gives the two-armed dog-everything or emergency stop signal?",
+        "Under what visibility conditions must an aircraft carrier catapult crew switch from hand gestures to wands?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Green traffic signs provide directional guidance and mileage to destinations, while white and black signs state regulatory laws.",
+          "misconception": "Green backgrounds on highway traffic signs indicate mandatory regulatory rules such as speed limits or turn lanes."
+        },
+        {
+          "fact": "Green tint on a topographic map indicates dense woody vegetation or forest cover, while white areas show open, clear terrain.",
+          "misconception": "Green shading on a USGS topographic map marks safe, flat meadows suitable for pitching a patrol campsite."
+        },
+        {
+          "fact": "High-contrast silhouettes with minimal fine detail remain legible at long distances and across language barriers.",
+          "misconception": "Detailed illustrations make a custom safety symbol easier for observers to interpret during an emergency."
+        },
+        {
+          "fact": "Tightly packed contour lines represent steep elevation changes or cliffs, whereas widely spaced lines show flat or gentle slopes.",
+          "misconception": "Closely spaced brown contour lines on a topographic map indicate a wide, gentle valley floor for easy hiking."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What test verifies that a newly designed symbol stays recognizable when viewed from a distance in low light?",
+        "Which geometric shape and color combination on a road sign warns drivers of a railroad crossing versus a no-passing zone?",
+        "What measurement in a topographic map legend gives the vertical elevation change between two adjacent contour lines?",
+        "Why is it dangerous to plan a backcountry route across blue map symbols without checking the legend for marsh or cliff hazards?"
+      ],
+      "req_id": "9"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Invented symbols still repeat at standard English letter rates, allowing codebreakers to match the most common symbol to E or T.",
+          "misconception": "Replacing letters with invented geometric symbols makes a monoalphabetic substitution cipher immune to frequency analysis."
+        },
+        {
+          "fact": "A Caesar cipher shifts individual letters mathematically, whereas Navajo Code Talkers used an unspoken language and word-level code.",
+          "misconception": "Julius Caesar's shift cipher and the Navajo Code Talkers' system both rely on shifting alphabet letters by a fixed number."
+        },
+        {
+          "fact": "Word boundaries expose one-letter words like A or I and common three-letter words like THE, giving codebreakers immediate clues.",
+          "misconception": "Leaving normal spaces between encoded words has no effect on how quickly a cryptanalyst can solve a short 25-word cipher."
+        },
+        {
+          "fact": "Transposition ciphers keep the original plaintext letters intact but scramble their positions according to a geometric pattern.",
+          "misconception": "Transposition ciphers hide a message by swapping each plaintext letter for a different letter or number from a lookup table."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a Scout record and store the cipher key so an unintended reader cannot intercept it alongside the encoded message?",
+        "What structural difference separates a Caesar shift substitution cipher from a Spartan scytale transposition cipher?",
+        "Which letter frequency pattern in a 25-word English ciphertext lets a codebreaker identify the symbol used for the letter E?",
+        "Under what condition does keeping original word spaces in a handwritten cipher let an eavesdropper crack the message quickly?"
+      ],
+      "req_id": "10"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # Programming Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Programming.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/programming/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/programming/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -26,7 +26,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 5:** Project. With your counselor's guidance, select three different programming languages and development environments. For each subrequirement below, do the following: Write or modify a program using the indicated programming language and development environment. The program must take input and produce output based on computations and decisions made on the input. Debug and demonstrate the program to your counselor. Explain how each program processes inputs, makes decisions based on those inputs, and provides outputs based on computations and decision making. (a) In the first language and environment, write or modify a program, debug and demonstrate, and explain as above. (b) In the second language and environment, write or modify a program, debug and demonstrate, and explain as above. (c) In the third language and environment, write or modify a program, debug and demonstrate, and explain as above.
+- [ ] **Station Req 5:** Scout must individually explain mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 

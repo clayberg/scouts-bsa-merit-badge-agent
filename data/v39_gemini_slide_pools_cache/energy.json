@@ -1,0 +1,221 @@
+{
+  "badge_slug": "energy",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Megawatts measure instantaneous power capacity, whereas megawatt-hours measure actual energy generated over a specific time period.",
+          "misconception": "Media articles that report power plant capacity in megawatts are stating the exact amount of electricity delivered every hour."
+        },
+        {
+          "fact": "Requirement 1b requires re-evaluating the exact same article from 1a using the technical concepts learned in requirements 2 through 8.",
+          "misconception": "Completing requirement 1b means finding a brand-new article on energy conservation at the end of the merit badge."
+        },
+        {
+          "fact": "Conservation reduces energy use through behavior changes, while efficiency uses technology to perform the same work with less energy.",
+          "misconception": "Energy conservation and energy efficiency mean the exact same thing when authors discuss reducing utility bills."
+        },
+        {
+          "fact": "Popular blogs often omit capacity factors and lifecycle costs, so Scouts should cross-check claims against EIA or DOE data.",
+          "misconception": "Any blog or podcast about renewable energy provides peer-reviewed engineering data suitable for technical analysis."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What changes in your analysis when you revisit your original energy article after completing requirements two through eight?",
+        "Which unit distinction separates power output in kilowatts from total energy consumption in kilowatt-hours inside an article?",
+        "What specific source metadata and quantitative claims should you record in your notebook before discussing the article?",
+        "Why is it necessary to obtain parent or guardian permission and verify domain credibility before researching energy media online?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Nichrome heating elements convert electrical energy into thermal and infrared radiant energy, which then drives surface browning.",
+          "misconception": "A toaster converts electrical energy directly into chemical energy without producing any radiant or thermal energy."
+        },
+        {
+          "fact": "Batteries store chemical potential energy and convert it into electrical energy through electrochemical reactions during discharge.",
+          "misconception": "An electric vehicle battery stores pure electrical energy in its cells until the driver presses the accelerator pedal."
+        },
+        {
+          "fact": "Nuclear fission releases thermal energy to boil water into high-pressure steam, which spins a mechanical turbine and generator.",
+          "misconception": "A nuclear reactor generates electricity directly from splitting uranium atoms inside the reactor core without a turbine."
+        },
+        {
+          "fact": "Regenerative braking converts a portion of the vehicle's kinetic energy back into electrical and chemical energy in the battery.",
+          "misconception": "Regenerative braking in an electric vehicle creates brand-new energy that did not exist in the vehicle system before."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What sequence of energy forms occurs at each stage of the multi-conversion system you constructed for requirement 2b?",
+        "Under what physical mechanism does a greenhouse trap long-wave infrared thermal energy after short-wave light passes through glass?",
+        "Which observable physical indicator confirms that each energy conversion stage in your homemade device actually transferred energy?",
+        "Why is it dangerous to test a bow drill or resistance heating element indoors without eye protection and a heatproof base?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Lost energy is never destroyed; it converts into low-grade thermal energy, sound, or vibration that cannot do useful work.",
+          "misconception": "Energy losses in a mechanical or electrical system mean that a portion of the energy is permanently destroyed and ceases to exist."
+        },
+        {
+          "fact": "Every real thermodynamic cycle rejects some waste heat to its surroundings, making one hundred percent efficiency physically impossible.",
+          "misconception": "Lubricating bearings and insulating pipes can raise a real heat engine's thermal efficiency all the way to one hundred percent."
+        },
+        {
+          "fact": "Incandescent bulbs convert roughly ninety percent of their electrical energy into waste heat and only ten percent into visible light.",
+          "misconception": "An incandescent lightbulb is primarily a lighting device that converts most of its electrical input into visible light."
+        },
+        {
+          "fact": "Electricity is an energy carrier; the primary energy source is the coal, natural gas, nuclear fuel, or renewables at the power plant.",
+          "misconception": "The primary source of energy for an electric home furnace is the wall outlet or breaker panel inside the house."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where along your chosen system's component pathway does the largest fraction of input energy escape as waste heat or friction?",
+        "What thermodynamic principle explains why total energy stays constant even while usable energy decreases across every system stage?",
+        "What measurement confirms the percentage efficiency of a system when you compare useful energy output against total energy input?",
+        "Why should you use a non-contact infrared thermometer rather than bare hands when locating waste heat losses on a running motor?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Devices in standby mode continue drawing phantom power continuously until unplugged or switched off at a controlled power strip.",
+          "misconception": "Turning a television or gaming console off with the remote control stops all electrical power draw from the wall outlet."
+        },
+        {
+          "fact": "Most home furnaces deliver heat at a constant rate, so a higher thermostat setting only causes the system to overshoot and waste fuel.",
+          "misconception": "Cranking a home thermostat to eighty-five degrees heats a cold house faster than setting it to the desired seventy degrees."
+        },
+        {
+          "fact": "Gas meters measure volume in hundred cubic feet, which the utility converts into therms based on the heating value of the gas.",
+          "misconception": "Residential natural gas meters measure fuel consumption directly in kilowatt-hours just like an electric utility meter."
+        },
+        {
+          "fact": "Closing too many registers increases duct static pressure, restricts blower airflow, and can reduce furnace and heat pump efficiency.",
+          "misconception": "Closing supply vents in unused rooms always lowers central forced-air furnace energy consumption during a two-week home audit."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What baseline utility meter or odometer readings must you record on day one so your 14-day conservation log shows real savings?",
+        "Which units on a utility bill distinguish natural gas volume in CCF from heat content in therms and electricity in kWh?",
+        "Where should a Scout position a draft detector or plug-in wattmeter to uncover hidden air leaks and standby phantom loads at home?",
+        "Why is it dangerous to inspect a natural gas furnace, water heater flue, or main electrical panel without adult supervision?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Modern LED and fluorescent fixtures draw only a fraction of a second of inrush current, so turning them off always saves electricity.",
+          "misconception": "Leaving fluorescent or LED classroom lights on all afternoon uses less electricity than turning them off and back on between classes."
+        },
+        {
+          "fact": "Idling for more than ten seconds consumes more fuel and emits more exhaust pollutants than shutting off and restarting a warm engine.",
+          "misconception": "Idling a car or school bus engine for ten minutes in a pickup lane uses less fuel than restarting a warm engine."
+        },
+        {
+          "fact": "People often resist energy changes because of high upfront equipment costs, disrupted daily routines, or perceived loss of comfort.",
+          "misconception": "Energy conservation proposals fail in communities only because residents do not care about lowering utility costs or pollution."
+        },
+        {
+          "fact": "Sound energy trade-offs weigh upfront capital expense, embodied manufacturing energy, and payback time against ongoing energy savings.",
+          "misconception": "Replacing every municipal streetlight or HVAC unit immediately is always the best choice regardless of remaining equipment life."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What operating schedules and conditions should you record in your notebook for each of the five community energy waste sites?",
+        "Under what condition does an energy-saving retrofit create a trade-off between upfront capital cost, convenience, and payback time?",
+        "What calculation links wasted operating hours of school lighting or idling vehicles to annual dollar cost and carbon emissions?",
+        "Why must Scouts observe school and municipal energy systems from public areas rather than opening locked mechanical rooms?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Total primary energy includes petroleum used directly for transportation, whereas electricity generation relies mainly on gas and coal.",
+          "misconception": "The pie chart for U.S. electricity generation fuels is identical to the pie chart for total U.S. primary energy consumption."
+        },
+        {
+          "fact": "The industrial and transportation sectors each consume a larger share of total U.S. primary energy than residential households.",
+          "misconception": "Residential homes consume a larger share of total United States energy than the industrial, commercial, or transportation sectors."
+        },
+        {
+          "fact": "Proven reserves count only the fraction of known deposits that can be extracted economically with current technology and fuel prices.",
+          "misconception": "Known proven energy reserves represent the exact total physical amount of fossil fuel remaining inside the Earth's crust."
+        },
+        {
+          "fact": "As easy deposits deplete, rising extraction and environmental costs make renewable alternatives cost-competitive long before exhaustion.",
+          "misconception": "A society switches from a nonrenewable fuel to alternatives only after the physical supply of the resource is completely gone."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What verification steps ensure that your five energy pie charts sum to one hundred percent and cite current EIA or IEA data?",
+        "What distinction separates total U.S. primary energy consumption in chart 6a from the electricity generation fuel mix in chart 6d?",
+        "Which common energy unit allows you to normalize barrels of oil, cubic feet of gas, and kilowatt-hours before plotting a pie chart?",
+        "Why does rising extraction cost for depleted nonrenewable reserves make renewable alternatives economically practical over time?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Cogeneration captures exhaust heat from electricity generation to heat buildings or industrial processes, raising overall efficiency.",
+          "misconception": "Cogeneration plants generate extra electricity out of nothing by violating the law of conservation of energy."
+        },
+        {
+          "fact": "Fuel cells convert chemical energy from hydrogen and oxygen directly into DC electricity and water through an electrochemical membrane.",
+          "misconception": "Hydrogen fuel cells burn hydrogen gas in an open flame to spin a miniature mechanical turbine and electrical generator."
+        },
+        {
+          "fact": "Utility-scale geothermal power requires high-temperature subsurface rock or hydrothermal reservoirs and careful reinjection management.",
+          "misconception": "Geothermal power plants can operate at high efficiency anywhere on Earth by drilling a shallow well into ordinary topsoil."
+        },
+        {
+          "fact": "Solar and wind produce zero operating emissions, but require mineral mining, land use planning, fall protection, and battery recycling.",
+          "misconception": "Solar photovoltaic panels and wind turbines have zero environmental impacts or safety hazards across their entire lifecycle."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What four evaluation criteria must you compare across each of the five power generation technologies you select for requirement 7?",
+        "What engineering mechanism allows a cogeneration plant to capture and use thermal energy that a conventional power plant rejects?",
+        "Which performance metric shows whether taller wind turbine towers or solar trackers actually increase annual usable energy output?",
+        "Why do anaerobic biomass digesters and hydrogen fuel cell systems require continuous gas leak detection and explosion-proof venting?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Skilled energy trades such as wind technicians, solar installers, and power lineworkers often enter through paid apprenticeships.",
+          "misconception": "Every career in the energy sector requires a four-year university engineering degree and carries heavy student loan debt."
+        },
+        {
+          "fact": "Earning a Professional Engineer license requires passing the FE exam, completing years of supervised work, and passing the PE exam.",
+          "misconception": "Graduating with a bachelor's degree in engineering immediately grants a legally recognized Professional Engineer license."
+        },
+        {
+          "fact": "Grid modernization, industrial decarbonization, and stricter building codes continue driving strong demand for energy auditors.",
+          "misconception": "Careers in energy efficiency and building auditing are disappearing as renewable power generation expands across the grid."
+        },
+        {
+          "fact": "Strict electrical, high-voltage, and hazardous-energy safety certifications are mandatory for every field technician and engineer.",
+          "misconception": "Safety certifications in power generation and transmission are optional credentials completed only by site supervisors."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which accredited labor databases and professional societies provide verified data on training expenses, salaries, and job prospects?",
+        "What credential requirements distinguish a licensed Professional Engineer from a Certified Energy Manager or lineworker apprentice?",
+        "What financial comparison helps you evaluate whether a degree or apprenticeship's training expenses match its starting salary?",
+        "Why do energy sector employers require lock-out/tag-out and arc-flash safety training before technicians work on live equipment?"
+      ],
+      "req_id": "8"
+    }
+  ]
+}

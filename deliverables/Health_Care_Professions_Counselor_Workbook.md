@@ -1,8 +1,8 @@
 # Health Care Professions Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Health%20Care%20Professions.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/health-care-professions/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/health-care-professions/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -217,10 +217,10 @@
 - **Pamphlet Fact:** Healthcare professionals frequently cite strong desires to relieve human suffering and engage in lifelong intellectual learning.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A team of healthcare providers collaborates to deliver quality patient care.](/assets/pamphlet_images/health_care_professions_p010_img1.png)
 
@@ -374,10 +374,10 @@
 - **Pamphlet Fact:** Volunteer duties are strictly non-invasive, such as checking in donors, serving refreshments, and handing out educational pamphlets.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A mortarboard cap, diploma, and stethoscope symbolize medical education.](/assets/pamphlet_images/health_care_professions_p018_img1.png)
 

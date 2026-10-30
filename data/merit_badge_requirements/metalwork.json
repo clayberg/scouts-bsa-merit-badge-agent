@@ -68,9 +68,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Synthetic athletic shirts provide adequate comfort and protection inside a hot metalworking shop.",
-        "fact": "Synthetic fabrics melt rapidly upon contact with flying sparks, bonding molten plastic directly to skin.",
-        "myth": "Synthetic athletic shirts provide adequate comfort and protection inside a hot metalworking shop.",
-        "fact_correction": "Synthetic fabrics melt rapidly upon contact with flying sparks, bonding molten plastic directly to skin."
+        "fact": "Synthetic fabrics melt rapidly upon contact with flying sparks, bonding molten plastic directly to skin."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -107,38 +105,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "General Shop Personal Protective Equipment",
-        "right_header": "Craft-Specific Forge and Foundry Safeguards",
+        "left_header": "Req 1: Focused Attention to Shop Safety",
+        "right_header": "Req 1: Ensure Adult Supervision",
         "left_points": [
           "Focused Attention to Shop Safety: Metal working requires the craftsman to pay close attention to the work at hand and to adhere closely to special safety requirements (p. 16).",
           "Protecting Yourself and Others First: Before diving into the techniques of metal working, learn how to keep yourself and others safe while working with metal (p. 16).",
           "Heat, Acid, and Supervision Rules: When working with metal, acid, and high temperatures, metal workers should be aware of possible hazards, and youths must have adult supervision (p. 16)."
         ],
         "right_points": [
-          "Step 1 - Ensure Adult Supervision Around Hazards: When working with metal, acid, and high temperatures, metal workers should be aware of possible hazards, and youths must have adult supervision (p. 16).",
-          "Step 2 - Follow Shop Safety Rules Strictly: Following the rules will keep metal working safe and enjoyable (p. 16).",
-          "Step 3 - Wear Proper Protective Gear: Paying attention to what you are doing and wearing the proper gear is critical in metal working (p. 16)."
+          "Ensure Adult Supervision Around Hazards: When working with metal, acid, and high temperatures, metal workers should be aware of possible hazards, and youths must have adult supervision (p. 16).",
+          "Follow Shop Safety Rules Strictly: Following the rules will keep metal working safe and enjoyable (p. 16).",
+          "Wear Proper Protective Gear: Paying attention to what you are doing and wearing the proper gear is critical in metal working (p. 16)."
         ],
         "rows": [
           {
-            "attribute": "Focused Attention to Shop Safety",
+            "attribute": "Eye Protection",
             "left": "Focused Attention to Shop Safety: Metal working requires the craftsman to pay close attention to the work at hand and to adhere closely to special safety requirements (p. 16).",
-            "right": "Step 1 - Ensure Adult Supervision Around Hazards: When working with metal, acid, and high temperatures, metal workers should be aware of possible hazards, and youths must have adult supervision (p. 16)."
+            "right": "Ensure Adult Supervision Around Hazards: When working with metal, acid, and high temperatures, metal workers should be aware of possible hazards, and youths must have adult supervision (p. 16)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Natural Fibers",
             "left": "Protecting Yourself and Others First: Before diving into the techniques of metal working, learn how to keep yourself and others safe while working with metal (p. 16).",
-            "right": "Step 2 - Follow Shop Safety Rules Strictly: Following the rules will keep metal working safe and enjoyable (p. 16)."
+            "right": "Follow Shop Safety Rules Strictly: Following the rules will keep metal working safe and enjoyable (p. 16)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Hearing Conservation",
             "left": "Heat, Acid, and Supervision Rules: When working with metal, acid, and high temperatures, metal workers should be aware of possible hazards, and youths must have adult supervision (p. 16).",
-            "right": "Step 3 - Wear Proper Protective Gear: Paying attention to what you are doing and wearing the proper gear is critical in metal working (p. 16)."
+            "right": "Wear Proper Protective Gear: Paying attention to what you are doing and wearing the proper gear is critical in metal working (p. 16)."
           }
         ]
       },
       "worked_example": {
-        "title": "Metalwork Req 1 Exemplar Workbook Entry: Metalwork Safety Rules and Gear",
+        "title": "Metalwork Req 1 Exemplar Workbook Entry: Metalwork",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Focused Attention to Shop Safety": "Metal working requires the craftsman to pay close attention to the work at hand and to adhere closely to special safety requirements (p. 16).",
@@ -181,7 +179,33 @@
       "socratic_questions": [
         "Why do natural fibers like cotton protect against hot embers better than polyester athletic clothing?",
         "What specific hazards does a face shield guard against that standard safety glasses cannot stop?",
-        "How does poor shop ventilation increase your health risks during prolonged soldering or welding tasks?"
+        "How does poor shop ventilation increase your health risks during prolonged soldering or welding tasks?",
+        "Why is it dangerous to wear synthetic fleece or loose gloves near a hot forge or spinning drill press?",
+        "What happens to galvanized zinc coatings when heated in a forge or crucible without proper ventilation?",
+        "Where should a Scout position the quench bucket and Class ABC fire extinguisher before lighting a forge?",
+        "Which physical indicator warns you that a freshly quenched or newly sheared piece of metal is still hazardous?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Synthetic athletic shirts provide adequate comfort and protection inside a hot metalworking shop.",
+          "fact": "Synthetic fabrics melt rapidly upon contact with flying sparks, bonding molten plastic directly to skin."
+        },
+        {
+          "misconception": "Black iron or copper that shows no red glow on the anvil is cool enough to pick up with bare hands.",
+          "fact": "Metal stops glowing red below about 900 degrees Fahrenheit, so dark metal can still cause severe third-degree burns on contact."
+        },
+        {
+          "misconception": "Thick leather work gloves should always be worn while operating a drill press or powered bench grinder.",
+          "fact": "Rotating machinery can snag a glove and pull your hand into the spindle or wheel, so keep hands bare near spinning tools."
+        },
+        {
+          "misconception": "Throwing water onto a crucible of molten aluminum or bronze is the fastest way to cool a spill.",
+          "fact": "Water trapped beneath molten metal flashes instantly into steam and causes a violent explosion that scatters liquid metal."
+        },
+        {
+          "misconception": "Standard prescription eyeglasses provide sufficient impact protection when chiseling, peening, or shearing sheet metal.",
+          "fact": "Metalwork requires ANSI Z87.1 rated safety glasses or a face shield with side protection to stop high-velocity metal shards."
+        }
       ]
     },
     {
@@ -233,9 +257,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
             "misconception": "Ancient bronze tools consisted of pure melted copper beaten directly into sharp cutting shapes.",
-            "fact": "Bronze is an intentional alloy composed primarily of copper combined with approximately twelve percent tin.",
-            "myth": "Ancient bronze tools consisted of pure melted copper beaten directly into sharp cutting shapes.",
-            "fact_correction": "Bronze is an intentional alloy composed primarily of copper combined with approximately twelve percent tin."
+            "fact": "Bronze is an intentional alloy composed primarily of copper combined with approximately twelve percent tin."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -306,9 +328,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
             "misconception": "All ferrous steels contain identical ingredients and behave identically when heated and struck.",
-            "fact": "Variations in carbon content, chromium, and molybdenum yield vastly different hardness levels and weldability.",
-            "myth": "All ferrous steels contain identical ingredients and behave identically when heated and struck.",
-            "fact_correction": "Variations in carbon content, chromium, and molybdenum yield vastly different hardness levels and weldability."
+            "fact": "Variations in carbon content, chromium, and molybdenum yield vastly different hardness levels and weldability."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -383,9 +403,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
             "misconception": "Hammering metal when cold makes the material softer and easier to bend further.",
-            "fact": "Cold mechanical working packs crystal dislocations tightly together, causing the metal to stiffen and embrittle.",
-            "myth": "Hammering metal when cold makes the material softer and easier to bend further.",
-            "fact_correction": "Cold mechanical working packs crystal dislocations tightly together, causing the metal to stiffen and embrittle."
+            "fact": "Cold mechanical working packs crystal dislocations tightly together, causing the metal to stiffen and embrittle."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -464,9 +482,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
             "misconception": "Quenching red-hot high-carbon steel in cold water softens the metal for easy bending.",
-            "fact": "Rapid water quenching hardens high-carbon steel, whereas slow cooling in insulating media anneals it.",
-            "myth": "Quenching red-hot high-carbon steel in cold water softens the metal for easy bending.",
-            "fact_correction": "Rapid water quenching hardens high-carbon steel, whereas slow cooling in insulating media anneals it."
+            "fact": "Rapid water quenching hardens high-carbon steel, whereas slow cooling in insulating media anneals it."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -586,9 +602,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Pure elemental metals consistently perform better in mechanical applications than blended metal alloys.",
-        "fact": "Alloying elements refine crystal grain structures, significantly increasing tensile strength, hardness, and corrosion resistance.",
-        "myth": "Pure elemental metals consistently perform better in mechanical applications than blended metal alloys.",
-        "fact_correction": "Alloying elements refine crystal grain structures, significantly increasing tensile strength, hardness, and corrosion resistance."
+        "fact": "Alloying elements refine crystal grain structures, significantly increasing tensile strength, hardness, and corrosion resistance."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -626,7 +640,7 @@
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Req 2a: Ancient Nonferrous Alloy History",
-        "right_header": "Req 2c: Mechanical Work Hardening Techniqu",
+        "right_header": "Req 2c: Mechanical Work Hardening",
         "left_points": [
           "(2a) Ancient Nonferrous Alloy History: Ancient craftsmen smelted copper with tin to cast durable bronze weapons and bronze utilitarian vessels. Brass emerged through smelting copper ores together with zinc-bearing minerals to produce malleable ornamental artifacts.",
           "(2b) Modern Ferrous Alloy Varieties: Modern structural fabrication relies heavily on carbon steels containing precise proportions of iron and carbon. Stainless steels introduce chromium and nickel to prevent oxidation across demanding architectural and industrial environments."
@@ -637,30 +651,30 @@
         ],
         "rows": [
           {
-            "attribute": "Pre-Iron Age Nonferrous Alloys",
-            "left": "(2a) Pre-Iron Age Nonferrous Alloys: Other nonferrous metals that occur naturally are gold, silver, and tin (p. 11).",
-            "right": "(2c) Work-Hardening Metal by Hammering: Native metals are those that occur naturally in a nearly pure form (p. 11)."
+            "attribute": "Native Metals",
+            "left": "(2a) Ancient Nonferrous Alloy History: Ancient craftsmen smelted copper with tin to cast durable bronze weapons and bronze utilitarian vessels. Brass emerged through smelting copper ores together with zinc-bearing minerals to produce malleable ornamental artifacts.",
+            "right": "(2c) Mechanical Work Hardening Techniques: Striking or bending cold metal distorts its crystalline lattice, generating internal dislocations that restrict atomic slippage. This physical deformation increases yield strength and surface hardness while progressively diminishing ductility."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(2b) Modern Ferrous Steel Alloys: During the late Stone Age, between 7000 (p. 11).",
-            "right": "(2d) Annealing Nonferrous and Ferrous Metals: Copper is a nonferrous metal, one that does not contain iron, that occasionally can be found in a native state (p. 11)."
+            "attribute": "Malleability Factor",
+            "left": "(2b) Modern Ferrous Alloy Varieties: Modern structural fabrication relies heavily on carbon steels containing precise proportions of iron and carbon. Stainless steels introduce chromium and nickel to prevent oxidation across demanding architectural and industrial environments.",
+            "right": "(2d) Thermal Annealing Process Methods: Annealing nonferrous copper requires heating to a dull red followed by immediate water quenching. Ferrous steels require heating above critical transformation temperature followed by very slow cooling in vermiculite."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Nonferrous Native Copper Properties: Copper is a nonferrous metal, one that does not contain iron, that occasionally can be found in a native state (p. 11).",
-            "right": "Step 3 - Trace Early Crucible Melting History: About a thousand years later, scientists say, our ancestors began to melt native metals (p. 11)."
+            "attribute": "Alloy Composition",
+            "left": "Req 2a: Ancient Nonferrous Alloy: Ancient craftsmen smelted copper with tin to cast durable bronze weapons and bronze utilitarian vessels. Brass emerged through smelting copper ores together with zinc-bearing minerals to produce malleable ornamental artifacts.",
+            "right": "Req 2b: Modern Ferrous Alloy: Modern structural fabrication relies heavily on carbon steels containing precise proportions of iron and carbon. Stainless steels introduce chromium and nickel to prevent oxidation across demanding architectural and industrial environments."
           }
         ]
       },
       "worked_example": {
-        "title": "Metalwork Req 2 Exemplar Workbook Entry: Metallurgy Terms and Metal Alloys",
+        "title": "Metalwork Req 2 Exemplar Workbook Entry: Metallurgy",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Ancient Nonferrous Alloy History": "Ancient craftsmen smelted copper with tin to cast durable bronze weapons and bronze utilitarian vessels. Brass emerged through smelting copper ores together with zinc-bearing minerals to produce malleable ornamental artifacts.",
-          "Req 2b - Modern Ferrous Alloy Varieties": "Modern structural fabrication relies heavily on carbon steels containing precise proportions of iron and carbon. Stainless steels introduce chromium and nickel to prevent oxidation across demanding architectural and industrial environments.",
-          "Req 2c - Mechanical Work Hardening Techniq": "Striking or bending cold metal distorts its crystalline lattice, generating internal dislocations that restrict atomic slippage. This physical deformation increases yield strength and surface hardness while progressively diminishing ductility.",
-          "Req 2d - Thermal Annealing Process Methods": "Annealing nonferrous copper requires heating to a dull red followed by immediate water quenching. Ferrous steels require heating above critical transformation temperature followed by very slow cooling in vermiculite."
+          "Req 2a - Ancient Nonferrous Alloy": "Ancient craftsmen smelted copper with tin to cast durable bronze weapons and bronze utilitarian vessels. Brass emerged through smelting copper ores together with zinc-bearing minerals to produce malleable ornamental artifacts.",
+          "Req 2b - Modern Ferrous Alloy": "Modern structural fabrication relies heavily on carbon steels containing precise proportions of iron and carbon. Stainless steels introduce chromium and nickel to prevent oxidation across demanding architectural and industrial environments.",
+          "Req 2c - Mechanical Work Hardening": "Striking or bending cold metal distorts its crystalline lattice, generating internal dislocations that restrict atomic slippage. This physical deformation increases yield strength and surface hardness while progressively diminishing ductility.",
+          "Req 2d - Thermal Annealing Process": "Annealing nonferrous copper requires heating to a dull red followed by immediate water quenching. Ferrous steels require heating above critical transformation temperature followed by very slow cooling in vermiculite."
         },
         "sample_output": "Metallurgy Terms and Metal Alloys: Other nonferrous metals that occur naturally are gold, silver, and tin (p. 11).",
         "counselor_tip": "For Metalwork Requirement 2 (Metallurgy Terms and Metal Alloys), verify the Scout's own observations and specific pamphlet details (Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24))."
@@ -697,7 +711,33 @@
       "socratic_questions": [
         "What atomic characteristics allow malleable metals to bend repeatedly without shearing apart instantly?",
         "Why did early human civilizations discover and utilize native metals long before smelting iron ore?",
-        "Which visible spark characteristics distinguish plain low-carbon steel from high-carbon tool steel during grinding?"
+        "Which visible spark characteristics distinguish plain low-carbon steel from high-carbon tool steel during grinding?",
+        "What happens to the melting point and hardness of pure copper when a metallurgist alloys it with tin to make bronze?",
+        "Which physical indicator during a magnet or grinder spark test distinguishes high-carbon steel from nonferrous brass?",
+        "Under what condition does an austenitic stainless steel alloy remain non-magnetic despite being a ferrous metal?",
+        "What elemental difference separates ancient bronze from brass when you log their nonferrous base metal compositions?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Pure elemental metals consistently perform better in mechanical applications than blended metal alloys.",
+          "fact": "Alloying elements refine crystal grain structures, significantly increasing tensile strength, hardness, and corrosion resistance."
+        },
+        {
+          "misconception": "Every ferrous alloy will stick strongly to a permanent magnet during a workshop sorting test.",
+          "fact": "Ferrous means the alloy contains iron, and nickel-rich 300-series austenitic stainless steels are ferrous yet non-magnetic."
+        },
+        {
+          "misconception": "Bronze and brass are two names for the same ancient copper alloy used before the Iron Age.",
+          "fact": "Traditional bronze combines copper with tin, whereas brass is a distinct nonferrous alloy made by combining copper with zinc."
+        },
+        {
+          "misconception": "Native metals like copper, gold, and silver must be smelted from oxide ore before they exist in metallic form.",
+          "fact": "Native metals occur in nature in their pure metallic state and can be shaped by cold hammering without smelting."
+        },
+        {
+          "misconception": "Malleability measures how easily a metal wire can be stretched under tension without snapping.",
+          "fact": "Malleability is a metal's ability to deform under compressive hammering or rolling, while ductility measures tensile stretching."
+        }
       ]
     },
     {
@@ -747,9 +787,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
           "common_misconception_pair": {
             "misconception": "Light surface hammering on a sheet bend does not alter metal stiffness underneath.",
-            "fact": "Peening redistributes internal mechanical stresses and multiplies dislocations throughout the entire cross section.",
-            "myth": "Light surface hammering on a sheet bend does not alter metal stiffness underneath.",
-            "fact_correction": "Peening redistributes internal mechanical stresses and multiplies dislocations throughout the entire cross section."
+            "fact": "Peening redistributes internal mechanical stresses and multiplies dislocations throughout the entire cross section."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -817,9 +855,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
           "common_misconception_pair": {
             "misconception": "An annealed nonferrous plate stays soft even after severe subsequent bending and forming.",
-            "fact": "Every subsequent bending action re-introduces dislocations, steadily re-hardening the metal until annealed again.",
-            "myth": "An annealed nonferrous plate stays soft even after severe subsequent bending and forming.",
-            "fact_correction": "Every subsequent bending action re-introduces dislocations, steadily re-hardening the metal until annealed again."
+            "fact": "Every subsequent bending action re-introduces dislocations, steadily re-hardening the metal until annealed again."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -892,9 +928,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
           "common_misconception_pair": {
             "misconception": "A center punch tip should be left as hard as possible without tempering.",
-            "fact": "An untempered high-carbon punch tip fractures immediately upon the first heavy hammer strike.",
-            "myth": "A center punch tip should be left as hard as possible without tempering.",
-            "fact_correction": "An untempered high-carbon punch tip fractures immediately upon the first heavy hammer strike."
+            "fact": "An untempered high-carbon punch tip fractures immediately upon the first heavy hammer strike."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -984,9 +1018,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Heating steel until it glows bright red guarantees an ideal final tool hardness.",
-        "fact": "Untempered quenched steel remains glass-brittle and will shatter violently unless drawn back to temper.",
-        "myth": "Heating steel until it glows bright red guarantees an ideal final tool hardness.",
-        "fact_correction": "Untempered quenched steel remains glass-brittle and will shatter violently unless drawn back to temper."
+        "fact": "Untempered quenched steel remains glass-brittle and will shatter violently unless drawn back to temper."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1022,14 +1054,14 @@
         "Step 4 - Color Polishing: Polish steel flat stock bright with emery cloth before monitoring running oxide bands."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Work-Hardening and Annealing Sheet Metal",
-        "Inspected hand and power tools with intact guards and ventilation setup for Metalwork",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.",
+        "Tape measure, square, layout pencil, clamps, and material stock for Work-Hardening and Annealing Sheet Metal.",
+        "Inspected hand and power tools with intact guards and ventilation setup for Metalwork.",
+        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
         "left_header": "Req 3a: Sheet Metal Cold Work Hardening",
-        "right_header": "Req 3b: Thermal Annealing and Realignment",
+        "right_header": "Req 3b: Thermal Annealing",
         "left_points": [
           "(3a) Sheet Metal Cold Work Hardening: Bending sheet brass or copper introduces mechanical strain along the fold line. Peening this ridge with a ball-peen hammer packs crystal lattice dislocations, elevating resistance against further movement."
         ],
@@ -1038,29 +1070,29 @@
         ],
         "rows": [
           {
-            "attribute": "Peening and Work-Hardening Sheet Metal",
-            "left": "(3a) Peening and Work-Hardening Sheet Metal: Cold metal does not always stay in place after it is bent (p. 22).",
-            "right": "(3b) Annealing Work-Hardened Sheet Metal: To overcome thespringback effect, the metal often must be bent past its yield point (p. 22)."
+            "attribute": "Cold Working",
+            "left": "(3a) Sheet Metal Cold Work Hardening: Bending sheet brass or copper introduces mechanical strain along the fold line. Peening this ridge with a ball-peen hammer packs crystal lattice dislocations, elevating resistance against further movement.",
+            "right": "(3b) Thermal Annealing and Realignment: Heating the peened bend zone to dull red enables recrystallization, allowing new strain-free grains to nucleate. Once softened, the sheet bends flat under minimal applied force without cracking."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Bending Past the Yield Point: To overcome thespringback effect, the metal often must be bent past its yield point (p. 22).",
-            "right": "(3c) Steel Temper Colors and Center Punch: Without using any tools, do your best to put a 45-degree bend in the unworked metal (p. 22)."
+            "attribute": "Dislocation Density",
+            "left": "Req 3a: Sheet Metal Cold Work: Bending sheet brass or copper introduces mechanical strain along the fold line. Peening this ridge with a ball-peen hammer packs crystal lattice dislocations, elevating resistance against further movement.",
+            "right": "Req 3b: Thermal Annealing: Heating the peened bend zone to dull red enables recrystallization, allowing new strain-free grains to nucleate. Once softened, the sheet bends flat under minimal applied force without cracking."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Hand-Bending Unworked Sheet Metal: Without using any tools, do your best to put a 45-degree bend in the unworked metal (p. 22).",
-            "right": "Step 3 - Work-Harden the Bend by Peening: The process of hardening a metal by hammering it is called work hardening (p. 22)."
+            "attribute": "Oxidation Colors",
+            "left": "Req 3c: Steel Tempering: Grinding and polishing high-carbon tool steel creates a clean surface for observing thermal oxide bands. Heating the punch shank draws temper toward the working point to achieve durability.",
+            "right": "Dislocation Density: Plastic deformation creates internal crystalline lattice jams that elevate the material yield point."
           }
         ]
       },
       "worked_example": {
-        "title": "Metalwork Req 3 Exemplar Workbook Entry: Work-Hardening, Annealing, and Tempering",
+        "title": "Metalwork Req 3 Exemplar Workbook Entry: Work-Hardening",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Sheet Metal Cold Work Hardening": "Bending sheet brass or copper introduces mechanical strain along the fold line. Peening this ridge with a ball-peen hammer packs crystal lattice dislocations, elevating resistance against further movement.",
-          "Req 3b - Thermal Annealing and Realignment": "Heating the peened bend zone to dull red enables recrystallization, allowing new strain-free grains to nucleate. Once softened, the sheet bends flat under minimal applied force without cracking.",
-          "Req 3c - Steel Tempering and Toolmaking": "Grinding and polishing high-carbon tool steel creates a clean surface for observing thermal oxide bands. Heating the punch shank draws temper toward the working point to achieve durability."
+          "Req 3a - Sheet Metal Cold Work": "Bending sheet brass or copper introduces mechanical strain along the fold line. Peening this ridge with a ball-peen hammer packs crystal lattice dislocations, elevating resistance against further movement.",
+          "Req 3b - Thermal Annealing": "Heating the peened bend zone to dull red enables recrystallization, allowing new strain-free grains to nucleate. Once softened, the sheet bends flat under minimal applied force without cracking.",
+          "Req 3c - Steel Tempering": "Grinding and polishing high-carbon tool steel creates a clean surface for observing thermal oxide bands. Heating the punch shank draws temper toward the working point to achieve durability."
         },
         "sample_output": "Work-Hardening, Annealing, and Tempering: Cold metal does not always stay in place after it is bent (p. 22).",
         "counselor_tip": "For Metalwork Requirement 3 (Work-Hardening, Annealing, and Tempering), verify the Scout's own observations and specific pamphlet details (Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37))."
@@ -1097,7 +1129,33 @@
       "socratic_questions": [
         "Why does peening the apex of a bend make the sheet metal noticeably stiffer?",
         "What microscopic changes occur inside work-hardened copper when you heat it to dull red?",
-        "How do the oxidation colors formed on polished steel correlate with its final working hardness?"
+        "In what specific ways do the oxidation colors formed on polished steel correlate with its final working hardness?",
+        "What happens to the crystal grain structure along the bend line when you heavily peen 26-gauge copper or brass?",
+        "Why does quenching red-hot copper in water anneal and soften it while quenching red-hot high-carbon steel makes it brittle?",
+        "Which oxide temper color on polished steel indicates the right hardness and toughness balance for a cold chisel?",
+        "What tactile change in resistance confirms you have exceeded the yield point when unbending your annealed copper strip?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Heating steel until it glows bright red guarantees an ideal final tool hardness.",
+          "fact": "Untempered quenched steel remains glass-brittle and will shatter violently unless drawn back to temper."
+        },
+        {
+          "misconception": "Quenching red-hot sheet copper or brass in cold water hardens the metal just like quenching high-carbon tool steel.",
+          "fact": "Copper and brass only harden through cold mechanical working, and heating them followed by water quenching anneals them soft."
+        },
+        {
+          "misconception": "High-carbon steel is ready to use as a striking tool immediately after quenching from critical red heat in water.",
+          "fact": "Fully quenched high-carbon steel is glass-brittle and will shatter on impact unless reheated to a straw or purple temper color."
+        },
+        {
+          "misconception": "Temper colors on heated steel appear even if the metal surface is covered in black forge scale and oil.",
+          "fact": "You must sand or file the hardened steel bright and clean before tempering so the thin oxide color bands are clearly visible."
+        },
+        {
+          "misconception": "Bending a metal strip within its elastic range permanently alters its shape and work-hardens the grain boundaries.",
+          "fact": "Permanent deformation and work-hardening occur only after applied force exceeds the metal's yield point into plastic deformation."
+        }
       ]
     },
     {
@@ -1161,9 +1219,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)",
           "common_misconception_pair": {
             "misconception": "Specialized metal trades can be mastered entirely through informal hobby trial and error.",
-            "fact": "Aerospace and structural fabrication enforce strict American Welding Society or equivalent procedural certifications.",
-            "myth": "Specialized metal trades can be mastered entirely through informal hobby trial and error.",
-            "fact_correction": "Aerospace and structural fabrication enforce strict American Welding Society or equivalent procedural certifications."
+            "fact": "Aerospace and structural fabrication enforce strict American Welding Society or equivalent procedural certifications."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1246,9 +1302,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)",
           "common_misconception_pair": {
             "misconception": "Setting up a home metalworking hobby requires purchasing expensive computerized factory machinery.",
-            "fact": "Traditional hand tool forgings and jewelry pieces require modest footprints and rudimentary hand tooling.",
-            "myth": "Setting up a home metalworking hobby requires purchasing expensive computerized factory machinery.",
-            "fact_correction": "Traditional hand tool forgings and jewelry pieces require modest footprints and rudimentary hand tooling."
+            "fact": "Traditional hand tool forgings and jewelry pieces require modest footprints and rudimentary hand tooling."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1360,9 +1414,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Metal fabrication careers rely strictly on manual muscle rather than advanced technical science.",
-        "fact": "Modern metalworkers master computer programming, blueprint interpretation, metallurgy, and precise robotic welding control.",
-        "myth": "Metal fabrication careers rely strictly on manual muscle rather than advanced technical science.",
-        "fact_correction": "Modern metalworkers master computer programming, blueprint interpretation, metallurgy, and precise robotic welding control."
+        "fact": "Modern metalworkers master computer programming, blueprint interpretation, metallurgy, and precise robotic welding control."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1399,7 +1451,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Commercial Metalworking Career Pat",
+        "left_header": "Req 4a: Commercial Metalworking Career",
         "right_header": "Req 4b: Metalcraft Hobby and Guilds",
         "left_points": [
           "(4a) Commercial Metalworking Career Pathways: Industrial careers span structural welding, precision machining, and metallurgical quality control inspection. Entering these fields requires vocational diplomas, formal apprenticeships, and rigorous code testing certifications."
@@ -1409,34 +1461,34 @@
         ],
         "rows": [
           {
-            "attribute": "Metalworking Career Pathways and Training",
-            "left": "(4a) Metalworking Career Pathways and Training: Some may choose to work for a shipyard, an automobile-parts manufacturing plant, or an aircraft manufacturing plant (p. 87).",
-            "right": "(4b) Personal Metalworking Hobby Planning: Others may decide to work for large machine shops that specialize in rebuilding engines or manufacturing specialty parts for other companies (p. 87)."
+            "attribute": "Welding Technology",
+            "left": "(4a) Commercial Metalworking Career Pathways: Industrial careers span structural welding, precision machining, and metallurgical quality control inspection. Entering these fields requires vocational diplomas, formal apprenticeships, and rigorous code testing certifications.",
+            "right": "(4b) Metalcraft Hobby and Guilds: Amateur metalcraft allows hobbyists to explore decorative blacksmithing, knife making, and artistic jewelry casting. Joining organizations like the Artist-Blacksmith's Association of North America provides structured mentoring and safety workshops."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Shipyard, Auto, and Aircraft Jobs: Some may choose to work for a shipyard, an automobile-parts manufacturing plant, or an aircraft manufacturing plant (p. 87).",
-            "right": "Step 2 - Research Engineering Degree Pathways: Some professionals with interests in metal working earn college degrees in mechanical, structural, or metallurgical engineering (p. 87)."
+            "attribute": "Precision Machining",
+            "left": "Req 4a: Commercial Metalworking: Industrial careers span structural welding, precision machining, and metallurgical quality control inspection. Entering these fields requires vocational diplomas, formal apprenticeships, and rigorous code testing certifications.",
+            "right": "Req 4b: Metalcraft Hobby and Guilds: Amateur metalcraft allows hobbyists to explore decorative blacksmithing, knife making, and artistic jewelry casting. Joining organizations like the Artist-Blacksmith's Association of North America provides structured mentoring and safety workshops."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Specialty Machine Shop Careers: Others may decide to work for large machine shops that specialize in rebuilding engines or manufacturing specialty parts for other companies (p. 87).",
-            "right": "Step 3 - Examine Bridge and Alloy Design Roles: They will tackle such projects as designing bridges or creating specialty metals in a steel mill or an aluminum producing facility (p. 87)."
+            "attribute": "Apprenticeship Models",
+            "left": "Welding Technology: Certified welders join critical structural components in shipyards, bridges, and industrial manufacturing plants.",
+            "right": "Precision Machining: Computer numerical control machinists produce aerospace components with tolerances measured in microscopic thousandths."
           }
         ]
       },
       "worked_example": {
-        "title": "Metalwork Req 4 Exemplar Workbook Entry: Metalworking Careers and Hobbies",
+        "title": "Metalwork Req 4 Exemplar Workbook Entry: Metalworking",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 4a - Commercial Metalworking Career Pa": "Industrial careers span structural welding, precision machining, and metallurgical quality control inspection. Entering these fields requires vocational diplomas, formal apprenticeships, and rigorous code testing certifications.",
+          "Req 4a - Commercial Metalworking": "Industrial careers span structural welding, precision machining, and metallurgical quality control inspection. Entering these fields requires vocational diplomas, formal apprenticeships, and rigorous code testing certifications.",
           "Req 4b - Metalcraft Hobby and Guilds": "Amateur metalcraft allows hobbyists to explore decorative blacksmithing, knife making, and artistic jewelry casting. Joining organizations like the Artist-Blacksmith's Association of North America provides structured mentoring and safety workshops."
         },
         "sample_output": "Metalworking Careers and Hobbies: Some may choose to work for a shipyard, an automobile-parts manufacturing plant, or an aircraft manufacturing plant (p. 87).",
         "counselor_tip": "For Metalwork Requirement 4 (Metalworking Careers and Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do the typical education and training pathways compare between hands-on metalworking trades people and metallurgical or mechanical engineers?",
+        "scenario_prompt": "In what specific ways do the typical education and training pathways compare between hands-on metalworking trades people and metallurgical or mechanical engineers?",
         "question": "How do the typical education and training pathways compare between hands-on metalworking trades people and metallurgical or mechanical engineers?",
         "options": [
           "A. All metalworking jobs are unpaid hobbies because automated factories no longer employ human machinists or engineers",
@@ -1467,7 +1519,33 @@
       "socratic_questions": [
         "How does acquiring certified welding credentials expand employment opportunities across international infrastructure projects?",
         "What primary expenses must a beginner anticipate when setting up a safe home forge?",
-        "In what ways do professional guild associations accelerate craft skill development for novice blacksmiths?"
+        "In what ways do professional guild associations accelerate craft skill development for novice blacksmiths?",
+        "What industry certification confirms a structural welder or CNC machinist meets national quality and safety standards?",
+        "Which personal tool expenses and apprenticeship hours must a candidate log before qualifying as a journeyman sheet metal worker?",
+        "Where should a Scout position himself during a commercial foundry or machine shop tour to observe operations safely?",
+        "What distinguishes the daily production tolerances of an industrial tool-and-die maker from those of an artistic blacksmith?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Metal fabrication careers rely strictly on manual muscle rather than advanced technical science.",
+          "fact": "Modern metalworkers master computer programming, blueprint interpretation, metallurgy, and precise robotic welding control."
+        },
+        {
+          "misconception": "A four-year university degree in engineering is required before entering any high-paying career in modern metalworking.",
+          "fact": "Many skilled metalworking careers use paid union apprenticeships, trade school programs, and AWS or NIMS industry certifications."
+        },
+        {
+          "misconception": "Passing a single visual weld inspection certifies a welder for all metals, joint positions, and structural codes.",
+          "fact": "Welding certifications are qualified for specific processes, metal thicknesses, and positions, and require periodic testing."
+        },
+        {
+          "misconception": "Computer numerical control automation has eliminated the need for human machinists to understand metallurgy and tool feeds.",
+          "fact": "CNC machinists must still select cutting speeds, tooling, and coolant based on how each alloy work-hardens and conducts heat."
+        },
+        {
+          "misconception": "Farriers and ornamental blacksmiths use the exact same tooling, furnaces, and quality metrics as aerospace foundry technicians.",
+          "fact": "Blacksmiths shape heated steel by hammer and eye on an anvil, while aerospace foundries cast alloys using X-ray inspection."
+        }
       ]
     },
     {
@@ -1868,9 +1946,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
             "misconception": "Flat sheet metal corners can be folded into box shapes without calculating bend allowances.",
-            "fact": "Metal stretches and compresses along bends, requiring precise layout calculations to achieve accurate dimensions.",
-            "myth": "Flat sheet metal corners can be folded into box shapes without calculating bend allowances.",
-            "fact_correction": "Metal stretches and compresses along bends, requiring precise layout calculations to achieve accurate dimensions."
+            "fact": "Metal stretches and compresses along bends, requiring precise layout calculations to achieve accurate dimensions."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2362,9 +2438,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
             "misconception": "Silver sheet can be hammered repeatedly into deep bowls without periodic heat treatment.",
-            "fact": "Sterling silver work-hardens rapidly under hammer blows and fractures unless annealed to dull red.",
-            "myth": "Silver sheet can be hammered repeatedly into deep bowls without periodic heat treatment.",
-            "fact_correction": "Sterling silver work-hardens rapidly under hammer blows and fractures unless annealed to dull red."
+            "fact": "Sterling silver work-hardens rapidly under hammer blows and fractures unless annealed to dull red."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2783,9 +2857,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
             "misconception": "Moisture inside casting sand is completely harmless when molten bronze is poured.",
-            "fact": "Excess moisture vaporizes instantaneously into steam, creating violent explosions that blow molten metal out.",
-            "myth": "Moisture inside casting sand is completely harmless when molten bronze is poured.",
-            "fact_correction": "Excess moisture vaporizes instantaneously into steam, creating violent explosions that blow molten metal out."
+            "fact": "Excess moisture vaporizes instantaneously into steam, creating violent explosions that blow molten metal out."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2974,7 +3046,7 @@
               "workbook_diagram_caption": "A metalworker strikes a hot workpiece placed across heavy metal bars with a hammer.",
               "workbook_visual_caption": "A metalworker strikes a hot workpiece placed across heavy metal bars with a hammer.",
               "socratic_questions": [
-                "How do written dimensional measurements on your sketch help you calculate the exact length of stock to cut before heating it in the forge?"
+                "In what ways do written dimensional measurements on your sketch help you calculate the exact length of stock to cut before heating it in the forge?"
               ]
             },
             {
@@ -3604,9 +3676,7 @@
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
             "misconception": "Blacksmiths strike steel when cold to avoid burning the iron away in flames.",
-            "fact": "Forging cold steel causes severe internal fractures and ruins hammer faces and anvil edges.",
-            "myth": "Blacksmiths strike steel when cold to avoid burning the iron away in flames.",
-            "fact_correction": "Forging cold steel causes severe internal fractures and ruins hammer faces and anvil edges."
+            "fact": "Forging cold steel causes severe internal fractures and ruins hammer faces and anvil edges."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3722,9 +3792,7 @@
       },
       "common_misconception_pair": {
         "misconception": "All four metalwork options share identical tooling and follow the same assembly techniques.",
-        "fact": "Sheet metal relies on mechanical folding, silversmithing on raising, foundry on pouring, and blacksmithing on forging.",
-        "myth": "All four metalwork options share identical tooling and follow the same assembly techniques.",
-        "fact_correction": "Sheet metal relies on mechanical folding, silversmithing on raising, foundry on pouring, and blacksmithing on forging."
+        "fact": "Sheet metal relies on mechanical folding, silversmithing on raising, foundry on pouring, and blacksmithing on forging."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3778,28 +3846,28 @@
         ],
         "rows": [
           {
-            "attribute": "Sheet Metal Mechanic and Tinsmith",
-            "left": "(5a) Sheet Metal Mechanic and Tinsmith: Silversmiths use many of the same tools as other craftsmen, but because the objects silversmiths create are smaller, their tools are scaled (p. 37).",
-            "right": "(5c) Foundry Sand Casting and Molds: Planishing is the process of smoothing the finished piece, so hammers used in this process must be fairly specialized to do the job (p. 37)."
+            "attribute": "Sheet Fabrication",
+            "left": "(5a) Sheet Metalwork and Tinsmithing: Sheet metal mechanics use aviation snips, hand seamers, and stakes to construct geometric sheet products. Projects incorporate folded hems, wired edges, and soldered or riveted seams to ensure structural rigidity.",
+            "right": "(5c) Foundry Casting and Molding: Founders pack greensand around split wood patterns inside two-part flask assemblies called copes and drags. Cutting sprues, gates, and risers allows molten metal to fill cavities without entrapping gases."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(5b) Silversmithing Tools and Hollowware: The hammers used by silversmiths have specific shapes that have been refined over thousands of years to perform specific purposes (p. 37).",
-            "right": "(5d) Blacksmithing Forge and Anvil Work: Some planishinghammers have both a round face and a square face (p. 37)."
+            "attribute": "Silversmithing Precision",
+            "left": "(5b) Silversmithing and Fine Jewelry: Silversmiths utilize raising hammers, planishing stakes, and jewelers saws to form nonferrous precious metals. Sinking, doming, and silver soldering require frequent annealing cycles to prevent stress tears.",
+            "right": "(5d) Blacksmithing and Hot Forging: Blacksmiths use coal or propane forges to bring medium-carbon steel to bright orange forging temperatures. Shaping involves drawing out, upsetting, bending over the horn, and punching holes across the anvil."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Scaled-Down Silversmith Hand Tools: Silversmiths use many of the same tools as other craftsmen, but because the objects silversmiths create are smaller, their tools are scaled (p. 37).",
-            "right": "Step 3 - Choose the Proper Face Curvature: Each hammer's face has a slightly different curve (p. 37)."
+            "attribute": "Foundry Principles",
+            "left": "Req 5a: Sheet Metalwork: Sheet metal mechanics use aviation snips, hand seamers, and stakes to construct geometric sheet products. Projects incorporate folded hems, wired edges, and soldered or riveted seams to ensure structural rigidity.",
+            "right": "Req 5b: Silversmithing and Fine: Silversmiths utilize raising hammers, planishing stakes, and jewelers saws to form nonferrous precious metals. Sinking, doming, and silver soldering require frequent annealing cycles to prevent stress tears."
           }
         ]
       },
       "worked_example": {
-        "title": "Metalwork Req 5 Exemplar Workbook Entry: Specialized Metalcraft Options",
+        "title": "Metalwork Req 5 Exemplar Workbook Entry: Specialized",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Sheet Metalwork and Tinsmithing": "Sheet metal mechanics use aviation snips, hand seamers, and stakes to construct geometric sheet products. Projects incorporate folded hems, wired edges, and soldered or riveted seams to ensure structural rigidity.",
-          "Req 5b - Silversmithing and Fine Jewelry": "Silversmiths utilize raising hammers, planishing stakes, and jewelers saws to form nonferrous precious metals. Sinking, doming, and silver soldering require frequent annealing cycles to prevent stress tears.",
+          "Req 5a - Sheet Metalwork": "Sheet metal mechanics use aviation snips, hand seamers, and stakes to construct geometric sheet products. Projects incorporate folded hems, wired edges, and soldered or riveted seams to ensure structural rigidity.",
+          "Req 5b - Silversmithing and Fine": "Silversmiths utilize raising hammers, planishing stakes, and jewelers saws to form nonferrous precious metals. Sinking, doming, and silver soldering require frequent annealing cycles to prevent stress tears.",
           "Req 5c - Foundry Casting and Molding": "Founders pack greensand around split wood patterns inside two-part flask assemblies called copes and drags. Cutting sprues, gates, and risers allows molten metal to fill cavities without entrapping gases.",
           "Req 5d - Blacksmithing and Hot Forging": "Blacksmiths use coal or propane forges to bring medium-carbon steel to bright orange forging temperatures. Shaping involves drawing out, upsetting, bending over the horn, and punching holes across the anvil."
         },
@@ -3807,7 +3875,7 @@
         "counselor_tip": "For Metalwork Requirement 5 (Specialized Metalcraft Options), verify the Scout's own observations and specific pamphlet details (Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do silversmiths and sheet metal artisans use specialized hammers during the forming and finishing of curved metal objects?",
+        "scenario_prompt": "In what specific ways do silversmiths and sheet metal artisans use specialized hammers during the forming and finishing of curved metal objects?",
         "question": "How do silversmiths and sheet metal artisans use specialized hammers during the forming and finishing of curved metal objects?",
         "options": [
           "A. Using a claw hammer with a scarred waffle face to polish finished silver jewelry",
@@ -3838,7 +3906,33 @@
       "socratic_questions": [
         "How does the choice of metal alloy dictate the specific forming techniques used in your selected option?",
         "Why is preparing an accurate pattern sketch with bend allowances essential before cutting sheet metal?",
-        "How do the fire and burn hazards differ between sand casting molten bronze and hammer-forging hot steel?"
+        "In what specific ways do the fire and burn hazards differ between sand casting molten bronze and hammer-forging hot steel?",
+        "What layout allowance must you add to your flat sheet metal sketch dimensions when folding a hem or locked seam?",
+        "Which aviation snip color code is designed for cutting straight lines or wide curves without kinking the sheet edge?",
+        "Why is it dangerous to strike a hardened steel hammer face directly against the hardened face of an anvil or stake?",
+        "What happens to a sand casting if the founder omits the riser or packs damp molding sand without vent channels?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "All four metalwork options share identical tooling and follow the same assembly techniques.",
+          "fact": "Sheet metal relies on mechanical folding, silversmithing on raising, foundry on pouring, and blacksmithing on forging."
+        },
+        {
+          "misconception": "Cutting all the way to the tip of tin snips on every stroke produces the cleanest, smoothest edge on sheet metal.",
+          "fact": "Closing snips completely to the tips leaves tiny sharp burrs and nicks, so stop each cut slightly short of the blade tips."
+        },
+        {
+          "misconception": "Solder will flow into a dirty sheet metal or silver joint as long as you hold the soldering iron on the seam long enough.",
+          "fact": "Solder only wets and bonds to oxide-free metal that has been mechanically cleaned, coated with flux, and heated evenly."
+        },
+        {
+          "misconception": "In sand casting, the runner and the riser perform the exact same job of venting trapped air out of the mold cavity.",
+          "fact": "The runner channels molten metal into the mold cavity, while the riser holds a reservoir of liquid metal to feed shrinkage."
+        },
+        {
+          "misconception": "Drawing out hot iron on the anvil makes the workpiece shorter and thicker at the hammered section.",
+          "fact": "Drawing out lengthens and thins the metal along its axis, whereas upsetting drives the hot bar back on itself to thicken it."
+        }
       ]
     }
   ],

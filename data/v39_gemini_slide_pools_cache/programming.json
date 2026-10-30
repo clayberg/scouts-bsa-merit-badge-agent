@@ -1,0 +1,167 @@
+{
+  "badge_slug": "programming",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Pressing wrists against a pad while typing compresses the carpal tunnel; float your wrists neutral and use rests only during pauses.",
+          "misconception": "Resting your wrists firmly on a padded gel wrist rest while actively typing prevents carpal tunnel syndrome and tendon strain."
+        },
+        {
+          "fact": "Forceful stretching irritates inflamed tendons; stop typing right away, rest the hand in a neutral position, and apply a cold pack.",
+          "misconception": "Typing harder and stretching aching fingers backward immediately relieves tendon inflammation during a long programming session."
+        },
+        {
+          "fact": "High screen glare against a dark room forces your pupils to adjust constantly; match screen brightness to even ambient room lighting.",
+          "misconception": "Sitting close to a bright monitor in a dark room sharpens text contrast and reduces eye fatigue during late-night coding."
+        },
+        {
+          "fact": "Full screenshots often leak API keys, local file paths, browser tabs, or personal data that should be cropped or redacted first.",
+          "misconception": "Sharing a screenshot of your full desktop or code editor online is safe as long as no password box is open on screen."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the median nerve inside your wrist when you type for hours with your wrists bent upward on a desk edge?",
+        "Where should a Scout position the top of the monitor screen and set the viewing distance to prevent neck and eye strain?",
+        "Which physical indicator in your fingers or forearm warns of early repetitive stress injury before steady pain develops?",
+        "What measurement confirms that you are following the 20-20-20 rule properly during a long coding session at your desk?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Lovelace wrote her Bernoulli number algorithm in 1843 for Charles Babbage's mechanical Analytical Engine, which was never completed.",
+          "misconception": "Ada Lovelace wrote the first computer program by testing her code directly on a running electronic computer in the 1840s."
+        },
+        {
+          "fact": "Processors execute only binary machine instructions, so a compiler or interpreter must translate high-level code before it can run.",
+          "misconception": "High-level languages like FORTRAN and COBOL run directly on the processor without being translated into machine code first."
+        },
+        {
+          "fact": "In 1947, operators taped an actual moth into the Harvard Mark II logbook after removing it from a relay that caused a malfunction.",
+          "misconception": "Grace Hopper invented the term debugging purely as a metaphor because early computer programs had no actual physical hardware bugs."
+        },
+        {
+          "fact": "Object-oriented concepts originated in the 1960s with Simula 67 and matured in the 1970s with Smalltalk long before the World Wide Web.",
+          "misconception": "Object-oriented programming was invented in the 1990s specifically to build interactive web pages with Java and JavaScript."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to software portability when a programmer switches from hardware-specific assembly code to a compiled language?",
+        "Under what condition does an interpreter execute source code differently than a compiler such as Grace Hopper's A-0 system?",
+        "Which physical indicator on a torn or mispunched Hollerith card caused early mainframe batch programs to halt or misread data?",
+        "Why did early scientific programmers adopt FORTRAN in 1957 instead of writing raw binary machine instructions by hand?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Java is a statically typed language compiled to bytecode, while JavaScript is a dynamic scripting language created for web interactivity.",
+          "misconception": "Java and JavaScript are two versions of the same programming language designed by the same engineering team for web browsers."
+        },
+        {
+          "fact": "Modern appliances contain embedded microcontrollers running C or assembly firmware that read sensors, update displays, and time cycles.",
+          "misconception": "Everyday household appliances like microwave ovens and washing machines operate purely on analog timers without programmed code."
+        },
+        {
+          "fact": "Pure Python is relatively slow, so libraries like NumPy and PyTorch delegate heavy matrix math to compiled C, C++, and CUDA kernels.",
+          "misconception": "Python is the fastest language for raw CPU number crunching because it dominates data science and machine learning workflows."
+        },
+        {
+          "fact": "SQL is a domain-specific query language built to define, retrieve, and update relational database records rather than render graphics.",
+          "misconception": "SQL is a general-purpose programming language used to build mobile user interfaces and 3D game physics engines from scratch."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Under what condition does an automotive engineer choose C or C++ over Python for an anti-lock braking microcontroller?",
+        "What happens to a web application's database when backend code runs raw user input instead of parameterized SQL queries?",
+        "Which physical indicator or sensor input triggers a smart thermostat's embedded firmware to cycle a home heating relay?",
+        "What measurement confirms whether an embedded device has enough RAM and flash memory to run a managed language runtime?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Retail software purchases grant a conditional license to use the program under EULA terms while the publisher retains ownership.",
+          "misconception": "Buying a commercial video game or desktop program makes you the legal owner of the software code with full rights to resell copies."
+        },
+        {
+          "fact": "Freeware is free of charge but usually keeps its source code closed, whereas open-source software grants rights to inspect and modify code.",
+          "misconception": "Freeware and open-source software mean the exact same thing because neither requires the user to pay money to download it."
+        },
+        {
+          "fact": "Copyright attaches automatically upon creation, so public repositories without a license reserve all rights to the original author.",
+          "misconception": "Any source code posted publicly on GitHub without a license file is automatically in the public domain for anyone to reuse."
+        },
+        {
+          "fact": "Copyright protects the specific expression of source code, while only a utility patent can restrict others from implementing the method.",
+          "misconception": "Copyright law prevents another programmer from writing fresh original code that performs the exact same task as your program."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your legal rights when you click agree on an End User License Agreement after paying for a software download?",
+        "Under what condition does a company lose trade secret protection over a proprietary search or compression algorithm?",
+        "Why is it dangerous to copy a function from a GPL open-source repository into a closed-source commercial app without checking?",
+        "Which legal protection covers a software product's brand name and logo rather than its underlying source code or invention?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Logic bugs and off-by-one errors compile cleanly, so you must test normal, boundary, and invalid inputs to verify correct behavior.",
+          "misconception": "A program that compiles and runs without throwing an error message is guaranteed to produce accurate output for every user input."
+        },
+        {
+          "fact": "Editing multiple variables at once masks the true cause; change one thing at a time and re-run your test case to confirm the fix.",
+          "misconception": "Changing five or six lines of code at once is the fastest way to isolate and fix a stubborn bug during a debugging session."
+        },
+        {
+          "fact": "An IDE is just a workspace combining a text editor, debugger, and build runner; the actual language is defined by its compiler or runtime.",
+          "misconception": "An Integrated Development Environment is the programming language itself rather than a tool suite for editing and running code."
+        },
+        {
+          "fact": "A valid program must read live input into variables, apply conditional or mathematical logic, and compute the resulting output dynamically.",
+          "misconception": "Hardcoding the sample answer directly into a print statement satisfies the requirement to process user input and produce output."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a Python program when you pass a user string directly from the input function into an arithmetic calculation?",
+        "Where should a Scout place a debugger breakpoint when a loop outputs the wrong total only on the final iteration?",
+        "Under what condition does a program compile with zero syntax errors in your IDE yet still crash or print wrong results?",
+        "What test input confirms that your conditional logic handles boundary values, zero, and unexpected negative numbers safely?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Engineers spend much of their week reading existing code, debugging systems, writing design docs, and reviewing changes with teammates.",
+          "misconception": "Professional software engineers spend forty hours a week working alone in silence writing brand-new code from scratch."
+        },
+        {
+          "fact": "Employers value problem-solving, version control habits, and debugging skills because developers look up API syntax details every day.",
+          "misconception": "Memorizing every function in a language reference manual is required before you can qualify for an entry-level coding job."
+        },
+        {
+          "fact": "Most technology companies offer parallel individual contributor tracks such as Staff and Principal Engineer focused on technical leadership.",
+          "misconception": "Career advancement in software engineering always requires giving up programming to become a full-time people manager."
+        },
+        {
+          "fact": "Hobbyists regularly write code for robotics competitions, amateur radio, home weather stations, music synthesis, and game modding.",
+          "misconception": "Only full-time software company employees use programming skills, leaving little room for coding in outdoor or creative hobbies."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a software team's release schedule when engineers only write code and skip code reviews and automated testing?",
+        "Which portfolio artifact demonstrates your real programming skill to a hiring manager better than listing languages on a resume?",
+        "Under what condition does an entry-level developer benefit more from contributing to an open-source project than taking a course?",
+        "What measurement confirms whether a computer science degree or a coding bootcamp offers a better return on tuition cost?"
+      ],
+      "req_id": "6"
+    }
+  ]
+}

@@ -175,10 +175,10 @@
 - **Pamphlet Fact:** A viable engineering task specification contains measurable success criteria rather than subjective performance goals.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite
-- [ ] Microcontroller brick or board, charged battery pack, and programming laptop/tablet with USB cable
-- [ ] Robotics Engineering Notebook (design sketches, CAD/pseudo-code, test trials, and modifications)
-- [ ] Hex drivers, needle-nose pliers, zip ties, and marked competition test field
+- [ ] ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite.
+- [ ] Microcontroller brick or board, charged battery pack, and programming laptop/tablet with USB cable.
+- [ ] Robotics Engineering Notebook (design sketches, CAD/pseudo-code, test trials, and modifications).
+- [ ] Hex drivers, needle-nose pliers, zip ties, and marked competition test field.
 
 ![A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.](/assets/pamphlet_images/robotics_p032_img1.png)
 
@@ -304,10 +304,10 @@
 - **Pamphlet Fact:** Live demonstrations prove whether real world sensor calibration matches the programmed environmental thresholds.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite
-- [ ] Microcontroller brick or board, charged battery pack, and programming laptop/tablet with USB cable
-- [ ] Robotics Engineering Notebook (design sketches, CAD/pseudo-code, test trials, and modifications)
-- [ ] Hex drivers, needle-nose pliers, zip ties, and marked competition test field
+- [ ] ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite.
+- [ ] Microcontroller brick or board, charged battery pack, and programming laptop/tablet with USB cable.
+- [ ] Robotics Engineering Notebook (design sketches, CAD/pseudo-code, test trials, and modifications).
+- [ ] Hex drivers, needle-nose pliers, zip ties, and marked competition test field.
 
 ![An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation.](/assets/pamphlet_images/robotics_p032_img2.png)
 
@@ -352,10 +352,10 @@
 - **Pamphlet Fact:** Competitive pit areas operate like real world engineering test bays under tight schedule pressures.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite
-- [ ] Microcontroller brick or board, charged battery pack, and programming laptop/tablet with USB cable
-- [ ] Robotics Engineering Notebook (design sketches, CAD/pseudo-code, test trials, and modifications)
-- [ ] Hex drivers, needle-nose pliers, zip ties, and marked competition test field
+- [ ] ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite.
+- [ ] Microcontroller brick or board, charged battery pack, and programming laptop/tablet with USB cable.
+- [ ] Robotics Engineering Notebook (design sketches, CAD/pseudo-code, test trials, and modifications).
+- [ ] Hex drivers, needle-nose pliers, zip ties, and marked competition test field.
 
 ![A student competition robot equipped with bumpers and intake mechanisms awaits its arena match.](/assets/pamphlet_images/robotics_p071_img1.png)
 

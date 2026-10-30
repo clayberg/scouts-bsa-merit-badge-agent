@@ -1,8 +1,8 @@
 # Surveying Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Surveying.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/surveying/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/surveying/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -27,7 +27,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Show that you know first aid for the types of injuries that could occur while surveying, including cuts, scratches, snake bite, insect stings, tick bites, heat- and cold-related reactions, and dehydration. Explain to your counselor why a surveyor should be able to identify the poisonous plants and animals found in your area.
+- [ ] **Station Req 1:** Scout must individually show mastery of Requirement 1 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -39,9 +39,9 @@
 - **Pamphlet Fact:** Survey parties require rugged trauma kits containing pressure bandages, splints, and insect bite treatments.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Surveying Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: First aid for the types)
-- [ ] Field notebook, verification log sheet, and demonstration materials for First aid for the types
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Surveying Merit Badge Pamphlet: First aid for the types.
+- [ ] Field notebook, verification log sheet, and demonstration materials for First aid for the types.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Illustrated panels depict field hazards including tick bites, spider venom, heat exhaustion, and proper campsite precautions.](/assets/ai_illustrations/surveying_req_1_nano_hero.png)
 
@@ -78,9 +78,9 @@
 - **Pamphlet Fact:** Centering with an optical plummet or plumb bob within millimeters is mandatory for true boundary angles.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Surveying Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Set an instrument)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Set an instrument
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Surveying Merit Badge Pamphlet: Set an instrument.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Set an instrument.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Surveying Requirement 2 figure showing plumb the optical sight directly over the station tack before leveling footplates.](/assets/pamphlet_images/surveying_p007_img1.png)
 

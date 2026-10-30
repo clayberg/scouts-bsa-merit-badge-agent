@@ -248,10 +248,10 @@
 - **Pamphlet Fact:** Sneakers provide zero guaranteed electrical insulation against residential 120-volt current.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A person dials an emergency telephone number on a smartphone to request aid.](/assets/pamphlet_images/emergency_preparedness_p034_img1.png)
 
@@ -323,10 +323,10 @@
 - **Pamphlet Fact:** Standardized visual body signals or ground symbols like X or V prevent confusion.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A roadside sign warns travelers of seventy-two miles before the next services.](/assets/pamphlet_images/emergency_preparedness_p040_img1.png)
 
@@ -372,10 +372,10 @@
 - **Pamphlet Fact:** Carrying adults over rough wilderness trails requires multiple rescuers using rigid litters.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A firefighter directs a hose stream at a burning residential structure fire.](/assets/pamphlet_images/emergency_preparedness_p029_img1.png)
 

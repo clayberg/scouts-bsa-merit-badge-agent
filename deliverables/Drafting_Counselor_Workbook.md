@@ -1,8 +1,8 @@
 # Drafting Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Drafting.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/drafting/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/drafting/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -242,9 +242,9 @@
 - **Pamphlet Fact:** Counselor redline markups serve as formal engineering change orders instructing drafting drawing updates.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Drafting Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Copy of Your Drawings)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Copy of Your Drawings
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Drafting Merit Badge Pamphlet: Copy of Your Drawings.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Copy of Your Drawings.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![An engineer holds a model truck designed using computer-aided drafting.](/assets/pamphlet_images/drafting_p019_img1.png)
 

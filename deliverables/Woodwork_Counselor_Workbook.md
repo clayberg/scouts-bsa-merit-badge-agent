@@ -1,8 +1,8 @@
 # Woodwork Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Woodwork.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/woodwork/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/woodwork/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -27,7 +27,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in woodwork activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Explain what precautions you should take to safely use your tools. (b) Show that you know first aid for injuries that could occur while woodworking, including splinters, scratches, cuts, severe bleeding, and shock. Tell what precautions must be taken to help prevent loss of eyesight or hearing, and explain why and when it is necessary to use a dust mask. (c) Earn the Totin' Chip recognition.
+- [ ] **Station Req 1:** Scout must individually demonstrate mastery of Requirement 1 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -152,10 +152,10 @@
 - **Pamphlet Fact:** Resting a hand plane directly on its sole chips the exposed cutting iron against hard bench surfaces, so planes must rest on their sides or on wooden battens.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for The proper care, use, and storage
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Woodwork
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for The proper care, use, and storage.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Woodwork.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![Woodwork Requirement 3 figure showing bench chisels maintain a primary cutting bevel between twenty five and thirty degrees.](/assets/pamphlet_images/woodwork_p012_img1.png)
 
@@ -184,7 +184,7 @@
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 60, p. 62)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Plane Hammer Brace and Bit)
 > **Guide to Safe Scouting Warning:** Clamp workpieces firmly to the bench when boring with a brace and bit to prevent the stock from spinning or shifting under torque.
 - **Common Myth:** Boring completely through a board from one side with an auger bit produces clean hole edges on both faces.
-- **Pamphlet Fact:** Boring through from one side blows out splintery wood grain on the back; boring must reverse once the lead screw pokes through.
+- **Pamphlet Fact:** Boring through from one side blows out splintery wood grain on the back; boring must reverse once the lead screw pokes.
 
 ![A woodworker wearing protective goggles and earmuffs stands beside a power miter saw.](/assets/pamphlet_images/woodwork_p059_img1.png)
 
@@ -246,10 +246,10 @@
 - **Pamphlet Fact:** Sharp ninety-degree wooden corners easily dent, split, and shed surface finishes, whereas rounded and beveled arrises distribute impact forces.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Make working drawings of a project
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Woodwork
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Make working drawings of a project.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Woodwork.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.](/assets/pamphlet_images/woodwork_p061_img1.png)
 

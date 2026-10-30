@@ -1,0 +1,221 @@
+{
+  "badge_slug": "artificial-intelligence",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Standard automation follows fixed, pre-programmed rules and triggers without learning from new data.",
+          "misconception": "Every automated workflow uses machine learning to adapt its behavior during execution."
+        },
+        {
+          "fact": "Modern chatbots are narrow AI systems trained to predict text patterns rather than think across all human domains.",
+          "misconception": "Current conversational chatbots are examples of general AI because they discuss many topics."
+        },
+        {
+          "fact": "Basic programming uses explicit human-written rules, whereas machine learning discovers patterns directly from training data.",
+          "misconception": "Basic programming and machine learning both require a developer to write explicit rules for every output."
+        },
+        {
+          "fact": "Data consists of raw facts and measurements, while a database is the organized system built to store and query that data.",
+          "misconception": "A database and raw data are identical concepts in artificial intelligence systems."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a machine learning model when its training data contains systematic errors or missing values?",
+        "Under what condition does an automated workflow require a trigger before executing its sequence of tasks?",
+        "Which technical capability separates an autonomous AI agent from a simple rule-based chatbot script?",
+        "Why does a chess-playing engine qualify as narrow AI rather than general or superintelligent AI?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Everyday consumer features like smartphone face unlock, spam filters, and voice assistants run AI models constantly.",
+          "misconception": "Artificial intelligence only runs inside specialized robotics labs or cloud supercomputers."
+        },
+        {
+          "fact": "Effective workplace AI flags patterns and anomalies so qualified human professionals can make faster, informed decisions.",
+          "misconception": "Workplace AI systems are designed to replace all human judgment in medical and financial roles."
+        },
+        {
+          "fact": "Submitting AI-written work as your own violates academic integrity, whereas using AI to quiz yourself supports real learning.",
+          "misconception": "Using a generative AI tool to write an entire school essay counts as legitimate student research."
+        },
+        {
+          "fact": "Modern spam filters use machine learning classifiers that adapt to new phishing wording and sender behavior.",
+          "misconception": "Email spam filters rely only on a fixed blocklist of known sender addresses to catch junk mail."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a navigation app's route prediction when live traffic sensor data suddenly changes?",
+        "Which signal tells you that a workplace software tool uses adaptive AI instead of a static lookup table?",
+        "Why is it dangerous to submit an AI-generated school summary without verifying each cited source?",
+        "Where should a student set the boundary between using AI as a study tutor and committing academic dishonesty?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A timer-triggered coffee maker is deterministic automation because it follows a fixed schedule without learning.",
+          "misconception": "A programmable coffee maker that brews at 6:00 AM is an example of artificial intelligence."
+        },
+        {
+          "fact": "Payroll automation calculates paychecks using strict mathematical formulas and legal tax tables with zero guesswork.",
+          "misconception": "Automated workplace payroll systems decide employee tax rates by analyzing historical trends."
+        },
+        {
+          "fact": "Rule-based automation remains the safest, fastest choice whenever a task requires repeatable and predictable execution.",
+          "misconception": "Deterministic automation is obsolete now that machine learning models are widely available."
+        },
+        {
+          "fact": "Standard sliding doors use a simple motion or infrared sensor trigger that opens the door whenever anything enters range.",
+          "misconception": "An automatic sliding grocery store door uses computer vision AI to decide who should enter."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a home thermostat's heating cycle when the room temperature crosses its set threshold?",
+        "Under what condition does a deterministic factory conveyor script fail without human intervention?",
+        "Which everyday school task benefits more from a scheduled calendar reminder than from a predictive AI model?",
+        "Why is it dangerous to deploy an automated billing script without testing its error-stopping conditions first?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "AI models inherit and amplify any historical prejudices or sampling gaps present in their human-collected training data.",
+          "misconception": "Mathematical algorithms are naturally neutral and cannot produce biased or unfair outcomes."
+        },
+        {
+          "fact": "Many public AI services log user inputs and may use those conversations to train future models unless privacy settings block it.",
+          "misconception": "Deleting a chat window immediately erases your private prompts from a public AI provider's servers."
+        },
+        {
+          "fact": "Human developers, deploying organizations, and operators retain ethical responsibility for the systems they build and use.",
+          "misconception": "When an autonomous system causes harm, the software itself is legally and morally accountable."
+        },
+        {
+          "fact": "A model with high average accuracy can still fail at much higher rates for smaller, underrepresented demographic groups.",
+          "misconception": "High overall accuracy on a test dataset proves that an AI model is fair to every group of users."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a hiring algorithm's fairness when its historical training data underrepresents certain groups?",
+        "Why is it dangerous to upload personal medical records or troop rosters into a public AI tool?",
+        "Under what condition must a human reviewer override an automated AI decision in healthcare or lending?",
+        "Which specific rule in your personal ethical guidelines protects user privacy before a prompt is sent?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Deepfakes include synthetic audio voice clones and fabricated photos used in financial scams, bullying, and misinformation.",
+          "misconception": "Deepfakes only involve swapping faces in Hollywood movies or celebrity parody videos."
+        },
+        {
+          "fact": "Accessible consumer software can clone a person's voice or likeness from just a few seconds of public social media audio.",
+          "misconception": "Creating a realistic voice or video deepfake still requires millions of dollars in studio hardware."
+        },
+        {
+          "fact": "Victims should document URLs and screenshots immediately, tell a trusted adult, and report the content for platform removal.",
+          "misconception": "The best response to being targeted by a malicious deepfake is to delete the evidence and stay silent."
+        },
+        {
+          "fact": "Modern generative models hide many visual flaws, so verifying the source through a separate trusted channel is essential.",
+          "misconception": "Human eyes and ears can reliably spot every synthetic video or cloned voice without verification tools."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which visual or audio artifact in a video call suggests that the speaker might be a synthetic deepfake?",
+        "Why is it dangerous to share or forward a suspected deepfake video even if you are warning friends about it?",
+        "What evidence should a victim preserve before reporting a malicious deepfake to a parent, school, or platform?",
+        "Under what condition can a voice-cloning deepfake trick a family member into sending money or passwords?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Language models predict likely word sequences and can hallucinate plausible-sounding falsehoods that require fact-checking.",
+          "misconception": "A confident, well-written paragraph from a language model guarantees that the underlying facts are true."
+        },
+        {
+          "fact": "Clear prompts specify context, target audience, constraints, and desired output format to guide the model accurately.",
+          "misconception": "Effective prompt engineering means typing the shortest possible one-word or two-word question."
+        },
+        {
+          "fact": "Iterative refinement, where you critique the first draft and add missing constraints, routinely improves AI output quality.",
+          "misconception": "If an AI model gives a weak answer on the first try, the model is incapable of helping with that task."
+        },
+        {
+          "fact": "Pre-trained models have knowledge cutoffs and cannot know recent events unless connected to live search or provided context.",
+          "misconception": "AI models learn new facts instantaneously from every single prompt without any training cutoff limits."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the accuracy of an AI response when you add role, audience, and format constraints to your prompt?",
+        "Why does a large language model sometimes invent fake book titles or false historical dates with high confidence?",
+        "Under what condition does providing two or three concrete examples inside a prompt improve the generated output?",
+        "What verification step confirms that a step-by-step campout checklist generated by AI is safe to follow?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Successful AI projects start with a clear objective, a data collection plan, and an ethical risk review before coding.",
+          "misconception": "Building a practical AI project begins with writing code before defining the problem or checking data quality."
+        },
+        {
+          "fact": "Evaluating on training data hides overfitting; you must test the model on held-out examples it has never seen before.",
+          "misconception": "Testing a machine learning model on its own training examples is the most reliable way to measure performance."
+        },
+        {
+          "fact": "Clean, representative, and accurately labeled data matters far more to project success than raw volume of bad data.",
+          "misconception": "More training data automatically fixes a project even when the labels are noisy, biased, or irrelevant."
+        },
+        {
+          "fact": "Even small community projects must protect user privacy, avoid biased recommendations, and state their limitations clearly.",
+          "misconception": "Ethical review only matters for commercial tech companies and is unnecessary for a small community Scout project."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your project's test results if you evaluate your model on the exact same data used to train it?",
+        "Which metric or failure log in your project plan tells you whether your AI tool solves the community need?",
+        "Where should you document edge cases and ethical risks before deploying your project for real users?",
+        "Why must you obtain counselor approval and check data permissions before collecting community dataset samples?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "AI careers span data engineering, automation technician roles, product management, and ethics, with varied education paths.",
+          "misconception": "Every career in artificial intelligence requires a doctoral degree in advanced theoretical mathematics."
+        },
+        {
+          "fact": "Employers also value communication, ethical judgment, teamwork, and domain knowledge to translate AI into safe solutions.",
+          "misconception": "Technical coding skill is the only qualification employers evaluate when hiring artificial intelligence professionals."
+        },
+        {
+          "fact": "Healthcare, agriculture, manufacturing, finance, and public service organizations all hire AI and automation specialists.",
+          "misconception": "Artificial intelligence and automation jobs only exist inside software companies in major tech hubs."
+        },
+        {
+          "fact": "Rapidly evolving AI tools and standards require continuous learning, updated certifications, and hands-on practice.",
+          "misconception": "Completing a single college degree provides all the technical knowledge needed for a thirty-year AI career."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which daily responsibilities separate a machine learning engineer from an AI ethics and policy specialist?",
+        "What happens to an automation engineer's career readiness if they stop learning after earning one certification?",
+        "Where can a high school student gain hands-on portfolio experience in AI before paying for a college degree?",
+        "Under what condition does domain expertise in medicine or agriculture matter as much as coding in an AI career?"
+      ],
+      "req_id": "8"
+    }
+  ]
+}

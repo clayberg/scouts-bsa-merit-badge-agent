@@ -2393,13 +2393,28 @@ def decompose_requirement_into_topic_slides(
     else:
         all_pamphlet_bullets = []
 
-    # Reserve `excerpts[:4]` for the REQUIREMENT_INTRO slide in Deep Dive mode so topic slides never repeat them,
-    # and keep `worked_fields_bullets` and `checklist` exclusive to their dedicated WORKED_EXAMPLE_TEMPLATE and
-    # GEAR_CHECKLIST_GRID slides so two slides in the same requirement never duplicate each other's bullets.
-    intro_norms = {re.sub(r"[^a-z0-9]+", " ", b.lower()).strip()[:55] for b in excerpts[:4]}
+    # Build rich Gemini-grounded bullet pool from `excerpts`, `pamphlet_summary`, `sub_reqs` summaries,
+    # `all_pamphlet_bullets`, and `procedures` so topic slides never fall back to boilerplate strings.
+    summary_sentences: List[str] = []
+    raw_p_sum = str(req_dict.get("pamphlet_summary") or "").strip()
+    if raw_p_sum:
+        for idx_sent, sent in enumerate(re.split(r"(?<=[.!?])\s+", raw_p_sum)):
+            sent_c = sent.strip()
+            if len(sent_c) >= 25:
+                summary_sentences.append(
+                    sent_c if ": " in sent_c[:45] else f"{base_title} Principle {idx_sent + 1}: {sent_c}"
+                )
+    sub_summary_bullets: List[str] = []
+    for idx_sr, sr_item in enumerate(sub_reqs):
+        if isinstance(sr_item, dict):
+            sr_tt = str(sr_item.get("topic_title") or f"Req {sr_item.get('sub_id') or (idx_sr + 1)}").strip()
+            sr_ps = str(sr_item.get("pamphlet_summary") or sr_item.get("text") or "").strip()
+            if sr_ps:
+                sub_summary_bullets.append(f"{sr_tt}: {sr_ps}")
+
     fresh_pamphlet_bullets: List[str] = []
-    seen_fresh_norms: set = set(intro_norms)
-    for b in (excerpts[4:] + all_pamphlet_bullets):
+    seen_fresh_norms: set = set()
+    for b in (excerpts + summary_sentences + sub_summary_bullets + all_pamphlet_bullets + procedures + checklist):
         b_clean = str(b or "").strip()
         if not b_clean:
             continue
@@ -2452,9 +2467,8 @@ def decompose_requirement_into_topic_slides(
         else:
             vis_img, vis_cap = None, ""
         fallback_vis_bullets = [
-            f"Field Reference ({base_title}): Connect the visual diagram to each step of {badge_name} Requirement {req_num}.",
-            f"Pamphlet Verification: Review how {base_title} applies during troop outings and skill stations.",
-            f"Buddy Check: Trace the key components of {base_title} with your patrol partner before demonstration.",
+            f"{base_title} (Req {req_num}): {req_text}",
+            f"{base_title} Summary: {raw_p_sum or req_text}",
         ]
         vis_bullets = _dedupe_slide_bullets(
             fresh_pamphlet_bullets[:4] if len(fresh_pamphlet_bullets) >= 2 else (fresh_pamphlet_bullets + fallback_vis_bullets)[:4]
@@ -2471,9 +2485,8 @@ def decompose_requirement_into_topic_slides(
     else:
         # Single-part requirement: teach the fresh pamphlet points not shown on REQUIREMENT_INTRO
         single_fallback = [
-            f"Field Reference ({base_title}): Apply the official {badge_name} pamphlet principles for Requirement {req_num}.",
-            f"Practical Execution: Connect {base_title} definitions to hands-on patrol practice and field observations.",
-            f"Counselor Conference Check: Explain how {base_title} supports safe, effective execution in {badge_name}.",
+            f"{base_title} (Req {req_num}): {req_text}",
+            f"{base_title} Summary: {raw_p_sum or req_text}",
         ]
         deep_bullets = _dedupe_slide_bullets(
             fresh_pamphlet_bullets[:4] if len(fresh_pamphlet_bullets) >= 2 else (fresh_pamphlet_bullets + single_fallback)[:4]
@@ -2501,26 +2514,20 @@ def decompose_requirement_into_topic_slides(
         })
 
     # B. Step-by-Step Execution Procedure (Demonstrate Phase) — full-width 2x2 grid for maximum clarity
-    # Never reuse the exact same bullets shown on the immediately preceding slide!
+    # Prioritize the requirement's Gemini-authored `step_by_step_procedure` items, supplemented by remaining fresh bullets.
     remaining_fresh_for_proc = [
         fb for fb in fresh_pamphlet_bullets
         if re.sub(r"[^a-z0-9]+", " ", fb.lower()).strip()[:55] not in used_on_visual_slide_norms
     ]
-    proc_candidates = [
-        p for p in procedures
-        if re.sub(r"[^a-z0-9]+", " ", p.lower()).strip()[:55] not in intro_norms
-        and re.sub(r"[^a-z0-9]+", " ", p.lower()).strip()[:55] not in used_on_visual_slide_norms
-    ]
-    if len(proc_candidates) >= 3:
-        proc_bullets = _dedupe_slide_bullets(proc_candidates)[:4]
-    elif len(remaining_fresh_for_proc) >= 3:
-        proc_bullets = _dedupe_slide_bullets(remaining_fresh_for_proc)[:4]
+    proc_candidates = _dedupe_slide_bullets(
+        list(procedures) + remaining_fresh_for_proc + sub_summary_bullets + summary_sentences + list(excerpts)
+    )
+    if len(proc_candidates) >= 2:
+        proc_bullets = proc_candidates[:4]
     else:
         proc_bullets = [
-            f"Preparation & Study: Review the {badge_name} handbook section on {base_title} and record key definitions in your workbook.",
-            f"Equipment & Safety Check: Inspect the tools, materials, and workspace needed for Requirement {req_num} with your buddy.",
-            f"Hands-On Demonstration: Practice and demonstrate the required {base_title} steps using the BSA EDGE method.",
-            f"Counselor Verification: Present your completed notes, logs, or demonstration for Requirement {req_num} counselor review.",
+            f"{base_title} Step 1: {req_text}",
+            f"{base_title} Step 2: {raw_p_sum or req_text}",
         ]
 
     generated.append({

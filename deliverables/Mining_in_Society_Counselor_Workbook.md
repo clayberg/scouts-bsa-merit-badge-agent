@@ -1,8 +1,8 @@
 # Mining in Society Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Mining%20in%20Society.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/mining-in-society/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/mining-in-society/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -29,7 +29,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Discuss with your counselor the potential hazards a miner may encounter at an active mine and the protective measures used by miners. In your discussion, explain how: (a) The miner's personal protective equipment is worn and used, including a hard hat, safety glasses, earplugs, dust mask or respirator, self-rescue device, and high-visibility vest. (b) Miners protect their hands and feet from impact, pinch, vibration, slipping, and tripping/falling hazards. (c) Monitoring equipment warns miners of imminent danger, and how robots, drones, and other technology may be used in mine rescues.
+- [ ] **Station Req 3:** Scout must individually discuss mastery of Requirement 3 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -53,9 +53,9 @@
 - **Pamphlet Fact:** Most manufactured goods combine dozens of distinct mined minerals to achieve required physical performance specifications.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Mining in Society Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Minerals Product Mineral Used)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Minerals Product Mineral Used
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Mining in Society Merit Badge: Minerals Product Mineral Used.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Minerals Product Mineral Used.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Mining in Society Requirement 1 figure showing halite provides table salt and essential chemical feedstocks for household soap.](/assets/pamphlet_images/mining_in_society_p003_img1.png)
 
@@ -148,9 +148,9 @@
 - **Pamphlet Fact:** Protective equipment acts as a secondary defense layer after primary engineering controls such as rock bolting and ventilation.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Mining in Society Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Mining in Society Hazards and First Aid)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Mining in Society Hazards and First Aid
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Mining in Society Merit Badge: Mining in Society Hazards and First Aid.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Mining in Society Hazards and First Aid.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Mining in Society Requirement 3 figure showing self-contained self-rescuer canisters supply emergency breathable oxygen.](/assets/pamphlet_images/mining_in_society_p012_img1.png)
 
@@ -345,9 +345,9 @@
 - **Pamphlet Fact:** Operations utilize closed-loop water circuits and chemical treatment plants that neutralize contaminants before any discharge.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Mining in Society Merit Badge Pamphlet and Fillable Scout Workbook (Req 6: Leave No Trace and Outdoor Ethics)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Leave No Trace and Outdoor Ethics
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Mining in Society Merit Badge: Leave No Trace and Outdoor Ethics.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Leave No Trace and Outdoor Ethics.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![An overland truss conveyor transports crushed ore efficiently across rugged mining terrain.](/assets/pamphlet_images/mining_in_society_p039_img1.png)
 

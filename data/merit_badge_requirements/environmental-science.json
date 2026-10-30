@@ -66,9 +66,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think environmental science is identical to environmental activism or political advocacy.",
-        "fact": "Environmental science is an interdisciplinary academic field combining biology, chemistry, physics, and geology to solve problems.",
-        "myth": "Scouts often think environmental science is identical to environmental activism or political advocacy.",
-        "fact_correction": "Environmental science is an interdisciplinary academic field combining biology, chemistry, physics, and geology to solve problems."
+        "fact": "Environmental science is an interdisciplinary academic field combining biology, chemistry, physics, and geology to solve problems."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -105,42 +103,42 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Traditional Resource Extraction Practices",
-        "right_header": "Science-Based Environmental Conservation Methods",
+        "left_header": "Req 1: Waste Transport and Disposal",
+        "right_header": "Req 1: Research Human Environmental",
         "left_points": [
           "Waste Transport and Disposal: Other companies employ people to properly transport and dispose of municipal, agricultural, and industrial wastes (p. 77).",
           "Interdisciplinary Scientific Product Design: Scientists working in ecology, toxicology, physiology, meteorology, geology, and many other sciences develop products that are more environmentally (p. 77).",
           "Human Impact Research: They also research the environmental impacts of human activities (p. 77)."
         ],
         "right_points": [
-          "Step 1 - Research Human Environmental Impacts: They also research the environmental impacts of human activities (p. 77).",
-          "Step 2 - Test Safer Pest Controls: They also help reduce the environmental hazards of pesticides by developing and testing pest-control techniques (p. 77).",
-          "Step 3 - Maintain Sustainable Fish Stocks: Oceanographers, fishery biologists, and fishery managers work on developing ways to maintain fish stocks and avoid over fishing and water pollution (p. 77)."
+          "Research Human Environmental Impacts: They also research the environmental impacts of human activities (p. 77).",
+          "Test Safer Pest Controls: They also help reduce the environmental hazards of pesticides by developing and testing pest-control techniques (p. 77).",
+          "Maintain Sustainable Fish Stocks: Oceanographers, fishery biologists, and fishery managers work on developing ways to maintain fish stocks and avoid over fishing and water pollution (p. 77)."
         ],
         "rows": [
           {
-            "attribute": "Waste Transport and Disposal",
+            "attribute": "Disciplinary Integration",
             "left": "Waste Transport and Disposal: Other companies employ people to properly transport and dispose of municipal, agricultural, and industrial wastes (p. 77).",
-            "right": "Step 1 - Research Human Environmental Impacts: They also research the environmental impacts of human activities (p. 77)."
+            "right": "Research Human Environmental Impacts: They also research the environmental impacts of human activities (p. 77)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Objective Analysis",
             "left": "Interdisciplinary Scientific Product Design: Scientists working in ecology, toxicology, physiology, meteorology, geology, and many other sciences develop products that are more environmentally (p. 77).",
-            "right": "Step 2 - Test Safer Pest Controls: They also help reduce the environmental hazards of pesticides by developing and testing pest-control techniques (p. 77)."
+            "right": "Test Safer Pest Controls: They also help reduce the environmental hazards of pesticides by developing and testing pest-control techniques (p. 77)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Conservation Practice",
             "left": "Human Impact Research: They also research the environmental impacts of human activities (p. 77).",
-            "right": "Step 3 - Maintain Sustainable Fish Stocks: Oceanographers, fishery biologists, and fishery managers work on developing ways to maintain fish stocks and avoid over fishing and water pollution (p. 77)."
+            "right": "Maintain Sustainable Fish Stocks: Oceanographers, fishery biologists, and fishery managers work on developing ways to maintain fish stocks and avoid over fishing and water pollution (p. 77)."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 1 Exemplar Workbook Entry: Foundations of Environmental Science",
+        "title": "Environmental Science Req 1 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Waste Transport and Disposal": "Other companies employ people to properly transport and dispose of municipal, agricultural, and industrial wastes (p. 77).",
-          "Interdisciplinary Scientific Product Design": "Scientists working in ecology, toxicology, physiology, meteorology, geology, and many other sciences develop products that are more environmentally (p. 77).",
+          "Interdisciplinary Scientific Product": "Scientists working in ecology, toxicology, physiology, meteorology, geology, and many other sciences develop products that are more environmentally (p. 77).",
           "Human Impact Research": "They also research the environmental impacts of human activities (p. 77).",
           "Safer Pest-Control Testing": "They also help reduce the environmental hazards of pesticides by developing and testing pest-control techniques (p. 77)."
         },
@@ -179,7 +177,33 @@
       "socratic_questions": [
         "How does an environmental scientist differ from a political environmental activist in methodology?",
         "In what ways do physical sciences like chemistry influence biological conservation decisions?",
-        "Why must natural resource management rely on empirical evidence rather than personal opinion?"
+        "Why must natural resource management rely on empirical evidence rather than personal opinion?",
+        "What baseline data must a researcher collect before testing whether a stream restoration project improves water quality?",
+        "What separates empirical environmental science measurements from personal opinions about protecting nature?",
+        "Which control variables must you record in your field log when comparing soil erosion across two hillside plots?",
+        "Why is it dangerous to collect water or soil samples from an unknown study site without protective gloves and eyewear?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think environmental science is identical to environmental activism or political advocacy.",
+          "fact": "Environmental science is an interdisciplinary academic field combining biology, chemistry, physics, and geology to solve problems."
+        },
+        {
+          "misconception": "Environmental science and environmental activism are identical fields that rely on public campaigning rather than data.",
+          "fact": "Environmental science uses quantitative field measurements and controlled experiments to study physical and biological systems."
+        },
+        {
+          "misconception": "Conservation means locking away all natural resources so humans can never harvest timber, water, or minerals from an area.",
+          "fact": "Conservation manages natural resources for sustainable human use, whereas preservation protects ecosystems from human extraction."
+        },
+        {
+          "misconception": "A single water or air sample taken on one afternoon is sufficient to prove that a local ecosystem is healthy or polluted.",
+          "fact": "Reliable environmental assessment requires repeated baseline sampling across multiple times, weather conditions, and control sites."
+        },
+        {
+          "misconception": "Natural ecosystems always return to their exact original state immediately after human pollution stops entering the area.",
+          "fact": "Severely degraded habitats often cross ecological thresholds and require active scientific restoration to recover biodiversity."
+        }
       ]
     },
     {
@@ -233,9 +257,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)",
           "common_misconception_pair": {
             "misconception": "Scouts often think a brief five-minute daytime walk captures complete ecosystem activity.",
-            "fact": "Sensory tracking over multiple days reveals cyclic behaviors invisible during single visits.",
-            "myth": "Scouts often think a brief five-minute daytime walk captures complete ecosystem activity.",
-            "fact_correction": "Sensory tracking over multiple days reveals cyclic behaviors invisible during single visits."
+            "fact": "Sensory tracking over multiple days reveals cyclic behaviors invisible during single visits."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -308,9 +330,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)",
           "common_misconception_pair": {
             "misconception": "Scouts often assume dead logs and dry leaves are nonliving rather than formerly living matter.",
-            "fact": "Abiotic structures like deadwood and rock crevices provide crucial microhabitats and thermal shelter.",
-            "myth": "Scouts often assume dead logs and dry leaves are nonliving rather than formerly living matter.",
-            "fact_correction": "Abiotic structures like deadwood and rock crevices provide crucial microhabitats and thermal shelter."
+            "fact": "Abiotic structures like deadwood and rock crevices provide crucial microhabitats and thermal shelter."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -413,9 +433,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe that nonliving components like rocks and sunlight do not affect living organisms.",
-        "fact": "Ecosystems depend on continuous energy flow from sunlight through producers to top predators.",
-        "myth": "Scouts often believe that nonliving components like rocks and sunlight do not affect living organisms.",
-        "fact_correction": "Ecosystems depend on continuous energy flow from sunlight through producers to top predators."
+        "fact": "Ecosystems depend on continuous energy flow from sunlight through producers to top predators."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -456,13 +474,13 @@
         "Step 4 - Interaction Synthesis: Construct a food web connecting primary producers to decomposers within your plot."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Environmental Science Core Field Standard",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Environmental Science Core Field Standard.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Ecosystem Multi-Sensory Observatio",
+        "left_header": "Req 2a: Ecosystem Multi-Sensory",
         "right_header": "Req 2b: Biotic And Abiotic Interactions",
         "left_points": [
           "(2a) Ecosystem Multi-Sensory Observation Area: Two days of structured multi-sensory observation uncover microclimate variations and shifting animal behaviors. Documenting auditory and olfactory cues identifies crepuscular wildlife presence."
@@ -472,28 +490,28 @@
         ],
         "rows": [
           {
-            "attribute": "Two-Day Ecosystem Sensory Observation",
-            "left": "(2a) Two-Day Ecosystem Sensory Observation: Climate change also can improve the ability of certain native species to occupy new areas due to higher temperatures and modified precipitation (p. 68).",
-            "right": "(2b) Living and Nonliving Field Notes: Human Impact on the Biosphere. \"naturalize,\" meaning they can reproduce and grow on their own without human assistance (p. 68)."
+            "attribute": "Abiotic Influences",
+            "left": "(2a) Ecosystem Multi-Sensory Observation Area: Two days of structured multi-sensory observation uncover microclimate variations and shifting animal behaviors. Documenting auditory and olfactory cues identifies crepuscular wildlife presence.",
+            "right": "(2b) Biotic And Abiotic Interactions: Classifying ecosystem components into biotic, abiotic, and detrital categories clarifies nutrient cycling. Trophic links demonstrate how detritivores recycle minerals back into living biomass."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Accidental Species Import Pathways: Other species are transported by mistake by importing products that have the seeds, plant, or animal on orin the product (p. 68).",
-            "right": "Step 2 - Track Climate Range Shifts: Climate change also can improve the ability of certain native species to occupy new areas due to higher temperatures and modified precipitation (p. 68)."
+            "attribute": "Biotic Interdependence",
+            "left": "Req 2a: Ecosystem Multi-Sensory: Two days of structured multi-sensory observation uncover microclimate variations and shifting animal behaviors. Documenting auditory and olfactory cues identifies crepuscular wildlife presence.",
+            "right": "Req 2b: Biotic And Abiotic: Classifying ecosystem components into biotic, abiotic, and detrital categories clarifies nutrient cycling. Trophic links demonstrate how detritivores recycle minerals back into living biomass."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Released Exotic Pet Impacts: Some invasive species are pets that have intentionally or accidentally been released, such as Burmese pythons, a big problem in the Florida Everglades (p. 68).",
-            "right": "Step 3 - Assess Rapid Invasive Growth: They can reproduce quickly and take over an area, and the native populations of wildlife will not have time to develop defenses (p. 68)."
+            "attribute": "Trophic Structure",
+            "left": "Abiotic Influences: Soil mineral chemistry and solar radiation regulate plant growth across terrestrial ecosystems.",
+            "right": "Biotic Interdependence: Decomposers return vital nitrogen compounds to topsoil through digestive metabolic activity."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 2 Exemplar Workbook Entry: Observing Local Ecosystem Interactions",
+        "title": "Environmental Science Req 2 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Ecosystem Multi-Sensory Observati": "Two days of structured multi-sensory observation uncover microclimate variations and shifting animal behaviors. Documenting auditory and olfactory cues identifies crepuscular wildlife presence.",
-          "Req 2b - Biotic And Abiotic Interactions": "Classifying ecosystem components into biotic, abiotic, and detrital categories clarifies nutrient cycling. Trophic links demonstrate how detritivores recycle minerals back into living biomass."
+          "Req 2a - Ecosystem Multi-Sensory": "Two days of structured multi-sensory observation uncover microclimate variations and shifting animal behaviors. Documenting auditory and olfactory cues identifies crepuscular wildlife presence.",
+          "Req 2b - Biotic And Abiotic": "Classifying ecosystem components into biotic, abiotic, and detrital categories clarifies nutrient cycling. Trophic links demonstrate how detritivores recycle minerals back into living biomass."
         },
         "sample_output": "Observing Local Ecosystem Interactions: Climate change also can improve the ability of certain native species to occupy new areas due to higher temperatures and modified precipitation (p. 68).",
         "counselor_tip": "For Environmental Science Requirement 2 (Observing Local Ecosystem Interactions), verify the Scout's own observations and specific pamphlet details (Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83))."
@@ -530,7 +548,33 @@
       "socratic_questions": [
         "How did abiotic factors change between your morning and evening observation sessions?",
         "What evidence of predatory or symbiotic relationships did you find in your plot?",
-        "Why is energy lost as heat when moving between trophic levels in an ecosystem?"
+        "Why is energy lost as heat when moving between trophic levels in an ecosystem?",
+        "Why should your two-day ecosystem observation schedule include both early morning and late afternoon sessions?",
+        "Which physical indicator distinguishes a formerly living component like decaying leaf litter from an abiotic mineral rock?",
+        "What sensory details and weather metrics belong in your field notebook to explain sudden changes in insect or bird activity?",
+        "Where should a Scout position an observation spot to monitor wildlife without disturbing nests or stepping into poison ivy?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often believe that nonliving components like rocks and sunlight do not affect living organisms.",
+          "fact": "Ecosystems depend on continuous energy flow from sunlight through producers to top predators."
+        },
+        {
+          "misconception": "Dead fallen logs and shed autumn leaves belong in the nonliving abiotic category because they are no longer breathing or growing.",
+          "fact": "Fallen logs and dead leaves are formerly living organic matter that decomposers break down to recycle nutrients into the soil."
+        },
+        {
+          "misconception": "Abiotic factors like sunlight, wind speed, and rock pH have no direct influence on which animal species inhabit a study plot.",
+          "fact": "Abiotic conditions control temperature, moisture, and plant growth, which directly determine which animals can survive in a habitat."
+        },
+        {
+          "misconception": "Observing an ecosystem requires walking through the brush and turning over rocks every hour to count hidden animals.",
+          "fact": "Repeatedly trampling vegetation and flipping cover objects destroys microhabitats and scares away the wildlife you want to observe."
+        },
+        {
+          "misconception": "Energy flows in a closed circle through an ecosystem so predators return all of their energy back to green plants when they die.",
+          "fact": "Matter cycles through decomposers back to soil, but energy flows one way from sunlight and dissipates as metabolic heat at each step."
+        }
       ]
     },
     {
@@ -578,9 +622,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
             "misconception": "Scouts often think airborne dust particles always fall harmlessly to the ground immediately.",
-            "fact": "Fine particulates penetrate deep into alveoli and trigger systemic respiratory inflammation.",
-            "myth": "Scouts often think airborne dust particles always fall harmlessly to the ground immediately.",
-            "fact_correction": "Fine particulates penetrate deep into alveoli and trigger systemic respiratory inflammation."
+            "fact": "Fine particulates penetrate deep into alveoli and trigger systemic respiratory inflammation."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -650,9 +692,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
             "misconception": "Scouts often believe private passenger vehicles produce less cumulative pollution than diesel locomotives.",
-            "fact": "Electric vehicles produce zero direct tailpipe pollutants despite indirect power grid emissions.",
-            "myth": "Scouts often believe private passenger vehicles produce less cumulative pollution than diesel locomotives.",
-            "fact_correction": "Electric vehicles produce zero direct tailpipe pollutants despite indirect power grid emissions."
+            "fact": "Electric vehicles produce zero direct tailpipe pollutants despite indirect power grid emissions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -728,9 +768,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
             "misconception": "Scouts often assume federal air pollution laws immediately halted all industrial emissions nationwide.",
-            "fact": "The Clean Air Act has drastically lowered criteria pollutants while the national economy grew.",
-            "myth": "Scouts often assume federal air pollution laws immediately halted all industrial emissions nationwide.",
-            "fact_correction": "The Clean Air Act has drastically lowered criteria pollutants while the national economy grew."
+            "fact": "The Clean Air Act has drastically lowered criteria pollutants while the national economy grew."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -823,9 +861,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume air pollution consists exclusively of visible smoke or noxious odors.",
-        "fact": "Particulate matter smaller than 2.5 microns can enter the human bloodstream through lung tissue.",
-        "myth": "Scouts often assume air pollution consists exclusively of visible smoke or noxious odors.",
-        "fact_correction": "Particulate matter smaller than 2.5 microns can enter the human bloodstream through lung tissue."
+        "fact": "Particulate matter smaller than 2.5 microns can enter the human bloodstream through lung tissue."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -862,8 +898,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Particulate Matter Air Experiment",
-        "right_header": "Req 3b: Transportation Systems Emission Co",
+        "left_header": "Req 3a: Particulate Matter Air",
+        "right_header": "Req 3b: Transportation Systems Emission",
         "left_points": [
           "(3a) Particulate Matter Air Experiment: Particulate matter consists of complex microscopic liquid droplets and solid fragments suspended in air. Trapping particles on adhesive surfaces quantifies local airborne contamination."
         ],
@@ -872,28 +908,28 @@
         ],
         "rows": [
           {
-            "attribute": "Particulate Matter Testing Experiment",
-            "left": "(3a) Particulate Matter Testing Experiment: Meanwhile, new technologies must be developed to lessen our reliance on fossil fuels (p. 41).",
-            "right": "(3b) Transportation Air Pollution Analysis: The Clean Air Act of 1970 created federal air pollution regulations that each state must enforce (p. 41)."
+            "attribute": "Particle Dimensions",
+            "left": "(3a) Particulate Matter Air Experiment: Particulate matter consists of complex microscopic liquid droplets and solid fragments suspended in air. Trapping particles on adhesive surfaces quantifies local airborne contamination.",
+            "right": "(3b) Transportation Systems Emission Comparison: Transportation corridors generate significant nitrogen oxides, unburned hydrocarbons, and fine carbon soot. Comparative analysis between combustion engines and electric transit reveals distinct emission profiles."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Clean Air Act Regulations: The Clean Air Act of 1970 created federal air pollution regulations that each state must enforce (p. 41).",
-            "right": "(3c) Clean Air Act Progress Review: Since this enactment, the United States has significantly lowered the levels of six major air pollutants including sulfur dioxides, nitrogen oxides (p. 41)."
+            "attribute": "Emission Mechanisms",
+            "left": "Req 3a: Particulate Matter Air: Particulate matter consists of complex microscopic liquid droplets and solid fragments suspended in air. Trapping particles on adhesive surfaces quantifies local airborne contamination.",
+            "right": "Req 3b: Transportation Systems: Transportation corridors generate significant nitrogen oxides, unburned hydrocarbons, and fine carbon soot. Comparative analysis between combustion engines and electric transit reveals distinct emission profiles."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Major Air Pollutant Reductions: Since this enactment, the United States has significantly lowered the levels of six major air pollutants including sulfur dioxides, nitrogen oxides (p. 41).",
-            "right": "Step 3 - Switch to Low-Sulfur Coal: Some plants burn coal that has a lower sulfur content (p. 41)."
+            "attribute": "Legislative Framework",
+            "left": "Req 3c: Clean Air Act Progress: Passed in 1970, the Clean Air Act establishes National Ambient Air Quality Standards for major pollutants. Ongoing regulatory efforts focus on cross-state air pollution and ground-level ozone reduction.",
+            "right": "Emission Mechanisms: High-temperature combustion in vehicle engines converts hydrocarbon fuel into hazardous exhaust particles."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 3 Exemplar Workbook Entry: Air Pollution Sources and Controls",
+        "title": "Environmental Science Req 3 Exemplar Workbook Entry: Air",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 3a - Particulate Matter Air Experiment": "Particulate matter consists of complex microscopic liquid droplets and solid fragments suspended in air. Trapping particles on adhesive surfaces quantifies local airborne contamination.",
-          "Req 3b - Transportation Systems Emission C": "Transportation corridors generate significant nitrogen oxides, unburned hydrocarbons, and fine carbon soot. Comparative analysis between combustion engines and electric transit reveals distinct emission profiles.",
+          "Req 3a - Particulate Matter Air": "Particulate matter consists of complex microscopic liquid droplets and solid fragments suspended in air. Trapping particles on adhesive surfaces quantifies local airborne contamination.",
+          "Req 3b - Transportation Systems": "Transportation corridors generate significant nitrogen oxides, unburned hydrocarbons, and fine carbon soot. Comparative analysis between combustion engines and electric transit reveals distinct emission profiles.",
           "Req 3c - Clean Air Act Progress": "Passed in 1970, the Clean Air Act establishes National Ambient Air Quality Standards for major pollutants. Ongoing regulatory efforts focus on cross-state air pollution and ground-level ozone reduction."
         },
         "sample_output": "Air Pollution Sources and Controls: Meanwhile, new technologies must be developed to lessen our reliance on fossil fuels (p. 41).",
@@ -930,8 +966,34 @@
       "pamphlet_summary": "Air pollution encompasses microscopic particulates and chemical vapors that degrade atmospheric quality and human respiratory health. Evaluating transport emissions and regulatory mechanisms demonstrates how technology and public policy mitigate atmospheric contamination.",
       "socratic_questions": [
         "Why are fine particles under 2.5 microns far more dangerous than coarse dust?",
-        "How do urban transit options differ in their total lifecycle greenhouse gas emissions?",
-        "What enforcement mechanisms enable the Clean Air Act to lower national emissions levels?"
+        "In what specific ways do urban transit options differ in their total lifecycle greenhouse gas emissions?",
+        "What enforcement mechanisms enable the Clean Air Act to lower national emissions levels?",
+        "Where should you place an unexposed control card during a seven-day petroleum jelly particulate collection experiment?",
+        "Why do fine PM2.5 combustion particles pose a deeper respiratory hazard than coarse PM10 dust trapped in the nose?",
+        "What grid measurement method lets you count trapped airborne particles consistently across multiple smeared index cards?",
+        "Why is it dangerous to place particulate test collectors right next to an active vehicle tailpipe or unvented furnace flue?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often assume air pollution consists exclusively of visible smoke or noxious odors.",
+          "fact": "Particulate matter smaller than 2.5 microns can enter the human bloodstream through lung tissue."
+        },
+        {
+          "misconception": "Clear blue skies with good visibility guarantee that the air contains safe levels of fine particulate matter and ozone.",
+          "fact": "Microscopic PM2.5 aerosols and colorless ground-level ozone can reach hazardous concentrations even when the sky looks clear."
+        },
+        {
+          "misconception": "Coarse dust particles larger than ten micrometers are the most dangerous air pollutants because they are heavy and visible.",
+          "fact": "Fine particles under 2.5 micrometers bypass nasal cilia, penetrate deep into lung alveoli, and can enter the human bloodstream."
+        },
+        {
+          "misconception": "Acid rain forms only from volcanic eruptions and never travels more than a few miles from the smokestack that released it.",
+          "fact": "Prevailing winds carry sulfur dioxide and nitrogen oxides hundreds of miles before they react with water vapor to form acid rain."
+        },
+        {
+          "misconception": "Leaving a smeared test card uncovered in the rain still yields an accurate count of seven days of airborne particulate matter.",
+          "fact": "Raindrops wash settled particulates off exposed collection surfaces and ruin the sample unless the card sits under a rain shelter."
+        }
       ]
     },
     {
@@ -987,9 +1049,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)",
           "common_misconception_pair": {
             "misconception": "Scouts often assume tap water contains zero chemical compounds or dissolved minerals.",
-            "fact": "Municipal reports document maximum contaminant level goals and detected chemical concentration averages.",
-            "myth": "Scouts often assume tap water contains zero chemical compounds or dissolved minerals.",
-            "fact_correction": "Municipal reports document maximum contaminant level goals and detected chemical concentration averages."
+            "fact": "Municipal reports document maximum contaminant level goals and detected chemical concentration averages."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1070,9 +1130,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)",
           "common_misconception_pair": {
             "misconception": "Scouts often believe that periodic flooding is entirely unnatural and always destroys ecosystems.",
-            "fact": "Impervious urban pavement amplifies flash flood peaks by preventing soil infiltration.",
-            "myth": "Scouts often believe that periodic flooding is entirely unnatural and always destroys ecosystems.",
-            "fact_correction": "Impervious urban pavement amplifies flash flood peaks by preventing soil infiltration."
+            "fact": "Impervious urban pavement amplifies flash flood peaks by preventing soil infiltration."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1152,9 +1210,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)",
           "common_misconception_pair": {
             "misconception": "Scouts often think the Clean Water Act regulates private residential drinking wells.",
-            "fact": "The Clean Water Act established the National Pollutant Discharge Elimination System permit program.",
-            "myth": "Scouts often think the Clean Water Act regulates private residential drinking wells.",
-            "fact_correction": "The Clean Water Act established the National Pollutant Discharge Elimination System permit program."
+            "fact": "The Clean Water Act established the National Pollutant Discharge Elimination System permit program."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1271,9 +1327,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think water from mountain streams or municipal taps requires no treatment before consumption.",
-        "fact": "Drinking water treatment involves coagulation, flocculation, sedimentation, filtration, and chemical disinfection.",
-        "myth": "Scouts often think water from mountain streams or municipal taps requires no treatment before consumption.",
-        "fact_correction": "Drinking water treatment involves coagulation, flocculation, sedimentation, filtration, and chemical disinfection."
+        "fact": "Drinking water treatment involves coagulation, flocculation, sedimentation, filtration, and chemical disinfection."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1309,14 +1363,14 @@
         "Step 4 - Effluent Review: Diagram wastewater processing steps from home drains through tertiary municipal discharge."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Water Pollution",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Water Pollution.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
         "left_header": "Req 4a: Municipal Water Supply Analysis",
-        "right_header": "Req 4b: Hydrological Flooding And Drought",
+        "right_header": "Req 4b: Hydrological Flooding",
         "left_points": [
           "(4a) Municipal Water Supply Analysis: Municipal water utilities publish annual reports disclosing source origins and contaminant test results. Understanding treatment sequences confirms how pathogens and toxic residues are eliminated."
         ],
@@ -1325,28 +1379,28 @@
         ],
         "rows": [
           {
-            "attribute": "Community Water Supply and Report",
-            "left": "(4a) Community Water Supply and Report: They can cut their use of pesticides or switch to biological controls (p. 45).",
-            "right": "(4b) Regional Flooding and Drought History: There have been improvements in water quality in the United States thanks to the Clean Water Act (p. 45)."
+            "attribute": "Hydrologic Flow",
+            "left": "(4a) Municipal Water Supply Analysis: Municipal water utilities publish annual reports disclosing source origins and contaminant test results. Understanding treatment sequences confirms how pathogens and toxic residues are eliminated.",
+            "right": "(4b) Hydrological Flooding And Drought: Hydrological extremes alter river geomorphology and displace local freshwater aquatic organisms. Comparing historic rainfall records with flood plain encroachment clarifies human vulnerabilities to drought."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Biological Pest Control Alternatives: They can cut their use of pesticides or switch to biological controls (p. 45).",
-            "right": "(4c) Clean Water Act Goals Review: In addition, most states have now passed laws that require power plants and other factories to cool water before releasing it back into rivers and streams (p. 45)."
+            "attribute": "Purification Stages",
+            "left": "Req 4a: Municipal Water Supply: Municipal water utilities publish annual reports disclosing source origins and contaminant test results. Understanding treatment sequences confirms how pathogens and toxic residues are eliminated.",
+            "right": "Req 4b: Hydrological Flooding: Hydrological extremes alter river geomorphology and displace local freshwater aquatic organisms. Comparing historic rainfall records with flood plain encroachment clarifies human vulnerabilities to drought."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Clean Water Act Improvements: There have been improvements in water quality in the United States thanks to the Clean Water Act (p. 45).",
-            "right": "Step 3 - Address Remaining Pollution Sources: Even though some sources of water pollution have been addressed, much more can be done (p. 45)."
+            "attribute": "Riparian Buffers",
+            "left": "Req 4c: Clean Water Act Legislation: Enacted in 1972, the Clean Water Act aims to restore chemical and biological integrity to waters. Permitting systems control industrial factory discharges into rivers and lakes.",
+            "right": "Purification Stages: Chlorine disinfection and rapid sand filtration remove pathogenic bacteria from raw surface waters."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 4 Exemplar Workbook Entry: Water Quality and Pollution Prevention",
+        "title": "Environmental Science Req 4 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Municipal Water Supply Analysis": "Municipal water utilities publish annual reports disclosing source origins and contaminant test results. Understanding treatment sequences confirms how pathogens and toxic residues are eliminated.",
-          "Req 4b - Hydrological Flooding And Drought": "Hydrological extremes alter river geomorphology and displace local freshwater aquatic organisms. Comparing historic rainfall records with flood plain encroachment clarifies human vulnerabilities to drought.",
+          "Req 4a - Municipal Water Supply": "Municipal water utilities publish annual reports disclosing source origins and contaminant test results. Understanding treatment sequences confirms how pathogens and toxic residues are eliminated.",
+          "Req 4b - Hydrological Flooding": "Hydrological extremes alter river geomorphology and displace local freshwater aquatic organisms. Comparing historic rainfall records with flood plain encroachment clarifies human vulnerabilities to drought.",
           "Req 4c - Clean Water Act Legislation": "Enacted in 1972, the Clean Water Act aims to restore chemical and biological integrity to waters. Permitting systems control industrial factory discharges into rivers and lakes."
         },
         "sample_output": "Water Quality and Pollution Prevention: They can cut their use of pesticides or switch to biological controls (p. 45).",
@@ -1383,8 +1437,34 @@
       "pamphlet_summary": "Water pollution impairs freshwater ecosystems and municipal supplies through point and nonpoint contamination vectors. Studying water utility consumer confidence reports and watershed drainage dynamics highlights the necessity of systematic water management.",
       "socratic_questions": [
         "What is the difference between point source and nonpoint source water contamination?",
-        "How do wetlands and riparian buffers protect downstream communities from catastrophic flooding?",
-        "What specific biological contaminants does municipal water treatment remove before public distribution?"
+        "In what specific ways do wetlands and riparian buffers protect downstream communities from catastrophic flooding?",
+        "What specific biological contaminants does municipal water treatment remove before public distribution?",
+        "Which two benchmark columns in a municipal Consumer Confidence Report show whether a contaminant violated federal safety limits?",
+        "What distinguishes nonpoint source stormwater runoff from a point source discharge pipe in a local watershed?",
+        "Under what condition does warm water temperature lower dissolved oxygen readings and stress cold-water trout populations?",
+        "What personal protective steps must a Scout take after handling untreated creek water during a turbidity or pH field test?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think water from mountain streams or municipal taps requires no treatment before consumption.",
+          "fact": "Drinking water treatment involves coagulation, flocculation, sedimentation, filtration, and chemical disinfection."
+        },
+        {
+          "misconception": "Cold, crystal-clear mountain stream water is free of harmful pathogens and chemical pollutants and is safe to drink untreated.",
+          "fact": "Clear stream water can still harbor microscopic parasites like Giardia or dissolved heavy metals that require filtration or treatment."
+        },
+        {
+          "misconception": "Municipal storm drains on neighborhood streets carry rainwater straight to a wastewater treatment plant before it reaches a river.",
+          "fact": "Most storm sewers discharge untreated street runoff, motor oil, and lawn chemicals directly into local creeks, lakes, and rivers."
+        },
+        {
+          "misconception": "High nitrate and phosphate levels in a pond are beneficial because extra plant nutrients always create a healthier fish habitat.",
+          "fact": "Excess nutrients trigger dense algal blooms whose subsequent decay consumes dissolved oxygen and suffocates fish in dead zones."
+        },
+        {
+          "misconception": "A Maximum Contaminant Level Goal in a drinking water report is the legally enforceable limit that utilities can never exceed.",
+          "fact": "The Maximum Contaminant Level Goal is a non-enforceable health target, whereas the Maximum Contaminant Level is the legal limit."
+        }
       ]
     },
     {
@@ -1436,9 +1516,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)",
           "common_misconception_pair": {
             "misconception": "Scouts often assume garden fertilizers do not count as chemical land pollutants.",
-            "fact": "Pesticide containers carry chemical signal words warning of acute environmental toxicity hazards.",
-            "myth": "Scouts often assume garden fertilizers do not count as chemical land pollutants.",
-            "fact_correction": "Pesticide containers carry chemical signal words warning of acute environmental toxicity hazards."
+            "fact": "Pesticide containers carry chemical signal words warning of acute environmental toxicity hazards."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1520,9 +1598,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)",
           "common_misconception_pair": {
             "misconception": "Scouts often believe erosion is only a natural geological event that humans cannot alter.",
-            "fact": "Eroded soil is the leading freshwater pollutant by volume in American waterways.",
-            "myth": "Scouts often believe erosion is only a natural geological event that humans cannot alter.",
-            "fact_correction": "Eroded soil is the leading freshwater pollutant by volume in American waterways."
+            "fact": "Eroded soil is the leading freshwater pollutant by volume in American waterways."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1595,9 +1671,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)",
           "common_misconception_pair": {
             "misconception": "Scouts often think Superfund sites are simply ordinary local trash dumps.",
-            "fact": "The Comprehensive Environmental Response, Compensation, and Liability Act established EPA Superfund cleanup funding.",
-            "myth": "Scouts often think Superfund sites are simply ordinary local trash dumps.",
-            "fact_correction": "The Comprehensive Environmental Response, Compensation, and Liability Act established EPA Superfund cleanup funding."
+            "fact": "The Comprehensive Environmental Response, Compensation, and Liability Act established EPA Superfund cleanup funding."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1698,9 +1772,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think synthetic chemical fertilizers remain permanently in the soil where applied.",
-        "fact": "Excess nitrogen fertilizers cause aquatic eutrophication, triggering algae blooms and severe hypoxia.",
-        "myth": "Scouts often think synthetic chemical fertilizers remain permanently in the soil where applied.",
-        "fact_correction": "Excess nitrogen fertilizers cause aquatic eutrophication, triggering algae blooms and severe hypoxia."
+        "fact": "Excess nitrogen fertilizers cause aquatic eutrophication, triggering algae blooms and severe hypoxia."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1742,7 +1814,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Agricultural Chemical Application",
+        "left_header": "Req 5a: Agricultural Chemical",
         "right_header": "Req 5b: Soil Erosion And Deposition",
         "left_points": [
           "(5a) Agricultural Chemical Application Assessment: Documenting synthetic lawn chemicals reveals active herbicide ingredients applied to landscaped turf. Overapplication leads to groundwater leaching and unintended mortality of beneficial organisms."
@@ -1752,29 +1824,29 @@
         ],
         "rows": [
           {
-            "attribute": "Soil Erosion Process Analysis",
-            "left": "Core principles and practical standards for Land Contamination and Soil Protection (p. 47).",
-            "right": "(5b) Soil Erosion Process Analysis: Abandoned factories and gas stations are examples of brown field sites (p. 47)."
+            "attribute": "Chemical Migration",
+            "left": "(5a) Agricultural Chemical Application Assessment: Documenting synthetic lawn chemicals reveals active herbicide ingredients applied to landscaped turf. Overapplication leads to groundwater leaching and unintended mortality of beneficial organisms.",
+            "right": "(5b) Soil Erosion And Deposition: Water and wind detach vulnerable topsoil particles when protective root networks are removed. Eroded sediment blankets gravel riverbeds, smothering benthic macroinvertebrates and fish egg clutches."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Energy Generation From Recycled Oil: Recycled oil can be used to generate electricity for homes and businesses (p. 47).",
-            "right": "(5c) EPA Superfund Incident Case Study: If you take used motor oil to an oil recycling center, it can be cleaned and reused, which saves energy (p. 47)."
+            "attribute": "Sediment Transport",
+            "left": "Req 5a: Agricultural Chemical: Documenting synthetic lawn chemicals reveals active herbicide ingredients applied to landscaped turf. Overapplication leads to groundwater leaching and unintended mortality of beneficial organisms.",
+            "right": "Req 5b: Soil Erosion And Deposition: Water and wind detach vulnerable topsoil particles when protective root networks are removed. Eroded sediment blankets gravel riverbeds, smothering benthic macroinvertebrates and fish egg clutches."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Contaminated Commercial Brown field Sites: An abandoned piece of commercial or industrial land that is contaminated (or is suspected of being contaminated) by a hazardous substance is known (p. 47).",
-            "right": "Step 3 - Assess Site Health Risks: Areal or perceived health danger makes it more complicated to redevelop the site for new uses (p. 47)."
+            "attribute": "Remediation Actions",
+            "left": "Req 5c: Superfund Land Pollution: Severe industrial spills and unmonitored chemical dumping create hazardous Superfund sites. Strict federal remediation protocols pump, treat, or encapsulate contaminated groundwater plumes.",
+            "right": "Sediment Transport: Rill and sheet erosion detach mineral topsoil particles during heavy precipitation events."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 5 Exemplar Workbook Entry: Land Contamination and Soil Protection",
+        "title": "Environmental Science Req 5 Exemplar Workbook Entry",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Agricultural Chemical Application": "Documenting synthetic lawn chemicals reveals active herbicide ingredients applied to landscaped turf. Overapplication leads to groundwater leaching and unintended mortality of beneficial organisms.",
+          "Req 5a - Agricultural Chemical": "Documenting synthetic lawn chemicals reveals active herbicide ingredients applied to landscaped turf. Overapplication leads to groundwater leaching and unintended mortality of beneficial organisms.",
           "Req 5b - Soil Erosion And Deposition": "Water and wind detach vulnerable topsoil particles when protective root networks are removed. Eroded sediment blankets gravel riverbeds, smothering benthic macroinvertebrates and fish egg clutches.",
-          "Req 5c - Superfund Land Pollution Incident": "Severe industrial spills and unmonitored chemical dumping create hazardous Superfund sites. Strict federal remediation protocols pump, treat, or encapsulate contaminated groundwater plumes."
+          "Req 5c - Superfund Land Pollution": "Severe industrial spills and unmonitored chemical dumping create hazardous Superfund sites. Strict federal remediation protocols pump, treat, or encapsulate contaminated groundwater plumes."
         },
         "sample_output": "Land Contamination and Soil Protection: An abandoned piece of commercial or industrial land that is contaminated (or is suspected of being contaminated) by a hazardous substance is known (p. 47).",
         "counselor_tip": "For Environmental Science Requirement 5 (Land Contamination and Soil Protection), verify the Scout's own observations and specific pamphlet details (Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52))."
@@ -1811,7 +1883,33 @@
       "socratic_questions": [
         "How does topsoil erosion reduce the agricultural productivity of arable farmland?",
         "In what ways do lawn herbicides threaten beneficial soil microbes and insects?",
-        "Why does hazardous industrial waste remain active in soils for multiple decades?"
+        "Why does hazardous industrial waste remain active in soils for multiple decades?",
+        "What weather and soil moisture checks should a groundskeeper complete before applying liquid fertilizer or herbicide to turf?",
+        "What separates a broad-spectrum insecticide from a targeted biological pest control in an integrated pest management plan?",
+        "Which three numerical values on a fertilizer bag label must you record in your field log to track nitrogen and phosphorus load?",
+        "Why is it dangerous to inspect or handle lawn chemical containers without reading the signal words and Precautionary Statements?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think synthetic chemical fertilizers remain permanently in the soil where applied.",
+          "fact": "Excess nitrogen fertilizers cause aquatic eutrophication, triggering algae blooms and severe hypoxia."
+        },
+        {
+          "misconception": "Applying twice the recommended dose of lawn fertilizer makes grass grow twice as fast without harming nearby soil or creeks.",
+          "fact": "Excess fertilizer burns plant roots, alters soil salinity, and washes into waterways during rainstorms to fuel toxic algal blooms."
+        },
+        {
+          "misconception": "Herbicides and insecticides break down immediately upon touching soil and cannot reach underground drinking water aquifers.",
+          "fact": "Persistent agricultural chemicals can leach through porous sandy soils and contaminate groundwater supplies for many years."
+        },
+        {
+          "misconception": "Broad-spectrum insecticides kill only the target pest species eating a crop and leave beneficial soil organisms unharmed.",
+          "fact": "Broad-spectrum pesticides eliminate predatory insects, earthworms, and pollinators, which can trigger secondary pest outbreaks."
+        },
+        {
+          "misconception": "Topsoil eroded from a bare construction site or plowed farm field is quickly replaced by natural rock weathering within a year.",
+          "fact": "Natural weathering and organic decomposition take hundreds of years to generate just a single inch of fertile agricultural topsoil."
+        }
       ]
     },
     {
@@ -1871,9 +1969,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)",
           "common_misconception_pair": {
             "misconception": "Scouts often assume endangered species live only in remote tropical rainforest wilderness areas.",
-            "fact": "State wildlife action plans classify native species into specific vulnerability protection categories.",
-            "myth": "Scouts often assume endangered species live only in remote tropical rainforest wilderness areas.",
-            "fact_correction": "State wildlife action plans classify native species into specific vulnerability protection categories."
+            "fact": "State wildlife action plans classify native species into specific vulnerability protection categories."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1963,9 +2059,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)",
           "common_misconception_pair": {
             "misconception": "Scouts often believe that once a species becomes endangered, it cannot recover.",
-            "fact": "Delisting a species requires meeting strict biological recovery criteria across distinct ranges.",
-            "myth": "Scouts often believe that once a species becomes endangered, it cannot recover.",
-            "fact_correction": "Delisting a species requires meeting strict biological recovery criteria across distinct ranges."
+            "fact": "Delisting a species requires meeting strict biological recovery criteria across distinct ranges."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2047,9 +2141,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)",
           "common_misconception_pair": {
             "misconception": "Scouts often think human habitat intervention always worsens conditions for sensitive native species.",
-            "fact": "Professional habitat restoration incorporates native plant revegetation and physical hydrologic re-engineering.",
-            "myth": "Scouts often think human habitat intervention always worsens conditions for sensitive native species.",
-            "fact_correction": "Professional habitat restoration incorporates native plant revegetation and physical hydrologic re-engineering."
+            "fact": "Professional habitat restoration incorporates native plant revegetation and physical hydrologic re-engineering."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2175,9 +2267,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think species become endangered almost exclusively due to direct overhunting.",
-        "fact": "Habitat destruction and fragmentation represent the leading causes of species extinction globally.",
-        "myth": "Scouts often think species become endangered almost exclusively due to direct overhunting.",
-        "fact_correction": "Habitat destruction and fragmentation represent the leading causes of species extinction globally."
+        "fact": "Habitat destruction and fragmentation represent the leading causes of species extinction globally."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2218,13 +2308,13 @@
         "Step 4 - Conservation Strategy: Outline current governmental recovery actions, critical habitat designations, and population counts."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Environmental Science Careers and Pathways",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Environmental Science Careers and Pathways.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Endangered Species Regional Resear",
+        "left_header": "Req 6a: Endangered Species Regional",
         "right_header": "Req 6b: Recovered Species Case Study",
         "left_points": [
           "(6a) Endangered Species Regional Research: Researching a regional endangered species highlights local habitat dependencies and population limiting factors. Understanding ecological niches reveals specific food and territory requirements for survival."
@@ -2234,29 +2324,29 @@
         ],
         "rows": [
           {
-            "attribute": "State Endangered Species Research",
-            "left": "(6a) State Endangered Species Research: If the species is now protected by state or federal law, explain how this protection has helped the species survive and what else needs to be done (p. 56).",
-            "right": "(6b) Recovered Species Case Study: List the endangered or threatened species in your state (p. 56)."
+            "attribute": "Habitat Fragmentation",
+            "left": "(6a) Endangered Species Regional Research: Researching a regional endangered species highlights local habitat dependencies and population limiting factors. Understanding ecological niches reveals specific food and territory requirements for survival.",
+            "right": "(6b) Recovered Species Case Study: Targeted legal bans on persistent toxins and hunting prohibitions facilitated notable species recoveries. Reviewing historical population rebounds demonstrates the effectiveness of federal habitat preservation programs."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Library and Internet Research: Go to the library or access the internet (with your parent or guardian's permission) to find information about your chosen species (p. 56).",
-            "right": "(6c) Field Habitat Improvement Project: Go to the library or access the internet (with your parent or guardian's permission) to find information about your chosen species (p. 56)."
+            "attribute": "Bioaccumulation Factors",
+            "left": "Req 6a: Endangered Species Regional: Researching a regional endangered species highlights local habitat dependencies and population limiting factors. Understanding ecological niches reveals specific food and territory requirements for survival.",
+            "right": "Req 6b: Recovered Species Case Study: Targeted legal bans on persistent toxins and hunting prohibitions facilitated notable species recoveries. Reviewing historical population rebounds demonstrates the effectiveness of federal habitat preservation programs."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Academic Database Article Search: Ask your librarian if the library offers access to magazine-article databases such as Pro Quest or EBSCO host (p. 56).",
-            "right": "Step 3 - Write Endangered Species Report: Prepare a 100-word report on your endangered species (p. 56)."
+            "attribute": "Recovery Frameworks",
+            "left": "Req 6c: Habitat Improvement: Collaborating with wildlife biologists reveals techniques used to reestablish degraded regional habitats. Active management projects include installing stream culverts, planting canopy trees, and clearing brush.",
+            "right": "Bioaccumulation Factors: Persistent synthetic toxins concentrate upward through successive trophic consumer levels."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 6 Exemplar Workbook Entry: Endangered Species Recovery and Protection",
+        "title": "Environmental Science Req 6 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Endangered Species Regional Resea": "Researching a regional endangered species highlights local habitat dependencies and population limiting factors. Understanding ecological niches reveals specific food and territory requirements for survival.",
+          "Req 6a - Endangered Species Regional": "Researching a regional endangered species highlights local habitat dependencies and population limiting factors. Understanding ecological niches reveals specific food and territory requirements for survival.",
           "Req 6b - Recovered Species Case Study": "Targeted legal bans on persistent toxins and hunting prohibitions facilitated notable species recoveries. Reviewing historical population rebounds demonstrates the effectiveness of federal habitat preservation programs.",
-          "Req 6c - Habitat Improvement Professional": "Collaborating with wildlife biologists reveals techniques used to reestablish degraded regional habitats. Active management projects include installing stream culverts, planting canopy trees, and clearing brush."
+          "Req 6c - Habitat Improvement": "Collaborating with wildlife biologists reveals techniques used to reestablish degraded regional habitats. Active management projects include installing stream culverts, planting canopy trees, and clearing brush."
         },
         "sample_output": "Endangered Species Recovery and Protection: If the species is now protected by state or federal law, explain how this protection has helped the species survive and what else needs to be done (p. 56).",
         "counselor_tip": "For Environmental Science Requirement 6 (Endangered Species Recovery and Protection), verify the Scout's own observations and specific pamphlet details (Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93))."
@@ -2293,7 +2383,33 @@
       "socratic_questions": [
         "Why does habitat fragmentation pose a severe threat to large mammal populations?",
         "How did the ban on agricultural DDT enable bald eagle population recovery?",
-        "What biological criteria determine whether a species moves off the endangered list?"
+        "What biological criteria determine whether a species moves off the endangered list?",
+        "Which state or federal wildlife agency databases provide verified population counts for your endangered species research report?",
+        "What legal and ecological threshold separates an endangered species from a threatened species under federal conservation law?",
+        "What habitat fragmentation metrics help wildlife biologists track whether a recovery corridor actually connects two populations?",
+        "Why is it dangerous and illegal to approach, feed, or photograph a listed endangered animal inside its critical nesting habitat?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think species become endangered almost exclusively due to direct overhunting.",
+          "fact": "Habitat destruction and fragmentation represent the leading causes of species extinction globally."
+        },
+        {
+          "misconception": "Threatened and endangered are interchangeable terms that describe any animal that is difficult to spot in a local state park.",
+          "fact": "Endangered species face imminent extinction across their range, while threatened species are likely to become endangered soon."
+        },
+        {
+          "misconception": "Captive breeding in zoos alone can save an endangered species even if its native wild habitat has been completely paved over.",
+          "fact": "Reintroduction fails without intact wild habitat, native food sources, and protection from the original threats that caused decline."
+        },
+        {
+          "misconception": "Poaching and illegal hunting are the primary drivers of species endangerment across North American ecosystems today.",
+          "fact": "Habitat loss, fragmentation, and invasive species outcompete native wildlife and drive the vast majority of modern extinctions."
+        },
+        {
+          "misconception": "Removing a single rare predator or mussel species from a river has no measurable effect on the rest of the food web.",
+          "fact": "Losing a keystone predator or filter feeder can trigger trophic cascades that alter water quality and collapse entire ecosystems."
+        }
       ]
     },
     {
@@ -2353,9 +2469,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
             "misconception": "Scouts often think individual domestic resource conservation has no measurable environmental impact.",
-            "fact": "Behavioral modifications like thermostat adjustment yield measurable reductions in residential carbon footprints.",
-            "myth": "Scouts often think individual domestic resource conservation has no measurable environmental impact.",
-            "fact_correction": "Behavioral modifications like thermostat adjustment yield measurable reductions in residential carbon footprints."
+            "fact": "Behavioral modifications like thermostat adjustment yield measurable reductions in residential carbon footprints."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2438,9 +2552,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
             "misconception": "Scouts often believe recycling products is always better than reusing existing items.",
-            "fact": "Recycling aluminum requires ninety-five percent less energy than refining raw bauxite ore.",
-            "myth": "Scouts often believe recycling products is always better than reusing existing items.",
-            "fact_correction": "Recycling aluminum requires ninety-five percent less energy than refining raw bauxite ore."
+            "fact": "Recycling aluminum requires ninety-five percent less energy than refining raw bauxite ore."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2513,9 +2625,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
             "misconception": "Scouts often assume leftover paint and motor oil can go down storm drains.",
-            "fact": "Household hazardous wastes exhibit toxic, corrosive, ignitable, or reactive chemical characteristics.",
-            "myth": "Scouts often assume leftover paint and motor oil can go down storm drains.",
-            "fact_correction": "Household hazardous wastes exhibit toxic, corrosive, ignitable, or reactive chemical characteristics."
+            "fact": "Household hazardous wastes exhibit toxic, corrosive, ignitable, or reactive chemical characteristics."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2628,9 +2738,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume recycling uses zero energy and completely eliminates manufacturing waste.",
-        "fact": "Source reduction prevents pollution generation more effectively than end-of-pipe recycling or disposal.",
-        "myth": "Scouts often assume recycling uses zero energy and completely eliminates manufacturing waste.",
-        "fact_correction": "Source reduction prevents pollution generation more effectively than end-of-pipe recycling or disposal."
+        "fact": "Source reduction prevents pollution generation more effectively than end-of-pipe recycling or disposal."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2666,13 +2774,13 @@
         "Step 4 - Hazard Segregation: Catalog five household hazardous wastes and locate their licensed municipal disposal facility."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Environmental Science Hazards and First Aid",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Environmental Science Hazards and First Aid.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Household Resource Conservation Pr",
+        "left_header": "Req 7a: Household Resource Conservation",
         "right_header": "Req 7b: Resource Recovery Material Audit",
         "left_points": [
           "(7a) Household Resource Conservation Practice: Tracking domestic water and electrical usage highlights simple changes that lower resource consumption. Practicing targeted conservation techniques confirms how everyday habits directly reduce environmental impacts."
@@ -2682,29 +2790,29 @@
         ],
         "rows": [
           {
-            "attribute": "One-Week Resource Conservation Practice",
-            "left": "(7a) One-Week Resource Conservation Practice: Human Impact on the Biosphere. percent of all the aluminum beverage cans sold in the United States are recycled (p. 52).",
-            "right": "(7b) Resource Recovery Sample Collection: Ittakes the same amount of energy to make one can from aluminum ore as it does to make 20 cans (p. 52)."
+            "attribute": "Waste Hierarchy",
+            "left": "(7a) Household Resource Conservation Practice: Tracking domestic water and electrical usage highlights simple changes that lower resource consumption. Practicing targeted conservation techniques confirms how everyday habits directly reduce environmental impacts.",
+            "right": "(7b) Resource Recovery Material Audit: Resource recovery extracts valuable secondary raw materials from municipal municipal solid waste streams. Examining real items demonstrates practical differences among waste reduction, reuse, and material recycling."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Recycled Aluminum Energy Savings: It takes the same amount of energy to make one can from aluminum ore as it does to make 20 cans from recycled aluminum (p. 52).",
-            "right": "(7c) Household Hazardous Waste Management: The three R's, reduce, reuse, and recycle, can be applied to decrease the amount of solid waste that human activities generate (p. 52)."
+            "attribute": "Resource Recovery",
+            "left": "Req 7a: Household Resource: Tracking domestic water and electrical usage highlights simple changes that lower resource consumption. Practicing targeted conservation techniques confirms how everyday habits directly reduce environmental impacts.",
+            "right": "Req 7b: Resource Recovery Material: Resource recovery extracts valuable secondary raw materials from municipal municipal solid waste streams. Examining real items demonstrates practical differences among waste reduction, reuse, and material recycling."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Applying the Three Rs: The three R's, reduce, reuse, and recycle, can be applied to decrease the amount of solid waste that human activities generate (p. 52).",
-            "right": "Step 3 - Select Unpackaged Fresh Produce: Buy loose fruits and vegetables rather than produce packaged in a plastic-wrapped foam tray (p. 52)."
+            "attribute": "Hazardous Compounds",
+            "left": "Req 7c: Household Hazardous Waste: Common domestic products contain solvents and heavy metals requiring specialized hazardous disposal. Municipal drop-off sites isolate these toxic compounds from groundwater and local landfills.",
+            "right": "Resource Recovery: Anaerobic composting transforms organic food scraps into nutrient-rich agricultural humus."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 7 Exemplar Workbook Entry: Resource Recovery and Waste Reduction",
+        "title": "Environmental Science Req 7 Exemplar Workbook Entry",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Household Resource Conservation P": "Tracking domestic water and electrical usage highlights simple changes that lower resource consumption. Practicing targeted conservation techniques confirms how everyday habits directly reduce environmental impacts.",
-          "Req 7b - Resource Recovery Material Audit": "Resource recovery extracts valuable secondary raw materials from municipal municipal solid waste streams. Examining real items demonstrates practical differences among waste reduction, reuse, and material recycling.",
-          "Req 7c - Household Hazardous Waste Disposa": "Common domestic products contain solvents and heavy metals requiring specialized hazardous disposal. Municipal drop-off sites isolate these toxic compounds from groundwater and local landfills."
+          "Req 7a - Household Resource": "Tracking domestic water and electrical usage highlights simple changes that lower resource consumption. Practicing targeted conservation techniques confirms how everyday habits directly reduce environmental impacts.",
+          "Req 7b - Resource Recovery Material": "Resource recovery extracts valuable secondary raw materials from municipal municipal solid waste streams. Examining real items demonstrates practical differences among waste reduction, reuse, and material recycling.",
+          "Req 7c - Household Hazardous Waste": "Common domestic products contain solvents and heavy metals requiring specialized hazardous disposal. Municipal drop-off sites isolate these toxic compounds from groundwater and local landfills."
         },
         "sample_output": "Resource Recovery and Waste Reduction: Human Impact on the Biosphere. percent of all the aluminum beverage cans sold in the United States are recycled (p. 52).",
         "counselor_tip": "For Environmental Science Requirement 7 (Resource Recovery and Waste Reduction), verify the Scout's own observations and specific pamphlet details (Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54))."
@@ -2741,7 +2849,33 @@
       "socratic_questions": [
         "Why does source reduction sit at the top of the EPA waste management hierarchy?",
         "What hazardous properties make everyday automotive batteries unsafe for ordinary landfill disposal?",
-        "How does household energy conservation directly reduce regional industrial air pollutant emissions?"
+        "How does household energy conservation directly reduce regional industrial air pollutant emissions?",
+        "What baseline utility or waste measurement should you record before starting your seven-day home resource conservation trial?",
+        "Why does source reduction sit higher in the waste management hierarchy than municipal recycling or waste-to-energy recovery?",
+        "What daily metrics can you log for one week to prove your household cut phantom electrical loads or shower water consumption?",
+        "Where should a family bring spent lithium batteries, fluorescent bulbs, and leftover paint instead of placing them in curbside bins?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often assume recycling uses zero energy and completely eliminates manufacturing waste.",
+          "fact": "Source reduction prevents pollution generation more effectively than end-of-pipe recycling or disposal."
+        },
+        {
+          "misconception": "Pollution prevention and recycling mean the exact same thing because both deal with waste after a consumer throws an item away.",
+          "fact": "Pollution prevention eliminates waste at the source before creation, whereas resource recovery extracts materials from discarded waste."
+        },
+        {
+          "misconception": "Tossing greasy pizza boxes and plastic grocery bags into a single-stream recycling bin helps recovery facilities recycle more.",
+          "fact": "Food grease contaminates paper pulp and plastic film jams sorting machinery, often forcing facilities to landfill entire batches."
+        },
+        {
+          "misconception": "Home electronics and phone chargers stop drawing electricity from wall outlets the moment you turn off the connected screen.",
+          "fact": "Plugged-in adapters and standby appliances draw continuous phantom power until unplugged or switched off at a smart power strip."
+        },
+        {
+          "misconception": "Modern landfills are open compost piles where buried food and paper rapidly decompose into rich garden soil without pollution.",
+          "fact": "Compacted landfills lack oxygen, causing trapped organic waste to decompose anaerobically and release potent methane greenhouse gas."
+        }
       ]
     },
     {
@@ -2799,9 +2933,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
             "misconception": "Scouts often believe all flowering plants are pollinated by the exact same insects.",
-            "fact": "Specialized buzz pollination by bumblebees is necessary to release pollen from tomato blossoms.",
-            "myth": "Scouts often believe all flowering plants are pollinated by the exact same insects.",
-            "fact_correction": "Specialized buzz pollination by bumblebees is necessary to release pollen from tomato blossoms."
+            "fact": "Specialized buzz pollination by bumblebees is necessary to release pollen from tomato blossoms."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2883,9 +3015,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
             "misconception": "Scouts often think insects visit flowers randomly without any preference or pattern.",
-            "fact": "Pollinators exhibit flower constancy, visiting one flower species repeatedly during a forage flight.",
-            "myth": "Scouts often think insects visit flowers randomly without any preference or pattern.",
-            "fact_correction": "Pollinators exhibit flower constancy, visiting one flower species repeatedly during a forage flight."
+            "fact": "Pollinators exhibit flower constancy, visiting one flower species repeatedly during a forage flight."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2969,9 +3099,7 @@
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
             "misconception": "Scouts often think staple grains like corn and wheat require insect pollination.",
-            "fact": "Almonds, apples, and blueberries depend heavily on managed and wild pollinator services.",
-            "myth": "Scouts often think staple grains like corn and wheat require insect pollination.",
-            "fact_correction": "Almonds, apples, and blueberries depend heavily on managed and wild pollinator services."
+            "fact": "Almonds, apples, and blueberries depend heavily on managed and wild pollinator services."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3085,9 +3213,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think only European honeybees are responsible for pollinating agricultural food crops.",
-        "fact": "Over seventy-five percent of flowering plants rely on animals for successful gamete transfer.",
-        "myth": "Scouts often think only European honeybees are responsible for pollinating agricultural food crops.",
-        "fact_correction": "Over seventy-five percent of flowering plants rely on animals for successful gamete transfer."
+        "fact": "Over seventy-five percent of flowering plants rely on animals for successful gamete transfer."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3123,14 +3249,14 @@
         "Step 4 - Economic Calculation: Research four major agricultural food crops entirely dependent on insect pollination."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Pollination",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Pollination.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Regional Pollinator Plant Relation",
-        "right_header": "Req 8b: Pollination Field Observation Surv",
+        "left_header": "Req 8a: Regional Pollinator Plant",
+        "right_header": "Req 8b: Pollination Field Observation",
         "left_points": [
           "(8a) Regional Pollinator Plant Relationships: Native pollinators have coevolved with specific local plants, establishing specialized mutualistic ecological bonds. Creating regional pollinator inventories demonstrates how insect diversity sustains wild flowering plant communities."
         ],
@@ -3139,29 +3265,29 @@
         ],
         "rows": [
           {
-            "attribute": "Regional Pollinators and Host Plants",
-            "left": "(8a) Regional Pollinators and Host Plants: However, human activities and environmental changes threaten this vital ecological process (p. 62).",
-            "right": "(8b) One-Hour Field Pollination Observation: Pollinator pairs refer to the specific partnerships between flowering plants and the creatures that help them reproduce through pollination (p. 62)."
+            "attribute": "Mutualistic Ecology",
+            "left": "(8a) Regional Pollinator Plant Relationships: Native pollinators have coevolved with specific local plants, establishing specialized mutualistic ecological bonds. Creating regional pollinator inventories demonstrates how insect diversity sustains wild flowering plant communities.",
+            "right": "(8b) Pollination Field Observation Survey: Conducting an hourly observational field census reveals how foraging insects interact with flowers. Recording insect visitation rates highlights flower morphology adaptations designed to ensure cross-pollination."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Threats to Ecological Pollination: However, human activities and environmental changes threaten this vital ecological process (p. 62).",
-            "right": "(8c) Agricultural Pollination Economics Study: There are over 350,000 species that aid pollination, including over 20,000 species of bees (p. 62)."
+            "attribute": "Pollinator Diversity",
+            "left": "Req 8a: Regional Pollinator Plant: Native pollinators have coevolved with specific local plants, establishing specialized mutualistic ecological bonds. Creating regional pollinator inventories demonstrates how insect diversity sustains wild flowering plant communities.",
+            "right": "Req 8b: Pollination Field: Conducting an hourly observational field census reveals how foraging insects interact with flowers. Recording insect visitation rates highlights flower morphology adaptations designed to ensure cross-pollination."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Specialized Plant-Pollinator Partnerships: Pollinator pairs refer to the specific partnerships between flowering plants and the creatures that help them reproduce through pollination (p. 62).",
-            "right": "Step 3 - Observe Genera list Foraging Habits: On the other hand, some pollinators are not so choosy (p. 62)."
+            "attribute": "Floral Adaptation",
+            "left": "Req 8c: Agricultural Pollination: Commercial agriculture relies on managed pollinators to achieve fruit set and commercial crop yields. Quantifying crop dependencies demonstrates the multi-billion-dollar economic value of healthy pollinator populations.",
+            "right": "Pollinator Diversity: Native solitary bees, beetles, wasps, and hoverflies perform essential ecosystem pollination."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 8 Exemplar Workbook Entry: Pollination Ecology and Agricultural Value",
+        "title": "Environmental Science Req 8 Exemplar Workbook Entry",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 8a - Regional Pollinator Plant Relatio": "Native pollinators have coevolved with specific local plants, establishing specialized mutualistic ecological bonds. Creating regional pollinator inventories demonstrates how insect diversity sustains wild flowering plant communities.",
-          "Req 8b - Pollination Field Observation Sur": "Conducting an hourly observational field census reveals how foraging insects interact with flowers. Recording insect visitation rates highlights flower morphology adaptations designed to ensure cross-pollination.",
-          "Req 8c - Agricultural Pollination Economic": "Commercial agriculture relies on managed pollinators to achieve fruit set and commercial crop yields. Quantifying crop dependencies demonstrates the multi-billion-dollar economic value of healthy pollinator populations."
+          "Req 8a - Regional Pollinator Plant": "Native pollinators have coevolved with specific local plants, establishing specialized mutualistic ecological bonds. Creating regional pollinator inventories demonstrates how insect diversity sustains wild flowering plant communities.",
+          "Req 8b - Pollination Field Observation": "Conducting an hourly observational field census reveals how foraging insects interact with flowers. Recording insect visitation rates highlights flower morphology adaptations designed to ensure cross-pollination.",
+          "Req 8c - Agricultural Pollination": "Commercial agriculture relies on managed pollinators to achieve fruit set and commercial crop yields. Quantifying crop dependencies demonstrates the multi-billion-dollar economic value of healthy pollinator populations."
         },
         "sample_output": "Pollination Ecology and Agricultural Value: However, human activities and environmental changes threaten this vital ecological process (p. 62).",
         "counselor_tip": "For Environmental Science Requirement 8 (Pollination Ecology and Agricultural Value), verify the Scout's own observations and specific pamphlet details (Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64))."
@@ -3196,9 +3322,35 @@
       "workbook_visual_caption": "A bat hovers over a blooming desert cactus to feed on nectar and facilitate cross-pollination.",
       "pamphlet_summary": "Pollination represents a fundamental mutualistic ecosystem service sustaining wild plant diversity and commercial agriculture. Observing regional flower-pollinator interactions illustrates floral coevolution, morphologic adaptations, and critical food security relationships.",
       "socratic_questions": [
-        "How do flower color and scent indicate the specific type of pollinator targeted?",
+        "In what specific ways do flower color and scent indicate the specific type of pollinator targeted?",
         "Why are native wild bees often more effective pollinators than non-native honeybees?",
-        "What economic consequences would occur if insect pollination services collapsed globally?"
+        "What economic consequences would occur if insect pollination services collapsed globally?",
+        "Why must a regional pollinator garden include native plants with staggered bloom periods from early spring through late autumn?",
+        "What floral traits distinguish an insect-pollinated wildflower from a wind-pollinated plant like corn, oak, or ragweed?",
+        "Which flower visitation details should you record during a timed ten-minute pollinator count to compare two garden beds?",
+        "What safety precautions should a Scout with or without a bee sting allergy follow when observing active foraging around hives?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think only European honeybees are responsible for pollinating agricultural food crops.",
+          "fact": "Over seventy-five percent of flowering plants rely on animals for successful gamete transfer."
+        },
+        {
+          "misconception": "Domesticated European honeybees are native to North America and perform all wildflower pollination across forest ecosystems.",
+          "fact": "European honeybees were introduced for agriculture, while thousands of native solitary bee, moth, bat, and bird species pollinate wild plants."
+        },
+        {
+          "misconception": "All plants with yellow blossoms or airborne pollen cause seasonal hay fever allergies in humans during spring and late summer.",
+          "fact": "Showy flowers like goldenrod have heavy sticky pollen carried by insects, while inconspicuous wind-pollinated ragweed causes hay fever."
+        },
+        {
+          "misconception": "Spraying insecticides on open blossoms only at dusk protects foraging bees from toxic chemical exposure the next morning.",
+          "fact": "Systemic and residual insecticides remain active in nectar, pollen, and dew, poisoning pollinators that visit treated blooms days later."
+        },
+        {
+          "misconception": "Raking away all hollow plant stems and bare soil patches every autumn is the best way to prepare a backyard pollinator garden.",
+          "fact": "Most native solitary bees overwinter inside hollow dried stems or shallow underground burrows and need undisturbed winter cover."
+        }
       ]
     },
     {
@@ -3263,9 +3415,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe introduced non-native species are harmless if they look attractive.",
-        "fact": "Invasive species lack coevolved natural predators and diseases, allowing unconstrained exponential population growth.",
-        "myth": "Scouts often believe introduced non-native species are harmless if they look attractive.",
-        "fact_correction": "Invasive species lack coevolved natural predators and diseases, allowing unconstrained exponential population growth."
+        "fact": "Invasive species lack coevolved natural predators and diseases, allowing unconstrained exponential population growth."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3302,41 +3452,41 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Native Co-Evolved Wildlife Populations",
-        "right_header": "Invasive Nonnative Species Infestations",
+        "left_header": "Req 9: Self-Sustaining Naturalized",
+        "right_header": "Req 9: Trace Released Exotic Pets",
         "left_points": [
           "Self-Sustaining Naturalized Species Growth: Human Impact on the Biosphere. \"naturalize,\" meaning they can reproduce and grow on their own without human assistance (p. 68).",
           "Accidental Product Import Transport: Other species are transported by mistake by importing products that have the seeds, plant, or animal on orin the product (p. 68).",
           "Released Exotic Pet Invasions: Some invasive species are pets that have intentionally or accidentally been released, such as Burmese pythons, a big problem in the Florida Everglades (p. 68)."
         ],
         "right_points": [
-          "Step 1 - Trace Released Exotic Pets: Some invasive species are pets that have intentionally or accidentally been released, such as Burmese pythons, a big problem in the Florida Everglades (p. 68).",
-          "Step 2 - Assess Climate Range Expansion: Climate change also can improve the ability of certain native species to occupy new areas due to higher temperatures and modified precipitation (p. 68).",
-          "Step 3 - Evaluate Rapid Invasive Reproduction: They can reproduce quickly and take over an area, and the native populations of wildlife will not have time to develop defenses (p. 68)."
+          "Trace Released Exotic Pets: Some invasive species are pets that have intentionally or accidentally been released, such as Burmese pythons, a big problem in the Florida Everglades (p. 68).",
+          "Assess Climate Range Expansion: Climate change also can improve the ability of certain native species to occupy new areas due to higher temperatures and modified precipitation (p. 68).",
+          "Evaluate Rapid Invasive Reproduction: They can reproduce quickly and take over an area, and the native populations of wildlife will not have time to develop defenses (p. 68)."
         ],
         "rows": [
           {
-            "attribute": "Self-Sustaining Naturalized Species Growth",
+            "attribute": "Competitive Exclusion",
             "left": "Self-Sustaining Naturalized Species Growth: Human Impact on the Biosphere. \"naturalize,\" meaning they can reproduce and grow on their own without human assistance (p. 68).",
-            "right": "Step 1 - Trace Released Exotic Pets: Some invasive species are pets that have intentionally or accidentally been released, such as Burmese pythons, a big problem in the Florida Everglades (p. 68)."
+            "right": "Trace Released Exotic Pets: Some invasive species are pets that have intentionally or accidentally been released, such as Burmese pythons, a big problem in the Florida Everglades (p. 68)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Transport Vectors",
             "left": "Accidental Product Import Transport: Other species are transported by mistake by importing products that have the seeds, plant, or animal on orin the product (p. 68).",
-            "right": "Step 2 - Assess Climate Range Expansion: Climate change also can improve the ability of certain native species to occupy new areas due to higher temperatures and modified precipitation (p. 68)."
+            "right": "Assess Climate Range Expansion: Climate change also can improve the ability of certain native species to occupy new areas due to higher temperatures and modified precipitation (p. 68)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Trophic Disruption",
             "left": "Released Exotic Pet Invasions: Some invasive species are pets that have intentionally or accidentally been released, such as Burmese pythons, a big problem in the Florida Everglades (p. 68).",
-            "right": "Step 3 - Evaluate Rapid Invasive Reproduction: They can reproduce quickly and take over an area, and the native populations of wildlife will not have time to develop defenses (p. 68)."
+            "right": "Evaluate Rapid Invasive Reproduction: They can reproduce quickly and take over an area, and the native populations of wildlife will not have time to develop defenses (p. 68)."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 9 Exemplar Workbook Entry: Controlling Invasive Plant and Animal Species",
+        "title": "Environmental Science Req 9 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Self-Sustaining Naturalized Species Growth": "Human Impact on the Biosphere. \"naturalize,\" meaning they can reproduce and grow on their own without human assistance (p. 68).",
+          "Self-Sustaining Naturalized Species": "Human Impact on the Biosphere. \"naturalize,\" meaning they can reproduce and grow on their own without human assistance (p. 68).",
           "Accidental Product Import Transport": "Other species are transported by mistake by importing products that have the seeds, plant, or animal on orin the product (p. 68).",
           "Released Exotic Pet Invasions": "Some invasive species are pets that have intentionally or accidentally been released, such as Burmese pythons, a big problem in the Florida Everglades (p. 68).",
           "Climate-Assisted Range Expansion": "Climate change also can improve the ability of certain native species to occupy new areas due to higher temperatures and modified precipitation (p. 68)."
@@ -3345,7 +3495,7 @@
         "counselor_tip": "For Environmental Science Requirement 9 (Controlling Invasive Plant and Animal Species), verify the Scout's own observations and specific pamphlet details (Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 70))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do invasive aquatic plants typically harm native freshwater ecosystems after becoming established?",
+        "scenario_prompt": "In what specific ways do invasive aquatic plants typically harm native freshwater ecosystems after becoming established?",
         "question": "How do invasive aquatic plants typically harm native freshwater ecosystems after becoming established?",
         "options": [
           "A. They increase sunlight penetration to the bottom of deep lakes and ponds",
@@ -3375,8 +3525,34 @@
       "pamphlet_summary": "Invasive non-native species disrupt ecological balance by outcompeting native organisms for resources and altering habitats. Tracking introduction vectors, reproductive rates, and management protocols highlights strategies for conserving biodiversity.",
       "socratic_questions": [
         "Why do non-native species frequently outcompete native organisms in disturbed ecosystems?",
-        "How do global commercial shipping vectors inadvertently facilitate invasive organism distribution?",
-        "What biological criteria differentiate an ordinary non-native organism from a destructive invasive species?"
+        "In what specific ways do global commercial shipping vectors inadvertently facilitate invasive organism distribution?",
+        "What biological criteria differentiate an ordinary non-native organism from a destructive invasive species?",
+        "What happens to a patch of invasive plants if you cut the stems during peak seed maturity instead of before flowering begins?",
+        "Which ecological impact separates a harmless non-native garden plant from a regulated invasive species in your camp forest?",
+        "What field data should you record on your camp map to track whether an invasive plant patch is expanding between seasons?",
+        "Why is it dangerous to move firewood or uncleaned hiking boots between different Scout camps after surveying infested trails?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often believe introduced non-native species are harmless if they look attractive.",
+          "fact": "Invasive species lack coevolved natural predators and diseases, allowing unconstrained exponential population growth."
+        },
+        {
+          "misconception": "Every non-native plant or animal found growing outside its historic range is classified as an ecological invasive species.",
+          "fact": "Many introduced species stay confined to gardens or farms, while true invasive species spread aggressively and harm native habitats."
+        },
+        {
+          "misconception": "Composting pulled invasive weeds in a standard backyard pile destroys all of their seeds and root fragments safely.",
+          "fact": "Backyard compost piles rarely get hot enough to kill hardy seeds or rhizomes, so spreading that compost replants the infestation."
+        },
+        {
+          "misconception": "Cutting down woody invasive shrubs like buckthorn or autumn olive once at ground level eliminates the plant permanently.",
+          "fact": "Most woody invasive shrubs resprout vigorously from surviving root crowns unless stumps are uprooted or treated right after cutting."
+        },
+        {
+          "misconception": "Releasing unwanted pet fish, turtles, or aquarium plants into a camp pond gives them a harmless natural home.",
+          "fact": "Dumped aquarium pets and plants often survive winter, outcompete native amphibians and fish, and introduce fatal aquatic diseases."
+        }
       ]
     },
     {
@@ -3443,9 +3619,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think construction environmental reviews only check where trash will be dumped.",
-        "fact": "Environmental impact statements evaluate alternatives and require mitigations for wetlands, soil, and wildlife.",
-        "myth": "Scouts often think construction environmental reviews only check where trash will be dumped.",
-        "fact_correction": "Environmental impact statements evaluate alternatives and require mitigations for wetlands, soil, and wildlife."
+        "fact": "Environmental impact statements evaluate alternatives and require mitigations for wetlands, soil, and wildlife."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3487,38 +3661,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Direct Construction Site Soil Disturbance",
-        "right_header": "Indirect Food-Web and Watershed Impacts",
+        "left_header": "Req 10: Field Safety Around Wildlife",
+        "right_header": "Req 10: Evaluate Soil Animal",
         "left_points": [
           "Field Safety Around Wildlife: Finally, be aware of bees and snakes that might be living among the invasive plants (p. 41).",
           "Hidden Building Project Impacts: What might seem like a simple project, building a new house, for example, may have many environmental impacts beyond simply disturbing the soil (p. 41).",
           "Soil-Dwelling Mammal Displacement: What happens to the moles and shrews that live in the soil (p. 41)."
         ],
         "right_points": [
-          "Step 1 - Evaluate Soil Animal Displacement: What happens to the moles and shrews that live in the soil (p. 41).",
-          "Step 2 - Protect Tree-Dwelling Bee Hives: Or the hive of honeybees that once perched in the felled tree (p. 41).",
-          "Step 3 - Assess Predator Food-Web Impacts: What happens to the red fox and the great horned owl that prey upon the moles and shrews (p. 41)."
+          "Evaluate Soil Animal Displacement: What happens to the moles and shrews that live in the soil (p. 41).",
+          "Protect Tree-Dwelling Bee Hives: Or the hive of honeybees that once perched in the felled tree (p. 41).",
+          "Assess Predator Food-Web Impacts: What happens to the red fox and the great horned owl that prey upon the moles and shrews (p. 41)."
         ],
         "rows": [
           {
-            "attribute": "Field Safety Around Wildlife",
+            "attribute": "Site Assessment",
             "left": "Field Safety Around Wildlife: Finally, be aware of bees and snakes that might be living among the invasive plants (p. 41).",
-            "right": "Step 1 - Evaluate Soil Animal Displacement: What happens to the moles and shrews that live in the soil (p. 41)."
+            "right": "Evaluate Soil Animal Displacement: What happens to the moles and shrews that live in the soil (p. 41)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Stormwater Planning",
             "left": "Hidden Building Project Impacts: What might seem like a simple project, building a new house, for example, may have many environmental impacts beyond simply disturbing the soil (p. 41).",
-            "right": "Step 2 - Protect Tree-Dwelling Bee Hives: Or the hive of honeybees that once perched in the felled tree (p. 41)."
+            "right": "Protect Tree-Dwelling Bee Hives: Or the hive of honeybees that once perched in the felled tree (p. 41)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Wildlife Surveys",
             "left": "Soil-Dwelling Mammal Displacement: What happens to the moles and shrews that live in the soil (p. 41).",
-            "right": "Step 3 - Assess Predator Food-Web Impacts: What happens to the red fox and the great horned owl that prey upon the moles and shrews (p. 41)."
+            "right": "Assess Predator Food-Web Impacts: What happens to the red fox and the great horned owl that prey upon the moles and shrews (p. 41)."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 10 Exemplar Workbook Entry: Evaluating Construction Environmental Impacts",
+        "title": "Environmental Science Req 10 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Field Safety Around Wildlife": "Finally, be aware of bees and snakes that might be living among the invasive plants (p. 41).",
@@ -3560,8 +3734,34 @@
       "pamphlet_summary": "Environmental impact evaluations assess potential ecological degradation before breaking ground on new construction projects. Analyzing soil runoff, noise, wetland destruction, and wildlife corridors produces actionable mitigation plans.",
       "socratic_questions": [
         "Why must an environmental review evaluate several project alternatives rather than one?",
-        "How do silt fences and retention basins protect neighboring streams during construction?",
-        "What long-term ecological consequences occur when an impervious building footprint replaces natural woodland?"
+        "In what specific ways do silt fences and retention basins protect neighboring streams during construction?",
+        "What long-term ecological consequences occur when an impervious building footprint replaces natural woodland?",
+        "Under what condition does the no-action alternative act as a mandatory baseline in an environmental impact assessment?",
+        "What happens to peak stormwater runoff and stream erosion downslope when a camp replaces forest duff with a paved parking lot?",
+        "What baseline soil, water, and wildlife observations must you log on site before grading equipment clears any vegetation?",
+        "Where should a construction crew install silt fences and straw wattles before excavating soil near a camp wetland or creek?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think construction environmental reviews only check where trash will be dumped.",
+          "fact": "Environmental impact statements evaluate alternatives and require mitigations for wetlands, soil, and wildlife."
+        },
+        {
+          "misconception": "Evaluating the no-action alternative is a wasted step because the construction project has already been proposed for camp.",
+          "fact": "The no-action alternative establishes the environmental baseline needed to measure every physical impact of the proposed build."
+        },
+        {
+          "misconception": "Environmental impact assessments only examine permanent effects after the building opens and ignore temporary construction work.",
+          "fact": "Soil grading, heavy equipment exhaust, noise, and bare-earth erosion during construction often cause the most acute creek damage."
+        },
+        {
+          "misconception": "Clearing mature trees for a cabin has zero impact on camp water quality as long as the builders stay fifty feet from the stream.",
+          "fact": "Removing upslope tree canopy and roots increases rainwater runoff speed, warms shallow groundwater, and washes silt into streams."
+        },
+        {
+          "misconception": "Planting new grass seed around a finished camp dining hall restores the exact wildlife habitat that existed before clearing.",
+          "fact": "Lawn turf lacks the layered canopy, deadwood, and native food sources that forest birds, amphibians, and pollinators require."
+        }
       ]
     },
     {
@@ -3630,9 +3830,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think environmental careers are limited strictly to park rangers in uniform.",
-        "fact": "Environmental scientists frequently work in interdisciplinary teams combining field sampling with laboratory spectrometry.",
-        "myth": "Scouts often think environmental careers are limited strictly to park rangers in uniform.",
-        "fact_correction": "Environmental scientists frequently work in interdisciplinary teams combining field sampling with laboratory spectrometry."
+        "fact": "Environmental scientists frequently work in interdisciplinary teams combining field sampling with laboratory spectrometry."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3669,44 +3867,44 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Laboratory Research and Engineering Roles",
-        "right_header": "Environmental Law and Policy Careers",
+        "left_header": "Req 11: Exploring Environmental Career",
+        "right_header": "Req 11: Survey Conservation Job Variety",
         "left_points": [
           "Exploring Environmental Career Paths: Thinking about a career in environmental science (p. 76).",
           "Natural and Physical Science Fields: To work in environmental science, you may want to explore acareer in the natural sciences, physical sciences, or engineering (p. 76).",
           "Diverse Conservation Organization Roles: Companies and agencies working in the fields of environmental science or conservation hire employees for a great variety of occupations (p. 76)."
         ],
         "right_points": [
-          "Step 1 - Survey Conservation Job Variety: Companies and agencies working in the fields of environmental science or conservation hire employees for a great variety of occupations (p. 76).",
-          "Step 2 - Explore Government Agency Roles: Government agencies (p. 76).",
-          "Step 3 - Develop Renewable Energy Fuels: Scientists and engineers work in government and industry laboratories to develop wind, solar, geothermal, and other alternative fuels (p. 76)."
+          "Survey Conservation Job Variety: Companies and agencies working in the fields of environmental science or conservation hire employees for a great variety of occupations (p. 76).",
+          "Explore Government Agency Roles: Government agencies (p. 76).",
+          "Develop Renewable Energy Fuels: Scientists and engineers work in government and industry laboratories to develop wind, solar, geothermal, and other alternative fuels (p. 76)."
         ],
         "rows": [
           {
-            "attribute": "Exploring Environmental Career Paths",
+            "attribute": "Technical Roles",
             "left": "Exploring Environmental Career Paths: Thinking about a career in environmental science (p. 76).",
-            "right": "Step 1 - Survey Conservation Job Variety: Companies and agencies working in the fields of environmental science or conservation hire employees for a great variety of occupations (p. 76)."
+            "right": "Survey Conservation Job Variety: Companies and agencies working in the fields of environmental science or conservation hire employees for a great variety of occupations (p. 76)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Academic Training",
             "left": "Natural and Physical Science Fields: To work in environmental science, you may want to explore acareer in the natural sciences, physical sciences, or engineering (p. 76).",
-            "right": "Step 2 - Explore Government Agency Roles: Government agencies (p. 76)."
+            "right": "Explore Government Agency Roles: Government agencies (p. 76)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Regulatory Oversight",
             "left": "Diverse Conservation Organization Roles: Companies and agencies working in the fields of environmental science or conservation hire employees for a great variety of occupations (p. 76).",
-            "right": "Step 3 - Develop Renewable Energy Fuels: Scientists and engineers work in government and industry laboratories to develop wind, solar, geothermal, and other alternative fuels (p. 76)."
+            "right": "Develop Renewable Energy Fuels: Scientists and engineers work in government and industry laboratories to develop wind, solar, geothermal, and other alternative fuels (p. 76)."
           }
         ]
       },
       "worked_example": {
-        "title": "Environmental Science Req 11 Exemplar Workbook Entry: Careers in Environmental Science",
+        "title": "Environmental Science Req 11 Exemplar Workbook Entry",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
           "Exploring Environmental Career Paths": "Thinking about a career in environmental science (p. 76).",
           "Natural and Physical Science Fields": "To work in environmental science, you may want to explore acareer in the natural sciences, physical sciences, or engineering (p. 76).",
-          "Diverse Conservation Organization Roles": "Companies and agencies working in the fields of environmental science or conservation hire employees for a great variety of occupations (p. 76).",
-          "Government Agency Employment Opportunities": "Government agencies (p. 76)."
+          "Diverse Conservation Organization": "Companies and agencies working in the fields of environmental science or conservation hire employees for a great variety of occupations (p. 76).",
+          "Government Agency Employment": "Government agencies (p. 76)."
         },
         "sample_output": "Careers in Environmental Science: Thinking about a career in environmental science (p. 76).",
         "counselor_tip": "For Environmental Science Requirement 11 (Careers in Environmental Science), verify the Scout's own observations and specific pamphlet details (Official Scouting America Environmental Science Merit Badge Pamphlet (p. 76, p. 77))."
@@ -3743,7 +3941,33 @@
       "socratic_questions": [
         "How does the daily work of a field environmental scientist differ from a lab chemist?",
         "What specialized skills and mathematics coursework are essential for entering environmental engineering programs?",
-        "Why do environmental regulatory compliance careers require detailed knowledge of federal and state laws?"
+        "Why do environmental regulatory compliance careers require detailed knowledge of federal and state laws?",
+        "Which state licensing boards or federal databases verify the exact certification requirements for an environmental career path?",
+        "What daily responsibilities distinguish a field hydrologist or wetland ecologist from a licensed environmental engineer?",
+        "What field sampling skills and data logging tools do employers expect entry-level environmental technicians to master first?",
+        "Why is it dangerous to collect soil or groundwater samples at a contaminated brownfield site without 40-hour HAZWOPER training?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think environmental careers are limited strictly to park rangers in uniform.",
+          "fact": "Environmental scientists frequently work in interdisciplinary teams combining field sampling with laboratory spectrometry."
+        },
+        {
+          "misconception": "Every career in environmental science requires a doctoral degree and years of academic laboratory research to get hired.",
+          "fact": "Many environmental technicians, water quality specialists, and compliance inspectors enter the workforce with a bachelor's degree."
+        },
+        {
+          "misconception": "Environmental scientists spend all of their working hours outdoors hiking in forests and national parks away from computers.",
+          "fact": "Most environmental professionals split their schedule between field sampling and office work with GIS mapping, lab data, and permits."
+        },
+        {
+          "misconception": "Earning a college degree in environmental science automatically qualifies a graduate to stamp engineering remediation plans.",
+          "fact": "Signing off on treatment systems or structural remediation designs requires an accredited engineering degree and a PE license."
+        },
+        {
+          "misconception": "Government agencies are the only employers that hire full-time environmental scientists, hydrologists, and wetland specialists.",
+          "fact": "Private engineering firms, utilities, manufacturers, and construction companies hire large numbers of environmental specialists."
+        }
       ]
     }
   ],

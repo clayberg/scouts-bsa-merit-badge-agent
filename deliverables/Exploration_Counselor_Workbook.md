@@ -1,8 +1,8 @@
 # Exploration Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Exploration.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/exploration/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/exploration/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -415,10 +415,10 @@
 - **Pamphlet Fact:** Mentors must possess demonstrated field experience, risk assessment training, or subject matter expertise in the operational environment.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![A medical alert tag and health questionnaire record vital allergies before field expeditions.](/assets/pamphlet_images/exploration_p062_img1.png)
 

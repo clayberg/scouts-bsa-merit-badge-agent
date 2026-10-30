@@ -1,8 +1,8 @@
 # Electronics Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Electronics.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/electronics/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/electronics/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -25,9 +25,9 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Do the following: (a) Show the right way to solder and desolder. (b) Show how to avoid heat damage to electronic components. (c) Tell about the function of a printed circuit board. Tell what precautions should be observed when soldering printed circuit boards.
-- [ ] **Station Req 4:** Do the following: (a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic. (3) How to use electronics for three different analog applications. (b) Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers. (c) Choose ONE of the following THREE projects. For your project, find or create a schematic diagram. To the best of your ability, explain to your counselor how the circuit you built operates. (1) A control device (2) A digital circuit (3) An analog circuit
-- [ ] **Station Req 5:** Do the following: (a) Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law. (b) Tell about the need for and the use of test equipment in electronics. Name three types of test equipment. Tell how they operate. (c) Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value. (d) Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages of each.
+- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually demonstrate mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -124,10 +124,10 @@
 - **Pamphlet Fact:** Clean copper braid or a vacuum sucker quickly removes liquid solder from desoldered pins.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools
-- [ ] Schematic diagram, component kit, and diagnostic test bench for The right way to solder
-- [ ] Lockout/de-energization verification checklist and fire extinguisher reference
-- [ ] Engineering logbook and technical specification sheet for Electronics Requirement 3
+- [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools.
+- [ ] Schematic diagram, component kit, and diagnostic test bench for The right way to solder.
+- [ ] Lockout/de-energization verification checklist and fire extinguisher reference.
+- [ ] Engineering logbook and technical specification sheet for Electronics Requirement 3.
 
 ![Electronics Requirement 3 figure showing heating both joint leads allows molten solder to flow freely across metal surfaces.](/assets/pamphlet_images/electronics_p012_img1.png)
 
@@ -253,10 +253,10 @@
 - **Pamphlet Fact:** Voltage equals current multiplied by resistance in any direct current linear electrical circuit.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools
-- [ ] Schematic diagram, component kit, and diagnostic test bench for Simple Problem Involving Current Voltage
-- [ ] Lockout/de-energization verification checklist and fire extinguisher reference
-- [ ] Engineering logbook and technical specification sheet for Electronics Requirement 5
+- [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools.
+- [ ] Schematic diagram, component kit, and diagnostic test bench for Simple Problem Involving Current Voltage.
+- [ ] Lockout/de-energization verification checklist and fire extinguisher reference.
+- [ ] Engineering logbook and technical specification sheet for Electronics Requirement 5.
 
 ![The underside of an integrated circuit reveals an intricate ball grid array.](/assets/pamphlet_images/electronics_p027_img1.png)
 

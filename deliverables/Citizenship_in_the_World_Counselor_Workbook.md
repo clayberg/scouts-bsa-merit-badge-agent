@@ -94,9 +94,9 @@
 - **Pamphlet Fact:** Sovereign foreign policy aims primarily to protect national security, trade wealth, and political independence.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Citizenship in the World Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Current World Event In Relation)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Current World Event In Relation
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Citizenship in the World Merit: Current World Event In Relation.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Current World Event In Relation.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Citizenship in the World Requirement 3 figure showing national military readiness safeguards maritime transit corridors and continental.](/assets/pamphlet_images/citizenship_in_the_world_p012_img1.png)
 
@@ -207,7 +207,7 @@
 **Official Requirement 5a:** Discuss the differences between constitutional and nonconstitutional governments.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 23, p. 25)* • **Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix (Discuss The Differences Between Constitutional)
 - **Common Myth:** Nonconstitutional rulers must always follow existing statutory precedents established by previous national leaders.
-- **Pamphlet Fact:** Nonconstitutional leaders hold unrestrained executive power to alter, suspend, or abolish national statutes at will.
+- **Pamphlet Fact:** Nonconstitutional leaders hold unrestrained executive power to alter, suspend, or abolish national statutes.
 
 ![A legal volume topped with a wooden gavel illustrates the foundation of constitutional law.](/assets/pamphlet_images/citizenship_in_the_world_p024_img1.png)
 

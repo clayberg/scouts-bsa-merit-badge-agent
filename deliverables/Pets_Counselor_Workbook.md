@@ -1,8 +1,8 @@
 # Pets Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Pets.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/pets/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/pets/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -84,9 +84,9 @@
 - **Pamphlet Fact:** Counselor-approved published books offer vetted veterinary knowledge verified by professional animal care specialists.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Pets Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: That you have read a book)
-- [ ] Field notebook, verification log sheet, and demonstration materials for That you have read a book
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Pets Merit Badge Pamphlet: That you have read a book.
+- [ ] Field notebook, verification log sheet, and demonstration materials for That you have read a book.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A uniformed Scout pours fresh water into a dish inside a furnished glass terrarium habitat for a pet.](/assets/ai_illustrations/pets_req_3_nano_hero.png)
 
@@ -123,9 +123,9 @@
 - **Pamphlet Fact:** Many 4-H, school, and community shows feature companion classes that reward care, condition, and handling.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Pets Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Your pet in a pet)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Your pet in a pet
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Pets Merit Badge Pamphlet: Your pet in a pet.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Your pet in a pet.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A boy pours clean litter into a tray to maintain clean sanitation for a pet cat.](/assets/pamphlet_images/pets_p021_img2.png)
 

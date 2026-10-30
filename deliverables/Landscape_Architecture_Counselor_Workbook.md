@@ -1,8 +1,8 @@
 # Landscape Architecture Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Architecture_Landscape.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/landscape-architecture/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/landscape-architecture/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -60,7 +60,7 @@
 **Official Pamphlet Summary:**
 - Spatial Definition: Outdoor rooms rely on changes in grade, planting beds, or distinct overhead canopies.
 - Circulation Hierarchy: Primary walkways direct heavy pedestrian movement while secondary paths encourage quiet wandering.
-- Microclimate Control: Deciduous trees block intense summer sunlight yet allow warming winter rays through.
+- Microclimate Control: Deciduous trees block intense summer sunlight yet allow warming winter rays.
 - User Security: Open sightlines and low illumination fixtures deter crime while supporting welcoming communal park spaces.
 
 #### Req 2a: Spatial Organization and Circulation

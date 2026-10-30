@@ -1,0 +1,194 @@
+{
+  "badge_slug": "plumbing",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Main branch repairs require shutting off the house main valve and opening the lowest faucet to drain residual line pressure.",
+          "misconception": "Closing a fixture stop valve is sufficient preparation before repairing a main branch valve upstream of that fixture."
+        },
+        {
+          "fact": "Capping or plugging a relief valve removes overpressure protection and can cause the water heater tank to rupture violently.",
+          "misconception": "Water heater temperature and pressure relief valves can be plugged temporarily if they begin dripping onto the floor."
+        },
+        {
+          "fact": "Sewer gas contains methane, hydrogen sulfide, and airborne pathogens that create both explosion hazards and toxic exposure risks.",
+          "misconception": "Sewer gas entering a bathroom through a dry floor drain is merely an unpleasant odor with no safety or health risks."
+        },
+        {
+          "fact": "Molten solder and boiling flux frequently drip or splatter downward during overhead work, requiring full eye and hand protection.",
+          "misconception": "Safety glasses are unnecessary when soldering overhead copper joints as long as the torch flame is pointed away from you."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to potable supply lines if a submerged hose experiences a sudden drop in main pressure?",
+        "Which physical clearance between a faucet spout and sink flood rim prevents back-siphonage without mechanical valves?",
+        "What temperature range on a home water heater balances scald prevention against Legionella bacterial growth?",
+        "Why is it dangerous to cut metallic water pipes before checking if they serve as the home electrical ground path?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Vent stacks equalize air pressure inside the drainage system so flowing wastewater does not siphon water seals out of fixture traps.",
+          "misconception": "Plumbing vent stacks exist primarily to let foul odors escape from the household bathroom into the outdoor atmosphere."
+        },
+        {
+          "fact": "Excessive drain slope causes liquids to flow away too rapidly, leaving solid waste stranded inside the pipe to form blockages.",
+          "misconception": "Steeper horizontal drainpipe slopes always clear solid waste more reliably than a shallow quarter-inch-per-foot grade."
+        },
+        {
+          "fact": "An attached hose traps water inside the sillcock barrel, causing it to freeze, expand, and split the copper housing inside the wall.",
+          "misconception": "Leaving an outdoor garden hose attached to a frost-free sillcock during winter will not affect the indoor valve stem."
+        },
+        {
+          "fact": "Heated water loses dissolved gases and can cool and crystallize rapidly in uninsulated exterior walls once circulation stops.",
+          "misconception": "Hot water lines freeze less readily than cold water lines because the water starts at a higher initial temperature."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should you open drain valves after shutting off the main supply to clear water from pipes in an unheated cabin?",
+        "Under what condition does a discharging toilet siphon the water seal out of an adjacent sink trap on the same branch line?",
+        "What downward slope per foot allows horizontal drainpipes to transport solids without liquids outrunning the waste?",
+        "Why is it dangerous to thaw a frozen water supply pipe inside a wall cavity using an open propane torch flame?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Hardened pipe wrench teeth gouge soft brass and chrome plating; use a strap wrench or smooth-jaw pliers on finished fixtures.",
+          "misconception": "Serrated steel pipe wrenches are appropriate for tightening polished chrome drain traps and decorative supply nuts."
+        },
+        {
+          "fact": "Two wrenches must be used in opposing directions so one backs up the stationary pipe and prevents twisting joints inside the wall.",
+          "misconception": "A single pipe wrench is sufficient when unscrewing a corroded galvanized coupling from an older threaded standpipe."
+        },
+        {
+          "fact": "Wheel cutters roll a sharp metal ridge inward that causes flow turbulence and erosion unless removed with a reaming tool.",
+          "misconception": "Cutting copper tubing with a wheel cutter leaves a clean interior edge that is ready for immediate fluxing and soldering."
+        },
+        {
+          "fact": "Cup plungers seal on flat sink and tub surfaces, whereas toilet bowls require an extended soft rubber flange to seal the horn.",
+          "misconception": "Flange plungers and flat-bottom cup plungers work interchangeably on both flat sink drains and contoured toilet bowls."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which direction must the open jaws of an adjustable pipe wrench face relative to your pull so the teeth bite into the pipe?",
+        "What design feature enables a basin wrench to tighten faucet mounting nuts recessed deep behind a narrow sink bowl?",
+        "What happens to the copper wall thickness if you tighten a tubing cutter feed screw too aggressively on a single rotation?",
+        "Why is it dangerous to slip a cheater pipe extension over a pipe wrench handle when breaking loose a rusted steel fitting?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Flux dissolves surface oxides and promotes capillary action so molten metal solder can bond directly to the bare copper walls.",
+          "misconception": "Rosin flux prevents leaks by acting as an adhesive sealant that glues copper tubing directly inside a sweat fitting."
+        },
+        {
+          "fact": "A plug has external male threads that screw inside a fitting, whereas a cap has internal female threads that screw over a pipe end.",
+          "misconception": "A threaded pipe plug and a pipe cap have identical threads and can be swapped freely when sealing the end of a pipe."
+        },
+        {
+          "fact": "Unthreading one end of a rigid pipe tightens the opposite end; a three-piece union is required to disconnect mid-run piping.",
+          "misconception": "A standard threaded coupling allows a middle section of galvanized steel pipe to be unthreaded without cutting the line."
+        },
+        {
+          "fact": "A trap holds a standing water seal that blocks toxic sewer gases and vermin from rising through the drainpipe into living spaces.",
+          "misconception": "The primary purpose of a sink P-trap is to catch dropped jewelry and heavy debris before those items enter the sewer main."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where in a rigid threaded steel pipeline would you install a union instead of a standard coupling to allow future servicing?",
+        "What chemical action does paste flux perform on heated copper surfaces so molten lead-free solder flows into the joint gap?",
+        "Which indicator on a residential water meter dial confirms a hidden supply leak when every fixture inside the house is shut off?",
+        "Why is it dangerous to use fifty-fifty tin-lead acid-core solder when sweating copper fittings on a kitchen drinking water line?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Standard PVC softens and degrades above 140 degrees Fahrenheit; hot water supply lines require CPVC, PEX, or copper piping.",
+          "misconception": "White Schedule 40 PVC pipe is rated for indoor hot water supply lines running directly from a residential water heater."
+        },
+        {
+          "fact": "Type K has the thickest wall for underground burial, Type L is medium weight for interiors, and Type M is the thinnest wall grade.",
+          "misconception": "Type M thin-wall copper tubing is the heaviest grade of copper pipe and is preferred for buried underground water services."
+        },
+        {
+          "fact": "Dense cast iron dampens the sound of rushing water far better than plastic and does not emit toxic fumes during a building fire.",
+          "misconception": "Cast iron soil pipe is obsolete in modern buildings because plastic PVC drainpipe conducts less noise between floors."
+        },
+        {
+          "fact": "Cross-linked polyethylene does not dissolve in solvent cement and must be joined with crimp rings, expansion rings, or push fittings.",
+          "misconception": "PEX tubing can be solvent-welded directly into PVC fittings using standard purple primer and clear plastic pipe cement."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to cross-linked polyethylene tubing if it is installed outdoors where it receives direct daily sunlight exposure?",
+        "Which material property allows CPVC pipe to carry domestic hot water safely while standard PVC is limited to cold lines?",
+        "What color-coded stripe identifies thick-walled Type K copper tubing approved for underground trench service lines?",
+        "Why is it dangerous to install uncoated black steel pipe on a potable drinking water line instead of fuel gas piping?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The torch must heat the fitting cup opposite the solder so capillary action draws molten metal cleanly into the entire joint.",
+          "misconception": "Applying torch heat directly to the tip of the solder wire is the fastest way to fill a copper sweat fitting completely."
+        },
+        {
+          "fact": "Compression fittings seal where the brass ferrule wedges against the tube and valve seat; tape on the nut threads hinders tightening.",
+          "misconception": "Wrapping PTFE thread tape over the threads of a brass compression nut stops leaks at the ferrule of a supply stop valve."
+        },
+        {
+          "fact": "Primer chemically softens and penetrates the rigid PVC surface so the solvent cement can fuse the pipe and socket into one piece.",
+          "misconception": "Purple primer on PVC pipe is merely an optional cleaner that removes dirt before the glue adheres the two surfaces together."
+        },
+        {
+          "fact": "Sudden quenching causes thermal shock that cracks the cooling solder; let the joint cool naturally before wiping away flux residue.",
+          "misconception": "Cooling a freshly soldered copper joint immediately with a wet rag strengthens the metal bond and speeds up pressure testing."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why must you give a PVC pipe a quarter-turn as you push it into a cemented socket and hold it firmly for fifteen seconds?",
+        "Which direction must PTFE thread seal tape be wrapped around male pipe threads so screwing on the fitting does not unravel it?",
+        "What measurement tool verifies that a copper crimp ring has been compressed to the exact diameter required on a PEX barb fitting?",
+        "Where should a flame-resistant heat shield and fire extinguisher be staged before sweating a copper joint near wood wall studs?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Most jurisdictions require passing a master plumber examination and carrying contractor insurance before pulling permits independently.",
+          "misconception": "A journeyman plumber license automatically grants legal authority to pull municipal permits and operate an independent business."
+        },
+        {
+          "fact": "Registered plumbing apprenticeships use an earn-while-you-learn model where apprentices receive wages during on-the-job training.",
+          "misconception": "Trade apprentices must pay full tuition upfront before they are allowed to begin working alongside licensed journeymen on job sites."
+        },
+        {
+          "fact": "Pipefitters specialize in high-pressure industrial piping for steam, chemicals, and power generation rather than residential fixtures.",
+          "misconception": "Pipefitters and residential plumbers install identical low-pressure domestic water and sanitary drainage fixtures in houses."
+        },
+        {
+          "fact": "Plumbers must complete continuing education for updated building codes and hold specialized certifications for medical gas or backflow.",
+          "misconception": "Once a master plumber earns state licensure, no further code classes or specialty endorsements are needed throughout a career."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What combination of supervised on-the-job hours and classroom instruction is required to advance from apprentice to journeyman?",
+        "Which technical systems distinguish the daily work of an industrial steamfitter from that of a residential service plumber?",
+        "What information must a municipal plumbing inspector verify and sign off on before rough-in pipes are concealed behind drywall?",
+        "Why is it dangerous for a utility pipe layer to enter an unshored trench deeper than five feet to connect a municipal sewer main?"
+      ],
+      "req_id": "7"
+    }
+  ]
+}

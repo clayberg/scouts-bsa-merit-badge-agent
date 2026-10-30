@@ -1,8 +1,8 @@
 # Backpacking Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Backpacking.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/backpacking/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/backpacking/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -30,10 +30,10 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 5:** Do the following: (a) Demonstrate two ways to treat water and tell why water treatment is essential. (b) Explain to your counselor the importance of staying well-hydrated during a trek.
-- [ ] **Station Req 6:** Do the following: (a) Demonstrate that you can read topographic maps. (b) While on a trek, use a map and compass to establish your position on the ground at three different locations, OR use a GPS receiver to establish your position on a topographic map and on the ground at three different locations. (c) Explain how to stay found, and what to do if you get lost.
-- [ ] **Station Req 8:** Do the following: (a) Explain the advantages and disadvantages of the different types of backpacking stoves using at least three different types of fuel. (b) Demonstrate that you know how to operate a backpacking stove safely and to handle liquid fuel safely. Resources: Trying Every Type of Backpacking Stove! (video) How To LIGHT a CAMP STOVE! Both Canister and Liquid Fuel Stoves (video) (c) Prepare three meals using a stove and fuel you can carry in a backpack. (d) Demonstrate that you know how to keep cooking and eating gear clean and sanitary, and that you practice proper methods for food storage while on a backpacking trek.
-- [ ] **Station Req 9:** Do the following: (a) Write a plan that includes a schedule for a patrol/crew backpacking hike of at least 2 miles. Resources: How To Plan Your First Backpacking Trip (video) Backpacking Trip Schedule (PDF) (b) Conduct a prehike inspection of the patrol and its equipment. (c) Show that you know how to properly pack your personal gear and your share of the crew's gear and food. (d) Show you can properly shoulder your pack and adjust it for proper wear. (e) While using the plan you developed for requirement 9(a), carry your fully loaded pack to complete a hike of at least 2 miles.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
+- [ ] **Station Req 6:** Scout must individually demonstrate mastery of Requirement 6 to the Merit Badge Counselor.
+- [ ] **Station Req 8:** Scout must individually demonstrate mastery of Requirement 8 to the Merit Badge Counselor.
+- [ ] **Station Req 9:** Scout must individually demonstrate mastery of Requirement 9 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -78,10 +78,10 @@
 - **Pamphlet Fact:** Each essential serves a specific survival function, such as preventing hypothermia or signaling rescuers during unexpected wilderness delays.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![Backpacking Requirement 2 figure showing topographic maps, liquid filled compasses, and redundant fire starters safeguard remote.](/assets/pamphlet_images/backpacking_p007_img1.png)
 
@@ -250,10 +250,10 @@
 - **Pamphlet Fact:** Purification tablets require up to four hours of exposure time to destroy tough Cryptosporidium oocysts in cold water.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![Severe lightning flashes across dark storm clouds, highlighting the hazard of open thunderstorms.](/assets/pamphlet_images/backpacking_p026_img1.png)
 
@@ -297,10 +297,10 @@
 - **Pamphlet Fact:** Index contours are heavier brown lines that display elevation numbers along their paths at regular intervals.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![Three backpackers wearing loaded packs examine a topographic trail map during an outdoor trek.](/assets/pamphlet_images/backpacking_p014_img1.png)
 
@@ -467,10 +467,10 @@
 - **Pamphlet Fact:** Calculating trail schedules using distance plus elevation gain prevents crews from arriving at campsites after dark.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.](/assets/pamphlet_images/backpacking_p041_img1.png)
 
@@ -581,10 +581,10 @@
 - **Pamphlet Fact:** A thirty-mile trek plan must incorporate daily topographic elevation profiles, contingency bail-out trails, and water source reliability.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![A pair of telescoping trekking poles provides stability and reduces knee strain while hiking.](/assets/pamphlet_images/backpacking_p090_img1.png)
 

@@ -1,0 +1,194 @@
+{
+  "badge_slug": "welding",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Ultraviolet radiation from an electric arc travels tens of feet and reflects off bright walls, causing painful flash burns.",
+          "misconception": "Looking at a welding arc from across the shop without a shaded lens is safe because distance blocks ultraviolet rays."
+        },
+        {
+          "fact": "Butter traps heat and causes infection, while ice freezes damaged tissue; flush minor burns gently with cool running water.",
+          "misconception": "Applying butter or ice directly to a thermal burn from hot slag cools the damaged skin tissue safely and quickly."
+        },
+        {
+          "fact": "Hydrocarbon vapours remain trapped in metal pores and seams, requiring steam purging or inert gas filling before hot work.",
+          "misconception": "Rinsing an empty fuel container with water makes the metal drum completely safe to cut or weld with a torch."
+        },
+        {
+          "fact": "Milk does not prevent metal fume fever in the lungs; only source capture ventilation and approved respirators stop inhalation.",
+          "misconception": "Drinking cold milk after inhaling zinc oxide fumes neutralizes heavy metal toxins inside the digestive and respiratory tracts."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to weld on galvanized steel without local exhaust ventilation or a properly fitted respirator?",
+        "What happens to the cornea during arc eye, and why do painful symptoms often appear several hours after exposure?",
+        "Where should a Scout position fire extinguishers and a fire watch before striking an arc near combustible shop walls?",
+        "Which physical indicator distinguishes heat exhaustion from life-threatening heat stroke inside a hot welding booth?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Standard sunglasses lack sufficient infrared and ultraviolet filtration, requiring ANSI Z87.1 shaded welding lenses for every arc.",
+          "misconception": "Dark polarized sunglasses provide adequate eye protection when tack-welding steel plates together for just a few seconds."
+        },
+        {
+          "fact": "Impact-rated safety glasses with side shields must stay on under the hood to stop hot slag when lifting the helmet to chip.",
+          "misconception": "Safety glasses are unnecessary underneath a full-face welding helmet because the flip-down hood blocks all flying debris."
+        },
+        {
+          "fact": "Molten sparks burn straight through canvas and catch in frayed hems; high-top leather boots with cuffless pants are mandatory.",
+          "misconception": "Frayed cotton jeans and canvas sneakers protect your feet and ankles from molten metal droplets during flat position welding."
+        },
+        {
+          "fact": "A stray spark or radiant heat can puncture a plastic butane lighter, causing a pressurized flame explosion against your leg.",
+          "misconception": "Carrying a butane lighter in your front pants pocket is harmless while welding as long as your leather apron covers it."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which section of a Safety Data Sheet lists the hazardous decomposition fumes released when an electrode coating burns?",
+        "Why is it dangerous to wear synthetic polyester or nylon shirts underneath a leather welding jacket in the shop?",
+        "What shade number range on a welding helmet filter lens is required to protect your eyes during GMAW or SMAW?",
+        "Under what condition does cuffing your work trousers or leaving shirt pockets unbuttoned create a severe burn hazard?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "True fusion welding melts both the base metal edges and the filler metal so they coalesce into a single continuous grain structure.",
+          "misconception": "Welding simply glues two pieces of steel together using melted filler wire without melting the base metal edges."
+        },
+        {
+          "fact": "Slag insulates the cooling weld to prevent brittle martensite formation and atmospheric oxidation until the metal cools down.",
+          "misconception": "Slag left on top of a stick weld should be chipped off while glowing red-hot so the underlying steel cools faster."
+        },
+        {
+          "fact": "Compressed air contains roughly seventy-eight percent nitrogen and twenty-one percent oxygen, causing severe weld porosity.",
+          "misconception": "Compressed shop air from a standard tire compressor can substitute for argon shielding gas to blow smoke away from the arc."
+        },
+        {
+          "fact": "Autogenous welds in processes like GTAW fuse tight-fitting base metal edges directly together using only the heat of the arc.",
+          "misconception": "All welding processes require adding a separate consumable filler rod or wire to bridge the joint between two metal plates."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the mechanical strength of a steel weld bead if atmospheric nitrogen and oxygen enter the molten pool?",
+        "Which physical function does solidified flux slag serve over the hot weld metal immediately after the arc moves forward?",
+        "Under what condition does an electrode act strictly as a heat conductor rather than melting to supply filler metal?",
+        "What metallurgical difference separates true fusion welding from lower-temperature brazing or soldering on steel joints?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The preheat flame only raises steel to kindling temperature; the pure oxygen jet rapidly oxidizes the iron and blows out slag.",
+          "misconception": "An oxy-acetylene cutting torch severs thick steel plate solely by melting a slot through the metal with its preheat flame."
+        },
+        {
+          "fact": "Aluminum and stainless steel form refractory oxides with melting points higher than the base metal, blocking oxy-fuel oxidation.",
+          "misconception": "Oxy-fuel torches cut aluminum and stainless steel just as cleanly as mild carbon steel when fuel pressure is turned up."
+        },
+        {
+          "fact": "Plasma cutters use an electric arc to superheat non-flammable gases like compressed air or nitrogen into an ionized plasma jet.",
+          "misconception": "Plasma arc cutters require cylinders of flammable acetylene gas to ionize the cutting stream and slice conductive metals."
+        },
+        {
+          "fact": "Mechanical cutting severs metal through cold shear or chip removal, avoiding the thermal distortion and hardening of torch cuts.",
+          "misconception": "Mechanical shearing and bandsaw cutting leave a wide heat-affected zone that hardens the cut edge of mild steel plate."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What chemical reaction actually severs carbon steel after the oxy-fuel preheat flames bring the edge to kindling temperature?",
+        "Why is it dangerous to cut stainless steel or cast iron using a standard oxy-acetylene cutting torch setup?",
+        "What happens to the kerf edge and heat-affected zone when plasma arc cutting is used instead of a mechanical bandsaw?",
+        "Which physical indicator on the top edge of a steel plate confirms that preheat flames are ready for the oxygen cutting jet?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Turning the regulator screw counterclockwise relieves spring tension so high cylinder pressure does not slam the diaphragm.",
+          "misconception": "Backing out a regulator adjusting screw until it feels tight increases gas flow into the welding torch hose prior to opening."
+        },
+        {
+          "fact": "Free acetylene becomes chemically unstable above fifteen psi and can decompose explosively even without oxygen present.",
+          "misconception": "Acetylene gas can be safely regulated and used at line pressures above fifteen pounds per square inch for heavy cutting."
+        },
+        {
+          "fact": "SMAW and GTAW require constant-current machines to stabilize amperage, while GMAW and FCAW use constant-voltage power sources.",
+          "misconception": "Constant-current power sources and constant-voltage power sources are interchangeable between stick welding and MIG wire feeders."
+        },
+        {
+          "fact": "Rust and paint add electrical resistance that causes erratic arc starting; clamp directly to clean bare metal near the joint.",
+          "misconception": "Clamping the ground cable onto a painted or rusty table leg far from the joint provides a clean electrical return path."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to oil a compressed gas regulator or open an acetylene cylinder valve past one and a half turns?",
+        "What measurement on a flowmeter gauge confirms proper shielding gas delivery in cubic feet per hour before GMAW welding?",
+        "Where should a Scout position the work clamp on the workpiece to prevent arc blow and poor electrical ground contact?",
+        "Under what condition does outdoor wind make Flux-Cored Arc Welding or SMAW superior to gas-shielded GMAW?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Excessive weld reinforcement wastes filler metal and creates sharp stress risers along the weld toes without adding strength.",
+          "misconception": "Piling a tall, rounded weld bead high above the plate surface creates a stronger joint than a flat, well-fused bead."
+        },
+        {
+          "fact": "Thermal expansion and contraction exert immense force that warps untacked plates; tack welds at both ends hold alignment.",
+          "misconception": "Clamping one end of a butt joint by hand without tack welds keeps the two steel plates aligned during welding."
+        },
+        {
+          "fact": "Ink burns off before the arc arrives and carbon from graphite can contaminate sensitive alloys, whereas soapstone stays visible.",
+          "misconception": "Using a graphite pencil or permanent ink marker instead of soapstone is ideal for sketching layout lines on hot steel."
+        },
+        {
+          "fact": "An overly long arc scatters heat, increases spatter, reduces root penetration, and lets atmospheric gases cause weld porosity.",
+          "misconception": "Holding a very long arc length helps the molten filler metal spread out wider and penetrate deeper into a fillet joint."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to weld penetration and bead profile when your travel speed across the steel plate is noticeably too fast?",
+        "Which physical indicator in the weld toe shows undercut caused by excessive amperage or an improper electrode angle?",
+        "Where should a Scout place tack welds on a tee joint or corner joint to prevent thermal distortion during the final pass?",
+        "What percentage of lateral overlap between adjacent stringer beads ensures a smooth, flat pad without deep valleys?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Welder performance qualifications apply only to the specific process, position, base metal group, and thickness range tested.",
+          "misconception": "Passing a single welding certification test qualifies a welder to perform every welding process on any metal thickness."
+        },
+        {
+          "fact": "AWS welder certification requires signed continuity verification every six months confirming the welder still uses that process.",
+          "misconception": "An AWS Welding Certification lasts for life without requiring ongoing continuity logs or periodic employer verification."
+        },
+        {
+          "fact": "Welding careers span robotics programming, metallurgical engineering, nondestructive testing, and certified code inspection.",
+          "misconception": "Careers in the welding industry are limited to manual shop floor production work with no pathways into engineering."
+        },
+        {
+          "fact": "The American Welding Society is a nonprofit professional organization that publishes consensus standards and administers exams.",
+          "misconception": "The American Welding Society is a federal government agency that issues criminal fines to local metal fabrication shops."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What practical difference separates an AWS Certified Welder performance test from an AWS Certified Welding Inspector role?",
+        "Which non-destructive testing methods allow an inspector to detect internal weld cracks without cutting the finished joint?",
+        "Under what condition does an AWS Certified Welder credential expire if the welder stops working with that specific process?",
+        "What structural consequences occur if a fabrication shop ignores AWS D1.1 code specifications on bridge or building steel?"
+      ],
+      "req_id": "7"
+    }
+  ]
+}

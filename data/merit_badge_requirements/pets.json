@@ -68,9 +68,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts can retroactively record pet care duties completed months prior to meeting their counselor.",
-        "fact": "Scouts must consult their counselor and receive formal approval before initiating the four-month tracking period.",
-        "myth": "Scouts can retroactively record pet care duties completed months prior to meeting their counselor.",
-        "fact_correction": "Scouts must consult their counselor and receive formal approval before initiating the four-month tracking period."
+        "fact": "Scouts must consult their counselor and receive formal approval before initiating the four-month tracking period."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -107,38 +105,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Routine Daily Feeding and Cleaning",
-        "right_header": "Preventive and Emergency Veterinary Care",
+        "left_header": "Req 1: Weighing Pet Ownership",
+        "right_header": "Req 1: Schedule Preventive Vet Care",
         "left_points": [
           "Weighing Pet Ownership Commitments: If you are not a pet owner and plan to buy or adopt an animal to earn this merit badge, first give serious thought to pet ownership (p. 7).",
           "Investing Time and Money: It takes time, effort, and money to care for a pet properly (p. 7).",
           "Providing Veterinary Health Care: You must ensure quality health care for your pet, which could include vaccinations and preventive and emergency care as needed (p. 7)."
         ],
         "right_points": [
-          "Step 1 - Schedule Preventive Vet Care: You must ensure quality health care for your pet, which could include vaccinations and preventive and emergency care as needed (p. 7).",
-          "Step 2 - Train Polite Pet Behavior: You must take the time to properly train your pet so that it does not become a nuisance (p. 7).",
-          "Step 3 - Prioritize Daily Animal Care: You must dedicate yourself to the well-being of a living animal, which means sometimes giving up other activities, such as TV, to tend to your pet's (p. 7)."
+          "Schedule Preventive Vet Care: You must ensure quality health care for your pet, which could include vaccinations and preventive and emergency care as needed (p. 7).",
+          "Train Polite Pet Behavior: You must take the time to properly train your pet so that it does not become a nuisance (p. 7).",
+          "Prioritize Daily Animal Care: You must dedicate yourself to the well-being of a living animal, which means sometimes giving up other activities, such as TV, to tend to your pet's (p. 7)."
         ],
         "rows": [
           {
-            "attribute": "Weighing Pet Ownership Commitments",
+            "attribute": "Prior Counselor Approval",
             "left": "Weighing Pet Ownership Commitments: If you are not a pet owner and plan to buy or adopt an animal to earn this merit badge, first give serious thought to pet ownership (p. 7).",
-            "right": "Step 1 - Schedule Preventive Vet Care: You must ensure quality health care for your pet, which could include vaccinations and preventive and emergency care as needed (p. 7)."
+            "right": "Schedule Preventive Vet Care: You must ensure quality health care for your pet, which could include vaccinations and preventive and emergency care as needed (p. 7)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Husbandry Tracking Log",
             "left": "Investing Time and Money: It takes time, effort, and money to care for a pet properly (p. 7).",
-            "right": "Step 2 - Train Polite Pet Behavior: You must take the time to properly train your pet so that it does not become a nuisance (p. 7)."
+            "right": "Train Polite Pet Behavior: You must take the time to properly train your pet so that it does not become a nuisance (p. 7)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "No Badge Overlap",
             "left": "Providing Veterinary Health Care: You must ensure quality health care for your pet, which could include vaccinations and preventive and emergency care as needed (p. 7).",
-            "right": "Step 3 - Prioritize Daily Animal Care: You must dedicate yourself to the well-being of a living animal, which means sometimes giving up other activities, such as TV, to tend to your pet's (p. 7)."
+            "right": "Prioritize Daily Animal Care: You must dedicate yourself to the well-being of a living animal, which means sometimes giving up other activities, such as TV, to tend to your pet's (p. 7)."
           }
         ]
       },
       "worked_example": {
-        "title": "Pets Req 1 Exemplar Workbook Entry: Four Months of Daily Pet Care",
+        "title": "Pets Req 1 Exemplar Workbook Entry: Four Months of Daily",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Weighing Pet Ownership Commitments": "If you are not a pet owner and plan to buy or adopt an animal to earn this merit badge, first give serious thought to pet ownership (p. 7).",
@@ -181,7 +179,33 @@
       "socratic_questions": [
         "Why does the merit badge require four continuous months of care instead of one week?",
         "How does keeping a written record improve your awareness of subtle animal health changes?",
-        "What steps ensure your pet receives proper care when your family travels on vacation?"
+        "What steps ensure your pet receives proper care when your family travels on vacation?",
+        "Why must a Scout obtain counselor approval before starting the four-month care log rather than counting prior months?",
+        "Under what condition does a four-month care record for a dog fail to qualify for the Pets merit badge?",
+        "What daily measurements in your care log help a veterinarian spot early appetite loss or dehydration in your pet?",
+        "Which sanitation steps during weekly enclosure cleaning prevent zoonotic bacteria like Salmonella from spreading?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts can retroactively record pet care duties completed months prior to meeting their counselor.",
+          "fact": "Scouts must consult their counselor and receive formal approval before initiating the four-month tracking period."
+        },
+        {
+          "misconception": "A four-month dog care log completed for the Dog Care merit badge also satisfies the Pets merit badge care requirement.",
+          "fact": "Work completed for another merit badge cannot be reused, so you must log a separate four-month period with counselor approval."
+        },
+        {
+          "misconception": "Prior months of feeding a family pet before meeting your counselor count toward the four-month care requirement.",
+          "fact": "You must secure your merit badge counselor's approval before the four-month tracking window officially begins."
+        },
+        {
+          "misconception": "A signed note from a parent at the end of four months is better evidence than a dated daily feeding and cleaning log.",
+          "fact": "A dated log tracking daily feeding amounts, water changes, grooming, and expenses provides verifiable proof of consistent care."
+        },
+        {
+          "misconception": "Refilling a pet water bowl each morning without scrubbing the inside keeps the drinking water clean and bacteria-free.",
+          "fact": "Biofilm builds up on bowl surfaces within twenty-four hours, so water dishes should be washed with soap and hot water daily."
+        }
       ]
     },
     {
@@ -242,9 +266,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Commercial table scraps provide balanced nutrition and eliminate the need for commercial pet diets.",
-        "fact": "Table scraps lack vital balanced nutrients and frequently contain toxic ingredients such as onions or xylitol.",
-        "myth": "Commercial table scraps provide balanced nutrition and eliminate the need for commercial pet diets.",
-        "fact_correction": "Table scraps lack vital balanced nutrients and frequently contain toxic ingredients such as onions or xylitol."
+        "fact": "Table scraps lack vital balanced nutrients and frequently contain toxic ingredients such as onions or xylitol."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -281,38 +303,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Balanced Commercial Pelleted Pet Diets",
-        "right_header": "Selective Loose Seed Mix Hoarding",
+        "left_header": "Req 2: Preventing Aggressive Hamster",
+        "right_header": "Req 2: Serve Complete Protein Pellets",
         "left_points": [
           "Preventing Aggressive Hamster Fights: Mixing males and females, besides creating lots of baby hamsters, might lead to hamster fights (p. 41).",
           "Recognizing Wet Tail Disease: Diarrhea, sometimes called \"wet tail,\" is a serious condition that requires veterinary attention (p. 41).",
           "Meeting Dietary Protein Needs: Feed a commercial hamster diet that contains at least 16 percent protein (p. 41)."
         ],
         "right_points": [
-          "Step 1 - Serve Complete Protein Pellets: Feed a commercial hamster diet that contains at least 16 percent protein (p. 41).",
-          "Step 2 - Skip Loose Seed Mixes: Do not feed seed-type pet mixes because the hamster will pick out only the foods it wants and hoard (bury) the rest (p. 41).",
-          "Step 3 - Watch Cheek Pouch Hoarding: Hamsters tend to stuff their cheeks with food and then store it away (p. 41)."
+          "Serve Complete Protein Pellets: Feed a commercial hamster diet that contains at least 16 percent protein (p. 41).",
+          "Skip Loose Seed Mixes: Do not feed seed-type pet mixes because the hamster will pick out only the foods it wants and hoard (bury) the rest (p. 41).",
+          "Watch Cheek Pouch Hoarding: Hamsters tend to stuff their cheeks with food and then store it away (p. 41)."
         ],
         "rows": [
           {
-            "attribute": "Preventing Aggressive Hamster Fights",
+            "attribute": "Minimum Essay Length",
             "left": "Preventing Aggressive Hamster Fights: Mixing males and females, besides creating lots of baby hamsters, might lead to hamster fights (p. 41).",
-            "right": "Step 1 - Serve Complete Protein Pellets: Feed a commercial hamster diet that contains at least 16 percent protein (p. 41)."
+            "right": "Serve Complete Protein Pellets: Feed a commercial hamster diet that contains at least 16 percent protein (p. 41)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Nutritional Diet Balance",
             "left": "Recognizing Wet Tail Disease: Diarrhea, sometimes called \"wet tail,\" is a serious condition that requires veterinary attention (p. 41).",
-            "right": "Step 2 - Skip Loose Seed Mixes: Do not feed seed-type pet mixes because the hamster will pick out only the foods it wants and hoard (bury) the rest (p. 41)."
+            "right": "Skip Loose Seed Mixes: Do not feed seed-type pet mixes because the hamster will pick out only the foods it wants and hoard (bury) the rest (p. 41)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Habitat Enclosure Design",
             "left": "Meeting Dietary Protein Needs: Feed a commercial hamster diet that contains at least 16 percent protein (p. 41).",
-            "right": "Step 3 - Watch Cheek Pouch Hoarding: Hamsters tend to stuff their cheeks with food and then store it away (p. 41)."
+            "right": "Watch Cheek Pouch Hoarding: Hamsters tend to stuff their cheeks with food and then store it away (p. 41)."
           }
         ]
       },
       "worked_example": {
-        "title": "Pets Req 2 Exemplar Workbook Entry: Pet Care Feeding Housing and Laws",
+        "title": "Pets Req 2 Exemplar Workbook Entry: Pet Care Feeding",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Preventing Aggressive Hamster Fights": "Mixing males and females, besides creating lots of baby hamsters, might lead to hamster fights (p. 41).",
@@ -353,9 +375,35 @@
       "workbook_visual_caption": "A family interacts with a rescued dog inside an adoption shelter kennel.",
       "pamphlet_summary": "A comprehensive essay outlines specific nutritional requirements, habitat specifications, veterinary preventive care, and distinctive species traits. Researching local animal control ordinances ensures responsible pet ownership compliant with municipal licensing and leash regulations.",
       "socratic_questions": [
-        "How do wild ancestral habits influence the environmental housing needs of your domestic pet?",
+        "In what specific ways do wild ancestral habits influence the environmental housing needs of your domestic pet?",
         "Why do local governments enforce leash laws, waste pickup ordinances, and licensing mandates?",
-        "What physical behavioral signs indicate that an animal is stressed by inadequate habitat conditions?"
+        "What physical behavioral signs indicate that an animal is stressed by inadequate habitat conditions?",
+        "Where can a Scout look up municipal ordinances on rabies vaccination, leash rules, or exotic pet permits for their town?",
+        "What happens to a reptile or amphibian when its terrarium lacks a proper warm-to-cool thermal gradient?",
+        "What measurement confirms that a freshwater aquarium has completed nitrogen cycling before you add fish?",
+        "Why is it dangerous to line a small rodent cage with aromatic cedar or pine wood shavings?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Commercial table scraps provide balanced nutrition and eliminate the need for commercial pet diets.",
+          "fact": "Table scraps lack vital balanced nutrients and frequently contain toxic ingredients such as onions or xylitol."
+        },
+        {
+          "misconception": "Indoor cats and caged pocket pets are exempt from all city or county animal ordinances because they never leave the house.",
+          "fact": "Many municipalities still enforce rabies vaccination, licensing, or household pet limits even for strictly indoor animals."
+        },
+        {
+          "misconception": "Guinea pigs can eat standard rabbit pellets indefinitely because both animals are small herbivorous household pets.",
+          "fact": "Guinea pigs cannot synthesize vitamin C on their own and develop scurvy unless fed stabilized guinea pig pellets and fresh greens."
+        },
+        {
+          "misconception": "A small round goldfish bowl provides sufficient dissolved oxygen and filtration for a common goldfish to live a full life.",
+          "fact": "Goldfish produce heavy ammonia waste and require at least a twenty-gallon filtered tank to prevent gill damage and stunted growth."
+        },
+        {
+          "misconception": "Reptiles warm their bodies by absorbing heat from a thick blanket wrapped around the outside of their glass terrarium.",
+          "fact": "Ectothermic reptiles rely on external heat lamps or under-tank heaters to regulate body temperature and digest food properly."
+        }
       ]
     },
     {
@@ -407,9 +455,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Casual internet forums and video blogs offer the same scientific accuracy as peer-reviewed literature.",
-        "fact": "Counselor-approved published books offer vetted veterinary knowledge verified by professional animal care specialists.",
-        "myth": "Casual internet forums and video blogs offer the same scientific accuracy as peer-reviewed literature.",
-        "fact_correction": "Counselor-approved published books offer vetted veterinary knowledge verified by professional animal care specialists."
+        "fact": "Counselor-approved published books offer vetted veterinary knowledge verified by professional animal care specialists."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -450,43 +496,43 @@
         "Step 4 - Counselor Dialogue Meeting: Meet with your merit badge counselor to explain the core principles you discovered."
       ],
       "gear_checklist": [
-        "Official Pets Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: That you have read a book)",
-        "Field notebook, verification log sheet, and demonstration materials for That you have read a book",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Pets Merit Badge Pamphlet: That you have read a book.",
+        "Field notebook, verification log sheet, and demonstration materials for That you have read a book.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Slightly Green Healthy Aquarium Water",
-        "right_header": "Soupy Opaque Polluted Tank Water",
+        "left_header": "Req 3: Researching Species Diet Needs",
+        "right_header": "Req 3: Identify Your Fish Species",
         "left_points": [
           "Researching Species Diet Needs: Before you buy atype of fish, find out what kind of food it needs (p. 26).",
           "Carnivore Versus Herbivore Proteins: Flesh-eating and plant-eating fish need different types of protein (p. 26).",
           "West African Spotted Catfish: The Synodontis courteti, a spotted catfish, comes from West Africa (p. 26)."
         ],
         "right_points": [
-          "Step 1 - Identify Your Fish Species: The Synodontis courteti, a spotted catfish, comes from West Africa (p. 26).",
-          "Step 2 - Clean Aquarium Filters Weekly: A filter will help, but it must be cleaned every week (p. 26).",
-          "Step 3 - Siphon Tank Bottom Debris: Use a siphon to remove the food and droppings that accumulate in the bottom of the tank (p. 26)."
+          "Identify Your Fish Species: The Synodontis courteti, a spotted catfish, comes from West Africa (p. 26).",
+          "Clean Aquarium Filters Weekly: A filter will help, but it must be cleaned every week (p. 26).",
+          "Siphon Tank Bottom Debris: Use a siphon to remove the food and droppings that accumulate in the bottom of the tank (p. 26)."
         ],
         "rows": [
           {
-            "attribute": "Researching Species Diet Needs",
+            "attribute": "Prior Reading Sanction",
             "left": "Researching Species Diet Needs: Before you buy atype of fish, find out what kind of food it needs (p. 26).",
-            "right": "Step 1 - Identify Your Fish Species: The Synodontis courteti, a spotted catfish, comes from West Africa (p. 26)."
+            "right": "Identify Your Fish Species: The Synodontis courteti, a spotted catfish, comes from West Africa (p. 26)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Authoritative Reference Selection",
             "left": "Carnivore Versus Herbivore Proteins: Flesh-eating and plant-eating fish need different types of protein (p. 26).",
-            "right": "Step 2 - Clean Aquarium Filters Weekly: A filter will help, but it must be cleaned every week (p. 26)."
+            "right": "Clean Aquarium Filters Weekly: A filter will help, but it must be cleaned every week (p. 26)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Key Finding Extraction",
             "left": "West African Spotted Catfish: The Synodontis courteti, a spotted catfish, comes from West Africa (p. 26).",
-            "right": "Step 3 - Siphon Tank Bottom Debris: Use a siphon to remove the food and droppings that accumulate in the bottom of the tank (p. 26)."
+            "right": "Siphon Tank Bottom Debris: Use a siphon to remove the food and droppings that accumulate in the bottom of the tank (p. 26)."
           }
         ]
       },
       "worked_example": {
-        "title": "Pets Req 3 Exemplar Workbook Entry: Studying Approved Pet Care Literature",
+        "title": "Pets Req 3 Exemplar Workbook Entry: Studying Approved",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Researching Species Diet Needs": "Before you buy atype of fish, find out what kind of food it needs (p. 26).",
@@ -529,7 +575,33 @@
       "socratic_questions": [
         "How did the author explain the difference between instinctive behavior and conditioned learned responses?",
         "What warning signs does the publication highlight as indicators for urgent veterinary hospital visits?",
-        "Which piece of advice in the book contradicted your previous habits or family assumptions?"
+        "Which piece of advice in the book contradicted your previous habits or family assumptions?",
+        "Why should your counselor review and approve your chosen pet book before you rely on its medical or dietary advice?",
+        "Which physical indicator in your reading distinguishes normal species behavior from early signs of illness or stress?",
+        "What enclosure dimension or dietary ratio from your reading caused you to adjust your pet's current home setup?",
+        "Why is it dangerous to give human pain medications like ibuprofen or acetaminophen to a dog or cat?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Casual internet forums and video blogs offer the same scientific accuracy as peer-reviewed literature.",
+          "fact": "Counselor-approved published books offer vetted veterinary knowledge verified by professional animal care specialists."
+        },
+        {
+          "misconception": "Any random social media post or unverified blog article satisfies the requirement to read an approved book or pamphlet.",
+          "fact": "Your reading material must be a book or pamphlet specifically approved by your merit badge counselor for accuracy and depth."
+        },
+        {
+          "misconception": "Cats purr only when they feel completely relaxed and content in their surrounding environment.",
+          "fact": "Veterinary literature notes that cats also purr when experiencing severe pain, fear, or distress as a self-soothing mechanism."
+        },
+        {
+          "misconception": "A dog wagging its tail stiffly while holding its body rigid is always inviting a stranger to reach out and pet it.",
+          "fact": "A high, stiff tail wag paired with tense posture signals high arousal or agitation rather than friendly relaxation."
+        },
+        {
+          "misconception": "Parrots and other hookbills need only a bowl of commercial sunflower seed mix to meet their lifelong nutritional needs.",
+          "fact": "All-seed diets cause vitamin A deficiency and fatty liver disease in birds; formulated pellets and fresh vegetables are required."
+        }
       ]
     },
     {
@@ -575,9 +647,7 @@
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
             "misconception": "Pet shows evaluate only purebred pedigrees and exclude mixed-breed or rescued companion animals.",
-            "fact": "Many 4-H, school, and community shows feature companion classes that reward care, condition, and handling.",
-            "myth": "Pet shows evaluate only purebred pedigrees and exclude mixed-breed or rescued companion animals.",
-            "fact_correction": "Many 4-H, school, and community shows feature companion classes that reward care, condition, and handling."
+            "fact": "Many 4-H, school, and community shows feature companion classes that reward care, condition, and handling."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -652,9 +722,7 @@
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
             "misconception": "Older animals or non-canine species like cats and rodents cannot learn conditioned behavioral cues.",
-            "fact": "Operant conditioning principles apply across birds, mammals, and reptiles using species-appropriate food rewards.",
-            "myth": "Older animals or non-canine species like cats and rodents cannot learn conditioned behavioral cues.",
-            "fact_correction": "Operant conditioning principles apply across birds, mammals, and reptiles using species-appropriate food rewards."
+            "fact": "Operant conditioning principles apply across birds, mammals, and reptiles using species-appropriate food rewards."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -745,9 +813,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Effective animal training requires physical punishment and aggressive dominance to enforce obedience.",
-        "fact": "Humane behavior modification relies on consistent positive reinforcement, timing, and rewarding voluntary compliance.",
-        "myth": "Effective animal training requires physical punishment and aggressive dominance to enforce obedience.",
-        "fact_correction": "Humane behavior modification relies on consistent positive reinforcement, timing, and rewarding voluntary compliance."
+        "fact": "Humane behavior modification relies on consistent positive reinforcement, timing, and rewarding voluntary compliance."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -783,9 +849,9 @@
         "Step 4 - Final Performance Demonstration: Present your groomed pet in the show ring or demonstrate the trained commands."
       ],
       "gear_checklist": [
-        "Official Pets Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Your pet in a pet)",
-        "Field notebook, verification log sheet, and demonstration materials for Your pet in a pet",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Pets Merit Badge Pamphlet: Your pet in a pet.",
+        "Field notebook, verification log sheet, and demonstration materials for Your pet in a pet.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 4a: Pet Show Ring Exhibition",
@@ -798,28 +864,28 @@
         ],
         "rows": [
           {
-            "attribute": "Showing Your Pet in Competition",
-            "left": "Pet Shows and Trick Training: Review the Pets pamphlet standards for pet shows and trick training, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 21).",
-            "right": "(4b) Training Three Tricks or Abilities: Obedience-trained dogs make better pets, have fewer behavioral problems, and generally bond more closely with their owners (p. 21)."
+            "attribute": "Elective Option Selection",
+            "left": "(4a) Pet Show Ring Exhibition: Entering a sanctioned or school pet show requires advance registration, grooming, and social conditioning for unusual crowds. Handlers maintain continuous control to present the animal safely before judges and public spectators.",
+            "right": "(4b) Three Behavior Command Training: Training three distinct tricks requires breaking actions into successive approximations rewarded through clicker training or food lures. Consistent repetition builds reliable stimulus control across diverse home environments."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Starting Puppy Training Early: Obedience training can begin when dogs are 4 to 6 months old and continue throughout a dog's lifetime (p. 21).",
-            "right": "Step 2 - Choose Effective Training Methods: There are many training methods, some more effective than others (p. 21)."
+            "attribute": "Positive Reward Reinforcement",
+            "left": "Req 4a: Pet Show Ring Exhibition: Entering a sanctioned or school pet show requires advance registration, grooming, and social conditioning for unusual crowds. Handlers maintain continuous control to present the animal safely before judges and public spectators.",
+            "right": "Req 4b: Three Behavior Command: Training three distinct tricks requires breaking actions into successive approximations rewarded through clicker training or food lures. Consistent repetition builds reliable stimulus control across diverse home environments."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Strengthening Owner Pet Bonds: Obedience-trained dogs make better pets, have fewer behavioral problems, and generally bond more closely with their owners (p. 21).",
-            "right": "Step 3 - Consult Experienced Animal Trainers: A good trainer can help you figure out what works best with your dog (p. 21)."
+            "attribute": "Exhibition Presentation Standards",
+            "left": "Elective Option Selection: Scouts must decide between entering a community show or teaching three specific behaviors.",
+            "right": "Positive Reward Reinforcement: Reward desired actions promptly with small food treats, clickers, or verbal praise cues."
           }
         ]
       },
       "worked_example": {
-        "title": "Pets Req 4 Exemplar Workbook Entry: Pet Shows and Trick Training",
+        "title": "Pets Req 4 Exemplar Workbook Entry: Pet Shows and Trick",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 4a - Pet Show Ring Exhibition": "Entering a sanctioned or school pet show requires advance registration, grooming, and social conditioning for unusual crowds. Handlers maintain continuous control to present the animal safely before judges and public spectators.",
-          "Req 4b - Three Behavior Command Training": "Training three distinct tricks requires breaking actions into successive approximations rewarded through clicker training or food lures. Consistent repetition builds reliable stimulus control across diverse home environments."
+          "Req 4b - Three Behavior Command": "Training three distinct tricks requires breaking actions into successive approximations rewarded through clicker training or food lures. Consistent repetition builds reliable stimulus control across diverse home environments."
         },
         "sample_output": "Pet Shows and Trick Training: Obedience training can begin when dogs are 4 to 6 months old and continue throughout a dog's lifetime (p. 21).",
         "counselor_tip": "For Pets Requirement 4 (Pet Shows and Trick Training), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54))."
@@ -856,7 +922,33 @@
       "socratic_questions": [
         "Why are brief multiple daily training intervals more effective than one exhausting long session?",
         "What body language cues indicate that an animal is feeling overwhelmed in a show environment?",
-        "How does capturing a natural animal behavior differ from shaping a complex new trick?"
+        "How does capturing a natural animal behavior differ from shaping a complex new trick?",
+        "Why must a clicker or verbal marker occur within one second of the desired action during pet trick training?",
+        "Under what condition should a trainer fade out the food lure and rely on a hand signal or verbal cue alone?",
+        "What session length and success percentage indicate your pet is ready to practice a trick with added distractions?",
+        "Which physical indicator at a noisy pet show tells you your animal needs to return to a quiet carrier immediately?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Effective animal training requires physical punishment and aggressive dominance to enforce obedience.",
+          "fact": "Humane behavior modification relies on consistent positive reinforcement, timing, and rewarding voluntary compliance."
+        },
+        {
+          "misconception": "Hour-long daily training marathons teach a pet three new tricks faster than short five-minute sessions.",
+          "fact": "Long sessions cause mental fatigue and frustration, whereas five-minute sessions with high-value rewards build reliable habits."
+        },
+        {
+          "misconception": "Delivering a food treat ten seconds after a pet completes a trick still teaches the animal which action earned the reward.",
+          "fact": "Delayed rewards reinforce whatever the pet is doing at the moment the treat arrives, so markers must happen within one second."
+        },
+        {
+          "misconception": "Non-canine pets like cats, rabbits, rats, and aquarium fish cannot learn tricks because they lack a pack hierarchy.",
+          "fact": "Any animal motivated by food can learn target touches, spins, or obstacle navigation through positive reinforcement and shaping."
+        },
+        {
+          "misconception": "Punishing a pet for making a mistake during trick training speeds up learning by eliminating wrong guesses.",
+          "fact": "Aversive corrections make pets hesitant to offer new behaviors and can trigger defensive aggression or fear in a show ring."
+        }
       ]
     },
     {
@@ -908,9 +1000,7 @@
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)",
           "common_misconception_pair": {
             "misconception": "Entering animal care professions requires only affection for animals without rigorous science coursework.",
-            "fact": "Animal careers require substantial mastery of chemistry, mammalian anatomy, pharmacology, and behavioral biology.",
-            "myth": "Entering animal care professions requires only affection for animals without rigorous science coursework.",
-            "fact_correction": "Animal careers require substantial mastery of chemistry, mammalian anatomy, pharmacology, and behavioral biology."
+            "fact": "Animal careers require substantial mastery of chemistry, mammalian anatomy, pharmacology, and behavioral biology."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -987,9 +1077,7 @@
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)",
           "common_misconception_pair": {
             "misconception": "Animal hobbies like therapy work or agility require no formal training or organization affiliation.",
-            "fact": "Registered therapy teams and agility competitors must pass standardized evaluations administered by recognized kennel associations.",
-            "myth": "Animal hobbies like therapy work or agility require no formal training or organization affiliation.",
-            "fact_correction": "Registered therapy teams and agility competitors must pass standardized evaluations administered by recognized kennel associations."
+            "fact": "Registered therapy teams and agility competitors must pass standardized evaluations administered by recognized kennel associations."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1077,9 +1165,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Veterinary medicine is the only viable professional vocation within the domestic pet industry.",
-        "fact": "The pet industry encompasses veterinary technology, hydrotherapy, behavior consulting, facility management, and dietary research.",
-        "myth": "Veterinary medicine is the only viable professional vocation within the domestic pet industry.",
-        "fact_correction": "The pet industry encompasses veterinary technology, hydrotherapy, behavior consulting, facility management, and dietary research."
+        "fact": "The pet industry encompasses veterinary technology, hydrotherapy, behavior consulting, facility management, and dietary research."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1120,9 +1206,9 @@
         "Step 4 - Counselor Presentation Delivery: Present a structured summary explaining your career or hobby findings to your counselor."
       ],
       "gear_checklist": [
-        "Official Pets Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Pets Careers and Pathways)",
-        "Field notebook, verification log sheet, and demonstration materials for Pets Careers and Pathways",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Pets Merit Badge Pamphlet: Pets Careers and Pathways.",
+        "Field notebook, verification log sheet, and demonstration materials for Pets Careers and Pathways.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 5a: Animal Career Path Exploration",
@@ -1135,28 +1221,28 @@
         ],
         "rows": [
           {
-            "attribute": "Animal Care Career Research",
-            "left": "(5a) Animal Care Career Research: Obedience-trained dogs make better pets, have fewer behavioral problems, and generally bond more closely with their owners (p. 20).",
-            "right": "(5b) Lifelong Pet Hobbies and Lifestyles: There are many training methods, some more effective than others (p. 20)."
+            "attribute": "Option Selection Flexibility",
+            "left": "(5a) Animal Career Path Exploration: Investigating pet-focused professions entails researching collegiate degrees, credentialing board examinations, and long-term employment outlooks. Documenting daily duties illustrates the realities of veterinary medicine, professional grooming, or behavioral rehabilitation.",
+            "right": "(5b) Pet Hobby Lifestyle Integration: Pursuing pet hobbies like canine agility, therapy animal visitation, or aviculture promotes personal physical fitness and civic engagement. Scouts analyze recurring costs such as club memberships, entry fees, and travel supplies."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Lifelong Canine Learning Timeline: Obedience training can begin when dogs are 4 to 6 months old and continue throughout a dog's lifetime (p. 20).",
-            "right": "Step 2 - Evaluate Humane Training Styles: There are many training methods, some more effective than others (p. 20)."
+            "attribute": "Career Metric Analysis",
+            "left": "Req 5a: Animal Career Path: Investigating pet-focused professions entails researching collegiate degrees, credentialing board examinations, and long-term employment outlooks. Documenting daily duties illustrates the realities of veterinary medicine, professional grooming, or behavioral rehabilitation.",
+            "right": "Req 5b: Pet Hobby Lifestyle: Pursuing pet hobbies like canine agility, therapy animal visitation, or aviculture promotes personal physical fitness and civic engagement. Scouts analyze recurring costs such as club memberships, entry fees, and travel supplies."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Reducing Pet Behavioral Problems: Obedience-trained dogs make better pets, have fewer behavioral problems, and generally bond more closely with their owners (p. 20).",
-            "right": "Step 3 - Work With Professional Trainers: A good trainer can help you figure out what works best with your dog (p. 20)."
+            "attribute": "Avocational Community Benefits",
+            "left": "Option Selection Flexibility: Scouts examine either a professional employment track or personal animal recreation hobbies.",
+            "right": "Career Metric Analysis: Researching vocations demands investigating degree prerequisites, tuition expenses, annual earnings, and hiring demand."
           }
         ]
       },
       "worked_example": {
-        "title": "Pets Req 5 Exemplar Workbook Entry: Animal Careers and Pet Hobbies",
+        "title": "Pets Req 5 Exemplar Workbook Entry: Animal Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 5a - Animal Career Path Exploration": "Investigating pet-focused professions entails researching collegiate degrees, credentialing board examinations, and long-term employment outlooks. Documenting daily duties illustrates the realities of veterinary medicine, professional grooming, or behavioral rehabilitation.",
-          "Req 5b - Pet Hobby Lifestyle Integration": "Pursuing pet hobbies like canine agility, therapy animal visitation, or aviculture promotes personal physical fitness and civic engagement. Scouts analyze recurring costs such as club memberships, entry fees, and travel supplies."
+          "Req 5a - Animal Career Path": "Investigating pet-focused professions entails researching collegiate degrees, credentialing board examinations, and long-term employment outlooks. Documenting daily duties illustrates the realities of veterinary medicine, professional grooming, or behavioral rehabilitation.",
+          "Req 5b - Pet Hobby Lifestyle": "Pursuing pet hobbies like canine agility, therapy animal visitation, or aviculture promotes personal physical fitness and civic engagement. Scouts analyze recurring costs such as club memberships, entry fees, and travel supplies."
         },
         "sample_output": "Animal Careers and Pet Hobbies: Obedience-trained dogs make better pets, have fewer behavioral problems, and generally bond more closely with their owners (p. 20).",
         "counselor_tip": "For Pets Requirement 5 (Animal Careers and Pet Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54))."
@@ -1191,9 +1277,35 @@
       "workbook_visual_caption": "A young tabby kitten feeds on dry kibble from a bowl during daily feeding routines.",
       "pamphlet_summary": "Investigating professional pet industries reveals veterinary, training, grooming, and boarding occupations essential to animal welfare. Exploring companion animal hobbies highlights therapeutic interactions, dog sports, and volunteer rescue organizations.",
       "socratic_questions": [
-        "How do debt levels from veterinary schooling compare with starting salaries across urban practices?",
+        "In what specific ways do debt levels from veterinary schooling compare with starting salaries across urban practices?",
         "What ethical challenges do animal shelter workers encounter when balancing municipal capacity constraints?",
-        "In what ways can active participation in dog agility sports enhance human cardiovascular health?"
+        "In what ways can active participation in dog agility sports enhance human cardiovascular health?",
+        "Why must a Scout get parent or guardian permission before interviewing a veterinarian, breeder, or shelter director?",
+        "Which clinical duties may a licensed Doctor of Veterinary Medicine perform that a veterinary technician cannot?",
+        "What tuition and licensing costs must an aspiring veterinarian weigh against median starting salaries in private practice?",
+        "Why is it dangerous to restrain an anxious animal in a veterinary clinic without species-specific fear-free handling gear?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Veterinary medicine is the only viable professional vocation within the domestic pet industry.",
+          "fact": "The pet industry encompasses veterinary technology, hydrotherapy, behavior consulting, facility management, and dietary research."
+        },
+        {
+          "misconception": "Veterinary technicians and veterinary assistants hold the same state license and perform identical medical duties.",
+          "fact": "Credentialed veterinary technicians must graduate from an accredited program and pass the VTNE exam, unlike unlicensed assistants."
+        },
+        {
+          "misconception": "A Doctor of Veterinary Medicine is legally allowed to diagnose illness, prescribe drugs, and perform surgery only on dogs and cats.",
+          "fact": "Licensed veterinarians are trained and authorized across multiple animal species, from household pocket pets to livestock and zoo fauna."
+        },
+        {
+          "misconception": "Animal shelter workers spend their shifts playing with healthy puppies rather than managing quarantine and sanitation protocols.",
+          "fact": "Shelter professionals handle infectious disease isolation, behavioral assessments, record keeping, and compassionate owner counseling."
+        },
+        {
+          "misconception": "Hobbyist pet breeders consistently earn high profits because purebred litters require minimal veterinary testing or care.",
+          "fact": "Responsible breeding as an avocation requires costly genetic health screenings, emergency obstetric care, and lifelong return guarantees."
+        }
       ]
     }
   ],

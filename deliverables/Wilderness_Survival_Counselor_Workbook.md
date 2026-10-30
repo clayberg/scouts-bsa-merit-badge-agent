@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Wilderness%20Survival.pdf  
-**Digital Resource Guide (DRG):** 
+**Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/wilderness-survival/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -29,11 +29,11 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Hazards and First Aid. Do the following: (a) Show or explain first aid for, and prevention of, injuries and conditions that could occur in backcountry settings, including: (1) Dehydration (2) Heatstroke (3) Hypothermia (4) Shock (5) Blisters (6) Eye injuries (7) Ankle and knee sprains (8) Bug bites of chiggers, ticks, mosquitoes, and biting gnats (9) Bee stings (10) Bites of spiders (11) Sting of a scorpion (12) Bite of a wild mammal (13) Bite of a venomous snake (b) Explain how the Scout Basic Essentials address hazards of survival situations and are basic to a survival kit. (c) Explain how a trip plan could help prevent a wilderness survival situation.
-- [ ] **Station Req 4:** First Aid Kits. Put together a personal first aid kit and a personal survival kit. Show how items in the kits are used.
-- [ ] **Station Req 5:** Shelter. Do the following: (a) Describe the steps you would take to survive in the following exposure conditions: (1) Cold and snowy (2) Wet (3) Hot and dry (4) Windy (5) At or on the water (b) Show that you know the proper clothing to wear while in the outdoors during extremely hot and cold weather and during wet conditions. (c) Explain how to protect yourself from bears and raccoons. (d) Describe how to build or find survival shelters in a forest or in snow. (e) Improvise a natural shelter. For the purpose of this demonstration, use techniques that have little negative impact on the environment. Spend a night in your shelter.
-- [ ] **Station Req 7:** Signaling. Do the following: (a) Explain and show how lost or stranded Scouts could send signals to attract the attention of ground, airborne, or water search teams. (b) Demonstrate how to use a signal mirror. (c) Describe from memory five ground-to-air signals and tell what they mean.
-- [ ] **Station Req 8:** Water. Demonstrate three ways to treat water found in the outdoors to prepare it for drinking.
+- [ ] **Station Req 1:** Scout must individually explain mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually show mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually describe mastery of Requirement 5 to the Merit Badge Counselor.
+- [ ] **Station Req 7:** Scout must individually explain mastery of Requirement 7 to the Merit Badge Counselor.
+- [ ] **Station Req 8:** Scout must individually demonstrate mastery of Requirement 8 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -156,10 +156,10 @@
 - **Pamphlet Fact:** Personal kits must be compact, waterproof, and kept on your body at all times.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![Placing cold hands inside an insulated jacket core helps conserve body heat outdoors.](/assets/pamphlet_images/wilderness_survival_p055_img1.png)
 
@@ -351,10 +351,10 @@
 - **Pamphlet Fact:** A rolling boil maintained for one full minute destroys waterborne cysts, bacteria, and viral pathogens.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![Bottles of water purification tablets and iodine provide chemical disinfection outdoors.](/assets/pamphlet_images/wilderness_survival_p040_img1.png)
 

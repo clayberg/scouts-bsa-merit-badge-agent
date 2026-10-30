@@ -1,0 +1,140 @@
+{
+  "badge_slug": "animation",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Modern visual science attributes motion perception primarily to the beta movement and phi phenomenon processed in the visual cortex.",
+          "misconception": "Persistence of vision alone explains why the human brain perceives sequential still drawings as smooth, continuous motion."
+        },
+        {
+          "fact": "Pioneers like Emile Cohl and Winsor McCay produced hand-drawn animated films decades before Steamboat Willie popularized synced sound.",
+          "misconception": "Walt Disney invented the first animated cartoon when his studio released Steamboat Willie with synchronized sound in 1928."
+        },
+        {
+          "fact": "Animation requires manipulating each frame individually between exposures rather than capturing continuous real-time motion.",
+          "misconception": "Live-action video recorded at 24 frames per second is a form of animation because it displays sequential still frames."
+        },
+        {
+          "fact": "Animating on twos means holding each single drawing for two consecutive frames, requiring only 12 drawings per second of film.",
+          "misconception": "Animating on twos means drawing two completely different pictures for every single frame of a 24-frame-per-second film."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the illusion of continuous motion when the playback frame rate drops below ten frames per second?",
+        "Which mechanical difference separates a spinning zoetrope drum from a multi-plane camera setup in early studio history?",
+        "What frame-count measurement on an exposure sheet confirms how long a held pose stays on screen at 24 frames per second?",
+        "Where should a Scout position light sources when photographing cel layers or flipbooks to prevent glare and eye strain?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "An object must maintain a constant overall volume, getting wider only as it compresses vertically upon impact.",
+          "misconception": "Squash and stretch means expanding both the height and width of an object at the exact same moment of impact."
+        },
+        {
+          "fact": "A trailing cape is follow through and overlapping action, whereas secondary action is a deliberate gesture supporting the main act.",
+          "misconception": "Secondary action is the same principle as overlapping action when a character's cape trails behind a jump."
+        },
+        {
+          "fact": "Placing more frames closely around a key pose slows the motion down, creating a smooth slow-in or slow-out effect.",
+          "misconception": "Adding more in-between frames around a pose speeds up the movement across that section of the timeline."
+        },
+        {
+          "fact": "Almost all organic appendages pivot around joints, causing hands, feet, and heads to travel along curved circular arcs.",
+          "misconception": "Mechanical limbs and natural human joints naturally follow straight linear paths between two key poses."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the perceived mass of a bouncing ball if its overall volume changes during squash and stretch?",
+        "Under what condition does straight ahead action work better than pose to pose keyframes in a character scene?",
+        "What frame-spacing measurement between key poses confirms that a pendulum swing uses slow in and slow out?",
+        "Why is it dangerous to act out high-impact reference poses without clearing floor hazards around your workspace first?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Thumbnails are small, rapid rough drawings used strictly to plan staging, camera angles, and major pose flow before production.",
+          "misconception": "Thumbnail sketches must be fully shaded, high-detail illustrations before a Scout begins animating the final scene."
+        },
+        {
+          "fact": "Auto-exposure and auto-focus cause distracting brightness flicker and focus breathing whenever the animator's hand enters the frame.",
+          "misconception": "Automatic camera exposure and auto-focus settings improve consistency during a stop-motion claymation shoot."
+        },
+        {
+          "fact": "Digital software only interpolates math between keyframes; the animator must still plan timing, weight, and poses by hand.",
+          "misconception": "Three-dimensional computer animation software builds believable character movement automatically without human planning."
+        },
+        {
+          "fact": "Sharp repetitive bends snap aluminum armature wire quickly, so animators distribute curves gently along the joint span.",
+          "misconception": "Stop-motion armatures can be bent repeatedly at sharp ninety-degree angles without fatiguing the internal wire skeleton."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a stop-motion scene when the camera tripod or table shifts by two millimeters mid-shot?",
+        "Which visual indicator in onion-skinning software distinguishes previous frames from upcoming key drawings?",
+        "What timing log on a storyboard or dope sheet confirms that dialogue or sound effects match your key poses?",
+        "Why is it dangerous to leave hot studio lamps or loose power cords unsecured around a stop-motion stage?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Industries rely on animation every day for surgical rehearsal, architectural walkthroughs, flight simulators, and accident reconstruction.",
+          "misconception": "Professional animation studios use animation exclusively to produce entertainment cartoons, movies, and video games."
+        },
+        {
+          "fact": "Studio production pipelines divide work across specialized departments including storyboarding, rigging, layout, animation, and lighting.",
+          "misconception": "One individual animator in a commercial studio typically models, rigs, lights, animates, and renders an entire feature film."
+        },
+        {
+          "fact": "Technical and medical animations must obey strict physical dimensions and telemetry data so doctors and engineers make accurate decisions.",
+          "misconception": "Scientific and engineering visualizations use the same squash-and-stretch exaggeration rules as Saturday morning cartoons."
+        },
+        {
+          "fact": "Unreleased storyboards, character designs, and proprietary tools are protected intellectual property covered by strict studio NDAs.",
+          "misconception": "Photographing artist monitors during a studio tour is harmless because unfinished wireframes have no commercial value."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which pipeline stage during a studio tour converts raw 3D geometry and lighting data into final viewable frames?",
+        "What happens to a forensic or medical simulation if the animator prioritizes dramatic exaggeration over physics?",
+        "What latency or frame-rate metric confirms that a virtual reality training simulation will not cause motion sickness?",
+        "Where should a visitor stand and what rules apply regarding unreleased screens during an in-person studio tour?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Recruiters evaluate candidates primarily on the quality of their short demo reel, acting choices, and mastery of animation principles.",
+          "misconception": "A four-year university degree in fine arts automatically guarantees an entry-level job as a studio character animator."
+        },
+        {
+          "fact": "Riggers build the digital skeleton, joints, and control handles, while animators use those controls to pose and move the character.",
+          "misconception": "Character riggers and character animators perform the exact same daily tasks inside a 3D animation pipeline."
+        },
+        {
+          "fact": "Hiring directors prefer a tight 45-to-60-second demo reel showing only the applicant's strongest, fully polished shots first.",
+          "misconception": "A longer demo reel containing every student exercise is always more impressive to a studio hiring director."
+        },
+        {
+          "fact": "Roles like technical director, 3D rigger, simulation artist, and render wrangler require programming, math, and physics skills instead.",
+          "misconception": "Every career in an animation studio requires fast freehand drawing skills with paper and pencil."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which technical responsibility separates a character rigger from a character animator on a 3D production team?",
+        "What happens to an entry-level job application if a candidate submits a four-minute demo reel with weak early clips?",
+        "What ergonomic desk and wrist posture adjustments prevent repetitive strain injuries during long studio shifts?",
+        "Which specific breakdown notes in a demo reel log confirm which shots a candidate animated versus modeled or lit?"
+      ],
+      "req_id": "5"
+    }
+  ]
+}

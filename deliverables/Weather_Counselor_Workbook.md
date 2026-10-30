@@ -271,10 +271,10 @@
 - **Pamphlet Fact:** Rain gauges must be elevated above ground level to eliminate splashing from surrounding soil.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Weather merit badge pamphlet and daily observation log for Req 10
-- [ ] Thermometer, barometer, anemometer, or rain gauge reference instruments
-- [ ] NOAA synoptic weather charts, cloud identification chart, and ruler
-- [ ] Completed weather data table and forecast notes for Weather Instruments and Professional Visits
+- [ ] Official Weather merit badge pamphlet and daily observation log for Req 10.
+- [ ] Thermometer, barometer, anemometer, or rain gauge reference instruments.
+- [ ] NOAA synoptic weather charts, cloud identification chart, and ruler.
+- [ ] Completed weather data table and forecast notes for Weather Instruments and Professional Visits.
 
 ![Weather Requirement 1 figure showing meteorology examines physical atmospheric dynamics across short and medium temporal horizons.](/assets/pamphlet_images/weather_p003_img1.png)
 

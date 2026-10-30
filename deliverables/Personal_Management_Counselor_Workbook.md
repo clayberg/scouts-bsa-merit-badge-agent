@@ -54,9 +54,9 @@
 - **Pamphlet Fact:** A major expense represents a significant outlay relative to total household annual income.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Personal Management Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Family Might Want to Purchase)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Family Might Want to Purchase
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Personal Management Merit Badge: Family Might Want to Purchase.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Family Might Want to Purchase.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Personal Management Requirement 1 figure showing family purchases require evaluating initial retail pricing against ongoing operational.](/assets/pamphlet_images/personal_management_p003_img1.png)
 
@@ -143,9 +143,9 @@
 - **Pamphlet Fact:** An effective personal budget accounts for fluctuating seasonal gifts alongside predictable weekly wages.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Personal Management Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Budget Reflecting Your Expected Income)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Budget Reflecting Your Expected Income
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Personal Management Merit Badge: Budget Reflecting Your Expected Income.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Budget Reflecting Your Expected Income.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Personal Management Requirement 2 figure showing tracking projected earnings against scheduled commitments prevents overdraft fees.](/assets/pamphlet_images/personal_management_p007_img1.png)
 
@@ -670,9 +670,9 @@
 - **Pamphlet Fact:** Ranked to-do lists prevent individuals from defaulting to easy tasks while ignoring high value work.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Personal Management Merit Badge Pamphlet and Fillable Scout Workbook (Req 8: Understanding of Time Management)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Understanding of Time Management
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Personal Management Merit Badge: Understanding of Time Management.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Understanding of Time Management.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A handwritten list outlines personal and financial goals including car savings.](/assets/pamphlet_images/personal_management_p044_img1.png)
 
@@ -824,9 +824,9 @@
 - **Pamphlet Fact:** Most licensed professions require continuing professional education credits to maintain active operating credentials.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Personal Management Merit Badge Pamphlet and Fillable Scout Workbook (Req 10: Personal Management Careers and Pathways)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Personal Management Careers and Pathways
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Personal Management Merit Badge: Personal Management Careers and Pathways.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Personal Management Careers and Pathways.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A young woman uses a digital tablet to outline milestones for a major project plan.](/assets/pamphlet_images/personal_management_p050_img1.png)
 

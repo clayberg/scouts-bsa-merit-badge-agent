@@ -1,8 +1,8 @@
 # Archaeology Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Archaeology.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/archaeology/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/archaeology/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -173,9 +173,9 @@
 - **Pamphlet Fact:** Most state laws govern state and municipal land, but many states have separate strict statutes protecting all unmarked burials everywhere.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Archaeology Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Learn about the federal laws)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Learn about the federal laws
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Archaeology Merit Badge: Learn about the federal laws.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Learn about the federal laws.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![An excavator records stratigraphic observations on a clipboard beside an active dig trench.](/assets/pamphlet_images/archaeology_p067_img1.png)
 

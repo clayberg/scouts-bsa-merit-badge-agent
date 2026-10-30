@@ -1,8 +1,8 @@
 # Architecture Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Architecture_Landscape.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/architecture/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/architecture/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -51,9 +51,9 @@
 - **Pamphlet Fact:** American architectural history includes Federal, Italianate, Craftsman, and Art Deco styles with distinct structural hallmarks.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Architecture Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Tour Your Community)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Tour Your Community
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Architecture Merit Badge: Tour Your Community.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Tour Your Community.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Architecture Requirement 1 figure showing exterior moldings and window pediments reveal specific construction eras in regional.](/assets/pamphlet_images/architecture_p003_img1.png)
 

@@ -1,8 +1,8 @@
 # Pioneering Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Pioneering.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/pioneering/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/pioneering/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -28,11 +28,11 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Do the following: (a) Explain to your counselor the most likely hazards you might encounter while participating in pioneering activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Discuss the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering projects, including rope splinters, rope burns, cuts, scratches, insect bites and stings, hypothermia, dehydration, heat exhaustion, heatstroke, sunburn, and falls.
-- [ ] **Station Req 2:** Do the following: (a) Demonstrate the West Country method of whipping a rope. (b) Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two half hitches, clove hitch on a bight, butterfly knot, roundturn with two half hitches, and rolling hitch. (c) Demonstrate and explain when to use the following lashings: square, diagonal, round, shear, tripod, and floor lashing.
-- [ ] **Station Req 3:** Do the following: (a) Using square and tripod lashings from requirement 2(c), build a Tripod Wash Station (or with your counselor's permission, another camp gadget of your own design). (b) Using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build a 15-foot Scout Stave Flagpole (or with your counselor's permission, another camp gadget of your own design). (c) Using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from requirements 2(b) and 2(c), build a Simple Camp Table (or with your counselor's permission, another camp gadget of your own design).
-- [ ] **Station Req 5:** Explain the uses for the back splice, eye splice, and short splice. View a demonstration on forming each splice.
-- [ ] **Station Req 9:** Working in a group, (or individually with the help of your counselor) build a full size pioneering structure, using one of the following designs in the Pioneering merit badge pamphlet: Double A-Frame Monkey Bridge, Single A-Frame Bridge, Single Trestle Bridge, Single Lock Bridge, 4x4 Square Climbing Tower, Four Flag Gateway Tower, Double Tripod Chippewa Kitchen, or another type of structure approved in advance by your counselor. Carefully plan the project, assembling and organizing all the materials, referring to the points under Safe Pioneering, and complying with the height restrictions in the Guide to Safe Scouting.
+- [ ] **Station Req 1:** Scout must individually demonstrate mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually explain mastery of Requirement 5 to the Merit Badge Counselor.
+- [ ] **Station Req 9:** Scout must individually demonstrate mastery of Requirement 9 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -97,10 +97,10 @@
 - **Pamphlet Fact:** Tape loses adhesive strength in sunlight and moisture, releasing loose strand ends.
 
 **Gear & Readiness Checklist:**
-- [ ] Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine
-- [ ] Natural fiber cord age for rope-making machine, splicing fid, and wooden mallet
-- [ ] Single and double pulley blocks, pioneering anchor stakes, and work gloves
-- [ ] Scale model spars and elastic bands or cord for pre-build engineering layout
+- [ ] Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine.
+- [ ] Natural fiber cord age for rope-making machine, splicing fid, and wooden mallet.
+- [ ] Single and double pulley blocks, pioneering anchor stakes, and work gloves.
+- [ ] Scale model spars and elastic bands or cord for pre-build engineering layout.
 
 ![Pioneering Requirement 2 figure showing alternating overhand knots around the strand prevent rope unraveling under field tension.](/assets/pamphlet_images/pioneering_p007_img1.png)
 
@@ -158,10 +158,10 @@
 - **Pamphlet Fact:** Tripod poles remain parallel during lashing, crossing only when standing the legs.
 
 **Gear & Readiness Checklist:**
-- [ ] Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine
-- [ ] Natural fiber cord age for rope-making machine, splicing fid, and wooden mallet
-- [ ] Single and double pulley blocks, pioneering anchor stakes, and work gloves
-- [ ] Scale model spars and elastic bands or cord for pre-build engineering layout
+- [ ] Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine.
+- [ ] Natural fiber cord age for rope-making machine, splicing fid, and wooden mallet.
+- [ ] Single and double pulley blocks, pioneering anchor stakes, and work gloves.
+- [ ] Scale model spars and elastic bands or cord for pre-build engineering layout.
 
 ![A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.](/assets/pamphlet_images/pioneering_p065_img1.png)
 
@@ -315,10 +315,10 @@
 - **Pamphlet Fact:** Dynamic bouncing multiplies static cable loads fourfold, risking sudden catenary anchor failure.
 
 **Gear & Readiness Checklist:**
-- [ ] Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine
-- [ ] Natural fiber cord age for rope-making machine, splicing fid, and wooden mallet
-- [ ] Single and double pulley blocks, pioneering anchor stakes, and work gloves
-- [ ] Scale model spars and elastic bands or cord for pre-build engineering layout
+- [ ] Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine.
+- [ ] Natural fiber cord age for rope-making machine, splicing fid, and wooden mallet.
+- [ ] Single and double pulley blocks, pioneering anchor stakes, and work gloves.
+- [ ] Scale model spars and elastic bands or cord for pre-build engineering layout.
 
 ![Scouts collaborate outdoors to secure wooden spars together while building a large timber A-frame.](/assets/pamphlet_images/pioneering_p079_img1.png)
 

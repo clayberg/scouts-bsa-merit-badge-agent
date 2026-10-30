@@ -1,0 +1,194 @@
+{
+  "badge_slug": "robotics",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Standard glasses lack side shields and impact-rated polycarbonate lenses, requiring ANSI Z87.1 safety goggles over prescription eyewear.",
+          "misconception": "Regular prescription eyeglasses provide sufficient side protection when cutting metal robot shafts with a rotary tool."
+        },
+        {
+          "fact": "Puffed lithium polymer cells indicate internal gas buildup from electrolyte decomposition and must be isolated in a fireproof container.",
+          "misconception": "Swollen lithium polymer battery cells can be safely discharged and reused if their voltage still reads within normal limits."
+        },
+        {
+          "fact": "Radio interference or code glitches can trigger sudden full-torque motor movement, so main battery power must be disconnected first.",
+          "misconception": "Tightening a loose set screw on a live servo horn is safe as long as the transmitter joysticks remain centered."
+        },
+        {
+          "fact": "Rotating spindles can snag glove fibers and pull fingers into the tooling, so operators must keep bare hands clear of spinning bits.",
+          "misconception": "Knit work gloves improve grip safety when feeding aluminum stock into a spinning drill press or bench grinder."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What step must precede clearing a jammed gear train on an energized robot chassis?",
+        "Why is pouring water onto a punctured lithium polymer battery pack hazardous in the shop?",
+        "What multimeter measurement confirms a lithium polymer pack is safe to place on a charger?",
+        "Which physical indicator on safety glasses confirms impact protection against flying metal shards?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A machine lacking onboard sensor processing and autonomous control loops is a remote-controlled vehicle rather than a true robot.",
+          "misconception": "A combat machine driven directly by joystick commands without sensor feedback qualifies as an autonomous robot."
+        },
+        {
+          "fact": "Telerobots receive high-level supervisory goals from a human operator while executing local obstacle avoidance and stability routines.",
+          "misconception": "Telerobots require a human operator to manually command every individual joint motor pulse in real time."
+        },
+        {
+          "fact": "Continuous tracks distribute vehicle weight across a much larger contact patch than wheels, reducing sinkage on soft or uneven terrain.",
+          "misconception": "Wheeled drivetrains exert lower ground pressure on soft mud or loose sand than continuous caterpillar tracks."
+        },
+        {
+          "fact": "Legged locomotion requires continuous actuator torque to support chassis weight and swing limbs, using far more energy on smooth ground.",
+          "misconception": "Multi-legged walking robots consume less battery power on flat paved floors than wheeled platforms of equal mass."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What onboard decision loop distinguishes a telerobot on Mars from a direct line-of-sight radio-controlled car?",
+        "Under what surface condition does a tracked or hexapod drivetrain outperform a four-wheel skid-steer chassis?",
+        "What test metric compares the terrain traversal efficiency of a legged robot against a continuous track system?",
+        "Where should safety light curtains be positioned around an autonomous industrial welding arm on a factory floor?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Without encoder or potentiometer feedback, heavier payloads slow down DC motors and cause cumulative position drift during timed moves.",
+          "misconception": "Open-loop motor timing scripts maintain accurate robot arm positioning even when payload weight changes significantly."
+        },
+        {
+          "fact": "Stepping down gear ratios multiplies output torque at the direct expense of rotational velocity, trading speed for lifting capacity.",
+          "misconception": "Adding higher gear reduction to a manipulator joint increases both lifting torque and maximum rotational speed simultaneously."
+        },
+        {
+          "fact": "Porous foam absorbs acoustic pulses and steep angles deflect echoes away from the receiver, causing false timeout readings in code.",
+          "misconception": "Ultrasonic rangefinders measure accurate distances to soft angled foam surfaces just as reliably as flat metal walls."
+        },
+        {
+          "fact": "Human-robot interfaces encompass telemetry displays, status LEDs, audio alerts, touchscreens, and supervisory software dashboards.",
+          "misconception": "A human-robot interface consists solely of the handheld game controller used to steer the drive base during matches."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What sequence of sensor readings and control outputs allows a robotic gripper to grasp a fragile object without crushing it?",
+        "Which mechanical property separates a three-axis planar arm from a six-degree-of-freedom industrial manipulator?",
+        "What calibration data must you record when mapping raw ultrasonic echo times to physical distance in centimeters?",
+        "Why is an unmistakable hardware emergency-stop button required on a human-robot interface alongside software pause controls?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A true engineering notebook records chronological design sketches, failed prototypes, raw test data, and root-cause fixes as they happen.",
+          "misconception": "An engineering notebook should only contain clean final CAD drawings and working code written after the robot succeeds."
+        },
+        {
+          "fact": "Modifying multiple variables at once masks which specific adjustment caused the performance change, invalidating the test comparison.",
+          "misconception": "Changing motor speed, sensor threshold, and wheelbase length in the same test run speeds up robot debugging."
+        },
+        {
+          "fact": "Shifting sunlight and overhead fixtures alter reflected light values, requiring dark-and-light threshold recalibration in the test area.",
+          "misconception": "Ambient room lighting stays constant enough that a color sensor calibrated at noon will read identically at night."
+        },
+        {
+          "fact": "As battery voltage drops during use, motors spin slower under timed delays, so closed-loop encoder or sensor feedback is essential.",
+          "misconception": "Hardcoding fixed delay timers into a movement routine guarantees repeatable navigation across different battery charge levels."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why should a Scout draft a state flowchart in the engineering notebook before writing motor control code?",
+        "What behavior difference appears when a line-following robot switches from bang-bang logic to proportional control?",
+        "What notebook entry format proves which single parameter change fixed a recurring sensor overshoot during testing?",
+        "Why is elevating the drive wheels on blocks necessary before running newly uploaded autonomous motor code?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Engineering verification requires multiple repeatable trials under consistent conditions to measure success rate and error variance.",
+          "misconception": "A single lucky trial where the robot completes the task once proves the system design is reliable and finished."
+        },
+        {
+          "fact": "A thorough technical defense traces any live failure to a specific mechanical, electrical, or software root cause and proposes a fix.",
+          "misconception": "Blaming unexpected demonstration failures on bad luck is sufficient when presenting an engineering notebook to a counselor."
+        },
+        {
+          "fact": "Extra mass high on an arm shifts the center of gravity forward and increases joint torque load, requiring full-system trade-off analysis.",
+          "misconception": "Adding heavier structural plates to fix a flexing arm link has no effect on drive base center of gravity or motor stall."
+        },
+        {
+          "fact": "Counselors evaluate how you diagnosed failures and iterated on your prototype, making documented mistakes essential evidence of learning.",
+          "misconception": "Erasing failed trial logs from the engineering notebook makes the final project review look more professional."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What pre-run checklist steps verify that sensor wiring and battery voltage match your documented baseline before a demo?",
+        "Which physical symptom during a live demonstration points to mechanical gear slip rather than a software logic bug?",
+        "What quantitative performance metrics in your notebook demonstrate how consistently your robot met its design goal?",
+        "Where should bystanders and the operator stand when demonstrating a robot arm or mobile base on a tabletop?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Major leagues like FIRST and VEX award top honors for engineering notebooks, outreach, gracious professionalism, and control design.",
+          "misconception": "Youth robotics competitions only reward the team whose robot scores the highest point total on the playing field."
+        },
+        {
+          "fact": "Successful robotics teams organize specialized subteams for CAD, programming, electrical wiring, scouting, strategy, and project budget.",
+          "misconception": "Every member on a competitive robotics team works exclusively on mechanical assembly and driver practice."
+        },
+        {
+          "fact": "Field referees re-check robot size and weight compliance throughout the tournament and disqualify uninspected or oversized modifications.",
+          "misconception": "Teams may modify their robot beyond maximum frame perimeter limits once official pre-match inspection has concluded."
+        },
+        {
+          "fact": "Alliance partners coordinate autonomous starting positions and scoring paths before each match to prevent collisions and maximize points.",
+          "misconception": "Alliance partners in cooperative tournament formats keep their autonomous paths secret from their own teammates."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What sequence of technical inspections must a competition robot pass before referees allow it onto the match field?",
+        "What rule constraint separates the opening autonomous period from the driver-controlled period in a robotics match?",
+        "What match data should a scouting subteam record to help alliance partners select complementary robot capabilities?",
+        "Why do competition pit marshals enforce strict sizing-box checks and battery charging rules between tournament rounds?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Many high-demand robotics technician and PLC integration roles hire graduates from two-year associate programs and trade certifications.",
+          "misconception": "Every career in the robotics industry requires a four-year university degree in mechanical or electrical engineering."
+        },
+        {
+          "fact": "Building production robots requires daily coordination between mechanical designers, embedded firmware coders, and safety test engineers.",
+          "misconception": "Robotics engineers spend their entire career working alone at a desk without collaborating across other disciplines."
+        },
+        {
+          "fact": "Community robotics clubs and makerspaces pool shared 3D printers, oscilloscopes, and mentors so hobbyists can build on a modest budget.",
+          "misconception": "Joining a community makerspace or amateur robotics club requires owning thousands of dollars in personal machine tools."
+        },
+        {
+          "fact": "Licensed professional engineers and certified automation specialists must complete ongoing training hours to maintain active credentials.",
+          "misconception": "Professional engineering licensure and safety certifications remain valid permanently without continuing education."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What hands-on internships, certifications, or lab projects bridge academic coursework and an entry-level robotics job?",
+        "What daily responsibilities distinguish an industrial automation technician from a robotics perception software engineer?",
+        "What financial figures must you compare when evaluating tuition costs against starting salaries in a robotics career?",
+        "Why must industrial robotics technicians earn lockout-tagout certification before servicing automated assembly lines?"
+      ],
+      "req_id": "7"
+    }
+  ]
+}

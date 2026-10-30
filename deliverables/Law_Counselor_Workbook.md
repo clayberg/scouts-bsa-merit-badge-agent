@@ -1,8 +1,8 @@
 # Law Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Law.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/law/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/law/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -202,9 +202,9 @@
 - **Pamphlet Fact:** Most active court sessions involve procedural motions, scheduling matters, and plea negotiations rather than dramatic trials.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Law Merit Badge Pamphlet and Fillable Scout Workbook (Req 6: Mock Trial With Your Troop)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Mock Trial With Your Troop
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Law Merit Badge Pamphlet: Mock Trial With Your Troop.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Mock Trial With Your Troop.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A young advocate references an evidence display chart during a mock trial session.](/assets/pamphlet_images/law_p056_img1.png)
 
@@ -238,9 +238,9 @@
 - **Pamphlet Fact:** In-house and agency attorneys focus primarily on regulatory compliance, risk mitigation, and administrative rulemaking rather than courtroom litigation.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Law Merit Badge Pamphlet and Fillable Scout Workbook (Req 7: Arrange a visit with a lawyer)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Arrange a visit with a lawyer
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Law Merit Badge Pamphlet: Arrange a visit with a lawyer.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Arrange a visit with a lawyer.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A legal professional explains judicial procedures to students inside a law office.](/assets/pamphlet_images/law_p060_img1.png)
 

@@ -1,8 +1,8 @@
 # Scouting Heritage Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scouting%20Heritage.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/scouting-heritage/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/scouting-heritage/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -78,9 +78,9 @@
 - **Pamphlet Fact:** Ernest Thompson Seton founded the Woodcraft Indians in 1902 and wrote the 1910 American BSA Handbook.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Scouting Heritage Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Short Biographical Summary)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Short Biographical Summary
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Scouting Heritage Merit Badge: Short Biographical Summary.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Short Biographical Summary.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Scouting Heritage Requirement 2 figure showing daniel Carter Beard contributed frontier lore, buckskin dress, and outdoor pioneer.](/assets/pamphlet_images/scouting_heritage_p007_img1.png)
 
@@ -207,9 +207,9 @@
 - **Pamphlet Fact:** National Jamborees began in 1937 in Washington DC after a 1935 polio outbreak forced an initial postponement.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Scouting Heritage Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Attend either a Scouting America National)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Attend either a Scouting America National
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Scouting Heritage Merit Badge: Attend either a Scouting America National.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Attend either a Scouting America National.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Scouts wearing life jackets guide a canoe ashore during a canoe trek.](/assets/pamphlet_images/scouting_heritage_p046_img2.png)
 
@@ -264,9 +264,9 @@
 - **Pamphlet Fact:** Original unit charter documents from the National Council record the exact founding date, sponsor, and original adult leaders.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Scouting Heritage Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: History of Your Unit Council)
-- [ ] Field notebook, verification log sheet, and demonstration materials for History of Your Unit Council
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Scouting Heritage Merit Badge: History of Your Unit Council.
+- [ ] Field notebook, verification log sheet, and demonstration materials for History of Your Unit Council.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Museum display cases showcase historic Scouting memorabilia and gear.](/assets/pamphlet_images/scouting_heritage_p059_img1.png)
 

@@ -1,8 +1,8 @@
 # Fishing Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Fishing.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/fishing/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fishing/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -29,8 +29,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Demonstrate the proper use of two different types of fishing equipment.
-- [ ] **Station Req 4:** Demonstrate how to tie the following knots: improved clinch knot, Palomar knot, uni knot, uni to uni knot, and arbor knot. Explain how and when each knot is used.
+- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually demonstrate mastery of Requirement 4 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -135,10 +135,10 @@
 - **Pamphlet Fact:** Casting relies on smooth rod loading and crisp wrist snap rather than raw arm force.
 
 **Gear & Readiness Checklist:**
-- [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks
-- [ ] Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection
-- [ ] Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide
-- [ ] U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit
+- [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks.
+- [ ] Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection.
+- [ ] Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide.
+- [ ] U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit.
 
 ![Multiple spools display diverse fishing line colors and test strengths used by modern anglers.](/assets/pamphlet_images/fishing_p054_img1.png)
 
@@ -162,10 +162,10 @@
 - **Pamphlet Fact:** Simple overhand knots cut monofilament under tension and reduce line strength by fifty percent.
 
 **Gear & Readiness Checklist:**
-- [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks
-- [ ] Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection
-- [ ] Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide
-- [ ] U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit
+- [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks.
+- [ ] Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection.
+- [ ] Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide.
+- [ ] U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit.
 
 ![An assortment of fishing weights displays split shot, pyramid, and bell sinkers for tackle rigs.](/assets/pamphlet_images/fishing_p060_img1.png)
 

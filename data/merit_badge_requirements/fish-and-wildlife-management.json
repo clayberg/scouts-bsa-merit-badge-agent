@@ -64,9 +64,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Conservation means completely locking away natural resources so humans cannot interact with wildlife.",
-        "fact": "Conservation represents the wise, sustainable use and active management of renewable natural resources.",
-        "myth": "Conservation means completely locking away natural resources so humans cannot interact with wildlife.",
-        "fact_correction": "Conservation represents the wise, sustainable use and active management of renewable natural resources."
+        "fact": "Conservation represents the wise, sustainable use and active management of renewable natural resources."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -103,38 +101,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Hands-Off Total Preservation",
-        "right_header": "Active Science-Based Wildlife Management",
+        "left_header": "Req 1: Conservation Core Meaning",
+        "right_header": "Req 1: Present Completed Evidence",
         "left_points": [
           "Conservation Core Meaning: Describe the meaning and purposes of fish and wildlife conservation and management (p. 6).",
           "Conservation and Management Purpose: Review the Fish and Wildlife Management pamphlet standards for req 1, conservation and management purpose, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
           "Counselor Conference Review: Review your completed Meaning and purposes of fish evidence and demonstrate proficiency during your counselor conference (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Present Completed Evidence: Review your completed Meaning and purposes of fish evidence and demonstrate proficiency during your counselor conference (p. 6).",
-          "Step 2 - Verify Requirement Standards: Cross-check every sub-requirement of Requirement 1 (Meaning and purposes of fish) against the Scouting America Fish and Wildlife Management pamphlet standard (p. 6).",
-          "Step 3 - Study Core Definitions: For Fish and Wildlife Management Requirement 1 (Meaning and purposes of fish), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 6)."
+          "Present Completed Evidence: Review your completed Meaning and purposes of fish evidence and demonstrate proficiency during your counselor conference (p. 6).",
+          "Verify Requirement Standards: Cross-check every sub-requirement of Requirement 1 (Meaning and purposes of fish) against the Scouting America Fish and Wildlife Management pamphlet standard (p. 6).",
+          "Study Core Definitions: For Fish and Wildlife Management Requirement 1 (Meaning and purposes of fish), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 6)."
         ],
         "rows": [
           {
-            "attribute": "Conservation Core Meaning",
+            "attribute": "Conservation Definition",
             "left": "Conservation Core Meaning: Describe the meaning and purposes of fish and wildlife conservation and management (p. 6).",
-            "right": "Step 1 - Present Completed Evidence: Review your completed Meaning and purposes of fish evidence and demonstrate proficiency during your counselor conference (p. 6)."
+            "right": "Present Completed Evidence: Review your completed Meaning and purposes of fish evidence and demonstrate proficiency during your counselor conference (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Preservation Contrast",
             "left": "Conservation and Management Purpose: Review the Fish and Wildlife Management pamphlet standards for req 1, conservation and management purpose, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-            "right": "Step 2 - Verify Requirement Standards: Cross-check every sub-requirement of Requirement 1 (Meaning and purposes of fish) against the Scouting America Fish and Wildlife Management pamphlet standard (p. 6)."
+            "right": "Verify Requirement Standards: Cross-check every sub-requirement of Requirement 1 (Meaning and purposes of fish) against the Scouting America Fish and Wildlife Management pamphlet standard (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Carrying Capacity",
             "left": "Counselor Conference Review: Review your completed Meaning and purposes of fish evidence and demonstrate proficiency during your counselor conference (p. 6).",
-            "right": "Step 3 - Study Core Definitions: For Fish and Wildlife Management Requirement 1 (Meaning and purposes of fish), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 6)."
+            "right": "Study Core Definitions: For Fish and Wildlife Management Requirement 1 (Meaning and purposes of fish), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 6)."
           }
         ]
       },
       "worked_example": {
-        "title": "Fish and Wildlife Management Req 1 Exemplar Workbook Entry: Conservation and Management Purpose",
+        "title": "Fish and Wildlife Management Req 1 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Conservation Core Meaning": "Describe the meaning and purposes of fish and wildlife conservation and management (p. 6).",
@@ -177,7 +175,33 @@
       "socratic_questions": [
         "How does the principle of sustained yield differ from complete preservation in forested ecosystems?",
         "What environmental factors establish the biological carrying capacity of a local watershed?",
-        "Why must wildlife managers balance public recreational access with species protection mandates?"
+        "Why must wildlife managers balance public recreational access with species protection mandates?",
+        "What happens to a deer herd when its population exceeds the biological carrying capacity of its winter range?",
+        "Which ecological goal separates active wildlife conservation from strict preservation of an untouched wilderness area?",
+        "What field measurement confirms whether a harvested game population is maintaining a sustainable annual yield?",
+        "Under what condition does a wildlife manager restrict recreational access to a critical breeding or spawning habitat?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Conservation means completely locking away natural resources so humans cannot interact with wildlife.",
+          "fact": "Conservation represents the wise, sustainable use and active management of renewable natural resources."
+        },
+        {
+          "misconception": "Wildlife conservation and preservation mean the exact same thing and forbid any human harvest of animals.",
+          "fact": "Preservation leaves nature untouched, whereas conservation manages habitats and regulated harvests for sustained yield."
+        },
+        {
+          "misconception": "Carrying capacity is a fixed number of animals that a habitat can support throughout every season of the year.",
+          "fact": "Carrying capacity fluctuates seasonally and drops to its lowest threshold during harsh winter food or late-summer water shortages."
+        },
+        {
+          "misconception": "Eliminating all natural predators from a forest permanently increases the health and size of the local deer herd.",
+          "fact": "Removing predators can trigger herbivore overpopulation, severe overbrowsing of vegetation, and eventual mass starvation."
+        },
+        {
+          "misconception": "Wildlife management focuses primarily on stocking animals directly into the wild rather than managing native plant cover.",
+          "fact": "Modern wildlife management prioritizes restoring food, water, cover, and space so native populations can reproduce naturally."
+        }
       ]
     },
     {
@@ -232,9 +256,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Regulated hunting serves as the leading cause of wildlife species population decline today.",
-        "fact": "Habitat loss through agricultural conversion and urban development poses the greatest threat to wildlife.",
-        "myth": "Regulated hunting serves as the leading cause of wildlife species population decline today.",
-        "fact_correction": "Habitat loss through agricultural conversion and urban development poses the greatest threat to wildlife."
+        "fact": "Habitat loss through agricultural conversion and urban development poses the greatest threat to wildlife."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -271,38 +293,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Direct Habitat Loss and Fragmentation",
-        "right_header": "Invasive Species and Water Pollution",
+        "left_header": "Req 2: Five Vertebrate Classes",
+        "right_header": "Req 2: Divide Scrapbook Sections",
         "left_points": [
           "Five Vertebrate Classes: Your list may include mammals, birds, reptiles, amphibians, and fish (p. 6).",
           "Major Threats to Wildlife Resources: Review the Fish and Wildlife Management pamphlet standards for req 2, major threats to wildlife resources, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
           "Category Section Dividers: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Divide Scrapbook Sections: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
-          "Step 2 - Collect Species Articles: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6).",
-          "Step 3 - Peer Review Threat Analysis: Cross-check your Major Threats to Fish and Wildlife technique, measurements, and results (p. 14)."
+          "Divide Scrapbook Sections: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
+          "Collect Species Articles: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6).",
+          "Peer Review Threat Analysis: Cross-check your Major Threats to Fish and Wildlife technique, measurements, and results (p. 14)."
         ],
         "rows": [
           {
-            "attribute": "Five Vertebrate Classes",
+            "attribute": "Habitat Fragmentation",
             "left": "Five Vertebrate Classes: Your list may include mammals, birds, reptiles, amphibians, and fish (p. 6).",
-            "right": "Step 1 - Divide Scrapbook Sections: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6)."
+            "right": "Divide Scrapbook Sections: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Invasive Competition",
             "left": "Major Threats to Wildlife Resources: Review the Fish and Wildlife Management pamphlet standards for req 2, major threats to wildlife resources, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-            "right": "Step 2 - Collect Species Articles: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6)."
+            "right": "Collect Species Articles: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Water Pollution",
             "left": "Category Section Dividers: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
-            "right": "Step 3 - Peer Review Threat Analysis: Cross-check your Major Threats to Fish and Wildlife technique, measurements, and results (p. 14)."
+            "right": "Peer Review Threat Analysis: Cross-check your Major Threats to Fish and Wildlife technique, measurements, and results (p. 14)."
           }
         ]
       },
       "worked_example": {
-        "title": "Fish and Wildlife Management Req 2 Exemplar Workbook Entry: Major Threats to Wildlife Resources",
+        "title": "Fish and Wildlife Management Req 2 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Five Vertebrate Classes": "Your list may include mammals, birds, reptiles, amphibians, and fish (p. 6).",
@@ -344,8 +366,34 @@
       "pamphlet_summary": "Modern wildlife faces intense pressure from urban sprawl, agricultural runoff, and invasive plant or animal introductions. Biologists monitor chemical pollutants, habitat fragmentation, and pathogen outbreaks to prevent catastrophic declines in regional game stocks.",
       "socratic_questions": [
         "Which invasive species currently poses the most severe ecological threat to our local waterways?",
-        "How do highway barriers fragment wildlife migration corridors and reduce genetic biodiversity in populations?",
-        "What agricultural practices contribute directly to downstream siltation and game fish suffocation?"
+        "In what specific ways do highway barriers fragment wildlife migration corridors and reduce genetic biodiversity in populations?",
+        "What agricultural practices contribute directly to downstream siltation and game fish suffocation?",
+        "What happens to native cold-water trout when streamside tree removal raises summer water temperatures and lowers dissolved oxygen?",
+        "Which physical indicator in a wetland reveals that agricultural fertilizer runoff is causing severe eutrophication?",
+        "What field data must a biologist log when mapping how a new highway fragments a seasonal mammal migration corridor?",
+        "Why is it dangerous to move firewood across county lines or dump leftover live bait into a state lake?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Regulated hunting serves as the leading cause of wildlife species population decline today.",
+          "fact": "Habitat loss through agricultural conversion and urban development poses the greatest threat to wildlife."
+        },
+        {
+          "misconception": "Illegal poaching is the single largest driver of fish and wildlife declines across state ecosystems today.",
+          "fact": "Habitat loss, degradation, and fragmentation from development pose a far greater threat to wildlife than illegal harvesting."
+        },
+        {
+          "misconception": "Dividing a large forest with roads has minimal impact on wildlife as long as the total acreage of trees stays mostly the same.",
+          "fact": "Habitat fragmentation isolates breeding populations, increases harmful edge effects, and raises vehicle mortality for migrating species."
+        },
+        {
+          "misconception": "Releasing unwanted aquarium fish or unused live bait into a local pond adds helpful biodiversity to the waterbody.",
+          "fact": "Dumping non-native bait or aquarium species introduces invasive competitors and foreign pathogens that can collapse native fisheries."
+        },
+        {
+          "misconception": "Only toxic industrial chemical spills cause large fish kills in freshwater rivers, lakes, and coastal estuaries.",
+          "fact": "Sediment erosion and nutrient runoff from farms and lawns trigger algal blooms that deplete dissolved oxygen and suffocate fish."
+        }
       ]
     },
     {
@@ -400,9 +448,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Public wildlife management receives all of its operational funding from general federal income taxes.",
-        "fact": "Hunting and fishing licenses combined with excise taxes on sporting equipment fund state conservation agencies.",
-        "myth": "Public wildlife management receives all of its operational funding from general federal income taxes.",
-        "fact_correction": "Hunting and fishing licenses combined with excise taxes on sporting equipment fund state conservation agencies."
+        "fact": "Hunting and fishing licenses combined with excise taxes on sporting equipment fund state conservation agencies."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -439,38 +485,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Individual Backyard Habitat Stewardship",
-        "right_header": "Public License and Excise Funding",
+        "left_header": "Req 3: Everyday Conservation Actions",
+        "right_header": "Req 3: Present Citizen Conservation Plan",
         "left_points": [
           "Everyday Conservation Actions: Describe some ways in which everyone can help with fish and wildlife conservation (p. 6).",
           "Citizen Action in Wildlife Conservation: Review the Fish and Wildlife Management pamphlet standards for req 3, citizen action in wildlife conservation, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
           "Counselor Proficiency Review: Review your completed Some ways in which everyone evidence and demonstrate proficiency during your counselor conference (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Present Citizen Conservation Plan: Review your completed Some ways in which everyone evidence and demonstrate proficiency during your counselor conference (p. 6).",
-          "Step 2 - Verify Sub-Requirement Details: Cross-check every sub-requirement of Requirement 3 (Everyone Can Help With Fish) against the Scouting America Fish and Wildlife Management pamphlet standard (p. 6).",
-          "Step 3 - Review Conservation Principles: For Fish and Wildlife Management Requirement 3 (Everyone Can Help With Fish), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 6)."
+          "Present Citizen Conservation Plan: Review your completed Some ways in which everyone evidence and demonstrate proficiency during your counselor conference (p. 6).",
+          "Verify Sub-Requirement Details: Cross-check every sub-requirement of Requirement 3 (Everyone Can Help With Fish) against the Scouting America Fish and Wildlife Management pamphlet standard (p. 6).",
+          "Review Conservation Principles: For Fish and Wildlife Management Requirement 3 (Everyone Can Help With Fish), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 6)."
         ],
         "rows": [
           {
-            "attribute": "Everyday Conservation Actions",
+            "attribute": "Sportsperson Funding",
             "left": "Everyday Conservation Actions: Describe some ways in which everyone can help with fish and wildlife conservation (p. 6).",
-            "right": "Step 1 - Present Citizen Conservation Plan: Review your completed Some ways in which everyone evidence and demonstrate proficiency during your counselor conference (p. 6)."
+            "right": "Present Citizen Conservation Plan: Review your completed Some ways in which everyone evidence and demonstrate proficiency during your counselor conference (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Domestic Pet Control",
             "left": "Citizen Action in Wildlife Conservation: Review the Fish and Wildlife Management pamphlet standards for req 3, citizen action in wildlife conservation, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-            "right": "Step 2 - Verify Sub-Requirement Details: Cross-check every sub-requirement of Requirement 3 (Everyone Can Help With Fish) against the Scouting America Fish and Wildlife Management pamphlet standard (p. 6)."
+            "right": "Verify Sub-Requirement Details: Cross-check every sub-requirement of Requirement 3 (Everyone Can Help With Fish) against the Scouting America Fish and Wildlife Management pamphlet standard (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Native Landscaping",
             "left": "Counselor Proficiency Review: Review your completed Some ways in which everyone evidence and demonstrate proficiency during your counselor conference (p. 6).",
-            "right": "Step 3 - Review Conservation Principles: For Fish and Wildlife Management Requirement 3 (Everyone Can Help With Fish), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 6)."
+            "right": "Review Conservation Principles: For Fish and Wildlife Management Requirement 3 (Everyone Can Help With Fish), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 6)."
           }
         ]
       },
       "worked_example": {
-        "title": "Fish and Wildlife Management Req 3 Exemplar Workbook Entry: Citizen Action in Wildlife Conservation",
+        "title": "Fish and Wildlife Management Req 3 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Everyday Conservation Actions": "Describe some ways in which everyone can help with fish and wildlife conservation (p. 6).",
@@ -482,7 +528,7 @@
         "counselor_tip": "For Fish and Wildlife Management Requirement 3 (Citizen Action in Wildlife Conservation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do federal laws like the Pittman-Robertson and Ding ell-Johnson Acts support state fish and wildlife conservation?",
+        "scenario_prompt": "In what specific ways do federal laws like the Pittman-Robertson and Ding ell-Johnson Acts support state fish and wildlife conservation?",
         "question": "How do federal laws like the Pittman-Robertson and Ding ell-Johnson Acts support state fish and wildlife conservation?",
         "options": [
           "A. They fine landowners who fail to put up bird feeders in winter",
@@ -511,9 +557,35 @@
       "workbook_visual_caption": "Scouts inspect a humane wildlife trap and motion camera setup positioned near tree trunks in a dense forest.",
       "pamphlet_summary": "Citizen participation drives state conservation through hunting license excise taxes, citizen science surveys, and backyard habitat preservation. Individuals directly benefit wildlife by planting native flora, managing domestic predators, and reporting environmental violations to wardens.",
       "socratic_questions": [
-        "How do excise taxes established by the Pittman Robertson Act support non game species conservation?",
+        "In what specific ways do excise taxes established by the Pittman Robertson Act support non game species conservation?",
         "What immediate changes can suburban property owners make to enhance backyard pollinator and bird survival?",
-        "Why is immediate reporting of suspicious wildlife harvest critical to conservation law enforcement?"
+        "Why is immediate reporting of suspicious wildlife harvest critical to conservation law enforcement?",
+        "Where should a boat operator inspect and drain a trailer and livewell to prevent spreading zebra mussels between lakes?",
+        "Which federal excise tax programs channel hunter and angler equipment purchases directly into state habitat restoration?",
+        "What details must a citizen scientist record when submitting a verified invasive species or poaching report to state wardens?",
+        "Why is it dangerous to approach, touch, or move a solitary fawn or fledgling bird found resting in tall grass?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Public wildlife management receives all of its operational funding from general federal income taxes.",
+          "fact": "Hunting and fishing licenses combined with excise taxes on sporting equipment fund state conservation agencies."
+        },
+        {
+          "misconception": "State wildlife agencies receive nearly all of their habitat conservation funding from general state income and sales taxes.",
+          "fact": "Hunting and fishing licenses plus Pittman-Robertson and Dingell-Johnson excise taxes fund most state wildlife conservation."
+        },
+        {
+          "misconception": "Anyone can buy a Federal Duck Stamp only if they plan to hunt migratory waterfowl during the autumn season.",
+          "fact": "Any citizen can purchase a Federal Duck Stamp to directly fund wetland habitat acquisition within the National Wildlife Refuge System."
+        },
+        {
+          "misconception": "A fawn lying alone in the woods has been abandoned by its mother and must be rescued and fed by humans immediately.",
+          "fact": "Mother deer leave fawns hidden motionless for hours to avoid drawing predators, so people should leave solitary young wildlife undisturbed."
+        },
+        {
+          "misconception": "Planting ornamental non-native shrubs in a suburban yard provides the same nutritional value for songbirds as native plants.",
+          "fact": "Native trees and wildflowers support the native caterpillars and insects that local songbirds require to feed their developing chicks."
+        }
       ]
     },
     {
@@ -568,9 +640,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Leaving a forest entirely undisturbed without fire or logging produces optimal habitat for all wildlife.",
-        "fact": "Active habitat manipulation like prescribed fire and timber thinning creates diverse successional stages vital for wildlife.",
-        "myth": "Leaving a forest entirely undisturbed without fire or logging produces optimal habitat for all wildlife.",
-        "fact_correction": "Active habitat manipulation like prescribed fire and timber thinning creates diverse successional stages vital for wildlife."
+        "fact": "Active habitat manipulation like prescribed fire and timber thinning creates diverse successional stages vital for wildlife."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -607,38 +677,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Habitat Manipulation and Prescribed Fire",
-        "right_header": "Harvest Regulations and Fish Stocking",
+        "left_header": "Req 4: Target Wildlife Categories",
+        "right_header": "Req 4: Organize Species Categories",
         "left_points": [
           "Target Wildlife Categories: Your list may include mammals, birds, reptiles, amphibians, and fish (p. 6).",
           "State Wildlife Management Practices: Review the Fish and Wildlife Management pamphlet standards for req 4, state wildlife management practices, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
           "Organized Reference Sections: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Organize Species Categories: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
-          "Step 2 - Compile Management Examples: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6).",
-          "Step 3 - Review State Practices: Cross-check your Major Fish and Wildlife Management technique, measurements, and results with a patrol (p. 22)."
+          "Organize Species Categories: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
+          "Compile Management Examples: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6).",
+          "Review State Practices: Cross-check your Major Fish and Wildlife Management technique, measurements, and results with a patrol (p. 22)."
         ],
         "rows": [
           {
-            "attribute": "Target Wildlife Categories",
+            "attribute": "Prescribed Burning",
             "left": "Target Wildlife Categories: Your list may include mammals, birds, reptiles, amphibians, and fish (p. 6).",
-            "right": "Step 1 - Organize Species Categories: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6)."
+            "right": "Organize Species Categories: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Fish Stocking",
             "left": "State Wildlife Management Practices: Review the Fish and Wildlife Management pamphlet standards for req 4, state wildlife management practices, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-            "right": "Step 2 - Compile Management Examples: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6)."
+            "right": "Compile Management Examples: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Selective Harvesting",
             "left": "Organized Reference Sections: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
-            "right": "Step 3 - Review State Practices: Cross-check your Major Fish and Wildlife Management technique, measurements, and results with a patrol (p. 22)."
+            "right": "Review State Practices: Cross-check your Major Fish and Wildlife Management technique, measurements, and results with a patrol (p. 22)."
           }
         ]
       },
       "worked_example": {
-        "title": "Fish and Wildlife Management Req 4 Exemplar Workbook Entry: State Wildlife Management Practices",
+        "title": "Fish and Wildlife Management Req 4 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Target Wildlife Categories": "Your list may include mammals, birds, reptiles, amphibians, and fish (p. 6).",
@@ -680,8 +750,34 @@
       "pamphlet_summary": "Wildlife biologists utilize controlled burns, timber harvests, and fish stockings to engineer productive successional ecosystems. Harvest limits and bag regulations balance animal density with annual ecological carrying capacity.",
       "socratic_questions": [
         "Why do wildlife managers use clearcuts to benefit species like woodcock and cottontail rabbits?",
-        "How do game wardens and biologists determine the correct length and timing of hunting seasons?",
-        "What biological hazards arise when hatcheries introduce large volumes of farm raised fish into wild streams?"
+        "In what specific ways do game wardens and biologists determine the correct length and timing of hunting seasons?",
+        "What biological hazards arise when hatcheries introduce large volumes of farm raised fish into wild streams?",
+        "Under what weather and fuel-moisture conditions does a wildlife biologist authorize a low-intensity prescribed burn?",
+        "What happens to the age structure of a bass fishery when state managers enforce a protective slot-length limit?",
+        "What field measurements confirm whether a wetland water-control structure is set at the right depth for dabbling ducks?",
+        "Why is it dangerous to stock hatchery fish into a watershed without first evaluating native genetic stocks and forage supply?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Leaving a forest entirely undisturbed without fire or logging produces optimal habitat for all wildlife.",
+          "fact": "Active habitat manipulation like prescribed fire and timber thinning creates diverse successional stages vital for wildlife."
+        },
+        {
+          "misconception": "Every forest fire destroys wildlife habitat and should be suppressed immediately to protect woodland birds and mammals.",
+          "fact": "Controlled prescribed burns clear dense underbrush, recycle soil nutrients, and stimulate nutritious new plant growth for wildlife."
+        },
+        {
+          "misconception": "Stocking more hatchery-raised fingerlings into a lake is always the most effective way to fix a declining fish population.",
+          "fact": "Stocking fails if poor water quality or missing spawning cover is the true limiting factor, and excess fish can outcompete wild stocks."
+        },
+        {
+          "misconception": "Clear-cutting small timber patches ruins a forest permanently and leaves zero usable habitat for native game species.",
+          "fact": "Selective timber harvesting creates early-successional openings that provide essential browse and dense cover for grouse, turkey, and deer."
+        },
+        {
+          "misconception": "Annual hunting bag limits and season lengths remain identical from year to year regardless of weather or population surveys.",
+          "fact": "Biologists adjust bag limits and season dates each year using field survey data on reproductive success and winter survival rates."
+        }
       ]
     },
     {
@@ -727,9 +823,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Nest boxes should have wooden perches beneath the entrance hole to help adult birds enter.",
-            "fact": "Perches provide handholds for predatory English sparrows and snakes to raid eggs and young birds.",
-            "myth": "Nest boxes should have wooden perches beneath the entrance hole to help adult birds enter.",
-            "fact_correction": "Perches provide handholds for predatory English sparrows and snakes to raid eggs and young birds."
+            "fact": "Perches provide handholds for predatory English sparrows and snakes to raid eggs and young birds."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -800,9 +894,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Any standard wild bird seed blend attracts the same species of native woodland birds.",
-            "fact": "Different feeder styles and specific seeds like black oil sunflower or nyjer attract distinct avian guilds.",
-            "myth": "Any standard wild bird seed blend attracts the same species of native woodland birds.",
-            "fact_correction": "Different feeder styles and specific seeds like black oil sunflower or nyjer attract distinct avian guilds."
+            "fact": "Different feeder styles and specific seeds like black oil sunflower or nyjer attract distinct avian guilds."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -875,9 +967,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Dumping random yard debris in a heap creates ideal habitat for all local small mammals.",
-            "fact": "Constructed brush piles require a sturdy crisscross foundation of heavy logs to maintain interior escape tunnels.",
-            "myth": "Dumping random yard debris in a heap creates ideal habitat for all local small mammals.",
-            "fact_correction": "Constructed brush piles require a sturdy crisscross foundation of heavy logs to maintain interior escape tunnels."
+            "fact": "Constructed brush piles require a sturdy crisscross foundation of heavy logs to maintain interior escape tunnels."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -948,9 +1038,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Wildlife blinds must be built with artificial camouflage tarps regardless of surrounding natural brush.",
-            "fact": "Natural vegetation woven into a burlap framework provides superior concealment and avoids startling wary animals.",
-            "myth": "Wildlife blinds must be built with artificial camouflage tarps regardless of surrounding natural brush.",
-            "fact_correction": "Natural vegetation woven into a burlap framework provides superior concealment and avoids startling wary animals."
+            "fact": "Natural vegetation woven into a burlap framework provides superior concealment and avoids startling wary animals."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1049,9 +1137,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Putting out bread crumbs and grain anywhere in a backyard safely benefits all local wild animals.",
-        "fact": "Improper feeding causes nutritional deficits, spreads avian disease, and attracts dangerous nuisance predators like raccoons.",
-        "myth": "Putting out bread crumbs and grain anywhere in a backyard safely benefits all local wild animals.",
-        "fact_correction": "Improper feeding causes nutritional deficits, spreads avian disease, and attracts dangerous nuisance predators like raccoons."
+        "fact": "Improper feeding causes nutritional deficits, spreads avian disease, and attracts dangerous nuisance predators like raccoons."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1087,14 +1173,14 @@
         "Step 4 - Systematic Logging: Record wildlife visitation, weather conditions, species interactions, and structural maintenance in journals."
       ],
       "gear_checklist": [
-        "Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks",
-        "Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection",
-        "Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide",
-        "U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit"
+        "Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks.",
+        "Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection.",
+        "Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide.",
+        "U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Artificial Nest Box Monitoring Pro",
-        "right_header": "Req 5c: Aquatic Or Terrestrial Habitat Enh",
+        "left_header": "Req 5a: Artificial Nest Box Monitoring",
+        "right_header": "Req 5c: Aquatic Or Terrestrial Habitat",
         "left_points": [
           "(5a) Artificial Nest Box Monitoring Program: Constructing species-specific nest boxes provides vital cavity nesting sites where dead timber has been cleared. Scouts clean, mount, and monitor boxes weekly through the spring nesting cycle, logging clutch sizes and fledging success.",
           "(5b) Avian Feeding Station Daily Census: Bird feeders provide supplemental cold-weather calories while serving as excellent stations for systematic population counts. Scouts log avian visitors daily for two consecutive weeks, identifying species diversity and behavioral patterns."
@@ -1105,30 +1191,30 @@
         ],
         "rows": [
           {
-            "attribute": "Artificial Nest Box Monitoring",
-            "left": "(5a) Artificial Nest Box Monitoring: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
-            "right": "(5c) Fishery or Backyard Habitat Project: Your list may include mammals, birds, reptiles, amphibians, and fish (p. 6)."
+            "attribute": "Box Orientation",
+            "left": "(5a) Artificial Nest Box Monitoring Program: Constructing species-specific nest boxes provides vital cavity nesting sites where dead timber has been cleared. Scouts clean, mount, and monitor boxes weekly through the spring nesting cycle, logging clutch sizes and fledging success.",
+            "right": "(5c) Aquatic Or Terrestrial Habitat Enhancement: Habitat improvement projects install physical cover like brush piles, rock weirs, or native vegetation plantings to resolve specific environmental bottlenecks. Scouts design the installation to expand food, water, or shelter for local fauna."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(5b) Bird Feeder Observation Logs: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6).",
-            "right": "Hands-On Habitat and Observation Projects: Review the Fish and Wildlife Management pamphlet standards for req 5, hands-on habitat and observation projects, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6)."
+            "attribute": "Sanitation Protocols",
+            "left": "(5b) Avian Feeding Station Daily Census: Bird feeders provide supplemental cold-weather calories while serving as excellent stations for systematic population counts. Scouts log avian visitors daily for two consecutive weeks, identifying species diversity and behavioral patterns.",
+            "right": "(5d) Wildlife Blind Construction And Observation: Observation blinds conceal human scent, movement, and silhouettes near natural wildlife activity centers. Scouts build concealed blinds near water sources or game trails to photograph and sketch unalarmed wild animals."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Field Log Organization: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
-            "right": "Step 3 - Inspect Field Project Setup: Cross-check your Construct, erect, and check regularly technique, measurements, and results (p. 26)."
+            "attribute": "Water Aeration",
+            "left": "Req 5a: Artificial Nest Box: Constructing species-specific nest boxes provides vital cavity nesting sites where dead timber has been cleared. Scouts clean, mount, and monitor boxes weekly through the spring nesting cycle, logging clutch sizes and fledging success.",
+            "right": "Req 5b: Avian Feeding Station Daily: Bird feeders provide supplemental cold-weather calories while serving as excellent stations for systematic population counts. Scouts log avian visitors daily for two consecutive weeks, identifying species diversity and behavioral patterns."
           }
         ]
       },
       "worked_example": {
-        "title": "Fish and Wildlife Management Req 5 Exemplar Workbook Entry: Hands-On Habitat and Observation Projects",
+        "title": "Fish and Wildlife Management Req 5 Exemplar Workbook",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Artificial Nest Box Monitoring Pr": "Constructing species-specific nest boxes provides vital cavity nesting sites where dead timber has been cleared. Scouts clean, mount, and monitor boxes weekly through the spring nesting cycle, logging clutch sizes and fledging success.",
-          "Req 5b - Avian Feeding Station Daily Censu": "Bird feeders provide supplemental cold-weather calories while serving as excellent stations for systematic population counts. Scouts log avian visitors daily for two consecutive weeks, identifying species diversity and behavioral patterns.",
-          "Req 5c - Aquatic Or Terrestrial Habitat En": "Habitat improvement projects install physical cover like brush piles, rock weirs, or native vegetation plantings to resolve specific environmental bottlenecks. Scouts design the installation to expand food, water, or shelter for local fauna.",
-          "Req 5d - Wildlife Blind Construction And O": "Observation blinds conceal human scent, movement, and silhouettes near natural wildlife activity centers. Scouts build concealed blinds near water sources or game trails to photograph and sketch unalarmed wild animals."
+          "Req 5a - Artificial Nest Box": "Constructing species-specific nest boxes provides vital cavity nesting sites where dead timber has been cleared. Scouts clean, mount, and monitor boxes weekly through the spring nesting cycle, logging clutch sizes and fledging success.",
+          "Req 5b - Avian Feeding Station Daily": "Bird feeders provide supplemental cold-weather calories while serving as excellent stations for systematic population counts. Scouts log avian visitors daily for two consecutive weeks, identifying species diversity and behavioral patterns.",
+          "Req 5c - Aquatic Or Terrestrial": "Habitat improvement projects install physical cover like brush piles, rock weirs, or native vegetation plantings to resolve specific environmental bottlenecks. Scouts design the installation to expand food, water, or shelter for local fauna.",
+          "Req 5d - Wildlife Blind Construction": "Observation blinds conceal human scent, movement, and silhouettes near natural wildlife activity centers. Scouts build concealed blinds near water sources or game trails to photograph and sketch unalarmed wild animals."
         },
         "sample_output": "Hands-On Habitat and Observation Projects: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
         "counselor_tip": "For Fish and Wildlife Management Requirement 5 (Hands-On Habitat and Observation Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7))."
@@ -1165,7 +1251,33 @@
       "socratic_questions": [
         "What structural dimensions must be tailored to exclude starling competition from native bluebird nesting boxes?",
         "Why must bird feeding stations be sanitized regularly during wet winter months?",
-        "How does providing artificial shelter structures compensate for the removal of dead forest snags?"
+        "How does providing artificial shelter structures compensate for the removal of dead forest snags?",
+        "Where should a Scout position a metal predator baffle and entrance hole on a wood duck or bluebird nest box?",
+        "Which construction flaw in an artificial nest box allows starlings to enter or traps dangerous heat and moisture inside?",
+        "What observations must you log during weekly nest-box checks without causing the adult bird to abandon its clutch?",
+        "Why is it dangerous to build a nest box from pressure-treated lumber or leave wet, moldy seed inside a bird feeder?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Putting out bread crumbs and grain anywhere in a backyard safely benefits all local wild animals.",
+          "fact": "Improper feeding causes nutritional deficits, spreads avian disease, and attracts dangerous nuisance predators like raccoons."
+        },
+        {
+          "misconception": "Adding a wooden perch just below a bluebird nest box entrance hole helps native cavity-nesting birds enter safely.",
+          "fact": "Native cavity nesters cling easily to rough wood without a perch, whereas exterior perches help invasive house sparrows attack nestlings."
+        },
+        {
+          "misconception": "Pressure-treated lumber and painted interior walls are ideal for building durable artificial bird and squirrel nest boxes.",
+          "fact": "Pressure-treated wood and interior paints release toxic chemicals that can poison developing eggs and young wildlife inside the cavity."
+        },
+        {
+          "misconception": "Bird feeders can be filled continuously all season without cleaning because rain naturally washes away any harmful bacteria.",
+          "fact": "Damp seed and droppings spread deadly avian salmonellosis and house finch eye disease unless feeders are scrubbed and dried regularly."
+        },
+        {
+          "misconception": "Brush piles built for small mammals and game birds work best when stacked loosely in a single flat layer on bare ground.",
+          "fact": "Effective brush piles use a sturdy base of criss-crossed logs topped with finer branches to keep tunnels open under heavy winter snow."
+        }
       ]
     },
     {
@@ -1212,9 +1324,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Domestic pets, farm livestock, and zoo animals count toward the wild species observation tally.",
-            "fact": "Field logs must document free-ranging, wild native or naturalized species observed in natural habitats.",
-            "myth": "Domestic pets, farm livestock, and zoo animals count toward the wild species observation tally.",
-            "fact_correction": "Field logs must document free-ranging, wild native or naturalized species observed in natural habitats."
+            "fact": "Field logs must document free-ranging, wild native or naturalized species observed in natural habitats."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1287,9 +1397,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Classifying an animal as a game species means hunters can harvest unlimited numbers year-round.",
-            "fact": "Game designations allow state biologists to enforce strict seasonal limits and protect breeding female populations.",
-            "myth": "Classifying an animal as a game species means hunters can harvest unlimited numbers year-round.",
-            "fact_correction": "Game designations allow state biologists to enforce strict seasonal limits and protect breeding female populations."
+            "fact": "Game designations allow state biologists to enforce strict seasonal limits and protect breeding female populations."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1368,9 +1476,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "A wildlife scrapbook only needs pretty animal pictures cut out from outdoor magazines.",
-            "fact": "Entries must include informative articles detailing life histories, ecological threats, and management strategies.",
-            "myth": "A wildlife scrapbook only needs pretty animal pictures cut out from outdoor magazines.",
-            "fact_correction": "Entries must include informative articles detailing life histories, ecological threats, and management strategies."
+            "fact": "Entries must include informative articles detailing life histories, ecological threats, and management strategies."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1466,9 +1572,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Any rare animal found in a state is legally classified as an officially endangered species.",
-        "fact": "Endangered status requires formal administrative biological assessment proving a species faces immediate extinction risk.",
-        "myth": "Any rare animal found in a state is legally classified as an officially endangered species.",
-        "fact_correction": "Endangered status requires formal administrative biological assessment proving a species faces immediate extinction risk."
+        "fact": "Endangered status requires formal administrative biological assessment proving a species faces immediate extinction risk."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1509,14 +1613,14 @@
         "Step 4 - Counselor Consultation: Present completed field logs, classification listings, or curated scrapbooks for detailed scientific review."
       ],
       "gear_checklist": [
-        "Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks",
-        "Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection",
-        "Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide",
-        "U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit"
+        "Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks.",
+        "Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection.",
+        "Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide.",
+        "U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Field Wildlife Biodiversity Observ",
-        "right_header": "Req 6b: State Legal Wildlife Status Roster",
+        "left_header": "Req 6a: Field Wildlife Biodiversity",
+        "right_header": "Req 6b: State Legal Wildlife Status",
         "left_points": [
           "(6a) Field Wildlife Biodiversity Observation Log: Observing twenty-five wild species requires methodical exploration of varied microhabitats such as wetlands, fields, and forest canopies. Scouts record the precise time, date, GPS coordinates or location, and behavioral actions for each organism."
         ],
@@ -1525,29 +1629,29 @@
         ],
         "rows": [
           {
-            "attribute": "Twenty-Five Species Field Log",
-            "left": "(6a) Twenty-Five Species Field Log: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6).",
-            "right": "(6b) Endangered and Game Species Lists: Your list may include mammals, birds, reptiles, amphibians, and fish (p. 6)."
+            "attribute": "Taxonomic Logging",
+            "left": "(6a) Field Wildlife Biodiversity Observation Log: Observing twenty-five wild species requires methodical exploration of varied microhabitats such as wetlands, fields, and forest canopies. Scouts record the precise time, date, GPS coordinates or location, and behavioral actions for each organism.",
+            "right": "(6b) State Legal Wildlife Status Roster: State agencies classify wildlife into legal categories such as endangered, game, furbearer, and invasive exotic species. Scouts research these classifications to understand harvest rules, ecological roles, and protective statutory frameworks."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Wildlife Observation and Species Classification: Review the Fish and Wildlife Management pamphlet standards for req 6, wildlife observation and species classification, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-            "right": "Wildlife Observation and Species Classification: Review the Fish and Wildlife Management pamphlet standards for req 6, wildlife observation and species classification, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6)."
+            "attribute": "Endangered Classifications",
+            "left": "Req 6a: Field Wildlife Biodiversity: Observing twenty-five wild species requires methodical exploration of varied microhabitats such as wetlands, fields, and forest canopies. Scouts record the precise time, date, GPS coordinates or location, and behavioral actions for each organism.",
+            "right": "Req 6b: State Legal Wildlife Status: State agencies classify wildlife into legal categories such as endangered, game, furbearer, and invasive exotic species. Scouts research these classifications to understand harvest rules, ecological roles, and protective statutory frameworks."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Scrapbook Taxonomic Tabs: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
-            "right": "Step 3 - Verify Species Identifications: Cross-check your Observe and record 25 species technique, measurements, and results (p. 30)."
+            "attribute": "Migratory Protections",
+            "left": "Req 6c: North American Wildlife: Curating a taxonomic scrapbook organizes articles, photos, and life-history accounts across five vertebrate classes. Scouts analyze biological adaptations, distribution maps, and conservation initiatives documented in print and field media.",
+            "right": "Endangered Classifications: Endangered listings identify species facing imminent regional extinction without immediate habitat intervention."
           }
         ]
       },
       "worked_example": {
-        "title": "Fish and Wildlife Management Req 6 Exemplar Workbook Entry: Wildlife Observation and Species Classification",
+        "title": "Fish and Wildlife Management Req 6 Exemplar Workbook",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 6a - Field Wildlife Biodiversity Obser": "Observing twenty-five wild species requires methodical exploration of varied microhabitats such as wetlands, fields, and forest canopies. Scouts record the precise time, date, GPS coordinates or location, and behavioral actions for each organism.",
-          "Req 6b - State Legal Wildlife Status Roste": "State agencies classify wildlife into legal categories such as endangered, game, furbearer, and invasive exotic species. Scouts research these classifications to understand harvest rules, ecological roles, and protective statutory frameworks.",
-          "Req 6c - North American Wildlife Taxonomic": "Curating a taxonomic scrapbook organizes articles, photos, and life-history accounts across five vertebrate classes. Scouts analyze biological adaptations, distribution maps, and conservation initiatives documented in print and field media."
+          "Req 6a - Field Wildlife Biodiversity": "Observing twenty-five wild species requires methodical exploration of varied microhabitats such as wetlands, fields, and forest canopies. Scouts record the precise time, date, GPS coordinates or location, and behavioral actions for each organism.",
+          "Req 6b - State Legal Wildlife Status": "State agencies classify wildlife into legal categories such as endangered, game, furbearer, and invasive exotic species. Scouts research these classifications to understand harvest rules, ecological roles, and protective statutory frameworks.",
+          "Req 6c - North American Wildlife": "Curating a taxonomic scrapbook organizes articles, photos, and life-history accounts across five vertebrate classes. Scouts analyze biological adaptations, distribution maps, and conservation initiatives documented in print and field media."
         },
         "sample_output": "Wildlife Observation and Species Classification: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6).",
         "counselor_tip": "For Fish and Wildlife Management Requirement 6 (Wildlife Observation and Species Classification), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7))."
@@ -1584,7 +1688,33 @@
       "socratic_questions": [
         "What anatomical traits distinguish an amphibian from a reptile when conducting wet timber surveys?",
         "Why are migratory waterfowl managed primarily by federal agencies rather than individual state departments?",
-        "What ecological niche factors make island or specialist species especially vulnerable to endangered status?"
+        "What ecological niche factors make island or specialist species especially vulnerable to endangered status?",
+        "Which legal and ecological criteria distinguish a threatened species from an endangered species or an invasive exotic?",
+        "What environmental details beyond the species name should your field log include when recording 25 wildlife observations?",
+        "Where should a Scout position themselves relative to the wind and cover during dawn or dusk wildlife observation surveys?",
+        "Why is it dangerous to use audio playback calls repeatedly during nesting season or get too close to wildlife for a photo?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Any rare animal found in a state is legally classified as an officially endangered species.",
+          "fact": "Endangered status requires formal administrative biological assessment proving a species faces immediate extinction risk."
+        },
+        {
+          "misconception": "Every non-native or exotic animal species living in a state is automatically classified as an invasive pest by law.",
+          "fact": "An exotic species is simply non-native, whereas an invasive species spreads rapidly and harms native ecosystems or economies."
+        },
+        {
+          "misconception": "Endangered and threatened classifications mean the exact same level of extinction risk under state and federal wildlife laws.",
+          "fact": "An endangered species faces immediate extinction, while a threatened species is likely to become endangered in the near future."
+        },
+        {
+          "misconception": "Midday under bright sunlight is the most productive time to observe and count the widest variety of wild mammals and amphibians.",
+          "fact": "Most mammals, birds, and amphibians are crepuscular or nocturnal, making dawn, dusk, and rainy evenings optimal for field observation."
+        },
+        {
+          "misconception": "Game species and furbearers are unmanaged animals that can be harvested in unlimited numbers at any time of the year.",
+          "fact": "Game animals and furbearers are strictly regulated through legal seasons, licensing, and harvest quotas to maintain healthy populations."
+        }
       ]
     },
     {
@@ -1630,9 +1760,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Fish scales remain the exact same size throughout the life of the fish.",
-            "fact": "Scales grow proportionally with the fish, creating readable annual rings like cross-sections of tree trunks.",
-            "myth": "Fish scales remain the exact same size throughout the life of the fish.",
-            "fact_correction": "Scales grow proportionally with the fish, creating readable annual rings like cross-sections of tree trunks."
+            "fact": "Scales grow proportionally with the fish, creating readable annual rings like cross-sections of tree trunks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1704,9 +1832,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Creel surveys are law enforcement inspections designed solely to catch anglers exceeding daily bag limits.",
-            "fact": "Creel censuses collect voluntary statistical data on angling effort and population dynamics for fisheries management.",
-            "myth": "Creel surveys are law enforcement inspections designed solely to catch anglers exceeding daily bag limits.",
-            "fact_correction": "Creel censuses collect voluntary statistical data on angling effort and population dynamics for fisheries management."
+            "fact": "Creel censuses collect voluntary statistical data on angling effort and population dynamics for fisheries management."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1781,9 +1907,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Predatory game fish consume only smaller fish rather than insects and freshwater invertebrates.",
-            "fact": "Bass, trout, and panfish rely heavily on aquatic macroinvertebrates, terrestrial insects, and micro-crustaceans.",
-            "myth": "Predatory game fish consume only smaller fish rather than insects and freshwater invertebrates.",
-            "fact_correction": "Bass, trout, and panfish rely heavily on aquatic macroinvertebrates, terrestrial insects, and micro-crustaceans."
+            "fact": "Bass, trout, and panfish rely heavily on aquatic macroinvertebrates, terrestrial insects, and micro-crustaceans."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1860,9 +1984,7 @@
           "pamphlet_page_citation": "Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Tropical fish food and artificial chemical additives should be used in a native wild aquarium.",
-            "fact": "Native aquariums rely on natural pond detritus, microorganisms, and balanced native plants for organic nutrient balance.",
-            "myth": "Tropical fish food and artificial chemical additives should be used in a native wild aquarium.",
-            "fact_correction": "Native aquariums rely on natural pond detritus, microorganisms, and balanced native plants for organic nutrient balance."
+            "fact": "Native aquariums rely on natural pond detritus, microorganisms, and balanced native plants for organic nutrient balance."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1962,9 +2084,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A larger fish in a lake is always older than a smaller fish of the same species.",
-        "fact": "Food availability, genetics, and water temperature dictate fish growth rates, making scale annuli the true indicator.",
-        "myth": "A larger fish in a lake is always older than a smaller fish of the same species.",
-        "fact_correction": "Food availability, genetics, and water temperature dictate fish growth rates, making scale annuli the true indicator."
+        "fact": "Food availability, genetics, and water temperature dictate fish growth rates, making scale annuli the true indicator."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2000,14 +2120,14 @@
         "Step 4 - Findings Reporting: Compile collected growth curves, catch per unit effort numbers, or ecological observations for counselors."
       ],
       "gear_checklist": [
-        "Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks",
-        "Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection",
-        "Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide",
-        "U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit"
+        "Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks.",
+        "Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection.",
+        "Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide.",
+        "U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Fish Scale Annuli Age Determinatio",
-        "right_header": "Req 7c: Fish Stomach Content Trophic Analy",
+        "left_header": "Req 7a: Fish Scale Annuli Age",
+        "right_header": "Req 7c: Fish Stomach Content Trophic",
         "left_points": [
           "(7a) Fish Scale Annuli Age Determination: Fish scales grow outward forming concentric circuli, with tightly spaced rings called annuli marking slow winter growth. By viewing scales under magnification, scouts calculate the precise age of multiple fish species.",
           "(7b) Creel Census Angler Survey Execution: A creel census interviews anglers at boat docks to record fishing hours, species targeted, and total catch retained or released. Scouts calculate catch-per-unit-effort ratios to help biologists gauge harvest pressure and stocking efficiency."
@@ -2018,30 +2138,30 @@
         ],
         "rows": [
           {
-            "attribute": "Fish Scale Aging Analysis",
-            "left": "(7a) Fish Scale Aging Analysis: Your list may include mammals, birds, reptiles, amphibians, and fish (p. 6).",
-            "right": "(7c) Fish Stomach Content Diet Study: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6)."
+            "attribute": "Scale Annuli",
+            "left": "(7a) Fish Scale Annuli Age Determination: Fish scales grow outward forming concentric circuli, with tightly spaced rings called annuli marking slow winter growth. By viewing scales under magnification, scouts calculate the precise age of multiple fish species.",
+            "right": "(7c) Fish Stomach Content Trophic Analysis: Dissecting the stomach cavities of caught or harvested fish reveals current forage bases and predatory adaptations. Scouts examine, identify, and tally aquatic insects, crustaceans, and minnows found inside the digestive tract."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Fishery Biology and Aquatic Investigations: Review the Fish and Wildlife Management pamphlet standards for req 7, fishery biology and aquatic investigations, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-            "right": "(7d) Native Freshwater Aquarium Setup: Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them (p. 6)."
+            "attribute": "Creel Statistics",
+            "left": "(7b) Creel Census Angler Survey Execution: A creel census interviews anglers at boat docks to record fishing hours, species targeted, and total catch retained or released. Scouts calculate catch-per-unit-effort ratios to help biologists gauge harvest pressure and stocking efficiency.",
+            "right": "(7d) Native Freshwater Micro Ecosystem Aquarium: Constructing a native freshwater aquarium replicates a local pond or stream food web in a balanced container. Scouts collect native aquatic plants, snails, tadpoles, and insects to observe nutrient cycling and dissolved oxygen dynamics."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Data Recording Sections: Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish (p. 6).",
-            "right": "Step 3 - Verify Fishery Measurements: Cross-check your Determine the age of five species technique, measurements, and results (p. 34)."
+            "attribute": "Diet Dissection",
+            "left": "Req 7a: Fish Scale Annuli Age: Fish scales grow outward forming concentric circuli, with tightly spaced rings called annuli marking slow winter growth. By viewing scales under magnification, scouts calculate the precise age of multiple fish species.",
+            "right": "Req 7b: Creel Census Angler Survey: A creel census interviews anglers at boat docks to record fishing hours, species targeted, and total catch retained or released. Scouts calculate catch-per-unit-effort ratios to help biologists gauge harvest pressure and stocking efficiency."
           }
         ]
       },
       "worked_example": {
-        "title": "Fish and Wildlife Management Req 7 Exemplar Workbook Entry: Fishery Biology and Aquatic Investigations",
+        "title": "Fish and Wildlife Management Req 7 Exemplar Workbook",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a - Fish Scale Annuli Age Determinati": "Fish scales grow outward forming concentric circuli, with tightly spaced rings called annuli marking slow winter growth. By viewing scales under magnification, scouts calculate the precise age of multiple fish species.",
-          "Req 7b - Creel Census Angler Survey Execut": "A creel census interviews anglers at boat docks to record fishing hours, species targeted, and total catch retained or released. Scouts calculate catch-per-unit-effort ratios to help biologists gauge harvest pressure and stocking efficiency.",
-          "Req 7c - Fish Stomach Content Trophic Anal": "Dissecting the stomach cavities of caught or harvested fish reveals current forage bases and predatory adaptations. Scouts examine, identify, and tally aquatic insects, crustaceans, and minnows found inside the digestive tract.",
-          "Req 7d - Native Freshwater Micro Ecosystem": "Constructing a native freshwater aquarium replicates a local pond or stream food web in a balanced container. Scouts collect native aquatic plants, snails, tadpoles, and insects to observe nutrient cycling and dissolved oxygen dynamics."
+          "Req 7a - Fish Scale Annuli Age": "Fish scales grow outward forming concentric circuli, with tightly spaced rings called annuli marking slow winter growth. By viewing scales under magnification, scouts calculate the precise age of multiple fish species.",
+          "Req 7b - Creel Census Angler Survey": "A creel census interviews anglers at boat docks to record fishing hours, species targeted, and total catch retained or released. Scouts calculate catch-per-unit-effort ratios to help biologists gauge harvest pressure and stocking efficiency.",
+          "Req 7c - Fish Stomach Content Trophic": "Dissecting the stomach cavities of caught or harvested fish reveals current forage bases and predatory adaptations. Scouts examine, identify, and tally aquatic insects, crustaceans, and minnows found inside the digestive tract.",
+          "Req 7d - Native Freshwater Micro": "Constructing a native freshwater aquarium replicates a local pond or stream food web in a balanced container. Scouts collect native aquatic plants, snails, tadpoles, and insects to observe nutrient cycling and dissolved oxygen dynamics."
         },
         "sample_output": "Fishery Biology and Aquatic Investigations: Your list may include mammals, birds, reptiles, amphibians, and fish (p. 6).",
         "counselor_tip": "For Fish and Wildlife Management Requirement 7 (Fishery Biology and Aquatic Investigations), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7))."
@@ -2076,9 +2196,35 @@
       "workbook_visual_caption": "Scouts and their counselor examine aquatic specimens and water samples on an outdoor wooden table beside the river.",
       "pamphlet_summary": "Fisheries science combines fish aging techniques, angler survey statistics, diet analysis, and controlled aquatic rearing to measure lake health. Scouts apply one standard field research methodology to evaluate fish populations or freshwater community dynamics.",
       "socratic_questions": [
-        "How do scale growth rings form differently during cold winter months compared to summer feeding periods?",
+        "In what specific ways do scale growth rings form differently during cold winter months compared to summer feeding periods?",
         "Why is catch per unit effort a more accurate fishery metric than simply counting total landed fish?",
-        "What can the presence of macroinvertebrates in fish stomachs reveal about the health of a stream bed?"
+        "What can the presence of macroinvertebrates in fish stomachs reveal about the health of a stream bed?",
+        "Which microscopic pattern of circuli on a fish scale marks a true winter annulus rather than a summer false annulus?",
+        "What two numbers must you record from every angler interview to calculate an accurate catch per unit effort in a creel census?",
+        "Where on a spiny-rayed fish's body should a biologist remove scales to avoid regenerated scales with missing inner rings?",
+        "Why is it dangerous to handle live fish with dry hands or use uncalibrated scales and rulers during a lake population survey?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A larger fish in a lake is always older than a smaller fish of the same species.",
+          "fact": "Food availability, genetics, and water temperature dictate fish growth rates, making scale annuli the true indicator."
+        },
+        {
+          "misconception": "Counting every single microscopic ridge on a fish scale tells a biologist the exact age of the fish in years.",
+          "fact": "Fish scales form many individual circuli each growing season; age is determined by counting the crowded winter bands called annuli."
+        },
+        {
+          "misconception": "Catch per unit effort in a creel census only requires counting the total number of fish brought to the boat ramp.",
+          "fact": "Catch per unit effort divides the total fish caught, including released fish, by the total angler-hours spent actively fishing."
+        },
+        {
+          "misconception": "Two fish of the exact same species and body length taken from different lakes will always be the exact same age.",
+          "fact": "Fish growth depends on water temperature and food supply, so a stunted four-year-old fish can be shorter than a well-fed two-year-old."
+        },
+        {
+          "misconception": "Examining fish stomach contents only shows what a single fish ate that morning and provides no insight into lake health.",
+          "fact": "Stomach content analysis reveals seasonal prey availability, predator-prey balance, and competition between fish species in a lake."
+        }
       ]
     },
     {
@@ -2147,9 +2293,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Working as a game warden or wildlife biologist involves simply hunting and fishing all day.",
-        "fact": "Wildlife professionals spend extensive hours analyzing biometric data, writing reports, conducting laboratory tests, and enforcing statutes.",
-        "myth": "Working as a game warden or wildlife biologist involves simply hunting and fishing all day.",
-        "fact_correction": "Wildlife professionals spend extensive hours analyzing biometric data, writing reports, conducting laboratory tests, and enforcing statutes."
+        "fact": "Wildlife professionals spend extensive hours analyzing biometric data, writing reports, conducting laboratory tests, and enforcing statutes."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2186,38 +2330,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Research Wildlife and Fishery Biologists",
-        "right_header": "Conservation Officers and Hatchery Managers",
+        "left_header": "Req 8: Professional Career Options",
+        "right_header": "Req 8: Research Job Market Outlook",
         "left_points": [
           "Professional Career Options: Identify three career opportunities that would use skills and knowledge by fish and wildlife professionals (p. 6).",
           "Education and Certification Path: Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field (p. 6).",
           "Employment and Salary Outlook: Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Research Job Market Outlook: Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career (p. 6).",
-          "Step 2 - Discuss Career Fit: Discuss what you learned with your counselor and whether you might be interested in this career (p. 6).",
-          "Step 3 - Review Qualification Notes: Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol (p. 6)."
+          "Research Job Market Outlook: Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career (p. 6).",
+          "Discuss Career Fit: Discuss what you learned with your counselor and whether you might be interested in this career (p. 6).",
+          "Review Qualification Notes: Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol (p. 6)."
         ],
         "rows": [
           {
-            "attribute": "Professional Career Options",
+            "attribute": "Biologist Education",
             "left": "Professional Career Options: Identify three career opportunities that would use skills and knowledge by fish and wildlife professionals (p. 6).",
-            "right": "Step 1 - Research Job Market Outlook: Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career (p. 6)."
+            "right": "Research Job Market Outlook: Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Warden Qualifications",
             "left": "Education and Certification Path: Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field (p. 6).",
-            "right": "Step 2 - Discuss Career Fit: Discuss what you learned with your counselor and whether you might be interested in this career (p. 6)."
+            "right": "Discuss Career Fit: Discuss what you learned with your counselor and whether you might be interested in this career (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Field Internships",
             "left": "Employment and Salary Outlook: Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career (p. 6).",
-            "right": "Step 3 - Review Qualification Notes: Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol (p. 6)."
+            "right": "Review Qualification Notes: Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol (p. 6)."
           }
         ]
       },
       "worked_example": {
-        "title": "Fish and Wildlife Management Req 8 Exemplar Workbook Entry: Fish and Wildlife Career Pathways",
+        "title": "Fish and Wildlife Management Req 8 Exemplar Workbook",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
           "Professional Career Options": "Identify three career opportunities that would use skills and knowledge by fish and wildlife professionals (p. 6).",
@@ -2259,8 +2403,34 @@
       "pamphlet_summary": "Professional stewardship relies on fishery biologists, wildlife research scientists, conservation law enforcement officers, and refuge managers. Entering these competitive fields requires collegiate coursework in biology, specialized field certifications, and hands-on seasonal internship experience.",
       "socratic_questions": [
         "What technical computer skills like geographic information systems do modern wildlife biologists use daily?",
-        "How do the legal responsibilities of a state conservation officer compare with municipal police officers?",
-        "Why is completing volunteer or seasonal technician work vital before applying to permanent conservation positions?"
+        "In what specific ways do the legal responsibilities of a state conservation officer compare with municipal police officers?",
+        "Why is completing volunteer or seasonal technician work vital before applying to permanent conservation positions?",
+        "Which daily responsibilities separate a state conservation law enforcement officer from a research wildlife biologist?",
+        "What coursework and seasonal field technician hours qualify a graduate for Associate Wildlife Biologist certification?",
+        "What field safety certifications must a fisheries technician complete before operating electrofishing boats or chainsaws?",
+        "Under what seasonal conditions do entry-level wildlife technicians log remote telemetry data and habitat measurements?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Working as a game warden or wildlife biologist involves simply hunting and fishing all day.",
+          "fact": "Wildlife professionals spend extensive hours analyzing biometric data, writing reports, conducting laboratory tests, and enforcing statutes."
+        },
+        {
+          "misconception": "Wildlife biologists spend all of their working hours outdoors hiking and handling wild animals in remote parks.",
+          "fact": "Wildlife biologists spend much of their time analyzing statistical data, mapping GIS habitats, writing grants, and educating the public."
+        },
+        {
+          "misconception": "Conservation officers and state game wardens only check hunting licenses and never need formal training in biology or law.",
+          "fact": "State game wardens are sworn peace officers who complete criminal justice academy training alongside coursework in wildlife management."
+        },
+        {
+          "misconception": "A bachelor's degree alone guarantees immediate hiring as a senior research biologist with a state or federal wildlife agency.",
+          "fact": "Most senior research and management roles require seasonal field technician experience and often a graduate degree in biology."
+        },
+        {
+          "misconception": "Fisheries and wildlife management careers exist only within state fish and game agencies or the U.S. Fish and Wildlife Service.",
+          "fact": "Wildlife professionals also work for timber firms, environmental consultants, tribal nations, universities, and conservation nonprofits."
+        }
       ]
     }
   ],

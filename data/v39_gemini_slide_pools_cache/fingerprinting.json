@@ -1,0 +1,167 @@
+{
+  "badge_slug": "fingerprinting",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Ancient Babylonians and Chinese officials pressed clay and ink fingerprints onto contracts centuries before modern policing.",
+          "misconception": "Fingerprinting was invented in the twentieth century by the FBI to track interstate bank robbers."
+        },
+        {
+          "fact": "Bertillonage measured eleven skeletal body dimensions, which failed when two different inmates shared nearly identical sizes.",
+          "misconception": "Alphonse Bertillon's anthropometry system identified suspects by classifying their fingerprint ridge patterns."
+        },
+        {
+          "fact": "Civil identification verifies identity for background checks, military service, disaster victim recovery, and employment.",
+          "misconception": "Civil fingerprint records are only collected when a person is suspected of committing a misdemeanor offense."
+        },
+        {
+          "fact": "Vucetich created his system in Argentina while Henry independently developed the English classification system in India.",
+          "misconception": "Juan Vucetich and Sir Edward Henry developed the exact same ten-finger classification formula together in London."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What breakthrough allowed Sir Edward Henry's classification system to replace Bertillon body measurements in 1901?",
+        "Which legal purpose separates a civil background fingerprint check from a criminal booking record?",
+        "Why did the 1903 Will and William West prison case expose the failure of anthropometric measurements?",
+        "Where are civil fingerprints stored when a citizen applies for a federal security clearance or teaching license?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "AFIS generates a ranked candidate list of similar prints, and a trained fingerprint examiner must verify the final match.",
+          "misconception": "An AFIS computer automatically declares a courtroom-ready match without any review by a human forensic examiner."
+        },
+        {
+          "fact": "Biometric access readers convert ridge features into a numeric template and discard the original fingerprint image.",
+          "misconception": "A smartphone or building biometric reader saves a full photograph of your fingerprint that hackers can print out."
+        },
+        {
+          "fact": "Access control scanners perform a local one-to-one check against only the authorized templates enrolled in that system.",
+          "misconception": "Biometric door locks search the FBI national criminal database every time an employee badges into an office."
+        },
+        {
+          "fact": "Well-designed biometric systems allow users to enroll backup fingers or use a secondary PIN when skin is damaged.",
+          "misconception": "Dirt, moisture, or a minor cut on a fingertip will permanently lock a user out of a biometric security system."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What database search difference separates a one-to-many AFIS query from a one-to-one biometric door lock check?",
+        "Why do commercial biometric access scanners store an encrypted mathematical template instead of a raw fingerprint image?",
+        "Under what condition does an AFIS search require a human latent print examiner to make the final verification?",
+        "Which physical traits besides friction ridges can a modern multimodal biometric system measure to verify a traveler?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Random womb pressures and fluid currents during fetal development give identical twins unique ridge minutiae.",
+          "misconception": "Identical twins have identical fingerprints because their bodies develop from the exact same fertilized egg and DNA."
+        },
+        {
+          "fact": "Friction ridges grow back in their original pattern unless damage penetrates one millimeter deep into the dermal papillae.",
+          "misconception": "Scraping the outer epidermis layer of skin permanently erases your fingerprints and creates a brand-new pattern."
+        },
+        {
+          "fact": "Fingerprint patterns form before birth and remain unchanged until decomposition after death, only expanding in overall size.",
+          "misconception": "A person's fingerprint pattern changes from loops into whorls as their hands stretch and age over a lifetime."
+        },
+        {
+          "fact": "Positive identification requires matching individual ridge minutiae such as bifurcations, ridge endings, and short ridges.",
+          "misconception": "Matching the general arch, loop, or whorl pattern is enough to positively identify a single person from a print."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which specific anatomical layer of skin must be damaged for a cut or burn to leave a permanent scar on a fingerprint?",
+        "Why do identical twins share the exact same DNA profile yet develop completely different friction ridge minutiae?",
+        "What happens to the arrangement of ridge endings and bifurcations as a person's hand grows from infancy to adulthood?",
+        "Which body surfaces besides the fingertips and palms contain papillary ridges that can positively identify a person?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Rolling a finger more than once smudges the delicate friction ridges and ruins the minutiae needed for classification.",
+          "misconception": "Rolling a finger back and forth twice across the paper card produces a darker and clearer fingerprint impression."
+        },
+        {
+          "fact": "Excess ink or graphite fills in the valleys between friction ridges and turns the print into an unreadable dark blotch.",
+          "misconception": "Applying a thick layer of ink or heavy pencil graphite makes the tiny ridge details stand out more clearly."
+        },
+        {
+          "fact": "Deltas often sit on the sides of the finger, so each digit must be rolled smoothly from nail edge to nail edge.",
+          "misconception": "Pressing a fingertip straight down captures all the deltas needed to classify a whorl or loop on a ten-print card."
+        },
+        {
+          "fact": "Simultaneous plain impressions verify that all rolled fingers were printed in the proper sequence without switching hands.",
+          "misconception": "Plain impressions at the bottom of a fingerprint card are spare boxes used only when a rolled print gets smudged."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why should thumbs be rolled toward the center of the body while the other four fingers are rolled away from the body?",
+        "What defect appears on an 8-by-8 fingerprint card when a Scout presses too hard or uses too much ink on the slab?",
+        "Which verification role do the plain flat impressions at the bottom of a standard ten-print card serve?",
+        "Where must the finger start and stop during a rolled impression so that every delta on a whorl is captured?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Radial and ulnar loops depend on whether the ridges flow toward the thumb radius bone or the little-finger ulna bone.",
+          "misconception": "A loop that opens toward the right edge of a fingerprint card is always classified as an ulnar loop."
+        },
+        {
+          "fact": "Plain arches flow in one side and out the other with a gentle rise, containing no deltas and no true core.",
+          "misconception": "Every fingerprint pattern contains at least one core and one triangular delta near the lower corner."
+        },
+        {
+          "fact": "Loops make up about sixty to sixty-five percent of all fingerprints, while arches account for only about five percent.",
+          "misconception": "Arches are the most common fingerprint pattern found across the human population at nearly sixty-five percent."
+        },
+        {
+          "fact": "A double loop is a subcategory of the whorl family because the overall pattern contains two separate deltas.",
+          "misconception": "A double loop whorl is classified as two separate loops because its ridges form two distinct loop shoulders."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which bone of the forearm determines whether a loop on a right-hand print is classified as radial or ulnar?",
+        "What number of deltas and recurving ridges distinguishes a whorl pattern from a loop or an arch?",
+        "Why does a loop that slants toward the thumb count as a radial loop on both the left hand and the right hand?",
+        "What ridge feature in the center of the print separates a tented arch from a smooth plain arch?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Latent print examiners work primarily in crime laboratories comparing ridge minutiae and testifying as expert witnesses.",
+          "misconception": "A forensic latent print examiner spends most of the workday chasing suspects and making arrests on patrol."
+        },
+        {
+          "fact": "IAI Certified Latent Print Examiner status requires a degree, years of full-time casework, and a rigorous competency exam.",
+          "misconception": "Anyone who completes a weekend fingerprinting workshop is immediately qualified to testify as a certified expert."
+        },
+        {
+          "fact": "Private technology firms, border agencies, banks, and defense contractors hire biometric engineers and identity analysts.",
+          "misconception": "Fingerprint careers exist only inside local police departments and state or federal crime laboratories."
+        },
+        {
+          "fact": "Courts require trained human examiners to evaluate distorted crime scene prints and defend every conclusion under oath.",
+          "misconception": "Automated computer matching has eliminated the need for human latent print examiners in modern forensic labs."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which professional organization administers the proficiency test for Certified Latent Print Examiners in the United States?",
+        "What laboratory duties separate a forensic latent print examiner from a crime scene technician who dusts for prints?",
+        "Why must a latent print analyst pass blind proficiency tests and courtroom testimony evaluations before working solo?",
+        "Which mathematics and computer science skills does a biometric systems engineer use that a crime lab analyst may not?"
+      ],
+      "req_id": "6"
+    }
+  ]
+}

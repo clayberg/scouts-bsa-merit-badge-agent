@@ -1,8 +1,8 @@
 # Citizenship in Society Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** None  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Citizenship%20in%20Society.pdf  
+**Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/citizenship-in-society/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -31,8 +31,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Document and discuss with your counselor what leadership means to you. Share what it means to make ethical decisions. (a) Research and share with your counselor an individual you feel has demonstrated positive leadership while having to make an ethical decision. (It could be someone in history, a family member, a teacher, a coach, a counselor, a clergy member, a Scoutmaster, etc.) (b) Explain what decision and/or options that leader had, why you believe they chose their final course of action, and the outcome of that action
-- [ ] **Station Req 4:** Repeat the Scout Oath and Scout Law for your counselor. Choose TWO of the following scenarios and discuss what you could do as a Scout to demonstrate leadership and your understanding of what it means to help others who may seem different from you: (a) Scenario 1: While at camp, a youth accidentally spills food on another camper. The camper who gets spilled on gets angry and says something that is offensive to people with disabilities; their friends laugh. What could/should you do? (b) Scenario 2: Your friend confides in you that some students in school are making insulting comments about one of their identities, and that those same students created a fake social media account to impersonate your friend online and post messages. What could/should you do? (c) Scenario 3: A new student in your class was born in another country (or has a parent who was born in another country). Your friends make rude comments to the student about their speech or clothes and tell the student to "go back home where you came from." What could/should you do?
+- [ ] **Station Req 2:** Scout must individually discuss mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -481,7 +481,7 @@
 **Official Requirement 9e:** Standing up for others.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Organizer (Concept & Examples Notes):** Req 9e Structured Technical Study & Explanation Matrix (Citizenship in Society Standing Principles)
 - **Common Myth:** Defending others in public always causes more embarrassment for the victim than staying silent.
-- **Pamphlet Fact:** Intervening to defend someone from disrespect requires moral conviction, calm assertion, and consistent follow through.
+- **Pamphlet Fact:** Intervening to defend someone from disrespect requires moral conviction, calm assertion, and consistent follow.
 
 | Req 9e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

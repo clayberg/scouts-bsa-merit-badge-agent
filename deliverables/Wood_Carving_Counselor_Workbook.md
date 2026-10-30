@@ -1,8 +1,8 @@
 # Wood Carving Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Wood%20Carving.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/wood-carving/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/wood-carving/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -26,8 +26,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Do the following: (a) Explain to your counselor the hazards you are most likely to encounter while wood carving, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards. (b) Show that you know first aid for injuries that could occur while wood carving, including minor cuts and scratches and splinters.
-- [ ] **Station Req 3:** Do the following: (a) Explain to your counselor, orally or in writing, the care and use of five types of tools that you may use in a carving project. (b) Tell your counselor how to care for and use several types of sharpening devices, then demonstrate that you know how to use these devices.
+- [ ] **Station Req 1:** Scout must individually demonstrate mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -92,10 +92,10 @@
 - **Pamphlet Fact:** Scouts must earn the Totin Chip before carrying or using pocketknives at camp.
 
 **Gear & Readiness Checklist:**
-- [ ] Sharp pocketknife or carving tools, honing stone, leather strop, and cut-resistant thumb/kevar glove
-- [ ] Prepared basswood blank, vegetable-tanned leather, or soaked reed stock for Earn The Totin' Chip Recognition
-- [ ] Totin' Chip safety card, carving bench stop, and layout pattern
-- [ ] Protective finish, stamps/mallet, and tool sheath for safe stowage
+- [ ] Sharp pocketknife or carving tools, honing stone, leather strop, and cut-resistant thumb/kevar glove.
+- [ ] Prepared basswood blank, vegetable-tanned leather, or soaked reed stock for Earn The Totin' Chip Recognition.
+- [ ] Totin' Chip safety card, carving bench stop, and layout pattern.
+- [ ] Protective finish, stamps/mallet, and tool sheath for safe stowage.
 
 ![Wood Carving Requirement 2 figure showing close folding blades fully before passing or carrying pocketknives across the carving area.](/assets/pamphlet_images/wood_carving_p007_img1.png)
 
@@ -180,10 +180,10 @@
 - **Pamphlet Fact:** Paring cuts use only closing fingers against an anchored thumb to control cut depth.
 
 **Gear & Readiness Checklist:**
-- [ ] Sharp pocketknife or carving tools, honing stone, leather strop, and cut-resistant thumb/kevar glove
-- [ ] Prepared basswood blank, vegetable-tanned leather, or soaked reed stock for Piece of Scrap Wood
-- [ ] Totin' Chip safety card, carving bench stop, and layout pattern
-- [ ] Protective finish, stamps/mallet, and tool sheath for safe stowage
+- [ ] Sharp pocketknife or carving tools, honing stone, leather strop, and cut-resistant thumb/kevar glove.
+- [ ] Prepared basswood blank, vegetable-tanned leather, or soaked reed stock for Piece of Scrap Wood.
+- [ ] Totin' Chip safety card, carving bench stop, and layout pattern.
+- [ ] Protective finish, stamps/mallet, and tool sheath for safe stowage.
 
 ![A sharp carving knife slices a thin wood shaving during a controlled forward push cut.](/assets/pamphlet_images/wood_carving_p039_img1.png)
 

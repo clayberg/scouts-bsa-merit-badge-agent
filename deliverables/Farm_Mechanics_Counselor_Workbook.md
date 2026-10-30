@@ -1,8 +1,8 @@
 # Farm Mechanics Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Farm%20Mechanics.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/farm-mechanics/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/farm-mechanics/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -299,10 +299,10 @@
 - **Pamphlet Fact:** Scheduled preventive maintenance costs significantly less than emergency field repairs during planting season.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Farm Mechanics merit badge pamphlet and workbook organizer for Req 5
-- [ ] Farm Mechanics field toolkit, inspection gauge, and protective eyewear for Implement Dealership Maintenance Consultation
-- [ ] Manufacturer technical manual or BSA reference guide for the system studied
-- [ ] Completed observation table and counselor review notes for Req 5
+- [ ] Official Farm Mechanics merit badge pamphlet and workbook organizer for Req 5.
+- [ ] Farm Mechanics field toolkit, inspection gauge, and protective eyewear for Implement Dealership Maintenance Consultation.
+- [ ] Manufacturer technical manual or BSA reference guide for the system studied.
+- [ ] Completed observation table and counselor review notes for Req 5.
 
 ![A technician inspects electrical wiring and terminals on an engine to ensure conductivity.](/assets/pamphlet_images/farm_mechanics_p052_img1.png)
 

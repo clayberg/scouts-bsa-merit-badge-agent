@@ -1,8 +1,8 @@
 # Music Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Music%20Bugling.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/music/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/music/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -94,9 +94,9 @@
 - **Pamphlet Fact:** Classical interpreters apply subtle tempo rubato and expressive dynamics to convey deep emotional storytelling.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Music Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Live Performance)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Live Performance
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Music Merit Badge Pamphlet: Live Performance.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Live Performance.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Music Requirement 3 figure showing specific chord progressions and rhythm patterns define traditional genres like blues.](/assets/pamphlet_images/music_p012_img1.png)
 

@@ -78,9 +78,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts frequently believe that any warm-blooded vertebrate animal qualifies as a true mammal.",
-        "fact": "Birds share warm-blooded endothermy with mammals but lack hair and true mammary glands.",
-        "myth": "Scouts frequently believe that any warm-blooded vertebrate animal qualifies as a true mammal.",
-        "fact_correction": "Birds share warm-blooded endothermy with mammals but lack hair and true mammary glands."
+        "fact": "Birds share warm-blooded endothermy with mammals but lack hair and true mammary glands."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -117,38 +115,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Invertebrates Without a Backbone",
-        "right_header": "Vertebrate Classes in Phylum Chordata",
+        "left_header": "Req 1: Defining Animal Phyla",
+        "right_header": "Req 1: Identify the Chordata Phylum",
         "left_points": [
           "Defining Animal Phyla: Phylum (plural, phyla) This very broad, basic division comprises animals with one or more characteristics in common (p. 13).",
           "Debates in Zoological Classification: Although all zoologists use the same system of classifying animals, they do not always agree on how the classification should be done (p. 13).",
           "Backboned Animals in Chordata: All animals with backbones belong to the phylum Chordata (p. 13)."
         ],
         "right_points": [
-          "Step 1 - Identify the Chordata Phylum: All animals with backbones belong to the phylum Chordata (p. 13).",
-          "Step 2 - Compare the Five Vertebrate Classes: Chordata, for example, includes Classes Pisces (fish), Amphibia (amphibians), Reptilia (reptiles), Aves (birds), and Mammalia (mammals) (p. 13).",
-          "Step 3 - Verify True Hair and Milk: Mammals are in a separate class because they are the only animals that produce milk for their young and have true hair (p. 13)."
+          "Identify the Chordata Phylum: All animals with backbones belong to the phylum Chordata (p. 13).",
+          "Compare the Five Vertebrate Classes: Chordata, for example, includes Classes Pisces (fish), Amphibia (amphibians), Reptilia (reptiles), Aves (birds), and Mammalia (mammals) (p. 13).",
+          "Verify True Hair and Milk: Mammals are in a separate class because they are the only animals that produce milk for their young and have true hair (p. 13)."
         ],
         "rows": [
           {
-            "attribute": "Defining Animal Phyla",
+            "attribute": "Vertebrate Anatomy",
             "left": "Defining Animal Phyla: Phylum (plural, phyla) This very broad, basic division comprises animals with one or more characteristics in common (p. 13).",
-            "right": "Step 1 - Identify the Chordata Phylum: All animals with backbones belong to the phylum Chordata (p. 13)."
+            "right": "Identify the Chordata Phylum: All animals with backbones belong to the phylum Chordata (p. 13)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Mammary Glands",
             "left": "Debates in Zoological Classification: Although all zoologists use the same system of classifying animals, they do not always agree on how the classification should be done (p. 13).",
-            "right": "Step 2 - Compare the Five Vertebrate Classes: Chordata, for example, includes Classes Pisces (fish), Amphibia (amphibians), Reptilia (reptiles), Aves (birds), and Mammalia (mammals) (p. 13)."
+            "right": "Compare the Five Vertebrate Classes: Chordata, for example, includes Classes Pisces (fish), Amphibia (amphibians), Reptilia (reptiles), Aves (birds), and Mammalia (mammals) (p. 13)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Body Pelage",
             "left": "Backboned Animals in Chordata: All animals with backbones belong to the phylum Chordata (p. 13).",
-            "right": "Step 3 - Verify True Hair and Milk: Mammals are in a separate class because they are the only animals that produce milk for their young and have true hair (p. 13)."
+            "right": "Verify True Hair and Milk: Mammals are in a separate class because they are the only animals that produce milk for their young and have true hair (p. 13)."
           }
         ]
       },
       "worked_example": {
-        "title": "Mammal Study Req 1 Exemplar Workbook Entry: Defining Characteristics of Class Mammalia",
+        "title": "Mammal Study Req 1 Exemplar Workbook Entry: Defining",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Defining Animal Phyla": "Phylum (plural, phyla) This very broad, basic division comprises animals with one or more characteristics in common (p. 13).",
@@ -190,8 +188,34 @@
       "pamphlet_summary": "Living organisms divide into broad groups based on cellular structure and skeletal anatomy. True mammals possess mammary glands, specialized hair follicles, and three middle ear ossicles.",
       "socratic_questions": [
         "Why does a whale share more anatomical traits with a mouse than a trout?",
-        "How do middle ear ossicles aid mammalian survival compared to reptilian acoustic anatomy?",
-        "What physiological advantages do true hair follicles give mammals across temperate winter climates?"
+        "In what specific ways do middle ear ossicles aid mammalian survival compared to reptilian acoustic anatomy?",
+        "What physiological advantages do true hair follicles give mammals across temperate winter climates?",
+        "Which anatomical feature separates an ectothermic reptile with a backbone from an endothermic mammal?",
+        "What skeletal evidence in a skull specimen confirms mammalian ancestry even when pelage is absent?",
+        "Under what evolutionary condition do marine cetaceans retain hair follicles despite swimming in open ocean?",
+        "Why is it dangerous to handle found vertebrate skulls or pelts in the field without disposable nitrile gloves?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts frequently believe that any warm-blooded vertebrate animal qualifies as a true mammal.",
+          "fact": "Birds share warm-blooded endothermy with mammals but lack hair and true mammary glands."
+        },
+        {
+          "misconception": "All mammals give birth to live young rather than laying hard or leathery eggs on land.",
+          "fact": "Monotremes such as the platypus and echidna lay leathery eggs, yet they remain true mammals because they nurse young with milk."
+        },
+        {
+          "misconception": "Whales and dolphins are classified as large ocean fish because they lack visible fur and breathe through blowholes.",
+          "fact": "Cetaceans are warm-blooded vertebrates with lungs, mammary glands, and vestigial hair follicles present during fetal development."
+        },
+        {
+          "misconception": "Bats are nocturnal birds that evolved leathery skin instead of feathers on their wings.",
+          "fact": "Bats belong to the mammalian order Chiroptera, possessing fur, differentiated teeth, and mammary glands to feed their pups."
+        },
+        {
+          "misconception": "Invertebrates are simply small vertebrates with soft, flexible backbones made of cartilage instead of bone.",
+          "fact": "Invertebrates completely lack a vertebral column and dorsal nerve cord casing, relying instead on exoskeletons or hydrostatic pressure."
+        }
       ]
     },
     {
@@ -262,9 +286,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Common vernacular names provide sufficient precision for field research and professional wildlife studies.",
-        "fact": "Binomial Latin nomenclature prevents regional confusion by establishing universal global scientific species names.",
-        "myth": "Common vernacular names provide sufficient precision for field research and professional wildlife studies.",
-        "fact_correction": "Binomial Latin nomenclature prevents regional confusion by establishing universal global scientific species names."
+        "fact": "Binomial Latin nomenclature prevents regional confusion by establishing universal global scientific species names."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -301,38 +323,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Broad Kingdom and Phylum Ranks",
-        "right_header": "Specific Genus and Species Ranks",
+        "left_header": "Req 2: Vast Diversity of Animal Life",
+        "right_header": "Req 2: Group Animals by Shared Traits",
         "left_points": [
           "Vast Diversity of Animal Life: A million or more different kinds of animals are now alive (p. 13).",
           "Need for Scientific Naming: The scientist needs to have an orderly way to identify animals by name (p. 13).",
           "Grouping by Shared Traits: The system of classification was developed to separate animals by their differences and groups them according to the ways they are alike (p. 13)."
         ],
         "right_points": [
-          "Step 1 - Group Animals by Shared Traits: The system of classification was developed to separate animals by their differences and groups them according to the ways they are alike (p. 13).",
-          "Step 2 - Distinguish Marsupial Birth Patterns: \u0007Marsupials, like the kangaroo (right) and the opossum, give birth to young (p. 13).",
-          "Step 3 - Observe Pouch and Fur Protection: Young in many species typically are protected by a pouch (marsupium), while others cling to the mother's fur (p. 13)."
+          "Group Animals by Shared Traits: The system of classification was developed to separate animals by their differences and groups them according to the ways they are alike (p. 13).",
+          "Distinguish Marsupial Birth Patterns: \u0007Marsupials, like the kangaroo (right) and the opossum, give birth to young (p. 13).",
+          "Observe Pouch and Fur Protection: Young in many species typically are protected by a pouch (marsupium), while others cling to the mother's fur (p. 13)."
         ],
         "rows": [
           {
-            "attribute": "Vast Diversity of Animal Life",
+            "attribute": "Hierarchical Levels",
             "left": "Vast Diversity of Animal Life: A million or more different kinds of animals are now alive (p. 13).",
-            "right": "Step 1 - Group Animals by Shared Traits: The system of classification was developed to separate animals by their differences and groups them according to the ways they are alike (p. 13)."
+            "right": "Group Animals by Shared Traits: The system of classification was developed to separate animals by their differences and groups them according to the ways they are alike (p. 13)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Class Placement",
             "left": "Need for Scientific Naming: The scientist needs to have an orderly way to identify animals by name (p. 13).",
-            "right": "Step 2 - Distinguish Marsupial Birth Patterns: \u0007Marsupials, like the kangaroo (right) and the opossum, give birth to young (p. 13)."
+            "right": "Distinguish Marsupial Birth Patterns: \u0007Marsupials, like the kangaroo (right) and the opossum, give birth to young (p. 13)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Binomial Nomenclature",
             "left": "Grouping by Shared Traits: The system of classification was developed to separate animals by their differences and groups them according to the ways they are alike (p. 13).",
-            "right": "Step 3 - Observe Pouch and Fur Protection: Young in many species typically are protected by a pouch (marsupium), while others cling to the mother's fur (p. 13)."
+            "right": "Observe Pouch and Fur Protection: Young in many species typically are protected by a pouch (marsupium), while others cling to the mother's fur (p. 13)."
           }
         ]
       },
       "worked_example": {
-        "title": "Mammal Study Req 2 Exemplar Workbook Entry: Taxonomic Classification of Mammals",
+        "title": "Mammal Study Req 2 Exemplar Workbook Entry: Taxonomic",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Vast Diversity of Animal Life": "A million or more different kinds of animals are now alive (p. 13).",
@@ -375,7 +397,33 @@
       "socratic_questions": [
         "Why do scientists rely on Latin nomenclature instead of regional common animal names?",
         "How does physical bone morphology establish phylogenetic relationships among diverse mammalian orders?",
-        "What shared diagnostic traits place both white-tailed deer and wolves in phylum Chordata?"
+        "What shared diagnostic traits place both white-tailed deer and wolves in phylum Chordata?",
+        "What dental formula measurement distinguishes a member of order Carnivora from a member of order Rodentia?",
+        "Which formatting rule governs the capitalization and italicization of a binomial species name in a field log?",
+        "At which taxonomic rank do a North American beaver and an Eastern gray squirrel first diverge from each other?",
+        "What reference guide should a Scout carry to verify family and genus names when cellular service is unavailable?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Common vernacular names provide sufficient precision for field research and professional wildlife studies.",
+          "fact": "Binomial Latin nomenclature prevents regional confusion by establishing universal global scientific species names."
+        },
+        {
+          "misconception": "Rabbits and hares belong to the order Rodentia because they have chisel-shaped front teeth for gnawing plants.",
+          "fact": "Rabbits and hares belong to the order Lagomorpha because they possess four upper incisors rather than the two found in rodents."
+        },
+        {
+          "misconception": "Both words in a scientific binomial name such as Homo Sapiens must be capitalized in biological logs.",
+          "fact": "Binomial nomenclature requires capitalizing only the genus name while keeping the specific epithet in lowercase italics."
+        },
+        {
+          "misconception": "Two mammals that share the same taxonomic order are closely related enough to interbreed and produce fertile offspring.",
+          "fact": "Fertile interbreeding generally occurs only within a single species, whereas an order groups diverse families like bears and seals."
+        },
+        {
+          "misconception": "The phylum Chordata contains only animals with bony spines such as mammals, birds, reptiles, and amphibians.",
+          "fact": "Phylum Chordata includes all animals with a notochord at some life stage, encompassing tunicates, lancelets, and subphylum Vertebrata."
+        }
       ]
     },
     {
@@ -429,9 +477,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
             "misconception": "Different elevations within the same forest parcel support identical mammal species and population numbers.",
-            "fact": "Elevation shifts change ambient temperature, vegetation types, and available forage, altering small mammal distribution.",
-            "myth": "Different elevations within the same forest parcel support identical mammal species and population numbers.",
-            "fact_correction": "Elevation shifts change ambient temperature, vegetation types, and available forage, altering small mammal distribution."
+            "fact": "Elevation shifts change ambient temperature, vegetation types, and available forage, altering small mammal distribution."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -499,9 +545,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
             "misconception": "A single walk through a plot reveals every resident mammal living within the boundary.",
-            "fact": "Nocturnal habits and secretive behaviors require repeated visits at varied hours to observe complete fauna.",
-            "myth": "A single walk through a plot reveals every resident mammal living within the boundary.",
-            "fact_correction": "Nocturnal habits and secretive behaviors require repeated visits at varied hours to observe complete fauna."
+            "fact": "Nocturnal habits and secretive behaviors require repeated visits at varied hours to observe complete fauna."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -573,9 +617,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
             "misconception": "Nongame mammals lack significant ecological value because humans do not hunt or harvest them.",
-            "fact": "Nongame mammals like bats, shrews, and voles control pest insects and disperse critical plant seeds.",
-            "myth": "Nongame mammals lack significant ecological value because humans do not hunt or harvest them.",
-            "fact_correction": "Nongame mammals like bats, shrews, and voles control pest insects and disperse critical plant seeds."
+            "fact": "Nongame mammals like bats, shrews, and voles control pest insects and disperse critical plant seeds."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -664,9 +706,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Wildlife field studies produce meaningful population counts only when animals are directly seen.",
-        "fact": "Systematic track and scat counts provide reliable indirect census indices without disturbing shy animals.",
-        "myth": "Wildlife field studies produce meaningful population counts only when animals are directly seen.",
-        "fact_correction": "Systematic track and scat counts provide reliable indirect census indices without disturbing shy animals."
+        "fact": "Systematic track and scat counts provide reliable indirect census indices without disturbing shy animals."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -703,8 +743,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Dual Habitat Comparative Field Sur",
-        "right_header": "Req 3b: Longitudinal Four Acre Plot Census",
+        "left_header": "Req 3a: Dual Habitat Comparative Field",
+        "right_header": "Req 3b: Longitudinal Four Acre Plot",
         "left_points": [
           "(3a) Dual Habitat Comparative Field Survey: Observing across two contrasting habitats or elevations over six total hours highlights how ecological conditions shape mammal communities. Scouts log species diversity and relative abundance across each location."
         ],
@@ -713,29 +753,29 @@
         ],
         "rows": [
           {
-            "attribute": "Two-Habitat Field Observation Survey",
-            "left": "(3a) Two-Habitat Field Observation Survey: Animals may share a single pathway through the woods, across a meadow, or up a hillside, and use that trail for many years (p. 27).",
-            "right": "(3b) Five-Day Four-Acre Mammal Study: Look for evidence of animal tracks, droppings, and hair on any well-used pathway through the brush (p. 27)."
+            "attribute": "Habitat Contrast",
+            "left": "(3a) Dual Habitat Comparative Field Survey: Observing across two contrasting habitats or elevations over six total hours highlights how ecological conditions shape mammal communities. Scouts log species diversity and relative abundance across each location.",
+            "right": "(3b) Longitudinal Four Acre Plot Census: Surveying a designated four acre parcel across five separate days reveals temporal movement and daily habitat usage patterns. Repeated visits demonstrate how weather, time, and human presence alter mammal activity."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Tracks, Scat, and Hair Clues: Look for evidence of animal tracks, droppings, and hair on any well-used pathway through the brush (p. 27).",
-            "right": "(3c) Local Nongame Mammal Life History: Find a secluded spot a little bit off the trail to observe the mammals that pass (p. 27)."
+            "attribute": "Sign Identification",
+            "left": "Req 3a: Dual Habitat Comparative: Observing across two contrasting habitats or elevations over six total hours highlights how ecological conditions shape mammal communities. Scouts log species diversity and relative abundance across each location.",
+            "right": "Req 3b: Longitudinal Four Acre Plot: Surveying a designated four acre parcel across five separate days reveals temporal movement and daily habitat usage patterns. Repeated visits demonstrate how weather, time, and human presence alter mammal activity."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Choosing Off-Trail Observation Spots: Find a secluded spot a little bit off the trail to observe the mammals that pass (p. 27).",
-            "right": "Step 3 - Inspect Rubbings, Gnawing, and Scratchings: Evidence of mammals also may be found in signs of rubbings, gnawing, and scratching (p. 27)."
+            "attribute": "Elevation Gradients",
+            "left": "Req 3c: Native Nongame Mammal Life: Researching an unhunted mammal species details its reproductive cycle, dietary needs, home range, and ecological niche. The report contrasts historical pre-settlement habitats with modern human-altered landscapes.",
+            "right": "Sign Identification: Mammal tracks, droppings, and burrows confirm presence even when target animals remain unseen."
           }
         ]
       },
       "worked_example": {
-        "title": "Mammal Study Req 3 Exemplar Workbook Entry: Field Observation and Life Histories",
+        "title": "Mammal Study Req 3 Exemplar Workbook Entry: Field",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Dual Habitat Comparative Field Su": "Observing across two contrasting habitats or elevations over six total hours highlights how ecological conditions shape mammal communities. Scouts log species diversity and relative abundance across each location.",
-          "Req 3b - Longitudinal Four Acre Plot Censu": "Surveying a designated four acre parcel across five separate days reveals temporal movement and daily habitat usage patterns. Repeated visits demonstrate how weather, time, and human presence alter mammal activity.",
-          "Req 3c - Native Nongame Mammal Life Histor": "Researching an unhunted mammal species details its reproductive cycle, dietary needs, home range, and ecological niche. The report contrasts historical pre-settlement habitats with modern human-altered landscapes."
+          "Req 3a - Dual Habitat Comparative": "Observing across two contrasting habitats or elevations over six total hours highlights how ecological conditions shape mammal communities. Scouts log species diversity and relative abundance across each location.",
+          "Req 3b - Longitudinal Four Acre Plot": "Surveying a designated four acre parcel across five separate days reveals temporal movement and daily habitat usage patterns. Repeated visits demonstrate how weather, time, and human presence alter mammal activity.",
+          "Req 3c - Native Nongame Mammal Life": "Researching an unhunted mammal species details its reproductive cycle, dietary needs, home range, and ecological niche. The report contrasts historical pre-settlement habitats with modern human-altered landscapes."
         },
         "sample_output": "Field Observation and Life Histories: Animals may share a single pathway through the woods, across a meadow, or up a hillside, and use that trail for many years (p. 27).",
         "counselor_tip": "For Mammal Study Requirement 3 (Field Observation and Life Histories), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33))."
@@ -772,7 +812,33 @@
       "socratic_questions": [
         "Why do certain rodent species flourish in wet marshlands while avoiding oak ridges?",
         "How does canopy density influence the nocturnal foraging patterns of regional forest herbivores?",
-        "What signs indicate that a predator has established a permanent hunting territory nearby?"
+        "What signs indicate that a predator has established a permanent hunting territory nearby?",
+        "Which track measurement distinguishes a canine print with visible claw marks from a feline print in soft mud?",
+        "Where should a Scout position an observation blind relative to prevailing wind and ecotones at dawn or dusk?",
+        "What happens to mammal species diversity when moving from a lowland riparian zone to an exposed alpine ridge?",
+        "Why is it dangerous to inspect fresh mammal scat or burrows closely without staying upwind and avoiding dust inhalation?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Wildlife field studies produce meaningful population counts only when animals are directly seen.",
+          "fact": "Systematic track and scat counts provide reliable indirect census indices without disturbing shy animals."
+        },
+        {
+          "misconception": "Midday sunlight provides the best hours for observing wild mammals because human visibility is at its peak.",
+          "fact": "Most wild mammals are crepuscular or nocturnal, making dawn and dusk the prime periods for sighting active wildlife."
+        },
+        {
+          "misconception": "Counting ten separate deer tracks along a muddy creek bank proves that ten individual deer live in that habitat.",
+          "fact": "A single animal pacing along a trail leaves dozens of prints, so observers must match stride length and track size to avoid double counts."
+        },
+        {
+          "misconception": "Large mammals can survive in any forest or grassland habitat as long as drinking water is nearby.",
+          "fact": "Each mammal species requires specific forage plants, thermal cover, denning substrates, and elevation tolerances to survive."
+        },
+        {
+          "misconception": "Domestic cat and dog prints always look completely different from bobcat and coyote tracks in the wild.",
+          "fact": "Wild and domestic relatives leave similar paw pads, requiring stride regularity and claw spacing measurements to tell them apart."
+        }
       ]
     },
     {
@@ -828,9 +894,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
             "misconception": "Taxidermy mounts and scientific study skins are prepared using identical stuffing and mounting methods.",
-            "fact": "Study skins are stuffed flat with cotton for drawer storage and standard anatomical measurement.",
-            "myth": "Taxidermy mounts and scientific study skins are prepared using identical stuffing and mounting methods.",
-            "fact_correction": "Study skins are stuffed flat with cotton for drawer storage and standard anatomical measurement."
+            "fact": "Study skins are stuffed flat with cotton for drawer storage and standard anatomical measurement."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -917,9 +981,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
             "misconception": "Close-up photographs taken in commercial zoos or petting enclosures satisfy wild mammal requirements.",
-            "fact": "Handbook guidelines require photographing free-ranging wild mammals in native habitats while recording environmental conditions.",
-            "myth": "Close-up photographs taken in commercial zoos or petting enclosures satisfy wild mammal requirements.",
-            "fact_correction": "Handbook guidelines require photographing free-ranging wild mammals in native habitats while recording environmental conditions."
+            "fact": "Handbook guidelines require photographing free-ranging wild mammals in native habitats while recording environmental conditions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -988,9 +1050,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
             "misconception": "Game mammals maintain stable population densities without regulated hunting seasons or forest management.",
-            "fact": "Regulated game management prevents herbivore overpopulation that degrades forest understories and causes herd starvation.",
-            "myth": "Game mammals maintain stable population densities without regulated hunting seasons or forest management.",
-            "fact_correction": "Regulated game management prevents herbivore overpopulation that degrades forest understories and causes herd starvation."
+            "fact": "Regulated game management prevents herbivore overpopulation that degrades forest understories and causes herd starvation."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1071,9 +1131,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
             "misconception": "Tracking pits attract only mammalian predators while excluding birds and common woodland rodents.",
-            "fact": "Properly baited tracking stations record footprints from diverse birds, insects, rodents, and medium carnivores.",
-            "myth": "Tracking pits attract only mammalian predators while excluding birds and common woodland rodents.",
-            "fact_correction": "Properly baited tracking stations record footprints from diverse birds, insects, rodents, and medium carnivores."
+            "fact": "Properly baited tracking stations record footprints from diverse birds, insects, rodents, and medium carnivores."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1148,9 +1206,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
             "misconception": "Natural history museums exist primarily to display mounted wildlife displays for public amusement.",
-            "fact": "Museums maintain vital scientific research archives used by biologists to track genetic and morphological changes.",
-            "myth": "Natural history museums exist primarily to display mounted wildlife displays for public amusement.",
-            "fact_correction": "Museums maintain vital scientific research archives used by biologists to track genetic and morphological changes."
+            "fact": "Museums maintain vital scientific research archives used by biologists to track genetic and morphological changes."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1216,9 +1272,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
             "misconception": "Children stories or fictional novels about animals provide valid source material for this report.",
-            "fact": "The review must analyze an authoritative non-fiction monograph detailing verified biological science and field data.",
-            "myth": "Children stories or fictional novels about animals provide valid source material for this report.",
-            "fact_correction": "The review must analyze an authoritative non-fiction monograph detailing verified biological science and field data."
+            "fact": "The review must analyze an authoritative non-fiction monograph detailing verified biological science and field data."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1297,9 +1351,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
             "misconception": "Carnivorous mammals receive their nourishment entirely independent of regional soil chemistry and fertility.",
-            "fact": "Soil minerals sustain plant growth, which feeds herbivorous prey that ultimately nourish carnivorous predators.",
-            "myth": "Carnivorous mammals receive their nourishment entirely independent of regional soil chemistry and fertility.",
-            "fact_correction": "Soil minerals sustain plant growth, which feeds herbivorous prey that ultimately nourish carnivorous predators."
+            "fact": "Soil minerals sustain plant growth, which feeds herbivorous prey that ultimately nourish carnivorous predators."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1442,9 +1494,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scientific study skins serve the same decorative purpose as commercial taxidermy trophy mounts.",
-        "fact": "Study skins preserve scientific morphometric dimensions and original fur colors flat in research museum drawers.",
-        "myth": "Scientific study skins serve the same decorative purpose as commercial taxidermy trophy mounts.",
-        "fact_correction": "Study skins preserve scientific morphometric dimensions and original fur colors flat in research museum drawers."
+        "fact": "Study skins preserve scientific morphometric dimensions and original fur colors flat in research museum drawers."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1480,14 +1530,14 @@
         "Step 4 - Counselor Presentation: Present the completed project data and practical research findings to your merit counselor."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Under the guidance of a nature",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Under the guidance of a nature.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Museum Study Skin Specimen Prepara",
-        "right_header": "Req 4d: Tracking Sandpit Construction And",
+        "left_header": "Req 4a: Museum Study Skin Specimen",
+        "right_header": "Req 4d: Tracking Sandpit Construction",
         "left_points": [
           "(4a) Museum Study Skin Specimen Preparation: Under licensed natural history museum guidance, scouts prepare two rodent study skins and preserve their skulls. The project contrasts round research study skins with posed lifelike public educational mounts.",
           "(4b) Wild Mammal Photographic Field Documentation: Photographing wild mammals in their natural environment demands patience, telephoto optics, and careful field logging. Each photograph requires recorded data detailing date, time, weather, distance, habitat, and observed behaviors.",
@@ -1500,30 +1550,30 @@
         ],
         "rows": [
           {
-            "attribute": "Preparing Museum Study Skins",
-            "left": "(4a) Preparing Museum Study Skins: It includes information about its species, sex, size, where and when it was found, and the type of preparation (p. 55).",
-            "right": "(4d) Building and Baiting Tracking Pits: A catalog gives the number assigned to each specimen (p. 55)."
+            "attribute": "Study Skin",
+            "left": "(4a) Museum Study Skin Specimen Preparation: Under licensed natural history museum guidance, scouts prepare two rodent study skins and preserve their skulls. The project contrasts round research study skins with posed lifelike public educational mounts.",
+            "right": "(4d) Tracking Sandpit Construction And Baiting: Scouts create a cleared, sifted tracking pit baited with non-toxic attractants to capture nocturnal animal tracks. Morning inspections record footprint dimensions, claw marks, tail drags, and associated visitor species."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(4b) Photographing Wild Mammals in Nature: Purposes of a Museum What good is a big collection of all these study skins, mounted specimens, and bones (p. 55).",
-            "right": "(4e) Natural History Museum Specimen Report: It includes information about its species, sex, size, where and when it was found, and the type of preparation (p. 55)."
+            "attribute": "Wildlife Photography",
+            "left": "(4b) Wild Mammal Photographic Field Documentation: Photographing wild mammals in their natural environment demands patience, telephoto optics, and careful field logging. Each photograph requires recorded data detailing date, time, weather, distance, habitat, and observed behaviors.",
+            "right": "(4e) Natural History Museum Curatorial Tour: Visiting a natural history repository illustrates how researchers clean, catalog, tag, and preserve mammal specimens. Scouts learn how voucher specimens document biodiversity shifts across historical centuries."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "(4c) Native Game Mammal Life History: Well, if you learn anything at all on your visit to a museum, it will have served its main purpose, education (p. 55).",
-            "right": "(4f) Mammal Species Book Review: Purposes of a Museum What good is a big collection of all these study skins, mounted specimens, and bones (p. 55)."
+            "attribute": "Tracking Sandpits",
+            "left": "(4c) Native Game Mammal Life History: This written study explores a recreationally hunted mammal such as the cottontail rabbit or white-tailed deer. The report covers feeding habits, reproductive rates, predator interactions, historical populations, and citations.",
+            "right": "(4f) Mammal Monograph Critical Book Review: Scouts read and evaluate a comprehensive 500-word book report analyzing an authoritative volume on one mammal species. The review addresses ecology, adaptation, habitat threats, and scientific research methodologies."
           }
         ]
       },
       "worked_example": {
-        "title": "Mammal Study Req 4 Exemplar Workbook Entry: Specimen Preservation and Field Projects",
+        "title": "Mammal Study Req 4 Exemplar Workbook Entry: Specimen",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 4a - Museum Study Skin Specimen Prepar": "Under licensed natural history museum guidance, scouts prepare two rodent study skins and preserve their skulls. The project contrasts round research study skins with posed lifelike public educational mounts.",
-          "Req 4b - Wild Mammal Photographic Field Do": "Photographing wild mammals in their natural environment demands patience, telephoto optics, and careful field logging. Each photograph requires recorded data detailing date, time, weather, distance, habitat, and observed behaviors.",
-          "Req 4c - Native Game Mammal Life History": "This written study explores a recreationally hunted mammal such as the cottontail rabbit or white-tailed deer. The report covers feeding habits, reproductive rates, predator interactions, historical populations, and citations.",
-          "Req 4d - Tracking Sandpit Construction And": "Scouts create a cleared, sifted tracking pit baited with non-toxic attractants to capture nocturnal animal tracks. Morning inspections record footprint dimensions, claw marks, tail drags, and associated visitor species."
+          "Req 4a - Museum Study Skin Specimen": "Under licensed natural history museum guidance, scouts prepare two rodent study skins and preserve their skulls. The project contrasts round research study skins with posed lifelike public educational mounts.",
+          "Req 4b - Wild Mammal Photographic": "Photographing wild mammals in their natural environment demands patience, telephoto optics, and careful field logging. Each photograph requires recorded data detailing date, time, weather, distance, habitat, and observed behaviors.",
+          "Req 4c - Native Game Mammal Life": "This written study explores a recreationally hunted mammal such as the cottontail rabbit or white-tailed deer. The report covers feeding habits, reproductive rates, predator interactions, historical populations, and citations.",
+          "Req 4d - Tracking Sandpit Construction": "Scouts create a cleared, sifted tracking pit baited with non-toxic attractants to capture nocturnal animal tracks. Morning inspections record footprint dimensions, claw marks, tail drags, and associated visitor species."
         },
         "sample_output": "Specimen Preservation and Field Projects: It includes information about its species, sex, size, where and when it was found, and the type of preparation (p. 55).",
         "counselor_tip": "For Mammal Study Requirement 4 (Specimen Preservation and Field Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58))."
@@ -1560,7 +1610,33 @@
       "socratic_questions": [
         "Why do museum research collections require scientific study skins instead of lifelike mounts?",
         "How does clear footprint geometry in tracking pits reveal wild animal gait patterns?",
-        "What role do soil nutrients play in supporting top carnivore biomass within forests?"
+        "What role do soil nutrients play in supporting top carnivore biomass within forests?",
+        "What standard four body measurements must be recorded in millimeters on a museum tag before skinning a rodent?",
+        "Which structural purpose differentiates a flat museum study skin in a research drawer from a lifelike taxidermy mount?",
+        "What camera shutter speed and focal length prevent motion blur while keeping a safe distance from wild mammals?",
+        "Why is it dangerous to bait a tracking pit or live trap with peanut butter without disinfecting equipment afterward?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scientific study skins serve the same decorative purpose as commercial taxidermy trophy mounts.",
+          "fact": "Study skins preserve scientific morphometric dimensions and original fur colors flat in research museum drawers."
+        },
+        {
+          "misconception": "Museum study skins are posed in lifelike action stances so visitors can see how rodents behave in nature.",
+          "fact": "Study skins are stuffed flat in uniform cylindrical shapes so hundreds of specimens fit in drawers for scientific comparison."
+        },
+        {
+          "misconception": "Wild mice captured in backyard live traps can be kept in cages for several days as temporary pets.",
+          "fact": "Wild rodents suffer severe capture stress and carry hantavirus, so live traps must be checked each morning and released immediately."
+        },
+        {
+          "misconception": "A wildlife photograph is scientifically complete as long as the mammal is sharp and centered in the frame.",
+          "fact": "Scientific photo logs require exact date, time, weather conditions, geographic coordinates, and habitat notes alongside the image."
+        },
+        {
+          "misconception": "Flash photography at close range helps freeze nocturnal mammal movement without affecting the animal.",
+          "fact": "Bright camera flashes startle nocturnal wildlife and temporarily impair their night vision, leaving them vulnerable to predators."
+        }
       ]
     },
     {
@@ -1623,9 +1699,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Artificial feeding stations provide the best long-term method for increasing local wild mammal populations.",
-        "fact": "Artificial feeding spreads disease and causes dependence, whereas natural habitat improvements provide sustainable benefits.",
-        "myth": "Artificial feeding stations provide the best long-term method for increasing local wild mammal populations.",
-        "fact_correction": "Artificial feeding spreads disease and causes dependence, whereas natural habitat improvements provide sustainable benefits."
+        "fact": "Artificial feeding spreads disease and causes dependence, whereas natural habitat improvements provide sustainable benefits."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1662,42 +1736,42 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Increasing Desired Wildlife Carrying Capacity",
-        "right_header": "Sanitation to Deter Commensal Rodents",
+        "left_header": "Req 5: Four Essential Habitat Needs",
+        "right_header": "Req 5: Modify Local Habitat Conditions",
         "left_points": [
           "Four Essential Habitat Needs: All mammals need food, water, shelter, and livings pace (p. 51).",
           "Understanding Habitat Carrying Capacity: And so, if you want to We have seen that the number of mammals a given area of land or water will support is called its carrying capacity (p. 51).",
           "Improving Cover and Food Supply: To influence that number, we must improve the habitat in some way (p. 51)."
         ],
         "right_points": [
-          "Step 1 - Modify Local Habitat Conditions: To influence that number, we must improve the habitat in some way (p. 51).",
-          "Step 2 - Plant Shrubs and Build Brush Piles: If, for example, you would like to see more cottontails around your home, you might plant shrubs for food, and you might build a brush pile for cover (p. 51).",
-          "Step 3 - Address Urban Rodent Infestations: On the other hand, if you live in a city and your building is overrun with mice and rats, you would want to eliminate them (p. 51)."
+          "Modify Local Habitat Conditions: To influence that number, we must improve the habitat in some way (p. 51).",
+          "Plant Shrubs and Build Brush Piles: If, for example, you would like to see more cottontails around your home, you might plant shrubs for food, and you might build a brush pile for cover (p. 51).",
+          "Address Urban Rodent Infestations: On the other hand, if you live in a city and your building is overrun with mice and rats, you would want to eliminate them (p. 51)."
         ],
         "rows": [
           {
-            "attribute": "Four Essential Habitat Needs",
+            "attribute": "Bat Roosts",
             "left": "Four Essential Habitat Needs: All mammals need food, water, shelter, and livings pace (p. 51).",
-            "right": "Step 1 - Modify Local Habitat Conditions: To influence that number, we must improve the habitat in some way (p. 51)."
+            "right": "Modify Local Habitat Conditions: To influence that number, we must improve the habitat in some way (p. 51)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Brush Shelters",
             "left": "Understanding Habitat Carrying Capacity: And so, if you want to We have seen that the number of mammals a given area of land or water will support is called its carrying capacity (p. 51).",
-            "right": "Step 2 - Plant Shrubs and Build Brush Piles: If, for example, you would like to see more cottontails around your home, you might plant shrubs for food, and you might build a brush pile for cover (p. 51)."
+            "right": "Plant Shrubs and Build Brush Piles: If, for example, you would like to see more cottontails around your home, you might plant shrubs for food, and you might build a brush pile for cover (p. 51)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Forage Planting",
             "left": "Improving Cover and Food Supply: To influence that number, we must improve the habitat in some way (p. 51).",
-            "right": "Step 3 - Address Urban Rodent Infestations: On the other hand, if you live in a city and your building is overrun with mice and rats, you would want to eliminate them (p. 51)."
+            "right": "Address Urban Rodent Infestations: On the other hand, if you live in a city and your building is overrun with mice and rats, you would want to eliminate them (p. 51)."
           }
         ]
       },
       "worked_example": {
-        "title": "Mammal Study Req 5 Exemplar Workbook Entry: Habitat Carrying Capacity Projects",
+        "title": "Mammal Study Req 5 Exemplar Workbook Entry: Habitat",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Four Essential Habitat Needs": "All mammals need food, water, shelter, and livings pace (p. 51).",
-          "Understanding Habitat Carrying Capacity": "And so, if you want to We have seen that the number of mammals a given area of land or water will support is called its carrying capacity (p. 51).",
+          "Understanding Habitat Carrying": "And so, if you want to We have seen that the number of mammals a given area of land or water will support is called its carrying capacity (p. 51).",
           "Improving Cover and Food Supply": "To influence that number, we must improve the habitat in some way (p. 51).",
           "Shrubs and Brush Piles for Cottontails": "If, for example, you would like to see more cottontails around your home, you might plant shrubs for food, and you might build a brush pile for cover (p. 51)."
         },
@@ -1736,7 +1810,33 @@
       "socratic_questions": [
         "Why does constructing brush piles benefit prey species more than distributing supplemental corn?",
         "What microclimate factors determine whether local bat populations will colonize an artificial roost box?",
-        "How can altering ground cover either increase or suppress meadow vole populations in orchards?"
+        "How can altering ground cover either increase or suppress meadow vole populations in orchards?",
+        "What solar orientation and mounting height allow a wooden bat house to reach the internal warmth needed by maternity colonies?",
+        "Which baseline population indicator should a Scout record before installing brush piles or nest boxes in a woodlot?",
+        "Under what ecological condition does removing invasive understory shrubs increase native small mammal density?",
+        "What personal protective equipment is required when cutting timber or driving posts for a habitat improvement build?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Artificial feeding stations provide the best long-term method for increasing local wild mammal populations.",
+          "fact": "Artificial feeding spreads disease and causes dependence, whereas natural habitat improvements provide sustainable benefits."
+        },
+        {
+          "misconception": "Putting out piles of bread, corn, or table scraps is the healthiest way to boost local mammal populations.",
+          "fact": "Artificial feeding spreads disease, attracts predators, and alters foraging habits; sustainable projects restore native food and cover."
+        },
+        {
+          "misconception": "Bat houses should be nailed low on shaded tree trunks so owls and hawks cannot spot the emerging bats.",
+          "fact": "Bat boxes need at least six hours of direct sunlight and a twelve-foot mounting height on poles or buildings to stay warm and safe."
+        },
+        {
+          "misconception": "Clearing all dead logs and fallen branches from a forest floor improves habitat quality for woodland mammals.",
+          "fact": "Coarse woody debris provides essential thermal shelter, escape cover, and insect prey for shrews, chipmunks, and weasels."
+        },
+        {
+          "misconception": "A habitat project influences mammal numbers only if it causes every local species population to increase.",
+          "fact": "Valid management projects also include humane exclusion or predator habitat improvements that balance overpopulated rodent species."
+        }
       ]
     },
     {
@@ -1797,9 +1897,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Tossing biodegradable fruit cores into bushes benefits wild mammals by providing free food.",
-        "fact": "Discarded human food habituates mammals to roadsides, causing malnutrition, vehicular collisions, and problem behaviors.",
-        "myth": "Tossing biodegradable fruit cores into bushes benefits wild mammals by providing free food.",
-        "fact_correction": "Discarded human food habituates mammals to roadsides, causing malnutrition, vehicular collisions, and problem behaviors."
+        "fact": "Discarded human food habituates mammals to roadsides, causing malnutrition, vehicular collisions, and problem behaviors."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1832,46 +1930,46 @@
         "Step 1 - Ethic Review: Review the seven Leave No Trace principles before entering wild mammal habitats.",
         "Step 2 - Distance Assessment: Use the thumb rule to ensure adequate observation distance from wild animals.",
         "Step 3 - Scent Minimization: Secure all food items in odor-proof containers to avoid luring scavenging wildlife.",
-        "Step 4 - Field Audit: Check the study site upon departure to confirm no litter was left behind."
+        "Step 4 - Field Audit: Check the study site upon departure to confirm no litter was left."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Pre-Trip Planning and Durable Surfaces",
-        "right_header": "Respecting Wildlife Distance and Habitats",
+        "left_header": "Req 6: Leave No Trace in Wildlife Study",
+        "right_header": "Req 6: Plan Low-Impact Field Outings",
         "left_points": [
           "Leave No Trace in Wildlife Study: The principles of Leave No Trace that are used in trekking and camping also apply when observing wildlife in their habitats (p. 44).",
           "Environmental Awareness During Fieldwork: Pay attention to the environment as you observe, study, and photograph mammals for the merit badge requirements (p. 44).",
           "Safe and Low-Impact Trip Planning: Proper trip planning and preparation helps hikers and campers accomplish trip goals safely andenjoyably while minimizing damage to natural and cultural (p. 44)."
         ],
         "right_points": [
-          "Step 1 - Plan Low-Impact Field Outings: Proper trip planning and preparation helps hikers and campers accomplish trip goals safely andenjoyably while minimizing damage to natural and cultural (p. 44).",
-          "Step 2 - Check Weather, Terrain, and Schedule: Be sure to check the weather report, know the terrain you are planning to hike, and allow enough time to reach your destination and return (p. 44).",
-          "Step 3 - Avoid Trampling Fragile Vegetation: Damage to land occurs when visitors trample vegetation or communities of organisms beyond recovery (p. 44)."
+          "Plan Low-Impact Field Outings: Proper trip planning and preparation helps hikers and campers accomplish trip goals safely andenjoyably while minimizing damage to natural and cultural (p. 44).",
+          "Check Weather, Terrain, and Schedule: Be sure to check the weather report, know the terrain you are planning to hike, and allow enough time to reach your destination and return (p. 44).",
+          "Avoid Trampling Fragile Vegetation: Damage to land occurs when visitors trample vegetation or communities of organisms beyond recovery (p. 44)."
         ],
         "rows": [
           {
-            "attribute": "Leave No Trace in Wildlife Study",
+            "attribute": "Distance Maintenance",
             "left": "Leave No Trace in Wildlife Study: The principles of Leave No Trace that are used in trekking and camping also apply when observing wildlife in their habitats (p. 44).",
-            "right": "Step 1 - Plan Low-Impact Field Outings: Proper trip planning and preparation helps hikers and campers accomplish trip goals safely andenjoyably while minimizing damage to natural and cultural (p. 44)."
+            "right": "Plan Low-Impact Field Outings: Proper trip planning and preparation helps hikers and campers accomplish trip goals safely andenjoyably while minimizing damage to natural and cultural (p. 44)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Trash Management",
             "left": "Environmental Awareness During Fieldwork: Pay attention to the environment as you observe, study, and photograph mammals for the merit badge requirements (p. 44).",
-            "right": "Step 2 - Check Weather, Terrain, and Schedule: Be sure to check the weather report, know the terrain you are planning to hike, and allow enough time to reach your destination and return (p. 44)."
+            "right": "Check Weather, Terrain, and Schedule: Be sure to check the weather report, know the terrain you are planning to hike, and allow enough time to reach your destination and return (p. 44)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Trail Discipline",
             "left": "Safe and Low-Impact Trip Planning: Proper trip planning and preparation helps hikers and campers accomplish trip goals safely andenjoyably while minimizing damage to natural and cultural (p. 44).",
-            "right": "Step 3 - Avoid Trampling Fragile Vegetation: Damage to land occurs when visitors trample vegetation or communities of organisms beyond recovery (p. 44)."
+            "right": "Avoid Trampling Fragile Vegetation: Damage to land occurs when visitors trample vegetation or communities of organisms beyond recovery (p. 44)."
           }
         ]
       },
       "worked_example": {
-        "title": "Mammal Study Req 6 Exemplar Workbook Entry: Leave No Trace in Mammal Study",
+        "title": "Mammal Study Req 6 Exemplar Workbook Entry: Leave No",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Leave No Trace in Wildlife Study": "The principles of Leave No Trace that are used in trekking and camping also apply when observing wildlife in their habitats (p. 44).",
-          "Environmental Awareness During Fieldwork": "Pay attention to the environment as you observe, study, and photograph mammals for the merit badge requirements (p. 44).",
+          "Environmental Awareness": "Pay attention to the environment as you observe, study, and photograph mammals for the merit badge requirements (p. 44).",
           "Safe and Low-Impact Trip Planning": "Proper trip planning and preparation helps hikers and campers accomplish trip goals safely andenjoyably while minimizing damage to natural and cultural (p. 44).",
           "Checking Weather, Terrain, and Timing": "Be sure to check the weather report, know the terrain you are planning to hike, and allow enough time to reach your destination and return (p. 44)."
         },
@@ -1910,7 +2008,33 @@
       "socratic_questions": [
         "How does leaving human scent on food trash threaten the long-term survival of raccoons or bears?",
         "Why does walking off designated trails disrupt small ground-dwelling mammals during spring breeding cycles?",
-        "In what ways does observing wildlife quietly from a distance improve both safety and study accuracy?"
+        "In what ways does observing wildlife quietly from a distance improve both safety and study accuracy?",
+        "What distance rule test using an outstretched thumb tells a Scout they have approached a wild mammal too closely?",
+        "Under what legal condition may a Scout collect found antlers, skulls, or bones from public parkland or refuges?",
+        "What happens to maternal den survival when human scent or trampled vegetation is left near a mammal burrow entrance?",
+        "Where should a field team store scented food and trash during a mammal survey to prevent wildlife habituation?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Tossing biodegradable fruit cores into bushes benefits wild mammals by providing free food.",
+          "fact": "Discarded human food habituates mammals to roadsides, causing malnutrition, vehicular collisions, and problem behaviors."
+        },
+        {
+          "misconception": "Quietly walking up to a resting fawn or seal pup to take a close photo is harmless if you do not touch it.",
+          "fact": "Close human approach spikes stress hormones, burns vital energy reserves, and can cause mothers to abandon their hidden young."
+        },
+        {
+          "misconception": "Collecting naturally shed antlers or bleached mammal skulls is always allowed in National Parks and wildlife refuges.",
+          "fact": "Federal regulations prohibit removing natural specimens from National Parks, and gnawed bones supply vital calcium to wild rodents."
+        },
+        {
+          "misconception": "Biodegradable fruit peels such as apple cores and banana skins can be tossed in the woods to feed small mammals.",
+          "fact": "Food scraps take months to rot, lure mammals toward roadsides, and disrupt natural diets, so all organic waste must be packed out."
+        },
+        {
+          "misconception": "Pushing aside tall grass or branches around an active den helps observers see pups without hurting the habitat.",
+          "fact": "Altering vegetation around a den destroys camouflage cover, exposes young to weather and predators, and violates Leave No Trace ethics."
+        }
       ]
     },
     {
@@ -1962,9 +2086,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 30, p. 58)",
           "common_misconception_pair": {
             "misconception": "Wildlife biology positions consist almost entirely of petting and nursing wild animals in sanctuaries.",
-            "fact": "Most professional roles emphasize data collection, statistical modeling, habitat mapping, and policy report writing.",
-            "myth": "Wildlife biology positions consist almost entirely of petting and nursing wild animals in sanctuaries.",
-            "fact_correction": "Most professional roles emphasize data collection, statistical modeling, habitat mapping, and policy report writing."
+            "fact": "Most professional roles emphasize data collection, statistical modeling, habitat mapping, and policy report writing."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -2048,9 +2170,7 @@
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 30, p. 58)",
           "common_misconception_pair": {
             "misconception": "Participating in meaningful mammal study requires an advanced university degree and expensive laboratory equipment.",
-            "fact": "Amateur naturalists contribute valuable population tracking data using field guides, trail cameras, and mobile applications.",
-            "myth": "Participating in meaningful mammal study requires an advanced university degree and expensive laboratory equipment.",
-            "fact_correction": "Amateur naturalists contribute valuable population tracking data using field guides, trail cameras, and mobile applications."
+            "fact": "Amateur naturalists contribute valuable population tracking data using field guides, trail cameras, and mobile applications."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2146,9 +2266,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Working with wild mammals requires only outdoorsmanship skills without rigorous mathematics and biology degrees.",
-        "fact": "Professional mammalogists must master biostatistics, spatial GIS mapping, population genetics, and vertebrate physiological chemistry.",
-        "myth": "Working with wild mammals requires only outdoorsmanship skills without rigorous mathematics and biology degrees.",
-        "fact_correction": "Professional mammalogists must master biostatistics, spatial GIS mapping, population genetics, and vertebrate physiological chemistry."
+        "fact": "Professional mammalogists must master biostatistics, spatial GIS mapping, population genetics, and vertebrate physiological chemistry."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2189,14 +2307,14 @@
         "Step 4 - Report Preparation: Prepare a concise summary describing your findings to discuss with your counselor."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Mammal Study Careers and Pathways",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Mammal Study Careers and Pathways.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Mammalian Wildlife Professional Ca",
-        "right_header": "Req 7b: Amateur Mammalogy Recreational Hob",
+        "left_header": "Req 7a: Mammalian Wildlife Professional",
+        "right_header": "Req 7b: Amateur Mammalogy Recreational",
         "left_points": [
           "(7a) Mammalian Wildlife Professional Career Exploration: Researching a mammalogy career details college degree paths, required technical certifications, starting salaries, and primary field duties. Scouts investigate wildlife agencies, university research laboratories, and zoological parks."
         ],
@@ -2205,28 +2323,28 @@
         ],
         "rows": [
           {
-            "attribute": "Mammalogy and Wildlife Career Research",
-            "left": "(7a) Mammalogy and Wildlife Career Research: A catalog gives the number assigned to each specimen (p. 30).",
-            "right": "(7b) Lifelong Mammal Study Hobbies: It includes information about its species, sex, size, where and when it was found, and the type of preparation (p. 30)."
+            "attribute": "Wildlife Biologist",
+            "left": "(7a) Mammalian Wildlife Professional Career Exploration: Researching a mammalogy career details college degree paths, required technical certifications, starting salaries, and primary field duties. Scouts investigate wildlife agencies, university research laboratories, and zoological parks.",
+            "right": "(7b) Amateur Mammalogy Recreational Hobby Exploration: Scouts explore how mammal study enriches outdoor recreation through tracking, wildlife photography, and citizen science monitoring. The investigation reviews equipment costs, field clubs, and conservation advocacy opportunities."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Recorded Field and Preparation Data: It includes information about its species, sex, size, where and when it was found, and the type of preparation (p. 30).",
-            "right": "Step 2 - Assess Public Education Missions: Well, if you learn anything at all on your visit to a museum, it will have served its main purpose, education (p. 30)."
+            "attribute": "Veterinary Medicine",
+            "left": "Req 7a: Mammalian Wildlife: Researching a mammalogy career details college degree paths, required technical certifications, starting salaries, and primary field duties. Scouts investigate wildlife agencies, university research laboratories, and zoological parks.",
+            "right": "Req 7b: Amateur Mammalogy: Scouts explore how mammal study enriches outdoor recreation through tracking, wildlife photography, and citizen science monitoring. The investigation reviews equipment costs, field clubs, and conservation advocacy opportunities."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Educational Value of Museum Collections: Purposes of a Museum What good is a big collection of all these study skins, mounted specimens, and bones (p. 30).",
-            "right": "Step 3 - Value Museum Learning Experiences: And that would be reason enough to have natural history museums (p. 30)."
+            "attribute": "Park Ranger",
+            "left": "Wildlife Biologist: Professional biologists collect field census data and design habitat conservation recovery programs.",
+            "right": "Veterinary Medicine: Wildlife veterinarians diagnose and treat diseases in captive, rescued, or wild mammal populations."
           }
         ]
       },
       "worked_example": {
-        "title": "Mammal Study Req 7 Exemplar Workbook Entry: Careers and Hobbies in Mammalogy",
+        "title": "Mammal Study Req 7 Exemplar Workbook Entry: Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 7a - Mammalian Wildlife Professional C": "Researching a mammalogy career details college degree paths, required technical certifications, starting salaries, and primary field duties. Scouts investigate wildlife agencies, university research laboratories, and zoological parks.",
-          "Req 7b - Amateur Mammalogy Recreational Ho": "Scouts explore how mammal study enriches outdoor recreation through tracking, wildlife photography, and citizen science monitoring. The investigation reviews equipment costs, field clubs, and conservation advocacy opportunities."
+          "Req 7a - Mammalian Wildlife": "Researching a mammalogy career details college degree paths, required technical certifications, starting salaries, and primary field duties. Scouts investigate wildlife agencies, university research laboratories, and zoological parks.",
+          "Req 7b - Amateur Mammalogy": "Scouts explore how mammal study enriches outdoor recreation through tracking, wildlife photography, and citizen science monitoring. The investigation reviews equipment costs, field clubs, and conservation advocacy opportunities."
         },
         "sample_output": "Careers and Hobbies in Mammalogy: A catalog gives the number assigned to each specimen (p. 30).",
         "counselor_tip": "For Mammal Study Requirement 7 (Careers and Hobbies in Mammalogy), verify the Scout's own observations and specific pamphlet details (Official Scouting America Mammal Study Merit Badge Pamphlet (p. 30, p. 58))."
@@ -2263,7 +2381,33 @@
       "socratic_questions": [
         "How does coursework in statistics assist a wildlife biologist studying elk herd migration trends?",
         "What role do amateur naturalists play in tracking seasonal bat species migrations across continents?",
-        "How can volunteering with wildlife rescue centers prepare a student for veterinary medical school?"
+        "How can volunteering with wildlife rescue centers prepare a student for veterinary medical school?",
+        "What academic degrees and field certifications separate a wildlife technician from a lead state mammalogist?",
+        "Which citizen science platforms allow an amateur naturalist to submit verified mammal sightings to research databases?",
+        "What daily responsibilities distinguish a wildlife rehabilitator from a zoological mammal curator or game warden?",
+        "Why is it important to obtain parent permission and rabies pre-exposure screening details before job-shadowing a wildlife vet?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Working with wild mammals requires only outdoorsmanship skills without rigorous mathematics and biology degrees.",
+          "fact": "Professional mammalogists must master biostatistics, spatial GIS mapping, population genetics, and vertebrate physiological chemistry."
+        },
+        {
+          "misconception": "Wildlife biologists spend all of their working hours outdoors tracking and observing wild mammals in remote forests.",
+          "fact": "Modern mammalogists spend significant office time analyzing GIS telemetry data, writing grant proposals, and publishing reports."
+        },
+        {
+          "misconception": "Anyone who loves animals can legally rehabilitate injured wild mammals at home without specialized state permits.",
+          "fact": "Wildlife rehabilitation requires state and federal permits, veterinary supervision, strict quarantine enclosures, and training hours."
+        },
+        {
+          "misconception": "Only university professors with doctoral degrees can contribute useful mammal distribution data to scientific studies.",
+          "fact": "Amateur mammal watchers contribute valuable range and phenology records through vetted citizen science programs and local bio-blitzes."
+        },
+        {
+          "misconception": "Entry-level mammalogy positions pay high salaries immediately after completing a four-year undergraduate biology degree.",
+          "fact": "Entry-level wildlife jobs are often seasonal field technician roles, and career advancement usually requires a master's degree."
+        }
       ]
     }
   ],

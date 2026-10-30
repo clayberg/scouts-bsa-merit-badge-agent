@@ -66,9 +66,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Golf carts provide complete protection from lightning strikes during sudden thunderstorms on open fairways.",
-        "fact": "Golf carts lack rubber enclosed insulation and offer zero protection against direct lightning strikes.",
-        "myth": "Golf carts provide complete protection from lightning strikes during sudden thunderstorms on open fairways.",
-        "fact_correction": "Golf carts lack rubber enclosed insulation and offer zero protection against direct lightning strikes."
+        "fact": "Golf carts lack rubber enclosed insulation and offer zero protection against direct lightning strikes."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -104,44 +102,44 @@
         "Step 4 - Physical First Aid: Administer water and apply cold packs to soothe acute golfer heat cramps."
       ],
       "gear_checklist": [
-        "Official Golf merit badge pamphlet and USGA Rules of Golf book for Req 1",
-        "Matched set of golf clubs (driver, irons, wedge, putter) and golf bag",
-        "Golf balls, tees, ball marker, divot repair tool, and scorecard",
-        "Practice range log and grip/stance notes for Golf Course Safety and First Aid"
+        "Official Golf merit badge pamphlet and USGA Rules of Golf book for Req 1.",
+        "Matched set of golf clubs (driver, irons, wedge, putter) and golf bag.",
+        "Golf balls, tees, ball marker, divot repair tool, and scorecard.",
+        "Practice range log and grip/stance notes for Golf Course Safety and First Aid."
       ],
       "comparison_data": {
-        "left_header": "Environmental Weather Hazards on Courses",
-        "right_header": "Chemical and Biological Turf Hazards",
+        "left_header": "Req 1: Licking Golf Balls",
+        "right_header": "Req 1: Identify Turf Contaminants",
         "left_points": [
           "Licking Golf Balls: You may have seen golfers lick the dirt off their golf ball so the ball will roll true or to hold a used tee in their mouth (p. 53).",
           "Course Chemical Residue: Toxic substances on the courses may cling to the ball and tee (p. 53).",
           "Common Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53)."
         ],
         "right_points": [
-          "Step 1 - Identify Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53).",
-          "Step 2 - Avoid Mouth Contact: Some golfers who have a habit of cleaning their golf balls by licking them develop hepatitis, an inflammation of the liver (p. 53).",
-          "Step 3 - Use Damp Towel: It is best to always carry a towel in your golf bag and dampen it to wipe your ball clean (p. 53)."
+          "Identify Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53).",
+          "Avoid Mouth Contact: Some golfers who have a habit of cleaning their golf balls by licking them develop hepatitis, an inflammation of the liver (p. 53).",
+          "Use Damp Towel: It is best to always carry a towel in your golf bag and dampen it to wipe your ball clean (p. 53)."
         ],
         "rows": [
           {
-            "attribute": "Licking Golf Balls",
+            "attribute": "Lightning Evacuation Protocol",
             "left": "Licking Golf Balls: You may have seen golfers lick the dirt off their golf ball so the ball will roll true or to hold a used tee in their mouth (p. 53).",
-            "right": "Step 1 - Identify Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53)."
+            "right": "Identify Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Heat Exhaustion Response",
             "left": "Course Chemical Residue: Toxic substances on the courses may cling to the ball and tee (p. 53).",
-            "right": "Step 2 - Avoid Mouth Contact: Some golfers who have a habit of cleaning their golf balls by licking them develop hepatitis, an inflammation of the liver (p. 53)."
+            "right": "Avoid Mouth Contact: Some golfers who have a habit of cleaning their golf balls by licking them develop hepatitis, an inflammation of the liver (p. 53)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Blister Prevention Strategy",
             "left": "Common Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53).",
-            "right": "Step 3 - Use Damp Towel: It is best to always carry a towel in your golf bag and dampen it to wipe your ball clean (p. 53)."
+            "right": "Use Damp Towel: It is best to always carry a towel in your golf bag and dampen it to wipe your ball clean (p. 53)."
           }
         ]
       },
       "worked_example": {
-        "title": "Golf Req 1 Exemplar Workbook Entry: Golf Course Safety and First Aid",
+        "title": "Golf Req 1 Exemplar Workbook Entry: Golf Course Safety",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Licking Golf Balls": "You may have seen golfers lick the dirt off their golf ball so the ball will roll true or to hold a used tee in their mouth (p. 53).",
@@ -183,8 +181,34 @@
       "pamphlet_summary": "Golfers must immediately clear open fairways and seek grounded lightning shelters upon hearing severe weather detection sirens. Treatment for heat illness or ankle sprains requires immediate shade, hydration, and elevation before resuming play.",
       "socratic_questions": [
         "Why does holding a graphite or steel golf club during an incoming storm drastically heighten strike risks?",
-        "How do early symptoms of dehydration impair a golfer's physical balance and shot execution?",
-        "What immediate steps should your group take if a stray golf ball strikes an adjacent player?"
+        "In what specific ways do early symptoms of dehydration impair a golfer's physical balance and shot execution?",
+        "What immediate steps should your group take if a stray golf ball strikes an adjacent player?",
+        "Where should a golfer seek shelter immediately when lightning strikes on an open fairway far from the clubhouse?",
+        "Which physical indicator distinguishes life-threatening heatstroke from heat exhaustion during a summer round of golf?",
+        "What flash-to-bang time interval confirms a thunderstorm is close enough to suspend play on the golf course immediately?",
+        "Why is it dangerous to stand along the target line or directly behind a player taking a practice swing on the tee box?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Golf carts provide complete protection from lightning strikes during sudden thunderstorms on open fairways.",
+          "fact": "Golf carts lack rubber enclosed insulation and offer zero protection against direct lightning strikes."
+        },
+        {
+          "misconception": "Standing under a tall tree on the fairway provides safe protection from lightning until the rain passes.",
+          "fact": "Isolated trees attract lightning strikes; golfers must move to an enclosed building or lightning shelter and drop their metal clubs."
+        },
+        {
+          "misconception": "Popping a friction blister on your hand or heel with a tee lets you keep swinging without discomfort.",
+          "fact": "Puncturing an intact blister invites bacterial infection; cover the hot spot or blister with moleskin or a sterile adhesive bandage."
+        },
+        {
+          "misconception": "Scrubbing skin with hot water and harsh soap hours after retrieving a ball from poison ivy prevents a rash.",
+          "fact": "Hot water opens pores and spreads urushiol oil; rinse exposed skin immediately with cool water and mild soap or rubbing alcohol."
+        },
+        {
+          "misconception": "Walking off a freshly sprained ankle across the remaining holes keeps the joint loose and speeds up recovery.",
+          "fact": "Continuing to bear weight worsens ligament damage; stop playing and apply rest, ice, compression, and elevation right away."
+        }
       ]
     },
     {
@@ -1985,9 +2009,7 @@
           "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
           "common_misconception_pair": {
             "misconception": "Golfers may freely move natural loose impediments located inside penalty areas without penalty strokes.",
-            "fact": "While loose impediments can be touched under modern rules, moving the ball causes a one stroke penalty.",
-            "myth": "Golfers may freely move natural loose impediments located inside penalty areas without penalty strokes.",
-            "fact_correction": "While loose impediments can be touched under modern rules, moving the ball causes a one stroke penalty."
+            "fact": "While loose impediments can be touched under modern rules, moving the ball causes a one stroke penalty."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2715,7 +2737,7 @@
                   "id": "2b(4)(b)",
                   "sub_req_label": "2b(4)(b)",
                   "sub_req_text": "Tell how a disc golf exercise plan can help you play better. Show two exercises that would help improve your game.",
-                  "topic_title": "Req 2b(4)(b): Conditioning Exercises for Throwing Performance",
+                  "topic_title": "Req 2b(4)(b): Conditioning Exercises for Throwing",
                   "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
                   "pamphlet_summary": "Conditioning Exercises for Throwing Performance: Developing core strength and shoulder mobility protects throwing joints from repetitive strain and transfers mechanical energy smoothly from the hips to the hand. Demonstrating exercises like resistance band rotational pulls and lunges targets the exact muscle groups used during the runup and release (p. 55).",
                   "pamphlet_excerpts": [
@@ -3784,7 +3806,7 @@
                   "workbook_diagram_caption": "Scouts and counselor demonstrate Golf Requirement 2 field procedures and safety checks.",
                   "workbook_visual_caption": "Scouts and counselor demonstrate Golf Requirement 2 field procedures and safety checks.",
                   "socratic_questions": [
-                    "How do Leave No Trace principles apply when your disc lands deep in native vegetation or delicate park flora?"
+                    "In what ways do Leave No Trace principles apply when your disc lands deep in native vegetation or delicate park flora?"
                   ]
                 }
               ],
@@ -3980,9 +4002,7 @@
           "pamphlet_page_citation": "Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)",
           "common_misconception_pair": {
             "misconception": "Disc golfers can throw toward blind baskets without checking walking paths for park visitors.",
-            "fact": "PDGA courtesy rule 812 mandates checking blind landing zones before releasing discs to prevent injuries.",
-            "myth": "Disc golfers can throw toward blind baskets without checking walking paths for park visitors.",
-            "fact_correction": "PDGA courtesy rule 812 mandates checking blind landing zones before releasing discs to prevent injuries."
+            "fact": "PDGA courtesy rule 812 mandates checking blind landing zones before releasing discs to prevent injuries."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -4130,9 +4150,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Golf etiquette rules are optional informal recommendations that carry no competitive penalty points.",
-        "fact": "Breaching etiquette standards can result in disqualification or stroke penalties under official governing rules.",
-        "myth": "Golf etiquette rules are optional informal recommendations that carry no competitive penalty points.",
-        "fact_correction": "Breaching etiquette standards can result in disqualification or stroke penalties under official governing rules."
+        "fact": "Breaching etiquette standards can result in disqualification or stroke penalties under official governing rules."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -4173,10 +4191,10 @@
         "Step 4 - Scorecard Tracking: Record individual gross strokes and penalty infractions accurately across every completed hole."
       ],
       "gear_checklist": [
-        "Official Golf merit badge pamphlet and USGA Rules of Golf book for Req 2",
-        "Matched set of golf clubs (driver, irons, wedge, putter) and golf bag",
-        "Golf balls, tees, ball marker, divot repair tool, and scorecard",
-        "Practice range log and grip/stance notes for Traditional and Disc Golf Fundamentals"
+        "Official Golf merit badge pamphlet and USGA Rules of Golf book for Req 2.",
+        "Matched set of golf clubs (driver, irons, wedge, putter) and golf bag.",
+        "Golf balls, tees, ball marker, divot repair tool, and scorecard.",
+        "Practice range log and grip/stance notes for Traditional and Disc Golf Fundamentals."
       ],
       "comparison_data": {
         "left_header": "Req 2a: Traditional Golf Rules Framework",
@@ -4189,27 +4207,27 @@
         ],
         "rows": [
           {
-            "attribute": "Traditional Golf Rules and Play",
-            "left": "(2a) Traditional Golf Rules and Play: The roots of disc golf are firmly grounded with the Frisbee® and date to early disc golf promoters like \"Steady\" Ed Head rick and George Sappenfield (p. 50).",
-            "right": "(2b) Disc Golf Rules and Skills: Introduction to Disc Golf. are professional players (p. 50)."
+            "attribute": "Governance Authority Alignment",
+            "left": "(2a) Traditional Golf Rules Framework: The USGA Rules of Golf establish formal procedures for order of play, stroke penalties, and putting green standards. Golfers maintain course integrity by raking bunkers, replacing divots, and repairing green ball marks.",
+            "right": "(2b) Disc Golf Courtesy Standards: The PDGA Official Rules outline courtesy guidelines including distraction avoidance, prompt throwing times, and target clearing. Players must keep public park walkways clear and avoid throwing when park visitors walk within range."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "PDGA Tour Oversight: The Professional Disc Golf Association (PDGA) oversees both amateur events and a professional tour (p. 50).",
-            "right": "Step 2 - Trace Sport History: The roots of disc golf are firmly grounded with the Frisbee® and date to early disc golf promoters like \"Steady\" Ed Head rick and George Sappenfield (p. 50)."
+            "attribute": "Player Consideration Codes",
+            "left": "Req 2a: Traditional Golf Rules: The USGA Rules of Golf establish formal procedures for order of play, stroke penalties, and putting green standards. Golfers maintain course integrity by raking bunkers, replacing divots, and repairing green ball marks.",
+            "right": "Req 2b: Disc Golf Courtesy Standards: The PDGA Official Rules outline courtesy guidelines including distraction avoidance, prompt throwing times, and target clearing. Players must keep public park walkways clear and avoid throwing when park visitors walk within range."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Global Tournament Sanctioning: The PDGA sanctions more than 9,000 events each year and has an active membership of more than 129,000 competitive disc golfers from 70+ countries (p. 50).",
-            "right": "Step 3 - Examine Beveled-Edge Discs: Soon the days of using a simple Frisbee® graduated to the modern golf disc, with the triangular beveled-edge disc patented by Dave Dunipace in 1983 (p. 50)."
+            "attribute": "Pace of Play Standards",
+            "left": "Governance Authority Alignment: Official competition standards derive from either the USGA rulebook or PDGA regulations.",
+            "right": "Player Consideration Codes: Courtesy rules mandate absolute silence and stationary stance while fellow competitors address lies."
           }
         ]
       },
       "worked_example": {
-        "title": "Golf Req 2 Exemplar Workbook Entry: Traditional and Disc Golf Fundamentals",
+        "title": "Golf Req 2 Exemplar Workbook Entry: Traditional and Disc",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 2a - Traditional Golf Rules Framework": "The USGA Rules of Golf establish formal procedures for order of play, stroke penalties, and putting green standards. Golfers maintain course integrity by raking bunkers, replacing divots, and repairing green ball marks.",
+          "Req 2a - Traditional Golf Rules": "The USGA Rules of Golf establish formal procedures for order of play, stroke penalties, and putting green standards. Golfers maintain course integrity by raking bunkers, replacing divots, and repairing green ball marks.",
           "Req 2b - Disc Golf Courtesy Standards": "The PDGA Official Rules outline courtesy guidelines including distraction avoidance, prompt throwing times, and target clearing. Players must keep public park walkways clear and avoid throwing when park visitors walk within range."
         },
         "sample_output": "Traditional and Disc Golf Fundamentals: The roots of disc golf are firmly grounded with the Frisbee® and date to early disc golf promoters like \"Steady\" Ed Head rick and George Sappenfield (p. 50).",
@@ -4245,9 +4263,35 @@
       "workbook_visual_caption": "Scouts and counselor demonstrate Golf Requirement 2 field procedures and safety checks.",
       "pamphlet_summary": "Players select either traditional golf or disc golf to master sport-specific governance bodies and conduct codes. Both disciplines emphasize safety margins, player consideration, and strict adherence to defined ball or disc lies.",
       "socratic_questions": [
-        "How do the core principles of etiquette protect player safety on active courses?",
+        "In what specific ways do the core principles of etiquette protect player safety on active courses?",
         "Why must a competitor play the ball or disc precisely as it lies in hazards?",
-        "What effect does slow play have on course rhythm and tournament scheduling integrity?"
+        "What effect does slow play have on course rhythm and tournament scheduling integrity?",
+        "What steps must a player take to repair a ball mark on the putting green without damaging the grass roots?",
+        "Under what condition does accepting a prize or payment cause a golfer to forfeit USGA Amateur Status?",
+        "What measurement in club-lengths defines the relief area when taking unplayable ball lateral relief under USGA Rules?",
+        "Where should a golfer stand and place their bag on the putting green to maintain pace of play and protect the line of putt?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Golf etiquette rules are optional informal recommendations that carry no competitive penalty points.",
+          "fact": "Breaching etiquette standards can result in disqualification or stroke penalties under official governing rules."
+        },
+        {
+          "misconception": "Prying up the center of a pitch mark on the putting green with a tee is the proper way to level the turf.",
+          "fact": "Lifting the center tears grass roots and kills the turf; push grass inward from the outer edges and tap the surface flat with a putter."
+        },
+        {
+          "misconception": "Golfers have five full minutes under the current USGA Rules of Golf to search for a ball in the rough before it is lost.",
+          "fact": "The USGA Rules of Golf limit a ball search to three minutes from when the player or their caddie begins looking for it."
+        },
+        {
+          "misconception": "A golfer's net score on a hole is the total number of strokes taken plus any penalty strokes before applying a handicap.",
+          "fact": "Total strokes plus penalties equals the gross score, whereas the net score subtracts the player's handicap strokes from the gross score."
+        },
+        {
+          "misconception": "Amateur golfers cannot accept any retail merchandise prize or trophy in a tournament without losing their amateur status.",
+          "fact": "USGA Rules allow amateurs to accept non-cash prizes and even cash up to the current thousand-dollar limit in scratch competitions."
+        }
       ]
     }
   ],

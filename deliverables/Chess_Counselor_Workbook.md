@@ -1,8 +1,8 @@
 # Chess Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Chess.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/chess/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/chess/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -26,9 +26,9 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Demonstrate to your counselor that you know each of the following. Then, using Scouting EDGE to teach someone who does not know how to play chess: (a) The name of each chess piece (b) How to set up a chessboard (c) How each chess piece moves and captures, including: four rules of castling, en passant captures, pawn promotion, check, ways to get out of check, and checkmate (d) The five ways a game can end in a draw
-- [ ] **Station Req 4:** Do the following: (a) Demonstrate scorekeeping using the algebraic system of chess notation. (b) Discuss the differences between the opening, the middle game, and the endgame. (c) Explain four opening principles. Demonstrate for your counselor the first five moves of the following openings: Ruy Lopez, French Defense, Queen's Gambit Declined, Sicilian Defense. (d) On a chessboard, demonstrate Scholar's Mate, Fool's Mate, Légal Mate, Fried Liver Attack, and Noah's Ark Trap.
-- [ ] **Station Req 5:** Do the following: (a) Explain four of the following elements of chess strategy: exploiting weaknesses, force, king safety, pawn structure, space, tempo, and clock management. (b) Explain any five of these chess tactics: clearance sacrifice, decoy, discovered attack, double check, double attack, fork, interposing, overloading, overprotecting, pin, skewer, remove the defender, zwischenzug, and zugzwang. (c) Set up a chessboard as follows and with White to move first, demonstrate how to force checkmate on the Black king: (1) White king on e1, the White rooks on a1 and h1, and the Black king on e5 (2) White king on e1, White queen on d1, Black king on e5 (3) White king on e1, White rook on a1, Black king on e5 (d) With White king on d4, White pawn on e3, and Black king on e6: (1) With White to move, demonstrate how White can force Black to allow their pawn to reach the last rank and be promoted to a queen. (2) With Black to move, demonstrate how Black can force a draw. (e) Set up and solve five direct-mate problems provided by your counselor.
+- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually demonstrate mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -149,9 +149,9 @@
 - **Pamphlet Fact:** The bishop stays strictly on squares of its starting color for the entire game.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Chess Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Chess Piece)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Chess Piece
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Chess Merit Badge Pamphlet: Chess Piece.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Chess Piece.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Chess Requirement 3 figure showing orient the board so a white square sits on the right corner.](/assets/pamphlet_images/chess_p012_img1.png)
 
@@ -231,9 +231,9 @@
 - **Pamphlet Fact:** Uppercase letters denote pieces while pawns use only the destination square coordinate.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Chess Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Scorekeeping Using The Algebraic System)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Scorekeeping Using The Algebraic System
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Chess Merit Badge Pamphlet: Scorekeeping Using The Algebraic System.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Scorekeeping Using The Algebraic System.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A line of black wooden chess pieces stands assembled along the ranks of the board.](/assets/pamphlet_images/chess_p036_img1.png)
 

@@ -1,8 +1,8 @@
 # Geocaching Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Geocaching.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/geocaching/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/geocaching/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -29,7 +29,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 4:** Explain how the Global Positioning System (GPS) works. Then, using Scouting's EDGE, demonstrate to your counselor the use of a GPS unit. Include marking and editing a waypoint, changing field functions, and changing the coordinate system in the unit.
+- [ ] **Station Req 4:** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -208,9 +208,9 @@
 - **Pamphlet Fact:** Topographic contour maps depict precise geological landforms that digital screens often simplify.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Geocaching Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: You know how to use)
-- [ ] Field notebook, verification log sheet, and demonstration materials for You know how to use
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Geocaching Merit Badge Pamphlet: You know how to use.
+- [ ] Field notebook, verification log sheet, and demonstration materials for You know how to use.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A baseplate compass helps navigators determine bearings in geocaching.](/assets/pamphlet_images/geocaching_p027_img1.png)
 
@@ -320,9 +320,9 @@
 - **Pamphlet Fact:** Scouting volunteers and local troops maintain these special memorial containers year-round.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Geocaching Merit Badge Pamphlet and Fillable Scout Workbook (Req 8: Cache to Eagle Series Exists)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Cache to Eagle Series Exists
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Geocaching Merit Badge Pamphlet: Cache to Eagle Series Exists.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Cache to Eagle Series Exists.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A hiker pauses on an overlook during an outdoor geocaching adventure.](/assets/pamphlet_images/geocaching_p049_img1.png)
 

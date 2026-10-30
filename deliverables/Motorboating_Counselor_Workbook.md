@@ -1,8 +1,8 @@
 # Motorboating Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Motorboating.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/motorboating/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/motorboating/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -24,9 +24,9 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Do the following: (a) Discuss with your counselor the following hazards you might encounter while motorboating: flammable fuel; carbon monoxide; propellers; collisions; falls overboard; capsize; or running aground. Explain what you should do to anticipate, prevent, mitigate, and respond to these hazards. (b) Explain first aid for injuries or illnesses that could occur while motorboating, including hypothermia, heat reactions, dehydration, motion sickness, bug bites, and blisters. (c) Discuss the Scouting America Safety Afloat policy. Tell how it applies to motorboating activities.
-- [ ] **Station Req 2:** Do the following: (a) Before doing requirement 5, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test. (b) Name the different types of personal flotation devices (PFDs), and explain when each type should be used. Show how to choose and properly fit a PFD.
-- [ ] **Station Req 5:** With your counselor or other adults on board, demonstrate proper boat-handling procedures and skills by doing the following: (a) Board and assist others in boarding. Confirm that all passengers on board are wearing properly fitted life jackets. (b) Fuel the boat and complete a safety check. (c) If equipped, attach the engine cut-off switch link and safely start the motor. Get underway from dockside or from a beach launch. (d) Run a course for at least a mile, showing procedures for overtaking and passing slower vessels, yielding right-of-way, passing oncoming traffic, making turns, reversing direction, and using navigation aids. (e) Stop and secure the boat in position on the open water using anchors. Raise and stow the anchor and get underway. (f) Land or dock the boat, disembark, and assist others in doing the same. (g) Moor, dock, or beach the boat and secure all gear. (h) Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and sheet bend.
+- [ ] **Station Req 1:** Scout must individually demonstrate mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -112,10 +112,10 @@
 - **Pamphlet Fact:** The test requires swimming one hundred yards using strong strokes followed by resting floats.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Motorboating Requirement 2 figure showing strong swimming skills provide essential confidence during accidental water entries.](/assets/pamphlet_images/motorboating_p007_img1.png)
 
@@ -230,10 +230,10 @@
 - **Pamphlet Fact:** Safety Afloat requires a minimum ratio of one certified adult per ten scouts.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.](/assets/pamphlet_images/motorboating_p008_img1.png)
 
@@ -355,10 +355,10 @@
 - **Pamphlet Fact:** Boarding passengers must step into the boat centerline one person at a time.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.](/assets/pamphlet_images/motorboating_p013_img1.png)
 

@@ -75,9 +75,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Salamanders are classified as lizards because both share an elongated body shape and four legs.",
-        "fact": "Reptile scales contain keratin while amphibian skin lacks scales and absorbs water directly through cutaneous pores.",
-        "myth": "Salamanders are classified as lizards because both share an elongated body shape and four legs.",
-        "fact_correction": "Reptile scales contain keratin while amphibian skin lacks scales and absorbs water directly through cutaneous pores."
+        "fact": "Reptile scales contain keratin while amphibian skin lacks scales and absorbs water directly through cutaneous pores."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -114,38 +112,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Field Sketches From Live Observation",
-        "right_header": "Close-Up Wildlife Field Photographs",
+        "left_header": "Req 1: Venomous Bite First Aid",
+        "right_header": "Req 1: Document Anatomical Functions",
         "left_points": [
           "Venomous Bite First Aid: Tell what you should do in case of a bite by a venomous species (p. 6).",
           "Observing Snake Locomotion: Describe From observation, describe how snakes move forward (p. 6).",
           "Muscular and Skeletal Functions: Describe the functions of the muscles, ribs, and belly plates (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Document Anatomical Functions: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
-          "Step 2 - Sketch Species Field Marks: Describe the identifying characteristics of six species of reptiles and four species of amphibians found in the United States (p. 6).",
-          "Step 3 - Practice Identification With Buddy: Cross-check your Identifying characteristics of six species technique, measurements (p. 10)."
+          "Document Anatomical Functions: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
+          "Sketch Species Field Marks: Describe the identifying characteristics of six species of reptiles and four species of amphibians found in the United States (p. 6).",
+          "Practice Identification With Buddy: Cross-check your Identifying characteristics of six species technique, measurements (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Venomous Bite First Aid",
+            "attribute": "Epidermal Keratin Scales",
             "left": "Venomous Bite First Aid: Tell what you should do in case of a bite by a venomous species (p. 6).",
-            "right": "Step 1 - Document Anatomical Functions: Describe the functions of the muscles, ribs, and belly plates (p. 6)."
+            "right": "Document Anatomical Functions: Describe the functions of the muscles, ribs, and belly plates (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Cutaneous Gas Exchange",
             "left": "Observing Snake Locomotion: Describe From observation, describe how snakes move forward (p. 6).",
-            "right": "Step 2 - Sketch Species Field Marks: Describe the identifying characteristics of six species of reptiles and four species of amphibians found in the United States (p. 6)."
+            "right": "Sketch Species Field Marks: Describe the identifying characteristics of six species of reptiles and four species of amphibians found in the United States (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Plastron Suture Patterns",
             "left": "Muscular and Skeletal Functions: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
-            "right": "Step 3 - Practice Identification With Buddy: Cross-check your Identifying characteristics of six species technique, measurements (p. 10)."
+            "right": "Practice Identification With Buddy: Cross-check your Identifying characteristics of six species technique, measurements (p. 10)."
           }
         ]
       },
       "worked_example": {
-        "title": "Reptile and Amphibian Study Req 1 Exemplar Workbook Entry: Identifying United States Reptiles and Amphibians",
+        "title": "Reptile and Amphibian Study Req 1 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Venomous Bite First Aid": "Tell what you should do in case of a bite by a venomous species (p. 6).",
@@ -188,7 +186,33 @@
       "socratic_questions": [
         "What physical microstructures distinguish the glandular skin of a true frog from the keratinized epidermis of a lizard?",
         "Why do naturalists record costal groove counts when distinguishing cryptic woodland salamander species?",
-        "How do ventral scale counts and blotch margins help confirm the identity of nonvenomous colubrid snakes?"
+        "In what specific ways do ventral scale counts and blotch margins help confirm the identity of nonvenomous colubrid snakes?",
+        "Which scale pattern or dorsal ridge helps distinguish a harmless watersnake from a cottonmouth in your field sketch?",
+        "What happens to an amphibian's skin coloration when temperature or background lighting shifts during observation?",
+        "Where should a Scout position a camera lens to capture diagnostic plastron hinge markings on a native box turtle?",
+        "Why is it dangerous to rely solely on red, yellow, and black band order when identifying North American coral snakes?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Salamanders are classified as lizards because both share an elongated body shape and four legs.",
+          "fact": "Reptile scales contain keratin while amphibian skin lacks scales and absorbs water directly through cutaneous pores."
+        },
+        {
+          "misconception": "Body color alone reliably identifies native North American frog, lizard, and snake species in the wild.",
+          "fact": "Coloration varies by age, temperature, and region, so field identification requires checking scale rows, costal grooves, and head plates."
+        },
+        {
+          "misconception": "All native salamanders have rough, dry skin and belong to the same taxonomic class as small lizards.",
+          "fact": "Salamanders are amphibians with moist, scaleless skin and clawless toes, whereas lizards are reptiles with dry scales and clawed feet."
+        },
+        {
+          "misconception": "Scientific binomial names use capital letters for both the genus name and the specific epithet in field logs.",
+          "fact": "Binomial nomenclature capitalizes only the genus name while keeping the specific epithet lowercase and italicizing both Latin terms."
+        },
+        {
+          "misconception": "Picking up unknown wild snakes by hand is necessary to inspect their ventral scales for species verification.",
+          "fact": "Scouts must observe and photograph wild reptiles from a safe distance using binoculars or a zoom lens without handling unknown snakes."
+        }
       ]
     },
     {
@@ -245,9 +269,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Reptiles and amphibians maintain uniform species diversity across all fifty states regardless of regional climate.",
-        "fact": "Over three hundred native reptile species and two hundred thirty amphibian species inhabit distinct regional life zones across North America.",
-        "myth": "Reptiles and amphibians maintain uniform species diversity across all fifty states regardless of regional climate.",
-        "fact_correction": "Over three hundred native reptile species and two hundred thirty amphibian species inhabit distinct regional life zones across North America."
+        "fact": "Over three hundred native reptile species and two hundred thirty amphibian species inhabit distinct regional life zones across North America."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -283,44 +305,44 @@
         "Step 4 - Local Inventory Compilation: Assemble a verified table listing prevalent reptiles and amphibians within thirty miles."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Approximate Number of Species",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Approximate Number of Species.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Warm Humid Southeastern Amphibian Diversity",
-        "right_header": "Arid Southwestern Desert Reptile Diversity",
+        "left_header": "Req 2: Venomous Snakebite Response",
+        "right_header": "Req 2: Examine Reptile Anatomy",
         "left_points": [
           "Venomous Snakebite Response: Tell what you should do in case of a bite by a venomous species (p. 6).",
           "Mechanics of Snake Movement: Describe From observation, describe how snakes move forward (p. 6).",
           "Belly Plates and Ribs: Describe the functions of the muscles, ribs, and belly plates (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Examine Reptile Anatomy: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
+          "Examine Reptile Anatomy: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
           "Species Diversity and Geographic Distribution: Review the Reptile and Amphibian Study pamphlet standards for req 2, species diversity and geographic distribution, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).",
-          "Step 3 - Verify Local Species Checklist: Cross-check your Approximate Number of Species technique, measurements, and results (p. 14)."
+          "Verify Local Species Checklist: Cross-check your Approximate Number of Species technique, measurements, and results (p. 14)."
         ],
         "rows": [
           {
-            "attribute": "Venomous Snakebite Response",
+            "attribute": "Southeastern Salamander Density",
             "left": "Venomous Snakebite Response: Tell what you should do in case of a bite by a venomous species (p. 6).",
-            "right": "Step 1 - Examine Reptile Anatomy: Describe the functions of the muscles, ribs, and belly plates (p. 6)."
+            "right": "Examine Reptile Anatomy: Describe the functions of the muscles, ribs, and belly plates (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Southwestern Desert Squamates",
             "left": "Mechanics of Snake Movement: Describe From observation, describe how snakes move forward (p. 6).",
             "right": "Species Diversity and Geographic Distribution: Review the Reptile and Amphibian Study pamphlet standards for req 2, species diversity and geographic distribution, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Ectothermic Thermal Drivers",
             "left": "Belly Plates and Ribs: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
-            "right": "Step 3 - Verify Local Species Checklist: Cross-check your Approximate Number of Species technique, measurements, and results (p. 14)."
+            "right": "Verify Local Species Checklist: Cross-check your Approximate Number of Species technique, measurements, and results (p. 14)."
           }
         ]
       },
       "worked_example": {
-        "title": "Reptile and Amphibian Study Req 2 Exemplar Workbook Entry: Species Diversity and Geographic Distribution",
+        "title": "Reptile and Amphibian Study Req 2 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Venomous Snakebite Response": "Tell what you should do in case of a bite by a venomous species (p. 6).",
@@ -363,7 +385,33 @@
       "socratic_questions": [
         "Why does the southeastern United States support significantly more salamander species than the arid southwest?",
         "Which geographic barriers limit the northern expansion of oviparous colubrid snakes in temperate latitudes?",
-        "How do microclimate variations within your home county influence local amphibian breeding pool occupancy?"
+        "In what specific ways do microclimate variations within your home county influence local amphibian breeding pool occupancy?",
+        "Under what climatic conditions does reptile species diversity peak across the southwestern United States?",
+        "Which environmental factor explains why the Appalachian Mountains host the highest salamander diversity in the world?",
+        "What happens to the geographic range of ectothermic species as elevation or latitude increases across a state?",
+        "Which local habitat types should you survey first when compiling a state checklist of common native frogs and turtles?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Reptiles and amphibians maintain uniform species diversity across all fifty states regardless of regional climate.",
+          "fact": "Over three hundred native reptile species and two hundred thirty amphibian species inhabit distinct regional life zones across North America."
+        },
+        {
+          "misconception": "Arid southwestern deserts contain more native amphibian species than humid southeastern forests and wetlands.",
+          "fact": "Amphibians require moisture for skin respiration and breeding, making the warm, wet southeastern states their primary biodiversity hub."
+        },
+        {
+          "misconception": "Reptiles and amphibians maintain a constant internal body temperature regardless of their geographic latitude.",
+          "fact": "Both groups are ectotherms that depend on external heat sources, which restricts their northern range and high-elevation distribution."
+        },
+        {
+          "misconception": "Every species listed in a national field guide occurs uniformly across every county within a state's borders.",
+          "fact": "Species distributions follow specific microhabitats, watersheds, and elevation zones rather than political state or county boundaries."
+        },
+        {
+          "misconception": "Alaska hosts zero native amphibian species because permafrost covers the entire state throughout the year.",
+          "fact": "Southern and coastal Alaska support hardy native amphibians such as the wood frog and rough-skinned newt in temperate forest wetlands."
+        }
       ]
     },
     {
@@ -413,9 +461,7 @@
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Amphibians can safely live in dry desert terrain because their skin holds moisture like reptile scales.",
-            "fact": "Reptiles are amniotes possessing keratinized epidermal scales, whereas amphibians are anamniotes featuring permeable, gland-rich skin.",
-            "myth": "Amphibians can safely live in dry desert terrain because their skin holds moisture like reptile scales.",
-            "fact_correction": "Reptiles are amniotes possessing keratinized epidermal scales, whereas amphibians are anamniotes featuring permeable, gland-rich skin."
+            "fact": "Reptiles are amniotes possessing keratinized epidermal scales, whereas amphibians are anamniotes featuring permeable, gland-rich skin."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -486,9 +532,7 @@
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Alligators and crocodiles share identical saltwater tolerances and jaw profiles throughout North America.",
-            "fact": "Alligators feature broad rounded snouts with hidden lower teeth, whereas crocodiles possess tapered snouts with an exposed fourth mandibular tooth.",
-            "myth": "Alligators and crocodiles share identical saltwater tolerances and jaw profiles throughout North America.",
-            "fact_correction": "Alligators feature broad rounded snouts with hidden lower teeth, whereas crocodiles possess tapered snouts with an exposed fourth mandibular tooth."
+            "fact": "Alligators feature broad rounded snouts with hidden lower teeth, whereas crocodiles possess tapered snouts with an exposed fourth mandibular tooth."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -567,9 +611,7 @@
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Handling a common terrestrial toad causes human skin to develop contagious warts.",
-            "fact": "Bufonid toads possess dry warty skin with elevated parotoid glands, whereas ranid frogs exhibit smooth skin and powerful elongated hindlegs.",
-            "myth": "Handling a common terrestrial toad causes human skin to develop contagious warts.",
-            "fact_correction": "Bufonid toads possess dry warty skin with elevated parotoid glands, whereas ranid frogs exhibit smooth skin and powerful elongated hindlegs."
+            "fact": "Bufonid toads possess dry warty skin with elevated parotoid glands, whereas ranid frogs exhibit smooth skin and powerful elongated hindlegs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -640,9 +682,7 @@
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Any elongated, legless reptile encountered in tall grass is automatically a snake.",
-            "fact": "Lizards possess moveable eyelids, external ear openings, and paired hemipenes, while snakes lack eyelids and external auditory apertures.",
-            "myth": "Any elongated, legless reptile encountered in tall grass is automatically a snake.",
-            "fact_correction": "Lizards possess moveable eyelids, external ear openings, and paired hemipenes, while snakes lack eyelids and external auditory apertures."
+            "fact": "Lizards possess moveable eyelids, external ear openings, and paired hemipenes, while snakes lack eyelids and external auditory apertures."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -753,9 +793,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Toads, frogs, lizards, and salamanders all belong to the same single vertebrate taxonomic class.",
-        "fact": "Reptiles possess claws and produce amniotic eggs with leathery or calcified shells, whereas amphibians lack true claws and deposit anamniotic gelatinous eggs.",
-        "myth": "Toads, frogs, lizards, and salamanders all belong to the same single vertebrate taxonomic class.",
-        "fact_correction": "Reptiles possess claws and produce amniotic eggs with leathery or calcified shells, whereas amphibians lack true claws and deposit anamniotic gelatinous eggs."
+        "fact": "Reptiles possess claws and produce amniotic eggs with leathery or calcified shells, whereas amphibians lack true claws and deposit anamniotic gelatinous eggs."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -792,7 +830,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Amphibian And Reptile Distinctions",
+        "left_header": "Req 3a: Amphibian And Reptile",
         "right_header": "Req 3c: Toad And Frog Characteristics",
         "left_points": [
           "(3a) Amphibian And Reptile Distinctions: Reptiles reproduce via amniotic eggs on dry land and breathe solely through lungs. Amphibians hatch from shell-less aquatic eggs, undergo metamorphosis, and perform cutaneous respiration.",
@@ -804,28 +842,28 @@
         ],
         "rows": [
           {
-            "attribute": "Amphibians Versus Reptiles",
-            "left": "(3a) Amphibians Versus Reptiles: Tell what you should do in case of a bite by a venomous species (p. 7).",
-            "right": "(3c) Toads Versus Frogs: Describe the functions of the muscles, ribs, and belly plates (p. 7)."
+            "attribute": "Amniotic Membrane Evolution",
+            "left": "(3a) Amphibian And Reptile Distinctions: Reptiles reproduce via amniotic eggs on dry land and breathe solely through lungs. Amphibians hatch from shell-less aquatic eggs, undergo metamorphosis, and perform cutaneous respiration.",
+            "right": "(3c) Toad And Frog Characteristics: True toads feature stout bodies adapted for short hops and terrestrial burrowing away from water. Frogs possess slender torsos and extensive webbing between digits for explosive swimming."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(3b) Alligators Versus Crocodiles: Describe From observation, describe how snakes move forward (p. 7).",
-            "right": "(3d) Snakes Versus Lizards: Amphibians and reptiles (p. 7)."
+            "attribute": "Anamniotic Egg Gelatin",
+            "left": "(3b) Alligator And Crocodile Comparisons: Alligator mississippiensis inhabits freshwater wetlands across the Southeast with a broad U-shaped rostrum. Crocodylus acutus maintains lingual salt glands and a narrow V-shaped snout in coastal southern Florida.",
+            "right": "(3d) Snake And Lizard Anatomy: Snakes have flexible lower jaws joined by an elastic ligament and possess specialized wide belly plates. Legless lizards retain rigid mandibular symphyses and visible external ear canals."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Rib and Scale Coordination: Describe the functions of the muscles, ribs, and belly plates (p. 7).",
-            "right": "Step 3 - Teach Group Differences: Cross-check your Main Differences Between A Amphibians technique, measurements, and results (p. 18)."
+            "attribute": "Cranial Dentition Differences",
+            "left": "Req 3a: Amphibian And Reptile: Reptiles reproduce via amniotic eggs on dry land and breathe solely through lungs. Amphibians hatch from shell-less aquatic eggs, undergo metamorphosis, and perform cutaneous respiration.",
+            "right": "Req 3b: Alligator And Crocodile: Alligator mississippiensis inhabits freshwater wetlands across the Southeast with a broad U-shaped rostrum. Crocodylus acutus maintains lingual salt glands and a narrow V-shaped snout in coastal southern Florida."
           }
         ]
       },
       "worked_example": {
-        "title": "Reptile and Amphibian Study Req 3 Exemplar Workbook Entry: Distinguishing Major Herpetological Groups",
+        "title": "Reptile and Amphibian Study Req 3 Exemplar Workbook",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 3a - Amphibian And Reptile Distinction": "Reptiles reproduce via amniotic eggs on dry land and breathe solely through lungs. Amphibians hatch from shell-less aquatic eggs, undergo metamorphosis, and perform cutaneous respiration.",
-          "Req 3b - Alligator And Crocodile Compariso": "Alligator mississippiensis inhabits freshwater wetlands across the Southeast with a broad U-shaped rostrum. Crocodylus acutus maintains lingual salt glands and a narrow V-shaped snout in coastal southern Florida.",
+          "Req 3a - Amphibian And Reptile": "Reptiles reproduce via amniotic eggs on dry land and breathe solely through lungs. Amphibians hatch from shell-less aquatic eggs, undergo metamorphosis, and perform cutaneous respiration.",
+          "Req 3b - Alligator And Crocodile": "Alligator mississippiensis inhabits freshwater wetlands across the Southeast with a broad U-shaped rostrum. Crocodylus acutus maintains lingual salt glands and a narrow V-shaped snout in coastal southern Florida.",
           "Req 3c - Toad And Frog Characteristics": "True toads feature stout bodies adapted for short hops and terrestrial burrowing away from water. Frogs possess slender torsos and extensive webbing between digits for explosive swimming.",
           "Req 3d - Snake And Lizard Anatomy": "Snakes have flexible lower jaws joined by an elastic ligament and possess specialized wide belly plates. Legless lizards retain rigid mandibular symphyses and visible external ear canals."
         },
@@ -862,9 +900,35 @@
       "workbook_visual_caption": "Scouts and their leader carefully examine a live reptile along a lush forested woodland trail.",
       "pamphlet_summary": "Major structural divergences distinguish amphibians from reptiles, including respiratory mechanics, embryonic membranes, and integumentary properties. Comparative anatomy further separates crocodilian families by dental alignment, anurans by skin morphology, and squamates by cranial kinesis and auricular openings.",
       "socratic_questions": [
-        "How do the developmental requirements of an anamniotic egg restrict amphibian breeding habitats?",
+        "In what specific ways do the developmental requirements of an anamniotic egg restrict amphibian breeding habitats?",
         "What skeletal and auditory features allow a naturalist to separate a legless lizard from a true snake?",
-        "Why does maxillary tooth visibility differ between alligators and crocodiles when their jaws remain shut?"
+        "Why does maxillary tooth visibility differ between alligators and crocodiles when their jaws remain shut?",
+        "Which physical indicator on a closed jaw distinguishes an American alligator from an American crocodile?",
+        "What anatomical structures allow a legless glass lizard to be distinguished from a true snake in the field?",
+        "Why does an amphibian's permeable skin restrict it to moist habitats compared to a reptile's keratinized scales?",
+        "Which hind-limb and skin-gland adaptations separate true toads in family Bufonidae from true aquatic frogs?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Toads, frogs, lizards, and salamanders all belong to the same single vertebrate taxonomic class.",
+          "fact": "Reptiles possess claws and produce amniotic eggs with leathery or calcified shells, whereas amphibians lack true claws and deposit anamniotic gelatinous eggs."
+        },
+        {
+          "misconception": "Every legless reptile with a long cylindrical body is classified taxonomically as a true snake.",
+          "fact": "Legless lizards possess movable eyelids, external ear openings, and detachable tails, which true snakes lack completely."
+        },
+        {
+          "misconception": "Alligators have narrow V-shaped snouts and display a prominent lower fourth tooth when their jaws are closed.",
+          "fact": "Alligators have broad U-shaped snouts that hide their lower teeth, whereas crocodiles have narrow V-shaped snouts and visible fourth teeth."
+        },
+        {
+          "misconception": "Touching the parotoid glands or bumpy skin of a wild American toad transmits viral warts to human hands.",
+          "fact": "Human warts come only from the human papillomavirus; a toad's bumps are natural skin glands that secrete mild defensive bufotoxins."
+        },
+        {
+          "misconception": "Reptile scales are shed piecemeal as individual flakes in the same way that bony fish lose single scales.",
+          "fact": "Reptile scales form from continuous epidermal keratin and shed either in one complete piece, as in snakes, or in large patches."
+        }
       ]
     },
     {
@@ -937,9 +1001,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Removing predatory snakes and bullfrogs from an ecosystem produces no measurable effect on rodent or insect numbers.",
-        "fact": "Amphibians serve as primary biological indicators because environmental pollutants absorb rapidly through their moist, permeable skin.",
-        "myth": "Removing predatory snakes and bullfrogs from an ecosystem produces no measurable effect on rodent or insect numbers.",
-        "fact_correction": "Amphibians serve as primary biological indicators because environmental pollutants absorb rapidly through their moist, permeable skin."
+        "fact": "Amphibians serve as primary biological indicators because environmental pollutants absorb rapidly through their moist, permeable skin."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -970,44 +1032,44 @@
       ],
       "step_by_step_procedure": [
         "Step 1 - Trophic Role Evaluation: Chart the position of native herpetofauna within local wetland and upland food webs.",
-        "Step 2 - Protected Species Identification: Identify four federally or state protected herpetofaunal species from official state conservation listings.",
+        "Step 2 - Protected Species: Identify four federally or state protected herpetofaunal species from official state conservation listings.",
         "Step 3 - Threat Factor Analysis: Document primary mortality drivers including habitat loss, road mortality, and emerging chytridiomycosis infections.",
         "Step 4 - Invasive Species Assessment: Detail ecological damage caused by three invasive reptiles or amphibians established within American habitats."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Predators Controlling Rodent and Insect Pests",
-        "right_header": "Prey Sustaining Birds and Mammals",
+        "left_header": "Req 4: Venomous Bite Protocol",
+        "right_header": "Req 4: Study Locomotor Anatomy",
         "left_points": [
           "Venomous Bite Protocol: Tell what you should do in case of a bite by a venomous species (p. 6).",
           "Observing Snake Crawling: Describe From observation, describe how snakes move forward (p. 6).",
           "Ventral Scutes and Muscles: Describe the functions of the muscles, ribs, and belly plates (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Study Locomotor Anatomy: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
-          "Step 2 - Research Protected Local Species: Explain how reptiles and amphibians are an important component of the natural environment (p. 6).",
-          "Step 3 - Review Conservation Food Webs: Cross-check your Reptiles and Amphibians technique, measurements, and results with a patrol (p. 22)."
+          "Study Locomotor Anatomy: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
+          "Research Protected Local Species: Explain how reptiles and amphibians are an important component of the natural environment (p. 6).",
+          "Review Conservation Food Webs: Cross-check your Reptiles and Amphibians technique, measurements, and results with a patrol (p. 22)."
         ],
         "rows": [
           {
-            "attribute": "Venomous Bite Protocol",
+            "attribute": "Mid Trophic Linkages",
             "left": "Venomous Bite Protocol: Tell what you should do in case of a bite by a venomous species (p. 6).",
-            "right": "Step 1 - Study Locomotor Anatomy: Describe the functions of the muscles, ribs, and belly plates (p. 6)."
+            "right": "Study Locomotor Anatomy: Describe the functions of the muscles, ribs, and belly plates (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Permeable Bioindicator Integrity",
             "left": "Observing Snake Crawling: Describe From observation, describe how snakes move forward (p. 6).",
-            "right": "Step 2 - Research Protected Local Species: Explain how reptiles and amphibians are an important component of the natural environment (p. 6)."
+            "right": "Research Protected Local Species: Explain how reptiles and amphibians are an important component of the natural environment (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Federal Endangered Listings",
             "left": "Ventral Scutes and Muscles: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
-            "right": "Step 3 - Review Conservation Food Webs: Cross-check your Reptiles and Amphibians technique, measurements, and results with a patrol (p. 22)."
+            "right": "Review Conservation Food Webs: Cross-check your Reptiles and Amphibians technique, measurements, and results with a patrol (p. 22)."
           }
         ]
       },
       "worked_example": {
-        "title": "Reptile and Amphibian Study Req 4 Exemplar Workbook Entry: Ecological Roles and Protected Species",
+        "title": "Reptile and Amphibian Study Req 4 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Venomous Bite Protocol": "Tell what you should do in case of a bite by a venomous species (p. 6).",
@@ -1050,7 +1112,33 @@
       "socratic_questions": [
         "How does the biphasic life cycle of amphibians make them vulnerable to both aquatic and terrestrial disruptions?",
         "Why did commercial hide hunting and wetland drainage push the American alligator near extinction last century?",
-        "What ecological consequences occur when an introduced predator like the cane toad invades regional wetlands?"
+        "What ecological consequences occur when an introduced predator like the cane toad invades regional wetlands?",
+        "What happens to local rodent and insect populations when native snakes and frogs disappear from a watershed?",
+        "Why do biologists treat stream salamanders and chorus frogs as early bioindicators of chemical water pollution?",
+        "Which human land-use practices cause the greatest habitat fragmentation for federally listed tortoises and turtles?",
+        "Why is it dangerous to native wildlife when pet owners release captive reptiles into local parks or wetlands?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Removing predatory snakes and bullfrogs from an ecosystem produces no measurable effect on rodent or insect numbers.",
+          "fact": "Amphibians serve as primary biological indicators because environmental pollutants absorb rapidly through their moist, permeable skin."
+        },
+        {
+          "misconception": "Eliminating venomous and nonvenomous snakes from rural farms improves crop yields and protects livestock health.",
+          "fact": "Wild snakes consume thousands of crop-destroying rodents and disease-carrying ticks, providing essential pest control for ecosystems."
+        },
+        {
+          "misconception": "Amphibian populations resist waterborne agricultural pesticides because adults can breathe air on dry land.",
+          "fact": "Amphibians absorb dissolved toxins directly through their highly permeable skin and shell-less aquatic eggs, making them very vulnerable."
+        },
+        {
+          "misconception": "Collecting a single wild box turtle or indigo snake as a home pet has no measurable impact on species recovery.",
+          "fact": "Removing breeding adults from slow-maturing reptile populations severely reduces local reproduction and violates wildlife protection laws."
+        },
+        {
+          "misconception": "Draining temporary vernal pools in spring helps tree frogs and mole salamanders by preventing larval drowning.",
+          "fact": "Vernal pools provide fish-free breeding sanctuaries required by many amphibians to complete metamorphosis from gilled larvae to adults."
+        }
       ]
     },
     {
@@ -1117,9 +1205,7 @@
       },
       "common_misconception_pair": {
         "misconception": "All reptiles and amphibians must return directly to open water pools to deposit their eggs.",
-        "fact": "Reptiles practice internal fertilization and produce cleidoic eggs, whereas most frogs and toads release sperm over eggs during amplexus.",
-        "myth": "All reptiles and amphibians must return directly to open water pools to deposit their eggs.",
-        "fact_correction": "Reptiles practice internal fertilization and produce cleidoic eggs, whereas most frogs and toads release sperm over eggs during amplexus."
+        "fact": "Reptiles practice internal fertilization and produce cleidoic eggs, whereas most frogs and toads release sperm over eggs during amplexus."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1150,44 +1236,44 @@
       ],
       "step_by_step_procedure": [
         "Step 1 - Embryonic Membrane Comparison: Compare the protective layers of shelled reptile eggs against gelatinous amphibian egg masses.",
-        "Step 2 - Fertilization Mechanism Analysis: Contrast external fertilization during anuran amplexus with internal squamate and chelonian copulation.",
+        "Step 2 - Fertilization Mechanism: Contrast external fertilization during anuran amplexus with internal squamate and chelonian copulation.",
         "Step 3 - Larval Stage Tracking: Document amphibian metamorphosis stages from gilled aquatic tadpole to lung breathing adult terrestrial form.",
-        "Step 4 - Reproductive Strategy Cataloging: Record environmental parameters including water temperature and substrate moisture essential for incubation success."
+        "Step 4 - Reproductive Strategy: Record environmental parameters including water temperature and substrate moisture essential for incubation success."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Gelatinous Aquatic Eggs and Metamorphosis",
-        "right_header": "Amniotic Shelled Eggs and Direct Development",
+        "left_header": "Req 5: Observing Serpentine Motion",
+        "right_header": "Req 5: Review Bite Emergency Steps",
         "left_points": [
           "Observing Serpentine Motion: Describe From observation, describe how snakes move forward (p. 6).",
           "Muscles Ribs and Scales: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
           "Venomous Bite Safety: Tell what you should do in case of a bite by a venomous species (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Review Bite Emergency Steps: Tell what you should do in case of a bite by a venomous species (p. 6).",
-          "Step 2 - Compare Egg and Larval Stages: Compare how reptiles reproduce to how amphibians reproduce (p. 6).",
-          "Step 3 - Practice Life Cycle Explanations: Cross-check your Reptiles Reproduce to How Amphibians technique, measurements, and results (p. 26)."
+          "Review Bite Emergency Steps: Tell what you should do in case of a bite by a venomous species (p. 6).",
+          "Compare Egg and Larval Stages: Compare how reptiles reproduce to how amphibians reproduce (p. 6).",
+          "Practice Life Cycle Explanations: Cross-check your Reptiles Reproduce to How Amphibians technique, measurements, and results (p. 26)."
         ],
         "rows": [
           {
-            "attribute": "Observing Serpentine Motion",
+            "attribute": "Amniotic Cleidoic Membranes",
             "left": "Observing Serpentine Motion: Describe From observation, describe how snakes move forward (p. 6).",
-            "right": "Step 1 - Review Bite Emergency Steps: Tell what you should do in case of a bite by a venomous species (p. 6)."
+            "right": "Review Bite Emergency Steps: Tell what you should do in case of a bite by a venomous species (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Anuran External Amplexus",
             "left": "Muscles Ribs and Scales: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
-            "right": "Step 2 - Compare Egg and Larval Stages: Compare how reptiles reproduce to how amphibians reproduce (p. 6)."
+            "right": "Compare Egg and Larval Stages: Compare how reptiles reproduce to how amphibians reproduce (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Aquatic Larval Metamorphosis",
             "left": "Venomous Bite Safety: Tell what you should do in case of a bite by a venomous species (p. 6).",
-            "right": "Step 3 - Practice Life Cycle Explanations: Cross-check your Reptiles Reproduce to How Amphibians technique, measurements, and results (p. 26)."
+            "right": "Practice Life Cycle Explanations: Cross-check your Reptiles Reproduce to How Amphibians technique, measurements, and results (p. 26)."
           }
         ]
       },
       "worked_example": {
-        "title": "Reptile and Amphibian Study Req 5 Exemplar Workbook Entry: Reptile and Amphibian Reproductive Strategies",
+        "title": "Reptile and Amphibian Study Req 5 Exemplar Workbook",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
           "Observing Serpentine Motion": "Describe From observation, describe how snakes move forward (p. 6).",
@@ -1230,7 +1316,33 @@
       "socratic_questions": [
         "How does the evolution of the allantois and chorion enable reptile embryos to develop away from water?",
         "What physiological triggers induce courtship behavior and male advertisement calls in vernal pool anurans?",
-        "Why do certain viviparous reptiles thrive in high-elevation montane environments where oviparous species fail?"
+        "Why do certain viviparous reptiles thrive in high-elevation montane environments where oviparous species fail?",
+        "What structural membranes inside an amniotic egg allow reptiles to lay eggs on dry land away from open water?",
+        "Under what environmental conditions do most native frogs and salamanders deposit their gelatinous egg masses?",
+        "What happens to the respiratory organs of a tadpole during its metamorphosis into a terrestrial adult frog?",
+        "Which native North American snake families give birth to live young rather than laying leathery-shelled eggs?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "All reptiles and amphibians must return directly to open water pools to deposit their eggs.",
+          "fact": "Reptiles practice internal fertilization and produce cleidoic eggs, whereas most frogs and toads release sperm over eggs during amplexus."
+        },
+        {
+          "misconception": "Every species of North American snake and lizard reproduces exclusively by laying hard-shelled terrestrial eggs.",
+          "fact": "Garter snakes, watersnakes, rattlesnakes, and several native lizards are ovoviviparous or viviparous and give birth to live young."
+        },
+        {
+          "misconception": "Amphibian eggs possess a protective calcified shell that prevents desiccation when exposed to dry summer air.",
+          "fact": "Amphibian eggs lack shells and amniotic membranes, relying instead on clear jelly coats that must remain in water or wet soil."
+        },
+        {
+          "misconception": "Newly hatched baby turtles and snakes go through an aquatic gilled larval stage before developing functional lungs.",
+          "fact": "Reptiles bypass a larval metamorphosis stage completely and emerge from their eggs or mothers as miniature lung-breathing juveniles."
+        },
+        {
+          "misconception": "Fertilization in most native frogs and toads occurs internally before the female enters a breeding pond.",
+          "fact": "Most frogs and toads use external fertilization during amplexus, where the male fertilizes eggs in the water as the female lays them."
+        }
       ]
     },
     {
@@ -1286,9 +1398,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Snakes walk forward on the ground by pushing downward with the tips of their flexible ribs.",
-        "fact": "Snakes move forward by coordinating long trunk muscles with movable ribs and overlapping ventral scutes that grip surface irregularities.",
-        "myth": "Snakes walk forward on the ground by pushing downward with the tips of their flexible ribs.",
-        "fact_correction": "Snakes move forward by coordinating long trunk muscles with movable ribs and overlapping ventral scutes that grip surface irregularities."
+        "fact": "Snakes move forward by coordinating long trunk muscles with movable ribs and overlapping ventral scutes that grip surface irregularities."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1325,38 +1435,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Lateral Undulation Pushing Against Surface Irregularities",
-        "right_header": "Rectilinear Locomotion Using Belly Scutes",
+        "left_header": "Req 6: Observing Forward Snake Movement",
+        "right_header": "Req 6: Review Envenomation Safety",
         "left_points": [
           "Observing Forward Snake Movement: Describe From observation, describe how snakes move forward (p. 7).",
           "Muscles Ribs and Scutes: Describe the functions of the muscles, ribs, and belly plates (p. 7).",
           "Venomous Snakebite Response: Tell what you should do in case of a bite by a venomous species (p. 7)."
         ],
         "right_points": [
-          "Step 1 - Review Envenomation Safety: Tell what you should do in case of a bite by a venomous species (p. 7).",
-          "Step 2 - Observe Live Snake Locomotion: From observation, describe how snakes move forward (p. 7).",
-          "Step 3 - Explain Scute and Rib Action: Cross-check your From observation, describe how snakes move technique, measurements, and results (p. 30)."
+          "Review Envenomation Safety: Tell what you should do in case of a bite by a venomous species (p. 7).",
+          "Observe Live Snake Locomotion: From observation, describe how snakes move forward (p. 7).",
+          "Explain Scute and Rib Action: Cross-check your From observation, describe how snakes move technique, measurements, and results (p. 30)."
         ],
         "rows": [
           {
-            "attribute": "Observing Forward Snake Movement",
+            "attribute": "Lateral Undulation Waves",
             "left": "Observing Forward Snake Movement: Describe From observation, describe how snakes move forward (p. 7).",
-            "right": "Step 1 - Review Envenomation Safety: Tell what you should do in case of a bite by a venomous species (p. 7)."
+            "right": "Review Envenomation Safety: Tell what you should do in case of a bite by a venomous species (p. 7)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Rectilinear Costal Crawling",
             "left": "Muscles Ribs and Scutes: Describe the functions of the muscles, ribs, and belly plates (p. 7).",
-            "right": "Step 2 - Observe Live Snake Locomotion: From observation, describe how snakes move forward (p. 7)."
+            "right": "Observe Live Snake Locomotion: From observation, describe how snakes move forward (p. 7)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Concertina Burrowing Mechanics",
             "left": "Venomous Snakebite Response: Tell what you should do in case of a bite by a venomous species (p. 7).",
-            "right": "Step 3 - Explain Scute and Rib Action: Cross-check your From observation, describe how snakes move technique, measurements, and results (p. 30)."
+            "right": "Explain Scute and Rib Action: Cross-check your From observation, describe how snakes move technique, measurements, and results (p. 30)."
           }
         ]
       },
       "worked_example": {
-        "title": "Reptile and Amphibian Study Req 6 Exemplar Workbook Entry: Biomechanics of Snake Locomotion",
+        "title": "Reptile and Amphibian Study Req 6 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Observing Forward Snake Movement": "Describe From observation, describe how snakes move forward (p. 7).",
@@ -1368,7 +1478,7 @@
         "counselor_tip": "For Reptile and Amphibian Study Requirement 6 (Biomechanics of Snake Locomotion), verify the Scout's own observations and specific pamphlet details (Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do heavy-bodied snakes like large boas or rattlesnakes creep forward in a straight line (rectilinear locomotion) when stalking prey?",
+        "scenario_prompt": "In what specific ways do heavy-bodied snakes like large boas or rattlesnakes creep forward in a straight line (rectilinear locomotion) when stalking prey?",
         "question": "How do heavy-bodied snakes like large boas or rattlesnakes creep forward in a straight line (rectilinear locomotion) when stalking prey?",
         "options": [
           "A. By alternately lifting, pulling forward, and anchoring sections of their overlapping belly plates using skin-attached muscles",
@@ -1397,9 +1507,35 @@
       "workbook_visual_caption": "An adult counselor and Scouts crouch beside tree roots to safely inspect a coiled snake.",
       "pamphlet_summary": "Serpentine locomotion involves four biomechanical modes: lateral undulation, rectilinear crawling, concertina motion, and sidewinding across loose substrate. Specialized costocutaneous muscles tilt broad ventral plates forward to establish friction points against surrounding ground textures.",
       "socratic_questions": [
-        "How do costocutaneous muscles translate rib movements into forward thrust through broad ventral scutes?",
+        "In what specific ways do costocutaneous muscles translate rib movements into forward thrust through broad ventral scutes?",
         "Why does lateral undulation fail on completely smooth glass surfaces devoid of external contact points?",
-        "What biomechanical advantages allow heavy-bodied vipers to stalk prey silently using rectilinear locomotion?"
+        "What biomechanical advantages allow heavy-bodied vipers to stalk prey silently using rectilinear locomotion?",
+        "What mechanical role do the overlapping rear edges of ventral scutes play during rectilinear snake movement?",
+        "Under what substrate conditions does a desert viper switch from lateral undulation to sidewinding locomotion?",
+        "Where do a snake's intercostal and spinal muscles attach to transmit pushing force against surface anchor points?",
+        "Why does a heavy-bodied boa or rattlesnake use rectilinear creeping when stalking prey through a narrow burrow?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Snakes walk forward on the ground by pushing downward with the tips of their flexible ribs.",
+          "fact": "Snakes move forward by coordinating long trunk muscles with movable ribs and overlapping ventral scutes that grip surface irregularities."
+        },
+        {
+          "misconception": "Snakes walk forward on the tips of their internal ribs in the same way a millipede moves its external legs.",
+          "fact": "Snake ribs remain stationary relative to each vertebra and support the body wall while muscles pull ventral scales forward and backward."
+        },
+        {
+          "misconception": "Snakes can slither at their normal top speed across a completely frictionless sheet of smooth glass or ice.",
+          "fact": "Lateral undulation requires surface irregularities for the snake's body curves to push against, while scutes need friction for grip."
+        },
+        {
+          "misconception": "All snake species use only a single S-shaped wave motion regardless of terrain width or ground surface texture.",
+          "fact": "Snakes adapt their gait using four primary modes: lateral undulation, rectilinear movement, concertina locomotion, and sidewinding."
+        },
+        {
+          "misconception": "A snake's flexible spine owes its sharp lateral bending to having fewer than twenty long vertebral bones.",
+          "fact": "Snakes possess between 120 and over 400 interconnected vertebrae with ball-and-socket joints that allow smooth, distributed curvature."
+        }
       ]
     },
     {
@@ -1458,9 +1594,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Venomous snakebites should be treated immediately with tourniquets, ice packs, and sharp knife suction incisions.",
-        "fact": "Pit vipers possess loreal pits between eye and nostril that detect minute infrared thermal gradients emitted by warm prey.",
-        "myth": "Venomous snakebites should be treated immediately with tourniquets, ice packs, and sharp knife suction incisions.",
-        "fact_correction": "Pit vipers possess loreal pits between eye and nostril that detect minute infrared thermal gradients emitted by warm prey."
+        "fact": "Pit vipers possess loreal pits between eye and nostril that detect minute infrared thermal gradients emitted by warm prey."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1497,38 +1631,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Pit Vipers With Heat-Sensing Facial Pits",
-        "right_header": "Coral Snakes and Gila Monsters",
+        "left_header": "Req 7: Snakebite First Aid Steps",
+        "right_header": "Req 7: Review Anatomical Mechanics",
         "left_points": [
           "Snakebite First Aid Steps: Tell what you should do in case of a bite by a venomous species (p. 7).",
           "Observing Snake Movement: Describe From observation, describe how snakes move forward (p. 7).",
           "Locomotor Muscle Functions: Describe the functions of the muscles, ribs, and belly plates (p. 7)."
         ],
         "right_points": [
-          "Step 1 - Review Anatomical Mechanics: Describe the functions of the muscles, ribs, and belly plates (p. 7).",
-          "Step 2 - Identify Native Venomous Reptiles: Describe in detail six venomous snakes and the one venomous lizard found in the United States (p. 7).",
-          "Step 3 - Practice Snakebite Response Drills: Cross-check your In detail six venomous snakes technique, measurements, and results (p. 34)."
+          "Review Anatomical Mechanics: Describe the functions of the muscles, ribs, and belly plates (p. 7).",
+          "Identify Native Venomous Reptiles: Describe in detail six venomous snakes and the one venomous lizard found in the United States (p. 7).",
+          "Practice Snakebite Response Drills: Cross-check your In detail six venomous snakes technique, measurements, and results (p. 34)."
         ],
         "rows": [
           {
-            "attribute": "Snakebite First Aid Steps",
+            "attribute": "Loreal Pit Organs",
             "left": "Snakebite First Aid Steps: Tell what you should do in case of a bite by a venomous species (p. 7).",
-            "right": "Step 1 - Review Anatomical Mechanics: Describe the functions of the muscles, ribs, and belly plates (p. 7)."
+            "right": "Review Anatomical Mechanics: Describe the functions of the muscles, ribs, and belly plates (p. 7)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Proteroglyphous Coral Dentition",
             "left": "Observing Snake Movement: Describe From observation, describe how snakes move forward (p. 7).",
-            "right": "Step 2 - Identify Native Venomous Reptiles: Describe in detail six venomous snakes and the one venomous lizard found in the United States (p. 7)."
+            "right": "Identify Native Venomous Reptiles: Describe in detail six venomous snakes and the one venomous lizard found in the United States (p. 7)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Solenoglyphous Retractable Fangs",
             "left": "Locomotor Muscle Functions: Describe the functions of the muscles, ribs, and belly plates (p. 7).",
-            "right": "Step 3 - Practice Snakebite Response Drills: Cross-check your In detail six venomous snakes technique, measurements, and results (p. 34)."
+            "right": "Practice Snakebite Response Drills: Cross-check your In detail six venomous snakes technique, measurements, and results (p. 34)."
           }
         ]
       },
       "worked_example": {
-        "title": "Reptile and Amphibian Study Req 7 Exemplar Workbook Entry: Venomous Species Identification and First Aid",
+        "title": "Reptile and Amphibian Study Req 7 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Snakebite First Aid Steps": "Tell what you should do in case of a bite by a venomous species (p. 7).",
@@ -1569,9 +1703,35 @@
       "workbook_visual_caption": "Scouts and their leader gather around a large coiled snake resting on natural forest logs.",
       "pamphlet_summary": "Seven venomous reptiles inhabit the United States, including six snakes from the viperid and elapid families alongside the Gila monster. Medical management requires calming the victim, immobilizing the affected extremity below heart level, and transporting immediately to emergency medical facilities.",
       "socratic_questions": [
-        "How do the solenoglyphous fangs of pit vipers differ mechanically from proteroglyphous coral snake fangs?",
+        "In what specific ways do the solenoglyphous fangs of pit vipers differ mechanically from proteroglyphous coral snake fangs?",
         "Why do modern medical protocols prohibit using arterial tourniquets or cold therapy on crotaline envenomations?",
-        "What habitat conditions support Gila monster populations throughout the Sonoran and Mojave desert river systems?"
+        "What habitat conditions support Gila monster populations throughout the Sonoran and Mojave desert river systems?",
+        "Which facial sensory organ allows copperheads, cottonmouths, and rattlesnakes to detect warm-blooded prey in total darkness?",
+        "Where should a Scout position a bitten limb relative to the heart while awaiting emergency medical evacuation?",
+        "Why is it dangerous to apply a tourniquet, ice pack, or razor incision to a pit viper envenomation site?",
+        "What geographic range and grooved-tooth delivery mechanism characterize the Gila monster in the American Southwest?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Venomous snakebites should be treated immediately with tourniquets, ice packs, and sharp knife suction incisions.",
+          "fact": "Pit vipers possess loreal pits between eye and nostril that detect minute infrared thermal gradients emitted by warm prey."
+        },
+        {
+          "misconception": "Cutting across fang punctures and sucking out venom with your mouth removes a lethal dose from the bloodstream.",
+          "fact": "Incising and sucking a snakebite damages blood vessels and nerves, introduces mouth bacteria, and fails to remove injected tissue venom."
+        },
+        {
+          "misconception": "A rattlesnake's age in years can be determined accurately by counting the keratin segments on its tail rattle.",
+          "fact": "Rattlesnakes add a new rattle segment every time they shed their skin, which occurs multiple times a year, and segments often break off."
+        },
+        {
+          "misconception": "All venomous snakes native to the United States have triangular heads and vertical cat-like elliptical pupils.",
+          "fact": "Venomous coral snakes have narrow rounded heads and round pupils, while many harmless snakes flatten their heads defensively when scared."
+        },
+        {
+          "misconception": "Applying a tight arterial tourniquet or an ice pack to a snakebite stops tissue necrosis and saves the limb.",
+          "fact": "Tourniquets and ice concentrate destructive venom enzymes in one area and cut off circulation, drastically increasing amputation risk."
+        }
       ]
     },
     {
@@ -1627,9 +1787,7 @@
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Pet store turtles and lizards do not carry bacteria if their enclosure glass looks clean.",
-            "fact": "Reptiles are frequent asymptomatic carriers of Salmonella bacteria in their intestinal tracts and shed it into enclosure water.",
-            "myth": "Pet store turtles and lizards do not carry bacteria if their enclosure glass looks clean.",
-            "fact_correction": "Reptiles are frequent asymptomatic carriers of Salmonella bacteria in their intestinal tracts and shed it into enclosure water."
+            "fact": "Reptiles are frequent asymptomatic carriers of Salmonella bacteria in their intestinal tracts and shed it into enclosure water."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1709,9 +1867,7 @@
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Zoo reptile and amphibian exhibits maintain identical room temperatures and humidity for all display species.",
-            "fact": "Institutional exhibits rely on automated climate controls and specialized biosecurity protocols to maintain delicate amphibian skin health.",
-            "myth": "Zoo reptile and amphibian exhibits maintain identical room temperatures and humidity for all display species.",
-            "fact_correction": "Institutional exhibits rely on automated climate controls and specialized biosecurity protocols to maintain delicate amphibian skin health."
+            "fact": "Institutional exhibits rely on automated climate controls and specialized biosecurity protocols to maintain delicate amphibian skin health."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1794,9 +1950,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A small glass jar with dry gravel and garden lettuce provides adequate long term housing for amphibians.",
-        "fact": "Reptiles and amphibians require strict environmental thermal gradients and supplemental calcium to prevent fatal metabolic bone disease.",
-        "myth": "A small glass jar with dry gravel and garden lettuce provides adequate long term housing for amphibians.",
-        "fact_correction": "Reptiles and amphibians require strict environmental thermal gradients and supplemental calcium to prevent fatal metabolic bone disease."
+        "fact": "Reptiles and amphibians require strict environmental thermal gradients and supplemental calcium to prevent fatal metabolic bone disease."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1837,14 +1991,14 @@
         "Step 4 - Husbandry Log Recording: Record daily temperatures, food items ingested, fecal deposits, and periodic ecdysis shedding records."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Custody of One or More",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Custody of One or More.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Captive Herpetofauna Husbandry Man",
-        "right_header": "Req 8b: Institutional Exhibit Specimen Stu",
+        "left_header": "Req 8a: Captive Herpetofauna Husbandry",
+        "right_header": "Req 8b: Institutional Exhibit Specimen",
         "left_points": [
           "(8a) Captive Herpetofauna Husbandry Management: Personal custody of a reptile or amphibian requires thirty consecutive days of documented husbandry and counselor approval. Scouts log prey intake, thermal adjustments, humidity levels, and behavioral changes across the maintenance window."
         ],
@@ -1853,28 +2007,28 @@
         ],
         "rows": [
           {
-            "attribute": "One-Month Custodial Animal Care",
-            "left": "(8a) One-Month Custodial Animal Care: Describe From observation, describe how snakes move forward (p. 6).",
-            "right": "(8b) Nature Center Observation Series: Describe the functions of the muscles, ribs, and belly plates (p. 6)."
+            "attribute": "Thermal Gradient Regulation",
+            "left": "(8a) Captive Herpetofauna Husbandry Management: Personal custody of a reptile or amphibian requires thirty consecutive days of documented husbandry and counselor approval. Scouts log prey intake, thermal adjustments, humidity levels, and behavioral changes across the maintenance window.",
+            "right": "(8b) Institutional Exhibit Specimen Study: Fostering or observing a specimen at an approved nature center or zoo provides insight into professional zoological care standards. Regular observations document feeding strategies, enrichment items, exhibit lighting cycles, and habitat cleanliness protocols."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Tracking Snake Locomotion: Describe From observation, describe how snakes move forward (p. 6).",
-            "right": "Step 2 - Maintain Daily Care Logs: Take custody of one or more reptiles or amphibians in a manner approved by your counselor (p. 6)."
+            "attribute": "Ultraviolet Photoperiod Cycles",
+            "left": "Req 8a: Captive Herpetofauna: Personal custody of a reptile or amphibian requires thirty consecutive days of documented husbandry and counselor approval. Scouts log prey intake, thermal adjustments, humidity levels, and behavioral changes across the maintenance window.",
+            "right": "Req 8b: Institutional Exhibit: Fostering or observing a specimen at an approved nature center or zoo provides insight into professional zoological care standards. Regular observations document feeding strategies, enrichment items, exhibit lighting cycles, and habitat cleanliness protocols."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Anatomical Movement Structures: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
-            "right": "Long-Term Care and Behavioral Observation: Review the Reptile and Amphibian Study pamphlet standards for req 8, long-term care and behavioral observation, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 38)."
+            "attribute": "Enclosure Biosecurity Cleaning",
+            "left": "Thermal Gradient Regulation: Ectothermic captives require basking zones and cooler retreats to regulate internal core body temperatures.",
+            "right": "Ultraviolet Photoperiod Cycles: Captive diurnal reptiles synthesize vitamin D3 for bone calcification under specialized ultraviolet B lamps."
           }
         ]
       },
       "worked_example": {
-        "title": "Reptile and Amphibian Study Req 8 Exemplar Workbook Entry: Long-Term Care and Behavioral Observation",
+        "title": "Reptile and Amphibian Study Req 8 Exemplar Workbook",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 8a - Captive Herpetofauna Husbandry Ma": "Personal custody of a reptile or amphibian requires thirty consecutive days of documented husbandry and counselor approval. Scouts log prey intake, thermal adjustments, humidity levels, and behavioral changes across the maintenance window.",
-          "Req 8b - Institutional Exhibit Specimen St": "Fostering or observing a specimen at an approved nature center or zoo provides insight into professional zoological care standards. Regular observations document feeding strategies, enrichment items, exhibit lighting cycles, and habitat cleanliness protocols."
+          "Req 8a - Captive Herpetofauna": "Personal custody of a reptile or amphibian requires thirty consecutive days of documented husbandry and counselor approval. Scouts log prey intake, thermal adjustments, humidity levels, and behavioral changes across the maintenance window.",
+          "Req 8b - Institutional Exhibit": "Fostering or observing a specimen at an approved nature center or zoo provides insight into professional zoological care standards. Regular observations document feeding strategies, enrichment items, exhibit lighting cycles, and habitat cleanliness protocols."
         },
         "sample_output": "Long-Term Care and Behavioral Observation: Describe From observation, describe how snakes move forward (p. 6).",
         "counselor_tip": "For Reptile and Amphibian Study Requirement 8 (Long-Term Care and Behavioral Observation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8))."
@@ -1911,7 +2065,33 @@
       "socratic_questions": [
         "Why do captive insectivorous lizards require artificial ultraviolet B light exposure to synthesize active vitamin D3?",
         "How does inadequate terrarium humidity lead to incomplete ecdysis and digital necrosis in captive squamates?",
-        "What water treatment steps are necessary before introducing tap water into an aquatic amphibian vivarium?"
+        "What water treatment steps are necessary before introducing tap water into an aquatic amphibian vivarium?",
+        "What happens to a captive reptile's digestion and immune system when its enclosure lacks a proper thermal gradient?",
+        "Which visual change in a snake's eye caps signals that ecdysis is approaching and feeding should be paused?",
+        "Why is it dangerous to rotate or flip reptile eggs after embryonic membranes have attached to the inner shell wall?",
+        "What daily enclosure measurements must you log alongside feeding habits and shed dates during your thirty-day care period?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A small glass jar with dry gravel and garden lettuce provides adequate long term housing for amphibians.",
+          "fact": "Reptiles and amphibians require strict environmental thermal gradients and supplemental calcium to prevent fatal metabolic bone disease."
+        },
+        {
+          "misconception": "Electrically heated rocks provide the safest and most uniform thermal regulation for a captive lizard or snake.",
+          "fact": "Hot rocks develop localized surface spikes that cause severe ventral thermal burns because reptiles do not sense belly heat rapidly."
+        },
+        {
+          "misconception": "Pulling stuck skin manually off a shedding snake or lizard with tweezers prevents infection when humidity is low.",
+          "fact": "Forcibly peeling dry skin tears delicate new scales and eye caps; raising enclosure humidity lets the animal shed safely on its own."
+        },
+        {
+          "misconception": "Untreated tap water is safe for filling amphibian soaking bowls and misting tree frog terrariums every day.",
+          "fact": "Municipal tap water contains chlorine and chloramines that poison amphibians through their permeable skin unless treated or dechlorinated."
+        },
+        {
+          "misconception": "Turning reptile eggs daily like bird eggs prevents the developing embryo from sticking to the leathery shell.",
+          "fact": "Reptile embryos attach to the top of the shell shortly after laying, so rotating the egg tears blood vessels and suffocates the embryo."
+        }
       ]
     },
     {
@@ -1961,9 +2141,7 @@
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Both male and female frogs sing loud advertisement choruses to establish individual territories.",
-            "fact": "Male anurans force air back and forth between the lungs and internal vocal sacs to produce resonant mating calls.",
-            "myth": "Both male and female frogs sing loud advertisement choruses to establish individual territories.",
-            "fact_correction": "Male anurans force air back and forth between the lungs and internal vocal sacs to produce resonant mating calls."
+            "fact": "Male anurans force air back and forth between the lungs and internal vocal sacs to produce resonant mating calls."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2038,9 +2216,7 @@
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Every brown woodland snake observed in leaf litter is an ordinary common garter snake.",
-            "fact": "Accurate visual field identification requires observing diagnostic scale patterns, lateral striping, and digital webbing without handling the animals.",
-            "myth": "Every brown woodland snake observed in leaf litter is an ordinary common garter snake.",
-            "fact_correction": "Accurate visual field identification requires observing diagnostic scale patterns, lateral striping, and digital webbing without handling the animals."
+            "fact": "Accurate visual field identification requires observing diagnostic scale patterns, lateral striping, and digital webbing without handling the animals."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2106,9 +2282,7 @@
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Oral talks without physical diagrams or live photographs hold audience attention during technical biology explanations.",
-            "fact": "Effective educational presentations utilize clear morphological diagrams and life cycle illustrations to convey herpetological concepts to audiences.",
-            "myth": "Oral talks without physical diagrams or live photographs hold audience attention during technical biology explanations.",
-            "fact_correction": "Effective educational presentations utilize clear morphological diagrams and life cycle illustrations to convey herpetological concepts to audiences."
+            "fact": "Effective educational presentations utilize clear morphological diagrams and life cycle illustrations to convey herpetological concepts to audiences."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2201,9 +2375,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Frogs and toads vocalize randomly by expelling air outwards past their lips without using vocal sacs.",
-        "fact": "Male frogs produce species-specific calls by inflating an elastic vocal sac that acts as an acoustic resonating chamber.",
-        "myth": "Frogs and toads vocalize randomly by expelling air outwards past their lips without using vocal sacs.",
-        "fact_correction": "Male frogs produce species-specific calls by inflating an elastic vocal sac that acts as an acoustic resonating chamber."
+        "fact": "Male frogs produce species-specific calls by inflating an elastic vocal sac that acts as an acoustic resonating chamber."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2236,11 +2408,11 @@
         "Step 1 - Wetland Acoustic Survey: Approach a breeding wetland at dusk to listen for overlapping anuran advertisement calls.",
         "Step 2 - Nocturnal Visual Tracking: Stalk singing males using red-filtered flashlights to spot inflated vocal sacs in vegetation.",
         "Step 3 - Visual Species Inventory: Search upland rocks, rotting logs, and vernal ponds to identify eight wild species.",
-        "Step 4 - Educational Presentation Delivery: Deliver an illustrated biology lecture using posters or projected photographs to a small group."
+        "Step 4 - Educational Presentation: Deliver an illustrated biology lecture using posters or projected photographs to a small group."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9a: Nocturnal Anuran Acoustic Stalking",
+        "left_header": "Req 9a: Nocturnal Anuran Acoustic",
         "right_header": "Req 9b: Visual Herpetofauna Field Survey",
         "left_points": [
           "(9a) Nocturnal Anuran Acoustic Stalking: Nocturnal surveys locate singing toads and frogs by isolating individual acoustic signatures at wetland margins. Scouts imitate species-specific calls and observe inflated vocal sacs using low-beam flashlights."
@@ -2250,29 +2422,29 @@
         ],
         "rows": [
           {
-            "attribute": "Nighttime Frog Call Identification",
-            "left": "(9a) Nighttime Frog Call Identification: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
-            "right": "(9b) Sight Identification of Eight Species: Identify at night three kinds of toads or frogs by their voices (p. 6)."
+            "attribute": "Acoustic Resonating Sacs",
+            "left": "(9a) Nocturnal Anuran Acoustic Stalking: Nocturnal surveys locate singing toads and frogs by isolating individual acoustic signatures at wetland margins. Scouts imitate species-specific calls and observe inflated vocal sacs using low-beam flashlights.",
+            "right": "(9b) Visual Herpetofauna Field Survey: Field identification of eight species requires careful observation of wild reptiles and amphibians across distinct habitat niches. Scouts record field notes detailing dorsal markings, snout shapes, and microhabitat locations."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Observing Wild Movement: Describe From observation, describe how snakes move forward (p. 6).",
-            "right": "(9c) Illustrated Herpetology Group Talk: Tell what you should do in case of a bite by a venomous species (p. 6)."
+            "attribute": "Visual Microhabitat Searches",
+            "left": "Req 9a: Nocturnal Anuran Acoustic: Nocturnal surveys locate singing toads and frogs by isolating individual acoustic signatures at wetland margins. Scouts imitate species-specific calls and observe inflated vocal sacs using low-beam flashlights.",
+            "right": "Req 9b: Visual Herpetofauna Field: Field identification of eight species requires careful observation of wild reptiles and amphibians across distinct habitat niches. Scouts record field notes detailing dorsal markings, snout shapes, and microhabitat locations."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Anatomical Field Clues: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
-            "right": "Step 3 - Practice Call Imitations Together: Cross-check your At night three kinds of toads technique, measurements, and results (p. 42)."
+            "attribute": "Species Call Mimicry",
+            "left": "Req 9c: Herpetological Group: Presenting herpetological concepts to a patrol requires structured visual aids, anatomical models, or field photographs. Presentations cover ecological roles, anatomical adaptations, and conservation challenges for three native species.",
+            "right": "Visual Microhabitat Searches: Systematic searching along shoreline reeds reveals well-camouflaged tree frogs and aquatic ranid species."
           }
         ]
       },
       "worked_example": {
-        "title": "Reptile and Amphibian Study Req 9 Exemplar Workbook Entry: Acoustic Surveys and Visual Identification",
+        "title": "Reptile and Amphibian Study Req 9 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 9a - Nocturnal Anuran Acoustic Stalkin": "Nocturnal surveys locate singing toads and frogs by isolating individual acoustic signatures at wetland margins. Scouts imitate species-specific calls and observe inflated vocal sacs using low-beam flashlights.",
-          "Req 9b - Visual Herpetofauna Field Survey": "Field identification of eight species requires careful observation of wild reptiles and amphibians across distinct habitat niches. Scouts record field notes detailing dorsal markings, snout shapes, and microhabitat locations.",
-          "Req 9c - Herpetological Group Educational": "Presenting herpetological concepts to a patrol requires structured visual aids, anatomical models, or field photographs. Presentations cover ecological roles, anatomical adaptations, and conservation challenges for three native species."
+          "Req 9a - Nocturnal Anuran Acoustic": "Nocturnal surveys locate singing toads and frogs by isolating individual acoustic signatures at wetland margins. Scouts imitate species-specific calls and observe inflated vocal sacs using low-beam flashlights.",
+          "Req 9b - Visual Herpetofauna Field": "Field identification of eight species requires careful observation of wild reptiles and amphibians across distinct habitat niches. Scouts record field notes detailing dorsal markings, snout shapes, and microhabitat locations.",
+          "Req 9c - Herpetological Group": "Presenting herpetological concepts to a patrol requires structured visual aids, anatomical models, or field photographs. Presentations cover ecological roles, anatomical adaptations, and conservation challenges for three native species."
         },
         "sample_output": "Acoustic Surveys and Visual Identification: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
         "counselor_tip": "For Reptile and Amphibian Study Requirement 9 (Acoustic Surveys and Visual Identification), verify the Scout's own observations and specific pamphlet details (Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8))."
@@ -2307,9 +2479,35 @@
       "workbook_visual_caption": "Scouts use flashlights and headlamps during a nighttime field expedition to locate nocturnal forest amphibians.",
       "pamphlet_summary": "Field identification of nocturnal anurans relies on recognizing distinct breeding chorus frequencies, pulse rates, and vocal sac dynamics. Visual surveys require systematically scanning microhabitats like emergent vegetation and littoral zones while documenting eight wild species.",
       "socratic_questions": [
-        "How do varying vocal sac structures alter the acoustic frequency and carrying power of frog calls?",
+        "In what specific ways do varying vocal sac structures alter the acoustic frequency and carrying power of frog calls?",
         "Why do distinct anuran species vocalize during separate seasonal breeding windows within the same marsh?",
-        "What ethical field survey practices minimize disturbance to actively breeding amphibians in fragile vernal wetlands?"
+        "What ethical field survey practices minimize disturbance to actively breeding amphibians in fragile vernal wetlands?",
+        "What happens to a calling frog's vocal sac and posture if you sweep a bright white beam directly across the shoreline?",
+        "Which anatomical feature distinguishes a true frog's paired lateral vocal pouches from a treefrog's single throat sac?",
+        "What environmental measurements in your field log explain why spring peepers call faster on warm nights than on cool ones?",
+        "Why is it dangerous to wade into dark cattail marshes after a frog call without checking shoreline depth and snakes first?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Frogs and toads vocalize randomly by expelling air outwards past their lips without using vocal sacs.",
+          "fact": "Male frogs produce species-specific calls by inflating an elastic vocal sac that acts as an acoustic resonating chamber."
+        },
+        {
+          "misconception": "Frogs must open their mouths wide to project their mating calls across a pond at night.",
+          "fact": "Calling frogs keep their mouths and nostrils sealed shut while pumping air back and forth between the lungs and vocal sac."
+        },
+        {
+          "misconception": "Body color alone is sufficient to identify wild treefrogs and garter snakes to the species level.",
+          "fact": "Many amphibians and snakes shift color or vary by region, so reliable sight ID requires checking scale keels, glands, and ridges."
+        },
+        {
+          "misconception": "Shining a high-lumen white beam directly at a calling toad makes it sing louder for observers.",
+          "fact": "Direct bright white light startles nocturnal frogs into silence and ruins night vision, so surveyors use a red or angled beam."
+        },
+        {
+          "misconception": "DEET insect repellent on a Scout's hands is harmless when briefly holding a frog or salamander.",
+          "fact": "Amphibians absorb chemicals rapidly through permeable skin, so DEET or sunscreen on hands can poison and kill a specimen."
+        }
       ]
     },
     {
@@ -2366,9 +2564,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Milk snakes enter dairy barns at night to suck fresh milk directly from cows.",
-        "fact": "Horned lizards squirt pressurized blood from their ocular sinuses to deter canid predators when severely threatened.",
-        "myth": "Milk snakes enter dairy barns at night to suck fresh milk directly from cows.",
-        "fact_correction": "Horned lizards squirt pressurized blood from their ocular sinuses to deter canid predators when severely threatened."
+        "fact": "Horned lizards squirt pressurized blood from their ocular sinuses to deter canid predators when severely threatened."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2400,43 +2596,43 @@
       "step_by_step_procedure": [
         "Step 1 - Folk Superstition Research: Identify five common historical myths regarding reptile habits, snake feeding, or toad secretions.",
         "Step 2 - Scientific Debunking Analysis: Formulate factual physiological explanations that disprove each selected folk myth using biological evidence.",
-        "Step 3 - Remarkable Adaptation Cataloging: Select seven documented extreme behaviors including glucose cryoprotection, ocular autohemorrhaging, and tail autotomy.",
-        "Step 4 - Biological Principle Presentation: Present both the debunked superstitions and verified biological adaptations to the merit badge counselor."
+        "Step 3 - Remarkable Adaptation: Select seven documented extreme behaviors including glucose cryoprotection, ocular autohemorrhaging, and tail autotomy.",
+        "Step 4 - Biological Principle: Present both the debunked superstitions and verified biological adaptations to the merit badge counselor."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Folklore Superstitions About Reptiles and Amphibians",
-        "right_header": "Verified Extraordinary Defensive Adaptations",
+        "left_header": "Req 10: Real Versus Imagined Movement",
+        "right_header": "Req 10: Verify True Venom Facts",
         "left_points": [
           "Real Versus Imagined Movement: Describe From observation, describe how snakes move forward (p. 6).",
           "Understanding Anatomical Facts: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
           "Separating Venom Facts From Lore: Tell what you should do in case of a bite by a venomous species (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Verify True Venom Facts: Tell what you should do in case of a bite by a venomous species (p. 6).",
-          "Step 2 - Contrast Folklore With Biology: Tell five superstitions or false beliefs about reptiles and amphibians and give a correct explanation (p. 6).",
-          "Step 3 - Quiz Buddy on Animal Myths: Cross-check your Superstitions or False Beliefs technique, measurements, and results with a patrol (p. 46)."
+          "Verify True Venom Facts: Tell what you should do in case of a bite by a venomous species (p. 6).",
+          "Contrast Folklore With Biology: Tell five superstitions or false beliefs about reptiles and amphibians and give a correct explanation (p. 6).",
+          "Quiz Buddy on Animal Myths: Cross-check your Superstitions or False Beliefs technique, measurements, and results with a patrol (p. 46)."
         ],
         "rows": [
           {
-            "attribute": "Real Versus Imagined Movement",
+            "attribute": "Dairy Barn Milk Folklore",
             "left": "Real Versus Imagined Movement: Describe From observation, describe how snakes move forward (p. 6).",
-            "right": "Step 1 - Verify True Venom Facts: Tell what you should do in case of a bite by a venomous species (p. 6)."
+            "right": "Verify True Venom Facts: Tell what you should do in case of a bite by a venomous species (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Glucose Hepatic Cryoprotection",
             "left": "Understanding Anatomical Facts: Describe the functions of the muscles, ribs, and belly plates (p. 6).",
-            "right": "Step 2 - Contrast Folklore With Biology: Tell five superstitions or false beliefs about reptiles and amphibians and give a correct explanation (p. 6)."
+            "right": "Contrast Folklore With Biology: Tell five superstitions or false beliefs about reptiles and amphibians and give a correct explanation (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Caudal Autotomy Mechanics",
             "left": "Separating Venom Facts From Lore: Tell what you should do in case of a bite by a venomous species (p. 6).",
-            "right": "Step 3 - Quiz Buddy on Animal Myths: Cross-check your Superstitions or False Beliefs technique, measurements, and results with a patrol (p. 46)."
+            "right": "Quiz Buddy on Animal Myths: Cross-check your Superstitions or False Beliefs technique, measurements, and results with a patrol (p. 46)."
           }
         ]
       },
       "worked_example": {
-        "title": "Reptile and Amphibian Study Req 10 Exemplar Workbook Entry: Debunking Myths and Unusual Adaptations",
+        "title": "Reptile and Amphibian Study Req 10 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Real Versus Imagined Movement": "Describe From observation, describe how snakes move forward (p. 6).",
@@ -2479,7 +2675,33 @@
       "socratic_questions": [
         "Why is the myth of the hoop snake rolling downhill physically impossible for serpentine skeletal anatomy?",
         "What glucose cryoprotectant mechanism allows northern wood frogs to survive having internal fluid frozen solid?",
-        "How does tail autotomy provide a survival advantage to lizards despite the nutritional cost of regeneration?"
+        "How does tail autotomy provide a survival advantage to lizards despite the nutritional cost of regeneration?",
+        "Which anatomical structure on an American toad proves that its skin bumps are defensive glands rather than contagious warts?",
+        "What physical traits distinguish a tail-shedding glass lizard from a true snake when debunking the joint-snake superstition?",
+        "Under what condition does a rattlesnake's rattle segment count fail as an accurate field measurement of the snake's age?",
+        "Why is it dangerous to pick up a recently deceased venomous snake by the head when inspecting its fangs in the field?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Milk snakes enter dairy barns at night to suck fresh milk directly from cows.",
+          "fact": "Horned lizards squirt pressurized blood from their ocular sinuses to deter canid predators when severely threatened."
+        },
+        {
+          "misconception": "Touching the bumpy skin of a wild toad transmits human papillomavirus warts to a Scout's hands.",
+          "fact": "Human warts come only from human viruses; a toad's bumps are parotoid and skin glands that secrete irritating bufotoxins."
+        },
+        {
+          "misconception": "Eastern milksnakes enter dairy barns to latch onto cow udders and drink gallons of warm milk.",
+          "fact": "Snakes lack the lip seal and suction muscles to nurse; milksnakes visit barns strictly to hunt mice and rats near grain."
+        },
+        {
+          "misconception": "Each interlocking segment on a rattlesnake's tail represents exactly one calendar year of life.",
+          "fact": "Rattlesnakes add a new rattle segment every time they shed their skin, which happens multiple times a year, and tips break off."
+        },
+        {
+          "misconception": "Mud snakes can bite their own tails to form a rigid hoop and roll downhill after fleeing hikers.",
+          "fact": "No snake skeleton can roll like a wheel; the mud snake simply presses its harmless pointed tail tip against a predator's skin."
+        }
       ]
     }
   ],

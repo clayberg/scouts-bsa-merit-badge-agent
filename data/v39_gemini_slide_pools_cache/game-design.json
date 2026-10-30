@@ -1,0 +1,221 @@
+{
+  "badge_slug": "game-design",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Board games rely on a central shared playing surface for spatial movement, while card games use shuffled decks as the primary medium.",
+          "misconception": "Card games and board games belong to the exact same game medium because both are played on a tabletop."
+        },
+        {
+          "fact": "Abstract games like chess or Tetris operate strictly through formal rules, geometry, and objectives without needing a narrative theme.",
+          "misconception": "Every game must include a detailed fictional story and setting in order to have a playable theme."
+        },
+        {
+          "fact": "Game resources include any quantifiable asset players manage to reach objectives, including time, health points, turns, and hand cards.",
+          "misconception": "Resources in a game only refer to physical tokens like play money, wooden cubes, or plastic miniatures."
+        },
+        {
+          "fact": "Play value comes from the psychological and social rewards a player experiences, such as strategic challenge, socialization, or novelty.",
+          "misconception": "Play value is determined strictly by how expensive a game's graphics or physical components are to produce."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a game's core objectives and rules if you strip away its narrative theme completely?",
+        "Which structural distinction separates a cooperative player format from a team-versus-team competition?",
+        "What specific columns in your four-game comparison chart reveal how different mediums manage scarce resources?",
+        "Under what condition does a physical outdoor game require boundary markers and safety rules before play begins?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Complexity measures the burden of rules a player must track, whereas depth measures the meaningful strategic choices emerging from them.",
+          "misconception": "Complexity and depth mean the exact same thing when evaluating a game's rulebook and decision space."
+        },
+        {
+          "fact": "Asymmetric games achieve balance when different starting powers and abilities still give equally skilled players a fair chance to win.",
+          "misconception": "A balanced game gives every player the exact same starting pieces, abilities, and board position."
+        },
+        {
+          "fact": "Board and card games also rely on interface design through clear iconography, readable card layouts, and intuitive player reference boards.",
+          "misconception": "Interface design only applies to digital menus and heads-up displays inside computer or console video games."
+        },
+        {
+          "fact": "Heavy reliance on random chance reduces the impact of strategic planning and shifts outcomes toward luck rather than player skill.",
+          "misconception": "Adding pure dice rolls to every combat resolution increases the strategic skill required to win a match."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to strategic depth when a game adds dozens of complex rules that offer only one winning path?",
+        "Which gameplay indicator shows that a multiplayer game suffers from poor balance rather than high difficulty?",
+        "Where should a designer place critical status information in an interface design so players react in real time?",
+        "Why is it important to check ESRB or age-appropriateness ratings before introducing a video game to younger Scouts?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Copyright protects only the specific written expression of the rulebook and original artwork, not the underlying game mechanics or rules.",
+          "misconception": "Copyright law protects the core rules and dice-rolling mechanics of a tabletop game from being used by others."
+        },
+        {
+          "fact": "Trademarks protect brand names, logos, and slogans that identify the commercial source, while copyright protects original creative works.",
+          "misconception": "Trademarks and copyrights are interchangeable legal terms for protecting a video game's source code and music."
+        },
+        {
+          "fact": "Using copyrighted assets requires explicit licensing permission from the rights holder, even if you give full attribution and charge nothing.",
+          "misconception": "Giving credit to the original creator in the credits allows you to use copyrighted music or art in your own game."
+        },
+        {
+          "fact": "Publishing a game based on an existing franchise requires negotiating a formal licensing agreement with the intellectual property owner.",
+          "misconception": "Buying a retail copy of a Star Wars novel grants you the legal right to publish a Star Wars board game."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the underlying game mechanics of a board game when its artwork and rulebook text are copyrighted?",
+        "Which legal protection prevents a competing studio from using a confusingly similar brand logo on its game box?",
+        "What documentation confirms that a game studio holds legal permission to build a game around a licensed movie property?",
+        "Why is it dangerous for an indie developer to publish a fan game using copyrighted characters without a license?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Changing multiple rules at once confounds the playtest results, making it impossible to isolate which specific rule caused an issue.",
+          "misconception": "Testing five new house rules simultaneously is the fastest way to see how each individual rule changes a game."
+        },
+        {
+          "fact": "Altering objective point values shifts player incentives immediately, often causing players to abandon old strategies for new exploits.",
+          "misconception": "Modifying a single victory point value only changes the final score and never alters how players make decisions."
+        },
+        {
+          "fact": "Recording your hypothesis before playing is essential so you can honestly compare expected player behavior against actual playtest data.",
+          "misconception": "Predictions about a rule change can be written down after the playtest match finishes so they match the outcome."
+        },
+        {
+          "fact": "Completing a full baseline game under standard rules is necessary to understand how mid-game and endgame mechanics normally interact.",
+          "misconception": "Playing one partial round under the standard rules is enough to establish a baseline before changing the rules."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your ability to tell which rule change caused a bug if you modify three rules at the same time?",
+        "Which written prediction must you record in your notebook before testing a modified rule in a live match?",
+        "What observable player behavior during a modified match confirms whether your rule change sped up or slowed down pace?",
+        "Why is it dangerous to alter boundary or physical contact rules in a sport like kickball without checking field safety?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A game design notebook is a working chronological log that captures initial vision statements, rough sketches, rule drafts, and revisions.",
+          "misconception": "A game design notebook is a polished marketing brochure created only after the final game is completely finished."
+        },
+        {
+          "fact": "Scouts must secure counselor approval of the written game concept in Requirement 5 before starting prototype construction in Requirement 6.",
+          "misconception": "You should build all final artwork and game components before asking your counselor to review your game concept."
+        },
+        {
+          "fact": "A vision statement is a concise high-level summary that captures the core experience, medium, player format, theme, and main objective.",
+          "misconception": "A vision statement is a step-by-step turn sequence that lists every edge case and scoring tiebreaker in the game."
+        },
+        {
+          "fact": "Preliminary rules serve only as a starting playable hypothesis that will be revised repeatedly once real playtesting reveals flaws.",
+          "misconception": "Preliminary rule lists must be permanently locked in before any physical prototype pieces are cut out or tested."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a game project during development when the designer lacks a clear vision statement in their notebook?",
+        "Which section of your preliminary rules defines the exact actions a player takes from the start of a turn to its end?",
+        "What specific milestone must you record in your design notebook before you build the physical or digital prototype?",
+        "Under what condition does an outdoor or physical game concept require equipment and play-area safety specifications?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Early prototypes should use cheap materials like index cards, pencil, and spare tokens so you can rewrite or discard parts without hesitation.",
+          "misconception": "An initial game prototype needs professional graphic design, laminated cards, and 3D-printed pieces to be testable."
+        },
+        {
+          "fact": "Loopholes and dominant strategies are flaws in the rule system itself that the designer must fix by adjusting costs, limits, or incentives.",
+          "misconception": "When a playtester finds an overpowered loophole, you should blame the player for not playing in the spirit of the game."
+        },
+        {
+          "fact": "Requirement 6 requires completing at least three separate cycles of playtesting, analyzing flaws, revising the rules, and testing again.",
+          "misconception": "Running a single playtest session with three different friends satisfies the iterative testing requirement."
+        },
+        {
+          "fact": "A dead end occurs when the rules trap a player or the game state in a position where no legal moves or progress toward victory can be made.",
+          "misconception": "A game dead end only happens when a player loses all their health points and gets eliminated from the match."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a competitive match when a player discovers a degenerate loophole that guarantees an easy victory?",
+        "Which physical materials allow you to build an early tabletop prototype that can be edited in seconds between tests?",
+        "What details must you log in your notebook across each of your three mandatory playtest and revision cycles?",
+        "Why is it dangerous to skip inspecting prototype equipment and playing surfaces before testing a physical game?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Blind playtesting means new players set up and play the game using only the written instruction sheet, with zero help from the designer.",
+          "misconception": "Blind playtesting means the test players wear blindfolds or test the game without knowing its title or theme."
+        },
+        {
+          "fact": "Coaching players or answering questions masks gaps in the rulebook that real buyers would face when opening the game at home alone.",
+          "misconception": "Answering one quick setup question from a confused player during a blind test keeps the test accurate and on track."
+        },
+        {
+          "fact": "When uncoached testers misinterpret a rule, the instruction sheet is unclear, poorly organized, or missing a visual setup diagram.",
+          "misconception": "If blind testers misread a rule and play a phase wrong, the testers simply failed to pay close enough attention."
+        },
+        {
+          "fact": "Blind testing requires a fresh group of players who have never played the game before so prior memory does not fill in missing rules.",
+          "misconception": "Blind playtesting can be performed using the same group of friends who helped you test your earlier prototypes."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the validity of a blind playtest if you step in to explain a confusing rule while the group is playing?",
+        "Which essential sections must appear on your written instruction sheet so uncoached players can finish a full game?",
+        "Where should you direct your attention and note-taking while a group reads your rule sheet during a blind playtest?",
+        "Under what condition is a designer allowed to interrupt a live blind playtest before the players finish the session?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Professional game designers spend their days writing detailed specifications, balancing spreadsheets, scripting levels, and analyzing playtests.",
+          "misconception": "Game designers spend most of their workday playing finished video games and coming up with cool story ideas."
+        },
+        {
+          "fact": "Modern game studios rely on specialized roles including producers, sound designers, writers, quality assurance testers, and user researchers.",
+          "misconception": "You must be an expert 3D animator and C++ engine programmer to work in any role inside the game industry."
+        },
+        {
+          "fact": "Requirement 8 explicitly requires obtaining both parent or guardian permission and counselor approval before meeting with an industry pro.",
+          "misconception": "A Scout can message any game developer online for an interview without getting parent or counselor permission first."
+        },
+        {
+          "fact": "Game studios evaluate applicants heavily on a portfolio of completed prototypes, mods, and team projects alongside formal coursework.",
+          "misconception": "Earning a college degree in game design guarantees a studio job even if you have never built a playable project."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a commercial game project if programmers, artists, and audio engineers work without a producer's schedule?",
+        "Which core responsibilities distinguish a systems or level designer from a software engineer on a development team?",
+        "What interview questions help you document how an educator's curriculum prepares students for studio team roles?",
+        "Which two approvals and Youth Protection rules must be in place before you schedule a game industry interview?"
+      ],
+      "req_id": "8"
+    }
+  ]
+}

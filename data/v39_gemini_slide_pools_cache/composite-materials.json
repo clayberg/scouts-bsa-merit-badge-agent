@@ -1,0 +1,167 @@
+{
+  "badge_slug": "composite-materials",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Solvents thin the resin and break down the skin barrier, accelerating chemical absorption into the bloodstream; use soap and water instead.",
+          "misconception": "Washing uncured epoxy off bare skin with acetone or alcohol is the safest way to remove sticky residue."
+        },
+        {
+          "fact": "Particulate masks only trap solid fibers; filtering volatile organic vapors from liquid resins requires an NIOSH organic vapor cartridge.",
+          "misconception": "A disposable N95 dust mask protects the lungs from both sanding dust and volatile styrene fumes during layup."
+        },
+        {
+          "fact": "Bulk uncured resin generates intense exothermic heat in a confined bin and can ignite paper or plastic trash if not cured flat first.",
+          "misconception": "Leftover mixed resin can be poured directly into a trash can immediately after finishing a composite layup."
+        },
+        {
+          "fact": "Amine hardeners and solvents rapidly permeate thin latex, whereas nitrile resists chemical penetration and prevents skin sensitization.",
+          "misconception": "Latex exam gloves provide the same chemical barrier as nitrile gloves when handling liquid epoxy hardeners."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to an unspread cup of catalyzed polyester resin when exothermic curing heat cannot escape?",
+        "Why is it dangerous to wear standard dust masks instead of organic vapor cartridges near liquid styrene resin?",
+        "Which physical indicator on a Safety Data Sheet specifies the exact glove polymer needed for epoxy hardeners?",
+        "Under what condition does washing resin-contaminated skin with acetone increase chemical absorption into the body?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Fiberglass is an excellent electrical insulator, whereas carbon fiber conducts electricity and causes short circuits or galvanic corrosion.",
+          "misconception": "All fiber-reinforced plastics act as electrical insulators and can be safely used around high-voltage lines."
+        },
+        {
+          "fact": "Composites are anisotropic and carry maximum loads along their fiber axes, requiring multi-angle plies to resist off-axis shear forces.",
+          "misconception": "Composite laminates have identical tensile strength in every direction just like isotropic steel or aluminum sheets."
+        },
+        {
+          "fact": "Carbon fiber acts as a noble cathode when paired with aluminum in saltwater, rapidly corroding the metal unless isolated by fiberglass.",
+          "misconception": "Composite materials never suffer from chemical degradation or corrosion when fastened to metal hardware in marine water."
+        },
+        {
+          "fact": "Matrix and reinforcement phases remain physically distinct in a finished composite, bonding mechanically and chemically at their interface.",
+          "misconception": "Metals and polymers melt together during composite manufacturing to form a single homogeneous chemical compound."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes a true composite material from a metallic alloy like steel or brass at the microscopic level?",
+        "Why is it dangerous to bolt carbon fiber panels directly onto bare aluminum aircraft frames without an insulating barrier?",
+        "Which structural component inside natural wood acts as the matrix, and which part serves as the tensile reinforcement?",
+        "Under what loading condition does a unidirectional composite laminate fail at a fraction of its rated tensile strength?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Epoxy requires an exact stoichiometric ratio; excess hardener leaves unreacted amine in the matrix, leaving the cured part soft and brittle.",
+          "misconception": "Adding extra amine hardener to a two-part epoxy batch makes the resin cure faster and produces a stronger part."
+        },
+        {
+          "fact": "Carbon fiber is very stiff but brittle under sharp impact, whereas aramid fibers absorb high impact energy without shattering.",
+          "misconception": "Carbon fiber has higher impact toughness and elongation before breaking than aramid or E-glass reinforcements."
+        },
+        {
+          "fact": "Polyester resin cures poorly and forms weak secondary bonds over cured epoxy, whereas epoxy adheres reliably over cured polyester surfaces.",
+          "misconception": "Polyester resin bonds to cured epoxy laminates with the same chemical cross-linking strength as fresh epoxy."
+        },
+        {
+          "fact": "Thermoset polymers form irreversible cross-linked molecular networks during curing and char or decompose rather than melting when reheated.",
+          "misconception": "Thermoset resins like polyester and epoxy can be melted down and remolded into new shapes for easy recycling."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a cured thermoset epoxy matrix vs a thermoplastic resin when reheated above its glass transition temperature?",
+        "Why does aramid fiber excel at stopping ballistic impacts yet perform poorly under axial compressive structural loads?",
+        "What measurement confirms that a two-part epoxy system has been proportioned to its exact stoichiometric mix ratio?",
+        "Which SDS section details the required spill containment and hazardous waste disposal rules for uncured vinyl ester resin?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Atmospheric pressure compresses the fiber stack inside the sealed bag, squeezing excess resin and trapped air into the breather fabric.",
+          "misconception": "Vacuum bagging a wet layup works by sucking air bubbles completely out of the solidifying resin through the plastic film."
+        },
+        {
+          "fact": "Prepreg fabrics contain pre-catalyzed resin that slowly cures at room temperature, requiring sub-zero freezer storage to preserve shelf life.",
+          "misconception": "Prepreg carbon fiber cloth can be stored on open shop shelves at room temperature for months before autoclave molding."
+        },
+        {
+          "fact": "Structural repairs require sanding a shallow beveled scarf taper so new overlapping fabric plies transfer shear loads into each original layer.",
+          "misconception": "Structural damage in a composite hull can be restored to full strength by filling the hole with thick chopped-strand putty."
+        },
+        {
+          "fact": "Pultrusion only produces straight constant-cross-section profiles, whereas filament winding wraps fibers over rotating mandrels for tanks.",
+          "misconception": "Pultrusion and filament winding are interchangeable manufacturing methods for producing hollow spherical pressure vessels."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the fiber-to-resin volume ratio when a manufacturer switches from open hand layup to vacuum-assisted infusion?",
+        "Which closed-molding process pulls continuous resin-soaked fiber rovings through a heated steel die to make constant profiles?",
+        "Why is a tapered scarf joint used instead of a butt joint when repairing a punctured structural composite skin?",
+        "What inspection method detects internal delamination voids in cured aircraft panels without cutting into the laminate?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Unreinforced resin is brittle and weak in tension; excess resin adds dead weight and cracks easily under flexing without fiber support.",
+          "misconception": "Applying a thicker coat of resin over the fiberglass cloth increases the tensile strength of the finished project."
+        },
+        {
+          "fact": "Rapid whipping folds air bubbles into the viscous mixture, creating porous voids that weaken the cured matrix; stir slowly scraping the sides.",
+          "misconception": "Vigorous whipping when stirring resin and hardener ensures the fastest and most uniform composite cure without defects."
+        },
+        {
+          "fact": "White chalky patches in cured fiberglass reveal dry, resin-starved fibers where trapped air prevented complete wet-out of the weave.",
+          "misconception": "Opaque white streaks inside cured fiberglass laminate indicate areas where the glass fibers are strongest and densest."
+        },
+        {
+          "fact": "Machining cured composites releases sharp respirable glass or carbon dust that irritates skin and lungs, requiring goggles and a respirator.",
+          "misconception": "Sanding and trimming cured composite edges can be done safely without PPE once the liquid resin has fully hardened."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the finished composite part during demolding if parting wax and polyvinyl alcohol are omitted from the mold?",
+        "Which physical indicator during layup shows that woven fiberglass cloth is fully wet out without trapped air pockets?",
+        "Why does adding excess resin beyond what saturates the reinforcement cloth weaken the final cured composite project?",
+        "What acoustic difference during a coin tap test distinguishes a solid laminate from an internal delamination void?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Certified composite technicians, mold makers, and autoclave operators enter the field through community college programs and apprenticeships.",
+          "misconception": "Every career in the composites industry requires a four-year university degree in materials science or aerospace engineering."
+        },
+        {
+          "fact": "Composites lack a plastic yield zone and remain elastic until they reach their ultimate load, where they fracture suddenly or delaminate.",
+          "misconception": "Carbon fiber sporting goods like bicycle frames and hockey sticks bend permanently just like aluminum when overloaded."
+        },
+        {
+          "fact": "NDT specialists ultrasonically scan newly manufactured aerospace and wind-energy structures before delivery to verify zero internal voids.",
+          "misconception": "Non-destructive testing technicians only inspect composite parts after a catastrophic structural failure occurs in service."
+        },
+        {
+          "fact": "Cured thermoset sporting goods cannot be melted in municipal plastics recycling and require specialized pyrolysis or mechanical grinding.",
+          "misconception": "Fiberglass and carbon fiber recreational equipment can be disposed of in standard municipal recycling bins at end of life."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which career role translates structural finite-element stress models into ply-by-ply fiber orientation schedules for aircraft?",
+        "What mechanical property allowed fiberglass and carbon vaulting poles to surpass bamboo and aluminum track records?",
+        "Why do wind turbine blade technicians require specialized non-destructive inspection training for field maintenance?",
+        "What laminate design choice in a carbon prosthetic running blade allows it to store and return energy like a spring?"
+      ],
+      "req_id": "6"
+    }
+  ]
+}

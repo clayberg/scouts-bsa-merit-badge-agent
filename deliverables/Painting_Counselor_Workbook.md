@@ -1,8 +1,8 @@
 # Painting Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Painting.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/painting/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/painting/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -129,10 +129,10 @@
 - **Pamphlet Fact:** Paint shrinks significantly as water evaporates, exaggerating surface hollows unless patched with rigid spackle compound.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 3
-- [ ] Selected studio media, brushes, modeling tools, or drawing instruments
-- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths
-- [ ] Labeled portfolio work or finished studio piece for Patching, Priming, and Painting Surfaces
+- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 3.
+- [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
+- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
+- [ ] Labeled portfolio work or finished studio piece for Patching, Priming, and Painting Surfaces.
 
 ![Scouts and an adult leader apply white protective paint to a handmade wooden birdhouse at an outdoor workbench.](/assets/ai_illustrations/painting_req_3_nano_hero.png)
 
@@ -158,10 +158,10 @@
 - **Pamphlet Fact:** Unbalanced contrasting colors vibrate jarringly against eyes unless balanced by tinting, shading, or neutral tones.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 4
-- [ ] Selected studio media, brushes, modeling tools, or drawing instruments
-- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths
-- [ ] Labeled portfolio work or finished studio piece for Color Wheel and Harmonizing Schemes
+- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 4.
+- [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
+- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
+- [ ] Labeled portfolio work or finished studio piece for Color Wheel and Harmonizing Schemes.
 
 ![Rich green walls and fireplace mantle create an elegant monochromatic dining room.](/assets/pamphlet_images/painting_p033_img1.png)
 
@@ -185,10 +185,10 @@
 - **Pamphlet Fact:** Resting brushes on their bristle tips permanently curls filaments, ruining the precision cutting edge forever.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 5
-- [ ] Selected studio media, brushes, modeling tools, or drawing instruments
-- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths
-- [ ] Labeled portfolio work or finished studio piece for Tool Use, Cleaning, and Storage
+- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 5.
+- [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
+- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
+- [ ] Labeled portfolio work or finished studio piece for Tool Use, Cleaning, and Storage.
 
 ![Various sash and flat paintbrushes are designed for precise trim and wall coverage.](/assets/pamphlet_images/painting_p054_img1.png)
 
@@ -212,10 +212,10 @@
 - **Pamphlet Fact:** The top cap of a stepladder lacks stabilizing handholds, causing sudden tip overs and severe falls.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 6
-- [ ] Selected studio media, brushes, modeling tools, or drawing instruments
-- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths
-- [ ] Labeled portfolio work or finished studio piece for Ladder Safety and Protective Gear
+- [ ] Official Painting merit badge pamphlet and studio sketch book for Req 6.
+- [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
+- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
+- [ ] Labeled portfolio work or finished studio piece for Ladder Safety and Protective Gear.
 
 ![Essential surface preparation tools include scrapers, brushes, and a caulk gun.](/assets/pamphlet_images/painting_p017_img1.png)
 

@@ -68,9 +68,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Opening a single interior door provides sufficient ventilation when applying volatile chemical paint strippers indoors.",
-        "fact": "Heavy solvent fumes sink toward floorboards, requiring cross ventilation with mechanical exhaust to remove vapors.",
-        "myth": "Opening a single interior door provides sufficient ventilation when applying volatile chemical paint strippers indoors.",
-        "fact_correction": "Heavy solvent fumes sink toward floorboards, requiring cross ventilation with mechanical exhaust to remove vapors."
+        "fact": "Heavy solvent fumes sink toward floorboards, requiring cross ventilation with mechanical exhaust to remove vapors."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -106,44 +104,44 @@
         "Step 4 - Residue Containment: Scrape softened chemical residues into sealed metal disposal drums for immediate isolation."
       ],
       "gear_checklist": [
-        "Official Painting merit badge pamphlet and studio sketch book for Req 1",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Surface Preparation and Coating Safety"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 1.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Surface Preparation and Coating Safety."
       ],
       "comparison_data": {
-        "left_header": "Surface Preparation Safety Habits",
-        "right_header": "Coating Application Safety Controls",
+        "left_header": "Req 1: Constant Ladder Awareness",
+        "right_header": "Req 1: Follow Safety Precautions",
         "left_points": [
           "Constant Ladder Awareness: Think of safety all the time while using a ladder (p. 18).",
           "Proper Ladder Setup: Take the time to properly set up the ladder and to use it properly (p. 18).",
           "Preventing Jobsite Injuries: Taking these precautions can help prevent injury (p. 18)."
         ],
         "right_points": [
-          "Step 1 - Follow Safety Precautions: Taking these precautions can help prevent injury (p. 18).",
-          "Step 2 - Identify Climbing Equipment: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 18).",
-          "Step 3 - Select Scout-Appropriate Gear: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 18)."
+          "Follow Safety Precautions: Taking these precautions can help prevent injury (p. 18).",
+          "Identify Climbing Equipment: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 18).",
+          "Select Scout-Appropriate Gear: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 18)."
         ],
         "rows": [
           {
-            "attribute": "Constant Ladder Awareness",
+            "attribute": "Vapor Dispersion",
             "left": "Constant Ladder Awareness: Think of safety all the time while using a ladder (p. 18).",
-            "right": "Step 1 - Follow Safety Precautions: Taking these precautions can help prevent injury (p. 18)."
+            "right": "Follow Safety Precautions: Taking these precautions can help prevent injury (p. 18)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Dust Suppression",
             "left": "Proper Ladder Setup: Take the time to properly set up the ladder and to use it properly (p. 18).",
-            "right": "Step 2 - Identify Climbing Equipment: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 18)."
+            "right": "Identify Climbing Equipment: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 18)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Ignition Isolation",
             "left": "Preventing Jobsite Injuries: Taking these precautions can help prevent injury (p. 18).",
-            "right": "Step 3 - Select Scout-Appropriate Gear: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 18)."
+            "right": "Select Scout-Appropriate Gear: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 18)."
           }
         ]
       },
       "worked_example": {
-        "title": "Painting Req 1 Exemplar Workbook Entry: Surface Preparation and Coating Safety",
+        "title": "Painting Req 1 Exemplar Workbook Entry: Surface",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Constant Ladder Awareness": "Think of safety all the time while using a ladder (p. 18).",
@@ -186,7 +184,33 @@
       "socratic_questions": [
         "Why do solvent vapors collect near baseboards rather than rising directly to the ceiling?",
         "How does wet sanding drywall compound protect lung tissue compared to standard dry abrasive paper?",
-        "What specific hazard occurs when a standard electric box fan motor operates in high solvent concentrations?"
+        "What specific hazard occurs when a standard electric box fan motor operates in high solvent concentrations?",
+        "Why is it dangerous to toss rags soaked in linseed oil or alkyd thinner into a closed trash bin?",
+        "What happens to airborne dust levels when you dry-sand painted trim inside an unventilated room?",
+        "Where should a Scout position box fans to exhaust volatile solvent vapors away from ignition sources?",
+        "Which physical indicator on a Safety Data Sheet tells you the minimum flash point of a paint stripper?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Opening a single interior door provides sufficient ventilation when applying volatile chemical paint strippers indoors.",
+          "fact": "Heavy solvent fumes sink toward floorboards, requiring cross ventilation with mechanical exhaust to remove vapors."
+        },
+        {
+          "misconception": "Opening a single window provides enough airflow to safely apply solvent-based primers indoors.",
+          "fact": "Cross-ventilation using two openings and an exhaust fan is required to keep solvent vapors below toxic and flammable thresholds."
+        },
+        {
+          "misconception": "Crumpled rags soaked with oil-based stain can safely sit in a bucket until the next morning.",
+          "fact": "Drying oils generate heat through oxidation and can spontaneously ignite unless rags are spread flat outdoors or submerged in water."
+        },
+        {
+          "misconception": "A standard paper dust mask blocks toxic organic vapors released by chemical paint strippers.",
+          "fact": "Paper masks filter only solid particles; chemical strippers require an organic vapor respirator and chemical-resistant gloves."
+        },
+        {
+          "misconception": "Scraping loose paint near a plugged-in extension cord poses no hazard as long as the cord is dry.",
+          "fact": "Metal scrapers can nick live insulation and spark flammable fumes, so nearby circuits must be shut off or shielded before prep work."
+        }
       ]
     },
     {
@@ -232,9 +256,7 @@
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
             "misconception": "Unpainted lumber lasts just as long outdoors if sheltered under an overhanging porch roof.",
-            "fact": "Atmospheric moisture cycles warp and split unfinished wood fibers even when protected from direct rainfall.",
-            "myth": "Unpainted lumber lasts just as long outdoors if sheltered under an overhanging porch roof.",
-            "fact_correction": "Atmospheric moisture cycles warp and split unfinished wood fibers even when protected from direct rainfall."
+            "fact": "Atmospheric moisture cycles warp and split unfinished wood fibers even when protected from direct rainfall."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -309,9 +331,7 @@
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
             "misconception": "Water based paints and acrylic paints represent completely identical chemical mixtures with identical resin compounds.",
-            "fact": "Standard waterborne paints may use cheap vinyl polymers, whereas 100 percent acrylic formulations offer superior adhesion and flexibility.",
-            "myth": "Water based paints and acrylic paints represent completely identical chemical mixtures with identical resin compounds.",
-            "fact_correction": "Standard waterborne paints may use cheap vinyl polymers, whereas 100 percent acrylic formulations offer superior adhesion and flexibility."
+            "fact": "Standard waterborne paints may use cheap vinyl polymers, whereas 100 percent acrylic formulations offer superior adhesion and flexibility."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -383,9 +403,7 @@
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
             "misconception": "High gloss paints hide surface dents and uneven seams better than flat luster finishes.",
-            "fact": "Glossy finishes reflect light at sharp angles, making surface dips, bumps, and nail pops noticeably visible.",
-            "myth": "High gloss paints hide surface dents and uneven seams better than flat luster finishes.",
-            "fact_correction": "Glossy finishes reflect light at sharp angles, making surface dips, bumps, and nail pops noticeably visible."
+            "fact": "Glossy finishes reflect light at sharp angles, making surface dips, bumps, and nail pops noticeably visible."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -452,9 +470,7 @@
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
             "misconception": "Any interior wall paint performs reliably on exterior handrails if applied in two thick coats.",
-            "fact": "Interior coatings lack exterior ultraviolet inhibitors and mildewcides, causing rapid chalking and peeling when weathered outdoors.",
-            "myth": "Any interior wall paint performs reliably on exterior handrails if applied in two thick coats.",
-            "fact_correction": "Interior coatings lack exterior ultraviolet inhibitors and mildewcides, causing rapid chalking and peeling when weathered outdoors."
+            "fact": "Interior coatings lack exterior ultraviolet inhibitors and mildewcides, causing rapid chalking and peeling when weathered outdoors."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -553,9 +569,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Paints function entirely as decorative coloring agents without serving structural protective barrier roles.",
-        "fact": "Protective paint films prevent moisture absorption, timber rot, fungal growth, and ferrous metal oxidation.",
-        "myth": "Paints function entirely as decorative coloring agents without serving structural protective barrier roles.",
-        "fact_correction": "Protective paint films prevent moisture absorption, timber rot, fungal growth, and ferrous metal oxidation."
+        "fact": "Protective paint films prevent moisture absorption, timber rot, fungal growth, and ferrous metal oxidation."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -591,14 +605,14 @@
         "Step 4 - Test Swatch: Paint small test patches on primed boards to evaluate hiding power and leveling."
       ],
       "gear_checklist": [
-        "Official Painting merit badge pamphlet and studio sketch book for Req 2",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Coating Types, Sheens, and Applications"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 2.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Coating Types, Sheens, and Applications."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Coating Surface Preservation Benef",
-        "right_header": "Req 2c: Finish Sheen Application Locations",
+        "left_header": "Req 2a: Coating Surface Preservation",
+        "right_header": "Req 2c: Finish Sheen Application",
         "left_points": [
           "(2a) Coating Surface Preservation Benefits: Coatings preserve materials by blocking destructive ultraviolet radiation, preventing moisture intrusion, and sealing porous surfaces against dirt accumulation. A properly chosen film also enhances illumination by bouncing ambient room light off walls.",
           "(2b) Paint Resin Chemistry Differences: Oil based alkyds cure through oxidation into hard, rigid films thinned with mineral spirits, while water based paints use water as a volatile vehicle. Acrylic latex utilizes synthetic resins that remain flexible and resist yellowing when exposed to outdoor sunlight."
@@ -609,30 +623,30 @@
         ],
         "rows": [
           {
-            "attribute": "How Coatings Improve Surfaces",
-            "left": "(2a) How Coatings Improve Surfaces: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semi gloss, and high or full gloss (p. 43).",
-            "right": "(2c) Enamel, Flat, Stain, and Varnish: The sheen currently on the surface can determine the amount of surface preparation required (p. 43)."
+            "attribute": "Substrate Sealing",
+            "left": "(2a) Coating Surface Preservation Benefits: Coatings preserve materials by blocking destructive ultraviolet radiation, preventing moisture intrusion, and sealing porous surfaces against dirt accumulation. A properly chosen film also enhances illumination by bouncing ambient room light off walls.",
+            "right": "(2c) Finish Sheen Application Locations: Enamel finishes suit high contact trim, kitchens, and cabinetry due to their dense, scrub resistant resin surfaces. Flat paint hides drywall imperfections on ceilings, wood stain highlights interior grain, and varnish builds clear protective barriers over raw timber."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(2b) Oil, Acrylic, and Water-Based Paints: Sheen is a critical characteristic that refers to the degree of shine or gloss of any coating or surface (p. 43).",
-            "right": "(2d) Matching Coatings to Specific Surfaces: The abrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43)."
+            "attribute": "Binder Functions",
+            "left": "(2b) Paint Resin Chemistry Differences: Oil based alkyds cure through oxidation into hard, rigid films thinned with mineral spirits, while water based paints use water as a volatile vehicle. Acrylic latex utilizes synthetic resins that remain flexible and resist yellowing when exposed to outdoor sunlight.",
+            "right": "(2d) Coating Functional Selection Criteria: Each coating formulation optimizes specific mechanical properties such as tensile elongation, impact hardness, or optical diffusion. Selecting the proper coating prevents premature delamination and ensures surfaces withstand routine abrasion."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Durability and Appearance: The abrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43).",
-            "right": "Step 3 - Check Manufacturer Standards: Because there are no industry wide standard definitions of these terms, gloss levels may vary from one manufacturer to another (p. 43)."
+            "attribute": "Pigment Distribution",
+            "left": "Req 2a: Coating Surface Preservation: Coatings preserve materials by blocking destructive ultraviolet radiation, preventing moisture intrusion, and sealing porous surfaces against dirt accumulation. A properly chosen film also enhances illumination by bouncing ambient room light off walls.",
+            "right": "Req 2b: Paint Resin Chemistry: Oil based alkyds cure through oxidation into hard, rigid films thinned with mineral spirits, while water based paints use water as a volatile vehicle. Acrylic latex utilizes synthetic resins that remain flexible and resist yellowing when exposed to outdoor sunlight."
           }
         ]
       },
       "worked_example": {
-        "title": "Painting Req 2 Exemplar Workbook Entry: Coating Types, Sheens, and Applications",
+        "title": "Painting Req 2 Exemplar Workbook Entry: Coating Types",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Coating Surface Preservation Bene": "Coatings preserve materials by blocking destructive ultraviolet radiation, preventing moisture intrusion, and sealing porous surfaces against dirt accumulation. A properly chosen film also enhances illumination by bouncing ambient room light off walls.",
-          "Req 2b - Paint Resin Chemistry Differences": "Oil based alkyds cure through oxidation into hard, rigid films thinned with mineral spirits, while water based paints use water as a volatile vehicle. Acrylic latex utilizes synthetic resins that remain flexible and resist yellowing when exposed to outdoor sunlight.",
-          "Req 2c - Finish Sheen Application Location": "Enamel finishes suit high contact trim, kitchens, and cabinetry due to their dense, scrub resistant resin surfaces. Flat paint hides drywall imperfections on ceilings, wood stain highlights interior grain, and varnish builds clear protective barriers over raw timber.",
-          "Req 2d - Coating Functional Selection Crit": "Each coating formulation optimizes specific mechanical properties such as tensile elongation, impact hardness, or optical diffusion. Selecting the proper coating prevents premature delamination and ensures surfaces withstand routine abrasion."
+          "Req 2a - Coating Surface Preservation": "Coatings preserve materials by blocking destructive ultraviolet radiation, preventing moisture intrusion, and sealing porous surfaces against dirt accumulation. A properly chosen film also enhances illumination by bouncing ambient room light off walls.",
+          "Req 2b - Paint Resin Chemistry": "Oil based alkyds cure through oxidation into hard, rigid films thinned with mineral spirits, while water based paints use water as a volatile vehicle. Acrylic latex utilizes synthetic resins that remain flexible and resist yellowing when exposed to outdoor sunlight.",
+          "Req 2c - Finish Sheen Application": "Enamel finishes suit high contact trim, kitchens, and cabinetry due to their dense, scrub resistant resin surfaces. Flat paint hides drywall imperfections on ceilings, wood stain highlights interior grain, and varnish builds clear protective barriers over raw timber.",
+          "Req 2d - Coating Functional Selection": "Each coating formulation optimizes specific mechanical properties such as tensile elongation, impact hardness, or optical diffusion. Selecting the proper coating prevents premature delamination and ensures surfaces withstand routine abrasion."
         },
         "sample_output": "Coating Types, Sheens, and Applications: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semi gloss, and high or full gloss (p. 43).",
         "counselor_tip": "For Painting Requirement 2 (Coating Types, Sheens, and Applications), verify the Scout's own observations and specific pamphlet details (Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51))."
@@ -667,9 +681,35 @@
       "workbook_visual_caption": "Two Scouts mix oil paints on a palette while painting a scenic mountain landscape on an outdoor easel.",
       "pamphlet_summary": "Architectural coatings seal porous structural substrates against damaging moisture penetration while establishing required light reflectance and washability. Formulations balance synthetic resins, volatile carrier solvents, and inorganic pigments to achieve specific durability metrics.",
       "socratic_questions": [
-        "How do pigment particle size and concentration dictate whether a coating cures glossy or flat?",
+        "In what specific ways do pigment particle size and concentration dictate whether a coating cures glossy or flat?",
         "Why does acrylic latex paint expand and contract across seasonal outdoor wood movement better than alkyd paint?",
-        "What environmental conditions cause newly applied exterior water based paints to blister or fail to cure?"
+        "What environmental conditions cause newly applied exterior water based paints to blister or fail to cure?",
+        "What happens to an alkyd topcoat applied directly over flexible acrylic latex on exterior wood siding?",
+        "Under what condition does a flat ceiling paint outperform a high-gloss enamel on uneven drywall joints?",
+        "Why does wood stain penetrate open grain pores while clear polyurethane varnish cures as a surface film?",
+        "Which binder property allows 100 percent acrylic latex paint to expand and contract without cracking?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Paints function entirely as decorative coloring agents without serving structural protective barrier roles.",
+          "fact": "Protective paint films prevent moisture absorption, timber rot, fungal growth, and ferrous metal oxidation."
+        },
+        {
+          "misconception": "High-gloss enamel hides drywall tape ridges and hammer dents better than flat wall paint.",
+          "fact": "Specular reflection from high-gloss sheen magnifies surface flaws, whereas flat paint scatters light to conceal minor texture defects."
+        },
+        {
+          "misconception": "Interior wood stain seals and protects bare oak furniture from water rings without a clear topcoat.",
+          "fact": "Pigmented wood stain adds color inside the wood pores but offers minimal abrasion or moisture resistance unless sealed with varnish."
+        },
+        {
+          "misconception": "Oil-based alkyd paints dry solely through water evaporation in the same way as latex wall paints.",
+          "fact": "Alkyd resins cure by solvent evaporation followed by chemical cross-linking with oxygen, creating a harder and slower-drying film."
+        },
+        {
+          "misconception": "Flat latex paint is the most durable choice for kitchen cabinets and bathroom baseboards.",
+          "fact": "High-traffic trim and wet rooms need satin, semi-gloss, or gloss enamel because tighter resin films resist scrubbing and moisture."
+        }
       ]
     },
     {
@@ -728,9 +768,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Thick topcoat paint fills deep drywall dents and settles flush without requiring spackling paste.",
-        "fact": "Paint shrinks significantly as water evaporates, exaggerating surface hollows unless patched with rigid spackle compound.",
-        "myth": "Thick topcoat paint fills deep drywall dents and settles flush without requiring spackling paste.",
-        "fact_correction": "Paint shrinks significantly as water evaporates, exaggerating surface hollows unless patched with rigid spackle compound."
+        "fact": "Paint shrinks significantly as water evaporates, exaggerating surface hollows unless patched with rigid spackle compound."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -766,44 +804,44 @@
         "Step 4 - Finish Brushing: Lay down two smooth topcoats using overlapping strokes to seal the completed substrate."
       ],
       "gear_checklist": [
-        "Official Painting merit badge pamphlet and studio sketch book for Req 3",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Patching, Priming, and Painting Surfaces"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 3.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Patching, Priming, and Painting Surfaces."
       ],
       "comparison_data": {
-        "left_header": "Porous Wood and Drywall Primers",
-        "right_header": "Alkali-Resistant Masonry and Plaster Primers",
+        "left_header": "Req 3: Primer as Final Prep",
+        "right_header": "Req 3: Select Substrate Primer",
         "left_points": [
           "Primer as Final Prep: Applying primer, the first coat of paint, also is the last stage of surface preparation (p. 51).",
           "Bonding and Sealing Functions: The primer makes the next coat stick to the surface, protects the substrate, and seals the surface (p. 51).",
           "Substrate-Specific Primers: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other metals (p. 51)."
         ],
         "right_points": [
-          "Step 1 - Select Substrate Primer: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other metals (p. 51).",
-          "Step 2 - Prime Bare Wood Surfaces: Wood primers are available in oil-based or water-based products and can be used indoors or outdoors (p. 51).",
-          "Step 3 - Apply Alkali-Resistant Masonry Primer: Exterior masonry surfaces are often highly alkaline, so be sure to use primers on surfaces that are alkali-resistant (p. 51)."
+          "Select Substrate Primer: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other metals (p. 51).",
+          "Prime Bare Wood Surfaces: Wood primers are available in oil-based or water-based products and can be used indoors or outdoors (p. 51).",
+          "Apply Alkali-Resistant Masonry Primer: Exterior masonry surfaces are often highly alkaline, so be sure to use primers on surfaces that are alkali-resistant (p. 51)."
         ],
         "rows": [
           {
-            "attribute": "Primer as Final Prep",
+            "attribute": "Joint Caulking",
             "left": "Primer as Final Prep: Applying primer, the first coat of paint, also is the last stage of surface preparation (p. 51).",
-            "right": "Step 1 - Select Substrate Primer: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other metals (p. 51)."
+            "right": "Select Substrate Primer: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other metals (p. 51)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Patch Feathering",
             "left": "Bonding and Sealing Functions: The primer makes the next coat stick to the surface, protects the substrate, and seals the surface (p. 51).",
-            "right": "Step 2 - Prime Bare Wood Surfaces: Wood primers are available in oil-based or water-based products and can be used indoors or outdoors (p. 51)."
+            "right": "Prime Bare Wood Surfaces: Wood primers are available in oil-based or water-based products and can be used indoors or outdoors (p. 51)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Primer Sealing",
             "left": "Substrate-Specific Primers: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other metals (p. 51).",
-            "right": "Step 3 - Apply Alkali-Resistant Masonry Primer: Exterior masonry surfaces are often highly alkaline, so be sure to use primers on surfaces that are alkali-resistant (p. 51)."
+            "right": "Apply Alkali-Resistant Masonry Primer: Exterior masonry surfaces are often highly alkaline, so be sure to use primers on surfaces that are alkali-resistant (p. 51)."
           }
         ]
       },
       "worked_example": {
-        "title": "Painting Req 3 Exemplar Workbook Entry: Patching, Priming, and Painting Surfaces",
+        "title": "Painting Req 3 Exemplar Workbook Entry: Patching",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Primer as Final Prep": "Applying primer, the first coat of paint, also is the last stage of surface preparation (p. 51).",
@@ -846,7 +884,33 @@
       "socratic_questions": [
         "Why does applying paint directly over unprimed spackle produce dull, faded patches called flashing?",
         "What happens if exterior acrylic caulk is applied over wet, rotten wood framing?",
-        "Why must cured caulk beads remain flexible rather than setting rock hard like drywall compound?"
+        "Why must cured caulk beads remain flexible rather than setting rock hard like drywall compound?",
+        "What measurement confirms a new concrete floor slab is dry enough to accept an epoxy or masonry coating?",
+        "What happens to fresh acrylic topcoat applied over unprimed spackling compound on an interior wall?",
+        "Why should a Scout choose siliconized acrylic caulk instead of pure silicone on joints that will be painted?",
+        "Under what condition does tannin bleed through water-based primer on bare cedar or redwood boards?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Thick topcoat paint fills deep drywall dents and settles flush without requiring spackling paste.",
+          "fact": "Paint shrinks significantly as water evaporates, exaggerating surface hollows unless patched with rigid spackle compound."
+        },
+        {
+          "misconception": "Pure 100 percent silicone caulk holds latex trim paint tightly around window casings and baseboards.",
+          "fact": "Paint beads up and peels off pure silicone; painters use paintable acrylic latex or siliconized acrylic caulk for trim gaps."
+        },
+        {
+          "misconception": "Applying two thick coats of wall paint eliminates the need to spot-prime patched drywall compound.",
+          "fact": "Porous drywall patch absorbs binder from unprimed topcoats, leaving dull flat spots known as flashing that remain visible after drying."
+        },
+        {
+          "misconception": "Freshly poured concrete patio slabs can be sealed with masonry floor paint as soon as the surface feels dry.",
+          "fact": "New concrete must cure for at least 28 days and pass a plastic-sheet moisture test so trapped alkalinity and vapor do not blister paint."
+        },
+        {
+          "misconception": "Sanding glossy cabinet doors is unnecessary if you apply a thick coat of standard interior wall paint.",
+          "fact": "Smooth old enamel lacks mechanical tooth, so surfaces must be deglossed by sanding and coated with a bonding primer before repainting."
+        }
       ]
     },
     {
@@ -905,9 +969,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Pairing two randomly chosen intense bright colors always produces an aesthetically harmonious finished project.",
-        "fact": "Unbalanced contrasting colors vibrate jarringly against eyes unless balanced by tinting, shading, or neutral tones.",
-        "myth": "Pairing two randomly chosen intense bright colors always produces an aesthetically harmonious finished project.",
-        "fact_correction": "Unbalanced contrasting colors vibrate jarringly against eyes unless balanced by tinting, shading, or neutral tones."
+        "fact": "Unbalanced contrasting colors vibrate jarringly against eyes unless balanced by tinting, shading, or neutral tones."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -943,44 +1005,44 @@
         "Step 4 - Accent Detailing: Brush vibrant harmonizing accents along perimeter edges to highlight structural geometric form."
       ],
       "gear_checklist": [
-        "Official Painting merit badge pamphlet and studio sketch book for Req 4",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Color Wheel and Harmonizing Schemes"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 4.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Color Wheel and Harmonizing Schemes."
       ],
       "comparison_data": {
-        "left_header": "Primary and Secondary Color Triangles",
-        "right_header": "Intermediate Tertiary Color Combinations",
+        "left_header": "Req 4: How Colors Blend",
+        "right_header": "Req 4: Locate Secondary Colors",
         "left_points": [
           "How Colors Blend: The color wheel illustrates how colors blend together (p. 31).",
           "Primary Color Triangle: On the traditional color wheel shown here, you can see that the primary colors form a triangle (p. 31).",
           "Secondary Color Triangle: The three secondary colors form a second triangle (p. 31)."
         ],
         "right_points": [
-          "Step 1 - Locate Secondary Colors: The three secondary colors form a second triangle (p. 31).",
-          "Step 2 - Identify Intermediate Colors: An intermediate color falls between each primary and secondary color (p. 31).",
-          "Step 3 - Select Harmonious Scheme: On the traditional color wheel shown here, you can see that the primary colors form a triangle (p. 31)."
+          "Locate Secondary Colors: The three secondary colors form a second triangle (p. 31).",
+          "Identify Intermediate Colors: An intermediate color falls between each primary and secondary color (p. 31).",
+          "Select Harmonious Scheme: On the traditional color wheel shown here, you can see that the primary colors form a triangle (p. 31)."
         ],
         "rows": [
           {
-            "attribute": "How Colors Blend",
+            "attribute": "Complementary Balance",
             "left": "How Colors Blend: The color wheel illustrates how colors blend together (p. 31).",
-            "right": "Step 1 - Locate Secondary Colors: The three secondary colors form a second triangle (p. 31)."
+            "right": "Locate Secondary Colors: The three secondary colors form a second triangle (p. 31)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Analogous Harmony",
             "left": "Primary Color Triangle: On the traditional color wheel shown here, you can see that the primary colors form a triangle (p. 31).",
-            "right": "Step 2 - Identify Intermediate Colors: An intermediate color falls between each primary and secondary color (p. 31)."
+            "right": "Identify Intermediate Colors: An intermediate color falls between each primary and secondary color (p. 31)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Value Modulation",
             "left": "Secondary Color Triangle: The three secondary colors form a second triangle (p. 31).",
-            "right": "Step 3 - Select Harmonious Scheme: On the traditional color wheel shown here, you can see that the primary colors form a triangle (p. 31)."
+            "right": "Select Harmonious Scheme: On the traditional color wheel shown here, you can see that the primary colors form a triangle (p. 31)."
           }
         ]
       },
       "worked_example": {
-        "title": "Painting Req 4 Exemplar Workbook Entry: Color Wheel and Harmonizing Schemes",
+        "title": "Painting Req 4 Exemplar Workbook Entry: Color Wheel",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "How Colors Blend": "The color wheel illustrates how colors blend together (p. 31).",
@@ -1023,7 +1085,33 @@
       "socratic_questions": [
         "How does changing the tint of a primary color alter its perceived visual weight on a three dimensional object?",
         "Why do complementary colors placed side by side appear brighter than when viewed separately?",
-        "Which color wheel scheme creates the most restful atmosphere in a residential sleeping room?"
+        "Which color wheel scheme creates the most restful atmosphere in a residential sleeping room?",
+        "What happens to the perceived brightness of a primary hue when you place its complementary color beside it?",
+        "Which positions on the twelve-step color wheel define an analogous color scheme for a painted furniture piece?",
+        "Where should a Scout apply the highest-chroma accent color when balancing a three-color harmonized project?",
+        "What visual shift occurs when you mix white into a pure hue to create a tint versus adding black for a shade?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Pairing two randomly chosen intense bright colors always produces an aesthetically harmonious finished project.",
+          "fact": "Unbalanced contrasting colors vibrate jarringly against eyes unless balanced by tinting, shading, or neutral tones."
+        },
+        {
+          "misconception": "Complementary colors sit directly next to each other on the standard twelve-part artist color wheel.",
+          "fact": "Complementary colors sit directly opposite each other on the color wheel, while adjacent hues form an analogous color harmony."
+        },
+        {
+          "misconception": "Mixing equal surface areas of two intense complementary colors produces a calm, low-contrast room scheme.",
+          "fact": "Equal areas of full-strength complements create jarring visual vibration; one color should dominate while the opposite serves as an accent."
+        },
+        {
+          "misconception": "Adding white paint to darken a primary blue creates a deep shade suitable for trim accents.",
+          "fact": "Adding white lightens a hue into a pastel tint, whereas mixing black or a complementary color darkens the hue into a shade or tone."
+        },
+        {
+          "misconception": "Paint chips viewed under cool fluorescent store lights look identical under warm incandescent bulbs at home.",
+          "fact": "Light source color temperature shifts how pigments reflect wavelengths, so swatches must be tested under the project's actual lighting."
+        }
       ]
     },
     {
@@ -1082,9 +1170,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Leaving dirty brushes resting tip down inside solvent jars keeps them soft without causing damage.",
-        "fact": "Resting brushes on their bristle tips permanently curls filaments, ruining the precision cutting edge forever.",
-        "myth": "Leaving dirty brushes resting tip down inside solvent jars keeps them soft without causing damage.",
-        "fact_correction": "Resting brushes on their bristle tips permanently curls filaments, ruining the precision cutting edge forever."
+        "fact": "Resting brushes on their bristle tips permanently curls filaments, ruining the precision cutting edge forever."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1120,44 +1206,44 @@
         "Step 4 - Paper Wrapping: Fold stiff cardboard wrapper flaps around bristles to preserve straight chisel edge contours."
       ],
       "gear_checklist": [
-        "Official Painting merit badge pamphlet and studio sketch book for Req 5",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Tool Use, Cleaning, and Storage"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 5.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Tool Use, Cleaning, and Storage."
       ],
       "comparison_data": {
-        "left_header": "Overnight Aluminum Foil Wrapping",
-        "right_header": "Complete End-of-Project Cleaning and Storage",
+        "left_header": "Req 5: Immediate Tool Cleaning",
+        "right_header": "Req 5: Wash Brushes Immediately",
         "left_points": [
           "Immediate Tool Cleaning: Care and Storage of Equipment The most important part of taking care of any paint application tool or equipment is cleaning it immediately (p. 54).",
           "Avoiding Costly Tool Damage: Failure to do so can cost you more time and more money spent on special cleaners, which in some cases may ruin the tool (p. 54).",
           "Extending Brush Lifespan: If you clean your brushes after each use, they will last along time (p. 54)."
         ],
         "right_points": [
-          "Step 1 - Wash Brushes Immediately: If you clean your brushes after each use, they will last along time (p. 54).",
-          "Step 2 - Rinse Out Wet Paint: Cleaning takes only a few minutes and saves hours of work and, quite possibly, the cost of replacement (p. 54).",
-          "Step 3 - Prevent Hardened Bristles: If paint is allowed to harden in a brush, cleaning that brush becomes adifficult and time-consuming task, one that could have been easily avoided (p. 54)."
+          "Wash Brushes Immediately: If you clean your brushes after each use, they will last along time (p. 54).",
+          "Rinse Out Wet Paint: Cleaning takes only a few minutes and saves hours of work and, quite possibly, the cost of replacement (p. 54).",
+          "Prevent Hardened Bristles: If paint is allowed to harden in a brush, cleaning that brush becomes adifficult and time-consuming task, one that could have been easily avoided (p. 54)."
         ],
         "rows": [
           {
-            "attribute": "Immediate Tool Cleaning",
+            "attribute": "Brush Cleaning",
             "left": "Immediate Tool Cleaning: Care and Storage of Equipment The most important part of taking care of any paint application tool or equipment is cleaning it immediately (p. 54).",
-            "right": "Step 1 - Wash Brushes Immediately: If you clean your brushes after each use, they will last along time (p. 54)."
+            "right": "Wash Brushes Immediately: If you clean your brushes after each use, they will last along time (p. 54)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Comb Alignment",
             "left": "Avoiding Costly Tool Damage: Failure to do so can cost you more time and more money spent on special cleaners, which in some cases may ruin the tool (p. 54).",
-            "right": "Step 2 - Rinse Out Wet Paint: Cleaning takes only a few minutes and saves hours of work and, quite possibly, the cost of replacement (p. 54)."
+            "right": "Rinse Out Wet Paint: Cleaning takes only a few minutes and saves hours of work and, quite possibly, the cost of replacement (p. 54)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Roller Scraping",
             "left": "Extending Brush Lifespan: If you clean your brushes after each use, they will last along time (p. 54).",
-            "right": "Step 3 - Prevent Hardened Bristles: If paint is allowed to harden in a brush, cleaning that brush becomes adifficult and time-consuming task, one that could have been easily avoided (p. 54)."
+            "right": "Prevent Hardened Bristles: If paint is allowed to harden in a brush, cleaning that brush becomes adifficult and time-consuming task, one that could have been easily avoided (p. 54)."
           }
         ]
       },
       "worked_example": {
-        "title": "Painting Req 5 Exemplar Workbook Entry: Tool Use, Cleaning, and Storage",
+        "title": "Painting Req 5 Exemplar Workbook Entry: Tool Use",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Immediate Tool Cleaning": "Care and Storage of Equipment The most important part of taking care of any paint application tool or equipment is cleaning it immediately (p. 54).",
@@ -1200,7 +1286,33 @@
       "socratic_questions": [
         "Why does paint accumulated deep inside the brush ferrule heel ruin bristle flexibility and split lines?",
         "What mechanical damage occurs when roller covers are pulled forcefully off frames without releasing tension wire clips?",
-        "How does wrapping a damp, clean brush in porous packaging paper help maintain its original chisel tip profile?"
+        "How does wrapping a damp, clean brush in porous packaging paper help maintain its original chisel tip profile?",
+        "What happens to natural china bristles when you use them to apply water-based acrylic latex paint?",
+        "Why is it dangerous to point an airless paint sprayer tip at your palm while clearing a clogged nozzle?",
+        "Which solvent cleans oil-based alkyd varnish out of a brush heel before you wash the bristles with soap?",
+        "What happens to a damp paintbrush if you stand it upright on its bristle tips inside a jar overnight?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Leaving dirty brushes resting tip down inside solvent jars keeps them soft without causing damage.",
+          "fact": "Resting brushes on their bristle tips permanently curls filaments, ruining the precision cutting edge forever."
+        },
+        {
+          "misconception": "Natural hog-bristle brushes are ideal for spreading water-based acrylic latex wall and trim paints.",
+          "fact": "Natural bristles absorb water and go limp in latex paint; synthetic nylon or polyester filaments keep their stiffness in waterborne coatings."
+        },
+        {
+          "misconception": "Dipping a paintbrush all the way to the metal ferrule speeds up cutting in along ceiling edges.",
+          "fact": "Loading paint past one-third to one-half of the bristle length forces paint into the ferrule heel, ruining bristle flex and cleanup."
+        },
+        {
+          "misconception": "Standing a washed paintbrush upright on its bristles in a bucket preserves the chiseled tip shape.",
+          "fact": "Resting weight on wet bristles bends them permanently; cleaned brushes must hang by the handle hole or lie flat in their keeper sleeve."
+        },
+        {
+          "misconception": "Warm tap water and dish soap dissolve cured oil-based enamel from roller covers and synthetic brushes.",
+          "fact": "Oil-based coatings require mineral spirits or paint thinner to dissolve the alkyd resin before final washing with warm soapy water."
+        }
       ]
     },
     {
@@ -1255,9 +1367,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Standing on the very top step of a stepladder is acceptable if you maintain careful balance.",
-        "fact": "The top cap of a stepladder lacks stabilizing handholds, causing sudden tip overs and severe falls.",
-        "myth": "Standing on the very top step of a stepladder is acceptable if you maintain careful balance.",
-        "fact_correction": "The top cap of a stepladder lacks stabilizing handholds, causing sudden tip overs and severe falls."
+        "fact": "The top cap of a stepladder lacks stabilizing handholds, causing sudden tip overs and severe falls."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1293,44 +1403,44 @@
         "Step 4 - Decontamination Washing: Clean paint off hands using gentle cleanser followed by soap and warm water."
       ],
       "gear_checklist": [
-        "Official Painting merit badge pamphlet and studio sketch book for Req 6",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Ladder Safety and Protective Gear"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 6.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Ladder Safety and Protective Gear."
       ],
       "comparison_data": {
-        "left_header": "Safe Ladder Setup and Climbing",
-        "right_header": "Personal Hygiene and Protective Equipment",
+        "left_header": "Req 6: Continuous Ladder Vigilance",
+        "right_header": "Req 6: Inspect Protective Gear",
         "left_points": [
           "Continuous Ladder Vigilance: Think of safety all the time while using a ladder (p. 14).",
           "Safe Ladder Positioning: Take the time to properly set up the ladder and to use it properly (p. 14).",
           "Injury Prevention Habits: Taking these precautions can help prevent injury (p. 14)."
         ],
         "right_points": [
-          "Step 1 - Inspect Protective Gear: Taking these precautions can help prevent injury (p. 14).",
-          "Step 2 - Choose Proper Ladders: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 14).",
-          "Step 3 - Maintain Three-Point Contact: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 14)."
+          "Inspect Protective Gear: Taking these precautions can help prevent injury (p. 14).",
+          "Choose Proper Ladders: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 14).",
+          "Maintain Three-Point Contact: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 14)."
         ],
         "rows": [
           {
-            "attribute": "Continuous Ladder Vigilance",
+            "attribute": "Ladder Placement",
             "left": "Continuous Ladder Vigilance: Think of safety all the time while using a ladder (p. 14).",
-            "right": "Step 1 - Inspect Protective Gear: Taking these precautions can help prevent injury (p. 14)."
+            "right": "Inspect Protective Gear: Taking these precautions can help prevent injury (p. 14)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Three Point Contact",
             "left": "Safe Ladder Positioning: Take the time to properly set up the ladder and to use it properly (p. 14).",
-            "right": "Step 2 - Choose Proper Ladders: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 14)."
+            "right": "Choose Proper Ladders: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 14)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Eye Protection",
             "left": "Injury Prevention Habits: Taking these precautions can help prevent injury (p. 14).",
-            "right": "Step 3 - Maintain Three-Point Contact: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 14)."
+            "right": "Maintain Three-Point Contact: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 14)."
           }
         ]
       },
       "worked_example": {
-        "title": "Painting Req 6 Exemplar Workbook Entry: Ladder Safety and Protective Gear",
+        "title": "Painting Req 6 Exemplar Workbook Entry: Ladder Safety",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Continuous Ladder Vigilance": "Think of safety all the time while using a ladder (p. 14).",
@@ -1372,8 +1482,34 @@
       "pamphlet_summary": "Safe painting practices demand maintaining three points of contact on stable ladders while adhering to the four to one base setback ratio. Rigorous personal hygiene and personal protective equipment protect operators from accidental toxic ingestion and chemical ocular burns.",
       "socratic_questions": [
         "Why does leaning your torso outside the ladder side rails cause the ladder base to kick out sideways?",
-        "How do chemical solvents on unwashed hands transfer into your digestive system during lunch breaks?",
-        "What specific respiratory filter rating is needed when sanding old unknown painted wood trim?"
+        "In what specific ways do chemical solvents on unwashed hands transfer into your digestive system during lunch breaks?",
+        "What specific respiratory filter rating is needed when sanding old unknown painted wood trim?",
+        "What measurement confirms an extension ladder sits at the proper four-to-one base angle against a wall?",
+        "Why is it dangerous to wash paint thinner or stain off your bare hands using mineral spirits?",
+        "Where should a Scout keep their belt buckle aligned while reaching outward with a roller from a ladder?",
+        "Which respirator cartridge rating protects your lungs when spraying solvent-borne polyurethane finishes?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Standing on the very top step of a stepladder is acceptable if you maintain careful balance.",
+          "fact": "The top cap of a stepladder lacks stabilizing handholds, causing sudden tip overs and severe falls."
+        },
+        {
+          "misconception": "Standing on the top cap of a folding stepladder is safe if a buddy holds the side rails steady.",
+          "fact": "Stepladder top caps and the step directly below them provide no knee brace point, making loss of balance likely even with a spotter."
+        },
+        {
+          "misconception": "Scrubbing bare skin with mineral spirits or turpentine is the safest way to remove oil paint splatters.",
+          "fact": "Organic solvents penetrate skin directly into the bloodstream and cause dermatitis; use barrier gloves and mild soap or hand cleaner."
+        },
+        {
+          "misconception": "Leaning an unfolded stepladder against a wall works just as safely as using a straight extension ladder.",
+          "fact": "Stepladders are engineered only for four-legged support with locked spreaders; leaning them closed can cause the rear legs to kick out."
+        },
+        {
+          "misconception": "Eating lunch in the work zone poses no health risk once old exterior paint scraping has paused.",
+          "fact": "Microscopic lead and pigment dust settles on hands, clothes, and food, so painters must wash thoroughly and eat outside the work area."
+        }
       ]
     },
     {
@@ -1432,9 +1568,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Pouring residual latex paint onto outdoor soil or gravel driveway beds filters impurities safely.",
-        "fact": "Paint chemicals contaminate soil ecology and wash into watershed streams, poisoning aquatic biological organisms.",
-        "myth": "Pouring residual latex paint onto outdoor soil or gravel driveway beds filters impurities safely.",
-        "fact_correction": "Paint chemicals contaminate soil ecology and wash into watershed streams, poisoning aquatic biological organisms."
+        "fact": "Paint chemicals contaminate soil ecology and wash into watershed streams, poisoning aquatic biological organisms."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1470,44 +1604,44 @@
         "Step 4 - Oily Disposal: Submerge solvent rags inside water filled airtight steel cans to prevent spontaneous ignition."
       ],
       "gear_checklist": [
-        "Official Painting merit badge pamphlet and studio sketch book for Req 7",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Environmental and Health Hazards"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 7.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Environmental and Health Hazards."
       ],
       "comparison_data": {
-        "left_header": "Solvent Vapor and Lead Dust Hazards",
-        "right_header": "Eco-Friendly Paint Disposal Practices",
+        "left_header": "Req 7: Hazardous Waste Disposal",
+        "right_header": "Req 7: Identify Thinning Solvents",
         "left_points": [
           "Hazardous Waste Disposal: Solvents, paints, paint chips, and dust that may contain lead must be disposed of properly (p. 14).",
           "Dangerous Paint Ingredients: Paint ingredients, when mishandled, can be dangerous (p. 14).",
           "Common Paint Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin the paint and during cleanup (p. 14)."
         ],
         "right_points": [
-          "Step 1 - Identify Thinning Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin the paint and during cleanup (p. 14).",
-          "Step 2 - Protect Bystanders From Fumes: Solvents are particularly hazardous to the painter and others who may be exposed to them (p. 14).",
-          "Step 3 - Apply Solvent Safety Rules: Follow the same safety guidelines for solvents and solvent-based paints (p. 14)."
+          "Identify Thinning Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin the paint and during cleanup (p. 14).",
+          "Protect Bystanders From Fumes: Solvents are particularly hazardous to the painter and others who may be exposed to them (p. 14).",
+          "Apply Solvent Safety Rules: Follow the same safety guidelines for solvents and solvent-based paints (p. 14)."
         ],
         "rows": [
           {
-            "attribute": "Hazardous Waste Disposal",
+            "attribute": "Lead Containment",
             "left": "Hazardous Waste Disposal: Solvents, paints, paint chips, and dust that may contain lead must be disposed of properly (p. 14).",
-            "right": "Step 1 - Identify Thinning Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin the paint and during cleanup (p. 14)."
+            "right": "Identify Thinning Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin the paint and during cleanup (p. 14)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "VOC Emissions",
             "left": "Dangerous Paint Ingredients: Paint ingredients, when mishandled, can be dangerous (p. 14).",
-            "right": "Step 2 - Protect Bystanders From Fumes: Solvents are particularly hazardous to the painter and others who may be exposed to them (p. 14)."
+            "right": "Protect Bystanders From Fumes: Solvents are particularly hazardous to the painter and others who may be exposed to them (p. 14)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Liquid Waste",
             "left": "Common Paint Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin the paint and during cleanup (p. 14).",
-            "right": "Step 3 - Apply Solvent Safety Rules: Follow the same safety guidelines for solvents and solvent-based paints (p. 14)."
+            "right": "Apply Solvent Safety Rules: Follow the same safety guidelines for solvents and solvent-based paints (p. 14)."
           }
         ]
       },
       "worked_example": {
-        "title": "Painting Req 7 Exemplar Workbook Entry: Environmental and Health Hazards",
+        "title": "Painting Req 7 Exemplar Workbook Entry: Environmental",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Hazardous Waste Disposal": "Solvents, paints, paint chips, and dust that may contain lead must be disposed of properly (p. 14).",
@@ -1549,8 +1683,34 @@
       "pamphlet_summary": "Historic paints manufactured before 1978 frequently contain toxic lead compounds that damage neurological systems when converted to airborne dust. Modern disposal protocols forbid dumping liquid latex coatings into household trash, requiring can drying or hazardous collection drop offs.",
       "socratic_questions": [
         "Why does linseed oil generate enough heat to spontaneously ignite cotton rags while water based latex cannot?",
-        "How do microscopic airborne lead dust particles damage the developing brains of young children?",
-        "What municipal recycling facility options exist in your community for disposing of unhardened alkyd enamels?"
+        "In what specific ways do microscopic airborne lead dust particles damage the developing brains of young children?",
+        "What municipal recycling facility options exist in your community for disposing of unhardened alkyd enamels?",
+        "Why is it dangerous to use a high-temperature heat gun or open torch to strip pre-1978 house paint?",
+        "What happens to aquatic life when wash water from latex brushes is poured into a street storm drain?",
+        "Under what condition can leftover latex wall paint be disposed of in regular municipal solid waste?",
+        "Which physical indicator on a paint can label identifies the concentration of volatile organic compounds?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Pouring residual latex paint onto outdoor soil or gravel driveway beds filters impurities safely.",
+          "fact": "Paint chemicals contaminate soil ecology and wash into watershed streams, poisoning aquatic biological organisms."
+        },
+        {
+          "misconception": "Burning off old porch paint with a propane torch is a safe way to avoid creating airborne lead dust.",
+          "fact": "Temperatures above 1,100 degrees Fahrenheit vaporize lead into toxic fumes that bypass dust masks and cause acute lead poisoning."
+        },
+        {
+          "misconception": "Pouring leftover liquid oil-based paint down a basement utility sink is safe because treatment plants filter it.",
+          "fact": "Liquid alkyd paints and solvents contaminate water supplies and sewer systems; they must go to a household hazardous waste facility."
+        },
+        {
+          "misconception": "Zero-VOC interior latex paint can be poured directly into residential trash cans while still liquid.",
+          "fact": "Liquid latex paint leaks from collection trucks and landfills; it must be solidified with cat litter, sawdust, or hardener before disposal."
+        },
+        {
+          "misconception": "Household vacuum cleaners capture all hazardous dust when sanding painted walls built before 1978.",
+          "fact": "Standard vacuums exhaust fine lead particles back into the room air; only certified HEPA vacuums and wet-prep methods contain lead dust."
+        }
       ]
     },
     {
@@ -1610,9 +1770,7 @@
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)",
           "common_misconception_pair": {
             "misconception": "Entry level painting jobs require no classroom instruction or formal technical apprenticeship training.",
-            "fact": "Union apprenticeship programs mandate hundreds of classroom hours in blueprint reading, chemistry, and safety.",
-            "myth": "Entry level painting jobs require no classroom instruction or formal technical apprenticeship training.",
-            "fact_correction": "Union apprenticeship programs mandate hundreds of classroom hours in blueprint reading, chemistry, and safety."
+            "fact": "Union apprenticeship programs mandate hundreds of classroom hours in blueprint reading, chemistry, and safety."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1692,9 +1850,7 @@
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)",
           "common_misconception_pair": {
             "misconception": "Restoring antique wooden furniture with modern paint ruins all historical and aesthetic value automatically.",
-            "fact": "Careful conservation techniques and historically accurate milk paints preserve delicate wooden structures from degradation.",
-            "myth": "Restoring antique wooden furniture with modern paint ruins all historical and aesthetic value automatically.",
-            "fact_correction": "Careful conservation techniques and historically accurate milk paints preserve delicate wooden structures from degradation."
+            "fact": "Careful conservation techniques and historically accurate milk paints preserve delicate wooden structures from degradation."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1794,9 +1950,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Commercial painters only perform manual brush rolling without understanding substrate chemistry or digital equipment.",
-        "fact": "Modern industrial painters calculate dry film thickness, operate computerized plural component sprayers, and test adhesion.",
-        "myth": "Commercial painters only perform manual brush rolling without understanding substrate chemistry or digital equipment.",
-        "fact_correction": "Modern industrial painters calculate dry film thickness, operate computerized plural component sprayers, and test adhesion."
+        "fact": "Modern industrial painters calculate dry film thickness, operate computerized plural component sprayers, and test adhesion."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1837,10 +1991,10 @@
         "Step 4 - Organization Outreach: Contact regional maker guilds or trade associations to discover local equipment sharing opportunities."
       ],
       "gear_checklist": [
-        "Official Painting merit badge pamphlet and studio sketch book for Req 8",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Painting Careers and Lifelong Hobbies"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 8.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Painting Careers and Lifelong Hobbies."
       ],
       "comparison_data": {
         "left_header": "Req 8a: Commercial Coating Trade Careers",
@@ -1853,27 +2007,27 @@
         ],
         "rows": [
           {
-            "attribute": "Exploring Professional Painting Careers",
-            "left": "(8a) Exploring Professional Painting Careers: This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions to experts (p. 69).",
-            "right": "(8b) Pursuing Painting Hobbies and Lifestyles: The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, management education, industry image materials (p. 69)."
+            "attribute": "Apprenticeship Pathways",
+            "left": "(8a) Commercial Coating Trade Careers: Career paths include residential contracting, commercial project management, industrial corrosion engineering, and specialty faux finishing. Apprentices learn rigging, spray technology, estimating, and architectural specifications over several thousand field hours.",
+            "right": "(8b) Coating Hobbies and Lifestyle: Applying finishes extends to hobbies like furniture upcycling, fine art canvas painting, wooden boat restoration, and scale modeling. Engaging in decorative painting cultivates manual dexterity, color appreciation, and rewarding stress reduction."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Expert Do-It-Yourself Advice: This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions to experts (p. 69).",
-            "right": "Step 2 - Explore Home Improvement Resources: This site gives \"old-house enthusiasts\" ideas and advice on many home improvement tasks, products, and suppliers (p. 69)."
+            "attribute": "Corrosion Technology",
+            "left": "Req 8a: Commercial Coating Trade: Career paths include residential contracting, commercial project management, industrial corrosion engineering, and specialty faux finishing. Apprentices learn rigging, spray technology, estimating, and architectural specifications over several thousand field hours.",
+            "right": "Req 8b: Coating Hobbies: Applying finishes extends to hobbies like furniture upcycling, fine art canvas painting, wooden boat restoration, and scale modeling. Engaging in decorative painting cultivates manual dexterity, color appreciation, and rewarding stress reduction."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Standardized Trade Curricula: The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, management education, industry image materials (p. 69).",
-            "right": "Step 3 - Seek On-the-Job Experience: Training in the Craft The best way to learn the painting craft is to get on-the-job training (p. 69)."
+            "attribute": "Furniture Refinishing",
+            "left": "Apprenticeship Pathways: Union trade apprenticeships combine paid commercial jobsite training with classroom industrial coating instruction.",
+            "right": "Corrosion Technology: Certified NACE inspectors monitor blast profiles and coating mil thickness on public bridges."
           }
         ]
       },
       "worked_example": {
-        "title": "Painting Req 8 Exemplar Workbook Entry: Painting Careers and Lifelong Hobbies",
+        "title": "Painting Req 8 Exemplar Workbook Entry: Painting Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 8a - Commercial Coating Trade Careers": "Career paths include residential contracting, commercial project management, industrial corrosion engineering, and specialty faux finishing. Apprentices learn rigging, spray technology, estimating, and architectural specifications over several thousand field hours.",
+          "Req 8a - Commercial Coating Trade": "Career paths include residential contracting, commercial project management, industrial corrosion engineering, and specialty faux finishing. Apprentices learn rigging, spray technology, estimating, and architectural specifications over several thousand field hours.",
           "Req 8b - Coating Hobbies and Lifestyle": "Applying finishes extends to hobbies like furniture upcycling, fine art canvas painting, wooden boat restoration, and scale modeling. Engaging in decorative painting cultivates manual dexterity, color appreciation, and rewarding stress reduction."
         },
         "sample_output": "Painting Careers and Lifelong Hobbies: This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions to experts (p. 69).",
@@ -1911,7 +2065,33 @@
       "socratic_questions": [
         "How does earning industrial coatings inspection credentials change an apprentice's career advancement opportunities?",
         "What health benefits come from pursuing creative hands on painting hobbies during adult leisure hours?",
-        "Why do commercial painting contractors require strict OSHA thirty hour safety cards before hiring employees?"
+        "Why do commercial painting contractors require strict OSHA thirty hour safety cards before hiring employees?",
+        "What measurement confirms dry film thickness when a certified industrial coatings inspector checks steel beams?",
+        "Which safety certifications and apprenticeship hours distinguish an industrial painter from a hobbyist finisher?",
+        "Under what condition does an automotive refinishing technician use a downdraft spray booth with supplied air?",
+        "What happens to a commercial painting bid when an estimator miscalculates substrate porosity and spread rate?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Commercial painters only perform manual brush rolling without understanding substrate chemistry or digital equipment.",
+          "fact": "Modern industrial painters calculate dry film thickness, operate computerized plural component sprayers, and test adhesion."
+        },
+        {
+          "misconception": "Commercial and industrial painters perform the exact same daily duties as residential house painters.",
+          "fact": "Industrial painters apply specialized corrosion-resistant epoxies and urethanes to bridges and tanks using abrasive blasting and gauges."
+        },
+        {
+          "misconception": "Professional painting apprenticeships require four-year university tuition before trainees earn any wages.",
+          "fact": "Union and trade apprenticeships combine paid on-the-job training with classroom instruction so apprentices earn wages while learning."
+        },
+        {
+          "misconception": "Paint estimators calculate project material costs solely by measuring floor square footage with a tape.",
+          "fact": "Estimators account for wall height, surface porosity, mil thickness, waste factors, prep labor, and access equipment like scaffolding."
+        },
+        {
+          "misconception": "Hobbyist furniture refinishing in a home garage requires no ventilation or respiratory protection.",
+          "fact": "Refinishing hobbies use chemical strippers, stains, and spray lacquers that require organic vapor respirators and active exhaust airflow."
+        }
       ]
     }
   ],

@@ -1,8 +1,8 @@
 # Whitewater Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/whitewater/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/whitewater/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -15,7 +15,9 @@
 | **1** | Req 1: River Hazards and Safety | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: River Hydrology and Dynamics | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Prerequisite Paddling Skill Verification | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Whitewater Paddling Stroke Mastery | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4a** | Tandem Canoeist: Bow & Stern Strokes, Braces & Righting Pry | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4b** | Solo Canoeist: Solo Strokes, Braces & Righting Pry | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4c** | Solo Kayaker: Draw, Rudder, Sculling & High/Low Braces | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: River Difficulty Rating Evaluation | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: River Communication and Signals | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Whitewater Merit Badge Pamphlet (p. 33, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Whitewater Craft Design Standards | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -31,14 +33,16 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Do the following: (a) Demonstrate understanding of the following river features by drawing lines to show the flow of water: upstream V, downstream V, riffle, eddy with an eddy line, ledge, river bend, shallows, current at different depths, drop, horizon line, and hydraulic. (b) Describe how waves form including standing waves and wave trains. (c) Explain how to tilt or edge the boat without leaning your body (1) When entering and exiting an eddy. (2) When ferrying in downstream and upstream directions. (d) Explain when, why, and how you should scout a river while ashore, while on the river, and when you should portage your boat.
-- [ ] **Station Req 3:** Before doing requirements 4 through 12, earn the Canoeing merit badge if you will be using a canoe to earn this merit badge. If you will be using a kayak, earn the Kayaking merit badge. Then do ONE of the following: (a) If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers from the Canoeing merit badge to the satisfaction of your counselor. (b) If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers from the Kayaking merit badge to the satisfaction of your counselor.
-- [ ] **Station Req 4:** Do ONE of the following: (a) Option A, Tandem Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw. (2) Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry. (3) Demonstrate a high brace, low brace, and righting pry. (b) Option B, Solo Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry. (2) Demonstrate a high brace, low brace, and righting pry. (c) Option C, Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: bow draw, rudder, and sculling draw. (2) Demonstrate a high brace and low brace.
-- [ ] **Station Req 6:** Explain the importance of communication during every whitewater outing. Demonstrate knowledge and ability to use the following American Whitewater Universal River Signals, both visual and auditory: "Stop," "Are you OK?," "Help/emergency," "Run river right," "Run river left," and "All clear, come ahead."
-- [ ] **Station Req 9:** Demonstrate your ability to read a Class II section of river approved by your counselor. Describe the most desirable paths or lines of travel as well as alternative routes and options. Point out how to use the existing water features to your advantage, and explain how to best avoid the hazards present.
-- [ ] **Station Req 10:** Wearing a proper life jacket and being appropriately dressed for the weather and water conditions, perform the following skills in moving water in a properly equipped whitewater craft of your choice (tandem canoe, solo canoe, or solo kayak). If a tandem canoe is used, the skills must be demonstrated from both the bow and stern positions. (a) Launch and land. (b) Paddle forward in a straight line at least 10 boat lengths. (c) Backpaddle in a straight line at least five boat lengths. (d) Ferry upstream from both sides of the river. (e) Ferry downstream from both sides of the river. (f) Eddy turn from both sides of an eddy. (g) Peel out from both sides of an eddy.
-- [ ] **Station Req 11:** Explain and demonstrate the following to your counselor: (a) Self-rescue and procedures when capsized in moving water, including a wet exit if necessary (b) Proper use of a throw rope to rescue a swimmer in whitewater (c) Proper technique for receiving a throw rope as a swimmer (d) Portaging, where portaging would be appropriate, and when and how to do it (e) The whitewater buddy system using at least three persons and three craft
-- [ ] **Station Req 12:** Participate in one or more whitewater trips using either a canoe or kayak on a Class I and/or Class II river. The trip(s) must involve at least six hours of paddling time. For each trip: (a) Help to prepare a written plan, specifying the route (put-ins and takeouts), schedule, equipment, safety precautions, and emergency procedures. (b) Determine local rules and obtain permission from landowners and land managers in advance. (c) Explain what steps have been taken to comply with Scouting America Safety Afloat and the American Whitewater safety guidelines. (d) Show how to protect personal and group equipment from water and how to load and secure the containers in boats to be used in the trip. Execute the plans with other paddlers. (e) Explain to your counselor how well your plans worked for each trip taken.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Scout must individually explain mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 4a:** Scout must individually demonstrate mastery of Requirement 4a to the Merit Badge Counselor.
+- [ ] **Station Req 4b:** Scout must individually demonstrate mastery of Requirement 4b to the Merit Badge Counselor.
+- [ ] **Station Req 4c:** Scout must individually demonstrate mastery of Requirement 4c to the Merit Badge Counselor.
+- [ ] **Station Req 6:** Scout must individually explain mastery of Requirement 6 to the Merit Badge Counselor.
+- [ ] **Station Req 9:** Scout must individually demonstrate mastery of Requirement 9 to the Merit Badge Counselor.
+- [ ] **Station Req 10:** Scout must individually explain mastery of Requirement 10 to the Merit Badge Counselor.
+- [ ] **Station Req 11:** Scout must individually explain mastery of Requirement 11 to the Merit Badge Counselor.
+- [ ] **Station Req 12:** Scout must individually explain mastery of Requirement 12 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -112,7 +116,7 @@
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Always bank scout any rapid where the downstream horizon line drops out of view from your cockpit.
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** The point of a V in the river always shows the safest deep channel to paddle through.
+- **Common Myth:** The point of a V in the river always shows the safest deep channel to paddle.
 - **Pamphlet Fact:** An upstream V points toward submerged obstacles where water splits, while a downstream V indicates deep unobstructed passage.
 
 **Official Pamphlet Summary:**
@@ -129,10 +133,10 @@
 - **Pamphlet Fact:** Downstream Vs mark channels of clear deep water, whereas upstream Vs mark rocks waiting to break hulls.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Whitewater Requirement 2 figure showing smooth water pointing downstream indicates the deepest unobstructed path.](/assets/pamphlet_images/whitewater_p007_img1.png)
 
@@ -226,20 +230,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Whitewater Paddling Stroke Mastery
-**Official Requirement 4 (Parent Overview):** Do ONE of the following: (a) Option A, Tandem Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw. (2) Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry. (3) Demonstrate a high brace, low brace, and righting pry. (b) Option B, Solo Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry. (2) Demonstrate a high brace, low brace, and righting pry. (c) Option C, Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: bow draw, rudder, and sculling draw. (2) Demonstrate a high brace and low brace.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Keep knuckles inside the gunwales during pry strokes to prevent crush injuries against boulders.
-- **Common Myth:** Pry strokes push the boat away while weakening paddle shafts against gunwales under heavy loads.
-- **Pamphlet Fact:** Bow draw and pry strokes shift the pivot point forward, pulling or pushing the bow directly toward target lines.
-
-**Official Pamphlet Summary:**
-- Bow Draw Authority: Reaching forward with a vertical blade pulls the bow toward the paddle side.
-- Bow Pry Leverage: Using the gunwale as a fulcrum pushes the bow away from the stroke.
-- Cross Forward Stroke: Switching blade sides without changing hand grip delivers rapid turning force across current.
-- Sculling Draw Fluidity: Sweeping the angled blade back and forth generates continuous lateral attraction toward shore.
-
-### Req 4a: Tandem Canoe Stroke Execution
+### Tandem Canoeist: Bow & Stern Strokes, Braces & Righting Pry
 **Official Requirement 4a (Parent Overview):** Option A, Tandem Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw. (2) Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry. (3) Demonstrate a high brace, low brace, and righting pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Group Organizer:** Field Sketch & Diagram Canvas
 > **Guide to Safe Scouting Warning:** Keep knuckles inside the gunwales during pry strokes to prevent crush injuries against boulders.
@@ -247,14 +238,22 @@
 - **Pamphlet Fact:** The bow paddler initiates lateral boat movement with cross draws, allowing the stern to hold the line.
 
 **Official Pamphlet Summary:**
-- Tandem canoeists master bow draws, prys, cross forward strokes, and sculling draws to coordinate boat direction precisely. Both paddlers coordinate cadence and balance to execute synchronized pivots on calm water.
-- Req 4a Standard (Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)): Option A, Tandem Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw. (2) Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry. (3) Demonstrate a high brace, low brace, and righting pry.
+- Req 4a(1) (1): Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw.
+- Req 4a(2) (2): Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry.
+- Req 4a(3) (3): Demonstrate a high brace, low brace, and righting pry.
+- In the peel out, note how both paddlers use theirleft knees to lean into and tilt the boat into the turn.
 
 #### Req 4a(1): Tandem Canoe Bow Steering Strokes
 **Official Requirement 4a(1):** Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4a(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes in The Bow Cross)
 - **Common Myth:** Switching to an offside cross bow draw requires swapping top and bottom hand positions on the paddle shaft.
 - **Pamphlet Fact:** Bow paddlers perform the cross bow draw by rotating the torso across the opposite gunwale while keeping their original paddle grip unchanged.
+
+**Gear & Readiness Checklist:**
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Curved arrows show paddle rotation around the canoe hull during a sweep turn.](/assets/pamphlet_images/whitewater_p050_img1.png)
 
@@ -308,21 +307,30 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4b: Solo Canoe Stroke Mastery
+### Solo Canoeist: Solo Strokes, Braces & Righting Pry
 **Official Requirement 4b (Parent Overview):** Option B, Solo Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry. (2) Demonstrate a high brace, low brace, and righting pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Group Organizer:** Field Sketch & Diagram Canvas
+> **Guide to Safe Scouting Warning:** Keep knuckles inside the gunwales during pry strokes to prevent crush injuries against boulders.
 - **Common Myth:** A solo canoeist sits in the extreme stern to achieve proper trim on moving water.
 - **Pamphlet Fact:** Solo canoeists must combine bow and stern steering inputs from the center seat using cross strokes.
 
 **Official Pamphlet Summary:**
-- Solo canoeists demonstrate cross forward strokes, prys, stern draws, and sculling draws to maintain total hull authority. Centering body weight over the middle thwart allows clean directional tracking without bow drag.
-- Req 4b Standard (Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)): Option B, Solo Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry. (2) Demonstrate a high brace, low brace, and righting pry.
+- Req 4b(1) (1): Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry.
+- Req 4b(2) (2): Demonstrate a high brace, low brace, and righting pry.
+- The paddle shaft should be vertical and move in a path 2 to 3 feet long next to the side of the boat.
+- Angle the blade at 45 degrees—as if you were spreading butter on a slice of bread— and move the paddle from side to side.
 
 #### Req 4b(1): Solo Canoe Whitewater Maneuvering Strokes
 **Official Requirement 4b(1):** Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4b(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes Cross Forward Bow Draw)
 - **Common Myth:** Solo canoeists must swap their hand grip across the paddle when transitioning between onside draws and offside cross strokes.
 - **Pamphlet Fact:** Solo paddlers maintain their standard hand grip and rotate their torso across the gunwale to execute efficient offside cross forward and cross draw strokes.
+
+**Gear & Readiness Checklist:**
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![A paddler demonstrates correct body positioning during a forward canoe stroke.](/assets/pamphlet_images/whitewater_p048_img1.png)
 
@@ -354,26 +362,58 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Solo Kayak Stroke Techniques
-**Official Requirement 4c:** Option C, Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: bow draw, rudder, and sculling draw. (2) Demonstrate a high brace and low brace.
-**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4c Hands-On Skill Station & EDGE Verification Checklist (Solo Kayaker)
+### Solo Kayaker: Draw, Rudder, Sculling & High/Low Braces
+**Official Requirement 4c (Parent Overview):** Option C, Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: bow draw, rudder, and sculling draw. (2) Demonstrate a high brace and low brace.
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Group Organizer:** Field Sketch & Diagram Canvas
+> **Guide to Safe Scouting Warning:** Keep knuckles inside the gunwales during pry strokes to prevent crush injuries against boulders.
 - **Common Myth:** A kayaker relies solely on forward sweeps to turn the boat in narrow channels.
 - **Pamphlet Fact:** A kayak stern rudder stabilizes the boat in heavy current when forward strokes might catch a chine.
+
+**Official Pamphlet Summary:**
+- Req 4c(1) (1): Demonstrate the following strokes: bow draw, rudder, and sculling draw.
+- Req 4c(2) (2): Demonstrate a high brace and low brace.
+- The paddle shaft should be vertical and move in a path 2 to 3 feet long next to the side of the boat.
+- Angle the blade at 45 degrees—as if you were spreading butter on a slice of bread— and move the paddle from side to side.
+
+#### Req 4c(1): Solo Kayak Directional Control Strokes
+**Official Requirement 4c(1):** Demonstrate the following strokes: bow draw, rudder, and sculling draw.
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4c(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes Bow Draw Rudder and)
+- **Common Myth:** Wedging a stern rudder deeply under the kayak hull produces the sharpest turn in fast current.
+- **Pamphlet Fact:** Trailing the paddle blade near the stern with a slight outward angle lets moving water turn the kayak without stalling forward momentum.
+
+**Gear & Readiness Checklist:**
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.](/assets/pamphlet_images/whitewater_p037_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
-| **(1) Demonstrate the following strokes: bow draw, rudder, and sculling draw.** | `____________________________________` | `____________________________________` |
-| **(2) Demonstrate a high brace and low brace.** | `____________________________________` | `____________________________________` |
+| **1. Demonstrate the following strokes: bow draw, rudder, and sculling draw** | `____________________________________` | `____________________________________` |
 
-**[Field Sketch & Diagram Canvas - Req 4c Unlined Dot-Grid / Horizon / Moon Sketch Box]:**
+**[Field Sketch & Diagram Canvas - Req 4c(1) Unlined Dot-Grid / Horizon / Moon Sketch Box]:**
 ```text
 +-----------------------------------------------------------------------+
 | .   .   .   .   .   .   [ SKETCH / DIAGRAM CANVAS ]   .   .   .   .   |
 | .   .   .   .   .   .   Label key landmarks & compass .   .   .   .   |
 +-----------------------------------------------------------------------+
 ```
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 4c(2): Solo Kayak Recovery Bracing Techniques
+**Official Requirement 4c(2):** Demonstrate a high brace and low brace.
+**Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Skill Demonstration Checklist):** Req 4c(2) Hands-On Skill Station & EDGE Verification Checklist (High Brace and Low Brace)
+- **Common Myth:** Reaching both arms far out away from the kayak provides the most solid support during a high brace.
+- **Pamphlet Fact:** Keeping elbows bent and tucked inside the paddling box protects shoulder joints from dangerous dislocation while delivering maximum bracing leverage.
+
+![A rescuer casts a throw bag toward a swimmer to perform an effective water rescue.](/assets/pamphlet_images/whitewater_p071_img2.png)
+
+| Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
+| :--- | :--- | :--- |
+| **1. Demonstrate a high brace and low brace** | `____________________________________` | `____________________________________` |
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
@@ -411,8 +451,6 @@
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Specific Characteristics of The River)
 - **Common Myth:** Only the presence of large waterfalls determines whether a river section is rated difficult.
 - **Pamphlet Fact:** Continuous boulder gardens and restricted channel widths elevate the technical difficulty rating of a river section.
-
-![A rescuer casts a throw bag toward a swimmer to perform an effective water rescue.](/assets/pamphlet_images/whitewater_p071_img2.png)
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -521,10 +559,10 @@
 - **Pamphlet Fact:** Water accelerates through the apex of a downstream V tongue, providing deep water that flushes past flanking boulders.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Foaming water rushes past exposed river boulders creating distinct downstream channels.](/assets/pamphlet_images/whitewater_p034_img1.png)
 
@@ -552,7 +590,7 @@
 **Official Pamphlet Summary:**
 - Carve across the eddy line while tilting your hull toward the inside of the turn.
 - Peel Out Execution: Tilt the boat downstream when driving from the eddy into the faster main current.
-- Maintain a thirty-degree bow angle relative to incoming current while paddling forward across.
+- Maintain a thirty-degree bow angle relative to incoming current while paddling forward.
 - Downstream Ferry Tracking: Backpaddle smoothly across the river while holding a thirty-degree stern angle against current.
 
 #### Req 10a: River Launch and Landing
@@ -609,7 +647,7 @@
 **Official Requirement 10e:** Ferry downstream from both sides of the river.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix (Ferry Downstream From Both Sides)
 - **Common Myth:** Downstream ferrying requires high speed forward paddling straight toward downstream rocks and obstacles.
-- **Pamphlet Fact:** A downstream ferry uses backstrokes with the stern angled toward the destination bank to drift across.
+- **Pamphlet Fact:** A downstream ferry uses backstrokes with the stern angled toward the destination bank to drift.
 
 | Req 10e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

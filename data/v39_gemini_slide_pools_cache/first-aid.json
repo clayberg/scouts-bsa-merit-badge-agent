@@ -1,0 +1,410 @@
+{
+  "badge_slug": "first-aid",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Entering an unassessed scene risks creating a second victim; rescuers must survey for hazards before approaching.",
+          "misconception": "Rushing immediately to an injured hiker's side is always the fastest way to save a life in the field."
+        },
+        {
+          "fact": "Callers must stay on the line to answer medical triage questions and receive pre-arrival care instructions.",
+          "misconception": "Hanging up as soon as you give your street address allows 911 dispatchers to send an ambulance faster."
+        },
+        {
+          "fact": "Wilderness terrain blocks cellular signals, so patrols need satellite beacons and written evacuation plans.",
+          "misconception": "Cell phones with one bar of signal are reliable enough to replace satellite messengers in remote canyons."
+        },
+        {
+          "fact": "Bloodborne pathogens can exist without visible symptoms, requiring nitrile gloves for every bleeding exposure.",
+          "misconception": "Disposable medical gloves are unnecessary when rendering first aid to a close friend or family member."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What sequence of actions must a rescuer follow if an active hazard appears during victim care?",
+        "Which clinical sign distinguishes a life-threatening emergency from an urgent injury during triage?",
+        "What exact location details and vital coordinates must be logged before calling wilderness dispatch?",
+        "Why is it dangerous to touch a bleeding patient before putting on nitrile gloves and eye protection?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "High-adventure trips and camps lasting over 72 hours require a physician-signed Part C pre-participation exam.",
+          "misconception": "Part A and Part B of the Annual Health and Medical Record are sufficient for a ten-day backcountry trek."
+        },
+        {
+          "fact": "Emergency kits must stay in an easily reachable top pocket so any patrol member can grab them in seconds.",
+          "misconception": "Sealing a patrol first aid kit inside the bottom of a pack keeps sterile dressings clean until needed."
+        },
+        {
+          "fact": "Moisture compromises barrier packaging and breeds bacteria, so wet or torn sterile dressings must be replaced.",
+          "misconception": "Adhesive bandages and gauze pads remain sterile indefinitely even after their paper wrappers get damp."
+        },
+        {
+          "fact": "Non-prescription medications require documented parental consent on Part B and verification of drug allergies.",
+          "misconception": "Over-the-counter pain relievers in a patrol kit can be given freely to any Scout with a headache."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a patrol leader store Annual Health and Medical Records so they stay dry yet accessible?",
+        "What distinguishes the medical authorization in Part A from the physical exam requirement in Part C?",
+        "Which expiration dates and dosage metrics must be verified when inspecting a Scout's personal kit?",
+        "Under what condition does an expired tetanus immunization change wound follow-up after a trail cut?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Intact blisters form a sterile biological barrier over damaged dermis, and puncturing them invites severe infection.",
+          "misconception": "Popping a fluid-filled burn blister relieves pressure and speeds up skin regeneration on the trail."
+        },
+        {
+          "fact": "Acid-base neutralization generates exothermic heat that deepens tissue burns; flush chemical splashes only with water.",
+          "misconception": "Neutralizing an acid burn on the skin with baking soda or vinegar stops chemical damage safely."
+        },
+        {
+          "fact": "High-voltage current travels along nerves and blood vessels, causing deep muscle necrosis and cardiac arrhythmias.",
+          "misconception": "Electrical burns with a tiny entry mark on the fingers involve only minor surface tissue damage."
+        },
+        {
+          "fact": "Direct ice causes frostbite, so cold packs must be wrapped in cloth and applied for 20-minute intervals.",
+          "misconception": "Placing an ice pack directly against bare skin for an hour is the best way to shrink a hematoma."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to brush dry chemical powder off skin with a bare hand instead of flushing with water?",
+        "Which physical indicator separates a partial-thickness thermal burn from a full-thickness char injury?",
+        "What skin color and capillary refill changes confirm that a severe contusion is causing internal bleeding?",
+        "Under what condition does an electrical burn victim become safe for a rescuer to touch and examine?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Leaning back drains blood into the throat and stomach, causing choking or vomiting; pinch the nose and lean forward.",
+          "misconception": "Tilting the head backward during a nosebleed prevents blood loss and helps the nasal vessels clot."
+        },
+        {
+          "fact": "Peeling off the bottom dressing rips away newly formed clots; stack fresh gauze pads on top and press firmly.",
+          "misconception": "Removing blood-soaked gauze pads to apply fresh dressings helps keep a heavily bleeding wound clean."
+        },
+        {
+          "fact": "Releasing a tourniquet in the field causes fatal exsanguination and dislodges clots; only a physician should remove it.",
+          "misconception": "Loosening a tourniquet every fifteen minutes saves the lower limb from permanent tissue ischemia."
+        },
+        {
+          "fact": "Harsh antiseptics destroy healthy white blood cells and delay healing; irrigate open wounds with clean running water.",
+          "misconception": "Pouring full-strength hydrogen peroxide or rubbing alcohol into a deep cut sterilizes the tissue safely."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a Scout position a windlass tourniquet relative to a spurting arterial wound on the calf?",
+        "What visual bleeding pattern distinguishes a severed artery from steady venous hemorrhage in a deep cut?",
+        "Why must the exact minute of tourniquet application be written on the strap and the victim's forehead?",
+        "What happens to underlying blood vessels if a rescuer pulls out an impaled branch instead of stabilizing it?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Forceful coughing is the most effective way to expel a partial blockage; intervene only if the victim cannot speak or cough.",
+          "misconception": "Slapping a coughing person on the back helps clear a mild airway obstruction faster than coughing alone."
+        },
+        {
+          "fact": "Antihistamines work too slowly to reverse airway swelling or shock; intramuscular epinephrine must be given immediately.",
+          "misconception": "Oral antihistamines like diphenhydramine can replace an epinephrine auto-injector during anaphylaxis."
+        },
+        {
+          "fact": "Ascending with acute mountain sickness triggers fatal brain or lung edema; the victim must stop and descend if worse.",
+          "misconception": "Pushing through a throbbing headache and nausea by hiking higher helps a Scout acclimate to altitude."
+        },
+        {
+          "fact": "Carbon monoxide is completely odorless and colorless, binding to hemoglobin and causing hypoxia without warning.",
+          "misconception": "Carbon monoxide gas from a faulty camp stove has a burnt odor that warns sleepers before poisoning occurs."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a rescuer place their fist when delivering abdominal thrusts to a conscious choking adult?",
+        "Which respiratory symptom separates mild acute mountain sickness from high-altitude pulmonary edema?",
+        "What time interval must be tracked after injecting an epinephrine auto-injector before giving a second dose?",
+        "Why is it dangerous to light a camp stove inside a tent vestibule even when the outer flap is cracked open?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "It is anatomically impossible to swallow the tongue, and forcing objects into the mouth breaks teeth and blocks airways.",
+          "misconception": "Placing a wallet or wooden spoon between a seizing person's teeth prevents them from swallowing their tongue."
+        },
+        {
+          "fact": "Unconscious patients lack a gag reflex and will aspirate liquids into their lungs; call 911 and maintain the airway.",
+          "misconception": "Pouring orange juice or sugary soda into an unconscious diabetic's mouth restores blood sugar safely."
+        },
+        {
+          "fact": "Human bodies do not store electricity after a lightning strike, so rescuers can begin CPR immediately if the scene is safe.",
+          "misconception": "Victims struck by lightning carry a residual electrical charge that shocks anyone who touches them."
+        },
+        {
+          "fact": "Hyperventilation purges carbon dioxide without adding oxygen, suppressing the urge to breathe until blackout occurs.",
+          "misconception": "Taking several deep, rapid breaths before diving underwater increases the oxygen stored in the bloodstream."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a rescuer position an unresponsive breathing victim who has no suspected spinal trauma?",
+        "Which clinical behavior distinguishes a conscious hypoglycemic Scout from one who cannot safely swallow glucose?",
+        "What seizure duration threshold confirms status epilepticus and requires immediate emergency evacuation?",
+        "Under what condition does hyperventilating before a breath-hold swim trigger an underwater hypoxic blackout?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Many victims, especially women and diabetics, experience jaw ache, back pain, shortness of breath, or unexplained nausea.",
+          "misconception": "Heart attacks always present with sudden, crushing pain radiating down the left arm in every victim."
+        },
+        {
+          "fact": "Chewing non-coated aspirin allows rapid absorption into the bloodstream to inhibit platelet clumping when approved.",
+          "misconception": "Swallowing a whole coated aspirin tablet with water is the fastest way to limit clot growth during chest pain."
+        },
+        {
+          "fact": "An AED analyzes the heart rhythm automatically and will only charge or deliver a shock for specific fatal arrhythmias.",
+          "misconception": "Automated external defibrillators can accidentally shock a patient whose heart is still beating normally."
+        },
+        {
+          "fact": "Agonal gasps are brainstem reflexes during cardiac arrest that do not oxygenate blood; start CPR immediately.",
+          "misconception": "Occasional snorting or reflex gasps mean a collapsed victim is breathing enough to delay chest compressions."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should AED pads be placed on an adult chest, and what must happen before pressing the shock button?",
+        "What physiological mechanism separates a myocardial infarction from sudden cardiac arrest in a patient?",
+        "What compression rate and chest depth measurements confirm high-quality adult CPR on a training manikin?",
+        "Why is it dangerous to mistake agonal gasps for normal breathing when deciding whether to start chest compressions?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Tendons and nerves often remain intact across non-displaced fractures, so painless motion does not rule out a break.",
+          "misconception": "Moving fingers or toes means an injured limb is only sprained and cannot have a broken bone."
+        },
+        {
+          "fact": "Forcing a dislocated joint in the field can pinch arteries or fracture bone; splint the limb in the position found.",
+          "misconception": "Popping a dislocated shoulder or finger joint back into its socket on the trail prevents nerve damage."
+        },
+        {
+          "fact": "Overtightened ties cut off circulation as swelling increases; splints must be snug yet allow distal pulse and sensation.",
+          "misconception": "Tying splint cravats as tightly as possible keeps a fractured tibia from shifting during a litter carry."
+        },
+        {
+          "fact": "Heat dilates blood vessels and worsens internal bleeding during the first 48 hours; apply wrapped cold packs instead.",
+          "misconception": "Applying a hot pack immediately to a freshly sprained ankle relaxes the ligaments and reduces swelling."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where must a rigid splint extend relative to the joints above and below a suspected forearm fracture?",
+        "Which anatomical tissue is damaged in a ligament sprain compared to a muscle strain or tendon rupture?",
+        "What distal pulse, motor, and sensory checks must be recorded before and after tying a splint in place?",
+        "Why is it dangerous to push a protruding bone end back inside an open fracture wound before splinting?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Physical exertion and jostling worsen brain swelling and neck trauma; keep the patient still and monitor responsiveness regularly.",
+          "misconception": "Keeping a concussed victim awake by shaking them or making them walk prevents them from slipping into a coma."
+        },
+        {
+          "fact": "Plugging cerebrospinal fluid drainage raises intracranial pressure; cover the ear or nose loosely with sterile gauze to absorb flow.",
+          "misconception": "Clear fluid draining from the ear or nose after a head blow should be plugged tightly with sterile gauze pads."
+        },
+        {
+          "fact": "Patients with unstable spinal fractures can still move their limbs initially before shifting bone fragments sever the spinal cord.",
+          "misconception": "Normal movement in the fingers and toes proves that a fall victim has not fractured any vertebrae in the neck."
+        },
+        {
+          "fact": "Leave a fitted helmet in place to stabilize the cervical spine unless it blocks airway access or prevents rescue breathing.",
+          "misconception": "Removing a snug climbing or bicycling helmet right away is required to inspect the scalp and check the airway."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to apply firm direct pressure directly over a soft or depressed area of a bleeding scalp wound?",
+        "Which physical indicator distinguishes a leaking skull fracture from an ordinary nosebleed after a fall onto rocky terrain?",
+        "What specific changes in pupil size, speech clarity, and orientation must you log every fifteen minutes after a head impact?",
+        "Where should a rescuer position both hands and knees to maintain manual inline stabilization before a cravat bandage is tied?"
+      ],
+      "req_id": "9"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Pulling a patient sideways bends and twists the vertebral column; always drag the body lengthwise along the line of the shoulders.",
+          "misconception": "Dragging an unresponsive patient sideways by the belt or waist is the fastest way to clear an immediate hazard."
+        },
+        {
+          "fact": "Upper-body carries compress the shoulder girdle and ribs; never use a pack-strap carry on someone with arm, rib, or spine injuries.",
+          "misconception": "Carrying a conscious hiker in a pack-strap carry works well even when the hiker has a suspected collarbone fracture."
+        },
+        {
+          "fact": "Unless fire, rising water, or falling rock threatens life immediately, splint all fractures where the victim lies before moving them.",
+          "misconception": "Moving a fracture victim to a shaded tent before splinting saves time and keeps the rescue area better organized."
+        },
+        {
+          "fact": "Bending at the waist strains the lower back and risks dropping the litter; squat with a straight back and lift using leg muscles.",
+          "misconception": "Lifting a stretcher by bending at the waist gives bearers better visibility of rocks and roots along a narrow trail."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a rescuer position a victim's forearms during a shoulder drag to minimize twisting along the long axis of the spine?",
+        "Under what condition does a two-handed seat carry become necessary instead of a four-handed seat during a two-rescuer carry?",
+        "What distal circulation and sensation checks must you record before and after securing an injured hiker onto an improvised litter?",
+        "What load test confirms that an improvised pole-and-jacket stretcher will not tear before lifting an injured patient off the ground?"
+      ],
+      "req_id": "10"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Excessive plain water without salt dilutes blood sodium levels and causes dangerous brain swelling known as hyponatremia.",
+          "misconception": "Drinking several liters of plain water rapidly on a hot hike prevents both heat cramps and electrolyte depletion."
+        },
+        {
+          "fact": "Exertional heat stroke patients often continue sweating; altered mental status, confusion, or collapse is the defining warning sign.",
+          "misconception": "A hiker who is still sweating heavily on a humid afternoon cannot be suffering from life-threatening heat stroke."
+        },
+        {
+          "fact": "Fever medications do not reset heat-overloaded thermoregulation and can damage the liver and kidneys; use rapid external cooling.",
+          "misconception": "Giving aspirin or acetaminophen lowers the dangerous core temperature of a camper experiencing classic heat stroke."
+        },
+        {
+          "fact": "Refreezing thawed tissue causes catastrophic ice-crystal cell destruction; never thaw frostbitten feet if refreezing is possible.",
+          "misconception": "Thawing frostbitten toes inside a warm tent even when the hiker must walk out in freezing snow saves the tissue."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to core organ survival when rescuers delay cold-water immersion or ice-pack application on a heat stroke victim?",
+        "Which physical indicator separates exercise-associated over-hydration from severe dehydration in a confused, nauseated trail hiker?",
+        "What intake volume and mental status observations should a patrol leader log when rehydrating a camper with heat exhaustion?",
+        "Why is it dangerous to rub frostbitten fingers with snow or warm them directly beside a campfire instead of using warm water?"
+      ],
+      "req_id": "11"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Paper-bag rebreathing dangerously reduces oxygen intake and masks asthma or cardiac problems; use coached slow breathing instead.",
+          "misconception": "Breathing into a paper bag is the safest field remedy whenever an anxious camper begins breathing rapidly at camp."
+        },
+        {
+          "fact": "Coercing a panicked person triggers sympathetic overload and unsafe movements on belay; pause, validate feelings, and restore choice.",
+          "misconception": "Forcing a terrified Scout onto a high ropes element right away cures their fear of heights through rapid exposure."
+        },
+        {
+          "fact": "Direct, compassionate questions about self-harm reduce isolation and allow you to connect the person with immediate adult help.",
+          "misconception": "Asking a distressed friend directly whether they are thinking about self-harm plants the idea in their mind."
+        },
+        {
+          "fact": "High sympathetic arousal diverts blood to large muscles and causes hand tremors that degrade fine motor dexterity under stress.",
+          "misconception": "Adrenaline surges during an emergency always sharpen fine motor coordination for tying knots or opening bandages."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to heart rate and carbon dioxide balance when a panicked climber slows each exhalation during paced breathing?",
+        "Which behavioral indicator shows that a Scout's pre-rappel nervousness has escalated into an acute freeze response on the ledge?",
+        "What breathing rate and hand sensation changes confirm that a hyperventilating camper is recovering from an acute stress reaction?",
+        "Where should a buddy position a panicked Scout relative to cliff edges or belay hardware before starting grounding exercises?"
+      ],
+      "req_id": "12"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Tap water and scrubbing destroy fragile periodontal ligament cells on the root; handle only the crown and store the tooth in milk.",
+          "misconception": "Scrubbing dirt off the root of a knocked-out tooth with soap and tap water prepares it for clean reimplantation."
+        },
+        {
+          "fact": "Both eyes move together in conjugate gaze; cover both eyes when an object is impaled so darting eye movements do not worsen injury.",
+          "misconception": "Bandaging only the injured eye leaves the uninjured eye free so the patient can walk along the trail unaided."
+        },
+        {
+          "fact": "Solid food and high-sugar drinks irritate inflamed stomach lining and worsen diarrhea; start with small, frequent sips of oral fluids.",
+          "misconception": "Giving solid food and sports drinks immediately after a bout of food-poisoning vomiting restores lost stomach energy."
+        },
+        {
+          "fact": "Heat increases inflammation and can hasten appendix rupture; never apply heat or give food, laxatives, or pain pills for acute pain.",
+          "misconception": "Placing a warm heating pad over a rigid, tender lower-right abdomen relieves cramping from suspected appendicitis."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which direction should sterile saline flow across the bridge of the nose when flushing a grit particle from a camper's right eye?",
+        "Which physical indicator during a FAST check distinguishes an acute stroke from simple facial numbness caused by cold wind?",
+        "Why is it critical to record the exact clock time when a stroke victim was last seen speaking and moving normally?",
+        "Why is it dangerous to scrub the root of a knocked-out permanent tooth or store it in tap water during transport to a dentist?"
+      ],
+      "req_id": "13"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The Demonstrate step requires performing the physical skill live step by step at a visible pace so learners see proper hand placement.",
+          "misconception": "Showing a first-aid video or reading the merit badge pamphlet aloud fulfills the Demonstrate step of the EDGE method."
+        },
+        {
+          "fact": "Doing the task for the learner prevents muscle memory; during the Guide step, coach verbally while the learner keeps hands on the gear.",
+          "misconception": "Taking the bandage out of a struggling Scout's hands to finish the knot for them speeds up the Guide stage effectively."
+        },
+        {
+          "fact": "Live abdominal thrusts and chest compressions can fracture ribs or damage organs in healthy volunteers; use manikins or simulated cues.",
+          "misconception": "Practicing real abdominal thrusts or full-pressure chest compressions on a healthy buddy builds realistic rescue strength."
+        },
+        {
+          "fact": "The Enable stage requires learners to perform the first-aid skill independently under realistic conditions without relying on prompts.",
+          "misconception": "Passing the Enable step means a Scout repeated the steps once while reading from a printed checklist on the table."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to learner skill retention when an instructor jumps straight from verbal explanation to independent testing?",
+        "Which coaching behavior separates the Guide stage from the Enable stage when teaching Scouts to tie an arm sling?",
+        "What observable performance criteria confirm that a Scout has mastered applying a pressure bandage during the Enable stage?",
+        "Why is it dangerous to tighten an actual windlass tourniquet fully on a healthy partner's arm during a practice demonstration?"
+      ],
+      "req_id": "14"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Emergency Medical Technicians provide basic life support, while Paramedics complete advanced clinical training for invasive procedures.",
+          "misconception": "Every ambulance responder carries the same certification level and can administer intravenous drugs or intubate patients."
+        },
+        {
+          "fact": "Dispatchers send units while you are still talking and stay on the line to give pre-arrival life-saving instructions until crews arrive.",
+          "misconception": "Hanging up as soon as you give the street address lets the 911 dispatcher send the ambulance crew to the scene faster."
+        },
+        {
+          "fact": "Crews first perform a scene size-up and don personal protective equipment to ensure hazards do not injure the rescue team.",
+          "misconception": "First responders rush directly to the patient's side the instant the ambulance pulls up to an emergency scene."
+        },
+        {
+          "fact": "Remote terrain, weather, and litter carry logistics often delay EMS extraction for hours, making sustained Scout first aid vital.",
+          "misconception": "Wilderness search and rescue ambulances can reach a backcountry patient within ten minutes of a cell phone 911 call."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What critical patient history and timeline details should a Scout deliver first when handing care over to arriving paramedics?",
+        "Which life-saving interventions distinguish an Advanced Life Support paramedic unit from a Basic Life Support ambulance crew?",
+        "What location coordinates, mechanism of injury, and vital sign trends must you log before calling emergency dispatchers?",
+        "Where should Scouts stage gear and bystanders at a trailhead so an incoming ambulance has unobstructed turnaround clearance?"
+      ],
+      "req_id": "15"
+    }
+  ]
+}

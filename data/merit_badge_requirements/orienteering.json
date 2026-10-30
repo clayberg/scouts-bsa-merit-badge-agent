@@ -78,9 +78,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Snakebite venom extraction kits effectively neutralize hemotoxins before systemic circulation occurs.",
-        "fact": "Pressure immobilization bandages and prompt evacuation supersede obsolete incision or suction treatments for envenomation.",
-        "myth": "Snakebite venom extraction kits effectively neutralize hemotoxins before systemic circulation occurs.",
-        "fact_correction": "Pressure immobilization bandages and prompt evacuation supersede obsolete incision or suction treatments for envenomation."
+        "fact": "Pressure immobilization bandages and prompt evacuation supersede obsolete incision or suction treatments for envenomation."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -116,44 +114,44 @@
         "Step 4 - Evacuation Coordination: Signal race directors using three whistle blasts to coordinate emergency evacuation."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Hot Weather Heat Illnesses",
-        "right_header": "Cold Weather Hypothermia Risks",
+        "left_header": "Req 1: Rugged Terrain Physical Demands",
+        "right_header": "Req 1: Watch for Trail Hazards",
         "left_points": [
           "Rugged Terrain Physical Demands: Orienteering is a physically demanding activity that takes place over several kilometers of very mixed and often rugged terrain (p. 66).",
           "Weather Related Health Risks: Hot weather may result in sunburn, heatstroke, heat exhaustion, and dehydration, while cold weather can lead to hypothermia and dehydration (p. 66).",
           "Wildlife and Plant Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66)."
         ],
         "right_points": [
-          "Step 1 - Watch for Trail Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66).",
-          "Step 2 - Review Common Injury Treatments: Before going out, spend a fewminutes reviewing possible injuries and their treatment (p. 66).",
-          "Step 3 - Maintain Fitness and Rest: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit before going out on an orienteering course (p. 66)."
+          "Watch for Trail Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66).",
+          "Review Common Injury Treatments: Before going out, spend a fewminutes reviewing possible injuries and their treatment (p. 66).",
+          "Maintain Fitness and Rest: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit before going out on an orienteering course (p. 66)."
         ],
         "rows": [
           {
-            "attribute": "Rugged Terrain Physical Demands",
+            "attribute": "Blister Prevention",
             "left": "Rugged Terrain Physical Demands: Orienteering is a physically demanding activity that takes place over several kilometers of very mixed and often rugged terrain (p. 66).",
-            "right": "Step 1 - Watch for Trail Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66)."
+            "right": "Watch for Trail Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Snakebite Care",
             "left": "Weather Related Health Risks: Hot weather may result in sunburn, heatstroke, heat exhaustion, and dehydration, while cold weather can lead to hypothermia and dehydration (p. 66).",
-            "right": "Step 2 - Review Common Injury Treatments: Before going out, spend a fewminutes reviewing possible injuries and their treatment (p. 66)."
+            "right": "Review Common Injury Treatments: Before going out, spend a fewminutes reviewing possible injuries and their treatment (p. 66)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Hypothermia Response",
             "left": "Wildlife and Plant Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66).",
-            "right": "Step 3 - Maintain Fitness and Rest: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit before going out on an orienteering course (p. 66)."
+            "right": "Maintain Fitness and Rest: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit before going out on an orienteering course (p. 66)."
           }
         ]
       },
       "worked_example": {
-        "title": "Orienteering Req 1 Exemplar Workbook Entry: First Aid and Injury Prevention",
+        "title": "Orienteering Req 1 Exemplar Workbook Entry: First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Rugged Terrain Physical Demands": "Orienteering is a physically demanding activity that takes place over several kilometers of very mixed and often rugged terrain (p. 66).",
@@ -194,9 +192,35 @@
       "workbook_visual_caption": "Illustrated panels show map and compass navigation, course running, control point punching, and trail first aid preparedness.",
       "pamphlet_summary": "Orienteering exposes navigators to varied terrain hazards where swift treatment of heat illness, hypothermia, and environmental trauma dictates participant survival. Wilderness protocols demand active cooling for heatstroke and dry insulation barriers for cold weather exposure.",
       "socratic_questions": [
-        "How do the symptoms of heat exhaustion differ from life threatening heatstroke during competition?",
+        "In what specific ways do the symptoms of heat exhaustion differ from life threatening heatstroke during competition?",
         "Why does rubbing frostbitten tissue cause severe cellular destruction in wilderness environments?",
-        "What specific anatomical landmarks help determine if a pressure bandage is applied properly?"
+        "What specific anatomical landmarks help determine if a pressure bandage is applied properly?",
+        "Where should fine-tipped tweezers grasp an embedded tick so its mouthparts release cleanly without squeezing the body?",
+        "Which physical indicator distinguishes life-threatening heatstroke from heat exhaustion during a warm-weather course?",
+        "What specific details about a snakebite and its timing should a buddy record before evacuating a runner to medical care?",
+        "Why is it dangerous to bushwhack through dense brush on an off-trail leg without recognizing local poisonous plants?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Snakebite venom extraction kits effectively neutralize hemotoxins before systemic circulation occurs.",
+          "fact": "Pressure immobilization bandages and prompt evacuation supersede obsolete incision or suction treatments for envenomation."
+        },
+        {
+          "misconception": "Cutting across snakebite fang marks and sucking out the venom stops toxin spread in the field.",
+          "fact": "Incising or sucking a snakebite damages tissue and risks infection; keep the limb immobilized below heart level and evacuate."
+        },
+        {
+          "misconception": "Smothering an attached tick with petroleum jelly or heat forces it to back out safely on its own.",
+          "fact": "Suffocating or heating a tick makes it regurgitate infectious fluids into the wound; pull it straight out with fine tweezers."
+        },
+        {
+          "misconception": "Popping every friction blister on the trail immediately relieves pressure and speeds skin healing.",
+          "fact": "Intact blister skin forms a sterile barrier against bacteria, so leave small blisters unbroken and pad them with moleskin."
+        },
+        {
+          "misconception": "A runner who stops sweating and becomes confused on a hot course only needs shade and cold water.",
+          "fact": "Altered mental status and hot skin signal heatstroke, a medical emergency requiring rapid external cooling and immediate EMS."
+        }
       ]
     },
     {
@@ -251,9 +275,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Orienteering simply measures hiking speed along premarked recreational trails.",
-        "fact": "Orienteering combines rapid terrestrial navigation using specialized topographic maps with strategic route choice between designated checkpoints.",
-        "myth": "Orienteering simply measures hiking speed along premarked recreational trails.",
-        "fact_correction": "Orienteering combines rapid terrestrial navigation using specialized topographic maps with strategic route choice between designated checkpoints."
+        "fact": "Orienteering combines rapid terrestrial navigation using specialized topographic maps with strategic route choice between designated checkpoints."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -290,38 +312,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Standard Topographic Index Contours",
-        "right_header": "Orienteering Map Index Contours",
+        "left_header": "Req 2: Elevation Above Sea Level",
+        "right_header": "Req 2: Read Terrain Line Profiles",
         "left_points": [
           "Elevation Above Sea Level: Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level (p. 14).",
           "Thick Index Contour Lines: On orienteering maps, the index contour line does not have an elevation number, but is thicker than the others and is used as a guide for the eye (p. 14).",
           "Visualizing Terrain From Contours: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14)."
         ],
         "right_points": [
-          "Step 1 - Read Terrain Line Profiles: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14).",
-          "Step 2 - Identify Concentric Peak Contours: If a mountain is perfectly conical like a wizard's hat, the contour lines depicting the mountain will look like a bull's-eye (p. 14).",
-          "Step 3 - Check Equal Contour Spacing: Each contour line will be perfectly circular, and all will be the same distance apart (p. 14)."
+          "Read Terrain Line Profiles: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14).",
+          "Identify Concentric Peak Contours: If a mountain is perfectly conical like a wizard's hat, the contour lines depicting the mountain will look like a bull's-eye (p. 14).",
+          "Check Equal Contour Spacing: Each contour line will be perfectly circular, and all will be the same distance apart (p. 14)."
         ],
         "rows": [
           {
-            "attribute": "Elevation Above Sea Level",
+            "attribute": "Sport Definition",
             "left": "Elevation Above Sea Level: Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level (p. 14).",
-            "right": "Step 1 - Read Terrain Line Profiles: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14)."
+            "right": "Read Terrain Line Profiles: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Control Sequences",
             "left": "Thick Index Contour Lines: On orienteering maps, the index contour line does not have an elevation number, but is thicker than the others and is used as a guide for the eye (p. 14).",
-            "right": "Step 2 - Identify Concentric Peak Contours: If a mountain is perfectly conical like a wizard's hat, the contour lines depicting the mountain will look like a bull's-eye (p. 14)."
+            "right": "Identify Concentric Peak Contours: If a mountain is perfectly conical like a wizard's hat, the contour lines depicting the mountain will look like a bull's-eye (p. 14)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Equipment Standard",
             "left": "Visualizing Terrain From Contours: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14).",
-            "right": "Step 3 - Check Equal Contour Spacing: Each contour line will be perfectly circular, and all will be the same distance apart (p. 14)."
+            "right": "Check Equal Contour Spacing: Each contour line will be perfectly circular, and all will be the same distance apart (p. 14)."
           }
         ]
       },
       "worked_example": {
-        "title": "Orienteering Req 2 Exemplar Workbook Entry: Fundamentals of Orienteering and Terrain",
+        "title": "Orienteering Req 2 Exemplar Workbook Entry: Fundamentals",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Elevation Above Sea Level": "Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level (p. 14).",
@@ -333,7 +355,7 @@
         "counselor_tip": "For Orienteering Requirement 2 (Fundamentals of Orienteering and Terrain), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 14))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do index contour lines on an orienteering map differ from those on a standard topographic map?",
+        "scenario_prompt": "In what specific ways do index contour lines on an orienteering map differ from those on a standard topographic map?",
         "question": "How do index contour lines on an orienteering map differ from those on a standard topographic map?",
         "options": [
           "A. They are drawn as dotted blue lines to indicate seasonal water flow",
@@ -364,7 +386,33 @@
       "socratic_questions": [
         "Why does the shortest linear path between controls frequently yield the slowest overall split time?",
         "How does continuous map contact reduce navigational disorientation across complex wooded topography?",
-        "What role does terrain runnability play when choosing between ridgelines and valley floors?"
+        "What role does terrain runnability play when choosing between ridgelines and valley floors?",
+        "What sequence of map and compass actions allows a competitor to navigate between control points in unfamiliar terrain?",
+        "What rules distinguish a cross-country point-to-point orienteering event from a timed score orienteering competition?",
+        "What verification mechanism on a control punch or electronic finger stick proves a runner visited each marker in order?",
+        "Why must every runner know the safety bearing and course closure time before leaving the start triangle?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Orienteering simply measures hiking speed along premarked recreational trails.",
+          "fact": "Orienteering combines rapid terrestrial navigation using specialized topographic maps with strategic route choice between designated checkpoints."
+        },
+        {
+          "misconception": "Orienteering races are won by the fastest sprinter following a marked trail from start to finish.",
+          "fact": "Orienteering rewards route choice and map reading across unmarked terrain, where a slower, accurate navigator beats a lost sprinter."
+        },
+        {
+          "misconception": "Competitors in a standard cross-country event may visit the numbered control flags in any sequence.",
+          "fact": "Cross-country courses require visiting controls in exact numerical order, whereas score events allow choosing points freely."
+        },
+        {
+          "misconception": "Handheld GPS receivers and smartphone mapping apps are standard navigation tools in foot orienteering.",
+          "fact": "Traditional foot orienteering prohibits GPS navigation aids, requiring competitors to rely solely on a map and magnetic compass."
+        },
+        {
+          "misconception": "A runner who retires early from an orienteering course can head straight to camp without checking.",
+          "fact": "Every competitor must report to the finish table even when abandoning a course so organizers do not launch a search party."
+        }
       ]
     },
     {
@@ -412,9 +460,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
           "common_misconception_pair": {
             "misconception": "Orienteering compasses function identically to standard military lensatic compasses in map plotting workflows.",
-            "fact": "Baseplates provide directional travel arrows and scaled edges specifically designed for direct map plot calculations.",
-            "myth": "Orienteering compasses function identically to standard military lensatic compasses in map plotting workflows.",
-            "fact_correction": "Baseplates provide directional travel arrows and scaled edges specifically designed for direct map plot calculations."
+            "fact": "Baseplates provide directional travel arrows and scaled edges specifically designed for direct map plot calculations."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -485,9 +531,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
           "common_misconception_pair": {
             "misconception": "A navigator must walk with eyes fixed continuously on the compass dial.",
-            "fact": "Following a bearing requires sighting intermediate visual landmarks along the azimuth rather than staring downward at the needle.",
-            "myth": "A navigator must walk with eyes fixed continuously on the compass dial.",
-            "fact_correction": "Following a bearing requires sighting intermediate visual landmarks along the azimuth rather than staring downward at the needle."
+            "fact": "Following a bearing requires sighting intermediate visual landmarks along the azimuth rather than staring downward at the needle."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -574,9 +618,7 @@
       },
       "common_misconception_pair": {
         "misconception": "The compass needle points in the direction the navigator must walk along the course.",
-        "fact": "Liquid dampening stops needle oscillation, and baseplate arrows must align with intended travel directions rather than north.",
-        "myth": "The compass needle points in the direction the navigator must walk along the course.",
-        "fact_correction": "Liquid dampening stops needle oscillation, and baseplate arrows must align with intended travel directions rather than north."
+        "fact": "Liquid dampening stops needle oscillation, and baseplate arrows must align with intended travel directions rather than north."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -612,14 +654,14 @@
         "Step 4 - Landmark Sighting: Sight an identifiable distant tree along the direction of travel arrow."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
         "left_header": "Req 3a: Compass Design and Mechanics",
-        "right_header": "Req 3b: Field Bearing Navigation Technique",
+        "right_header": "Req 3b: Field Bearing Navigation",
         "left_points": [
           "(3a) Compass Design and Mechanics: Orienteering compasses feature liquid capsules, rotating bezels, index pointers, and clear rulers designed for flat map interaction. Earth magnetic core aligns the floating needle along magnetic flux lines."
         ],
@@ -628,28 +670,28 @@
         ],
         "rows": [
           {
-            "attribute": "Compass Mechanics and Features",
-            "left": "(3a) Compass Mechanics and Features: Rotate the bezel until the orienting arrow or north-south lines lie parallel to and in the same direction as the magnetic north-south lines on the map (p. 10).",
-            "right": "(3b) Taking and Following Bearings: Read the bearing directly opposite of the bearing index (p. 10)."
+            "attribute": "Housing Mechanics",
+            "left": "(3a) Compass Design and Mechanics: Orienteering compasses feature liquid capsules, rotating bezels, index pointers, and clear rulers designed for flat map interaction. Earth magnetic core aligns the floating needle along magnetic flux lines.",
+            "right": "(3b) Field Bearing Navigation Technique: Taking a field bearing involves pointing the travel arrow at an object and revolving the housing to encase the needle. Following that bearing requires walking toward intermediate natural landmarks along that line."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Reading the Bearing Index: Read the bearing directly opposite of the bearing index (p. 10).",
-            "right": "Step 2 - Add or Subtract Declination: Always add the number of degrees of error for west declination and subtract for east declination (p. 10)."
+            "attribute": "Needle Orientation",
+            "left": "Req 3a: Compass Design and Mechanics: Orienteering compasses feature liquid capsules, rotating bezels, index pointers, and clear rulers designed for flat map interaction. Earth magnetic core aligns the floating needle along magnetic flux lines.",
+            "right": "Req 3b: Field Bearing Navigation: Taking a field bearing involves pointing the travel arrow at an object and revolving the housing to encase the needle. Following that bearing requires walking toward intermediate natural landmarks along that line."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Converting Map and Compass: If the magnetic north-south lines are not drawn on the map, convert the language of the compass to that of the map (p. 10).",
-            "right": "Step 3 - Read Exact Degree Bearings: The bearing is 244 degrees from \"A\" to \"B.\" (Points \"A\" and \"B\" can be seen in the top photo on page 21.) (p. 10)."
+            "attribute": "Baseplate Scales",
+            "left": "Housing Mechanics: Liquid filled capsule dampens needle oscillation for steady readings while moving.",
+            "right": "Needle Orientation: Magnetized needle ends naturally align with Earth ambient magnetic field lines."
           }
         ]
       },
       "worked_example": {
-        "title": "Orienteering Req 3 Exemplar Workbook Entry: Compass Features and Field Bearings",
+        "title": "Orienteering Req 3 Exemplar Workbook Entry: Compass",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
           "Req 3a - Compass Design and Mechanics": "Orienteering compasses feature liquid capsules, rotating bezels, index pointers, and clear rulers designed for flat map interaction. Earth magnetic core aligns the floating needle along magnetic flux lines.",
-          "Req 3b - Field Bearing Navigation Techniqu": "Taking a field bearing involves pointing the travel arrow at an object and revolving the housing to encase the needle. Following that bearing requires walking toward intermediate natural landmarks along that line."
+          "Req 3b - Field Bearing Navigation": "Taking a field bearing involves pointing the travel arrow at an object and revolving the housing to encase the needle. Following that bearing requires walking toward intermediate natural landmarks along that line."
         },
         "sample_output": "Compass Features and Field Bearings: Rotate the bezel until the orienting arrow or north-south lines lie parallel to and in the same direction as the magnetic north-south lines on the map (p. 10).",
         "counselor_tip": "For Orienteering Requirement 3 (Compass Features and Field Bearings), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20))."
@@ -686,7 +728,33 @@
       "socratic_questions": [
         "How does parcel fluid inside the housing prevent needle vibration during active travel?",
         "What mechanical error occurs when a bearing is shot holding the baseplate backwards?",
-        "Why do local geological iron deposits alter compass readings across specific wilderness parcels?"
+        "Why do local geological iron deposits alter compass readings across specific wilderness parcels?",
+        "Where should a Scout position the baseplate direction-of-travel arrow while rotating the body to put red in the shed?",
+        "What functional difference separates the rotating azimuth housing dial from the magnetized needle suspended in liquid?",
+        "What intermediate landmark method keeps you on a degree bearing when trees block your direct line of sight?",
+        "What happens to the magnetic needle reading if you hold your baseplate compass next to a steel belt buckle or phone?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "The compass needle points in the direction the navigator must walk along the course.",
+          "fact": "Liquid dampening stops needle oscillation, and baseplate arrows must align with intended travel directions rather than north."
+        },
+        {
+          "misconception": "The red end of a magnetic compass needle points directly toward the geographic North Pole on a map.",
+          "fact": "The magnetized needle aligns with Earth's magnetic field lines and points toward Magnetic North rather than geographic True North."
+        },
+        {
+          "misconception": "Walking while staring continuously down at the compass dial is the most accurate way to hold a bearing.",
+          "fact": "Staring at the compass causes lateral drift and tripping hazards; sight a distant landmark on the bearing and walk to that point."
+        },
+        {
+          "misconception": "Rotating the compass bezel changes the direction in which the magnetized needle points inside the capsule.",
+          "fact": "The needle moves independently of the bezel and remains aligned with Magnetic North while you turn the housing to set degrees."
+        },
+        {
+          "misconception": "A large air bubble inside the liquid-filled compass housing has no effect on taking accurate bearings.",
+          "fact": "Large bubbles can pin or deflect the lightweight magnetic needle on uneven ground, causing inaccurate degree readings in the field."
+        }
       ]
     },
     {
@@ -729,9 +797,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Closely spaced contour lines indicate flat open ground suitable for fast running speeds.",
-            "fact": "Concentric closed contours indicate hills, while V shapes pointing uphill represent stream valleys and reentrants.",
-            "myth": "Closely spaced contour lines indicate flat open ground suitable for fast running speeds.",
-            "fact_correction": "Concentric closed contours indicate hills, while V shapes pointing uphill represent stream valleys and reentrants."
+            "fact": "Concentric closed contours indicate hills, while V shapes pointing uphill represent stream valleys and reentrants."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -797,9 +863,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Colors on topographic maps are decorative and vary according to the individual cartographer whim.",
-            "fact": "Topographic symbols use strict standardization: blue marks water, green marks vegetation, and black marks human structures.",
-            "myth": "Colors on topographic maps are decorative and vary according to the individual cartographer whim.",
-            "fact_correction": "Topographic symbols use strict standardization: blue marks water, green marks vegetation, and black marks human structures."
+            "fact": "Topographic symbols use strict standardization: blue marks water, green marks vegetation, and black marks human structures."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -872,9 +936,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Magnetic compass needles point directly toward the geographic North Pole axis.",
-            "fact": "Earth magnetic north pole drifts continuously and sits hundreds of miles away from geographic true north.",
-            "myth": "Magnetic compass needles point directly toward the geographic North Pole axis.",
-            "fact_correction": "Earth magnetic north pole drifts continuously and sits hundreds of miles away from geographic true north."
+            "fact": "Earth magnetic north pole drifts continuously and sits hundreds of miles away from geographic true north."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -941,9 +1003,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Maps cannot be altered by drawing custom grid lines across the surveyed cartography.",
-            "fact": "Parallel magnetic meridian lines drawn across the sheet eliminate mathematical mental conversions in high speed competition.",
-            "myth": "Maps cannot be altered by drawing custom grid lines across the surveyed cartography.",
-            "fact_correction": "Parallel magnetic meridian lines drawn across the sheet eliminate mathematical mental conversions in high speed competition."
+            "fact": "Parallel magnetic meridian lines drawn across the sheet eliminate mathematical mental conversions in high speed competition."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1009,9 +1069,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Straight map measurements accurately reflect the actual foot distance traversed across mountain slopes.",
-            "fact": "Baseplate rulers calculate horizontal map distances that do not account for slope distance gained during climbs.",
-            "myth": "Straight map measurements accurately reflect the actual foot distance traversed across mountain slopes.",
-            "fact_correction": "Baseplate rulers calculate horizontal map distances that do not account for slope distance gained during climbs."
+            "fact": "Baseplate rulers calculate horizontal map distances that do not account for slope distance gained during climbs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1077,9 +1135,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Topographic maps must always be held with the printed north text facing upright.",
-            "fact": "An oriented map aligns all cartographic representations directly with their actual physical orientations on the ground.",
-            "myth": "Topographic maps must always be held with the printed north text facing upright.",
-            "fact_correction": "An oriented map aligns all cartographic representations directly with their actual physical orientations on the ground."
+            "fact": "An oriented map aligns all cartographic representations directly with their actual physical orientations on the ground."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1175,9 +1231,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Contour lines represent hiking footpaths and territorial boundary lines across the mapped region.",
-        "fact": "Contour lines connect points of equal elevation above sea level, revealing slopes and three dimensional landforms directly.",
-        "myth": "Contour lines represent hiking footpaths and territorial boundary lines across the mapped region.",
-        "fact_correction": "Contour lines connect points of equal elevation above sea level, revealing slopes and three dimensional landforms directly."
+        "fact": "Contour lines connect points of equal elevation above sea level, revealing slopes and three dimensional landforms directly."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1213,14 +1267,14 @@
         "Step 4 - Map Orientation: Rotate the map until printed magnetic lines match the compass needle."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Topographic Terrain Feature Analys",
-        "right_header": "Req 4d: Magnetic North Meridian Alignment",
+        "left_header": "Req 4a: Topographic Terrain Feature",
+        "right_header": "Req 4d: Magnetic North Meridian",
         "left_points": [
           "(4a) Topographic Terrain Feature Analysis: Contour spacing illustrates topography: close lines show steep cliffs, wide lines show plains, and closed loops identify hilltops. Navigators identify spurs, reentrants, saddles, depressions, and ridges in the field.",
           "(4b) Topographic Cartographic Symbol Identification: Topographic map symbols translate natural and artificial landscape elements into identifiable icons. Reading symbols accurately allows navigators to anticipate cliffs, bogs, towers, trails, and stone walls.",
@@ -1233,30 +1287,30 @@
         ],
         "rows": [
           {
-            "attribute": "Terrain Features on Maps",
-            "left": "(4a) Terrain Features on Maps: You can do this visually, but it is easier to make errors that way (p. 19).",
-            "right": "(4d) Magnetic North-South Map Lines: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19)."
+            "attribute": "Contour Representation",
+            "left": "(4a) Topographic Terrain Feature Analysis: Contour spacing illustrates topography: close lines show steep cliffs, wide lines show plains, and closed loops identify hilltops. Navigators identify spurs, reentrants, saddles, depressions, and ridges in the field.",
+            "right": "(4d) Magnetic North Meridian Alignment: Orienteering maps provide preprinted blue or black magnetic north meridian lines spaced across the entire surface. Drawing magnetic lines across USGS maps allows direct compass alignment without arithmetic."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(4b) Topographic Map Symbols: A more accurate way of aligning the map and terrain is to use a compass (p. 19).",
-            "right": "(4e) Measuring Map Distances: You can do this visually, but it is easier to make errors that way (p. 19)."
+            "attribute": "Index Intervals",
+            "left": "(4b) Topographic Cartographic Symbol Identification: Topographic map symbols translate natural and artificial landscape elements into identifiable icons. Reading symbols accurately allows navigators to anticipate cliffs, bogs, towers, trails, and stone walls.",
+            "right": "(4e) Map Scale Distance Measurement: Distance measurement requires matching the baseplate millimeter scale against the map ratio bar. Measuring straight line segments between controls provides precise ground yardage before accounting for contour climbs."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "(4c) Understanding Magnetic Declination: First, rotate the compass bezel until Nor 360 degrees is lined up with the direction-of-travel arrow (p. 19).",
-            "right": "(4f) Orienting Maps With Compasses: A more accurate way of aligning the map and terrain is to use a compass (p. 19)."
+            "attribute": "Magnetic Offset",
+            "left": "(4c) Magnetic Declination Principles: Declination represents the angular difference between true geographic north and magnetic north at your specific location. Navigators must adjust compass dials or draw magnetic lines to reconcile map bearings with ground travel.",
+            "right": "(4f) Field Map Compass Orientation: Orienting a map aligns its features with the real terrain by turning the sheet until compass needle matches meridian lines. This visual technique allows direct comparison between map symbols and visible physical landmarks."
           }
         ]
       },
       "worked_example": {
-        "title": "Orienteering Req 4 Exemplar Workbook Entry: Topographic Maps and Map Orientation",
+        "title": "Orienteering Req 4 Exemplar Workbook Entry: Topographic",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Topographic Terrain Feature Analy": "Contour spacing illustrates topography: close lines show steep cliffs, wide lines show plains, and closed loops identify hilltops. Navigators identify spurs, reentrants, saddles, depressions, and ridges in the field.",
-          "Req 4b - Topographic Cartographic Symbol I": "Topographic map symbols translate natural and artificial landscape elements into identifiable icons. Reading symbols accurately allows navigators to anticipate cliffs, bogs, towers, trails, and stone walls.",
-          "Req 4c - Magnetic Declination Principles": "Declination represents the angular difference between true geographic north and magnetic north at your specific location. Navigators must adjust compass dials or draw magnetic lines to reconcile map bearings with ground travel.",
-          "Req 4d - Magnetic North Meridian Alignment": "Orienteering maps provide preprinted blue or black magnetic north meridian lines spaced across the entire surface. Drawing magnetic lines across USGS maps allows direct compass alignment without arithmetic."
+          "Req 4a - Topographic Terrain Feature": "Contour spacing illustrates topography: close lines show steep cliffs, wide lines show plains, and closed loops identify hilltops. Navigators identify spurs, reentrants, saddles, depressions, and ridges in the field.",
+          "Req 4b - Topographic Cartographic": "Topographic map symbols translate natural and artificial landscape elements into identifiable icons. Reading symbols accurately allows navigators to anticipate cliffs, bogs, towers, trails, and stone walls.",
+          "Req 4c - Magnetic Declination": "Declination represents the angular difference between true geographic north and magnetic north at your specific location. Navigators must adjust compass dials or draw magnetic lines to reconcile map bearings with ground travel.",
+          "Req 4d - Magnetic North Meridian": "Orienteering maps provide preprinted blue or black magnetic north meridian lines spaced across the entire surface. Drawing magnetic lines across USGS maps allows direct compass alignment without arithmetic."
         },
         "sample_output": "Topographic Maps and Map Orientation: You can do this visually, but it is easier to make errors that way (p. 19).",
         "counselor_tip": "For Orienteering Requirement 4 (Topographic Maps and Map Orientation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21))."
@@ -1291,9 +1345,35 @@
       "workbook_visual_caption": "A compass rests over elevation contour lines helping navigators interpret terrain slope.",
       "pamphlet_summary": "Topographic maps depict three dimensional terrain using two dimensional contour intervals, vegetation coloring, and standardized cultural symbols. Safe navigation requires calculating declination differences between true geographic north and local magnetic north before field movement.",
       "socratic_questions": [
-        "How do V shaped contour lines indicate the exact flow direction of wilderness streams?",
+        "In what specific ways do V shaped contour lines indicate the exact flow direction of wilderness streams?",
         "Why does neglecting magnetic declination shift your ground position outward over long distances?",
-        "What map symbol distinctions differentiate seasonal wetlands from open navigable marshes?"
+        "What map symbol distinctions differentiate seasonal wetlands from open navigable marshes?",
+        "Which direction do V-shaped contour lines point when they cross a creek or drainage draw on a topographic map?",
+        "What visual difference on a topographic map separates an enclosed hilltop contour loop from a depression contour?",
+        "What paper-strip technique measures the true curved trail distance between two points against the map bar scale?",
+        "What lateral position error occurs over one kilometer if you ignore a 15-degree declination on a USGS quad map?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Contour lines represent hiking footpaths and territorial boundary lines across the mapped region.",
+          "fact": "Contour lines connect points of equal elevation above sea level, revealing slopes and three dimensional landforms directly."
+        },
+        {
+          "misconception": "V-shaped contour lines that cross a stream always point downstream in the direction of water flow.",
+          "fact": "Contour V-shapes in a valley or stream drainage always point upstream toward higher elevation, opposite the flow of water."
+        },
+        {
+          "misconception": "Magnetic declination stays constant forever on a printed topographic map regardless of publication year.",
+          "fact": "Earth's magnetic poles shift over time, so navigators must check the map date and update declination on older USGS quadrangles."
+        },
+        {
+          "misconception": "Orienteering maps and standard USGS topographic maps both require manual degree calculations for declination.",
+          "fact": "Dedicated orienteering maps are printed with meridian lines already aligned to Magnetic North, eliminating declination math."
+        },
+        {
+          "misconception": "Widely spaced brown contour lines on a topographic map indicate a steep cliff or vertical rock face.",
+          "fact": "Wide spacing between contour lines represents gentle or flat terrain, whereas tightly packed or touching contours show steep slopes."
+        }
       ]
     },
     {
@@ -1352,9 +1432,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A pace count remains identical regardless of whether a runner traverses road or dense forest.",
-        "fact": "Pacing changes significantly between flat tracks, rocky uphill ascents, dense brush, and running gaits.",
-        "myth": "A pace count remains identical regardless of whether a runner traverses road or dense forest.",
-        "fact_correction": "Pacing changes significantly between flat tracks, rocky uphill ascents, dense brush, and running gaits."
+        "fact": "Pacing changes significantly between flat tracks, rocky uphill ascents, dense brush, and running gaits."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1391,38 +1469,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Steady Walking Pace Count",
-        "right_header": "Competitive Running Pace Count",
+        "left_header": "Req 5: Adjusting for Speed Changes",
+        "right_header": "Req 5: Record Hundred Meter Baseline",
         "left_points": [
           "Adjusting for Speed Changes: Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well (p. 26).",
           "Counting Paces and Time: Once you have laid out the course, start at the beginning and walk the length of it, counting the number of paces and recording the time it takes you to reach (p. 26).",
           "Baseline Per Hundred Meters: This is your walking pace and time per 100 meters (p. 26)."
         ],
         "right_points": [
-          "Step 1 - Record Hundred Meter Baseline: This is your walking pace and time per 100 meters (p. 26).",
-          "Step 2 - Average Multiple Course Runs: You will get a more accurate measure if you walk the course two or more times and then divide the total paces and minutes by the total meters walked (p. 26).",
-          "Step 3 - Account for Uneven Ground: This is particularly important if the course is on uneven ground (p. 26)."
+          "Record Hundred Meter Baseline: This is your walking pace and time per 100 meters (p. 26).",
+          "Average Multiple Course Runs: You will get a more accurate measure if you walk the course two or more times and then divide the total paces and minutes by the total meters walked (p. 26).",
+          "Account for Uneven Ground: This is particularly important if the course is on uneven ground (p. 26)."
         ],
         "rows": [
           {
-            "attribute": "Adjusting for Speed Changes",
+            "attribute": "Pace Definition",
             "left": "Adjusting for Speed Changes: Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well (p. 26).",
-            "right": "Step 1 - Record Hundred Meter Baseline: This is your walking pace and time per 100 meters (p. 26)."
+            "right": "Record Hundred Meter Baseline: This is your walking pace and time per 100 meters (p. 26)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Course Setup",
             "left": "Counting Paces and Time: Once you have laid out the course, start at the beginning and walk the length of it, counting the number of paces and recording the time it takes you to reach (p. 26).",
-            "right": "Step 2 - Average Multiple Course Runs: You will get a more accurate measure if you walk the course two or more times and then divide the total paces and minutes by the total meters walked (p. 26)."
+            "right": "Average Multiple Course Runs: You will get a more accurate measure if you walk the course two or more times and then divide the total paces and minutes by the total meters walked (p. 26)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Terrain Variation",
             "left": "Baseline Per Hundred Meters: This is your walking pace and time per 100 meters (p. 26).",
-            "right": "Step 3 - Account for Uneven Ground: This is particularly important if the course is on uneven ground (p. 26)."
+            "right": "Account for Uneven Ground: This is particularly important if the course is on uneven ground (p. 26)."
           }
         ]
       },
       "worked_example": {
-        "title": "Orienteering Req 5 Exemplar Workbook Entry: Pace Counting and Distance Estimation",
+        "title": "Orienteering Req 5 Exemplar Workbook Entry: Pace",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Adjusting for Speed Changes": "Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well (p. 26).",
@@ -1465,7 +1543,33 @@
       "socratic_questions": [
         "How does fatigue alter your natural stride length during the final kilometers of competition?",
         "Why do navigators count double steps rather than every individual foot strike along courses?",
-        "What mechanical adjustments to pace calculations must be made when descending steep scree?"
+        "What mechanical adjustments to pace calculations must be made when descending steep scree?",
+        "Why do orienteers count every time the same foot strikes the ground rather than counting every individual step?",
+        "What happens to your 100-meter pace count when you transition from walking on a flat track to running uphill?",
+        "What averaging method across multiple out-and-back runs on a 100-meter tape produces a reliable personal pace table?",
+        "Why is a calibrated pace count essential when navigating toward a subtle control in low-visibility forest terrain?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A pace count remains identical regardless of whether a runner traverses road or dense forest.",
+          "fact": "Pacing changes significantly between flat tracks, rocky uphill ascents, dense brush, and running gaits."
+        },
+        {
+          "misconception": "One pace in orienteering distance measurement equals a single step taken by either the left or right foot.",
+          "fact": "A standard orienteering pace is a double step counted each time the same foot hits the ground, keeping numbers smaller and easier."
+        },
+        {
+          "misconception": "A Scout's 100-meter pace count measured on a flat paved track stays identical in steep or marshy woods.",
+          "fact": "Slopes, mud, and undergrowth shorten stride length, requiring more double-step paces to cover 100 meters of horizontal map distance."
+        },
+        {
+          "misconception": "Running a 100-meter leg requires the exact same number of double-step paces as walking the same distance.",
+          "fact": "Running lengthens your stride, so your running pace count for 100 meters is lower than your walking pace count over flat ground."
+        },
+        {
+          "misconception": "Measuring a 100-meter calibration course by estimating steps from another Scout is accurate enough for events.",
+          "fact": "A pace course must be laid out with a surveyor's tape or verified 100-meter track so stride errors do not compound across legs."
+        }
       ]
     },
     {
@@ -1513,9 +1617,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
             "misconception": "Orienteering control symbols match standard United States Geological Survey map topographic symbols.",
-            "fact": "IOF symbols represent precise physical features like boulders, reentrants, pits, crags, and marsh boundaries globally.",
-            "myth": "Orienteering control symbols match standard United States Geological Survey map topographic symbols.",
-            "fact_correction": "IOF symbols represent precise physical features like boulders, reentrants, pits, crags, and marsh boundaries globally."
+            "fact": "IOF symbols represent precise physical features like boulders, reentrants, pits, crags, and marsh boundaries globally."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1586,9 +1688,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
             "misconception": "Control description sheets only provide the sequential control number and the three digit flag code.",
-            "fact": "Column C identifies which feature holds the marker when multiple identical landforms appear within a circle.",
-            "myth": "Control description sheets only provide the sequential control number and the three digit flag code.",
-            "fact_correction": "Column C identifies which feature holds the marker when multiple identical landforms appear within a circle."
+            "fact": "Column C identifies which feature holds the marker when multiple identical landforms appear within a circle."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1659,9 +1759,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
             "misconception": "Aiming off indicates poor compass handling and inaccurate straight line navigation habits.",
-            "fact": "Aiming off intentionally targets one side of a feature so the direction to turn along it is known.",
-            "myth": "Aiming off indicates poor compass handling and inaccurate straight line navigation habits.",
-            "fact_correction": "Aiming off intentionally targets one side of a feature so the direction to turn along it is known."
+            "fact": "Aiming off intentionally targets one side of a feature so the direction to turn along it is known."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1755,9 +1853,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Control descriptions are written in local prose paragraphs on competition sheets.",
-        "fact": "Control sheets describe exact checkpoint landforms and flag placement using standardized universal international symbols.",
-        "myth": "Control descriptions are written in local prose paragraphs on competition sheets.",
-        "fact_correction": "Control sheets describe exact checkpoint landforms and flag placement using standardized universal international symbols."
+        "fact": "Control sheets describe exact checkpoint landforms and flag placement using standardized universal international symbols."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1793,14 +1889,14 @@
         "Step 4 - Relocation Execution: Reorient the map to prominent terrain if control features are not found."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: International Control Description",
-        "right_header": "Req 6b: Control Description Sheet Interpre",
+        "left_header": "Req 6a: International Control",
+        "right_header": "Req 6b: Control Description Sheet",
         "left_points": [
           "(6a) International Control Description Symbols: The International Orienteering Federation establishes a universal visual vocabulary representing landforms, water features, vegetation, and man made structures. Learning these twenty basic glyphs allows competitors to identify features across international events."
         ],
@@ -1809,29 +1905,29 @@
         ],
         "rows": [
           {
-            "attribute": "International Control Description Symbols",
-            "left": "(6a) International Control Description Symbols: Keep a clear mental picture of the terrain that you will pass (p. 38).",
-            "right": "(6b) Reading Control Description Sheets: If you arrive at the linear feature and do not see the control, you will then know which way to turn to find (p. 38)."
+            "attribute": "Symbol Standard",
+            "left": "(6a) International Control Description Symbols: The International Orienteering Federation establishes a universal visual vocabulary representing landforms, water features, vegetation, and man made structures. Learning these twenty basic glyphs allows competitors to identify features across international events.",
+            "right": "(6b) Control Description Sheet Interpretation: A control description sheet provides course length, total elevation climb, control order, codes, and eight descriptive feature columns. Reading these columns informs the competitor whether the marker hangs at a cliff foot or top."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Avoiding Direction Uncertainty: In this map, it would be easy to reach the road and not be sure what direction the control lies (p. 38).",
-            "right": "(6c) Core Orienteering Navigation Terms: In this map, it would be easy to reach the road and not be sure what direction the control lies (p. 38)."
+            "attribute": "Column Format",
+            "left": "Req 6a: International Control: The International Orienteering Federation establishes a universal visual vocabulary representing landforms, water features, vegetation, and man made structures. Learning these twenty basic glyphs allows competitors to identify features across international events.",
+            "right": "Req 6b: Control Description Sheet: A control description sheet provides course length, total elevation climb, control order, codes, and eight descriptive feature columns. Reading these columns informs the competitor whether the marker hangs at a cliff foot or top."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Deliberate Aiming Off Strategy: To prevent this, you can deliberately aim a few meters south of the control so you know to turn north when you get to the road (p. 38).",
-            "right": "Step 3 - Read Map Every Few Seconds: Read the map every few seconds, think beyond your location, and plan ahead (p. 38)."
+            "attribute": "Attack Points",
+            "left": "Req 6c: Navigational Strategies: Orienteering strategy relies on specific navigational concepts including attack points, collecting features, handrails, catching features, contouring, and relocation. Mastering these strategies prevents disorientation and optimizes transit speed between checkpoints.",
+            "right": "Column Format: Eight column boxes define control codes, feature types, dimensions, and flag positions."
           }
         ]
       },
       "worked_example": {
-        "title": "Orienteering Req 6 Exemplar Workbook Entry: Control Descriptions and Navigation Techniques",
+        "title": "Orienteering Req 6 Exemplar Workbook Entry: Control",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 6a - International Control Description": "The International Orienteering Federation establishes a universal visual vocabulary representing landforms, water features, vegetation, and man made structures. Learning these twenty basic glyphs allows competitors to identify features across international events.",
-          "Req 6b - Control Description Sheet Interpr": "A control description sheet provides course length, total elevation climb, control order, codes, and eight descriptive feature columns. Reading these columns informs the competitor whether the marker hangs at a cliff foot or top.",
-          "Req 6c - Navigational Strategies and Termi": "Orienteering strategy relies on specific navigational concepts including attack points, collecting features, handrails, catching features, contouring, and relocation. Mastering these strategies prevents disorientation and optimizes transit speed between checkpoints."
+          "Req 6a - International Control": "The International Orienteering Federation establishes a universal visual vocabulary representing landforms, water features, vegetation, and man made structures. Learning these twenty basic glyphs allows competitors to identify features across international events.",
+          "Req 6b - Control Description Sheet": "A control description sheet provides course length, total elevation climb, control order, codes, and eight descriptive feature columns. Reading these columns informs the competitor whether the marker hangs at a cliff foot or top.",
+          "Req 6c - Navigational Strategies": "Orienteering strategy relies on specific navigational concepts including attack points, collecting features, handrails, catching features, contouring, and relocation. Mastering these strategies prevents disorientation and optimizes transit speed between checkpoints."
         },
         "sample_output": "Control Descriptions and Navigation Techniques: Keep a clear mental picture of the terrain that you will pass (p. 38).",
         "counselor_tip": "For Orienteering Requirement 6 (Control Descriptions and Navigation Techniques), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42))."
@@ -1868,7 +1964,33 @@
       "socratic_questions": [
         "Why are standardized graphical symbols preferred over written text descriptions in international events?",
         "When should an orienteer deliberately aim off toward one side of a linear feature?",
-        "How does contouring around a hill save energy compared to traversing over the summit?"
+        "How does contouring around a hill save energy compared to traversing over the summit?",
+        "Where should a runner aim when using aiming off to hit a stream-junction control located along a linear trail?",
+        "What tactical role separates a collecting feature used on approach from a catching feature beyond the control?",
+        "Which columns on an IOF control description sheet specify the exact feature and the flag position on that feature?",
+        "Under what terrain condition does contour-lining around a steep spur save more energy than climbing straight over?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Control descriptions are written in local prose paragraphs on competition sheets.",
+          "fact": "Control sheets describe exact checkpoint landforms and flag placement using standardized universal international symbols."
+        },
+        {
+          "misconception": "The number printed in Column B of a control description sheet matches the sequential order of the control.",
+          "fact": "Column A shows the sequential control order, while Column B gives the unique identification code printed on the field marker flag."
+        },
+        {
+          "misconception": "Aiming off means sighting your compass directly at a point feature on a trail and hoping not to drift.",
+          "fact": "Aiming off intentionally biases your bearing left or right of the target so you know which way to turn upon hitting the line feature."
+        },
+        {
+          "misconception": "A catching feature is a prominent landmark located right in front of the control that leads you into it.",
+          "fact": "A catching feature is a large linear barrier located past the control that alerts a runner they have overshot the target zone."
+        },
+        {
+          "misconception": "International control description sheets use written English sentences so only English speakers can read them.",
+          "fact": "IOF control descriptions use standardized pictorial symbols in columns so competitors speaking any language get identical clues."
+        }
       ]
     },
     {
@@ -1915,9 +2037,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
             "misconception": "Cross country courses permit visiting assigned control markers in any random preferred order.",
-            "fact": "Cross country orienteering requires visiting flags in predetermined numerical sequence without skipping any checkpoints.",
-            "myth": "Cross country courses permit visiting assigned control markers in any random preferred order.",
-            "fact_correction": "Cross country orienteering requires visiting flags in predetermined numerical sequence without skipping any checkpoints."
+            "fact": "Cross country orienteering requires visiting flags in predetermined numerical sequence without skipping any checkpoints."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1985,9 +2105,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
             "misconception": "A post race report only requires recording the final elapsed finish time.",
-            "fact": "Documenting errors like parallel mistakes or overshoot distances produces actionable technical insights for future races.",
-            "myth": "A post race report only requires recording the final elapsed finish time.",
-            "fact_correction": "Documenting errors like parallel mistakes or overshoot distances produces actionable technical insights for future races."
+            "fact": "Documenting errors like parallel mistakes or overshoot distances produces actionable technical insights for future races."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2065,9 +2183,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts may navigate remote cross country courses alone without maintaining visual buddy contact.",
-        "fact": "Youth Protection guidelines mandate paired buddy teams during competition, prioritizing Scout safety over individual timing.",
-        "myth": "Scouts may navigate remote cross country courses alone without maintaining visual buddy contact.",
-        "fact_correction": "Youth Protection guidelines mandate paired buddy teams during competition, prioritizing Scout safety over individual timing."
+        "fact": "Youth Protection guidelines mandate paired buddy teams during competition, prioritizing Scout safety over individual timing."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2103,13 +2219,13 @@
         "Step 4 - Report Compilation: Draft a technical debrief evaluating route choices, mistakes, and tactical corrections."
       ],
       "gear_checklist": [
-        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)",
-        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection",
-        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag",
-        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line"
+        "Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).",
+        "Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.",
+        "Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.",
+        "Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Sanctioned Orienteering Event Part",
+        "left_header": "Req 7a: Sanctioned Orienteering Event",
         "right_header": "Req 7b: Post Race Route Analysis Report",
         "left_points": [
           "(7a) Sanctioned Orienteering Event Participation: Competitors complete three orienteering meets, including one standard point to point cross country course. Navigators must complete each course partnered with a buddy, maintaining continuous mutual oversight."
@@ -2119,28 +2235,28 @@
         ],
         "rows": [
           {
-            "attribute": "Completing Three Orienteering Events",
-            "left": "(7a) Completing Three Orienteering Events: Creating a map from scratch requires a little preliminary scouting of the area (p. 30).",
-            "right": "(7b) Writing Post-Event Course Reports: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30)."
+            "attribute": "Event Participation",
+            "left": "(7a) Sanctioned Orienteering Event Participation: Competitors complete three orienteering meets, including one standard point to point cross country course. Navigators must complete each course partnered with a buddy, maintaining continuous mutual oversight.",
+            "right": "(7b) Post Race Route Analysis Report: Writing an event report involves submitting master maps, control descriptions, and an overlay of the actual route taken. The report critiques navigation mistakes, pace calculations, and alternative route choices."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Inspecting Terrain and Hazards: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
-            "right": "Step 2 - Identify Potential Control Sites: This will begin to give you ideas about how and where you can lay out the course (p. 30)."
+            "attribute": "Buddy Requirement",
+            "left": "Req 7a: Sanctioned Orienteering: Competitors complete three orienteering meets, including one standard point to point cross country course. Navigators must complete each course partnered with a buddy, maintaining continuous mutual oversight.",
+            "right": "Req 7b: Post Race Route Analysis: Writing an event report involves submitting master maps, control descriptions, and an overlay of the actual route taken. The report critiques navigation mistakes, pace calculations, and alternative route choices."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Recording Field Notes: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30).",
-            "right": "Step 3 - Plot a Rough Course: Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course in your notebook (p. 30)."
+            "attribute": "Route Documentation",
+            "left": "Event Participation: Complete three sanctioned meets including one full standard cross country orienteering course.",
+            "right": "Buddy Requirement: Youth Protection mandates maintaining continuous visual and vocal contact with designated buddies."
           }
         ]
       },
       "worked_example": {
-        "title": "Orienteering Req 7 Exemplar Workbook Entry: Participating in Orienteering Events",
+        "title": "Orienteering Req 7 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Sanctioned Orienteering Event Par": "Competitors complete three orienteering meets, including one standard point to point cross country course. Navigators must complete each course partnered with a buddy, maintaining continuous mutual oversight.",
-          "Req 7b - Post Race Route Analysis Report": "Writing an event report involves submitting master maps, control descriptions, and an overlay of the actual route taken. The report critiques navigation mistakes, pace calculations, and alternative route choices."
+          "Req 7a - Sanctioned Orienteering Event": "Competitors complete three orienteering meets, including one standard point to point cross country course. Navigators must complete each course partnered with a buddy, maintaining continuous mutual oversight.",
+          "Req 7b - Post Race Route Analysis": "Writing an event report involves submitting master maps, control descriptions, and an overlay of the actual route taken. The report critiques navigation mistakes, pace calculations, and alternative route choices."
         },
         "sample_output": "Participating in Orienteering Events: Creating a map from scratch requires a little preliminary scouting of the area (p. 30).",
         "counselor_tip": "For Orienteering Requirement 7 (Participating in Orienteering Events), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56))."
@@ -2177,7 +2293,33 @@
       "socratic_questions": [
         "Why does post race route tracing reveal navigation mistakes better than memory alone?",
         "How did environmental weather conditions affect your physical pace across open field sections?",
-        "What specific decision caused the largest time deviation on your cross country leg?"
+        "What specific decision caused the largest time deviation on your cross country leg?",
+        "When should you draw your actual route on the competition map so you do not forget detours or hesitation points?",
+        "What split-time evidence distinguishes a poor strategic route choice from a technical compass execution error?",
+        "What specific leg-by-leg notes in your post-event report reveal why a longer trail route beat a straight bushwhack?",
+        "What buddy-system roles keep two Scouts together on a cross-country course while sharing map and compass duties?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts may navigate remote cross country courses alone without maintaining visual buddy contact.",
+          "fact": "Youth Protection guidelines mandate paired buddy teams during competition, prioritizing Scout safety over individual timing."
+        },
+        {
+          "misconception": "Drawing straight lines between control circles on your post-race map accurately represents the route you ran.",
+          "fact": "A post-event route map must trace the exact trails, contours, and errors you actually traveled so you can analyze time losses."
+        },
+        {
+          "misconception": "Scouts must run completely alone in the woods to satisfy the three-event requirement for the Orienteering badge.",
+          "fact": "Scouting America Youth Protection rules require the buddy system, so Scouts complete requirement 7a in pairs or small groups."
+        },
+        {
+          "misconception": "The shortest straight-line path drawn in purple between two controls is always the fastest route on the ground.",
+          "fact": "Steep climbs, marshes, and thick green vegetation slow runners down, making a longer trail or contour route faster overall."
+        },
+        {
+          "misconception": "Blaming slow overall times on running speed alone is enough analysis for an orienteering post-event report.",
+          "fact": "Effective post-race reports isolate navigation mistakes such as parallel errors, missed attack points, or poor exit bearings."
+        }
       ]
     },
     {
@@ -2220,9 +2362,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
             "misconception": "Control markers may be hidden inside hollow trees or buried beneath brush piles.",
-            "fact": "Control circles must center exactly on the mapped feature, with numbers oriented toward magnetic north.",
-            "myth": "Control markers may be hidden inside hollow trees or buried beneath brush piles.",
-            "fact_correction": "Control circles must center exactly on the mapped feature, with numbers oriented toward magnetic north."
+            "fact": "Control circles must center exactly on the mapped feature, with numbers oriented toward magnetic north."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2297,9 +2437,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
             "misconception": "All checkpoints on a score orienteering course must carry identical point values.",
-            "fact": "Distribute high point markers across distant terrain to force trade offs between speed and point acquisition.",
-            "myth": "All checkpoints on a score orienteering course must carry identical point values.",
-            "fact_correction": "Distribute high point markers across distant terrain to force trade offs between speed and point acquisition."
+            "fact": "Distribute high point markers across distant terrain to force trade offs between speed and point acquisition."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2382,9 +2520,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Course design can be accomplished entirely on paper without scouting physical field locations.",
-        "fact": "Course design requires field verification of every landform before placing markers to ensure map accuracy.",
-        "myth": "Course design can be accomplished entirely on paper without scouting physical field locations.",
-        "fact_correction": "Course design requires field verification of every landform before placing markers to ensure map accuracy."
+        "fact": "Course design requires field verification of every landform before placing markers to ensure map accuracy."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2431,24 +2567,24 @@
         ],
         "rows": [
           {
-            "attribute": "Setting Up Cross-Country Courses",
-            "left": "(8a) Setting Up Cross-Country Courses: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
-            "right": "(8b) Setting Up Score Courses: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30)."
+            "attribute": "Course Length",
+            "left": "(8a) Cross Country Course Design: Design a 2,000 meter cross country course with five control markers visited in specified numerical order. Prepare a master map with red control circles and a corresponding IOF description sheet.",
+            "right": "(8b) Score Course Setup Strategy: Establish a score orienteering course containing at least twelve control points with variable point values and a sixty minute time limit. Create the master map and assign penalties for overdue returns."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Surveying Features and Hazards: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
-            "right": "Step 2 - Select Control Marker Locations: This will begin to give you ideas about how and where you can lay out the course (p. 30)."
+            "attribute": "Control Minimum",
+            "left": "Req 8a: Cross Country Course Design: Design a 2,000 meter cross country course with five control markers visited in specified numerical order. Prepare a master map with red control circles and a corresponding IOF description sheet.",
+            "right": "Req 8b: Score Course Setup Strategy: Establish a score orienteering course containing at least twelve control points with variable point values and a sixty minute time limit. Create the master map and assign penalties for overdue returns."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Logging Site Details: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30).",
-            "right": "Step 3 - Draft Rough Course Layout: Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course in your notebook (p. 30)."
+            "attribute": "Score Requirements",
+            "left": "Course Length: Cross country designs require minimum two thousand meter point to point distances.",
+            "right": "Control Minimum: Set a minimum of five verified control sites for cross country layouts."
           }
         ]
       },
       "worked_example": {
-        "title": "Orienteering Req 8 Exemplar Workbook Entry: Designing an Orienteering Course",
+        "title": "Orienteering Req 8 Exemplar Workbook Entry: Designing",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 8a - Cross Country Course Design": "Design a 2,000 meter cross country course with five control markers visited in specified numerical order. Prepare a master map with red control circles and a corresponding IOF description sheet.",
@@ -2487,9 +2623,35 @@
       "workbook_visual_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route.",
       "pamphlet_summary": "Designing an orienteering course involves selecting suitable control sites, setting physical marker flags, measuring accurate legs, and generating master maps with IOF description sheets. Whether planning a 2,000 meter cross country sequence or a 12 control score course, fairness and safety govern layout design.",
       "socratic_questions": [
-        "How do point valuations in score orienteering influence a competitor strategic route choices?",
+        "In what specific ways do point valuations in score orienteering influence a competitor strategic route choices?",
         "What terrain features provide unmistakable control sites versus ambiguous or frustrating flag placements?",
-        "Why must course setters calculate climb elevation in addition to horizontal track distance?"
+        "Why must course setters calculate climb elevation in addition to horizontal track distance?",
+        "What field-vetting step ensures each control flag hangs on the exact feature shown on the master map?",
+        "What design goal separates assigning point values on a 12-control score course from ordering a 2,000-meter course?",
+        "What map scale calculation confirms your five-control cross-country course meets the 2,000-meter minimum length?",
+        "Why must a course planner avoid placing control legs that tempt runners to cross cliffs, deep water, or busy roads?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Course design can be accomplished entirely on paper without scouting physical field locations.",
+          "fact": "Course design requires field verification of every landform before placing markers to ensure map accuracy."
+        },
+        {
+          "misconception": "Good orienteering control placement means hiding the orange-and-white flag inside bushes so runners must search.",
+          "fact": "Orienteering tests navigation rather than hide-and-seek, so flags must be visible once a runner reaches the described feature."
+        },
+        {
+          "misconception": "All 12 controls on a score orienteering course should receive the exact same point value regardless of distance.",
+          "fact": "Score courses assign higher point values to distant or technically difficult controls to create strategic route-planning tradeoffs."
+        },
+        {
+          "misconception": "Course length for a 2,000-meter cross-country event is measured along the longest possible trail detour route.",
+          "fact": "Official cross-country course length is measured as the sum of straight-line distances from the start through each control to finish."
+        },
+        {
+          "misconception": "Desktop map work alone is sufficient to finalize a master map and control description sheet before an event.",
+          "fact": "Course planners must vet every control site in the field to confirm map accuracy, vegetation changes, and safe footing."
+        }
       ]
     },
     {
@@ -2541,9 +2703,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Orienteering officials only start the race stopwatch and do no other course work.",
-        "fact": "Officials manage safety checkouts, verify electronic punches, record finishes, and initiate search protocols for overdue competitors.",
-        "myth": "Orienteering officials only start the race stopwatch and do no other course work.",
-        "fact_correction": "Officials manage safety checkouts, verify electronic punches, record finishes, and initiate search protocols for overdue competitors."
+        "fact": "Officials manage safety checkouts, verify electronic punches, record finishes, and initiate search protocols for overdue competitors."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2580,38 +2740,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Pre-Race Starter and Recorder Duties",
-        "right_header": "Finish Timer and Safety Check",
+        "left_header": "Req 9: Orienteering USA Governing Body",
+        "right_header": "Req 9: Review Official OUSA Rules",
         "left_points": [
           "Orienteering USA Governing Body: Orienteering USA is the ruling body for sanctioned orienteering events in the United States (p. 35).",
           "Official Rules and Conduct: Its rule book is comprehensive and addresses the technicalities of holding an event, as well as conduct that is expected of the participants (p. 35).",
           "Consulting the Rule Book: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA (p. 35)."
         ],
         "right_points": [
-          "Step 1 - Review Official OUSA Rules: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA (p. 35).",
-          "Step 2 - Screen Out Unfair Advantages: Competitors who have prior knowledge of the course that will give them an unfair advantage should not participate (p. 35).",
-          "Step 3 - Prohibit Pre-Event Course Inspection: Investigation of the course before an event is forbidden (p. 35)."
+          "Review Official OUSA Rules: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA (p. 35).",
+          "Screen Out Unfair Advantages: Competitors who have prior knowledge of the course that will give them an unfair advantage should not participate (p. 35).",
+          "Prohibit Pre-Event Course Inspection: Investigation of the course before an event is forbidden (p. 35)."
         ],
         "rows": [
           {
-            "attribute": "Orienteering USA Governing Body",
+            "attribute": "Start Official",
             "left": "Orienteering USA Governing Body: Orienteering USA is the ruling body for sanctioned orienteering events in the United States (p. 35).",
-            "right": "Step 1 - Review Official OUSA Rules: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA (p. 35)."
+            "right": "Review Official OUSA Rules: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA (p. 35)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Finish Management",
             "left": "Official Rules and Conduct: Its rule book is comprehensive and addresses the technicalities of holding an event, as well as conduct that is expected of the participants (p. 35).",
-            "right": "Step 2 - Screen Out Unfair Advantages: Competitors who have prior knowledge of the course that will give them an unfair advantage should not participate (p. 35)."
+            "right": "Screen Out Unfair Advantages: Competitors who have prior knowledge of the course that will give them an unfair advantage should not participate (p. 35)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Safety Tracking",
             "left": "Consulting the Rule Book: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA (p. 35).",
-            "right": "Step 3 - Prohibit Pre-Event Course Inspection: Investigation of the course before an event is forbidden (p. 35)."
+            "right": "Prohibit Pre-Event Course Inspection: Investigation of the course before an event is forbidden (p. 35)."
           }
         ]
       },
       "worked_example": {
-        "title": "Orienteering Req 9 Exemplar Workbook Entry: Officiating an Orienteering Event",
+        "title": "Orienteering Req 9 Exemplar Workbook Entry: Officiating",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Orienteering USA Governing Body": "Orienteering USA is the ruling body for sanctioned orienteering events in the United States (p. 35).",
@@ -2654,7 +2814,33 @@
       "socratic_questions": [
         "Why is a staggered start interval critical for maintaining competition integrity between runners?",
         "What administrative steps must occur before sending search parties after an overdue competitor?",
-        "How does electronic punching streamline official results tabulation compared to manual pin punches?"
+        "How does electronic punching streamline official results tabulation compared to manual pin punches?",
+        "What happens to course fairness if the starter releases two runners on the same course less than two minutes apart?",
+        "Under what condition does a finish official classify a runner's control card as Did Not Finish instead of a mispunch?",
+        "What calculation confirms a competitor's net elapsed time when reconciling the finish clock against the start list?",
+        "Why is it dangerous to close the finish table before matching every registration stub against returned control cards?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Orienteering officials only start the race stopwatch and do no other course work.",
+          "fact": "Officials manage safety checkouts, verify electronic punches, record finishes, and initiate search protocols for overdue competitors."
+        },
+        {
+          "misconception": "Starting all competitors in the same class at once speeds up course administration without affecting navigation.",
+          "fact": "Staggering start times by one to three minutes prevents runners from following each other and preserves solo navigation."
+        },
+        {
+          "misconception": "Counting the total number of pin holes on a control card is enough to verify that a runner completed a cross-country course.",
+          "fact": "Finish officials must match each unique pin-punch pattern in the exact numbered box sequence against the master control card."
+        },
+        {
+          "misconception": "Runners who abandon a course early due to fatigue or injury can return straight to camp without visiting the finish table.",
+          "fact": "Every starter must check in at the finish table even when retiring early so officials do not launch an overdue-runner search."
+        },
+        {
+          "misconception": "Placing the master maps directly at the start line allows runners to copy control circles before their clock begins.",
+          "fact": "Master maps belong 20 to 50 meters past the start line so route copying and planning occur on the competitor's running time."
+        }
       ]
     },
     {
@@ -2704,9 +2890,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Orienteering instruction is best accomplished through extended lectures without hands on field navigation.",
-        "fact": "Effective teaching combines brief classroom instruction with immediate practical field exercises emphasizing map orientation and pacing.",
-        "myth": "Orienteering instruction is best accomplished through extended lectures without hands on field navigation.",
-        "fact_correction": "Effective teaching combines brief classroom instruction with immediate practical field exercises emphasizing map orientation and pacing."
+        "fact": "Effective teaching combines brief classroom instruction with immediate practical field exercises emphasizing map orientation and pacing."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2743,38 +2927,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Obvious Trail and Road Handrails",
-        "right_header": "Subtle Ridge and Valley Handrails",
+        "left_header": "Req 10: Natural Terrain Handrails",
+        "right_header": "Req 10: Follow Linear Trail Handrails",
         "left_points": [
           "Natural Terrain Handrails: More obscure handrails might be ridge lines, valleys, tree lines, forest fire burns, or avalanche scars (p. 41).",
           "Handrails on Beginner Courses: Beginners' courses rely heavily on handrails to help the novice get to each control (p. 41).",
           "Trails as Simple Handrails: The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41)."
         ],
         "right_points": [
-          "Step 1 - Follow Linear Trail Handrails: The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41).",
-          "Step 2 - Check Off Passing Landmarks: Collecting, Check-Off, and Catching Features Always look around and take note of the features you pass as you move toward the next control (p. 41).",
-          "Step 3 - Spot Large Collecting Features: There may be some obvious features along the route, such as a large pond or small lake, that will help send you in the right direction (p. 41)."
+          "Follow Linear Trail Handrails: The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41).",
+          "Check Off Passing Landmarks: Collecting, Check-Off, and Catching Features Always look around and take note of the features you pass as you move toward the next control (p. 41).",
+          "Spot Large Collecting Features: There may be some obvious features along the route, such as a large pond or small lake, that will help send you in the right direction (p. 41)."
         ],
         "rows": [
           {
-            "attribute": "Natural Terrain Handrails",
+            "attribute": "Curriculum Structure",
             "left": "Natural Terrain Handrails: More obscure handrails might be ridge lines, valleys, tree lines, forest fire burns, or avalanche scars (p. 41).",
-            "right": "Step 1 - Follow Linear Trail Handrails: The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41)."
+            "right": "Follow Linear Trail Handrails: The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Visual Aids",
             "left": "Handrails on Beginner Courses: Beginners' courses rely heavily on handrails to help the novice get to each control (p. 41).",
-            "right": "Step 2 - Check Off Passing Landmarks: Collecting, Check-Off, and Catching Features Always look around and take note of the features you pass as you move toward the next control (p. 41)."
+            "right": "Check Off Passing Landmarks: Collecting, Check-Off, and Catching Features Always look around and take note of the features you pass as you move toward the next control (p. 41)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Field Progression",
             "left": "Trails as Simple Handrails: The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41).",
-            "right": "Step 3 - Spot Large Collecting Features: There may be some obvious features along the route, such as a large pond or small lake, that will help send you in the right direction (p. 41)."
+            "right": "Spot Large Collecting Features: There may be some obvious features along the route, such as a large pond or small lake, that will help send you in the right direction (p. 41)."
           }
         ]
       },
       "worked_example": {
-        "title": "Orienteering Req 10 Exemplar Workbook Entry: Teaching Orienteering Techniques to Scouts",
+        "title": "Orienteering Req 10 Exemplar Workbook Entry: Teaching",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Natural Terrain Handrails": "More obscure handrails might be ridge lines, valleys, tree lines, forest fire burns, or avalanche scars (p. 41).",
@@ -2817,7 +3001,33 @@
       "socratic_questions": [
         "How does starting beginners on a short string course build navigational confidence?",
         "What visual demonstrations best communicate the concept of contour line elevation changes?",
-        "How can you correct a student who repeatedly misaligns compass orienting lines?"
+        "How can you correct a student who repeatedly misaligns compass orienting lines?",
+        "Where should a Scout position the compass baseplate edge on the map before rotating the capsule to align orienting lines?",
+        "Which map feature makes an effective catching feature behind a control versus an attack point in front of it?",
+        "What measurement confirms that a Scout's double-pace count is calibrated for both flat trails and steep uphill terrain?",
+        "Why is it dangerous to let Scouts practice taking magnetic bearings while leaning over a steel picnic table or belt buckle?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Orienteering instruction is best accomplished through extended lectures without hands on field navigation.",
+          "fact": "Effective teaching combines brief classroom instruction with immediate practical field exercises emphasizing map orientation and pacing."
+        },
+        {
+          "misconception": "A topographic map must be oriented to magnetic north before you can measure a protractor bearing between two map points.",
+          "fact": "Measuring a map bearing with a baseplate compass uses the map's meridian lines as a protractor regardless of how the sheet lies."
+        },
+        {
+          "misconception": "Counting every single footstep is more accurate than counting every second step when measuring distance over rough ground.",
+          "fact": "Orienteers count double paces every time the same foot strikes the ground to halve the mental tally and reduce counting errors."
+        },
+        {
+          "misconception": "Aiming dead center at a stream junction gives a beginner the fastest recovery if compass drift occurs in thick woods.",
+          "fact": "Aiming deliberately a few degrees left or right of the target guarantees you know which direction to turn upon hitting the stream."
+        },
+        {
+          "misconception": "Keeping the full map unfolded during a run helps beginners see the entire park and prevents them from losing their place.",
+          "fact": "Folding the map small and pinning your thumb on your current position keeps eyes moving quickly between terrain and map symbols."
+        }
       ]
     }
   ],

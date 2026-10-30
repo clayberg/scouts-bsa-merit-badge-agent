@@ -74,9 +74,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Weather and climate mean the exact same atmospheric condition over short durations.",
-        "fact": "Weather describes daily atmospheric fluctuations whereas climate represents thirty year statistical averages of conditions.",
-        "myth": "Weather and climate mean the exact same atmospheric condition over short durations.",
-        "fact_correction": "Weather describes daily atmospheric fluctuations whereas climate represents thirty year statistical averages of conditions."
+        "fact": "Weather describes daily atmospheric fluctuations whereas climate represents thirty year statistical averages of conditions."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -112,44 +110,44 @@
         "Step 4 - Forecast Utility: Outline how accurate barometric warnings protect aviation flight paths and construction crews."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 1",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Meteorology, Climate, and Industry Forecasts"
+        "Official Weather merit badge pamphlet and daily observation log for Req 1.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Meteorology, Climate, and Industry Forecasts."
       ],
       "comparison_data": {
-        "left_header": "Short-Term Daily Weather Conditions",
-        "right_header": "Long-Term Regional Climate Averages",
+        "left_header": "Req 1: Everyday Weather Disruptions",
+        "right_header": "Req 1: Identify Weather-Dependent Trades",
         "left_points": [
           "Everyday Weather Disruptions: A rainy day will keep you from mowing the lawn or playing a baseball game (p. 72).",
           "Extreme Heat Impacts: A serious heat wave could prevent your Scout troop from taking a hiking trip (p. 72).",
           "Weather-Critical Occupations: For people in some occupations, however, the weather forecast is vital (p. 72)."
         ],
         "right_points": [
-          "Step 1 - Identify Weather-Dependent Trades: For people in some occupations, however, the weather forecast is vital (p. 72).",
-          "Step 2 - Plan Operations Around Forecasts: Planning ahead for weather conditions can mean the difference between profit and loss or even life and death (p. 72).",
-          "Step 3 - Apply Climate Data: Climate information helps experts lay out airport runways and determine heating and cooling needs for houses, factories (p. 72)."
+          "Identify Weather-Dependent Trades: For people in some occupations, however, the weather forecast is vital (p. 72).",
+          "Plan Operations Around Forecasts: Planning ahead for weather conditions can mean the difference between profit and loss or even life and death (p. 72).",
+          "Apply Climate Data: Climate information helps experts lay out airport runways and determine heating and cooling needs for houses, factories (p. 72)."
         ],
         "rows": [
           {
-            "attribute": "Everyday Weather Disruptions",
+            "attribute": "Atmospheric Science Definition",
             "left": "Everyday Weather Disruptions: A rainy day will keep you from mowing the lawn or playing a baseball game (p. 72).",
-            "right": "Step 1 - Identify Weather-Dependent Trades: For people in some occupations, however, the weather forecast is vital (p. 72)."
+            "right": "Identify Weather-Dependent Trades: For people in some occupations, however, the weather forecast is vital (p. 72)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Climate Baseline Metrics",
             "left": "Extreme Heat Impacts: A serious heat wave could prevent your Scout troop from taking a hiking trip (p. 72).",
-            "right": "Step 2 - Plan Operations Around Forecasts: Planning ahead for weather conditions can mean the difference between profit and loss or even life and death (p. 72)."
+            "right": "Plan Operations Around Forecasts: Planning ahead for weather conditions can mean the difference between profit and loss or even life and death (p. 72)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Agricultural Weather Impacts",
             "left": "Weather-Critical Occupations: For people in some occupations, however, the weather forecast is vital (p. 72).",
-            "right": "Step 3 - Apply Climate Data: Climate information helps experts lay out airport runways and determine heating and cooling needs for houses, factories (p. 72)."
+            "right": "Apply Climate Data: Climate information helps experts lay out airport runways and determine heating and cooling needs for houses, factories (p. 72)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 1 Exemplar Workbook Entry: Meteorology, Climate, and Industry Forecasts",
+        "title": "Weather Req 1 Exemplar Workbook Entry: Meteorology",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Everyday Weather Disruptions": "A rainy day will keep you from mowing the lawn or playing a baseball game (p. 72).",
@@ -192,7 +190,33 @@
       "socratic_questions": [
         "How does a three day forecast differ fundamentally from a regional climate model?",
         "Why does an unexpected frost create catastrophic financial losses for commercial fruit growers?",
-        "In what specific ways do sudden pressure changes alert mariners to hazardous weather?"
+        "In what specific ways do sudden pressure changes alert mariners to hazardous weather?",
+        "What measurement period separates a region's climate norm from its daily weather state?",
+        "Under what condition does high density altitude force a pilot to lengthen a takeoff roll?",
+        "Why is it dangerous to pour structural concrete when subfreezing temperatures are forecast?",
+        "Which forecast metric helps a farmer decide whether to irrigate or delay applying fertilizer?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Weather and climate mean the exact same atmospheric condition over short durations.",
+          "fact": "Weather describes daily atmospheric fluctuations whereas climate represents thirty year statistical averages of conditions."
+        },
+        {
+          "misconception": "Meteorology is the study of meteors and rocky debris entering Earth's upper atmosphere from space.",
+          "fact": "Meteorology is the atmospheric science that analyzes temperature, air pressure, moisture, and wind to forecast weather."
+        },
+        {
+          "misconception": "A single record-breaking blizzard proves that a region's long-term climate has permanently cooled.",
+          "fact": "Weather reflects short-term atmospheric conditions over hours or days, while climate averages data over at least 30 years."
+        },
+        {
+          "misconception": "Aircraft engines and wings generate more lift on hot, humid summer days than in cold winter air.",
+          "fact": "Warm, humid air is less dense than cold, dry air, which reduces wing lift and engine thrust during takeoff."
+        },
+        {
+          "misconception": "Freshly poured concrete cures stronger when exposed to heavy rain or freezing overnight temperatures.",
+          "fact": "Freezing water expands inside curing concrete and cracks the slab, while heavy rain washes cement paste from the mix."
+        }
       ]
     },
     {
@@ -263,9 +287,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A weather watch means severe weather is currently striking your immediate location.",
-        "fact": "Watches indicate favorable storm formation conditions whereas warnings signal imminent verified severe events.",
-        "myth": "A weather watch means severe weather is currently striking your immediate location.",
-        "fact_correction": "Watches indicate favorable storm formation conditions whereas warnings signal imminent verified severe events."
+        "fact": "Watches indicate favorable storm formation conditions whereas warnings signal imminent verified severe events."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -301,44 +323,44 @@
         "Step 4 - Family Briefing: Rehearse domestic shelter evacuation plans and primary communication pathways with household members."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 2",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Severe Weather Hazards and Alerts"
+        "Official Weather merit badge pamphlet and daily observation log for Req 2.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Severe Weather Hazards and Alerts."
       ],
       "comparison_data": {
-        "left_header": "Severe Weather Watch Conditions",
-        "right_header": "Severe Weather Warning Actions",
+        "left_header": "Req 2: Routine Air Mass Changes",
+        "right_header": "Req 2: Monitor Official Weather Alerts",
         "left_points": [
           "Routine Air Mass Changes: People readily adapt to routine weather changes that occur with the passage of air masses (p. 29).",
           "Violent and Extreme Weather: Sometimes, however, the weather can become so violent or the temperature so extreme that people need to take special precautions (p. 29).",
           "National Weather Service Alerts: Forecasters with the National Weather Service issue watches, warnings, and advisories to alert the public to potentially violent or hazardous (p. 29)."
         ],
         "right_points": [
-          "Step 1 - Monitor Official Weather Alerts: Forecasters with the National Weather Service issue watches, warnings, and advisories to alert the public to potentially violent or hazardous (p. 29).",
-          "Step 2 - Distinguish Alert Levels: There is an important difference between a watch and a warning (p. 29).",
-          "Step 3 - Prepare During Weather Watches: A watch means that hazardous weather is possible or that conditions are favorable for it to develop (p. 29)."
+          "Monitor Official Weather Alerts: Forecasters with the National Weather Service issue watches, warnings, and advisories to alert the public to potentially violent or hazardous (p. 29).",
+          "Distinguish Alert Levels: There is an important difference between a watch and a warning (p. 29).",
+          "Prepare During Weather Watches: A watch means that hazardous weather is possible or that conditions are favorable for it to develop (p. 29)."
         ],
         "rows": [
           {
-            "attribute": "Routine Air Mass Changes",
+            "attribute": "Watch Condition Protocols",
             "left": "Routine Air Mass Changes: People readily adapt to routine weather changes that occur with the passage of air masses (p. 29).",
-            "right": "Step 1 - Monitor Official Weather Alerts: Forecasters with the National Weather Service issue watches, warnings, and advisories to alert the public to potentially violent or hazardous (p. 29)."
+            "right": "Monitor Official Weather Alerts: Forecasters with the National Weather Service issue watches, warnings, and advisories to alert the public to potentially violent or hazardous (p. 29)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Warning Action Triggers",
             "left": "Violent and Extreme Weather: Sometimes, however, the weather can become so violent or the temperature so extreme that people need to take special precautions (p. 29).",
-            "right": "Step 2 - Distinguish Alert Levels: There is an important difference between a watch and a warning (p. 29)."
+            "right": "Distinguish Alert Levels: There is an important difference between a watch and a warning (p. 29)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Flash Flood Hazards",
             "left": "National Weather Service Alerts: Forecasters with the National Weather Service issue watches, warnings, and advisories to alert the public to potentially violent or hazardous (p. 29).",
-            "right": "Step 3 - Prepare During Weather Watches: A watch means that hazardous weather is possible or that conditions are favorable for it to develop (p. 29)."
+            "right": "Prepare During Weather Watches: A watch means that hazardous weather is possible or that conditions are favorable for it to develop (p. 29)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 2 Exemplar Workbook Entry: Severe Weather Hazards and Alerts",
+        "title": "Weather Req 2 Exemplar Workbook Entry: Severe Weather",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
           "Routine Air Mass Changes": "People readily adapt to routine weather changes that occur with the passage of air masses (p. 29).",
@@ -381,7 +403,33 @@
       "socratic_questions": [
         "What atmospheric criteria prompt the National Weather Service to issue a tornado warning?",
         "Why does hiding under a highway overpass increase personal danger during a tornado?",
-        "How do you calculate safe evacuation lead times during rapidly rising mountain floods?"
+        "In what specific ways do you calculate safe evacuation lead times during rapidly rising mountain floods?",
+        "What happens to your urgency and shelter plan when a tornado watch upgrades to a warning?",
+        "Where should a Scout position a patrol in open terrain when lightning strikes within 5 miles?",
+        "Why is it dangerous to drive or wade across a shallow, flooded roadway during a flash flood?",
+        "Which physical indicator distinguishes life-threatening heatstroke from heat exhaustion on a trail?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A weather watch means severe weather is currently striking your immediate location.",
+          "fact": "Watches indicate favorable storm formation conditions whereas warnings signal imminent verified severe events."
+        },
+        {
+          "misconception": "A severe weather watch means a tornado or flash flood has already been spotted on radar or by spotters.",
+          "fact": "A watch means atmospheric conditions favor severe weather, whereas a warning means the hazard is imminent or occurring now."
+        },
+        {
+          "misconception": "Crouching underneath a tall, isolated tree in a meadow protects hikers from direct lightning strikes.",
+          "fact": "Tall isolated trees attract lightning channels that jump side-flash currents to nearby people or travel through root ground."
+        },
+        {
+          "misconception": "Highway overpasses offer safe wind-tunnel protection if a tornado approaches while you are driving.",
+          "fact": "Overpasses channel wind into faster gusts and funnel flying debris, making low ground or a sturdy building much safer."
+        },
+        {
+          "misconception": "Rubbing frostbitten fingers vigorously with snow restores warm blood flow without harming skin tissue.",
+          "fact": "Friction from snow shatters frozen cell crystals and worsens tissue damage; rewarm frostbite gently in lukewarm water."
+        }
       ]
     },
     {
@@ -446,9 +494,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Cellular smartphone weather applications provide foolproof warning alerts during catastrophic backcountry storms.",
-        "fact": "NOAA weather radios operate via dedicated VHF frequencies broadcast independently from commercial cellular towers.",
-        "myth": "Cellular smartphone weather applications provide foolproof warning alerts during catastrophic backcountry storms.",
-        "fact_correction": "NOAA weather radios operate via dedicated VHF frequencies broadcast independently from commercial cellular towers."
+        "fact": "NOAA weather radios operate via dedicated VHF frequencies broadcast independently from commercial cellular towers."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -484,44 +530,44 @@
         "Step 4 - Contingency Routing: Establish predetermined evacuation criteria based upon received emergency warning broadcasts in camp."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 3",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Forecast Sources and Emergency Warnings"
+        "Official Weather merit badge pamphlet and daily observation log for Req 3.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Forecast Sources and Emergency Warnings."
       ],
       "comparison_data": {
-        "left_header": "Pre-Trip Forecast Planning Sources",
-        "right_header": "Backcountry Emergency Warning Receivers",
+        "left_header": "Req 3: First Weather Satellite Launch",
+        "right_header": "Req 3: Track Global Satellite Imagery",
         "left_points": [
           "First Weather Satellite Launch: The first weather satellite, known as TIROS-1, was launched in the spring of 1960 (p. 33).",
           "Viewing Complete Storm Systems: It was highly successful at giving meteorologists their first overall view of entire storm systems (p. 33).",
           "Continuous Global Storm Monitoring: Since then, satellites have become much more sophisticated, allowing a nearly continuous watch over the entire Earth (p. 33)."
         ],
         "right_points": [
-          "Step 1 - Track Global Satellite Imagery: Since then, satellites have become much more sophisticated, allowing a nearly continuous watch over the entire Earth (p. 33).",
-          "Step 2 - Compare Satellite Orbit Types: Polar-orbiting satellites and geostationary satellites (p. 33).",
-          "Step 3 - Use POES and GOES: The satellite systems are named Polar Operational Environmental Satellites (POES) and Geostationary Operational Environmental Satellites (p. 33)."
+          "Track Global Satellite Imagery: Since then, satellites have become much more sophisticated, allowing a nearly continuous watch over the entire Earth (p. 33).",
+          "Compare Satellite Orbit Types: Polar-orbiting satellites and geostationary satellites (p. 33).",
+          "Use POES and GOES: The satellite systems are named Polar Operational Environmental Satellites (POES) and Geostationary Operational Environmental Satellites (p. 33)."
         ],
         "rows": [
           {
-            "attribute": "First Weather Satellite Launch",
+            "attribute": "Radio Broadcast Frequencies",
             "left": "First Weather Satellite Launch: The first weather satellite, known as TIROS-1, was launched in the spring of 1960 (p. 33).",
-            "right": "Step 1 - Track Global Satellite Imagery: Since then, satellites have become much more sophisticated, allowing a nearly continuous watch over the entire Earth (p. 33)."
+            "right": "Track Global Satellite Imagery: Since then, satellites have become much more sophisticated, allowing a nearly continuous watch over the entire Earth (p. 33)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Digital Alert Protocols",
             "left": "Viewing Complete Storm Systems: It was highly successful at giving meteorologists their first overall view of entire storm systems (p. 33).",
-            "right": "Step 2 - Compare Satellite Orbit Types: Polar-orbiting satellites and geostationary satellites (p. 33)."
+            "right": "Compare Satellite Orbit Types: Polar-orbiting satellites and geostationary satellites (p. 33)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Barometric Trend Analysis",
             "left": "Continuous Global Storm Monitoring: Since then, satellites have become much more sophisticated, allowing a nearly continuous watch over the entire Earth (p. 33).",
-            "right": "Step 3 - Use POES and GOES: The satellite systems are named Polar Operational Environmental Satellites (POES) and Geostationary Operational Environmental Satellites (p. 33)."
+            "right": "Use POES and GOES: The satellite systems are named Polar Operational Environmental Satellites (POES) and Geostationary Operational Environmental Satellites (p. 33)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 3 Exemplar Workbook Entry: Forecast Sources and Emergency Warnings",
+        "title": "Weather Req 3 Exemplar Workbook Entry: Forecast Sources",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "First Weather Satellite Launch": "The first weather satellite, known as TIROS-1, was launched in the spring of 1960 (p. 33).",
@@ -564,7 +610,33 @@
       "socratic_questions": [
         "Why is relying solely on cellular phone radar displays dangerous during wilderness expeditions?",
         "How does Specific Area Message Encoding filter irrelevant emergency warnings from distant counties?",
-        "Which synoptic forecast tools best predict sudden temperature drops before wilderness departure?"
+        "Which synoptic forecast tools best predict sudden temperature drops before wilderness departure?",
+        "What frequency range on a portable receiver tunes into NOAA Weather Radio All Hazards broadcasts?",
+        "Why is it dangerous to rely solely on smartphone apps for weather alerts in a backcountry canyon?",
+        "What feature allows a home weather radio to wake a sleeping family only for local county warnings?",
+        "Which National Weather Service product gives hikers hourly wind, sky cover, and precipitation graphs?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Cellular smartphone weather applications provide foolproof warning alerts during catastrophic backcountry storms.",
+          "fact": "NOAA weather radios operate via dedicated VHF frequencies broadcast independently from commercial cellular towers."
+        },
+        {
+          "misconception": "Standard AM and FM pocket radios can tune directly into continuous NOAA Weather Radio VHF frequencies.",
+          "fact": "NOAA Weather Radio broadcasts on seven specialized VHF public service channels between 162.400 and 162.550 megahertz."
+        },
+        {
+          "misconception": "Outdoor municipal tornado sirens are designed to wake people sleeping inside insulated homes with closed windows.",
+          "fact": "Outdoor warning sirens alert people who are outside; indoor households need a SAME weather radio or wireless emergency alerts."
+        },
+        {
+          "misconception": "Wireless Emergency Alerts require an active mobile data plan or Wi-Fi connection to reach a smartphone.",
+          "fact": "Cell broadcast technology pushes Wireless Emergency Alerts from any nearby tower without using mobile data or Wi-Fi."
+        },
+        {
+          "misconception": "A forecast showing a 40 percent chance of rain for a valley town applies identically to a 10,000-foot summit.",
+          "fact": "Mountain peaks experience colder temperatures, higher winds, and orographic storms requiring a point-specific elevation forecast."
+        }
       ]
     },
     {
@@ -627,9 +699,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Air masses mix together smoothly and immediately whenever high and low pressure systems meet.",
-        "fact": "Cold air is denser than warm air, forcing warm air upward rapidly along steep fronts.",
-        "myth": "Air masses mix together smoothly and immediately whenever high and low pressure systems meet.",
-        "fact_correction": "Cold air is denser than warm air, forcing warm air upward rapidly along steep fronts."
+        "fact": "Cold air is denser than warm air, forcing warm air upward rapidly along steep fronts."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -665,44 +735,44 @@
         "Step 4 - Warm Front Cross Section: Sketch gradual warm air ascents producing progressive cirrus altostratus and nimbostratus cloud decks."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 4",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Pressure Systems and Weather Fronts"
+        "Official Weather merit badge pamphlet and daily observation log for Req 4.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Pressure Systems and Weather Fronts."
       ],
       "comparison_data": {
-        "left_header": "Steep Fast-Moving Cold Fronts",
-        "right_header": "Gentle Gradual Warm Fronts",
+        "left_header": "Req 4: Cold Front Air Replacement",
+        "right_header": "Req 4: Sketch Cold Air Wedge",
         "left_points": [
           "Cold Front Air Replacement: When cold air replaces CROSS SECTION OF CLOUDS ON A COLD FRONT warmer air, the front is FRONTAL MOVEMENT called a cold front (p. 29).",
           "Polar Air Mass Origins: In the United States, cold air usu COL DF ally comes from the north RO CUMULONIMBUS WARM AIR NT COLor northwest of Canada and DA IR from the polar regions (p. 29).",
           "Dense Cold Air Wedging: Because cold air is denser STRATOCUMULUS than warm air, it tends to stay nearer the surface and wedges beneath the warmair (p. 29)."
         ],
         "right_points": [
-          "Step 1 - Sketch Cold Air Wedge: Because cold air is denser STRATOCUMULUS than warm air, it tends to stay nearer the surface and wedges beneath the warmair (p. 29).",
-          "Step 2 - Draw Rising Warm Air: This tends to make the warm air rise, as seen in CROSS SECTION OF CLOUDS ON A WARM FRONT the diagram (p. 29).",
-          "Step 3 - Label Cloud Formation Zones: The risingair cools by expansion, AIR FRONTAL MOVEMENT RM WA forming clouds and perhaps precipitation (p. 29)."
+          "Sketch Cold Air Wedge: Because cold air is denser STRATOCUMULUS than warm air, it tends to stay nearer the surface and wedges beneath the warmair (p. 29).",
+          "Draw Rising Warm Air: This tends to make the warm air rise, as seen in CROSS SECTION OF CLOUDS ON A WARM FRONT the diagram (p. 29).",
+          "Label Cloud Formation Zones: The risingair cools by expansion, AIR FRONTAL MOVEMENT RM WA forming clouds and perhaps precipitation (p. 29)."
         ],
         "rows": [
           {
-            "attribute": "Cold Front Air Replacement",
+            "attribute": "Anticyclone Air Characteristics",
             "left": "Cold Front Air Replacement: When cold air replaces CROSS SECTION OF CLOUDS ON A COLD FRONT warmer air, the front is FRONTAL MOVEMENT called a cold front (p. 29).",
-            "right": "Step 1 - Sketch Cold Air Wedge: Because cold air is denser STRATOCUMULUS than warm air, it tends to stay nearer the surface and wedges beneath the warmair (p. 29)."
+            "right": "Sketch Cold Air Wedge: Because cold air is denser STRATOCUMULUS than warm air, it tends to stay nearer the surface and wedges beneath the warmair (p. 29)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Cyclone Core Dynamics",
             "left": "Polar Air Mass Origins: In the United States, cold air usu COL DF ally comes from the north RO CUMULONIMBUS WARM AIR NT COLor northwest of Canada and DA IR from the polar regions (p. 29).",
-            "right": "Step 2 - Draw Rising Warm Air: This tends to make the warm air rise, as seen in CROSS SECTION OF CLOUDS ON A WARM FRONT the diagram (p. 29)."
+            "right": "Draw Rising Warm Air: This tends to make the warm air rise, as seen in CROSS SECTION OF CLOUDS ON A WARM FRONT the diagram (p. 29)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Cold Front Morphology",
             "left": "Dense Cold Air Wedging: Because cold air is denser STRATOCUMULUS than warm air, it tends to stay nearer the surface and wedges beneath the warmair (p. 29).",
-            "right": "Step 3 - Label Cloud Formation Zones: The risingair cools by expansion, AIR FRONTAL MOVEMENT RM WA forming clouds and perhaps precipitation (p. 29)."
+            "right": "Label Cloud Formation Zones: The risingair cools by expansion, AIR FRONTAL MOVEMENT RM WA forming clouds and perhaps precipitation (p. 29)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 4 Exemplar Workbook Entry: Pressure Systems and Weather Fronts",
+        "title": "Weather Req 4 Exemplar Workbook Entry: Pressure Systems",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
           "Cold Front Air Replacement": "When cold air replaces CROSS SECTION OF CLOUDS ON A COLD FRONT warmer air, the front is FRONTAL MOVEMENT called a cold front (p. 29).",
@@ -745,7 +815,33 @@
       "socratic_questions": [
         "Why does descending air in a high pressure ridge inhibit condensation and cloud growth?",
         "How does the slope of a cold front influence thunderstorm intensity along squall lines?",
-        "What cloud sequence announces the approach of a broad warm front over twenty four hours?"
+        "What cloud sequence announces the approach of a broad warm front over twenty four hours?",
+        "What happens to relative humidity and cloud cover as air sinks inside a high-pressure anticyclone?",
+        "Why does a cold front form a steeper frontal slope than an advancing warm front on a cross section?",
+        "Which sequence of clouds appears overhead ahead of a warm front before steady nimbostratus rain starts?",
+        "What measurement confirms that a low-pressure trough is approaching your campsite during the night?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Air masses mix together smoothly and immediately whenever high and low pressure systems meet.",
+          "fact": "Cold air is denser than warm air, forcing warm air upward rapidly along steep fronts."
+        },
+        {
+          "misconception": "Air inside a Northern Hemisphere low-pressure system spirals clockwise and diverges outward at the surface.",
+          "fact": "Surface winds in a Northern Hemisphere low-pressure cyclone spiral counterclockwise inward and rise to form clouds."
+        },
+        {
+          "misconception": "High barometric pressure forces surface air upward, triggering widespread condensation and heavy storms.",
+          "fact": "High pressure features sinking air that warms by compression as it descends, evaporating moisture and clearing the sky."
+        },
+        {
+          "misconception": "Warm fronts plow underneath dense cold air masses at a steep angle and trigger narrow squall lines.",
+          "fact": "Advancing warm air glides gently upward over retreating cold air along a shallow slope, producing broad layered cloud decks."
+        },
+        {
+          "misconception": "Humid air exerts higher barometric pressure than dry air at the same temperature and altitude.",
+          "fact": "Water vapor molecules weigh less than nitrogen and oxygen molecules, making humid air lighter than an equal volume of dry air."
+        }
       ]
     },
     {
@@ -808,9 +904,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Lightning strikes from cloud to ground exclusively without traveling upward or through cloud channels.",
-        "fact": "Hail forms when powerful thunderstorm updrafts repeatedly cycle ice pellets above freezing levels.",
-        "myth": "Lightning strikes from cloud to ground exclusively without traveling upward or through cloud channels.",
-        "fact_correction": "Hail forms when powerful thunderstorm updrafts repeatedly cycle ice pellets above freezing levels."
+        "fact": "Hail forms when powerful thunderstorm updrafts repeatedly cycle ice pellets above freezing levels."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -846,44 +940,44 @@
         "Step 4 - Hail Growth Cycle: Diagram how severe updraft currents suspend ice pellets through repetitive freezing accretion cycles."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 5",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Wind, Rain, Lightning, and Hail"
+        "Official Weather merit badge pamphlet and daily observation log for Req 5.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Wind, Rain, Lightning, and Hail."
       ],
       "comparison_data": {
-        "left_header": "Warm Cloud Droplet Coalescence",
-        "right_header": "Updraft Hailstone Ice Layering",
+        "left_header": "Req 5: Ecological Benefits of Lightning",
+        "right_header": "Req 5: Explain Thunderstorm Nitrogen",
         "left_points": [
           "Ecological Benefits of Lightning: Although lightning can be hazardous, it is not all bad (p. 34).",
           "Atmospheric Nitrogen Fixation: It changes the air's nitrogen into a form that can be taken up by plants (p. 34).",
           "Natural Thunderstorm Plant Fertilizer: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 34)."
         ],
         "right_points": [
-          "Step 1 - Explain Thunderstorm Nitrogen Fixation: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 34).",
-          "Step 2 - Identify Exposed Strike Targets: Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 34).",
-          "Step 3 - Trace Electrical Resistance Paths: Because lightning follows the path of least resistance, objects closer to the cloud are more likely to be struck (p. 34)."
+          "Explain Thunderstorm Nitrogen Fixation: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 34).",
+          "Identify Exposed Strike Targets: Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 34).",
+          "Trace Electrical Resistance Paths: Because lightning follows the path of least resistance, objects closer to the cloud are more likely to be struck (p. 34)."
         ],
         "rows": [
           {
-            "attribute": "Ecological Benefits of Lightning",
+            "attribute": "Pressure Gradient Winds",
             "left": "Ecological Benefits of Lightning: Although lightning can be hazardous, it is not all bad (p. 34).",
-            "right": "Step 1 - Explain Thunderstorm Nitrogen Fixation: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 34)."
+            "right": "Explain Thunderstorm Nitrogen Fixation: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 34)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Precipitation Condensation Triggers",
             "left": "Atmospheric Nitrogen Fixation: It changes the air's nitrogen into a form that can be taken up by plants (p. 34).",
-            "right": "Step 2 - Identify Exposed Strike Targets: Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 34)."
+            "right": "Identify Exposed Strike Targets: Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 34)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Charge Separation Dynamics",
             "left": "Natural Thunderstorm Plant Fertilizer: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 34).",
-            "right": "Step 3 - Trace Electrical Resistance Paths: Because lightning follows the path of least resistance, objects closer to the cloud are more likely to be struck (p. 34)."
+            "right": "Trace Electrical Resistance Paths: Because lightning follows the path of least resistance, objects closer to the cloud are more likely to be struck (p. 34)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 5 Exemplar Workbook Entry: Wind, Rain, Lightning, and Hail",
+        "title": "Weather Req 5 Exemplar Workbook Entry: Wind, Rain",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Ecological Benefits of Lightning": "Although lightning can be hazardous, it is not all bad (p. 34).",
@@ -926,7 +1020,33 @@
       "socratic_questions": [
         "How does the Coriolis effect alter the path of wind across different hemispheres?",
         "Why must cloud droplets encounter condensation nuclei before coalescing into falling raindrops?",
-        "What physical collisions within a cumulonimbus cloud separate positive and negative electrical charges?"
+        "What physical collisions within a cumulonimbus cloud separate positive and negative electrical charges?",
+        "What happens to the speed of horizontal wind when isobars are packed closely together on a surface chart?",
+        "Under what condition does a cloud droplet grow heavy enough to overcome updrafts and fall as rain?",
+        "What mechanism separates positive and negative electrical charges inside a towering cumulonimbus cloud?",
+        "Which internal feature of a cut hailstone reveals how many times updrafts cycled it through the storm?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Lightning strikes from cloud to ground exclusively without traveling upward or through cloud channels.",
+          "fact": "Hail forms when powerful thunderstorm updrafts repeatedly cycle ice pellets above freezing levels."
+        },
+        {
+          "misconception": "Wind blows directly from low-pressure centers toward high-pressure centers across the Earth's surface.",
+          "fact": "Pressure gradient forces push air from high pressure toward low pressure, while Earth's rotation deflects its path."
+        },
+        {
+          "misconception": "Hailstones form only during freezing winter blizzards when surface temperatures drop below 32 degrees.",
+          "fact": "Hail forms inside warm-season thunderstorms when violent updrafts loft raindrops repeatedly above the high altitude freezing level."
+        },
+        {
+          "misconception": "Thunder is caused by two separate clouds colliding violently in the middle of a summer storm.",
+          "fact": "A lightning channel superheats surrounding air to roughly 50,000 degrees Fahrenheit, creating a supersonic shock wave heard as thunder."
+        },
+        {
+          "misconception": "Water vapor condenses into raindrops in completely clean air without needing any microscopic particles.",
+          "fact": "Cloud droplets require microscopic condensation nuclei such as dust, sea salt, or pollen to form and coalesce into rain."
+        }
       ]
     },
     {
@@ -983,9 +1103,7 @@
       },
       "common_misconception_pair": {
         "misconception": "All high altitude clouds produce active surface rain and heavy localized snowstorms.",
-        "fact": "Cumulonimbus clouds possess intense vertical development reaching into the stratosphere despite having low bases.",
-        "myth": "All high altitude clouds produce active surface rain and heavy localized snowstorms.",
-        "fact_correction": "Cumulonimbus clouds possess intense vertical development reaching into the stratosphere despite having low bases."
+        "fact": "Cumulonimbus clouds possess intense vertical development reaching into the stratosphere despite having low bases."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1021,44 +1139,44 @@
         "Step 4 - Weather Correlation: Correlate observed cloud genera against imminent frontal shifts precipitation probabilities and atmospheric stability."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 6",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Cloud Classifications and Weather Patterns"
+        "Official Weather merit badge pamphlet and daily observation log for Req 6.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Cloud Classifications and Weather Patterns."
       ],
       "comparison_data": {
-        "left_header": "High Wispy Ice-Crystal Cirrus Clouds",
-        "right_header": "Low Layered Gray Stratus Clouds",
+        "left_header": "Req 6: Four Altitude Cloud Families",
+        "right_header": "Req 6: Identify High Ice Clouds",
         "left_points": [
           "Four Altitude Cloud Families: Low clouds, middle clouds, high clouds, and clouds that develop vertically (p. 8).",
           "High-Altitude Cirrus Clouds: Meteorologists also consider the shapes of clouds. clouds are The highest clouds are generally above 20,000 feet and are called cirrus clouds (p. 8).",
           "Ice Crystal Cloud Composition: Cirrus clouds are composed entirely of ice crystals because of their low temperatures and the heights where they form (p. 8)."
         ],
         "right_points": [
-          "Step 1 - Identify High Ice Clouds: Cirrus clouds are composed entirely of ice crystals because of their low temperatures and the heights where they form (p. 8).",
-          "Step 2 - Spot Wispy Cirrus Streaks: Cirrocumulus clouds can be arranged in patches or aligned in rows. sometimes called \"mare's tails\" because they look a bit like ahorse's tail (p. 8).",
-          "Step 3 - Observe Atmospheric Air Currents: Earth's atmosphere can be thought of as an ocean (p. 8)."
+          "Identify High Ice Clouds: Cirrus clouds are composed entirely of ice crystals because of their low temperatures and the heights where they form (p. 8).",
+          "Spot Wispy Cirrus Streaks: Cirrocumulus clouds can be arranged in patches or aligned in rows. sometimes called \"mare's tails\" because they look a bit like ahorse's tail (p. 8).",
+          "Observe Atmospheric Air Currents: Earth's atmosphere can be thought of as an ocean (p. 8)."
         ],
         "rows": [
           {
-            "attribute": "Four Altitude Cloud Families",
+            "attribute": "Low Cloud Classifications",
             "left": "Four Altitude Cloud Families: Low clouds, middle clouds, high clouds, and clouds that develop vertically (p. 8).",
-            "right": "Step 1 - Identify High Ice Clouds: Cirrus clouds are composed entirely of ice crystals because of their low temperatures and the heights where they form (p. 8)."
+            "right": "Identify High Ice Clouds: Cirrus clouds are composed entirely of ice crystals because of their low temperatures and the heights where they form (p. 8)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Middle Layer Forms",
             "left": "High-Altitude Cirrus Clouds: Meteorologists also consider the shapes of clouds. clouds are The highest clouds are generally above 20,000 feet and are called cirrus clouds (p. 8).",
-            "right": "Step 2 - Spot Wispy Cirrus Streaks: Cirrocumulus clouds can be arranged in patches or aligned in rows. sometimes called \"mare's tails\" because they look a bit like ahorse's tail (p. 8)."
+            "right": "Spot Wispy Cirrus Streaks: Cirrocumulus clouds can be arranged in patches or aligned in rows. sometimes called \"mare's tails\" because they look a bit like ahorse's tail (p. 8)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "High Cirrus Structures",
             "left": "Ice Crystal Cloud Composition: Cirrus clouds are composed entirely of ice crystals because of their low temperatures and the heights where they form (p. 8).",
-            "right": "Step 3 - Observe Atmospheric Air Currents: Earth's atmosphere can be thought of as an ocean (p. 8)."
+            "right": "Observe Atmospheric Air Currents: Earth's atmosphere can be thought of as an ocean (p. 8)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 6 Exemplar Workbook Entry: Cloud Classifications and Weather Patterns",
+        "title": "Weather Req 6 Exemplar Workbook Entry: Cloud",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Four Altitude Cloud Families": "Low clouds, middle clouds, high clouds, and clouds that develop vertically (p. 8).",
@@ -1101,7 +1219,33 @@
       "socratic_questions": [
         "Why do high level cirrus clouds consist of ice crystals instead of liquid droplets?",
         "What weather changes are forecasted when high thin cirrostratus clouds produce solar halos?",
-        "How do stratocumulus rolls indicate boundary layer moisture trapped beneath temperature inversion layers?"
+        "In what specific ways do stratocumulus rolls indicate boundary layer moisture trapped beneath temperature inversion layers?",
+        "Which cloud prefix designates middle-level formations positioned between 6,500 and 20,000 feet?",
+        "What happens to fair-weather cumulus clouds when strong afternoon convection turns them into cumulonimbus?",
+        "Which physical indicator on a high cirrus cloud warns that a warm front will arrive within 24 hours?",
+        "Under what condition does a low stratus deck produce steady drizzle rather than convective lightning?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "All high altitude clouds produce active surface rain and heavy localized snowstorms.",
+          "fact": "Cumulonimbus clouds possess intense vertical development reaching into the stratosphere despite having low bases."
+        },
+        {
+          "misconception": "High-altitude cirrus clouds are composed of warm liquid raindrops suspended in calm upper air.",
+          "fact": "Cirrus clouds form above 20,000 feet where subfreezing temperatures freeze moisture into thin, wispy ice crystals."
+        },
+        {
+          "misconception": "Every cloud with the Latin root cumulus in its name produces immediate heavy rain and lightning.",
+          "fact": "Cumulus humilis clouds indicate fair weather with mild updrafts, whereas only cumulonimbus clouds generate thunderstorms."
+        },
+        {
+          "misconception": "Altostratus clouds sit directly on the ground as valley fog and block visibility on hiking trails.",
+          "fact": "Altostratus clouds form a gray or blue-gray sheet in the middle troposphere that dimly reveals the sun as a diffuse disk."
+        },
+        {
+          "misconception": "Anvil tops on cumulonimbus clouds spread outward because surface winds push the base of the storm.",
+          "fact": "Rising storm updrafts hit the stable tropopause ceiling and spread horizontally with high-altitude jet stream winds."
+        }
       ]
     },
     {
@@ -1162,9 +1306,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Evaporation from oceans is the only process that returns moisture to the atmosphere.",
-        "fact": "Transpiration from plant leaves releases vast quantities of water vapor into the atmosphere.",
-        "myth": "Evaporation from oceans is the only process that returns moisture to the atmosphere.",
-        "fact_correction": "Transpiration from plant leaves releases vast quantities of water vapor into the atmosphere."
+        "fact": "Transpiration from plant leaves releases vast quantities of water vapor into the atmosphere."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1200,44 +1342,44 @@
         "Step 4 - Ground Flow Explanation: Trace rain runoff percolation through soil matrices back into streams rivers and oceans."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 7",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Diagramming the Hydrologic Water Cycle"
+        "Official Weather merit badge pamphlet and daily observation log for Req 7.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Diagramming the Hydrologic Water Cycle."
       ],
       "comparison_data": {
-        "left_header": "Ocean Evaporation and Plant Transpiration",
-        "right_header": "Cloud Condensation and Surface Runoff",
+        "left_header": "Req 7: Atmospheric Moisture and Life",
+        "right_header": "Req 7: Diagram Global Water Circulation",
         "left_points": [
           "Atmospheric Moisture and Life: The most important thing about the weather is the moisture it brings (p. 16).",
           "Essential Role of Rainfall: The wind could blow night and day and the temperature could rise and fall, but if no rain fell, Earth would be in real trouble (p. 16).",
           "Earth's Water-Circulating System: Fortunately, in addition to a wonderful air-circulating system, Earth has a wonderful water-circulating system (p. 16)."
         ],
         "right_points": [
-          "Step 1 - Diagram Global Water Circulation: Fortunately, in addition to a wonderful air-circulating system, Earth has a wonderful water-circulating system (p. 16).",
-          "Step 2 - Label Ocean Evaporation Arrows: The water vapor that forms clouds and precipitation comes mostly from evaporation from Earth's oceans (p. 16).",
-          "Step 3 - Include Plant Leaf Transpiration: A small part comes from lakes, streams, and transpiration, that is, the giving off of water by the leaves of green plants (p. 16)."
+          "Diagram Global Water Circulation: Fortunately, in addition to a wonderful air-circulating system, Earth has a wonderful water-circulating system (p. 16).",
+          "Label Ocean Evaporation Arrows: The water vapor that forms clouds and precipitation comes mostly from evaporation from Earth's oceans (p. 16).",
+          "Include Plant Leaf Transpiration: A small part comes from lakes, streams, and transpiration, that is, the giving off of water by the leaves of green plants (p. 16)."
         ],
         "rows": [
           {
-            "attribute": "Atmospheric Moisture and Life",
+            "attribute": "Solar Evaporation Drive",
             "left": "Atmospheric Moisture and Life: The most important thing about the weather is the moisture it brings (p. 16).",
-            "right": "Step 1 - Diagram Global Water Circulation: Fortunately, in addition to a wonderful air-circulating system, Earth has a wonderful water-circulating system (p. 16)."
+            "right": "Diagram Global Water Circulation: Fortunately, in addition to a wonderful air-circulating system, Earth has a wonderful water-circulating system (p. 16)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Vegetation Transpiration Cycles",
             "left": "Essential Role of Rainfall: The wind could blow night and day and the temperature could rise and fall, but if no rain fell, Earth would be in real trouble (p. 16).",
-            "right": "Step 2 - Label Ocean Evaporation Arrows: The water vapor that forms clouds and precipitation comes mostly from evaporation from Earth's oceans (p. 16)."
+            "right": "Label Ocean Evaporation Arrows: The water vapor that forms clouds and precipitation comes mostly from evaporation from Earth's oceans (p. 16)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Atmospheric Condensation Steps",
             "left": "Earth's Water-Circulating System: Fortunately, in addition to a wonderful air-circulating system, Earth has a wonderful water-circulating system (p. 16).",
-            "right": "Step 3 - Include Plant Leaf Transpiration: A small part comes from lakes, streams, and transpiration, that is, the giving off of water by the leaves of green plants (p. 16)."
+            "right": "Include Plant Leaf Transpiration: A small part comes from lakes, streams, and transpiration, that is, the giving off of water by the leaves of green plants (p. 16)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 7 Exemplar Workbook Entry: Diagramming the Hydrologic Water Cycle",
+        "title": "Weather Req 7 Exemplar Workbook Entry: Diagramming",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Atmospheric Moisture and Life": "The most important thing about the weather is the moisture it brings (p. 16).",
@@ -1280,7 +1422,33 @@
       "socratic_questions": [
         "How does vegetation cover alter the volume of water vapor returned through transpiration?",
         "What atmospheric conditions determine whether condensed cloud moisture reaches the ground without evaporating?",
-        "Why is solar radiation considered the primary engine powering the global hydrologic cycle?"
+        "Why is solar radiation considered the primary engine powering the global hydrologic cycle?",
+        "What happens to latent heat energy when liquid ocean water evaporates into invisible water vapor?",
+        "Which biological pathway moves soil moisture through plant roots and leaf stomata into the atmosphere?",
+        "Under what condition does snowpack transition directly into water vapor through sublimation without melting?",
+        "What surface characteristic determines whether heavy rainfall infiltrates into groundwater or becomes runoff?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Evaporation from oceans is the only process that returns moisture to the atmosphere.",
+          "fact": "Transpiration from plant leaves releases vast quantities of water vapor into the atmosphere."
+        },
+        {
+          "misconception": "Evaporation releases heat into the surrounding air, while condensation absorbs heat from the cloud.",
+          "fact": "Evaporation absorbs latent heat from the surface to break molecular bonds, and condensation releases that heat into the air."
+        },
+        {
+          "misconception": "Sublimation occurs when liquid rain freezes instantly upon striking a subfreezing tree branch or road.",
+          "fact": "Sublimation is the direct phase change of solid ice or snow into water vapor without passing through a liquid state."
+        },
+        {
+          "misconception": "Earth creates brand-new water molecules during every thunderstorm to replace moisture lost to space.",
+          "fact": "Earth's hydrologic system is a closed loop that continuously recycles the same fixed supply of water across phase changes."
+        },
+        {
+          "misconception": "Groundwater sits in vast open underground caverns that flow like surface rivers beneath every continent.",
+          "fact": "Most groundwater percolates slowly through microscopic pores and fractures inside gravel, sand, and permeable bedrock aquifers."
+        }
       ]
     },
     {
@@ -1339,9 +1507,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Human land development and industrial emissions affect only indoor air quality without altering climates.",
-        "fact": "Urban concrete and asphalt retain heat, creating localized microclimates known as urban heat islands.",
-        "myth": "Human land development and industrial emissions affect only indoor air quality without altering climates.",
-        "fact_correction": "Urban concrete and asphalt retain heat, creating localized microclimates known as urban heat islands."
+        "fact": "Urban concrete and asphalt retain heat, creating localized microclimates known as urban heat islands."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1377,44 +1543,44 @@
         "Step 4 - Societal Impact Assessment: Correlate human induced climate shifts with drought frequencies coastal flooding and agricultural disruption."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 8",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Human Impacts on Environment and Climate"
+        "Official Weather merit badge pamphlet and daily observation log for Req 8.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Human Impacts on Environment and Climate."
       ],
       "comparison_data": {
-        "left_header": "Fossil Fuel Emissions and Deforestation",
-        "right_header": "Urban Heat Islands and Acid Rain",
+        "left_header": "Req 8: Local Weather Activity Limits",
+        "right_header": "Req 8: Assess Human Climate Impacts",
         "left_points": [
           "Local Weather Activity Limits: A rainy day will keep you from mowing the lawn or playing a baseball game (p. 66).",
           "Heat Wave Outdoor Risks: A serious heat wave could prevent your Scout troop from taking a hiking trip (p. 66).",
           "Occupational Sensitivity to Weather: For people in some occupations, however, the weather forecast is vital (p. 66)."
         ],
         "right_points": [
-          "Step 1 - Assess Human Climate Impacts: For people in some occupations, however, the weather forecast is vital (p. 66).",
-          "Step 2 - Evaluate Community Weather Risks: Planning ahead for weather conditions can mean the difference between profit and loss or even life and death (p. 66).",
-          "Step 3 - Design Energy-Efficient Buildings: Climate information helps experts lay out airport runways and determine heating and cooling needs for houses, factories (p. 66)."
+          "Assess Human Climate Impacts: For people in some occupations, however, the weather forecast is vital (p. 66).",
+          "Evaluate Community Weather Risks: Planning ahead for weather conditions can mean the difference between profit and loss or even life and death (p. 66).",
+          "Design Energy-Efficient Buildings: Climate information helps experts lay out airport runways and determine heating and cooling needs for houses, factories (p. 66)."
         ],
         "rows": [
           {
-            "attribute": "Local Weather Activity Limits",
+            "attribute": "Urban Island Effects",
             "left": "Local Weather Activity Limits: A rainy day will keep you from mowing the lawn or playing a baseball game (p. 66).",
-            "right": "Step 1 - Assess Human Climate Impacts: For people in some occupations, however, the weather forecast is vital (p. 66)."
+            "right": "Assess Human Climate Impacts: For people in some occupations, however, the weather forecast is vital (p. 66)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Forest Canopy Removal",
             "left": "Heat Wave Outdoor Risks: A serious heat wave could prevent your Scout troop from taking a hiking trip (p. 66).",
-            "right": "Step 2 - Evaluate Community Weather Risks: Planning ahead for weather conditions can mean the difference between profit and loss or even life and death (p. 66)."
+            "right": "Evaluate Community Weather Risks: Planning ahead for weather conditions can mean the difference between profit and loss or even life and death (p. 66)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Particulate Cloud Seeding",
             "left": "Occupational Sensitivity to Weather: For people in some occupations, however, the weather forecast is vital (p. 66).",
-            "right": "Step 3 - Design Energy-Efficient Buildings: Climate information helps experts lay out airport runways and determine heating and cooling needs for houses, factories (p. 66)."
+            "right": "Design Energy-Efficient Buildings: Climate information helps experts lay out airport runways and determine heating and cooling needs for houses, factories (p. 66)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 8 Exemplar Workbook Entry: Human Impacts on Environment and Climate",
+        "title": "Weather Req 8 Exemplar Workbook Entry: Human Impacts",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Local Weather Activity Limits": "A rainy day will keep you from mowing the lawn or playing a baseball game (p. 66).",
@@ -1457,7 +1623,33 @@
       "socratic_questions": [
         "How does replacing deciduous forests with commercial asphalt parking lots alter local temperature readings?",
         "Why do elevated atmospheric greenhouse gas levels impede Earth natural outgoing infrared radiation loss?",
-        "In what ways do industrial particulate aerosols alter cloud droplet size and precipitation frequency?"
+        "In what ways do industrial particulate aerosols alter cloud droplet size and precipitation frequency?",
+        "What happens to nighttime temperatures when dark asphalt and concrete replace vegetation in a city?",
+        "Which atmospheric wavelength band do greenhouse gases absorb and re-emit back toward Earth's surface?",
+        "Under what condition does sulfur dioxide and nitrogen oxide exhaust lower the pH of downwind rainfall?",
+        "What effect does large-scale deforestation have on local transpiration rates and global carbon storage?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Human land development and industrial emissions affect only indoor air quality without altering climates.",
+          "fact": "Urban concrete and asphalt retain heat, creating localized microclimates known as urban heat islands."
+        },
+        {
+          "misconception": "Stratospheric ozone depletion is the primary driver of global surface warming and the greenhouse effect.",
+          "fact": "Ozone depletion increases ultraviolet radiation reaching Earth, whereas greenhouse warming comes from heat-trapping carbon gases."
+        },
+        {
+          "misconception": "Unpolluted natural rainwater has a strictly neutral pH of 7.0 before industrial emissions touch it.",
+          "fact": "Natural rainwater is slightly acidic around pH 5.6 because atmospheric carbon dioxide dissolves to form weak carbonic acid."
+        },
+        {
+          "misconception": "Urban heat islands occur primarily because tall skyscrapers block high-altitude winds from cooling streets.",
+          "fact": "Dark pavement and roofing absorb solar radiation all day and re-radiate stored thermal energy throughout the night."
+        },
+        {
+          "misconception": "Earth's atmosphere would maintain a comfortable mild temperature even if all greenhouse gases disappeared.",
+          "fact": "Without natural greenhouse gases trapping outgoing infrared heat, Earth's average surface temperature would plunge below zero."
+        }
       ]
     },
     {
@@ -1516,9 +1708,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Earth experiences hot summer weather because the planet orbits physically closer to the Sun.",
-        "fact": "Earth tilted axis maintains constant spatial orientation while orbiting, altering hemispheric solar incidence angles.",
-        "myth": "Earth experiences hot summer weather because the planet orbits physically closer to the Sun.",
-        "fact_correction": "Earth tilted axis maintains constant spatial orientation while orbiting, altering hemispheric solar incidence angles."
+        "fact": "Earth tilted axis maintains constant spatial orientation while orbiting, altering hemispheric solar incidence angles."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1554,44 +1744,44 @@
         "Step 4 - Polar Comparison: Explain how extreme low sun angles create cold polar climates despite continuous daylight."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 9",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Earth's Axial Tilt and Climate Zones"
+        "Official Weather merit badge pamphlet and daily observation log for Req 9.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Earth's Axial Tilt and Climate Zones."
       ],
       "comparison_data": {
-        "left_header": "Direct Overhead Equatorial Solar Rays",
-        "right_header": "Low-Angle Polar Solar Radiation",
+        "left_header": "Req 9: Short-Term Atmospheric Conditions",
+        "right_header": "Req 9: Examine Solar Incidence Angles",
         "left_points": [
           "Short-Term Atmospheric Conditions: Recall that weather is the condition of the atmosphere over aparticular area for a short time (p. 66).",
           "Thirty-Year Regional Climate Averages: Climate is the average of the weather over a region for a longer time, such as 30 years (p. 66).",
           "Greek Origin Meaning Solar Angle: The word climate comes from the Greek word klima, meaning \"angle.\" This name was used because the angle at which the sun strikes Earth largely determines (p. 66)."
         ],
         "right_points": [
-          "Step 1 - Examine Solar Incidence Angles: The word climate comes from the Greek word klima, meaning \"angle.\" This name was used because the angle at which the sun strikes Earth largely determines (p. 66).",
-          "Step 2 - Compare Equatorial Heating Intensity: At the equator, the sun is nearly straight overhead most of the year, so most of the equatorial region is hot (p. 66).",
-          "Step 3 - Trace Latitude Temperature Gradients: Pole ward from the equator, the climate gradually shifts from hot to cold (p. 66)."
+          "Examine Solar Incidence Angles: The word climate comes from the Greek word klima, meaning \"angle.\" This name was used because the angle at which the sun strikes Earth largely determines (p. 66).",
+          "Compare Equatorial Heating Intensity: At the equator, the sun is nearly straight overhead most of the year, so most of the equatorial region is hot (p. 66).",
+          "Trace Latitude Temperature Gradients: Pole ward from the equator, the climate gradually shifts from hot to cold (p. 66)."
         ],
         "rows": [
           {
-            "attribute": "Short-Term Atmospheric Conditions",
+            "attribute": "Axial Tilt Constant",
             "left": "Short-Term Atmospheric Conditions: Recall that weather is the condition of the atmosphere over aparticular area for a short time (p. 66).",
-            "right": "Step 1 - Examine Solar Incidence Angles: The word climate comes from the Greek word klima, meaning \"angle.\" This name was used because the angle at which the sun strikes Earth largely determines (p. 66)."
+            "right": "Examine Solar Incidence Angles: The word climate comes from the Greek word klima, meaning \"angle.\" This name was used because the angle at which the sun strikes Earth largely determines (p. 66)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Equatorial Solar Intensity",
             "left": "Thirty-Year Regional Climate Averages: Climate is the average of the weather over a region for a longer time, such as 30 years (p. 66).",
-            "right": "Step 2 - Compare Equatorial Heating Intensity: At the equator, the sun is nearly straight overhead most of the year, so most of the equatorial region is hot (p. 66)."
+            "right": "Compare Equatorial Heating Intensity: At the equator, the sun is nearly straight overhead most of the year, so most of the equatorial region is hot (p. 66)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Polar Oblique Diffusion",
             "left": "Greek Origin Meaning Solar Angle: The word climate comes from the Greek word klima, meaning \"angle.\" This name was used because the angle at which the sun strikes Earth largely determines (p. 66).",
-            "right": "Step 3 - Trace Latitude Temperature Gradients: Pole ward from the equator, the climate gradually shifts from hot to cold (p. 66)."
+            "right": "Trace Latitude Temperature Gradients: Pole ward from the equator, the climate gradually shifts from hot to cold (p. 66)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 9 Exemplar Workbook Entry: Earth's Axial Tilt and Climate Zones",
+        "title": "Weather Req 9 Exemplar Workbook Entry: Earth's Axial",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Short-Term Atmospheric Conditions": "Recall that weather is the condition of the atmosphere over aparticular area for a short time (p. 66).",
@@ -1634,7 +1824,33 @@
       "socratic_questions": [
         "Why do equatorial regions experience minimal seasonal temperature variation compared to temperate zones?",
         "How does solar beam spreading at high latitudes reduce the heating efficiency of sunlight?",
-        "What would happen to global seasonal cycles if Earth rotational axis was completely vertical?"
+        "What would happen to global seasonal cycles if Earth rotational axis was completely vertical?",
+        "What happens to the surface area heated by a sunbeam when sunlight strikes near the poles at a low angle?",
+        "Why does the equatorial zone experience minimal day-length changes throughout Earth's annual orbit around the sun?",
+        "Under what orbital condition do both the Northern and Southern Hemispheres receive equal hours of daylight?",
+        "Which latitude zone experiences the greatest seasonal shift in solar elevation angle between June and December?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Earth experiences hot summer weather because the planet orbits physically closer to the Sun.",
+          "fact": "Earth tilted axis maintains constant spatial orientation while orbiting, altering hemispheric solar incidence angles."
+        },
+        {
+          "misconception": "Summer occurs in the Northern Hemisphere because Earth orbits closer to the sun in July than in January.",
+          "fact": "Earth is actually farthest from the sun in July; summer heat comes from the 23.5-degree axial tilt angling a hemisphere toward the sun."
+        },
+        {
+          "misconception": "Earth's axis flips back and forth during the year to point different hemispheres toward the sun.",
+          "fact": "Earth's axis stays pointed at a fixed direction near Polaris all year, so its orientation relative to the sun changes as Earth orbits."
+        },
+        {
+          "misconception": "Polar regions remain cold during summer even with 24-hour daylight only because of thick ice caps.",
+          "fact": "Low solar angles spread sunlight over a huge area and pass through more atmosphere, while snow and ice reflect most incoming solar energy."
+        },
+        {
+          "misconception": "Equatorial regions experience four distinct temperature seasons just like mid-latitude temperate zones.",
+          "fact": "Near the equator, the sun remains high overhead all year, producing warm year-round temperatures and wet or dry seasons instead."
+        }
       ]
     },
     {
@@ -1700,9 +1916,7 @@
           "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)",
           "common_misconception_pair": {
             "misconception": "Placing a rain gauge right next to an exterior house wall ensures accurate readings.",
-            "fact": "Rain gauges must be elevated above ground level to eliminate splashing from surrounding soil.",
-            "myth": "Placing a rain gauge right next to an exterior house wall ensures accurate readings.",
-            "fact_correction": "Rain gauges must be elevated above ground level to eliminate splashing from surrounding soil."
+            "fact": "Rain gauges must be elevated above ground level to eliminate splashing from surrounding soil."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1782,9 +1996,7 @@
           "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)",
           "common_misconception_pair": {
             "misconception": "Television weathercasters create every weather prediction independently without utilizing federal National Weather Service data.",
-            "fact": "National Weather Service stations launch automated weather balloons twice daily to gather upper atmospheric profiles.",
-            "myth": "Television weathercasters create every weather prediction independently without utilizing federal National Weather Service data.",
-            "fact_correction": "National Weather Service stations launch automated weather balloons twice daily to gather upper atmospheric profiles."
+            "fact": "National Weather Service stations launch automated weather balloons twice daily to gather upper atmospheric profiles."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1884,9 +2096,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Homebuilt weather instruments provide identical precision and sensor responsiveness as certified airport meteorological stations.",
-        "fact": "Hygrometer horsehair or synthetic fibers stretch when humidity increases, enabling mechanical moisture measurement.",
-        "myth": "Homebuilt weather instruments provide identical precision and sensor responsiveness as certified airport meteorological stations.",
-        "fact_correction": "Hygrometer horsehair or synthetic fibers stretch when humidity increases, enabling mechanical moisture measurement."
+        "fact": "Hygrometer horsehair or synthetic fibers stretch when humidity increases, enabling mechanical moisture measurement."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1927,14 +2137,14 @@
         "Step 4 - Comparative Audit: Compare recorded home data against professional National Weather Service station logs and models."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 10",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Weather Instruments and Professional Visits"
+        "Official Weather merit badge pamphlet and daily observation log for Req 10.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Weather Instruments and Professional Visits."
       ],
       "comparison_data": {
-        "left_header": "Req 10a: Meteorological Instrument Fabrica",
-        "right_header": "Req 10b: Operational Meteorology Facility",
+        "left_header": "Req 10a: Meteorological Instrument",
+        "right_header": "Req 10b: Operational Meteorology",
         "left_points": [
           "(10a) Meteorological Instrument Fabrication and Logging: Building an instrument such as a rain gauge or anemometer requires sturdy construction and unobstructed outdoor placement. Maintaining a seven day daily log trains scouts to record precise barometric, wind, and precipitation trends."
         ],
@@ -1943,28 +2153,28 @@
         ],
         "rows": [
           {
-            "attribute": "Build Instrument and Log Weather",
-            "left": "(10a) Build Instrument and Log Weather: Keep a daily weatherlog, similar to the one shown, for at least a week (p. 61).",
-            "right": "(10b) Visit Weather Office or Meteorologist: If possible, record observations for a month (p. 61)."
+            "attribute": "Anemometer Calibration Protocols",
+            "left": "(10a) Meteorological Instrument Fabrication and Logging: Building an instrument such as a rain gauge or anemometer requires sturdy construction and unobstructed outdoor placement. Maintaining a seven day daily log trains scouts to record precise barometric, wind, and precipitation trends.",
+            "right": "(10b) Operational Meteorology Facility Field Study: Visiting a weather forecasting facility exposes scouts to advanced Doppler radar imagery, computer numerical models, and upper air soundings. Consulting a professional meteorologist reveals how regional forecast offices issue timely life safety warnings."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Tracking Daily Weather Elements: Daily observations of temperature, wind, pressure, clouds, and rainfall can help you understand how the atmosphere behaves (p. 61).",
-            "right": "Step 2 - Continue Monthly Weather Tracking: If possible, record observations for a month (p. 61)."
+            "attribute": "Rain Gauge Alignment",
+            "left": "Req 10a: Meteorological Instrument: Building an instrument such as a rain gauge or anemometer requires sturdy construction and unobstructed outdoor placement. Maintaining a seven day daily log trains scouts to record precise barometric, wind, and precipitation trends.",
+            "right": "Req 10b: Operational Meteorology: Visiting a weather forecasting facility exposes scouts to advanced Doppler radar imagery, computer numerical models, and upper air soundings. Consulting a professional meteorologist reveals how regional forecast offices issue timely life safety warnings."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Maintaining Weekly Weather Logs: Keep a daily weatherlog, similar to the one shown, for at least a week (p. 61).",
-            "right": "Step 3 - Combine Instrument and Broadcast Data: You can obtain readings from your own instruments, from local television or radio, and from internet sites devoted to meteorology (p. 61)."
+            "attribute": "Hygrometer Tension Mechanics",
+            "left": "Anemometer Calibration Protocols: Calibrated anemometer cups spin at rotational velocities proportional to horizontal wind speed.",
+            "right": "Rain Gauge Alignment: Rain gauge collection funnels must sit level away from overhanging trees or structures."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 10 Exemplar Workbook Entry: Weather Instruments and Professional Visits",
+        "title": "Weather Req 10 Exemplar Workbook Entry: Weather",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 10a - Meteorological Instrument Fabric": "Building an instrument such as a rain gauge or anemometer requires sturdy construction and unobstructed outdoor placement. Maintaining a seven day daily log trains scouts to record precise barometric, wind, and precipitation trends.",
-          "Req 10b - Operational Meteorology Facility": "Visiting a weather forecasting facility exposes scouts to advanced Doppler radar imagery, computer numerical models, and upper air soundings. Consulting a professional meteorologist reveals how regional forecast offices issue timely life safety warnings."
+          "Req 10a - Meteorological Instrument": "Building an instrument such as a rain gauge or anemometer requires sturdy construction and unobstructed outdoor placement. Maintaining a seven day daily log trains scouts to record precise barometric, wind, and precipitation trends.",
+          "Req 10b - Operational Meteorology": "Visiting a weather forecasting facility exposes scouts to advanced Doppler radar imagery, computer numerical models, and upper air soundings. Consulting a professional meteorologist reveals how regional forecast offices issue timely life safety warnings."
         },
         "sample_output": "Weather Instruments and Professional Visits: Keep a daily weatherlog, similar to the one shown, for at least a week (p. 61).",
         "counselor_tip": "For Weather Requirement 10 (Weather Instruments and Professional Visits), verify the Scout's own observations and specific pamphlet details (Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62))."
@@ -2001,7 +2211,33 @@
       "socratic_questions": [
         "Why must a rain gauge be installed away from fences, trees, and steep roofs?",
         "How does calibrating a homebuilt anemometer against a vehicle speedometer introduce aerodynamic errors?",
-        "What specific atmospheric data do meteorologists collect using weather balloon radiosonde packages?"
+        "What specific atmospheric data do meteorologists collect using weather balloon radiosonde packages?",
+        "Where should a Scout position a homemade rain gauge so nearby trees or roofs do not distort rainfall totals?",
+        "Why must a wind vane have a larger tail fin surface area than its pointer tip to indicate wind direction?",
+        "What happens to the wet-bulb temperature on a two-thermometer hygrometer when surrounding air is very dry?",
+        "What measurement confirms that your homemade anemometer or rain gauge logs consistent daily observations?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Homebuilt weather instruments provide identical precision and sensor responsiveness as certified airport meteorological stations.",
+          "fact": "Hygrometer horsehair or synthetic fibers stretch when humidity increases, enabling mechanical moisture measurement."
+        },
+        {
+          "misconception": "A north wind on a weather log means the air is blowing toward the north.",
+          "fact": "Wind is always named for the compass direction it blows from, so a north wind flows from the north toward the south."
+        },
+        {
+          "misconception": "Placing a rain gauge directly under a porch eave or tree protects it from wind and improves accuracy.",
+          "fact": "Overhead roofs and trees block rain or drip extra water; place gauges in open ground away from tall obstacles."
+        },
+        {
+          "misconception": "Taking daily weather readings at random hours each day still produces a valid seven-day trend log.",
+          "fact": "Temperature, humidity, and wind follow daily solar cycles, so logging at the same time each day is required for valid comparisons."
+        },
+        {
+          "misconception": "A cup anemometer measures compass wind direction while a wind vane measures wind speed in knots.",
+          "fact": "A rotating cup anemometer measures wind speed from rotation rate, whereas a balanced wind vane points into the wind to show direction."
+        }
       ]
     },
     {
@@ -2053,9 +2289,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Rubber shoe soles protect an outdoor hiker from being struck by lethal cloud to ground lightning.",
-        "fact": "The thirty thirty rule mandates seeking shelter when thunder occurs within thirty seconds of flashes.",
-        "myth": "Rubber shoe soles protect an outdoor hiker from being struck by lethal cloud to ground lightning.",
-        "fact_correction": "The thirty thirty rule mandates seeking shelter when thunder occurs within thirty seconds of flashes."
+        "fact": "The thirty thirty rule mandates seeking shelter when thunder occurs within thirty seconds of flashes."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2091,50 +2325,50 @@
         "Step 4 - Tornado Tactics: Instruct audiences to abandon vehicles and seek interior basements or low ditches outdoors."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 11",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Teaching Outdoor Severe Weather Safety"
+        "Official Weather merit badge pamphlet and daily observation log for Req 11.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Teaching Outdoor Severe Weather Safety."
       ],
       "comparison_data": {
-        "left_header": "Counselor Outline Review and Approval",
-        "right_header": "Five-Minute Unit Safety Presentation",
+        "left_header": "Req 11: Understanding Lightning Hazard",
+        "right_header": "Req 11: Draft Five-Minute Safety Outline",
         "left_points": [
           "Understanding Lightning Hazard Realities: Although lightning can be hazardous, it is not all bad (p. 37).",
           "Nitrogen Conversion in Storms: It changes the air's nitrogen into a form that can be taken up by plants (p. 37).",
           "Dual Role of Thunderstorms: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 37)."
         ],
         "right_points": [
-          "Step 1 - Draft Five-Minute Safety Outline: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 37).",
-          "Step 2 - Highlight High-Risk Outdoor Locations: Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 37).",
-          "Step 3 - Explain Path of Least Resistance: Because lightning follows the path of least resistance, objects closer to the cloud are more likely to be struck (p. 37)."
+          "Draft Five-Minute Safety Outline: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 37).",
+          "Highlight High-Risk Outdoor Locations: Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 37).",
+          "Explain Path of Least Resistance: Because lightning follows the path of least resistance, objects closer to the cloud are more likely to be struck (p. 37)."
         ],
         "rows": [
           {
-            "attribute": "Understanding Lightning Hazard Realities",
+            "attribute": "Lightning Evacuation Windows",
             "left": "Understanding Lightning Hazard Realities: Although lightning can be hazardous, it is not all bad (p. 37).",
-            "right": "Step 1 - Draft Five-Minute Safety Outline: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 37)."
+            "right": "Draft Five-Minute Safety Outline: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 37)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Flash Flood Topography",
             "left": "Nitrogen Conversion in Storms: It changes the air's nitrogen into a form that can be taken up by plants (p. 37).",
-            "right": "Step 2 - Highlight High-Risk Outdoor Locations: Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 37)."
+            "right": "Highlight High-Risk Outdoor Locations: Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 37)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Tornado Low Ground",
             "left": "Dual Role of Thunderstorms: Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 37).",
-            "right": "Step 3 - Explain Path of Least Resistance: Because lightning follows the path of least resistance, objects closer to the cloud are more likely to be struck (p. 37)."
+            "right": "Explain Path of Least Resistance: Because lightning follows the path of least resistance, objects closer to the cloud are more likely to be struck (p. 37)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 11 Exemplar Workbook Entry: Teaching Outdoor Severe Weather Safety",
+        "title": "Weather Req 11 Exemplar Workbook Entry: Teaching Outdoor",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Understanding Lightning Hazard Realities": "Although lightning can be hazardous, it is not all bad (p. 37).",
+          "Understanding Lightning Hazard": "Although lightning can be hazardous, it is not all bad (p. 37).",
           "Nitrogen Conversion in Storms": "It changes the air's nitrogen into a form that can be taken up by plants (p. 37).",
           "Dual Role of Thunderstorms": "Thus, athunderstorm can be a natural plant fertilizer as well as a water er (p. 37).",
-          "Predicting High-Probability Strike Locations": "Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 37)."
+          "Predicting High-Probability Strike": "Although the location where lightning will strike is not predictable, some places are much more likely to be struck than others (p. 37)."
         },
         "sample_output": "Teaching Outdoor Severe Weather Safety: Although lightning can be hazardous, it is not all bad (p. 37).",
         "counselor_tip": "For Weather Requirement 11 (Teaching Outdoor Severe Weather Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Weather Merit Badge Pamphlet (p. 37, p. 38))."
@@ -2171,7 +2405,33 @@
       "socratic_questions": [
         "Why are steep drainage gullies particularly deadly during sudden mountain cloudbursts miles upstream?",
         "What physical posture minimizes lightning strike injury risk if trapped outdoors without accessible shelter?",
-        "How do you explain the difference between tornado watches and warnings to Cub Scouts clearly?"
+        "In what specific ways do you explain the difference between tornado watches and warnings to Cub Scouts clearly?",
+        "Why is it dangerous to shelter under an isolated tall tree or cliff overhang when lightning is striking nearby?",
+        "Under what thunder-to-lightning interval should your patrol immediately suspend outdoor ridge hikes?",
+        "Where should a Scout position themselves if caught in the open during a tornado with no sturdy building nearby?",
+        "Which physical indicator warns hikers in a dry desert canyon that a flash flood may arrive from miles upstream?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Rubber shoe soles protect an outdoor hiker from being struck by lethal cloud to ground lightning.",
+          "fact": "The thirty thirty rule mandates seeking shelter when thunder occurs within thirty seconds of flashes."
+        },
+        {
+          "misconception": "Highway overpasses provide safe overhead shelter from flying debris and strong winds during a tornado.",
+          "fact": "Wind speeds accelerate through the narrow gap under an overpass and channel lethal debris directly into anyone hiding beneath the girders."
+        },
+        {
+          "misconception": "Rubber-soled hiking boots insulate a Scout in an open meadow from a direct lightning strike.",
+          "fact": "A lightning bolt travels through miles of air and easily arcs through a thin rubber boot sole, so moving to a safe shelter is essential."
+        },
+        {
+          "misconception": "Lying flat on the ground in an open field is the safest posture during an active lightning storm.",
+          "fact": "Lying flat maximizes body contact with ground currents radiating from a nearby strike; crouch low on the balls of your feet instead."
+        },
+        {
+          "misconception": "Two feet of moving floodwater across a camp road is safe to drive through in a heavy pickup truck.",
+          "fact": "Eighteen to twenty-four inches of rushing water can float and sweep away most SUVs and pickup trucks; never drive across flooded roads."
+        }
       ]
     },
     {
@@ -2244,9 +2504,7 @@
       },
       "common_misconception_pair": {
         "misconception": "All professional weather careers consist entirely of on air television news broadcasts.",
-        "fact": "Operational meteorologists frequently complete specialized degree coursework in atmospheric thermodynamics, physics, and advanced calculus.",
-        "myth": "All professional weather careers consist entirely of on air television news broadcasts.",
-        "fact_correction": "Operational meteorologists frequently complete specialized degree coursework in atmospheric thermodynamics, physics, and advanced calculus."
+        "fact": "Operational meteorologists frequently complete specialized degree coursework in atmospheric thermodynamics, physics, and advanced calculus."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2287,49 +2545,49 @@
         "Step 4 - Professional Synthesis: Summarize daily duties technological tools and operational responsibilities of the chosen meteorological career."
       ],
       "gear_checklist": [
-        "Official Weather merit badge pamphlet and daily observation log for Req 12",
-        "Thermometer, barometer, anemometer, or rain gauge reference instruments",
-        "NOAA synoptic weather charts, cloud identification chart, and ruler",
-        "Completed weather data table and forecast notes for Exploring Careers in Atmospheric Science"
+        "Official Weather merit badge pamphlet and daily observation log for Req 12.",
+        "Thermometer, barometer, anemometer, or rain gauge reference instruments.",
+        "NOAA synoptic weather charts, cloud identification chart, and ruler.",
+        "Completed weather data table and forecast notes for Exploring Careers in Atmospheric Science."
       ],
       "comparison_data": {
-        "left_header": "Operational Forecasting and Broadcast Meteorology",
-        "right_header": "Atmospheric and Climate Research Science",
+        "left_header": "Req 12: Broadcast Television",
+        "right_header": "Req 12: Survey Meteorology Employment",
         "left_points": [
           "Broadcast Television Weathercasters: The meteorologists you probably are most familiar with are the weather newscasters on television (p. 61).",
           "Diverse Meteorology Career Paths: But there are many additional career opportunities for meteorologists (p. 61).",
           "Academic, Private, and Government Roles: Such researchers work for universities, private industry, and the U. S. government (p. 61)."
         ],
         "right_points": [
-          "Step 1 - Survey Meteorology Employment Sectors: Such researchers work for universities, private industry, and the U. S. government (p. 61).",
-          "Step 2 - Research Federal Agency Opportunities: The National Aeronautics and Space Administration (NASA) is just one government agency that uses researchers (p. 61).",
-          "Step 3 - Investigate Environmental Research Duties: Many researchers analyze levels of pollution in the oceans and atmosphere (p. 61)."
+          "Survey Meteorology Employment Sectors: Such researchers work for universities, private industry, and the U. S. government (p. 61).",
+          "Research Federal Agency Opportunities: The National Aeronautics and Space Administration (NASA) is just one government agency that uses researchers (p. 61).",
+          "Investigate Environmental Research Duties: Many researchers analyze levels of pollution in the oceans and atmosphere (p. 61)."
         ],
         "rows": [
           {
-            "attribute": "Broadcast Television Weathercasters",
+            "attribute": "Atmospheric Science Degrees",
             "left": "Broadcast Television Weathercasters: The meteorologists you probably are most familiar with are the weather newscasters on television (p. 61).",
-            "right": "Step 1 - Survey Meteorology Employment Sectors: Such researchers work for universities, private industry, and the U. S. government (p. 61)."
+            "right": "Survey Meteorology Employment Sectors: Such researchers work for universities, private industry, and the U. S. government (p. 61)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Mathematical Foundation Needs",
             "left": "Diverse Meteorology Career Paths: But there are many additional career opportunities for meteorologists (p. 61).",
-            "right": "Step 2 - Research Federal Agency Opportunities: The National Aeronautics and Space Administration (NASA) is just one government agency that uses researchers (p. 61)."
+            "right": "Research Federal Agency Opportunities: The National Aeronautics and Space Administration (NASA) is just one government agency that uses researchers (p. 61)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Diverse Employment Sectors",
             "left": "Academic, Private, and Government Roles: Such researchers work for universities, private industry, and the U. S. government (p. 61).",
-            "right": "Step 3 - Investigate Environmental Research Duties: Many researchers analyze levels of pollution in the oceans and atmosphere (p. 61)."
+            "right": "Investigate Environmental Research Duties: Many researchers analyze levels of pollution in the oceans and atmosphere (p. 61)."
           }
         ]
       },
       "worked_example": {
-        "title": "Weather Req 12 Exemplar Workbook Entry: Exploring Careers in Atmospheric Science",
+        "title": "Weather Req 12 Exemplar Workbook Entry: Exploring",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
           "Broadcast Television Weathercasters": "The meteorologists you probably are most familiar with are the weather newscasters on television (p. 61).",
           "Diverse Meteorology Career Paths": "But there are many additional career opportunities for meteorologists (p. 61).",
-          "Academic, Private, and Government Roles": "Such researchers work for universities, private industry, and the U. S. government (p. 61).",
+          "Academic, Private, and Government": "Such researchers work for universities, private industry, and the U. S. government (p. 61).",
           "NASA Atmospheric Research Scientists": "The National Aeronautics and Space Administration (NASA) is just one government agency that uses researchers (p. 61)."
         },
         "sample_output": "Exploring Careers in Atmospheric Science: The meteorologists you probably are most familiar with are the weather newscasters on television (p. 61).",
@@ -2365,9 +2623,35 @@
       "workbook_visual_caption": "Meteorologist demonstrating an instrument shelter, anemometer, mobile Doppler radar, and synoptic weather map to Scouts.",
       "pamphlet_summary": "Careers in meteorology extend far beyond broadcast television to encompass aviation dispatch, military operations, agricultural forecasting, and numerical modeling. Entering this field requires strong mathematical grounding, a degree in atmospheric science, and proficiency in analyzing complex computer simulation data.",
       "socratic_questions": [
-        "How do private consulting meteorologists help electrical utility companies prepare for winter ice storms?",
+        "In what specific ways do private consulting meteorologists help electrical utility companies prepare for winter ice storms?",
         "What role does computer programming play in developing modern numerical weather prediction algorithms?",
-        "Why do military branches employ dedicated meteorological specialists for tactical flight and sea missions?"
+        "Why do military branches employ dedicated meteorological specialists for tactical flight and sea missions?",
+        "Which university mathematics and physics courses form the core foundation for an operational meteorology degree?",
+        "What daily job duties separate an operational National Weather Service forecaster from a research climatologist?",
+        "Why must a Scout obtain parent or guardian permission before contacting a meteorologist for a career interview?",
+        "Which professional certification or federal qualification standard validates a broadcast or federal meteorologist?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "All professional weather careers consist entirely of on air television news broadcasts.",
+          "fact": "Operational meteorologists frequently complete specialized degree coursework in atmospheric thermodynamics, physics, and advanced calculus."
+        },
+        {
+          "misconception": "Most professional meteorologists work on television news broadcasts reading studio weather maps.",
+          "fact": "Broadcast presenters are a small fraction of the field; most meteorologists work in the National Weather Service, aviation, or research."
+        },
+        {
+          "misconception": "Meteorology degrees require minimal college mathematics because computers generate modern weather forecasts.",
+          "fact": "Atmospheric science requires multivariable calculus, differential equations, and thermodynamics to interpret and improve numerical models."
+        },
+        {
+          "misconception": "Climatologists and operational weather forecasters perform identical daily duties and short-term storm watches.",
+          "fact": "Operational meteorologists forecast hours to days ahead for safety, while climatologists analyze multi-decade atmospheric patterns."
+        },
+        {
+          "misconception": "Meteorologists study meteors and asteroids entering space rather than atmospheric physics and weather.",
+          "fact": "Astronomers study meteors in space, while meteorologists take their title from the Greek word meteoron to study atmospheric weather."
+        }
       ]
     }
   ],

@@ -1,8 +1,8 @@
 # Sports Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Sports.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/sports/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/sports/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -16,7 +16,7 @@
 | **2** | Req 2: Athletic Health Wellness Foundation | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Sports Merit Badge Pamphlet (p. 10, p. 16) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Conditioning Sportsmanship Athlete Values | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Sports Merit Badge Pamphlet (p. 22, p. 25) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Dual Sport Program Selection | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Sports Merit Badge Pamphlet (p. 27, p. 28) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Seasonal Athletic Training Execution | Demonstrate | `Prerequisite / Home & Troop Prep` | **Post-Class Home-Troop Follow-Up** | Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Seasonal Athletic Training Execution | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Sports Merit Badge Pamphlet (p. 45, p. 82) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Sports Careers Lifetime Pursuits | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Sports Merit Badge Pamphlet (p. 25, p. 75) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
@@ -25,7 +25,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Do the following: (a) Explain to your counselor the most likely risks you may encounter while participating in sports and what you should do to anticipate, prevent, mitigate, and respond to those risks. (b) Show that you know first aid or understand the treatment for injuries that could occur while participating in sports, including sprains; strains; muscle cramps; contusions; abrasions; blisters; dehydration; heat reactions; fractures; injured teeth; head, neck, and back injuries; and concussions.
+- [ ] **Station Req 1:** Scout must individually demonstrate mastery of Requirement 1 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -241,10 +241,10 @@
 - **Pamphlet Fact:** Periodized training programs alternate hard training days with rest to allow muscular cellular repair.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Sports merit badge pamphlet and training log for Req 5
-- [ ] Supportive athletic footwear, breathable workout apparel, and water bottle
-- [ ] Stopwatch, measuring tape, and heart-rate or fitness tracking sheet
-- [ ] Recorded baseline and progress measurements for Seasonal Training, Technique, and Competition
+- [ ] Official Sports merit badge pamphlet and training log for Req 5.
+- [ ] Supportive athletic footwear, breathable workout apparel, and water bottle.
+- [ ] Stopwatch, measuring tape, and heart-rate or fitness tracking sheet.
+- [ ] Recorded baseline and progress measurements for Seasonal Training, Technique, and Competition.
 
 ![Team players gather in a tight huddle to review plays during practice.](/assets/pamphlet_images/sports_p045_img1.png)
 

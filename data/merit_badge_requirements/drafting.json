@@ -55,9 +55,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
             "misconception": "Rough preliminary sketches waste project preparation time and offer no practical layout value.",
-            "fact": "Thumbnails establish spatial relationships and scale selection before laying pencil to full sheets.",
-            "myth": "Rough preliminary sketches waste project preparation time and offer no practical layout value.",
-            "fact_correction": "Thumbnails establish spatial relationships and scale selection before laying pencil to full sheets."
+            "fact": "Thumbnails establish spatial relationships and scale selection before laying pencil to full sheets."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -128,9 +126,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
             "misconception": "Decorative calligraphy and lowercase cursive writing are acceptable choices in drafting title blocks.",
-            "fact": "Drafting title blocks require single stroke Gothic lettering created between very faint guidelines.",
-            "myth": "Decorative calligraphy and lowercase cursive writing are acceptable choices in drafting title blocks.",
-            "fact_correction": "Drafting title blocks require single stroke Gothic lettering created between very faint guidelines."
+            "fact": "Drafting title blocks require single stroke Gothic lettering created between very faint guidelines."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -221,9 +217,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Drafting paper borders can be drawn at any arbitrary distance from the edge.",
-        "fact": "Standard border margins measure one half inch on standard letter and tabloid drawing sheets.",
-        "myth": "Drafting paper borders can be drawn at any arbitrary distance from the edge.",
-        "fact_correction": "Standard border margins measure one half inch on standard letter and tabloid drawing sheets."
+        "fact": "Standard border margins measure one half inch on standard letter and tabloid drawing sheets."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -270,28 +264,28 @@
         ],
         "rows": [
           {
-            "attribute": "Rough Sketching for Paper Sizing",
-            "left": "(1a) Rough Sketching for Paper Sizing: Illegible printing can cause the crafts person to overlook critical information (p. 30).",
-            "right": "(1b) Single-Stroke Gothic Title Block Lettering: Before lettering, draw light guidelines on the paper; erase the guidelines after lettering is complete (p. 30)."
+            "attribute": "Border Margins",
+            "left": "(1a) Preliminary Layout Rough Sketch: Scouts create proportional thumbnail sketches to balance view placement, notes, and dimension clearances. Calculating overall object proportions on rough paper ensures selection of appropriate final drawing paper sheets.",
+            "right": "(1b) Title Block Technical Lettering: Title blocks require uniform single stroke Gothic characters crafted within light horizontal guidelines. Scouts record critical technical data including scale, part name, drafter identity, and completion date."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Information in Drawing Notes: Often, more information is contained in the notes than in the drawing itself (p. 30).",
-            "right": "Step 2 - Draw and Erase Guidelines: Before lettering, draw light guidelines on the paper; erase the guidelines after lettering is complete (p. 30)."
+            "attribute": "Sheet Orientation",
+            "left": "Req 1a: Preliminary Layout Rough: Scouts create proportional thumbnail sketches to balance view placement, notes, and dimension clearances. Calculating overall object proportions on rough paper ensures selection of appropriate final drawing paper sheets.",
+            "right": "Req 1b: Title Block Technical: Title blocks require uniform single stroke Gothic characters crafted within light horizontal guidelines. Scouts record critical technical data including scale, part name, drafter identity, and completion date."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Risks of Illegible Printing: Illegible printing can cause the crafts person to overlook critical information (p. 30).",
-            "right": "Step 3 - Keep Lettering Evenly Spaced: Using guidelines helps ensure that lettering will be straight and evenly spaced between the lines (p. 30)."
+            "attribute": "Title Block Location",
+            "left": "Border Margins: Standard technical sheets require uniform margins drawn with hard graphite pencils for precision.",
+            "right": "Sheet Orientation: Landscape orientation provides the maximum horizontal drawing field for standard engineering views."
           }
         ]
       },
       "worked_example": {
-        "title": "Drafting Req 1 Exemplar Workbook Entry: Formatting Borders and Title Blocks",
+        "title": "Drafting Req 1 Exemplar Workbook Entry: Formatting",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 1a - Preliminary Layout Rough Sketch": "Scouts create proportional thumbnail sketches to balance view placement, notes, and dimension clearances. Calculating overall object proportions on rough paper ensures selection of appropriate final drawing paper sheets.",
-          "Req 1b - Title Block Technical Lettering": "Title blocks require uniform single stroke Gothic characters crafted within light horizontal guidelines. Scouts record critical technical data including scale, part name, drafter identity, and completion date."
+          "Req 1a - Preliminary Layout Rough": "Scouts create proportional thumbnail sketches to balance view placement, notes, and dimension clearances. Calculating overall object proportions on rough paper ensures selection of appropriate final drawing paper sheets.",
+          "Req 1b - Title Block Technical": "Title blocks require uniform single stroke Gothic characters crafted within light horizontal guidelines. Scouts record critical technical data including scale, part name, drafter identity, and completion date."
         },
         "sample_output": "Formatting Borders and Title Blocks: Illegible printing can cause the crafts person to overlook critical information (p. 30).",
         "counselor_tip": "For Drafting Requirement 1 (Formatting Borders and Title Blocks), verify the Scout's own observations and specific pamphlet details (Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32))."
@@ -328,7 +322,33 @@
       "socratic_questions": [
         "Why does ANSI specify placing the title block in the lower right corner?",
         "How does proper border layout prevent information loss during document trimming and binding?",
-        "What problems occur on shop floors if drafting sheet sizes lack strict standardization?"
+        "What problems occur on shop floors if drafting sheet sizes lack strict standardization?",
+        "What happens to your orthographic view spacing if you select a sheet size before sketching the part dimensions and layout?",
+        "Which lead grade produces crisp, dense border lines without smudging across the paper when your triangle slides over them?",
+        "Where should a drafter anchor the corners of the vellum sheet with drafting tape to keep the T-square aligned to the edge?",
+        "What measurement confirms that your light guideline spacing matches the standard fraction height for title block lettering?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Drafting paper borders can be drawn at any arbitrary distance from the edge.",
+          "fact": "Standard border margins measure one half inch on standard letter and tabloid drawing sheets."
+        },
+        {
+          "misconception": "Masking tape or transparent office tape holds drawing paper to a drafting board just as cleanly as drafting tape.",
+          "fact": "Standard office and masking tapes have aggressive adhesives that tear paper fibers upon removal, unlike low-tack drafting tape."
+        },
+        {
+          "misconception": "Title block guidelines should be erased after completing single-stroke Gothic lettering so the block looks clean.",
+          "fact": "Light construction guidelines drawn with a hard 4H or 6H lead remain barely visible on the sheet and should never be erased."
+        },
+        {
+          "misconception": "Border lines and construction guidelines use the same pencil lead hardness and line weight across a drawing sheet.",
+          "fact": "Borders require a thick, dark line drawn with a softer F or HB lead, whereas guidelines need an ultra-light 4H or 6H pencil."
+        },
+        {
+          "misconception": "Standard ANSI B-size architectural and engineering sheets measure exactly twice the width and length of an A-size sheet.",
+          "fact": "An ANSI B-size sheet measures 11 by 17 inches, which doubles only the short 8.5-inch side of an 8.5 by 11-inch A-size sheet."
+        }
       ]
     },
     {
@@ -380,9 +400,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)",
           "common_misconception_pair": {
             "misconception": "Architectural drawings rely entirely on engineering decimal scales rather than fractional feet and inches.",
-            "fact": "Architectural floor plans use fractional scales where one quarter inch represents one physical foot.",
-            "myth": "Architectural drawings rely entirely on engineering decimal scales rather than fractional feet and inches.",
-            "fact_correction": "Architectural floor plans use fractional scales where one quarter inch represents one physical foot."
+            "fact": "Architectural floor plans use fractional scales where one quarter inch represents one physical foot."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -459,9 +477,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)",
           "common_misconception_pair": {
             "misconception": "Isometric drawings provide complete dimensions needed for tooling without requiring orthographic projections.",
-            "fact": "Third angle orthographic projection aligns top, front, and right side views perpendicularly to each other.",
-            "myth": "Isometric drawings provide complete dimensions needed for tooling without requiring orthographic projections.",
-            "fact_correction": "Third angle orthographic projection aligns top, front, and right side views perpendicularly to each other."
+            "fact": "Third angle orthographic projection aligns top, front, and right side views perpendicularly to each other."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -536,9 +552,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)",
           "common_misconception_pair": {
             "misconception": "Electrical schematics must depict exact physical component dimensions and wire routing lengths accurately.",
-            "fact": "Electrical schematics display circuit logic and connections using standardized symbols rather than physical part shapes.",
-            "myth": "Electrical schematics must depict exact physical component dimensions and wire routing lengths accurately.",
-            "fact_correction": "Electrical schematics display circuit logic and connections using standardized symbols rather than physical part shapes."
+            "fact": "Electrical schematics display circuit logic and connections using standardized symbols rather than physical part shapes."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -631,9 +645,7 @@
       },
       "common_misconception_pair": {
         "misconception": "All lines on a manual technical manufacturing drawing should have identical darkness and thickness.",
-        "fact": "Manual technical drawings use standardized line weights to communicate object contours, hidden edges, and dimensions.",
-        "myth": "All lines on a manual technical manufacturing drawing should have identical darkness and thickness.",
-        "fact_correction": "Manual technical drawings use standardized line weights to communicate object contours, hidden edges, and dimensions."
+        "fact": "Manual technical drawings use standardized line weights to communicate object contours, hidden edges, and dimensions."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -670,8 +682,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Architectural Scale Construction D",
-        "right_header": "Req 2b: Mechanical Component Orthographic",
+        "left_header": "Req 2a: Architectural Scale Construction",
+        "right_header": "Req 2b: Mechanical Component",
         "left_points": [
           "(2a) Architectural Scale Construction Drawing: Architectural drafting communicates spatial layout, wall thickness, door swings, and fixture locations using architectural scales. Standard floor plans represent building assemblies through convention symbols and precise fractional dimensions."
         ],
@@ -680,29 +692,29 @@
         ],
         "rows": [
           {
-            "attribute": "Architectural Scale Floor Plans",
-            "left": "(2a) Architectural Scale Floor Plans: Although formats differ in style and content, all share a few things in common (p. 24).",
-            "right": "(2b) Mechanical Device Scale Drawings: These days, everything from an automobile engine to a greeting card can have a computer chip (p. 24)."
+            "attribute": "Lead Selection",
+            "left": "(2a) Architectural Scale Construction Drawing: Architectural drafting communicates spatial layout, wall thickness, door swings, and fixture locations using architectural scales. Standard floor plans represent building assemblies through convention symbols and precise fractional dimensions.",
+            "right": "(2b) Mechanical Component Orthographic Drawing: Mechanical drawings show multiple orthographic projections or isometric views to define manufactured component geometry. Drafters apply engineering scales and standard dimensioning rules to specify exact physical tolerances."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Related Circuit Diagram Resources: For more about diagrams, see the Electronics and Radio merit badge pamphlets (p. 24).",
-            "right": "(2c) Electrical Schematics and Material Bills: For more about diagrams, see the Electronics and Radio merit badge pamphlets (p. 24)."
+            "attribute": "Line Contrast",
+            "left": "Req 2a: Architectural Scale: Architectural drafting communicates spatial layout, wall thickness, door swings, and fixture locations using architectural scales. Standard floor plans represent building assemblies through convention symbols and precise fractional dimensions.",
+            "right": "Req 2b: Mechanical Component: Mechanical drawings show multiple orthographic projections or isometric views to define manufactured component geometry. Drafters apply engineering scales and standard dimensioning rules to specify exact physical tolerances."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Drafting Formats for Views: To clearly present the various views and plans, drafters use different types of formats (p. 24).",
-            "right": "Step 3 - Record Essential Sheet Details: They convey important information about the drawing on the sheet (p. 24)."
+            "attribute": "Scale Selection",
+            "left": "Req 2c: Electrical Circuit Schematic: Electrical schematics employ standard graphic symbols to illustrate electronic circuits and interconnection logic. Drafters include comprehensive bills of materials listing part numbers, descriptions, and component quantities.",
+            "right": "Line Contrast: Visible object outlines must display distinct thickness compared to thin construction lines."
           }
         ]
       },
       "worked_example": {
-        "title": "Drafting Req 2 Exemplar Workbook Entry: Manual Pencil Drawings for Manufacturing",
+        "title": "Drafting Req 2 Exemplar Workbook Entry: Manual Pencil",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Architectural Scale Construction": "Architectural drafting communicates spatial layout, wall thickness, door swings, and fixture locations using architectural scales. Standard floor plans represent building assemblies through convention symbols and precise fractional dimensions.",
-          "Req 2b - Mechanical Component Orthographic": "Mechanical drawings show multiple orthographic projections or isometric views to define manufactured component geometry. Drafters apply engineering scales and standard dimensioning rules to specify exact physical tolerances.",
-          "Req 2c - Electrical Circuit Schematic Diag": "Electrical schematics employ standard graphic symbols to illustrate electronic circuits and interconnection logic. Drafters include comprehensive bills of materials listing part numbers, descriptions, and component quantities."
+          "Req 2a - Architectural Scale": "Architectural drafting communicates spatial layout, wall thickness, door swings, and fixture locations using architectural scales. Standard floor plans represent building assemblies through convention symbols and precise fractional dimensions.",
+          "Req 2b - Mechanical Component": "Mechanical drawings show multiple orthographic projections or isometric views to define manufactured component geometry. Drafters apply engineering scales and standard dimensioning rules to specify exact physical tolerances.",
+          "Req 2c - Electrical Circuit Schematic": "Electrical schematics employ standard graphic symbols to illustrate electronic circuits and interconnection logic. Drafters include comprehensive bills of materials listing part numbers, descriptions, and component quantities."
         },
         "sample_output": "Manual Pencil Drawings for Manufacturing: Although formats differ in style and content, all share a few things in common (p. 24).",
         "counselor_tip": "For Drafting Requirement 2 (Manual Pencil Drawings for Manufacturing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50))."
@@ -739,7 +751,33 @@
       "socratic_questions": [
         "Why do drafters use distinct pencil lead hardnesses when producing manual production drawings?",
         "How does proper line weight contrast improve readability for machine operators on shop floors?",
-        "Which specific drafting scale best fits your chosen object onto the formatted sheet?"
+        "Which specific drafting scale best fits your chosen object onto the formatted sheet?",
+        "Under what condition does a hidden line take precedence over a center line when two features align in an orthographic view?",
+        "Why is it dangerous to scale distances directly off a printed manual drawing with a ruler on the manufacturing shop floor?",
+        "Which physical indicator on a triangular architect's scale prevents you from reading the wrong ratio from the opposite end?",
+        "Where should a Scout position extension lines relative to the object outline so a machinist never confuses them with part edges?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "All lines on a manual technical manufacturing drawing should have identical darkness and thickness.",
+          "fact": "Manual technical drawings use standardized line weights to communicate object contours, hidden edges, and dimensions."
+        },
+        {
+          "misconception": "Triangular architect's and engineer's scales serve as straightedges for drawing pencil lines along a T-square.",
+          "fact": "Drawing with a pencil along a scale wears down the calibrated markings and warps the edge; only triangles and T-squares guide lines."
+        },
+        {
+          "misconception": "Extension lines must touch the corners of the visible object lines so the machinist knows where the measurement starts.",
+          "fact": "A visible gap of about one-sixteenth of an inch must separate the object corner from the start of the extension line."
+        },
+        {
+          "misconception": "Repeating the same overall length dimension on both the front and top orthographic views makes a drawing easier to read.",
+          "fact": "Double dimensioning violates ASME standards and causes manufacturing conflicts when tolerances accumulate or one view changes."
+        },
+        {
+          "misconception": "Center lines terminate right at the outer circle edge of a drilled hole in an orthographic mechanical view.",
+          "fact": "Center lines must extend uniformly past the perimeter of the circular feature by about one-eighth to one-quarter of an inch."
+        }
       ]
     },
     {
@@ -791,9 +829,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)",
           "common_misconception_pair": {
             "misconception": "All architectural plan elements should be drawn on a single active CAD layer.",
-            "fact": "Architectural CAD layers separate interior partitions, electrical fixtures, and plumbing systems for selective display.",
-            "myth": "All architectural plan elements should be drawn on a single active CAD layer.",
-            "fact_correction": "Architectural CAD layers separate interior partitions, electrical fixtures, and plumbing systems for selective display."
+            "fact": "Architectural CAD layers separate interior partitions, electrical fixtures, and plumbing systems for selective display."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -870,9 +906,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)",
           "common_misconception_pair": {
             "misconception": "Mechanical CAD packages require manual redrawing of every individual two dimensional orthographic view.",
-            "fact": "Mechanical CAD models export orthographic views directly from three dimensional solid bodies into layout sheets.",
-            "myth": "Mechanical CAD packages require manual redrawing of every individual two dimensional orthographic view.",
-            "fact_correction": "Mechanical CAD models export orthographic views directly from three dimensional solid bodies into layout sheets."
+            "fact": "Mechanical CAD models export orthographic views directly from three dimensional solid bodies into layout sheets."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -947,9 +981,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)",
           "common_misconception_pair": {
             "misconception": "Every electrical schematic symbol in CAD must be drawn manually from loose lines.",
-            "fact": "CAD electrical libraries insert standardized schematic symbols linked to automated part schedule tables.",
-            "myth": "Every electrical schematic symbol in CAD must be drawn manually from loose lines.",
-            "fact_correction": "CAD electrical libraries insert standardized schematic symbols linked to automated part schedule tables."
+            "fact": "CAD electrical libraries insert standardized schematic symbols linked to automated part schedule tables."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1042,9 +1074,7 @@
       },
       "common_misconception_pair": {
         "misconception": "CAD geometry must be scaled down manually while drawing lines in virtual design space.",
-        "fact": "CAD software creates digital models at full real scale within virtual coordinate space before plotting.",
-        "myth": "CAD geometry must be scaled down manually while drawing lines in virtual design space.",
-        "fact_correction": "CAD software creates digital models at full real scale within virtual coordinate space before plotting."
+        "fact": "CAD software creates digital models at full real scale within virtual coordinate space before plotting."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1081,8 +1111,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Architectural CAD Model Generation",
-        "right_header": "Req 3b: Mechanical Component CAD Modeling",
+        "left_header": "Req 3a: Architectural CAD Model",
+        "right_header": "Req 3b: Mechanical Component CAD",
         "left_points": [
           "(3a) Architectural CAD Model Generation: Architectural CAD drawings utilize parametric walls, window blocks, and standard dimension styles to delineate building structures. Layer management enables drafters to toggle trade specific service overlays like electrical or plumbing runs."
         ],
@@ -1091,29 +1121,29 @@
         ],
         "rows": [
           {
-            "attribute": "CAD Architectural Scale Plans",
-            "left": "(3a) CAD Architectural Scale Plans: These days, everything from an automobile engine to a greeting card can have a computer chip (p. 25).",
-            "right": "(3b) CAD Mechanical Object Drawings: For more about diagrams, see the Electronics and Radio merit badge pamphlets (p. 25)."
+            "attribute": "Virtual Modeling",
+            "left": "(3a) Architectural CAD Model Generation: Architectural CAD drawings utilize parametric walls, window blocks, and standard dimension styles to delineate building structures. Layer management enables drafters to toggle trade specific service overlays like electrical or plumbing runs.",
+            "right": "(3b) Mechanical Component CAD Modeling: Mechanical CAD software generates precise component models using parametric sketches, geometric constraints, and feature extrusions. Scouts generate multiview layout sheets containing orthographic projections, section views, and engineering dimensions."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Electronic Schematic Reference Guides: For more about diagrams, see the Electronics and Radio merit badge pamphlets (p. 25).",
-            "right": "(3c) CAD Electrical Circuit Schematics: To clearly present the various views and plans, drafters use different types of formats (p. 25)."
+            "attribute": "Layer Management",
+            "left": "Req 3a: Architectural CAD Model: Architectural CAD drawings utilize parametric walls, window blocks, and standard dimension styles to delineate building structures. Layer management enables drafters to toggle trade specific service overlays like electrical or plumbing runs.",
+            "right": "Req 3b: Mechanical Component CAD: Mechanical CAD software generates precise component models using parametric sketches, geometric constraints, and feature extrusions. Scouts generate multiview layout sheets containing orthographic projections, section views, and engineering dimensions."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Digital Sheet Format Types: To clearly present the various views and plans, drafters use different types of formats (p. 25).",
-            "right": "Step 3 - Populate Title Block Fields: They convey important information about the drawing on the sheet (p. 25)."
+            "attribute": "Geometric Snaps",
+            "left": "Req 3c: Electrical Schematic CAD: Electrical CAD systems provide standard schematic symbol libraries for resistors, capacitors, and solid state semiconductors. Connecting symbols with smart wire nets allows automatic extraction of accurate bills of materials.",
+            "right": "Layer Management: Layer assignments control line color, line weight, and visibility across complex assemblies."
           }
         ]
       },
       "worked_example": {
-        "title": "Drafting Req 3 Exemplar Workbook Entry: Producing Computer-Aided Design Drawings",
+        "title": "Drafting Req 3 Exemplar Workbook Entry: Producing",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Architectural CAD Model Generatio": "Architectural CAD drawings utilize parametric walls, window blocks, and standard dimension styles to delineate building structures. Layer management enables drafters to toggle trade specific service overlays like electrical or plumbing runs.",
-          "Req 3b - Mechanical Component CAD Modeling": "Mechanical CAD software generates precise component models using parametric sketches, geometric constraints, and feature extrusions. Scouts generate multiview layout sheets containing orthographic projections, section views, and engineering dimensions.",
-          "Req 3c - Electrical Schematic CAD Layout": "Electrical CAD systems provide standard schematic symbol libraries for resistors, capacitors, and solid state semiconductors. Connecting symbols with smart wire nets allows automatic extraction of accurate bills of materials."
+          "Req 3a - Architectural CAD Model": "Architectural CAD drawings utilize parametric walls, window blocks, and standard dimension styles to delineate building structures. Layer management enables drafters to toggle trade specific service overlays like electrical or plumbing runs.",
+          "Req 3b - Mechanical Component CAD": "Mechanical CAD software generates precise component models using parametric sketches, geometric constraints, and feature extrusions. Scouts generate multiview layout sheets containing orthographic projections, section views, and engineering dimensions.",
+          "Req 3c - Electrical Schematic CAD": "Electrical CAD systems provide standard schematic symbol libraries for resistors, capacitors, and solid state semiconductors. Connecting symbols with smart wire nets allows automatic extraction of accurate bills of materials."
         },
         "sample_output": "Producing Computer-Aided Design Drawings: These days, everything from an automobile engine to a greeting card can have a computer chip (p. 25).",
         "counselor_tip": "For Drafting Requirement 3 (Producing Computer-Aided Design Drawings), verify the Scout's own observations and specific pamphlet details (Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50))."
@@ -1150,7 +1180,33 @@
       "socratic_questions": [
         "What distinct benefits do object snap modes provide over manual visual alignment in CAD?",
         "Why do professional CAD drafters separate dimensions, text, and geometry onto different layers?",
-        "How does drawing at full scale in CAD simplify subsequent drawing sheet plotting?"
+        "How does drawing at full scale in CAD simplify subsequent drawing sheet plotting?",
+        "What happens to your dimension values if you draw geometry at half size in model space instead of true 1:1 full scale?",
+        "Which CAD object snap setting guarantees that a tangent arc connects cleanly to a circle without leaving an open gap?",
+        "Under what condition does freezing a CAD layer affect system regeneration differently than turning that layer off?",
+        "What measurement confirms that your paper space viewport scale matches the ratio recorded inside the CAD title block?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "CAD geometry must be scaled down manually while drawing lines in virtual design space.",
+          "fact": "CAD software creates digital models at full real scale within virtual coordinate space before plotting."
+        },
+        {
+          "misconception": "Large architectural floor plans should be drawn scaled down inside CAD model space so they fit inside the screen border.",
+          "fact": "Model space geometry is always drawn at full 1:1 real-world size, and scaling occurs only within the paper space layout viewport."
+        },
+        {
+          "misconception": "Zooming in closely on the monitor and clicking by eye connects two CAD line endpoints accurately enough for CNC machining.",
+          "fact": "Visual placement leaves microscopic gaps or overlaps that break CNC toolpaths; always engage endpoint or intersection object snaps."
+        },
+        {
+          "misconception": "Putting visible edges, hidden lines, and dimensions on Layer 0 with manual color overrides simplifies CAD file management.",
+          "fact": "Separate named layers with ByLayer linetype and lineweight properties allow teams to toggle visibility and plot standards cleanly."
+        },
+        {
+          "misconception": "Overwriting the dimension text string manually is the best way to fix a measurement error on a CAD shop drawing.",
+          "fact": "Manual text overrides break associative dimensioning and leave the underlying 3D model or 2D geometry at the wrong physical size."
+        }
       ]
     },
     {
@@ -1193,9 +1249,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)",
           "common_misconception_pair": {
             "misconception": "Redline marks represent minor suggestions that drafters may freely ignore at their discretion.",
-            "fact": "Counselor redline markups serve as formal engineering change orders instructing drafting drawing updates.",
-            "myth": "Redline marks represent minor suggestions that drafters may freely ignore at their discretion.",
-            "fact_correction": "Counselor redline markups serve as formal engineering change orders instructing drafting drawing updates."
+            "fact": "Counselor redline markups serve as formal engineering change orders instructing drafting drawing updates."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1266,9 +1320,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)",
           "common_misconception_pair": {
             "misconception": "Placing revision notes in the title block eliminates any need for sheet markers.",
-            "fact": "Delta revision markers connect modified sheet areas directly to corresponding lines in revision tables.",
-            "myth": "Placing revision notes in the title block eliminates any need for sheet markers.",
-            "fact_correction": "Delta revision markers connect modified sheet areas directly to corresponding lines in revision tables."
+            "fact": "Delta revision markers connect modified sheet areas directly to corresponding lines in revision tables."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1351,9 +1403,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Corrected drawings should completely erase earlier revision records to make drawings look pristine.",
-        "fact": "A revision block records revision letters, description notes, author initials, and completion dates chronologically.",
-        "myth": "Corrected drawings should completely erase earlier revision records to make drawings look pristine.",
-        "fact_correction": "A revision block records revision letters, description notes, author initials, and completion dates chronologically."
+        "fact": "A revision block records revision letters, description notes, author initials, and completion dates chronologically."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1389,13 +1439,13 @@
         "Step 4 - Block Entry: Record the revision letter, description, date, and drafter initials inside revision blocks."
       ],
       "gear_checklist": [
-        "Official Drafting Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Copy of Your Drawings)",
-        "Field notebook, verification log sheet, and demonstration materials for Copy of Your Drawings",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Drafting Merit Badge Pamphlet: Copy of Your Drawings.",
+        "Field notebook, verification log sheet, and demonstration materials for Copy of Your Drawings.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Counselor Drawing Redline Submissi",
-        "right_header": "Req 4b: Drawing Revision Delta Implementat",
+        "left_header": "Req 4a: Counselor Drawing Redline",
+        "right_header": "Req 4b: Drawing Revision Delta",
         "left_points": [
           "(4a) Counselor Drawing Redline Submission: Scouts present completed drawings to counselors who act as engineering supervisors reviewing production documentation. Counselors mark corrections using red pencil or digital annotation tools to simulate industrial review processes."
         ],
@@ -1404,28 +1454,28 @@
         ],
         "rows": [
           {
-            "attribute": "Counselor Review and Redline Markup",
-            "left": "(4a) Counselor Review and Redline Markup: The two rear barrels are behind the front barrels but are unseen from this view (p. 22).",
-            "right": "(4b) Revision Markers and Revision Blocks: Remember that each view gives the crafts person only two-dimensional information (p. 22)."
+            "attribute": "Redline Markings",
+            "left": "(4a) Counselor Drawing Redline Submission: Scouts present completed drawings to counselors who act as engineering supervisors reviewing production documentation. Counselors mark corrections using red pencil or digital annotation tools to simulate industrial review processes.",
+            "right": "(4b) Drawing Revision Delta Implementation: Scouts implement redlined engineering changes accurately and document every edit within an official revision block. Delta callout symbols identify modified features on drawing sheets to facilitate rapid quality inspections."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Hidden Objects Behind Views: The two rear barrels are behind the front barrels but are unseen from this view (p. 22).",
-            "right": "Step 2 - Cross-Check Adjacent Orthographic Views: You can see that dimensional information in the front view could not possibly have been given to the crafts person in the side view (p. 22)."
+            "attribute": "Revision Block",
+            "left": "Req 4a: Counselor Drawing Redline: Scouts present completed drawings to counselors who act as engineering supervisors reviewing production documentation. Counselors mark corrections using red pencil or digital annotation tools to simulate industrial review processes.",
+            "right": "Req 4b: Drawing Revision Delta: Scouts implement redlined engineering changes accurately and document every edit within an official revision block. Delta callout symbols identify modified features on drawing sheets to facilitate rapid quality inspections."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Two-Dimensional Limits per View: Remember that each view gives the crafts person only two-dimensional information (p. 22).",
-            "right": "Step 3 - Verify Width and Length: You will see the width and length of the raft, each of which you saw in the front and side views, respectively (p. 22)."
+            "attribute": "Delta Markers",
+            "left": "Redline Markings: Red pencil annotations highlight required additions, removals, or revisions across technical drawing views.",
+            "right": "Revision Block: Standard title blocks contain revision columns recording chronological alteration descriptions and authorization dates."
           }
         ]
       },
       "worked_example": {
-        "title": "Drafting Req 4 Exemplar Workbook Entry: Redline Reviews and Drawing Revisions",
+        "title": "Drafting Req 4 Exemplar Workbook Entry: Redline Reviews",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Counselor Drawing Redline Submiss": "Scouts present completed drawings to counselors who act as engineering supervisors reviewing production documentation. Counselors mark corrections using red pencil or digital annotation tools to simulate industrial review processes.",
-          "Req 4b - Drawing Revision Delta Implementa": "Scouts implement redlined engineering changes accurately and document every edit within an official revision block. Delta callout symbols identify modified features on drawing sheets to facilitate rapid quality inspections."
+          "Req 4a - Counselor Drawing Redline": "Scouts present completed drawings to counselors who act as engineering supervisors reviewing production documentation. Counselors mark corrections using red pencil or digital annotation tools to simulate industrial review processes.",
+          "Req 4b - Drawing Revision Delta": "Scouts implement redlined engineering changes accurately and document every edit within an official revision block. Delta callout symbols identify modified features on drawing sheets to facilitate rapid quality inspections."
         },
         "sample_output": "Redline Reviews and Drawing Revisions: The two rear barrels are behind the front barrels but are unseen from this view (p. 22).",
         "counselor_tip": "For Drafting Requirement 4 (Redline Reviews and Drawing Revisions), verify the Scout's own observations and specific pamphlet details (Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36))."
@@ -1462,7 +1512,33 @@
       "socratic_questions": [
         "Why must engineering firms preserve formal revision histories across all manufactured component drawings?",
         "What risks arise if a machinist builds parts from an outdated unrevised drawing?",
-        "How do revision delta markers help inspectors spot altered drawing regions immediately?"
+        "In what specific ways do revision delta markers help inspectors spot altered drawing regions immediately?",
+        "What happens to part traceability in a machine shop if you fix a redlined dimension without incrementing the revision letter?",
+        "Where should a Scout place the revision triangle callout and revision table on an engineering drawing sheet?",
+        "Which physical tool allows you to erase a single redlined feature on a manual pencil drawing without wiping out adjacent lines?",
+        "Why is it dangerous to discard the counselor's redlined markup before verifying every change against the updated BOM table?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Corrected drawings should completely erase earlier revision records to make drawings look pristine.",
+          "fact": "A revision block records revision letters, description notes, author initials, and completion dates chronologically."
+        },
+        {
+          "misconception": "Previous rows in the drawing revision table should be deleted whenever a new revision letter is released to manufacturing.",
+          "fact": "The revision block is a permanent chronological log that must retain earlier entries so engineers can track every design change."
+        },
+        {
+          "misconception": "Redline markups on a check print mean that only red-colored lines exist on the final production engineering drawing.",
+          "fact": "Redline refers to the reviewer's red ink or digital markups on a check print requesting additions, deletions, or dimension fixes."
+        },
+        {
+          "misconception": "Adding an extra mounting bracket to a mechanical assembly drawing leaves the Bill of Materials table unchanged.",
+          "fact": "Every added or removed component on an assembly view requires an immediate quantity or item row update in the Bill of Materials."
+        },
+        {
+          "misconception": "Erasing a manual pencil revision works best by scrubbing rapidly without a backing shield across the vellum surface.",
+          "fact": "A stainless steel erasing shield isolates the target line and prevents friction from tearing thin vellum or smudging nearby views."
+        }
       ]
     },
     {
@@ -1516,9 +1592,7 @@
       },
       "common_misconception_pair": {
         "misconception": "CAD drafters never need to understand manual drafting principles or fundamental drawing standards.",
-        "fact": "CAD software eliminates physical erasing while providing instant parametric editing and geometric precision.",
-        "myth": "CAD drafters never need to understand manual drafting principles or fundamental drawing standards.",
-        "fact_correction": "CAD software eliminates physical erasing while providing instant parametric editing and geometric precision."
+        "fact": "CAD software eliminates physical erasing while providing instant parametric editing and geometric precision."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1555,38 +1629,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Manual Pencil and Board Workflow",
-        "right_header": "Computer-Aided Design Software Workflow",
+        "left_header": "Req 5: Growth of Computer Drafting",
+        "right_header": "Req 5: Compare Task Completion Speed",
         "left_points": [
           "Growth of Computer Drafting: Since computers entered the drafting industry in the 1970s, their use has grown dramatically (p. 15).",
           "Computer-Aided Drafting Software Power: The most powerful drafting tool of all is the computer, running special software for computer-aided drafting (CAD) (p. 15).",
           "Speeding Up Difficult Tasks: Computers make it easy to do tasks that once were difficult and time-consuming (p. 15)."
         ],
         "right_points": [
-          "Step 1 - Compare Task Completion Speed: Computers make it easy to do tasks that once were difficult and time-consuming (p. 15).",
-          "Step 2 - Contrast Manual Lettering Effort: Lettering, for example, takes lots of time and skill to do neatly by hand (p. 15).",
-          "Step 3 - Type Notes Using Keyboard: On a computer, it is as easy as typing on a keyboard (p. 15)."
+          "Compare Task Completion Speed: Computers make it easy to do tasks that once were difficult and time-consuming (p. 15).",
+          "Contrast Manual Lettering Effort: Lettering, for example, takes lots of time and skill to do neatly by hand (p. 15).",
+          "Type Notes Using Keyboard: On a computer, it is as easy as typing on a keyboard (p. 15)."
         ],
         "rows": [
           {
-            "attribute": "Growth of Computer Drafting",
+            "attribute": "Workflow Comparison",
             "left": "Growth of Computer Drafting: Since computers entered the drafting industry in the 1970s, their use has grown dramatically (p. 15).",
-            "right": "Step 1 - Compare Task Completion Speed: Computers make it easy to do tasks that once were difficult and time-consuming (p. 15)."
+            "right": "Compare Task Completion Speed: Computers make it easy to do tasks that once were difficult and time-consuming (p. 15)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Revision Efficiency",
             "left": "Computer-Aided Drafting Software Power: The most powerful drafting tool of all is the computer, running special software for computer-aided drafting (CAD) (p. 15).",
-            "right": "Step 2 - Contrast Manual Lettering Effort: Lettering, for example, takes lots of time and skill to do neatly by hand (p. 15)."
+            "right": "Contrast Manual Lettering Effort: Lettering, for example, takes lots of time and skill to do neatly by hand (p. 15)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Mathematical Accuracy",
             "left": "Speeding Up Difficult Tasks: Computers make it easy to do tasks that once were difficult and time-consuming (p. 15).",
-            "right": "Step 3 - Type Notes Using Keyboard: On a computer, it is as easy as typing on a keyboard (p. 15)."
+            "right": "Type Notes Using Keyboard: On a computer, it is as easy as typing on a keyboard (p. 15)."
           }
         ]
       },
       "worked_example": {
-        "title": "Drafting Req 5 Exemplar Workbook Entry: Comparing Manual and CAD Workflows",
+        "title": "Drafting Req 5 Exemplar Workbook Entry: Comparing Manual",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Growth of Computer Drafting": "Since computers entered the drafting industry in the 1970s, their use has grown dramatically (p. 15).",
@@ -1629,7 +1703,33 @@
       "socratic_questions": [
         "Which drafting tasks remain easier to explore initially on manual paper sketchpads?",
         "How does parametric CAD constraint modeling change how engineers modify mechanical parts?",
-        "Why do basic manual drafting concepts remain vital for engineers working in CAD?"
+        "Why do basic manual drafting concepts remain vital for engineers working in CAD?",
+        "What happens to associative dimensions and orthogonal views in parametric CAD when you modify a single feature on the part?",
+        "Under what condition does a quick manual pencil sketch on grid paper beat launching a 3D parametric CAD workstation?",
+        "Which workflow difference made executing the requirement 4 redline faster in your CAD file than on your manual vellum sheet?",
+        "What file format distinction separates a native parametric CAD assembly from a neutral exchange file like STEP or DXF?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "CAD drafters never need to understand manual drafting principles or fundamental drawing standards.",
+          "fact": "CAD software eliminates physical erasing while providing instant parametric editing and geometric precision."
+        },
+        {
+          "misconception": "Two-dimensional drafting programs and three-dimensional parametric solid modelers store part geometry in the exact same way.",
+          "fact": "Two-dimensional CAD stores independent lines and arcs, while parametric modelers build 3D solids driven by feature history trees."
+        },
+        {
+          "misconception": "Using CAD software eliminates the need for a drafter to know orthographic projection rules or standard dimensioning practices.",
+          "fact": "CAD software automates line generation, but the drafter still chooses view placement, datum selection, and ASME tolerance callouts."
+        },
+        {
+          "misconception": "Stretching a feature during a manual paper revision automatically updates the adjoining side view and section view dimensions.",
+          "fact": "Manual drafting requires erasing and redrawing every affected projection view by hand whenever a part's length or profile changes."
+        },
+        {
+          "misconception": "Exporting a 3D CAD model to a flat PDF file preserves the parametric feature tree for another engineer to edit later.",
+          "fact": "A standard 2D PDF captures only static vector print lines; sharing editable solid geometry requires native files or STEP exports."
+        }
       ]
     },
     {
@@ -1683,9 +1783,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Technical lettering guidelines allow expressive decorative flourishes if words remain somewhat legible.",
-        "fact": "Single stroke Gothic characters maintain legibility through uniform stroke thickness and balanced letterform proportions.",
-        "myth": "Technical lettering guidelines allow expressive decorative flourishes if words remain somewhat legible.",
-        "fact_correction": "Single stroke Gothic characters maintain legibility through uniform stroke thickness and balanced letterform proportions."
+        "fact": "Single stroke Gothic characters maintain legibility through uniform stroke thickness and balanced letterform proportions."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1722,43 +1820,43 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Freehand Lettering With Light Guidelines",
-        "right_header": "Mechanical Templates and Lettering Guides",
+        "left_header": "Req 6: Mastering Freehand Lettering",
+        "right_header": "Req 6: Form Clear Gothic Characters",
         "left_points": [
           "Mastering Freehand Lettering Skills: Lettering is just as important to master as other drawing techniques (p. 30).",
           "Value of Written Notes: Often, more information is contained in the notes than in the drawing itself (p. 30).",
           "Preventing Manufacturing Reading Errors: Illegible printing can cause the crafts person to overlook critical information (p. 30)."
         ],
         "right_points": [
-          "Step 1 - Form Clear Gothic Characters: Illegible printing can cause the crafts person to overlook critical information (p. 30).",
-          "Step 2 - Lay Out Light Guidelines: Before lettering, draw light guidelines on the paper; erase the guidelines after lettering is complete (p. 30).",
-          "Step 3 - Maintain Uniform Line Spacing: Using guidelines helps ensure that lettering will be straight and evenly spaced between the lines (p. 30)."
+          "Form Clear Gothic Characters: Illegible printing can cause the crafts person to overlook critical information (p. 30).",
+          "Lay Out Light Guidelines: Before lettering, draw light guidelines on the paper; erase the guidelines after lettering is complete (p. 30).",
+          "Maintain Uniform Line Spacing: Using guidelines helps ensure that lettering will be straight and evenly spaced between the lines (p. 30)."
         ],
         "rows": [
           {
-            "attribute": "Mastering Freehand Lettering Skills",
+            "attribute": "Gothic Standardization",
             "left": "Mastering Freehand Lettering Skills: Lettering is just as important to master as other drawing techniques (p. 30).",
-            "right": "Step 1 - Form Clear Gothic Characters: Illegible printing can cause the crafts person to overlook critical information (p. 30)."
+            "right": "Form Clear Gothic Characters: Illegible printing can cause the crafts person to overlook critical information (p. 30)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Guideline Construction",
             "left": "Value of Written Notes: Often, more information is contained in the notes than in the drawing itself (p. 30).",
-            "right": "Step 2 - Lay Out Light Guidelines: Before lettering, draw light guidelines on the paper; erase the guidelines after lettering is complete (p. 30)."
+            "right": "Lay Out Light Guidelines: Before lettering, draw light guidelines on the paper; erase the guidelines after lettering is complete (p. 30)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Stroke Sequence",
             "left": "Preventing Manufacturing Reading Errors: Illegible printing can cause the crafts person to overlook critical information (p. 30).",
-            "right": "Step 3 - Maintain Uniform Line Spacing: Using guidelines helps ensure that lettering will be straight and evenly spaced between the lines (p. 30)."
+            "right": "Maintain Uniform Line Spacing: Using guidelines helps ensure that lettering will be straight and evenly spaced between the lines (p. 30)."
           }
         ]
       },
       "worked_example": {
-        "title": "Drafting Req 6 Exemplar Workbook Entry: Freehand Gothic Lettering on CAD Benefits",
+        "title": "Drafting Req 6 Exemplar Workbook Entry: Freehand Gothic",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Mastering Freehand Lettering Skills": "Lettering is just as important to master as other drawing techniques (p. 30).",
           "Value of Written Notes": "Often, more information is contained in the notes than in the drawing itself (p. 30).",
-          "Preventing Manufacturing Reading Errors": "Illegible printing can cause the crafts person to overlook critical information (p. 30).",
+          "Preventing Manufacturing Reading": "Illegible printing can cause the crafts person to overlook critical information (p. 30).",
           "Drawing Temporary Pencil Guidelines": "Before lettering, draw light guidelines on the paper; erase the guidelines after lettering is complete (p. 30)."
         },
         "sample_output": "Freehand Gothic Lettering on CAD Benefits: Lettering is just as important to master as other drawing techniques (p. 30).",
@@ -1796,7 +1894,33 @@
       "socratic_questions": [
         "Why did engineering industries standardize upon single stroke Gothic lettering over other fonts?",
         "How does erratic inconsistent technical lettering introduce dangerous misreadings during mechanical assembly?",
-        "What specific CAD advantages make digital design indispensable within modern aerospace engineering?"
+        "What specific CAD advantages make digital design indispensable within modern aerospace engineering?",
+        "What happens to the legibility of a reduced-scale blueprint if you add decorative serifs or curls to your hand lettering?",
+        "Which stroke sequence keeps the crossbar of a capital letter A or H balanced in single-stroke Gothic hand lettering?",
+        "Where should a drafter rest a protective scrap sheet under the hand while lettering a long paragraph from top to bottom?",
+        "Under what condition does uneven spacing between words make technical notes harder to read than slight slant variations?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Technical lettering guidelines allow expressive decorative flourishes if words remain somewhat legible.",
+          "fact": "Single stroke Gothic characters maintain legibility through uniform stroke thickness and balanced letterform proportions."
+        },
+        {
+          "misconception": "Single-stroke Gothic lettering means writing each alphabet character without ever lifting the pencil tip off the drawing paper.",
+          "fact": "Single-stroke means the width of each stem or curve equals the thickness of one pencil stroke, though letters use multiple strokes."
+        },
+        {
+          "misconception": "Mixing lowercase and uppercase cursive handwriting is acceptable on engineering blueprints as long as the writer is neat.",
+          "fact": "Engineering drawings use all-uppercase single-stroke Gothic characters so microfilm or half-size prints stay clear and unambiguous."
+        },
+        {
+          "misconception": "Plastic lettering stencils and Ames lettering guides are permitted for writing the body text in requirement 6.",
+          "fact": "Requirement 6 prohibits templates and lettering guides for forming characters; only parallel pencil guidelines may assist your hand."
+        },
+        {
+          "misconception": "Rotating a conical mechanical pencil lead never matters during long paragraphs of hand lettering on vellum.",
+          "fact": "Slowly rotating the pencil between strokes wears the graphite tip evenly so letter stems keep a uniform line width across the page."
+        }
       ]
     },
     {
@@ -2063,9 +2187,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
           "common_misconception_pair": {
             "misconception": "Commercial drafting offices operate using simple home office desktop setups and basic printers.",
-            "fact": "Design offices use high performance multi monitor workstations linked to centralized engineering data management servers.",
-            "myth": "Commercial drafting offices operate using simple home office desktop setups and basic printers.",
-            "fact_correction": "Design offices use high performance multi monitor workstations linked to centralized engineering data management servers."
+            "fact": "Design offices use high performance multi monitor workstations linked to centralized engineering data management servers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2366,9 +2488,7 @@
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
           "common_misconception_pair": {
             "misconception": "Drafting trade techniques have remained unchanged since the introduction of early CAD systems.",
-            "fact": "Trade research reveals that drafters increasingly specialize in building information modeling and parametric solid modeling.",
-            "myth": "Drafting trade techniques have remained unchanged since the introduction of early CAD systems.",
-            "fact_correction": "Trade research reveals that drafters increasingly specialize in building information modeling and parametric solid modeling."
+            "fact": "Trade research reveals that drafters increasingly specialize in building information modeling and parametric solid modeling."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -2469,9 +2589,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Modern design firms have completely abandoned paper drawings, plotters, and physical shop prints.",
-        "fact": "Industrial drafting facilities combine digital design stations with large format plotters and modelers.",
-        "myth": "Modern design firms have completely abandoned paper drawings, plotters, and physical shop prints.",
-        "fact_correction": "Industrial drafting facilities combine digital design stations with large format plotters and modelers."
+        "fact": "Industrial drafting facilities combine digital design stations with large format plotters and modelers."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2512,9 +2630,9 @@
         "Step 4 - Career Synthesis: Summarize findings regarding commercial drafting technologies and team workflows for the counselor."
       ],
       "gear_checklist": [
-        "Official Drafting Merit Badge Pamphlet and Fillable Scout Workbook (Req 7: Drafting Careers and Pathways)",
-        "Field notebook, verification log sheet, and demonstration materials for Drafting Careers and Pathways",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Drafting Merit Badge Pamphlet: Drafting Careers and Pathways.",
+        "Field notebook, verification log sheet, and demonstration materials for Drafting Careers and Pathways.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 7a: Drafting Facility Onsite Tour",
@@ -2527,28 +2645,28 @@
         ],
         "rows": [
           {
-            "attribute": "Workplace Visit and Tool Observation",
-            "left": "(7a) Workplace Visit and Tool Observation: Computers take up less space than the drafting boards needed for manual drafting (p. 16).",
-            "right": "(7b) Industry Research on Engineering Drawings: This allows engineering offices, for example, to be filled with normal-size desks and work spaces, instead of needing a large room filled (p. 16)."
+            "attribute": "Facility Exploration",
+            "left": "(7a) Drafting Facility Onsite Tour: Touring an engineering design firm exposes Scouts to specialized drafting peripherals, networked plotters, and team workflows. Scouts observe how drafters translate design concepts into detailed shop drawings and digital fabrication files.",
+            "right": "(7b) Drafting Trade Industry Research: Independent research through trade journals, libraries, and approved internet resources broadens understanding of drafting disciplines. Scouts investigate specialized fields like civil, mechanical, structural, and electrical drafting and their respective tooling."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Modern Engineering Office Layouts: This allows engineering offices, for example, to be filled with normal-size desks and work spaces, instead of needing a large room filled (p. 16).",
-            "right": "Step 2 - Examine Team Collaboration Standards: This allows all jobs to have a common feel to them instead of reflecting a mix of styles depending on which designer worked on the project (p. 16)."
+            "attribute": "Workflow Integration",
+            "left": "Req 7a: Drafting Facility Onsite: Touring an engineering design firm exposes Scouts to specialized drafting peripherals, networked plotters, and team workflows. Scouts observe how drafters translate design concepts into detailed shop drawings and digital fabrication files.",
+            "right": "Req 7b: Drafting Trade Industry: Independent research through trade journals, libraries, and approved internet resources broadens understanding of drafting disciplines. Scouts investigate specialized fields like civil, mechanical, structural, and electrical drafting and their respective tooling."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Company-Wide Drawing Style Consistency: With CAD, all designers in the same company can produce drawings with the same style of lettering and drawing (p. 16).",
-            "right": "Step 3 - Review Digital Printing Workflows: Specialized printers and papers are not needed with CAD (p. 16)."
+            "attribute": "Tool Diversity",
+            "left": "Facility Exploration: Professional drafting offices employ networked workstations, large format plotters, and scanners.",
+            "right": "Workflow Integration: Drafters collaborate directly with manufacturing engineers, CNC machinists, and field contractors."
           }
         ]
       },
       "worked_example": {
-        "title": "Drafting Req 7 Exemplar Workbook Entry: Exploring Drafting in Modern Industry",
+        "title": "Drafting Req 7 Exemplar Workbook Entry: Exploring",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 7a - Drafting Facility Onsite Tour": "Touring an engineering design firm exposes Scouts to specialized drafting peripherals, networked plotters, and team workflows. Scouts observe how drafters translate design concepts into detailed shop drawings and digital fabrication files.",
-          "Req 7b - Drafting Trade Industry Research": "Independent research through trade journals, libraries, and approved internet resources broadens understanding of drafting disciplines. Scouts investigate specialized fields like civil, mechanical, structural, and electrical drafting and their respective tooling."
+          "Req 7b - Drafting Trade Industry": "Independent research through trade journals, libraries, and approved internet resources broadens understanding of drafting disciplines. Scouts investigate specialized fields like civil, mechanical, structural, and electrical drafting and their respective tooling."
         },
         "sample_output": "Exploring Drafting in Modern Industry: Computers take up less space than the drafting boards needed for manual drafting (p. 16).",
         "counselor_tip": "For Drafting Requirement 7 (Exploring Drafting in Modern Industry), verify the Scout's own observations and specific pamphlet details (Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18))."
@@ -2585,7 +2703,33 @@
       "socratic_questions": [
         "How has the role of a drafter evolved from traditional tracing to engineering collaboration?",
         "What specialized computer hardware and printing equipment did you observe at the facility?",
-        "How does a commercial design office manage file versioning across large engineering teams?"
+        "How does a commercial design office manage file versioning across large engineering teams?",
+        "What happens to version control in an engineering office when two drafters edit local copies of a drawing without a PDM vault?",
+        "Which physical output device in a commercial design firm prints full-size 24 by 36-inch architectural D-size check plots?",
+        "Under what condition does an architectural or manufacturing workplace still rely on hand sketching alongside CAD workstations?",
+        "Why is it dangerous to photograph proprietary drawings or monitor screens during a tour of an engineering workplace?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Modern design firms have completely abandoned paper drawings, plotters, and physical shop prints.",
+          "fact": "Industrial drafting facilities combine digital design stations with large format plotters and modelers."
+        },
+        {
+          "misconception": "Commercial engineering firms store production CAD models on individual desktop hard drives without centralized version control.",
+          "fact": "Professional workplaces use Product Data Management vaults to enforce check-in locks, revision history, and release sign-off."
+        },
+        {
+          "misconception": "Modern CAD models never leave the computer screen because factories and construction crews have stopped using paper prints.",
+          "fact": "Many fabrication shops and construction sites still plot large-format check prints for floor inspections and redline markups."
+        },
+        {
+          "misconception": "Electronic printed circuit board drafters use the exact same civil terrain modeling tools as highway survey drafters.",
+          "fact": "Electronics drafters use EDA schematic and PCB trace routing software, whereas civil drafters use GIS and corridor terrain tools."
+        },
+        {
+          "misconception": "Visitors touring a manufacturing plant may freely take smartphone photos of unreleased blueprints on drafting tables.",
+          "fact": "Industrial facilities enforce strict non-disclosure and export-control rules that forbid photographing proprietary drawings."
+        }
       ]
     },
     {
@@ -2650,9 +2794,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Drafting positions require no specialized post secondary training, technical degree, or formal certification.",
-        "fact": "Professional drafters typically earn associate degrees in CAD technology and obtain industry software certifications.",
-        "myth": "Drafting positions require no specialized post secondary training, technical degree, or formal certification.",
-        "fact_correction": "Professional drafters typically earn associate degrees in CAD technology and obtain industry software certifications."
+        "fact": "Professional drafters typically earn associate degrees in CAD technology and obtain industry software certifications."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2689,38 +2831,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Traditional On-the-Job Drafting Apprenticeships",
-        "right_header": "Modern College Degrees and Certifications",
+        "left_header": "Req 8: Evolving Drafting Career",
+        "right_header": "Req 8: Identify Three Drafting Careers",
         "left_points": [
           "Evolving Drafting Career Opportunities: As the technology of drafting has evolved, so have career opportunities in drafting (p. 60).",
           "Historical On-the-Job Apprenticeships: Drafters of the past spent several years in training, mostly on the job (p. 60).",
           "Mentorship from Experienced Coworkers: They learned the trade from more experienced coworkers, and, in time, were experienced enough to teach newer employees themselves (p. 60)."
         ],
         "right_points": [
-          "Step 1 - Identify Three Drafting Careers: They learned the trade from more experienced coworkers, and, in time, were experienced enough to teach newer employees themselves (p. 60).",
-          "Step 2 - Research College Training Requirements: This system of on-the-job learning has mostly givenway to college training in drafting and drawing (p. 60).",
-          "Step 3 - Investigate Degree and Certification Needs: Today, many employers require a four-year degree before they will consider a person as a designer (p. 60)."
+          "Identify Three Drafting Careers: They learned the trade from more experienced coworkers, and, in time, were experienced enough to teach newer employees themselves (p. 60).",
+          "Research College Training Requirements: This system of on-the-job learning has mostly givenway to college training in drafting and drawing (p. 60).",
+          "Investigate Degree and Certification Needs: Today, many employers require a four-year degree before they will consider a person as a designer (p. 60)."
         ],
         "rows": [
           {
-            "attribute": "Evolving Drafting Career Opportunities",
+            "attribute": "Career Pathways",
             "left": "Evolving Drafting Career Opportunities: As the technology of drafting has evolved, so have career opportunities in drafting (p. 60).",
-            "right": "Step 1 - Identify Three Drafting Careers: They learned the trade from more experienced coworkers, and, in time, were experienced enough to teach newer employees themselves (p. 60)."
+            "right": "Identify Three Drafting Careers: They learned the trade from more experienced coworkers, and, in time, were experienced enough to teach newer employees themselves (p. 60)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Educational Options",
             "left": "Historical On-the-Job Apprenticeships: Drafters of the past spent several years in training, mostly on the job (p. 60).",
-            "right": "Step 2 - Research College Training Requirements: This system of on-the-job learning has mostly givenway to college training in drafting and drawing (p. 60)."
+            "right": "Research College Training Requirements: This system of on-the-job learning has mostly givenway to college training in drafting and drawing (p. 60)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Professional Credentials",
             "left": "Mentorship from Experienced Coworkers: They learned the trade from more experienced coworkers, and, in time, were experienced enough to teach newer employees themselves (p. 60).",
-            "right": "Step 3 - Investigate Degree and Certification Needs: Today, many employers require a four-year degree before they will consider a person as a designer (p. 60)."
+            "right": "Investigate Degree and Certification Needs: Today, many employers require a four-year degree before they will consider a person as a designer (p. 60)."
           }
         ]
       },
       "worked_example": {
-        "title": "Drafting Req 8 Exemplar Workbook Entry: Drafting Careers and Educational Pathways",
+        "title": "Drafting Req 8 Exemplar Workbook Entry: Drafting Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
           "Evolving Drafting Career Opportunities": "As the technology of drafting has evolved, so have career opportunities in drafting (p. 60).",
@@ -2763,7 +2905,33 @@
       "socratic_questions": [
         "Which specific engineering field aligns closest with your personal design interests and talents?",
         "What advantages does an industry recognized CAD certification provide when seeking employment?",
-        "How are computer automation and artificial intelligence influencing future drafting employment opportunities?"
+        "How are computer automation and artificial intelligence influencing future drafting employment opportunities?",
+        "What distinguishes the legal stamp authority of a licensed Professional Engineer from the role of a senior CAD drafter?",
+        "Which industry certification demonstrates entry-level proficiency in American Design Drafting Association or CAD standards?",
+        "What educational pathway allows a high school graduate to enter mechanical or civil drafting in two years with low debt?",
+        "Under what condition does learning Building Information Modeling or GD&T open higher-paying advancement tracks for a drafter?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Drafting positions require no specialized post secondary training, technical degree, or formal certification.",
+          "fact": "Professional drafters typically earn associate degrees in CAD technology and obtain industry software certifications."
+        },
+        {
+          "misconception": "Every entry-level CAD technician job requires a four-year university bachelor's degree in mechanical or civil engineering.",
+          "fact": "Many employers hire drafters with a two-year associate degree or technical diploma from an accredited community college program."
+        },
+        {
+          "misconception": "A certified architectural drafter can legally stamp and seal structural building plans for municipal permit approval.",
+          "fact": "Only a licensed Architect or Professional Engineer holds the legal authority to seal construction drawings for public safety."
+        },
+        {
+          "misconception": "Career growth in drafting stops at entry-level trace work with no path toward design leadership or project management.",
+          "fact": "Experienced drafters frequently advance into senior CAD designer, BIM coordinator, checker, or engineering project manager roles."
+        },
+        {
+          "misconception": "Vendor-specific CAD certificates and ADDA Certified Drafter credentials measure the exact same software keystroke skills.",
+          "fact": "Vendor exams test specific software tools like AutoCAD or SolidWorks, while ADDA exams test broad ASME and ANSI drafting standards."
+        }
       ]
     }
   ],

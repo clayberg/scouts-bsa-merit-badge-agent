@@ -1,0 +1,221 @@
+{
+  "badge_slug": "space-exploration",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Every dollar of space agency funding is paid to earthly engineers, manufacturers, and labs that create local jobs and technology.",
+          "misconception": "Money spent on space missions is launched into orbit and removed from the domestic economy."
+        },
+        {
+          "fact": "All three products were invented prior to Apollo, though NASA popularized them by using them extensively during crewed spaceflights.",
+          "misconception": "Velcro, Tang, and Teflon were invented from scratch by NASA engineers for the Apollo moon landings."
+        },
+        {
+          "fact": "Multispectral sensors measure infrared, radar, and microwave wavelengths to map ocean salinity, soil moisture, and polar ice thickness.",
+          "misconception": "Earth-observing satellites only take visible-light photographs of clouds to help television meteorologists."
+        },
+        {
+          "fact": "The 1967 Outer Space Treaty forbids any nation from claiming sovereignty over celestial bodies and reserves space for peaceful exploration.",
+          "misconception": "International space treaties allow the first nation that lands on the Moon or an asteroid to claim sovereign territory."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes a cold-war prestige objective from a modern scientific goal in deep-space missions?",
+        "Which orbital measurement helps scientists track groundwater depletion and crop health across continents?",
+        "Under what condition does sharing spacecraft docking standards improve crew rescue options in low Earth orbit?",
+        "What specific evidence shows that a consumer product originated as a NASA spinoff rather than a terrestrial invention?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Goddard's March 1926 rocket rose only 41 feet during a 2.5-second flight, yet it proved liquid propulsion was practical.",
+          "misconception": "Robert Goddard's first liquid-fueled rocket flew several miles high into the upper stratosphere in 1926."
+        },
+        {
+          "fact": "Tsiolkovsky was a theoretical physicist who derived the rocket equation on paper decades before Sergei Korolev built Soviet launchers.",
+          "misconception": "Konstantin Tsiolkovsky built and launched the first Soviet orbital rockets from Baikonur Cosmodrome."
+        },
+        {
+          "fact": "Mathematicians, flight directors, propulsion engineers, and mission planners are equally vital pioneers in aerospace history.",
+          "misconception": "Space pioneers only include astronauts and cosmonauts who physically rode rockets above the Karman line."
+        },
+        {
+          "fact": "Yuri Gagarin orbited Earth first in April 1961, while Alan Shepard flew a 15-minute suborbital trajectory three weeks later.",
+          "misconception": "Alan Shepard was the first human in space and completed three full orbits during the Freedom 7 flight."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What engineering breakthrough separates Robert Goddard's 1926 Auburn launch from earlier black-powder fireworks?",
+        "Which mathematical contribution by Konstantin Tsiolkovsky still governs propellant mass ratios on modern launch vehicles?",
+        "Where did Katherine Johnson's trajectory calculations prove critical when electronic computers failed or needed verification?",
+        "What archival sources verify the exact flight duration, apogee, and mission role listed on the back of your pioneer card?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The letter C indicates double the total impulse of a B motor, while the number 6 shows both motors have the same 6-newton average thrust.",
+          "misconception": "A C6-5 model rocket motor produces twice the peak thrust of a B6-4 motor at liftoff."
+        },
+        {
+          "fact": "Biodegradable flameproof wadding shields the plastic parachute or streamer from hot gases when the ejection charge fires at apogee.",
+          "misconception": "Recovery wadding is stuffed into the body tube primarily to add nose weight and shift the center of gravity."
+        },
+        {
+          "fact": "The NAR Safety Code requires removing the safety interlock key and waiting a full 60 seconds before approaching any misfired rocket.",
+          "misconception": "A misfired model rocket can be approached immediately after releasing the electrical launch controller button."
+        },
+        {
+          "fact": "A glued nose cone blocks the ejection charge from deploying the parachute and causes a dangerous high-speed ballistic impact.",
+          "misconception": "Gluing the nose cone permanently to the body tube makes the rocket stronger for its second flight objective."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a rocket's flight path when the center of pressure sits ahead of the center of gravity?",
+        "Which physical indicator on a model rocket engine code tells you the delay time before ejection charge ignition?",
+        "Why is it dangerous to omit flameproof recovery wadding between the motor mount and the plastic parachute?",
+        "What measurement confirms the launch rod angle and minimum standoff distance required by the NAR Safety Code?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Rockets accelerate by Newton's third law, throwing exhaust mass backward at high speed and working even more efficiently in a vacuum.",
+          "misconception": "Rocket engines generate forward motion by pushing their exhaust gases against the surrounding air or launch pad."
+        },
+        {
+          "fact": "Gravity at the space station's altitude is still about 90 percent of surface gravity, but the craft is in continuous sideways free-fall.",
+          "misconception": "Astronauts and satellites float in low Earth orbit because Earth's gravity drops to zero above the atmosphere."
+        },
+        {
+          "fact": "Spacecraft sensors convert light pixels into binary numbers and transmit the data via radio waves to Deep Space Network antennas.",
+          "misconception": "Deep-space probes drop physical film canisters back to Earth whenever they photograph outer planets."
+        },
+        {
+          "fact": "Once at orbital velocity in near-vacuum, a satellite coasts by inertia and only fires thrusters occasionally to counter slight air drag.",
+          "misconception": "Satellites in low Earth orbit must fire their main engines continuously to keep from falling back to the ground."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a rocket's thrust in the vacuum of space where there is no atmospheric air to push against?",
+        "Under what condition does a satellite's forward tangential velocity match the curvature of Earth's gravitational pull?",
+        "Why must a chemical rocket carry its own oxidizer tank while a commercial jet aircraft uses only fuel tanks?",
+        "What happens to a digital image between a spacecraft's optical sensor and a Deep Space Network dish on Earth?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Radio signals take between 4 and 24 minutes one way to reach Mars, so rovers execute pre-programmed command sequences autonomously.",
+          "misconception": "Engineers on Earth drive Mars rovers in real time using live video and a joystick from mission control."
+        },
+        {
+          "fact": "Flybys capture brief wide-area snapshots, orbiters map global terrain over years, and landers perform direct chemical contact tests.",
+          "misconception": "Robotic flyby missions and orbital missions collect the exact same surface mineralogy data as a lander."
+        },
+        {
+          "fact": "Sunlight is too weak in the outer solar system, so both Voyager probes use radioisotope thermoelectric generators fueled by plutonium.",
+          "misconception": "Voyager 1 and Voyager 2 use large solar arrays to power their instruments in the Kuiper Belt and beyond."
+        },
+        {
+          "fact": "Apollo astronauts deployed seismometers and laser retroreflectors that still measure the Moon's distance and internal structure today.",
+          "misconception": "The Apollo missions only collected photographs and left no active scientific instruments on the lunar surface."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Under what condition does a mission planner choose an uncrewed robotic probe over a human expedition?",
+        "What geological discovery from the Apollo lunar rock samples changed how scientists explain the Moon's origin?",
+        "Which physical indicator in Mars rover core samples points to ancient liquid water lakes in Jezero Crater?",
+        "What communication delay measurement limits real-time joystick control of a robotic rover on Mars or Titan?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Reentry heat comes mainly from rapid air compression in the shock wave ahead of the blunt heat shield as the vehicle decelerates.",
+          "misconception": "Atmospheric reentry heating is caused primarily by skin friction rubbing against air molecules."
+        },
+        {
+          "fact": "The external liquid-propellant tank was the only non-reusable major Shuttle component and burned up over the ocean after launch.",
+          "misconception": "The Space Shuttle's giant orange external tank was launched into orbit and reused on every mission."
+        },
+        {
+          "fact": "Over 40 assembly flights across more than a decade were required to connect the station's pressurized modules and truss segments.",
+          "misconception": "The International Space Station was launched into orbit fully assembled atop a single heavy-lift rocket."
+        },
+        {
+          "fact": "Alongside the solar wings, the station uses large white accordion-like radiator panels to reject waste heat into the vacuum of space.",
+          "misconception": "Large gold-colored panels extending from the International Space Station are all photovoltaic solar arrays."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a crewed capsule's kinetic energy during atmospheric reentry if the thermal protection shield fails?",
+        "Which environmental control subsystem removes exhaled carbon dioxide so astronauts do not suffocate inside a sealed cabin?",
+        "Where does the International Space Station store electrical power during the 35 minutes of each orbit spent in Earth's shadow?",
+        "What structural distinction separates a reusable winged orbiter from a capsule that lands under parachutes?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The Martian atmosphere is less than 1 percent as dense as Earth's and lacks a global magnetic field, requiring regolith or subsurface shielding.",
+          "misconception": "Mars has a thick enough carbon dioxide atmosphere to shield surface habitats from cosmic radiation without extra cover."
+        },
+        {
+          "fact": "Titan sits nearly ten times farther from the Sun and beneath a thick nitrogen haze, receiving less than 1 percent of Earth's sunlight.",
+          "misconception": "Solar panels on Saturn's moon Titan generate the same wattage per square meter as solar arrays in Earth orbit."
+        },
+        {
+          "fact": "In-situ resource utilization extracts water ice and oxygen from local regolith and prints structural shields from native surface soil.",
+          "misconception": "All building concrete, drinking water, and breathing oxygen for a planetary base must be launched from Earth."
+        },
+        {
+          "fact": "Unshielded surface glass admits lethal cosmic rays and micrometeoroids, so habitats use buried growth chambers with LED lighting.",
+          "misconception": "Large glass greenhouses on the surface of the Moon can use unfiltered sunlight for crops without radiation danger."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to rely solely on solar panels for a habitat built on Saturn's moon Titan or during a lunar night?",
+        "Where should a Scout position regolith shielding on a lunar or Martian habitat to block solar particle events?",
+        "What closed-loop recycling rate in your habitat's water system reduces the mass of resupply rockets from Earth?",
+        "Under what condition does an airlock decompression protocol protect the rest of the base during a suit leak?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Space programs depend on machinists, avionics technicians, software developers, space medicine doctors, and planetary geologists.",
+          "misconception": "Only astronauts and degreed aeronautical engineers can find full-time employment in the space industry."
+        },
+        {
+          "fact": "Most aerospace professionals work for commercial launch providers, satellite manufacturers, defense contractors, or research universities.",
+          "misconception": "Every aerospace career in the United States requires working directly for NASA as a federal civil servant."
+        },
+        {
+          "fact": "Most entry-level aerospace engineers begin work with an ABET-accredited bachelor's degree and hands-on internship or club experience.",
+          "misconception": "A doctoral degree is mandatory before applying for any entry-level spacecraft engineering or mission operations job."
+        },
+        {
+          "fact": "Youth Protection guidelines require parent or guardian permission and two-deep leadership or a parent present for any career interview.",
+          "misconception": "Scouts can schedule private one-on-one video interviews with industry professionals without involving a parent."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes the daily responsibilities of a flight dynamics officer from those of a propulsion test engineer?",
+        "Which accreditation standard confirms that a university aerospace engineering program meets industry licensing rules?",
+        "Under what condition does an aerospace technician need a federal security clearance or export-control verification?",
+        "What safety protocol must a Scout follow before contacting an aerospace professional for a career interview?"
+      ],
+      "req_id": "8"
+    }
+  ]
+}

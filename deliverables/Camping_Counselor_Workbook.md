@@ -136,10 +136,10 @@
 - **Pamphlet Fact:** Magnetic needles align toward Earth's magnetic north pole, which shifts from true geographic north.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![Scouts and counselor demonstrate Camping Requirement 3 field procedures and safety checks.](/assets/pamphlet_images/camping_p012_img1.png)
 
@@ -197,10 +197,10 @@
 - **Pamphlet Fact:** Verbal chore agreements lead to missed meals and unsanitized cookware due to diffused responsibility.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![Scouts in uniform sit beside a whiteboard to assign camp responsibilities and chores.](/assets/pamphlet_images/camping_p027_img1.png)
 
@@ -245,10 +245,10 @@
 - **Pamphlet Fact:** Multiple lighter layers trap dead air space between fabric barriers, providing superior modular insulation.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.](/assets/pamphlet_images/camping_p029_img3.png)
 
@@ -348,7 +348,7 @@
 **Official Requirement 6b:** Discuss the importance of camp sanitation and tell why water treatment is essential. Then demonstrate two ways to treat water.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist (Discuss The Importance of Camp)
 - **Common Myth:** Campers believe ceramic microfiltration filters remove all environmental viral particles from backcountry water.
-- **Pamphlet Fact:** Most portable backpacking microfilters have 0.2 micron pores, which let smaller viruses pass through.
+- **Pamphlet Fact:** Most portable backpacking microfilters have 0.2 micron pores, which let smaller viruses pass.
 
 ![Two Scouts with full packs check equipment next to their pitched dome tent in camp.](/assets/pamphlet_images/camping_p043_img2.png)
 
@@ -424,10 +424,10 @@
 - **Pamphlet Fact:** Memory packing frequently leads to missing crucial essentials like headlamp batteries or water purification tablets.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![Compact metal pots and serving utensils nest together for efficient camp cooking.](/assets/pamphlet_images/camping_p042_img1.png)
 
@@ -543,10 +543,10 @@
 - **Pamphlet Fact:** Requirement nights mandate sleeping in tents, lean-tos, or under the open sky on campouts.
 
 **Gear & Readiness Checklist:**
-- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food)
-- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection
-- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
-- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
+- [ ] Scout Basic Essentials (map, magnetic baseplate compass, headlamp, first-aid kit, water bottle, trail food).
+- [ ] Non-cotton synthetic/merino layering system, rain shell, broken-in hiking boots, and sun protection.
+- [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag.
+- [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line.
 
 ![Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.](/assets/pamphlet_images/camping_p020_img1.png)
 

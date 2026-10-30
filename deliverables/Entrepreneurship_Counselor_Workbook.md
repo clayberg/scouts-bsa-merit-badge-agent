@@ -1,8 +1,8 @@
 # Entrepreneurship Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Entrepreneurship.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/entrepreneurship/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/entrepreneurship/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -293,7 +293,7 @@
 - Founders assess personal technical capabilities against venture demands to identify operational areas requiring hired assistance. Defining specialized personnel roles ensures consistent execution across sales, production, and bookkeeping duties.
 - Req 5d Standard (Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)): Personnel (1) Determine what parts of the business you will handle yourself, and describe your qualifications. (2) Determine whether you will need additional help to operate your business. If you will need help, describe the responsibilities and qualifications needed for the personnel who will fill each role.
 
-#### Req 5d(1): Owner Responsibilities and Personal Qualifications
+#### Req 5d(1): Owner Responsibilities and Personal
 **Official Requirement 5d(1):** Determine what parts of the business you will handle yourself, and describe your qualifications.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5d(1) Structured Technical Study & Explanation Matrix (Business You Will Handle Yourself)
 - **Common Myth:** Operating a business requires an advanced business degree rather than practical hands-on skills, reliability, and willingness to learn.

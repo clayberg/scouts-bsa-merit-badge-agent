@@ -66,9 +66,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think primitive signaling methods could only send simple binary alarms rather than full sentences.",
-        "fact": "Systems like Polybius square torches and Chappe semaphores encoded complete alphabetic texts and vocabularies.",
-        "myth": "Scouts often think primitive signaling methods could only send simple binary alarms rather than full sentences.",
-        "fact_correction": "Systems like Polybius square torches and Chappe semaphores encoded complete alphabetic texts and vocabularies."
+        "fact": "Systems like Polybius square torches and Chappe semaphores encoded complete alphabetic texts and vocabularies."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -105,38 +103,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Visual Signs and Static Symbols",
-        "right_header": "Live Signals and Encoded Messages",
+        "left_header": "Req 1: Sound Versus Silent Signals",
+        "right_header": "Req 1: Identify Modern Sound Signals",
         "left_points": [
           "Sound Versus Silent Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7).",
           "Patrol Movement Hand Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 7).",
           "Modern Acoustic Warning Signals: Describe to your counselor six sound-only signals that are in use today (p. 7)."
         ],
         "right_points": [
-          "Step 1 - Identify Modern Sound Signals: Describe to your counselor six sound-only signals that are in use today (p. 7).",
-          "Step 2 - Place Six Trail Markers: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7).",
-          "Step 3 - Restore Natural Trail Materials: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail (p. 7)."
+          "Identify Modern Sound Signals: Describe to your counselor six sound-only signals that are in use today (p. 7).",
+          "Place Six Trail Markers: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7).",
+          "Restore Natural Trail Materials: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail (p. 7)."
         ],
         "rows": [
           {
-            "attribute": "Sound Versus Silent Signals",
+            "attribute": "Optical Telegraph Network",
             "left": "Sound Versus Silent Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7).",
-            "right": "Step 1 - Identify Modern Sound Signals: Describe to your counselor six sound-only signals that are in use today (p. 7)."
+            "right": "Identify Modern Sound Signals: Describe to your counselor six sound-only signals that are in use today (p. 7)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Ancient Signal Fires",
             "left": "Patrol Movement Hand Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 7).",
-            "right": "Step 2 - Place Six Trail Markers: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7)."
+            "right": "Place Six Trail Markers: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Acoustic Drum Relays",
             "left": "Modern Acoustic Warning Signals: Describe to your counselor six sound-only signals that are in use today (p. 7).",
-            "right": "Step 3 - Restore Natural Trail Materials: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail (p. 7)."
+            "right": "Restore Natural Trail Materials: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail (p. 7)."
           }
         ]
       },
       "worked_example": {
-        "title": "Signs, Signals, and Codes Req 1 Exemplar Workbook Entry: History and Importance of Communication",
+        "title": "Signs, Signals, and Codes Req 1 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Sound Versus Silent Signals": "Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7).",
@@ -179,7 +177,33 @@
       "socratic_questions": [
         "Why did early navies require standardized signal flags instead of relying on voice hailers across ships?",
         "How does atmospheric weather restrict optical communication compared to auditory signals across open valleys?",
-        "In what ways do modern internet packets mirror the relay structure of historical optical telegraph lines?"
+        "In what ways do modern internet packets mirror the relay structure of historical optical telegraph lines?",
+        "What distinguishes a universal static sign from a dynamic signal or a secret cipher in field communication?",
+        "Under what environmental conditions did early Chappe optical telegraphs fail compared to electric telegraphs?",
+        "Which historical limitation of smoke and drum relays drove the invention of standardized alphanumeric codes?",
+        "Why is shared context between sender and receiver required before a symbol can function as a reliable sign?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think primitive signaling methods could only send simple binary alarms rather than full sentences.",
+          "fact": "Systems like Polybius square torches and Chappe semaphores encoded complete alphabetic texts and vocabularies."
+        },
+        {
+          "misconception": "All communication codes are designed to hide secret information from unauthorized eavesdroppers.",
+          "fact": "Codes like Morse, Braille, and ASCII were created for efficient transmission and accessibility rather than secrecy."
+        },
+        {
+          "misconception": "Smoke signals used by Indigenous peoples transmitted complex, universal sentences across any tribe.",
+          "fact": "Smoke signals relied on prearranged meanings between specific lookouts, such as one puff for attention or three for danger."
+        },
+        {
+          "misconception": "A road sign and a traffic signal are identical communication tools because both guide drivers on the street.",
+          "fact": "A sign is a passive, permanent marker like a stop octagon, while a signal changes state dynamically like a traffic light."
+        },
+        {
+          "misconception": "The electric telegraph was the first long-distance communication network capable of relaying coded messages.",
+          "fact": "Claude Chappe built a nationwide optical semaphore tower network across France decades before electric telegraph wires existed."
+        }
       ]
     },
     {
@@ -242,9 +266,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A single large smoky campfire is sufficient to attract high altitude aerial search crews.",
-        "fact": "Rescuers look for geometric patterns of three distinct fires or standard letters like V and X.",
-        "myth": "A single large smoky campfire is sufficient to attract high altitude aerial search crews.",
-        "fact_correction": "Rescuers look for geometric patterns of three distinct fires or standard letters like V and X."
+        "fact": "Rescuers look for geometric patterns of three distinct fires or standard letters like V and X."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -280,43 +302,43 @@
         "Step 4 - Rescue Aircraft Response: Wave both arms overhead steadily to confirm your identity to approaching search aircraft."
       ],
       "gear_checklist": [
-        "Official Signs, Signals, and Codes Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: The importance of signaling in emergency)",
-        "Field notebook, verification log sheet, and demonstration materials for The importance of signaling in emergency",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Signs, Signals, and Codes Merit: The importance of signaling in emergency.",
+        "Field notebook, verification log sheet, and demonstration materials for The importance of signaling in emergency.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Daytime Visual Ground Distress Markers",
-        "right_header": "Nighttime Light and Acoustic Signals",
+        "left_header": "Req 2: Acoustic Versus Visual Signals",
+        "right_header": "Req 2: List Six Acoustic Alerts",
         "left_points": [
           "Acoustic Versus Visual Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7).",
           "Directing Patrols With Gestures: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 7).",
           "Everyday Sound Warning Systems: Describe to your counselor six sound-only signals that are in use today (p. 7)."
         ],
         "right_points": [
-          "Step 1 - List Six Acoustic Alerts: Describe to your counselor six sound-only signals that are in use today (p. 7).",
-          "Step 2 - Mark One-Mile Patrol Trail: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7).",
-          "Step 3 - Remove Temporary Trail Signs: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail (p. 7)."
+          "List Six Acoustic Alerts: Describe to your counselor six sound-only signals that are in use today (p. 7).",
+          "Mark One-Mile Patrol Trail: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7).",
+          "Remove Temporary Trail Signs: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail (p. 7)."
         ],
         "rows": [
           {
-            "attribute": "Acoustic Versus Visual Signals",
+            "attribute": "Rule of Three",
             "left": "Acoustic Versus Visual Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7).",
-            "right": "Step 1 - List Six Acoustic Alerts: Describe to your counselor six sound-only signals that are in use today (p. 7)."
+            "right": "List Six Acoustic Alerts: Describe to your counselor six sound-only signals that are in use today (p. 7)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Signal Mirror Sweep",
             "left": "Directing Patrols With Gestures: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 7).",
-            "right": "Step 2 - Mark One-Mile Patrol Trail: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7)."
+            "right": "Mark One-Mile Patrol Trail: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Ground Marking Scale",
             "left": "Everyday Sound Warning Systems: Describe to your counselor six sound-only signals that are in use today (p. 7).",
-            "right": "Step 3 - Remove Temporary Trail Signs: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail (p. 7)."
+            "right": "Remove Temporary Trail Signs: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail (p. 7)."
           }
         ]
       },
       "worked_example": {
-        "title": "Signs, Signals, and Codes Req 2 Exemplar Workbook Entry: Emergency and Search Rescue Signaling",
+        "title": "Signs, Signals, and Codes Req 2 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Acoustic Versus Visual Signals": "Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7).",
@@ -359,7 +381,33 @@
       "socratic_questions": [
         "Why is an equilateral triangle of three fires more recognizable to pilots than one single bonfire?",
         "How can you aim a signaling mirror accurately without blinding the pilot during final approach?",
-        "What natural materials produce thick white smoke versus black smoke during daytime emergency signaling?"
+        "What natural materials produce thick white smoke versus black smoke during daytime emergency signaling?",
+        "Where should a Scout position ground-to-air symbols so an aircraft pilot at altitude can spot them clearly?",
+        "What happens to a daytime signal fire when you pile green pine needles or damp leaves onto hot dry coals?",
+        "What minimum trench length and width make a ground-to-air V or X readable from a search helicopter?",
+        "Why is it dangerous to aim a rescue laser flare directly into the cockpit of an approaching aircraft?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A single large smoky campfire is sufficient to attract high altitude aerial search crews.",
+          "fact": "Rescuers look for geometric patterns of three distinct fires or standard letters like V and X."
+        },
+        {
+          "misconception": "An ordinary pocket cosmetic mirror works just as well as a dedicated rescue signal mirror for aircraft.",
+          "fact": "A true rescue signal mirror includes a retroreflective sighting hole that aligns the reflected sunbeam directly onto the target."
+        },
+        {
+          "misconception": "Two whistle blasts or two fire columns represent the universal wilderness distress call across North America.",
+          "fact": "Three evenly spaced whistle blasts, flashes, or smoke columns form the universal wilderness distress signal, whereas two mean all clear."
+        },
+        {
+          "misconception": "Ground-to-air symbols drawn at normal handwriting scale in the dirt are visible to search aircraft crews.",
+          "fact": "Ground-to-air symbols must be at least 10 feet tall and 3 feet wide with high shadow or color contrast to be seen from the air."
+        },
+        {
+          "misconception": "A bright, smokeless flame is the most effective fire signal for attracting rescue helicopters at midday.",
+          "fact": "Thick white smoke from damp foliage works best in daylight, while a bright open flame stands out only after dark."
+        }
       ]
     },
     {
@@ -413,9 +461,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Scouts think sending Morse code faster makes messages easier to understand for the listening station.",
-            "fact": "Clear spacing between characters matters far more than raw sending speed during telegraphy reception.",
-            "myth": "Scouts think sending Morse code faster makes messages easier to understand for the listening station.",
-            "fact_correction": "Clear spacing between characters matters far more than raw sending speed during telegraphy reception."
+            "fact": "Clear spacing between characters matters far more than raw sending speed during telegraphy reception."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -495,9 +541,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Scouts assume American Sign Language is simply a word for word translation of spoken English.",
-            "fact": "American Sign Language uses its own independent grammatical structure, topical ordering, and nonmanual markers.",
-            "myth": "Scouts assume American Sign Language is simply a word for word translation of spoken English.",
-            "fact_correction": "American Sign Language uses its own independent grammatical structure, topical ordering, and nonmanual markers."
+            "fact": "American Sign Language uses its own independent grammatical structure, topical ordering, and nonmanual markers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -592,9 +636,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Morse code speed depends on rushing dit sounds rather than maintaining consistent silence spacing between characters.",
-        "fact": "Standard Morse timing requires three dit lengths between letters and seven dit lengths between words.",
-        "myth": "Morse code speed depends on rushing dit sounds rather than maintaining consistent silence spacing between characters.",
-        "fact_correction": "Standard Morse timing requires three dit lengths between letters and seven dit lengths between words."
+        "fact": "Standard Morse timing requires three dit lengths between letters and seven dit lengths between words."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -630,13 +672,13 @@
         "Step 4 - Signed Message Delivery: Sign a complete ten word message smoothly facing your partner at chest height level."
       ],
       "gear_checklist": [
-        "Official Signs, Signals, and Codes Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Morse code)",
-        "Field notebook, verification log sheet, and demonstration materials for Morse code",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Signs, Signals, and Codes Merit: Morse code.",
+        "Field notebook, verification log sheet, and demonstration materials for Morse code.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 3a: Morse Code Transmission Methods",
-        "right_header": "Req 3b: American Sign Language Communicati",
+        "right_header": "Req 3b: American Sign Language",
         "left_points": [
           "(3a) Morse Code Transmission Methods: Morse code represents textual characters through standardized dit and dah sound pulses or light flashes. Proper transmission depends strictly on rhythmic intervals between individual elements, letters, and complete words."
         ],
@@ -645,28 +687,28 @@
         ],
         "rows": [
           {
-            "attribute": "Morse Code Is and the Various Means",
-            "left": "(3a) Morse Code Is and the Various Means: (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "(3b) American Sign Language Communication: By sight or touch, decode a braille message at least six words long (p. 6)."
+            "attribute": "Timing Unit Precision",
+            "left": "(3a) Morse Code Transmission Methods: Morse code represents textual characters through standardized dit and dah sound pulses or light flashes. Proper transmission depends strictly on rhythmic intervals between individual elements, letters, and complete words.",
+            "right": "(3b) American Sign Language Communication: American Sign Language is a complete, natural language featuring distinct grammar, syntax, and expressive hand movements. Finger spelling supplements established signs to communicate proper nouns, technical terms, and personal names."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Six-Word Braille Message Decoding: By sight or touch, decode a braille message at least six words long (p. 6).",
-            "right": "Step 2 - Demonstrate Six Silent Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 6)."
+            "attribute": "Transmission Medium Flexibility",
+            "left": "Req 3a: Morse Code Transmission: Morse code represents textual characters through standardized dit and dah sound pulses or light flashes. Proper transmission depends strictly on rhythmic intervals between individual elements, letters, and complete words.",
+            "right": "Req 3b: American Sign Language: American Sign Language is a complete, natural language featuring distinct grammar, syntax, and expressive hand movements. Finger spelling supplements established signs to communicate proper nouns, technical terms, and personal names."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Visual and Tactile Alphabet: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "Morse Code and Sign Language: Review the Signs, Signals, and Codes pamphlet standards for req 3, morse code and sign language, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18)."
+            "attribute": "Visual Spatial Grammar",
+            "left": "Timing Unit Precision: A dah duration equals three dits, with one dit interval between individual elements.",
+            "right": "Transmission Medium Flexibility: Operators send Morse signals using flashing lights, audio buzzers, mechanical clickers, or flags."
           }
         ]
       },
       "worked_example": {
-        "title": "Signs, Signals, and Codes Req 3 Exemplar Workbook Entry: Morse Code and Sign Language",
+        "title": "Signs, Signals, and Codes Req 3 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Morse Code Transmission Methods": "Morse code represents textual characters through standardized dit and dah sound pulses or light flashes. Proper transmission depends strictly on rhythmic intervals between individual elements, letters, and complete words.",
-          "Req 3b - American Sign Language Communicat": "American Sign Language is a complete, natural language featuring distinct grammar, syntax, and expressive hand movements. Finger spelling supplements established signs to communicate proper nouns, technical terms, and personal names."
+          "Req 3a - Morse Code Transmission": "Morse code represents textual characters through standardized dit and dah sound pulses or light flashes. Proper transmission depends strictly on rhythmic intervals between individual elements, letters, and complete words.",
+          "Req 3b - American Sign Language": "American Sign Language is a complete, natural language featuring distinct grammar, syntax, and expressive hand movements. Finger spelling supplements established signs to communicate proper nouns, technical terms, and personal names."
         },
         "sample_output": "Morse Code and Sign Language: (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
         "counselor_tip": "For Signs, Signals, and Codes Requirement 3 (Morse Code and Sign Language), verify the Scout's own observations and specific pamphlet details (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7))."
@@ -703,7 +745,33 @@
       "socratic_questions": [
         "How does consistent rhythm prevent character confusion when copying rapid continuous audio telegraph signals?",
         "Why does American Sign Language rely heavily on eyebrow position and facial expression for grammatical context?",
-        "What environmental conditions make audio Morse preferable to visual line of sight optical signaling?"
+        "What environmental conditions make audio Morse preferable to visual line of sight optical signaling?",
+        "What timing ratio between a dot, a dash, a letter pause, and a word pause prevents Morse letters from merging?",
+        "Which facial expressions and eyebrow movements change a statement into a question in American Sign Language?",
+        "What happens to receiver accuracy when a sender speeds up individual Morse letters without widening the spaces?",
+        "Where should you hold your dominant hand during ASL fingerspelling to prevent eye strain for the viewer?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Morse code speed depends on rushing dit sounds rather than maintaining consistent silence spacing between characters.",
+          "fact": "Standard Morse timing requires three dit lengths between letters and seven dit lengths between words."
+        },
+        {
+          "misconception": "American Sign Language is simply a word-for-word manual translation of spoken English grammar and syntax.",
+          "fact": "American Sign Language is an independent language with its own topic-comment grammar, spatial syntax, and facial modifiers."
+        },
+        {
+          "misconception": "Fingerspelling every single word in a conversation is the standard way fluent ASL signers communicate.",
+          "fact": "Fluent ASL signers reserve fingerspelling mainly for proper nouns, technical terms, and words without an established sign."
+        },
+        {
+          "misconception": "A Morse code dash lasts twice as long as a dot, and the gap between words equals three dot lengths.",
+          "fact": "A standard Morse dash lasts three dot units, the pause between letters is three units, and the pause between words is seven units."
+        },
+        {
+          "misconception": "Counting individual dots and dashes visually on a paper chart is the fastest way to copy live Morse code.",
+          "fact": "Learning the rhythmic sound or light cadence of each complete character allows operators to copy messages at practical speeds."
+        }
       ]
     },
     {
@@ -757,9 +825,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Senders can bend their elbows comfortably while displaying flag letters to the distant receiver.",
-            "fact": "Straight arms and rigid wrists are mandatory to avoid ambiguous angular interpretations at long distances.",
-            "myth": "Senders can bend their elbows comfortably while displaying flag letters to the distant receiver.",
-            "fact_correction": "Straight arms and rigid wrists are mandatory to avoid ambiguous angular interpretations at long distances."
+            "fact": "Straight arms and rigid wrists are mandatory to avoid ambiguous angular interpretations at long distances."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -838,9 +904,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Nautical flags are intended solely for spelling out full sentences word by word during voyages.",
-            "fact": "Most nautical flags serve as one flag or two flag codes for urgent international maritime messages.",
-            "myth": "Nautical flags are intended solely for spelling out full sentences word by word during voyages.",
-            "fact_correction": "Most nautical flags serve as one flag or two flag codes for urgent international maritime messages."
+            "fact": "Most nautical flags serve as one flag or two flag codes for urgent international maritime messages."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1049,9 +1113,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "The receiver reads semaphore arm positions as mirror opposites of their own sending positions.",
-            "fact": "Receivers read the visual clock positions directly as presented across the open line of sight.",
-            "myth": "The receiver reads semaphore arm positions as mirror opposites of their own sending positions.",
-            "fact_correction": "Receivers read the visual clock positions directly as presented across the open line of sight."
+            "fact": "Receivers read the visual clock positions directly as presented across the open line of sight."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1157,9 +1219,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Semaphore flags and maritime international hoist flags function identically and share the same visual designs.",
-        "fact": "Semaphore relies on angular arm positions with two flags, while nautical flags fly from ship halyards.",
-        "myth": "Semaphore flags and maritime international hoist flags function identically and share the same visual designs.",
-        "fact_correction": "Semaphore relies on angular arm positions with two flags, while nautical flags fly from ship halyards."
+        "fact": "Semaphore relies on angular arm positions with two flags, while nautical flags fly from ship halyards."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1195,13 +1255,13 @@
         "Step 4 - Nautical Hoist Interpretation: Decode standard maritime signal flag arrangements by identifying their unique color and pattern schemes."
       ],
       "gear_checklist": [
-        "Official Signs, Signals, and Codes Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Brief Explanation About Semaphore)",
-        "Field notebook, verification log sheet, and demonstration materials for Brief Explanation About Semaphore",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Signs, Signals, and Codes Merit: Brief Explanation About Semaphore.",
+        "Field notebook, verification log sheet, and demonstration materials for Brief Explanation About Semaphore.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Semaphore Flag Communication Princ",
-        "right_header": "Req 4b: Maritime Signal Flag Distinctions",
+        "left_header": "Req 4a: Semaphore Flag Communication",
+        "right_header": "Req 4b: Maritime Signal Flag",
         "left_points": [
           "(4a) Semaphore Flag Communication Principles: Semaphore uses two square flags mounted on short wooden dowels to represent letters by angular positions. Senders position their arms along eight fixed radial angles based on a standard circular clock face."
         ],
@@ -1210,29 +1270,29 @@
         ],
         "rows": [
           {
-            "attribute": "Semaphore History and Field Usage",
-            "left": "(4a) Semaphore History and Field Usage: By sight or touch, decode a braille message at least six words long (p. 6).",
-            "right": "(4b) Semaphore Flags Versus Nautical Flags: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6)."
+            "attribute": "Clock Face Positioning",
+            "left": "(4a) Semaphore Flag Communication Principles: Semaphore uses two square flags mounted on short wooden dowels to represent letters by angular positions. Senders position their arms along eight fixed radial angles based on a standard circular clock face.",
+            "right": "(4b) Maritime Signal Flag Distinctions: Nautical flags consist of forty distinct colored pennants and banners hoisted on ship rigging lines. Unlike semaphore arm angles, each nautical flag displays unique geometric patterns denoting specific navigational conditions."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Decoding Six-Word Braille Passages: By sight or touch, decode a braille message at least six words long (p. 6).",
-            "right": "(4c) Sending and Receiving Semaphore Messages: Cover at least one mile in distance and use at least six different trail signs and markers (p. 6)."
+            "attribute": "Rest Position Discipline",
+            "left": "Req 4a: Semaphore Flag Communication: Semaphore uses two square flags mounted on short wooden dowels to represent letters by angular positions. Senders position their arms along eight fixed radial angles based on a standard circular clock face.",
+            "right": "Req 4b: Maritime Signal Flag: Nautical flags consist of forty distinct colored pennants and banners hoisted on ship rigging lines. Unlike semaphore arm angles, each nautical flag displays unique geometric patterns denoting specific navigational conditions."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Sight and Touch Alphabet: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "Step 3 - Restore Trail After Outing: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail (p. 6)."
+            "attribute": "Nautical International Code",
+            "left": "Req 4c: Semaphore Name and Sentence: Transmitting text requires snapping flags quickly into letter positions without pausing between transitions unless repeating letters. Senders cross flags low in front of the body to indicate word breaks to the receiver.",
+            "right": "Rest Position Discipline: Return both flag staffs down across the thighs between words to signal spacing."
           }
         ]
       },
       "worked_example": {
-        "title": "Signs, Signals, and Codes Req 4 Exemplar Workbook Entry: Semaphore and Nautical Flag Signaling",
+        "title": "Signs, Signals, and Codes Req 4 Exemplar Workbook Entry",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 4a - Semaphore Flag Communication Prin": "Semaphore uses two square flags mounted on short wooden dowels to represent letters by angular positions. Senders position their arms along eight fixed radial angles based on a standard circular clock face.",
-          "Req 4b - Maritime Signal Flag Distinctions": "Nautical flags consist of forty distinct colored pennants and banners hoisted on ship rigging lines. Unlike semaphore arm angles, each nautical flag displays unique geometric patterns denoting specific navigational conditions.",
-          "Req 4c - Semaphore Name and Sentence Signa": "Transmitting text requires snapping flags quickly into letter positions without pausing between transitions unless repeating letters. Senders cross flags low in front of the body to indicate word breaks to the receiver."
+          "Req 4a - Semaphore Flag Communication": "Semaphore uses two square flags mounted on short wooden dowels to represent letters by angular positions. Senders position their arms along eight fixed radial angles based on a standard circular clock face.",
+          "Req 4b - Maritime Signal Flag": "Nautical flags consist of forty distinct colored pennants and banners hoisted on ship rigging lines. Unlike semaphore arm angles, each nautical flag displays unique geometric patterns denoting specific navigational conditions.",
+          "Req 4c - Semaphore Name and Sentence": "Transmitting text requires snapping flags quickly into letter positions without pausing between transitions unless repeating letters. Senders cross flags low in front of the body to indicate word breaks to the receiver."
         },
         "sample_output": "Semaphore and Nautical Flag Signaling: By sight or touch, decode a braille message at least six words long (p. 6).",
         "counselor_tip": "For Signs, Signals, and Codes Requirement 4 (Semaphore and Nautical Flag Signaling), verify the Scout's own observations and specific pamphlet details (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8))."
@@ -1269,7 +1329,33 @@
       "socratic_questions": [
         "Why are red and yellow chosen as the dominant colors for maritime optical semaphore flags?",
         "How does the sender avoid arm fatigue while transmitting lengthy text messages using flag positions?",
-        "What single nautical hoist flag indicates a diver in the water or a vessel carrying explosives?"
+        "What single nautical hoist flag indicates a diver in the water or a vessel carrying explosives?",
+        "Why do Navy signalmen choose diagonal red-and-yellow Oscar flags over blue-and-white Papa flags at sea?",
+        "What happens to a semaphore message when the sender forgets to flash the numeral sign before sending digits?",
+        "Where should a semaphore sender stand relative to the horizon or trees so the receiver reads clean angles?",
+        "Which operational need makes U.S. Navy warships use flaghoist or semaphore during Underway Replenishment?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Semaphore flags and maritime international hoist flags function identically and share the same visual designs.",
+          "fact": "Semaphore relies on angular arm positions with two flags, while nautical flags fly from ship halyards."
+        },
+        {
+          "misconception": "Each of the two hand flags in semaphore has a unique meaning based on whether it is in the left or right hand.",
+          "fact": "Semaphore characters depend solely on the clock-face angles of the two flags, regardless of which hand holds each position."
+        },
+        {
+          "misconception": "International maritime signal flags can only spell out words letter by letter across a ship's halyard.",
+          "fact": "Every single nautical flag also carries an urgent standalone meaning, such as Alfa for a diver down or Oscar for man overboard."
+        },
+        {
+          "misconception": "Semaphore uses thirty-six distinct arm angles so that letters A through Z and digits 0 through 9 never overlap.",
+          "fact": "Semaphore uses eight arm positions in combinations and reuses letters A through I and K for digits after a numeral prefix sign."
+        },
+        {
+          "misconception": "A semaphore sender faces away from the receiver so the clock-face angles match the viewer's left and right.",
+          "fact": "The sender always faces the receiver squarely with arms fully extended in the same vertical plane, and the viewer reads the mirror image."
+        }
       ]
     },
     {
@@ -1317,9 +1403,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Pressing down hard with fingertips helps readers feel subtle braille dot patterns more distinctly.",
-            "fact": "Heavy finger pressure dulls fingertip tactile receptors and flattens paper embossed dots over time.",
-            "myth": "Pressing down hard with fingertips helps readers feel subtle braille dot patterns more distinctly.",
-            "fact_correction": "Heavy finger pressure dulls fingertip tactile receptors and flattens paper embossed dots over time."
+            "fact": "Heavy finger pressure dulls fingertip tactile receptors and flattens paper embossed dots over time."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1385,9 +1469,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Any standard thin notebook paper works effectively for creating durable raised braille dot messages.",
-            "fact": "Durable braille requires heavy cardstock or specialty braille paper to hold raised dot shapes under touch.",
-            "myth": "Any standard thin notebook paper works effectively for creating durable raised braille dot messages.",
-            "fact_correction": "Durable braille requires heavy cardstock or specialty braille paper to hold raised dot shapes under touch."
+            "fact": "Durable braille requires heavy cardstock or specialty braille paper to hold raised dot shapes under touch."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1474,9 +1556,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Braille is a foreign spoken language with entirely different vocabulary rather than an alphabet tactile code.",
-        "fact": "Braille is a tactile writing code used to transcribe existing languages including English, Spanish, and mathematics.",
-        "myth": "Braille is a foreign spoken language with entirely different vocabulary rather than an alphabet tactile code.",
-        "fact_correction": "Braille is a tactile writing code used to transcribe existing languages including English, Spanish, and mathematics."
+        "fact": "Braille is a tactile writing code used to transcribe existing languages including English, Spanish, and mathematics."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1513,8 +1593,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Braille Alphabet Tactile Recogniti",
-        "right_header": "Req 5b: Braille Message Manual Production",
+        "left_header": "Req 5a: Braille Alphabet Tactile",
+        "right_header": "Req 5b: Braille Message Manual",
         "left_points": [
           "(5a) Braille Alphabet Tactile Recognition: Readers identify braille characters by recognizing dot positions within the standard two by three rectangular grid. Smooth finger scanning across the line reveals character shapes through tactile nerve impulses in fingertips."
         ],
@@ -1523,28 +1603,28 @@
         ],
         "rows": [
           {
-            "attribute": "Decoding Braille Letters and Messages",
-            "left": "(5a) Decoding Braille Letters and Messages: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "(5b) Composing Six-Word Braille Messages: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 6)."
+            "attribute": "Six Dot Cell Layout",
+            "left": "(5a) Braille Alphabet Tactile Recognition: Readers identify braille characters by recognizing dot positions within the standard two by three rectangular grid. Smooth finger scanning across the line reveals character shapes through tactile nerve impulses in fingertips.",
+            "right": "(5b) Braille Message Manual Production: Scouts create tactile messages using braille slates, styluses, or specialized embossing paper tools. Accurate embossing requires pressing dots into heavy cardstock so raised surfaces appear cleanly on the reverse side."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Decoding Six-Word Braille Text: By sight or touch, decode a braille message at least six words long (p. 6).",
-            "right": "Step 2 - Show Six Silent Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 6)."
+            "attribute": "Finger Pad Sensitivity",
+            "left": "Req 5a: Braille Alphabet Tactile: Readers identify braille characters by recognizing dot positions within the standard two by three rectangular grid. Smooth finger scanning across the line reveals character shapes through tactile nerve impulses in fingertips.",
+            "right": "Req 5b: Braille Message Manual: Scouts create tactile messages using braille slates, styluses, or specialized embossing paper tools. Accurate embossing requires pressing dots into heavy cardstock so raised surfaces appear cleanly on the reverse side."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Tactile and Visual Braille: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "Step 3 - Direct Patrol With Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 6)."
+            "attribute": "Slate and Stylus Writing",
+            "left": "Six Dot Cell Layout: Cells consist of two parallel vertical columns containing three embossed dot positions each.",
+            "right": "Finger Pad Sensitivity: Readers sweep index finger pads lightly across raised dots from left to right."
           }
         ]
       },
       "worked_example": {
-        "title": "Signs, Signals, and Codes Req 5 Exemplar Workbook Entry: Tactile Communication Using Braille Cells",
+        "title": "Signs, Signals, and Codes Req 5 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Braille Alphabet Tactile Recognit": "Readers identify braille characters by recognizing dot positions within the standard two by three rectangular grid. Smooth finger scanning across the line reveals character shapes through tactile nerve impulses in fingertips.",
-          "Req 5b - Braille Message Manual Production": "Scouts create tactile messages using braille slates, styluses, or specialized embossing paper tools. Accurate embossing requires pressing dots into heavy cardstock so raised surfaces appear cleanly on the reverse side."
+          "Req 5a - Braille Alphabet Tactile": "Readers identify braille characters by recognizing dot positions within the standard two by three rectangular grid. Smooth finger scanning across the line reveals character shapes through tactile nerve impulses in fingertips.",
+          "Req 5b - Braille Message Manual": "Scouts create tactile messages using braille slates, styluses, or specialized embossing paper tools. Accurate embossing requires pressing dots into heavy cardstock so raised surfaces appear cleanly on the reverse side."
         },
         "sample_output": "Tactile Communication Using Braille Cells: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
         "counselor_tip": "For Signs, Signals, and Codes Requirement 5 (Tactile Communication Using Braille Cells), verify the Scout's own observations and specific pamphlet details (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7))."
@@ -1580,8 +1660,34 @@
       "pamphlet_summary": "Braille allows individuals with visual impairments to read and write through raised dot arrangements in six dot cells. Each cell contains two vertical columns of three dots numbered one through six from top to bottom.",
       "socratic_questions": [
         "Why does manual embossing with a slate and stylus require writing letters in reverse mirror order?",
-        "How do the top four dots of the braille cell establish the first ten alphabet letters?",
-        "What role does tactile paper weight play in preserving embossed dot height during frequent reading?"
+        "In what specific ways do the top four dots of the braille cell establish the first ten alphabet letters?",
+        "What role does tactile paper weight play in preserving embossed dot height during frequent reading?",
+        "Why must a writer punch dots from right to left when embossing paper manually with a slate and stylus?",
+        "Which dot numbers form the left column and right column of a standard six-dot Braille cell when reading?",
+        "What happens to raised Braille dots if you rub your fingertips up and down instead of gliding left to right?",
+        "What pattern connects the first ten Braille letters A through J to the second decade of letters K through T?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Braille is a foreign spoken language with entirely different vocabulary rather than an alphabet tactile code.",
+          "fact": "Braille is a tactile writing code used to transcribe existing languages including English, Spanish, and mathematics."
+        },
+        {
+          "misconception": "Braille is a universal spoken language that replaces English, Spanish, or French for blind readers.",
+          "fact": "Braille is a tactile writing code with specific alphabets mapped to English, Spanish, French, music, and mathematics."
+        },
+        {
+          "misconception": "Every single Braille cell represents a unique capital letter, lowercase letter, or numeric digit on its own.",
+          "fact": "A six-dot cell allows only 63 dot patterns, so prefix indicators precede cells to shift them into capitals or numbers."
+        },
+        {
+          "misconception": "Pushing hard on a single stationary Braille cell with one thumb is the proper technique for tactile reading.",
+          "fact": "Tactile readers glide the pads of both index fingers lightly from left to right across the line to sense dot shapes."
+        },
+        {
+          "misconception": "When using a handheld slate and stylus, you punch dots from left to right just as you read the finished page.",
+          "fact": "Because the stylus pushes dots down into the back of the paper, you must emboss mirror-reversed cells from right to left."
+        }
       ]
     },
     {
@@ -1637,9 +1743,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Sound travels at identical speeds and intensities regardless of atmospheric humidity, temperature, or wind.",
-            "fact": "Temperature inversions and wind shear dramatically alter sound wave propagation and perceived source location.",
-            "myth": "Sound travels at identical speeds and intensities regardless of atmospheric humidity, temperature, or wind.",
-            "fact_correction": "Temperature inversions and wind shear dramatically alter sound wave propagation and perceived source location."
+            "fact": "Temperature inversions and wind shear dramatically alter sound wave propagation and perceived source location."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1716,9 +1820,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Silent signals can only communicate simple stops rather than complex tactical squad movement changes.",
-            "fact": "Standard Scout signals communicate formations, directions, speeds, and dispersion distances without spoken words.",
-            "myth": "Silent signals can only communicate simple stops rather than complex tactical squad movement changes.",
-            "fact_correction": "Standard Scout signals communicate formations, directions, speeds, and dispersion distances without spoken words."
+            "fact": "Standard Scout signals communicate formations, directions, speeds, and dispersion distances without spoken words."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1817,9 +1919,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Sound signals are always more dependable than visual signals in dense forested outdoor environments.",
-        "fact": "Wind direction, heavy rain, and terrain ridges can deflect or completely block auditory emergency signals.",
-        "myth": "Sound signals are always more dependable than visual signals in dense forested outdoor environments.",
-        "fact_correction": "Wind direction, heavy rain, and terrain ridges can deflect or completely block auditory emergency signals."
+        "fact": "Wind direction, heavy rain, and terrain ridges can deflect or completely block auditory emergency signals."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1855,9 +1955,9 @@
         "Step 4 - Patrol Movement Leadership: Direct your patrol through a field course solely using nonverbal arm and body motions."
       ],
       "gear_checklist": [
-        "Official Signs, Signals, and Codes Merit Badge Pamphlet and Fillable Scout Workbook (Req 6: Sound-only Signals)",
-        "Field notebook, verification log sheet, and demonstration materials for Sound-only Signals",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Signs, Signals, and Codes Merit: Sound-only Signals.",
+        "Field notebook, verification log sheet, and demonstration materials for Sound-only Signals.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 6a: Auditory Warning Signal Systems",
@@ -1870,28 +1970,28 @@
         ],
         "rows": [
           {
-            "attribute": "Modern Sound-Only Warning Signals",
-            "left": "(6a) Modern Sound-Only Warning Signals: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7).",
-            "right": "(6b) Silent Patrol Movement Hand Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7)."
+            "attribute": "Omnidirectional Sound Waves",
+            "left": "(6a) Auditory Warning Signal Systems: Sound signals warn individuals about immediate hazards using horns, bells, sirens, and specialized whistle patterns. While effective in darkness and fog, sound provides poor directional tracking across complex mountain topography.",
+            "right": "(6b) Silent Patrol Field Formations: Silent signals utilize hand gestures to convey patrol formation instructions such as single file, spread out, and double time. Scouts must maintain continuous visual contact with their patrol leader to catch silent commands promptly."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Directing Patrols Using Gestures: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 7).",
-            "right": "Step 2 - Lay Out One-Mile Trail: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7)."
+            "attribute": "Environmental Acoustic Masking",
+            "left": "Req 6a: Auditory Warning Signal: Sound signals warn individuals about immediate hazards using horns, bells, sirens, and specialized whistle patterns. While effective in darkness and fog, sound provides poor directional tracking across complex mountain topography.",
+            "right": "Req 6b: Silent Patrol Field: Silent signals utilize hand gestures to convey patrol formation instructions such as single file, spread out, and double time. Scouts must maintain continuous visual contact with their patrol leader to catch silent commands promptly."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Six Modern Acoustic Signals: Describe to your counselor six sound-only signals that are in use today (p. 7).",
-            "right": "Step 3 - Clear Trail Using Ethics: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail (p. 7)."
+            "attribute": "Silent Visual Control",
+            "left": "Omnidirectional Sound Waves: Acoustic alerts spread in all directions simultaneously, reaching listeners without direct visual sight.",
+            "right": "Environmental Acoustic Masking: High winds, flowing rivers, and ambient traffic noise can drown out distant whistle signals."
           }
         ]
       },
       "worked_example": {
-        "title": "Signs, Signals, and Codes Req 6 Exemplar Workbook Entry: Acoustic Alerts and Silent Signals",
+        "title": "Signs, Signals, and Codes Req 6 Exemplar Workbook Entry",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 6a - Auditory Warning Signal Systems": "Sound signals warn individuals about immediate hazards using horns, bells, sirens, and specialized whistle patterns. While effective in darkness and fog, sound provides poor directional tracking across complex mountain topography.",
-          "Req 6b - Silent Patrol Field Formations": "Silent signals utilize hand gestures to convey patrol formation instructions such as single file, spread out, and double time. Scouts must maintain continuous visual contact with their patrol leader to catch silent commands promptly."
+          "Req 6a - Auditory Warning Signal": "Sound signals warn individuals about immediate hazards using horns, bells, sirens, and specialized whistle patterns. While effective in darkness and fog, sound provides poor directional tracking across complex mountain topography.",
+          "Req 6b - Silent Patrol Field": "Silent signals utilize hand gestures to convey patrol formation instructions such as single file, spread out, and double time. Scouts must maintain continuous visual contact with their patrol leader to catch silent commands promptly."
         },
         "sample_output": "Acoustic Alerts and Silent Signals: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7).",
         "counselor_tip": "For Signs, Signals, and Codes Requirement 6 (Acoustic Alerts and Silent Signals), verify the Scout's own observations and specific pamphlet details (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8))."
@@ -1927,8 +2027,34 @@
       "pamphlet_summary": "Auditory signals provide rapid omnidirectional warnings through air horns, sirens, bugles, and emergency whistles. Silent manual gestures allow patrol leaders to direct troop movements discreetly without making unnecessary noise.",
       "socratic_questions": [
         "Why does a patrol leader use silent hand signals instead of shouting during wildlife stalking?",
-        "How do ship foghorns penetrate heavy sea fog where visual warning lights fail completely?",
-        "What factors cause sound waves to bend upward and create acoustic shadow zones across landscapes?"
+        "In what specific ways do ship foghorns penetrate heavy sea fog where visual warning lights fail completely?",
+        "What factors cause sound waves to bend upward and create acoustic shadow zones across landscapes?",
+        "Under what weather or terrain conditions do acoustic whistle blasts outperform silent hand signals on a hike?",
+        "Which physical indicator tells a patrol leader that every Scout in a single-file column received a silent halt?",
+        "What happens to a patrol's reaction when a leader gives the silent assembly gesture versus the rally gesture?",
+        "Why is it dangerous to rely solely on voice commands when guiding a patrol across a noisy whitewater river?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Sound signals are always more dependable than visual signals in dense forested outdoor environments.",
+          "fact": "Wind direction, heavy rain, and terrain ridges can deflect or completely block auditory emergency signals."
+        },
+        {
+          "misconception": "Silent Scout hand signals work through dense fog or thick forest canopy because Scouts sense the motion.",
+          "fact": "Visual hand signals require an unobstructed line of sight and relay Scouts at every bend, whereas sound penetrates fog and brush."
+        },
+        {
+          "misconception": "Pumping a closed fist up and down in a Scout formation instructs the patrol to sit down and rest in place.",
+          "fact": "Pumping a closed fist up and down commands the patrol to move faster or double-time, while a flat palm pushed down means crouch."
+        },
+        {
+          "misconception": "Only the Scout at the very back of a hiking line needs to watch the patrol leader for silent trail signals.",
+          "fact": "Every Scout in the column must watch the leader and relay the hand signal backward so the entire file receives the command."
+        },
+        {
+          "misconception": "High-pitched electronic sirens give listeners exact directional awareness inside urban canyons or buildings.",
+          "fact": "High-frequency tones reflect off hard walls and confuse direction, which is why modern emergency vehicles add broadband white noise."
+        }
       ]
     },
     {
@@ -1991,9 +2117,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Blazing wilderness trails by carving tree trunks or spray painting rocks is acceptable for temporary courses.",
-        "fact": "Permanent marking damages ecosystems; Scouts use non-destructive natural signs and dismantle them afterward.",
-        "myth": "Blazing wilderness trails by carving tree trunks or spray painting rocks is acceptable for temporary courses.",
-        "fact_correction": "Permanent marking damages ecosystems; Scouts use non-destructive natural signs and dismantle them afterward."
+        "fact": "Permanent marking damages ecosystems; Scouts use non-destructive natural signs and dismantle them afterward."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2030,38 +2154,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Temporary Natural Stone and Stick Markers",
-        "right_header": "Permanent Painted Blazes and Signposts",
+        "left_header": "Req 7: One-Mile Six-Marker Trail Layout",
+        "right_header": "Req 7: Contrast Sound and Silence",
         "left_points": [
           "One-Mile Six-Marker Trail Layout: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7).",
           "Leave No Trace Restoration: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail markers (p. 7).",
           "Acoustic and Silent Signaling: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7)."
         ],
         "right_points": [
-          "Step 1 - Contrast Sound and Silence: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7).",
-          "Step 2 - Guide Patrol With Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 7).",
-          "Step 3 - Verify Leave No Trace: Cross-check your Leave No Trace and Outdoor Ethics technique, measurements, and results with a patrol (p. 34)."
+          "Contrast Sound and Silence: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7).",
+          "Guide Patrol With Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 7).",
+          "Verify Leave No Trace: Cross-check your Leave No Trace and Outdoor Ethics technique, measurements, and results with a patrol (p. 34)."
         ],
         "rows": [
           {
-            "attribute": "One-Mile Six-Marker Trail Layout",
+            "attribute": "Natural Material Markers",
             "left": "One-Mile Six-Marker Trail Layout: Cover at least one mile in distance and use at least six different trail signs and markers (p. 7).",
-            "right": "Step 1 - Contrast Sound and Silence: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7)."
+            "right": "Contrast Sound and Silence: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Turn Indication Signs",
             "left": "Leave No Trace Restoration: After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing or returning trail markers (p. 7).",
-            "right": "Step 2 - Guide Patrol With Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 7)."
+            "right": "Guide Patrol With Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 7)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Warning Hazard Notice",
             "left": "Acoustic and Silent Signaling: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 7).",
-            "right": "Step 3 - Verify Leave No Trace: Cross-check your Leave No Trace and Outdoor Ethics technique, measurements, and results with a patrol (p. 34)."
+            "right": "Verify Leave No Trace: Cross-check your Leave No Trace and Outdoor Ethics technique, measurements, and results with a patrol (p. 34)."
           }
         ]
       },
       "worked_example": {
-        "title": "Signs, Signals, and Codes Req 7 Exemplar Workbook Entry: Trail Signs and Outdoor Ethics",
+        "title": "Signs, Signals, and Codes Req 7 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "One-Mile Six-Marker Trail Layout": "Cover at least one mile in distance and use at least six different trail signs and markers (p. 7).",
@@ -2103,8 +2227,34 @@
       "pamphlet_summary": "Trail markers guide hikers along unfamiliar wilderness routes using stacked cairns, bent twigs, and directional stones. Senders must dismantle temporary markers after use to uphold Leave No Trace outdoor conservation ethics.",
       "socratic_questions": [
         "Why does Leave No Trace prohibit leaving permanent blazes or stacked rock cairns in backcountry areas?",
-        "How do you ensure trail signs remain visible to followers without disrupting wildlife or other hikers?",
-        "What sign indicates that a hiker has reached the end of the laid trail?"
+        "In what specific ways do you ensure trail signs remain visible to followers without disrupting wildlife or other hikers?",
+        "What sign indicates that a hiker has reached the end of the laid trail?",
+        "Where along a trail intersection should you place a turn marker so following Scouts do not walk past the fork?",
+        "Which twig, pebble, or grass arrangement indicates a right turn versus warning of an obstacle ahead?",
+        "Why is it dangerous to leave practice rock cairns standing after your patrol finishes a one-mile trail exercise?",
+        "What cleanup role should the sweep Scout at the back of the patrol perform on a Leave No Trace trail course?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Blazing wilderness trails by carving tree trunks or spray painting rocks is acceptable for temporary courses.",
+          "fact": "Permanent marking damages ecosystems; Scouts use non-destructive natural signs and dismantle them afterward."
+        },
+        {
+          "misconception": "Hacking bark blazes into live trees with a hatchet is an acceptable way for Scouts to mark a temporary trail.",
+          "fact": "Cutting bark wounds living trees and violates the Outdoor Code; Scouts use reversible rocks, dead twigs, or tied grass instead."
+        },
+        {
+          "misconception": "In a two-rock trail sign, a smaller stone placed to the right of a large base stone means turn left.",
+          "fact": "A smaller pointer stone placed on the right side of a base rock directs hikers to turn right, while left placement means turn left."
+        },
+        {
+          "misconception": "Three pebbles stacked in a single vertical column tell following Scouts that the trail is safe and clear ahead.",
+          "fact": "Three stacked stones or three stones in a row warn of danger or mean stop, whereas two stacked stones mean this is the trail."
+        },
+        {
+          "misconception": "Snapping green branches in half is the proper way to build pointer arrows along a wilderness footpath.",
+          "fact": "Leave No Trace requires using only fallen deadwood, loose pebbles, or gently knotted grass that can be untied without damage."
+        }
       ]
     },
     {
@@ -2158,9 +2308,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Sports officials only signal to players on the field rather than the recording official scorekeeper.",
-            "fact": "Officials signal primarily to scorekeepers, timekeepers, and coaches to maintain official game records.",
-            "myth": "Sports officials only signal to players on the field rather than the recording official scorekeeper.",
-            "fact_correction": "Officials signal primarily to scorekeepers, timekeepers, and coaches to maintain official game records."
+            "fact": "Officials signal primarily to scorekeepers, timekeepers, and coaches to maintain official game records."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2235,9 +2383,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Crane operators watch the suspended load continuously rather than maintaining eye contact with the signal person.",
-            "fact": "Operators must watch the designated spotter who has the complete view of surrounding clearances and hazards.",
-            "myth": "Crane operators watch the suspended load continuously rather than maintaining eye contact with the signal person.",
-            "fact_correction": "Operators must watch the designated spotter who has the complete view of surrounding clearances and hazards."
+            "fact": "Operators must watch the designated spotter who has the complete view of surrounding clearances and hazards."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2308,9 +2454,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Naval launch officers communicate with fighter jet pilots through open radio cockpit channels before launching.",
-            "fact": "Radio silence and jet blast noise require visual signals and lighted wands for flight deck launches.",
-            "myth": "Naval launch officers communicate with fighter jet pilots through open radio cockpit channels before launching.",
-            "fact_correction": "Radio silence and jet blast noise require visual signals and lighted wands for flight deck launches."
+            "fact": "Radio silence and jet blast noise require visual signals and lighted wands for flight deck launches."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2381,9 +2525,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Cyclists only need to signal when motor vehicles are directly behind them on the roadway.",
-            "fact": "Signaling is necessary for oncoming motorists, pedestrians, and fellow cyclists who may enter the intersection.",
-            "myth": "Cyclists only need to signal when motor vehicles are directly behind them on the roadway.",
-            "fact_correction": "Signaling is necessary for oncoming motorists, pedestrians, and fellow cyclists who may enter the intersection."
+            "fact": "Signaling is necessary for oncoming motorists, pedestrians, and fellow cyclists who may enter the intersection."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2449,9 +2591,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Specialized recreational diving signals vary randomly between different dive resort shops and diving regions.",
-            "fact": "Underwater hand signals are standardized globally by diving agencies to ensure diver safety worldwide.",
-            "myth": "Specialized recreational diving signals vary randomly between different dive resort shops and diving regions.",
-            "fact_correction": "Underwater hand signals are standardized globally by diving agencies to ensure diver safety worldwide."
+            "fact": "Underwater hand signals are standardized globally by diving agencies to ensure diver safety worldwide."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2564,9 +2704,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Heavy equipment operators can safely rely on horn taps instead of dedicated ground spotter hand signals.",
-        "fact": "Blind spots and engine noise make clear hand signals from designated spotters mandatory for crane safety.",
-        "myth": "Heavy equipment operators can safely rely on horn taps instead of dedicated ground spotter hand signals.",
-        "fact_correction": "Blind spots and engine noise make clear hand signals from designated spotters mandatory for crane safety."
+        "fact": "Blind spots and engine noise make clear hand signals from designated spotters mandatory for crane safety."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2602,13 +2740,13 @@
         "Step 4 - Operational Safety Briefing: Explain the critical hazard mitigation purpose of each demonstrated signal to your counselor."
       ],
       "gear_checklist": [
-        "Official Signs, Signals, and Codes Merit Badge Pamphlet and Fillable Scout Workbook (Req 8: For THREE of the following activities)",
-        "Field notebook, verification log sheet, and demonstration materials for For THREE of the following activities",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Signs, Signals, and Codes Merit: For THREE of the following activities.",
+        "Field notebook, verification log sheet, and demonstration materials for For THREE of the following activities.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 8a: Sports Official Penalty Signals",
-        "right_header": "Req 8c: Naval Flight Deck Catapult Signals",
+        "right_header": "Req 8c: Naval Flight Deck Catapult",
         "left_points": [
           "(8a) Sports Official Penalty Signals: Referees and umpires communicate infractions, scores, and clock status to players and scorekeepers using distinctive body postures. Clear gestures allow thousands of stadium spectators and television viewers to understand complex rule rulings immediately.",
           "(8b) Heavy Equipment Spotter Gestures: Riggers and signal persons guide crane operators and earthmovers through standardized gestures defined by safety regulations. Operators must halt machinery motion immediately if they lose line of sight with their designated signal spotter."
@@ -2619,30 +2757,30 @@
         ],
         "rows": [
           {
-            "attribute": "Sports Official Referee Hand Signals",
-            "left": "(8a) Sports Official Referee Hand Signals: By sight or touch, decode a braille message at least six words long (p. 6).",
-            "right": "(8c) Aircraft Carrier Flight Deck Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 6)."
+            "attribute": "Crane Hoist Command",
+            "left": "(8a) Sports Official Penalty Signals: Referees and umpires communicate infractions, scores, and clock status to players and scorekeepers using distinctive body postures. Clear gestures allow thousands of stadium spectators and television viewers to understand complex rule rulings immediately.",
+            "right": "(8c) Naval Flight Deck Catapult Signals: Flight deck directors and catapult officers orchestrate jet launches in extreme noise using exaggerated full body signals. Day and night hand movements confirm aircraft hookup, tensioning, engine run up, and final launch clearance."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(8b) Heavy-Equipment Operator Safety Signals: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "(8d) Roadway Cyclist Turning Hand Signals: (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6)."
+            "attribute": "Catapult Launch Sequence",
+            "left": "(8b) Heavy Equipment Spotter Gestures: Riggers and signal persons guide crane operators and earthmovers through standardized gestures defined by safety regulations. Operators must halt machinery motion immediately if they lose line of sight with their designated signal spotter.",
+            "right": "(8d) Cyclist Road Navigation Signals: Cyclists signal turns, lane changes, slowing, and roadway roadkill or pothole hazards to motorists and group riders. Standard arm extensions communicate intentions well before reaching intersections to maintain defensive road safety."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Visual and Tactile Decoding: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "(8e) Counselor-Approved Specialized Activity Signals: By sight or touch, decode a braille message at least six words long (p. 6)."
+            "attribute": "Bicycle Turning Indication",
+            "left": "Req 8a: Sports Official Penalty: Referees and umpires communicate infractions, scores, and clock status to players and scorekeepers using distinctive body postures. Clear gestures allow thousands of stadium spectators and television viewers to understand complex rule rulings immediately.",
+            "right": "Req 8b: Heavy Equipment Spotter: Riggers and signal persons guide crane operators and earthmovers through standardized gestures defined by safety regulations. Operators must halt machinery motion immediately if they lose line of sight with their designated signal spotter."
           }
         ]
       },
       "worked_example": {
-        "title": "Signs, Signals, and Codes Req 8 Exemplar Workbook Entry: Specialized Occupational and Activity Signals",
+        "title": "Signs, Signals, and Codes Req 8 Exemplar Workbook Entry",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 8a - Sports Official Penalty Signals": "Referees and umpires communicate infractions, scores, and clock status to players and scorekeepers using distinctive body postures. Clear gestures allow thousands of stadium spectators and television viewers to understand complex rule rulings immediately.",
-          "Req 8b - Heavy Equipment Spotter Gestures": "Riggers and signal persons guide crane operators and earthmovers through standardized gestures defined by safety regulations. Operators must halt machinery motion immediately if they lose line of sight with their designated signal spotter.",
-          "Req 8c - Naval Flight Deck Catapult Signal": "Flight deck directors and catapult officers orchestrate jet launches in extreme noise using exaggerated full body signals. Day and night hand movements confirm aircraft hookup, tensioning, engine run up, and final launch clearance.",
-          "Req 8d - Cyclist Road Navigation Signals": "Cyclists signal turns, lane changes, slowing, and roadway roadkill or pothole hazards to motorists and group riders. Standard arm extensions communicate intentions well before reaching intersections to maintain defensive road safety."
+          "Req 8a - Sports Official Penalty": "Referees and umpires communicate infractions, scores, and clock status to players and scorekeepers using distinctive body postures. Clear gestures allow thousands of stadium spectators and television viewers to understand complex rule rulings immediately.",
+          "Req 8b - Heavy Equipment Spotter": "Riggers and signal persons guide crane operators and earthmovers through standardized gestures defined by safety regulations. Operators must halt machinery motion immediately if they lose line of sight with their designated signal spotter.",
+          "Req 8c - Naval Flight Deck Catapult": "Flight deck directors and catapult officers orchestrate jet launches in extreme noise using exaggerated full body signals. Day and night hand movements confirm aircraft hookup, tensioning, engine run up, and final launch clearance.",
+          "Req 8d - Cyclist Road Navigation": "Cyclists signal turns, lane changes, slowing, and roadway roadkill or pothole hazards to motorists and group riders. Standard arm extensions communicate intentions well before reaching intersections to maintain defensive road safety."
         },
         "sample_output": "Specialized Occupational and Activity Signals: By sight or touch, decode a braille message at least six words long (p. 6).",
         "counselor_tip": "For Signs, Signals, and Codes Requirement 8 (Specialized Occupational and Activity Signals), verify the Scout's own observations and specific pamphlet details (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9))."
@@ -2678,8 +2816,34 @@
       "pamphlet_summary": "High noise work environments require precise manual signals to coordinate crane operations, sports officiating, flight decks, and cycling. Standardized hand gestures prevent catastrophic collisions and equipment strikes where machinery drowns out verbal commands.",
       "socratic_questions": [
         "Why must an emergency stop signal on a construction site be recognized from any worker on ground?",
-        "How do aircraft carrier catapult crews ensure positive pilot confirmation before triggering steam launches?",
-        "Why do modern cyclists use an extended straight right arm in addition to the bent left arm?"
+        "In what specific ways do aircraft carrier catapult crews ensure positive pilot confirmation before triggering steam launches?",
+        "Why do modern cyclists use an extended straight right arm in addition to the bent left arm?",
+        "Which two distinct left-arm positions allow a cyclist to signal a right turn to trailing drivers?",
+        "Why is it dangerous for two ground spotters to give simultaneous hand signals to a crane operator?",
+        "What happens when anyone on a crane jobsite gives the two-armed dog-everything or emergency stop signal?",
+        "Under what visibility conditions must an aircraft carrier catapult crew switch from hand gestures to wands?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Heavy equipment operators can safely rely on horn taps instead of dedicated ground spotter hand signals.",
+          "fact": "Blind spots and engine noise make clear hand signals from designated spotters mandatory for crane safety."
+        },
+        {
+          "misconception": "A cyclist extending the left arm straight out to the left side is signaling an immediate stop to traffic.",
+          "fact": "A left arm extended straight out horizontally signals a left turn, while a left arm bent downward at 90 degrees signals a stop."
+        },
+        {
+          "misconception": "Any crew member on a construction site may direct a crane operator whenever they notice the load shifting.",
+          "fact": "Only one designated signal person may direct the crane operator at a time, except that anyone may give an emergency stop signal."
+        },
+        {
+          "misconception": "A heavy-equipment spotter standing in a blind spot can still guide a bulldozer safely using hand signals.",
+          "fact": "If the equipment operator loses direct eye contact with the spotter for even a second, the operator must stop all machine motion."
+        },
+        {
+          "misconception": "Aircraft carrier flight deck crews use radio headsets for all launch commands because hand signs are slow.",
+          "fact": "Jet blast noise exceeds 140 decibels and radio channels can fail, so color-coded deck crews rely on visual catapult hand signals."
+        }
       ]
     },
     {
@@ -2729,9 +2893,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Traffic sign shapes are chosen purely for artistic styling rather than specific regulatory meaning.",
-            "fact": "Sign geometry communicates meaning, such as inverted triangles indicating yield and pennants marking no passing zones.",
-            "myth": "Traffic sign shapes are chosen purely for artistic styling rather than specific regulatory meaning.",
-            "fact_correction": "Sign geometry communicates meaning, such as inverted triangles indicating yield and pennants marking no passing zones."
+            "fact": "Sign geometry communicates meaning, such as inverted triangles indicating yield and pennants marking no passing zones."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2804,9 +2966,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Green shading on a topographic map always indicates public park or campground boundary areas.",
-            "fact": "Green shading on topographic maps indicates woodland forest cover dense enough to conceal troops.",
-            "myth": "Green shading on a topographic map always indicates public park or campground boundary areas.",
-            "fact_correction": "Green shading on topographic maps indicates woodland forest cover dense enough to conceal troops."
+            "fact": "Green shading on topographic maps indicates woodland forest cover dense enough to conceal troops."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2881,9 +3041,7 @@
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
             "misconception": "Text emoticons are purely decorative graphics with no functional role in digital message clarity.",
-            "fact": "Emoticons clarify intended tone and prevent misunderstandings in text where vocal inflection is absent.",
-            "myth": "Text emoticons are purely decorative graphics with no functional role in digital message clarity.",
-            "fact_correction": "Emoticons clarify intended tone and prevent misunderstandings in text where vocal inflection is absent."
+            "fact": "Emoticons clarify intended tone and prevent misunderstandings in text where vocal inflection is absent."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2981,9 +3139,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Topographic map symbols vary randomly between different maps produced across the United States.",
-        "fact": "The United States Geological Survey enforces strict national cartographic standards for topographic map symbols.",
-        "myth": "Topographic map symbols vary randomly between different maps produced across the United States.",
-        "fact_correction": "The United States Geological Survey enforces strict national cartographic standards for topographic map symbols."
+        "fact": "The United States Geological Survey enforces strict national cartographic standards for topographic map symbols."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3020,8 +3176,8 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9a: Traffic Sign Classification Standa",
-        "right_header": "Req 9b: Topographic Map Legend Interpretat",
+        "left_header": "Req 9a: Traffic Sign Classification",
+        "right_header": "Req 9b: Topographic Map Legend",
         "left_points": [
           "(9a) Traffic Sign Classification Standards: Traffic signs utilize specific colors, shapes, and symbols to regulate speeds, warn of road hazards, and provide directions. Red indicates stop or prohibition, yellow signifies general warning, and green provides directional navigation guidance."
         ],
@@ -3030,29 +3186,29 @@
         ],
         "rows": [
           {
-            "attribute": "Standard Roadway Traffic Sign Meanings",
-            "left": "(9a) Standard Roadway Traffic Sign Meanings: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "(9b) Topographical Map Legends and Symbols: Cover at least one mile in distance and use at least six different trail signs and markers (p. 6)."
+            "attribute": "Universal Warning Pictograms",
+            "left": "(9a) Traffic Sign Classification Standards: Traffic signs utilize specific colors, shapes, and symbols to regulate speeds, warn of road hazards, and provide directions. Red indicates stop or prohibition, yellow signifies general warning, and green provides directional navigation guidance.",
+            "right": "(9b) Topographic Map Legend Interpretation: Topographical legends define the colors and symbols used to portray natural elevations, water bodies, and human infrastructure. Reading contour intervals and cultural markings enables wilderness navigators to identify terrain features before travel."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Six-Word Braille Text Decoding: By sight or touch, decode a braille message at least six words long (p. 6).",
-            "right": "(9c) Digital Text Abbreviations and Emojis: (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6)."
+            "attribute": "Contour Line Elevation",
+            "left": "Req 9a: Traffic Sign Classification: Traffic signs utilize specific colors, shapes, and symbols to regulate speeds, warn of road hazards, and provide directions. Red indicates stop or prohibition, yellow signifies general warning, and green provides directional navigation guidance.",
+            "right": "Req 9b: Topographic Map Legend: Topographical legends define the colors and symbols used to portray natural elevations, water bodies, and human infrastructure. Reading contour intervals and cultural markings enables wilderness navigators to identify terrain features before travel."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Tactile Braille Letter Lookup: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "Step 3 - Review Map and Traffic Symbols: Cross-check your Examples of Symbols Used technique, measurements, and results with a patrol (p. 42)."
+            "attribute": "Hydrographic Blue Features",
+            "left": "Req 9c: Digital Texting Symbol: Text messaging symbols and emoticons convey emotional nuance and concise intent across digital mobile screens. Shorthand acronyms and character glyphs compress conversational meaning to speed communication on handheld devices.",
+            "right": "Contour Line Elevation: Brown contour lines connect points of equal elevation to reveal steep topographic slopes."
           }
         ]
       },
       "worked_example": {
-        "title": "Signs, Signals, and Codes Req 9 Exemplar Workbook Entry: Everyday Symbols and Cartographic Legends",
+        "title": "Signs, Signals, and Codes Req 9 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 9a - Traffic Sign Classification Stand": "Traffic signs utilize specific colors, shapes, and symbols to regulate speeds, warn of road hazards, and provide directions. Red indicates stop or prohibition, yellow signifies general warning, and green provides directional navigation guidance.",
-          "Req 9b - Topographic Map Legend Interpreta": "Topographical legends define the colors and symbols used to portray natural elevations, water bodies, and human infrastructure. Reading contour intervals and cultural markings enables wilderness navigators to identify terrain features before travel.",
-          "Req 9c - Digital Texting Symbol Shorthand": "Text messaging symbols and emoticons convey emotional nuance and concise intent across digital mobile screens. Shorthand acronyms and character glyphs compress conversational meaning to speed communication on handheld devices."
+          "Req 9a - Traffic Sign Classification": "Traffic signs utilize specific colors, shapes, and symbols to regulate speeds, warn of road hazards, and provide directions. Red indicates stop or prohibition, yellow signifies general warning, and green provides directional navigation guidance.",
+          "Req 9b - Topographic Map Legend": "Topographical legends define the colors and symbols used to portray natural elevations, water bodies, and human infrastructure. Reading contour intervals and cultural markings enables wilderness navigators to identify terrain features before travel.",
+          "Req 9c - Digital Texting Symbol": "Text messaging symbols and emoticons convey emotional nuance and concise intent across digital mobile screens. Shorthand acronyms and character glyphs compress conversational meaning to speed communication on handheld devices."
         },
         "sample_output": "Everyday Symbols and Cartographic Legends: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
         "counselor_tip": "For Signs, Signals, and Codes Requirement 9 (Everyday Symbols and Cartographic Legends), verify the Scout's own observations and specific pamphlet details (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9))."
@@ -3088,8 +3244,34 @@
       "pamphlet_summary": "Everyday pictograms convey essential warnings and public directions across language barriers using standard shapes and colors. Topographic maps use standardized symbols, contour lines, and legends to portray physical landscape features accurately.",
       "socratic_questions": [
         "Why are traffic warning signs diamond shaped while regulatory signs are shaped as vertical rectangles?",
-        "How do closely spaced contour lines on a topographic map indicate dangerous cliff terrain?",
-        "Why do international transit airports rely on pictograms rather than multilingual written text signage?"
+        "In what specific ways do closely spaced contour lines on a topographic map indicate dangerous cliff terrain?",
+        "Why do international transit airports rely on pictograms rather than multilingual written text signage?",
+        "What test verifies that a newly designed symbol stays recognizable when viewed from a distance in low light?",
+        "Which geometric shape and color combination on a road sign warns drivers of a railroad crossing versus a no-passing zone?",
+        "What measurement in a topographic map legend gives the vertical elevation change between two adjacent contour lines?",
+        "Why is it dangerous to plan a backcountry route across blue map symbols without checking the legend for marsh or cliff hazards?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Topographic map symbols vary randomly between different maps produced across the United States.",
+          "fact": "The United States Geological Survey enforces strict national cartographic standards for topographic map symbols."
+        },
+        {
+          "misconception": "Green backgrounds on highway traffic signs indicate mandatory regulatory rules such as speed limits or turn lanes.",
+          "fact": "Green traffic signs provide directional guidance and mileage to destinations, while white and black signs state regulatory laws."
+        },
+        {
+          "misconception": "Green shading on a USGS topographic map marks safe, flat meadows suitable for pitching a patrol campsite.",
+          "fact": "Green tint on a topographic map indicates dense woody vegetation or forest cover, while white areas show open, clear terrain."
+        },
+        {
+          "misconception": "Detailed illustrations make a custom safety symbol easier for observers to interpret during an emergency.",
+          "fact": "High-contrast silhouettes with minimal fine detail remain legible at long distances and across language barriers."
+        },
+        {
+          "misconception": "Closely spaced brown contour lines on a topographic map indicate a wide, gentle valley floor for easy hiking.",
+          "fact": "Tightly packed contour lines represent steep elevation changes or cliffs, whereas widely spaced lines show flat or gentle slopes."
+        }
       ]
     },
     {
@@ -3158,9 +3340,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A cipher and a code are identical terms referring to the exact same cryptographic process.",
-        "fact": "Ciphers encrypt individual letters or characters, whereas codes replace entire words or whole phrases.",
-        "myth": "A cipher and a code are identical terms referring to the exact same cryptographic process.",
-        "fact_correction": "Ciphers encrypt individual letters or characters, whereas codes replace entire words or whole phrases."
+        "fact": "Ciphers encrypt individual letters or characters, whereas codes replace entire words or whole phrases."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3197,38 +3377,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Transposition Ciphers Rearranging Letter Order",
-        "right_header": "Substitution Ciphers Replacing Plain text Characters",
+        "left_header": "Req 10: Tactile Braille Name Letters",
+        "right_header": "Req 10: Read Braille Name Letters",
         "left_points": [
           "Tactile Braille Name Letters: (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
           "Decoding Six-Word Braille Messages: By sight or touch, decode a braille message at least six words long (p. 6).",
           "Sight and Touch Braille: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6)."
         ],
         "right_points": [
-          "Step 1 - Read Braille Name Letters: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-          "Step 2 - Demonstrate Six Silent Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 6).",
-          "Step 3 - Lead Patrol With Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 6)."
+          "Read Braille Name Letters: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
+          "Demonstrate Six Silent Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 6).",
+          "Lead Patrol With Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 6)."
         ],
         "rows": [
           {
-            "attribute": "Tactile Braille Name Letters",
+            "attribute": "Spartan Scytale Transposition",
             "left": "Tactile Braille Name Letters: (a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "Step 1 - Read Braille Name Letters: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6)."
+            "right": "Read Braille Name Letters: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Caesar Shift Substitution",
             "left": "Decoding Six-Word Braille Messages: By sight or touch, decode a braille message at least six words long (p. 6).",
-            "right": "Step 2 - Demonstrate Six Silent Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 6)."
+            "right": "Demonstrate Six Silent Signals: Discuss the pros and cons of using sound signals versus other types of signals. (b) Demonstrate to your counselor six different silent Scout signals (p. 6)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Polyalphabetic Vigenere Table",
             "left": "Sight and Touch Braille: Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
-            "right": "Step 3 - Lead Patrol With Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 6)."
+            "right": "Lead Patrol With Signals: Use these Scout signals to direct the movements and actions of your patrol or troop (p. 6)."
           }
         ]
       },
       "worked_example": {
-        "title": "Signs, Signals, and Codes Req 10 Exemplar Workbook Entry: Cryptography History and Secret Ciphers",
+        "title": "Signs, Signals, and Codes Req 10 Exemplar Workbook",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Tactile Braille Name Letters": "(a) Either by sight or by touch, identify the letters of the braille alphabet that spell your name (p. 6).",
@@ -3271,7 +3451,33 @@
       "socratic_questions": [
         "How does letter frequency analysis allow codebreakers to crack simple monoalphabetic substitution ciphers?",
         "What made the invention of the polyalphabetic Vigenere cipher unbreakable for hundreds of years?",
-        "Why does modern digital encryption rely on complex mathematical algorithms rather than hiding cipher methods?"
+        "Why does modern digital encryption rely on complex mathematical algorithms rather than hiding cipher methods?",
+        "Where should a Scout record and store the cipher key so an unintended reader cannot intercept it alongside the encoded message?",
+        "What structural difference separates a Caesar shift substitution cipher from a Spartan scytale transposition cipher?",
+        "Which letter frequency pattern in a 25-word English ciphertext lets a codebreaker identify the symbol used for the letter E?",
+        "Under what condition does keeping original word spaces in a handwritten cipher let an eavesdropper crack the message quickly?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A cipher and a code are identical terms referring to the exact same cryptographic process.",
+          "fact": "Ciphers encrypt individual letters or characters, whereas codes replace entire words or whole phrases."
+        },
+        {
+          "misconception": "Replacing letters with invented geometric symbols makes a monoalphabetic substitution cipher immune to frequency analysis.",
+          "fact": "Invented symbols still repeat at standard English letter rates, allowing codebreakers to match the most common symbol to E or T."
+        },
+        {
+          "misconception": "Julius Caesar's shift cipher and the Navajo Code Talkers' system both rely on shifting alphabet letters by a fixed number.",
+          "fact": "A Caesar cipher shifts individual letters mathematically, whereas Navajo Code Talkers used an unspoken language and word-level code."
+        },
+        {
+          "misconception": "Leaving normal spaces between encoded words has no effect on how quickly a cryptanalyst can solve a short 25-word cipher.",
+          "fact": "Word boundaries expose one-letter words like A or I and common three-letter words like THE, giving codebreakers immediate clues."
+        },
+        {
+          "misconception": "Transposition ciphers hide a message by swapping each plaintext letter for a different letter or number from a lookup table.",
+          "fact": "Transposition ciphers keep the original plaintext letters intact but scramble their positions according to a geometric pattern."
+        }
       ]
     }
   ],

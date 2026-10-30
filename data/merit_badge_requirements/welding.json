@@ -55,9 +55,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)",
           "common_misconception_pair": {
             "misconception": "Beginners often think moving combustible rags ten feet away guarantees complete fire prevention.",
-            "fact": "Sparks and molten slag can travel up to thirty-five feet across open shop floors.",
-            "myth": "Beginners often think moving combustible rags ten feet away guarantees complete fire prevention.",
-            "fact_correction": "Sparks and molten slag can travel up to thirty-five feet across open shop floors."
+            "fact": "Sparks and molten slag can travel up to thirty-five feet across open shop floors."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -128,9 +126,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)",
           "common_misconception_pair": {
             "misconception": "Putting greasy ointment or ice on thermal contact burns accelerates skin healing.",
-            "fact": "Cool clean water must soothe thermal burns while ice causes further skin damage.",
-            "myth": "Putting greasy ointment or ice on thermal contact burns accelerates skin healing.",
-            "fact_correction": "Cool clean water must soothe thermal burns while ice causes further skin damage."
+            "fact": "Cool clean water must soothe thermal burns while ice causes further skin damage."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -217,9 +213,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe that standard sunglasses provide adequate optical protection against welding arc light.",
-        "fact": "Electric arcs emit intense ultraviolet and infrared radiation requiring shade ten through twelve optical filter lenses.",
-        "myth": "Beginners often believe that standard sunglasses provide adequate optical protection against welding arc light.",
-        "fact_correction": "Electric arcs emit intense ultraviolet and infrared radiation requiring shade ten through twelve optical filter lenses."
+        "fact": "Electric arcs emit intense ultraviolet and infrared radiation requiring shade ten through twelve optical filter lenses."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -255,10 +249,10 @@
         "Step 4 - Emergency Power Isolation: Hit the red emergency disconnect switch immediately when electrical contact occurs with operators."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Welding Hazards and First Aid",
-        "Inspected hand and power tools with intact guards and ventilation setup for Welding",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.",
+        "Tape measure, square, layout pencil, clamps, and material stock for Welding Hazards and First Aid.",
+        "Inspected hand and power tools with intact guards and ventilation setup for Welding.",
+        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
         "left_header": "Req 1a: Welding Shop Hazard Mitigation",
@@ -271,27 +265,27 @@
         ],
         "rows": [
           {
-            "attribute": "Anticipating Common Welding Hazards",
-            "left": "(1a) Anticipating Common Welding Hazards: Treat them by holding the burn under cold water or applying cool, wet compresses until the pain eases (p. 21).",
-            "right": "(1b) Welding Injury First Aid: Partial-thickness burns are more serious than superficial burns and affect the outer layer of skin and part of the layer of skin (p. 21)."
+            "attribute": "Radiation Burn Danger",
+            "left": "(1a) Welding Shop Hazard Mitigation: Anticipating fire, electrical shock, and toxic fumes requires engineering controls and active administrative safeguards. Welders position mechanical exhaust hoods and clear combustible items before striking an electric arc.",
+            "right": "(1b) Welding Injury First Aid: First aid protocols address thermal burns, arc eye flash, electric shock, and respiratory distress from gas plumes. Rapid power disconnection and cool water treatment minimize tissue trauma while awaiting medical professionals."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Superficial Skin Burns: Superficial burns are mild burns that affect only the outer layer of skin (p. 21).",
-            "right": "Step 2 - Assess Deeper Skin Damage: Partial-thickness burns are more serious than superficial burns and affect the outer layer of skin and part of the layer of skin (p. 21)."
+            "attribute": "Electric Shock Hazards",
+            "left": "Req 1a: Welding Shop Hazard: Anticipating fire, electrical shock, and toxic fumes requires engineering controls and active administrative safeguards. Welders position mechanical exhaust hoods and clear combustible items before striking an electric arc.",
+            "right": "Req 1b: Welding Injury First Aid: First aid protocols address thermal burns, arc eye flash, electric shock, and respiratory distress from gas plumes. Rapid power disconnection and cool water treatment minimize tissue trauma while awaiting medical professionals."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Cooling Minor Burns: Treat them by holding the burn under cold water or applying cool, wet compresses until the pain eases (p. 21).",
-            "right": "Step 3 - Check for Skin Blistering: They typically include areddening and blistering of the skin (p. 21)."
+            "attribute": "Metal Fume Control",
+            "left": "Radiation Burn Danger: Arc flash creates ultraviolet radiation that causes painful corneal burns without immediate noticeable symptoms.",
+            "right": "Electric Shock Hazards: Damp work gloves drastically decrease electrical resistance between the welder and live electrode holders."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 1 Exemplar Workbook Entry: Welding Hazards and First Aid",
+        "title": "Welding Req 1 Exemplar Workbook Entry: Welding Hazards",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Welding Shop Hazard Mitigation": "Anticipating fire, electrical shock, and toxic fumes requires engineering controls and active administrative safeguards. Welders position mechanical exhaust hoods and clear combustible items before striking an electric arc.",
+          "Req 1a - Welding Shop Hazard": "Anticipating fire, electrical shock, and toxic fumes requires engineering controls and active administrative safeguards. Welders position mechanical exhaust hoods and clear combustible items before striking an electric arc.",
           "Req 1b - Welding Injury First Aid": "First aid protocols address thermal burns, arc eye flash, electric shock, and respiratory distress from gas plumes. Rapid power disconnection and cool water treatment minimize tissue trauma while awaiting medical professionals."
         },
         "sample_output": "Welding Hazards and First Aid: Treat them by holding the burn under cold water or applying cool, wet compresses until the pain eases (p. 21).",
@@ -329,7 +323,33 @@
       "socratic_questions": [
         "Why does copper or galvanized coating create hazardous fumes when subjected to electric arc heat?",
         "How does ambient moisture on your leather boots increase the probability of electrical shock?",
-        "What physiological mechanism explains why flash burn symptoms often appear hours after arc exposure?"
+        "What physiological mechanism explains why flash burn symptoms often appear hours after arc exposure?",
+        "Why is it dangerous to weld on galvanized steel without local exhaust ventilation or a properly fitted respirator?",
+        "What happens to the cornea during arc eye, and why do painful symptoms often appear several hours after exposure?",
+        "Where should a Scout position fire extinguishers and a fire watch before striking an arc near combustible shop walls?",
+        "Which physical indicator distinguishes heat exhaustion from life-threatening heat stroke inside a hot welding booth?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Beginners often believe that standard sunglasses provide adequate optical protection against welding arc light.",
+          "fact": "Electric arcs emit intense ultraviolet and infrared radiation requiring shade ten through twelve optical filter lenses."
+        },
+        {
+          "misconception": "Looking at a welding arc from across the shop without a shaded lens is safe because distance blocks ultraviolet rays.",
+          "fact": "Ultraviolet radiation from an electric arc travels tens of feet and reflects off bright walls, causing painful flash burns."
+        },
+        {
+          "misconception": "Applying butter or ice directly to a thermal burn from hot slag cools the damaged skin tissue safely and quickly.",
+          "fact": "Butter traps heat and causes infection, while ice freezes damaged tissue; flush minor burns gently with cool running water."
+        },
+        {
+          "misconception": "Rinsing an empty fuel container with water makes the metal drum completely safe to cut or weld with a torch.",
+          "fact": "Hydrocarbon vapours remain trapped in metal pores and seams, requiring steam purging or inert gas filling before hot work."
+        },
+        {
+          "misconception": "Drinking cold milk after inhaling zinc oxide fumes neutralizes heavy metal toxins inside the digestive and respiratory tracts.",
+          "fact": "Milk does not prevent metal fume fever in the lungs; only source capture ventilation and approved respirators stop inhalation."
+        }
       ]
     },
     {
@@ -377,9 +397,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)",
           "common_misconception_pair": {
             "misconception": "Safety Data Sheets are administrative paperwork without relevance to daily shop work.",
-            "fact": "Safety Data Sheets identify acute inhalation toxicity and specific fire extinguishing media for fluxes.",
-            "myth": "Safety Data Sheets are administrative paperwork without relevance to daily shop work.",
-            "fact_correction": "Safety Data Sheets identify acute inhalation toxicity and specific fire extinguishing media for fluxes."
+            "fact": "Safety Data Sheets identify acute inhalation toxicity and specific fire extinguishing media for fluxes."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -453,9 +471,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)",
           "common_misconception_pair": {
             "misconception": "Athletic running shoes with rubber soles provide adequate foot protection in welding booths.",
-            "fact": "Stray slag easily burns through mesh running shoes and ignites inner synthetic linings.",
-            "myth": "Athletic running shoes with rubber soles provide adequate foot protection in welding booths.",
-            "fact_correction": "Stray slag easily burns through mesh running shoes and ignites inner synthetic linings."
+            "fact": "Stray slag easily burns through mesh running shoes and ignites inner synthetic linings."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -530,9 +546,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)",
           "common_misconception_pair": {
             "misconception": "Leaving welding cables strewn across wet shop floors causes no long-term insulation damage.",
-            "fact": "Foot traffic and oil exposure degrade rubber cable jackets, causing hazardous electrical leaks.",
-            "myth": "Leaving welding cables strewn across wet shop floors causes no long-term insulation damage.",
-            "fact_correction": "Foot traffic and oil exposure degrade rubber cable jackets, causing hazardous electrical leaks."
+            "fact": "Foot traffic and oil exposure degrade rubber cable jackets, causing hazardous electrical leaks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -629,9 +643,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Synthetic fleece or nylon shirts are acceptable under leather welding jackets.",
-        "fact": "Synthetic fibers easily melt under stray heat and fuse to human skin during accidents.",
-        "myth": "Synthetic fleece or nylon shirts are acceptable under leather welding jackets.",
-        "fact_correction": "Synthetic fibers easily melt under stray heat and fuse to human skin during accidents."
+        "fact": "Synthetic fibers easily melt under stray heat and fuse to human skin during accidents."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -667,10 +679,10 @@
         "Step 4 - Cable Coil Storing: Hang welding leads and ground cables neatly on nonconductive wall storage brackets."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Safety Gear and Clothing",
-        "Inspected hand and power tools with intact guards and ventilation setup for Welding",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.",
+        "Tape measure, square, layout pencil, clamps, and material stock for Safety Gear and Clothing.",
+        "Inspected hand and power tools with intact guards and ventilation setup for Welding.",
+        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
         "left_header": "Req 2a: Safety Data Sheet Evaluation",
@@ -683,29 +695,29 @@
         ],
         "rows": [
           {
-            "attribute": "Safety Data Sheet Precautions",
-            "left": "(2a) Safety Data Sheet Precautions: This section provides guidance on safe handling and storage practices (p. 13).",
-            "right": "(2b) Personal Protective Welding Apparel: This section describes the initial care that should be given by untrained responders to someone who has been exposed to the chemical (p. 13)."
+            "attribute": "Chemical Data Reference",
+            "left": "(2a) Safety Data Sheet Evaluation: Safety Data Sheets inform welders about chemical exposure limits, volatile organic compounds, and dangerous decomposition gases. Reviewing section eight reveals mandatory respiratory protection and threshold limit values for welding fumes.",
+            "right": "(2b) Welding Apparel and Gear: Complete personal gear includes shade-rated helmets, leather spats, flame-resistant jackets, and safety glasses with side shields. Leather gauntlet gloves protect wrists and forearms from stray arc sparks and conductive heat."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Chemical Fire-Fighting Measures: This section provides recommendations for fighting a fire caused by the chemical (p. 13).",
-            "right": "(2c) Equipment Care and Storage: This section provides recommendations for fighting a fire caused by the chemical (p. 13)."
+            "attribute": "Natural Fiber Selection",
+            "left": "Req 2a: Safety Data Sheet Evaluation: Safety Data Sheets inform welders about chemical exposure limits, volatile organic compounds, and dangerous decomposition gases. Reviewing section eight reveals mandatory respiratory protection and threshold limit values for welding fumes.",
+            "right": "Req 2b: Welding Apparel and Gear: Complete personal gear includes shade-rated helmets, leather spats, flame-resistant jackets, and safety glasses with side shields. Leather gauntlet gloves protect wrists and forearms from stray arc sparks and conductive heat."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Accidental Release Response: This section provides recommendations for fighting a fire caused by the chemical (p. 13).",
-            "right": "Step 3 - Review Required Exposure Controls: Exposure Controls/Personal Protection (p. 13)."
+            "attribute": "High Top Footwear",
+            "left": "Req 2c: Equipment Maintenance: Storing torches, cables, and protective garments in clean, dry environments prevents degradation and electrical faults. Ground clamps and electrode holders require regular examination to prevent dangerous high-resistance connections.",
+            "right": "Natural Fiber Selection: Heavy weight cotton denim resists sparks while synthetic polyester melts into severe burns."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 2 Exemplar Workbook Entry: Safety Data Sheets and Protective Gear",
+        "title": "Welding Req 2 Exemplar Workbook Entry: Safety Data",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
           "Req 2a - Safety Data Sheet Evaluation": "Safety Data Sheets inform welders about chemical exposure limits, volatile organic compounds, and dangerous decomposition gases. Reviewing section eight reveals mandatory respiratory protection and threshold limit values for welding fumes.",
           "Req 2b - Welding Apparel and Gear": "Complete personal gear includes shade-rated helmets, leather spats, flame-resistant jackets, and safety glasses with side shields. Leather gauntlet gloves protect wrists and forearms from stray arc sparks and conductive heat.",
-          "Req 2c - Equipment Maintenance and Storage": "Storing torches, cables, and protective garments in clean, dry environments prevents degradation and electrical faults. Ground clamps and electrode holders require regular examination to prevent dangerous high-resistance connections."
+          "Req 2c - Equipment Maintenance": "Storing torches, cables, and protective garments in clean, dry environments prevents degradation and electrical faults. Ground clamps and electrode holders require regular examination to prevent dangerous high-resistance connections."
         },
         "sample_output": "Safety Data Sheets and Protective Gear: This section provides guidance on safe handling and storage practices (p. 13).",
         "counselor_tip": "For Welding Requirement 2 (Safety Data Sheets and Protective Gear), verify the Scout's own observations and specific pamphlet details (Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29))."
@@ -742,7 +754,33 @@
       "socratic_questions": [
         "Why must welding trousers fall straight over boot tops without rolled cuffs?",
         "Which section of a Safety Data Sheet outlines personal protective equipment requirements?",
-        "How does oil or grease contamination on leather gloves create a sudden fire hazard?"
+        "How does oil or grease contamination on leather gloves create a sudden fire hazard?",
+        "Which section of a Safety Data Sheet lists the hazardous decomposition fumes released when an electrode coating burns?",
+        "Why is it dangerous to wear synthetic polyester or nylon shirts underneath a leather welding jacket in the shop?",
+        "What shade number range on a welding helmet filter lens is required to protect your eyes during GMAW or SMAW?",
+        "Under what condition does cuffing your work trousers or leaving shirt pockets unbuttoned create a severe burn hazard?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Synthetic fleece or nylon shirts are acceptable under leather welding jackets.",
+          "fact": "Synthetic fibers easily melt under stray heat and fuse to human skin during accidents."
+        },
+        {
+          "misconception": "Dark polarized sunglasses provide adequate eye protection when tack-welding steel plates together for just a few seconds.",
+          "fact": "Standard sunglasses lack sufficient infrared and ultraviolet filtration, requiring ANSI Z87.1 shaded welding lenses for every arc."
+        },
+        {
+          "misconception": "Safety glasses are unnecessary underneath a full-face welding helmet because the flip-down hood blocks all flying debris.",
+          "fact": "Impact-rated safety glasses with side shields must stay on under the hood to stop hot slag when lifting the helmet to chip."
+        },
+        {
+          "misconception": "Frayed cotton jeans and canvas sneakers protect your feet and ankles from molten metal droplets during flat position welding.",
+          "fact": "Molten sparks burn straight through canvas and catch in frayed hems; high-top leather boots with cuffless pants are mandatory."
+        },
+        {
+          "misconception": "Carrying a butane lighter in your front pants pocket is harmless while welding as long as your leather apron covers it.",
+          "fact": "A stray spark or radiant heat can puncture a plastic butane lighter, causing a pressurized flame explosion against your leg."
+        }
       ]
     },
     {
@@ -799,9 +837,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Soldering, brazing, and arc welding join metals through the exact same physical mechanism.",
-        "fact": "Welding melts the actual base metal while soldering and brazing only melt lower-temperature filler alloy.",
-        "myth": "Soldering, brazing, and arc welding join metals through the exact same physical mechanism.",
-        "fact_correction": "Welding melts the actual base metal while soldering and brazing only melt lower-temperature filler alloy."
+        "fact": "Welding melts the actual base metal while soldering and brazing only melt lower-temperature filler alloy."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -838,38 +874,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Consumable Flux-Coated Metal Electrodes",
-        "right_header": "Molten Weld Pool Slag Protection",
+        "left_header": "Req 3: Workpiece Ground Cable Connection",
+        "right_header": "Req 3: Melt Electrode and Base",
         "left_points": [
           "Workpiece Ground Cable Connection: One of the two cables from the power source is attached to the work (p. 32).",
           "Striking the Welding Arc: When the arc strikes between the electrode and the work piece, welding begins (p. 32).",
           "Extreme Arc Heat Generation: The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32)."
         ],
         "right_points": [
-          "Step 1 - Melt Electrode and Base: The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32).",
-          "Step 2 - Maintain Proper Arc Gap: The amount of electric current needed at the arc depends on the size of the electrode and the gap between the electrode tip and the base metal (p. 32).",
-          "Step 3 - Set Voltage and Amperage: The sizes and types of electrodes for shielded metal arc welding define the arc voltage and amperage requirements (p. 32)."
+          "Melt Electrode and Base: The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32).",
+          "Maintain Proper Arc Gap: The amount of electric current needed at the arc depends on the size of the electrode and the gap between the electrode tip and the base metal (p. 32).",
+          "Set Voltage and Amperage: The sizes and types of electrodes for shielded metal arc welding define the arc voltage and amperage requirements (p. 32)."
         ],
         "rows": [
           {
-            "attribute": "Workpiece Ground Cable Connection",
+            "attribute": "Coalescence Bond Definition",
             "left": "Workpiece Ground Cable Connection: One of the two cables from the power source is attached to the work (p. 32).",
-            "right": "Step 1 - Melt Electrode and Base: The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32)."
+            "right": "Melt Electrode and Base: The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Electrode Core Purpose",
             "left": "Striking the Welding Arc: When the arc strikes between the electrode and the work piece, welding begins (p. 32).",
-            "right": "Step 2 - Maintain Proper Arc Gap: The amount of electric current needed at the arc depends on the size of the electrode and the gap between the electrode tip and the base metal (p. 32)."
+            "right": "Maintain Proper Arc Gap: The amount of electric current needed at the arc depends on the size of the electrode and the gap between the electrode tip and the base metal (p. 32)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Slag Impurity Trapping",
             "left": "Extreme Arc Heat Generation: The heat of the arc, measured above 9,000 degrees Fahrenheit, melts the tip of the electrode and the surface of the work, near the arc (p. 32).",
-            "right": "Step 3 - Set Voltage and Amperage: The sizes and types of electrodes for shielded metal arc welding define the arc voltage and amperage requirements (p. 32)."
+            "right": "Set Voltage and Amperage: The sizes and types of electrodes for shielded metal arc welding define the arc voltage and amperage requirements (p. 32)."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 3 Exemplar Workbook Entry: Core Welding Terms and Principles",
+        "title": "Welding Req 3 Exemplar Workbook Entry: Core Welding",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Workpiece Ground Cable Connection": "One of the two cables from the power source is attached to the work (p. 32).",
@@ -912,7 +948,33 @@
       "socratic_questions": [
         "Why does molten steel absorb nitrogen and oxygen so rapidly from unprotected surrounding air?",
         "How does the electrical resistance across an arc gap generate temperatures exceeding six thousand degrees?",
-        "What role does the chemical coating on a stick electrode play during weld solidification?"
+        "What role does the chemical coating on a stick electrode play during weld solidification?",
+        "What happens to the mechanical strength of a steel weld bead if atmospheric nitrogen and oxygen enter the molten pool?",
+        "Which physical function does solidified flux slag serve over the hot weld metal immediately after the arc moves forward?",
+        "Under what condition does an electrode act strictly as a heat conductor rather than melting to supply filler metal?",
+        "What metallurgical difference separates true fusion welding from lower-temperature brazing or soldering on steel joints?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Soldering, brazing, and arc welding join metals through the exact same physical mechanism.",
+          "fact": "Welding melts the actual base metal while soldering and brazing only melt lower-temperature filler alloy."
+        },
+        {
+          "misconception": "Welding simply glues two pieces of steel together using melted filler wire without melting the base metal edges.",
+          "fact": "True fusion welding melts both the base metal edges and the filler metal so they coalesce into a single continuous grain structure."
+        },
+        {
+          "misconception": "Slag left on top of a stick weld should be chipped off while glowing red-hot so the underlying steel cools faster.",
+          "fact": "Slag insulates the cooling weld to prevent brittle martensite formation and atmospheric oxidation until the metal cools down."
+        },
+        {
+          "misconception": "Compressed shop air from a standard tire compressor can substitute for argon shielding gas to blow smoke away from the arc.",
+          "fact": "Compressed air contains roughly seventy-eight percent nitrogen and twenty-one percent oxygen, causing severe weld porosity."
+        },
+        {
+          "misconception": "All welding processes require adding a separate consumable filler rod or wire to bridge the joint between two metal plates.",
+          "fact": "Autogenous welds in processes like GTAW fuse tight-fitting base metal edges directly together using only the heat of the arc."
+        }
       ]
     },
     {
@@ -971,9 +1033,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Oxyfuel torches can cut any metallic material including aluminum, copper, and stainless steel.",
-        "fact": "Oxyfuel cutting depends on iron oxidation combustion and fails on nonferrous metals lacking high iron content.",
-        "myth": "Oxyfuel torches can cut any metallic material including aluminum, copper, and stainless steel.",
-        "fact_correction": "Oxyfuel cutting depends on iron oxidation combustion and fails on nonferrous metals lacking high iron content."
+        "fact": "Oxyfuel cutting depends on iron oxidation combustion and fails on nonferrous metals lacking high iron content."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1010,38 +1070,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Mechanical Shearing and Sawing Methods",
-        "right_header": "Thermal Oxy-Fuel and Plasma Cutting",
+        "left_header": "Req 4: Covered Electrode Arc Heat",
+        "right_header": "Req 4: Choose Portable Power Source",
         "left_points": [
           "Covered Electrode Arc Heat: It involves using the heat of an electric arc between a covered metal electrode and the work (p. 39).",
           "Inexpensive Remote Field Equipment: SMAW equipment is also inexpensive and can be used in remote areas (p. 39).",
           "Portable Generator Power Sources: Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39)."
         ],
         "right_points": [
-          "Step 1 - Choose Portable Power Source: Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39).",
-          "Step 2 - Account for Outdoor Drafts: The process is less sensitive to wind and draft than gas-shielded arc processes, making it more suitable to the outdoors than other methods (p. 39).",
-          "Step 3 - Weigh Process Advantages Carefully: Compared with its advantages, shielded arc welding has few disadvantages (p. 39)."
+          "Choose Portable Power Source: Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39).",
+          "Account for Outdoor Drafts: The process is less sensitive to wind and draft than gas-shielded arc processes, making it more suitable to the outdoors than other methods (p. 39).",
+          "Weigh Process Advantages Carefully: Compared with its advantages, shielded arc welding has few disadvantages (p. 39)."
         ],
         "rows": [
           {
-            "attribute": "Covered Electrode Arc Heat",
+            "attribute": "Mechanical Shearing Precision",
             "left": "Covered Electrode Arc Heat: It involves using the heat of an electric arc between a covered metal electrode and the work (p. 39).",
-            "right": "Step 1 - Choose Portable Power Source: Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39)."
+            "right": "Choose Portable Power Source: Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Oxyfuel Exothermic Combustion",
             "left": "Inexpensive Remote Field Equipment: SMAW equipment is also inexpensive and can be used in remote areas (p. 39).",
-            "right": "Step 2 - Account for Outdoor Drafts: The process is less sensitive to wind and draft than gas-shielded arc processes, making it more suitable to the outdoors than other methods (p. 39)."
+            "right": "Account for Outdoor Drafts: The process is less sensitive to wind and draft than gas-shielded arc processes, making it more suitable to the outdoors than other methods (p. 39)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Plasma Cutting Versatility",
             "left": "Portable Generator Power Sources: Gasoline and diesel-powered generator/welding equipment make the process portable; small, lightweight inverter power sources are available (p. 39).",
-            "right": "Step 3 - Weigh Process Advantages Carefully: Compared with its advantages, shielded arc welding has few disadvantages (p. 39)."
+            "right": "Weigh Process Advantages Carefully: Compared with its advantages, shielded arc welding has few disadvantages (p. 39)."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 4 Exemplar Workbook Entry: Mechanical and Thermal Cutting Methods",
+        "title": "Welding Req 4 Exemplar Workbook Entry: Mechanical",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Covered Electrode Arc Heat": "It involves using the heat of an electric arc between a covered metal electrode and the work (p. 39).",
@@ -1084,7 +1144,33 @@
       "socratic_questions": [
         "Why does plasma arc cutting work effectively on aluminum while oxyfuel cutting fails completely?",
         "How does the cutting speed affect drag lines and slag accumulation on plate bottoms?",
-        "What safety hazard occurs when lighting an oxyfuel torch with matches instead of friction strikers?"
+        "What safety hazard occurs when lighting an oxyfuel torch with matches instead of friction strikers?",
+        "What chemical reaction actually severs carbon steel after the oxy-fuel preheat flames bring the edge to kindling temperature?",
+        "Why is it dangerous to cut stainless steel or cast iron using a standard oxy-acetylene cutting torch setup?",
+        "What happens to the kerf edge and heat-affected zone when plasma arc cutting is used instead of a mechanical bandsaw?",
+        "Which physical indicator on the top edge of a steel plate confirms that preheat flames are ready for the oxygen cutting jet?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Oxyfuel torches can cut any metallic material including aluminum, copper, and stainless steel.",
+          "fact": "Oxyfuel cutting depends on iron oxidation combustion and fails on nonferrous metals lacking high iron content."
+        },
+        {
+          "misconception": "An oxy-acetylene cutting torch severs thick steel plate solely by melting a slot through the metal with its preheat flame.",
+          "fact": "The preheat flame only raises steel to kindling temperature; the pure oxygen jet rapidly oxidizes the iron and blows out slag."
+        },
+        {
+          "misconception": "Oxy-fuel torches cut aluminum and stainless steel just as cleanly as mild carbon steel when fuel pressure is turned up.",
+          "fact": "Aluminum and stainless steel form refractory oxides with melting points higher than the base metal, blocking oxy-fuel oxidation."
+        },
+        {
+          "misconception": "Plasma arc cutters require cylinders of flammable acetylene gas to ionize the cutting stream and slice conductive metals.",
+          "fact": "Plasma cutters use an electric arc to superheat non-flammable gases like compressed air or nitrogen into an ionized plasma jet."
+        },
+        {
+          "misconception": "Mechanical shearing and bandsaw cutting leave a wide heat-affected zone that hardens the cut edge of mild steel plate.",
+          "fact": "Mechanical cutting severs metal through cold shear or chip removal, avoiding the thermal distortion and hardening of torch cuts."
+        }
       ]
     },
     {
@@ -1132,9 +1218,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)",
           "common_misconception_pair": {
             "misconception": "Wire feed GMAW machines are always cheaper and more portable than stick welding units.",
-            "fact": "Stick welding equipment requires no bulky gas cylinders and handles field welding in remote wind.",
-            "myth": "Wire feed GMAW machines are always cheaper and more portable than stick welding units.",
-            "fact_correction": "Stick welding equipment requires no bulky gas cylinders and handles field welding in remote wind."
+            "fact": "Stick welding equipment requires no bulky gas cylinders and handles field welding in remote wind."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1204,9 +1288,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)",
           "common_misconception_pair": {
             "misconception": "Tightening wire drive roll tension all the way prevents wire slippage inside gun liners.",
-            "fact": "Excessive roller tension deforms welding wire and causes severe feeding jams inside gun liners.",
-            "myth": "Tightening wire drive roll tension all the way prevents wire slippage inside gun liners.",
-            "fact_correction": "Excessive roller tension deforms welding wire and causes severe feeding jams inside gun liners."
+            "fact": "Excessive roller tension deforms welding wire and causes severe feeding jams inside gun liners."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1290,9 +1372,7 @@
       },
       "common_misconception_pair": {
         "misconception": "The work clamp serves as an electrical ground rather than completing the active live welding circuit.",
-        "fact": "The work clamp carries full welding current back to the power source to sustain an arc.",
-        "myth": "The work clamp serves as an electrical ground rather than completing the active live welding circuit.",
-        "fact_correction": "The work clamp carries full welding current back to the power source to sustain an arc."
+        "fact": "The work clamp carries full welding current back to the power source to sustain an arc."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1328,14 +1408,14 @@
         "Step 4 - Machine Parameter Calibration: Select correct wire feed speed and direct current reverse polarity voltage on dials."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Welding Processes",
-        "Inspected hand and power tools with intact guards and ventilation setup for Welding",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.",
+        "Tape measure, square, layout pencil, clamps, and material stock for Welding Processes.",
+        "Inspected hand and power tools with intact guards and ventilation setup for Welding.",
+        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Comparative Welding Process Analys",
-        "right_header": "Req 5b: Welding Station Setup Configuratio",
+        "left_header": "Req 5a: Comparative Welding Process",
+        "right_header": "Req 5b: Welding Station Setup",
         "left_points": [
           "(5a) Comparative Welding Process Analysis: Evaluating GMAW alongside SMAW reveals contrasting equipment configurations, cost factors, and portable capabilities. GMAW requires external shielding gas cylinders and wire feed mechanisms, whereas SMAW relies on flux-coated consumable sticks."
         ],
@@ -1344,28 +1424,28 @@
         ],
         "rows": [
           {
-            "attribute": "Comparing Welding Process Components",
-            "left": "(5a) Comparing Welding Process Components: Always follow the manufacturer'srecommended procedures (p. 21).",
-            "right": "(5b) Setting Up Welding Equipment: This section will outline the steps for only two of the most common welding processes, oxy-fuel welding and shielded metal arc welding (p. 21)."
+            "attribute": "GMAW Continuous Feeding",
+            "left": "(5a) Comparative Welding Process Analysis: Evaluating GMAW alongside SMAW reveals contrasting equipment configurations, cost factors, and portable capabilities. GMAW requires external shielding gas cylinders and wire feed mechanisms, whereas SMAW relies on flux-coated consumable sticks.",
+            "right": "(5b) Welding Station Setup Configuration: Setting up a welding station involves connecting cables, adjusting gas regulators, aligning wire drive rollers, and testing wire tension. Having the counselor inspect polarity, grounding, and gas flow rates prevents equipment damage and defective welds."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Supervised Gas Regulator Training: Before you begin, you must be trained in the proper use of regulators, if they are required, and be supervised by your merit badge counselor (p. 21).",
-            "right": "Step 2 - Select Your Welding Process: This section will outline the steps for only two of the most common welding processes, oxy-fuel welding and shielded metal arc welding (p. 21)."
+            "attribute": "SMAW Outdoor Capability",
+            "left": "Req 5a: Comparative Welding Process: Evaluating GMAW alongside SMAW reveals contrasting equipment configurations, cost factors, and portable capabilities. GMAW requires external shielding gas cylinders and wire feed mechanisms, whereas SMAW relies on flux-coated consumable sticks.",
+            "right": "Req 5b: Welding Station Setup: Setting up a welding station involves connecting cables, adjusting gas regulators, aligning wire drive rollers, and testing wire tension. Having the counselor inspect polarity, grounding, and gas flow rates prevents equipment damage and defective welds."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Manufacturer Operating Procedures: Always follow the manufacturer'srecommended procedures (p. 21).",
-            "right": "Step 3 - Chain Cylinders Upright Securely: Cylinders should be secured to a wall or post for stability (p. 21)."
+            "attribute": "Work Clamp Attachment",
+            "left": "GMAW Continuous Feeding: Gas Metal Arc Welding continuously feeds spool wire to yield high production speeds.",
+            "right": "SMAW Outdoor Capability: Shielded Metal Arc Welding functions reliably outdoors in wind where gas diffusers fail."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 5 Exemplar Workbook Entry: Welding Processes and Equipment Setup",
+        "title": "Welding Req 5 Exemplar Workbook Entry: Welding Processes",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Comparative Welding Process Analy": "Evaluating GMAW alongside SMAW reveals contrasting equipment configurations, cost factors, and portable capabilities. GMAW requires external shielding gas cylinders and wire feed mechanisms, whereas SMAW relies on flux-coated consumable sticks.",
-          "Req 5b - Welding Station Setup Configurati": "Setting up a welding station involves connecting cables, adjusting gas regulators, aligning wire drive rollers, and testing wire tension. Having the counselor inspect polarity, grounding, and gas flow rates prevents equipment damage and defective welds."
+          "Req 5a - Comparative Welding Process": "Evaluating GMAW alongside SMAW reveals contrasting equipment configurations, cost factors, and portable capabilities. GMAW requires external shielding gas cylinders and wire feed mechanisms, whereas SMAW relies on flux-coated consumable sticks.",
+          "Req 5b - Welding Station Setup": "Setting up a welding station involves connecting cables, adjusting gas regulators, aligning wire drive rollers, and testing wire tension. Having the counselor inspect polarity, grounding, and gas flow rates prevents equipment damage and defective welds."
         },
         "sample_output": "Welding Processes and Equipment Setup: Always follow the manufacturer'srecommended procedures (p. 21).",
         "counselor_tip": "For Welding Requirement 5 (Welding Processes and Equipment Setup), verify the Scout's own observations and specific pamphlet details (Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69))."
@@ -1402,7 +1482,33 @@
       "socratic_questions": [
         "How does polarity configuration between DCEP and DCEN change heat distribution in arc welding?",
         "Why must shielding gas flow rate be set within manufacturer limits rather than maximized excessively?",
-        "What equipment component difference allows GMAW to produce long continuous beads compared to SMAW?"
+        "What equipment component difference allows GMAW to produce long continuous beads compared to SMAW?",
+        "Why is it dangerous to oil a compressed gas regulator or open an acetylene cylinder valve past one and a half turns?",
+        "What measurement on a flowmeter gauge confirms proper shielding gas delivery in cubic feet per hour before GMAW welding?",
+        "Where should a Scout position the work clamp on the workpiece to prevent arc blow and poor electrical ground contact?",
+        "Under what condition does outdoor wind make Flux-Cored Arc Welding or SMAW superior to gas-shielded GMAW?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "The work clamp serves as an electrical ground rather than completing the active live welding circuit.",
+          "fact": "The work clamp carries full welding current back to the power source to sustain an arc."
+        },
+        {
+          "misconception": "Backing out a regulator adjusting screw until it feels tight increases gas flow into the welding torch hose prior to opening.",
+          "fact": "Turning the regulator screw counterclockwise relieves spring tension so high cylinder pressure does not slam the diaphragm."
+        },
+        {
+          "misconception": "Acetylene gas can be safely regulated and used at line pressures above fifteen pounds per square inch for heavy cutting.",
+          "fact": "Free acetylene becomes chemically unstable above fifteen psi and can decompose explosively even without oxygen present."
+        },
+        {
+          "misconception": "Constant-current power sources and constant-voltage power sources are interchangeable between stick welding and MIG wire feeders.",
+          "fact": "SMAW and GTAW require constant-current machines to stabilize amperage, while GMAW and FCAW use constant-voltage power sources."
+        },
+        {
+          "misconception": "Clamping the ground cable onto a painted or rusty table leg far from the joint provides a clean electrical return path.",
+          "fact": "Rust and paint add electrical resistance that causes erratic arc starting; clamp directly to clean bare metal near the joint."
+        }
       ]
     },
     {
@@ -1448,9 +1554,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
             "misconception": "Tracing curved lines requires waving the torch tip erratically across the metal surface.",
-            "fact": "Maintaining uniform travel speed and arc length around curves preserves consistent bead width.",
-            "myth": "Tracing curved lines requires waving the torch tip erratically across the metal surface.",
-            "fact_correction": "Maintaining uniform travel speed and arc length around curves preserves consistent bead width."
+            "fact": "Maintaining uniform travel speed and arc length around curves preserves consistent bead width."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1521,9 +1625,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
             "misconception": "Weld padding involves laying isolated passes with gaps between successive beads.",
-            "fact": "Beads must overlap by fifty percent to create a uniform, solid buildup surface.",
-            "myth": "Weld padding involves laying isolated passes with gaps between successive beads.",
-            "fact_correction": "Beads must overlap by fifty percent to create a uniform, solid buildup surface."
+            "fact": "Beads must overlap by fifty percent to create a uniform, solid buildup surface."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1594,9 +1696,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
             "misconception": "Plates in a square butt joint must be jammed tight with zero root opening.",
-            "fact": "A slight root opening allows the arc to penetrate completely through base metal plate thickness.",
-            "myth": "Plates in a square butt joint must be jammed tight with zero root opening.",
-            "fact_correction": "A slight root opening allows the arc to penetrate completely through base metal plate thickness."
+            "fact": "A slight root opening allows the arc to penetrate completely through base metal plate thickness."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1667,9 +1767,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
             "misconception": "Welding only one side of a thick butt joint achieves total structural joint capacity.",
-            "fact": "Single-sided welds without backing leave unfused roots that crack easily under bending stress.",
-            "myth": "Welding only one side of a thick butt joint achieves total structural joint capacity.",
-            "fact_correction": "Single-sided welds without backing leave unfused roots that crack easily under bending stress."
+            "fact": "Single-sided welds without backing leave unfused roots that crack easily under bending stress."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1741,9 +1839,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
             "misconception": "Directing the arc solely onto the bottom plate naturally pulls molten puddle into the upright plate.",
-            "fact": "The arc must bisect both plate faces equally to achieve complete root and side fusion.",
-            "myth": "Directing the arc solely onto the bottom plate naturally pulls molten puddle into the upright plate.",
-            "fact_correction": "The arc must bisect both plate faces equally to achieve complete root and side fusion."
+            "fact": "The arc must bisect both plate faces equally to achieve complete root and side fusion."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1814,9 +1910,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
             "misconception": "The exposed top edge of a lap joint requires direct arc heating to melt properly.",
-            "fact": "Targeting the top edge directly melts it away prematurely and creates severe edge underfill.",
-            "myth": "The exposed top edge of a lap joint requires direct arc heating to melt properly.",
-            "fact_correction": "Targeting the top edge directly melts it away prematurely and creates severe edge underfill."
+            "fact": "Targeting the top edge directly melts it away prematurely and creates severe edge underfill."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1923,9 +2017,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Faster torch travel speed always creates a cleaner, stronger weld bead with fewer surface flaws.",
-        "fact": "Excessive travel speed produces inadequate penetration, narrow underfilled beads, and severe edge undercutting.",
-        "myth": "Faster torch travel speed always creates a cleaner, stronger weld bead with fewer surface flaws.",
-        "fact_correction": "Excessive travel speed produces inadequate penetration, narrow underfilled beads, and severe edge undercutting."
+        "fact": "Excessive travel speed produces inadequate penetration, narrow underfilled beads, and severe edge undercutting."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1961,10 +2053,10 @@
         "Step 4 - Dual Sided Completion: Turn the tack welded assembly over and run the second reinforcing fillet bead."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Multi-Process Welding Shop Projects",
-        "Inspected hand and power tools with intact guards and ventilation setup for Welding",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.",
+        "Tape measure, square, layout pencil, clamps, and material stock for Multi-Process Welding Shop Projects.",
+        "Inspected hand and power tools with intact guards and ventilation setup for Welding.",
+        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
         "left_header": "Req 6a: Initial Letter Bead Execution",
@@ -1981,24 +2073,24 @@
         ],
         "rows": [
           {
-            "attribute": "Welding Your Sketched Initial",
-            "left": "(6a) Welding Your Sketched Initial: Open the torch-fuel valve to drain fuel gas, and then close (p. 71).",
-            "right": "(6d) Double-Sided Butt Joint Welds: Release the adjusting screw on the fuel-gas regulator (p. 71)."
+            "attribute": "Soapstone Pattern Layout",
+            "left": "(6a) Initial Letter Bead Execution: Scribing and tracing personal initials teaches precise hand-eye coordination and consistent arc travel speed along curved contours. Operators maintain a uniform standoff distance to prevent arc extinguishing or sudden wire burnback.",
+            "right": "(6d) Square Groove Butt Welding: Depositing full-length beads on both sides of a butt joint produces complete joint penetration through the plate cross-section. Cleaning root pass slag or oxides before welding the reverse side prevents internal solid slag entrapment."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(6b) Padding Overlapping Weld Beads: Welding for the Novice When you are ready to close down the equipment, turn off the torch oxygen valve; then, turn off the fuel valve (p. 71).",
-            "right": "(6e) T-Joint Fillet Weld Practice: Open the torch-fuel valve to drain fuel gas, and then close (p. 71)."
+            "attribute": "Stringer Bead Overlap",
+            "left": "(6b) Surface Padding Plate Buildup: Covering a three-inch square plate with parallel stringer beads demonstrates overlay welding used for surface rebuilding and wear surfacing. Each overlapping pass must tie into the previous bead crown by approximately one-third to one-half width.",
+            "right": "(6e) Tee Joint Fillet Welding: Positioning plates perpendicular to each other forms a tee joint requiring balanced fillet welds on both vertical-horizontal corners. Maintaining a forty-five degree work angle directs arc force equally into both base plates to prevent uneven undercut."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "(6c) Tacking Square Butt Joints: Close the cylinder valves, then open the torch oxygen valve to allow the oxygen to drain, and close the torch oxygen valve (p. 71).",
-            "right": "(6f) Lap Joint Fillet Welds: Welding for the Novice When you are ready to close down the equipment, turn off the torch oxygen valve; then, turn off the fuel valve (p. 71)."
+            "attribute": "Tack Welding Restraint",
+            "left": "(6c) Square Groove Butt Tacking: Aligning two flat plates with a uniform root opening prepares a square groove butt joint for structural fusion. Placing robust tack welds at both ends arrests transverse shrinkage and preserves joint spacing under thermal contraction.",
+            "right": "(6f) Lap Joint Fillet Welding: Overlapping two flat plates creates dual corner seams where fillet welds join top and bottom edges. The welder directs the arc slightly away from the top edge to prevent melting down the exposed plate corner."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 6 Exemplar Workbook Entry: Practical Bead and Joint Welding",
+        "title": "Welding Req 6 Exemplar Workbook Entry: Practical Bead",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 6a - Initial Letter Bead Execution": "Scribing and tracing personal initials teaches precise hand-eye coordination and consistent arc travel speed along curved contours. Operators maintain a uniform standoff distance to prevent arc extinguishing or sudden wire burnback.",
@@ -2041,7 +2133,33 @@
       "socratic_questions": [
         "How does manipulating torch travel speed influence the width and height of a weld bead?",
         "Why do square butt joints warp into angular distortion if welded without prior end tacks?",
-        "What visual indicators distinguish complete root fusion from cold lap along a tee joint?"
+        "What visual indicators distinguish complete root fusion from cold lap along a tee joint?",
+        "What happens to weld penetration and bead profile when your travel speed across the steel plate is noticeably too fast?",
+        "Which physical indicator in the weld toe shows undercut caused by excessive amperage or an improper electrode angle?",
+        "Where should a Scout place tack welds on a tee joint or corner joint to prevent thermal distortion during the final pass?",
+        "What percentage of lateral overlap between adjacent stringer beads ensures a smooth, flat pad without deep valleys?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Faster torch travel speed always creates a cleaner, stronger weld bead with fewer surface flaws.",
+          "fact": "Excessive travel speed produces inadequate penetration, narrow underfilled beads, and severe edge undercutting."
+        },
+        {
+          "misconception": "Piling a tall, rounded weld bead high above the plate surface creates a stronger joint than a flat, well-fused bead.",
+          "fact": "Excessive weld reinforcement wastes filler metal and creates sharp stress risers along the weld toes without adding strength."
+        },
+        {
+          "misconception": "Clamping one end of a butt joint by hand without tack welds keeps the two steel plates aligned during welding.",
+          "fact": "Thermal expansion and contraction exert immense force that warps untacked plates; tack welds at both ends hold alignment."
+        },
+        {
+          "misconception": "Using a graphite pencil or permanent ink marker instead of soapstone is ideal for sketching layout lines on hot steel.",
+          "fact": "Ink burns off before the arc arrives and carbon from graphite can contaminate sensitive alloys, whereas soapstone stays visible."
+        },
+        {
+          "misconception": "Holding a very long arc length helps the molten filler metal spread out wider and penetrate deeper into a fillet joint.",
+          "fact": "An overly long arc scatters heat, increases spatter, reduces root penetration, and lets atmospheric gases cause weld porosity."
+        }
       ]
     },
     {
@@ -2091,9 +2209,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 36, p. 82)",
           "common_misconception_pair": {
             "misconception": "Every welding job requires an identical four-year university engineering degree.",
-            "fact": "Many specialized welding careers rely on vocational technical diplomas and trade union apprenticeships.",
-            "myth": "Every welding job requires an identical four-year university engineering degree.",
-            "fact_correction": "Many specialized welding careers rely on vocational technical diplomas and trade union apprenticeships."
+            "fact": "Many specialized welding careers rely on vocational technical diplomas and trade union apprenticeships."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2164,9 +2280,7 @@
           "pamphlet_page_citation": "Official Scouting America Welding Merit Badge Pamphlet (p. 36, p. 82)",
           "common_misconception_pair": {
             "misconception": "The American Welding Society is merely a social club for hobbyist fabricators.",
-            "fact": "The American Welding Society establishes legally binding structural codes used in bridge and building construction.",
-            "myth": "The American Welding Society is merely a social club for hobbyist fabricators.",
-            "fact_correction": "The American Welding Society establishes legally binding structural codes used in bridge and building construction."
+            "fact": "The American Welding Society establishes legally binding structural codes used in bridge and building construction."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2257,9 +2371,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Welding is strictly manual shop labor with zero opportunities for advanced technical education.",
-        "fact": "Welding engineering degrees combine metallurgy, automated robotics, computer-aided design, and destructive testing science.",
-        "myth": "Welding is strictly manual shop labor with zero opportunities for advanced technical education.",
-        "fact_correction": "Welding engineering degrees combine metallurgy, automated robotics, computer-aided design, and destructive testing science."
+        "fact": "Welding engineering degrees combine metallurgy, automated robotics, computer-aided design, and destructive testing science."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2295,13 +2407,13 @@
         "Step 4 - Career Plan Presentation: Present required certifications, training timelines, and career goals directly to the counselor."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Welding Careers and Pathways",
-        "Inspected hand and power tools with intact guards and ventilation setup for Welding",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.",
+        "Tape measure, square, layout pencil, clamps, and material stock for Welding Careers and Pathways.",
+        "Inspected hand and power tools with intact guards and ventilation setup for Welding.",
+        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet."
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Welding Career Pathways Exploratio",
+        "left_header": "Req 7a: Welding Career Pathways",
         "right_header": "Req 7b: American Welding Society Role",
         "left_points": [
           "(7a) Welding Career Pathways Exploration: Investigating diverse careers in pipeline fabrication, underwater commercial diving, and aerospace manufacturing highlights varied educational routes. Apprenticeship programs combine paid on-the-job training with classroom metallurgy study to produce journeyman welders."
@@ -2311,27 +2423,27 @@
         ],
         "rows": [
           {
-            "attribute": "Exploring Welding Career Paths",
-            "left": "(7a) Exploring Welding Career Paths: Manufacturing businesses are experiencing a shortage of skilled welders (p. 36).",
-            "right": "(7b) American Welding Society Role: As baby boomers (those born between 1946 and 1964) continue to retire, skilled welders are needed to replace them (p. 36)."
+            "attribute": "Certified Welding Inspector",
+            "left": "(7a) Welding Career Pathways Exploration: Investigating diverse careers in pipeline fabrication, underwater commercial diving, and aerospace manufacturing highlights varied educational routes. Apprenticeship programs combine paid on-the-job training with classroom metallurgy study to produce journeyman welders.",
+            "right": "(7b) American Welding Society Role: The American Welding Society acts as the premier technical body establishing industry-wide welding codes, inspection protocols, and safety standards. AWS credentials provide globally recognized verification of welder competence and procedure qualification."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Retiring Generation Replacement Need: As baby boomers (those born between 1946 and 1964) continue to retire, skilled welders are needed to replace them (p. 36).",
-            "right": "Step 2 - Look Beyond Outdated Stereotypes: This may be because the dreary image of the past century's industrial age lingers (p. 36)."
+            "attribute": "Pipeline Welder Demands",
+            "left": "Req 7a: Welding Career Pathways: Investigating diverse careers in pipeline fabrication, underwater commercial diving, and aerospace manufacturing highlights varied educational routes. Apprenticeship programs combine paid on-the-job training with classroom metallurgy study to produce journeyman welders.",
+            "right": "Req 7b: American Welding Society: The American Welding Society acts as the premier technical body establishing industry-wide welding codes, inspection protocols, and safety standards. AWS credentials provide globally recognized verification of welder competence and procedure qualification."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Competitive Career Starting Salaries: Despite the lure of $40,000 to $70,000 salaries after college graduation and on-the-job training, it has been difficult to recruit newcomers (p. 36).",
-            "right": "Step 3 - Explore Modern Welding Technology: Thanks to advances in science and technology, welding has a new spark (p. 36)."
+            "attribute": "AWS Code Development",
+            "left": "Certified Welding Inspector: Certified Welding Inspectors evaluate weld quality according to structural fabrication codes and standards.",
+            "right": "Pipeline Welder Demands: Pipeline welders travel to remote sites to weld high-pressure cross-country petroleum transmission lines."
           }
         ]
       },
       "worked_example": {
-        "title": "Welding Req 7 Exemplar Workbook Entry: Welding Careers and Professional Standards",
+        "title": "Welding Req 7 Exemplar Workbook Entry: Welding Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 7a - Welding Career Pathways Explorati": "Investigating diverse careers in pipeline fabrication, underwater commercial diving, and aerospace manufacturing highlights varied educational routes. Apprenticeship programs combine paid on-the-job training with classroom metallurgy study to produce journeyman welders.",
+          "Req 7a - Welding Career Pathways": "Investigating diverse careers in pipeline fabrication, underwater commercial diving, and aerospace manufacturing highlights varied educational routes. Apprenticeship programs combine paid on-the-job training with classroom metallurgy study to produce journeyman welders.",
           "Req 7b - American Welding Society Role": "The American Welding Society acts as the premier technical body establishing industry-wide welding codes, inspection protocols, and safety standards. AWS credentials provide globally recognized verification of welder competence and procedure qualification."
         },
         "sample_output": "Welding Careers and Professional Standards: Manufacturing businesses are experiencing a shortage of skilled welders (p. 36).",
@@ -2369,7 +2481,33 @@
       "socratic_questions": [
         "How does earning an AWS qualification test coupon certification benefit a job applicant?",
         "Why do industries rely on third-party Certified Welding Inspectors rather than self-policing by fabricators?",
-        "What technological advancements are expanding careers in robotic automated welding?"
+        "What technological advancements are expanding careers in robotic automated welding?",
+        "What practical difference separates an AWS Certified Welder performance test from an AWS Certified Welding Inspector role?",
+        "Which non-destructive testing methods allow an inspector to detect internal weld cracks without cutting the finished joint?",
+        "Under what condition does an AWS Certified Welder credential expire if the welder stops working with that specific process?",
+        "What structural consequences occur if a fabrication shop ignores AWS D1.1 code specifications on bridge or building steel?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Welding is strictly manual shop labor with zero opportunities for advanced technical education.",
+          "fact": "Welding engineering degrees combine metallurgy, automated robotics, computer-aided design, and destructive testing science."
+        },
+        {
+          "misconception": "Passing a single welding certification test qualifies a welder to perform every welding process on any metal thickness.",
+          "fact": "Welder performance qualifications apply only to the specific process, position, base metal group, and thickness range tested."
+        },
+        {
+          "misconception": "An AWS Welding Certification lasts for life without requiring ongoing continuity logs or periodic employer verification.",
+          "fact": "AWS welder certification requires signed continuity verification every six months confirming the welder still uses that process."
+        },
+        {
+          "misconception": "Careers in the welding industry are limited to manual shop floor production work with no pathways into engineering.",
+          "fact": "Welding careers span robotics programming, metallurgical engineering, nondestructive testing, and certified code inspection."
+        },
+        {
+          "misconception": "The American Welding Society is a federal government agency that issues criminal fines to local metal fabrication shops.",
+          "fact": "The American Welding Society is a nonprofit professional organization that publishes consensus standards and administers exams."
+        }
       ]
     }
   ],

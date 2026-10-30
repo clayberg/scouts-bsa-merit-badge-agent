@@ -1,8 +1,8 @@
 # Rowing Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Rowing.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/rowing/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/rowing/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -28,9 +28,9 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Review the characteristics of life jackets most appropriate for rowing and why one must always be worn while rowing. Then demonstrate how to select and fit a life jacket.
-- [ ] **Station Req 4:** Do ONE of the following: (a) Alone or with a passenger, do the following in either a fixed-seat or sliding-seat rowboat: (1) Launch. (2) Row in a straight line for 100 yards. Stop, pivot, and return to the starting point. (3) Backwater in a straight line for 25 yards. Make a turn underway and return to the starting point. (4) Land and moor or rack your craft. (5) Tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, Wellman's knot, and mooring hitch. (b) Participate as a rowing team member in a competitive rowing meet. The team may be sponsored by a school, club, or Scout unit. The meet must include competition between two or more teams with different sponsors. Complete at least 10 hours of team practice prior to the meet.
-- [ ] **Station Req 5:** Do ONE of the following: (a) In a fixed-seat rowboat, come alongside a pier and help a passenger into the boat. Pull away from the pier, change positions with your passenger, and demonstrate sculling over the stern or side. Resume your rowing position, return alongside the pier, and help your passenger out of the boat. (b) In a sliding-seat rowboat, come alongside a pier and, with your buddy assisting you, get out onto the pier. Help your buddy into the boat. Reverse roles with your buddy and repeat the procedure.
+- [ ] **Station Req 3:** Scout must individually explain mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually demonstrate mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually explain mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -185,7 +185,7 @@
 **Official Requirement 4a(2):** Row in a straight line for 100 yards. Stop, pivot, and return to the starting point.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4a(2) Structured Technical Study & Explanation Matrix (Straight Line for Yards Stop)
 - **Common Myth:** Twisting around to look over your shoulder on every stroke is the best way to steer a rowboat in a straight line.
-- **Pamphlet Fact:** Aligning two stationary shore features in a line over the stern as range marks allows rowers to maintain a straight course without constantly turning around.
+- **Pamphlet Fact:** Aligning two stationary shore features in a line over the stern as range marks allows rowers to maintain a straight course without constantly turning.
 
 ![Rowing Requirement 3 figure showing choose inherently buoyant vest designs that permit unrestricted arm and shoulder motion.](/assets/pamphlet_images/rowing_p012_img1.png)
 

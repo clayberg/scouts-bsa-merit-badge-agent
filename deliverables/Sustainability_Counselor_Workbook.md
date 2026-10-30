@@ -499,10 +499,10 @@
 - **Pamphlet Fact:** Decomposing deadfall provides critical shelter for insects, amphibians, and returning soil nutrients.
 
 **Gear & Readiness Checklist:**
-- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide
-- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Leave No Trace and Outdoor Ethics
-- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
-- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
+- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
+- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Leave No Trace and Outdoor Ethics.
+- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools.
+- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card.
 
 ![A family gathers at home to discuss conservation and sustainability.](/assets/pamphlet_images/sustainability_p023_img1.png)
 

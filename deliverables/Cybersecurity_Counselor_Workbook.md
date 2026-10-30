@@ -14,7 +14,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Digital Safety and Physical Wellbeing | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Cyber Ethics and Moral Responsibility | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Cybersecurity Architecture and Foundational Principles | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Cybersecurity Architecture and Foundational | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Threat Landscapes and Attack Surfaces | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Defensive Technologies and Hardening Techniques | Describe | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Cryptographic Systems and Ciphers | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -133,7 +133,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Cybersecurity Architecture and Foundational Principles
+### Req 3: Cybersecurity Architecture and Foundational
 **Official Requirement 3 (Parent Overview):** Fundamentals. Do the following and discuss each with your counselor: (a) Describe three types of computer systems that need protecting and explain why. (b) Explain the "C. I. A. Triad", Confidentiality, Integrity, and Availability, and why these three principles are fundamental to cybersecurity.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)* • **Group Organizer:** Concept & Examples Notes
 > **Guide to Safe Scouting Warning:** Never connect personal flash drives to critical school, medical, or municipal computer terminals.
@@ -325,7 +325,7 @@
 **Official Requirement 5b (Parent Overview):** Installing updates. Do the following: (1) Explain to your counselor the importance of installing the latest updates on your computer, why they are needed, and what kinds of problems they can prevent. (2) Demonstrate to your counselor how to check for, download, and install the latest updates for your computer or mobile device, or another computer you have permission to use. (If you are unable to do this on your computer, you may use an online guide with screenshots to demonstrate this.) Show your counselor how to verify that your computer or mobile device is up-to-date.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Group Organizer:** Skill Demonstration Checklist
 - **Common Myth:** Postponing operating system updates for several months carries minimal risk on personal computers.
-- **Pamphlet Fact:** Security patches close publicly documented vulnerabilities that attackers actively automate exploits against.
+- **Pamphlet Fact:** Security patches close publicly documented vulnerabilities that attackers actively automate exploits.
 
 **Official Pamphlet Summary:**
 - Vendors distribute security patches to remediate logic flaws discovered by security researchers. Operating unpatched legacy software exposes systems to known automated exploit kits.

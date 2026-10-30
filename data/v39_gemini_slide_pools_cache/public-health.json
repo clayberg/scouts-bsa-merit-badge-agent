@@ -1,0 +1,221 @@
+{
+  "badge_slug": "public-health",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Clostridium tetani spores live in soil and manure, and deep puncture wounds create the oxygen-free environment they need to grow.",
+          "misconception": "Stepping on a rusty nail causes tetanus because iron oxide itself is poisonous to the human nervous system."
+        },
+        {
+          "fact": "Antibiotics only target bacteria and have zero effect on viruses, so misusing them only breeds antibiotic-resistant bacteria.",
+          "misconception": "Antibiotics cure viral infections like influenza, COVID-19, and viral encephalitis if taken right after symptoms appear."
+        },
+        {
+          "fact": "A blacklegged tick typically must remain attached for 36 to 48 hours before the Lyme disease bacteria migrate into the host.",
+          "misconception": "An infected deer tick transmits Lyme disease the instant it bites and attaches to a hiker's skin in the woods."
+        },
+        {
+          "fact": "Clinical medicine treats sick individuals, whereas public health protects entire populations by preventing disease and injury.",
+          "misconception": "Public health focuses on treating individual patients in hospital emergency rooms after they become severely ill."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why does tetanus require a deep puncture wound rather than a shallow surface scrape to produce dangerous bacterial toxins?",
+        "What biological difference separates how a person contracts Lyme disease or West Nile virus from how COVID-19 spreads?",
+        "Under what food storage conditions does Clostridium botulinum multiply and release neurotoxins inside sealed containers?",
+        "Which protective gear and removal tool should you carry on a hike to prevent blacklegged ticks from transmitting Borrelia?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Injectable inactivated flu vaccines contain only killed viral proteins that cannot replicate, though mild immune soreness is normal.",
+          "misconception": "Inactivated flu shots contain live influenza viruses that regularly give healthy recipients a mild case of the flu."
+        },
+        {
+          "fact": "Immunity to tetanus and diphtheria wanes over time, so adults require a Tdap or Td booster dose once every ten years.",
+          "misconception": "Childhood vaccinations provide permanent lifetime immunity against every pathogen without requiring adult booster doses."
+        },
+        {
+          "fact": "Injecting donor antibodies is passive immunity, whereas active immunization trains your own B cells and T cells to build memory.",
+          "misconception": "Active immunization works by injecting pre-made donor antibodies that immediately neutralize bacteria in the bloodstream."
+        },
+        {
+          "fact": "Tetanus and COVID-19 have routine human vaccines, but E. coli, salmonellosis, AIDS, and Lyme disease currently lack routine shots.",
+          "misconception": "Standard childhood vaccines protect campers against all seven diseases listed in Public Health requirement 1b."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens inside the adaptive immune system after a vaccine introduces a weakened or inactivated antigen into the body?",
+        "Why must adults receive a tetanus and diphtheria booster every 10 years while an influenza vaccine is needed every year?",
+        "What immunization record details must a Scout verify on the Annual Health and Medical Record before attending summer camp?",
+        "Which biological obstacles have prevented scientists from creating an effective human vaccine for HIV or Lyme disease?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Wild mammals contaminate high-altitude streams with Giardia and Cryptosporidium cysts, so all backcountry water needs treatment.",
+          "misconception": "Clear, cold mountain stream water flowing far above timberline is free of waterborne pathogens and safe to drink untreated."
+        },
+        {
+          "fact": "Bringing water to a full rolling boil for one minute kills waterborne pathogens, though high elevations require up to three minutes.",
+          "misconception": "Backcountry water must be kept at a rolling boil for ten full minutes at sea level to kill bacteria, viruses, and cysts."
+        },
+        {
+          "fact": "Microfilters remove bacteria and protozoan cysts, but tiny viruses pass through unless you add chemical treatment or UV light.",
+          "misconception": "Standard 0.2-micron hollow-fiber camp water filters physically trap all waterborne viruses alongside bacteria and protozoa."
+        },
+        {
+          "fact": "Damp cloth towels harbor and transfer bacteria across every dish, so sanitized camp utensils must air-dry in a clean mesh bag.",
+          "misconception": "Wiping camp plates dry with a clean cotton towel right after the sanitizing dip keeps utensils cleaner than air-drying."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to chemical treatment contact time if backcountry stream water is icy cold and cloudy with sediment?",
+        "Which protozoan cysts survive standard chlorine tablets but are killed by a full rolling boil or removed by a microfilter?",
+        "What water temperature or chemical concentration confirms that the third camp dishwashing pot actually sanitizes utensils?",
+        "Why is it dangerous to dry sanitized camp dishes with a shared cloth dishtowel instead of letting them air-dry in a mesh bag?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Dry sweeping launches hantavirus particles into the air, so you must soak rodent droppings with bleach solution and wipe with paper.",
+          "misconception": "Sweeping up dried mouse droppings with a broom and dustpan is the safest way to clean a rodent-infested camp cabin."
+        },
+        {
+          "fact": "Dryer sheets fail to stop biting vectors; effective protection requires DEET, picaridin, or permethrin-treated clothing.",
+          "misconception": "Hanging scented dryer sheets from your belt loops repels mosquitoes and ticks just as effectively as EPA-registered DEET."
+        },
+        {
+          "fact": "Mosquitoes fly across property lines from wetlands and storm drains, so community-wide larviciding and drainage are required.",
+          "misconception": "Individual homeowners can eliminate regional mosquito-borne disease outbreaks simply by spraying their own backyards."
+        },
+        {
+          "fact": "Rodents smell food through plastic and chew straight through tent fabric, so all camp food belongs in hard animal-proof containers.",
+          "misconception": "Leaving sealed plastic bags of food inside a nylon tent overnight prevents mice and rats from entering your sleeping area."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes a mechanical vector like a housefly from a biological vector like an Anopheles mosquito or deer tick?",
+        "Where around a campsite or backyard can stagnant water collect and let Aedes mosquitoes complete their larval life cycle?",
+        "Why is it dangerous to dry-sweep rodent droppings inside an enclosed camp cabin instead of wetting them with disinfectant?",
+        "Which vector control tasks can one household accomplish alone, and which require a municipal abatement district to manage?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Primary treatment only settles solids; biological microbes in secondary treatment and disinfection are needed to make effluent safe.",
+          "misconception": "Primary wastewater settling tanks remove dissolved organic pollutants and waterborne bacteria before water enters a river."
+        },
+        {
+          "fact": "Sanitary landfills seal waste daily over clay and synthetic liners while pipes collect liquid leachate and methane gas safely.",
+          "misconception": "Modern municipal landfills are unlined pits designed to expose buried garbage to air and sunlight for rapid composting."
+        },
+        {
+          "fact": "Bacteria like Staphylococcus aureus produce heat-stable toxins in the 40 to 140 degree F danger zone that cooking cannot destroy.",
+          "misconception": "Reheating spoiled food that sat on a warm counter for six hours makes it safe to eat because heat kills all bacteria."
+        },
+        {
+          "fact": "Contaminated gloves spread pathogens just like bare skin, so workers must wash hands thoroughly before putting on fresh gloves.",
+          "misconception": "Wearing disposable latex or nitrile gloves in a commercial kitchen eliminates the need for workers to wash their hands."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens during secondary wastewater treatment that primary physical screening and settling tanks cannot accomplish?",
+        "What internal and holding temperatures confirm that a cafeteria keeps perishable foods out of the bacterial danger zone?",
+        "Which engineering barriers inside a modern sanitary landfill prevent toxic leachate from seeping into local groundwater?",
+        "Where should a food service worker store raw poultry inside a walk-in cooler so meat juices never contaminate salad greens?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Vape aerosols contain high-dose nicotine, heavy metals, and ultrafine chemical particles that injure developing lungs and brains.",
+          "misconception": "Electronic cigarettes and vape pens emit harmless water vapor free of addictive chemicals or lung-damaging toxins."
+        },
+        {
+          "fact": "Prescription drugs are dosed for one patient's physiology and can cause fatal respiratory depression or heart failure in others.",
+          "misconception": "Prescription painkillers and stimulants are safe to share with friends because a licensed doctor originally prescribed them."
+        },
+        {
+          "fact": "Mammalian cochlear hair cells do not grow back once destroyed by excessive decibels, making noise-induced hearing loss permanent.",
+          "misconception": "Inner ear sensory hair cells damaged by loud concerts, power tools, or gunfire regenerate within a few days of quiet rest."
+        },
+        {
+          "fact": "Only the liver metabolizes alcohol at a fixed rate over time; caffeine and cold water cannot lower blood alcohol concentration.",
+          "misconception": "Drinking black coffee or taking a cold shower sobers up an intoxicated person by speeding alcohol removal from the blood."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the delicate hair cells inside the cochlea after repeated exposure to noise levels above 85 decibels?",
+        "Why does fine particulate matter (PM2.5) pose a deeper respiratory and cardiovascular threat than coarse dust particles?",
+        "Under what physiological mechanism does taking someone else's prescription opioid suppress breathing in the brainstem?",
+        "Which Air Quality Index (AQI) reading signals that your patrol should modify or postpone strenuous outdoor hiking?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Mortality measures the incidence of death in a population, whereas morbidity measures the prevalence or incidence of illness.",
+          "misconception": "Morbidity and mortality are interchangeable medical terms that both measure how many people die from a disease each year."
+        },
+        {
+          "fact": "High-morbidity conditions like respiratory infections sicken thousands, while heart disease and cancer cause the most deaths.",
+          "misconception": "The four leading causes of illness in a county are always identical to the four leading causes of death in that community."
+        },
+        {
+          "fact": "City, county, and state health departments hold primary legal authority locally, and the CDC assists when requested or interstate.",
+          "misconception": "Federal agencies like the CDC automatically take command of every local restaurant inspection and county health clinic."
+        },
+        {
+          "fact": "Mandatory disease reporting and vital statistics let health agencies spot clusters early and intervene before outbreaks escalate.",
+          "misconception": "Public health departments wait until hospitals overflow before tracking infectious diseases or chronic illness trends."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What epidemiological distinction separates a community's leading causes of mortality from its leading causes of morbidity?",
+        "Why do epidemiologists calculate age-adjusted rates per 100,000 residents instead of comparing raw death counts across counties?",
+        "What surveillance data and laboratory reports trigger a county health department to launch an outbreak investigation?",
+        "Which local, state, and federal public health agencies coordinate resources when a foodborne or viral outbreak crosses borders?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Public health relies on non-clinical specialists including biostatisticians, sanitarians, health educators, and toxicologists.",
+          "misconception": "Every career in the public health sector requires graduating from medical school or holding a clinical nursing license."
+        },
+        {
+          "fact": "Microbiologists run lab assays, whereas epidemiologists analyze population data, interview patients, and design field studies.",
+          "misconception": "Epidemiologists spend their entire careers working alone at laboratory microscopes identifying bacteria and viruses."
+        },
+        {
+          "fact": "Environmental health specialists test emergency drinking water, assess shelter sanitation, and control vectors after disasters.",
+          "misconception": "Registered Environmental Health Specialists only inspect restaurant kitchens and have no role in emergency disasters."
+        },
+        {
+          "fact": "Biostatisticians design sampling methods before studies begin and build mathematical models to forecast disease transmission.",
+          "misconception": "Biostatisticians only tally simple spreadsheet totals after a clinical study or public health campaign has already ended."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What academic coursework and field practicum experience distinguish a Master of Public Health (MPH) from a medical degree?",
+        "Which state or national credentialing exam must an environmental health specialist pass to conduct official inspections?",
+        "What statistical software and field interview logs does an applied epidemiologist maintain during a contact-tracing surge?",
+        "What personal protective equipment and biosafety training must a public health laboratory microbiologist verify daily?"
+      ],
+      "req_id": "8"
+    }
+  ]
+}

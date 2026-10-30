@@ -1,8 +1,8 @@
 # Stamp Collecting Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Stamp%20Collecting.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/stamp-collecting/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/stamp-collecting/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -27,8 +27,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 4:** Do the following: (a) Demonstrate the use of ONE standard catalog for several different stamp issues. Explain why catalog value can vary from the corresponding purchase price. (b) Explain the meaning of the term condition as used to describe a stamp. Show examples that illustrate the different factors that affect a stamp's value.
-- [ ] **Station Req 5:** Demonstrate the use of at least THREE of the following stamp collector's tools: (a) Stamp tongs (b) Water and tray (c) Magnifiers (d) Hinges and stamp mounts (e) Perforation gauge (f) Glassine envelopes and cover sleeves (g) Watermark fluid
+- [ ] **Station Req 4:** Scout must individually demonstrate mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -116,9 +116,9 @@
 - **Pamphlet Fact:** Authentic imperforate issues possess wide uniform sheet margins on all four sides.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Stamp Collecting Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: At least ONE example)
-- [ ] Field notebook, verification log sheet, and demonstration materials for At least ONE example
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Stamp Collecting Merit Badge: At least ONE example.
+- [ ] Field notebook, verification log sheet, and demonstration materials for At least ONE example.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![An open stamp album displays neatly organized postage stamps from world history.](/assets/pamphlet_images/stamp_collecting_p012_img1.png)
 
@@ -274,9 +274,9 @@
 - **Pamphlet Fact:** Wholesale dealer purchase offers typically average twenty to forty percent of retail catalog values.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Stamp Collecting Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Standard Catalog for Several Different)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Standard Catalog for Several Different
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Stamp Collecting Merit Badge: Standard Catalog for Several Different.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Standard Catalog for Several Different.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A one cent Pilgrim Tercentenary commemorative stamp portrays the Mayflower.](/assets/pamphlet_images/stamp_collecting_p037_img1.png)
 
@@ -322,9 +322,9 @@
 - **Pamphlet Fact:** Natural finger oils leave invisible chemical residues that cause fungal foxing spots over time.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Stamp Collecting Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Stamp tongs)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Stamp tongs
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Stamp Collecting Merit Badge: Stamp tongs.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Stamp tongs.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Metal stamp tongs prevent oily fingerprints from damaging delicate paper.](/assets/pamphlet_images/stamp_collecting_p055_img1.png)
 
@@ -436,9 +436,9 @@
 - **Pamphlet Fact:** Household adhesives contain acidic chemicals that permanently stain paper and destroy collectors value.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Stamp Collecting Merit Badge Pamphlet and Fillable Scout Workbook (Req 6: Stamp Album)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Stamp Album
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Stamp Collecting Merit Badge: Stamp Album.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Stamp Album.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A historic envelope combines the Apollo 8 Earthrise stamp with soil stamps.](/assets/pamphlet_images/stamp_collecting_p032_img1.png)
 
@@ -483,9 +483,9 @@
 - **Pamphlet Fact:** Postal guidelines prohibit living people from appearing on United States stamps and require committee sanction.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Stamp Collecting Merit Badge Pamphlet and Fillable Scout Workbook (Req 7: Stamp Cancellation or Cachet)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Stamp Cancellation or Cachet
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Stamp Collecting Merit Badge: Stamp Cancellation or Cachet.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Stamp Cancellation or Cachet.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A commemorative postmark design honors a historical railway hub.](/assets/pamphlet_images/stamp_collecting_p063_img1.png)
 

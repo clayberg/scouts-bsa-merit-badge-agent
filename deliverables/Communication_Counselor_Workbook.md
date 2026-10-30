@@ -214,9 +214,9 @@
 - **Pamphlet Fact:** Objective reporting accurately outlines all presented arguments without inserting personal editorial commentary.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Communication Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Public Meeting City Council School)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Public Meeting City Council School
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Communication Merit Badge: Public Meeting City Council School.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Public Meeting City Council School.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Notes jotted on a memo pad summarize key arguments heard at a public meeting.](/assets/pamphlet_images/communication_p034_img2.png)
 
@@ -281,9 +281,9 @@
 - **Pamphlet Fact:** Newspapers select letters that present polite, concise, and factually reasoned community perspectives.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Communication Merit Badge Pamphlet and Fillable Scout Workbook (Req 7: Webpage or Blog of Special)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Webpage or Blog of Special
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Communication Merit Badge: Webpage or Blog of Special.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Webpage or Blog of Special.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A student drafts an opinion article on a laptop computer for publication.](/assets/pamphlet_images/communication_p047_img1.png)
 

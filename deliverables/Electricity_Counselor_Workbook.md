@@ -1,8 +1,8 @@
 # Electricity Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Electricity.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/electricity/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/electricity/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -30,10 +30,10 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Demonstrate that you know how to respond to electrical emergencies by doing the following: (a) Explain how to turn off power for a particular circuit and the whole house in the event of an emergency. (b) Demonstrate how to rescue a person touching a live wire in the home. (c) Describe how to safely get out of a car in an accident if you suspect a utility wire is on the car. (d) Show how to render first aid to a person who is unconscious from an apparent electrical shock. (e) Show how to treat an electrical burn. (f) Explain what to do in the event of an electrical fire. (g) Explain what to do if caught out in the open during an electrical storm.
-- [ ] **Station Req 5:** Make a simple drawing to show how a battery and an electric bell work. Describe the purpose of each of the components.
-- [ ] **Station Req 6:** Do the following: (a) Define what overloading an electric circuit means. Tell what you have done to make sure your home circuits are not overloaded. (b) Determine if there is an overload on a branch circuit by either getting the current draw from all the equipment plugged into the circuit or use the power equation to calculate the current draws. (c) Explain why a fuse blows and a circuit breaker trips. (d) Tell how to find a blown fuse and a tripped circuit breaker in your home. Show how to safely reset the circuit breaker.
-- [ ] **Station Req 10:** Do TWO of the following: (a) Connect a buzzer, bell, or light with a battery. Have a key or switch in the line. (b) Make and run a simple electric motor (from a kit is acceptable, if approved by your counselor ahead of time). (c) Build a simple rheostat. Show that it works. (d) Build a single-pole, double-throw switch. Show that it works. (e) Explain how 3-way switch wiring works in a lighting circuit. (f) Connect two lights together in a series circuit along with a battery and a switch. Then connect the same circuit in parallel. Discuss the differences in the two circuits.
+- [ ] **Station Req 1:** Scout must individually demonstrate mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually describe mastery of Requirement 5 to the Merit Badge Counselor.
+- [ ] **Station Req 6:** Scout must individually demonstrate mastery of Requirement 6 to the Merit Badge Counselor.
+- [ ] **Station Req 10:** Scout must individually explain mastery of Requirement 10 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -179,10 +179,10 @@
 - **Pamphlet Fact:** Soft iron loses magnetism rapidly when current stops, whereas hard steel retains permanent domain alignment.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Electricity merit badge pamphlet and workbook organizer for Req 3
-- [ ] Electricity field toolkit, inspection gauge, and protective eyewear for Electromagnet Construction and Polarity
-- [ ] Manufacturer technical manual or BSA reference guide for the system studied
-- [ ] Completed observation table and counselor review notes for Req 3
+- [ ] Official Electricity merit badge pamphlet and workbook organizer for Req 3.
+- [ ] Electricity field toolkit, inspection gauge, and protective eyewear for Electromagnet Construction and Polarity.
+- [ ] Manufacturer technical manual or BSA reference guide for the system studied.
+- [ ] Completed observation table and counselor review notes for Req 3.
 
 ![Hands strip protective plastic insulation from an electrical copper wire using a handheld wire stripper.](/assets/ai_illustrations/electricity_req_3_nano_hero.png)
 
@@ -382,10 +382,10 @@
 - **Pamphlet Fact:** Subtracting the prior month reading from the current meter reading yields total kilowatt-hours used.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Electricity merit badge pamphlet and workbook organizer for Req 8
-- [ ] Electricity field toolkit, inspection gauge, and protective eyewear for Electrical Consumption and Metering
-- [ ] Manufacturer technical manual or BSA reference guide for the system studied
-- [ ] Completed observation table and counselor review notes for Req 8
+- [ ] Official Electricity merit badge pamphlet and workbook organizer for Req 8.
+- [ ] Electricity field toolkit, inspection gauge, and protective eyewear for Electrical Consumption and Metering.
+- [ ] Manufacturer technical manual or BSA reference guide for the system studied.
+- [ ] Completed observation table and counselor review notes for Req 8.
 
 ![Scouts collaborate on a room floor plan to map out outlets and switches.](/assets/pamphlet_images/electricity_p055_img1.png)
 

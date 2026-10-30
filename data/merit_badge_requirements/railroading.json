@@ -57,9 +57,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22)",
           "common_misconception_pair": {
             "misconception": "Mixed manifest freight trains move faster than unit trains because they carry diverse, higher-priority consumer goods.",
-            "fact": "Unit trains maintain higher average speeds and efficiency by avoiding time-consuming classification yard sorting operations entirely.",
-            "myth": "Mixed manifest freight trains move faster than unit trains because they carry diverse, higher-priority consumer goods.",
-            "fact_correction": "Unit trains maintain higher average speeds and efficiency by avoiding time-consuming classification yard sorting operations entirely."
+            "fact": "Unit trains maintain higher average speeds and efficiency by avoiding time-consuming classification yard sorting operations entirely."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -137,9 +135,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22)",
           "common_misconception_pair": {
             "misconception": "Railroad crews operate a single freight train continuously from origin all the way to destination.",
-            "fact": "Federal hours-of-service laws mandate crew change points where fresh crews relieve operators after twelve hours.",
-            "myth": "Railroad crews operate a single freight train continuously from origin all the way to destination.",
-            "fact_correction": "Federal hours-of-service laws mandate crew change points where fresh crews relieve operators after twelve hours."
+            "fact": "Federal hours-of-service laws mandate crew change points where fresh crews relieve operators after twelve hours."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -216,9 +212,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22)",
           "common_misconception_pair": {
             "misconception": "Any dry bulk commodity like grain or cement can be carried in open-top hopper cars.",
-            "fact": "Perishable or moisture-sensitive bulk goods require covered hopper cars equipped with weather-tight loading hatches and discharge gates.",
-            "myth": "Any dry bulk commodity like grain or cement can be carried in open-top hopper cars.",
-            "fact_correction": "Perishable or moisture-sensitive bulk goods require covered hopper cars equipped with weather-tight loading hatches and discharge gates."
+            "fact": "Perishable or moisture-sensitive bulk goods require covered hopper cars equipped with weather-tight loading hatches and discharge gates."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -299,9 +293,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22)",
           "common_misconception_pair": {
             "misconception": "Dynamic braking wears down traditional composite brake shoes against the steel wheels during mountain descents.",
-            "fact": "Dynamic braking uses electrical motor resistance to slow trains without any physical brake shoe contact on wheel treads.",
-            "myth": "Dynamic braking wears down traditional composite brake shoes against the steel wheels during mountain descents.",
-            "fact_correction": "Dynamic braking uses electrical motor resistance to slow trains without any physical brake shoe contact on wheel treads."
+            "fact": "Dynamic braking uses electrical motor resistance to slow trains without any physical brake shoe contact on wheel treads."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -416,9 +408,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Diesel-electric locomotives drive their steel wheels directly using mechanical gears connected to the engine crankshaft.",
-        "fact": "The diesel engine drives an alternator that produces electricity to power axle-mounted electric traction motors.",
-        "myth": "Diesel-electric locomotives drive their steel wheels directly using mechanical gears connected to the engine crankshaft.",
-        "fact_correction": "The diesel engine drives an alternator that produces electricity to power axle-mounted electric traction motors."
+        "fact": "The diesel engine drives an alternator that produces electricity to power axle-mounted electric traction motors."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -467,30 +457,30 @@
         ],
         "rows": [
           {
-            "attribute": "Modern Freight Train Types",
-            "left": "(1a) Modern Freight Train Types: The locomotive's internal equipment converts high-voltage current to lower voltage current (p. 15).",
-            "right": "(1c) Freight and Passenger Rail cars: Electric locomotives (without a diesel engine) collect current from overhead wires, orcatenary, through metal arms called pantographs mounted (p. 15)."
+            "attribute": "Unit Train Efficiency",
+            "left": "(1a) Freight Train Operational Types: Freight trains operate as unit, intermodal, or mixed manifest services depending on customer supply chains. Unit trains haul one bulk cargo directly from origin to destination without intermediate switching.",
+            "right": "(1c) Rolling Stock Car Designations: Railroads employ specialized cars including boxcars, covered hoppers, tank cars, gondolas, and flatcars engineered for specific ladings. Passenger equipment incorporates climate control, vestibules, and crash-energy management structures for passenger protection."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(1b) Class I and Regional Railroads: Locomotives, especially on passenger commuter trains, often push as well as pull their trains (p. 15).",
-            "right": "(1d) Locomotive Power and Braking Systems: Others use a pickup shoe to collect current from an electrified third rail placed next to the running rails (p. 15)."
+            "attribute": "Dynamic Braking Mechanism",
+            "left": "(1b) Class I Railroad Networks: Class I railroads maintain extensive transcontinental route networks connecting major manufacturing hubs, sea ports, and inland terminals. Operating divisions place service shops and crew change points approximately every one hundred miles.",
+            "right": "(1d) Locomotive Propulsion And Truck Mechanics: Diesel locomotives combine internal combustion engines with electric alternators to energize traction motors on each axle. Dynamic braking reverses motor polarity to dissipate momentum as heat through roof resistor grids."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Internal Voltage Conversion Equipment: The locomotive's internal equipment converts high-voltage current to lower voltage current (p. 15).",
-            "right": "Step 3 - Operate Duplicate Cab Controls: The train has a locomotive on one end and a passenger car equipped with an engineer's cab and duplicate controls on the other end (p. 15)."
+            "attribute": "Radial Steering Trucks",
+            "left": "Req 1a: Freight Train Operational: Freight trains operate as unit, intermodal, or mixed manifest services depending on customer supply chains. Unit trains haul one bulk cargo directly from origin to destination without intermediate switching.",
+            "right": "Req 1b: Class I Railroad Networks: Class I railroads maintain extensive transcontinental route networks connecting major manufacturing hubs, sea ports, and inland terminals. Operating divisions place service shops and crew change points approximately every one hundred miles."
           }
         ]
       },
       "worked_example": {
-        "title": "Railroading Req 1 Exemplar Workbook Entry: Freight Operations and Locomotive Power",
+        "title": "Railroading Req 1 Exemplar Workbook Entry: Freight",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Freight Train Operational Types": "Freight trains operate as unit, intermodal, or mixed manifest services depending on customer supply chains. Unit trains haul one bulk cargo directly from origin to destination without intermediate switching.",
+          "Req 1a - Freight Train Operational": "Freight trains operate as unit, intermodal, or mixed manifest services depending on customer supply chains. Unit trains haul one bulk cargo directly from origin to destination without intermediate switching.",
           "Req 1b - Class I Railroad Networks": "Class I railroads maintain extensive transcontinental route networks connecting major manufacturing hubs, sea ports, and inland terminals. Operating divisions place service shops and crew change points approximately every one hundred miles.",
-          "Req 1c - Rolling Stock Car Designations": "Railroads employ specialized cars including boxcars, covered hoppers, tank cars, gondolas, and flatcars engineered for specific ladings. Passenger equipment incorporates climate control, vestibules, and crash-energy management structures for passenger protection.",
-          "Req 1d - Locomotive Propulsion And Truck M": "Diesel locomotives combine internal combustion engines with electric alternators to energize traction motors on each axle. Dynamic braking reverses motor polarity to dissipate momentum as heat through roof resistor grids."
+          "Req 1c - Rolling Stock Car": "Railroads employ specialized cars including boxcars, covered hoppers, tank cars, gondolas, and flatcars engineered for specific ladings. Passenger equipment incorporates climate control, vestibules, and crash-energy management structures for passenger protection.",
+          "Req 1d - Locomotive Propulsion": "Diesel locomotives combine internal combustion engines with electric alternators to energize traction motors on each axle. Dynamic braking reverses motor polarity to dissipate momentum as heat through roof resistor grids."
         },
         "sample_output": "Freight Operations and Locomotive Power: The locomotive's internal equipment converts high-voltage current to lower voltage current (p. 15).",
         "counselor_tip": "For Railroading Requirement 1 (Freight Operations and Locomotive Power), verify the Scout's own observations and specific pamphlet details (Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22))."
@@ -526,8 +516,34 @@
       "pamphlet_summary": "Modern freight railroads transport heavy bulk commodities and intermodal containers using specialized rolling stock powered by diesel-electric locomotives. Efficiency relies on dedicated unit train corridors and advanced wheel truck designs that reduce track wear.",
       "socratic_questions": [
         "Why does a unit train transporting coal cost significantly less to operate than a mixed manifest freight train?",
-        "How do radial steering trucks prevent rail head deformation when locomotives pull heavy tonnages through sharp curves?",
-        "What happens to the electrical energy created by traction motors during dynamic braking on long mountain descents?"
+        "In what specific ways do radial steering trucks prevent rail head deformation when locomotives pull heavy tonnages through sharp curves?",
+        "What happens to the electrical energy created by traction motors during dynamic braking on long mountain descents?",
+        "What happens to transit time when a unit coal train bypasses intermediate classification hump yards on its route?",
+        "Which component converts mechanical energy from the diesel prime mover into electrical current for the axle traction motors?",
+        "What operational factors determine the spacing of crew change points along a Class I railroad mainline subdivision?",
+        "Why is double-stacking intermodal shipping containers in well cars more fuel-efficient than hauling highway trailers on flatcars?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Diesel-electric locomotives drive their steel wheels directly using mechanical gears connected to the engine crankshaft.",
+          "fact": "The diesel engine drives an alternator that produces electricity to power axle-mounted electric traction motors."
+        },
+        {
+          "misconception": "Modern diesel-electric locomotives use a mechanical transmission and driveshaft to connect the diesel engine directly to the drive wheels.",
+          "fact": "The diesel engine drives an alternator that generates electricity to power electric traction motors geared directly to each wheel axle."
+        },
+        {
+          "misconception": "Mixed manifest freight trains travel faster coast-to-coast than unit trains because they carry lighter, higher-priority retail boxes.",
+          "fact": "Manifest trains stop repeatedly at classification yards for switching, while unit trains move nonstop from one origin to one destination."
+        },
+        {
+          "misconception": "Railroad classification tracks are determined primarily by the total route mileage a carrier operates across North America.",
+          "fact": "The Surface Transportation Board classifies railroads into Class I, II, or III based strictly on annual operating revenue thresholds."
+        },
+        {
+          "misconception": "Locomotive engineers stay aboard the same freight train for its entire cross-country trip by sleeping in a rear caboose.",
+          "fact": "Federal Hours of Service laws limit duty to twelve hours, requiring fresh operating crews to swap at designated crew change points."
+        }
       ]
     },
     {
@@ -589,9 +605,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 27, p. 46)",
           "common_misconception_pair": {
             "misconception": "Amtrak has operated national passenger trains under continuous private corporate ownership since the nineteenth century.",
-            "fact": "Amtrak was chartered by the federal government in 1970 and began official passenger operations on May 1, 1971.",
-            "myth": "Amtrak has operated national passenger trains under continuous private corporate ownership since the nineteenth century.",
-            "fact_correction": "Amtrak was chartered by the federal government in 1970 and began official passenger operations on May 1, 1971."
+            "fact": "Amtrak was chartered by the federal government in 1970 and began official passenger operations on May 1, 1971."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -662,9 +676,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 27, p. 46)",
           "common_misconception_pair": {
             "misconception": "Streetcars and commuter rail systems operate at the same operating speeds and carry identical passenger capacities.",
-            "fact": "Streetcars operate in mixed street traffic at low speeds, while commuter trains haul heavy passenger volumes between distant suburban stations.",
-            "myth": "Streetcars and commuter rail systems operate at the same operating speeds and carry identical passenger capacities.",
-            "fact_correction": "Streetcars operate in mixed street traffic at low speeds, while commuter trains haul heavy passenger volumes between distant suburban stations."
+            "fact": "Streetcars operate in mixed street traffic at low speeds, while commuter trains haul heavy passenger volumes between distant suburban stations."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -763,9 +775,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Amtrak owns almost all of the railroad tracks and bridges over which its passenger trains operate nationwide.",
-        "fact": "Outside the Northeast Corridor, Amtrak operates its passenger trains primarily over tracks owned and maintained by host freight railroads.",
-        "myth": "Amtrak owns almost all of the railroad tracks and bridges over which its passenger trains operate nationwide.",
-        "fact_correction": "Outside the Northeast Corridor, Amtrak operates its passenger trains primarily over tracks owned and maintained by host freight railroads."
+        "fact": "Outside the Northeast Corridor, Amtrak operates its passenger trains primarily over tracks owned and maintained by host freight railroads."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -801,12 +811,12 @@
         "Step 4 - Transit Comparison: Compare commuter rail equipment against light rail vehicles serving identical urban transportation corridors."
       ],
       "gear_checklist": [
-        "Official Railroading Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Formation of Amtrak)",
-        "Field notebook, verification log sheet, and demonstration materials for Formation of Amtrak",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Railroading Merit Badge: Formation of Amtrak.",
+        "Field notebook, verification log sheet, and demonstration materials for Formation of Amtrak.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Amtrak History And Journey Plannin",
+        "left_header": "Req 2a: Amtrak History And Journey",
         "right_header": "Req 2b: Urban Rail Transit Categories",
         "left_points": [
           "(2a) Amtrak History And Journey Planning: Amtrak was created under the Rail Passenger Service Act of 1970 to take over passenger operations from private railroads. Planning long-distance trips requires reading timetables to calculate transit times, connections, and onboard services."
@@ -816,27 +826,27 @@
         ],
         "rows": [
           {
-            "attribute": "Amtrak History and Trip Planning",
-            "left": "(2a) Amtrak History and Trip Planning: It also owns a 97-mile segment between Porter, Indiana, and Kalamazoo, Michigan (p. 27).",
-            "right": "(2b) Public Rail Mass Transit Systems: Today Amtrak carries more than 31 million passengers ayear over more than 22,000 miles of track, almost all of it owned by the Class I freight railroads (p. 27)."
+            "attribute": "Amtrak Legislative Origin",
+            "left": "(2a) Amtrak History And Journey Planning: Amtrak was created under the Rail Passenger Service Act of 1970 to take over passenger operations from private railroads. Planning long-distance trips requires reading timetables to calculate transit times, connections, and onboard services.",
+            "right": "(2b) Urban Rail Transit Categories: Urban rail transit systems include heavy rail subways, light rail transit, commuter rail, and streetcars. Each transit mode provides distinct capacities, track geometry standards, and electrical power distribution systems."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Northeast Corridor Electrified Line: The exception is the Northeast Corridor (NEC), where Amtrak owns and maintains most of this high-speed electrified rail line between Boston (p. 27).",
-            "right": "Step 2 - Maintain Dedicated Michigan Track age: It also owns a 97-mile segment between Porter, Indiana, and Kalamazoo, Michigan (p. 27)."
+            "attribute": "Timetable Schedule Navigation",
+            "left": "Req 2a: Amtrak History And Journey: Amtrak was created under the Rail Passenger Service Act of 1970 to take over passenger operations from private railroads. Planning long-distance trips requires reading timetables to calculate transit times, connections, and onboard services.",
+            "right": "Req 2b: Urban Rail Transit: Urban rail transit systems include heavy rail subways, light rail transit, commuter rail, and streetcars. Each transit mode provides distinct capacities, track geometry standards, and electrical power distribution systems."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "High Speed Corridor Expansion: Long-term plans are under way to extend this rail corridor south to Richmond, Virginia, and add other high-speed lines in California, the upper (p. 27).",
-            "right": "Step 3 - Deploy Cleaner Siemens Locomotives: On long-distance routes, Amtrak is replacing older diesel locomotives with fuel efficient and cleaner-burning ALC-42 locomotives from Siemens (p. 27)."
+            "attribute": "Commuter Rail Corridors",
+            "left": "Amtrak Legislative Origin: The Rail Passenger Service Act relieved private freight carriers of unprofitable passenger operations.",
+            "right": "Timetable Schedule Navigation: Official passenger timetables display scheduled departure, intermediate station arrivals, and route equipment."
           }
         ]
       },
       "worked_example": {
-        "title": "Railroading Req 2 Exemplar Workbook Entry: Amtrak and Passenger Rail Transit",
+        "title": "Railroading Req 2 Exemplar Workbook Entry: Amtrak",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Amtrak History And Journey Planni": "Amtrak was created under the Rail Passenger Service Act of 1970 to take over passenger operations from private railroads. Planning long-distance trips requires reading timetables to calculate transit times, connections, and onboard services.",
+          "Req 2a - Amtrak History And Journey": "Amtrak was created under the Rail Passenger Service Act of 1970 to take over passenger operations from private railroads. Planning long-distance trips requires reading timetables to calculate transit times, connections, and onboard services.",
           "Req 2b - Urban Rail Transit Categories": "Urban rail transit systems include heavy rail subways, light rail transit, commuter rail, and streetcars. Each transit mode provides distinct capacities, track geometry standards, and electrical power distribution systems."
         },
         "sample_output": "Amtrak and Passenger Rail Transit: It also owns a 97-mile segment between Porter, Indiana, and Kalamazoo, Michigan (p. 27).",
@@ -874,7 +884,33 @@
       "socratic_questions": [
         "Why did the United States federal government step in to establish Amtrak in the early nineteen-seventies?",
         "What operational differences distinguish a light rail tram system from a heavy rail urban subway system?",
-        "How does passenger train dispatching work when passenger trains share single-track corridors with freight traffic?"
+        "How does passenger train dispatching work when passenger trains share single-track corridors with freight traffic?",
+        "What economic crisis in the late 1960s led Congress to pass the Rail Passenger Service Act creating Amtrak in 1971?",
+        "Which timetable details must you check when planning a 500-mile rail journey across two different time zones?",
+        "What engineering features distinguish grade-separated heavy rail subways from street-running light rail transit systems?",
+        "Under what operating conditions can intercity passenger trains share mainline tracks with slower freight trains safely?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Amtrak owns almost all of the railroad tracks and bridges over which its passenger trains operate nationwide.",
+          "fact": "Outside the Northeast Corridor, Amtrak operates its passenger trains primarily over tracks owned and maintained by host freight railroads."
+        },
+        {
+          "misconception": "Amtrak owns and dispatches almost all of the railroad track mileage that its long-distance passenger trains use nationwide.",
+          "fact": "Outside the Northeast Corridor, Amtrak operates mainly as a tenant over tracks owned, maintained, and dispatched by freight railroads."
+        },
+        {
+          "misconception": "Light rail transit and commuter rail are identical systems that differ only in the paint scheme used by the local transit agency.",
+          "fact": "Light rail uses electric streetcars on urban corridors, whereas commuter rail runs heavier trains on mainline tracks from outer suburbs."
+        },
+        {
+          "misconception": "Timetable departure and arrival times for cross-country passenger trains are listed exclusively in Eastern Standard Time.",
+          "fact": "Railroad passenger timetables always print arrival and departure times in the local time zone of each individual station stop."
+        },
+        {
+          "misconception": "High-speed electric passenger trains draw power from a third rail mounted alongside the running rails at over 125 miles per hour.",
+          "fact": "High-speed trains use overhead catenary wires and pantographs because third-rail shoes cannot maintain safe contact at high speeds."
+        }
       ]
     },
     {
@@ -930,9 +966,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)",
           "common_misconception_pair": {
             "misconception": "The engineering department is responsible for driving and operating locomotives across the railroad network.",
-            "fact": "The engineering department designs, builds, and inspects track, bridges, and signals, while the transportation department operates the trains.",
-            "myth": "The engineering department is responsible for driving and operating locomotives across the railroad network.",
-            "fact_correction": "The engineering department designs, builds, and inspects track, bridges, and signals, while the transportation department operates the trains."
+            "fact": "The engineering department designs, builds, and inspects track, bridges, and signals, while the transportation department operates the trains."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1027,9 +1061,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)",
           "common_misconception_pair": {
             "misconception": "Modern train dispatching requires conductors to speak by radio to tower switchmen along tracks.",
-            "fact": "Modern train dispatchers manage entire route corridors from centralized regional control centers using computer-aided dispatch screens.",
-            "myth": "Modern train dispatching requires conductors to speak by radio to tower switchmen along tracks.",
-            "fact_correction": "Modern train dispatchers manage entire route corridors from centralized regional control centers using computer-aided dispatch screens."
+            "fact": "Modern train dispatchers manage entire route corridors from centralized regional control centers using computer-aided dispatch screens."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1118,9 +1150,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)",
           "common_misconception_pair": {
             "misconception": "Railroads smelt their own steel rails and construct their own locomotives in internal workshops.",
-            "fact": "Railroads purchase locomotives from specialized manufacturers like Wabtec and Progress Rail and purchase rail from commercial steel mills.",
-            "myth": "Railroads smelt their own steel rails and construct their own locomotives in internal workshops.",
-            "fact_correction": "Railroads purchase locomotives from specialized manufacturers like Wabtec and Progress Rail and purchase rail from commercial steel mills."
+            "fact": "Railroads purchase locomotives from specialized manufacturers like Wabtec and Progress Rail and purchase rail from commercial steel mills."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1196,9 +1226,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)",
           "common_misconception_pair": {
             "misconception": "Railroad employees work regular eight-hour weekday shifts with fixed weekends off throughout their careers.",
-            "fact": "Train service crews frequently operate on irregular on-call rosters twenty-four hours a day in all weather conditions.",
-            "myth": "Railroad employees work regular eight-hour weekday shifts with fixed weekends off throughout their careers.",
-            "fact_correction": "Train service crews frequently operate on irregular on-call rosters twenty-four hours a day in all weather conditions."
+            "fact": "Train service crews frequently operate on irregular on-call rosters twenty-four hours a day in all weather conditions."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1350,9 +1378,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Railroad employment consists almost entirely of locomotive engineers driving trains and conductors collecting tickets.",
-        "fact": "Railroads employ thousands of civil engineers, signal maintainers, electricians, software developers, and dispatchers who keep systems operating.",
-        "myth": "Railroad employment consists almost entirely of locomotive engineers driving trains and conductors collecting tickets.",
-        "fact_correction": "Railroads employ thousands of civil engineers, signal maintainers, electricians, software developers, and dispatchers who keep systems operating."
+        "fact": "Railroads employ thousands of civil engineers, signal maintainers, electricians, software developers, and dispatchers who keep systems operating."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1393,13 +1419,13 @@
         "Step 4 - Experience Summary: Document interview insights regarding technical training requirements and lifestyle factors in railroading."
       ],
       "gear_checklist": [
-        "Official Railroading Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Name four departments of a railroad)",
-        "Field notebook, verification log sheet, and demonstration materials for Name four departments of a railroad",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Railroading Merit Badge: Name four departments of a railroad.",
+        "Field notebook, verification log sheet, and demonstration materials for Name four departments of a railroad.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Railroad Corporate Department Func",
-        "right_header": "Req 3c: Rail Industry Support Infrastructu",
+        "left_header": "Req 3a: Railroad Corporate Department",
+        "right_header": "Req 3c: Rail Industry Support",
         "left_points": [
           "(3a) Railroad Corporate Department Functions: Railroads organize operations into transportation, mechanical, engineering, and marketing departments. Transportation moves the trains, mechanical maintains rolling stock, engineering maintains track infrastructure, and marketing secures freight contracts.",
           "(3b) Railroad Career Pathway Selection: Rail industry careers offer pathways in locomotive operations, computer dispatching, signal electronics, and freight logistics. Candidates benefit from apprenticeships, technical certifications, and mechanical engineering coursework."
@@ -1410,30 +1436,30 @@
         ],
         "rows": [
           {
-            "attribute": "Core Railroad Company Departments",
-            "left": "(3a) Core Railroad Company Departments: If you want to be a railroader, you can follow many career tracks (p. 51).",
-            "right": "(3c) Rail Support Industries: To work for the railroad, you must be in good physical shape and have a high school diploma (at the minimum, although a college diploma) (p. 51)."
+            "attribute": "Transportation Department Roles",
+            "left": "(3a) Railroad Corporate Department Functions: Railroads organize operations into transportation, mechanical, engineering, and marketing departments. Transportation moves the trains, mechanical maintains rolling stock, engineering maintains track infrastructure, and marketing secures freight contracts.",
+            "right": "(3c) Rail Industry Support Infrastructure: The rail sector depends on locomotive builders, track component manufacturers, communications equipment suppliers, and leasing companies. These external partners provide the rolling assets and physical track materials necessary for commercial service."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(3b) Railroad Career Opportunities: All are important for the smooth operation of the railroad (p. 51).",
-            "right": "(3d) Rail Industry Professional Interview: Railroads maintains a webpage that hosts links to other pages where career Railroad Organization information can Railroad companies have five basic (p. 51)."
+            "attribute": "Mechanical Department",
+            "left": "(3b) Railroad Career Pathway Selection: Rail industry careers offer pathways in locomotive operations, computer dispatching, signal electronics, and freight logistics. Candidates benefit from apprenticeships, technical certifications, and mechanical engineering coursework.",
+            "right": "(3d) Rail Industry Professional Interview: Interviewing an active or retired railroader provides practical insight into industry working conditions, shift schedules, and safety protocols. Discussions highlight career development steps and ongoing technological changes in rail operations."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Physical and Educational Qualifications: To work for the railroad, you must be in good physical shape and have a high school diploma (at the minimum, although a college diploma) (p. 51).",
-            "right": "Step 3 - Inspect Fixed Plant Infrastructure: Fixed plant, track, track bed, supporting structures like bridges and trestles aar. org/wp2 (p. 51)."
+            "attribute": "Maintenance Of Way",
+            "left": "Req 3a: Railroad Corporate: Railroads organize operations into transportation, mechanical, engineering, and marketing departments. Transportation moves the trains, mechanical maintains rolling stock, engineering maintains track infrastructure, and marketing secures freight contracts.",
+            "right": "Req 3b: Railroad Career Pathway: Rail industry careers offer pathways in locomotive operations, computer dispatching, signal electronics, and freight logistics. Candidates benefit from apprenticeships, technical certifications, and mechanical engineering coursework."
           }
         ]
       },
       "worked_example": {
-        "title": "Railroading Req 3 Exemplar Workbook Entry: Railroad Departments and Industry Careers",
+        "title": "Railroading Req 3 Exemplar Workbook Entry: Railroad",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Railroad Corporate Department Fun": "Railroads organize operations into transportation, mechanical, engineering, and marketing departments. Transportation moves the trains, mechanical maintains rolling stock, engineering maintains track infrastructure, and marketing secures freight contracts.",
-          "Req 3b - Railroad Career Pathway Selection": "Rail industry careers offer pathways in locomotive operations, computer dispatching, signal electronics, and freight logistics. Candidates benefit from apprenticeships, technical certifications, and mechanical engineering coursework.",
-          "Req 3c - Rail Industry Support Infrastruct": "The rail sector depends on locomotive builders, track component manufacturers, communications equipment suppliers, and leasing companies. These external partners provide the rolling assets and physical track materials necessary for commercial service.",
-          "Req 3d - Rail Industry Professional Interv": "Interviewing an active or retired railroader provides practical insight into industry working conditions, shift schedules, and safety protocols. Discussions highlight career development steps and ongoing technological changes in rail operations."
+          "Req 3a - Railroad Corporate Department": "Railroads organize operations into transportation, mechanical, engineering, and marketing departments. Transportation moves the trains, mechanical maintains rolling stock, engineering maintains track infrastructure, and marketing secures freight contracts.",
+          "Req 3b - Railroad Career Pathway": "Rail industry careers offer pathways in locomotive operations, computer dispatching, signal electronics, and freight logistics. Candidates benefit from apprenticeships, technical certifications, and mechanical engineering coursework.",
+          "Req 3c - Rail Industry Support": "The rail sector depends on locomotive builders, track component manufacturers, communications equipment suppliers, and leasing companies. These external partners provide the rolling assets and physical track materials necessary for commercial service.",
+          "Req 3d - Rail Industry Professional": "Interviewing an active or retired railroader provides practical insight into industry working conditions, shift schedules, and safety protocols. Discussions highlight career development steps and ongoing technological changes in rail operations."
         },
         "sample_output": "Railroad Departments and Industry Careers: If you want to be a railroader, you can follow many career tracks (p. 51).",
         "counselor_tip": "For Railroading Requirement 3 (Railroad Departments and Industry Careers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53))."
@@ -1470,7 +1496,33 @@
       "socratic_questions": [
         "How does the engineering department coordinate track work with the transportation department to prevent service shutdowns?",
         "What specialized skills make track signal maintainers vital to preventing collisions on modern automated rail lines?",
-        "Which external supply industries provide the heavy steel, electronic sensors, and digital networks modern railroads require?"
+        "Which external supply industries provide the heavy steel, electronic sensors, and digital networks modern railroads require?",
+        "Which railroad department is responsible for inspecting steel rail defects, replacing crossties, and surfacing track ballast?",
+        "What specific duties separate the conductor from the locomotive engineer inside the operating cab of a freight train?",
+        "Why do shippers and railroads often lease specialty tank cars from third-party railcar leasing companies instead of buying them?",
+        "What safety certifications must a railroader maintain to work in the mechanical, signal, or transportation departments?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Railroad employment consists almost entirely of locomotive engineers driving trains and conductors collecting tickets.",
+          "fact": "Railroads employ thousands of civil engineers, signal maintainers, electricians, software developers, and dispatchers who keep systems operating."
+        },
+        {
+          "misconception": "The Mechanical Department maintains track switches, wooden crossties, bridges, and wayside signal masts across the railroad.",
+          "fact": "The Engineering Department maintains track, bridges, and signals, while the Mechanical Department services locomotives and railcars."
+        },
+        {
+          "misconception": "Railroad companies manufacture all of their own diesel-electric locomotives and freight cars inside their internal repair shops.",
+          "fact": "Railroads purchase or lease locomotives and freight cars from specialized outside support manufacturers such as Wabtec and Greenbrier."
+        },
+        {
+          "misconception": "Freight train conductors spend their shift walking through cars to punch passenger tickets rather than managing train operations.",
+          "fact": "Freight conductors oversee train makeup, air brake tests, waybills, switching moves, and Federal Railroad Administration track authorities."
+        },
+        {
+          "misconception": "Track maintenance crews can enter an active mainline track at any time without contacting the train dispatcher first.",
+          "fact": "Maintenance-of-way workers must obtain formal track and time authority from the dispatcher before fouling any active mainline track."
+        }
       ]
     },
     {
@@ -1516,9 +1568,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40)",
           "common_misconception_pair": {
             "misconception": "Operation Lifesaver is an emergency rescue service that dispatches tow trucks to blocked rail crossings.",
-            "fact": "Operation Lifesaver is an educational organization focused on promoting crossing safety and trespassing prevention.",
-            "myth": "Operation Lifesaver is an emergency rescue service that dispatches tow trucks to blocked rail crossings.",
-            "fact_correction": "Operation Lifesaver is an educational organization focused on promoting crossing safety and trespassing prevention."
+            "fact": "Operation Lifesaver is an educational organization focused on promoting crossing safety and trespassing prevention."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1599,9 +1649,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40)",
           "common_misconception_pair": {
             "misconception": "You will always hear a train approaching from behind in time to step off the tracks safely.",
-            "fact": "Modern trains are relatively quiet and can approach rapidly before a person on the tracks hears them.",
-            "myth": "You will always hear a train approaching from behind in time to step off the tracks safely.",
-            "fact_correction": "Modern trains are relatively quiet and can approach rapidly before a person on the tracks hears them."
+            "fact": "Modern trains are relatively quiet and can approach rapidly before a person on the tracks hears them."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1677,10 +1725,8 @@
           },
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Once a train finishes passing a multi-track crossing, it is immediately safe to step across.",
-            "fact": "A second train moving in the opposite direction on an adjacent track may be concealed behind the passing cars.",
-            "myth": "Once a train finishes passing a multi-track crossing, it is immediately safe to step across.",
-            "fact_correction": "A second train moving in the opposite direction on an adjacent track may be concealed behind the passing cars."
+            "misconception": "Once a train finishes passing a multi-track crossing, it is immediately safe to step.",
+            "fact": "A second train moving in the opposite direction on an adjacent track may be concealed behind the passing cars."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1752,9 +1798,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40)",
           "common_misconception_pair": {
             "misconception": "Drivers can safely weave around lowered crossing gates if they do not see a train approaching.",
-            "fact": "Driving around lowered crossing gates is illegal and dangerous because approaching trains travel faster than they appear.",
-            "myth": "Drivers can safely weave around lowered crossing gates if they do not see a train approaching.",
-            "fact_correction": "Driving around lowered crossing gates is illegal and dangerous because approaching trains travel faster than they appear."
+            "fact": "Driving around lowered crossing gates is illegal and dangerous because approaching trains travel faster than they appear."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1829,9 +1873,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40)",
           "common_misconception_pair": {
             "misconception": "Light rail transit vehicles can stop as quickly as a passenger automobile when running in city streets.",
-            "fact": "Light rail cars ride on steel wheels against steel rails and require substantially greater stopping distance than road vehicles.",
-            "myth": "Light rail transit vehicles can stop as quickly as a passenger automobile when running in city streets.",
-            "fact_correction": "Light rail cars ride on steel wheels against steel rails and require substantially greater stopping distance than road vehicles."
+            "fact": "Light rail cars ride on steel wheels against steel rails and require substantially greater stopping distance than road vehicles."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1954,9 +1996,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A locomotive engineer can easily steer around obstacles or stop quickly if someone stands on the track.",
-        "fact": "Trains travel on fixed rails and require tremendous distances to stop, making avoidance maneuvers completely impossible.",
-        "myth": "A locomotive engineer can easily steer around obstacles or stop quickly if someone stands on the track.",
-        "fact_correction": "Trains travel on fixed rails and require tremendous distances to stop, making avoidance maneuvers completely impossible."
+        "fact": "Trains travel on fixed rails and require tremendous distances to stop, making avoidance maneuvers completely impossible."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1992,12 +2032,12 @@
         "Step 4 - Transit Boarding: Demonstrate safe passenger boarding habits on commuter rail platforms behind the yellow safety line."
       ],
       "gear_checklist": [
-        "Official Railroading Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Operation Lifesaver and Its Mission)",
-        "Field notebook, verification log sheet, and demonstration materials for Operation Lifesaver and Its Mission",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Railroading Merit Badge: Operation Lifesaver and Its Mission.",
+        "Field notebook, verification log sheet, and demonstration materials for Operation Lifesaver and Its Mission.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Operation Lifesaver Mission Object",
+        "left_header": "Req 4a: Operation Lifesaver Mission",
         "right_header": "Req 4c: Pedestrian Track Proximity Rules",
         "left_points": [
           "(4a) Operation Lifesaver Mission Objectives: Operation Lifesaver is a non-profit organization dedicated to ending collisions, deaths, and injuries at highway-rail grade crossings and on railroad property. The program promotes safety through public education, engineering improvements, and law enforcement partnerships.",
@@ -2009,30 +2049,30 @@
         ],
         "rows": [
           {
-            "attribute": "Operation Lifesaver Safety Mission",
-            "left": "(4a) Operation Lifesaver Safety Mission: The American Public Transportation Association (APTA) estimates that people use public transportation 34 million times each weekday (p. 38).",
-            "right": "(4c) Pedestrian Safety Near Tracks: Trains can come from either direction at anytime and can be very quiet (p. 38)."
+            "attribute": "Operation Lifesaver Mission",
+            "left": "(4a) Operation Lifesaver Mission Objectives: Operation Lifesaver is a non-profit organization dedicated to ending collisions, deaths, and injuries at highway-rail grade crossings and on railroad property. The program promotes safety through public education, engineering improvements, and law enforcement partnerships.",
+            "right": "(4c) Pedestrian Track Proximity Rules: Pedestrians near tracks must cross only at designated public crossings, look both ways, and never cross behind a passing train without checking adjacent tracks. Avoid distractions such as headphones and smartphones when near rail corridors."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(4b) Essential Railroad Track Safety Rules: 1 (p. 38).",
-            "right": "(4d) Safe Driving at Grade Crossings: In America's cities and beyond, nothing connects us to work, play, and each other like public transit, today's safest, most reliable way to travel (p. 38)."
+            "attribute": "Stopping Distance Physics",
+            "left": "(4b) Track Safety Rule Fundamentals: Scouts must remember that trains overhang tracks by at least three feet, can move at any time on any track, and move quietly. Walking on railroad tracks or bridges is dangerous trespassing.",
+            "right": "(4d) Motorist Grade Crossing Guidelines: Motorists must yield to trains, stop at least fifteen feet back from active warning signals, and never drive around lowered crossing gates. If a vehicle stalls on tracks, occupants must evacuate immediately and run toward the direction of an oncoming train at a forty-five degree angle away from the tracks."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Commuter Train Safety Guidelines: 1 (p. 38).",
-            "right": "(4e) Light Rail and Commuter Safety: The American Public Transportation Association (APTA) estimates that people use public transportation 34 million times each weekday (p. 38)."
+            "attribute": "Optical Distance Illusion",
+            "left": "Req 4a: Operation Lifesaver Mission: Operation Lifesaver is a non-profit organization dedicated to ending collisions, deaths, and injuries at highway-rail grade crossings and on railroad property. The program promotes safety through public education, engineering improvements, and law enforcement partnerships.",
+            "right": "Req 4b: Track Safety Rule: Scouts must remember that trains overhang tracks by at least three feet, can move at any time on any track, and move quietly. Walking on railroad tracks or bridges is dangerous trespassing."
           }
         ]
       },
       "worked_example": {
-        "title": "Railroading Req 4 Exemplar Workbook Entry: Operation Lifesaver and Track Safety",
+        "title": "Railroading Req 4 Exemplar Workbook Entry: Operation",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 4a - Operation Lifesaver Mission Objec": "Operation Lifesaver is a non-profit organization dedicated to ending collisions, deaths, and injuries at highway-rail grade crossings and on railroad property. The program promotes safety through public education, engineering improvements, and law enforcement partnerships.",
-          "Req 4b - Track Safety Rule Fundamentals": "Scouts must remember that trains overhang tracks by at least three feet, can move at any time on any track, and move quietly. Walking on railroad tracks or bridges is dangerous trespassing.",
-          "Req 4c - Pedestrian Track Proximity Rules": "Pedestrians near tracks must cross only at designated public crossings, look both ways, and never cross behind a passing train without checking adjacent tracks. Avoid distractions such as headphones and smartphones when near rail corridors.",
-          "Req 4d - Motorist Grade Crossing Guideline": "Motorists must yield to trains, stop at least fifteen feet back from active warning signals, and never drive around lowered crossing gates. If a vehicle stalls on tracks, occupants must evacuate immediately and run toward the direction of an oncoming train at a forty-five degree angle away from the tracks."
+          "Req 4a - Operation Lifesaver Mission": "Operation Lifesaver is a non-profit organization dedicated to ending collisions, deaths, and injuries at highway-rail grade crossings and on railroad property. The program promotes safety through public education, engineering improvements, and law enforcement partnerships.",
+          "Req 4b - Track Safety Rule": "Scouts must remember that trains overhang tracks by at least three feet, can move at any time on any track, and move quietly. Walking on railroad tracks or bridges is dangerous trespassing.",
+          "Req 4c - Pedestrian Track Proximity": "Pedestrians near tracks must cross only at designated public crossings, look both ways, and never cross behind a passing train without checking adjacent tracks. Avoid distractions such as headphones and smartphones when near rail corridors.",
+          "Req 4d - Motorist Grade Crossing": "Motorists must yield to trains, stop at least fifteen feet back from active warning signals, and never drive around lowered crossing gates. If a vehicle stalls on tracks, occupants must evacuate immediately and run toward the direction of an oncoming train at a forty-five degree angle away from the tracks."
         },
         "sample_output": "Operation Lifesaver and Track Safety: The American Public Transportation Association (APTA) estimates that people use public transportation 34 million times each weekday (p. 38).",
         "counselor_tip": "For Railroading Requirement 4 (Operation Lifesaver and Track Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40))."
@@ -2069,7 +2109,33 @@
       "socratic_questions": [
         "Why does our brain often misjudge the speed and distance of an approaching locomotive?",
         "What exact steps must a motorist take if their automobile stalls across railroad tracks at a crossing?",
-        "Why is stepping on the top surface of a steel rail hazardous for pedestrians walking across an authorized crossing?"
+        "Why is stepping on the top surface of a steel rail hazardous for pedestrians walking across an authorized crossing?",
+        "Why should you evacuate at a 45-degree angle toward the approaching train if your vehicle stalls on a grade crossing?",
+        "Which two pieces of information on the blue Emergency Notification System sign must you report first to the railroad dispatcher?",
+        "Why is it dangerous to stand within three feet of the outer rail even when you are not stepping directly on the crossties?",
+        "What physical factors require a loaded freight train traveling at 55 miles per hour to take more than a mile to stop?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A locomotive engineer can easily steer around obstacles or stop quickly if someone stands on the track.",
+          "fact": "Trains travel on fixed rails and require tremendous distances to stop, making avoidance maneuvers completely impossible."
+        },
+        {
+          "misconception": "When a car stalls on a railroad crossing with a train approaching, you should run away in the same direction the train is traveling.",
+          "fact": "Running at a 45-degree angle toward the approaching train keeps you clear of flying vehicle debris once the locomotive strikes the car."
+        },
+        {
+          "misconception": "A locomotive engineer who spots a pedestrian or stalled car on the tracks can steer away or brake to a stop within a few hundred feet.",
+          "fact": "Trains cannot steer off the rails, and a loaded freight train at 55 miles per hour requires more than a mile to come to a complete stop."
+        },
+        {
+          "misconception": "Standing just outside the steel rails is safe because locomotives and freight cars are no wider than the track gauge itself.",
+          "fact": "Locomotives and freight cars overhang the steel rails by at least three feet on both sides, creating a lethal strike zone near the ties."
+        },
+        {
+          "misconception": "Hearing no train horn or rail vibration means that no train is approaching a bridge, tunnel, or curve along the right-of-way.",
+          "fact": "Modern welded rail and aerodynamic rolling stock make approaching trains surprisingly quiet until they are dangerously close."
+        }
       ]
     },
     {
@@ -2115,9 +2181,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)",
           "common_misconception_pair": {
             "misconception": "Passive crossing signs indicate that the railroad tracks are abandoned or out of regular service.",
-            "fact": "Passive signs are installed on active rail corridors that have lower train traffic or vehicle volume.",
-            "myth": "Passive crossing signs indicate that the railroad tracks are abandoned or out of regular service.",
-            "fact_correction": "Passive signs are installed on active rail corridors that have lower train traffic or vehicle volume."
+            "fact": "Passive signs are installed on active rail corridors that have lower train traffic or vehicle volume."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2192,9 +2256,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)",
           "common_misconception_pair": {
             "misconception": "Flashing red lights at a railroad crossing indicate that drivers may proceed if no train is visible.",
-            "fact": "Flashing red lights carry the legal weight of a stop sign, and drivers must stop completely until signals stop.",
-            "myth": "Flashing red lights at a railroad crossing indicate that drivers may proceed if no train is visible.",
-            "fact_correction": "Flashing red lights carry the legal weight of a stop sign, and drivers must stop completely until signals stop."
+            "fact": "Flashing red lights carry the legal weight of a stop sign, and drivers must stop completely until signals stop."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2265,9 +2327,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)",
           "common_misconception_pair": {
             "misconception": "Stop bars painted on the road allow motorists to stop their tires on top of the line.",
-            "fact": "Vehicles must stop completely behind the stop bar to ensure adequate clearance from passing train equipment.",
-            "myth": "Stop bars painted on the road allow motorists to stop their tires on top of the line.",
-            "fact_correction": "Vehicles must stop completely behind the stop bar to ensure adequate clearance from passing train equipment."
+            "fact": "Vehicles must stop completely behind the stop bar to ensure adequate clearance from passing train equipment."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2338,9 +2398,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)",
           "common_misconception_pair": {
             "misconception": "A round yellow railroad advance warning sign indicates that tracks are located directly at the sign.",
-            "fact": "Round advance warning signs are placed several hundred feet before the tracks to give motorists adequate stopping distance.",
-            "myth": "A round yellow railroad advance warning sign indicates that tracks are located directly at the sign.",
-            "fact_correction": "Round advance warning signs are placed several hundred feet before the tracks to give motorists adequate stopping distance."
+            "fact": "Round advance warning signs are placed several hundred feet before the tracks to give motorists adequate stopping distance."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2411,9 +2469,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)",
           "common_misconception_pair": {
             "misconception": "Railroad rights-of-way outside city limits are public property open for hiking, jogging, and recreational off-roading.",
-            "fact": "Railroad property is private land, and walking along tracks constitutes illegal trespassing subject to arrest and fines.",
-            "myth": "Railroad rights-of-way outside city limits are public property open for hiking, jogging, and recreational off-roading.",
-            "fact_correction": "Railroad property is private land, and walking along tracks constitutes illegal trespassing subject to arrest and fines."
+            "fact": "Railroad property is private land, and walking along tracks constitutes illegal trespassing subject to arrest and fines."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2486,9 +2542,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)",
           "common_misconception_pair": {
             "misconception": "A crossbuck sign alone means the motorist always has the right of way over approaching trains.",
-            "fact": "The crossbuck obligates motorists to yield the right-of-way to oncoming rail traffic at all times.",
-            "myth": "A crossbuck sign alone means the motorist always has the right of way over approaching trains.",
-            "fact_correction": "The crossbuck obligates motorists to yield the right-of-way to oncoming rail traffic at all times."
+            "fact": "The crossbuck obligates motorists to yield the right-of-way to oncoming rail traffic at all times."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2609,9 +2663,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A crossbuck sign at a rural crossing guarantees that flashing warning lights will activate if a train comes.",
-        "fact": "A crossbuck is a passive sign functioning as a yield sign, requiring drivers to look and listen without automatic warnings.",
-        "myth": "A crossbuck sign at a rural crossing guarantees that flashing warning lights will activate if a train comes.",
-        "fact_correction": "A crossbuck is a passive sign functioning as a yield sign, requiring drivers to look and listen without automatic warnings."
+        "fact": "A crossbuck is a passive sign functioning as a yield sign, requiring drivers to look and listen without automatic warnings."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2662,29 +2714,29 @@
         ],
         "rows": [
           {
-            "attribute": "Passive and Active Crossing Signs",
-            "left": "(5a) Passive and Active Crossing Signs: The locomotive engineer can still sound the horn in emergency situations or if workers are near the tracks. grade crossing Raised crossing ahead (p. 39).",
-            "right": "(5d) Advance Crossing Warning Signs: No train horn A Quiet Zone has been established and normally the train will not sound the horn (p. 39)."
+            "attribute": "Passive Sign Definition",
+            "left": "(5a) Passive Versus Active Signs: Passive signs provide static regulatory notices, warnings, and crossing information without electrical train detection. Active signs feature electrical sensors that trigger flashing red lights, bells, and descending gate arms when trains approach.",
+            "right": "(5d) Advance Warning Road Signs: Advance warning signs include yellow circular signs, side-street intersection warnings, quiet zone notices, and low ground clearance placards. These signs alert drivers to adjust speed and anticipate tracks ahead."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(5b) Flashing Lights and Crossing Gates: If you drive alow-clearance vehicle (lowboy), trailer or anything else low to the ground, you are at risk of getting hung upon the tracks (p. 39).",
-            "right": "(5e) Railroad Property No Trespassing Signs: The locomotive engineer can still sound the horn in emergency situations or if workers are near the tracks. grade crossing Raised crossing ahead (p. 39)."
+            "attribute": "Active Device Functions",
+            "left": "(5b) Active Crossing Warning Devices: Active warning devices include mast-mounted flashing red lights, audible warning bells, automatic barrier gates, and overhead cantilever structures. These devices warn road users that a train is occupying or approaching the crossing.",
+            "right": "(5e) Railroad Property Trespassing Signs: No trespassing signs along railroad rights-of-way identify private property boundaries and warn of legal prosecution. Railroad tracks and surrounding ballast shoulders are strictly off-limits to unauthorized pedestrians."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "(5c) Roadway Pavement Markings: Reminds the driver to slowdown, look, and listen for a train (p. 39).",
-            "right": "(5f) Signs Posted at the Crossing: If you drive alow-clearance vehicle (lowboy), trailer or anything else low to the ground, you are at risk of getting hung upon the tracks (p. 39)."
+            "attribute": "Emergency Notification Placard",
+            "left": "(5c) Roadway Pavement Warning Markings: Pavement markings consist of an X symbol, the letters RR, and transverse stop lines painted on the asphalt approaching tracks. Stop bars indicate the exact point where vehicles must stop when signals activate.",
+            "right": "(5f) Crossing Location Regulatory Placards: Signs at the crossing include the crossbuck, multiple track number plates, stop or yield signs, and emergency contact plaques. Multiple track signs tell motorists how many individual tracks they must cross."
           }
         ]
       },
       "worked_example": {
-        "title": "Railroading Req 5 Exemplar Workbook Entry: Highway Rail Crossing Signs and Signals",
+        "title": "Railroading Req 5 Exemplar Workbook Entry: Highway Rail",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
           "Req 5a - Passive Versus Active Signs": "Passive signs provide static regulatory notices, warnings, and crossing information without electrical train detection. Active signs feature electrical sensors that trigger flashing red lights, bells, and descending gate arms when trains approach.",
-          "Req 5b - Active Crossing Warning Devices": "Active warning devices include mast-mounted flashing red lights, audible warning bells, automatic barrier gates, and overhead cantilever structures. These devices warn road users that a train is occupying or approaching the crossing.",
-          "Req 5c - Roadway Pavement Warning Markings": "Pavement markings consist of an X symbol, the letters RR, and transverse stop lines painted on the asphalt approaching tracks. Stop bars indicate the exact point where vehicles must stop when signals activate.",
+          "Req 5b - Active Crossing Warning": "Active warning devices include mast-mounted flashing red lights, audible warning bells, automatic barrier gates, and overhead cantilever structures. These devices warn road users that a train is occupying or approaching the crossing.",
+          "Req 5c - Roadway Pavement Warning": "Pavement markings consist of an X symbol, the letters RR, and transverse stop lines painted on the asphalt approaching tracks. Stop bars indicate the exact point where vehicles must stop when signals activate.",
           "Req 5d - Advance Warning Road Signs": "Advance warning signs include yellow circular signs, side-street intersection warnings, quiet zone notices, and low ground clearance placards. These signs alert drivers to adjust speed and anticipate tracks ahead."
         },
         "sample_output": "Highway Rail Crossing Signs and Signals: The locomotive engineer can still sound the horn in emergency situations or if workers are near the tracks. grade crossing Raised crossing ahead (p. 39).",
@@ -2722,7 +2774,33 @@
       "socratic_questions": [
         "Why does a crossbuck sign carry the same legal obligation as a standard highway yield sign?",
         "What specific information on a blue Emergency Notification System sign must you read to emergency dispatchers?",
-        "How do cantilever signal structures improve crossing visibility on multi-lane highways compared to standard mast signals?"
+        "In what specific ways do cantilever signal structures improve crossing visibility on multi-lane highways compared to standard mast signals?",
+        "What functional difference separates a passive white crossbuck sign from an active flashing-light grade crossing signal?",
+        "Why must a driver remain stopped behind the white stop bar after one train clears a crossing equipped with a multi-track plaque?",
+        "Under what roadway conditions do traffic engineers mount flashing red crossing lights on an overhead cantilever mast?",
+        "Which advance warning sign alerts drivers of low-boy trailers or motorhomes that a raised grade crossing may snag their undercarriage?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A crossbuck sign at a rural crossing guarantees that flashing warning lights will activate if a train comes.",
+          "fact": "A crossbuck is a passive sign functioning as a yield sign, requiring drivers to look and listen without automatic warnings."
+        },
+        {
+          "misconception": "A white railroad crossbuck is merely a decorative marker that indicates where tracks intersect a public road without legal duty.",
+          "fact": "A railroad crossbuck is a regulatory sign that requires every driver to yield the right-of-way to any approaching train."
+        },
+        {
+          "misconception": "Once the last car of a train clears a crossing, it is safe to drive around flashing red lights that have not yet turned off.",
+          "fact": "Flashing red lights indicate a second train may be approaching on an adjacent track, and driving around lowered gates is illegal."
+        },
+        {
+          "misconception": "The round yellow RXR sign is placed directly at the edge of the railroad tracks to mark the exact stopping line for vehicles.",
+          "fact": "The round yellow RXR sign is an advance warning sign installed several hundred feet ahead of the crossing so drivers can slow down."
+        },
+        {
+          "misconception": "Grade crossings without automated gates or flashing lights are abandoned rail lines where trains no longer operate.",
+          "fact": "Passive crossings without active gates still carry live train traffic, requiring drivers to look, listen, and yield before proceeding."
+        }
       ]
     },
     {
@@ -2772,9 +2850,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)",
           "common_misconception_pair": {
             "misconception": "Railroad signal colors mean the same simple stop, go, and caution rules as city traffic lights.",
-            "fact": "Railroad signal aspects indicate complex instructions regarding route divergence, impending track occupancy, and specific maximum track speeds.",
-            "myth": "Railroad signal colors mean the same simple stop, go, and caution rules as city traffic lights.",
-            "fact_correction": "Railroad signal aspects indicate complex instructions regarding route divergence, impending track occupancy, and specific maximum track speeds."
+            "fact": "Railroad signal aspects indicate complex instructions regarding route divergence, impending track occupancy, and specific maximum track speeds."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2849,9 +2925,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)",
           "common_misconception_pair": {
             "misconception": "Locomotive engineers blow the horn randomly at road crossings whenever they see a car approaching.",
-            "fact": "Federal regulations mandate an exact sequence of two longs, a short, and a long blast repeated until reaching the crossing.",
-            "myth": "Locomotive engineers blow the horn randomly at road crossings whenever they see a car approaching.",
-            "fact_correction": "Federal regulations mandate an exact sequence of two longs, a short, and a long blast repeated until reaching the crossing."
+            "fact": "Federal regulations mandate an exact sequence of two longs, a short, and a long blast repeated until reaching the crossing."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2922,9 +2996,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)",
           "common_misconception_pair": {
             "misconception": "Locomotives only stop for red electric block signals and cannot respond to manual hand gestures.",
-            "fact": "Operating rulebooks require train crews to interpret any frantic object waved across the track as an immediate emergency stop order.",
-            "myth": "Locomotives only stop for red electric block signals and cannot respond to manual hand gestures.",
-            "fact_correction": "Operating rulebooks require train crews to interpret any frantic object waved across the track as an immediate emergency stop order."
+            "fact": "Operating rulebooks require train crews to interpret any frantic object waved across the track as an immediate emergency stop order."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3000,9 +3072,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)",
           "common_misconception_pair": {
             "misconception": "The flashing red light on the last freight car is merely an unpowered reflector or decorative battery marker.",
-            "fact": "The device contains radio telemetry sensors that actively monitor brake line pressure and can independently dump brake air during emergencies.",
-            "myth": "The flashing red light on the last freight car is merely an unpowered reflector or decorative battery marker.",
-            "fact_correction": "The device contains radio telemetry sensors that actively monitor brake line pressure and can independently dump brake air during emergencies."
+            "fact": "The device contains radio telemetry sensors that actively monitor brake line pressure and can independently dump brake air during emergencies."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3113,9 +3183,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Green signals along the track mean the train may travel at unrestricted speed without any limits.",
-        "fact": "Green indicates clear, authorizing movement up to the maximum speed permitted by track conditions and timetable rules.",
-        "myth": "Green signals along the track mean the train may travel at unrestricted speed without any limits.",
-        "fact_correction": "Green indicates clear, authorizing movement up to the maximum speed permitted by track conditions and timetable rules."
+        "fact": "Green indicates clear, authorizing movement up to the maximum speed permitted by track conditions and timetable rules."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3164,36 +3232,36 @@
         ],
         "rows": [
           {
-            "attribute": "Wayside Color and Position Signals",
-            "left": "(6a) Wayside Color and Position Signals: Today's train crews carry battery-powered railroad lanterns as part of their standard equipment (p. 30).",
-            "right": "(6c) Emergency Train Stop Signaling: Since the early days of railroading, train crew members have used hand signals (p. 30)."
+            "attribute": "Track Circuit Detection",
+            "left": "(6a) Block Signals And Aspects: Block signals use color lights or semaphores to communicate track occupancy and speed restrictions to locomotive engineers. Signal aspects indicate clear, approach, or stop based on low-voltage electric circuits running through the rails.",
+            "right": "(6c) Emergency Trackside Hand Signals: In an emergency, any person can signal a train to stop by waving a hand, lantern, flag, or cloth horizontally across the tracks. Engineers treat any violent or frantic waving near the right-of-way as an immediate stop signal."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(6b) Locomotive Horn Signal Meanings: All employees involved with train operations must learn the signal techniques defined in their railroad's operating rules book and carry the book (p. 30).",
-            "right": "(6d) End of Train Device Functions: The old oil- or kerosene-powered lanterns have become collectibles (p. 30)."
+            "attribute": "Standard Grade Crossing Horn",
+            "left": "(6b) Locomotive Horn Sound Patterns: Engineers sound standardized whistle and horn codes to communicate intentions to crews, track workers, and the public. The grade crossing warning sequence consists of two long blasts, one short blast, and one final long blast.",
+            "right": "(6d) End Of Train Devices: End-of-Train devices mounted on the final car replace traditional cabooses by monitoring brake pipe air pressure and motion. The unit transmits radio telemetry to the locomotive cab and can trigger emergency brake applications from the rear."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Collectible Kerosene Railroad Lanterns: The old oil- or kerosene-powered lanterns have become collectibles (p. 30).",
-            "right": "Step 3 - Communicate With Walkie Talkies: Railroad employees rarely use hand signals and now use walkie-talkies to communicate directly (p. 30)."
+            "attribute": "Emergency Stop Hand Signal",
+            "left": "Req 6a: Block Signals And Aspects: Block signals use color lights or semaphores to communicate track occupancy and speed restrictions to locomotive engineers. Signal aspects indicate clear, approach, or stop based on low-voltage electric circuits running through the rails.",
+            "right": "Req 6b: Locomotive Horn Sound: Engineers sound standardized whistle and horn codes to communicate intentions to crews, track workers, and the public. The grade crossing warning sequence consists of two long blasts, one short blast, and one final long blast."
           }
         ]
       },
       "worked_example": {
-        "title": "Railroading Req 6 Exemplar Workbook Entry: Wayside Signals and Train Communications",
+        "title": "Railroading Req 6 Exemplar Workbook Entry: Wayside",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 6a - Block Signals And Aspects": "Block signals use color lights or semaphores to communicate track occupancy and speed restrictions to locomotive engineers. Signal aspects indicate clear, approach, or stop based on low-voltage electric circuits running through the rails.",
-          "Req 6b - Locomotive Horn Sound Patterns": "Engineers sound standardized whistle and horn codes to communicate intentions to crews, track workers, and the public. The grade crossing warning sequence consists of two long blasts, one short blast, and one final long blast.",
-          "Req 6c - Emergency Trackside Hand Signals": "In an emergency, any person can signal a train to stop by waving a hand, lantern, flag, or cloth horizontally across the tracks. Engineers treat any violent or frantic waving near the right-of-way as an immediate stop signal.",
+          "Req 6b - Locomotive Horn Sound": "Engineers sound standardized whistle and horn codes to communicate intentions to crews, track workers, and the public. The grade crossing warning sequence consists of two long blasts, one short blast, and one final long blast.",
+          "Req 6c - Emergency Trackside Hand": "In an emergency, any person can signal a train to stop by waving a hand, lantern, flag, or cloth horizontally across the tracks. Engineers treat any violent or frantic waving near the right-of-way as an immediate stop signal.",
           "Req 6d - End Of Train Devices": "End-of-Train devices mounted on the final car replace traditional cabooses by monitoring brake pipe air pressure and motion. The unit transmits radio telemetry to the locomotive cab and can trigger emergency brake applications from the rear."
         },
         "sample_output": "Wayside Signals and Train Communications: Today's train crews carry battery-powered railroad lanterns as part of their standard equipment (p. 30).",
         "counselor_tip": "For Railroading Requirement 6 (Wayside Signals and Train Communications), verify the Scout's own observations and specific pamphlet details (Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do modern train crew members primarily communicate with each other during daily switching and train operations?",
+        "scenario_prompt": "In what specific ways do modern train crew members primarily communicate with each other during daily switching and train operations?",
         "question": "How do modern train crew members primarily communicate with each other during daily switching and train operations?",
         "options": [
           "A. By swinging oil-burning kerosene lanterns",
@@ -3224,7 +3292,33 @@
       "socratic_questions": [
         "How does an electrical track circuit automatically turn a signal red when a rail breaks or a train enters?",
         "Why does the standard horn sequence for public grade crossings end with a sustained blast until the crossing is occupied?",
-        "How does an End-of-Train device provide rear-end emergency braking if the main brake pipe develops a severe blockage?"
+        "How does an End-of-Train device provide rear-end emergency braking if the main brake pipe develops a severe blockage?",
+        "What happens to the low-voltage electrical track circuit when steel train wheels and axles enter an occupied signal block?",
+        "Why can a two-way End-of-Train Device still apply emergency air brakes from the rear if a blockage crimps the brake pipe mid-train?",
+        "Which locomotive horn pattern must an engineer sound at least 15 seconds before entering a public highway-rail grade crossing?",
+        "What hand or lantern motion across the track tells an approaching locomotive crew to make an immediate emergency stop?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Green signals along the track mean the train may travel at unrestricted speed without any limits.",
+          "fact": "Green indicates clear, authorizing movement up to the maximum speed permitted by track conditions and timetable rules."
+        },
+        {
+          "misconception": "Wayside block signals rely solely on overhead cameras and radar sensors to detect whether a train occupies a section of track.",
+          "fact": "Block signals use low-voltage electrical track circuits that are shorted out when steel wheels and axles bridge the two running rails."
+        },
+        {
+          "misconception": "The Flashing Rear-End Device is only a battery-powered red taillight mounted to make the last freight car visible at night.",
+          "fact": "An End-of-Train Device radios rear brake pipe air pressure to the cab and can trigger an emergency brake application from the rear."
+        },
+        {
+          "misconception": "Locomotive engineers blow long and short horn blasts at crossings using personal style rather than standardized federal rules.",
+          "fact": "Federal rules mandate the exact sequence of two long, one short, and one long horn blast approaching every public grade crossing."
+        },
+        {
+          "misconception": "Waving both arms vertically up and down above your head is the standard railroad hand signal for an emergency stop.",
+          "fact": "Swinging a hand, flag, or light horizontally at right angles across the track is the universal railroad signal to stop immediately."
+        }
       ]
     },
     {
@@ -3552,7 +3646,7 @@
               "workbook_diagram_caption": "Schematic diagrams outline various track layout designs for model trains.",
               "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains.",
               "socratic_questions": [
-                "How do industry magazines and manufacturer specification sheets help you avoid buying equipment that will not run on your layout?"
+                "In what ways do industry magazines and manufacturer specification sheets help you avoid buying equipment that will not run on your layout?"
               ]
             },
             {
@@ -3925,9 +4019,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
           "common_misconception_pair": {
             "misconception": "Any scale model locomotive runs on any model track regardless of track gauge standards.",
-            "fact": "Different scales have distinct track gauge widths and voltage requirements that prevent operating across different modeling standards.",
-            "myth": "Any scale model locomotive runs on any model track regardless of track gauge standards.",
-            "fact_correction": "Different scales have distinct track gauge widths and voltage requirements that prevent operating across different modeling standards."
+            "fact": "Different scales have distinct track gauge widths and voltage requirements that prevent operating across different modeling standards."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -4305,9 +4397,7 @@
           "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
           "common_misconception_pair": {
             "misconception": "Railfans are permitted to walk along track shoulders as long as they stay three feet away from rails.",
-            "fact": "Walking on railroad ballast or shoulder right-of-way without railroad authorization is illegal trespassing everywhere in the United States.",
-            "myth": "Railfans are permitted to walk along track shoulders as long as they stay three feet away from rails.",
-            "fact_correction": "Walking on railroad ballast or shoulder right-of-way without railroad authorization is illegal trespassing everywhere in the United States."
+            "fact": "Walking on railroad ballast or shoulder right-of-way without railroad authorization is illegal trespassing everywhere in the United States."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -4471,9 +4561,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Model railroading is simply assembling toy train sets that circle continuously on oval floor tracks.",
-        "fact": "Model railroading incorporates engineering principles, electrical block wiring, scale geometry, and realistic timetable freight operations.",
-        "myth": "Model railroading is simply assembling toy train sets that circle continuously on oval floor tracks.",
-        "fact_correction": "Model railroading incorporates engineering principles, electrical block wiring, scale geometry, and realistic timetable freight operations."
+        "fact": "Model railroading incorporates engineering principles, electrical block wiring, scale geometry, and realistic timetable freight operations."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -4514,13 +4602,13 @@
         "Step 4 - Logbook Assembly: Compile field observations or model building photographs into a structured merit badge logbook."
       ],
       "gear_checklist": [
-        "Official Railroading Merit Badge Pamphlet and Fillable Scout Workbook (Req 7: Model Railroading / Railfanning)",
-        "Field notebook, verification log sheet, and demonstration materials for Model Railroading / Railfanning",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Railroading Merit Badge: Model Railroading / Railfanning.",
+        "Field notebook, verification log sheet, and demonstration materials for Model Railroading / Railfanning.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 7a: Scale Model Railroad Engineering",
-        "right_header": "Req 7b: Prototype Railfanning Field Studie",
+        "right_header": "Req 7b: Prototype Railfanning Field",
         "left_points": [
           "(7a) Scale Model Railroad Engineering: Model railroading requires designing scale track plans, laying track to precise gauge tolerances, and wiring electrical power districts. Modelers build scenic terrain, detail scale structures, and simulate prototype switching operations."
         ],
@@ -4529,28 +4617,28 @@
         ],
         "rows": [
           {
-            "attribute": "Railfanning Trips and Photography",
-            "left": "(7a) Model railroading is an educational hobby whose popularity is growing (p. 53).",
-            "right": "(7b) Railfanning Trips and Photography: Model railroad clubs exist worldwide and the number of individuals operating their own model railroads is increasing (p. 53)."
+            "attribute": "Scale Ratio Standards",
+            "left": "(7a) Scale Model Railroad Engineering: Model railroading requires designing scale track plans, laying track to precise gauge tolerances, and wiring electrical power districts. Modelers build scenic terrain, detail scale structures, and simulate prototype switching operations.",
+            "right": "(7b) Prototype Railfanning Field Studies: Railfanning involves studying full-scale railroad operations, photographing rolling stock, and visiting railway museums or historical depots. Participants practice strict safety by observing train operations from public vantage points away from track ballast."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Worldwide Model Railroad Clubs: Model railroad clubs exist worldwide and the number of individuals operating their own model railroads is increasing (p. 53).",
-            "right": "Step 2 - Operate Like Real Railroads: Many are now operated in the same way that real life railroads are run (p. 53)."
+            "attribute": "Track Radius Constraints",
+            "left": "Req 7a: Scale Model Railroad: Model railroading requires designing scale track plans, laying track to precise gauge tolerances, and wiring electrical power districts. Modelers build scenic terrain, detail scale structures, and simulate prototype switching operations.",
+            "right": "Req 7b: Prototype Railfanning Field: Railfanning involves studying full-scale railroad operations, photographing rolling stock, and visiting railway museums or historical depots. Participants practice strict safety by observing train operations from public vantage points away from track ballast."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Realistic Prototype Scenery Modeling: Model railroads often have amazingly realistic scenery and frequently these modeled scenes represent portions of actual railroads (p. 53).",
-            "right": "Step 3 - Consult Clubs and Hobby Shops: Your local model railroad clubs and hobby shops can help you plan your layout (p. 53)."
+            "attribute": "Prototype Observation Safety",
+            "left": "Scale Ratio Standards: Popular modeling scales include HO scale at eighty-seven to one and N scale smaller.",
+            "right": "Track Radius Constraints: Miniature layout curves require minimum radius dimensions to prevent model car wheel derailments."
           }
         ]
       },
       "worked_example": {
-        "title": "Railroading Req 7 Exemplar Workbook Entry: Model Railroading and Railfanning Options",
+        "title": "Railroading Req 7 Exemplar Workbook Entry: Model",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 7a - Scale Model Railroad Engineering": "Model railroading requires designing scale track plans, laying track to precise gauge tolerances, and wiring electrical power districts. Modelers build scenic terrain, detail scale structures, and simulate prototype switching operations.",
-          "Req 7b - Prototype Railfanning Field Studi": "Railfanning involves studying full-scale railroad operations, photographing rolling stock, and visiting railway museums or historical depots. Participants practice strict safety by observing train operations from public vantage points away from track ballast."
+          "Req 7a - Scale Model Railroad": "Model railroading requires designing scale track plans, laying track to precise gauge tolerances, and wiring electrical power districts. Modelers build scenic terrain, detail scale structures, and simulate prototype switching operations.",
+          "Req 7b - Prototype Railfanning Field": "Railfanning involves studying full-scale railroad operations, photographing rolling stock, and visiting railway museums or historical depots. Participants practice strict safety by observing train operations from public vantage points away from track ballast."
         },
         "sample_output": "Model Railroading and Railfanning Options: Model railroading is an educational hobby whose popularity is growing (p. 53).",
         "counselor_tip": "For Railroading Requirement 7 (Model Railroading and Railfanning Options), verify the Scout's own observations and specific pamphlet details (Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62))."
@@ -4587,7 +4675,33 @@
       "socratic_questions": [
         "How does scale ratio determine the maximum train length and curve radius on a home layout?",
         "What safety boundaries must railfans maintain when photographing heavy freight trains along busy mainlines?",
-        "How do railway preservation societies protect vintage iron equipment from environmental deterioration and metal fatigue?"
+        "In what specific ways do railway preservation societies protect vintage iron equipment from environmental deterioration and metal fatigue?",
+        "What trade-offs between minimum curve radius and benchwork space must you weigh when choosing between N scale and HO scale?",
+        "Why does a reverse loop on a two-rail model railroad layout create a direct electrical short circuit without insulated rail gaps?",
+        "Where must a railfan stand when photographing trains near a highway grade crossing to stay compliant with trespassing laws?",
+        "Which electrical wiring difference allows Digital Command Control to run multiple model locomotives independently on the same track?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Model railroading is simply assembling toy train sets that circle continuously on oval floor tracks.",
+          "fact": "Model railroading incorporates engineering principles, electrical block wiring, scale geometry, and realistic timetable freight operations."
+        },
+        {
+          "misconception": "A bigger numerical scale ratio such as 1:160 N scale produces physically larger model trains than 1:87 HO scale.",
+          "fact": "A larger denominator in the scale ratio means greater reduction, so 1:160 N scale models are roughly half the size of 1:87 HO models."
+        },
+        {
+          "misconception": "Conventional direct-current track power lets operators control the speed of three locomotives independently on a single uninsulated block.",
+          "fact": "Standard DC controls track voltage for every engine in that block at once, whereas Digital Command Control addresses each decoder."
+        },
+        {
+          "misconception": "Railfans may step onto the ballast shoulder alongside mainline tracks to take photographs whenever no train is in sight.",
+          "fact": "Railroad rights-of-way are private property, and railfans must photograph trains only from public property or designated viewing platforms."
+        },
+        {
+          "misconception": "Cleaning model railroad track with coarse sandpaper improves electrical conductivity between the nickel-silver rails and locomotive wheels.",
+          "fact": "Coarse sandpaper scratches microscopic grooves into the railhead that trap dirt and accelerate arcing, worsening electrical pickup."
+        }
       ]
     }
   ],

@@ -301,10 +301,10 @@
 - **Pamphlet Fact:** Inferior planets orbit between Earth and Sun, creating changing crescent and gibbous phases.
 
 **Gear & Readiness Checklist:**
-- [ ] Red-filter LED flashlight (preserving night-vision rhodopsin) and rotating planisphere star wheel
-- [ ] Binoculars (7x50 or 10x50) or refractor/reflector telescope on a stable altazimuth/equatorial mount
-- [ ] ISO 12312-2 certified solar projection/filter setup (for daytime sunspot observation only)
-- [ ] Hard bound sky observation sketch pad, pencils, and seasonal constellation chart
+- [ ] Red-filter LED flashlight (preserving night-vision rhodopsin) and rotating planisphere star wheel.
+- [ ] Binoculars (7x50 or 10x50) or refractor/reflector telescope on a stable altazimuth/equatorial mount.
+- [ ] ISO 12312-2 certified solar projection/filter setup (for daytime sunspot observation only).
+- [ ] Hard bound sky observation sketch pad, pencils, and seasonal constellation chart.
 
 ![A smooth blue planetary disk illustrates the outer gas giants orbiting within our solar system.](/assets/pamphlet_images/astronomy_p036_img1.png)
 
@@ -382,10 +382,10 @@
 - **Pamphlet Fact:** Crater rims cast sharp black shadows because the Moon lacks an atmosphere to scatter light.
 
 **Gear & Readiness Checklist:**
-- [ ] Red-filter LED flashlight (preserving night-vision rhodopsin) and rotating planisphere star wheel
-- [ ] Binoculars (7x50 or 10x50) or refractor/reflector telescope on a stable altazimuth/equatorial mount
-- [ ] ISO 12312-2 certified solar projection/filter setup (for daytime sunspot observation only)
-- [ ] Hard bound sky observation sketch pad, pencils, and seasonal constellation chart
+- [ ] Red-filter LED flashlight (preserving night-vision rhodopsin) and rotating planisphere star wheel.
+- [ ] Binoculars (7x50 or 10x50) or refractor/reflector telescope on a stable altazimuth/equatorial mount.
+- [ ] ISO 12312-2 certified solar projection/filter setup (for daytime sunspot observation only).
+- [ ] Hard bound sky observation sketch pad, pencils, and seasonal constellation chart.
 
 ![A comet streams glowing dust and gas across deep space as it nears the inner solar system.](/assets/pamphlet_images/astronomy_p038_img2.png)
 

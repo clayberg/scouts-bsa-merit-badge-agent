@@ -66,9 +66,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe all indigenous North American nations shared identical customs, languages, and dwellings.",
-        "fact": "Over ten distinct cultural areas supported hundreds of sovereign nations with diverse languages and technologies.",
-        "myth": "Beginners often believe all indigenous North American nations shared identical customs, languages, and dwellings.",
-        "fact_correction": "Over ten distinct cultural areas supported hundreds of sovereign nations with diverse languages and technologies."
+        "fact": "Over ten distinct cultural areas supported hundreds of sovereign nations with diverse languages and technologies."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -99,44 +97,44 @@
       ],
       "step_by_step_procedure": [
         "Step 1 - Continental Map Partitioning: Trace the boundaries of the ten primary indigenous cultural areas on paper.",
-        "Step 2 - Ecological Factor Identification: Record dominant natural vegetation, local climate patterns, and primary regional game species.",
-        "Step 3 - Architecture Comparison Charting: Match specific traditional dwelling types with regional climate and available construction materials.",
+        "Step 2 - Ecological Factor: Record dominant natural vegetation, local climate patterns, and primary regional game species.",
+        "Step 3 - Architecture Comparison: Match specific traditional dwelling types with regional climate and available construction materials.",
         "Step 4 - Subsistence Model Analysis: Document regional food procurement methods including farming, foraging, coastal fishing, and hunting."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Woodland Agricultural Culture Areas",
-        "right_header": "Nomadic Great Plains Culture Areas",
+        "left_header": "Req 1: European Contact Challenges",
+        "right_header": "Req 1: Examine Historical Losses",
         "left_points": [
           "European Contact Challenges: From the brief descriptions in this pamphlet, you have learned some of the difficulties American Indian tribes faced after the arrival of Europeans (p. 91).",
           "Nineteenth Century Losses: Native peoples lost so much that by the late 19th and early 20th centuries, it seemed to some observers that they must be doomed (p. 91).",
           "Population and Land Loss: Others lost huge numbers of their people and all of their lands and possessions (p. 91)."
         ],
         "right_points": [
-          "Step 1 - Examine Historical Losses: Others lost huge numbers of their people and all of their lands and possessions (p. 91).",
-          "Step 2 - Trace Cultural Disruption: Some, like the Mission Indians of California, lost cultural memories, their Indian ways of living and s urviving, after being under missionary (p. 91).",
-          "Step 3 - Evaluate Past Predictions: Some people predicted that eventually all Indian cultures and their traditional ways would be lost and that finally the Indians themselves (p. 91)."
+          "Examine Historical Losses: Others lost huge numbers of their people and all of their lands and possessions (p. 91).",
+          "Trace Cultural Disruption: Some, like the Mission Indians of California, lost cultural memories, their Indian ways of living and s urviving, after being under missionary (p. 91).",
+          "Evaluate Past Predictions: Some people predicted that eventually all Indian cultures and their traditional ways would be lost and that finally the Indians themselves (p. 91)."
         ],
         "rows": [
           {
-            "attribute": "European Contact Challenges",
+            "attribute": "Plains Nomadic Ecology",
             "left": "European Contact Challenges: From the brief descriptions in this pamphlet, you have learned some of the difficulties American Indian tribes faced after the arrival of Europeans (p. 91).",
-            "right": "Step 1 - Examine Historical Losses: Others lost huge numbers of their people and all of their lands and possessions (p. 91)."
+            "right": "Examine Historical Losses: Others lost huge numbers of their people and all of their lands and possessions (p. 91)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Northwest Cedar Technology",
             "left": "Nineteenth Century Losses: Native peoples lost so much that by the late 19th and early 20th centuries, it seemed to some observers that they must be doomed (p. 91).",
-            "right": "Step 2 - Trace Cultural Disruption: Some, like the Mission Indians of California, lost cultural memories, their Indian ways of living and s urviving, after being under missionary (p. 91)."
+            "right": "Trace Cultural Disruption: Some, like the Mission Indians of California, lost cultural memories, their Indian ways of living and s urviving, after being under missionary (p. 91)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Southwest Masonry Architecture",
             "left": "Population and Land Loss: Others lost huge numbers of their people and all of their lands and possessions (p. 91).",
-            "right": "Step 3 - Evaluate Past Predictions: Some people predicted that eventually all Indian cultures and their traditional ways would be lost and that finally the Indians themselves (p. 91)."
+            "right": "Evaluate Past Predictions: Some people predicted that eventually all Indian cultures and their traditional ways would be lost and that finally the Indians themselves (p. 91)."
           }
         ]
       },
       "worked_example": {
-        "title": "Indian Lore Req 1 Exemplar Workbook Entry: American Indian Cultural Areas",
+        "title": "Indian Lore Req 1 Exemplar Workbook Entry: American",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "European Contact Challenges": "From the brief descriptions in this pamphlet, you have learned some of the difficulties American Indian tribes faced after the arrival of Europeans (p. 91).",
@@ -179,7 +177,33 @@
       "socratic_questions": [
         "How did local rainfall and timber availability dictate whether a tribe built plank houses or tipis?",
         "Why do anthropologists group culturally distinct tribes into shared geographic cultural areas?",
-        "What role did navigable river systems play in connecting distinct cultural regions through trade?"
+        "What role did navigable river systems play in connecting distinct cultural regions through trade?",
+        "Which geographic features and climate patterns separate the Great Basin cultural area from the adjacent Plateau region?",
+        "What seasonal food source allowed Pacific Northwest Coast nations to build permanent cedar plank villages without farming?",
+        "Why did Eastern Woodlands nations construct birchbark wigwams or elm-bark longhouses instead of hide tipis?",
+        "What watershed and rainfall boundaries should you mark on your reference map when comparing Southwest and Plains regions?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Beginners often believe all indigenous North American nations shared identical customs, languages, and dwellings.",
+          "fact": "Over ten distinct cultural areas supported hundreds of sovereign nations with diverse languages and technologies."
+        },
+        {
+          "misconception": "Cultural areas represent unified political empires where every tribe spoke the same language and followed identical laws.",
+          "fact": "Cultural areas are anthropological groupings based on shared geography and ecology, containing many independent nations and language families."
+        },
+        {
+          "misconception": "Every Native American nation across North America lived in portable buffalo-hide tipis and hunted on horseback.",
+          "fact": "Tipis were specific to nomadic Great Plains hunters, while other regions built adobe pueblos, cedar plank houses, igloos, or longhouses."
+        },
+        {
+          "misconception": "Southwest tribes relied exclusively on wild desert foraging because the arid climate prevented any crop cultivation.",
+          "fact": "Puebloan and desert nations engineered canal irrigation, floodplain farming, and dry-farming techniques to grow corn, beans, and squash."
+        },
+        {
+          "misconception": "Modern state and national borders align directly with traditional Indigenous cultural area boundaries across North America.",
+          "fact": "Traditional cultural areas follow natural watersheds, mountain ranges, and biomes that cross modern state and international boundary lines."
+        }
       ]
     },
     {
@@ -231,9 +255,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Beginners often assume tribal chiefs held absolute dictatorial control over all communal decisions.",
-        "fact": "Most tribal governments operated through consensus councils, clan checks, and distributed leadership structures.",
-        "myth": "Beginners often assume tribal chiefs held absolute dictatorial control over all communal decisions.",
-        "fact_correction": "Most tribal governments operated through consensus councils, clan checks, and distributed leadership structures."
+        "fact": "Most tribal governments operated through consensus councils, clan checks, and distributed leadership structures."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -270,38 +292,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Traditional Ancestral Tribal Lifeways",
-        "right_header": "Contemporary Tribal Identity and Governance",
+        "left_header": "Req 2: Reviving Traditional Arts",
+        "right_header": "Req 2: Respect Tribal Autonomy",
         "left_points": [
           "Reviving Traditional Arts: Indians are relearning lost traditions and languages and reviving their arts and crafts, their songs, dances, and stories (p. 71).",
           "Reclaiming Tribal Autonomy: Many have chosen not to disappear into America's \"melting pot.\" Indians are reclaiming control over what happens to them (p. 71).",
           "Choosing Modern Lifeways: They want to decide for themselves how they will live in the modern world (p. 71)."
         ],
         "right_points": [
-          "Step 1 - Respect Tribal Autonomy: They want to decide for themselves how they will live in the modern world (p. 71).",
-          "Step 2 - Study Cultural Preservation: The question is, how can they keep cultural roots alive and protect and preserve tribal identities, yet still be a part of modern society (p. 71).",
-          "Step 3 - Discuss Modern Challenges: There is no easy answer, and no one knows what the future holds (p. 71)."
+          "Respect Tribal Autonomy: They want to decide for themselves how they will live in the modern world (p. 71).",
+          "Study Cultural Preservation: The question is, how can they keep cultural roots alive and protect and preserve tribal identities, yet still be a part of modern society (p. 71).",
+          "Discuss Modern Challenges: There is no easy answer, and no one knows what the future holds (p. 71)."
         ],
         "rows": [
           {
-            "attribute": "Reviving Traditional Arts",
+            "attribute": "Haudenosaunee Clan Lineage",
             "left": "Reviving Traditional Arts: Indians are relearning lost traditions and languages and reviving their arts and crafts, their songs, dances, and stories (p. 71).",
-            "right": "Step 1 - Respect Tribal Autonomy: They want to decide for themselves how they will live in the modern world (p. 71)."
+            "right": "Respect Tribal Autonomy: They want to decide for themselves how they will live in the modern world (p. 71)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Pueblo Dryland Agriculture",
             "left": "Reclaiming Tribal Autonomy: Many have chosen not to disappear into America's \"melting pot.\" Indians are reclaiming control over what happens to them (p. 71).",
-            "right": "Step 2 - Study Cultural Preservation: The question is, how can they keep cultural roots alive and protect and preserve tribal identities, yet still be a part of modern society (p. 71)."
+            "right": "Study Cultural Preservation: The question is, how can they keep cultural roots alive and protect and preserve tribal identities, yet still be a part of modern society (p. 71)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Navajo Loom Weaving",
             "left": "Choosing Modern Lifeways: They want to decide for themselves how they will live in the modern world (p. 71).",
-            "right": "Step 3 - Discuss Modern Challenges: There is no easy answer, and no one knows what the future holds (p. 71)."
+            "right": "Discuss Modern Challenges: There is no easy answer, and no one knows what the future holds (p. 71)."
           }
         ]
       },
       "worked_example": {
-        "title": "Indian Lore Req 2 Exemplar Workbook Entry: Comprehensive Tribal Culture Research",
+        "title": "Indian Lore Req 2 Exemplar Workbook Entry: Comprehensive",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Reviving Traditional Arts": "Indians are relearning lost traditions and languages and reviving their arts and crafts, their songs, dances, and stories (p. 71).",
@@ -344,7 +366,33 @@
       "socratic_questions": [
         "How did clan membership determine mutual obligations and property inheritance within traditional villages?",
         "In what ways did traditional ceremonies align with seasonal agricultural and hunting cycles?",
-        "How did the natural environment shape the raw materials chosen for tribal garments and dwellings?"
+        "How did the natural environment shape the raw materials chosen for tribal garments and dwellings?",
+        "What happens to property inheritance and clan membership in a matrilineal kinship system like the Haudenosaunee?",
+        "Which primary sources from an official tribal historic preservation office verify your notes on governance and customs?",
+        "Under what environmental conditions did the nation you researched shift between winter camps and summer farming villages?",
+        "Why is it important to distinguish sacred ceremonial regalia from everyday seasonal clothing in your presentation notes?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Beginners often assume tribal chiefs held absolute dictatorial control over all communal decisions.",
+          "fact": "Most tribal governments operated through consensus councils, clan checks, and distributed leadership structures."
+        },
+        {
+          "misconception": "Traditional tribal chiefs held absolute royal authority to command citizens and sign away communal land without council consent.",
+          "fact": "Most Indigenous governments operated by council consensus, where leaders guided deliberations and could be replaced by clan mothers or elders."
+        },
+        {
+          "misconception": "Matrilineal clan systems meant women ruled over men through a strict political dictatorship in every village.",
+          "fact": "Matrilineal descent traces family clan identity through the mother's line while balancing civic duties between male and female council roles."
+        },
+        {
+          "misconception": "Plains warfare focused entirely on conquering territory and annihilating rival tribes in large pitched battles.",
+          "fact": "Many Plains warrior traditions valued counting coup, where touching an armed opponent and escaping unharmed brought higher honor than killing."
+        },
+        {
+          "misconception": "Three Sisters agriculture involved planting corn, beans, and squash in separate single-crop fields for easier harvesting.",
+          "fact": "Farmers planted corn, beans, and squash in shared mounds so stalks supported beans, beans fixed soil nitrogen, and squash leaves kept moisture."
+        }
       ]
     },
     {
@@ -385,9 +433,7 @@
           "pamphlet_page_citation": "Official Scouting America Indian Lore Merit Badge Pamphlet (p. 91, p. 92)",
           "common_misconception_pair": {
             "misconception": "Learners often assume Native American languages are simple dialects without standardized grammatical rules.",
-            "fact": "Indigenous languages feature complex polysynthetic grammars, extensive verb conjugations, and sophisticated tonal systems.",
-            "myth": "Learners often assume Native American languages are simple dialects without standardized grammatical rules.",
-            "fact_correction": "Indigenous languages feature complex polysynthetic grammars, extensive verb conjugations, and sophisticated tonal systems."
+            "fact": "Indigenous languages feature complex polysynthetic grammars, extensive verb conjugations, and sophisticated tonal systems."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -459,9 +505,7 @@
           "pamphlet_page_citation": "Official Scouting America Indian Lore Merit Badge Pamphlet (p. 91, p. 92)",
           "common_misconception_pair": {
             "misconception": "People often believe American place names derived from native words are purely decorative designations.",
-            "fact": "Indigenous toponyms functioned as descriptive geographical markers denoting trail intersections, rapids, or resource groves.",
-            "myth": "People often believe American place names derived from native words are purely decorative designations.",
-            "fact_correction": "Indigenous toponyms functioned as descriptive geographical markers denoting trail intersections, rapids, or resource groves."
+            "fact": "Indigenous toponyms functioned as descriptive geographical markers denoting trail intersections, rapids, or resource groves."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -536,9 +580,7 @@
           "pamphlet_page_citation": "Official Scouting America Indian Lore Merit Badge Pamphlet (p. 91, p. 92)",
           "common_misconception_pair": {
             "misconception": "Beginners frequently assume notable Native American leaders were exclusively historic nineteenth century war chiefs.",
-            "fact": "Distinguished indigenous leaders include contemporary governors, Supreme Court advocates, scientists, writers, and medal recipients.",
-            "myth": "Beginners frequently assume notable Native American leaders were exclusively historic nineteenth century war chiefs.",
-            "fact_correction": "Distinguished indigenous leaders include contemporary governors, Supreme Court advocates, scientists, writers, and medal recipients."
+            "fact": "Distinguished indigenous leaders include contemporary governors, Supreme Court advocates, scientists, writers, and medal recipients."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -627,9 +669,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Beginners often think indigenous American words across all tribes belong to one parent language family.",
-        "fact": "North America contained dozens of distinct language families with structures as diverse as Indo-European and Sino-Tibetan.",
-        "myth": "Beginners often think indigenous American words across all tribes belong to one parent language family.",
-        "fact_correction": "North America contained dozens of distinct language families with structures as diverse as Indo-European and Sino-Tibetan."
+        "fact": "North America contained dozens of distinct language families with structures as diverse as Indo-European and Sino-Tibetan."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -660,18 +700,18 @@
       ],
       "step_by_step_procedure": [
         "Step 1 - Target Language Selection: Choose a specific native language and access audio guides created by fluent speakers.",
-        "Step 2 - Vocabulary Pronunciation Practice: Transcribe ten conversational terms with accurate phonetic spellings and English translations.",
+        "Step 2 - Vocabulary Pronunciation: Transcribe ten conversational terms with accurate phonetic spellings and English translations.",
         "Step 3 - Toponym Etymology Investigation: Trace ten American state, river, or municipal names to their indigenous root origins.",
-        "Step 4 - Leadership Biography Documentation: Detail the tribal nations and major accomplishments of five historical or living leaders."
+        "Step 4 - Leadership Biography: Detail the tribal nations and major accomplishments of five historical or living leaders."
       ],
       "gear_checklist": [
-        "Official Indian Lore Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Learn 10 common terms)",
-        "Field notebook, verification log sheet, and demonstration materials for Learn 10 common terms",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Indian Lore Merit Badge: Learn 10 common terms.",
+        "Field notebook, verification log sheet, and demonstration materials for Learn 10 common terms.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Native Language Vocabulary Acquisi",
-        "right_header": "Req 3b: Indigenous Toponyms and Etymology",
+        "left_header": "Req 3a: Native Language Vocabulary",
+        "right_header": "Req 3b: Indigenous Toponyms",
         "left_points": [
           "(3a) Native Language Vocabulary Acquisition: Scouts memorize and pronounce ten everyday terms from a chosen tribal language using authoritative linguistic references. Understanding vocabulary illuminates cultural concepts that often lack direct equivalents in English."
         ],
@@ -680,29 +720,29 @@
         ],
         "rows": [
           {
-            "attribute": "Common Native Language Terms",
-            "left": "(3a) Common Native Language Terms: Indians are relearning lost traditions and languages and reviving their arts and crafts, their songs, dances, and stories (p. 91).",
-            "right": "(3b) Indigenous Place Name Origins: Many have chosen not to disappear into America's \"melting pot.\" Indians are reclaiming control over what happens to them (p. 91)."
+            "attribute": "Cherokee Syllabary Phonetics",
+            "left": "(3a) Native Language Vocabulary Acquisition: Scouts memorize and pronounce ten everyday terms from a chosen tribal language using authoritative linguistic references. Understanding vocabulary illuminates cultural concepts that often lack direct equivalents in English.",
+            "right": "(3b) Indigenous Toponyms and Etymology: Thousands of modern towns, rivers, and states carry names rooted in Native American vocabulary. Researching these toponyms reveals original landscape descriptions, local animal populations, and tribal territories."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Rejecting Cultural Assimilation: Many have chosen not to disappear into America's \"melting pot.\" Indians are reclaiming control over what happens to them (p. 91).",
-            "right": "(3c) Historic and Modern Native Leaders: They want to decide for themselves how they will live in the modern world (p. 91)."
+            "attribute": "Algonquian Toponymic Roots",
+            "left": "Req 3a: Native Language Vocabulary: Scouts memorize and pronounce ten everyday terms from a chosen tribal language using authoritative linguistic references. Understanding vocabulary illuminates cultural concepts that often lack direct equivalents in English.",
+            "right": "Req 3b: Indigenous Toponyms: Thousands of modern towns, rivers, and states carry names rooted in Native American vocabulary. Researching these toponyms reveals original landscape descriptions, local animal populations, and tribal territories."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Exercising Tribal Sovereignty: They want to decide for themselves how they will live in the modern world (p. 91).",
-            "right": "Step 3 - Examine Ongoing Cultural Survival: There is no easy answer, and no one knows what the future holds (p. 91)."
+            "attribute": "Tribal Statesmanship Traditions",
+            "left": "Req 3c: Prominent Tribal Leaders: Studying five distinguished leaders highlights both historic resistance and modern governance achievements. Scouts examine how each leader protected community welfare, navigated federal policy, or preserved cultural heritage.",
+            "right": "Algonquian Toponymic Roots: Mississippi derives from the Ojibwe words misi-ziibi, signifying great and flowing river."
           }
         ]
       },
       "worked_example": {
-        "title": "Indian Lore Req 3 Exemplar Workbook Entry: Native Languages, Places, and Leaders",
+        "title": "Indian Lore Req 3 Exemplar Workbook Entry: Native",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Native Language Vocabulary Acquis": "Scouts memorize and pronounce ten everyday terms from a chosen tribal language using authoritative linguistic references. Understanding vocabulary illuminates cultural concepts that often lack direct equivalents in English.",
-          "Req 3b - Indigenous Toponyms and Etymology": "Thousands of modern towns, rivers, and states carry names rooted in Native American vocabulary. Researching these toponyms reveals original landscape descriptions, local animal populations, and tribal territories.",
-          "Req 3c - Prominent Tribal Leaders Biograph": "Studying five distinguished leaders highlights both historic resistance and modern governance achievements. Scouts examine how each leader protected community welfare, navigated federal policy, or preserved cultural heritage."
+          "Req 3a - Native Language Vocabulary": "Scouts memorize and pronounce ten everyday terms from a chosen tribal language using authoritative linguistic references. Understanding vocabulary illuminates cultural concepts that often lack direct equivalents in English.",
+          "Req 3b - Indigenous Toponyms": "Thousands of modern towns, rivers, and states carry names rooted in Native American vocabulary. Researching these toponyms reveals original landscape descriptions, local animal populations, and tribal territories.",
+          "Req 3c - Prominent Tribal Leaders": "Studying five distinguished leaders highlights both historic resistance and modern governance achievements. Scouts examine how each leader protected community welfare, navigated federal policy, or preserved cultural heritage."
         },
         "sample_output": "Native Languages, Places, and Leaders: Indians are relearning lost traditions and languages and reviving their arts and crafts, their songs, dances, and stories (p. 91).",
         "counselor_tip": "For Indian Lore Requirement 3 (Native Languages, Places, and Leaders), verify the Scout's own observations and specific pamphlet details (Official Scouting America Indian Lore Merit Badge Pamphlet (p. 91, p. 92))."
@@ -737,9 +777,35 @@
       "workbook_visual_caption": "Scouts carve wooden stakes and prepare leather craft projects around a cooking fire at a woodland campsite.",
       "pamphlet_summary": "Linguistic heritage and biographical study connect cultural expressions to the living geography of the United States. Scouts study indigenous vocabulary, native roots of American geographical place names, and notable historic and contemporary tribal leaders.",
       "socratic_questions": [
-        "How do indigenous geographical names reflect original environmental features or resource locations?",
+        "In what specific ways do indigenous geographical names reflect original environmental features or resource locations?",
         "Why is preserving native languages essential for maintaining tribal sovereignty and cultural continuity?",
-        "What common leadership qualities united historic war leaders and modern elected tribal chairs?"
+        "What common leadership qualities united historic war leaders and modern elected tribal chairs?",
+        "Which phonetic guide or tribal audio dictionary confirms the exact pronunciation of your ten chosen vocabulary terms?",
+        "What geographic feature or ecological trait does each of your ten Indigenous place names describe in its original tongue?",
+        "Where did Sequoyah's syllabary differ from an alphabet when teaching Cherokee speakers to read and write rapidly?",
+        "What leadership actions by contemporary tribal officials protect sovereignty, water rights, or language revitalization today?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Beginners often think indigenous American words across all tribes belong to one parent language family.",
+          "fact": "North America contained dozens of distinct language families with structures as diverse as Indo-European and Sino-Tibetan."
+        },
+        {
+          "misconception": "All Native Americans spoke dialects of one single Indigenous language before European arrival in North America.",
+          "fact": "North America contained nearly three hundred distinct languages belonging to dozens of unrelated language families such as Algic and Na-Dene."
+        },
+        {
+          "misconception": "State names like Massachusetts, Dakota, and Illinois are meaningless decorative words invented by colonial mapmakers.",
+          "fact": "Those state names derive from Indigenous words describing specific landmarks, such as Massachusetts meaning near the great little mountain."
+        },
+        {
+          "misconception": "Notable Native American leadership ended in the nineteenth century after the conclusion of the western frontier wars.",
+          "fact": "Contemporary Indigenous leaders serve as tribal presidents, federal cabinet secretaries, appellate judges, scientists, and language advocates."
+        },
+        {
+          "misconception": "Navajo Code Talkers simply spoke ordinary conversational Diné over military radios during World War II Pacific campaigns.",
+          "fact": "Code Talkers memorized an encrypted two-layer military vocabulary within Diné so even untrained Navajo speakers could not decipher messages."
+        }
       ]
     },
     {
@@ -780,9 +846,7 @@
           "pamphlet_page_citation": "Official Scouting America Indian Lore Merit Badge Pamphlet (p. 9, p. 12)",
           "common_misconception_pair": {
             "misconception": "Many beginners believe European colonists possessed superior wilderness survival skills upon landing in North America.",
-            "fact": "Early colonists frequently perished until indigenous neighbors provided emergency food provisions and winter survival guidance.",
-            "myth": "Many beginners believe European colonists possessed superior wilderness survival skills upon landing in North America.",
-            "fact_correction": "Early colonists frequently perished until indigenous neighbors provided emergency food provisions and winter survival guidance."
+            "fact": "Early colonists frequently perished until indigenous neighbors provided emergency food provisions and winter survival guidance."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -854,9 +918,7 @@
           "pamphlet_page_citation": "Official Scouting America Indian Lore Merit Badge Pamphlet (p. 9, p. 12)",
           "common_misconception_pair": {
             "misconception": "People often think modern sports like lacrosse and snowshoe racing were invented by European settlers.",
-            "fact": "Lacrosse, snowshoes, toboggans, and rubber balls originated among Native American nations centuries before colonial contact.",
-            "myth": "People often think modern sports like lacrosse and snowshoe racing were invented by European settlers.",
-            "fact_correction": "Lacrosse, snowshoes, toboggans, and rubber balls originated among Native American nations centuries before colonial contact."
+            "fact": "Lacrosse, snowshoes, toboggans, and rubber balls originated among Native American nations centuries before colonial contact."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -933,9 +995,7 @@
           "pamphlet_page_citation": "Official Scouting America Indian Lore Merit Badge Pamphlet (p. 9, p. 12)",
           "common_misconception_pair": {
             "misconception": "Scouts sometimes think traditional tribal games were played merely for frivolous amusement without cultural purpose.",
-            "fact": "Indigenous games served sacred ceremonial purposes, settled territorial disputes, and honed essential archery or spear skills.",
-            "myth": "Scouts sometimes think traditional tribal games were played merely for frivolous amusement without cultural purpose.",
-            "fact_correction": "Indigenous games served sacred ceremonial purposes, settled territorial disputes, and honed essential archery or spear skills."
+            "fact": "Indigenous games served sacred ceremonial purposes, settled territorial disputes, and honed essential archery or spear skills."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1028,9 +1088,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Beginners often think early colonists brought all vital agricultural techniques with them from Europe.",
-        "fact": "European colonists survived primarily by adopting native domestic crops like maize and local companion planting.",
-        "myth": "Beginners often think early colonists brought all vital agricultural techniques with them from Europe.",
-        "fact_correction": "European colonists survived primarily by adopting native domestic crops like maize and local companion planting."
+        "fact": "European colonists survived primarily by adopting native domestic crops like maize and local companion planting."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1061,18 +1119,18 @@
       ],
       "step_by_step_procedure": [
         "Step 1 - Early Contact Assessment: Analyze the survival challenges European settlers faced without native agricultural instruction and trail guides.",
-        "Step 2 - Cultural Contribution Cataloging: Compile eight significant technologies, domestic crops, or concepts adopted by broader global societies.",
+        "Step 2 - Cultural Contribution: Compile eight significant technologies, domestic crops, or concepts adopted by broader global societies.",
         "Step 3 - Game Rules Preparation: Study the cultural origin, playing regulations, and traditional equipment of a selected game.",
         "Step 4 - Group Gameplay Facilitation: Establish playing boundaries, demonstrate game mechanics, and supervise an active youth patrol match."
       ],
       "gear_checklist": [
-        "Official Indian Lore Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Life might)",
-        "Field notebook, verification log sheet, and demonstration materials for Life might",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Indian Lore Merit Badge: Life might.",
+        "Field notebook, verification log sheet, and demonstration materials for Life.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Settler Survival and Indigenous As",
-        "right_header": "Req 4b: Adopted Native American Contributi",
+        "left_header": "Req 4a: Settler Survival and Indigenous",
+        "right_header": "Req 4b: Adopted Native American",
         "left_points": [
           "(4a) Settler Survival and Indigenous Assistance: Without native hospitality and instruction, early European colonies faced catastrophic starvation and total collapse during harsh winters. Indigenous farmers taught colonists how to clear temperate forests, plant maize, and navigate unfamiliar waterways."
         ],
@@ -1081,29 +1139,29 @@
         ],
         "rows": [
           {
-            "attribute": "Native Aid to Early Settlers",
-            "left": "(4a) Native Aid to Early Settlers: Use the information here as a starting point to learn more about American Indians and American heritage (p. 9).",
-            "right": "(4b) Adopted Indigenous Inventions and Foods: You might want to focus on only one tribe to fulfill all of the merit badge requirements (p. 9)."
+            "attribute": "Three Sisters Agriculture",
+            "left": "(4a) Settler Survival and Indigenous Assistance: Without native hospitality and instruction, early European colonies faced catastrophic starvation and total collapse during harsh winters. Indigenous farmers taught colonists how to clear temperate forests, plant maize, and navigate unfamiliar waterways.",
+            "right": "(4b) Adopted Native American Contributions: American society absorbed dozens of indigenous items including canoes, snowshoes, moccasins, hammocks, and government federation models. Identifying eight adoptions illustrates how native innovations permanently shaped modern global culture."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Exploring Shared Heritage: Use the information here as a starting point to learn more about American Indians and American heritage (p. 9).",
-            "right": "(4c) Traditional American Indian Games: You might want to learn more about Indian life in general before Europeans came, as well as after they arrived (p. 9)."
+            "attribute": "Indigenous Navigation Trails",
+            "left": "Req 4a: Settler Survival: Without native hospitality and instruction, early European colonies faced catastrophic starvation and total collapse during harsh winters. Indigenous farmers taught colonists how to clear temperate forests, plant maize, and navigate unfamiliar waterways.",
+            "right": "Req 4b: Adopted Native American: American society absorbed dozens of indigenous items including canoes, snowshoes, moccasins, hammocks, and government federation models. Identifying eight adoptions illustrates how native innovations permanently shaped modern global culture."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Focusing on One Tribe: You might want to focus on only one tribe to fulfill all of the merit badge requirements (p. 9).",
-            "right": "Step 3 - Document Eight Adopted Contributions: You might also investigate how Indians live and work today and carry on their ancient traditions (p. 9)."
+            "attribute": "Pharmacopeia Botanical Knowledge",
+            "left": "Req 4c: Traditional Tribal Game: Scouts master a game such as hoop and pole, stickball, or ring-and-pin, then teach it to a youth patrol. Leading gameplay develops communication skills while honoring the athletic traditions of indigenous peoples.",
+            "right": "Indigenous Navigation Trails: Birchbark canoes and portage paths formed the foundation for inland continental commerce."
           }
         ]
       },
       "worked_example": {
-        "title": "Indian Lore Req 4 Exemplar Workbook Entry: Indigenous Contributions and Traditional Games",
+        "title": "Indian Lore Req 4 Exemplar Workbook Entry: Indigenous",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Settler Survival and Indigenous A": "Without native hospitality and instruction, early European colonies faced catastrophic starvation and total collapse during harsh winters. Indigenous farmers taught colonists how to clear temperate forests, plant maize, and navigate unfamiliar waterways.",
-          "Req 4b - Adopted Native American Contribut": "American society absorbed dozens of indigenous items including canoes, snowshoes, moccasins, hammocks, and government federation models. Identifying eight adoptions illustrates how native innovations permanently shaped modern global culture.",
-          "Req 4c - Traditional Tribal Game Leadershi": "Scouts master a game such as hoop and pole, stickball, or ring-and-pin, then teach it to a youth patrol. Leading gameplay develops communication skills while honoring the athletic traditions of indigenous peoples."
+          "Req 4a - Settler Survival": "Without native hospitality and instruction, early European colonies faced catastrophic starvation and total collapse during harsh winters. Indigenous farmers taught colonists how to clear temperate forests, plant maize, and navigate unfamiliar waterways.",
+          "Req 4b - Adopted Native American": "American society absorbed dozens of indigenous items including canoes, snowshoes, moccasins, hammocks, and government federation models. Identifying eight adoptions illustrates how native innovations permanently shaped modern global culture.",
+          "Req 4c - Traditional Tribal Game": "Scouts master a game such as hoop and pole, stickball, or ring-and-pin, then teach it to a youth patrol. Leading gameplay develops communication skills while honoring the athletic traditions of indigenous peoples."
         },
         "sample_output": "Indigenous Contributions and Traditional Games: Use the information here as a starting point to learn more about American Indians and American heritage (p. 9).",
         "counselor_tip": "For Indian Lore Requirement 4 (Indigenous Contributions and Traditional Games), verify the Scout's own observations and specific pamphlet details (Official Scouting America Indian Lore Merit Badge Pamphlet (p. 9, p. 12))."
@@ -1140,7 +1198,33 @@
       "socratic_questions": [
         "How did indigenous watercraft and overland portage routes shape the settlement patterns of early European towns?",
         "What staple foods consumed worldwide today originated exclusively from indigenous North and South American agriculture?",
-        "How did traditional sports prepare youth for community defense, seasonal hunting, and conflict resolution?"
+        "How did traditional sports prepare youth for community defense, seasonal hunting, and conflict resolution?",
+        "What would have happened to early Plymouth and Jamestown colonists without Indigenous crop varieties and winter food trade?",
+        "Which boundary markers and stick-handling safety rules must you brief before leading a traditional double-ball or shinny game?",
+        "What field surface check prevents ankle sprains when setting up a hoop-and-pole or lacrosse demonstration for your patrol?",
+        "Why did global population growth accelerate after Old World farmers adopted Indigenous crops like potatoes and maize?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Beginners often think early colonists brought all vital agricultural techniques with them from Europe.",
+          "fact": "European colonists survived primarily by adopting native domestic crops like maize and local companion planting."
+        },
+        {
+          "misconception": "Tomatoes, potatoes, chocolate, and chili peppers originated in Europe and Asia long before transatlantic contact.",
+          "fact": "Indigenous farmers in the Americas domesticated potatoes, tomatoes, cacao, maize, peanuts, and peppers over thousands of years of selection."
+        },
+        {
+          "misconception": "Early European colonists survived their first winters solely through European farming methods and imported rations.",
+          "fact": "Early settlements survived only because neighboring Indigenous nations shared stored corn, local trail networks, and regional planting methods."
+        },
+        {
+          "misconception": "Traditional Indigenous stickball and lacrosse games were casual pastimes played solely for brief afternoon entertainment.",
+          "fact": "Traditional stickball games served as major inter-village diplomacy, ceremonial healing events, and rigorous athletic training for young men."
+        },
+        {
+          "misconception": "Snowshoes, birchbark canoes, and parkas were invented by European fur trappers exploring the northern Canadian woods.",
+          "fact": "Subarctic and Arctic Indigenous engineers perfected snowshoes, waterproof parkas, kayaks, and birchbark canoes long before European trappers."
+        }
       ]
     },
     {
@@ -1188,9 +1272,7 @@
           "pamphlet_page_citation": "Official Scouting America Indian Lore Merit Badge Pamphlet (p. 37, p. 92)",
           "common_misconception_pair": {
             "misconception": "Visitors often assume museum artifacts were simple crude survival tools made without artistic design.",
-            "fact": "Indigenous artifacts demonstrate master engineering, intricate aesthetic ornamentation, and deep spiritual symbolism.",
-            "myth": "Visitors often assume museum artifacts were simple crude survival tools made without artistic design.",
-            "fact_correction": "Indigenous artifacts demonstrate master engineering, intricate aesthetic ornamentation, and deep spiritual symbolism."
+            "fact": "Indigenous artifacts demonstrate master engineering, intricate aesthetic ornamentation, and deep spiritual symbolism."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1271,9 +1353,7 @@
           "pamphlet_page_citation": "Official Scouting America Indian Lore Merit Badge Pamphlet (p. 37, p. 92)",
           "common_misconception_pair": {
             "misconception": "Spectators sometimes assume anyone may walk across the center arena at any point during a gathering.",
-            "fact": "The center dance arbor is a consecrated ceremonial arena entered only by invited dancers and elders.",
-            "myth": "Spectators sometimes assume anyone may walk across the center arena at any point during a gathering.",
-            "fact_correction": "The center dance arbor is a consecrated ceremonial arena entered only by invited dancers and elders."
+            "fact": "The center dance arbor is a consecrated ceremonial arena entered only by invited dancers and elders."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1368,9 +1448,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Beginners often mistake the elaborate dance garments worn at powwows for Halloween costumes.",
-        "fact": "Dancers wear handmade regalia containing sacred family heirlooms, beadwork, and honors that command deep respect.",
-        "myth": "Beginners often mistake the elaborate dance garments worn at powwows for Halloween costumes.",
-        "fact_correction": "Dancers wear handmade regalia containing sacred family heirlooms, beadwork, and honors that command deep respect."
+        "fact": "Dancers wear handmade regalia containing sacred family heirlooms, beadwork, and honors that command deep respect."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1406,13 +1484,13 @@
         "Step 4 - Counselor Debrief Presentation: Discuss exhibit themes or gathering observations with the counselor to evaluate modern cultural endurance."
       ],
       "gear_checklist": [
-        "Official Indian Lore Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Museum Either In-person or Virtually)",
-        "Field notebook, verification log sheet, and demonstration materials for Museum Either In-person or Virtually",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Indian Lore Merit Badge: Museum Either In-person or Virtually.",
+        "Field notebook, verification log sheet, and demonstration materials for Museum Either In-person or Virtually.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Museum Artifact Exhibition Analysi",
-        "right_header": "Req 5b: Contemporary Tribal Gathering Etiq",
+        "left_header": "Req 5a: Museum Artifact Exhibition",
+        "right_header": "Req 5b: Contemporary Tribal Gathering",
         "left_points": [
           "(5a) Museum Artifact Exhibition Analysis: Scouts tour museum galleries or online digital collections to examine curated indigenous artifacts from across the continent. Documenting ten items by tribal origin and functional utility reveals sophisticated traditional craftsmanship."
         ],
@@ -1421,28 +1499,28 @@
         ],
         "rows": [
           {
-            "attribute": "Museum Exhibitions and Artifacts",
-            "left": "(5a) Museum Exhibitions and Artifacts: They want to decide for themselves how they will live in the modern world (p. 37).",
-            "right": "(5b) Contemporary Gathering and Powwow Etiquette: The question is, how can they keep cultural roots alive and protect and preserve tribal identities, yet still be a part of modern society (p. 37)."
+            "attribute": "Museum Provenance Documentation",
+            "left": "(5a) Museum Artifact Exhibition Analysis: Scouts tour museum galleries or online digital collections to examine curated indigenous artifacts from across the continent. Documenting ten items by tribal origin and functional utility reveals sophisticated traditional craftsmanship.",
+            "right": "(5b) Contemporary Tribal Gathering Etiquette: Attending a modern gathering such as a powwow provides firsthand experience of living traditions, song, and dance. Observance of respectful etiquette ensures visitors honor the host community, sacred arena circle, and honored veterans."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Maintaining Distinct Cultural Identity: Many have chosen not to disappear into America's \"melting pot.\" Indians are reclaiming control over what happens to them (p. 37).",
-            "right": "Step 2 - Observe Living Cultural Traditions: The question is, how can they keep cultural roots alive and protect and preserve tribal identities, yet still be a part of modern society (p. 37)."
+            "attribute": "NAGPRA Legal Compliance",
+            "left": "Req 5a: Museum Artifact Exhibition: Scouts tour museum galleries or online digital collections to examine curated indigenous artifacts from across the continent. Documenting ten items by tribal origin and functional utility reveals sophisticated traditional craftsmanship.",
+            "right": "Req 5b: Contemporary Tribal: Attending a modern gathering such as a powwow provides firsthand experience of living traditions, song, and dance. Observance of respectful etiquette ensures visitors honor the host community, sacred arena circle, and honored veterans."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Leading Modern Community Life: They want to decide for themselves how they will live in the modern world (p. 37).",
-            "right": "Step 3 - Practice Respectful Visitor Etiquette: There is no easy answer, and no one knows what the future holds (p. 37)."
+            "attribute": "Powwow Arena Etiquette",
+            "left": "Museum Provenance Documentation: Professional museum curation records the specific tribal origin, age, and cultural purpose of artifacts.",
+            "right": "NAGPRA Legal Compliance: Federal statutes mandate repatriating sacred objects and human remains to affiliated lineal tribal nations."
           }
         ]
       },
       "worked_example": {
-        "title": "Indian Lore Req 5 Exemplar Workbook Entry: Museum Collections and Contemporary Gatherings",
+        "title": "Indian Lore Req 5 Exemplar Workbook Entry: Museum",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Museum Artifact Exhibition Analys": "Scouts tour museum galleries or online digital collections to examine curated indigenous artifacts from across the continent. Documenting ten items by tribal origin and functional utility reveals sophisticated traditional craftsmanship.",
-          "Req 5b - Contemporary Tribal Gathering Eti": "Attending a modern gathering such as a powwow provides firsthand experience of living traditions, song, and dance. Observance of respectful etiquette ensures visitors honor the host community, sacred arena circle, and honored veterans."
+          "Req 5a - Museum Artifact Exhibition": "Scouts tour museum galleries or online digital collections to examine curated indigenous artifacts from across the continent. Documenting ten items by tribal origin and functional utility reveals sophisticated traditional craftsmanship.",
+          "Req 5b - Contemporary Tribal Gathering": "Attending a modern gathering such as a powwow provides firsthand experience of living traditions, song, and dance. Observance of respectful etiquette ensures visitors honor the host community, sacred arena circle, and honored veterans."
         },
         "sample_output": "Museum Collections and Contemporary Gatherings: They want to decide for themselves how they will live in the modern world (p. 37).",
         "counselor_tip": "For Indian Lore Requirement 5 (Museum Collections and Contemporary Gatherings), verify the Scout's own observations and specific pamphlet details (Official Scouting America Indian Lore Merit Badge Pamphlet (p. 37, p. 92))."
@@ -1479,7 +1557,33 @@
       "socratic_questions": [
         "Why is referring to traditional dance attire as regalia rather than a costume culturally important?",
         "What ethical considerations govern the display and ownership of historic indigenous cultural property in museums?",
-        "How do modern intertribal powwows balance ancient religious traditions with vibrant public social fellowship?"
+        "In what specific ways do modern intertribal powwows balance ancient religious traditions with vibrant public social fellowship?",
+        "What catalog details must you record in your notebook to document ten museum artifacts by nation, dimensions, and function?",
+        "When does powwow arena etiquette prohibit spectators from taking photographs or entering the dance circle?",
+        "Why is it disrespectful to touch a dancer's regalia or eagle feathers without explicit invitation at a gathering?",
+        "Which construction materials and tool marks on a museum artifact reveal whether it was made before or after trade contact?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Beginners often mistake the elaborate dance garments worn at powwows for Halloween costumes.",
+          "fact": "Dancers wear handmade regalia containing sacred family heirlooms, beadwork, and honors that command deep respect."
+        },
+        {
+          "misconception": "Dancers at a contemporary intertribal powwow are wearing theatrical costumes that visitors may touch and photograph freely.",
+          "fact": "Powwow dancers wear personal heirloom regalia with sacred elements, and visitors must never touch regalia or photograph prayers without asking."
+        },
+        {
+          "misconception": "Museum displays show that Indigenous craftsmanship and cultural traditions vanished completely before the twentieth century.",
+          "fact": "Modern museum exhibitions feature living Indigenous artists alongside historic collections to show continuous cultural innovation and survival."
+        },
+        {
+          "misconception": "All powwow dances follow the same unplanned freestyle steps regardless of the drumbeat or song category.",
+          "fact": "Each powwow dance style, such as Mens Traditional, Grass, Fancy Shawl, or Jingle Dress, follows specific footwork tied to the drum cadence."
+        },
+        {
+          "misconception": "Stone projectile points found in museum cases were all arrowheads shot from bows regardless of their size or weight.",
+          "fact": "Larger heavy stone points were hafted onto spear shafts, atlatl darts, or hafted knives thousands of years before bow-and-arrow technology."
+        }
       ]
     }
   ],

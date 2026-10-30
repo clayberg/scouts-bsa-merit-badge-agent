@@ -1,8 +1,8 @@
 # Fire Safety Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/FireSafety.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/fire-safety/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fire-safety/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -29,10 +29,10 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Fire Extinguishers. Do the following: (a) Explain the different classes of fires. (b) Identify the different classes of fire extinguishers and which should be used for each class of fire. (c) Demonstrate how to use a fire extinguisher and a fire blanket.
-- [ ] **Station Req 3:** Fire-related Injuries. Do the following: (a) Explain and demonstrate the technique of stop, drop, roll, cool, and call. (b) Describe how clothing fires occur, how to prevent them, and how clothing can prevent or contribute to burn injuries. (c) Identify the most frequent causes of burn injuries and how to prevent them. (d) Review the prevention of, symptoms and signs of, and treatment of airway burns and carbon monoxide (CO) poisoning.
-- [ ] **Station Req 5:** Fire Safety at Home. Do the following: (a) Describe how to prevent the frequent causes of home fires, including unattended cooking, electricity, smoking, clothes dryers, and rechargeable batteries. (b) Describe how to prevent frequent causes of seasonal and holiday-related home fires, including fires related to home heating, holiday trees, candles, and fireworks. (c) Demonstrate how to safely light and extinguish a candle. Discuss with your counselor, then with your family, how to safely use candles. (d) Using the Home Fire Safety Checklist in the Fire Safety merit badge pamphlet or one approved by your counselor, and with the help of an adult, inspect a home (or a similar building near where you live or at a camp) for fire safety hazards. Present your completed checklist to your counselor and discuss your findings. (e) Determine if, and what types of, smoke and CO alarms are required in homes in your community. List what types of smoke and CO alarms your home has, their locations, and their expiration dates. (f) Demonstrate maintenance of smoke and CO alarms to your counselor and review plans to replace expired alarms. (g) Develop a home fire-escape plan and a fire-drill schedule with your family, draw a floor plan of your home with exits marked and a map showing your family meeting point, and conduct a home fire drill. (h) Explain what to do and what not to do if you smell natural gas and if you smell smoke. (i) Explain how you would report a fire to have the fire department respond.
-- [ ] **Station Req 8:** Fire Safety at Camp. Do the following: (a) Explain how the Leave No Trace Seven Principles and the Outdoor Code apply to camping fires. (b) Demonstrate lighting a match safely, the proper way to extinguish it, and to dispose of it. Explain the similarities and differences between safety matches and strike-anywhere matches. (c) Explain and demonstrate making sparks with flint and steel or with a ferro rod and catching a spark to create a flame. Extinguish the flame safely using one of the principles of the fire tetrahedron. (d) Demonstrate the safe way to start a charcoal fire. (e) Describe three common campsite fire lays. Collect, prepare, and set up tinder, kindling, and fuel for a campfire following the Leave No Trace Seven Principles and the Outdoor Code. Ignite your fire lay and safely extinguish your fire. (f) Demonstrate using a camp stove. (g) Explain how to set up and keep a campsite safe from fire. (h) Develop a lesson plan to teach a fire safety skill or topic, such as lighting a candle or a match or a charcoal fire or a lantern or a camp stove or using flint and steel or setting up a fire lay. Review your lesson plan with your counselor. Teach your skill or topic to one or more Scouts using the EDGE method.
+- [ ] **Station Req 2:** Scout must individually explain mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Scout must individually explain mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually describe mastery of Requirement 5 to the Merit Badge Counselor.
+- [ ] **Station Req 8:** Scout must individually explain mastery of Requirement 8 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -501,7 +501,7 @@
 - **Pamphlet Fact:** Dumping water over hot coals creates a sudden plume of scalding steam that causes facial burns.
 
 **Official Pamphlet Summary:**
-- Clearing Clearance: Clear leaf litter and duff down to bare mineral soil ten feet around.
+- Clearing Clearance: Clear leaf litter and duff down to bare mineral soil ten feet.
 - Match Extinguishment: Hold extinguished matches between bare fingers to confirm the wooden stick is cold.
 - Drown embers in water, stir with a stick, and drown repeatedly until cold.
 - Store compressed liquid fuel canisters away from direct sunlight and radiant campfire heat.

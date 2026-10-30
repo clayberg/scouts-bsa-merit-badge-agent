@@ -1,0 +1,194 @@
+{
+  "badge_slug": "chess",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "In Chaturanga and Persian Shatranj, the counselor piece moved only one diagonal square until European reforms around 1475.",
+          "misconception": "The Queen has always been the most powerful piece on the board since the earliest days of Indian Chaturanga."
+        },
+        {
+          "fact": "Castling evolved in 16th-century Europe from the King's leap to speed up piece development and improve King safety.",
+          "misconception": "Castling was part of original 6th-century Indian chess rules to protect the Rajah from central chariot attacks."
+        },
+        {
+          "fact": "Wilhelm Steinitz became the first official World Champion in 1886, and FIDE began organizing the title match in 1948.",
+          "misconception": "World Chess Championship titles have been officially awarded by an international federation since the 1500s."
+        },
+        {
+          "fact": "Both the initial two-square pawn advance and the en passant rule were introduced in medieval Europe to speed up play.",
+          "misconception": "The two-square initial pawn advance and en passant capture existed in ancient Sanskrit Chaturanga manuscripts."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What changes transformed the medieval Ferz and Alfil into the modern Queen and Bishop during the late 15th century?",
+        "Which historical rule additions in Renaissance Europe accelerated the opening phase of chess compared to Shatranj?",
+        "What specific tournament records or published games verify the historical impact of the Grandmaster you researched?",
+        "Where did the 6th-century Indian game of Chaturanga originate before spreading through Persia to the Islamic world?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Repeated draw offers distract the opponent and violate chess etiquette; offer a draw only after making your move and before pressing the clock.",
+          "misconception": "Offering a draw repeatedly while your opponent's clock is running is an acceptable psychological tactic in tournament play."
+        },
+        {
+          "fact": "Strong players combine focused tactical calculation with strategic evaluation of pawn structure, piece activity, and King safety.",
+          "misconception": "Good chess players rely purely on memorizing dozens of moves ahead rather than evaluating positional features on the board."
+        },
+        {
+          "fact": "Greeting your opponent before play and shaking hands afterward are foundational expectations of chess sportsmanship and respect.",
+          "misconception": "Refusing to shake hands before a game starts is a harmless personal preference in rated scholastic tournaments."
+        },
+        {
+          "fact": "Spectators must remain completely silent and never interfere in an active game; only players or the tournament director may intervene.",
+          "misconception": "Spectators watching a live game are allowed to point out illegal moves or time forfeits to the players at the board."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes a long-term strategic plan from a short-term tactical calculation during a competitive chess game?",
+        "Under what condition should a player offer a draw so that the request respects proper over-the-board chess etiquette?",
+        "Why is it poor sportsmanship to hover your hand over the board or tap pieces while your opponent is calculating?",
+        "Which decision-making habit from evaluating candidate moves transfers directly to solving complex academic problems?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Castling is prevented only if the King is in check, passes through check, or lands in check; the Rook may cross an attacked square.",
+          "misconception": "A King cannot castle queenside if the Rook on a1 or a8 is currently under attack or passes through an attacked b-file square."
+        },
+        {
+          "fact": "A promoted pawn may become a Queen, Rook, Bishop, or Knight of the same color regardless of which pieces remain on the board.",
+          "misconception": "A pawn reaching the eighth rank can only be promoted to a piece that has already been captured earlier in the game."
+        },
+        {
+          "fact": "En passant must be executed on the very next turn immediately after the opponent's two-square pawn advance, or the right is lost.",
+          "misconception": "An en passant capture can be played several moves after an enemy pawn advances two squares past your fifth-rank pawn."
+        },
+        {
+          "fact": "Announcing check is never required in formal chess rules, and players must recognize threats to their own King on every turn.",
+          "misconception": "Saying check out loud is mandatory under official rules before a checkmate or capture can be legally enforced on the board."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which visual check confirms that the chessboard and both royals are oriented properly before the first move is played?",
+        "Under what condition is castling temporarily illegal even if neither the King nor the chosen Rook has previously moved?",
+        "What happens to a game immediately when the player whose turn it is to move is not in check and has no legal moves?",
+        "Where must the capturing pawn land when executing a legal en passant capture right after an enemy pawn advances two squares?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Standard algebraic notation uses uppercase K for the King and uppercase N for the Knight to avoid ambiguity on the score sheet.",
+          "misconception": "In standard algebraic notation, the letter K is used to record Knight moves while King moves are written out in full."
+        },
+        {
+          "fact": "Algebraic notation omits piece letters for pawns, recording only the destination square like e4 or the starting file for captures like exd5.",
+          "misconception": "Pawn moves in algebraic notation must always begin with an uppercase P before the destination coordinate, such as Pe4."
+        },
+        {
+          "fact": "In the Queen's Gambit, White offers the c4 pawn temporarily to gain central control and can usually recover the pawn with strong play.",
+          "misconception": "The Queen's Gambit is a true material sacrifice where Black can permanently keep the c4 pawn without positional drawbacks."
+        },
+        {
+          "fact": "Sound opening play uses only a few central pawn moves so Knights and Bishops can develop rapidly toward the center before castling.",
+          "misconception": "Moving as many pawns as possible in the first six moves is the fastest way to control the board and develop an attack."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What extra file or rank character is required in algebraic notation when two identical Knights can legally reach the same square?",
+        "Why does the King transition from hiding behind a castled pawn shelter in the opening to becoming an active attacker in the endgame?",
+        "Which opening principle is violated when a player brings the Queen out on move two to chase unguarded flank pawns?",
+        "What exact sequence of moves distinguishes the Ruy Lopez on move three from the Italian Game after 1.e4 e5 2.Nf3 Nc6?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Only an absolute pin against the King makes moving illegal; a piece in a relative pin shielding a Queen or Rook may still legally move.",
+          "misconception": "A pinned piece is always legally forbidden from moving off the line of attack regardless of which piece stands behind it."
+        },
+        {
+          "fact": "Because two separate pieces attack the King simultaneously in a double check, a King move is the only legal response.",
+          "misconception": "A double check can be neutralized by capturing the moving piece that just delivered check or by blocking one line of attack."
+        },
+        {
+          "fact": "A King and two Knights cannot force checkmate against a lone King unless the defender blunders into a corner trap.",
+          "misconception": "Two Knights and a King can easily force checkmate from any position against a lone enemy King on an open board."
+        },
+        {
+          "fact": "Effective clock management saves time during familiar opening moves so you have ample minutes for complex middle game critical positions.",
+          "misconception": "Spending half of your total clock time on routine opening moves is good clock management because it prevents early mistakes."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What geometric ordering of the two target pieces distinguishes a tactical pin from a skewer along an open file or diagonal?",
+        "Why must the defending King move rather than capture or interpose when placed in a double check by a discovered attack?",
+        "What happens to a player stuck in zugzwang during an endgame when every legal move on the board worsens their position?",
+        "Where should White reposition a Rook during the two-Rook staircase checkmate when the enemy King approaches to attack it?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "In a Swiss system tournament, no player is eliminated; everyone plays every round paired against opponents with similar cumulative scores.",
+          "misconception": "Losing a single round in a Swiss system chess tournament eliminates a player from competing in the remaining scheduled rounds."
+        },
+        {
+          "fact": "Intentionally touching an opponent's piece on your turn obligates you to capture that specific piece if a legal capture exists.",
+          "misconception": "Under the touch-move rule, touching an opponent's piece requires you to move one of your own pieces only if you choose to."
+        },
+        {
+          "fact": "Tournament rules require a player to press the chess clock using the exact same hand that moved the piece on the board.",
+          "misconception": "Pressing the chess clock with your free hand while your other hand is still placing a piece on its square is legal."
+        },
+        {
+          "fact": "If a player runs out of time when the opponent lacks sufficient mating material, the game is declared a draw rather than a loss.",
+          "misconception": "If your flag falls and your time expires, you always lose the game even if your opponent has only a bare King left."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why does a large open tournament use the Swiss pairing system instead of a single-elimination bracket or full round robin?",
+        "What verbal declaration must a player make before straightening an off-center piece on their turn to avoid a touch-move penalty?",
+        "Which clock hand must be used to press the tournament timer button after completing a move on the chessboard?",
+        "Under what condition does a player's Elo rating increase more for defeating an opponent than in a typical even-rated match?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Players must execute the move on the board first and then record it on the score sheet before or right after pressing the clock.",
+          "misconception": "Under standard tournament rules, you should write your next move on your score sheet before moving the piece on the board."
+        },
+        {
+          "fact": "Replaying wins as well as losses reveals missed tactics, defensive errors, and stronger candidate moves that improve future play.",
+          "misconception": "Post-game review is only useful for games you lost, because winning a game proves every move you played was accurate."
+        },
+        {
+          "fact": "Accurate move-by-move notation during play is essential so every position can be reconstructed without guesswork afterward.",
+          "misconception": "If your score sheet has an illegible or missing move, you can simply rely on memory weeks later during your counselor review."
+        },
+        {
+          "fact": "Players must take their score sheets and move to a designated skittles or analysis room so ongoing tournament games are not disturbed.",
+          "misconception": "Analyzing your tournament game aloud at the board immediately after finishing is fine even while adjacent games continue."
+        }
+      ],
+      "extra_socratic_questions": [
+        "When should a player write down a move on the official score sheet during a tournament game under standard rules?",
+        "What happens to your post-game analysis with your counselor if an ambiguous or skipped move corrupts your score sheet?",
+        "Which critical turning points on a completed score sheet deserve the deepest evaluation when replaying a game afterward?",
+        "Why must both players verify and sign the recorded game result on the score sheets before leaving the tournament board?"
+      ],
+      "req_id": "7"
+    }
+  ]
+}

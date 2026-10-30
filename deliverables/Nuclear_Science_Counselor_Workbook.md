@@ -1,8 +1,8 @@
 # Nuclear Science Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Nuclear%20Science.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/nuclear-science/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/nuclear-science/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -30,8 +30,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Basic Nuclear Science. Do the following: (a) Explain the following terms: atom, nucleus, proton, neutron, electron, quark, isotope; alpha particle, beta particle, gamma ray, X-ray; ionization, radioactivity, radioisotope, and stability. (b) Choose an element from the periodic table. Construct 3-D models for the atoms of three isotopes of this element, showing neutrons, protons, and electrons. Write down the isotope notation for each model including the atomic and mass numbers. In a separate model or diagram, explain or show how quarks make up protons and neutrons.
-- [ ] **Station Req 4:** Classic Experiments. Do TWO of the following: (a) Build an electroscope. Show how it works. Place a radiation source near the electroscope ball and explain the effect it causes. Adults must handle radioactive materials. (b) Make a cloud chamber. Show how it can be used to see the tracks caused by radiation. Adults must handle radioactive materials and dry ice. Explain what is happening. (c) Perform an experiment demonstrating half-life using nonradioactive materials such as candy, coins, or other small items. Discuss decay chains.
+- [ ] **Station Req 2:** Scout must individually explain mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually show mastery of Requirement 4 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -261,10 +261,10 @@
 - **Pamphlet Fact:** Ionized air molecules transfer charge to the metal terminal, neutralizing the electrostatic charge on the leaves.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Nuclear Science merit badge pamphlet and workbook organizer for Req 4
-- [ ] Nuclear Science field toolkit, inspection gauge, and protective eyewear for Classic Nuclear Science Experiments
-- [ ] Manufacturer technical manual or BSA reference guide for the system studied
-- [ ] Completed observation table and counselor review notes for Req 4
+- [ ] Official Nuclear Science merit badge pamphlet and workbook organizer for Req 4.
+- [ ] Nuclear Science field toolkit, inspection gauge, and protective eyewear for Classic Nuclear Science Experiments.
+- [ ] Manufacturer technical manual or BSA reference guide for the system studied.
+- [ ] Completed observation table and counselor review notes for Req 4.
 
 ![A student rubs a balloon to generate electrostatic charge for a homemade electroscope test.](/assets/pamphlet_images/nuclear_science_p028_img1.png)
 
@@ -470,10 +470,10 @@
 - **Pamphlet Fact:** Nuclear careers thrive across research universities, industrial testing firms, aerospace contractors, and hospital radiation oncology clinics.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Nuclear Science merit badge pamphlet and workbook organizer for Req 8
-- [ ] Nuclear Science field toolkit, inspection gauge, and protective eyewear for Careers In Nuclear Science
-- [ ] Manufacturer technical manual or BSA reference guide for the system studied
-- [ ] Completed observation table and counselor review notes for Req 8
+- [ ] Official Nuclear Science merit badge pamphlet and workbook organizer for Req 8.
+- [ ] Nuclear Science field toolkit, inspection gauge, and protective eyewear for Careers In Nuclear Science.
+- [ ] Manufacturer technical manual or BSA reference guide for the system studied.
+- [ ] Completed observation table and counselor review notes for Req 8.
 
 ![A written notebook outlines the ALARA radiation protection concept for worker safety.](/assets/pamphlet_images/nuclear_science_p076_img1.png)
 

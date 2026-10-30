@@ -1,0 +1,221 @@
+{
+  "badge_slug": "search-and-rescue",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Vigorous rubbing damages frozen tissue cells and drives cold blood toward the core, which can trigger fatal cardiac arrhythmia.",
+          "misconception": "Rubbing snow or massaging frostbitten and hypothermic limbs restores circulation faster than passive insulation."
+        },
+        {
+          "fact": "Heatstroke victims often display altered mental status with hot, flushed skin that may be either dry or damp from earlier exertion.",
+          "misconception": "Heavy sweating is always present when a searcher progresses from heat exhaustion into full heatstroke."
+        },
+        {
+          "fact": "Stabilizing the object with a protective paper cup and covering both eyes prevents sympathetic eye movement until medical evacuation.",
+          "misconception": "Removing an impaled wood splinter from a searcher's eyeball in the field prevents further cornea damage."
+        },
+        {
+          "fact": "Thirst lags behind actual fluid deficit, so searchers must drink water and electrolytes on a regular schedule to maintain alertness.",
+          "misconception": "Waiting until thirst sets in before drinking water keeps a ground searcher properly hydrated on the trail."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a hypothermia victim's heart if you warm their cold extremities before their trunk?",
+        "Which physical indicator distinguishes life-threatening heatstroke from heat exhaustion during a hot afternoon grid search?",
+        "What measurement confirms whether a searcher's hydration intake is keeping pace with sweat loss over a four-hour tasking?",
+        "Why is it dangerous to pop a friction blister on a searcher's heel while hiking through muddy backcountry terrain?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Three blasts on a survival whistle carry over a mile with minimal energy expenditure, whereas shouting quickly exhausts the voice.",
+          "misconception": "Shouting for help carries farther across wind and rushing water than blowing a pea-less plastic whistle."
+        },
+        {
+          "fact": "Batteries die quickly in cold weather and canyon walls block cellular signals, making a written trip plan left behind essential.",
+          "misconception": "Cell phone signal bars guarantee that a hiker can transmit their exact coordinates without leaving a written trip plan."
+        },
+        {
+          "fact": "Sighting the target through the mirror's center hole aligns the retroreflected light spot accurately onto a distant aircraft or boat.",
+          "misconception": "Flashing a signal mirror requires aiming the reflected sunbeam directly using only a lucky guess at the aircraft."
+        },
+        {
+          "fact": "Shorter autumn daylight hours and rapid afternoon temperature drops require earlier turnaround times and extra insulating layers.",
+          "misconception": "Summer mountain trails require the same clothing and turnaround times as late autumn hikes along the exact same route."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a lost Scout position a three-fire or ground-to-air signal so a search helicopter pilot can spot it clearly?",
+        "Under what condition does thick green pine bough smoke work better than a bright signal fire for daytime aerial detection?",
+        "What specific cutoff time and route details on a written trip plan tell home contacts when to notify search authorities?",
+        "Why is it dangerous to wander away from your last known trail junction when fog or darkness obscures landmarks?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Magnetic north points to the wandering magnetic pole, requiring searchers to apply the map's declination angle for true bearings.",
+          "misconception": "Magnetic north on a baseplate compass always points directly toward the true geographic North Pole on a USGS map."
+        },
+        {
+          "fact": "Grid coordinates always follow the read-right-then-up rule, reporting the six-digit or four-digit easting before the northing.",
+          "misconception": "Reading a US National Grid coordinate starts by measuring up the vertical axis before reading across the horizontal axis."
+        },
+        {
+          "fact": "Closely packed or touching contour lines represent steep terrain or cliffs, whereas wide spacing indicates gentle, flat ground.",
+          "misconception": "Widely spaced brown contour lines on a topographic map indicate a steep cliff or vertical rock face."
+        },
+        {
+          "fact": "GPS units fail when batteries freeze or heavy tree canopy degrades satellite geometry, so paper maps and compasses remain mandatory.",
+          "misconception": "A handheld GPS receiver removes any need to carry a magnetic compass and printed paper map in the field."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your compass bearing over a two-mile hike if you forget to adjust for local magnetic declination?",
+        "Which map feature distinguishes US National Grid meter coordinates from traditional latitude and longitude degrees?",
+        "What measurement confirms the elevation gain and slope steepness between two waypoints on a USGS quadrangle map?",
+        "Why is it dangerous to rely solely on an older topographic map's printed roads and trails without checking the revision date?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The Operations Section Chief manages tactical field teams while the Incident Commander oversees overall strategy and safety.",
+          "misconception": "The Incident Commander personally directs every individual field team over the radio during a large multi-agency search."
+        },
+        {
+          "fact": "ICS limits a supervisor's span of control to between three and seven direct reports, with five being the optimal target ratio.",
+          "misconception": "Span of control in the Incident Command System allows one supervisor to manage twenty separate ground teams effectively."
+        },
+        {
+          "fact": "ICS mandates plain-language radio communication so responders from different jurisdictions understand every transmission clearly.",
+          "misconception": "Every county sheriff, fire department, and park service uses private secret codes on multi-agency search radio channels."
+        },
+        {
+          "fact": "Planning collects intelligence and writes the Incident Action Plan, while Logistics provides communications, gear, food, and medical aid.",
+          "misconception": "Logistics and Planning sections perform identical duties at the base camp during an extended wilderness search operation."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should an arriving volunteer search team check in first so the Incident Commander maintains accurate accountability?",
+        "Which ICS section is responsible for drafting the next operational period's search assignments versus ordering food and radios?",
+        "What span-of-control ratio determines when an ICS supervisor must divide a large group of searchers into smaller strike teams?",
+        "Why is it dangerous to self-dispatch into a search area without registering through the official Incident Command Post?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Tracking and trailing dogs need a scent article at the last known point, whereas air-scenting dogs detect any human scent in the wind.",
+          "misconception": "Air-scenting search dogs require an uncontaminated piece of the missing person's clothing before they can begin searching."
+        },
+        {
+          "fact": "Urban search and rescue teams specialize in structural shoring, concrete breaching, and extricating victims from collapsed buildings.",
+          "misconception": "Urban search and rescue teams focus primarily on tracking footprints through city parks and suburban neighborhoods."
+        },
+        {
+          "fact": "Fast hasty teams deploy first to check high-probability trails and hazards before slow grid teams sweep large open segments.",
+          "misconception": "Slow shoulder-to-shoulder grid lines are always deployed before fast two-person hasty teams at the start of a search."
+        },
+        {
+          "fact": "Swiftwater rescuers require rescue personal flotation devices, water helmets, thermal wetsuits, and quick-release harnesses.",
+          "misconception": "Standard climbing helmets and mountaineering boots are safe gear for entering a moving swiftwater flood rescue."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should an air-scenting K-9 handler work relative to the wind direction to maximize the dog's scent cone detection?",
+        "Which environmental hazards separate an urban collapsed-structure rescue from a high-altitude wilderness search mission?",
+        "What clue log details must a hasty team record when discovering a footprint or discarded wrapper along a trail corridor?",
+        "Why is it dangerous to send untrained ground searchers into a swiftwater river channel without personal flotation and throw bags?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Place Last Seen is where a witness actually saw the subject, while Last Known Point is the farthest verified physical clue found.",
+          "misconception": "Place Last Seen and Last Known Point refer to the exact same map location in every missing person investigation."
+        },
+        {
+          "fact": "Statistical lost person behavior profiles show toddlers wander short distances and hide in thick brush, while hunters travel much farther.",
+          "misconception": "Lost toddlers and lost adult hunters exhibit identical travel distances and shelter-seeking behaviors in the woods."
+        },
+        {
+          "fact": "Search focuses on locating the subject through clue detection and containment, while rescue stabilizes and extricates the patient.",
+          "misconception": "Search operations and rescue operations require the exact same tactical skills, medical equipment, and field pacing."
+        },
+        {
+          "fact": "Establishing early containment at roads, trails, and ridges prevents a moving subject from walking out of the active search zone.",
+          "misconception": "Leaving trail junctions and road crossings unmonitored during active sweeps has no effect on the search area size."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should operations establish containment blocks first after verifying a missing hiker's Last Known Point on a trail?",
+        "Which evidentiary standard separates a witness's Place Last Seen from a verified Last Known Point on the search map?",
+        "What statistical distance ring from lost person behavior tables guides where teams search for a missing toddler versus a hunter?",
+        "Why is it dangerous to step directly onto a fresh boot print at the Last Known Point before preserving and measuring the track?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A complete Incident Action Plan specifies search objectives, team assignments, radio frequencies, weather hazards, and medical evac plans.",
+          "misconception": "An Incident Action Plan is just a hand-drawn map showing where ground teams should walk during the afternoon."
+        },
+        {
+          "fact": "Terrain, vegetation density, weather, and searcher fatigue reduce detection probability, often requiring multiple sweeps of key sectors.",
+          "misconception": "Searching a segment once guarantees a one-hundred-percent probability of detection for any clue or unresponsive person."
+        },
+        {
+          "fact": "Every team must check out and complete a formal debriefing so planners verify total personnel accountability and record lessons learned.",
+          "misconception": "Teams can go straight home as soon as the missing subject is found without returning to the command post for debriefing."
+        },
+        {
+          "fact": "Hasty teams move rapidly along high-probability routes, decision points, and lookouts to find responsive subjects or fresh clues quickly.",
+          "misconception": "Hasty search teams should walk in a tight shoulder-to-shoulder grid across every square yard of dense forest."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to clue integrity during a practice exercise if searchers pick up every object without flagging and logging it?",
+        "Which elements of an Incident Action Plan define the medical evacuation plan for injured searchers versus subject care?",
+        "What GPS track log and probability of detection estimate must a team leader report during the post-mission debriefing?",
+        "Why is it dangerous to launch a field hasty team before conducting a gear inspection and radio check at the briefing?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Most wilderness SAR personnel are unpaid volunteers who train at their own expense, while paid roles usually combine law enforcement or EMS.",
+          "misconception": "Most wilderness search and rescue responders in the United States work as full-time paid employees doing only searches."
+        },
+        {
+          "fact": "Federal protection rangers typically need relevant college education, seasonal academy graduation, and Wilderness EMT certification.",
+          "misconception": "Becoming a National Park Service law enforcement and SAR ranger requires only a high school diploma and hiking experience."
+        },
+        {
+          "fact": "Emergency managers coordinate disaster preparedness budgets, multi-agency response plans, hazard mitigation grants, and public alerts.",
+          "misconception": "Emergency Management Directors spend all their work hours dangling from helicopters and rappelling down cliff faces."
+        },
+        {
+          "fact": "Professional rescue certifications require recurring continuing education hours, skills evaluations, and periodic recertification exams.",
+          "misconception": "Initial emergency medical technician and technical rope rescue certificates remain valid for life without further testing."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should an aspiring wilderness paramedic or park ranger gain volunteer field hours while completing college coursework?",
+        "Which daily responsibilities separate a municipal Emergency Management Director from a field-deployed rescue technician?",
+        "What physical fitness standards and medical certifications must a candidate document to qualify for a federal SAR position?",
+        "Why is it dangerous to enter a professional rescue career without maintaining continuous recertification in trauma and rigging?"
+      ],
+      "req_id": "8"
+    }
+  ]
+}

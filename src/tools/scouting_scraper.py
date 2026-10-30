@@ -178,6 +178,14 @@ class RequirementPoint(BaseModel):
         None,
         description="Misconception vs. Fact pair grounded in the pamphlet."
     )
+    misconception_pool: List[Dict[str, str]] = Field(
+        default_factory=list,
+        description="Pre-computed pool of domain-specific Misconception vs. Fact pairs for multi-slide requirements."
+    )
+    pamphlet_summary: Optional[str] = Field(
+        None,
+        description="Multi-sentence instructional summary from the BSA Merit Badge Pamphlet."
+    )
     socratic_questions: List[str] = Field(
         default_factory=list,
         description="Pre-computed Socratic check-for-understanding questions for this requirement."
@@ -5444,9 +5452,14 @@ def _unroll_multi_option_requirements(
                             "execution_mode": u_mode,
                             "req_text": f"{opt_title}: {joined_txt}",
                             "pamphlet_excerpts": u_excerpts,
+                            "step_by_step_procedure": list(sr.get("step_by_step_procedure") or r.get("step_by_step_procedure") or u_excerpts[:4]),
+                            "pamphlet_summary": str(sr.get("pamphlet_summary") or r.get("pamphlet_summary") or ""),
                             "sub_requirements": u_subs,
                             "socratic_questions": list(sr.get("socratic_questions") or r.get("socratic_questions") or []),
                             "common_misconception_pair": sr.get("common_misconception_pair") or r.get("common_misconception_pair"),
+                            "misconception_pool": list(sr.get("misconception_pool") or r.get("misconception_pool") or []),
+                            "pamphlet_page_citation": sr.get("pamphlet_page_citation") or r.get("pamphlet_page_citation"),
+                            "workbook_organizer": sr.get("workbook_organizer") or r.get("workbook_organizer"),
                         })
                 else:
                     unrolled.append({
@@ -5455,9 +5468,15 @@ def _unroll_multi_option_requirements(
                         "parent_id": str(r.get("req_number") or "2"),
                         "topic_title": f"{opt_title}: Rules, Equipment & Course Play",
                         "req_text": txt,
+                        "pamphlet_excerpts": list(sr.get("pamphlet_excerpts") or r.get("pamphlet_excerpts") or []),
+                        "step_by_step_procedure": list(sr.get("step_by_step_procedure") or r.get("step_by_step_procedure") or []),
+                        "pamphlet_summary": str(sr.get("pamphlet_summary") or r.get("pamphlet_summary") or ""),
                         "sub_requirements": list(children),
                         "socratic_questions": list(sr.get("socratic_questions") or r.get("socratic_questions") or []),
                         "common_misconception_pair": sr.get("common_misconception_pair") or r.get("common_misconception_pair"),
+                        "misconception_pool": list(sr.get("misconception_pool") or r.get("misconception_pool") or []),
+                        "pamphlet_page_citation": sr.get("pamphlet_page_citation") or r.get("pamphlet_page_citation"),
+                        "workbook_organizer": sr.get("workbook_organizer") or r.get("workbook_organizer"),
                     })
             continue
 
@@ -5524,6 +5543,11 @@ def _unroll_multi_option_requirements(
                         for ch_i in chunk
                         if ch_i.get("text")
                     ]
+                    chunk_steps = [
+                        f"{ch_i.get('topic_title') or 'Step ' + str(i_c + 1)}: {ch_i.get('pamphlet_summary') or ch_i.get('text', '')}".strip()
+                        for i_c, ch_i in enumerate(chunk)
+                        if ch_i.get("pamphlet_summary") or ch_i.get("text")
+                    ]
                     unrolled.append({
                         "req_id": u_id,
                         "req_number": u_id,
@@ -5531,9 +5555,14 @@ def _unroll_multi_option_requirements(
                         "topic_title": chunk_title,
                         "req_text": f"{opt_title}: {joined_txt}",
                         "pamphlet_excerpts": chunk_excerpts,
+                        "step_by_step_procedure": list(first_ch.get("step_by_step_procedure") or sr.get("step_by_step_procedure") or r.get("step_by_step_procedure") or chunk_steps),
+                        "pamphlet_summary": str(first_ch.get("pamphlet_summary") or sr.get("pamphlet_summary") or r.get("pamphlet_summary") or ""),
                         "sub_requirements": chunk,
                         "socratic_questions": list(first_ch.get("socratic_questions") or sr.get("socratic_questions") or r.get("socratic_questions") or []),
                         "common_misconception_pair": first_ch.get("common_misconception_pair") or sr.get("common_misconception_pair") or r.get("common_misconception_pair"),
+                        "misconception_pool": list(first_ch.get("misconception_pool") or sr.get("misconception_pool") or r.get("misconception_pool") or []),
+                        "pamphlet_page_citation": first_ch.get("pamphlet_page_citation") or sr.get("pamphlet_page_citation") or r.get("pamphlet_page_citation"),
+                        "workbook_organizer": first_ch.get("workbook_organizer") or sr.get("workbook_organizer") or r.get("workbook_organizer"),
                     })
             else:
                 full_req_text = txt
@@ -5541,16 +5570,26 @@ def _unroll_multi_option_requirements(
                     extra_detail = " ".join(expanded_excerpts)
                     if "Top of the key" in extra_detail and "Top of the key" not in full_req_text:
                         full_req_text = f"{txt} {extra_detail}".strip()
+                child_steps = [
+                    f"{ch_i.get('topic_title') or 'Step ' + str(i_c + 1)}: {ch_i.get('pamphlet_summary') or ch_i.get('text', '')}".strip()
+                    for i_c, ch_i in enumerate(children)
+                    if ch_i.get("pamphlet_summary") or ch_i.get("text")
+                ]
                 unrolled.append({
                     "req_id": base_sub_id,
                     "req_number": base_sub_id,
                     "parent_id": str(r.get("req_number") or "2"),
                     "topic_title": overview_title,
                     "req_text": full_req_text,
-                    "pamphlet_excerpts": expanded_excerpts[:12] if expanded_excerpts else [],
+                    "pamphlet_excerpts": expanded_excerpts[:12] if expanded_excerpts else list(sr.get("pamphlet_excerpts") or r.get("pamphlet_excerpts") or []),
+                    "step_by_step_procedure": list(sr.get("step_by_step_procedure") or r.get("step_by_step_procedure") or child_steps or expanded_excerpts[:4]),
+                    "pamphlet_summary": str(sr.get("pamphlet_summary") or r.get("pamphlet_summary") or ""),
                     "sub_requirements": list(children),
                     "socratic_questions": list(sr.get("socratic_questions") or r.get("socratic_questions") or []),
                     "common_misconception_pair": sr.get("common_misconception_pair") or r.get("common_misconception_pair"),
+                    "misconception_pool": list(sr.get("misconception_pool") or r.get("misconception_pool") or []),
+                    "pamphlet_page_citation": sr.get("pamphlet_page_citation") or r.get("pamphlet_page_citation"),
+                    "workbook_organizer": sr.get("workbook_organizer") or r.get("workbook_organizer"),
                 })
 
     return unrolled

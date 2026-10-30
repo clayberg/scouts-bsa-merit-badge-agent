@@ -1,8 +1,8 @@
 # Game Design Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Game%20Design.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/game-design/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/game-design/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -27,7 +27,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 6:** Do the following: Note: You must have your counselor's approval of your concept before you begin creating the prototype. (a) Prototype your game from requirement 5. If applicable, demonstrate to your counselor that you have addressed player safety through the rules and equipment. Record your work in your game design notebook. (b) Test your prototype with as many other people as you need to meet the player format. Compare the play experience to your descriptions from requirement 5(b). Correct unclear rules, holes in the rules, dead ends, and obvious rule exploits. Change at least one rule, mechanic, or objective from your first version of the game, and describe why you are making the change. Play the game again. Record in your game design notebook whether or not your change had the expected effect. (c) Repeat 6(b) at least two more times and record the results in your game design notebook.
+- [ ] **Station Req 6:** Scout must individually demonstrate mastery of Requirement 6 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -51,10 +51,10 @@
 - **Pamphlet Fact:** Abstract game mechanics function independently of theme, allowing identical rules under vastly different fictional settings.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Game Design merit badge pamphlet and workbook organizer for Req 1
-- [ ] Computer or workstation with approved development or analysis tools
-- [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook
-- [ ] Saved project files, screenshots, or code listing for Game Analysis and Play Value
+- [ ] Official Game Design merit badge pamphlet and workbook organizer for Req 1.
+- [ ] Computer or workstation with approved development or analysis tools.
+- [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.
+- [ ] Saved project files, screenshots, or code listing for Game Analysis and Play Value.
 
 ![Game Design Requirement 1 figure showing tabletop, electronic, card, and live outdoor games each provide unique mechanical.](/assets/pamphlet_images/game_design_p003_img1.png)
 
@@ -148,10 +148,10 @@
 - **Pamphlet Fact:** Classic games like Hearts or Kickball offer mature, highly balanced reference systems ideal for experimental manipulation.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Game Design merit badge pamphlet and workbook organizer for Req 4
-- [ ] Computer or workstation with approved development or analysis tools
-- [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook
-- [ ] Saved project files, screenshots, or code listing for Modifying Rules and Testing Gameplay
+- [ ] Official Game Design merit badge pamphlet and workbook organizer for Req 4.
+- [ ] Computer or workstation with approved development or analysis tools.
+- [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.
+- [ ] Saved project files, screenshots, or code listing for Modifying Rules and Testing Gameplay.
 
 ![Two players manipulate game pieces while playing a tabletop board game.](/assets/pamphlet_images/game_design_p017_img1.png)
 
@@ -309,10 +309,10 @@
 - **Pamphlet Fact:** Functional prototypes should use plain index cards and pencil so components can be modified immediately during play.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Game Design merit badge pamphlet and workbook organizer for Req 6
-- [ ] Computer or workstation with approved development or analysis tools
-- [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook
-- [ ] Saved project files, screenshots, or code listing for Building and Playtesting Your Prototype
+- [ ] Official Game Design merit badge pamphlet and workbook organizer for Req 6.
+- [ ] Computer or workstation with approved development or analysis tools.
+- [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.
+- [ ] Saved project files, screenshots, or code listing for Building and Playtesting Your Prototype.
 
 ![A handmade cardboard spinner wheel illustrates a rapid game prototype tool.](/assets/pamphlet_images/game_design_p069_img1.png)
 

@@ -1,8 +1,8 @@
 # Dentistry Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Dentistry.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/dentistry/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/dentistry/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -188,9 +188,9 @@
 - **Pamphlet Fact:** Routine examinations detect early stage caries and asymptomatic periodontal pocketing before painful symptoms manifest.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Dentistry Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Arrange for a visit)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Arrange for a visit
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Dentistry Merit Badge Pamphlet: Arrange for a visit.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Arrange for a visit.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A dental hygienist demonstrates correct brushing angles on an oversized teeth model to a group of attentive Scouts.](/assets/ai_illustrations/dentistry_req_3_nano_hero.png)
 

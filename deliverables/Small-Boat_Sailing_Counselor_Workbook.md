@@ -1,8 +1,8 @@
 # Small-Boat Sailing Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Small%20Boat%20Sailing.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/small-boat-sailing/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/small-boat-sailing/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -28,9 +28,9 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Describe the boat you will be using for the sailing requirement, naming all of the major parts and the function of those parts. Note: The skills may be demonstrated on any boat available to the Scout; sailboards are not acceptable. While no specific sail plan is recommended, it is suggested that the craft be smaller than 20 feet. The boat must be capsizable and have the capability of sailing to windward.
-- [ ] **Station Req 6:** Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following: (a) Prepare a boat for sailing, including a safety inspection. (b) Get underway from a dock, mooring, or beach. (c) Properly set sails for a round-trip course approved by your counselor that will include running, beating, and reaching, the basic points of sail. While sailing, demonstrate good helmsmanship skills. (d) Change direction by tacking; change direction by jibing. (e) Demonstrate getting out of irons. (f) Demonstrate the safety position. (g) Demonstrate capsize procedures and the rescue of a person overboard. Note: Capsize procedures should be conducted under the close supervision of the counselor. A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore. Self-bailing boats are acceptable for this requirement. Extreme care should be taken to avoid personal injury and damage to the boat or equipment. (h) Demonstrate the procedure to take after running aground. (i) Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths. (j) Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow sails, and prepare the craft for unattended docking or beaching overnight or longer.
-- [ ] **Station Req 7:** Demonstrate a working knowledge of marlinespike seamanship. Do the following: (a) Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot. Demonstrate the use of each. (b) Show how to heave a line, coil a line, and fake down a line. (c) Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture. Explain the advantages and disadvantages of each.
+- [ ] **Station Req 3:** Scout must individually describe mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 6:** Scout must individually show mastery of Requirement 6 to the Merit Badge Counselor.
+- [ ] **Station Req 7:** Scout must individually demonstrate mastery of Requirement 7 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -279,10 +279,10 @@
 - **Pamphlet Fact:** Unsecured drain plugs allow water ingress that eliminates reserve buoyancy within minutes.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Small-Boat Sailing Requirement 6 figure showing push the tiller smoothly toward the sail to bring the bow through wind.](/assets/pamphlet_images/small_boat_sailing_p006_img1.png)
 
@@ -426,10 +426,10 @@
 - **Pamphlet Fact:** Square knots spill into destructive slip hitches when tied between lines of unequal size.
 
 **Gear & Readiness Checklist:**
-- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
-- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle
-- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
-- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
+- [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled.
+- [ ] Waterfront rescue throw bag (50 ft floating polypropylene line), reach pole, and safety whistle.
+- [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist.
+- [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer.
 
 ![Panels explain tacking protocols, jibing turns, and standardized helmsman voice commands used during small boat maneuvers.](/assets/ai_illustrations/small_boat_sailing_req_7_topic_visual.png)
 

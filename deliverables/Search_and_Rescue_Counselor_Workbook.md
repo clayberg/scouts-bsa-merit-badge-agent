@@ -1,8 +1,8 @@
 # Search and Rescue Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Search%20and%20Rescue.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/search-and-rescue/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/search-and-rescue/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -27,12 +27,12 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Hazards and First Aid. Do the following: (a) Show or explain first aid for, and prevention of, injuries and conditions that searchers and subjects could develop during an SAR situation, including: (1) Dehydration (2) Heatstroke (3) Hypothermia (4) Shock (5) Blisters (6) Eye injuries (7) Ankle and knee sprains (8) Bug bites of chiggers, ticks, mosquitoes, and biting gnats (9) Bee stings (10) Bites of spiders (11) Sting of a scorpion (12) Bite of a wild mammal (13) Bite of a venomous snake (b) Explain how the Scout Basic Essentials address hazards outdoors and help lost Scouts stay safe before they are rescued. (c) Discuss how the safety gear carried by SAR team members in their field packs addresses SAR hazards.
-- [ ] **Station Req 2:** Staying and Getting Found. Do the following: (a) Explain how a trip plan and the buddy system help Scouts with staying found and getting found. (b) Explain how seasonal and daily weather changes affect Trip Plans. (c) Explain and show how a lost Scout could send signals that would alert a ground, airborne, or water SAR team to their location. (d) Demonstrate how to use a signaling mirror. (e) Explain how a Personal Locator Beacon (PLB) works and the role of the Air Force Rescue Coordination Center (AFRCC).
-- [ ] **Station Req 4:** Incident Command System (ICS). Do the following: (a) Explain how a local ICS is organized and how it compares with Scouting's patrol method. (b) Explain how local community agencies work to train for and manage search and rescue situations.
-- [ ] **Station Req 5:** SAR Teams. Do the following: (a) Explain the official duties of a search and rescue team. (b) Explain the differences between wilderness, urban, and water SARs. (c) Identify four types of search and rescue teams and explain situations where they are used.
-- [ ] **Station Req 6:** Search and Rescue Procedures. Do the following: (a) Explain the difference between search and rescue. (b) Explain the difference between PLS (place last seen) and LKP (last known point). (c) Explain the importance of effective communication in SAR operations. (d) Explain how predictions of "lost person behavior" determine SAR search plans for a young child, a teenager, and an adult. (e) Explain the following terms: (1) Evaluating search urgency (2) Establishing confinement (3) Scent item (4) Area air scent dog (5) Briefing and debriefing (6) Clue awareness (7) Evidence preservation (8) Tracking a subject (9) Locating a subject using attraction (10) Hasty search (11) Trail sweep search (12) Grid search
-- [ ] **Station Req 7:** Plan and Complete a Search. Do the following with a team of Scouts, friends, or family to execute a practice SAR exercise: (a) Choose a hypothetical SAR scenario, either one presented in the Search and Rescue merit badge pamphlet or one approved by your counselor. (b) Develop an Incident Action Plan (IAP) for a hasty search using the scenario information. (c) Before the search begins, conduct a PAUSE briefing to review hazards, safety concerns, personal and shared Scout Basic Essentials, and other gear. (d) Execute the search. (e) After the search, hold a team debriefing to discuss the search, problems, successful and unsuccessful tactics, and ideas for improvement.
+- [ ] **Station Req 1:** Scout must individually explain mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 2:** Scout must individually explain mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually explain mastery of Requirement 5 to the Merit Badge Counselor.
+- [ ] **Station Req 6:** Scout must individually explain mastery of Requirement 6 to the Merit Badge Counselor.
+- [ ] **Station Req 7:** Scout must individually demonstrate mastery of Requirement 7 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -503,10 +503,10 @@
 - **Pamphlet Fact:** Selecting a realistic missing hiker scenario provides practical terrain constraints and realistic behavioral parameters.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![An unattended woodland campsite provides a search origin point for investigators.](/assets/pamphlet_images/search_and_rescue_p019_img1.png)
 

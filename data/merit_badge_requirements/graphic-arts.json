@@ -70,9 +70,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe digital toner printers have replaced all traditional mechanical printing presses.",
-        "fact": "Offset lithography and gravure remain dominant for high-volume commercial runs exceeding thousands of impressions.",
-        "myth": "Beginners often believe digital toner printers have replaced all traditional mechanical printing presses.",
-        "fact_correction": "Offset lithography and gravure remain dominant for high-volume commercial runs exceeding thousands of impressions."
+        "fact": "Offset lithography and gravure remain dominant for high-volume commercial runs exceeding thousands of impressions."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -108,44 +106,44 @@
         "Step 4 - Technical Review: Present physical sample characteristics to the merit badge counselor during technical review."
       ],
       "gear_checklist": [
-        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 1",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Major Commercial Printing Processes"
+        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 1.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Major Commercial Printing Processes."
       ],
       "comparison_data": {
-        "left_header": "Raised Surface Relief Printing",
-        "right_header": "Recessed Cell Gravure Printing",
+        "left_header": "Req 1: Raised Ink Surfaces",
+        "right_header": "Req 1: Trace Letterpress Origins",
         "left_points": [
           "Raised Ink Surfaces: Relief printing uses a raised surface to press ink onto paper (p. 17).",
           "Letterpress and Flexography: The most common forms of relief printing are letterpress and flexography (p. 17).",
           "Movable Type Origins: Letter press is one of the oldest printing methods, with its origins in the movable type invented in China in the 11th century and in Germany (p. 17)."
         ],
         "right_points": [
-          "Step 1 - Trace Letterpress Origins: Letter press is one of the oldest printing methods, with its origins in the movable type invented in China in the 11th century and in Germany (p. 17).",
-          "Step 2 - Examine Metal Type: The significance of Johann Gutenberg's invention was that his movable metal type was reusable (p. 17).",
-          "Step 3 - Set Reusable Type: Individual letters could be set by hand for a printing job, printed, and then taken apart and used in another project (p. 17)."
+          "Trace Letterpress Origins: Letter press is one of the oldest printing methods, with its origins in the movable type invented in China in the 11th century and in Germany (p. 17).",
+          "Examine Metal Type: The significance of Johann Gutenberg's invention was that his movable metal type was reusable (p. 17).",
+          "Set Reusable Type: Individual letters could be set by hand for a printing job, printed, and then taken apart and used in another project (p. 17)."
         ],
         "rows": [
           {
-            "attribute": "Raised Ink Surfaces",
+            "attribute": "Offset Lithography",
             "left": "Raised Ink Surfaces: Relief printing uses a raised surface to press ink onto paper (p. 17).",
-            "right": "Step 1 - Trace Letterpress Origins: Letter press is one of the oldest printing methods, with its origins in the movable type invented in China in the 11th century and in Germany (p. 17)."
+            "right": "Trace Letterpress Origins: Letter press is one of the oldest printing methods, with its origins in the movable type invented in China in the 11th century and in Germany (p. 17)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Screen Printing",
             "left": "Letterpress and Flexography: The most common forms of relief printing are letterpress and flexography (p. 17).",
-            "right": "Step 2 - Examine Metal Type: The significance of Johann Gutenberg's invention was that his movable metal type was reusable (p. 17)."
+            "right": "Examine Metal Type: The significance of Johann Gutenberg's invention was that his movable metal type was reusable (p. 17)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Gravure Press",
             "left": "Movable Type Origins: Letter press is one of the oldest printing methods, with its origins in the movable type invented in China in the 11th century and in Germany (p. 17).",
-            "right": "Step 3 - Set Reusable Type: Individual letters could be set by hand for a printing job, printed, and then taken apart and used in another project (p. 17)."
+            "right": "Set Reusable Type: Individual letters could be set by hand for a printing job, printed, and then taken apart and used in another project (p. 17)."
           }
         ]
       },
       "worked_example": {
-        "title": "Graphic Arts Req 1 Exemplar Workbook Entry: Major Commercial Printing Processes",
+        "title": "Graphic Arts Req 1 Exemplar Workbook Entry: Major",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Raised Ink Surfaces": "Relief printing uses a raised surface to press ink onto paper (p. 17).",
@@ -188,7 +186,33 @@
       "socratic_questions": [
         "Why does offset printing require water fountains while digital laser printing uses dry toner?",
         "How does microscopic examination of ink edge serrations reveal a gravure printing process?",
-        "Which production variables make screen printing superior to lithography for fabric printing applications?"
+        "Which production variables make screen printing superior to lithography for fabric printing applications?",
+        "What physical principle keeps ink and fountain solution separate on a flat offset lithography printing plate?",
+        "Which microscopic ink-edge pattern under a loupe distinguishes a gravure sample from a relief-printed sample?",
+        "Under what run-length and variable-data conditions does digital printing cost less per sheet than offset?",
+        "What happens to the printed image orientation if an offset plate transfers ink directly to paper without a blanket?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Beginners often believe digital toner printers have replaced all traditional mechanical printing presses.",
+          "fact": "Offset lithography and gravure remain dominant for high-volume commercial runs exceeding thousands of impressions."
+        },
+        {
+          "misconception": "Offset lithography uses raised metal letters on the plate cylinder to press ink directly onto the moving paper web.",
+          "fact": "Offset lithography uses a flat planographic plate that transfers ink to a rubber blanket cylinder before pressing onto the paper."
+        },
+        {
+          "misconception": "Gravure printing holds ink on the raised surface areas of the cylinder while the recessed cells remain completely dry.",
+          "fact": "Gravure cylinders hold liquid ink inside etched recessed cells while a steel doctor blade wipes the raised surface clean."
+        },
+        {
+          "misconception": "Digital laser printers require a new aluminum or photopolymer printing plate whenever a single word changes on the page.",
+          "fact": "Digital presses image each sheet directly from computer data using laser drums or inkjet heads without physical printing plates."
+        },
+        {
+          "misconception": "Screen printing works only on flat cotton T-shirts and cannot deposit thick opaque ink onto glass, metal, or plastic.",
+          "fact": "Screen printing pushes heavy ink layers through mesh stencils onto curved glass bottles, circuit boards, metal signs, and textiles."
+        }
       ]
     },
     {
@@ -253,9 +277,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think computer monitors display printed halftones rather than continuous tone approximations.",
-        "fact": "Monitors display continuous tone pixel grids, whereas printing presses require halftone dot screens.",
-        "myth": "Scouts often think computer monitors display printed halftones rather than continuous tone approximations.",
-        "fact_correction": "Monitors display continuous tone pixel grids, whereas printing presses require halftone dot screens."
+        "fact": "Monitors display continuous tone pixel grids, whereas printing presses require halftone dot screens."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -291,44 +313,44 @@
         "Step 4 - File Archival: Store digital raster graphics as uncompressed tagged image files to prevent artifacts."
       ],
       "gear_checklist": [
-        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 2",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Halftone Artwork and Digital Imaging"
+        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 2.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Halftone Artwork and Digital Imaging."
       ],
       "comparison_data": {
-        "left_header": "Unbroken Shades in Continuous-Tone Photos",
-        "right_header": "Variable Dot Patterns in Halftones",
+        "left_header": "Req 2: Microscopic Halftone Dots",
+        "right_header": "Req 2: Inspect Shadow Dots",
         "left_points": [
           "Microscopic Halftone Dots: The half tone dots are so small, the human eye cannot see the individual dots unless they are magnified, but the eye does see an overall effect (p. 44).",
           "Optical Tone Illusion: The arrangement of the half tone dots creates this effect (p. 44).",
           "Shadow Dot Density: The half tone dots in the part of an image that is supposed to look light are small and fill very little of the halftone dot area (p. 44)."
         ],
         "right_points": [
-          "Step 1 - Inspect Shadow Dots: The half tone dots in the part of an image that is supposed to look light are small and fill very little of the halftone dot area (p. 44).",
-          "Step 2 - Inspect Highlight Dots: The half tone dots in the part of an image that is supposed to look light are small and fill very little of the halftone dot area (p. 44).",
-          "Step 3 - Select Continuous-Tone Photo: Generally, half tones are made from a continuous-tone image, such as a traditional photograph (p. 44)."
+          "Inspect Shadow Dots: The half tone dots in the part of an image that is supposed to look light are small and fill very little of the halftone dot area (p. 44).",
+          "Inspect Highlight Dots: The half tone dots in the part of an image that is supposed to look light are small and fill very little of the halftone dot area (p. 44).",
+          "Select Continuous-Tone Photo: Generally, half tones are made from a continuous-tone image, such as a traditional photograph (p. 44)."
         ],
         "rows": [
           {
-            "attribute": "Microscopic Halftone Dots",
+            "attribute": "Continuous Tone",
             "left": "Microscopic Halftone Dots: The half tone dots are so small, the human eye cannot see the individual dots unless they are magnified, but the eye does see an overall effect (p. 44).",
-            "right": "Step 1 - Inspect Shadow Dots: The half tone dots in the part of an image that is supposed to look light are small and fill very little of the halftone dot area (p. 44)."
+            "right": "Inspect Shadow Dots: The half tone dots in the part of an image that is supposed to look light are small and fill very little of the halftone dot area (p. 44)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Line Artwork",
             "left": "Optical Tone Illusion: The arrangement of the half tone dots creates this effect (p. 44).",
-            "right": "Step 2 - Inspect Highlight Dots: The half tone dots in the part of an image that is supposed to look light are small and fill very little of the halftone dot area (p. 44)."
+            "right": "Inspect Highlight Dots: The half tone dots in the part of an image that is supposed to look light are small and fill very little of the halftone dot area (p. 44)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Halftone Screening",
             "left": "Shadow Dot Density: The half tone dots in the part of an image that is supposed to look light are small and fill very little of the halftone dot area (p. 44).",
-            "right": "Step 3 - Select Continuous-Tone Photo: Generally, half tones are made from a continuous-tone image, such as a traditional photograph (p. 44)."
+            "right": "Select Continuous-Tone Photo: Generally, half tones are made from a continuous-tone image, such as a traditional photograph (p. 44)."
           }
         ]
       },
       "worked_example": {
-        "title": "Graphic Arts Req 2 Exemplar Workbook Entry: Halftone Artwork and Digital Imaging",
+        "title": "Graphic Arts Req 2 Exemplar Workbook Entry: Halftone",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
           "Microscopic Halftone Dots": "The half tone dots are so small, the human eye cannot see the individual dots unless they are magnified, but the eye does see an overall effect (p. 44).",
@@ -370,8 +392,34 @@
       "pamphlet_summary": "Graphic originals fall into continuous tone, solid line, or patterned halftone categories depending on tone graduation. Digital reproduction converts visual continuous tones into binary raster grids or scalable mathematical vectors.",
       "socratic_questions": [
         "Why can a standard printing press not reproduce continuous tone photographs without halftone screening?",
-        "How do mathematical vector graphics differ from raster pixel grids when enlarged significantly?",
-        "What happens to image clarity when low-resolution web files are sent to commercial plate-setters?"
+        "In what specific ways do mathematical vector graphics differ from raster pixel grids when enlarged significantly?",
+        "What happens to image clarity when low-resolution web files are sent to commercial plate-setters?",
+        "Why can a standard offset press not print a continuous-tone photograph without first converting it into a halftone screen?",
+        "What happens to the sharpness of a raster bitmap logo compared to a vector file when scaled up to poster size?",
+        "What measurement in lines per inch or dots per inch confirms that a scanned image has enough resolution for print?",
+        "Under what condition does saving line art as a heavily compressed JPEG introduce visible blocky artifacts around sharp edges?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts often think computer monitors display printed halftones rather than continuous tone approximations.",
+          "fact": "Monitors display continuous tone pixel grids, whereas printing presses require halftone dot screens."
+        },
+        {
+          "misconception": "Halftone printing creates gray shades by mixing black ink with white ink in different ratios inside the press fountain.",
+          "fact": "Halftone screens simulate shades of gray by printing tiny solid black dots of varying sizes spaced across white paper."
+        },
+        {
+          "misconception": "Enlarging a 72-PPI web graphic to twelve inches wide in page layout software automatically adds sharp print detail.",
+          "fact": "Scaling up a low-resolution raster image stretches existing pixels over a larger area, producing blurry or jagged edges in print."
+        },
+        {
+          "misconception": "Vector illustrations store images as a fixed grid of colored pixels that lose clarity whenever the art is resized.",
+          "fact": "Vector graphics store shapes as mathematical paths and curves that scale to any dimension without losing edge sharpness."
+        },
+        {
+          "misconception": "RGB color files sent directly to a four-color commercial press will match the bright neon colors seen on a monitor.",
+          "fact": "Commercial presses print with subtractive CMYK inks, which have a smaller color gamut than additive RGB computer monitors."
+        }
       ]
     },
     {
@@ -436,9 +484,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Beginners believe combining five decorative typefaces on one flyer makes designs more artistic.",
-        "fact": "Limiting designs to two complementary type families maximizes readability and maintains visual harmony.",
-        "myth": "Beginners believe combining five decorative typefaces on one flyer makes designs more artistic.",
-        "fact_correction": "Limiting designs to two complementary type families maximizes readability and maintains visual harmony."
+        "fact": "Limiting designs to two complementary type families maximizes readability and maintains visual harmony."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -474,44 +520,44 @@
         "Step 4 - Digital Assembly: Assemble finalized copy, illustrations, and margins on a precise digital page layout."
       ],
       "gear_checklist": [
-        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 3",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Typography Layout and Process Selection"
+        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 3.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Typography Layout and Process Selection."
       ],
       "comparison_data": {
-        "left_header": "Flat Sheet Offset Paper Printing",
-        "right_header": "Multi-Surface Screen Printing on Fabrics",
+        "left_header": "Req 3: Thick Brilliant Ink",
+        "right_header": "Req 3: Choose Specialty Inks",
         "left_points": [
           "Thick Brilliant Ink: Screen printing is used wherever a thick, brilliant film of ink is required (p. 29).",
           "Durable Outdoor Sign age: Outdoor signs, bumper stickers, and decals rely on screen printing for their rich color and durability (p. 29).",
           "Versatile Screen Inks: The versatility of today's screen printing owes a great deal to the variety of inks that can be printed through a screen (p. 29)."
         ],
         "right_points": [
-          "Step 1 - Choose Specialty Inks: The versatility of today's screen printing owes a great deal to the variety of inks that can be printed through a screen (p. 29).",
-          "Step 2 - Select Target Substrate: Screen printers can print successfully on paper, metal, wood, many kinds of plastics, glass, ceramics, cloth, and card stock, almost any material (p. 29).",
-          "Step 3 - Adapt to Surface Shape: The process make sprinting possible on substrates of different shapes and sizes (p. 29)."
+          "Choose Specialty Inks: The versatility of today's screen printing owes a great deal to the variety of inks that can be printed through a screen (p. 29).",
+          "Select Target Substrate: Screen printers can print successfully on paper, metal, wood, many kinds of plastics, glass, ceramics, cloth, and card stock, almost any material (p. 29).",
+          "Adapt to Surface Shape: The process make sprinting possible on substrates of different shapes and sizes (p. 29)."
         ],
         "rows": [
           {
-            "attribute": "Thick Brilliant Ink",
+            "attribute": "Visual Hierarchy",
             "left": "Thick Brilliant Ink: Screen printing is used wherever a thick, brilliant film of ink is required (p. 29).",
-            "right": "Step 1 - Choose Specialty Inks: The versatility of today's screen printing owes a great deal to the variety of inks that can be printed through a screen (p. 29)."
+            "right": "Choose Specialty Inks: The versatility of today's screen printing owes a great deal to the variety of inks that can be printed through a screen (p. 29)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Typeface Pairing",
             "left": "Durable Outdoor Sign age: Outdoor signs, bumper stickers, and decals rely on screen printing for their rich color and durability (p. 29).",
-            "right": "Step 2 - Select Target Substrate: Screen printers can print successfully on paper, metal, wood, many kinds of plastics, glass, ceramics, cloth, and card stock, almost any material (p. 29)."
+            "right": "Select Target Substrate: Screen printers can print successfully on paper, metal, wood, many kinds of plastics, glass, ceramics, cloth, and card stock, almost any material (p. 29)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Grid Alignment",
             "left": "Versatile Screen Inks: The versatility of today's screen printing owes a great deal to the variety of inks that can be printed through a screen (p. 29).",
-            "right": "Step 3 - Adapt to Surface Shape: The process make sprinting possible on substrates of different shapes and sizes (p. 29)."
+            "right": "Adapt to Surface Shape: The process make sprinting possible on substrates of different shapes and sizes (p. 29)."
           }
         ]
       },
       "worked_example": {
-        "title": "Graphic Arts Req 3 Exemplar Workbook Entry: Typography Layout and Process Selection",
+        "title": "Graphic Arts Req 3 Exemplar Workbook Entry: Typography",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Thick Brilliant Ink": "Screen printing is used wherever a thick, brilliant film of ink is required (p. 29).",
@@ -554,7 +600,33 @@
       "socratic_questions": [
         "Why does a serif typeface generally read faster than a sans-serif in dense text blocks?",
         "How does whitespace around an element alter its perceived importance on a promotional flyer?",
-        "What technical press limitations influence typeface choices when printing on absorbent cardboard?"
+        "What technical press limitations influence typeface choices when printing on absorbent cardboard?",
+        "What happens to reader eye flow and visual hierarchy when five decorative display fonts compete on a single flyer?",
+        "Where should background artwork extend relative to the trim line so no unprinted white slivers appear after cutting?",
+        "Which physical indicator on a proof reveals that body copy leading is set too tight for comfortable reading?",
+        "What measurement confirms that critical text sits safely inside the margin away from the guillotine cutter path?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Beginners believe combining five decorative typefaces on one flyer makes designs more artistic.",
+          "fact": "Limiting designs to two complementary type families maximizes readability and maintains visual harmony."
+        },
+        {
+          "misconception": "Combining four or five fancy script typefaces on one poster makes the event announcement easier to read from afar.",
+          "fact": "Limiting a layout to one or two contrasting typefaces establishes clear visual hierarchy and keeps body copy legible."
+        },
+        {
+          "misconception": "Stopping a full-color background box right on the exact page edge guarantees ink will reach the border after trimming.",
+          "fact": "Background graphics must extend at least one-eighth inch past the trim edge as bleed to prevent white paper gaps."
+        },
+        {
+          "misconception": "Filling every square inch of a flyer with text and clip art maximizes visual impact and reader comprehension.",
+          "fact": "Deliberate white space separates information groups, reduces visual clutter, and guides the reader toward key messages."
+        },
+        {
+          "misconception": "Sending a native layout document to a print shop without fonts or linked images ensures the text prints identically.",
+          "fact": "Print shops require packaged font files, high-resolution linked graphics, or a press-ready PDF with embedded fonts."
+        }
       ]
     },
     {
@@ -604,9 +676,7 @@
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)",
           "common_misconception_pair": {
             "misconception": "Operators think offset lithography plates stamp ink directly onto paper stock without intermediary rollers.",
-            "fact": "Offset lithography transfers ink from plate to a rubber blanket cylinder before paper contact.",
-            "myth": "Operators think offset lithography plates stamp ink directly onto paper stock without intermediary rollers.",
-            "fact_correction": "Offset lithography transfers ink from plate to a rubber blanket cylinder before paper contact."
+            "fact": "Offset lithography transfers ink from plate to a rubber blanket cylinder before paper contact."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -683,9 +753,7 @@
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)",
           "common_misconception_pair": {
             "misconception": "Beginners assume screen printing stencils can be made from thin unvarnished paper without bleeding.",
-            "fact": "Durable screen stencils require solvent-resistant emulsions or water-resistant blockouts to withstand squeegee friction.",
-            "myth": "Beginners assume screen printing stencils can be made from thin unvarnished paper without bleeding.",
-            "fact_correction": "Durable screen stencils require solvent-resistant emulsions or water-resistant blockouts to withstand squeegee friction."
+            "fact": "Durable screen stencils require solvent-resistant emulsions or water-resistant blockouts to withstand squeegee friction."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -760,9 +828,7 @@
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)",
           "common_misconception_pair": {
             "misconception": "Users believe digital presses produce identical colors without ever calibrating raster image processors.",
-            "fact": "Digital presses require spectrophotometer calibration and environmental humidity control to ensure uniform color reproduction.",
-            "myth": "Users believe digital presses produce identical colors without ever calibrating raster image processors.",
-            "fact_correction": "Digital presses require spectrophotometer calibration and environmental humidity control to ensure uniform color reproduction."
+            "fact": "Digital presses require spectrophotometer calibration and environmental humidity control to ensure uniform color reproduction."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -837,9 +903,7 @@
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)",
           "common_misconception_pair": {
             "misconception": "New printers assume relief printing plates require moisture dampening rollers like lithographic presses.",
-            "fact": "Relief printing functions entirely without water since non-image areas physically sit below the inking plane.",
-            "myth": "New printers assume relief printing plates require moisture dampening rollers like lithographic presses.",
-            "fact_correction": "Relief printing functions entirely without water since non-image areas physically sit below the inking plane."
+            "fact": "Relief printing functions entirely without water since non-image areas physically sit below the inking plane."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -938,9 +1002,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Novices expect mechanical presses to print perfect copies immediately without waste make-ready runs.",
-        "fact": "Every printing run requires calibration sheets to balance ink keys and paper feed alignment.",
-        "myth": "Novices expect mechanical presses to print perfect copies immediately without waste make-ready runs.",
-        "fact_correction": "Every printing run requires calibration sheets to balance ink keys and paper feed alignment."
+        "fact": "Every printing run requires calibration sheets to balance ink keys and paper feed alignment."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -981,14 +1043,14 @@
         "Step 4 - Production Run: Print fifty identical clean impressions while inspecting sheets for consistent ink density."
       ],
       "gear_checklist": [
-        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 4",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Press Setup and Print Production"
+        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 4.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Press Setup and Print Production."
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Offset Lithographic Plate Printing",
-        "right_header": "Req 4c: Electronic Digital Production Pres",
+        "left_header": "Req 4a: Offset Lithographic Plate",
+        "right_header": "Req 4c: Electronic Digital Production",
         "left_points": [
           "(4a) Offset Lithographic Plate Printing: Offset lithography relies on aluminum plates where oleophilic image zones accept ink while hydrophilic non-image zones attract water. Scouts prepare plates, mount blankets, balance ink and water fountain solutions, and print fifty registered sheets.",
           "(4b) Screen Printing Stencil Production: Screen printing forces thick ink through tensioned synthetic mesh masked by photographic emulsion or hand-cut stencils. Scouts squeegee ink across the screen frame onto paper or fabric to yield twenty clean copies."
@@ -999,30 +1061,30 @@
         ],
         "rows": [
           {
-            "attribute": "Offset Lithography Plate Run",
-            "left": "(4a) Offset Lithography Plate Run: The most common forms of relief printing are letterpress and flexography (p. 17).",
-            "right": "(4c) Electronic Digital Press Run: The significance of Johann Gutenberg's invention was that his movable metal type was reusable (p. 17)."
+            "attribute": "Plate Preparation",
+            "left": "(4a) Offset Lithographic Plate Printing: Offset lithography relies on aluminum plates where oleophilic image zones accept ink while hydrophilic non-image zones attract water. Scouts prepare plates, mount blankets, balance ink and water fountain solutions, and print fifty registered sheets.",
+            "right": "(4c) Electronic Digital Production Press: Digital presses generate electrostatic charges on imaging drums to attract dry or liquid toner directly onto sheets without physical plates. Scouts output fifty copies while managing raster image processing and color calibration."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(4b) Screen Printing Stencil Run: Letterpress is one of the oldest printing methods, with its origins in the movable type invented (p. 17).",
-            "right": "(4d) Relief and Letterpress Run: Relief printing uses a raised surface to press ink onto paper (p. 17)."
+            "attribute": "Image Registration",
+            "left": "(4b) Screen Printing Stencil Production: Screen printing forces thick ink through tensioned synthetic mesh masked by photographic emulsion or hand-cut stencils. Scouts squeegee ink across the screen frame onto paper or fabric to yield twenty clean copies.",
+            "right": "(4d) Relief Letterpress Printing Operations: Relief printing transfers thick oil-based ink from raised metal type, linoleum blocks, or photopolymer surfaces directly to paper under pressure. Scouts ink the raised relief surfaces and hand-crank fifty impression proofs."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Historic Relief Presswork: Letter press is one of the oldest printing methods, with its origins in the movable type invented in China in the 11th century and in Germany (p. 17).",
-            "right": "Step 3 - Run Fifty Copies: Individual letters could be set by hand for a printing job, printed, and then taken apart and used in another project (p. 17)."
+            "attribute": "Ink Viscosity",
+            "left": "Req 4a: Offset Lithographic Plate: Offset lithography relies on aluminum plates where oleophilic image zones accept ink while hydrophilic non-image zones attract water. Scouts prepare plates, mount blankets, balance ink and water fountain solutions, and print fifty registered sheets.",
+            "right": "Req 4b: Screen Printing Stencil: Screen printing forces thick ink through tensioned synthetic mesh masked by photographic emulsion or hand-cut stencils. Scouts squeegee ink across the screen frame onto paper or fabric to yield twenty clean copies."
           }
         ]
       },
       "worked_example": {
-        "title": "Graphic Arts Req 4 Exemplar Workbook Entry: Press Setup and Print Production",
+        "title": "Graphic Arts Req 4 Exemplar Workbook Entry: Press Setup",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Offset Lithographic Plate Printin": "Offset lithography relies on aluminum plates where oleophilic image zones accept ink while hydrophilic non-image zones attract water. Scouts prepare plates, mount blankets, balance ink and water fountain solutions, and print fifty registered sheets.",
-          "Req 4b - Screen Printing Stencil Productio": "Screen printing forces thick ink through tensioned synthetic mesh masked by photographic emulsion or hand-cut stencils. Scouts squeegee ink across the screen frame onto paper or fabric to yield twenty clean copies.",
-          "Req 4c - Electronic Digital Production Pre": "Digital presses generate electrostatic charges on imaging drums to attract dry or liquid toner directly onto sheets without physical plates. Scouts output fifty copies while managing raster image processing and color calibration.",
-          "Req 4d - Relief Letterpress Printing Opera": "Relief printing transfers thick oil-based ink from raised metal type, linoleum blocks, or photopolymer surfaces directly to paper under pressure. Scouts ink the raised relief surfaces and hand-crank fifty impression proofs."
+          "Req 4a - Offset Lithographic Plate": "Offset lithography relies on aluminum plates where oleophilic image zones accept ink while hydrophilic non-image zones attract water. Scouts prepare plates, mount blankets, balance ink and water fountain solutions, and print fifty registered sheets.",
+          "Req 4b - Screen Printing Stencil": "Screen printing forces thick ink through tensioned synthetic mesh masked by photographic emulsion or hand-cut stencils. Scouts squeegee ink across the screen frame onto paper or fabric to yield twenty clean copies.",
+          "Req 4c - Electronic Digital Production": "Digital presses generate electrostatic charges on imaging drums to attract dry or liquid toner directly onto sheets without physical plates. Scouts output fifty copies while managing raster image processing and color calibration.",
+          "Req 4d - Relief Letterpress Printing": "Relief printing transfers thick oil-based ink from raised metal type, linoleum blocks, or photopolymer surfaces directly to paper under pressure. Scouts ink the raised relief surfaces and hand-crank fifty impression proofs."
         },
         "sample_output": "Press Setup and Print Production: The most common forms of relief printing are letterpress and flexography (p. 17).",
         "counselor_tip": "For Graphic Arts Requirement 4 (Press Setup and Print Production), verify the Scout's own observations and specific pamphlet details (Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45))."
@@ -1059,7 +1121,33 @@
       "socratic_questions": [
         "What factors cause ink buildup or offsetting on the back of freshly printed sheets?",
         "How does paper grain direction affect feeding reliability through an automated press mechanism?",
-        "Why must press speed be adjusted when running heavier cardstock versus lightweight bond paper?"
+        "Why must press speed be adjusted when running heavier cardstock versus lightweight bond paper?",
+        "What happens to a photo-emulsion screen stencil if it is exposed to sunlight before the washout step is finished?",
+        "Why is it dangerous to reach toward a moving offset cylinder or belt to clear a jammed sheet while the press runs?",
+        "Which physical indicator on a test print shows that squeegee angle or flood pressure changed mid-stroke?",
+        "What measurement or registration mark check confirms that the image sits square on all 50 sheets during the press run?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Novices expect mechanical presses to print perfect copies immediately without waste make-ready runs.",
+          "fact": "Every printing run requires calibration sheets to balance ink keys and paper feed alignment."
+        },
+        {
+          "misconception": "Plastisol screen-printing ink air-dries permanently on cotton shirts within ten minutes of sitting on a drying rack.",
+          "fact": "Plastisol ink requires heat curing at roughly 320 degrees Fahrenheit so the PVC resin fuses into the fabric fibers."
+        },
+        {
+          "misconception": "Adding excess fountain solution to an offset press makes the printed ink look darker and dry faster on coated stock.",
+          "fact": "Excess water emulsifies the offset ink, causing washed-out gray solids, snowflaking, and slow drying on the delivery pile."
+        },
+        {
+          "misconception": "Leaving screen mesh edges unmasked around a small stencil saves tape without affecting the clean margins of the shirt.",
+          "fact": "Open mesh areas between the stencil and the frame must be taped off so stray ink does not squeeze onto the garment."
+        },
+        {
+          "misconception": "Washout solvents and press blanket cleaners are harmless household soaps that need neither gloves nor shop ventilation.",
+          "fact": "Pressroom solvents and stencil strippers release fumes and irritate skin, requiring nitrile gloves, goggles, and ventilation."
+        }
       ]
     },
     {
@@ -1105,9 +1193,7 @@
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
             "misconception": "Scouts assume drill bits for paper are solid steel spirals identical to woodworking drill bits.",
-            "fact": "Paper drills use hollow cylindrical bits that funnel circular waste upward into collection canisters.",
-            "myth": "Scouts assume drill bits for paper are solid steel spirals identical to woodworking drill bits.",
-            "fact_correction": "Paper drills use hollow cylindrical bits that funnel circular waste upward into collection canisters."
+            "fact": "Paper drills use hollow cylindrical bits that funnel circular waste upward into collection canisters."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1174,9 +1260,7 @@
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
             "misconception": "Readers often think saddle stitching involves sewing thread through leather saddles on antique books.",
-            "fact": "Saddle stitch binding drives wire staples through the center fold of folded sheet signatures.",
-            "myth": "Readers often think saddle stitching involves sewing thread through leather saddles on antique books.",
-            "fact_correction": "Saddle stitch binding drives wire staples through the center fold of folded sheet signatures."
+            "fact": "Saddle stitch binding drives wire staples through the center fold of folded sheet signatures."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1267,9 +1351,7 @@
       },
       "common_misconception_pair": {
         "misconception": "People assume that cutting paper stacks with scissors produces straight professional publication margins.",
-        "fact": "Industrial guillotine cutters rely on mechanical clamps and precision back gauges to achieve square cuts.",
-        "myth": "People assume that cutting paper stacks with scissors produces straight professional publication margins.",
-        "fact_correction": "Industrial guillotine cutters rely on mechanical clamps and precision back gauges to achieve square cuts."
+        "fact": "Industrial guillotine cutters rely on mechanical clamps and precision back gauges to achieve square cuts."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1293,7 +1375,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Guillotine Cutting: Clamping bars flatten paper lifts firmly before angled knives slice cleanly through.",
+        "Guillotine Cutting: Clamping bars flatten paper lifts firmly before angled knives slice cleanly.",
         "Hole Drilling: Hollow spinning bits clear paper cores smoothly without overheating during thick operations.",
         "Adhesive Padding: Liquid plastic compound binds jogged sheet edges securely to cardboard backing strips.",
         "Signature Assembly: Folded press sheets nest together chronologically before spine staples drive through folds."
@@ -1305,14 +1387,14 @@
         "Step 4 - Binding Identification: Examine five bound publication spine samples to identify distinctive mechanical fastening methods."
       ],
       "gear_checklist": [
-        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 5",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Postpress Finishing and Book Binding"
+        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 5.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Postpress Finishing and Book Binding."
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Paper Finishing Operations Managem",
-        "right_header": "Req 5b: Bookbinding Methods and Assemblies",
+        "left_header": "Req 5a: Paper Finishing Operations",
+        "right_header": "Req 5b: Bookbinding Methods",
         "left_points": [
           "(5a) Paper Finishing Operations Management: Finishing operations include guillotine cutting, edge trimming, drill pressing, and adhesive padding to transform raw sheets into usable pads or pamphlets. Precision adjustments prevent crooked edges and misaligned holes."
         ],
@@ -1321,28 +1403,28 @@
         ],
         "rows": [
           {
-            "attribute": "Finishing Operations and Trimming",
-            "left": "(5a) Finishing Operations and Trimming: Saddle stitching, or stapling through the fold of a multiple page publication, is another method of binding smaller pamphlets or booklets (p. 73).",
-            "right": "(5b) Booklet and Document Binding: Saddle stitching is used for smaller publications (p. 73)."
+            "attribute": "Guillotine Cutting",
+            "left": "(5a) Paper Finishing Operations Management: Finishing operations include guillotine cutting, edge trimming, drill pressing, and adhesive padding to transform raw sheets into usable pads or pamphlets. Precision adjustments prevent crooked edges and misaligned holes.",
+            "right": "(5b) Bookbinding Methods and Assemblies: Binding methods range from staple-based saddle stitching for thin catalogs to thermal glue perfect binding and hardbound case binding for volumes. Scouts examine spiral wire, plastic comb, and stitched spines."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Perfect Binding Durability: Perfect-bound books are less costly than case-bound books, but they will not withstand bending or other hard use (p. 73).",
-            "right": "Step 2 - Assemble Small Booklets: Saddle stitching is used for smaller publications (p. 73)."
+            "attribute": "Hole Drilling",
+            "left": "Req 5a: Paper Finishing Operations: Finishing operations include guillotine cutting, edge trimming, drill pressing, and adhesive padding to transform raw sheets into usable pads or pamphlets. Precision adjustments prevent crooked edges and misaligned holes.",
+            "right": "Req 5b: Bookbinding Methods: Binding methods range from staple-based saddle stitching for thin catalogs to thermal glue perfect binding and hardbound case binding for volumes. Scouts examine spiral wire, plastic comb, and stitched spines."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Saddle-Stitched Pamphlet Folds: Saddle stitching, or stapling through the fold of a multiple page publication, is another method of binding smaller pamphlets or booklets (p. 73).",
-            "right": "Step 3 - Collate Single Sheets: Other methods of binding generally are for single-sheet printed material, where each page is printed on a separate sheet (p. 73)."
+            "attribute": "Adhesive Padding",
+            "left": "Guillotine Cutting: Clamping bars flatten paper lifts firmly before angled knives slice cleanly.",
+            "right": "Hole Drilling: Hollow spinning bits clear paper cores smoothly without overheating during thick operations."
           }
         ]
       },
       "worked_example": {
-        "title": "Graphic Arts Req 5 Exemplar Workbook Entry: Postpress Finishing and Book Binding",
+        "title": "Graphic Arts Req 5 Exemplar Workbook Entry: Postpress",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Paper Finishing Operations Manage": "Finishing operations include guillotine cutting, edge trimming, drill pressing, and adhesive padding to transform raw sheets into usable pads or pamphlets. Precision adjustments prevent crooked edges and misaligned holes.",
-          "Req 5b - Bookbinding Methods and Assemblie": "Binding methods range from staple-based saddle stitching for thin catalogs to thermal glue perfect binding and hardbound case binding for volumes. Scouts examine spiral wire, plastic comb, and stitched spines."
+          "Req 5a - Paper Finishing Operations": "Finishing operations include guillotine cutting, edge trimming, drill pressing, and adhesive padding to transform raw sheets into usable pads or pamphlets. Precision adjustments prevent crooked edges and misaligned holes.",
+          "Req 5b - Bookbinding Methods": "Binding methods range from staple-based saddle stitching for thin catalogs to thermal glue perfect binding and hardbound case binding for volumes. Scouts examine spiral wire, plastic comb, and stitched spines."
         },
         "sample_output": "Postpress Finishing and Book Binding: Saddle stitching, or stapling through the fold of a multiple page publication, is another method of binding smaller pamphlets or booklets (p. 73).",
         "counselor_tip": "For Graphic Arts Requirement 5 (Postpress Finishing and Book Binding), verify the Scout's own observations and specific pamphlet details (Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 73, p. 75))."
@@ -1379,7 +1461,33 @@
       "socratic_questions": [
         "Why does a guillotine cutter require a clamping bar before the cutting blade descends?",
         "How does paper grain direction influence whether a folded booklet spine cracks or stays smooth?",
-        "What mechanical differences make case binding more durable than adhesive perfect binding for reference books?"
+        "What mechanical differences make case binding more durable than adhesive perfect binding for reference books?",
+        "Why is it dangerous to bypass the two-hand safety switches on a powered guillotine paper cutter during trimming?",
+        "What happens to the outer edges of a thick saddle-stitched booklet before a face trim removes page creep?",
+        "Under what page-count and usage condition is perfect binding or case binding chosen instead of saddle stitching?",
+        "Which physical indicator on the spine distinguishes a sewn hardcover case binding from a glued paperback perfect bind?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "People assume that cutting paper stacks with scissors produces straight professional publication margins.",
+          "fact": "Industrial guillotine cutters rely on mechanical clamps and precision back gauges to achieve square cuts."
+        },
+        {
+          "misconception": "Print shops punch binder holes into a 500-sheet stack of paper using a standard desktop three-hole squeeze punch.",
+          "fact": "Commercial binderies use hollow rotating steel bits on a paper drill press to bore clean holes through thick paper lifts."
+        },
+        {
+          "misconception": "Saddle stitching can bind a 400-page catalog cleanly without the center folded signatures pushing outward at the fore-edge.",
+          "fact": "Thick nested signatures cause inner pages to extend past outer pages, making perfect binding better for thick publications."
+        },
+        {
+          "misconception": "Perfect-bound paperback books open completely flat to 360 degrees just like spiral-bound notebooks on a music stand.",
+          "fact": "Perfect binding glues page edges into a flat spine that resists lying flat, whereas spiral coils let pages fold all the way back."
+        },
+        {
+          "misconception": "Padding compound must be brushed heavily across all four sides of a notepad stack so the sheets stay together.",
+          "fact": "Padding adhesive is painted onto only one clamped edge backed by chipboard so individual sheets tear off cleanly."
+        }
       ]
     },
     {
@@ -1431,9 +1539,7 @@
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)",
           "common_misconception_pair": {
             "misconception": "Visitors believe newsprint is fed into massive presses as precut individual rectangular sheets.",
-            "fact": "Newspaper presses run continuous paper webs from thousand-pound rolls unwinding at high speeds.",
-            "myth": "Visitors believe newsprint is fed into massive presses as precut individual rectangular sheets.",
-            "fact_correction": "Newspaper presses run continuous paper webs from thousand-pound rolls unwinding at high speeds."
+            "fact": "Newspaper presses run continuous paper webs from thousand-pound rolls unwinding at high speeds."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1511,9 +1617,7 @@
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)",
           "common_misconception_pair": {
             "misconception": "Clients assume commercial printers print files without performing automated prepress error trapping.",
-            "fact": "Prepress departments run automated flight checks to verify color separations, bleed margins, and resolution.",
-            "myth": "Clients assume commercial printers print files without performing automated prepress error trapping.",
-            "fact_correction": "Prepress departments run automated flight checks to verify color separations, bleed margins, and resolution."
+            "fact": "Prepress departments run automated flight checks to verify color separations, bleed margins, and resolution."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1590,9 +1694,7 @@
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)",
           "common_misconception_pair": {
             "misconception": "Students believe high school graphic arts classes teach only basic drawing and fine arts.",
-            "fact": "Graphic arts curricula emphasize industrial engineering, software workflow automation, digital imaging, and press mechanics.",
-            "myth": "Students believe high school graphic arts classes teach only basic drawing and fine arts.",
-            "fact_correction": "Graphic arts curricula emphasize industrial engineering, software workflow automation, digital imaging, and press mechanics."
+            "fact": "Graphic arts curricula emphasize industrial engineering, software workflow automation, digital imaging, and press mechanics."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1669,9 +1771,7 @@
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)",
           "common_misconception_pair": {
             "misconception": "Novices think print industry associations only represent small local stationery and photocopy shops.",
-            "fact": "Printing trade groups represent global manufacturing sectors covering packaging chemistry, robotics, and advanced automation.",
-            "myth": "Novices think print industry associations only represent small local stationery and photocopy shops.",
-            "fact_correction": "Printing trade groups represent global manufacturing sectors covering packaging chemistry, robotics, and advanced automation."
+            "fact": "Printing trade groups represent global manufacturing sectors covering packaging chemistry, robotics, and advanced automation."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1791,9 +1891,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts think a commercial print shop simply clicks print like an office desktop computer.",
-        "fact": "Commercial printing involves multi-stage workflows including prepress file trap verification, imposition, and chemical platemaking.",
-        "myth": "Scouts think a commercial print shop simply clicks print like an office desktop computer.",
-        "fact_correction": "Commercial printing involves multi-stage workflows including prepress file trap verification, imposition, and chemical platemaking."
+        "fact": "Commercial printing involves multi-stage workflows including prepress file trap verification, imposition, and chemical platemaking."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1834,14 +1932,14 @@
         "Step 4 - Experience Reporting: Present observed production highlights, equipment capabilities, and safety protocols to the counselor."
       ],
       "gear_checklist": [
-        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 6",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Printing Facility Visits and Workflows"
+        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 6.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Printing Facility Visits and Workflows."
       ],
       "comparison_data": {
         "left_header": "Req 6a: Newspaper Production Plant Tour",
-        "right_header": "Req 6c: Vocational Graphic Program Evaluat",
+        "right_header": "Req 6c: Vocational Graphic Program",
         "left_points": [
           "(6a) Newspaper Production Plant Tour: Newspaper facilities utilize high-speed web presses and automated platemakers to convert editorial reporting into thousands of daily folded publications. Scouts trace deadline stories from digital editorial desks to high-speed plate towers.",
           "(6b) Commercial Facility Workflow Analysis: Commercial and in-plant printing facilities process diverse customer print collateral using sheetfed offset, wide-format inkjet, and digital presses. Scouts follow job tickets through prepress trapping, proofing, presswork, and bindery."
@@ -1852,30 +1950,30 @@
         ],
         "rows": [
           {
-            "attribute": "Newspaper Printing Plant Tour",
-            "left": "(6a) Newspaper Printing Plant Tour: In some systems, you choose the quantity when the file is downloaded (p. 29).",
-            "right": "(6c) School Graphic Arts Program: When you download your layout to a digital duplicator, a master is made and a sample, or test print, is printed (p. 29)."
+            "attribute": "Preflight Verification",
+            "left": "(6a) Newspaper Production Plant Tour: Newspaper facilities utilize high-speed web presses and automated platemakers to convert editorial reporting into thousands of daily folded publications. Scouts trace deadline stories from digital editorial desks to high-speed plate towers.",
+            "right": "(6c) Vocational Graphic Program Evaluation: Graphic communications vocational programs teach print management, graphic design software, color science, and equipment maintenance. Scouts review course catalogs and prerequisites for degrees and industry certifications."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(6b) Commercial Printing Facility Tour: When the layout in electronic form is finished, you send it to the output device for printing (p. 29).",
-            "right": "(6d) Professional Graphic Arts Websites: If the sample is acceptable, you select the quantity on the duplicator'scontrol panel, and then the duplicator prints the correct number (p. 29)."
+            "attribute": "Web Press",
+            "left": "(6b) Commercial Facility Workflow Analysis: Commercial and in-plant printing facilities process diverse customer print collateral using sheetfed offset, wide-format inkjet, and digital presses. Scouts follow job tickets through prepress trapping, proofing, presswork, and bindery.",
+            "right": "(6d) Industry Professional Association Research: Graphic arts trade organizations and equipment manufacturers publish industry research, technical specifications, and safety guidelines online. Scouts study industry websites to explore manufacturing standards and sustainable print initiatives."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Sample Proof Approval: If the sample is acceptable, you select the quantity on the duplicator'scontrol panel, and then the duplicator prints the correct number (p. 29).",
-            "right": "Step 3 - Send Electronic Files: High-tech copiers can accept electronic files for output (p. 29)."
+            "attribute": "Quality Control",
+            "left": "Req 6a: Newspaper Production Plant: Newspaper facilities utilize high-speed web presses and automated platemakers to convert editorial reporting into thousands of daily folded publications. Scouts trace deadline stories from digital editorial desks to high-speed plate towers.",
+            "right": "Req 6b: Commercial Facility Workflow: Commercial and in-plant printing facilities process diverse customer print collateral using sheetfed offset, wide-format inkjet, and digital presses. Scouts follow job tickets through prepress trapping, proofing, presswork, and bindery."
           }
         ]
       },
       "worked_example": {
-        "title": "Graphic Arts Req 6 Exemplar Workbook Entry: Printing Facility Visits and Workflows",
+        "title": "Graphic Arts Req 6 Exemplar Workbook Entry: Printing",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Newspaper Production Plant Tour": "Newspaper facilities utilize high-speed web presses and automated platemakers to convert editorial reporting into thousands of daily folded publications. Scouts trace deadline stories from digital editorial desks to high-speed plate towers.",
-          "Req 6b - Commercial Facility Workflow Anal": "Commercial and in-plant printing facilities process diverse customer print collateral using sheetfed offset, wide-format inkjet, and digital presses. Scouts follow job tickets through prepress trapping, proofing, presswork, and bindery.",
-          "Req 6c - Vocational Graphic Program Evalua": "Graphic communications vocational programs teach print management, graphic design software, color science, and equipment maintenance. Scouts review course catalogs and prerequisites for degrees and industry certifications.",
-          "Req 6d - Industry Professional Association": "Graphic arts trade organizations and equipment manufacturers publish industry research, technical specifications, and safety guidelines online. Scouts study industry websites to explore manufacturing standards and sustainable print initiatives."
+          "Req 6a - Newspaper Production Plant": "Newspaper facilities utilize high-speed web presses and automated platemakers to convert editorial reporting into thousands of daily folded publications. Scouts trace deadline stories from digital editorial desks to high-speed plate towers.",
+          "Req 6b - Commercial Facility Workflow": "Commercial and in-plant printing facilities process diverse customer print collateral using sheetfed offset, wide-format inkjet, and digital presses. Scouts follow job tickets through prepress trapping, proofing, presswork, and bindery.",
+          "Req 6c - Vocational Graphic Program": "Graphic communications vocational programs teach print management, graphic design software, color science, and equipment maintenance. Scouts review course catalogs and prerequisites for degrees and industry certifications.",
+          "Req 6d - Industry Professional": "Graphic arts trade organizations and equipment manufacturers publish industry research, technical specifications, and safety guidelines online. Scouts study industry websites to explore manufacturing standards and sustainable print initiatives."
         },
         "sample_output": "Printing Facility Visits and Workflows: In some systems, you choose the quantity when the file is downloaded (p. 29).",
         "counselor_tip": "For Graphic Arts Requirement 6 (Printing Facility Visits and Workflows), verify the Scout's own observations and specific pamphlet details (Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45))."
@@ -1910,9 +2008,35 @@
       "workbook_visual_caption": "Graphic design software arranges typography and imagery into page spreads.",
       "pamphlet_summary": "Investigating professional printing operations provides firsthand observation of high-speed manufacturing, preflight software, and heavy finishing machinery. Scouts trace communication workflows from initial concept submission to final logistics delivery.",
       "socratic_questions": [
-        "How do high-speed web offset presses fold and trim newspapers automatically while running?",
+        "In what specific ways do high-speed web offset presses fold and trim newspapers automatically while running?",
         "What prepress checks prevent customer artwork from printing with blurry graphics or missing text?",
-        "How do modern environmental regulations govern chemical waste disposal in commercial pressrooms?"
+        "In what specific ways do modern environmental regulations govern chemical waste disposal in commercial pressrooms?",
+        "What happens to a print job deadline if the prepress department skips customer proofing before burning metal plates?",
+        "Where should visitors stand and what personal protective gear must they wear near high-speed web presses and folders?",
+        "Which physical indicator on a press sheet color bar tells the operator that cyan ink density has drifted off target?",
+        "What measurement on a job ticket tracks a project as it moves from estimation through prepress, press, and bindery?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts think a commercial print shop simply clicks print like an office desktop computer.",
+          "fact": "Commercial printing involves multi-stage workflows including prepress file trap verification, imposition, and chemical platemaking."
+        },
+        {
+          "misconception": "Daily newspapers feed individual cut sheets of paper one at a time through small tabletop printers for morning delivery.",
+          "fact": "Newspaper plants unwind continuous rolls of newsprint through high-speed web offset presses that print, fold, and trim inline."
+        },
+        {
+          "misconception": "Press operators judge color accuracy under whatever fluorescent shop bulbs happen to hang above the delivery tray.",
+          "fact": "Commercial plants inspect press sheets inside standardized 5000-Kelvin viewing booths and measure color bars with densitometers."
+        },
+        {
+          "misconception": "Verbal instructions passed between shifts are sufficient to run a complex multi-color job without a written job ticket.",
+          "fact": "Every commercial print job travels with a detailed job jacket or digital ticket specifying stock, ink, quantity, and finishing."
+        },
+        {
+          "misconception": "Aluminum offset plates and paper trimmings from a newspaper press run must be thrown into general landfill dumpsters.",
+          "fact": "Printing plants bale paper waste and recycle used aluminum plates to recover material costs and reduce environmental waste."
+        }
       ]
     },
     {
@@ -1979,9 +2103,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Scouts believe everyone working in graphic arts must be an illustrator with fine art degrees.",
-        "fact": "Modern graphic communications requires software engineers, mechanical operators, color scientists, and production project managers.",
-        "myth": "Scouts believe everyone working in graphic arts must be an illustrator with fine art degrees.",
-        "fact_correction": "Modern graphic communications requires software engineers, mechanical operators, color scientists, and production project managers."
+        "fact": "Modern graphic communications requires software engineers, mechanical operators, color scientists, and production project managers."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2017,44 +2139,44 @@
         "Step 4 - Counselor Discussion: Discuss career findings, daily job responsibilities, and future industry technological changes with the counselor."
       ],
       "gear_checklist": [
-        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 7",
-        "Selected studio media, brushes, modeling tools, or drawing instruments",
-        "Protective studio apron, water basin or palette, and clean lint-free cloths",
-        "Labeled portfolio work or finished studio piece for Graphic Arts Careers and Training"
+        "Official Graphic Arts merit badge pamphlet and studio sketch book for Req 7.",
+        "Selected studio media, brushes, modeling tools, or drawing instruments.",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths.",
+        "Labeled portfolio work or finished studio piece for Graphic Arts Careers and Training."
       ],
       "comparison_data": {
-        "left_header": "Automated Assembly Line Bindery Workers",
-        "right_header": "Artisan Hand Restoration Book Binders",
+        "left_header": "Req 7: Bindery Supervisor Duties",
+        "right_header": "Req 7: Specialize Finishing Tasks",
         "left_points": [
           "Bindery Supervisor Duties: A bindery supervisor coordinates operations in the bindery, schedules jobs, and supervises and trains workers (p. 81).",
           "Automated Bindery Machinery: A bindery worker may prepare and tend one or more automated machines that do cutting, scoring, folding, stitching, taping, and gluing (p. 81).",
           "Assembly Line Finishing: In large binderies, the work is done on an assembly line, with workers performing one or two types of tasks (p. 81)."
         ],
         "right_points": [
-          "Step 1 - Specialize Finishing Tasks: In large binderies, the work is done on an assembly line, with workers performing one or two types of tasks (p. 81).",
-          "Step 2 - Operate Perfect-Binder Line: A perfect-binder setter sets up and controls a binding machine that gathers magazine or book signatures, glues them, and adds the cover to magazines (p. 81).",
-          "Step 3 - Craft Custom Bindings: A book binder hand binds books, usually working on special editions and custom binding, and repairs old and rare books (p. 81)."
+          "Specialize Finishing Tasks: In large binderies, the work is done on an assembly line, with workers performing one or two types of tasks (p. 81).",
+          "Operate Perfect-Binder Line: A perfect-binder setter sets up and controls a binding machine that gathers magazine or book signatures, glues them, and adds the cover to magazines (p. 81).",
+          "Craft Custom Bindings: A book binder hand binds books, usually working on special editions and custom binding, and repairs old and rare books (p. 81)."
         ],
         "rows": [
           {
-            "attribute": "Bindery Supervisor Duties",
+            "attribute": "Prepress Technicians",
             "left": "Bindery Supervisor Duties: A bindery supervisor coordinates operations in the bindery, schedules jobs, and supervises and trains workers (p. 81).",
-            "right": "Step 1 - Specialize Finishing Tasks: In large binderies, the work is done on an assembly line, with workers performing one or two types of tasks (p. 81)."
+            "right": "Specialize Finishing Tasks: In large binderies, the work is done on an assembly line, with workers performing one or two types of tasks (p. 81)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Press Operators",
             "left": "Automated Bindery Machinery: A bindery worker may prepare and tend one or more automated machines that do cutting, scoring, folding, stitching, taping, and gluing (p. 81).",
-            "right": "Step 2 - Operate Perfect-Binder Line: A perfect-binder setter sets up and controls a binding machine that gathers magazine or book signatures, glues them, and adds the cover to magazines (p. 81)."
+            "right": "Operate Perfect-Binder Line: A perfect-binder setter sets up and controls a binding machine that gathers magazine or book signatures, glues them, and adds the cover to magazines (p. 81)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Packaging Designers",
             "left": "Assembly Line Finishing: In large binderies, the work is done on an assembly line, with workers performing one or two types of tasks (p. 81).",
-            "right": "Step 3 - Craft Custom Bindings: A book binder hand binds books, usually working on special editions and custom binding, and repairs old and rare books (p. 81)."
+            "right": "Craft Custom Bindings: A book binder hand binds books, usually working on special editions and custom binding, and repairs old and rare books (p. 81)."
           }
         ]
       },
       "worked_example": {
-        "title": "Graphic Arts Req 7 Exemplar Workbook Entry: Graphic Arts Careers and Training",
+        "title": "Graphic Arts Req 7 Exemplar Workbook Entry: Graphic Arts",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
           "Bindery Supervisor Duties": "A bindery supervisor coordinates operations in the bindery, schedules jobs, and supervises and trains workers (p. 81).",
@@ -2097,7 +2219,33 @@
       "socratic_questions": [
         "How does the role of a prepress technician differ from that of a graphic designer?",
         "What technical math and science skills are required to operate multi-million dollar commercial presses?",
-        "How has digital workflow automation changed the daily responsibilities of traditional press operators?"
+        "How has digital workflow automation changed the daily responsibilities of traditional press operators?",
+        "What happens to a designer's artwork on press when a prepress technician finds missing bleeds or low-resolution images?",
+        "Which portfolio artifacts demonstrate that a graphic arts applicant understands production constraints as well as design?",
+        "Under what condition must a packaging designer collaborate directly with a structural die-cutter and press operator?",
+        "What measurement and color-management skills distinguish a trained press operator from an entry-level bindery helper?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Scouts believe everyone working in graphic arts must be an illustrator with fine art degrees.",
+          "fact": "Modern graphic communications requires software engineers, mechanical operators, color scientists, and production project managers."
+        },
+        {
+          "misconception": "Graphic arts careers are limited strictly to freelance logo designers working alone on laptops at coffee shops.",
+          "fact": "The graphic communications industry includes prepress specialists, color scientists, packaging engineers, estimators, and press operators."
+        },
+        {
+          "misconception": "Graphic designers only need artistic talent and never need to understand paper grain, ink trapping, or bindery limits.",
+          "fact": "Designers who understand press registration, bleed, folding, and paper weight avoid costly production errors and reprints."
+        },
+        {
+          "misconception": "Automation and computer-to-plate systems have eliminated the need for skilled human technicians in modern printing plants.",
+          "fact": "Automated presses require trained technicians who can calibrate spectrophotometers, troubleshoot workflows, and maintain machinery."
+        },
+        {
+          "misconception": "A four-year fine art painting degree is the only educational path accepted for technical roles in commercial printing.",
+          "fact": "Many graphic arts professionals enter through trade schools, community college certificates, union apprenticeships, or print programs."
+        }
       ]
     }
   ],

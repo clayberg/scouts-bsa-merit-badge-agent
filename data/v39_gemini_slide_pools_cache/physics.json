@@ -1,0 +1,248 @@
+{
+  "badge_slug": "physics",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Everyday glasses lack side shields and impact-rated lenses; wear ANSI Z87.1 safety goggles over prescription eyewear.",
+          "misconception": "Prescription eyeglasses provide enough side protection when testing stretched springs or pendulums."
+        },
+        {
+          "fact": "Shorting a fresh alkaline battery across thin wire drives high current that heats the metal to burning temperatures within seconds.",
+          "misconception": "Low-voltage dry cell batteries cannot heat thin nichrome or copper wires enough to burn skin."
+        },
+        {
+          "fact": "Focused laser beams concentrate light onto the retina and can cause permanent blind spots faster than the blink reflex.",
+          "misconception": "Green and red laser pointers sold as presentation tools are safe for brief direct eye exposure."
+        },
+        {
+          "fact": "Strong rare-earth magnets snap together violently, pinching skin and shattering brittle coatings into sharp airborne splinters.",
+          "misconception": "Neodymium magnets can be pulled apart safely by hand without wearing eye or finger protection."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to look directly into a low-power laser beam or its reflection off a mirror?",
+        "Which rating on your safety glasses confirms they block impact from flying springs or projectiles?",
+        "Where should a Scout position a catch box when launching steel bearings off a tabletop ramp?",
+        "What happens to a multimeter fuse if you connect the leads in parallel while set to measure current?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Subatomic particles follow quantum mechanics, where energy levels are quantized and position is described by probability waves.",
+          "misconception": "Classical mechanics accurately predicts the behavior of electrons moving inside a single atom."
+        },
+        {
+          "fact": "Every biological cell obeys the laws of thermodynamics when converting chemical food energy into work and body heat.",
+          "misconception": "Thermodynamics only applies to steam engines and power plants rather than living organisms."
+        },
+        {
+          "fact": "Modern optics covers infrared, ultraviolet, and X-ray wavelengths interacting with fibers, lasers, and photonic crystals.",
+          "misconception": "Optics is limited to visible light passing through glass lenses and mirrors in telescopes."
+        },
+        {
+          "fact": "Moving electric charges always generate magnetic fields, and changing magnetic fields induce electric currents in conductors.",
+          "misconception": "Electricity and magnetism are two unrelated natural forces that only happen to occur near metals."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What physical threshold separates classical mechanics from relativistic or quantum mechanics?",
+        "Which branch of physics explains how heat transfers from a camp stove into a pot of cold water?",
+        "Under what condition does an astrophysicist rely on nuclear physics to model the core of a star?",
+        "What measurement confirms whether an experiment studies electromagnetism rather than acoustics?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Newton's first law states an object maintains constant velocity with zero net force unless friction slows it down.",
+          "misconception": "A constant net forward force is required to keep a hockey puck sliding at a steady velocity."
+        },
+        {
+          "fact": "Gravity accelerates all masses at the same rate in a vacuum; only air resistance causes feathers to fall slower in air.",
+          "misconception": "Heavier objects always fall faster through a vacuum than lighter objects dropped at the same time."
+        },
+        {
+          "fact": "Mechanical waves transfer energy and momentum through a medium while water particles mostly oscillate in local orbits.",
+          "misconception": "Ocean waves carry individual water molecules all the way from the deep sea onto the beach."
+        },
+        {
+          "fact": "Gravitational potential energy converts into kinetic energy during the fall and then into thermal and sound energy on impact.",
+          "misconception": "Potential energy disappears completely without turning into anything else when a ball hits grass."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the kinetic energy of a bicycle when you double its speed on a flat road?",
+        "Which physical indicator distinguishes a transverse water wave from a longitudinal sound wave?",
+        "Under what condition does an object have zero net force while still moving at high speed?",
+        "What measurement confirms that total mechanical energy is conserved as a pendulum swings?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Refuting a hypothesis with clean data is a valid scientific result that narrows down how the physical system works.",
+          "misconception": "An experiment fails if the final data contradicts the original hypothesis written in your notebook."
+        },
+        {
+          "fact": "For small release angles, a simple pendulum's period depends on string length and local gravity, not the bob's mass.",
+          "misconception": "Increasing the mass of a simple pendulum bob significantly shortens the time of each swing."
+        },
+        {
+          "fact": "Human reaction time adds random error to stopwatch clicks, so averaging multiple trials is needed for reliable data.",
+          "misconception": "A single stopwatch trial is enough to calculate an accurate acceleration value on an inclined ramp."
+        },
+        {
+          "fact": "Omitting SI units like meters, seconds, or newtons causes unit conversion mistakes that invalidate calculated results.",
+          "misconception": "Recording raw numbers without units in your data table saves time and never affects conclusions."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it important to change only one independent variable at a time across your three trials?",
+        "What happens to your timing uncertainty if you time ten pendulum swings instead of just one?",
+        "Where should a Scout position their eyes when reading a metric ruler or graduated cylinder?",
+        "Which logged observation proves whether air resistance skewed your free-fall drop measurements?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Earth's gravity at orbital altitude is still about ninety percent of surface strength; astronauts float due to free fall.",
+          "misconception": "Astronauts float inside the International Space Station because Earth's gravity is zero in orbit."
+        },
+        {
+          "fact": "Rockets accelerate in a vacuum by expelling high-speed exhaust gas backward, obeying Newton's third law of motion.",
+          "misconception": "Rocket engines need atmospheric air to push against in order to generate forward thrust in space."
+        },
+        {
+          "fact": "Restraints cannot change the required impulse, but they extend the stopping time to lower the peak force on the body.",
+          "misconception": "Automobile seatbelts and airbags reduce the total momentum change needed to stop a passenger."
+        },
+        {
+          "fact": "Evaporating refrigerant absorbs thermal energy from inside the fridge and releases that heat into the kitchen room air.",
+          "misconception": "Refrigerators cool food by pumping cold air molecules out of the metal coils into the cabinet."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the stopping distance of a car on wet pavement when its initial speed doubles?",
+        "Under what condition does an orbiting communications satellite stay fixed above one spot on Earth?",
+        "Which physical principle allows a microwave oven to heat soup without heating the dry ceramic bowl?",
+        "Why is it necessary for GPS satellites to adjust their onboard atomic clocks for relativity?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Far outside the event horizon, a black hole exerts the exact same gravitational pull as a normal star of equal mass.",
+          "misconception": "Black holes act like cosmic vacuum cleaners that suck in distant stars from across the galaxy."
+        },
+        {
+          "fact": "Non-baryonic dark matter neither absorbs nor emits electromagnetic light and is detected only by its gravitational pull.",
+          "misconception": "Dark matter is simply thick clouds of ordinary dark dust and cold gas blocking starlight."
+        },
+        {
+          "fact": "Dark matter pulls galaxies together via gravity, whereas dark energy drives the accelerated expansion of the universe.",
+          "misconception": "Dark matter and dark energy are two different names for the same mysterious cosmic substance."
+        },
+        {
+          "fact": "Quantum processors use superposition to speed up specific problems like factoring and molecular simulation, not routine tasks.",
+          "misconception": "Quantum computers solve every everyday spreadsheet task millions of times faster than laptops."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What measurement of outer spiral galaxy stars first convinced astronomers that dark matter exists?",
+        "What happens to light and time when matter crosses the event horizon of a stellar black hole?",
+        "Under what condition does a superconductor carry electric current with zero energy loss as heat?",
+        "Which physical indicator distinguishes dark energy from the gravitational pull of dark matter?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Rigid shells transfer sudden deceleration directly to the egg; a deformable crumple zone extends impact time to cut force.",
+          "misconception": "Wrapping an egg tightly in rigid hard plastic protects it best during a high-drop impact test."
+        },
+        {
+          "fact": "Extra dead weight increases internal tension and compression stresses, leaving less capacity to support the external test load.",
+          "misconception": "Adding extra weight to a bridge deck always makes the structure stronger against bending loads."
+        },
+        {
+          "fact": "Insulation produces no heat; trapped air pockets and reflective foils only slow down conduction, convection, and radiation.",
+          "misconception": "Thermal insulation works by generating warmth of its own around a cold container of water."
+        },
+        {
+          "fact": "Altering multiple variables in one build makes it impossible to tell which change improved or hurt prototype performance.",
+          "misconception": "Changing three design features at once between prototype tests is the fastest way to optimize."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the peak impact force on an egg when your lander crumple zone compresses twice as far?",
+        "Where should a Scout position the center of mass on a gravity car or lander to prevent tipping?",
+        "Which structural shape distributes compression and tension forces best in a lightweight bridge?",
+        "Why is it important to get counselor approval on materials and safety constraints before building?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Physicists work across aerospace, medical imaging, semiconductor fabrication, renewable energy, and quantitative finance.",
+          "misconception": "Physics graduates can only find employment teaching university classes or working at particle labs."
+        },
+        {
+          "fact": "Clinical medical physicists calibrate linear accelerators and imaging scanners so radiation hits tumors while sparing tissue.",
+          "misconception": "Medical physicists treat patients by prescribing medications rather than calibrating radiation beams."
+        },
+        {
+          "fact": "Many acoustic, optical, and test engineering roles hire bachelor's graduates who have strong laboratory and coding skills.",
+          "misconception": "Every entry-level career that applies physics principles requires a doctoral degree before hiring."
+        },
+        {
+          "fact": "Club rocketeers measure thrust curves, apogee altitude, and drag coefficients using affordable altimeters and open-source tools.",
+          "misconception": "Amateur physics hobbies like high-power model rocketry require expensive university lab equipment."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which daily laboratory or field duties separate a medical physicist from an optical engineer?",
+        "What education and licensing steps are required before a physicist can calibrate hospital radiation?",
+        "Where can an amateur astronomy or rocketry hobbyist log quantitative physics measurements safely?",
+        "Under what condition must a Scout obtain parent permission before researching physics careers online?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The survey collects feedback on the Test Lab badge design, while your counselor still checks all logged physics data and math.",
+          "misconception": "Completing the Test Lab survey replaces the need to verify raw measurements and unit conversions with your counselor."
+        },
+        {
+          "fact": "Keeping anomalous data points in your logbook allows you to identify friction losses, air drag, or instrument zeroing errors.",
+          "misconception": "Unexpected physics trial measurements that disagree with textbook formulas should be erased before reviewing your lab results."
+        },
+        {
+          "fact": "Human reaction time, sensor resolution limits, and uncalibrated zero offsets still introduce uncertainty into digital measurements.",
+          "misconception": "A digital stopwatch or electronic scale eliminates measurement uncertainty during student physics laboratory experiments."
+        },
+        {
+          "fact": "Averaging repeated trials reduces random scatter, but a misaligned scale or ruler shifts every reading in the same direction.",
+          "misconception": "Repeating a physics experiment three times with identical faulty sensor alignment reduces systematic error in the average."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What experimental records should you review from your physics trials before submitting the Test Lab evaluation survey?",
+        "Which pattern in your recorded trial data distinguishes systematic calibration drift from random human timing error?",
+        "What specific unit labels and uncertainty notes belong in your physics logbook before you summarize your final lab results?",
+        "Why is it dangerous to leave tensioned springs or connected battery circuits assembled during your final lab review?"
+      ],
+      "req_id": "9"
+    }
+  ]
+}

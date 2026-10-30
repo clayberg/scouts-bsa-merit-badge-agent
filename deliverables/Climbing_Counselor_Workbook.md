@@ -1,8 +1,8 @@
 # Climbing Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Climbing.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/climbing/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/climbing/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -32,17 +32,17 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in climbing and rappelling activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Show that you know first aid for and how to prevent injuries or illnesses that could occur during climbing activities, including heat and cold reactions, dehydration, stopped breathing, sprains, abrasions, fractures, rope burns, blisters, snakebite, concussions, and insect bites or stings. (c) Identify the conditions that must exist before performing CPR on a person.
-- [ ] **Station Req 3:** Present yourself properly dressed for belaying, climbing, and rappelling. Explain why you are wearing each piece of gear and discuss qualities of easy movement, entanglement-free, and good weather protection and comfort.
-- [ ] **Station Req 4:** Location. Do the following: (a) Explain how the difficulty of climbs is classified, and apply classifications to the rock faces or walls where you will demonstrate your climbing skills. (b) Explain the following: top-rope climbing, lead climbing, and bouldering. (c) Evaluate the safety of a particular climbing area. Consider weather, visibility, the condition of the climbing surface, and any other environmental hazards. (d) Determine how to summon aid to the climbing area in case of an emergency. Discuss what medical training is needed for your group when climbing and rappelling in remote areas.
-- [ ] **Station Req 5:** Verbal signals. Explain the importance of using verbal signals during every climb and rappel, and while bouldering. With the help of the counselor or another Scout, demonstrate the verbal signals used by each of the following: (a) Climbers (b) Rappellers (c) Belayers (d) Boulderers and their spotters
-- [ ] **Station Req 6:** Rope. Do the following: (a) Describe the kinds of rope acceptable for use in climbing and rappelling. (b) Show how to examine a rope for signs of wear or damage. (c) Discuss ways to prevent a rope from being damaged. (d) Explain when and how a rope should be retired. (e) Properly coil a rope.
-- [ ] **Station Req 7:** Knots. Demonstrate the ability to tie each of the following knots. Give at least one example of how each knot is used in belaying, climbing, or rappelling. (a) Figure eight on a bight (b) Figure eight follow-through (c) Water knot (d) Double fisherman's knot (grapevine knot) (e) Prusik hitch applied to rope
-- [ ] **Station Req 8:** Harness, Helmet and Gloves. Explain the purpose of each of the following and demonstrate how to put them on correctly. (a) Commercially made climbing harness (b) Climbing helmet (c) Climbing or rappelling gloves
-- [ ] **Station Req 10:** Belaying. Do the following: (a) Explain the importance of belaying climbers and rappellers and when it is necessary. (b) Belay three different climbers on three different routes. (c) Serve as a backup belayer on three different climbs. (d) Belay three different rappellers on three different routes. (e) Serve as a backup belayer on three different rappels.
-- [ ] **Station Req 11:** Climbing. Do the following: (a) Show the correct way to directly tie a belay rope to your harness. (b) Climb at least three different routes on a rock face or climbing wall, demonstrating good technique and using verbal signals with a belayer.
-- [ ] **Station Req 12:** Rappelling. Do the following: (a) Show the correct way to directly tie a belay rope to your harness. (b) Using a carabiner and a rappel device, attach a rappel rope to your harness. (c) Rappel down three different rock faces or three rappel routes on a climbing wall. Use verbal signals to communicate with a belayer, and demonstrate good rappelling technique.
-- [ ] **Station Req 13:** Demonstrate ways to store rope, hardware, and other gear used for climbing, rappelling, and belaying.
+- [ ] **Station Req 1:** Scout must individually demonstrate mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Scout must individually explain mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually explain mastery of Requirement 5 to the Merit Badge Counselor.
+- [ ] **Station Req 6:** Scout must individually describe mastery of Requirement 6 to the Merit Badge Counselor.
+- [ ] **Station Req 7:** Scout must individually demonstrate mastery of Requirement 7 to the Merit Badge Counselor.
+- [ ] **Station Req 8:** Scout must individually explain mastery of Requirement 8 to the Merit Badge Counselor.
+- [ ] **Station Req 10:** Scout must individually explain mastery of Requirement 10 to the Merit Badge Counselor.
+- [ ] **Station Req 11:** Scout must individually show mastery of Requirement 11 to the Merit Badge Counselor.
+- [ ] **Station Req 12:** Scout must individually show mastery of Requirement 12 to the Merit Badge Counselor.
+- [ ] **Station Req 13:** Scout must individually demonstrate mastery of Requirement 13 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -387,10 +387,10 @@
 - **Pamphlet Fact:** The figure eight on a bight provides an anchor loop that resists slipping under heavy loads.
 
 **Gear & Readiness Checklist:**
-- [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners
-- [ ] Dynamic kernmantle climbing rope, tubular belay/rappel device, and heavy leather belay gloves
-- [ ] Tubular nylon webbing (1-inch) for anchor building and 5-7 mm accessory cord for friction hitches
-- [ ] Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist
+- [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners.
+- [ ] Dynamic kernmantle climbing rope, tubular belay/rappel device, and heavy leather belay gloves.
+- [ ] Tubular nylon webbing (1-inch) for anchor building and 5-7 mm accessory cord for friction hitches.
+- [ ] Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist.
 
 ![A securely tied figure eight knot provides a strong connection point in climbing rope.](/assets/pamphlet_images/climbing_p052_img1.png)
 
@@ -630,14 +630,14 @@
 #### Req 11a: Direct Harness Tie-In Method
 **Official Requirement 11a:** Show the correct way to directly tie a belay rope to your harness.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)* • **Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix (Directly Tie A Belay Rope)
-- **Common Myth:** Clipping the rope to harness loops with a locking carabiner replaces tying in.
+- **Common Myth:** Clipping the rope to harness loops with a locking carabiner replaces tying.
 - **Pamphlet Fact:** The rope must pass through both structural harness loops, never around the belay loop alone.
 
 **Gear & Readiness Checklist:**
-- [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners
-- [ ] Dynamic kernmantle climbing rope, tubular belay/rappel device, and heavy leather belay gloves
-- [ ] Tubular nylon webbing (1-inch) for anchor building and 5-7 mm accessory cord for friction hitches
-- [ ] Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist
+- [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners.
+- [ ] Dynamic kernmantle climbing rope, tubular belay/rappel device, and heavy leather belay gloves.
+- [ ] Tubular nylon webbing (1-inch) for anchor building and 5-7 mm accessory cord for friction hitches.
+- [ ] Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist.
 
 ![A rappeller controls rope descent down a steep vertical rock wall using proper technique.](/assets/pamphlet_images/climbing_p087_img1.png)
 
@@ -679,10 +679,10 @@
 - **Pamphlet Fact:** The belay backup rope must tie into structural harness points using a figure eight follow-through.
 
 **Gear & Readiness Checklist:**
-- [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners
-- [ ] Dynamic kernmantle climbing rope, tubular belay/rappel device, and heavy leather belay gloves
-- [ ] Tubular nylon webbing (1-inch) for anchor building and 5-7 mm accessory cord for friction hitches
-- [ ] Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist
+- [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners.
+- [ ] Dynamic kernmantle climbing rope, tubular belay/rappel device, and heavy leather belay gloves.
+- [ ] Tubular nylon webbing (1-inch) for anchor building and 5-7 mm accessory cord for friction hitches.
+- [ ] Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist.
 
 ![A young climber wearing safety gear rappels down a vertical natural rock wall face.](/assets/pamphlet_images/climbing_p085_img1.png)
 
@@ -725,10 +725,10 @@
 - **Pamphlet Fact:** Store climbing gear in cool, dark, dry locations completely separated from acids and exhaust fumes.
 
 **Gear & Readiness Checklist:**
-- [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners
-- [ ] Dynamic kernmantle climbing rope, tubular belay/rappel device, and heavy leather belay gloves
-- [ ] Tubular nylon webbing (1-inch) for anchor building and 5-7 mm accessory cord for friction hitches
-- [ ] Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist
+- [ ] UIAA/CE-certified climbing helmet, seated harness, and locking/non-locking carabiners.
+- [ ] Dynamic kernmantle climbing rope, tubular belay/rappel device, and heavy leather belay gloves.
+- [ ] Tubular nylon webbing (1-inch) for anchor building and 5-7 mm accessory cord for friction hitches.
+- [ ] Rope logbook, edge protection pad, and BSA Cope & Climbing inspection checklist.
 
 ![A climber wearing a helmet and harness rappels down a cliff face using safety ropes.](/assets/pamphlet_images/climbing_p041_img1.png)
 

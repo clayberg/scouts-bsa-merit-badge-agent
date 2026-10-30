@@ -209,10 +209,10 @@
 - **Pamphlet Fact:** Anchoring rescuer body weight prevents the victim from pulling the rescuer into deep water.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A rescuer hurls a weighted throw bag line directly toward a swimmer in the pool.](/assets/pamphlet_images/lifesaving_p041_img1.png)
 
@@ -236,10 +236,10 @@
 - **Pamphlet Fact:** Throwing a ring buoy beyond the subject allows the rescuer to pull the line across their chest.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A rescuer readies coiled throwing rope along the pool deck to assist a subject.](/assets/pamphlet_images/lifesaving_p043_img1.png)
 
@@ -321,10 +321,10 @@
 - **Pamphlet Fact:** Releasing the float allows independent victim recovery without exposing the rescuer to grasping hands.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A lifeguard swims toward a subject while towing a buoyant rescue tube.](/assets/pamphlet_images/lifesaving_p056_img2.png)
 
@@ -412,10 +412,10 @@
 - **Pamphlet Fact:** The armpit tow allows a resting swimmer to float comfortably while the rescuer kicks backwards.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A tired swimmer conserves stamina using an easy resting stroke toward shoreline.](/assets/pamphlet_images/lifesaving_p030_img1.png)
 
@@ -447,10 +447,10 @@
 - **Pamphlet Fact:** Tucking chin and submerging breaks the victim surface leverage by forcing them to release.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A silent drowning victim struggles to keep the mouth above murky open water levels.](/assets/pamphlet_images/lifesaving_p031_img1.png)
 
@@ -487,10 +487,10 @@
 - **Pamphlet Fact:** Sliding a buoyant rescue tube under an unconscious torso lifts the mouth instantly clear.
 
 **Gear & Readiness Checklist:**
-- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)
-- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears
-- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care
-- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad
+- [ ] Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape).
+- [ ] Non-latex nitrile exam gloves, CPR breathing barrier mask, and trauma shears.
+- [ ] SAM splint or improvised rigid splinting material, elastic wrap, and moleskin for blister care.
+- [ ] Emergency action plan card, simulated triage tags, and waterproof notepad.
 
 ![A rescuer uses a flexible buoyant tube to support a floating victim in water.](/assets/pamphlet_images/lifesaving_p067_img1.png)
 

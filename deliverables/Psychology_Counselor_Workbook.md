@@ -1,8 +1,8 @@
 # Psychology Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Test%20Lab/Test%20Lab%20to%20Scouts%20BSA%20Merit%20Badges%20FAQs.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/skills/merit-badges/test-lab/psychology/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/psychology/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -27,7 +27,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Do the following: (a) Write a script for a short (1-2 minute) skit that demonstrates how a leader might apply the study of psychology to better lead a group. Share your script with your counselor. (b) With the help of others, rehearse and perform your skit for your counselor (in-person or by recorded video). Explain to your counselor the plot and discuss the connections between psychology and leadership that are shown in your skit.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -92,9 +92,9 @@
 - **Pamphlet Fact:** Functional scripts model specific behavioral concepts like attribution error and positive emotional contagion.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Psychology Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Applying Psychological Principles in Leadership Skits)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Applying Psychological Principles in Leadership Skits
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Psychology Merit Badge Pamphlet: Applying Psychological Principles in Leadership Skits.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Applying Psychological Principles in Leadership Skits.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Psychology Requirement 2 figure showing understanding group developmental phases enhances communication during stressful.](/assets/pamphlet_images/psychology_p007_img1.png)
 
@@ -140,9 +140,9 @@
 - **Pamphlet Fact:** Mental health encompasses adaptive emotional coping, clear cognition, and productive social contribution.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Psychology Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Own Words Define Mental Health)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Own Words Define Mental Health
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Psychology Merit Badge Pamphlet: Own Words Define Mental Health.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Own Words Define Mental Health.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Healthy stress management, outdoor exercise, sleep hygiene, and daily reflection logging.](/assets/pamphlet_images/psychology_p008_img1.png)
 
@@ -185,9 +185,9 @@
 - **Pamphlet Fact:** Real-time daily logging prevents retrospective recall bias from distorting actual time expenditure records.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Psychology Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Two-Week Daily Time Log & Screen-Time Balance)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Two-Week Daily Time Log & Screen-Time Balance
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Psychology Merit Badge Pamphlet: Two-Week Daily Time Log & Screen-Time Balance.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Two-Week Daily Time Log & Screen-Time Balance.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Psychology Requirement 4 figure showing daily time audits reveal hidden time drains and unbalance in weekly schedules.](/assets/pamphlet_images/psychology_p004_img1.png)
 
@@ -238,9 +238,9 @@
 - **Pamphlet Fact:** Empathy requires validating emotions without offering unsolicited advice or judging the speaker's reaction.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Psychology Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Own Words Define Empathy)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Own Words Define Empathy
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Psychology Merit Badge Pamphlet: Own Words Define Empathy.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Own Words Define Empathy.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Psychology Requirement 5 figure showing cognitive empathy involves understanding another person's viewpoint without adopting.](/assets/pamphlet_images/psychology_p005_img1.png)
 

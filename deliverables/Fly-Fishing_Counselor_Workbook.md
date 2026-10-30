@@ -1,8 +1,8 @@
 # Fly-Fishing Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Fly-Fishing.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/fly-fishing/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fly-fishing/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -30,10 +30,10 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Demonstrate how to match a fly rod, line, and leader to achieve a balanced system. Discuss several types of fly lines, and explain how and when each would be used. Review with your counselor how to care for this equipment.
-- [ ] **Station Req 3:** Demonstrate how to tie proper knots to prepare a fly rod for fishing: (a) Tie backing to the arbor of a fly reel spool using an arbor knot. (b) Tie backing to the fly line using a nail (tube) knot. (c) Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection. (d) Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection. (e) Tie a fly onto the terminal end of the leader using an improved clinch knot.
-- [ ] **Station Req 4:** Explain how and when each of the following types of flies is used: dry flies, wet flies, nymphs, streamers, bass bugs, poppers, and saltwater flies. Tell what each one imitates. Tie at least two types of the flies mentioned in this requirement.
-- [ ] **Station Req 5:** Demonstrate the ability to cast a fly 30 feet consistently and accurately using both overhead and roll cast techniques.
+- [ ] **Station Req 2:** Scout must individually discuss mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 4:** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -136,10 +136,10 @@
 - **Pamphlet Fact:** Smooth metal spools require a sliding jam knot to prevent the entire spool bundle from spinning.
 
 **Gear & Readiness Checklist:**
-- [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks
-- [ ] Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection
-- [ ] Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide
-- [ ] U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit
+- [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks.
+- [ ] Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection.
+- [ ] Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide.
+- [ ] U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit.
 
 ![A complete equipment layout displays the rod, vest, net, fly boxes, and essential stream gear.](/assets/pamphlet_images/fly_fishing_p012_img1.png)
 
@@ -236,10 +236,10 @@
 - **Pamphlet Fact:** Snapping the wrist opens the casting loop wide, dispersing energy and causing tailing loop tangles.
 
 **Gear & Readiness Checklist:**
-- [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks
-- [ ] Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection
-- [ ] Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide
-- [ ] U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit
+- [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks.
+- [ ] Needle-nose pliers/hemostat for safe hook removal, line clippers, and polarized eye protection.
+- [ ] Arbor knot, clinch knot, and blood/surgeon's knot practice cord and state fishing regulations guide.
+- [ ] U.S. Coast Guard-approved Type III PFD (when wading or boating) and first-aid kit.
 
 ![An angler practices fly casting into a serene alpine lake surrounded by rocky mountain peaks.](/assets/pamphlet_images/fly_fishing_p030_img1.png)
 

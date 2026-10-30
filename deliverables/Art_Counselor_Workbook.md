@@ -1,8 +1,8 @@
 # Art Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Art.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/art/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/art/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -290,10 +290,10 @@
 - **Pamphlet Fact:** Effective product design incorporates real-world ergonomics, material constraints, and manufacturing practicality into every sketch.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Art merit badge pamphlet and studio sketch book for Req 5
-- [ ] Selected studio media, brushes, modeling tools, or drawing instruments
-- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths
-- [ ] Labeled portfolio work or finished studio piece for Practical Graphic and Industrial Design
+- [ ] Official Art merit badge pamphlet and studio sketch book for Req 5.
+- [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
+- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
+- [ ] Labeled portfolio work or finished studio piece for Practical Graphic and Industrial Design.
 
 ![A three-dimensional fish diorama demonstrates model building and scenic storytelling for visual design.](/assets/pamphlet_images/art_p054_img1.png)
 
@@ -353,10 +353,10 @@
 - **Pamphlet Fact:** Viewing original art in person reveals true scale, subtle pigment luminosity, and physical surface impasto.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Art merit badge pamphlet and studio sketch book for Req 6
-- [ ] Selected studio media, brushes, modeling tools, or drawing instruments
-- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths
-- [ ] Labeled portfolio work or finished studio piece for Experiencing Art in Person
+- [ ] Official Art merit badge pamphlet and studio sketch book for Req 6.
+- [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
+- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
+- [ ] Labeled portfolio work or finished studio piece for Experiencing Art in Person.
 
 ![A pen and ink sketch of a floral gift box shows initial concept sketching for product package design.](/assets/pamphlet_images/art_p056_img3.png)
 

@@ -66,9 +66,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Beginners often think moving the camera constantly makes a scene feel dynamic and professional.",
-        "fact": "Stable static shots provide clarity, while camera movement must serve a specific narrative purpose.",
-        "myth": "Beginners often think moving the camera constantly makes a scene feel dynamic and professional.",
-        "fact_correction": "Stable static shots provide clarity, while camera movement must serve a specific narrative purpose."
+        "fact": "Stable static shots provide clarity, while camera movement must serve a specific narrative purpose."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -104,43 +102,43 @@
         "Step 4 - Narrative Rhythm Review: Trim transition points to ensure pacing flows without disruptive visual jumps between takes."
       ],
       "gear_checklist": [
-        "Official Moviemaking Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Cinematic Elements to Remember)",
-        "Field notebook, verification log sheet, and demonstration materials for Cinematic Elements to Remember",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Moviemaking Merit Badge: Cinematic Elements to Remember.",
+        "Field notebook, verification log sheet, and demonstration materials for Cinematic Elements to Remember.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Wide-Angle Lens Spatial Depth",
-        "right_header": "Telephoto Lens Background Compression",
+        "left_header": "Req 1: Core Filmmaking Fundamentals",
+        "right_header": "Req 1: Establish First Subject Eyeline",
         "left_points": [
           "Core Filmmaking Fundamentals: Here are some points to consider as you begin shooting your first film (p. 36).",
           "Spatial Scene Orientation: Imagine entering an elevator where two people are already in conversation (p. 36).",
           "Consistent Left-to-Right Eyeline: The individual on your left, a man, is looking to your right (p. 36)."
         ],
         "right_points": [
-          "Step 1 - Establish First Subject Eyeline: The individual on your left, a man, is looking to your right (p. 36).",
-          "Step 2 - Match Opposing Subject Gaze: The other person, a woman, is looking to your left to respond (p. 36).",
-          "Step 3 - Frame Individual Close-Up Shots: If you were filming this conversation in close-upshots, only one person might be seen speaking at a time (p. 36)."
+          "Establish First Subject Eyeline: The individual on your left, a man, is looking to your right (p. 36).",
+          "Match Opposing Subject Gaze: The other person, a woman, is looking to your left to respond (p. 36).",
+          "Frame Individual Close-Up Shots: If you were filming this conversation in close-upshots, only one person might be seen speaking at a time (p. 36)."
         ],
         "rows": [
           {
-            "attribute": "Core Filmmaking Fundamentals",
+            "attribute": "Axis Line Preservation",
             "left": "Core Filmmaking Fundamentals: Here are some points to consider as you begin shooting your first film (p. 36).",
-            "right": "Step 1 - Establish First Subject Eyeline: The individual on your left, a man, is looking to your right (p. 36)."
+            "right": "Establish First Subject Eyeline: The individual on your left, a man, is looking to your right (p. 36)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Rule Of Thirds Framing",
             "left": "Spatial Scene Orientation: Imagine entering an elevator where two people are already in conversation (p. 36).",
-            "right": "Step 2 - Match Opposing Subject Gaze: The other person, a woman, is looking to your left to respond (p. 36)."
+            "right": "Match Opposing Subject Gaze: The other person, a woman, is looking to your left to respond (p. 36)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Focal Length Selection",
             "left": "Consistent Left-to-Right Eyeline: The individual on your left, a man, is looking to your right (p. 36).",
-            "right": "Step 3 - Frame Individual Close-Up Shots: If you were filming this conversation in close-upshots, only one person might be seen speaking at a time (p. 36)."
+            "right": "Frame Individual Close-Up Shots: If you were filming this conversation in close-upshots, only one person might be seen speaking at a time (p. 36)."
           }
         ]
       },
       "worked_example": {
-        "title": "Moviemaking Req 1 Exemplar Workbook Entry: Visual Storytelling and Camera Composition",
+        "title": "Moviemaking Req 1 Exemplar Workbook Entry: Visual",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
           "Core Filmmaking Fundamentals": "Here are some points to consider as you begin shooting your first film (p. 36).",
@@ -183,7 +181,33 @@
       "socratic_questions": [
         "How does crossing the imaginary line of action confuse an audience about character positions?",
         "Why would a director choose a slow montage instead of rapid cuts during an emotional discovery?",
-        "What visual cues distinguish an intentional camera tilt from an accidental operator wobble?"
+        "What visual cues distinguish an intentional camera tilt from an accidental operator wobble?",
+        "What happens to the audience's sense of screen direction when a camera crosses the 180-degree line of action mid-scene?",
+        "Which optical characteristic distinguishes a telephoto lens from a wide-angle lens regarding background compression?",
+        "What camera setup details should a Scout record in the shot log to preserve eye-line continuity for reverse-angle pickups?",
+        "Why is it dangerous to walk backward while operating a handheld camera without a dedicated spotter clearing the path?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Beginners often think moving the camera constantly makes a scene feel dynamic and professional.",
+          "fact": "Stable static shots provide clarity, while camera movement must serve a specific narrative purpose."
+        },
+        {
+          "misconception": "Zooming the lens from a fixed tripod position produces the same spatial perspective change as physically dollying the camera.",
+          "fact": "Optical zooming magnifies the image uniformly, whereas a dolly move changes camera-to-subject distance and shifts background parallax."
+        },
+        {
+          "misconception": "Placing the main subject dead-center in every frame creates the most balanced and engaging motion picture composition.",
+          "fact": "Aligning subjects along rule-of-thirds intersections and leaving lead room in the direction of gaze creates stronger visual flow."
+        },
+        {
+          "misconception": "The 180-degree axis rule prohibits the camera from ever moving to the opposite side of two actors during a scene.",
+          "fact": "A camera can cross the axis during a continuous visible dolly shot or after inserting a neutral head-on shot to reorient viewers."
+        },
+        {
+          "misconception": "Pacing and visual rhythm in a motion picture are controlled exclusively in the editing room after filming concludes.",
+          "fact": "On-set actor movement, camera pan speed, and internal shot duration establish fundamental rhythm before a single cut is made."
+        }
       ]
     },
     {
@@ -229,9 +253,7 @@
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
           "common_misconception_pair": {
             "misconception": "Writers sometimes believe a treatment should contain verbatim dialogue and detailed camera shot angles.",
-            "fact": "Treatments describe characters, physical actions, and narrative settings in straight prose without technical script directions.",
-            "myth": "Writers sometimes believe a treatment should contain verbatim dialogue and detailed camera shot angles.",
-            "fact_correction": "Treatments describe characters, physical actions, and narrative settings in straight prose without technical script directions."
+            "fact": "Treatments describe characters, physical actions, and narrative settings in straight prose without technical script directions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -304,9 +326,7 @@
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
           "common_misconception_pair": {
             "misconception": "Beginners think every single second of screen time requires a separate hand-drawn storyboard panel.",
-            "fact": "Storyboards depict major camera setups and significant blocking changes rather than every frame of continuous footage.",
-            "myth": "Beginners think every single second of screen time requires a separate hand-drawn storyboard panel.",
-            "fact_correction": "Storyboards depict major camera setups and significant blocking changes rather than every frame of continuous footage."
+            "fact": "Storyboards depict major camera setups and significant blocking changes rather than every frame of continuous footage."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -843,9 +863,7 @@
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
           "common_misconception_pair": {
             "misconception": "Novices assume panning should be performed rapidly to capture entire scenic vistas in one sweep.",
-            "fact": "Smooth camera pans must move slowly enough for viewer eyes to track details comfortably without blurring.",
-            "myth": "Novices assume panning should be performed rapidly to capture entire scenic vistas in one sweep.",
-            "fact_correction": "Smooth camera pans must move slowly enough for viewer eyes to track details comfortably without blurring."
+            "fact": "Smooth camera pans must move slowly enough for viewer eyes to track details comfortably without blurring."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1138,9 +1156,7 @@
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
           "common_misconception_pair": {
             "misconception": "Youth filmmakers often believe shooting abundant random footage ensures enough material for a good assembly.",
-            "fact": "Planning coverage according to a shot list produces coherent edits and prevents frustrating gaps in storytelling.",
-            "myth": "Youth filmmakers often believe shooting abundant random footage ensures enough material for a good assembly.",
-            "fact_correction": "Planning coverage according to a shot list produces coherent edits and prevents frustrating gaps in storytelling."
+            "fact": "Planning coverage according to a shot list produces coherent edits and prevents frustrating gaps in storytelling."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1283,9 +1299,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that storyboards require master artistic drawing skills to be useful.",
-        "fact": "Simple stick figures and directional arrows communicate framing and shot transitions clearly to crew members.",
-        "myth": "A common misunderstanding is that storyboards require master artistic drawing skills to be useful.",
-        "fact_correction": "Simple stick figures and directional arrows communicate framing and shot transitions clearly to crew members."
+        "fact": "Simple stick figures and directional arrows communicate framing and shot transitions clearly to crew members."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1317,17 +1331,17 @@
       "step_by_step_procedure": [
         "Step 1 - Story Treatment Drafting: Draft three paragraphs defining the protagonist problem, rising stakes, and narrative resolution.",
         "Step 2 - Storyboard Cell Sketching: Illustrate consecutive frame boxes showing character blocking, camera angles, and action descriptions.",
-        "Step 3 - Production Equipment Configuration: Level the tripod head and adjust three illumination fixtures around the interview subject.",
+        "Step 3 - Production Equipment: Level the tripod head and adjust three illumination fixtures around the interview subject.",
         "Step 4 - Footage Recording Execution: Capture planned coverage shots using clean pans, steady holds, and monitored lavalier microphones."
       ],
       "gear_checklist": [
-        "Official Moviemaking Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Three- or Four-paragraph Treatment)",
-        "Field notebook, verification log sheet, and demonstration materials for Three- or Four-paragraph Treatment",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Moviemaking Merit Badge: Three- or Four-paragraph Treatment.",
+        "Field notebook, verification log sheet, and demonstration materials for Three- or Four-paragraph Treatment.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 2a: Visual Story Treatment Writing",
-        "right_header": "Req 2c: Camera Technique Demonstration Mas",
+        "right_header": "Req 2c: Camera Technique Demonstration",
         "left_points": [
           "(2a) Visual Story Treatment Writing: A treatment presents the complete narrative arc in three or four descriptive paragraphs written in present tense. It emphasizes visible actions, sensory details, and character conflicts without including dialogue formatting.",
           "(2b) Motion Picture Storyboard Creation: Storyboards break down the narrative treatment into individual visual frames representing camera shots. Accompanying captions specify camera movements, focal lengths, sound effects, and character dialogue cues."
@@ -1338,30 +1352,30 @@
         ],
         "rows": [
           {
-            "attribute": "Visual Story Treatment Writing",
-            "left": "(2a) Visual Story Treatment Writing: The list goes on and on, the actors' clothing, the time ofday as determined by the position of the sun in outdoor shots, cloudy versus bright days (p. 28).",
-            "right": "(2c) Camera Support and Lighting Techniques: If, say, an alarm clock is present on abed room night stand in the first shot of a bedroom, it must be present and in the same position in each subsequent shot (p. 28)."
+            "attribute": "Written Story Treatment",
+            "left": "(2a) Visual Story Treatment Writing: A treatment presents the complete narrative arc in three or four descriptive paragraphs written in present tense. It emphasizes visible actions, sensory details, and character conflicts without including dialogue formatting.",
+            "right": "(2c) Camera Technique Demonstration Mastery: Demonstrating shooting techniques requires mastering tripod leveling, controlled panning speeds, deliberate shot composition, and three-point lighting balance. Operators must also demonstrate proper microphone positioning to capture clean production audio without wind distortion."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(2b) Motion Picture Storyboard Sketching: The same goes for inanimate objects shown in a scene (p. 28).",
-            "right": "(2d) Complete Short Film Production: Likewise, if it is absent in the first shot, it must not appear as if by magic in subsequent shots (p. 28)."
+            "attribute": "Storyboard Sequence Mapping",
+            "left": "(2b) Motion Picture Storyboard Creation: Storyboards break down the narrative treatment into individual visual frames representing camera shots. Accompanying captions specify camera movements, focal lengths, sound effects, and character dialogue cues.",
+            "right": "(2d) Troop Motion Picture Production: Producing a presentation for a pack or troop requires executing a treatment through filming and editing into a final video. Scouts demonstrate technical craftsmanship by screening the finished motion picture before a live audience."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Preventing Sudden Prop Errors: Likewise, if it is absent in the first shot, it must not appear as if by magic in subsequent shots (p. 28).",
-            "right": "Step 3 - Document Scene Details in Script: To record in writing the content of each scene and help prevent continuity errors, a professional production employs what is called a script (p. 28)."
+            "attribute": "Three Point Lighting Setup",
+            "left": "Req 2a: Visual Story Treatment: A treatment presents the complete narrative arc in three or four descriptive paragraphs written in present tense. It emphasizes visible actions, sensory details, and character conflicts without including dialogue formatting.",
+            "right": "Req 2b: Motion Picture Storyboard: Storyboards break down the narrative treatment into individual visual frames representing camera shots. Accompanying captions specify camera movements, focal lengths, sound effects, and character dialogue cues."
           }
         ]
       },
       "worked_example": {
-        "title": "Moviemaking Req 2 Exemplar Workbook Entry: Treatments, Storyboards, and Shooting Techniques",
+        "title": "Moviemaking Req 2 Exemplar Workbook Entry: Treatments",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a - Visual Story Treatment Writing": "A treatment presents the complete narrative arc in three or four descriptive paragraphs written in present tense. It emphasizes visible actions, sensory details, and character conflicts without including dialogue formatting.",
-          "Req 2b - Motion Picture Storyboard Creatio": "Storyboards break down the narrative treatment into individual visual frames representing camera shots. Accompanying captions specify camera movements, focal lengths, sound effects, and character dialogue cues.",
-          "Req 2c - Camera Technique Demonstration Ma": "Demonstrating shooting techniques requires mastering tripod leveling, controlled panning speeds, deliberate shot composition, and three-point lighting balance. Operators must also demonstrate proper microphone positioning to capture clean production audio without wind distortion.",
-          "Req 2d - Troop Motion Picture Production": "Producing a presentation for a pack or troop requires executing a treatment through filming and editing into a final video. Scouts demonstrate technical craftsmanship by screening the finished motion picture before a live audience."
+          "Req 2a - Visual Story Treatment": "A treatment presents the complete narrative arc in three or four descriptive paragraphs written in present tense. It emphasizes visible actions, sensory details, and character conflicts without including dialogue formatting.",
+          "Req 2b - Motion Picture Storyboard": "Storyboards break down the narrative treatment into individual visual frames representing camera shots. Accompanying captions specify camera movements, focal lengths, sound effects, and character dialogue cues.",
+          "Req 2c - Camera Technique": "Demonstrating shooting techniques requires mastering tripod leveling, controlled panning speeds, deliberate shot composition, and three-point lighting balance. Operators must also demonstrate proper microphone positioning to capture clean production audio without wind distortion.",
+          "Req 2d - Troop Motion Picture": "Producing a presentation for a pack or troop requires executing a treatment through filming and editing into a final video. Scouts demonstrate technical craftsmanship by screening the finished motion picture before a live audience."
         },
         "sample_output": "Treatments, Storyboards, and Shooting Techniques: The list goes on and on, the actors' clothing, the time ofday as determined by the position of the sun in outdoor shots, cloudy versus bright days (p. 28).",
         "counselor_tip": "For Moviemaking Requirement 2 (Treatments, Storyboards, and Shooting Techniques), verify the Scout's own observations and specific pamphlet details (Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45))."
@@ -1398,7 +1412,33 @@
       "socratic_questions": [
         "Why must a treatment focus strictly on what the audience sees and hears rather than inner thoughts?",
         "How does a storyboard save production time and reduce crew confusion during a tight shooting schedule?",
-        "What audio problems occur when an operator relies solely on an internal camera microphone outdoors?"
+        "What audio problems occur when an operator relies solely on an internal camera microphone outdoors?",
+        "Where should directional arrows be drawn on a storyboard panel to distinguish subject movement within the frame from a camera pan?",
+        "What structural element distinguishes a prose motion picture treatment from a formatted shooting script with dialogue?",
+        "What scene, shot, and take identifiers must be logged on the production slate before calling action on each camera roll?",
+        "Which physical check confirms that a tripod head is locked and its legs are leveled before walking away from a mounted camera?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A common misunderstanding is that storyboards require master artistic drawing skills to be useful.",
+          "fact": "Simple stick figures and directional arrows communicate framing and shot transitions clearly to crew members."
+        },
+        {
+          "misconception": "A motion picture treatment should include word-for-word character dialogue and detailed technical lens measurements.",
+          "fact": "A treatment is a three- to four-paragraph narrative summary written in present tense that paints a clear visual picture of the story."
+        },
+        {
+          "misconception": "Storyboards require polished artistic drawings to communicate shot framing and camera angles effectively to a film crew.",
+          "fact": "Simple stick figures combined with frame borders, shot-size labels, and movement arrows clearly convey composition and blocking."
+        },
+        {
+          "misconception": "Shooting scenes in strict chronological story order is the most efficient way to schedule an outdoor location production.",
+          "fact": "Grouping shots by camera setup direction and sun position prevents repeated lighting changes and keeps background shadows consistent."
+        },
+        {
+          "misconception": "Continuous auto-focus and auto-exposure should remain enabled during a dramatic pan so the camera adapts to every object.",
+          "fact": "Automatic modes hunt and pulse when backgrounds change, so locking manual focus and exposure keeps the subject sharp and consistent."
+        }
       ]
     },
     {
@@ -1444,9 +1484,7 @@
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
             "misconception": "Visitors expect studio sets to be quiet, leisurely work environments with minimal equipment coordination.",
-            "fact": "Professional soundstages operate on demanding schedules coordinated by assistant directors and meticulous safety protocols.",
-            "myth": "Visitors expect studio sets to be quiet, leisurely work environments with minimal equipment coordination.",
-            "fact_correction": "Professional soundstages operate on demanding schedules coordinated by assistant directors and meticulous safety protocols."
+            "fact": "Professional soundstages operate on demanding schedules coordinated by assistant directors and meticulous safety protocols."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1526,9 +1564,7 @@
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
             "misconception": "Students think a zoom lens contains only one movable piece of glass inside the cylinder.",
-            "fact": "Complex zoom lenses use multiple optical element groups moving along helical tracks to eliminate chromatic aberrations.",
-            "myth": "Students think a zoom lens contains only one movable piece of glass inside the cylinder.",
-            "fact_correction": "Complex zoom lenses use multiple optical element groups moving along helical tracks to eliminate chromatic aberrations."
+            "fact": "Complex zoom lenses use multiple optical element groups moving along helical tracks to eliminate chromatic aberrations."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1619,9 +1655,7 @@
       },
       "common_misconception_pair": {
         "misconception": "People frequently believe zooming the lens produces the exact visual perspective change as physically tracking closer.",
-        "fact": "Zooming merely enlarges center pixels optically, whereas moving the camera physically alters spatial perspective and parallax.",
-        "myth": "People frequently believe zooming the lens produces the exact visual perspective change as physically tracking closer.",
-        "fact_correction": "Zooming merely enlarges center pixels optically, whereas moving the camera physically alters spatial perspective and parallax."
+        "fact": "Zooming merely enlarges center pixels optically, whereas moving the camera physically alters spatial perspective and parallax."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1658,13 +1692,13 @@
       "step_by_step_procedure": [
         "Step 1 - Studio Permission Request: Obtain written guardian approval and schedule an official visit with facility production managers.",
         "Step 2 - Department Workflow Observation: Observe technical directors, camera operators, and audio engineers executing coordinated studio broadcast commands.",
-        "Step 3 - Optical Component Identification: Locate the focal zoom ring, focus collar, and aperture diaphragm on camera barrels.",
+        "Step 3 - Optical Component: Locate the focal zoom ring, focus collar, and aperture diaphragm on camera barrels.",
         "Step 4 - Parfocal Zoom Inspection: Test focus tracking while changing focal length from wide view to maximum magnification."
       ],
       "gear_checklist": [
-        "Official Moviemaking Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Elements of The Zoom Lens)",
-        "Field notebook, verification log sheet, and demonstration materials for Elements of The Zoom Lens",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Moviemaking Merit Badge: Elements of The Zoom Lens.",
+        "Field notebook, verification log sheet, and demonstration materials for Elements of The Zoom Lens.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 3a: Studio Production Facility Tour",
@@ -1677,27 +1711,27 @@
         ],
         "rows": [
           {
-            "attribute": "Film Set or Studio Visit",
-            "left": "(3a) Film Set or Studio Visit: Heibert offers the following tips about interviewing subjects on camera (p. 23).",
-            "right": "(3b) Zoom Lens Optical Elements: Good Planning Ensures Success on the Set Good movie making requires working with a team (p. 23)."
+            "attribute": "Production Set Protocol",
+            "left": "(3a) Studio Production Facility Tour: Visiting an active broadcast studio or motion picture set reveals how directors, grips, gaffers, and sound mixers collaborate under strict time limits. Observing live control rooms highlights how multiple camera feeds are switched synchronously during production.",
+            "right": "(3b) Zoom Lens Optical Elements: A zoom lens incorporates multiple glass elements that adjust focal length continuously while maintaining sharp image focus across the zoom range. Its primary mechanical components comprise the focusing ring, the zoom control ring, and the adjustable iris diaphragm."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Coordinated Production Crew Teamwork: Good Planning Ensures Success on the Set Good movie making requires working with a team (p. 23).",
-            "right": "Step 2 - Build a Shooting Schedule: It is always best to have a preplanned shooting schedule in place to help minimize any surprises (p. 23)."
+            "attribute": "Optical Focal Variation",
+            "left": "Req 3a: Studio Production Facility: Visiting an active broadcast studio or motion picture set reveals how directors, grips, gaffers, and sound mixers collaborate under strict time limits. Observing live control rooms highlights how multiple camera feeds are switched synchronously during production.",
+            "right": "Req 3b: Zoom Lens Optical Elements: A zoom lens incorporates multiple glass elements that adjust focal length continuously while maintaining sharp image focus across the zoom range. Its primary mechanical components comprise the focusing ring, the zoom control ring, and the adjustable iris diaphragm."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Synchronized Set Logistics: Many elements are planned to come together on the same day and at the same time (p. 23).",
-            "right": "Step 3 - Complete Preproduction Location Planning: Preproduction involves all the preparation that occurs up to the day of shooting, from deciding on a story to determining locations and securing (p. 23)."
+            "attribute": "Iris Aperture Control",
+            "left": "Production Set Protocol: Studio environments operate under strict safety guidelines, departmental hierarchy, and structured call sheets.",
+            "right": "Optical Focal Variation: Internal lens elements shift along helicoid tracks to adjust framing without moving stands."
           }
         ]
       },
       "worked_example": {
-        "title": "Moviemaking Req 3 Exemplar Workbook Entry: Studio Production Sets and Zoom Lenses",
+        "title": "Moviemaking Req 3 Exemplar Workbook Entry: Studio",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Studio Production Facility Tour": "Visiting an active broadcast studio or motion picture set reveals how directors, grips, gaffers, and sound mixers collaborate under strict time limits. Observing live control rooms highlights how multiple camera feeds are switched synchronously during production.",
+          "Req 3a - Studio Production Facility": "Visiting an active broadcast studio or motion picture set reveals how directors, grips, gaffers, and sound mixers collaborate under strict time limits. Observing live control rooms highlights how multiple camera feeds are switched synchronously during production.",
           "Req 3b - Zoom Lens Optical Elements": "A zoom lens incorporates multiple glass elements that adjust focal length continuously while maintaining sharp image focus across the zoom range. Its primary mechanical components comprise the focusing ring, the zoom control ring, and the adjustable iris diaphragm."
         },
         "sample_output": "Studio Production Sets and Zoom Lenses: Heibert offers the following tips about interviewing subjects on camera (p. 23).",
@@ -1734,8 +1768,34 @@
       "pamphlet_summary": "Observing professional television or film productions exposes Scouts to specialized department workflows, call sheets, and set protocols. Alternatively, analyzing zoom lens mechanics teaches optical focal length shifts, aperture iris controls, and internal glass groupings.",
       "socratic_questions": [
         "Why does a television control room divide responsibilities between the director, switcher, and audio technician?",
-        "How do optical zoom elements differ mechanically from digital zoom processing found in smartphones?",
-        "What happens to the background blur when an operator opens the lens aperture ring completely?"
+        "In what specific ways do optical zoom elements differ mechanically from digital zoom processing found in smartphones?",
+        "What happens to the background blur when an operator opens the lens aperture ring completely?",
+        "Under what optical condition does zooming to maximum focal length help an operator set critical focus before framing a wider shot?",
+        "What mechanical role differentiates the variator lens element from the compensator element inside a parfocal zoom lens?",
+        "What measurement on the aperture ring confirms that the lens iris has closed down by one full stop to halve incoming light?",
+        "Why must studio visitors stay clear of overhead lighting grids and taped cable runs while a production crew is rigging a set?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "People frequently believe zooming the lens produces the exact visual perspective change as physically tracking closer.",
+          "fact": "Zooming merely enlarges center pixels optically, whereas moving the camera physically alters spatial perspective and parallax."
+        },
+        {
+          "misconception": "Digital zoom in a camera smartphone or camcorder works the same way as an optical zoom lens assembly with glass elements.",
+          "fact": "Digital zoom merely crops and enlarges pixels with image degradation, whereas an optical zoom moves internal glass elements cleanly."
+        },
+        {
+          "misconception": "A larger f-stop number such as f/16 opens the lens iris wider to let more light reach the camera sensor in dark studios.",
+          "fact": "F-stops are fractions of focal length, so f/16 represents a small iris opening while f/2.8 represents a wide opening for low light."
+        },
+        {
+          "misconception": "Wiping a dusty zoom lens front element with a dry cotton shirt sleeve is a safe way to clean smudges on location.",
+          "fact": "Dry fabric grinds grit into anti-reflective optical coatings; always use an air blower first and clean only with lens tissue."
+        },
+        {
+          "misconception": "Everyone on a professional television studio floor takes direction directly from the camera operator during a live broadcast.",
+          "fact": "The floor manager relays silent hand signals from the control room director while keeping the studio quiet during live recording."
+        }
       ]
     },
     {
@@ -1787,9 +1847,7 @@
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 59, p. 61)",
           "common_misconception_pair": {
             "misconception": "Beginners think film careers offer stable nine-to-five office schedules with guaranteed permanent staff employment.",
-            "fact": "Most professional film crew members work freelance contracts requiring proactive networking and financial budgeting between productions.",
-            "myth": "Beginners think film careers offer stable nine-to-five office schedules with guaranteed permanent staff employment.",
-            "fact_correction": "Most professional film crew members work freelance contracts requiring proactive networking and financial budgeting between productions."
+            "fact": "Most professional film crew members work freelance contracts requiring proactive networking and financial budgeting between productions."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1869,9 +1927,7 @@
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 59, p. 61)",
           "common_misconception_pair": {
             "misconception": "Enthusiasts assume pursuing personal videography as a pastime demands purchasing high-end Hollywood camera packages.",
-            "fact": "Modern mobile devices and accessible open-source editing programs provide all necessary tools for meaningful hobby videography.",
-            "myth": "Enthusiasts assume pursuing personal videography as a pastime demands purchasing high-end Hollywood camera packages.",
-            "fact_correction": "Modern mobile devices and accessible open-source editing programs provide all necessary tools for meaningful hobby videography."
+            "fact": "Modern mobile devices and accessible open-source editing programs provide all necessary tools for meaningful hobby videography."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1963,9 +2019,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Aspiring creators believe lucrative filmmaking careers only exist for above-the-line directors and celebrity actors.",
-        "fact": "Most sustainable film industry careers involve specialized below-the-line crafts like grip work, lighting, and sound editing.",
-        "myth": "Aspiring creators believe lucrative filmmaking careers only exist for above-the-line directors and celebrity actors.",
-        "fact_correction": "Most sustainable film industry careers involve specialized below-the-line crafts like grip work, lighting, and sound editing."
+        "fact": "Most sustainable film industry careers involve specialized below-the-line crafts like grip work, lighting, and sound editing."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2002,17 +2056,17 @@
       "step_by_step_procedure": [
         "Step 1 - Career Field Research: Select a specific film industry discipline like cinematography, picture editing, or production management.",
         "Step 2 - Education Cost Evaluation: Compare tuition expenses for college film programs against vocational guild apprenticeship training options.",
-        "Step 3 - Compensation Projection Analysis: Review labor bureau salary data and industry union agreements regarding entry hourly wages.",
+        "Step 3 - Compensation Projection: Review labor bureau salary data and industry union agreements regarding entry hourly wages.",
         "Step 4 - Community Organization Contact: Connect with local media arts centers to discover recreational video workshops and resources."
       ],
       "gear_checklist": [
-        "Official Moviemaking Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Moviemaking Careers and Pathways)",
-        "Field notebook, verification log sheet, and demonstration materials for Moviemaking Careers and Pathways",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Moviemaking Merit Badge: Moviemaking Careers and Pathways.",
+        "Field notebook, verification log sheet, and demonstration materials for Moviemaking Careers and Pathways.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 4a: Film Industry Career Exploration",
-        "right_header": "Req 4b: Recreational Videography Lifestyle",
+        "right_header": "Req 4b: Recreational Videography",
         "left_points": [
           "(4a) Film Industry Career Exploration: Researching a film industry trade requires examining educational paths, equipment investments, union representation, and regional market employment prospects. Candidates assess entry wages alongside long-term advancement potential from assistant positions to department leadership."
         ],
@@ -2021,28 +2075,28 @@
         ],
         "rows": [
           {
-            "attribute": "Motion Picture Career Exploration",
-            "left": "(4a) Motion Picture Career Exploration: Watching a \"making of\" or tutorial video on You Tube can also be helpful (p. 59).",
-            "right": "(4b) Filmmaking as a Creative Hobby: The world of film is a fascinating place for creative people to find their niche in an engaging career (p. 59)."
+            "attribute": "Industry Career Pathways",
+            "left": "(4a) Film Industry Career Exploration: Researching a film industry trade requires examining educational paths, equipment investments, union representation, and regional market employment prospects. Candidates assess entry wages alongside long-term advancement potential from assistant positions to department leadership.",
+            "right": "(4b) Recreational Videography Lifestyle: Filmmaking serves as an engaging hobby that complements outdoor recreation, historical documentation, and family memory preservation. Community cinema groups and local video contests offer creative venues without commercial production pressures."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Behind-the-Scenes Video Tutorials: Watching a \"making of\" or tutorial video on You Tube can also be helpful (p. 59).",
-            "right": "Step 2 - Survey Film Industry Roles: There are many careers related to film and video production (p. 59)."
+            "attribute": "Postproduction Sound Editing",
+            "left": "Req 4a: Film Industry Career: Researching a film industry trade requires examining educational paths, equipment investments, union representation, and regional market employment prospects. Candidates assess entry wages alongside long-term advancement potential from assistant positions to department leadership.",
+            "right": "Req 4b: Recreational Videography: Filmmaking serves as an engaging hobby that complements outdoor recreation, historical documentation, and family memory preservation. Community cinema groups and local video contests offer creative venues without commercial production pressures."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Creative Industry Specializations: The world of film is a fascinating place for creative people to find their niche in an engaging career (p. 59).",
-            "right": "Step 3 - Research Competitive Film Positions: You should visit the library or go online to learn more about various positions in this highly competitive industry (p. 59)."
+            "attribute": "Recreational Media Creation",
+            "left": "Industry Career Pathways: Production roles demand specialized technical schooling, portfolio showreels, union apprenticeships, and networking initiative.",
+            "right": "Postproduction Sound Editing: Sound designers assemble foley effects and audio stems to enhance visual drama realism."
           }
         ]
       },
       "worked_example": {
-        "title": "Moviemaking Req 4 Exemplar Workbook Entry: Film Production Careers and Creative Hobbies",
+        "title": "Moviemaking Req 4 Exemplar Workbook Entry: Film",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 4a - Film Industry Career Exploration": "Researching a film industry trade requires examining educational paths, equipment investments, union representation, and regional market employment prospects. Candidates assess entry wages alongside long-term advancement potential from assistant positions to department leadership.",
-          "Req 4b - Recreational Videography Lifestyl": "Filmmaking serves as an engaging hobby that complements outdoor recreation, historical documentation, and family memory preservation. Community cinema groups and local video contests offer creative venues without commercial production pressures."
+          "Req 4a - Film Industry Career": "Researching a film industry trade requires examining educational paths, equipment investments, union representation, and regional market employment prospects. Candidates assess entry wages alongside long-term advancement potential from assistant positions to department leadership.",
+          "Req 4b - Recreational Videography": "Filmmaking serves as an engaging hobby that complements outdoor recreation, historical documentation, and family memory preservation. Community cinema groups and local video contests offer creative venues without commercial production pressures."
         },
         "sample_output": "Film Production Careers and Creative Hobbies: Watching a \"making of\" or tutorial video on You Tube can also be helpful (p. 59).",
         "counselor_tip": "For Moviemaking Requirement 4 (Film Production Careers and Creative Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Moviemaking Merit Badge Pamphlet (p. 59, p. 61))."
@@ -2077,9 +2131,35 @@
       "workbook_visual_caption": "An ocean surfer rides a cresting wave providing dynamic subject matter for action filming.",
       "pamphlet_summary": "Investigating motion picture professions reveals diverse technical and artistic disciplines ranging from cinematography to postproduction sound design. Exploring recreational videography demonstrates how filming outdoor adventures, documentaries, and family events enriches personal storytelling abilities.",
       "socratic_questions": [
-        "How do trade guild requirements like camera assistant training differ from traditional four-year university degrees?",
+        "In what specific ways do trade guild requirements like camera assistant training differ from traditional four-year university degrees?",
         "Why does maintaining a diverse portfolio of short projects matter more to employers than grades?",
-        "How can personal documentary filmmaking support physical fitness and outdoor conservation activities?"
+        "How can personal documentary filmmaking support physical fitness and outdoor conservation activities?",
+        "What specific project artifacts should an aspiring filmmaker assemble into a demo reel before applying to a school or internship?",
+        "Which on-set responsibilities separate the director of photography from the gaffer and key grip during production setups?",
+        "What financial figures must a Scout compare when weighing film school tuition costs against entry-level freelance day rates?",
+        "What Youth Protection and parental permission steps are required before interviewing a film professional or joining a local club?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Aspiring creators believe lucrative filmmaking careers only exist for above-the-line directors and celebrity actors.",
+          "fact": "Most sustainable film industry careers involve specialized below-the-line crafts like grip work, lighting, and sound editing."
+        },
+        {
+          "misconception": "A four-year university film degree is a mandatory legal requirement to be hired onto a professional motion picture camera crew.",
+          "fact": "Many crew roles prioritize hands-on set experience, technical union apprenticeships, and a strong demo reel over formal degrees."
+        },
+        {
+          "misconception": "The film director personally operates the main cinema camera, sets lighting stands, and edits every cut on a major production.",
+          "fact": "The director guides actor performances and creative vision while collaborating with the cinematographer, gaffer, and editor."
+        },
+        {
+          "misconception": "Student and hobbyist filmmakers can legally use any commercial song in public film festival submissions without a license.",
+          "fact": "Film festivals require written synchronization and master use rights or royalty-free music licenses before screening any entry."
+        },
+        {
+          "misconception": "A costly cinema camera package is necessary before a Scout can build moviemaking skills for a school club or local festival.",
+          "fact": "Strong visual storytelling, stable framing, clean audio, and thoughtful lighting matter far more to festival judges than camera price."
+        }
       ]
     }
   ],

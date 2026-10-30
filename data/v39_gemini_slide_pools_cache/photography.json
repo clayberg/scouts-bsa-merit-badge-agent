@@ -1,0 +1,221 @@
+{
+  "badge_slug": "photography",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Camera lenses concentrate sunlight onto the retina and can cause permanent blindness in a fraction of a second.",
+          "misconception": "Looking at a solar eclipse through an optical camera viewfinder without a solar filter is safe for a second."
+        },
+        {
+          "fact": "Warm indoor air condenses immediately on cold glass and electronics; seal the camera in a plastic bag so it warms slowly.",
+          "misconception": "Bringing a freezing camera straight into a heated tent warms the battery safely without harming the lens."
+        },
+        {
+          "fact": "Image files store embedded EXIF GPS coordinates by default unless location tagging is disabled or stripped before posting.",
+          "misconception": "Smartphone photos shared on social media never reveal the exact campsite coordinates where they were taken."
+        },
+        {
+          "fact": "Carbon fiber conducts high-voltage lightning strikes, so photographers must pack gear and seek low shelter when thunder sounds.",
+          "misconception": "Carbon-fiber tripods cannot conduct electricity and are safe to leave standing on an open ridge in a storm."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to walk backward while framing a subject through a viewfinder near ledges or roadways?",
+        "What happens to internal camera optics when cold winter gear is carried directly into a warm, humid cabin?",
+        "Which physical indicator warns you to pack away a tripod and move to shelter during approaching storms?",
+        "Where should a Scout check before posting camp photographs online to protect fellow Scouts' location privacy?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "F-stops are fractions of focal length, so f/16 is a small opening while f/2.8 is a wide opening that admits much more light.",
+          "misconception": "A larger f-stop number like f/16 represents a wider lens opening that lets more light reach the sensor."
+        },
+        {
+          "fact": "Raising ISO amplifies the electronic signal after capture, which brightens the image while also amplifying digital noise.",
+          "misconception": "Increasing the camera ISO physically makes the digital image sensor more sensitive to incoming photons."
+        },
+        {
+          "fact": "Overhead midday sun casts harsh shadows under eyes and noses, whereas golden-hour or open-shade light wraps softly across faces.",
+          "misconception": "Direct midday overhead sunlight produces the most flattering natural portraits with soft facial shadows."
+        },
+        {
+          "fact": "The rule of thirds divides the frame with two horizontal and two vertical lines, placing subjects along those lines or intersections.",
+          "misconception": "The rule of thirds requires placing the main subject dead center at the intersection of the middle frame."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to background blur and shutter speed when you stop a lens down from f/2.8 to f/16 in fixed light?",
+        "Under what condition does raising the ISO from 100 to 6400 degrade fine detail and color accuracy in shadows?",
+        "Where should a Scout position the horizon line using the rule of thirds when dramatic storm clouds fill the sky?",
+        "What shutter speed threshold freezes a running Scout cleanly versus deliberately blurring a cascading waterfall?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The adjustable aperture iris sits inside the lens barrel, while the mechanical shutter curtains sit inside the camera body.",
+          "misconception": "The aperture diaphragm is housed inside the camera body right in front of the digital image sensor."
+        },
+        {
+          "fact": "Half-pressing the shutter button activates the autofocus system and light meter without opening the shutter or recording a file.",
+          "misconception": "Pressing the shutter button halfway down begins recording a dim preliminary exposure onto the memory card."
+        },
+        {
+          "fact": "Photodiodes measure only light intensity, so a Bayer red-green-blue filter mosaic sits over the sensor to reconstruct color.",
+          "misconception": "Digital camera sensors capture full-color pixels directly without needing any color filter array over the silicon."
+        },
+        {
+          "fact": "Most mirrorless cameras still use a focal-plane mechanical shutter alongside an electronic shutter option to prevent rolling distortion.",
+          "misconception": "Mirrorless cameras lack a mechanical shutter and can only expose images by turning the sensor on and off."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What sequence of mechanical and electronic actions occurs inside a camera body the instant you press the shutter?",
+        "What visual advantage does an electronic viewfinder offer over an optical mirror when previewing exposure settings?",
+        "Which camera component controls the physical diameter of the light beam passing through the lens elements?",
+        "What happens to the recorded image if the shutter curtains remain open longer than the exposure meter recommends?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "True perspective changes only when you physically move the camera higher, lower, closer, or farther relative to the subject.",
+          "misconception": "Tilting the camera from the same standing spot counts as changing perspective in a comparative photo exercise."
+        },
+        {
+          "fact": "Closing the aperture to f/16 reduces light significantly, requiring a slower shutter speed or higher ISO to match exposure.",
+          "misconception": "Switching from f/2.8 to f/16 keeps image brightness constant without any change to shutter speed or ISO."
+        },
+        {
+          "fact": "Direct on-axis flash flattens facial depth with hard back shadows, while side window light creates soft directional modeling.",
+          "misconception": "On-camera pop-up flash and window light produce the exact same shadow direction and color temperature."
+        },
+        {
+          "fact": "Focusing closely on a nearby subject narrows depth of field dramatically even when the lens stays at the same aperture.",
+          "misconception": "Depth of field depends solely on the f-stop number and is unaffected by camera-to-subject distance."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a subject's perceived stature when you shoot from ground level looking up versus eye level?",
+        "Which exposure setting must change to maintain identical brightness when you close the aperture by three stops?",
+        "Where should you place an off-camera flash relative to your subject to avoid flat, washed-out facial features?",
+        "What visual difference appears in the background when you step closer to your subject while keeping f/2.8 set?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Close wide-angle distances exaggerate the nose and shrink the ears; stepping back with an 85mm lens keeps features natural.",
+          "misconception": "Standing twelve inches from a person's face with a wide-angle lens produces the most natural close-up portrait."
+        },
+        {
+          "fact": "Single-shot focus locks at one distance, whereas continuous autofocus (AF-C) updates focus constantly as the subject moves.",
+          "misconception": "Single-shot autofocus (AF-S) is the best setting for capturing a bird in flight or a Scout crossing a finish line."
+        },
+        {
+          "fact": "Direct flash startles wildlife and causes harsh eye reflections; raise ISO and use a fast lens with natural ambient light.",
+          "misconception": "Using a bright flash at close range is the safest way to highlight detail on wild animals at dusk."
+        },
+        {
+          "fact": "Candid photographs capture unposed subjects absorbed in an activity without directing their posture or expression.",
+          "misconception": "A candid photograph requires asking the subject to stop working and smile directly at the camera lens."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which autofocus mode tracks a sprinting athlete or flying bird continuously across the frame before capture?",
+        "Where should the critical focus point rest when shooting a close-up portrait with a wide aperture like f/2?",
+        "What happens to facial proportions when you shoot a tight headshot inches away with a wide-angle 24mm lens?",
+        "Under what condition does panning the camera with a moving cyclist create a stronger action shot than high shutter speed?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Editing software can sharpen edges slightly, but it cannot recover optical focus or freeze motion that was blurred at capture.",
+          "misconception": "Post-processing software can restore sharp detail to a severely motion-blurred or out-of-focus photograph."
+        },
+        {
+          "fact": "Every JPEG save applies lossy compression that degrades quality, so editors use non-destructive layers or keep master originals.",
+          "misconception": "Saving and re-saving the original JPEG file repeatedly during editing preserves 100 percent of image quality."
+        },
+        {
+          "fact": "Clipped JPEG highlights contain only maximum white values (255, 255, 255), so lowering brightness turns them flat gray.",
+          "misconception": "Blown-out pure white highlights in a JPEG hold hidden cloud textures that return when you lower brightness."
+        },
+        {
+          "fact": "Excessive saturation clips color channels and causes unnatural neon skin tones and foliage; subtle vibrance adjustments preserve detail.",
+          "misconception": "Pushing the saturation slider to 100 percent makes outdoor nature photographs look more realistic and accurate."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to pixel resolution and print sharpness when you crop away eighty percent of an original image frame?",
+        "Which histogram indicator reveals that highlight detail in bright clouds is permanently clipped beyond recovery?",
+        "Why is it important to edit a non-destructive copy or RAW file instead of overwriting the original camera file?",
+        "What visual cast appears in an indoor photograph when the camera white balance stays set to daylight under tungsten bulbs?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Requirement 7 explicitly requires shooting new images dedicated to your planned event or topic rather than recycling earlier work.",
+          "misconception": "Reusing your best action and portrait photos from Requirements 4 and 5 satisfies the visual story requirement."
+        },
+        {
+          "fact": "Effective visual stories combine wide establishing shots, medium interaction frames, tight detail close-ups, and a closing image.",
+          "misconception": "A strong photo essay consists of ten nearly identical eye-level medium shots of the main activity."
+        },
+        {
+          "fact": "A pre-approved shot list ensures you capture key narrative stages, locations, and transitions even while reacting to candid action.",
+          "misconception": "Planning a storyboard before an event is pointless because candid moments happen too fast to anticipate."
+        },
+        {
+          "fact": "Sequencing images by narrative flow, beginning, middle, climax, and resolution often communicates the story better than clock order.",
+          "misconception": "Arranging story photographs in strict chronological timestamp order is always the only valid way to present them."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What role does a wide establishing shot play at the beginning of an eight-to-twelve-image visual story?",
+        "Why must a Scout obtain counselor approval on the shot list and storyboard before photographing the event?",
+        "Which mix of shot distances prevents a twelve-photo narrative from feeling repetitive to someone viewing it?",
+        "What criteria help you cull fifty event photos down to the ten strongest frames that advance the story arc?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Journalistic ethics strictly forbid adding, removing, or staging elements in news photos because accuracy and truth are mandatory.",
+          "misconception": "A photojournalist is allowed to clone out distracting background objects to make a news photo cleaner."
+        },
+        {
+          "fact": "Most working photographers spend the majority of their time on client outreach, contracts, lighting setup, culling, and editing.",
+          "misconception": "Professional photographers spend nearly all of their working hours pressing the shutter button on location."
+        },
+        {
+          "fact": "Clients hire photographers based on a cohesive portfolio, reliable lighting skill, and problem-solving under deadline pressure.",
+          "misconception": "Owning an expensive professional camera body automatically qualifies someone for commercial photography jobs."
+        },
+        {
+          "fact": "Forensic and scientific photographers follow strict scale, lighting, and color-calibration protocols so images serve as evidence.",
+          "misconception": "Forensic and medical photographers focus on artistic expression rather than standardized technical documentation."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What ethical boundary separates a news photojournalist from a commercial advertising photographer during editing?",
+        "Which business and legal skills must a freelance photographer master beyond operating a camera and lighting rig?",
+        "Where can an aspiring photographer gain hands-on field mentorship before investing in commercial studio gear?",
+        "What portfolio qualities convince a photo editor or client to hire a specialist for a high-stakes assignment?"
+      ],
+      "req_id": "8"
+    }
+  ]
+}

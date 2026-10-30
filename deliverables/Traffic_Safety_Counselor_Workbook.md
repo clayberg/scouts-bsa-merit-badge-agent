@@ -1,8 +1,8 @@
 # Traffic Safety Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Traffic%20Safety.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/traffic-safety/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/traffic-safety/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -28,8 +28,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Vehicle Safety. Do the following: (a) Demonstrate how to wear a lap and shoulder belt properly. Explain why it is important for the driver and all passengers, including children sitting in age-appropriate seats, to always wear their seat belts. (b) List five safety features found in motor vehicles besides occupant restraint systems. Describe each safety feature, how each works, and how each contributes to safety.
-- [ ] **Station Req 3:** Auto Maintenance and Safety Checkups. With adult supervision and using a vehicle that you have access to, do the following: (a) Demonstrate that all driving lights and signaling lights are clear and operational. Show where the switches are for these lights. Explain how drivers use lights to drive safely and courteously and to communicate with other drivers. (b) Explain issues that might affect the driver's ability to see through the front, rear, and side windows. Demonstrate with a smear-and-clear test if the windshield wiper blades will clear the windshield completely or need to be replaced. Describe instances in good and bad weather when windshield wipers are important to safe driving. (c) Demonstrate how to find the vehicle's recommended tire pressures, how to check tire pressures, and how to check for adequate tire tread depth. Explain why proper tire pressure and tread depth are important to traction, stopping distances, tire wear, and fuel economy. (d) Check the vehicle for tools needed to change a flat tire or to use tire sealant to fix a puncture. Demonstrate you know how to change a flat tire and how to use tire sealant. (e) In a location away from traffic hazards, mark off the reaction distances and braking distances that a car will travel as it makes an emergency stop at 25, 55, and 70 miles per hour on level dry and level wet pavement. Discuss how these distances change for normal and impaired drivers, for day and night driving, and for weather conditions. Note: Use the graphics template in the Traffic Safety merit badge pamphlet or one approved by your counselor to set up this demonstration.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Scout must individually explain mastery of Requirement 3 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -127,9 +127,9 @@
 - **Pamphlet Fact:** Shoulder straps routed behind passenger backs allow severe upper body whip injuries during crashes.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Traffic Safety Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Vehicle Safety)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Vehicle Safety
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Traffic Safety Merit Badge: Vehicle Safety.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Vehicle Safety.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Traffic Safety Requirement 2 figure showing lap belts must cross strong hip bones to prevent catastrophic abdominal crush injuries.](/assets/pamphlet_images/traffic_safety_p007_img1.png)
 
@@ -494,9 +494,9 @@
 - **Pamphlet Fact:** Transportation engineers combine physics and civil planning to reduce highway fatal collision frequencies significantly.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Traffic Safety Merit Badge Pamphlet and Fillable Scout Workbook (Req 8: Traffic Safety Careers and Pathways)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Traffic Safety Careers and Pathways
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Traffic Safety Merit Badge: Traffic Safety Careers and Pathways.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Traffic Safety Careers and Pathways.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A vehicle safety belt buckle ensures passengers remain securely restrained while traveling.](/assets/pamphlet_images/traffic_safety_p082_img1.png)
 

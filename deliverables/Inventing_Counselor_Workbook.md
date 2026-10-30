@@ -1,8 +1,8 @@
 # Inventing Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Inventing.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/inventing/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/inventing/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -30,8 +30,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 6:** Think of an item you would like to invent that would solve a problem for your family, troop, chartered organization, community, or a special-interest group. Then do the following, while keeping a notebook to record your progress. (a) Talk to potential users of your invention and determine their needs. Then, based on what you have learned, write a statement describing the invention and how it would help solve a problem. This statement should include a detailed sketch of the invention. (b) Create a model of the invention using clay, cardboard, or any other readily available material. List the materials necessary to build a working prototype of the invention. (c) Share the idea and the model with your counselor and potential users of your invention. Record their feedback in your notebook.
-- [ ] **Station Req 7:** Build a working prototype of the item you invented for requirement 6. Test and evaluate the invention. Among the aspects to consider in your evaluation are cost, usefulness, marketability, appearance, and function. Describe how your original vision and expectations for your invention are similar or dissimilar to the prototype you built. Have your counselor evaluate and critique your prototype. Note: Before you begin building the prototype, you must have your counselor's approval, based on the design and building plans you have already shared.
+- [ ] **Station Req 6:** Scout must individually demonstrate mastery of Requirement 6 to the Merit Badge Counselor.
+- [ ] **Station Req 7:** Scout must individually demonstrate mastery of Requirement 7 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -270,9 +270,9 @@
 - **Pamphlet Fact:** Direct stakeholder observations prevent engineers from building solutions to non-existent operational problems.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Inventing Merit Badge Pamphlet and Fillable Scout Workbook (Req 6: Think of An Item You)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Think of An Item You
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Inventing Merit Badge Pamphlet: Think of An Item You.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Think of An Item You.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A woman writes down and develops creative ideas in a notebook during a brainstorm session.](/assets/pamphlet_images/inventing_p056_img1.png)
 
@@ -331,9 +331,9 @@
 - **Pamphlet Fact:** Testing reveals unexpected component stress and material fatigue under repeated real world operation.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Inventing Merit Badge Pamphlet and Fillable Scout Workbook (Req 7: Working Prototype of The Item)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Working Prototype of The Item
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Inventing Merit Badge Pamphlet: Working Prototype of The Item.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Working Prototype of The Item.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Detailed schematic drawings illustrate plans for building a working prototype device.](/assets/pamphlet_images/inventing_p075_img2.png)
 

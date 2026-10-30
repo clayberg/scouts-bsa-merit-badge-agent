@@ -1,8 +1,8 @@
 # Composite Materials Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Composite%20Materials.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/composite-materials/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/composite-materials/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -256,10 +256,10 @@
 - **Pamphlet Fact:** Vacuum bagging compacts wet laminates under fourteen pounds per square inch of uniform atmospheric pressure.
 
 **Gear & Readiness Checklist:**
-- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron
-- [ ] Tape measure, square, layout pencil, clamps, and material stock for Use composite materials to complete
-- [ ] Inspected hand and power tools with intact guards and ventilation setup for Composite Materials
-- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
+- [ ] ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron.
+- [ ] Tape measure, square, layout pencil, clamps, and material stock for Use composite materials to complete.
+- [ ] Inspected hand and power tools with intact guards and ventilation setup for Composite Materials.
+- [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet.
 
 ![A plastic spreader and stir stick help apply liquid resin evenly over fabric.](/assets/pamphlet_images/composite_materials_p058_img1.png)
 

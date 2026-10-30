@@ -1,8 +1,8 @@
 # American Heritage Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/American%20Heritage.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/american-heritage/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/american-heritage/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -155,9 +155,9 @@
 - **Pamphlet Fact:** Modern legal and economic issues develop from established constitutional precedents and historical policy choices.
 
 **Gear & Readiness Checklist:**
-- [ ] Official American Heritage Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Topic Related to The United)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Topic Related to The United
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official American Heritage Merit Badge: Topic Related to The United.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Topic Related to The United.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![American Heritage Requirement 3 figure showing contemporary national policies reflect historic constitutional tensions over federal.](/assets/pamphlet_images/american_heritage_p012_img1.png)
 

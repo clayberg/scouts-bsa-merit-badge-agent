@@ -1,0 +1,167 @@
+{
+  "badge_slug": "model-design-and-building",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Paper dust masks trap only solid airborne particulates; solvent vapors require strong cross-ventilation or an organic vapor cartridge.",
+          "misconception": "A paper dust mask filters out toxic organic solvent vapors released by enamel paints, cyanoacrylate glues, and liquid styrene cement."
+        },
+        {
+          "fact": "Dull blades bind in wood grain and slip unpredictably under heavy force, whereas a sharp blade slices cleanly with light, controlled passes.",
+          "misconception": "Applying heavier downward pressure on a dull #11 hobby blade cuts dense basswood more safely than installing a fresh sharp blade."
+        },
+        {
+          "fact": "Liquid 3D printing resin is a skin sensitizer and aquatic toxin that must be washed in alcohol and cured under UV light before disposal.",
+          "misconception": "Uncured photopolymer resin from a stereolithography 3D printer can be washed down a household sink using warm water and dish soap."
+        },
+        {
+          "fact": "Oil-soaked rags generate exothermic heat as they oxidize and can spontaneously ignite unless dried flat outdoors or sealed in a metal can.",
+          "misconception": "Crumpled rags soaked with linseed oil or paint thinner can be tossed directly into an open plastic wastebasket after finishing a model."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why is it dangerous to snap off a dull hobby knife blade with bare fingers instead of using pliers and a sharps container?",
+        "What distinguishes a standard N95 particulate dust mask from an organic vapor cartridge respirator when spraying solvent lacquer?",
+        "Which physical indicator confirms that a spray booth or 3D printer enclosure is exhausting fumes away from your breathing zone?",
+        "Where should a Scout position the non-cutting hand relative to the blade travel path when trimming balsa along a steel ruler?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Architectural models visualize spatial aesthetics and site flow, while structural models test load paths, truss deflection, and joint stress.",
+          "misconception": "Architectural models and structural models serve the exact same purpose of showing exterior facade colors and landscaping layouts."
+        },
+        {
+          "fact": "Polystyrene solvent cement chemically melts and welds only styrene plastics; non-porous metals, resin, and wood require epoxy or CA glue.",
+          "misconception": "Solvent-based polystyrene cement glues balsa wood, brass rods, and cast resin parts together by filling gaps between their surfaces."
+        },
+        {
+          "fact": "Balsa is ultra-light with coarse pores suited for low-weight frames, whereas basswood has a tight, dense grain that holds crisp machined edges.",
+          "misconception": "Balsa wood and basswood have identical grain density, making them interchangeable for fine structural framing and heavy load tests."
+        },
+        {
+          "fact": "Mechanical models test moving kinematic linkages and gears, while process models map piping, valves, and material flow through a facility.",
+          "misconception": "Process models are built purely to test moving gears and linkages rather than the sequence of chemical or manufacturing plant flows."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What distinguishes the primary engineering purpose of a load-bearing structural model from an exterior architectural site model?",
+        "What happens to the bending strength of a balsa wood beam when you slice the strip across the grain instead of parallel to it?",
+        "What measurement confirms which candidate sheet material deflects the least when loaded across an identical test span?",
+        "Under what condition does solvent-based plastic cement fail to bond two model parts compared to cyanoacrylate or epoxy adhesive?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "In a fractional scale ratio, a larger denominator means greater reduction, so a 1:48 model is half the linear size of a 1:24 scale model.",
+          "misconception": "A 1:48 scale model is twice as large in linear dimensions as a 1:24 scale model of the exact same full-size aircraft or building."
+        },
+        {
+          "fact": "Pre-made kits are prohibited for this project; the Scout must draft original scaled plans and fabricate the model from raw materials.",
+          "misconception": "Modifying or repainting a commercial plastic injection-molded kit satisfies the original design planning rule for Requirement 3."
+        },
+        {
+          "fact": "Perspective sketches foreshorten angles and lengths; accurate part layout requires scaled orthographic front, top, and side projections.",
+          "misconception": "A single perspective sketch provides all the dimensional measurements needed to cut framing members accurately during construction."
+        },
+        {
+          "fact": "Linear dimensions scale by a factor of two, surface area scales by four, and volume or material weight scales by a factor of eight.",
+          "misconception": "Doubling the linear scale of a solid model from 1:50 to 1:25 requires only twice as much casting resin or 3D printer filament."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why must your orthographic drawing align the front, top, and side views along shared projection lines before you cut any stock?",
+        "Which scale ratio produces a physically larger tabletop model of the same building: a 1:24 scale plan or a 1:48 scale plan?",
+        "What measurement confirms that your bill of materials includes enough extra linear stock to account for saw kerf and miter cuts?",
+        "What happens to interior detail accessibility if your assembly sequence glues the roof or hull closed before painting the cabin?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "High helix friction makes most single-start worm drives self-locking, meaning the worm turns the gear wheel but the gear cannot back-drive.",
+          "misconception": "Driving the gear wheel in a worm gear assembly easily spins the worm shaft backward to act as a speed-multiplying overdrive."
+        },
+        {
+          "fact": "Foundry and mold patterns require a slight taper called a draft angle on vertical walls so the pattern releases cleanly from the mold.",
+          "misconception": "An industrial casting pattern with vertical 90-degree sides pulls cleanly out of packed molding sand without tearing the cavity."
+        },
+        {
+          "fact": "End-grain butt joints have minimal glue surface area and peel apart easily unless reinforced with overlapping plywood or cardstock gussets.",
+          "misconception": "Butt-gluing balsa bridge truss joints end-to-end without gusset plates provides full tensile and shear strength under test loads."
+        },
+        {
+          "fact": "A four-sided frame with equal opposite sides can still skew into a parallelogram; only equal corner-to-corner diagonals confirm squareness.",
+          "misconception": "Equal opposite wall lengths guarantee that a rectangular architectural floor frame is square without checking diagonal measurements."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a sand or silicone mold when you pull out an industrial casting pattern that has zero draft angle on its walls?",
+        "What distinguishes the self-locking torque behavior of a worm gear drive from a reversible spur or lantern gear mechanism?",
+        "What measurement confirms that an architectural wall frame or structural bridge truss is truly square before the glue cures?",
+        "Where should a Scout position air vents and pouring gates on a two-part mold to prevent trapped air pockets during a casting pour?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Glossy surfaces create broad specular highlights that betray miniature toy scale, so film models use flat matte coats and subtle weathering.",
+          "misconception": "High-gloss paint makes a small special-effects spacecraft miniature look realistic and massive under bright studio camera lights."
+        },
+        {
+          "fact": "Effective studio models balance dense mechanical detail areas against smooth hull plating so the human eye can read the ship's silhouette.",
+          "misconception": "Covering every square inch of a spacecraft hull with random dense greebles makes the vessel look more believable on camera."
+        },
+        {
+          "fact": "Consistent scale across crew hatches, docking rings, and thrusters anchors the viewer's perception of the vessel's size in every shot.",
+          "misconception": "A fantasy spacecraft needs no consistent scale ratio because science-fiction vehicles do not exist in the real physical world."
+        },
+        {
+          "fact": "Filming miniatures require an internal rigid brass or aluminum armature anchored to the model's center of gravity to prevent flexing.",
+          "misconception": "Camera mounting pylons can be glued directly onto thin exterior styrene hull skins after the spacecraft assembly is completed."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which physical indicator on a studio miniature gives the camera viewer a clear sense of massive scale during a close-up pass?",
+        "What distinguishes the way matte paint finishes scatter studio key lights compared to high-gloss enamel on a small film miniature?",
+        "What measurement confirms that your spacecraft's internal mounting point aligns with its center of gravity on a camera pylon?",
+        "Under what condition does sealing internal fiber-optic or incandescent lighting inside a closed styrene hull warp the plastic?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Design firms, medical device teams, and architects still rely on physical prototypes to validate ergonomics, acoustics, and spatial feel.",
+          "misconception": "Computer-aided 3D rendering has completely eliminated the career role of physical prototype and architectural model makers."
+        },
+        {
+          "fact": "Many CAD technicians, CNC machinists, and shop modelmakers launch careers through two-year technical degrees, certificates, or apprenticeships.",
+          "misconception": "Every career in model fabrication and CAD drafting requires a four-year university degree before you can enter the workforce."
+        },
+        {
+          "fact": "Hiring managers value process documentation that shows scaled drawings, iterative material tests, and how the designer solved build errors.",
+          "misconception": "A professional modelmaker's portfolio should display only finished glamour photographs and hide rough sketches or failed test jigs."
+        },
+        {
+          "fact": "Scouting youth protection rules require parent or guardian permission before conducting any internet research or professional interview.",
+          "misconception": "A Scout may independently contact and interview an online industrial designer without getting parent or guardian permission first."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What measurement confirms whether an accredited industrial design or engineering degree program fits your long-term tuition budget?",
+        "What distinguishes the daily deliverables of an industrial product designer from those of a structural finite-element analyst?",
+        "Which physical indicator in a candidate's design portfolio proves mastery of both digital CAD modeling and hands-on shop fabrication?",
+        "Under what condition does a Scout have proper authorization to conduct a career research interview with a professional modelmaker?"
+      ],
+      "req_id": "6"
+    }
+  ]
+}

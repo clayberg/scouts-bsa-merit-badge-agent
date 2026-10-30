@@ -1,8 +1,8 @@
 # Bugling Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Music%20Bugling.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/bugling/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/bugling/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -17,7 +17,7 @@
 | **3** | Req 3: Performance of Standard Calls | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Bugling Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Purpose of Military Signals | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Bugling Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Bugle Care and Maintenance | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Bugling Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Troop Bugler Service Duties | Prepare | `Prerequisite / Home & Troop Prep` | **Post-Class Home-Troop Follow-Up** | Official Scouting America Bugling Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Troop Bugler Service Duties | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Bugling Merit Badge Pamphlet | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -25,7 +25,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Do the following: (a) Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to other brass wind instruments. (b) Compose a bugle call for your troop or patrol to signal a common group activity, such as assembling for mealtime or striking a campsite. Play the call that you have composed before your unit or patrol.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -163,9 +163,9 @@
 - **Pamphlet Fact:** The role demands active punctuality and consistent execution of calls across three months.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Bugling Merit Badge Pamphlet and Fillable Scout Workbook (Req 6: Troop Bugler Leadership Service)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Troop Bugler Leadership Service
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Bugling Merit Badge Pamphlet: Troop Bugler Leadership Service.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Troop Bugler Leadership Service.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A Scout plays the bugle on a scenic mountain overlook while fellow troop members stand at attention.](/assets/ai_illustrations/bugling_req_6_nano_hero.png)
 

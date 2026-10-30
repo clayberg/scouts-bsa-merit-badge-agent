@@ -1,8 +1,8 @@
 # Radio Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Radio.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/radio/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/radio/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -19,7 +19,11 @@
 | **5** | Req 5: Radio Station Hardware Architecture | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Radio Merit Badge Pamphlet (p. 27, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Telecommunications Spectrum Governance | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Radio Merit Badge Pamphlet (p. 10, p. 43) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Cellular Telecommunications Systems | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Radio Merit Badge Pamphlet (p. 32, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Operational Radio Specializations | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8a** | Amateur Radio: FCC Licenses, Q Signals, Transceivers & On-Air QSO | Describe | `In-Class Discussion` | **In-Class Demonstration** | Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8b** | Radio Broadcasting: FCC Rules, Program Logs & Station Schedule | Discuss | `In-Class Discussion` | **In-Class Demonstration** | Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8c** | Shortwave & Medium-Wave Radio: Day vs. Night Propagation Logs | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8d** | Radio Direction Finding (ARDF): Directional Antenna & Fox Hunt | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8e** | FRS & GMRS Walkie-Talkies: Channels, Etiquette & Field Use | Explain | `In-Class Discussion` | **In-Class Demonstration** | Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **9** | Req 9: Radio Careers and Public Service | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Radio Merit Badge Pamphlet (p. 85, p. 87) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
@@ -28,7 +32,11 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 8:** Amateur and Professional Radio. Do ONE of the following options: (a) Option A, Amateur Radio. Do ALL of the following: (1) Tell why the FCC has an amateur radio service. Describe activities that amateur radio operators can do on the air, once they have earned an amateur radio license. (2) Explain differences between the Technician, General, and Extra Class license requirements and privileges. Explain who administers amateur radio exams. (3) Explain at least five Q signals or amateur radio terms. (4) Explain how you would make an emergency call on voice or Morse code. Resources: How To Use Your VHF Marine Radio To Call for Help in a Boat Emergency (video) Ham Radio Disaster Messaging Demo (video) Using Ham Radio To Call for Help in an Emergency, What You Should Do! (video) (5) Explain the differences between handheld, mobile, and base station transceivers and their uses. Explain the use of amateur radio repeaters. (6) Using proper call signs, Q signals, and abbreviations, carry on a 10-minute real or simulated amateur radio contact using voice, Morse code, or digital mode. Properly log the real or simulated amateur radio contact, and record the signal report. Note: Licensed amateur radio operators may substitute five QSL cards as evidence of contacts with five amateur radio operators. (b) Option B, Radio Broadcasting. Do ALL of the following: (1) Discuss with your counselor FCC broadcast regulations. Include power levels, frequencies, and the regulations for low-power stations. (2) Prepare a program schedule for radio station "KBSA" of exactly one-half hour, including music, news, commercials, and proper station identification. Record your program on audiotape or in a digital audio format, using proper techniques. (3) Listen to and properly log 15 broadcast stations. Determine the program format and target audience for five of these stations. (4) Explain to your counselor at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote, Emergency Alert System, network, cue, dead air, PSA, and playlist. (5) Discuss with your counselor alternative radio platforms such as internet streaming, satellite radio, and podcasts. (c) Option C, Shortwave and Medium-Wave Listening. Do ALL of the following: (1) Listen across several shortwave bands for four one-hour periods-at least one period during daylight hours and at least one period at night. Log the stations properly and locate them geographically on a map, globe, or web-based mapping service. (2) Listen to several medium-wave stations for two one-hour periods, one period during daylight hours and one period at night. Log the stations properly and locate them on a map, globe, or web-based mapping service. (3) Compare your daytime and nighttime logs; note the frequencies on which your selected stations were loudest during each session. Explain differences in the signal strength from one period to the next. (4) Compare your medium-wave broadcast station logs and explain why some distant stations are heard at your location only during the night. (5) Demonstrate listening to a radio broadcast using a smartphone/cell phone. Include international broadcasts in your demonstration. (d) Option D, Amateur Radio Direction Finding. Do ALL of the following: (1) Describe amateur radio direction finding and explain why direction finding is important as both an activity and in competition. (2) Describe what frequencies and equipment are used for ARDF or fox hunting. (3) Build a simple directional antenna for either of the two frequencies used in ARDF. (4) Participate in a simple fox hunt using your antenna along with a provided receiver. (5) Show, on a map, how you located the "fox" using your receiver. (e) Option E, Family Radio Service (FRS) and General Mobile Radio Service (GMRS) Walkie Talkies. Do ALL of the following: (1) Explain what the Family Radio Service (FRS) and General Mobile Radio Service (GMRS) are and how they are different from each other, from other commercial two-way radios, and from Citizens Band (CB) and amateur radio (ham). (2) Explain each of the following for using a FRS radio or GMRS walkie talkie: (a) Is any type of license needed to use these radios? If so: what kind? (b) What radio frequencies are used and how is information encoded? (c) How much power can be used when transmitting? (d) What type of antenna can be used? (e) What is the effective range and what limits it? (f) What are common everyday uses for these radios? (g) How can these radios be useful in an emergency? (3) Use the FRS radios or GMRS walkie talkies with family, friends, or Scouts on a hike, at an event, or in a team game. Discuss what you learned with your counselor.
+- [ ] **Station Req 8a:** Scout must individually describe mastery of Requirement 8a to the Merit Badge Counselor.
+- [ ] **Station Req 8b:** Scout must individually discuss mastery of Requirement 8b to the Merit Badge Counselor.
+- [ ] **Station Req 8c:** Scout must individually explain mastery of Requirement 8c to the Merit Badge Counselor.
+- [ ] **Station Req 8d:** Scout must individually describe mastery of Requirement 8d to the Merit Badge Counselor.
+- [ ] **Station Req 8e:** Scout must individually explain mastery of Requirement 8e to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -534,20 +542,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Operational Radio Specializations
-**Official Requirement 8 (Parent Overview):** Amateur and Professional Radio. Do ONE of the following options: (a) Option A, Amateur Radio. Do ALL of the following: (1) Tell why the FCC has an amateur radio service. Describe activities that amateur radio operators can do on the air, once they have earned an amateur radio license. (2) Explain differences between the Technician, General, and Extra Class license requirements and privileges. Explain who administers amateur radio exams. (3) Explain at least five Q signals or amateur radio terms. (4) Explain how you would make an emergency call on voice or Morse code. Resources: How To Use Your VHF Marine Radio To Call for Help in a Boat Emergency (video) Ham Radio Disaster Messaging Demo (video) Using Ham Radio To Call for Help in an Emergency, What You Should Do! (video) (5) Explain the differences between handheld, mobile, and base station transceivers and their uses. Explain the use of amateur radio repeaters. (6) Using proper call signs, Q signals, and abbreviations, carry on a 10-minute real or simulated amateur radio contact using voice, Morse code, or digital mode. Properly log the real or simulated amateur radio contact, and record the signal report. Note: Licensed amateur radio operators may substitute five QSL cards as evidence of contacts with five amateur radio operators. (b) Option B, Radio Broadcasting. Do ALL of the following: (1) Discuss with your counselor FCC broadcast regulations. Include power levels, frequencies, and the regulations for low-power stations. (2) Prepare a program schedule for radio station "KBSA" of exactly one-half hour, including music, news, commercials, and proper station identification. Record your program on audiotape or in a digital audio format, using proper techniques. (3) Listen to and properly log 15 broadcast stations. Determine the program format and target audience for five of these stations. (4) Explain to your counselor at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote, Emergency Alert System, network, cue, dead air, PSA, and playlist. (5) Discuss with your counselor alternative radio platforms such as internet streaming, satellite radio, and podcasts. (c) Option C, Shortwave and Medium-Wave Listening. Do ALL of the following: (1) Listen across several shortwave bands for four one-hour periods-at least one period during daylight hours and at least one period at night. Log the stations properly and locate them geographically on a map, globe, or web-based mapping service. (2) Listen to several medium-wave stations for two one-hour periods, one period during daylight hours and one period at night. Log the stations properly and locate them on a map, globe, or web-based mapping service. (3) Compare your daytime and nighttime logs; note the frequencies on which your selected stations were loudest during each session. Explain differences in the signal strength from one period to the next. (4) Compare your medium-wave broadcast station logs and explain why some distant stations are heard at your location only during the night. (5) Demonstrate listening to a radio broadcast using a smartphone/cell phone. Include international broadcasts in your demonstration. (d) Option D, Amateur Radio Direction Finding. Do ALL of the following: (1) Describe amateur radio direction finding and explain why direction finding is important as both an activity and in competition. (2) Describe what frequencies and equipment are used for ARDF or fox hunting. (3) Build a simple directional antenna for either of the two frequencies used in ARDF. (4) Participate in a simple fox hunt using your antenna along with a provided receiver. (5) Show, on a map, how you located the "fox" using your receiver. (e) Option E, Family Radio Service (FRS) and General Mobile Radio Service (GMRS) Walkie Talkies. Do ALL of the following: (1) Explain what the Family Radio Service (FRS) and General Mobile Radio Service (GMRS) are and how they are different from each other, from other commercial two-way radios, and from Citizens Band (CB) and amateur radio (ham). (2) Explain each of the following for using a FRS radio or GMRS walkie talkie: (a) Is any type of license needed to use these radios? If so: what kind? (b) What radio frequencies are used and how is information encoded? (c) How much power can be used when transmitting? (d) What type of antenna can be used? (e) What is the effective range and what limits it? (f) What are common everyday uses for these radios? (g) How can these radios be useful in an emergency? (3) Use the FRS radios or GMRS walkie talkies with family, friends, or Scouts on a hike, at an event, or in a team game. Discuss what you learned with your counselor.
-**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Confirm transmitter output power does not exceed licensed regulatory boundaries or human radio frequency exposure thresholds.
-- **Common Myth:** Anyone can purchase a commercial shortwave transmitter and begin broadcasting voice programming without an FCC license.
-- **Pamphlet Fact:** Amateur radio operators earn Federal Communications Commission licenses by demonstrating electronic theory, radio safety, and telecommunications regulations mastery.
-
-**Official Pamphlet Summary:**
-- The FCC issues Technician, General, and Amateur Extra operator licenses through standardized testing examinations.
-- Ham radio operators provide independent emergency auxiliary communications during infrastructure power and cellular network failures.
-- Direction finding teams cross reference directional antenna compass bearings to pinpoint hidden radio transmitter locations.
-- Unlicensed FRS Bounds: Family Radio Service handheld radios operate on preprogrammed channels with fixed non detachable antennas strictly.
-
-### Req 8a: Amateur Radio Licensing
+### Amateur Radio: FCC Licenses, Q Signals, Transceivers & On-Air QSO
 **Official Requirement 8a (Parent Overview):** Option A, Amateur Radio. Do ALL of the following: (1) Tell why the FCC has an amateur radio service. Describe activities that amateur radio operators can do on the air, once they have earned an amateur radio license. (2) Explain differences between the Technician, General, and Extra Class license requirements and privileges. Explain who administers amateur radio exams. (3) Explain at least five Q signals or amateur radio terms. (4) Explain how you would make an emergency call on voice or Morse code. Resources: How To Use Your VHF Marine Radio To Call for Help in a Boat Emergency (video) Ham Radio Disaster Messaging Demo (video) Using Ham Radio To Call for Help in an Emergency, What You Should Do! (video) (5) Explain the differences between handheld, mobile, and base station transceivers and their uses. Explain the use of amateur radio repeaters. (6) Using proper call signs, Q signals, and abbreviations, carry on a 10-minute real or simulated amateur radio contact using voice, Morse code, or digital mode. Properly log the real or simulated amateur radio contact, and record the signal report. Note: Licensed amateur radio operators may substitute five QSL cards as evidence of contacts with five amateur radio operators.
 **Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Group Organizer:** 2-Column Comparison Table
 > **Guide to Safe Scouting Warning:** Confirm transmitter output power does not exceed licensed regulatory boundaries or human radio frequency exposure thresholds.
@@ -555,8 +550,12 @@
 - **Pamphlet Fact:** Technician license examinations test radio operating regulations, basic electronics, and radio frequency station safety rules.
 
 **Official Pamphlet Summary:**
-- Amateur radio exists to advance technical radio skills, train volunteer emergency communicators, and promote international goodwill. Licensed operators build personal stations, communicate worldwide via HF skywaves, bounce signals off satellites, and provide storm spotting communications.
-- Req 8a Standard (Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)): Option A, Amateur Radio. Do ALL of the following: (1) Tell why the FCC has an amateur radio service. Describe activities that amateur radio operators can do on the air, once they have earned an amateur radio license. (2) Explain differences between the Technician, General, and Extra Class license requirements and privileges. Explain who administers amateur radio exams. (3) Explain at least five Q signals or amateur radio terms. (4) Explain how you would make an emergency call on voice or Morse code. Resources: How To Use Your VHF Marine Radio To Call for Help in a Boat Emergency (video) Ham Radio Disaster Messaging Demo (video) Using Ham Radio To Call for Help in an Emergency, What You Should Do! (video) (5) Explain the differences between handheld, mobile, and base station transceivers and their uses. Explain the use of amateur radio repeaters. (6) Using proper call signs, Q signals, and abbreviations, carry on a 10-minute real or simulated amateur radio contact using voice, Morse code, or digital mode. Properly log the real or simulated amateur radio contact, and record the signal report. Note: Licensed amateur radio operators may substitute five QSL cards as evidence of contacts with five amateur radio operators.
+- Req 8a(1) (1): Tell why the FCC has an amateur radio service. Describe activities that amateur radio operators can do on the air, once they have earned an amateur radio license.
+- Req 8a(2) (2): Explain differences between the Technician, General, and Extra Class license requirements and privileges. Explain who administers amateur radio exams.
+- Req 8a(3) (3): Explain at least five Q signals or amateur radio terms.
+- Req 8a(4) (4): Explain how you would make an emergency call on voice or Morse code. Resources: How To Use Your VHF Marine Radio To Call for Help in a Boat Emergency (video) Ham Radio Disaster Messaging Demo (video) Using Ham Radio To Call for Help in an Emergency, What You Should Do! (video)
+- Req 8a(5) (5): Explain the differences between handheld, mobile, and base station transceivers and their uses. Explain the use of amateur radio repeaters.
+- Req 8a(6) (6): Using proper call signs, Q signals, and abbreviations, carry on a 10-minute real or simulated amateur radio contact using voice, Morse code, or digital mode. Properly log the real or simulated amateur radio contact, and record the signal report. Note: Licensed amateur radio operators may substitute five QSL cards as evidence of contacts with five amateur radio operators.
 
 #### Req 8a(1): Amateur Radio Purpose and Activities
 **Official Requirement 8a(1):** Tell why the FCC has an amateur radio service. Describe activities that amateur radio operators can do on the air, once they have earned an amateur radio license.
@@ -564,7 +563,7 @@
 - **Common Myth:** Amateur radio exists merely as an unregulated playground for casual chatters without formal rules.
 - **Pamphlet Fact:** The FCC establishes clear statutory objectives in Part 97 rules to maintain amateur radio as a trained public service and technical reserve.
 
-![Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.](/assets/ai_illustrations/radio_req_8_nano_hero.png)
+![Careers and Professional Pathways procedures and verification checkpoints for Radio Requirement 8.](/assets/ai_illustrations/radio_req_8_topic_visual.png)
 
 | Req 8a(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -639,15 +638,19 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8b: Commercial Radio Broadcasting
+### Radio Broadcasting: FCC Rules, Program Logs & Station Schedule
 **Official Requirement 8b (Parent Overview):** Option B, Radio Broadcasting. Do ALL of the following: (1) Discuss with your counselor FCC broadcast regulations. Include power levels, frequencies, and the regulations for low-power stations. (2) Prepare a program schedule for radio station "KBSA" of exactly one-half hour, including music, news, commercials, and proper station identification. Record your program on audiotape or in a digital audio format, using proper techniques. (3) Listen to and properly log 15 broadcast stations. Determine the program format and target audience for five of these stations. (4) Explain to your counselor at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote, Emergency Alert System, network, cue, dead air, PSA, and playlist. (5) Discuss with your counselor alternative radio platforms such as internet streaming, satellite radio, and podcasts.
 **Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Group Organizer:** Activity & Observation Log
+> **Guide to Safe Scouting Warning:** Confirm transmitter output power does not exceed licensed regulatory boundaries or human radio frequency exposure thresholds.
 - **Common Myth:** Low power community FM radio stations are legally permitted to operate without any FCC licensing authorization.
 - **Pamphlet Fact:** Commercial broadcast stations operate under strict FCC frequency, power output, audio modulation, and tower illumination licensing standards.
 
 **Official Pamphlet Summary:**
-- Radio broadcasting involves transmitting audio programming to the general public over assigned AM and FM channels. Stations must adhere to stringent FCC regulations regarding carrier frequency tolerance, maximum effective radiated power, and automated Emergency Alert System equipment.
-- Req 8b Standard (Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)): Option B, Radio Broadcasting. Do ALL of the following: (1) Discuss with your counselor FCC broadcast regulations. Include power levels, frequencies, and the regulations for low-power stations. (2) Prepare a program schedule for radio station "KBSA" of exactly one-half hour, including music, news, commercials, and proper station identification. Record your program on audiotape or in a digital audio format, using proper techniques. (3) Listen to and properly log 15 broadcast stations. Determine the program format and target audience for five of these stations. (4) Explain to your counselor at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote, Emergency Alert System, network, cue, dead air, PSA, and playlist. (5) Discuss with your counselor alternative radio platforms such as internet streaming, satellite radio, and podcasts.
+- Req 8b(1) (1): Discuss with your counselor FCC broadcast regulations. Include power levels, frequencies, and the regulations for low-power stations.
+- Req 8b(2) (2): Prepare a program schedule for radio station "KBSA" of exactly one-half hour, including music, news, commercials, and proper station identification. Record your program on audiotape or in a digital audio format, using proper techniques.
+- Req 8b(3) (3): Listen to and properly log 15 broadcast stations. Determine the program format and target audience for five of these stations.
+- Req 8b(4) (4): Explain to your counselor at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote, Emergency Alert System, network, cue, dead air, PSA, and playlist.
+- Req 8b(5) (5): Discuss with your counselor alternative radio platforms such as internet streaming, satellite radio, and podcasts.
 
 #### Req 8b(1): Federal Broadcast Station Regulations
 **Official Requirement 8b(1):** Discuss with your counselor FCC broadcast regulations. Include power levels, frequencies, and the regulations for low-power stations.
@@ -714,15 +717,19 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8c: Shortwave Signal Monitoring
+### Shortwave & Medium-Wave Radio: Day vs. Night Propagation Logs
 **Official Requirement 8c (Parent Overview):** Option C, Shortwave and Medium-Wave Listening. Do ALL of the following: (1) Listen across several shortwave bands for four one-hour periods-at least one period during daylight hours and at least one period at night. Log the stations properly and locate them geographically on a map, globe, or web-based mapping service. (2) Listen to several medium-wave stations for two one-hour periods, one period during daylight hours and one period at night. Log the stations properly and locate them on a map, globe, or web-based mapping service. (3) Compare your daytime and nighttime logs; note the frequencies on which your selected stations were loudest during each session. Explain differences in the signal strength from one period to the next. (4) Compare your medium-wave broadcast station logs and explain why some distant stations are heard at your location only during the night. (5) Demonstrate listening to a radio broadcast using a smartphone/cell phone. Include international broadcasts in your demonstration.
 **Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Group Organizer:** 2-Column Comparison Table
+> **Guide to Safe Scouting Warning:** Confirm transmitter output power does not exceed licensed regulatory boundaries or human radio frequency exposure thresholds.
 - **Common Myth:** Standard household AM radio receivers can tune across international shortwave broadcast bands without specialized hardware.
 - **Pamphlet Fact:** Shortwave international stations transmit on high frequencies between three and thirty megahertz, while medium wave AM spans below seventeen hundred kilohertz.
 
 **Official Pamphlet Summary:**
-- Shortwave listening allows enthusiasts to tune in international news broadcasts, time standard stations, and utility transmissions across the HF spectrum. Medium wave AM broadcast listening focuses on night skywave reception of distant domestic radio stations.
-- Req 8c Standard (Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)): Option C, Shortwave and Medium-Wave Listening. Do ALL of the following: (1) Listen across several shortwave bands for four one-hour periods-at least one period during daylight hours and at least one period at night. Log the stations properly and locate them geographically on a map, globe, or web-based mapping service. (2) Listen to several medium-wave stations for two one-hour periods, one period during daylight hours and one period at night. Log the stations properly and locate them on a map, globe, or web-based mapping service. (3) Compare your daytime and nighttime logs; note the frequencies on which your selected stations were loudest during each session. Explain differences in the signal strength from one period to the next. (4) Compare your medium-wave broadcast station logs and explain why some distant stations are heard at your location only during the night. (5) Demonstrate listening to a radio broadcast using a smartphone/cell phone. Include international broadcasts in your demonstration.
+- Req 8c(1) (1): Listen across several shortwave bands for four one-hour periods-at least one period during daylight hours and at least one period at night. Log the stations properly and locate them geographically on a map, globe, or web-based mapping service.
+- Req 8c(2) (2): Listen to several medium-wave stations for two one-hour periods, one period during daylight hours and one period at night. Log the stations properly and locate them on a map, globe, or web-based mapping service.
+- Req 8c(3) (3): Compare your daytime and nighttime logs; note the frequencies on which your selected stations were loudest during each session. Explain differences in the signal strength from one period to the next.
+- Req 8c(4) (4): Compare your medium-wave broadcast station logs and explain why some distant stations are heard at your location only during the night.
+- Req 8c(5) (5): Demonstrate listening to a radio broadcast using a smartphone/cell phone. Include international broadcasts in your demonstration.
 
 #### Req 8c(1): Shortwave Band Monitoring and Logging
 **Official Requirement 8c(1):** Listen across several shortwave bands for four one-hour periods-at least one period during daylight hours and at least one period at night. Log the stations properly and locate them geographically on a map, globe, or web-based mapping service.
@@ -804,21 +811,27 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8d: Radio Direction Finding
+### Radio Direction Finding (ARDF): Directional Antenna & Fox Hunt
 **Official Requirement 8d (Parent Overview):** Option D, Amateur Radio Direction Finding. Do ALL of the following: (1) Describe amateur radio direction finding and explain why direction finding is important as both an activity and in competition. (2) Describe what frequencies and equipment are used for ARDF or fox hunting. (3) Build a simple directional antenna for either of the two frequencies used in ARDF. (4) Participate in a simple fox hunt using your antenna along with a provided receiver. (5) Show, on a map, how you located the "fox" using your receiver.
 **Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Group Organizer:** Skill Demonstration Checklist
+> **Guide to Safe Scouting Warning:** Confirm transmitter output power does not exceed licensed regulatory boundaries or human radio frequency exposure thresholds.
 - **Common Myth:** Radio direction finding equipment indicates the exact distance in miles to a hidden transmitter instantly on screen.
 - **Pamphlet Fact:** Plotting compass bearings from two distinct receiving points creates intersecting lines that pinpoint the exact transmitter position.
 
 **Official Pamphlet Summary:**
-- Amateur Radio Direction Finding combines radio monitoring skills with wilderness orienteering to locate hidden radio transmitters. Operators use directional antennas, attenuators, and topographic compass bearings to track down search and rescue beacons or rogue transmitters.
-- Req 8d Standard (Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)): Option D, Amateur Radio Direction Finding. Do ALL of the following: (1) Describe amateur radio direction finding and explain why direction finding is important as both an activity and in competition. (2) Describe what frequencies and equipment are used for ARDF or fox hunting. (3) Build a simple directional antenna for either of the two frequencies used in ARDF. (4) Participate in a simple fox hunt using your antenna along with a provided receiver. (5) Show, on a map, how you located the "fox" using your receiver.
+- Req 8d(1) (1): Describe amateur radio direction finding and explain why direction finding is important as both an activity and in competition.
+- Req 8d(2) (2): Describe what frequencies and equipment are used for ARDF or fox hunting.
+- Req 8d(3) (3): Build a simple directional antenna for either of the two frequencies used in ARDF.
+- Req 8d(4) (4): Participate in a simple fox hunt using your antenna along with a provided receiver.
+- Req 8d(5) (5): Show, on a map, how you located the "fox" using your receiver.
 
 #### Req 8d(1): Amateur Radio Direction Finding Applications
 **Official Requirement 8d(1):** Describe amateur radio direction finding and explain why direction finding is important as both an activity and in competition.
 **Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8d(1) Structured Technical Study & Explanation Matrix (Amateur Radio Direction Finding)
 - **Common Myth:** Radio direction finding is only an outdoor sporting game with no practical utility in emergency situations.
 - **Pamphlet Fact:** Direction finding techniques are identical to those employed by search and rescue teams tracking emergency locator transmitters from missing aircraft or boaters.
+
+![Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.](/assets/ai_illustrations/radio_req_8_nano_hero.png)
 
 | Req 8d(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -882,15 +895,18 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8e: Personal Radio Services
+### FRS & GMRS Walkie-Talkies: Channels, Etiquette & Field Use
 **Official Requirement 8e (Parent Overview):** Option E, Family Radio Service (FRS) and General Mobile Radio Service (GMRS) Walkie Talkies. Do ALL of the following: (1) Explain what the Family Radio Service (FRS) and General Mobile Radio Service (GMRS) are and how they are different from each other, from other commercial two-way radios, and from Citizens Band (CB) and amateur radio (ham). (2) Explain each of the following for using a FRS radio or GMRS walkie talkie: (a) Is any type of license needed to use these radios? If so: what kind? (b) What radio frequencies are used and how is information encoded? (c) How much power can be used when transmitting? (d) What type of antenna can be used? (e) What is the effective range and what limits it? (f) What are common everyday uses for these radios? (g) How can these radios be useful in an emergency? (3) Use the FRS radios or GMRS walkie talkies with family, friends, or Scouts on a hike, at an event, or in a team game. Discuss what you learned with your counselor.
 **Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Group Organizer:** Concept & Examples Notes
+> **Guide to Safe Scouting Warning:** Confirm transmitter output power does not exceed licensed regulatory boundaries or human radio frequency exposure thresholds.
 - **Common Myth:** Family Radio Service and General Mobile Radio Service walkie talkies operate under identical licensing and hardware requirements.
 - **Pamphlet Fact:** FRS walkie talkies require fixed antennas and low power, while GMRS permits higher transmission power and detachable antennas.
 
 **Official Pamphlet Summary:**
-- Family Radio Service allows license free short range communications using low power handheld walkie talkies with integrated antennas. General Mobile Radio Service requires an FCC family license but permits higher power levels, external antennas, and repeater systems.
-- Req 8e Standard (Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)): Option E, Family Radio Service (FRS) and General Mobile Radio Service (GMRS) Walkie Talkies. Do ALL of the following: (1) Explain what the Family Radio Service (FRS) and General Mobile Radio Service (GMRS) are and how they are different from each other, from other commercial two-way radios, and from Citizens Band (CB) and amateur radio (ham). (2) Explain each of the following for using a FRS radio or GMRS walkie talkie: (a) Is any type of license needed to use these radios? If so: what kind? (b) What radio frequencies are used and how is information encoded? (c) How much power can be used when transmitting? (d) What type of antenna can be used? (e) What is the effective range and what limits it? (f) What are common everyday uses for these radios? (g) How can these radios be useful in an emergency? (3) Use the FRS radios or GMRS walkie talkies with family, friends, or Scouts on a hike, at an event, or in a team game. Discuss what you learned with your counselor.
+- Req 8e(1) (1): Explain what the Family Radio Service (FRS) and General Mobile Radio Service (GMRS) are and how they are different from each other, from other commercial two-way radios, and from Citizens Band (CB) and amateur radio (ham)
+- Req 8e(2) (2): Explain each of the following for using a FRS radio or GMRS walkie talkie: (a) Is any type of license needed to use these radios? If so: what kind? (b) What radio frequencies are used and how is information encoded? (c) How much power can be used when transmitting? (d) What type of antenna can be used? (e) What is the effective range and what limits it? (f) What are common everyday uses for these radios? (g) How can these radios be useful in an emergency. (a) Is any type of license needed to use these radios? If so: what kind. (b) What radio frequencies are used and how is information encoded. (c) How much power can be used when transmitting. (d) What type of antenna can be used. (e) What is the effective range and what limits. (f) What are common everyday uses for these radios. (g) How can these radios be useful in an emergency.
+- Req 8e(3) (3): Use the FRS radios or GMRS walkie talkies with family, friends, or Scouts on a hike, at an event, or in a team game. Discuss what you learned with your counselor.
+- Lake Orstream Dictate: You may also need to go around a lake orstream, and this will dictate your route.
 
 #### Req 8e(1): Personal Radio Service Classifications
 **Official Requirement 8e(1):** Explain what the Family Radio Service (FRS) and General Mobile Radio Service (GMRS) are and how they are different from each other, from other commercial two-way radios, and from Citizens Band (CB) and amateur radio (ham)
@@ -906,21 +922,98 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8e(2): Personal Radio Technical Specifications
-**Official Requirement 8e(2):** Explain each of the following for using a FRS radio or GMRS walkie talkie: (a) Is any type of license needed to use these radios? If so: what kind? (b) What radio frequencies are used and how is information encoded? (c) How much power can be used when transmitting? (d) What type of antenna can be used? (e) What is the effective range and what limits it? (f) What are common everyday uses for these radios? (g) How can these radios be useful in an emergency. (a) Is any type of license needed to use these radios? If so: what kind. (b) What radio frequencies are used and how is information encoded. (c) How much power can be used when transmitting. (d) What type of antenna can be used. (e) What is the effective range and what limits. (f) What are common everyday uses for these radios. (g) How can these radios be useful in an emergency.
-**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8e(2) Structured Technical Study & Explanation Matrix (Radio or GMRS Walkie Talkie)
+### Req 8e(2): Personal Radio Technical Specifications
+**Official Requirement 8e(2) (Parent Overview):** Explain each of the following for using a FRS radio or GMRS walkie talkie: (a) Is any type of license needed to use these radios? If so: what kind? (b) What radio frequencies are used and how is information encoded? (c) How much power can be used when transmitting? (d) What type of antenna can be used? (e) What is the effective range and what limits it? (f) What are common everyday uses for these radios? (g) How can these radios be useful in an emergency.
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Group Organizer:** Concept & Examples Notes
 - **Common Myth:** Any handheld walkie-talkie purchased in a store can legally transmit at maximum power on all twenty-two channels.
 - **Pamphlet Fact:** FCC regulations restrict transmission power to half a watt on channels eight through fourteen and mandate fixed antennas on all dedicated FRS units.
 
-| Req 8e(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+**Official Pamphlet Summary:**
+- Personal walkie-talkie rules govern licensing protocols, operating frequencies, voice modulation methods, transmitter power limits, and antenna configurations. FRS and GMRS share twenty-two channels in the 462 and 467 megahertz UHF band using frequency modulation, but GMRS permits up to fifty watts and external antennas on certain channels (p. 78).
+- Req 8e(2) Standard (Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)): Explain each of the following for using a FRS radio or GMRS walkie talkie: (a) Is any type of license needed to use these radios? If so: what kind? (b) What radio frequencies are used and how is information encoded? (c) How much power can be used when transmitting? (d) What type of antenna can be used? (e) What is the effective range and what limits it? (f) What are common everyday uses for these radios? (g) How can these radios be useful in an emergency.
+
+#### Req 8e(2)(a): Personal Radio Licensing Requirements
+**Official Requirement 8e(2)(a):** Is any type of license needed to use these radios? If so: what kind.
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8e(2)(a) Structured Technical Study & Explanation Matrix (License Needed to Use These)
+- **Common Myth:** Operating a GMRS walkie-talkie requires passing a written technical Morse code or radio theory exam.
+- **Pamphlet Fact:** An FCC GMRS license requires only an application and fee payment, with no technical examination required, and extends coverage to the licensee's entire immediate family.
+
+| Req 8e(2)(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **(a) Is any type of license needed to use these radios? If so: what kind.** | `____________________________________` | `____________________________________` |
-| **(b) What radio frequencies are used and how is information encoded.** | `____________________________________` | `____________________________________` |
-| **(c) How much power can be used when transmitting.** | `____________________________________` | `____________________________________` |
-| **(d) What type of antenna can be used.** | `____________________________________` | `____________________________________` |
-| **(e) What is the effective range and what limits.** | `____________________________________` | `____________________________________` |
-| **(f) What are common everyday uses for these radios.** | `____________________________________` | `____________________________________` |
-| **(g) How can these radios be useful in an emergency.** | `____________________________________` | `____________________________________` |
+| **1. Is any type of license needed to use these radios?** | `____________________________________` | `____________________________________` |
+| **2. If so: what kind.** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 8e(2)(b): UHF Frequencies and Voice Modulation
+**Official Requirement 8e(2)(b):** What radio frequencies are used and how is information encoded.
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8e(2)(b) Structured Technical Study & Explanation Matrix (Radio Frequencies)
+- **Common Myth:** Handheld walkie-talkies encode voice conversations using amplitude modulation across open citizens band AM channels.
+- **Pamphlet Fact:** FRS and GMRS handheld units operate in the 462 to 467 megahertz UHF spectrum using narrowband frequency modulation to transmit audio.
+
+| Req 8e(2)(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. What radio frequencies are used and how is information encoded** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 8e(2)(c): Transmitter Output Power Regulatory Limits
+**Official Requirement 8e(2)(c):** How much power can be used when transmitting.
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8e(2)(c) Structured Technical Study & Explanation Matrix (Much Power)
+- **Common Myth:** Users can legally boost handheld walkie-talkie transmit power to twenty watts to reach further across backcountry terrain.
+- **Pamphlet Fact:** FCC rules cap license-free FRS radios at two watts on primary channels and one-half watt on interstitial channels to prevent interference.
+
+| Req 8e(2)(c) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. How much power can be used when transmitting** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 8e(2)(d): Permissible Walkie Talkie Antenna Types
+**Official Requirement 8e(2)(d):** What type of antenna can be used.
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8e(2)(d) Structured Technical Study & Explanation Matrix (Antenna Used)
+- **Common Myth:** Any handheld radio antenna can be unscrewed and replaced with an external high-gain whip to boost transmission distance.
+- **Pamphlet Fact:** Federal regulations mandate that FRS antennas must remain permanently attached, while GMRS equipment permits detachable external antennas.
+
+| Req 8e(2)(d) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. What type of antenna can be used** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 8e(2)(e): Effective Operating Range and Limitations
+**Official Requirement 8e(2)(e):** What is the effective range and what limits.
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8e(2)(e) Structured Technical Study & Explanation Matrix (Effective Range and What Limits)
+- **Common Myth:** Walkie-talkies advertised with a thirty-six-mile range reliably communicate across that distance anywhere in wilderness or city parks.
+- **Pamphlet Fact:** Realistic walkie-talkie range at ground level is usually under two miles because terrain, foliage, and structures block line-of-sight UHF signals.
+
+| Req 8e(2)(e) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. What is the effective range and what limits** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 8e(2)(f): Routine Everyday Radio Communication
+**Official Requirement 8e(2)(f):** What are common everyday uses for these radios.
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8e(2)(f) Structured Technical Study & Explanation Matrix (Are Common Everyday)
+- **Common Myth:** Walkie-talkies are only useful for specialized military combat units or licensed commercial security guards.
+- **Pamphlet Fact:** Families and community groups routinely use personal radios for short-range voice communication at campgrounds, hiking trails, and community events.
+
+| Req 8e(2)(f) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. What are common everyday uses for these radios** | `____________________________________` | `____________________________________` |
+
+**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+
+#### Req 8e(2)(g): Emergency Response Personal Radio Utility
+**Official Requirement 8e(2)(g):** How can these radios be useful in an emergency.
+**Source:** *Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)* • **Organizer (Concept & Examples Notes):** Req 8e(2)(g) Structured Technical Study & Explanation Matrix (Can These Radios Be Useful)
+- **Common Myth:** Handheld walkie-talkies become useless during severe natural disasters because local cell towers and commercial internet services are offline.
+- **Pamphlet Fact:** Personal radios communicate directly from unit to unit without needing cell towers or internet infrastructure, making them dependable when commercial networks crash.
+
+| Req 8e(2)(g) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. How can these radios be useful in an emergency** | `____________________________________` | `____________________________________` |
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 

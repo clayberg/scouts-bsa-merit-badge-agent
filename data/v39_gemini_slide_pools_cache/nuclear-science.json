@@ -1,0 +1,221 @@
+{
+  "badge_slug": "nuclear-science",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Microwaves and radio waves are nonionizing radiation with photon energies too low to eject electrons from atoms.",
+          "misconception": "Microwave ovens and cell phones emit ionizing radiation that strips electrons directly from human DNA."
+        },
+        {
+          "fact": "ALARA keeps exposure as low as reasonably achievable using time, distance, and shielding while accounting for background dose.",
+          "misconception": "The ALARA principle guarantees zero radiation exposure during nuclear science experiments and lab visits."
+        },
+        {
+          "fact": "External gamma or X-ray irradiation passes through matter without leaving radioactive contamination on your body or gear.",
+          "misconception": "Exposure to gamma rays from a sealed check source makes your clothing and skin permanently radioactive."
+        },
+        {
+          "fact": "The radiation symbol marks any area, container, or device where ionizing radiation sources or X-ray equipment are present.",
+          "misconception": "The yellow and magenta trefoil symbol warns only against lethal nuclear weapons and reactor meltdowns."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to an atom's orbital electrons when struck by ionizing radiation versus visible light?",
+        "Why does doubling your distance from a point source cut your radiation exposure rate to one-fourth?",
+        "Where must the magenta or black three-bladed radiation trefoil symbol be posted in a laboratory?",
+        "Which three physical factors do you control under the ALARA principle to minimize your total dose?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "All isotopes of an element share the exact same proton count and chemical identity, differing only in neutron number.",
+          "misconception": "Isotopes of the same chemical element have different numbers of protons and occupy different periodic table boxes."
+        },
+        {
+          "fact": "Protons and neutrons are composite hadrons built from three valence up and down quarks bound by strong-force gluons.",
+          "misconception": "Protons and neutrons are indivisible elementary particles just like orbital electrons."
+        },
+        {
+          "fact": "Both gamma rays and X-rays are massless electromagnetic photons; gamma rays originate in the nucleus and X-rays in electron shells.",
+          "misconception": "Gamma rays and X-rays are made of heavy charged particles ejected from the outer electron shells."
+        },
+        {
+          "fact": "Most light elements have stable isotopes with balanced neutron-to-proton ratios that never undergo spontaneous decay.",
+          "misconception": "Every isotope of a natural element on the periodic table is unstable and undergoes radioactive decay."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What changes inside the nucleus across three isotopes of carbon while the atomic number stays at six?",
+        "Which combinations of up and down quarks form a positively charged proton versus a neutral neutron?",
+        "What distinguishes the origin of a gamma ray from an X-ray if both are high-energy photons?",
+        "Under what neutron-to-proton ratio condition does an atomic nucleus become unstable and decay?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Magnetic fields only steer and focus the particle beam in a circle, while alternating electric fields add kinetic energy.",
+          "misconception": "Static magnetic fields in a circular accelerator increase the speed and kinetic energy of charged particles."
+        },
+        {
+          "fact": "Relativistic particles approach the speed of light asymptotically, gaining momentum and relativistic energy rather than exceeding c.",
+          "misconception": "Particle accelerators can push protons and electrons well past the speed of light in a vacuum."
+        },
+        {
+          "fact": "Gas molecules scatter and stop the particle beam, so accelerator tubes require an ultra-high vacuum cleaner than outer space.",
+          "misconception": "Air inside an accelerator beam tube helps cool the particles as they travel around the ring."
+        },
+        {
+          "fact": "Hospitals and industry use compact linear accelerators and cyclotrons daily to treat cancer and produce medical radioisotopes.",
+          "misconception": "Linear accelerators and cyclotrons are used exclusively for high-energy theoretical quark research."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What role do oscillating radio-frequency electric fields play versus superconducting dipole magnets?",
+        "Why must the beam pipe inside a synchrotron or linear accelerator be pumped down to an ultra-high vacuum?",
+        "What happens to the magnetic field strength in a synchrotron as accelerated protons gain relativistic energy?",
+        "Which detector measurements allow physicists to reconstruct short-lived particles created in a collision?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Ionizing radiation creates positive and negative air ions that neutralize the static electric charge stored on the foil leaves.",
+          "misconception": "Radiation discharges a foil electroscope by physically blowing the metal leaves together with particle wind."
+        },
+        {
+          "fact": "Cloud chamber tracks are tiny droplets of alcohol condensing along the trail of ions left behind by passing charged particles.",
+          "misconception": "The white trails inside a cloud chamber are the subatomic alpha and beta particles glowing in the dark."
+        },
+        {
+          "fact": "Backscattered alpha particles proved that almost all atomic mass and positive charge sit in a tiny, dense central nucleus.",
+          "misconception": "Rutherford's gold foil experiment proved that positive charge is spread evenly throughout a solid atom."
+        },
+        {
+          "fact": "Scouts BSA safety rules require a qualified adult to handle, store, and position all radioactive sources during experiments.",
+          "misconception": "Scouts may freely carry unsealed radioactive sources in their pockets to test homemade electroscopes."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why do the charged foil leaves of an electroscope collapse when an ionizing source is held nearby?",
+        "What visual differences distinguish thick alpha tracks from thin, erratic beta tracks in a cloud chamber?",
+        "Why does a cloud chamber require a layer of supersaturated alcohol vapor cooled over dry ice?",
+        "Who is required to handle and position the radioactive check source during your Merit Badge experiments?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Every functional survey meter registers natural background radiation from cosmic rays and terrestrial radionuclides in soil and rock.",
+          "misconception": "A Geiger counter clicking in an empty room with no check sources nearby indicates a broken detector tube."
+        },
+        {
+          "fact": "Paper stops heavy, doubly charged alpha particles, whereas beta particles require plastic or aluminum and gamma rays require lead.",
+          "misconception": "A single sheet of notebook paper shields a survey meter probe against beta particles and gamma rays."
+        },
+        {
+          "fact": "Point-source radiation intensity obeys the inverse-square law, so tripling your distance drops the net count rate to one-ninth.",
+          "misconception": "Moving three times farther from a small gamma check source reduces the measured count rate by one-third."
+        },
+        {
+          "fact": "Thinner air at high altitudes provides less atmospheric shielding, resulting in higher cosmic radiation doses on mountains and flights.",
+          "misconception": "Natural background radiation is identical at sea level, on a high mountain peak, and inside a commercial jet."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What measurement must you record with your Geiger counter before bringing any test source near the probe?",
+        "Why does a thin sheet of paper stop alpha particles completely while gamma rays pass right through it?",
+        "What happens to the net counts per minute when you move the detector probe from two centimeters to six?",
+        "Why does indoor radon gas pose a long-term health hazard when it seeps into an unventilated basement?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Reactor fuel is enriched to only three to five percent uranium-235, which makes a nuclear weapons detonation physically impossible.",
+          "misconception": "A commercial nuclear power plant can detonate like an atomic bomb if the cooling water pumps fail."
+        },
+        {
+          "fact": "The moderator slows fast neutrons down to thermal speeds so they are more likely to cause fission in uranium-235 nuclei.",
+          "misconception": "The moderator in a pressurized water reactor absorbs extra neutrons to shut down the chain reaction."
+        },
+        {
+          "fact": "Fission heat boils water into high-pressure steam that spins a mechanical turbine coupled to an electromagnetic generator.",
+          "misconception": "Nuclear reactors convert ionizing gamma radiation directly into alternating current inside the reactor vessel."
+        },
+        {
+          "fact": "Cooling towers emit only clean, nonradioactive water vapor from the secondary condenser loop to reject waste thermal heat.",
+          "misconception": "The tall hyperboloid cooling towers at a nuclear station release clouds of radioactive smoke into the sky."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What role do the ping-pong balls and mousetraps represent in a nuclear fission chain reaction model?",
+        "Why must a thermal reactor use a water or graphite moderator to slow down freshly emitted fission neutrons?",
+        "What happens to the reactor power level when boron or cadmium control rods are lowered into the fuel core?",
+        "Which energy conversions transform the kinetic energy of fission fragments into electrical power on the grid?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Medical imaging tracers use isotopes with half-lives of hours so activity decays quickly after the diagnostic scan finishes.",
+          "misconception": "Diagnostic nuclear medicine uses radioisotopes with thousand-year half-lives so doctors have weeks to scan."
+        },
+        {
+          "fact": "Irradiation passes gamma rays or electron beams through sealed food to kill bacteria and pests without making the food radioactive.",
+          "misconception": "Food irradiation sterilizes produce and spices by mixing radioactive dust into the packaging."
+        },
+        {
+          "fact": "Spacecraft RTGs contain no moving parts or fission chain reactions; thermocouples convert natural plutonium-238 decay heat into electricity.",
+          "misconception": "Deep-space radioisotope thermoelectric generators use a miniature nuclear fission reactor with control rods."
+        },
+        {
+          "fact": "Carbon-14 has a 5,730-year half-life, limiting radiocarbon dating to organic remains younger than roughly 50,000 years.",
+          "misconception": "Carbon-14 radiocarbon dating accurately measures the age of billion-year-old volcanic rocks and dinosaurs."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why do physicians choose short-lived gamma emitters like technetium-99m for diagnostic medical imaging?",
+        "What property of americium-241 alpha emissions enables a household ionization smoke detector to sense fire?",
+        "Why do deep-space probes bound for the outer planets rely on plutonium-238 radioisotope thermoelectric generators?",
+        "Which targeting techniques allow radiation therapy beams to destroy a deep tumor while sparing healthy tissue?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Nuclear careers span associate-degree radiation technicians, bachelor-level reactor engineers, and hospital imaging technologists.",
+          "misconception": "Every career in nuclear science requires a doctoral degree in theoretical physics and works at a weapon lab."
+        },
+        {
+          "fact": "Strict shielding and dosimetry controls keep average nuclear plant worker doses lower than those of flight crews and interventional staff.",
+          "misconception": "Nuclear power plant workers routinely receive higher annual radiation doses than medical staff or airline crews."
+        },
+        {
+          "fact": "Reactor operators must complete years of plant-specific training and pass rigorous Nuclear Regulatory Commission licensing exams.",
+          "misconception": "Any licensed mechanical engineer can operate the control room of a commercial nuclear power station."
+        },
+        {
+          "fact": "Health physicists are radiation safety scientists who monitor dosimetry, design shielding, and enforce regulatory exposure limits.",
+          "misconception": "Health physicists are medical doctors who perform surgery on patients in hospital emergency rooms."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What daily safety responsibilities distinguish a plant health physicist from a licensed reactor operator?",
+        "Why must a commercial nuclear reactor operator pass federal NRC licensing exams and simulator drills?",
+        "Which clinical certifications and degree paths are required to work as a hospital medical physicist?",
+        "What personal dosimetry devices must nuclear facility workers wear and log during every shift?"
+      ],
+      "req_id": "8"
+    }
+  ]
+}

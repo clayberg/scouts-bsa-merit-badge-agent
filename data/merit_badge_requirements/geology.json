@@ -72,9 +72,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Earth rocks formed through catastrophic, unrepeatable events unlike modern surface processes.",
-        "fact": "James Hutton demonstrated that ongoing slow processes like sedimentation and weathering shape rocks over deep time.",
-        "myth": "Earth rocks formed through catastrophic, unrepeatable events unlike modern surface processes.",
-        "fact_correction": "James Hutton demonstrated that ongoing slow processes like sedimentation and weathering shape rocks over deep time."
+        "fact": "James Hutton demonstrated that ongoing slow processes like sedimentation and weathering shape rocks over deep time."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -111,38 +109,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Present Day Surface Geological Processes",
-        "right_header": "Ancient Rock Record and Fossils",
+        "left_header": "Req 1: Surface Ages on Maps",
+        "right_header": "Req 1: Look Beyond Large Predators",
         "left_points": [
           "Surface Ages on Maps: A geologic map shows the common ages and types of rocks on Earth's surface (p. 79).",
           "Fossil Clues to History: Geologic time is Fossils Give Clues to the Past represents a time Have you ever wondered why we are all so interested in fossils (p. 79).",
           "Fascination With Prehistoric Predators: Is it because big, scary creatures like Tyrannosaurus rex or saber-toothed tigers fascinate us (p. 79)."
         ],
         "right_points": [
-          "Step 1 - Look Beyond Large Predators: Is it because big, scary creatures like Tyrannosaurus rex or saber-toothed tigers fascinate us (p. 79).",
-          "Step 2 - Examine Common Fossil Remains: That's certainly part of it, but most fossils are not the remains of big, scary creatures (p. 79).",
-          "Step 3 - Identify Fossils Through Paleontology: The study of fossils is called paleontology, and the geologist who studies fossils is a paleontologist (p. 79)."
+          "Look Beyond Large Predators: Is it because big, scary creatures like Tyrannosaurus rex or saber-toothed tigers fascinate us (p. 79).",
+          "Examine Common Fossil Remains: That's certainly part of it, but most fossils are not the remains of big, scary creatures (p. 79).",
+          "Identify Fossils Through Paleontology: The study of fossils is called paleontology, and the geologist who studies fossils is a paleontologist (p. 79)."
         ],
         "rows": [
           {
-            "attribute": "Surface Ages on Maps",
+            "attribute": "Discipline Definition",
             "left": "Surface Ages on Maps: A geologic map shows the common ages and types of rocks on Earth's surface (p. 79).",
-            "right": "Step 1 - Look Beyond Large Predators: Is it because big, scary creatures like Tyrannosaurus rex or saber-toothed tigers fascinate us (p. 79)."
+            "right": "Look Beyond Large Predators: Is it because big, scary creatures like Tyrannosaurus rex or saber-toothed tigers fascinate us (p. 79)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Rock Outcrop Analysis",
             "left": "Fossil Clues to History: Geologic time is Fossils Give Clues to the Past represents a time Have you ever wondered why we are all so interested in fossils (p. 79).",
-            "right": "Step 2 - Examine Common Fossil Remains: That's certainly part of it, but most fossils are not the remains of big, scary creatures (p. 79)."
+            "right": "Examine Common Fossil Remains: That's certainly part of it, but most fossils are not the remains of big, scary creatures (p. 79)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Uniformitarianism Principle",
             "left": "Fascination With Prehistoric Predators: Is it because big, scary creatures like Tyrannosaurus rex or saber-toothed tigers fascinate us (p. 79).",
-            "right": "Step 3 - Identify Fossils Through Paleontology: The study of fossils is called paleontology, and the geologist who studies fossils is a paleontologist (p. 79)."
+            "right": "Identify Fossils Through Paleontology: The study of fossils is called paleontology, and the geologist who studies fossils is a paleontologist (p. 79)."
           }
         ]
       },
       "worked_example": {
-        "title": "Geology Req 1 Exemplar Workbook Entry: Principles of Geology and Fossils",
+        "title": "Geology Req 1 Exemplar Workbook Entry: Principles",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Surface Ages on Maps": "A geologic map shows the common ages and types of rocks on Earth's surface (p. 79).",
@@ -183,9 +181,35 @@
       "workbook_visual_caption": "Scouts examine canyon rock strata alongside diagrams detailing sedimentary rock types and mineral crystal resources.",
       "pamphlet_summary": "Geology investigates the composition, physical structure, history, and internal processes of planet Earth. The principle of uniformitarianism establishes that modern observable geological mechanisms operated identically throughout ancient rock history.",
       "socratic_questions": [
-        "How do current mud cracks in dry riverbeds help us interpret ancient shale layers?",
+        "In what specific ways do current mud cracks in dry riverbeds help us interpret ancient shale layers?",
         "Why must a field geologist record strike and dip angles on an exposed formation?",
-        "What clues distinguish rock layers deposited by ocean waves from those deposited by desert winds?"
+        "What clues distinguish rock layers deposited by ocean waves from those deposited by desert winds?",
+        "What sequence of observations at a modern river delta helps a geologist interpret ancient cross-bedded sandstone?",
+        "Which physical indicator in an exposed cliff face distinguishes an unconformity from a continuous bedding plane?",
+        "What specific measurements must you record in your field notebook to reconstruct a rock outcrop's layer order?",
+        "Why is it dangerous to hammer directly on weathered cliff overhangs without wearing ANSI-rated safety goggles?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Earth rocks formed through catastrophic, unrepeatable events unlike modern surface processes.",
+          "fact": "James Hutton demonstrated that ongoing slow processes like sedimentation and weathering shape rocks over deep time."
+        },
+        {
+          "misconception": "Uniformitarianism means that all geologic processes have always operated at the exact same slow speed throughout history.",
+          "fact": "Uniformitarianism states that the same physical laws operate today as in the past, even though rates and intensities vary."
+        },
+        {
+          "misconception": "Geologists can only study rock formations that are directly exposed on the surface at roadcuts or canyon walls.",
+          "fact": "Subsurface formations are mapped extensively using seismic reflection waves, core drilling, and gravity or magnetic surveys."
+        },
+        {
+          "misconception": "The oldest rock layer in every exposed cliff face is always found at the very bottom of the rock formation.",
+          "fact": "Severe tectonic folding or thrust faulting can overturn entire rock sequences, placing older strata on top of younger beds."
+        },
+        {
+          "misconception": "A standard carpenter's claw hammer is just as safe as a forged steel rock pick for splitting field samples.",
+          "fact": "Claw hammers are tempered for wood nails and can shatter into sharp steel shrapnel when struck against hard rock outcrops."
+        }
       ]
     },
     {
@@ -242,9 +266,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Valuable minerals and metals occur naturally as pure solid blocks ready for immediate manufacturing.",
-        "fact": "Most commercial ores contain low percentages of desired metals bound chemically inside host rock requiring intense beneficiation.",
-        "myth": "Valuable minerals and metals occur naturally as pure solid blocks ready for immediate manufacturing.",
-        "fact_correction": "Most commercial ores contain low percentages of desired metals bound chemically inside host rock requiring intense beneficiation."
+        "fact": "Most commercial ores contain low percentages of desired metals bound chemically inside host rock requiring intense beneficiation."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -281,38 +303,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Resource Exploration and Geological Discovery",
-        "right_header": "Commercial Extraction and Ore Processing",
+        "left_header": "Req 2: Energy Powering Global Economies",
+        "right_header": "Req 2: Evaluate National Energy Budgets",
         "left_points": [
           "Energy Powering Global Economies: Energy is the vital force powering business, manufacturing, and the transportation of goods and services to serve the United States and world economies (p. 37).",
           "National Security Energy Supply: Energy supply and demand plays an increasingly vital role in our national security and the economic output of our nation (p. 37).",
           "Annual National Energy Expenditures: It is not surprising that the United States budgets more than $500 billion annually on energy (p. 37)."
         ],
         "right_points": [
-          "Step 1 - Evaluate National Energy Budgets: It is not surprising that the United States budgets more than $500 billion annually on energy (p. 37).",
-          "Step 2 - Identify Everyday Mineral Products: Natural resources are very important in our daily lives (p. 37).",
-          "Step 3 - Extract and Process Resources: All natural resources must be found, extracted (removed or taken out), and processed before they can be used (p. 37)."
+          "Evaluate National Energy Budgets: It is not surprising that the United States budgets more than $500 billion annually on energy (p. 37).",
+          "Identify Everyday Mineral Products: Natural resources are very important in our daily lives (p. 37).",
+          "Extract and Process Resources: All natural resources must be found, extracted (removed or taken out), and processed before they can be used (p. 37)."
         ],
         "rows": [
           {
-            "attribute": "Energy Powering Global Economies",
+            "attribute": "Geophysical Exploration",
             "left": "Energy Powering Global Economies: Energy is the vital force powering business, manufacturing, and the transportation of goods and services to serve the United States and world economies (p. 37).",
-            "right": "Step 1 - Evaluate National Energy Budgets: It is not surprising that the United States budgets more than $500 billion annually on energy (p. 37)."
+            "right": "Evaluate National Energy Budgets: It is not surprising that the United States budgets more than $500 billion annually on energy (p. 37)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Surface Mining Extraction",
             "left": "National Security Energy Supply: Energy supply and demand plays an increasingly vital role in our national security and the economic output of our nation (p. 37).",
-            "right": "Step 2 - Identify Everyday Mineral Products: Natural resources are very important in our daily lives (p. 37)."
+            "right": "Identify Everyday Mineral Products: Natural resources are very important in our daily lives (p. 37)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Froth Flotation Separation",
             "left": "Annual National Energy Expenditures: It is not surprising that the United States budgets more than $500 billion annually on energy (p. 37).",
-            "right": "Step 3 - Extract and Process Resources: All natural resources must be found, extracted (removed or taken out), and processed before they can be used (p. 37)."
+            "right": "Extract and Process Resources: All natural resources must be found, extracted (removed or taken out), and processed before they can be used (p. 37)."
           }
         ]
       },
       "worked_example": {
-        "title": "Geology Req 2 Exemplar Workbook Entry: Earth Resource Discovery and Processing",
+        "title": "Geology Req 2 Exemplar Workbook Entry: Earth Resource",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Energy Powering Global Economies": "Energy is the vital force powering business, manufacturing, and the transportation of goods and services to serve the United States and world economies (p. 37).",
@@ -353,9 +375,35 @@
       "workbook_visual_caption": "Scouts and their leader stand on a high cliff edge observing canyon land forms and distant valley terrain.",
       "pamphlet_summary": "Commercial mineral extraction relies on geophysical prospecting methods including seismic reflection, magnetic anomaly detection, and geochemical assaying. Following discovery, raw ores undergo physical crushing, chemical flotation, smelting, or refining to produce usable industrial commodities.",
       "socratic_questions": [
-        "How do seismic waves reveal the presence of porous underground sandstone traps containing hydrocarbons?",
+        "In what specific ways do seismic waves reveal the presence of porous underground sandstone traps containing hydrocarbons?",
         "Why does smelting require flux materials like limestone to remove silicate gangue from molten metal?",
-        "What environmental remediation steps must an open pit mine complete after mineral deposits are depleted?"
+        "What environmental remediation steps must an open pit mine complete after mineral deposits are depleted?",
+        "What happens to crushed sulfide copper ore during froth flotation that separates valuable minerals from waste rock?",
+        "Under what economic and geologic conditions does a common mineral concentration qualify as a commercial ore deposit?",
+        "What measurement confirms the grade and depth of an ore body during exploratory diamond core drilling?",
+        "Where should a Scout position themselves relative to active haul trucks and highwalls during a quarry tour?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Valuable minerals and metals occur naturally as pure solid blocks ready for immediate manufacturing.",
+          "fact": "Most commercial ores contain low percentages of desired metals bound chemically inside host rock requiring intense beneficiation."
+        },
+        {
+          "misconception": "Commercial copper and iron mines extract pure, solid veins of metal that are melted directly into finished ingots.",
+          "fact": "Most metals are mined as low-grade oxide or sulfide ores that require crushing, chemical concentration, and high-heat smelting."
+        },
+        {
+          "misconception": "Modern prospectors discover major underground mineral deposits mainly by walking stream beds and panning for nuggets.",
+          "fact": "Commercial exploration relies on satellite spectral imaging, airborne magnetics, geochemical soil grids, and deep core drilling."
+        },
+        {
+          "misconception": "Crushed limestone and gravel are waste byproducts that have little commercial value compared to gold or silver.",
+          "fact": "Construction aggregates and limestone for cement exceed precious metals in total annual tonnage and economic value mined."
+        },
+        {
+          "misconception": "Abandoned mine adits and quarry pits are safe to enter for mineral collecting if the wooden timbers look intact.",
+          "fact": "Old mine workings frequently contain deadly odorless gases, flooded shafts, and unstable roofs that collapse without warning."
+        }
       ]
     },
     {
@@ -414,9 +462,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Colors on a geologic map represent surface soil types and vegetation cover.",
-        "fact": "Geologic map colors denote specific bedrock formations and their chronostratigraphic depositional time periods.",
-        "myth": "Colors on a geologic map represent surface soil types and vegetation cover.",
-        "fact_correction": "Geologic map colors denote specific bedrock formations and their chronostratigraphic depositional time periods."
+        "fact": "Geologic map colors denote specific bedrock formations and their chronostratigraphic depositional time periods."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -452,44 +498,44 @@
       ],
       "step_by_step_procedure": [
         "Step 1 - Map Index Orientation: Locate your home county on a state geological survey quadrangle index map.",
-        "Step 2 - Stratigraphic Unit Identification: Match outcrop map colors to the explanation column displaying rock formation names.",
+        "Step 2 - Stratigraphic Unit: Match outcrop map colors to the explanation column displaying rock formation names.",
         "Step 3 - Major Class Determination: Categorize mapped local bedrock units into igneous, sedimentary, or metamorphic lithological classes.",
         "Step 4 - Geological History Deduction: Correlate mapped fault lines and unit ages to reconstruct historical tectonic events."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Fast Cooling Extrusive Volcanic Rocks",
-        "right_header": "Slow Cooling Intrusive Plutonic Rocks",
+        "left_header": "Req 3: Grain Size Cooling Depth",
+        "right_header": "Req 3: Identify Slow Cooling Intrusive",
         "left_points": [
           "Grain Size Cooling Depth: Rock texture, or grain size, provides information about the depth at which the minerals in the magma began to cool, forming igneous rocks (p. 66).",
           "Fine Grained Extrusive Rocks: As an example, if you find a fine-grained igneous rock, you interpret the rock to be an extrusive rock that cooled at or near the surface (p. 66).",
           "Coarse Grained Intrusive Rocks: Coarse-grained igneous rocks are intrusive rocks that cooled over very long periods of time (p. 66)."
         ],
         "right_points": [
-          "Step 1 - Identify Slow Cooling Intrusive Rocks: Coarse-grained igneous rocks are intrusive rocks that cooled over very long periods of time (p. 66).",
-          "Step 2 - Trace Uplift and Weathering Exposure: These deep rocks get to the surface when tectonic (mountain-building) forces uplift the area and the material covering the intrusive rock is eroded away by wind (p. 66).",
-          "Step 3 - Inspect Rock Color for Minerals: Another important characteristic of igneous rocks is color, which indicates the kinds of rock minerals (p. 66)."
+          "Identify Slow Cooling Intrusive Rocks: Coarse-grained igneous rocks are intrusive rocks that cooled over very long periods of time (p. 66).",
+          "Trace Uplift and Weathering Exposure: These deep rocks get to the surface when tectonic (mountain-building) forces uplift the area and the material covering the intrusive rock is eroded away by wind (p. 66).",
+          "Inspect Rock Color for Minerals: Another important characteristic of igneous rocks is color, which indicates the kinds of rock minerals (p. 66)."
         ],
         "rows": [
           {
-            "attribute": "Grain Size Cooling Depth",
+            "attribute": "Standard Map Legend",
             "left": "Grain Size Cooling Depth: Rock texture, or grain size, provides information about the depth at which the minerals in the magma began to cool, forming igneous rocks (p. 66).",
-            "right": "Step 1 - Identify Slow Cooling Intrusive Rocks: Coarse-grained igneous rocks are intrusive rocks that cooled over very long periods of time (p. 66)."
+            "right": "Identify Slow Cooling Intrusive Rocks: Coarse-grained igneous rocks are intrusive rocks that cooled over very long periods of time (p. 66)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Rock Classification Symbols",
             "left": "Fine Grained Extrusive Rocks: As an example, if you find a fine-grained igneous rock, you interpret the rock to be an extrusive rock that cooled at or near the surface (p. 66).",
-            "right": "Step 2 - Trace Uplift and Weathering Exposure: These deep rocks get to the surface when tectonic (mountain-building) forces uplift the area and the material covering the intrusive rock is eroded away by wind (p. 66)."
+            "right": "Trace Uplift and Weathering Exposure: These deep rocks get to the surface when tectonic (mountain-building) forces uplift the area and the material covering the intrusive rock is eroded away by wind (p. 66)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Stratigraphic Contact Lines",
             "left": "Coarse Grained Intrusive Rocks: Coarse-grained igneous rocks are intrusive rocks that cooled over very long periods of time (p. 66).",
-            "right": "Step 3 - Inspect Rock Color for Minerals: Another important characteristic of igneous rocks is color, which indicates the kinds of rock minerals (p. 66)."
+            "right": "Inspect Rock Color for Minerals: Another important characteristic of igneous rocks is color, which indicates the kinds of rock minerals (p. 66)."
           }
         ]
       },
       "worked_example": {
-        "title": "Geology Req 3 Exemplar Workbook Entry: Reading Geologic Maps and Structures",
+        "title": "Geology Req 3 Exemplar Workbook Entry: Reading Geologic",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Grain Size Cooling Depth": "Rock texture, or grain size, provides information about the depth at which the minerals in the magma began to cool, forming igneous rocks (p. 66).",
@@ -501,7 +547,7 @@
         "counselor_tip": "For Geology Requirement 3 (Reading Geologic Maps and Structures), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geology Merit Badge Pamphlet (p. 66, p. 68))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do coarse-grained intrusive igneous rocks that formed deep underground eventually become exposed at Earth's surface?",
+        "scenario_prompt": "In what specific ways do coarse-grained intrusive igneous rocks that formed deep underground eventually become exposed at Earth's surface?",
         "question": "How do coarse-grained intrusive igneous rocks that formed deep underground eventually become exposed at Earth's surface?",
         "options": [
           "A. They float upward through solid crust like bubbles in water without any erosion",
@@ -532,7 +578,33 @@
       "socratic_questions": [
         "How does the law of superposition help us determine which rock unit on the map is oldest?",
         "What does a repeating sequence of rock colors on opposite sides of a fault line signify?",
-        "Why are metamorphic rocks frequently mapped in proximity to ancient igneous intrusive plutons?"
+        "Why are metamorphic rocks frequently mapped in proximity to ancient igneous intrusive plutons?",
+        "Where on a geologic map legend do you look first to determine whether a rock unit is Paleozoic or Cenozoic?",
+        "Which map pattern of rock ages and strike-and-dip symbols distinguishes an eroded anticline from a syncline?",
+        "What compass and clinometer readings must you log at an outcrop to verify a tilted bed's strike and dip symbol?",
+        "Why should you overlay topographic contour lines onto a geologic map before hiking out to inspect a fault line?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Colors on a geologic map represent surface soil types and vegetation cover.",
+          "fact": "Geologic map colors denote specific bedrock formations and their chronostratigraphic depositional time periods."
+        },
+        {
+          "misconception": "The colors printed on a standard geologic map represent the actual surface color of the rocks and soil in the field.",
+          "fact": "Geologic map colors and letter symbols follow a standardized code that indicates the geologic age and rock formation type."
+        },
+        {
+          "misconception": "Concentric V-shaped rock unit bands crossing a river valley on a geologic map always indicate a folded rock structure.",
+          "fact": "Horizontal sedimentary layers naturally form V-shaped map patterns pointing upstream where rivers cut down through flat canyons."
+        },
+        {
+          "misconception": "An igneous dike or pluton that cuts across surrounding sedimentary layers on a map must be older than those layers.",
+          "fact": "By the principle of cross-cutting relationships, any intrusive igneous body is younger than the host rocks it penetrates."
+        },
+        {
+          "misconception": "A syncline on a geologic map always corresponds to a low valley on the ground, while an anticline forms a hill.",
+          "fact": "Erosion rates depend on rock hardness, so a syncline with a resistant sandstone core often stands high as a mountain ridge."
+        }
       ]
     },
     {
@@ -983,9 +1055,7 @@
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
           "common_misconception_pair": {
             "misconception": "Heavier rock particles always settle at the exact same speed as fine clays in quiet lake water.",
-            "fact": "Coarse gravel drops out of suspension immediately, whereas microscopic clay platelets remain suspended for days until flocculation occurs.",
-            "myth": "Heavier rock particles always settle at the exact same speed as fine clays in quiet lake water.",
-            "fact_correction": "Coarse gravel drops out of suspension immediately, whereas microscopic clay platelets remain suspended for days until flocculation occurs."
+            "fact": "Coarse gravel drops out of suspension immediately, whereas microscopic clay platelets remain suspended for days until flocculation occurs."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1242,7 +1312,7 @@
               "id": "4b(3)",
               "sub_req_label": "4b(3)",
               "sub_req_text": "Explain how each of the following items is used in subsurface exploration to locate oil or gas: reflection seismic, electric well logs, stratigraphic correlation, offshore platform, geologic map, subsurface structure map, subsurface isopach map, and core samples and cutting samples.",
-              "topic_title": "Req 4b(3): Subsurface Geophysical and Geological Exploration Tools",
+              "topic_title": "Req 4b(3): Subsurface Geophysical and Geological Exploration",
               "pamphlet_summary": "Subsurface Geophysical and Geological Exploration Tools: Locating buried petroleum requires integrating seismic acoustic reflections, wireline electrical resistivity logs, and regional stratigraphic correlation diagrams to map hidden structures. Geologists examine rock cuttings from drilling mud and extract solid core cylinders to verify reservoir porosity before installing offshore production platforms (p. 44).",
               "pamphlet_excerpts": [
                 "Subsurface Geophysical and Geological Exploration Tools: Locating buried petroleum requires integrating seismic acoustic reflections, wireline electrical resistivity logs, and regional stratigraphic correlation diagrams to map hidden structures. Geologists examine rock cuttings from drilling mud and extract solid core cylinders to verify reservoir porosity before installing offshore production platforms (p. 44)."
@@ -1340,7 +1410,7 @@
                   "id": "4b(5)(a)",
                   "sub_req_label": "4b(5)(a)",
                   "sub_req_text": "Make a display or presentation showing how oil and gas or coal is found, extracted, and processed. You may use maps, books, articles from periodicals, and research found on the internet (with your parent or guardian's permission). Share the display with your counselor or a small group (such as your class at school) in a five-minute presentation.",
-                  "topic_title": "Req 4b(5)(a): Energy Resource Presentation and Display Design",
+                  "topic_title": "Req 4b(5)(a): Energy Resource Presentation and Display",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
                   "pamphlet_summary": "Energy Resource Presentation and Display Design: Designing an energy resource exhibit entails synthesizing research from geological maps, industry literature, and vetted energy statistics into an organized visual sequence. The display must clearly guide an audience through exploration surveying, well drilling, extraction pumping, and refinery fractionation (p. 50).",
                   "pamphlet_excerpts": [
@@ -1564,9 +1634,7 @@
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
           "common_misconception_pair": {
             "misconception": "Crude oil collects in massive open underground caverns that drillers simply pump dry.",
-            "fact": "Petroleum resides entirely within microscopic interconnected pore spaces between sand grains or inside fractured limestone.",
-            "myth": "Crude oil collects in massive open underground caverns that drillers simply pump dry.",
-            "fact_correction": "Petroleum resides entirely within microscopic interconnected pore spaces between sand grains or inside fractured limestone."
+            "fact": "Petroleum resides entirely within microscopic interconnected pore spaces between sand grains or inside fractured limestone."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -2312,7 +2380,7 @@
               "workbook_diagram_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
               "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
               "socratic_questions": [
-                "How do everyday materials quarried from the earth support the buildings, roads, and utilities in your local town?"
+                "In what ways do everyday materials quarried from the earth support the buildings, roads, and utilities in your local town?"
               ]
             }
           ],
@@ -2351,9 +2419,7 @@
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
           "common_misconception_pair": {
             "misconception": "Color alone provides a completely reliable diagnostic field test for mineral identification.",
-            "fact": "Trace chemical impurities alter mineral color dramatically, making streak, hardness, cleavage, and crystal habit far more reliable diagnostic tests.",
-            "myth": "Color alone provides a completely reliable diagnostic field test for mineral identification.",
-            "fact_correction": "Trace chemical impurities alter mineral color dramatically, making streak, hardness, cleavage, and crystal habit far more reliable diagnostic tests."
+            "fact": "Trace chemical impurities alter mineral color dramatically, making streak, hardness, cleavage, and crystal habit far more reliable diagnostic tests."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2473,7 +2539,7 @@
               "workbook_diagram_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
               "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
               "socratic_questions": [
-                "How do state geological survey maps allow us to discover which prehistoric era created the bedrock beneath our hometown?"
+                "In what ways do state geological survey maps allow us to discover which prehistoric era created the bedrock beneath our hometown?"
               ]
             },
             {
@@ -2748,7 +2814,7 @@
               "id": "4d(4)",
               "sub_req_label": "4d(4)",
               "sub_req_text": "Explain to your counselor how fossils provide information about ancient life, environment, climate, and geography. Discuss the following terms and explain how animals from each habitat obtain food: benthonic, pelagic, littoral, lacustrine, open marine, brackish, fluvial, eolian, and protected reef.",
-              "topic_title": "Req 4d(4): Paleoenvironmental Habitats And Feeding Adaptations",
+              "topic_title": "Req 4d(4): Paleoenvironmental Habitats And Feeding",
               "pamphlet_summary": "Paleoenvironmental Habitats And Feeding Adaptations: Fossil assemblages act as environmental indicators, revealing prehistoric water salinity, regional precipitation, ambient temperature, and paleo-bathymetry. Scouts explain trophic feeding adaptations across habitats, contrasting filter-feeding benthos, predatory pelagic swimmers, littoral grazers, lacustrine deposit feeders, and terrestrial herbivores (p. 74).",
               "pamphlet_excerpts": [
                 "Paleoenvironmental Habitats And Feeding Adaptations: Fossil assemblages act as environmental indicators, revealing prehistoric water salinity, regional precipitation, ambient temperature, and paleo-bathymetry. Scouts explain trophic feeding adaptations across habitats, contrasting filter-feeding benthos, predatory pelagic swimmers, littoral grazers, lacustrine deposit feeders, and terrestrial herbivores (p. 74)."
@@ -2918,7 +2984,7 @@
                   "id": "4d(6)(b)",
                   "sub_req_label": "4d(6)(b)",
                   "sub_req_text": "Visit a structure in your area that was built using fossiliferous rocks. Determine what kind of rock was used and tell your counselor the kinds of fossil evidence you found there.",
-                  "topic_title": "Req 4d(6)(b): Fossiliferous Architectural Building Stone Survey",
+                  "topic_title": "Req 4d(6)(b): Fossiliferous Architectural Building Stone",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
                   "pamphlet_summary": "Fossiliferous Architectural Building Stone Survey: Inspecting civic monuments, historic facades, or limestone government buildings reveals cross-sections of ancient marine life preserved in polished dimensional stone. Scouts identify host rock types such as fossiliferous limestone or coquina and document embedded crinoid stems, bryozoans, corals, and brachiopods (p. 80).",
                   "pamphlet_excerpts": [
@@ -3203,9 +3269,7 @@
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
           "common_misconception_pair": {
             "misconception": "Fossils from any prehistoric animal appear randomly mixed throughout all sedimentary rock layers.",
-            "fact": "The principle of faunal succession dictates that fossil organisms succeed one another chronologically in a definite, recognizable order.",
-            "myth": "Fossils from any prehistoric animal appear randomly mixed throughout all sedimentary rock layers.",
-            "fact_correction": "The principle of faunal succession dictates that fossil organisms succeed one another chronologically in a definite, recognizable order."
+            "fact": "The principle of faunal succession dictates that fossil organisms succeed one another chronologically in a definite, recognizable order."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3425,9 +3489,7 @@
       },
       "common_misconception_pair": {
         "misconception": "The four option tracks require identical laboratory equipment and identical field techniques.",
-        "fact": "Each track focuses on distinct subdisciplines ranging from hydrologic flume experiments to petroleum engineering or paleontology.",
-        "myth": "The four option tracks require identical laboratory equipment and identical field techniques.",
-        "fact_correction": "Each track focuses on distinct subdisciplines ranging from hydrologic flume experiments to petroleum engineering or paleontology."
+        "fact": "Each track focuses on distinct subdisciplines ranging from hydrologic flume experiments to petroleum engineering or paleontology."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3463,19 +3525,19 @@
       ],
       "step_by_step_procedure": [
         "Step 1 - Option Path Selection: Review the four specialized tracks and select one option matching available resources.",
-        "Step 2 - Investigation Outline Preparation: Draft an experimental design or analytical report detailing equipment and reference data.",
-        "Step 3 - Practical Investigation Execution: Perform the settling column trials, trap evaluations, mineral streak tests, or fossil charting.",
-        "Step 4 - Counselor Technical Presentation: Present collected data charts, geological models, and technical conclusions to your counselor."
+        "Step 2 - Investigation Outline: Draft an experimental design or analytical report detailing equipment and reference data.",
+        "Step 3 - Practical Investigation: Perform the settling column trials, trap evaluations, mineral streak tests, or fossil charting.",
+        "Step 4 - Counselor Technical: Present collected data charts, geological models, and technical conclusions to your counselor."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Geology Origins and Evolution",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Geology Origins and Evolution.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
         "left_header": "Req 4a: Surface and Sedimentary Dynamics",
-        "right_header": "Req 4c: Mineralogy and Rock Classification",
+        "right_header": "Req 4c: Mineralogy and Rock",
         "left_points": [
           "(4a) Surface and Sedimentary Dynamics: Sediment particles settle through water columns at rates determined by particle diameter and fluid viscosity according to Stokes law. Graded bedding forms naturally when turbulent turbidity currents decelerate and deposit heavy coarse grains before fine silts.",
           "(4b) Subsurface Energy Resource Systems: Electricity generation in the United States relies heavily on natural gas, coal, nuclear uranium, hydro, and wind energy. Hydrocarbon extraction requires an organic-rich source rock, porous reservoir rock, and an impermeable structural or stratigraphic trap."
@@ -3486,30 +3548,30 @@
         ],
         "rows": [
           {
-            "attribute": "Surface and Sedimentary Processes",
-            "left": "(4a) Surface and Sedimentary Processes: Since sunlight filters through water only to a limited depth, benthic plants live in shallow water (p. 70).",
-            "right": "(4c) Mineral Resources and Rock Classes: Or it can live like a starfish crawling along slowly eating other benthic animals (p. 70)."
+            "attribute": "Sedimentation Settling Rates",
+            "left": "(4a) Surface and Sedimentary Dynamics: Sediment particles settle through water columns at rates determined by particle diameter and fluid viscosity according to Stokes law. Graded bedding forms naturally when turbulent turbidity currents decelerate and deposit heavy coarse grains before fine silts.",
+            "right": "(4c) Mineralogy and Rock Classification: Minerals are naturally occurring, inorganic solids with definite chemical formulas and ordered internal crystalline arrangements. Rocks consist of consolidated mineral aggregates categorized into igneous, sedimentary, and metamorphic classes by genetic origin."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(4b) Energy Resources and Exploration: A benthicanimal can stay in one place and wait for food to float past, which a clam (p. 70).",
-            "right": "(4d) Earth History and Plate Tectonics: The most commonbenthic animal are the corals, which build rigid skeletons in community structures called coral reefs. photosynthesis (p. 70)."
+            "attribute": "Hydrocarbon Reservoir Traps",
+            "left": "(4b) Subsurface Energy Resource Systems: Electricity generation in the United States relies heavily on natural gas, coal, nuclear uranium, hydro, and wind energy. Hydrocarbon extraction requires an organic-rich source rock, porous reservoir rock, and an impermeable structural or stratigraphic trap.",
+            "right": "(4d) Earth Chronology and Stratigraphy: The geologic time scale partitions four point six billion years of Earth history into eons, eras, periods, and epochs based on major paleontological boundaries. Index fossils and radiometric decay rates calibrate the relative and absolute ages of strata."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Stationary Filter Feeding Clams: A benthicanimal can stay in one place and wait for food to float past, which a clam (p. 70).",
-            "right": "Step 3 - Examine Storm Current Seafloor Anchors: Because these animals will die if washed out to sea in a storm current, most have adapted some sort of anchor to help them stay in place (p. 70)."
+            "attribute": "Mineral Physical Properties",
+            "left": "Req 4a: Surface and Sedimentary: Sediment particles settle through water columns at rates determined by particle diameter and fluid viscosity according to Stokes law. Graded bedding forms naturally when turbulent turbidity currents decelerate and deposit heavy coarse grains before fine silts.",
+            "right": "Req 4b: Subsurface Energy Resource: Electricity generation in the United States relies heavily on natural gas, coal, nuclear uranium, hydro, and wind energy. Hydrocarbon extraction requires an organic-rich source rock, porous reservoir rock, and an impermeable structural or stratigraphic trap."
           }
         ]
       },
       "worked_example": {
-        "title": "Geology Req 4 Exemplar Workbook Entry: Specialized Geology Study Options",
+        "title": "Geology Req 4 Exemplar Workbook Entry: Specialized",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a - Surface and Sedimentary Dynamics": "Sediment particles settle through water columns at rates determined by particle diameter and fluid viscosity according to Stokes law. Graded bedding forms naturally when turbulent turbidity currents decelerate and deposit heavy coarse grains before fine silts.",
-          "Req 4b - Subsurface Energy Resource System": "Electricity generation in the United States relies heavily on natural gas, coal, nuclear uranium, hydro, and wind energy. Hydrocarbon extraction requires an organic-rich source rock, porous reservoir rock, and an impermeable structural or stratigraphic trap.",
-          "Req 4c - Mineralogy and Rock Classificatio": "Minerals are naturally occurring, inorganic solids with definite chemical formulas and ordered internal crystalline arrangements. Rocks consist of consolidated mineral aggregates categorized into igneous, sedimentary, and metamorphic classes by genetic origin.",
-          "Req 4d - Earth Chronology and Stratigraphy": "The geologic time scale partitions four point six billion years of Earth history into eons, eras, periods, and epochs based on major paleontological boundaries. Index fossils and radiometric decay rates calibrate the relative and absolute ages of strata."
+          "Req 4a - Surface and Sedimentary": "Sediment particles settle through water columns at rates determined by particle diameter and fluid viscosity according to Stokes law. Graded bedding forms naturally when turbulent turbidity currents decelerate and deposit heavy coarse grains before fine silts.",
+          "Req 4b - Subsurface Energy Resource": "Electricity generation in the United States relies heavily on natural gas, coal, nuclear uranium, hydro, and wind energy. Hydrocarbon extraction requires an organic-rich source rock, porous reservoir rock, and an impermeable structural or stratigraphic trap.",
+          "Req 4c - Mineralogy and Rock": "Minerals are naturally occurring, inorganic solids with definite chemical formulas and ordered internal crystalline arrangements. Rocks consist of consolidated mineral aggregates categorized into igneous, sedimentary, and metamorphic classes by genetic origin.",
+          "Req 4d - Earth Chronology": "The geologic time scale partitions four point six billion years of Earth history into eons, eras, periods, and epochs based on major paleontological boundaries. Index fossils and radiometric decay rates calibrate the relative and absolute ages of strata."
         },
         "sample_output": "Specialized Geology Study Options: Since sunlight filters through water only to a limited depth, benthic plants live in shallow water (p. 70).",
         "counselor_tip": "For Geology Requirement 4 (Specialized Geology Study Options), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86))."
@@ -3546,7 +3608,33 @@
       "socratic_questions": [
         "How does grain density affect the terminal settling velocity of sediment particles in a water column?",
         "Why must an economic oil reservoir feature both high porosity and high permeability?",
-        "What geological conditions are required to preserve delicate organisms as carbonized fossil films?"
+        "What geological conditions are required to preserve delicate organisms as carbonized fossil films?",
+        "What happens to gravel, sand, silt, and clay particles when you shake a water-filled settling jar and let it rest?",
+        "Which physical property causes coarse sand and gravel to drop out of suspension long before fine clay settles?",
+        "What two values from a topographic map do you divide to calculate the stream gradient between two contour crossings?",
+        "Why is it dangerous to test mineral hardness or apply dilute acid in the field without eye and skin protection?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "The four option tracks require identical laboratory equipment and identical field techniques.",
+          "fact": "Each track focuses on distinct subdisciplines ranging from hydrologic flume experiments to petroleum engineering or paleontology."
+        },
+        {
+          "misconception": "In a settling column of muddy water, the finest clay particles sink to the bottom first because they pack tightly.",
+          "fact": "Coarse gravel and sand settle to the bottom first due to higher mass, creating a graded bed with fine clay on top."
+        },
+        {
+          "misconception": "A rock formation with high porosity always allows groundwater or crude oil to flow through it rapidly.",
+          "fact": "Fluid flow requires permeability, which depends on interconnected pore throats; clay has high porosity but very low permeability."
+        },
+        {
+          "misconception": "Striking a mineral harder with a steel pocketknife gives a more accurate Mohs hardness reading on weathered surfaces.",
+          "fact": "Scratch tests must be performed on a fresh, unweathered crystal face, and powdered residue must be wiped to verify a true groove."
+        },
+        {
+          "misconception": "Seismic P-waves and S-waves travel at the exact same speed through both solid mantle rock and the liquid outer core.",
+          "fact": "Compressional P-waves travel faster and pass through liquids, whereas shear S-waves are slower and cannot pass through liquids."
+        }
       ]
     },
     {
@@ -3592,9 +3680,7 @@
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 68, p. 81)",
           "common_misconception_pair": {
             "misconception": "Taking a single small rock specimen causes zero cumulative damage to a popular national landmark.",
-            "fact": "When thousands of annual park visitors remove individual rocks, unique natural formations suffer irreversible loss and accelerated erosion.",
-            "myth": "Taking a single small rock specimen causes zero cumulative damage to a popular national landmark.",
-            "fact_correction": "When thousands of annual park visitors remove individual rocks, unique natural formations suffer irreversible loss and accelerated erosion."
+            "fact": "When thousands of annual park visitors remove individual rocks, unique natural formations suffer irreversible loss and accelerated erosion."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3659,10 +3745,8 @@
           },
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 68, p. 81)",
           "common_misconception_pair": {
-            "misconception": "Field exploration permits hiking off-trail along delicate scree slopes as long as no litter is left behind.",
-            "fact": "Scrambling across steep, untracked scree accelerates slope failure and destroys fragile alpine soil crusts.",
-            "myth": "Field exploration permits hiking off-trail along delicate scree slopes as long as no litter is left behind.",
-            "fact_correction": "Scrambling across steep, untracked scree accelerates slope failure and destroys fragile alpine soil crusts."
+            "misconception": "Field exploration permits hiking off-trail along delicate scree slopes as long as no litter is left.",
+            "fact": "Scrambling across steep, untracked scree accelerates slope failure and destroys fragile alpine soil crusts."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3688,7 +3772,7 @@
           "id": "5b",
           "sub_req_label": "5b",
           "sub_req_text": "Explain how you practiced the Leave No Trace Seven Principles and the Outdoor Code while traveling in natural areas and while collecting rock and fossil specimens for this merit badge.",
-          "topic_title": "Req 5b: Field Practice and Specimen Etiquette",
+          "topic_title": "Req 5b: Specimen Collection Ethics Etiquette",
           "pamphlet_summary": "Practicing conservation during field expeditions involves staying on durable trails, back-packing all trash, and collecting specimens strictly where legally authorized. Scouts document precise field locations with GPS coordinates and sketches before taking modest samples.",
           "pamphlet_excerpts": [
             "Practicing conservation during field expeditions involves staying on durable trails, back-packing all trash, and collecting specimens strictly where legally authorized. Scouts document precise field locations with GPS coordinates and sketches before taking modest samples."
@@ -3745,9 +3829,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Collecting rocks and fossils from national parks and public lands is unrestricted for amateur hobbyists.",
-        "fact": "Federal regulations prohibit removing natural, cultural, or fossil resources from National Parks without explicit scientific collecting permits.",
-        "myth": "Collecting rocks and fossils from national parks and public lands is unrestricted for amateur hobbyists.",
-        "fact_correction": "Federal regulations prohibit removing natural, cultural, or fossil resources from National Parks without explicit scientific collecting permits."
+        "fact": "Federal regulations prohibit removing natural, cultural, or fossil resources from National Parks without explicit scientific collecting permits."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3783,45 +3865,55 @@
         "Step 4 - Camp and Travel Discipline: Pack out all waste and camp on durable rock slabs when trekking."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Leave No Trace and Outdoor Ethics",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Leave No Trace and Outdoor Ethics.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
         "title": "Outdoor Code vs. Rock & Mineral Collecting Ethics",
         "left_header": "Scouting Outdoor Code Tenets",
-        "right_header": "Responsible Geological Specimen Collecting",
+        "right_header": "Responsible Specimen Collection",
         "rows": [
           {
-            "attribute": "Site Permission & Legal Protection",
-            "left_value": "Be considerate in the outdoors and respect public and private land boundaries.",
-            "right_value": "Never collect rocks, fossils, or minerals in National/State Parks without a permit; obtain landowner permission on private property."
+            "attribute": "Specimen Collection Ethics",
+            "left": "Req 5a: Outdoor Code Conservation: The Outdoor Code and Leave No Trace principles establish an ethical obligation to preserve geological landscapes and prevent irreversible habitat degradation. Scouts consider the cumulative environmental impact of thousands of visitors collecting rock samples from a single public park.",
+            "right": "Req 5b: Specimen Collection Ethics: Practicing conservation during field expeditions involves staying on durable trails, back-packing all trash, and collecting specimens strictly where legally authorized. Scouts document precise field locations with GPS coordinates and sketches before taking modest samples."
           },
           {
-            "attribute": "Minimizing Outcrop & Trail Impact",
-            "left_value": "Be conservation-minded and leave natural features undisturbed for future visitors.",
-            "right_value": "Take only one small representative hand sample from loose talus when possible rather than hammering prominent trailside outcrops."
+            "attribute": "Property Permission Protocols",
+            "left": "Specimen Collection Ethics: Take only small representative chips rather than destroying significant structural field outcrops.",
+            "right": "Property Permission Protocols: Secure written property owner consent prior to collecting geological samples on private land."
           },
           {
-            "attribute": "Safety & Site Restoration",
-            "left_value": "Be clean in outdoor manners and prevent erosion or hazard creation.",
-            "right_value": "Wear ANSI Z87.1 safety goggles with rock hammers, fill in any small test pits, and never undercut unstable quarry walls."
+            "attribute": "Fragile Microhabitat Protection",
+            "left": "Fragile Microhabitat Protection: Replace overturned rocks promptly to preserve lichen colonies and sensitive subterranean organisms.",
+            "right": "Leave No Trace Travel: Walk durable rocky surfaces to prevent trail braiding and rapid slope erosion."
           }
+        ],
+        "left_points": [
+          "Req 5a: Outdoor Code Conservation: The Outdoor Code and Leave No Trace principles establish an ethical obligation to preserve geological landscapes and prevent irreversible habitat degradation. Scouts consider the cumulative environmental impact of thousands of visitors collecting rock samples from a single public park.",
+          "Specimen Collection Ethics: Take only small representative chips rather than destroying significant structural field outcrops.",
+          "Fragile Microhabitat Protection: Replace overturned rocks promptly to preserve lichen colonies and sensitive subterranean organisms."
+        ],
+        "right_points": [
+          "Req 5b: Specimen Collection Ethics: Practicing conservation during field expeditions involves staying on durable trails, back-packing all trash, and collecting specimens strictly where legally authorized. Scouts document precise field locations with GPS coordinates and sketches before taking modest samples.",
+          "Property Permission Protocols: Secure written property owner consent prior to collecting geological samples on private land.",
+          "Leave No Trace Travel: Walk durable rocky surfaces to prevent trail braiding and rapid slope erosion."
         ]
       },
       "worked_example": {
-        "title": "Geology Req 5 Exemplar Workbook Entry: Outdoor Ethics and Metamorphic Rocks",
+        "title": "Geology Req 5 Exemplar Workbook Entry: Outdoor Ethics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Outdoor Code Conservation Princip": "The Outdoor Code and Leave No Trace principles establish an ethical obligation to preserve geological landscapes and prevent irreversible habitat degradation. Scouts consider the cumulative environmental impact of thousands of visitors collecting rock samples from a single public park.",
-          "Req 5b - Field Practice and Specimen Etiqu": "Practicing conservation during field expeditions involves staying on durable trails, back-packing all trash, and collecting specimens strictly where legally authorized. Scouts document precise field locations with GPS coordinates and sketches before taking modest samples."
+          "Req 5a - Outdoor Code Conservation": "The Outdoor Code and Leave No Trace principles establish an ethical obligation to preserve geological landscapes and prevent irreversible habitat degradation. Scouts consider the cumulative environmental impact of thousands of visitors collecting rock samples from a single public park.",
+          "Req 5b - Specimen Collection Ethics": "Practicing conservation during field expeditions involves staying on durable trails, back-packing all trash, and collecting specimens strictly where legally authorized. Scouts document precise field locations with GPS coordinates and sketches before taking modest samples."
         },
         "sample_output": "Outdoor Ethics and Metamorphic Rocks: Metamorphic rocks can be formed by contact with magma, by heat and pressure associated with burial of sediments, or by squeezing forces (p. 68).",
         "counselor_tip": "For Geology Requirement 5 (Outdoor Ethics and Metamorphic Rocks), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geology Merit Badge Pamphlet (p. 68, p. 81))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do hydrothermal solutions form many of the valuable ore deposits found around the world?",
+        "scenario_prompt": "In what specific ways do hydrothermal solutions form many of the valuable ore deposits found around the world?",
         "question": "How do hydrothermal solutions form many of the valuable ore deposits found around the world?",
         "options": [
           "A. Cold rainwater freezing inside surface mud cracks during winter",
@@ -3852,7 +3944,33 @@
       "socratic_questions": [
         "How does reckless outcrop hammering permanently erase scientific evidence for future researchers?",
         "Why is photographing an outcrop often superior to removing a heavy specimen from the backcountry?",
-        "What ecological disruptions occur beneath a boulder when a collector flips it and leaves it exposed?"
+        "What ecological disruptions occur beneath a boulder when a collector flips it and leaves it exposed?",
+        "What permits and land-ownership checks must you complete before collecting any rock or fossil specimen in the field?",
+        "Under what federal land management rule does collecting a common plant fossil differ from taking a dinosaur bone?",
+        "What scale object and GPS coordinates should you include when photographing an in-situ fossil you cannot collect?",
+        "Why is it dangerous to pry loose boulders from a steep talus slope when hikers or Scouts are positioned below you?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Collecting rocks and fossils from national parks and public lands is unrestricted for amateur hobbyists.",
+          "fact": "Federal regulations prohibit removing natural, cultural, or fossil resources from National Parks without explicit scientific collecting permits."
+        },
+        {
+          "misconception": "Any fossil or mineral crystal found lying loose on the ground in a National Park is legal for Scouts to keep.",
+          "fact": "Collecting rocks, minerals, or fossils in National Parks and Monuments is strictly prohibited by federal law without a permit."
+        },
+        {
+          "misconception": "Vertebrate dinosaur bones and shark teeth on Bureau of Land Management lands can be collected freely by hobbyists.",
+          "fact": "Federal law restricts hobby collecting on public lands to reasonable quantities of common invertebrate and plant fossils only."
+        },
+        {
+          "misconception": "Prying a fossil out of its bedrock cliff without recording its exact location still preserves its scientific value.",
+          "fact": "A fossil removed without stratigraphic context and GPS coordinates loses most of its scientific value to paleontologists."
+        },
+        {
+          "misconception": "Stacking loose rocks into trailside cairns is a harmless practice that helps preserve natural geologic landscapes.",
+          "fact": "Unauthorized rock cairns disturb soil habitats, accelerate erosion, and confuse hikers who rely on official navigational markers."
+        }
       ]
     },
     {
@@ -3908,9 +4026,7 @@
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 89, p. 90)",
           "common_misconception_pair": {
             "misconception": "A bachelor degree in basic geology limits career choices to museum curation.",
-            "fact": "Geology graduates enter high-demand fields like groundwater management, geotechnical foundation assessment, natural hazard mitigation, and renewable geothermal energy.",
-            "myth": "A bachelor degree in basic geology limits career choices to museum curation.",
-            "fact_correction": "Geology graduates enter high-demand fields like groundwater management, geotechnical foundation assessment, natural hazard mitigation, and renewable geothermal energy."
+            "fact": "Geology graduates enter high-demand fields like groundwater management, geotechnical foundation assessment, natural hazard mitigation, and renewable geothermal energy."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -4002,9 +4118,7 @@
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 89, p. 90)",
           "common_misconception_pair": {
             "misconception": "Amateur rock collecting requires expensive industrial machinery and professional chemistry lab access.",
-            "fact": "Scouts can pursue lapidary hobbies affordably using basic hand tools, rock tumblers, field reference guides, and community club workshops.",
-            "myth": "Amateur rock collecting requires expensive industrial machinery and professional chemistry lab access.",
-            "fact_correction": "Scouts can pursue lapidary hobbies affordably using basic hand tools, rock tumblers, field reference guides, and community club workshops."
+            "fact": "Scouts can pursue lapidary hobbies affordably using basic hand tools, rock tumblers, field reference guides, and community club workshops."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -4112,9 +4226,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Geology graduates work exclusively on outdoor mining rigs or remote wilderness oil fields.",
-        "fact": "Many professional geoscientists work in urban environmental engineering firms, computer modeling laboratories, GIS mapping centers, and regulatory agencies.",
-        "myth": "Geology graduates work exclusively on outdoor mining rigs or remote wilderness oil fields.",
-        "fact_correction": "Many professional geoscientists work in urban environmental engineering firms, computer modeling laboratories, GIS mapping centers, and regulatory agencies."
+        "fact": "Many professional geoscientists work in urban environmental engineering firms, computer modeling laboratories, GIS mapping centers, and regulatory agencies."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -4151,18 +4263,18 @@
       "step_by_step_procedure": [
         "Step 1 - Career Track Identification: Select a specific geoscience occupation such as engineering geologist, vulcanologist, or paleoclimatologist.",
         "Step 2 - Education Path Analysis: Research accredited university geology degree programs, field camp expenses, and required licensure.",
-        "Step 3 - Professional Interview Execution: Conduct an interview with a working geologist regarding daily duties and industry developments.",
+        "Step 3 - Professional Interview: Conduct an interview with a working geologist regarding daily duties and industry developments.",
         "Step 4 - Career Summary Composition: Summarize expected starting salaries, projected employment growth, and specialized technical certifications."
       ],
       "gear_checklist": [
-        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
-        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Geology Careers and Pathways",
-        "Water/soil test strips or specimen sketch pad and non-invasive observation tools",
-        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
+        "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.",
+        "Field observation notebook, metric ruler, quadrant cord or sampling containers for Geology Careers and Pathways.",
+        "Water/soil test strips or specimen sketch pad and non-invasive observation tools.",
+        "Sun protection, drinking water, first-aid kit, and Leave No Trace field card."
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Professional Geoscience Career Pat",
-        "right_header": "Req 6b: Geological Hobbies and Recreation",
+        "left_header": "Req 6a: Professional Geoscience Career",
+        "right_header": "Req 6b: Geological Hobbies",
         "left_points": [
           "(6a) Professional Geoscience Career Pathways: Professional geologists typically require a bachelor of science degree in geology, summer field camp training, and state licensing as a Professional Geologist. Career opportunities span environmental remediation, geotechnical slope engineering, mining, and government geological surveys."
         ],
@@ -4171,28 +4283,28 @@
         ],
         "rows": [
           {
-            "attribute": "Professional Geology Career Pathways",
-            "left": "(6a) Professional Geology Career Pathways: Geology is a wide field with many career choices (p. 89).",
-            "right": "(6b) Recreational Earth Science Hobbies: Even if you are not interested in a career in geology, it is good to learn more about our Earth (p. 89)."
+            "attribute": "Petroleum Geologist Role",
+            "left": "(6a) Professional Geoscience Career Pathways: Professional geologists typically require a bachelor of science degree in geology, summer field camp training, and state licensing as a Professional Geologist. Career opportunities span environmental remediation, geotechnical slope engineering, mining, and government geological surveys.",
+            "right": "(6b) Geological Hobbies and Recreation: Earth science skills enrich lifelong outdoor hobbies including mineral collecting, lapidary gemstone cutting, speleology, and landscape photography. Organizations like the American Federation of Mineralogical Societies provide safety standards and organized field trips."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Appreciating Earth Through Geology: Knowledge of geology makes Earth even more interesting (p. 89).",
-            "right": "Step 2 - Explore Diverse Geology Specialties: Geology is a wide field with many career choices (p. 89)."
+            "attribute": "Environmental Hydrogeologist Scope",
+            "left": "Req 6a: Professional Geoscience: Professional geologists typically require a bachelor of science degree in geology, summer field camp training, and state licensing as a Professional Geologist. Career opportunities span environmental remediation, geotechnical slope engineering, mining, and government geological surveys.",
+            "right": "Req 6b: Geological Hobbies: Earth science skills enrich lifelong outdoor hobbies including mineral collecting, lapidary gemstone cutting, speleology, and landscape photography. Organizations like the American Federation of Mineralogical Societies provide safety standards and organized field trips."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "School and College Courses: To learn more about geology take an earth science course in high school, or two or more college courses in geology (p. 89).",
-            "right": "Step 3 - Study Groundwater With Hydrogeologists: Hydrogeologists help find water underground and can plan how much to use so you will not run (p. 89)."
+            "attribute": "Lapidary Club Avocation",
+            "left": "Petroleum Geologist Role: Exploration geologists evaluate subsurface seismic imaging and well logs to locate energy reserves.",
+            "right": "Environmental Hydrogeologist Scope: Groundwater specialists model aquifer contaminant transport to protect municipal drinking water supplies."
           }
         ]
       },
       "worked_example": {
-        "title": "Geology Req 6 Exemplar Workbook Entry: Geology Careers and Earth Hobbies",
+        "title": "Geology Req 6 Exemplar Workbook Entry: Geology Careers",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 6a - Professional Geoscience Career Pa": "Professional geologists typically require a bachelor of science degree in geology, summer field camp training, and state licensing as a Professional Geologist. Career opportunities span environmental remediation, geotechnical slope engineering, mining, and government geological surveys.",
-          "Req 6b - Geological Hobbies and Recreation": "Earth science skills enrich lifelong outdoor hobbies including mineral collecting, lapidary gemstone cutting, speleology, and landscape photography. Organizations like the American Federation of Mineralogical Societies provide safety standards and organized field trips."
+          "Req 6a - Professional Geoscience": "Professional geologists typically require a bachelor of science degree in geology, summer field camp training, and state licensing as a Professional Geologist. Career opportunities span environmental remediation, geotechnical slope engineering, mining, and government geological surveys.",
+          "Req 6b - Geological Hobbies": "Earth science skills enrich lifelong outdoor hobbies including mineral collecting, lapidary gemstone cutting, speleology, and landscape photography. Organizations like the American Federation of Mineralogical Societies provide safety standards and organized field trips."
         },
         "sample_output": "Geology Careers and Earth Hobbies: Geology is a wide field with many career choices (p. 89).",
         "counselor_tip": "For Geology Requirement 6 (Geology Careers and Earth Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Geology Merit Badge Pamphlet (p. 89, p. 90))."
@@ -4227,9 +4339,35 @@
       "workbook_visual_caption": "A Scout explains petroleum extraction and refining using a presentation board.",
       "pamphlet_summary": "Geological expertise prepares individuals for professional careers in hydrogeology, petroleum exploration, environmental consulting, and hazard mitigation. Enthusiasts also apply geological knowledge through amateur lapidary arts, mineral clubs, speleology, and volunteer trail conservation.",
       "socratic_questions": [
-        "How do environmental engineering firms use geology to prevent contaminated water from reaching public wells?",
+        "In what specific ways do environmental engineering firms use geology to prevent contaminated water from reaching public wells?",
         "What role does GIS computer mapping software play in modern geological hazard forecasting?",
-        "How can joining a local gem and mineral society enhance field identification skills?"
+        "How can joining a local gem and mineral society enhance field identification skills?",
+        "What education and examination steps are required to earn a Professional Geologist license in most states?",
+        "Which core field duties distinguish an environmental hydrogeologist from a geotechnical engineering geologist?",
+        "What catalog data must a rockhound or museum curator record on a specimen card so a collection keeps its value?",
+        "What eye, respiratory, and parent-permission safeguards apply when visiting a gem and mineral club lapidary shop?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "Geology graduates work exclusively on outdoor mining rigs or remote wilderness oil fields.",
+          "fact": "Many professional geoscientists work in urban environmental engineering firms, computer modeling laboratories, GIS mapping centers, and regulatory agencies."
+        },
+        {
+          "misconception": "Nearly all professional geologists work exclusively for oil, gas, and mining companies in remote desert camps.",
+          "fact": "Many geoscientists work in environmental consulting, groundwater management, natural hazard mitigation, and civil engineering."
+        },
+        {
+          "misconception": "A bachelor's degree in geology automatically authorizes a graduate to sign off on public engineering and safety reports.",
+          "fact": "Signing public geological reports requires passing national licensing exams and earning work experience as a Professional Geologist."
+        },
+        {
+          "misconception": "Amateur rockhounds cannot make meaningful scientific contributions because they lack university laboratory equipment.",
+          "fact": "Amateur collectors frequently discover new mineral localities and rare fossil species that they report to museum researchers."
+        },
+        {
+          "misconception": "Grinding and polishing dry quartz or agate on a lapidary wheel is safe to do without water coolant or a respirator.",
+          "fact": "Dry grinding silicates releases fine crystalline silica dust that causes permanent lung damage unless suppressed with water."
+        }
       ]
     }
   ],

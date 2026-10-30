@@ -1,8 +1,8 @@
 # Digital Technology Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Digital%20Technology.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/digital-technology/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/digital-technology/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -79,10 +79,10 @@
 - **Pamphlet Fact:** Transistors replaced fragile vacuum tubes to drastically reduce hardware power consumption and physical footprint.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Digital Technology merit badge pamphlet and workbook organizer for Req 2
-- [ ] Computer or workstation with approved development or analysis tools
-- [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook
-- [ ] Saved project files, screenshots, or code listing for Evolution of Computing Technology
+- [ ] Official Digital Technology merit badge pamphlet and workbook organizer for Req 2.
+- [ ] Computer or workstation with approved development or analysis tools.
+- [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook.
+- [ ] Saved project files, screenshots, or code listing for Evolution of Computing Technology.
 
 ![Digital Technology Requirement 2 figure showing early mainframe computers used delicate glass vacuum tubes that generated immense heat.](/assets/pamphlet_images/digital_technology_p007_img1.png)
 

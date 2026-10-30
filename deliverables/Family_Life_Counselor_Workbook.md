@@ -2,7 +2,7 @@
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Family%20Life.pdf  
-**Digital Resource Guide (DRG):** 
+**Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/family-life/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -17,7 +17,7 @@
 | **3** | Req 3: Home Chores and Duty Tracking | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **4** | Req 4: Independent Home Improvement Project | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Family Life Merit Badge Pamphlet (p. 26, p. 27) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Collaborative Family Service Project | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Family Meeting Facilitation Process | Demonstrate | `Prerequisite / Home & Troop Prep` | **Post-Class Home-Troop Follow-Up** | Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Family Meeting Facilitation Process | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Role of Effective Guardianship | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Family Life Merit Badge Pamphlet (p. 58, p. 60) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
@@ -86,9 +86,9 @@
 - **Pamphlet Fact:** The requirement demands an authentic ninety day log demonstrating real persistence and measurable habit formation.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Family Life Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Regular Home Duties or Chores)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Regular Home Duties or Chores
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Family Life Merit Badge: Regular Home Duties or Chores.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Regular Home Duties or Chores.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![Family members work together outside a log cabin chopping firewood and carrying water for household chores.](/assets/ai_illustrations/family_life_req_3_nano_hero.png)
 
@@ -149,9 +149,9 @@
 - **Pamphlet Fact:** A clear project objective must specify measurable criteria and an intended functional improvement for the household.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Family Life Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Plan and carry out a project)
-- [ ] Field notebook, verification log sheet, and demonstration materials for Plan and carry out a project
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official Family Life Merit Badge: Plan and carry out a project.
+- [ ] Field notebook, verification log sheet, and demonstration materials for Plan and carry out a project.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![A young Scout vacuums the floor inside his home to complete assigned household chores.](/assets/pamphlet_images/family_life_p020_img1.png)
 

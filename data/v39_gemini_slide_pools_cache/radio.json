@@ -1,0 +1,248 @@
+{
+  "badge_slug": "radio",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "High-frequency RF energy penetrates deeply and heats underlying tissue rapidly, often causing severe internal burns before pain registers.",
+          "misconception": "Radio frequency burns on the skin behave identically to standard household 60 Hz alternating current shocks."
+        },
+        {
+          "fact": "Unbonded ground rods allow dangerous voltage differences through the soil during a strike, so all ground rods must be bonded together.",
+          "misconception": "Driving a separate ground rod for a radio tower without connecting it to the main house ground is the safest lightning setup."
+        },
+        {
+          "fact": "Lithium-ion thermal runaway generates its own oxygen, requiring class ABC or dry chemical extinguishers and large volumes of cooling water.",
+          "misconception": "Pouring water on a burning lithium-ion battery immediately extinguishes the chemical reaction inside the damaged cells."
+        },
+        {
+          "fact": "High-voltage filter capacitors retain lethal direct current charges long after power-off and must be discharged with a grounding stick.",
+          "misconception": "Turning off a high-voltage linear amplifier power switch makes the internal filter capacitors immediately safe to touch."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a lightning surge when an exterior antenna ground rod is not bonded to the home electrical service ground?",
+        "Why is it dangerous to touch an ungrounded radio chassis while your other hand rests on a grounded metal water pipe?",
+        "Which physical indicator on a lithium-ion battery pack signals internal gas buildup and an immediate thermal runaway hazard?",
+        "What measurement confirms that an AC wall outlet's third-prong ground terminal actually provides a low-impedance path to earth?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "All electromagnetic waves in a vacuum travel at the speed of light, approximately 300,000,000 meters per second, regardless of frequency.",
+          "misconception": "Higher frequency radio waves travel through free space at a faster speed than lower frequency radio waves."
+        },
+        {
+          "fact": "High Frequency spans 3 to 30 megahertz, whereas Very High Frequency spans 30 to 300 megahertz and hosts FM broadcast stations.",
+          "misconception": "The High Frequency band extends from 30 megahertz up to 300 megahertz and includes FM commercial broadcast radio."
+        },
+        {
+          "fact": "Hertz units measure how many electromagnetic wave cycles pass a fixed point each second, while watts measure transmitter output power.",
+          "misconception": "Kilohertz and megahertz measure the audio loudness or output wattage of a radio transmitter rather than its wave oscillation rate."
+        },
+        {
+          "fact": "Standard AM broadcast stations in the United States transmit in the Medium Frequency band between 535 and 1,705 kilohertz.",
+          "misconception": "Standard AM broadcast radio stations operate inside the High Frequency shortwave spectrum above 3 megahertz."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the physical wavelength of a radio wave in meters when you multiply its operating frequency in megahertz by ten?",
+        "Where should a Scout position the boundary line between High Frequency and Very High Frequency on a logarithmic spectrum chart?",
+        "Why must a half-wave dipole antenna cut for the 2-meter VHF band be much shorter than one built for the 40-meter HF band?",
+        "Which specific frequency band between 300 kHz and 3,000 kHz hosts commercial AM broadcast stations alongside maritime beacons?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "VHF and UHF waves normally pass straight through the ionosphere into space, limiting direct communication to near line-of-sight distances.",
+          "misconception": "VHF and UHF handheld radio signals routinely refract off the ionosphere to provide reliable communication across oceans."
+        },
+        {
+          "fact": "Solar ionization strengthens the F2 layer during daylight hours, supporting long-distance skywave skip on higher HF bands like 15 and 20 MHz.",
+          "misconception": "Daytime solar ultraviolet radiation weakens the ionosphere and prevents all shortwave skywave propagation on 10 and 15 MHz."
+        },
+        {
+          "fact": "WWV and WWVH transmit continuous standard time tones and geophysical solar indices on 2.5, 5, 10, 15, and 20 MHz to test band openings.",
+          "misconception": "Stations WWV and WWVH broadcast only local weather forecasts for Colorado and Hawaii rather than global propagation data."
+        },
+        {
+          "fact": "Ground waves hug the curvature of the Earth best at lower frequencies like LF and MF, while UHF signals are rapidly absorbed by terrain.",
+          "misconception": "Ground wave signals travel further at UHF microwave frequencies than they do at Low Frequency or Medium Frequency wavelengths."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the ionospheric D and F layers after sunset that allows distant HF stations to be heard thousands of miles away?",
+        "Why does a strong signal on 15 MHz from WWV in Fort Collins indicate that upper HF bands are open for long-distance skip?",
+        "Under what condition does a silent skip zone form between the end of an HF station's ground wave and its first skywave hop?",
+        "Which physical barrier limits two VHF handheld transceivers to line-of-sight range when no repeater is mounted on a hilltop?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "True CW transmission switches the unmodulated radio frequency carrier completely on and off to form dots and dashes within a narrow bandwidth.",
+          "misconception": "Continuous wave Morse code modulates an audio tone onto a steady carrier wave just like an AM broadcast transmitter."
+        },
+        {
+          "fact": "Frequency modulation keeps the carrier amplitude constant while shifting the instantaneous carrier frequency above and below its center.",
+          "misconception": "Frequency modulation varies the height and power envelope of the transmitted radio wave in step with the microphone audio."
+        },
+        {
+          "fact": "At full modulation, a conventional AM signal wastes two-thirds of its total power in the steady carrier and splits the rest into two sidebands.",
+          "misconception": "Standard full-carrier AM places nearly all of its transmitter wattage into the voice sidebands rather than the carrier."
+        },
+        {
+          "fact": "Both Wi-Fi and Bluetooth encode digital binary data onto microwave radio frequencies in the 2.4 GHz and 5 GHz spectrum bands.",
+          "misconception": "Wi-Fi and Bluetooth signals use acoustic sound waves rather than radio frequency electromagnetic waves to send digital packets."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to the carrier and opposite sideband in a Single Sideband transmitter that makes it more efficient than standard AM?",
+        "Why does an FM receiver reject static bursts from nearby lightning strikes much better than an AM receiver tuned to the same area?",
+        "Under what condition does Continuous Wave Morse code penetrate heavy atmospheric noise when voice signals become unreadable?",
+        "Which method lets Bluetooth devices in the 2.4 GHz band avoid interference by switching channels 1,600 times per second?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Block diagrams show high-level functional stages connected by signal-flow arrows, while schematic diagrams show exact electronic components.",
+          "misconception": "A station block diagram displays every individual resistor, capacitor, and transistor pin connection inside the transceiver."
+        },
+        {
+          "fact": "The outer shield of coaxial cable confines RF energy inside the feedline so power reaches the antenna without radiating inside the station.",
+          "misconception": "Coaxial feedline is supposed to radiate radio energy all along its length on the way from the transceiver to the antenna."
+        },
+        {
+          "fact": "An RF amplifier boosts radio frequency signal wattage between the transceiver and feedline, whereas an audio amplifier drives the speaker.",
+          "misconception": "Connecting an external linear RF amplifier between the antenna and the speaker increases the audio volume in the room."
+        },
+        {
+          "fact": "Resistors use a jagged zigzag line to represent ohmic resistance, while inductors use looped coils to represent magnetic energy storage.",
+          "misconception": "Schematic symbols for inductors and resistors are interchangeable because both components oppose current flow in identical ways."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should a Scout position an external RF power amplifier and SWR meter along the signal path between a transceiver and antenna?",
+        "Why must a technician inspect a schematic diagram rather than a block diagram when replacing a burned resistor inside a power supply?",
+        "What happens to transmitter final transistors when a coaxial feedline is disconnected or shorted while keying at full RF power?",
+        "Which specific schematic symbol distinguishes a polarized electrolytic capacitor from a variable tuning capacitor or an inductor?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The FCC regulates non-federal radio and interstate communications inside the United States, while the ITU coordinates international treaties.",
+          "misconception": "The Federal Communications Commission has legal jurisdiction to issue licenses and enforce radio rules in every country worldwide."
+        },
+        {
+          "fact": "In the United States, broadcast stations east of the Mississippi usually start with W, while western stations usually start with K.",
+          "misconception": "Commercial broadcast call signs beginning with the letter K are assigned exclusively to stations east of the Mississippi River."
+        },
+        {
+          "fact": "Standard ITU phonetics like Alfa, Bravo, and Charlie are chosen so each word remains distinct across accents and heavy radio interference.",
+          "misconception": "Making up custom words like Apple, Boy, and Cat during an emergency net works just as well as the standard ITU phonetic alphabet."
+        },
+        {
+          "fact": "FCC Part 97 rules require amateur stations to transmit their assigned call sign every ten minutes during a communication and at its conclusion.",
+          "misconception": "Amateur radio operators in the United States are only required to announce their call sign once at the start of a two-hour net."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why must United States amateur radio operators identify with their FCC-assigned call sign at least every ten minutes during a contact?",
+        "What geographic detail does the single digit in a call sign like W1AW or K6BSA originally indicate in the United States?",
+        "Under what condition does spelling a call sign with the ITU phonetic alphabet prevent errors that rhyming letters cause over static?",
+        "Which international agency coordinates global frequency allocations so signals crossing borders do not jam foreign radio services?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "A phone's GPS chip is a passive receiver that measures arrival time differences of atomic-clock signals broadcast from orbiting satellites.",
+          "misconception": "Smartphones transmit signal bursts up to orbiting GPS satellites so the satellites can calculate where the hiker is standing."
+        },
+        {
+          "fact": "Standard cellular calls require a base station cell site and backhaul network to route full-duplex traffic between two mobile handsets.",
+          "misconception": "Two standard smartphones out in the wilderness can talk directly to each other like walkie-talkies without any cell tower."
+        },
+        {
+          "fact": "Airplane Mode disables the phone's radio frequency transmitters to prevent interference with aircraft navigation and save battery power.",
+          "misconception": "Enabling Airplane Mode only dims the phone screen while leaving the cellular, Wi-Fi, and Bluetooth transmitters active."
+        },
+        {
+          "fact": "Cell sites often fail during disasters when commercial power and backup generators run out, fiber lines are cut, or call channels saturate.",
+          "misconception": "Cell towers stay operational indefinitely during major wildfires or hurricanes because they never rely on commercial grid power."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a smartphone's battery drain and transmitter output when you hike into a canyon with no cellular tower coverage?",
+        "Why must a smartphone GPS receiver lock onto at least four satellites to calculate both three-dimensional location and altitude?",
+        "Under what condition do cell networks fail during a disaster while battery-powered amateur VHF simplex radios keep working?",
+        "Which mechanism allows a cellular network to reuse the same UHF frequencies across a city without calls interfering with one another?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "The FCC eliminated all Morse code testing requirements in 2007, so Technician, General, and Amateur Extra exams test written theory and rules.",
+          "misconception": "Passing the FCC Technician class amateur radio exam requires sending and receiving Morse code at twenty words per minute."
+        },
+        {
+          "fact": "FRS radios are license-by-rule up to two watts with permanently attached antennas, whereas GMRS requires an FCC license and allows repeaters.",
+          "misconception": "Family Radio Service walkie-talkies require an individual FCC license test and allow high-power external roof antennas."
+        },
+        {
+          "fact": "FCC Part 97 strictly prohibits music broadcasts and pecuniary interest on amateur bands, reserving the service for noncommercial communication.",
+          "misconception": "Licensed amateur radio operators are permitted to broadcast commercial music or accept payment for delivering business messages."
+        },
+        {
+          "fact": "Mayday is reserved strictly for grave and imminent danger to life or vessel, whereas Pan-Pan indicates an urgent safety situation.",
+          "misconception": "Calling Mayday is used for routine radio checks on amateur repeaters, while Pan-Pan means a life-threatening emergency."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to your HF operating privileges when you upgrade from an entry-level Technician license to a General class license?",
+        "Why must a Scout listen carefully and ask if a frequency is in use before calling CQ or joining a repeater QSO?",
+        "Which five details belong in a station logbook entry when logging a ten-minute QSO during a Jamboree on the Air session?",
+        "What do the three digits in an RST signal report of 599 tell the transmitting operator about readability, strength, and tone?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "FCC Part 97 rules strictly prohibit pecuniary interest on amateur bands; commercial work requires a commercial license or certification.",
+          "misconception": "Holding an FCC Amateur Extra license permits an operator to accept direct payment for commercial radio broadcasts."
+        },
+        {
+          "fact": "Radio frequency engineers, avionics technicians, and satellite systems specialists remain in high demand across wireless industries.",
+          "misconception": "Modern radio careers are limited to on-air broadcast announcers because streaming services replaced terrestrial radio."
+        },
+        {
+          "fact": "Public service communicators deploy only when officially activated by a served agency or net control to maintain site safety and order.",
+          "misconception": "Volunteer amateur radio operators can self-dispatch into disaster zones as soon as they hear an emergency on a scanner."
+        },
+        {
+          "fact": "An unmodulated carrier wave still radiates full radio frequency power and can cause severe RF burns unless the transmitter is locked out.",
+          "misconception": "Commercial transmitter antennas are safe to climb whenever audio programming is silent because no RF energy is radiated."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What protocol must an amateur operator follow before transmitting emergency traffic on a local ARES or RACES net?",
+        "Which legal authority distinguishes a Civil Defense RACES station from a voluntary ARES emergency communications net?",
+        "What measurement confirms that a broadcast transmitter tower meets FCC radio frequency exposure limits for crew?",
+        "Why is it dangerous to service a commercial broadcast antenna without verifying transmitter lockout and RF power?"
+      ],
+      "req_id": "9"
+    }
+  ]
+}

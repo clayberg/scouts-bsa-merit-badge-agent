@@ -82,9 +82,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that the Constitution grants citizens their fundamental personal rights.",
-        "fact": "The Constitution recognizes preexisting natural rights and places strict legal boundaries on governmental infringement.",
-        "myth": "A common misunderstanding is that the Constitution grants citizens their fundamental personal rights.",
-        "fact_correction": "The Constitution recognizes preexisting natural rights and places strict legal boundaries on governmental infringement."
+        "fact": "The Constitution recognizes preexisting natural rights and places strict legal boundaries on governmental infringement."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -121,50 +119,50 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Original Constitutional Framework and Text",
-        "right_header": "Formal Constitutional Amendment Process",
+        "left_header": "Req 1: Constitutional Flexibility",
+        "right_header": "Req 1: Check State Suit Restrictions",
         "left_points": [
           "Constitutional Flexibility and Growth: Amendments to the Constitution The Constitution is a flexible document that adapts to the changing needs of American society (p. 18).",
           "Post Bill of Rights Amendments: Since the Bill of Rights was adopted, the Constitution has been amended 17 times (p. 18).",
           "State Sovereign Immunity Limits: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18)."
         ],
         "right_points": [
-          "Step 1 - Check State Suit Restrictions: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18).",
-          "Step 2 - File Federal Rights Lawsuits: However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 18).",
-          "Step 3 - Cast Separate Electoral Ballots: The 12th Amendment (1804) requires members of the Electoral College to cast two separate ballots, one for president and one for vice president (p. 18)."
+          "Check State Suit Restrictions: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18).",
+          "File Federal Rights Lawsuits: However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 18).",
+          "Cast Separate Electoral Ballots: The 12th Amendment (1804) requires members of the Electoral College to cast two separate ballots, one for president and one for vice president (p. 18)."
         ],
         "rows": [
           {
-            "attribute": "Constitutional Flexibility and Growth",
+            "attribute": "Supreme Legal Authority",
             "left": "Constitutional Flexibility and Growth: Amendments to the Constitution The Constitution is a flexible document that adapts to the changing needs of American society (p. 18).",
-            "right": "Step 1 - Check State Suit Restrictions: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18)."
+            "right": "Check State Suit Restrictions: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Popular Sovereignty Doctrine",
             "left": "Post Bill of Rights Amendments: Since the Bill of Rights was adopted, the Constitution has been amended 17 times (p. 18).",
-            "right": "Step 2 - File Federal Rights Lawsuits: However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 18)."
+            "right": "File Federal Rights Lawsuits: However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 18)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Federal Structure Model",
             "left": "State Sovereign Immunity Limits: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18).",
-            "right": "Step 3 - Cast Separate Electoral Ballots: The 12th Amendment (1804) requires members of the Electoral College to cast two separate ballots, one for president and one for vice president (p. 18)."
+            "right": "Cast Separate Electoral Ballots: The 12th Amendment (1804) requires members of the Electoral College to cast two separate ballots, one for president and one for vice president (p. 18)."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Nation Req 1 Exemplar Workbook Entry: Principles of the United States Constitution",
+        "title": "Citizenship in the Nation Req 1 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Constitutional Flexibility and Growth": "Amendments to the Constitution The Constitution is a flexible document that adapts to the changing needs of American society (p. 18).",
           "Post Bill of Rights Amendments": "Since the Bill of Rights was adopted, the Constitution has been amended 17 times (p. 18).",
           "State Sovereign Immunity Limits": "The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18).",
-          "Protecting Individual Constitutional Rights": "However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 18)."
+          "Protecting Individual Constitutional": "However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 18)."
         },
         "sample_output": "Principles of the United States Constitution: Amendments to the Constitution The Constitution is a flexible document that adapts to the changing needs of American society (p. 18).",
         "counselor_tip": "For Citizenship in the Nation Requirement 1 (Principles of the United States Constitution), verify the Scout's own observations and specific pamphlet details (Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 18, p. 22))."
       },
       "quiz_item": {
-        "scenario_prompt": "How do the constitutional principles of separation of powers and checks and balances protect American citizens from tyranny under Citizenship in the Nation Requirement 1?",
+        "scenario_prompt": "In what specific ways do the constitutional principles of separation of powers and checks and balances protect American citizens from tyranny under Citizenship in the Nation Requirement 1?",
         "question": "How do the constitutional principles of separation of powers and checks and balances protect American citizens from tyranny under Citizenship in the Nation Requirement 1?",
         "options": [
           "A. By dividing federal authority among the legislative, executive.",
@@ -195,7 +193,33 @@
       "socratic_questions": [
         "Why did the Constitutional Convention choose a written document rather than unwritten common law traditions?",
         "How does the principle of federalism balance national strength with state independence?",
-        "What might happen to citizen freedoms if government power possessed no explicit constitutional boundaries?"
+        "What might happen to citizen freedoms if government power possessed no explicit constitutional boundaries?",
+        "What happens to a state or federal statute that directly conflicts with the U.S. Constitution under the Supremacy Clause?",
+        "Which core constitutional principle states that government authority comes from the consent of the governed?",
+        "Under what condition can an amendment officially become part of the United States Constitution under Article V?",
+        "Why does a written constitution protect minority rights better than unwritten customs or simple majority votes alone?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A common misunderstanding is that the Constitution grants citizens their fundamental personal rights.",
+          "fact": "The Constitution recognizes preexisting natural rights and places strict legal boundaries on governmental infringement."
+        },
+        {
+          "misconception": "The United States Constitution grants rights to citizens that the federal government can revoke by passing a regular statute.",
+          "fact": "The Constitution recognizes preexisting rights and restricts government power, requiring a formal constitutional amendment to alter them."
+        },
+        {
+          "misconception": "Federalism means the national government holds total authority over state governments on all local police and school matters.",
+          "fact": "Federalism divides power between national and state governments, reserving unenumerated local powers to the states or the people."
+        },
+        {
+          "misconception": "The Articles of Confederation and the United States Constitution are the same document with different historical titles.",
+          "fact": "The Constitution replaced the Articles of Confederation in 1789 to create a stronger federal union with three branches of government."
+        },
+        {
+          "misconception": "The President can amend the United States Constitution unilaterally by issuing an executive order during a national emergency.",
+          "fact": "Constitutional amendments require proposal by two-thirds of Congress or a convention and ratification by three-fourths of the states."
+        }
       ]
     },
     {
@@ -256,9 +280,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that the Preamble grants enforceable police powers to federal court judges.",
-        "fact": "The Preamble outlines guiding governmental intentions but conveys no direct statutory or regulatory powers.",
-        "myth": "A common misunderstanding is that the Preamble grants enforceable police powers to federal court judges.",
-        "fact_correction": "The Preamble outlines guiding governmental intentions but conveys no direct statutory or regulatory powers."
+        "fact": "The Preamble outlines guiding governmental intentions but conveys no direct statutory or regulatory powers."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -295,38 +317,38 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Providing for the Common Defense",
-        "right_header": "Promoting the General Welfare Locally",
+        "left_header": "Req 2: Adapting to Changing Society",
+        "right_header": "Req 2: Respect State Court Immunity",
         "left_points": [
           "Adapting to Changing Society: Amendments to the Constitution The Constitution is a flexible document that adapts to the changing needs of American society (p. 18).",
           "Seventeen Subsequent Amendments: Since the Bill of Rights was adopted, the Constitution has been amended 17 times (p. 18).",
           "Eleventh Amendment Lawsuit Limits: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18)."
         ],
         "right_points": [
-          "Step 1 - Respect State Court Immunity: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18).",
-          "Step 2 - Challenge Unconstitutional State Actions: However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 18).",
-          "Step 3 - Separate Executive Electoral Votes: The 12th Amendment (1804) requires members of the Electoral College to cast two separate ballots, one for president and one for vice president (p. 18)."
+          "Respect State Court Immunity: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18).",
+          "Challenge Unconstitutional State Actions: However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 18).",
+          "Separate Executive Electoral Votes: The 12th Amendment (1804) requires members of the Electoral College to cast two separate ballots, one for president and one for vice president (p. 18)."
         ],
         "rows": [
           {
-            "attribute": "Adapting to Changing Society",
+            "attribute": "Preamble Goal Identification",
             "left": "Adapting to Changing Society: Amendments to the Constitution The Constitution is a flexible document that adapts to the changing needs of American society (p. 18).",
-            "right": "Step 1 - Respect State Court Immunity: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18)."
+            "right": "Respect State Court Immunity: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Domestic Tranquility Mandate",
             "left": "Seventeen Subsequent Amendments: Since the Bill of Rights was adopted, the Constitution has been amended 17 times (p. 18).",
-            "right": "Step 2 - Challenge Unconstitutional State Actions: However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 18)."
+            "right": "Challenge Unconstitutional State Actions: However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 18)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Common Defense Obligation",
             "left": "Eleventh Amendment Lawsuit Limits: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 18).",
-            "right": "Step 3 - Separate Executive Electoral Votes: The 12th Amendment (1804) requires members of the Electoral College to cast two separate ballots, one for president and one for vice president (p. 18)."
+            "right": "Separate Executive Electoral Votes: The 12th Amendment (1804) requires members of the Electoral College to cast two separate ballots, one for president and one for vice president (p. 18)."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Nation Req 2 Exemplar Workbook Entry: Six Purposes in the Preamble",
+        "title": "Citizenship in the Nation Req 2 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Adapting to Changing Society": "Amendments to the Constitution The Constitution is a flexible document that adapts to the changing needs of American society (p. 18).",
@@ -369,7 +391,33 @@
       "socratic_questions": [
         "Which of the six Preamble goals impacts your daily routine at school most noticeably?",
         "How does promoting the general welfare differ from providing for the common defense?",
-        "Why did the Framers specify 'We the People' rather than naming individual sovereign states?"
+        "Why did the Framers specify 'We the People' rather than naming individual sovereign states?",
+        "What distinguishes 'insure domestic Tranquility' from 'provide for the common defence' in the Preamble's six purposes?",
+        "Which specific Preamble purpose is fulfilled when federal courts resolve a dispute fairly using impartial juries?",
+        "Where in your local community can you observe federal programs that 'promote the general Welfare' for families?",
+        "Why did the Framers begin the Preamble with 'We the People' instead of listing the individual thirteen states?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A common misunderstanding is that the Preamble grants enforceable police powers to federal court judges.",
+          "fact": "The Preamble outlines guiding governmental intentions but conveys no direct statutory or regulatory powers."
+        },
+        {
+          "misconception": "The Preamble grants the federal government independent legal power to pass any law that officials claim promotes the general welfare.",
+          "fact": "The Preamble states the Constitution's guiding goals, while actual federal lawmaking powers must come from the body of the Constitution."
+        },
+        {
+          "misconception": "Insuring domestic tranquility refers to negotiating peace treaties and trade agreements with foreign nations overseas.",
+          "fact": "Domestic tranquility means maintaining civil peace, public order, and lawful stability within the borders of the United States."
+        },
+        {
+          "misconception": "Forming a more perfect Union meant abolishing state governments so that one central legislature would write all local laws.",
+          "fact": "Forming a more perfect Union united the states under an effective national framework while preserving state authority over local affairs."
+        },
+        {
+          "misconception": "Securing the Blessings of Liberty to our Posterity applies only to the generation of citizens alive in 1787.",
+          "fact": "Posterity refers to all future generations of Americans, meaning the Constitution was designed to protect freedom for descendants."
+        }
       ]
     },
     {
@@ -443,9 +491,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that federal courts write new statutory legislation when reviewing disputes.",
-            "fact": "Courts interpret existing laws and constitutional clauses without possessing legislative drafting authority.",
-            "myth": "A common misunderstanding is that federal courts write new statutory legislation when reviewing disputes.",
-            "fact_correction": "Courts interpret existing laws and constitutional clauses without possessing legislative drafting authority."
+            "fact": "Courts interpret existing laws and constitutional clauses without possessing legislative drafting authority."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -517,9 +563,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that dividing power was intended to maximize bureaucratic administrative speed.",
-            "fact": "Separation of powers prioritizes deliberation, accountability, and tyranny prevention over rapid governmental action.",
-            "myth": "A common misunderstanding is that dividing power was intended to maximize bureaucratic administrative speed.",
-            "fact_correction": "Separation of powers prioritizes deliberation, accountability, and tyranny prevention over rapid governmental action."
+            "fact": "Separation of powers prioritizes deliberation, accountability, and tyranny prevention over rapid governmental action."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -590,9 +634,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that the Supreme Court can unilaterally veto pending congressional bills.",
-            "fact": "Judicial review applies only to enacted laws or executive actions brought through actual legal controversies.",
-            "myth": "A common misunderstanding is that the Supreme Court can unilaterally veto pending congressional bills.",
-            "fact_correction": "Judicial review applies only to enacted laws or executive actions brought through actual legal controversies."
+            "fact": "Judicial review applies only to enacted laws or executive actions brought through actual legal controversies."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -679,9 +721,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that voting in presidential elections is the only citizen civic duty.",
-            "fact": "Citizens participate through jury duty, regulatory public commentary, town halls, and direct legislative petitioning.",
-            "myth": "A common misunderstanding is that voting in presidential elections is the only citizen civic duty.",
-            "fact_correction": "Citizens participate through jury duty, regulatory public commentary, town halls, and direct legislative petitioning."
+            "fact": "Citizens participate through jury duty, regulatory public commentary, town halls, and direct legislative petitioning."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -824,9 +864,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that the president holds supreme command over the other two branches.",
-        "fact": "The three branches are constitutionally coequal, with distinct duties and robust interbranch checks.",
-        "myth": "A common misunderstanding is that the president holds supreme command over the other two branches.",
-        "fact_correction": "The three branches are constitutionally coequal, with distinct duties and robust interbranch checks."
+        "fact": "The three branches are constitutionally coequal, with distinct duties and robust interbranch checks."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -875,30 +913,30 @@
         ],
         "rows": [
           {
-            "attribute": "Functions of Each Government Branch",
-            "left": "(3a) Functions of Each Government Branch: This separation of powers and system of checks and balances prevented any one branch from becoming too powerful (p. 27).",
-            "right": "(3c) System of Checks and Balances: The Senate has 100 members; two senators are elected from each state (p. 27)."
+            "attribute": "Tripartite Structure Division",
+            "left": "(3a) Functions of Governing Branches: The legislative branch creates statutory policies, the executive branch enforces federal regulations, and the judicial branch interprets statutes. Each branch operates within clear boundaries defined in the first three constitutional articles.",
+            "right": "(3c) Checks and Balances Mechanisms: The constitutional framework equips each governing branch with legal tools to resist overreach by the others. Vetoes, confirmations, impeachments, and judicial rulings maintain continuous dynamic equilibrium between departments."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(3b) Importance of Dividing Federal Power: The Constitution established a bicameral (two-chamber) legislature consisting of the Senate and the House of Representatives so that one chamber (p. 27).",
-            "right": "(3d) Citizen Involvement Across Three Branches: The House of Representatives has 435 members; the number of representatives from each state is based on the population of the state according (p. 27)."
+            "attribute": "Legislative Bicameral Authority",
+            "left": "(3b) Separation of Governmental Powers: Dividing governmental functions among separate departments prevents tyrannical concentration of unchecked authority. This institutional division guarantees that no single leader or council exercises unrestrained national power.",
+            "right": "(3d) Citizen Governmental Involvement Pathways: Citizens influence branches through voting for legislators, serving on federal juries, and submitting executive agency comments. Grassroots petitioning, public testimony, and legal advocacy ensure civic voices shape national decision making."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Equal State Senate Representation: The Senate has 100 members; two senators are elected from each state (p. 27).",
-            "right": "Step 3 - Set Total House Membership: The Constitution does not fix the number of members in the House of Representatives, instead allowing Congress to determine the total (p. 27)."
+            "attribute": "Executive Branch Administration",
+            "left": "Req 3a: Functions of Governing: The legislative branch creates statutory policies, the executive branch enforces federal regulations, and the judicial branch interprets statutes. Each branch operates within clear boundaries defined in the first three constitutional articles.",
+            "right": "Req 3b: Separation of Governmental: Dividing governmental functions among separate departments prevents tyrannical concentration of unchecked authority. This institutional division guarantees that no single leader or council exercises unrestrained national power."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Nation Req 3 Exemplar Workbook Entry: Three Branches and Checks and Balances",
+        "title": "Citizenship in the Nation Req 3 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Functions of Governing Branches": "The legislative branch creates statutory policies, the executive branch enforces federal regulations, and the judicial branch interprets statutes. Each branch operates within clear boundaries defined in the first three constitutional articles.",
-          "Req 3b - Separation of Governmental Powers": "Dividing governmental functions among separate departments prevents tyrannical concentration of unchecked authority. This institutional division guarantees that no single leader or council exercises unrestrained national power.",
-          "Req 3c - Checks and Balances Mechanisms": "The constitutional framework equips each governing branch with legal tools to resist overreach by the others. Vetoes, confirmations, impeachments, and judicial rulings maintain continuous dynamic equilibrium between departments.",
-          "Req 3d - Citizen Governmental Involvement": "Citizens influence branches through voting for legislators, serving on federal juries, and submitting executive agency comments. Grassroots petitioning, public testimony, and legal advocacy ensure civic voices shape national decision making."
+          "Req 3a - Functions of Governing": "The legislative branch creates statutory policies, the executive branch enforces federal regulations, and the judicial branch interprets statutes. Each branch operates within clear boundaries defined in the first three constitutional articles.",
+          "Req 3b - Separation of Governmental": "Dividing governmental functions among separate departments prevents tyrannical concentration of unchecked authority. This institutional division guarantees that no single leader or council exercises unrestrained national power.",
+          "Req 3c - Checks and Balances": "The constitutional framework equips each governing branch with legal tools to resist overreach by the others. Vetoes, confirmations, impeachments, and judicial rulings maintain continuous dynamic equilibrium between departments.",
+          "Req 3d - Citizen Governmental": "Citizens influence branches through voting for legislators, serving on federal juries, and submitting executive agency comments. Grassroots petitioning, public testimony, and legal advocacy ensure civic voices shape national decision making."
         },
         "sample_output": "Three Branches and Checks and Balances: This separation of powers and system of checks and balances prevented any one branch from becoming too powerful (p. 27).",
         "counselor_tip": "For Citizenship in the Nation Requirement 3 (Three Branches and Checks and Balances), verify the Scout's own observations and specific pamphlet details (Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33))."
@@ -935,7 +973,33 @@
       "socratic_questions": [
         "Why did the Framers divide legislative authority into two separate houses of Congress?",
         "How does the presidential veto encourage compromise between the White House and Capitol Hill?",
-        "What risks arise if one branch assumes duties designated to another coequal branch?"
+        "What risks arise if one branch assumes duties designated to another coequal branch?",
+        "What happens to a bill vetoed by the President if two-thirds of both the House and Senate vote to override that veto?",
+        "Which branch holds the constitutional power to confirm or reject federal judges nominated by the President?",
+        "Why did the Framers separate lawmaking, law enforcement, and judicial review across three distinct branches of government?",
+        "Through what official avenues can ordinary citizens participate directly in the work of the federal judicial branch?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A common misunderstanding is that the president holds supreme command over the other two branches.",
+          "fact": "The three branches are constitutionally coequal, with distinct duties and robust interbranch checks."
+        },
+        {
+          "misconception": "The President has the constitutional authority to declare war and appropriate federal funds without approval from Congress.",
+          "fact": "Article I vests the powers to declare war and appropriate public money exclusively in the United States Congress."
+        },
+        {
+          "misconception": "The Supreme Court can proactively review and strike down any new federal statute the day Congress passes it.",
+          "fact": "Federal courts can exercise judicial review only when an actual legal case or controversy is brought before them by affected parties."
+        },
+        {
+          "misconception": "Citizens can participate in the judicial branch by voting in national elections to choose U.S. Supreme Court Justices.",
+          "fact": "Federal judges are nominated by the President and confirmed by the Senate, while citizens participate as jurors, witnesses, or litigants."
+        },
+        {
+          "misconception": "Both chambers of Congress vote together on presidential nominations and foreign treaties before they take effect.",
+          "fact": "Only the United States Senate holds the constitutional advice and consent power to confirm presidential nominees and ratify treaties."
+        }
       ]
     },
     {
@@ -981,9 +1045,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that the Declaration established the formal structure of Congress.",
-            "fact": "The Declaration justified colonial separation, while the subsequent Constitution constructed our formal governmental framework.",
-            "myth": "A common misunderstanding is that the Declaration established the formal structure of Congress.",
-            "fact_correction": "The Declaration justified colonial separation, while the subsequent Constitution constructed our formal governmental framework."
+            "fact": "The Declaration justified colonial separation, while the subsequent Constitution constructed our formal governmental framework."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1058,9 +1120,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that the original Bill of Rights automatically bound state governments in 1791.",
-            "fact": "The original Bill of Rights restricted only federal actions until Fourteenth Amendment incorporation occurred.",
-            "myth": "A common misunderstanding is that the original Bill of Rights automatically bound state governments in 1791.",
-            "fact_correction": "The original Bill of Rights restricted only federal actions until Fourteenth Amendment incorporation occurred."
+            "fact": "The original Bill of Rights restricted only federal actions until Fourteenth Amendment incorporation occurred."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1131,9 +1191,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that E Pluribus Unum was chosen primarily for commercial coinage branding.",
-            "fact": "The Continental Congress selected the phrase for the Great Seal to symbolize thirteen sovereign states uniting.",
-            "myth": "A common misunderstanding is that E Pluribus Unum was chosen primarily for commercial coinage branding.",
-            "fact_correction": "The Continental Congress selected the phrase for the Great Seal to symbolize thirteen sovereign states uniting."
+            "fact": "The Continental Congress selected the phrase for the Great Seal to symbolize thirteen sovereign states uniting."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1230,9 +1288,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that the Declaration of Independence is an enforceable part of statutory law.",
-        "fact": "The Declaration expresses foundational political philosophy, whereas the Constitution and its amendments provide binding law.",
-        "myth": "A common misunderstanding is that the Declaration of Independence is an enforceable part of statutory law.",
-        "fact_correction": "The Declaration expresses foundational political philosophy, whereas the Constitution and its amendments provide binding law."
+        "fact": "The Declaration expresses foundational political philosophy, whereas the Constitution and its amendments provide binding law."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1269,7 +1325,7 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Declaration of Independence Philos",
+        "left_header": "Req 4a: Declaration of Independence",
         "right_header": "Req 4b: Bill of Rights Protections",
         "left_points": [
           "(4a) Declaration of Independence Philosophy: Thomas Jefferson drafted this document in 1776 to justify separation from British monarchy based upon unalienable rights. It established the bedrock principle that people retain the right to alter unjust governments."
@@ -1279,29 +1335,29 @@
         ],
         "rows": [
           {
-            "attribute": "The Declaration of Independence",
-            "left": "(4a) The Declaration of Independence: Since the Bill of Rights was adopted, the Constitution has been amended 17 times (p. 15).",
-            "right": "(4b) Bill of Rights and Fourteenth Amendment: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 15)."
+            "attribute": "Declaration Philosophical Foundation",
+            "left": "(4a) Declaration of Independence Philosophy: Thomas Jefferson drafted this document in 1776 to justify separation from British monarchy based upon unalienable rights. It established the bedrock principle that people retain the right to alter unjust governments.",
+            "right": "(4b) Bill of Rights Protections: The Bill of Rights guarantees personal liberties, while the Fourteenth Amendment ensures due process and equal protection across all states. Together, they shield citizens from arbitrary federal and state governmental intrusions."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Seventeen Later Constitutional Amendments: Since the Bill of Rights was adopted, the Constitution has been amended 17 times (p. 15).",
-            "right": "(4c) Traditional Motto E Pluribus Unum: However, a citizen may file suit in federal court against state authorities for depriving that person of constitutional rights (p. 15)."
+            "attribute": "Bill of Rights",
+            "left": "Req 4a: Declaration of Independence: Thomas Jefferson drafted this document in 1776 to justify separation from British monarchy based upon unalienable rights. It established the bedrock principle that people retain the right to alter unjust governments.",
+            "right": "Req 4b: Bill of Rights Protections: The Bill of Rights guarantees personal liberties, while the Fourteenth Amendment ensures due process and equal protection across all states. Together, they shield citizens from arbitrary federal and state governmental intrusions."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Federal Court Sovereign Immunity: The 11th Amendment (1795) prohibits a citizen of on estate or a citizen of another country from suing another state in federal court (p. 15).",
-            "right": "Step 3 - Follow Twelfth Amendment Voting: The 12th Amendment (1804) requires members of the Electoral College to cast two separate ballots, one for president and one for vice president (p. 15)."
+            "attribute": "Fourteenth Amendment Guarantees",
+            "left": "Req 4c: National Motto Traditional: Adopted by the Continental Congress in 1782, E Pluribus Unum translates from Latin as out of many, one. The phrase signifies how independent states and diverse populations unite into a single cohesive democratic republic.",
+            "right": "Bill of Rights: The first ten constitutional amendments restrict federal authority regarding speech, religion, and trials."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Nation Req 4 Exemplar Workbook Entry: Founding Documents and National Motto",
+        "title": "Citizenship in the Nation Req 4 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Declaration of Independence Philo": "Thomas Jefferson drafted this document in 1776 to justify separation from British monarchy based upon unalienable rights. It established the bedrock principle that people retain the right to alter unjust governments.",
+          "Req 4a - Declaration of Independence": "Thomas Jefferson drafted this document in 1776 to justify separation from British monarchy based upon unalienable rights. It established the bedrock principle that people retain the right to alter unjust governments.",
           "Req 4b - Bill of Rights Protections": "The Bill of Rights guarantees personal liberties, while the Fourteenth Amendment ensures due process and equal protection across all states. Together, they shield citizens from arbitrary federal and state governmental intrusions.",
-          "Req 4c - National Motto Traditional Signif": "Adopted by the Continental Congress in 1782, E Pluribus Unum translates from Latin as out of many, one. The phrase signifies how independent states and diverse populations unite into a single cohesive democratic republic."
+          "Req 4c - National Motto Traditional": "Adopted by the Continental Congress in 1782, E Pluribus Unum translates from Latin as out of many, one. The phrase signifies how independent states and diverse populations unite into a single cohesive democratic republic."
         },
         "sample_output": "Founding Documents and National Motto: Since the Bill of Rights was adopted, the Constitution has been amended 17 times (p. 15).",
         "counselor_tip": "For Citizenship in the Nation Requirement 4 (Founding Documents and National Motto), verify the Scout's own observations and specific pamphlet details (Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22))."
@@ -1338,7 +1394,33 @@
       "socratic_questions": [
         "How did the Fourteenth Amendment transform the reach of the original Bill of Rights?",
         "In what ways does the concept of unalienable rights influence modern civil rights legislation?",
-        "How does the motto E Pluribus Unum guide our nation during times of intense political disagreement?"
+        "How does the motto E Pluribus Unum guide our nation during times of intense political disagreement?",
+        "What legal role did the 14th Amendment play in applying the federal Bill of Rights to state and local governments?",
+        "Which specific grievances and natural rights principles in the Declaration of Independence justified breaking from Great Britain?",
+        "Why did several states insist on adding the Bill of Rights as a condition for ratifying the U.S. Constitution?",
+        "What civic reality does the Latin motto 'E Pluribus Unum' express about both the original states and diverse Americans?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A common misunderstanding is that the Declaration of Independence is an enforceable part of statutory law.",
+          "fact": "The Declaration expresses foundational political philosophy, whereas the Constitution and its amendments provide binding law."
+        },
+        {
+          "misconception": "The Declaration of Independence is part of the U.S. Constitution and establishes the structure of the federal courts.",
+          "fact": "The 1776 Declaration of Independence announced separation from Britain, while the 1787 Constitution created the structure of federal law."
+        },
+        {
+          "misconception": "The Bill of Rights originally restricted state and local governments in the exact same way it restricted Congress in 1791.",
+          "fact": "The Bill of Rights originally limited only federal power until the 14th Amendment incorporated most protections against the states."
+        },
+        {
+          "misconception": "The 14th Amendment protects only citizens born in the original thirteen states from unequal treatment under the law.",
+          "fact": "The 14th Amendment defines national birthright citizenship and guarantees due process and equal protection of the laws to all persons."
+        },
+        {
+          "misconception": "The traditional motto E Pluribus Unum translates to 'In God We Trust' and was adopted during the twentieth century.",
+          "fact": "E Pluribus Unum means 'Out of many, one' and was placed on the Great Seal of the United States by Congress in 1782."
+        }
       ]
     },
     {
@@ -1413,9 +1495,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that opinion commentary columns carry the same journalistic weight as investigative reports.",
-        "fact": "Journalistic reporting relies on verifiable factual evidence, whereas opinion columns express personal persuasive arguments.",
-        "myth": "A common misunderstanding is that opinion commentary columns carry the same journalistic weight as investigative reports.",
-        "fact_correction": "Journalistic reporting relies on verifiable factual evidence, whereas opinion columns express personal persuasive arguments."
+        "fact": "Journalistic reporting relies on verifiable factual evidence, whereas opinion columns express personal persuasive arguments."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1451,48 +1531,48 @@
         "Step 4 - Counselor Discussion: Present your five day tracking log and debate the societal impacts of these issues."
       ],
       "gear_checklist": [
-        "Official Citizenship in the Nation Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: National Evening News for Five)",
-        "Field notebook, verification log sheet, and demonstration materials for National Evening News for Five",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Citizenship in the Nation Merit: National Evening News for Five.",
+        "Field notebook, verification log sheet, and demonstration materials for National Evening News for Five.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
-        "left_header": "Independent Press in a Free Society",
-        "right_header": "Government Controlled Media Under Authoritarian Rule",
+        "left_header": "Req 5: Connecting News to Civic",
+        "right_header": "Req 5: Track Congressional Policy",
         "left_points": [
           "Connecting News to Civic Principles: As you watch the evening news on television or read a newspaper, consider how the national issues covered relate to what you have already read (p. 41).",
           "Evaluating Impacts on Citizen Rights: Do the topics affect a citizen's rights and freedoms (p. 41).",
           "Legislative and Executive Policy Deadlocks: Are the senators and the president deadlocked over an issue like health care or Social Security (p. 41)."
         ],
         "right_points": [
-          "Step 1 - Track Congressional Policy Debates: Are the senators and the president deadlocked over an issue like health care or Social Security (p. 41).",
-          "Step 2 - Follow Supreme Court Decisions: Did the Supreme Court rule on a controversial case (p. 41).",
-          "Step 3 - Value Independent Free Press: In countries where freedom of the press and the right to free speech do not exist, the government controls mass media (p. 41)."
+          "Track Congressional Policy Debates: Are the senators and the president deadlocked over an issue like health care or Social Security (p. 41).",
+          "Follow Supreme Court Decisions: Did the Supreme Court rule on a controversial case (p. 41).",
+          "Value Independent Free Press: In countries where freedom of the press and the right to free speech do not exist, the government controls mass media (p. 41)."
         ],
         "rows": [
           {
-            "attribute": "Connecting News to Civic Principles",
+            "attribute": "Consecutive News Tracking",
             "left": "Connecting News to Civic Principles: As you watch the evening news on television or read a newspaper, consider how the national issues covered relate to what you have already read (p. 41).",
-            "right": "Step 1 - Track Congressional Policy Debates: Are the senators and the president deadlocked over an issue like health care or Social Security (p. 41)."
+            "right": "Track Congressional Policy Debates: Are the senators and the president deadlocked over an issue like health care or Social Security (p. 41)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Fact Checking Standards",
             "left": "Evaluating Impacts on Citizen Rights: Do the topics affect a citizen's rights and freedoms (p. 41).",
-            "right": "Step 2 - Follow Supreme Court Decisions: Did the Supreme Court rule on a controversial case (p. 41)."
+            "right": "Follow Supreme Court Decisions: Did the Supreme Court rule on a controversial case (p. 41)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "Perspective Comparison Technique",
             "left": "Legislative and Executive Policy Deadlocks: Are the senators and the president deadlocked over an issue like health care or Social Security (p. 41).",
-            "right": "Step 3 - Value Independent Free Press: In countries where freedom of the press and the right to free speech do not exist, the government controls mass media (p. 41)."
+            "right": "Value Independent Free Press: In countries where freedom of the press and the right to free speech do not exist, the government controls mass media (p. 41)."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Nation Req 5 Exemplar Workbook Entry: Tracking National News and Issues",
+        "title": "Citizenship in the Nation Req 5 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Connecting News to Civic Principles": "As you watch the evening news on television or read a newspaper, consider how the national issues covered relate to what you have already read (p. 41).",
           "Evaluating Impacts on Citizen Rights": "Do the topics affect a citizen's rights and freedoms (p. 41).",
-          "Legislative and Executive Policy Deadlocks": "Are the senators and the president deadlocked over an issue like health care or Social Security (p. 41).",
+          "Legislative and Executive Policy": "Are the senators and the president deadlocked over an issue like health care or Social Security (p. 41).",
           "Landmark Supreme Court Rulings": "Did the Supreme Court rule on a controversial case (p. 41)."
         },
         "sample_output": "Tracking National News and Issues: As you watch the evening news on television or read a newspaper, consider how the national issues covered relate to what you have already read (p. 41).",
@@ -1528,9 +1608,35 @@
       "workbook_visual_caption": "Scout reading a daily print newspaper to track national front-page news over five consecutive days.",
       "pamphlet_summary": "Tracking daily national coverage across five consecutive days builds essential media literacy and civic awareness. Scouts analyze diverse public policy disputes, economic conditions, and federal actions shaping the republic.",
       "socratic_questions": [
-        "How do you distinguish between an objective news report and an editorial opinion piece?",
+        "In what specific ways do you distinguish between an objective news report and an editorial opinion piece?",
         "Why is a free and independent press considered vital to maintaining a constitutional republic?",
-        "How did the issues you tracked across five days affect citizens living outside major metropolitan cities?"
+        "How did the issues you tracked across five days affect citizens living outside major metropolitan cities?",
+        "What details should you record in your daily log across five consecutive days to track how a national story develops?",
+        "Which specific indicators distinguish straight factual reporting from an opinion column or editorial in a national news outlet?",
+        "Why does Requirement 5 specify tracking national news for five days in a row rather than five random dates over a month?",
+        "In what concrete ways does a national fiscal, energy, or healthcare policy change affect your own family and community?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A common misunderstanding is that opinion commentary columns carry the same journalistic weight as investigative reports.",
+          "fact": "Journalistic reporting relies on verifiable factual evidence, whereas opinion columns express personal persuasive arguments."
+        },
+        {
+          "misconception": "Reading five articles on a single afternoon satisfies the five-day consecutive news tracking requirement for this badge.",
+          "fact": "The requirement specifies watching or reading national news across five consecutive days so you can observe how national stories unfold."
+        },
+        {
+          "misconception": "Local high school sports scores and neighborhood weather forecasts count as national issues for the counselor discussion.",
+          "fact": "You must focus on national issues such as federal legislation, Supreme Court cases, economic policy, or national security events."
+        },
+        {
+          "misconception": "Opinion editorials and factual news reports follow the exact same verification standards and serve the same journalistic purpose.",
+          "fact": "Factual news reporting presents verified events and multiple viewpoints, whereas editorials argue a persuasive viewpoint or policy stance."
+        },
+        {
+          "misconception": "National policy debates in Washington affect only federal agencies and have no measurable impact on local households or towns.",
+          "fact": "Federal decisions directly influence local interest rates, highway funding, school grants, taxes, and community public safety resources."
+        }
       ]
     },
     {
@@ -1571,9 +1677,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that speech authors always delivered their speeches as elected presidents.",
-            "fact": "Influential national speeches have been delivered by activists, legislators, generals, and private citizens throughout history.",
-            "myth": "A common misunderstanding is that speech authors always delivered their speeches as elected presidents.",
-            "fact_correction": "Influential national speeches have been delivered by activists, legislators, generals, and private citizens throughout history."
+            "fact": "Influential national speeches have been delivered by activists, legislators, generals, and private citizens throughout history."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1640,9 +1744,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that speeches occur in isolation without influence from surrounding events.",
-            "fact": "Speeches directly react to ongoing political, social, and economic pressures demanding immediate national attention.",
-            "myth": "A common misunderstanding is that speeches occur in isolation without influence from surrounding events.",
-            "fact_correction": "Speeches directly react to ongoing political, social, and economic pressures demanding immediate national attention."
+            "fact": "Speeches directly react to ongoing political, social, and economic pressures demanding immediate national attention."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1708,9 +1810,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that historic speeches addressed only minor disagreements between political parties.",
-            "fact": "Historic national speeches confronted existential challenges that threatened the survival or unity of the republic.",
-            "myth": "A common misunderstanding is that historic speeches addressed only minor disagreements between political parties.",
-            "fact_correction": "Historic national speeches confronted existential challenges that threatened the survival or unity of the republic."
+            "fact": "Historic national speeches confronted existential challenges that threatened the survival or unity of the republic."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1776,9 +1876,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that the speech text contains only poetic phrases without policy ideas.",
-            "fact": "Great historic speeches combine memorable rhetoric with specific proposals to resolve urgent national crises.",
-            "myth": "A common misunderstanding is that the speech text contains only poetic phrases without policy ideas.",
-            "fact_correction": "Great historic speeches combine memorable rhetoric with specific proposals to resolve urgent national crises."
+            "fact": "Great historic speeches combine memorable rhetoric with specific proposals to resolve urgent national crises."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1844,9 +1942,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that a speech's importance ends as soon as the applause concludes.",
-            "fact": "Enduring speeches reshape public policy, cultural identity, and future constitutional interpretations for subsequent generations.",
-            "myth": "A common misunderstanding is that a speech's importance ends as soon as the applause concludes.",
-            "fact_correction": "Enduring speeches reshape public policy, cultural identity, and future constitutional interpretations for subsequent generations."
+            "fact": "Enduring speeches reshape public policy, cultural identity, and future constitutional interpretations for subsequent generations."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1913,9 +2009,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that any famous soundbite fulfills this requirement without personal connection.",
-            "fact": "Counselors evaluate whether the Scout can explain personal relevance and moral meaning behind the selected lines.",
-            "myth": "A common misunderstanding is that any famous soundbite fulfills this requirement without personal connection.",
-            "fact_correction": "Counselors evaluate whether the Scout can explain personal relevance and moral meaning behind the selected lines."
+            "fact": "Counselors evaluate whether the Scout can explain personal relevance and moral meaning behind the selected lines."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2027,9 +2121,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that historic speeches only reflect the personal ideas of the speaker.",
-        "fact": "Great speeches address broader societal debates, legal struggles, and cultural movements of their historical era.",
-        "myth": "A common misunderstanding is that historic speeches only reflect the personal ideas of the speaker.",
-        "fact_correction": "Great speeches address broader societal debates, legal struggles, and cultural movements of their historical era."
+        "fact": "Great speeches address broader societal debates, legal struggles, and cultural movements of their historical era."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2085,24 +2177,24 @@
         ],
         "rows": [
           {
-            "attribute": "Biography of the Speech Author",
-            "left": "(6a) Biography of the Speech Author: Learn how to recognize propaganda so that you do not accept biased information as fact (p. 42).",
-            "right": "(6d) Core Message and Arguments Delivered: In a newspaper, reporters, like their readers, have more opportunity to explore the issue in detail (p. 42)."
+            "attribute": "Historical Oratory Selection",
+            "left": "(6a) Speaker Biography and Role: Researching the author reveals their personal background, public office, and moral motivations during the historical period. Their life experiences explain their credibility and unique perspective on pressing national dilemmas.",
+            "right": "(6d) Core Message and Proposals: The core of the speech presents the speaker's main thesis, moral appeals, and recommended course of public action. Summarizing these key arguments demonstrates comprehension of the speaker's primary intent."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(6b) Historical Context of the Era: The public agenda is the list of those issues that elected officials and citizens agree need governmental attention (p. 42).",
-            "right": "(6e) Lasting Importance to National History: Learn how to recognize propaganda so that you do not accept biased information as fact (p. 42)."
+            "attribute": "Contextual Situation Evaluation",
+            "left": "(6b) Historical Era and Setting: Every significant speech emerged from specific historical circumstances like wartime conflict, economic depression, or civil rights struggles. Analyzing the setting reveals what conditions pushed the nation toward a critical crossroad.",
+            "right": "(6e) Enduring Historical National Significance: A speech earns historical stature by altering public debate, inspiring statutory reform, or redefining American founding values. Evaluating its enduring impact shows how words can shift the direction of a society."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "(6c) National Difficulties and Challenges Addressed: You will probably discover that television touches lightly on the topic and presents brief bits of information (p. 42).",
-            "right": "(6f) Meaningful Passages and Personal Reflection: The public agenda is the list of those issues that elected officials and citizens agree need governmental attention (p. 42)."
+            "attribute": "Rhetorical Message Analysis",
+            "left": "(6c) National Crises and Obstacles: The speaker aimed to address severe national difficulties such as armed rebellion, racial injustice, or international threats. Identifying these hurdles clarifies why the speaker chose to intervene with a public address.",
+            "right": "(6f) Personal Passage Reflection: Selecting a meaningful passage prompts personal reflection on constitutional values and civic duty today. Explaining your selection helps connect historical wisdom to modern responsibilities as an active citizen."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Nation Req 6 Exemplar Workbook Entry: Analyzing Historic American Speeches",
+        "title": "Citizenship in the Nation Req 6 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Req 6a - Speaker Biography and Role": "Researching the author reveals their personal background, public office, and moral motivations during the historical period. Their life experiences explain their credibility and unique perspective on pressing national dilemmas.",
@@ -2145,7 +2237,33 @@
       "socratic_questions": [
         "What made your chosen speech effective in persuading its original audience?",
         "How did the historical context influence the tone and specific words used by the speaker?",
-        "Why do certain phrases from historic speeches continue to resonate across multiple generations?"
+        "Why do certain phrases from historic speeches continue to resonate across multiple generations?",
+        "Why must you secure your merit badge counselor's approval of your chosen historic speech before preparing your analysis?",
+        "What political, social, or economic crisis confronted the United States at the moment the speaker delivered those remarks?",
+        "Which specific sentence from the speech best captures the speaker's core message, and why does it still resonate today?",
+        "What measurable impact did the speech have on public opinion, federal legislation, or the course of American history?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A common misunderstanding is that historic speeches only reflect the personal ideas of the speaker.",
+          "fact": "Great speeches address broader societal debates, legal struggles, and cultural movements of their historical era."
+        },
+        {
+          "misconception": "Any famous movie monologue or fictional speech from a novel qualifies as a speech of national historical importance.",
+          "fact": "The speech must be an actual historical address of national significance in United States history approved by your counselor."
+        },
+        {
+          "misconception": "Summarizing what a speaker said requires only reading a brief online quote without examining the surrounding historical crisis.",
+          "fact": "Understanding a historic speech requires analyzing the national difficulties, audience, and historical context that shaped the message."
+        },
+        {
+          "misconception": "Only speeches delivered by sitting United States Presidents qualify for analysis under Requirement 6 of this merit badge.",
+          "fact": "Speeches by civil rights leaders, lawmakers, reformers, and military leaders also qualify if they shaped American national history."
+        },
+        {
+          "misconception": "Reciting a sentence from the speech from memory is enough without explaining what those words mean to you personally.",
+          "fact": "Requirement 6f asks you to select a specific sentence or passage and explain why those words hold meaning for you today."
+        }
       ]
     },
     {
@@ -2209,9 +2327,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that any old neighborhood building qualifies as an official National Historic Landmark.",
-            "fact": "Sites must be formally designated by the federal Secretary of the Interior for national historical significance.",
-            "myth": "A common misunderstanding is that any old neighborhood building qualifies as an official National Historic Landmark.",
-            "fact_correction": "Sites must be formally designated by the federal Secretary of the Interior for national historical significance."
+            "fact": "Sites must be formally designated by the federal Secretary of the Interior for national historical significance."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2292,9 +2408,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that state capitols perform the exact same functions as the federal Capitol.",
-            "fact": "State capitols house state legislatures handling state jurisdiction, while the federal Capitol handles nationwide matters.",
-            "myth": "A common misunderstanding is that state capitols perform the exact same functions as the federal Capitol.",
-            "fact_correction": "State capitols house state legislatures handling state jurisdiction, while the federal Capitol handles nationwide matters."
+            "fact": "State capitols house state legislatures handling state jurisdiction, while the federal Capitol handles nationwide matters."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2362,9 +2476,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that federal facilities operate completely independently of their local community needs.",
-            "fact": "Federal facilities provide regional employment, public safety coordination, infrastructure support, and vital community services.",
-            "myth": "A common misunderstanding is that federal facilities operate completely independently of their local community needs.",
-            "fact_correction": "Federal facilities provide regional employment, public safety coordination, infrastructure support, and vital community services."
+            "fact": "Federal facilities provide regional employment, public safety coordination, infrastructure support, and vital community services."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2455,9 +2567,7 @@
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that national monuments are created solely by acts of the United States Congress.",
-            "fact": "The Antiquities Act of 1906 empowers the president to proclaim historic landmarks as national monuments.",
-            "myth": "A common misunderstanding is that national monuments are created solely by acts of the United States Congress.",
-            "fact_correction": "The Antiquities Act of 1906 empowers the president to proclaim historic landmarks as national monuments."
+            "fact": "The Antiquities Act of 1906 empowers the president to proclaim historic landmarks as national monuments."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -2594,9 +2704,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that Scouts must complete all four listed activities to finish the requirement.",
-        "fact": "The requirement explicitly instructs Scouts to choose and complete exactly two of the four available options.",
-        "myth": "A common misunderstanding is that Scouts must complete all four listed activities to finish the requirement.",
-        "fact_correction": "The requirement explicitly instructs Scouts to choose and complete exactly two of the four available options."
+        "fact": "The requirement explicitly instructs Scouts to choose and complete exactly two of the four available options."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2637,13 +2745,13 @@
         "Step 4 - Counselor Reporting: Share detailed observations with your counselor covering the history and community impact learned."
       ],
       "gear_checklist": [
-        "Official Citizenship in the Nation Merit Badge Pamphlet and Fillable Scout Workbook (Req 7: Place That Is Listed)",
-        "Field notebook, verification log sheet, and demonstration materials for Place That Is Listed",
-        "Buddy-pair checklist and counselor review rubric"
+        "Official Citizenship in the Nation Merit: Place That Is Listed.",
+        "Field notebook, verification log sheet, and demonstration materials for Place That Is Listed.",
+        "Buddy-pair checklist and counselor review rubric."
       ],
       "comparison_data": {
         "left_header": "Req 7a: National Historic Landmark Visit",
-        "right_header": "Req 7c: Federal Facility Operational Tour",
+        "right_header": "Req 7c: Federal Facility Operational",
         "left_points": [
           "(7a) National Historic Landmark Visit: Visiting a National Historic Landmark brings American heritage to life through preserved architecture, artifacts, and guided interpretations. Scouts learn how specific events at that site contributed to national progress and identity.",
           "(7b) Capitol Building Architecture Tour: Touring a state capitol or the United States Capitol showcases where legislative representatives draft and debate bills. Observing chamber floors and public galleries highlights the open nature of republican governance."
@@ -2654,30 +2762,30 @@
         ],
         "rows": [
           {
-            "attribute": "Visiting National Historic Landmarks",
-            "left": "(7a) Visiting National Historic Landmarks: Your family may have lived in this country for hundreds of years or for 20 years (p. 45).",
-            "right": "(7c) Touring Local Federal Facilities: So go see some of the significant public buildings, historical parks, landmarks, and monuments (p. 45)."
+            "attribute": "Historic Site Fieldwork",
+            "left": "(7a) National Historic Landmark Visit: Visiting a National Historic Landmark brings American heritage to life through preserved architecture, artifacts, and guided interpretations. Scouts learn how specific events at that site contributed to national progress and identity.",
+            "right": "(7c) Federal Facility Operational Tour: Touring a federal facility like a district court, military depot, or weather station demonstrates administrative government in action. Scouts discover how federal employees provide critical daily services to regional communities."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "(7b) Touring State or Federal Capitols: If you are a U. S. citizen, you share a heritage with every other American citizen (p. 45).",
-            "right": "(7d) Researching United States National Monuments: After all, these national treasures are our connections with this country's past (p. 45)."
+            "attribute": "Capitol Architecture Study",
+            "left": "(7b) Capitol Building Architecture Tour: Touring a state capitol or the United States Capitol showcases where legislative representatives draft and debate bills. Observing chamber floors and public galleries highlights the open nature of republican governance.",
+            "right": "(7d) National Monument In-Depth Research: Researching a national monument uncovers the history, engineering, and cultural significance behind its public dedication. Scouts investigate why the nation chose to memorialize specific figures or events with a monument."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Visiting Historic Public Landmarks: So go see some of the significant public buildings, historical parks, landmarks, and monuments (p. 45).",
-            "right": "Step 3 - Explore National Park Sites: The National Park Service, which is part (p. 45)."
+            "attribute": "Federal Facility Observation",
+            "left": "Req 7a: National Historic Landmark: Visiting a National Historic Landmark brings American heritage to life through preserved architecture, artifacts, and guided interpretations. Scouts learn how specific events at that site contributed to national progress and identity.",
+            "right": "Req 7b: Capitol Building: Touring a state capitol or the United States Capitol showcases where legislative representatives draft and debate bills. Observing chamber floors and public galleries highlights the open nature of republican governance."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Nation Req 7 Exemplar Workbook Entry: Exploring National Landmarks and Capitols",
+        "title": "Citizenship in the Nation Req 7 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - National Historic Landmark Visit": "Visiting a National Historic Landmark brings American heritage to life through preserved architecture, artifacts, and guided interpretations. Scouts learn how specific events at that site contributed to national progress and identity.",
-          "Req 7b - Capitol Building Architecture Tou": "Touring a state capitol or the United States Capitol showcases where legislative representatives draft and debate bills. Observing chamber floors and public galleries highlights the open nature of republican governance.",
-          "Req 7c - Federal Facility Operational Tour": "Touring a federal facility like a district court, military depot, or weather station demonstrates administrative government in action. Scouts discover how federal employees provide critical daily services to regional communities.",
-          "Req 7d - National Monument In-Depth Resear": "Researching a national monument uncovers the history, engineering, and cultural significance behind its public dedication. Scouts investigate why the nation chose to memorialize specific figures or events with a monument."
+          "Req 7a - National Historic Landmark": "Visiting a National Historic Landmark brings American heritage to life through preserved architecture, artifacts, and guided interpretations. Scouts learn how specific events at that site contributed to national progress and identity.",
+          "Req 7b - Capitol Building Architecture": "Touring a state capitol or the United States Capitol showcases where legislative representatives draft and debate bills. Observing chamber floors and public galleries highlights the open nature of republican governance.",
+          "Req 7c - Federal Facility Operational": "Touring a federal facility like a district court, military depot, or weather station demonstrates administrative government in action. Scouts discover how federal employees provide critical daily services to regional communities.",
+          "Req 7d - National Monument In-Depth": "Researching a national monument uncovers the history, engineering, and cultural significance behind its public dedication. Scouts investigate why the nation chose to memorialize specific figures or events with a monument."
         },
         "sample_output": "Exploring National Landmarks and Capitols: Your family may have lived in this country for hundreds of years or for 20 years (p. 45).",
         "counselor_tip": "For Citizenship in the Nation Requirement 7 (Exploring National Landmarks and Capitols), verify the Scout's own observations and specific pamphlet details (Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46))."
@@ -2714,7 +2822,33 @@
       "socratic_questions": [
         "How does visiting a physical historic site deepen your understanding compared to reading about it?",
         "What role do federal facilities play in supporting your municipal economy and daily public services?",
-        "Why does the federal government dedicate resources to maintaining national monuments and historic registries?"
+        "Why does the federal government dedicate resources to maintaining national monuments and historic registries?",
+        "What official registry or designation confirms that a local site qualifies as a National Historic Landmark or Register property?",
+        "Which architectural features or legislative chambers stood out most during your tour of a capitol or federal facility?",
+        "What security screening and visitor rules must you check in advance before touring a capitol building or federal courthouse?",
+        "In what way do the exploration options in Requirement 7 connect historic sites and congressional maps to federal governance?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A common misunderstanding is that Scouts must complete all four listed activities to finish the requirement.",
+          "fact": "The requirement explicitly instructs Scouts to choose and complete exactly two of the four available options."
+        },
+        {
+          "misconception": "Completing just one activity from the four choices in Requirement 7 is sufficient to finish the heritage exploration requirement.",
+          "fact": "Requirement 7 explicitly requires completing two distinct options chosen from the four listed heritage and government activities."
+        },
+        {
+          "misconception": "Any old building or local city park automatically qualifies as a National Historic Landmark without federal designation.",
+          "fact": "A site must be officially listed as a National Historic Landmark or on the National Register of Historic Places to qualify."
+        },
+        {
+          "misconception": "Every state has the exact same number of congressional districts regardless of changes in the decennial national census.",
+          "fact": "Each state is allocated two U.S. Senators, while U.S. House districts are apportioned among the states based on population counts."
+        },
+        {
+          "misconception": "Federal facilities exist only in Washington, D.C., so Scouts outside the capital cannot visit a federal facility near home.",
+          "fact": "Federal courthouses, national parks, Veterans Affairs hospitals, post offices, and military bases operate in communities nationwide."
+        }
       ]
     },
     {
@@ -2768,9 +2902,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that letters from youth constituents are discarded without being read by legislative staff.",
-        "fact": "Congressional offices log and categorize all constituent letters to brief representatives on district voter sentiment.",
-        "myth": "A common misunderstanding is that letters from youth constituents are discarded without being read by legislative staff.",
-        "fact_correction": "Congressional offices log and categorize all constituent letters to brief representatives on district voter sentiment."
+        "fact": "Congressional offices log and categorize all constituent letters to brief representatives on district voter sentiment."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2794,7 +2926,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Congressional Representative Identification: Determining your two senators and home congressional representative establishes your proper legislative constituent link.",
+        "Congressional Representative: Determining your two senators and home congressional representative establishes your proper legislative constituent link.",
         "Constituent Letter Structure: Effective advocacy letters present clear facts, state personal views, and request specific legislative action.",
         "First Amendment Petitioning: Communicating with lawmakers exercises the fundamental constitutional right to petition government for grievance redress.",
         "Civic Correspondence Sharing: Reviewing official congressional replies helps Scouts evaluate how elected officials balance competing constituent opinions."
@@ -2807,41 +2939,41 @@
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Two Statewide United States Senators",
-        "right_header": "District House of Representatives Member",
+        "left_header": "Req 8: Privilege of Contacting",
+        "right_header": "Req 8: Research Multiple Issue",
         "left_points": [
           "Privilege of Contacting Representatives: It is our privilege as American citizens to contact our elected representatives and expect an answer (p. 14).",
           "Gathering Facts Before Writing: Choose a national issue that interests you and gather the facts before contacting your public official (p. 14).",
           "Examining All Issue Perspectives: Try to learn as much as you can about all sides of the issue before forming an opinion (p. 14)."
         ],
         "right_points": [
-          "Step 1 - Research Multiple Issue Perspectives: Try to learn as much as you can about all sides of the issue before forming an opinion (p. 14).",
-          "Step 2 - Locate Official Congressional Websites: The websites for the U. S. Senate and the U. S. House of Representatives make it simple to contact your representatives by email (p. 14).",
-          "Step 3 - Send Correspondence by Mail: You can write a letter online or send a letter by mail (p. 14)."
+          "Research Multiple Issue Perspectives: Try to learn as much as you can about all sides of the issue before forming an opinion (p. 14).",
+          "Locate Official Congressional Websites: The websites for the U. S. Senate and the U. S. House of Representatives make it simple to contact your representatives by email (p. 14).",
+          "Send Correspondence by Mail: You can write a letter online or send a letter by mail (p. 14)."
         ],
         "rows": [
           {
-            "attribute": "Privilege of Contacting Representatives",
+            "attribute": "Congressional Representative",
             "left": "Privilege of Contacting Representatives: It is our privilege as American citizens to contact our elected representatives and expect an answer (p. 14).",
-            "right": "Step 1 - Research Multiple Issue Perspectives: Try to learn as much as you can about all sides of the issue before forming an opinion (p. 14)."
+            "right": "Research Multiple Issue Perspectives: Try to learn as much as you can about all sides of the issue before forming an opinion (p. 14)."
           },
           {
-            "attribute": "Practical Field Application",
+            "attribute": "Constituent Letter Structure",
             "left": "Gathering Facts Before Writing: Choose a national issue that interests you and gather the facts before contacting your public official (p. 14).",
-            "right": "Step 2 - Locate Official Congressional Websites: The websites for the U. S. Senate and the U. S. House of Representatives make it simple to contact your representatives by email (p. 14)."
+            "right": "Locate Official Congressional Websites: The websites for the U. S. Senate and the U. S. House of Representatives make it simple to contact your representatives by email (p. 14)."
           },
           {
-            "attribute": "Safety & Verification Standard",
+            "attribute": "First Amendment Petitioning",
             "left": "Examining All Issue Perspectives: Try to learn as much as you can about all sides of the issue before forming an opinion (p. 14).",
-            "right": "Step 3 - Send Correspondence by Mail: You can write a letter online or send a letter by mail (p. 14)."
+            "right": "Send Correspondence by Mail: You can write a letter online or send a letter by mail (p. 14)."
           }
         ]
       },
       "worked_example": {
-        "title": "Citizenship in the Nation Req 8 Exemplar Workbook Entry: Communicating With Members of Congress",
+        "title": "Citizenship in the Nation Req 8 Exemplar Workbook Entry",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Privilege of Contacting Representatives": "It is our privilege as American citizens to contact our elected representatives and expect an answer (p. 14).",
+          "Privilege of Contacting": "It is our privilege as American citizens to contact our elected representatives and expect an answer (p. 14).",
           "Gathering Facts Before Writing": "Choose a national issue that interests you and gather the facts before contacting your public official (p. 14).",
           "Examining All Issue Perspectives": "Try to learn as much as you can about all sides of the issue before forming an opinion (p. 14).",
           "Using Official Congressional Websites": "The websites for the U. S. Senate and the U. S. House of Representatives make it simple to contact your representatives by email (p. 14)."
@@ -2880,8 +3012,34 @@
       "pamphlet_summary": "Citizens exercise their First Amendment right to petition the government by contacting their elected congressional representatives. Writing a structured letter on a national issue teaches Scouts how to advocate persuasively for public policy.",
       "socratic_questions": [
         "Why is respectful and factual language essential when writing to your elected congressional representative?",
-        "How do congressional staffers track constituent opinions to help lawmakers decide on committee votes?",
-        "What other methods can citizens use to communicate their views on national legislation to Congress?"
+        "In what specific ways do congressional staffers track constituent opinions to help lawmakers decide on committee votes?",
+        "What other methods can citizens use to communicate their views on national legislation to Congress?",
+        "What distinguishes the constituency of your two U.S. Senators from that of your representative in the House of Representatives?",
+        "Which specific details in your letter help a member of Congress understand your position on a pending national bill or policy?",
+        "What privacy and parent-review steps should you follow before sending a letter or web message to a member of Congress?",
+        "Why should you save a copy of your sent letter before submitting it through an online congressional contact portal?"
+      ],
+      "misconception_pool": [
+        {
+          "misconception": "A common misunderstanding is that letters from youth constituents are discarded without being read by legislative staff.",
+          "fact": "Congressional offices log and categorize all constituent letters to brief representatives on district voter sentiment."
+        },
+        {
+          "misconception": "Each citizen is represented in the U.S. Congress solely by a single lawmaker rather than both Senators and a House Representative.",
+          "fact": "Every state resident is represented in Congress by two statewide U.S. Senators and one U.S. Representative from their local district."
+        },
+        {
+          "misconception": "State legislators who meet at your state capitol are the officials who represent you in the United States Congress.",
+          "fact": "State legislators serve in your state legislature, whereas your U.S. Senators and U.S. Representative serve in Congress in Washington."
+        },
+        {
+          "misconception": "You cannot complete Requirement 8 until your member of Congress mails back a personal reply to your letter.",
+          "fact": "You must show your counselor a copy of the correspondence you sent along with any reply received, even if no response has arrived."
+        },
+        {
+          "misconception": "Writing to a member of Congress about a local pothole or neighborhood zoning dispute fulfills the national issue requirement.",
+          "fact": "Your letter to Congress must address a national issue under federal jurisdiction rather than a municipal street or zoning matter."
+        }
       ]
     }
   ],

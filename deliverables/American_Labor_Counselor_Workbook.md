@@ -1,8 +1,8 @@
 # American Labor Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/American%20Labor.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/american-labor/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/american-labor/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -77,9 +77,9 @@
 - **Pamphlet Fact:** Labor organizations primarily exist to negotiate employment terms, administer healthcare trusts, and run certified apprenticeship schools.
 
 **Gear & Readiness Checklist:**
-- [ ] Official American Labor Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: With your counselor's and parent)
-- [ ] Field notebook, verification log sheet, and demonstration materials for With your counselor's and parent
-- [ ] Buddy-pair checklist and counselor review rubric
+- [ ] Official American Labor Merit Badge: With your counselor's and parent.
+- [ ] Field notebook, verification log sheet, and demonstration materials for With your counselor's and parent.
+- [ ] Buddy-pair checklist and counselor review rubric.
 
 ![American Labor Requirement 2 figure showing local union headquarters coordinate member dispatch schedules, apprenticeship courses.](/assets/pamphlet_images/american_labor_p007_img1.png)
 

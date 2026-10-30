@@ -1,8 +1,8 @@
 # Soil and Water Conservation Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Soil%20and%20Water%20Conservation.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/soil-and-water-conservation/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/soil-and-water-conservation/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -26,7 +26,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 5:** Do the following: (a) Make a drawing to show the hydrologic cycle. (b) Demonstrate at least two of the following actions of water in relation to soil: percolation, capillary action, precipitation, evaporation, and transpiration. (c) Explain how removal of vegetation will affect the way water runs off a watershed. (d) Tell how uses of forest, range, and farmland affect usable water supply. (e) Explain how industrial use affects water supply.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -349,10 +349,10 @@
 - **Pamphlet Fact:** Earth possesses a finite volume of water that has circulated continuously for billions of years.
 
 **Gear & Readiness Checklist:**
-- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide
-- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Drawing to show the hydrologic cycle
-- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
-- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
+- [ ] 10x hand lens (loupe) or 8x42 binoculars and regional field identification guide.
+- [ ] Field observation notebook, metric ruler, quadrant cord or sampling containers for Drawing to show the hydrologic cycle.
+- [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools.
+- [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card.
 
 ![A precipitation map illustrates annual rainfall patterns across regions.](/assets/pamphlet_images/soil_and_water_conservation_p031_img1.png)
 
@@ -469,7 +469,7 @@
 **Official Requirement 6c:** Explain the terms: primary water treatment, secondary waste treatment, and biochemical oxygen demand.
 **Source:** *Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Primary Water Treatment Secondary Waste)
 - **Common Myth:** Scouts believe primary water treatment removes all harmful bacteria and dissolved chemical compounds.
-- **Pamphlet Fact:** Primary treatment only settles out floating debris and heavy sludge, leaving dissolved waste behind.
+- **Pamphlet Fact:** Primary treatment only settles out floating debris and heavy sludge, leaving dissolved waste.
 
 | Req 6c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

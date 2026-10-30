@@ -1,8 +1,8 @@
 # Pottery Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Pottery.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/pottery/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/pottery/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -158,10 +158,10 @@
 - **Pamphlet Fact:** Coil layers must be thoroughly blended together on interior surfaces to prevent structural separation.
 
 **Gear & Readiness Checklist:**
-- [ ] Official Pottery merit badge pamphlet and studio sketch book for Req 5
-- [ ] Selected studio media, brushes, modeling tools, or drawing instruments
-- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths
-- [ ] Labeled portfolio work or finished studio piece for Hand Building Wheel Throwing and Firing
+- [ ] Official Pottery merit badge pamphlet and studio sketch book for Req 5.
+- [ ] Selected studio media, brushes, modeling tools, or drawing instruments.
+- [ ] Protective studio apron, water basin or palette, and clean lint-free cloths.
+- [ ] Labeled portfolio work or finished studio piece for Hand Building Wheel Throwing and Firing.
 
 ![A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim.](/assets/pamphlet_images/pottery_p013_img1.png)
 

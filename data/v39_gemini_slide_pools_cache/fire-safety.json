@@ -1,0 +1,275 @@
+{
+  "badge_slug": "fire-safety",
+  "requirements": [
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Smoke inhalation and toxic gases like carbon monoxide and hydrogen cyanide cause far more fire deaths than direct thermal burns.",
+          "misconception": "Visible flames cause the majority of fatalities during residential structure fires rather than invisible combustion gases."
+        },
+        {
+          "fact": "The fire tetrahedron adds a fourth element, the uninhibited chemical chain reaction, to fuel, heat, and an oxidizing agent.",
+          "misconception": "The fire triangle and the fire tetrahedron represent the exact same three components needed to sustain combustion."
+        },
+        {
+          "fact": "Thermal radiation travels in straight electromagnetic waves without air currents, whereas convection transfers heat via rising fluids.",
+          "misconception": "Radiant heat requires rising air currents to carry thermal energy from a fireplace across a room to nearby furniture."
+        },
+        {
+          "fact": "An oxygen-starved fire in the decay stage can violently explode in a backdraft if a door or window is opened and introduces fresh air.",
+          "misconception": "A room fire in its decay stage is completely safe to enter because the visible flames have died down to glowing embers."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What happens to a flame when a chemical agent interrupts the chain reaction of the fire tetrahedron?",
+        "Which physical mechanism transfers thermal energy across an empty room to ignite curtains that never touch the flame?",
+        "Which physical indicator signals that an enclosed room fire is transitioning from the growth stage into flashover?",
+        "Why is it dangerous to stand upright while escaping a smoke-filled room where carbon monoxide and superheated gases collect?"
+      ],
+      "req_id": "1"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Spraying the tops of flames wastes extinguishing agent; you must aim at the base of the fire where the fuel is actually burning.",
+          "misconception": "Aiming a fire extinguisher directly at the tallest tips of the flames puts out a fire faster than aiming at the base."
+        },
+        {
+          "fact": "High-temperature cooking oil fires require a Class K wet chemical extinguisher that forms a soapy foam blanket to prevent re-ignition.",
+          "misconception": "A standard multipurpose ABC dry chemical extinguisher is the safest and most effective choice for commercial deep-fat fryer fires."
+        },
+        {
+          "fact": "Removing a fire blanket too early exposes hot oil above its autoignition temperature to fresh oxygen, causing immediate re-ignition.",
+          "misconception": "Pulling a fire blanket off a smothered grease pan after thirty seconds is safe once the visible smoke stops escaping."
+        },
+        {
+          "fact": "Even a brief discharge allows propellant gas to leak past the valve seal over time, so any used extinguisher must be recharged or replaced.",
+          "misconception": "A fire extinguisher that has only been sprayed for two seconds can be returned to its mounting bracket for future emergencies."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Where should you aim the extinguisher nozzle during the sweep step of the PASS method so you do not scatter burning fuel?",
+        "Why is it dangerous to spray a Class A pressurized water extinguisher onto an energized Class C electrical panel?",
+        "What pressure gauge reading and pin inspection confirm that a multipurpose ABC dry chemical extinguisher is ready for use?",
+        "Where should you tuck your hands behind a fire blanket when placing it over a burning pan to shield your skin from rising heat?"
+      ],
+      "req_id": "2"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Greasy ointments trap heat in the tissue and ice causes frostbite damage; cool thermal burns only with cool running water for ten minutes.",
+          "misconception": "Applying butter, ointment, or ice directly to a fresh second-degree burn cools the damaged skin tissue safely and quickly."
+        },
+        {
+          "fact": "Intact blisters form a sterile biological barrier over raw dermis, and breaking them exposes the burn wound to severe bacterial infection.",
+          "misconception": "Popping intact fluid blisters on a second-degree burn speeds up skin healing and relieves painful pressure safely."
+        },
+        {
+          "fact": "Loose clothing catches stray flames easily, and synthetic fibers like polyester melt into hot plastic that fuses directly to burned skin.",
+          "misconception": "Loose-fitting polyester athletic shirts offer better protection around a campfire than snug heavyweight cotton or wool garments."
+        },
+        {
+          "fact": "Scalds from spilled hot beverages, soup, and overly hot tap water are the leading cause of burn injuries among young children.",
+          "misconception": "Direct contact with open flames causes more pediatric emergency room burn injuries each year than hot liquids and steam."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why should you cover your face with your hands during the stop, drop, and roll maneuver when your clothing catches fire?",
+        "What happens to loose synthetic fabrics like nylon or polyester when exposed to high heat compared to heavy cotton or wool?",
+        "What maximum temperature setting on a home water heater thermostat prevents accidental tap-water scald burns for children?",
+        "Under what condition must you leave burned clothing in place while cooling a thermal injury with cool running water?"
+      ],
+      "req_id": "3"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Unintended human mistakes are classified as accidental fires, whereas incendiary fires are deliberately ignited under unlawful circumstances.",
+          "misconception": "Every fire that starts from human carelessness, such as an unattended candle or stove, is classified as an incendiary fire."
+        },
+        {
+          "fact": "Undetermined is a valid scientific classification used whenever physical damage or insufficient evidence prevents proving a single cause.",
+          "misconception": "Classifying a fire cause as undetermined means investigators failed to do their job and can never reopen the case later."
+        },
+        {
+          "fact": "Premature overhaul destroys burn patterns and washes away trace accelerants, compromising the physical evidence needed for investigation.",
+          "misconception": "Firefighters should wash down and shovel out charred debris immediately after extinguishing a suspicious fire to make the building safe."
+        },
+        {
+          "fact": "Canine alerts only guide where to collect debris samples; gas chromatography laboratory testing is required to confirm ignitable liquids.",
+          "misconception": "A hydrocarbon-sniffing Accelerant Detection Canine alert at a fire scene is sufficient proof by itself to convict someone of arson."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which physical char patterns on walls and framing help a fire investigator trace a blaze back to its point of origin?",
+        "Under what condition must an investigator classify a structure fire as undetermined rather than accidental or incendiary?",
+        "Why must fire investigators seal debris samples in airtight metal cans when testing for ignitable liquid accelerants at a scene?",
+        "What legal elements beyond an incendiary cause classification must a prosecutor prove in court to convict a suspect of arson?"
+      ],
+      "req_id": "4"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "High-wattage heating appliances overheat extension cords and power strips, so they must be plugged directly into dedicated wall outlets.",
+          "misconception": "Plug-in power strips with built-in circuit breakers allow you to safely run a portable space heater and microwave on an extension cord."
+        },
+        {
+          "fact": "Water sinks below hot oil and flashes into steam, spraying flaming grease everywhere; slide a metal lid over the pan and turn off the burner.",
+          "misconception": "Pouring a cup of tap water onto a burning skillet of cooking oil cools the pan and puts out the kitchen grease fire quickly."
+        },
+        {
+          "fact": "Cut evergreen trees absorb water daily and dry out rapidly indoors; a dry tree can engulf an entire living room in under thirty seconds.",
+          "misconception": "A fresh cut Christmas tree only needs water in its stand during the first week indoors before the trunk seals itself off."
+        },
+        {
+          "fact": "Failing lithium-ion batteries vent toxic gas and jet flames rapidly, so charging them in a doorway can block your only escape route.",
+          "misconception": "Charging an electric bike or scooter battery overnight right inside your bedroom doorway keeps the battery safe from outdoor cold."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What immediate actions should you take if oil in a skillet ignites on the stove instead of carrying the pan to the sink?",
+        "Which physical signs warn that a rechargeable lithium-ion battery pack is failing and at risk of thermal runaway?",
+        "What minimum clearance distance must you keep between a portable space heater and any curtains, bedding, or furniture?",
+        "Why is cleaning the removable lint screen before every load not enough to prevent a clothes dryer exhaust duct fire over time?"
+      ],
+      "req_id": "5"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Flammable vapors evaporating from the liquid actually ignite, and heavy gasoline fumes can travel invisibly across a floor to distant sparks.",
+          "misconception": "Liquid gasoline itself burns directly, so a sealed fuel container is only dangerous if an open flame touches the liquid surface."
+        },
+        {
+          "fact": "Milk jugs degrade and glass shatters on impact; store gasoline only in red UL-approved safety containers in a ventilated shed or garage.",
+          "misconception": "Any sturdy plastic milk jug or glass jar with a tight screw cap is safe for storing leftover lawn mower gasoline in a garage."
+        },
+        {
+          "fact": "Drying oils generate exothermic heat as they oxidize, causing piled rags to ignite spontaneously unless laid flat outside or sealed in water.",
+          "misconception": "Rags soaked with linseed oil or wood stain can be tossed into a closed plastic trash can in the garage until garbage collection day."
+        },
+        {
+          "fact": "A hot exhaust muffler exceeds the autoignition temperature of gasoline vapors, so you must let the engine cool completely before refueling.",
+          "misconception": "Refueling a lawn mower while the engine is still hot is safe as long as you turn the ignition switch off and use a funnel."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why must you place a portable gasoline container flat on the ground rather than in a truck bed when filling it at a fuel pump?",
+        "Why does the high vapor density of gasoline make storing fuel cans near a basement water heater pilot light so dangerous?",
+        "Why should you leave a small air space at the top of a UL-approved safety fuel can instead of filling it completely to the brim?",
+        "What happens if spilled gasoline contacts a hot lawn mower muffler when a Scout refuels the engine immediately after mowing?"
+      ],
+      "req_id": "6"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Standard wet-pipe sprinkler heads are activated individually by a heat-sensitive glass bulb or fusible link directly over the actual fire.",
+          "misconception": "Pulling a manual fire alarm station or triggering one sprinkler head with heat causes every sprinkler in the building to spray water."
+        },
+        {
+          "fact": "Wedging a fire-rated stairwell door open defeats building compartmentation and lets toxic smoke fill the vertical evacuation route.",
+          "misconception": "Propping open a heavy stairwell fire door with a wooden wedge is harmless during busy daytime hours to improve hallway airflow."
+        },
+        {
+          "fact": "Elevator shafts act like chimneys for smoke, power failure can trap riders, and heat sensors may recall the cab directly to the burning floor.",
+          "misconception": "Taking the elevator is the fastest and safest way to reach the ground floor during a high-rise hotel fire alarm evacuation."
+        },
+        {
+          "fact": "Thick black smoke rapidly obscures overhead exit signs, so counting doors lets you locate the stairwell by touch while crawling low.",
+          "misconception": "Counting the doorways between your hotel room and the nearest stairwell is unnecessary because lighted exit signs stay visible in smoke."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What specific features should you locate and count on your floor map immediately after checking into a multi-story hotel?",
+        "What distinguishes passive fire barriers like fire-rated stairwell doors from active systems like automatic sprinklers?",
+        "Why must egress doors in high-occupancy assembly buildings swing outward in the direction of travel and use panic bar hardware?",
+        "Why is it dangerous to use an elevator instead of an enclosed fire stairwell when evacuating a multi-story public building?"
+      ],
+      "req_id": "7"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Dirt insulates hot coals so they smolder underground and ignite roots; always drown a fire with water and stir the ashes until cold out.",
+          "misconception": "Burying glowing campfire coals under a thick layer of dirt and sand extinguishes a fire safely when water is scarce at camp."
+        },
+        {
+          "fact": "Water trapped inside porous creek rocks turns to high-pressure steam when heated, causing the stones to explode and throw sharp shrapnel.",
+          "misconception": "River rocks and wet creek stones make the best border for a new campfire ring because moisture inside the stone keeps them cool."
+        },
+        {
+          "fact": "Strike-anywhere match tips contain all chemicals needed for friction ignition, so rubbing together in a pocket can set them on fire.",
+          "misconception": "Safety matches and strike-anywhere matches can be carried loose together in a pants pocket without any risk of accidental ignition."
+        },
+        {
+          "fact": "Leave No Trace requires gathering only dead and downed wood no thicker than an adult wrist so standing snag habitats remain undisturbed.",
+          "misconception": "Breaking thick dead branches directly off standing trees is recommended by Leave No Trace to keep campfire fuel dry in damp weather."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Why should you strike a match away from your body and hold the burned matchstick by its charred head before disposing of it?",
+        "What chemical separation keeps a safety match from igniting on a rock, unlike a strike-anywhere match tip?",
+        "What physical test confirms that a doused and stirred campfire bed is truly cold out before your patrol leaves the campsite?",
+        "Why must you clear duff and pine needles down to bare mineral soil before building a campfire where no established ring exists?"
+      ],
+      "req_id": "8"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Soil insulates hot coals so they can smolder underground for days, ignite tree roots, and surface later when winds blow away the dirt.",
+          "misconception": "Burying hot campfire coals under dirt or sand extinguishes the fire safely without needing water."
+        },
+        {
+          "fact": "Human activities such as unattended campfires, equipment sparks, and debris burning cause roughly 85 percent of U.S. wildland fires.",
+          "misconception": "Lightning strikes cause the vast majority of wildland fires across populated regions of the United States."
+        },
+        {
+          "fact": "Many fire-adapted ecosystems rely on periodic low-intensity fires to clear dead brush, recycle soil nutrients, and open serotinous cones.",
+          "misconception": "Every wildland fire destroys forest ecosystems permanently and prevents native plants from regenerating."
+        },
+        {
+          "fact": "Indirect costs from watershed erosion, smoke healthcare impacts, lost tourism, and suppression operations often exceed direct property damage.",
+          "misconception": "Wildland fire economic losses are limited to the direct cost of replacing burned homes and timber."
+        }
+      ],
+      "extra_socratic_questions": [
+        "What tactile check confirms a campfire bed has zero lingering embers before a patrol abandons a backcountry site?",
+        "What happens to watershed soil structure after a high-severity crown fire compared to a low-intensity surface burn?",
+        "Under what condition does relative humidity combined with gusty winds trigger a Red Flag Warning for wildland fuels?",
+        "Why is it dangerous to park a vehicle with a hot catalytic converter over dry tall grass at a trailhead?"
+      ],
+      "req_id": "9"
+    },
+    {
+      "extra_misconceptions": [
+        {
+          "fact": "Engines carry pumps, hoses, and water tanks, whereas dedicated ladder trucks specialize in aerial rescue, ventilation, and forcible entry tools.",
+          "misconception": "Every fire truck carries a large onboard water tank and high-capacity main pump as its primary firefighting system."
+        },
+        {
+          "fact": "Most municipal fire departments respond primarily to emergency medical calls, alongside conducting code inspections and public safety education.",
+          "misconception": "Structural firefighters spend almost all of their shift responding to building fires rather than medical or prevention calls."
+        },
+        {
+          "fact": "SCBA cylinders hold compressed breathing-grade room air because pure oxygen would dangerously accelerate combustion in a fire environment.",
+          "misconception": "Self-contained breathing apparatus tanks pump pure oxygen to firefighters working inside smoke-filled structures."
+        },
+        {
+          "fact": "Fire prevention staff proactively review building plans, inspect sprinkler systems, enforce occupancy limits, and run community safety programs.",
+          "misconception": "Fire prevention divisions only investigate arson scenes after a building has already burned down."
+        }
+      ],
+      "extra_socratic_questions": [
+        "Which physical indicator or onboard equipment distinguishes a Type 1 structural pumper engine from an aerial ladder truck?",
+        "Where should a Scout group position themselves inside an active apparatus bay if a dispatch alarm sounds during a tour?",
+        "What specific community risk details should you record when interviewing a fire marshal about local code inspections?",
+        "Why is it dangerous to store turnout gear inside living quarters instead of a ventilated apparatus bay locker?"
+      ],
+      "req_id": "10"
+    }
+  ]
+}
