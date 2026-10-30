@@ -2,7 +2,7 @@
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/First%20Aid.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/first-aid/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -13,18 +13,18 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Emergency Assessment and Handling Protocols | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Preparing for First Aid Emergencies | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Emergency Preparedness and Medical Records | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Closed Wounds and Environmental Injuries | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Bleeding Wounds, Nosebleeds, Tourniquets & Shock | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Breathing Emergencies: Choking, Asthma, Anaphylaxis & Altitude | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Loss of Consciousness: Fainting, Seizures, Drowning & Lightning | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Heart Attack, 30:2 CPR & AED Defibrillation | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Hemorrhage Control and Bleeding Wounds | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Respiratory Emergencies and Airway Clearance | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Loss of Consciousness Management | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Myocardial Infarction and Defibrillation | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **8** | Req 8: Musculoskeletal Trauma and Splinting Techniques | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **9** | Req 9: Head and Spinal Cord Trauma | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **10** | Req 10: Emergency Patient Transport and Movement | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **11** | Req 11: Thermal Exposure and Temperature Emergencies | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **12** | Req 12: Psychological First Aid and Crisis Support | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **13** | Req 13: Miscellaneous Conditions: Eye, Tooth, GI & Stroke (FAST) | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **13** | Req 13: Specialized Medical and Dental Emergencies | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **14** | Req 14: First Aid Instruction Methodology | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America First Aid Merit Badge Pamphlet (p. 29, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **15** | Req 15: Emergency Medical Service Exploration | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
@@ -34,18 +34,18 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Scout brings signed Scoutbook rank verification for Tenderfoot/Second/First Class first aid and walks through the 4-tier triage decision tree.
-- [ ] **Station Req 2:** Scout presents their physical personal first-aid kit for inspection and identifies the purpose of every item in the personal and troop kits.
-- [ ] **Station Req 3:** Scout explains signs, prevention, and first aid for closed wounds, 1st/2nd/3rd-degree burns, frostbite, blisters, punctures, poisonous plants, and bites/stings.
-- [ ] **Station Req 4:** Scout demonstrates nosebleed care, mild wound dressing, direct pressure bandage, and simulated windlass tourniquet placement (without tightening).
-- [ ] **Station Req 5:** Scout demonstrates 5-and-5 choking rescue positioning, explains asthma inhaler and epinephrine auto-injector use, and describes care for inhalation injuries and altitude sickness.
-- [ ] **Station Req 6:** Scout demonstrates placing a breathing unresponsive patient into the recovery position and explains first aid and prevention for all 7 Req 6 conditions (6a–6g).
-- [ ] **Station Req 7:** Scout completes at least 2 full cycles of 30:2 CPR and attaches AED training pads accurately on a CPR manikin.
-- [ ] **Station Req 8:** Scout applies a padded forearm or lower-leg splint plus sling/swath on a buddy and performs pre- and post-splint CMS checks.
-- [ ] **Station Req 9:** Scout explains head/neck/back injury signs and concussion care, demonstrates a triangular head bandage for an open scalp wound, and demonstrates manual in-line spinal stabilization.
-- [ ] **Station Req 10:** Scout demonstrates smoke-room extrication drag, 25-yard sprained-ankle transport (solo and two-rescuer), and 25-yard improvised stretcher carry.
-- [ ] **Station Req 11:** Scout distinguishes Heat Exhaustion from Heat Stroke across all 4 clinical criteria and explains hypothermia prevention and rewarming.
-- [ ] **Station Req 13:** Scout explains signs, prevention, and first aid for eye objects, knocked-out teeth, food poisoning, acute abdominal pain, and stroke (FAST).
+- [ ] **Station Req 1:** Handling a First Aid Emergency. Do the following: (a) Explain the steps necessary to assess and handle a first aid emergency, including a safety evaluation of the scene. (b) Tell how you would obtain emergency medical assistance from your home and from a remote location on a wilderness camping trip. (c) Demonstrate the precautions you must take to reduce the risk of transmitting an infection between you and the victim while administering first aid, including the safe disposal of used first aid supplies. (d) Demonstrate evaluation of and management of a patient's airway and breathing. (e) Demonstrate a thorough examination of an accident victim. (f) Discuss why shock is an emergency. (g) Define the term triage and describe examples of triage situations that you may encounter.
+- [ ] **Station Req 2:** Preparing for First Aid Emergencies. Do the following: (a) Obtain a copy of the Scout Annual Health and Medical Record and discuss the importance of the form including information on immunizations, allergies, medications, health history, and medical examinations to providing first aid at Scouting events. (b) Using checklists provided in the First Aid merit badge pamphlet or ones approved by your counselor, do the following: (1) Assemble a personal first-aid kit for hiking and backpacking. Demonstrate the proper use of each item in your first-aid kit to your counselor. (2) With your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.
+- [ ] **Station Req 3:** Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds: (a) Closed wounds, such as a bruise (contusion) or a hematoma (b) Superficial, partial thickness, and full thickness thermal (heat) burns or scalds (c) Chemical burns (d) Electrical burns (e) Sunburn (f) Snow blindness (g) Immersion foot, frostnip, frostbite, and ice burns (h) Abrasions, such as chafing and rope burns (i) Blisters on the hands, feet, buttocks, and shoulders (j) Puncture wounds from splinters, rope splinters, nails, and fish hooks (k) Rash from poisonous plants (l) Bug bites of chiggers, ticks, mosquitoes, and biting gnats (m) Bee stings (n) Bites of spiders (o) Sting of a scorpion (p) Bite of a pet or wild mammal or human (q) Bite of a venomous snake
+- [ ] **Station Req 4:** Bleeding Wounds. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds: (a) A nosebleed. (b) An open wound with mild or moderate bleeding, such as a scratch or a scrape (abrasions), or a shallow cut (laceration). (c) An open wound with severe bleeding such as a deep cut on an arm or leg. (d) Explain when it is appropriate and is not appropriate to use one or more tourniquets. List some of the benefits and dangers of using a tourniquet. Demonstrate the application of a tourniquet without tightening it.
+- [ ] **Station Req 5:** Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing: (a) Choking (b) Asthmatic attack (c) Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation injuries (e) Altitude sickness
+- [ ] **Station Req 6:** Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing loss of consciousness: (a) Fainting (b) Hypoglycemia (c) Seizure (d) Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock
+- [ ] **Station Req 7:** Heart Attack. Do the following: (a) Explain what a heart attack is. (b) Describe the symptoms and signs of a heart attack and first aid for this condition. (c) Describe the conditions that must exist before performing CPR on a person. (d) Demonstrate proper CPR technique using a training device approved by your counselor. (e) Explain the use of an automated external defibrillator (AED). (f) Demonstrate or simulate the proper use of an AED, using an AED training device if available. (g) Identify the typical location(s) of one or more AED(s) at public facilities in your community, such as, your school, place of worship, unit meeting place, sports facilities, and/or camp or by using a smartphone app. Discuss the reasons for choosing locations like these.
+- [ ] **Station Req 8:** Muscle and Bone Injuries. Do the following: (a) Explain the similarities and differences in a strain, a muscle tear, a tendon rupture, a sprain, a dislocation, a simple fracture, and a compound fracture. (b) Describe the symptoms and signs of and first aid for a muscle strain, a muscle tear, and a tendon rupture. (c) Describe the symptoms and signs of, and potential complications of, a sprain, a fracture, and a dislocation. (d) Demonstrate bandages for these injuries: (1) Arm slings for forearm or upper arm or collarbone fractures (2) Elastic wrap and cravat bandages for ankle sprain (3) Elastic wrap and cravat bandages for wrist sprain or hand injury (e) Demonstrate the proper procedures for handling and splinting of suspected closed or open fractures or dislocations of the: (1) Finger and toe (2) Forearm or wrist (3) Upper leg (4) Lower leg or ankle
+- [ ] **Station Req 9:** Head and Spine Injuries. Do the following: (a) Describe the symptoms and signs of, relationships between, possible complications of, and prevention of head, neck, and back injuries. (b) Describe the symptoms and signs of and first aid for a concussion. (c) Demonstrate first aid for an open head wound with a triangular or other bandage. (d) Demonstrate first aid for someone with a suspected neck or back injury.
+- [ ] **Station Req 10:** Moving a Patient. Do the following: (a) Describe the conditions under which an injured person should and should not be moved. (b) If a sick or an injured person must be moved, tell how you would decide the best method. Demonstrate these methods. (c) By yourself and with a partner, demonstrate how to transport a person from a smoke-filled room. (d) By yourself and with a partner, demonstrate how to transport a person with a sprained ankle for at least 25 yards. (e) With helpers under your supervision, improvise a stretcher and move a presumably unconscious person for at least 25 yards.
+- [ ] **Station Req 11:** Heat- and Cold-Related Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions associated with exertion and/or heat or cold exposure: (a) Dehydration and over-hydration (b) Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke (e) Chest pains associated with cold exposure (f) Hypothermia
+- [ ] **Station Req 13:** Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions: (a) Object in the eye (b) Broken, chipped, loosened, or knocked out tooth (c) Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -62,7 +62,7 @@
 - Emergency Notification Protocol: Dispatch specific bystanders with clear instructions to dial emergency dispatch and obtain defibrillators.
 - Protective Barrier Standard: Put on nonlatex gloves and eye protection before initiating contact with body fluids.
 
-#### Req 1a: Emergency Assessment and Scene Safety
+#### Req 1a: Emergency Scene Safety and Assessment
 **Official Requirement 1a:** Explain the steps necessary to assess and handle a first aid emergency, including a safety evaluation of the scene.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Necessary to Assess and Handle)
 - **Common Myth:** A rescuer should instantly kneel beside an injured person regardless of surrounding environmental dangers.
@@ -76,7 +76,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Emergency Medical Assistance Acquisition
+#### Req 1b: Calling Help From Any Location
 **Official Requirement 1b:** Tell how you would obtain emergency medical assistance from your home and from a remote location on a wilderness camping trip.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (You Would Obtain Emergency Medical)
 - **Common Myth:** Cellular phones reliably connect to emergency dispatch operators anywhere in remote backcountry regions.
@@ -90,7 +90,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1c: Infection Control and Waste Disposal
+#### Req 1c: Infection Control and Universal Precautions
 **Official Requirement 1c:** Demonstrate the precautions you must take to reduce the risk of transmitting an infection between you and the victim while administering first aid, including the safe disposal of used first aid supplies.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Skill Demonstration Checklist):** Req 1c Hands-On Skill Station & EDGE Verification Checklist (Precautions You Must Take to)
 - **Common Myth:** Washing bare hands with river water provides adequate defense against bloodborne pathogen transmission.
@@ -104,7 +104,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1d: Airway Management and Breathing Assessment
+#### Req 1d: Airway and Breathing Management
 **Official Requirement 1d:** Demonstrate evaluation of and management of a patient's airway and breathing.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Skill Demonstration Checklist):** Req 1d Hands-On Skill Station & EDGE Verification Checklist (Evaluation of and Management)
 - **Common Myth:** Tipping a trauma patient head backward aggressively is safe when neck fractures are suspected.
@@ -118,7 +118,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1e: Systematic Victim Physical Examination
+#### Req 1e: Thorough Head to Toe Examination
 **Official Requirement 1e:** Demonstrate a thorough examination of an accident victim.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Skill Demonstration Checklist):** Req 1e Hands-On Skill Station & EDGE Verification Checklist (Thorough Examination of An Accident)
 - **Common Myth:** Checking only the initial painful injury site provides sufficient medical assessment during an accident.
@@ -132,7 +132,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1f: Circulatory Shock Pathophysiology
+#### Req 1f: Understanding Life Threatening Shock
 **Official Requirement 1f:** Discuss why shock is an emergency.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Discuss Why Shock Is An)
 - **Common Myth:** Shock simply means emotional fright after an unexpected trauma and resolves without physical intervention.
@@ -146,7 +146,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1g: Mass Casualty Triage Evaluation
+#### Req 1g: Triage Principles and Multiple Victims
 **Official Requirement 1g:** Define the term triage and describe examples of triage situations that you may encounter.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix (Triage and Describe Examples of)
 - **Common Myth:** Responders should treat whichever injured individual screams the loudest before evaluating quiet victims.
@@ -160,7 +160,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Preparing for First Aid Emergencies
+### Req 2: Emergency Preparedness and Medical Records
 **Official Requirement 2 (Parent Overview):** Preparing for First Aid Emergencies. Do the following: (a) Obtain a copy of the Scout Annual Health and Medical Record and discuss the importance of the form including information on immunizations, allergies, medications, health history, and medical examinations to providing first aid at Scouting events. (b) Using checklists provided in the First Aid merit badge pamphlet or ones approved by your counselor, do the following: (1) Assemble a personal first-aid kit for hiking and backpacking. Demonstrate the proper use of each item in your first-aid kit to your counselor. (2) With your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Inspect medical kits prior to every outing to replace expired sterile items and replenish consumed bandages.
@@ -174,7 +174,7 @@
 - Backcountry Kit Packing: Assemble sterile gauze adhesive tape moleskin and antiseptic wipes inside waterproof storage bags.
 - Supply Inspection Frequency: Inspect medical kit components prior to each outing to replace expired sterile items.
 
-#### Req 2a: Medical Records and Health History
+#### Req 2a: Scout Annual Health Record
 **Official Requirement 2a:** Obtain a copy of the Scout Annual Health and Medical Record and discuss the importance of the form including information on immunizations, allergies, medications, health history, and medical examinations to providing first aid at Scouting events.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101)* • **Organizer (Activity & Observation Log):** Req 2a Quantitative Field Observation & Activity Log (Obtain A Copy)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your First Aid Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
@@ -189,7 +189,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2b: Personal First Aid Kit Assembly
+### Req 2b: Personal and Patrol Aid Kits
 **Official Requirement 2b (Parent Overview):** Using checklists provided in the First Aid merit badge pamphlet or ones approved by your counselor, do the following: (1) Assemble a personal first-aid kit for hiking and backpacking. Demonstrate the proper use of each item in your first-aid kit to your counselor. (2) With your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101)* • **Group Organizer:** Gear Inspection Checklist
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your First Aid Req 2b preparation with your Merit Badge Counselor before moving to subsequent tasks.
@@ -253,8 +253,8 @@
 **Official Requirement 3 (Parent Overview):** Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds: (a) Closed wounds, such as a bruise (contusion) or a hematoma (b) Superficial, partial thickness, and full thickness thermal (heat) burns or scalds (c) Chemical burns (d) Electrical burns (e) Sunburn (f) Snow blindness (g) Immersion foot, frostnip, frostbite, and ice burns (h) Abrasions, such as chafing and rope burns (i) Blisters on the hands, feet, buttocks, and shoulders (j) Puncture wounds from splinters, rope splinters, nails, and fish hooks (k) Rash from poisonous plants (l) Bug bites of chiggers, ticks, mosquitoes, and biting gnats (m) Bee stings (n) Bites of spiders (o) Sting of a scorpion (p) Bite of a pet or wild mammal or human (q) Bite of a venomous snake
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Never touch a victim who is still in direct contact with a live electrical wire or circuit.
-- **Common Myth:** Chemical burns should be left untouched until professional hazardous materials teams arrive with neutralizing acids.
-- **Pamphlet Fact:** Ice must never be applied directly onto open wounds or frozen tissues due to risk of cellular necrosis.
+- **Common Myth:** Popping friction blisters, rubbing frostbitten fingers, or applying butter to burns speeds up healing.
+- **Pamphlet Fact:** Leave unbroken blisters intact when possible, warm frostbitten skin gently in tepid water (104-108 F) without rubbing, and cool burns with clean water rather than ointments or grease.
 
 **Official Pamphlet Summary:**
 - Apply cold compresses wrapped in cloth to reduce subcutaneous capillary hemorrhage and swelling.
@@ -262,7 +262,7 @@
 - Chemical Irrigation Protocol: Brush away dry powders completely before flushing contaminated skin with copious clean water.
 - Tick Removal Technique: Grasp attached ticks against the skin with fine tweezers and pull steadily backward.
 
-#### Req 3a: Contusion and Hematoma Management
+#### Req 3a: Bruises and Closed Hematomas
 **Official Requirement 3a:** Closed wounds, such as a bruise (contusion) or a hematoma.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Closed Wounds Such As A)
 - **Common Myth:** Placing bare ice directly on a deep contusion accelerates healing of damaged muscle capillaries.
@@ -276,7 +276,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: Thermal Burn Severity Care
+#### Req 3b: Thermal Burns and Scalds
 **Official Requirement 3b:** Superficial, partial thickness, and full thickness thermal (heat) burns or scalds.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Superficial Partial Thickness and Full)
 - **Common Myth:** Coating severe heat scalds with butter or petroleum ointment soothes damaged dermal tissue effectively.
@@ -290,7 +290,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3c: Chemical Exposure Decontamination
+#### Req 3c: Chemical Skin and Eye Burns
 **Official Requirement 3c:** Chemical burns.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Chemical Burns)
 - **Common Myth:** Pouring a chemical base over an acid burn safely neutralizes the substance on human skin.
@@ -304,7 +304,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3d: Electrical Burn Emergency Care
+#### Req 3d: Electrical Contact Injuries
 **Official Requirement 3d:** Electrical burns.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Electrical Burns)
 - **Common Myth:** A person shocked by low voltage house wiring never requires medical evaluation if conscious.
@@ -332,7 +332,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3f: Corneal Photokeratitis Management
+#### Req 3f: Ultraviolet Snow Blindness
 **Official Requirement 3f:** Snow blindness.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix (Snow Blindness)
 - **Common Myth:** Snow blindness creates permanent physical blindness immediately upon stepping onto sunny snowfields.
@@ -346,7 +346,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3g: Freezing and Nonfreezing Cold Injuries
+#### Req 3g: Frostnip and Cold Tissue Injuries
 **Official Requirement 3g:** Immersion foot, frostnip, frostbite, and ice burns.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3g Structured Technical Study & Explanation Matrix (Immersion Foot Frostnip Frostbite and)
 - **Common Myth:** Rubbing snow vigorously onto frozen fingers restores blood circulation and warms damaged tissue safely.
@@ -360,7 +360,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3h: Friction Abrasion Wound Care
+#### Req 3h: Abrasions, Chafing, and Rope Burns
 **Official Requirement 3h:** Abrasions, such as chafing and rope burns.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3h Structured Technical Study & Explanation Matrix (Abrasions Such As Chafing and)
 - **Common Myth:** Leaving dirt particles inside road rash promotes faster scab formation and natural skin healing.
@@ -374,7 +374,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3i: Friction Blister Prevention Management
+#### Req 3i: Blisters on Hands, Feet, and Shoulders
 **Official Requirement 3i:** Blisters on the hands, feet, buttocks, and shoulders.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3i Structured Technical Study & Explanation Matrix (Blisters on The Hands Feet)
 - **Common Myth:** Puncturing every blister with an unsterilized needle relieves pressure and expedites backcountry travel.
@@ -388,7 +388,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3j: Puncture Wound First Aid
+#### Req 3j: Splinters and Fishhook Punctures
 **Official Requirement 3j:** Puncture wounds from splinters, rope splinters, nails, and fish hooks.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3j Structured Technical Study & Explanation Matrix (Puncture Wounds From Splinters Rope)
 - **Common Myth:** Deep dirty puncture wounds heal best when immediately sealed with waterproof skin adhesives.
@@ -402,7 +402,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3k: Toxic Plant Dermatitis Treatment
+#### Req 3k: Poisonous Plant Contact Rashes
 **Official Requirement 3k:** Rash from poisonous plants.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3k Structured Technical Study & Explanation Matrix (Rash From Poisonous)
 - **Common Myth:** Poison ivy blister fluid spreads the allergic rash to other parts of your body.
@@ -416,7 +416,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3l: Arthropod Bite Management Protocols
+#### Req 3l: Tick and Chigger Bites
 **Official Requirement 3l:** Bug bites of chiggers, ticks, mosquitoes, and biting gnats.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3l Structured Technical Study & Explanation Matrix (Bug Bites of Chiggers Ticks)
 - **Common Myth:** Smothering an attached tick with petroleum jelly or burning it prompts safe head detachment.
@@ -430,7 +430,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3m: Hymenoptera Sting First Aid
+#### Req 3m: Bee and Wasp Stings
 **Official Requirement 3m:** Bee stings.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3m Structured Technical Study & Explanation Matrix (Bee Stings)
 - **Common Myth:** Squeezing an embedded honeybee stinger with bare fingers prevents further venom sac emptying.
@@ -444,7 +444,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3n: Arachnid Bite Clinical Assessment
+#### Req 3n: Venomous Spider Bites
 **Official Requirement 3n:** Bites of spiders.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3n Structured Technical Study & Explanation Matrix (Bites of Spiders)
 - **Common Myth:** Every spider bite requires deep surgical cutting and mechanical suction of underlying tissue venom.
@@ -458,7 +458,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3o: Scorpion Envenomation First Aid
+#### Req 3o: Desert Scorpion Stings
 **Official Requirement 3o:** Sting of a scorpion.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3o Structured Technical Study & Explanation Matrix (Sting of A Scorpion)
 - **Common Myth:** Applying a tight venous tourniquet to an arm neutralizes dangerous desert scorpion venom.
@@ -472,7 +472,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3p: Mammalian Bite Wound Care
+#### Req 3p: Animal and Human Bites
 **Official Requirement 3p:** Bite of a pet or wild mammal or human.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3p Structured Technical Study & Explanation Matrix (Bite of A Pet or)
 - **Common Myth:** A domestic dog bite requires no cleaning if the skin appears only slightly broken.
@@ -486,7 +486,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3q: Venomous Snakebite Emergency Protocol
+#### Req 3q: Venomous Snakebites
 **Official Requirement 3q:** Bite of a venomous snake.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Organizer (Concept & Examples Notes):** Req 3q Structured Technical Study & Explanation Matrix (Bite of A Venomous Snake)
 - **Common Myth:** Cutting an X over snake fangs and sucking venom removes toxins from blood vessels.
@@ -500,7 +500,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Bleeding Wounds, Nosebleeds, Tourniquets & Shock
+### Req 4: Hemorrhage Control and Bleeding Wounds
 **Official Requirement 4 (Parent Overview):** Bleeding Wounds. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds: (a) A nosebleed. (b) An open wound with mild or moderate bleeding, such as a scratch or a scrape (abrasions), or a shallow cut (laceration). (c) An open wound with severe bleeding such as a deep cut on an arm or leg. (d) Explain when it is appropriate and is not appropriate to use one or more tourniquets. List some of the benefits and dangers of using a tourniquet. Demonstrate the application of a tourniquet without tightening it.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Always record the exact application time on a tourniquet band and never loosen it in the field.
@@ -513,7 +513,7 @@
 - Tourniquet Placement Standard: Place commercial windlass tourniquets two inches above severe limb bleeding if pressure fails.
 - Write the exact time of tourniquet application directly on the white security band.
 
-#### Req 4a: Epistaxis and Nosebleed Management
+#### Req 4a: Managing Acute Nosebleeds
 **Official Requirement 4a:** A nosebleed.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (First Aid Nosebleed Principles)
 - **Common Myth:** Tilting the head back during a nosebleed stops bleeding by sending blood back inward.
@@ -527,7 +527,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Minor Laceration and Abrasion Care
+#### Req 4b: Mild Cuts and Abrasions
 **Official Requirement 4b:** An open wound with mild or moderate bleeding, such as a scratch or a scrape (abrasions), or a shallow cut (laceration)
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Open Wound With Mild or)
 - **Common Myth:** Pouring pure hydrogen peroxide into scrapes promotes superior tissue regeneration without cellular damage.
@@ -541,7 +541,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Severe Hemorrhage Pressure Hemostasis
+#### Req 4c: Severe Arterial and Venous Bleeding
 **Official Requirement 4c:** An open wound with severe bleeding such as a deep cut on an arm or leg.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Open Wound With Severe Bleeding)
 - **Common Myth:** Lifting a soaked gauze pad repeatedly to inspect clotting speeds up natural physiological hemostasis.
@@ -555,7 +555,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4d: Tourniquet Application and Indications
+#### Req 4d: Appropriate Tourniquet Application
 **Official Requirement 4d:** Explain when it is appropriate and is not appropriate to use one or more tourniquets. List some of the benefits and dangers of using a tourniquet. Demonstrate the application of a tourniquet without tightening.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 4d Hands-On Skill Station & EDGE Verification Checklist (More Tourniquets Benefits Dangers)
 - **Common Myth:** Improvised wire tourniquets are safer for controlling bleeding than purpose-built commercial windlass devices.
@@ -571,7 +571,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Breathing Emergencies: Choking, Asthma, Anaphylaxis & Altitude
+### Req 5: Respiratory Emergencies and Airway Clearance
 **Official Requirement 5 (Parent Overview):** Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing: (a) Choking (b) Asthmatic attack (c) Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation injuries (e) Altitude sickness
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Do not perform a blind finger sweep in a choking victim mouth because it can impact objects.
@@ -584,7 +584,7 @@
 - Inject epinephrine into the outer thigh immediately when systemic allergic airway compromise occurs.
 - Altitude Sickness Management: Descend to lower elevations immediately whenever acute mountain sickness symptoms worsen along trails.
 
-#### Req 5a: Foreign Body Airway Obstruction
+#### Req 5a: Airway Obstruction and Choking
 **Official Requirement 5a:** Choking.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (First Aid Choking Principles)
 - **Common Myth:** Slapping a coughing victim forcefully on the back is necessary when they can speak.
@@ -598,7 +598,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b: Acute Asthma Bronchospasm Care
+#### Req 5b: Acute Asthma Attacks
 **Official Requirement 5b:** Asthmatic attack.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Asthmatic Attack)
 - **Common Myth:** Forcing an asthmatic person to lie flat on their back opens restricted bronchial airways.
@@ -612,7 +612,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c: Systemic Anaphylactic Shock Management
+#### Req 5c: Life Threatening Anaphylaxis
 **Official Requirement 5c:** Anaphylaxis from an insect bite or sting or from food or product allergy.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Anaphylaxis From An Insect Bite)
 - **Common Myth:** Oral antihistamines alone work rapidly enough to reverse airway closing during severe systemic anaphylaxis.
@@ -626,7 +626,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5d: Toxic Inhalation Respiratory Injury
+#### Req 5d: Smoke and Fume Inhalation
 **Official Requirement 5d:** Inhalation injuries.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix (Inhalation Injuries)
 - **Common Myth:** Entering a smoke-filled room without a respirator is safe if you cover your mouth.
@@ -640,7 +640,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5e: High Altitude Illness Management
+#### Req 5e: High Altitude Sickness
 **Official Requirement 5e:** Altitude sickness.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix (Altitude Sickness)
 - **Common Myth:** Drinking extra coffee provides effective medical treatment for developing high altitude pulmonary edema.
@@ -654,7 +654,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Loss of Consciousness: Fainting, Seizures, Drowning & Lightning
+### Req 6: Loss of Consciousness Management
 **Official Requirement 6 (Parent Overview):** Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing loss of consciousness: (a) Fainting (b) Hypoglycemia (c) Seizure (d) Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Do not restrain a seizing individual or place any objects inside their mouth during convulsions.
@@ -667,7 +667,7 @@
 - Seizure Environmental Protection: Clear hard objects from the surrounding area and cushion the head during convulsions.
 - Opioid Reversal Intervention: Administer intranasal naloxone promptly to restore spontaneous respiration during suspected narcotic overdose emergencies.
 
-#### Req 6a: Syncope and Fainting Management
+#### Req 6a: Simple Fainting Episodes
 **Official Requirement 6a:** Fainting.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (First Aid Fainting Principles)
 - **Common Myth:** Splashing cold water on a fainting victim face is necessary to restore conscious neurological function.
@@ -681,7 +681,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b: Diabetic Hypoglycemic Emergency Care
+#### Req 6b: Diabetic Low Blood Sugar
 **Official Requirement 6b:** Hypoglycemia.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (First Aid Hypoglycemia Principles)
 - **Common Myth:** An unconscious diabetic individual should be forced to swallow granulated sugar or soda immediately.
@@ -695,7 +695,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c: Epileptic Seizure Supportive Care
+#### Req 6c: Convulsive Seizure Response
 **Official Requirement 6c:** Seizure.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (First Aid Seizure Principles)
 - **Common Myth:** Holding down a seizing person arms and legs prevents dangerous bodily injury during convulsions.
@@ -709,7 +709,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6d: Substance Overdose Emergency Response
+#### Req 6d: Overdose and Alcohol Poisoning
 **Official Requirement 6d:** Drug overdose and alcohol poisoning.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Drug Overdose and Alcohol Poisoning)
 - **Common Myth:** Walking an overdose victim around outdoors or giving them black coffee restores respiratory drive.
@@ -723,7 +723,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6e: Hypoxic Underwater Blackout Prevention
+#### Req 6e: Underwater Hypoxic Blackout
 **Official Requirement 6e:** Underwater hypoxic blackout.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix (Underwater Hypoxic Blackout)
 - **Common Myth:** Hyperventilating before swimming underwater increases blood oxygen saturation far above normal human levels.
@@ -737,7 +737,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6f: Cold Water Shock Drowning
+#### Req 6f: Cold Water Immersion and Drowning
 **Official Requirement 6f:** Cold water shock and drowning.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix (Cold Water Shock and Drowning)
 - **Common Myth:** Swimming vigorously immediately after plunging into freezing water prevents hypothermia and cold incapacitation.
@@ -751,7 +751,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6g: Lightning Strike Trauma Response
+#### Req 6g: Lightning and Electrical Shock
 **Official Requirement 6g:** Lightning strike and electric shock.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Organizer (Concept & Examples Notes):** Req 6g Structured Technical Study & Explanation Matrix (Lightning Strike and Electric Shock)
 - **Common Myth:** Touching a person struck by lightning transfers dangerous residual electrical charge to the rescuer.
@@ -765,7 +765,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Heart Attack, 30:2 CPR & AED Defibrillation
+### Req 7: Myocardial Infarction and Defibrillation
 **Official Requirement 7 (Parent Overview):** Heart Attack. Do the following: (a) Explain what a heart attack is. (b) Describe the symptoms and signs of a heart attack and first aid for this condition. (c) Describe the conditions that must exist before performing CPR on a person. (d) Demonstrate proper CPR technique using a training device approved by your counselor. (e) Explain the use of an automated external defibrillator (AED). (f) Demonstrate or simulate the proper use of an AED, using an AED training device if available. (g) Identify the typical location(s) of one or more AED(s) at public facilities in your community, such as, your school, place of worship, unit meeting place, sports facilities, and/or camp or by using a smartphone app. Discuss the reasons for choosing locations like these.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Ensure nobody is touching the patient when an automated external defibrillator delivers an electrical shock.
@@ -779,7 +779,7 @@
 - CPR Compression Metrics: Deliver continuous chest compressions at two inches depth and one hundred beats speed.
 - Automated Defibrillation Sequence: Attach adhesive electrode pads to bare dry skin and follow automated audible prompts.
 
-#### Req 7a: Myocardial Infarction Biological Mechanism
+#### Req 7a: Understanding Coronary Heart Attacks
 **Official Requirement 7a:** Explain what a heart attack.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Heart Attack)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your First Aid Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
@@ -794,7 +794,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b: Heart Attack Symptom Recognition
+#### Req 7b: Heart Attack Signs and Care
 **Official Requirement 7b:** Describe the symptoms and signs of a heart attack and first aid for this condition.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
 - **Common Myth:** Heart attack pain always presents as sharp, localized left-sided chest pain that stabs intermittently.
@@ -808,7 +808,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7c: Cardiac Arrest Verification Conditions
+#### Req 7c: Conditions Requiring Immediate CPR
 **Official Requirement 7c:** Describe the conditions that must exist before performing CPR on a person.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix (Conditions That Must Exist Before)
 - **Common Myth:** CPR should be started on anyone who feels dizzy or faints while remaining responsive.
@@ -822,7 +822,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7d: Cardiopulmonary Resuscitation Technique Standards
+#### Req 7d: Proper Chest Compression Technique
 **Official Requirement 7d:** Demonstrate proper CPR technique using a training device approved by your counselor.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Skill Demonstration Checklist):** Req 7d Hands-On Skill Station & EDGE Verification Checklist (CPR Technique Using A Training)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your First Aid Req 7d preparation with your Merit Badge Counselor before moving to subsequent tasks.
@@ -837,7 +837,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7e: Automated External Defibrillator Function
+#### Req 7e: Automated External Defibrillator Purpose
 **Official Requirement 7e:** Explain the use of an automated external defibrillator (AED)
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix (Automated External Defibrillator AED)
 - **Common Myth:** An automated external defibrillator will shock a healthy beating heart if pads are attached.
@@ -851,7 +851,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7f: AED Operational Demonstration Steps
+#### Req 7f: Operating an AED Safely
 **Official Requirement 7f:** Demonstrate or simulate the proper use of an AED, using an AED training device if available.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Skill Demonstration Checklist):** Req 7f Hands-On Skill Station & EDGE Verification Checklist (Simulate Training Device Available)
 - **Common Myth:** Responders must manually diagnose electrocardiogram waveforms on screen before triggering an AED shock.
@@ -865,7 +865,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7g: Public Access Defibrillator Locations
+#### Req 7g: Community AED Locations
 **Official Requirement 7g:** Identify the typical location(s) of one or more AED(s) at public facilities in your community, such as, your school, place of worship, unit meeting place, sports facilities, and/or camp or by using a smartphone app. Discuss the reasons for choosing locations.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7g Structured Technical Study & Explanation Matrix (Typical Location(s of One or)
 - **Common Myth:** AED devices are kept exclusively inside locked hospital pharmacy rooms and private physician offices.
@@ -893,7 +893,7 @@
 - Support the forearm with an arm sling and bind the arm against torso.
 - Adjacent Joint Stabilization: Immobilize the joints immediately above and below a suspected long bone fracture site.
 
-#### Req 8a: Musculoskeletal Injury Classification Comparison
+#### Req 8a: Comparing Strains, Sprains, and Fractures
 **Official Requirement 8a:** Explain the similarities and differences in a strain, a muscle tear, a tendon rupture, a sprain, a dislocation, a simple fracture, and a compound fracture.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (2-Column Comparison Table):** Req 8a Technical Comparison Matrix (Similarities and Differences in A)
 - **Common Myth:** The terms sprain and strain are identical words describing the exact same joint injury.
@@ -907,7 +907,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8b: Muscle Strain and Rupture Care
+#### Req 8b: Muscle Strain and Tendon Care
 **Official Requirement 8b:** Describe the symptoms and signs of and first aid for a muscle strain, a muscle tear, and a tendon rupture.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
 - **Common Myth:** Aggressively massaging a torn hamstring immediately after injury accelerates muscle fiber reconnection and repair.
@@ -921,7 +921,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8c: Fracture and Dislocation Complications
+#### Req 8c: Sprain, Fracture, and Dislocation Signs
 **Official Requirement 8c:** Describe the symptoms and signs of, and potential complications of, a sprain, a fracture, and a dislocation.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Symptoms and Signs of and)
 - **Common Myth:** A broken arm causes significant complications only if bone ends pierce through the skin.
@@ -935,7 +935,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8d: Orthopedic Bandaging and Sling Application
+#### Req 8d: Applying Slings and Roller Bandages
 **Official Requirement 8d:** Demonstrate bandages for these injuries: (1) Arm slings for forearm or upper arm or collarbone fractures (2) Elastic wrap and cravat bandages for ankle sprain (3) Elastic wrap and cravat bandages for wrist sprain or hand injury.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 8d Hands-On Skill Station & EDGE Verification Checklist (Bandages for These Injuries Arm)
 - **Common Myth:** An arm sling should hang loosely so the forearm dangles well below the waistline.
@@ -951,7 +951,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8e: Extremity Fracture Splinting Procedures
+#### Req 8e: Splinting Suspected Fractures and Dislocations
 **Official Requirement 8e:** Demonstrate the proper procedures for handling and splinting of suspected closed or open fractures or dislocations of the: (1) Finger and toe (2) Forearm or wrist (3) Upper leg (4) Lower leg or ankle.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Skill Demonstration Checklist):** Req 8e Hands-On Skill Station & EDGE Verification Checklist (Procedures for Handling and Splinting)
 - **Common Myth:** Straightening an angulated broken leg by pulling hard is required before applying a splint.
@@ -981,7 +981,7 @@
 - Scalp Laceration Dressing: Apply sterile dressings with triangular bandages without pressing inward on depressed cranial fractures.
 - Concussion Rest Protocol: Remove athletes showing dizziness confusion or photophobia from activity for complete physical rest.
 
-#### Req 9a: Spinal Cord Injury Pathophysiology
+#### Req 9a: Head and Spine Injury Risks
 **Official Requirement 9a:** Describe the symptoms and signs of, relationships between, possible complications of, and prevention of head, neck, and back injuries.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56)* • **Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix (Symptoms and Signs of Relationships)
 - **Common Myth:** Patients with broken neck vertebrae can always walk around normally without experiencing any discomfort.
@@ -995,7 +995,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9b: Concussion Symptoms and Assessment
+#### Req 9b: Concussion Signs and First Aid
 **Official Requirement 9b:** Describe the symptoms and signs of and first aid for a concussion.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56)* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
 - **Common Myth:** An athlete diagnosed with a mild concussion may safely reenter competitive sports the same afternoon.
@@ -1009,7 +1009,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9c: Open Cranial Wound Bandaging
+#### Req 9c: Bandaging Open Head Wounds
 **Official Requirement 9c:** Demonstrate first aid for an open head wound with a triangular or other bandage.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56)* • **Organizer (Skill Demonstration Checklist):** Req 9c Hands-On Skill Station & EDGE Verification Checklist (Aid for An Open Head)
 - **Common Myth:** Scalp lacerations bleed minimally and should be left uncovered to dry in open air.
@@ -1023,7 +1023,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9d: Spinal Trauma Immobilization Management
+#### Req 9d: Stabilizing Neck and Back Injuries
 **Official Requirement 9d:** Demonstrate first aid for someone with a suspected neck or back injury.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 9d Clinical Signs, First-Aid Treatment & Prevention Matrix
 - **Common Myth:** Rolling a patient with suspected spinal injuries onto their stomach relieves pressure on vertebrae.
@@ -1050,7 +1050,7 @@
 - Crawl beneath rising toxic smoke layers using a blanket drag to extract victims.
 - Test improvised pole and jacket stretchers with uninjured weight before carrying injured casualties.
 
-#### Req 10a: Patient Movement Conditions and Criteria
+#### Req 10a: An injured person
 **Official Requirement 10a:** Describe the conditions under which an injured person should and should not be moved.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix (Conditions Under Which An Injured)
 - **Common Myth:** Any injured person lying on cold ground must be picked up and relocated immediately.
@@ -1064,7 +1064,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 10b: Transport Method Decision Guidelines
+#### Req 10b: Selecting Appropriate Rescue Carries
 **Official Requirement 10b:** If a sick or an injured person must be moved, tell how you would decide the best method. Demonstrate these methods.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Organizer (Skill Demonstration Checklist):** Req 10b Hands-On Skill Station & EDGE Verification Checklist (Sick or An Injured Person)
 - **Common Myth:** A single rescuer should attempt a fireman carry across rough rocky mountain terrain alone.
@@ -1079,7 +1079,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 10c: Smoke Evacuation Drag Techniques
+#### Req 10c: Smoke Filled Room Rescues
 **Official Requirement 10c:** By yourself and with a partner, demonstrate how to transport a person from a smoke-filled room.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Organizer (Skill Demonstration Checklist):** Req 10c Hands-On Skill Station & EDGE Verification Checklist (Yourself and With A Partner)
 - **Common Myth:** Rescuers in smoke-filled buildings should stand fully erect to carry victims quickly in arms.
@@ -1093,7 +1093,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 10d: Assisted Ambulation Extremity Transport
+#### Req 10d: Sprained Ankle Two Person Carries
 **Official Requirement 10d:** By yourself and with a partner, demonstrate how to transport a person with a sprained ankle for at least 25 yards.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Organizer (Skill Demonstration Checklist):** Req 10d Hands-On Skill Station & EDGE Verification Checklist (Yourself and With A Partner)
 - **Common Myth:** A person with a sprained ankle should be forced to hop unsupported across rough terrain.
@@ -1107,7 +1107,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 10e: Improvised Stretcher Construction Protocols
+#### Req 10e: Improvising a Trail Stretcher
 **Official Requirement 10e:** With helpers under your supervision, improvise a stretcher and move a presumably unconscious person for at least 25 yards.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix (Helpers Under Your Supervision Improvise)
 - **Common Myth:** Buttoning coats over poles creates a stretcher that never requires testing before patient placement.
@@ -1134,7 +1134,7 @@
 - Cold Induced Angina: Stop physical exertion and warm the patient upon developing chest pressure during snowstorms.
 - Accidental Hypothermia Insulation: Wrap hypothermic patients in dry sleeping bags and windproof tarps avoiding rough movement.
 
-#### Req 11a: Fluid Balance and Hyponatremia
+#### Req 11a: Dehydration and Overhydration Risks
 **Official Requirement 11a:** Dehydration and over-hydration.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix (Dehydration and Over-hydration)
 - **Common Myth:** Thirst is the only indicator of hydration, and drinking unlimited plain water is always healthy.
@@ -1148,7 +1148,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11b: Exercise-Induced Heat Cramp Care
+#### Req 11b: Exertional Heat Cramps
 **Official Requirement 11b:** Heat cramps and muscle pain after exertion.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Heat Cramps and Muscle Pain)
 - **Common Myth:** Vigorously kneading a cramping calf muscle immediately releases underlying sodium electrolyte deficiency spasms.
@@ -1162,7 +1162,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11c: Heat Exhaustion Clinical Management
+#### Req 11c: Recognizing Heat Exhaustion
 **Official Requirement 11c:** Heat exhaustion.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 11c Structured Technical Study & Explanation Matrix (Heat Exhaustion)
 - **Common Myth:** A person with heat exhaustion always has dry skin and high fevers above critical thresholds.
@@ -1176,7 +1176,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11d: Exertional Heatstroke Emergency Interventions
+#### Req 11d: Life Threatening Heatstroke
 **Official Requirement 11d:** heatstroke.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix (Heat Stroke)
 - **Common Myth:** Waiting for an ambulance to arrive before starting cooling is acceptable for heatstroke victims.
@@ -1188,7 +1188,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11e: Cold-Induced Angina Pectoris Assessment
+#### Req 11e: Cold Induced Chest Pain
 **Official Requirement 11e:** Chest pains associated with cold exposure.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 11e Structured Technical Study & Explanation Matrix (Chest Pains Associated With Cold)
 - **Common Myth:** Chest pain experienced while shoveling snow in freezing temperatures is simply pulled chest muscles.
@@ -1200,7 +1200,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11f: Accidental Hypothermia Rewarming Protocols
+#### Req 11f: Hypothermia Prevention and Rewarming
 **Official Requirement 11f:** Hypothermia.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Organizer (Concept & Examples Notes):** Req 11f Structured Technical Study & Explanation Matrix (First Aid Hypothermia Principles)
 - **Common Myth:** Giving hot black coffee or alcohol warms up a hypothermic backcountry camper safely.
@@ -1225,7 +1225,7 @@
 - Self Harm Warning Signs: Recognize talk of hopelessness social withdrawal and giving away prized personal possessions.
 - Crisis Intervention Escalation: Report threats of self harm immediately to trusted adult leaders or crisis hotlines.
 
-#### Req 12a: Acute Situational Stress Reactions
+#### Req 12a: Recognizing Stressful Scouting Situations
 **Official Requirement 12a:** Reactions associated with at least three stressful situations, such as mountain backpacking, rappelling, a ropes course, speaking before an audience, making a phone call to an adult, taking a swim test, missing home, lighting a match, trying out for a sports team, meeting someone for the first time, or other stressful circumstances.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102)* • **Organizer (Concept & Examples Notes):** Req 12a Structured Technical Study & Explanation Matrix (Reactions Associated Stressful Situations)
 - **Common Myth:** Feeling nervousness or panic during a high ropes course indicates permanent mental weakness.
@@ -1239,7 +1239,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 12b: Stress Inoculation and Management
+#### Req 12b: Preparing and Managing Stress
 **Official Requirement 12b:** The actions that you and others should take to prepare for and manage these situations.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102)* • **Organizer (Concept & Examples Notes):** Req 12b Structured Technical Study & Explanation Matrix (Actions That You)
 - **Common Myth:** Ignoring personal anxiety and forcing unprepared youth into scary challenges cures phobias reliably.
@@ -1251,7 +1251,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 12c: Self-Harm and Danger Indicators
+#### Req 12c: Warning Signs of Self Harm
 **Official Requirement 12c:** The indications that someone might be a danger to themselves or others.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102)* • **Organizer (Concept & Examples Notes):** Req 12c Structured Technical Study & Explanation Matrix (Indications That Someone)
 - **Common Myth:** People who talk openly about wanting to harm themselves are only seeking casual attention.
@@ -1263,7 +1263,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 12d: Crisis Intervention and Escalation
+#### Req 12d: Taking Immediate Protective Action
 **Official Requirement 12d:** The actions that you should take if you suspect that someone might be a danger to themselves or others.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102)* • **Organizer (Concept & Examples Notes):** Req 12d Structured Technical Study & Explanation Matrix (Actions That You)
 - **Common Myth:** Promising a struggling friend to keep their suicidal thoughts a secret demonstrates true loyalty.
@@ -1275,7 +1275,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 13: Miscellaneous Conditions: Eye, Tooth, GI & Stroke (FAST)
+### Req 13: Specialized Medical and Dental Emergencies
 **Official Requirement 13 (Parent Overview):** Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions: (a) Object in the eye (b) Broken, chipped, loosened, or knocked out tooth (c) Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Cover both eyes with protective shields when an impaled object penetrates one eye globe.
@@ -1288,7 +1288,7 @@
 - Replace fluid and electrolyte losses from food poisoning using frequent small oral sips.
 - Stroke FAST Assessment: Evaluate facial drooping arm drift and slurred speech before calling emergency medical dispatchers.
 
-#### Req 13a: Ophthalmic Foreign Body Irrigation
+#### Req 13a: Foreign Objects in the Eye
 **Official Requirement 13a:** Object in the eye.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Organizer (Concept & Examples Notes):** Req 13a Structured Technical Study & Explanation Matrix (Object in The Eye)
 - **Common Myth:** Rubbing an eye vigorously with fingers dislodges foreign specks from the cornea safely.
@@ -1302,7 +1302,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 13b: Dental Avulsion Preservation Care
+#### Req 13b: Dental and Knocked Out Teeth
 **Official Requirement 13b:** Broken, chipped, loosened, or knocked out tooth.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Organizer (Concept & Examples Notes):** Req 13b Structured Technical Study & Explanation Matrix (Broken Chipped Loosened or Knocked)
 - **Common Myth:** A knocked-out permanent tooth can never be successfully reimplanted into its alveolar socket.
@@ -1314,7 +1314,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 13c: Foodborne Illness Rehydration Therapy
+#### Req 13c: Food Poisoning and Dehydration
 **Official Requirement 13c:** Vomiting and diarrhea associated with food poisoning.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Organizer (Concept & Examples Notes):** Req 13c Structured Technical Study & Explanation Matrix (Vomiting and Diarrhea Associated With)
 - **Common Myth:** Withholding all liquids for forty-eight hours cures acute bacterial food poisoning diarrhea quickly.
@@ -1326,7 +1326,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 13d: Acute Abdomen Triage Assessment
+#### Req 13d: Acute Abdominal Pain Assessment
 **Official Requirement 13d:** Abdominal pain.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Organizer (Concept & Examples Notes):** Req 13d Structured Technical Study & Explanation Matrix (Abdominal Pain)
 - **Common Myth:** Giving heavy pain relievers and laxatives cures acute appendicitis safely at home.
@@ -1338,7 +1338,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 13e: Cerebral Vascular Stroke Identification
+#### Req 13e: Recognizing Stroke Warning Signs
 **Official Requirement 13e:** Stroke.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Organizer (Concept & Examples Notes):** Req 13e Structured Technical Study & Explanation Matrix (First Aid Stroke Principles)
 - **Common Myth:** Giving an aspirin to someone having a stroke is always safe before hospital scanning.
@@ -1387,7 +1387,7 @@
 - Research state licensing requirements prerequisite anatomy coursework and clinical internship training hours for paramedics.
 - Backcountry First Aid: Apply emergency medical skills toward outdoor recreation hobbies such as mountaineering and ski patrol.
 
-#### Req 15a: Emergency Station Facility Exploration
+#### Req 15a: Visiting an EMS Station
 **Official Requirement 15a:** Visit an emergency medical station house or training center in person. From the medical first responders that you meet during your visit, learn about how they serve their community and about their careers. Discuss with your counselor what you learned during your tour and interviews.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29)* • **Organizer (Career & Profession Exploration Card):** Req 15a Field Visit & Professional Observation Log
 - **Common Myth:** Emergency medical station crews only clean equipment and wait without regular scheduled duties.
@@ -1403,7 +1403,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 15b: Paramedic Career Field Interview
+#### Req 15b: Interviewing an EMS Professional
 **Official Requirement 15b:** Interview an emergency medical services professional about their work. Learn about how they chose this career and about their duties. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29)* • **Organizer (Career & Profession Exploration Card):** Req 15b Professional Career Interview Card
 - **Common Myth:** Paramedics make career choices purely based on driving ambulances at high speeds through traffic.
@@ -1419,7 +1419,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 15c: EMS Career Pathways and Qualifications
+#### Req 15c: Exploring EMS Career Paths
 **Official Requirement 15c:** Identify three career opportunities that would use skills and knowledge in emergency medical services. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29)* • **Organizer (Career & Profession Exploration Card):** Req 15c Career & Professional Pathway Investigation Matrix
 - **Common Myth:** Working on an ambulance requires no formal college degrees or national board testing.
@@ -1434,7 +1434,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 15d: Emergency Skills for Outdoor Hobbies
+#### Req 15d: Volunteer and Wilderness Rescue Pursuits
 **Official Requirement 15d:** Identify how you might use the skills and knowledge in the field of emergency medical services to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29)* • **Organizer (Concept & Examples Notes):** Req 15d Personal Hobby, Service & Preparedness Application
 - **Common Myth:** Emergency medical knowledge is completely useless outside of working inside an ambulance or hospital.
