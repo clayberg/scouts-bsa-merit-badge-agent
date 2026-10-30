@@ -1,0 +1,982 @@
+{
+  "requirements": [
+    {
+      "fact": "Rescuers must first ensure personal safety before approaching any injured person to avoid compounding casualties.",
+      "misconception": "First responders should immediately rush directly to the victim without evaluating environmental hazards.",
+      "pamphlet_excerpts": [
+        "Scene Safety Check: Survey the surrounding environment to detect fire gas lines or electrical hazards immediately.",
+        "Primary Patient Assessment: Check the patient for responsiveness airway opening normal breathing and severe active hemorrhage.",
+        "Emergency Notification Protocol: Dispatch specific bystanders with clear instructions to dial emergency dispatch and obtain defibrillators.",
+        "Protective Barrier Standard: Put on nonlatex gloves and eye protection before initiating contact with body fluids."
+      ],
+      "pamphlet_summary": "Emergency management begins with a systematic survey to protect responders while securing the immediate scene. Rescuers next perform a rapid primary assessment prioritizing airway, breathing, circulation, and definitive medical evacuation.",
+      "req_id": "1",
+      "safety_callout": "Never enter an unsafe environment such as an active roadway, burning structure, or energized electrical hazard zone.",
+      "socratic_questions": [
+        "How does rushing into an uninspected emergency scene jeopardize both the victim and your patrol?",
+        "Why must you point to a specific person when assigning the task of calling nine one one?",
+        "What physiological signs indicate that an injured person requires immediate airway management before splinting?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Scene Evaluation: Survey the surrounding environment to identify fire downed wires or toxic chemical hazards.",
+        "Step 2 - Responsiveness Check: Tap the victim shoulders firmly while asking loud questions to evaluate neurological responsiveness.",
+        "Step 3 - Emergency Activation: Direct a designated bystander to contact nine one one and fetch an automated defibrillator.",
+        "Step 4 - Primary Survey: Open the airway to verify normal chest rise and check for life-threatening bleeding."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Rescuers must stop and examine the surrounding scene for active hazards prior to patient contact.",
+          "misconception": "A rescuer should instantly kneel beside an injured person regardless of surrounding environmental dangers.",
+          "pamphlet_summary": "Assessing an emergency begins with scanning for continuing physical threats to rescuers and bystanders. Once the area is secure, the responder systematically assesses patient consciousness, breathing, and circulatory integrity.",
+          "sub_id": "1a",
+          "topic_title": "Emergency Assessment and Scene Safety"
+        },
+        {
+          "fact": "Wilderness rescues require sending messengers in pairs with written coordinates or activating satellite messenger beacons.",
+          "misconception": "Cellular phones reliably connect to emergency dispatch operators anywhere in remote backcountry regions.",
+          "pamphlet_summary": "Urban homes rely on wireline or cellular nine one one dispatchers who receive immediate location data. Backcountry expeditions require satellite communication messengers or written notes carried by paired runners.",
+          "sub_id": "1b",
+          "topic_title": "Emergency Medical Assistance Acquisition"
+        },
+        {
+          "fact": "Nonlatex gloves and sealed biohazard bags must be used and disposed of as infectious waste.",
+          "misconception": "Washing bare hands with river water provides adequate defense against bloodborne pathogen transmission.",
+          "pamphlet_summary": "Standard precautions require personal protective equipment including medical gloves and pocket masks for all fluid contact. Contaminated dressings and personal protective equipment must be sealed in marked hazardous waste containers.",
+          "sub_id": "1c",
+          "topic_title": "Infection Control and Waste Disposal"
+        },
+        {
+          "fact": "Rescuers use the head-tilt chin-lift maneuver for uninjured patients and the jaw-thrust for suspected spinal trauma.",
+          "misconception": "Tipping a trauma patient head backward aggressively is safe when neck fractures are suspected.",
+          "pamphlet_summary": "Airway evaluation involves opening the oral passage using appropriate maneuvers based on mechanism of injury. Management includes clearing obstructions and observing chest movement to confirm adequate tidal volume.",
+          "sub_id": "1d",
+          "topic_title": "Airway Management and Breathing Assessment"
+        },
+        {
+          "fact": "A complete secondary survey examines the body systematically from the head down to the toes.",
+          "misconception": "Checking only the initial painful injury site provides sufficient medical assessment during an accident.",
+          "pamphlet_summary": "The physical examination follows the primary survey to identify non-life-threatening lacerations, fractures, and contusions. Responders examine anatomical regions sequentially while noting pain, deformities, swelling, and circulatory status.",
+          "sub_id": "1e",
+          "topic_title": "Systematic Victim Physical Examination"
+        },
+        {
+          "fact": "Shock deprives essential vital organs of oxygenated blood and can lead rapidly to fatal collapse.",
+          "misconception": "Shock simply means emotional fright after an unexpected trauma and resolves without physical intervention.",
+          "pamphlet_summary": "Shock represents circulatory collapse where tissues and vital organs receive inadequate oxygenated blood flow. Without immediate intervention, cellular starvation triggers irreversible multi-system organ failure and sudden cardiac death.",
+          "sub_id": "1f",
+          "topic_title": "Circulatory Shock Pathophysiology"
+        },
+        {
+          "fact": "Triage sorts casualties using standardized color categories based on severity of injury and survivability.",
+          "misconception": "Responders should treat whichever injured individual screams the loudest before evaluating quiet victims.",
+          "pamphlet_summary": "Triage categorizes multiple casualties to allocate limited emergency resources for the greatest overall survival. Patients are rapidly assigned priority tags based on respiratory rate, perfusion status, and mental responsiveness.",
+          "sub_id": "1g",
+          "topic_title": "Mass Casualty Triage Evaluation"
+        }
+      ],
+      "topic_title": "Emergency Assessment and Handling Protocols"
+    },
+    {
+      "fact": "Medical history records guide treatment during unconsciousness and document critical allergies and medication regimens.",
+      "misconception": "Scout medical forms are administrative camp paperwork that leaders never consult during an emergency.",
+      "pamphlet_excerpts": [
+        "Medical Form Documentation: Review participant health records to identify severe allergies chronic illnesses and current medications.",
+        "Tetanus Immunization Currency: Verify that tetanus vaccination boosters were administered within the previous ten calendar years.",
+        "Backcountry Kit Packing: Assemble sterile gauze adhesive tape moleskin and antiseptic wipes inside waterproof storage bags.",
+        "Supply Inspection Frequency: Inspect medical kit components prior to each outing to replace expired sterile items."
+      ],
+      "pamphlet_summary": "The Annual Health and Medical Record documents vital baseline conditions, tetanus immunization currency, and prescription drug schedules. Comprehensive medical kits must be stocked with sterile supplies tailored to backcountry environmental risks.",
+      "req_id": "2",
+      "safety_callout": "Inspect medical kits prior to every outing to replace expired sterile items and replenish consumed bandages.",
+      "socratic_questions": [
+        "How does knowing a patient current tetanus immunization status influence wilderness wound treatment?",
+        "Why should backcountry first aid kits contain moleskin and water purification tablets instead of heavy splints?",
+        "What specific complications arise if a rescuer administers unauthorized prescription medication to an injured Scout?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Health Form Review: Review medical records for preexisting medical conditions severe allergies and current prescription medications.",
+        "Step 2 - Kit Component Inspection: Inspect the hiking first aid kit to verify sterile seals and check expiration dates.",
+        "Step 3 - Equipment Packing: Pack essential dressings cohesive bandages antiseptic wipes and blister treatments in waterproof bags.",
+        "Step 4 - Kit Storage: Store the completed medical kit in an easily accessible top pocket of your backpack."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Tetanus toxoid boosters are required every ten years or within five years following contaminated wounds.",
+          "misconception": "Scout leaders only need to know a participant emergency contact phone number during campouts.",
+          "pamphlet_summary": "The medical form provides emergency care providers with essential data regarding baseline chronic illnesses and severe allergies. Current tetanus vaccination dates determine clinical prophylaxis needs following puncture wounds or animal bites.",
+          "sub_id": "2a",
+          "topic_title": "Medical Records and Health History"
+        },
+        {
+          "fact": "Backcountry personal kits prioritize high-frequency trail injuries like friction blisters, ticks, and minor cuts.",
+          "misconception": "A personal hiking first aid kit must weigh several pounds and contain full hospital surgical instruments.",
+          "pamphlet_summary": "A hiking first aid kit includes sterile gauze, adhesive bandages, antiseptic towelettes, moleskin, and tweezers. Supplies must remain lightweight, waterproofed, and organized so contents are located quickly under trail conditions.",
+          "sub_id": "2b",
+          "topic_title": "Personal First Aid Kit Assembly"
+        }
+      ],
+      "topic_title": "Emergency Preparedness and Medical Records"
+    },
+    {
+      "fact": "Ice must never be applied directly onto open wounds or frozen tissues due to risk of cellular necrosis.",
+      "misconception": "Chemical burns should be left untouched until professional hazardous materials teams arrive with neutralizing acids.",
+      "pamphlet_excerpts": [
+        "Contusion Cold Therapy: Apply cold compresses wrapped in cloth to reduce subcutaneous capillary hemorrhage and swelling.",
+        "Thermal Scald Cooling: Cool thermal burns using clean running room temperature water instead of applying ice.",
+        "Chemical Irrigation Protocol: Brush away dry powders completely before flushing contaminated skin with copious clean water.",
+        "Tick Removal Technique: Grasp attached ticks against the skin with fine tweezers and pull steadily backward."
+      ],
+      "pamphlet_summary": "Closed wounds require cold application and compression to limit subcutaneous bleeding without causing tissue frostbite. Burns and environmental dermal injuries require immediate thermal cessation, flushing, and protective dry dressings.",
+      "req_id": "3",
+      "safety_callout": "Never touch a victim who is still in direct contact with a live electrical wire or circuit.",
+      "socratic_questions": [
+        "Why is copious water flushing preferred over neutralizing chemicals when treating corrosive skin exposure?",
+        "How do the cellular damage mechanisms differ between a thermal scald burn and deep frostbite?",
+        "What indicators differentiate a mild localized plant dermatitis from a spreading secondary systemic infection?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Source Removal: Remove the victim from the heat source chemical agent or environmental cold immediately.",
+        "Step 2 - Wound Cooling: Cool thermal burns with clean running water or apply cold packs to closed contusions.",
+        "Step 3 - Protective Dressing: Cover the damaged skin surface with a clean dry nonstick sterile dressing loosely.",
+        "Step 4 - Medical Escalation: Monitor systemic vital signs and transport the patient to professional clinical care promptly."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Applying a cold compress wrapped in a towel reduces internal swelling without freezing epidermal cells.",
+          "misconception": "Placing bare ice directly on a deep contusion accelerates healing of damaged muscle capillaries.",
+          "pamphlet_summary": "Contusions and hematomas result from blunt impact damaging capillaries while the overlying epidermis remains intact. Cold compresses applied for twenty minutes limit subcutaneous swelling and reduce localized pain.",
+          "sub_id": "3a",
+          "topic_title": "Contusion and Hematoma Management"
+        },
+        {
+          "fact": "Burned skin should be cooled using clean room temperature or cool running water rather than ice.",
+          "misconception": "Coating severe heat scalds with butter or petroleum ointment soothes damaged dermal tissue effectively.",
+          "pamphlet_summary": "Thermal burns range from superficial redness to full-thickness charring that destroys nerves and vascular beds. Responders cool thermal injuries with clean water and apply loose, dry, non-adherent sterile dressings.",
+          "sub_id": "3b",
+          "topic_title": "Thermal Burn Severity Care"
+        },
+        {
+          "fact": "Dry chemical powders must be brushed off skin completely before starting large volume water flushing.",
+          "misconception": "Pouring a chemical base over an acid burn safely neutralizes the substance on human skin.",
+          "pamphlet_summary": "Chemical burns require immediate dry powder removal followed by continuous irrigation with water for twenty minutes. Responders remove contaminated clothing during flushing to prevent prolonged caustic contact with underlying tissues.",
+          "sub_id": "3c",
+          "topic_title": "Chemical Exposure Decontamination"
+        },
+        {
+          "fact": "Electrical injuries frequently cause severe internal muscular and cardiac damage beneath intact entry marks.",
+          "misconception": "A person shocked by low voltage house wiring never requires medical evaluation if conscious.",
+          "pamphlet_summary": "Electrical currents cause internal tissue damage along conduction pathways and can disrupt normal cardiac rhythm. Responders must verify power de-energization before approaching, then evaluate for cardiac arrest and dual burn wounds.",
+          "sub_id": "3d",
+          "topic_title": "Electrical Burn Emergency Care"
+        },
+        {
+          "fact": "Sunburn damage occurs from ultraviolet radiation and requires cool compresses and systemic hydration.",
+          "misconception": "Scouts cannot develop severe sunburns when hiking outdoors under cloudy overcast mountain skies.",
+          "pamphlet_summary": "Sunburn results from ultraviolet radiation damaging the cellular layers of exposed skin. First aid focuses on cool moist compresses, oral rehydration, and avoiding popping protective epidermal blisters.",
+          "sub_id": "3e",
+          "topic_title": "Sunburn Treatment and Prevention"
+        },
+        {
+          "fact": "Corneal ultraviolet burns heal best when protected from light using dark patches or rest.",
+          "misconception": "Snow blindness creates permanent physical blindness immediately upon stepping onto sunny snowfields.",
+          "pamphlet_summary": "Snow blindness occurs when solar ultraviolet rays reflect off snowfields and inflame unprotected corneal tissues. Treatment requires resting the eyes in darkness, applying cool damp compresses, and using dark eye protection.",
+          "sub_id": "3f",
+          "topic_title": "Corneal Photokeratitis Management"
+        },
+        {
+          "fact": "Thawing frostbitten extremities must never be attempted if there is any danger of refreezing.",
+          "misconception": "Rubbing snow vigorously onto frozen fingers restores blood circulation and warms damaged tissue safely.",
+          "pamphlet_summary": "Cold injuries range from non-freezing immersion foot to deep ice crystallization within freezing tissue cells. Responders gently warm extremities with warm water baths only when subsequent refreezing can be prevented.",
+          "sub_id": "3g",
+          "topic_title": "Freezing and Nonfreezing Cold Injuries"
+        },
+        {
+          "fact": "Abrasions require gentle cleaning with drinkable water and mild soap to prevent bacterial infection.",
+          "misconception": "Leaving dirt particles inside road rash promotes faster scab formation and natural skin healing.",
+          "pamphlet_summary": "Abrasions and rope burns strip the protective outer epidermal layer, introducing dirt and foreign debris. First aid requires thorough irrigation using clean potable water, gentle drying, and protective antibiotic ointment dressings.",
+          "sub_id": "3h",
+          "topic_title": "Friction Abrasion Wound Care"
+        },
+        {
+          "fact": "Friction blisters should be cushioned with donut pads rather than intentionally popped on the trail.",
+          "misconception": "Puncturing every blister with an unsterilized needle relieves pressure and expedites backcountry travel.",
+          "pamphlet_summary": "Blisters develop when repetitive mechanical shear separates skin layers, filling the space with sterile fluid. Prevention relies on friction-reducing tape, while care involves donut-shaped moleskin padding to relieve direct pressure.",
+          "sub_id": "3i",
+          "topic_title": "Friction Blister Prevention Management"
+        },
+        {
+          "fact": "Deep puncture wounds carry substantial risk of anaerobic tetanus and must not be sealed tightly.",
+          "misconception": "Deep dirty puncture wounds heal best when immediately sealed with waterproof skin adhesives.",
+          "pamphlet_summary": "Punctures push bacteria and foreign matter deep into underlying tissues without creating open bleeding margins. Responders encourage slight bleeding, wash thoroughly with potable water, and refer the patient for tetanus evaluation.",
+          "sub_id": "3j",
+          "topic_title": "Puncture Wound First Aid"
+        },
+        {
+          "fact": "Urushiol oil from poisonous plants must be washed away using soap and cold running water.",
+          "misconception": "Poison ivy blister fluid spreads the allergic rash to other parts of your body.",
+          "pamphlet_summary": "Urushiol resin binds to skin proteins within minutes, triggering delayed hypersensitivity allergic contact dermatitis. Washing skin with soap within twenty minutes removes unbound oil, while calamine lotion relieves itching.",
+          "sub_id": "3k",
+          "topic_title": "Toxic Plant Dermatitis Treatment"
+        },
+        {
+          "fact": "Ticks must be removed using fine tipped tweezers grasping directly against the skin surface.",
+          "misconception": "Smothering an attached tick with petroleum jelly or burning it prompts safe head detachment.",
+          "pamphlet_summary": "Insect bites cause local histamine release, while ticks transmit pathogens such as Lyme disease spirochetes. Ticks are removed by pulling steadily backward with tweezers, followed by washing the site with soap.",
+          "sub_id": "3l",
+          "topic_title": "Arthropod Bite Management Protocols"
+        },
+        {
+          "fact": "Honeybee stingers should be scraped away promptly using a firm card to minimize venom delivery.",
+          "misconception": "Squeezing an embedded honeybee stinger with bare fingers prevents further venom sac emptying.",
+          "pamphlet_summary": "Hymenoptera stings inject venom that causes localized erythema, edema, and intense immediate burning pain. Responders scrape the retained stinger away, apply a cold pack, and monitor for systemic anaphylaxis.",
+          "sub_id": "3m",
+          "topic_title": "Hymenoptera Sting First Aid"
+        },
+        {
+          "fact": "Most North American spider bites cause minor localized swelling rather than catastrophic tissue death.",
+          "misconception": "Every spider bite requires deep surgical cutting and mechanical suction of underlying tissue venom.",
+          "pamphlet_summary": "Bites from black widow or brown recluse spiders cause neurotoxic or localized cytotoxic tissue reactions. Responders clean the bite site, apply cold packs, immobilize the extremity, and seek medical assessment.",
+          "sub_id": "3n",
+          "topic_title": "Arachnid Bite Clinical Assessment"
+        },
+        {
+          "fact": "Scorpion stings cause intense localized burning pain and require cooling rather than tourniquet constriction.",
+          "misconception": "Applying a tight venous tourniquet to an arm neutralizes dangerous desert scorpion venom.",
+          "pamphlet_summary": "Scorpion envenomation introduces neurotoxins that produce severe localized numbness, radiating pain, and hypersensitivity. First aid consists of washing the sting site, applying cold compresses, and monitoring pediatric vital signs.",
+          "sub_id": "3o",
+          "topic_title": "Scorpion Envenomation First Aid"
+        },
+        {
+          "fact": "Mammalian bites introduce high concentrations of oral bacteria requiring immediate irrigation and medical evaluation.",
+          "misconception": "A domestic dog bite requires no cleaning if the skin appears only slightly broken.",
+          "pamphlet_summary": "Mammalian and human bites introduce polymicrobial oral pathogens deep into soft tissues, creating high infection risk. Responders irrigate the wound thoroughly with potable water and seek evaluation for rabies and antibiotic therapy.",
+          "sub_id": "3p",
+          "topic_title": "Mammalian Bite Wound Care"
+        },
+        {
+          "fact": "Pit viper bites require resting the limb at heart level and avoiding all tourniquets.",
+          "misconception": "Cutting an X over snake fangs and sucking venom removes toxins from blood vessels.",
+          "pamphlet_summary": "Venomous snakebites cause severe localized swelling, ecchymosis, systemic coagulopathy, and intense radiating pain. Responders keep the patient calm and stationary, remove restrictive jewelry, and arrange urgent medical evacuation.",
+          "sub_id": "3q",
+          "topic_title": "Venomous Snakebite Emergency Protocol"
+        }
+      ],
+      "topic_title": "Closed Wounds and Environmental Injuries"
+    },
+    {
+      "fact": "Commercial windlass tourniquets applied high and tight provide the most effective control for limb exsanguination.",
+      "misconception": "Tying a tourniquet for severe arterial bleeding always causes permanent limb loss within minutes.",
+      "pamphlet_excerpts": [
+        "Direct Wound Compression: Maintain continuous manual pressure directly over bleeding lacerations using sterile gauze compress pads.",
+        "Anterior Epistaxis Care: Lean forward and pinch the soft lower nostrils firmly for ten continuous minutes.",
+        "Tourniquet Placement Standard: Place commercial windlass tourniquets two inches above severe limb bleeding if pressure fails.",
+        "Tourniquet Time Documentation: Write the exact time of tourniquet application directly on the white security band."
+      ],
+      "pamphlet_summary": "Direct pressure applied over a sterile dressing remains the primary intervention for minor and moderate hemorrhage. Arterial bleeding from extremities that fails to stop with pressure requires rapid commercial windlass tourniquet placement.",
+      "req_id": "4",
+      "safety_callout": "Always record the exact application time on a tourniquet band and never loosen it in the field.",
+      "socratic_questions": [
+        "Why is tilting the head backward dangerous when managing an active anterior nosebleed?",
+        "What anatomical characteristics distinguish pulsing bright red arterial bleeding from dark venous oozing?",
+        "Under what specific backcountry circumstances does direct manual pressure fail to control limb bleeding?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Barrier Protection: Put on medical examination gloves before initiating contact with any active bleeding site.",
+        "Step 2 - Direct Pressure: Apply firm continuous pressure directly over the wound using sterile gauze pads.",
+        "Step 3 - Pressure Bandage: Wrap an elastic or roller bandage snugly around the dressing to maintain compression.",
+        "Step 4 - Tourniquet Placement: Apply a commercial tourniquet two inches above severe bleeding if pressure dressings fail."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Pinching the soft nostrils while leaning forward prevents blood from draining into the stomach.",
+          "misconception": "Tilting the head back during a nosebleed stops bleeding by sending blood back inward.",
+          "pamphlet_summary": "Epistaxis commonly originates from ruptured capillaries along the anterior nasal septum. Patients should sit upright, lean forward, and pinch the soft lower nostrils continuously for ten minutes.",
+          "sub_id": "4a",
+          "topic_title": "Epistaxis and Nosebleed Management"
+        },
+        {
+          "fact": "Minor lacerations require thorough washing with drinking water before applying sterile adhesive bandages.",
+          "misconception": "Pouring pure hydrogen peroxide into scrapes promotes superior tissue regeneration without cellular damage.",
+          "pamphlet_summary": "Minor scratches and shallow lacerations present minimal blood loss but require cleaning to prevent infection. First aid includes irrigating with potable water, applying direct pressure, and placing a sterile adhesive dressing.",
+          "sub_id": "4b",
+          "topic_title": "Minor Laceration and Abrasion Care"
+        },
+        {
+          "fact": "Severe arterial hemorrhage demands continuous direct pressure with packed gauze to promote clotting.",
+          "misconception": "Lifting a soaked gauze pad repeatedly to inspect clotting speeds up natural physiological hemostasis.",
+          "pamphlet_summary": "Deep extremity lacerations can sever major arteries and veins, producing life-threatening rapid blood volume loss. Responders maintain uninterrupted direct pressure with sterile dressings and prepare for immediate tourniquet application.",
+          "sub_id": "4c",
+          "topic_title": "Severe Hemorrhage Pressure Hemostasis"
+        },
+        {
+          "fact": "Tourniquets save lives during uncontrolled arterial extremity bleeding and must never be released prematurely.",
+          "misconception": "Improvised wire tourniquets are safer for controlling bleeding than purpose-built commercial windlass devices.",
+          "pamphlet_summary": "A commercial tourniquet is indicated when direct pressure cannot control catastrophic limb hemorrhage. Responders tighten the windlass until bleeding stops, write the time on the device, and maintain continuous monitoring.",
+          "sub_id": "4d",
+          "topic_title": "Tourniquet Application and Indications"
+        }
+      ],
+      "topic_title": "Hemorrhage Control and Bleeding Wounds"
+    },
+    {
+      "fact": "Anaphylaxis requires immediate epinephrine auto-injector administration followed by emergency services notification.",
+      "misconception": "Giving a glass of water helps a choking victim clear an occluded upper trachea.",
+      "pamphlet_excerpts": [
+        "Foreign Body Relief: Deliver five back blows followed by five inward upward abdominal thrusts for choking.",
+        "Bronchospasm Rescue Therapy: Assist an asthmatic patient in inhaling their prescribed bronchodilator medication while seated upright.",
+        "Anaphylaxis Epinephrine Administration: Inject epinephrine into the outer thigh immediately when systemic allergic airway compromise occurs.",
+        "Altitude Sickness Management: Descend to lower elevations immediately whenever acute mountain sickness symptoms worsen along trails."
+      ],
+      "pamphlet_summary": "Breathing emergencies compromise oxygen delivery through airway obstruction, bronchospasm, or alveolar gas exchange impairment. Responders must recognize respiratory distress early and provide foreign body clearing, prescribed inhalers, or epinephrine.",
+      "req_id": "5",
+      "safety_callout": "Do not perform a blind finger sweep in a choking victim mouth because it can impact objects.",
+      "socratic_questions": [
+        "How do back blows and abdominal thrusts work together to clear an obstructed airway?",
+        "Why must an epinephrine injection be followed immediately by a call to emergency dispatch?",
+        "What atmospheric change at high elevation causes hypoxia, and how do you treat altitude illness?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Obstruction Verification: Ask the choking victim if they can speak cough or breathe before intervening.",
+        "Step 2 - Physical Maneuvers: Deliver five back blows followed by five inward upward abdominal thrusts repeatedly.",
+        "Step 3 - Medication Assistance: Help an asthmatic patient locate and inhale their prescribed rescue bronchodilator medicine.",
+        "Step 4 - Epinephrine Administration: Inject an epinephrine auto-injector into the anterolateral thigh for signs of anaphylaxis."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Severe choking with silent inability to speak requires alternating back blows and abdominal thrusts.",
+          "misconception": "Slapping a coughing victim forcefully on the back is necessary when they can speak.",
+          "pamphlet_summary": "Complete airway obstruction prevents vocalization, coughing, and ventilation, producing rapid asphyxiation. Responders deliver alternating series of five back blows and five abdominal thrusts until the object expels.",
+          "sub_id": "5a",
+          "topic_title": "Foreign Body Airway Obstruction"
+        },
+        {
+          "fact": "Assisting a patient with their prescribed albuterol inhaler relaxes constricted bronchial smooth muscles.",
+          "misconception": "Forcing an asthmatic person to lie flat on their back opens restricted bronchial airways.",
+          "pamphlet_summary": "Asthma triggers bronchial inflammation, mucosal edema, and smooth muscle spasms that severely restrict exhalation. First aid involves keeping the patient seated upright, assisting with prescribed inhalers, and maintaining calm reassurance.",
+          "sub_id": "5b",
+          "topic_title": "Acute Asthma Bronchospasm Care"
+        },
+        {
+          "fact": "Epinephrine acts directly on alpha and beta adrenergic receptors to reverse severe systemic anaphylaxis.",
+          "misconception": "Oral antihistamines alone work rapidly enough to reverse airway closing during severe systemic anaphylaxis.",
+          "pamphlet_summary": "Anaphylaxis is a life-threatening systemic hypersensitivity reaction causing airway edema, wheezing, and profound vascular hypotension. The immediate treatment is an intramuscular injection of epinephrine into the outer mid-thigh.",
+          "sub_id": "5c",
+          "topic_title": "Systemic Anaphylactic Shock Management"
+        },
+        {
+          "fact": "Inhalation of smoke and toxic gases requires rapid evacuation to fresh air before treatment.",
+          "misconception": "Entering a smoke-filled room without a respirator is safe if you cover your mouth.",
+          "pamphlet_summary": "Inhalation of hot smoke, carbon monoxide, or toxic chemical vapors causes airway burns and hypoxia. Responders remove the patient to fresh air without endangering themselves and monitor respiratory stability closely.",
+          "sub_id": "5d",
+          "topic_title": "Toxic Inhalation Respiratory Injury"
+        },
+        {
+          "fact": "The only definitive first aid treatment for acute mountain sickness is immediate descent.",
+          "misconception": "Drinking extra coffee provides effective medical treatment for developing high altitude pulmonary edema.",
+          "pamphlet_summary": "Ascending to high elevations reduces barometric pressure, decreasing oxygen availability and causing acute altitude sickness. Symptoms include headache, nausea, and ataxia, requiring immediate cessation of ascent or prompt lower-altitude descent.",
+          "sub_id": "5e",
+          "topic_title": "High Altitude Illness Management"
+        }
+      ],
+      "topic_title": "Respiratory Emergencies and Airway Clearance"
+    },
+    {
+      "fact": "Placing an unconscious breathing person in the recovery position prevents tongue obstruction and aspiration.",
+      "misconception": "Placing a spoon into a seizing patient mouth prevents them from swallowing their tongue.",
+      "pamphlet_excerpts": [
+        "Recovery Position Alignment: Roll unconscious breathing patients onto their sides to prevent tongue obstruction and aspiration.",
+        "Hypoglycemic Glucose Administration: Administer fast acting oral carbohydrates to conscious diabetics exhibiting tremors confusion and diaphoresis.",
+        "Seizure Environmental Protection: Clear hard objects from the surrounding area and cushion the head during convulsions.",
+        "Opioid Reversal Intervention: Administer intranasal naloxone promptly to restore spontaneous respiration during suspected narcotic overdose emergencies."
+      ],
+      "pamphlet_summary": "Unconsciousness stems from neurological disruptions, metabolic imbalances, intoxication, or severe environmental and electrical trauma. First aid focuses on maintaining a clear airway, protecting from secondary impact, and identifying reversible causes.",
+      "req_id": "6",
+      "safety_callout": "Do not restrain a seizing individual or place any objects inside their mouth during convulsions.",
+      "socratic_questions": [
+        "Why is protecting the head preferred over restraining bodily movements while a person experiences convulsions?",
+        "How does voluntary hyperventilation prior to underwater swimming cause shallow water blackout?",
+        "What physiological mechanism causes sudden cardiovascular collapse upon plunging into freezing alpine lake water?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Airway Verification: Verify that the unconscious individual is breathing normally and has a clear airway.",
+        "Step 2 - Recovery Position: Roll an uninjured breathing victim onto their side into the stable recovery position.",
+        "Step 3 - Environmental Protection: Clear away hard furniture sharp rocks or hazardous objects from around seizing individuals.",
+        "Step 4 - Emergency Notification: Call nine one one immediately and monitor breathing until professional medical responders arrive."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Fainting involves temporary cerebral hypoperfusion that typically resolves quickly once the patient lies flat.",
+          "misconception": "Splashing cold water on a fainting victim face is necessary to restore conscious neurological function.",
+          "pamphlet_summary": "Syncope occurs when transient reduction of blood flow to the brain causes sudden, brief loss of consciousness. Responders position the patient supine, loosen constrictive clothing, and ensure normal breathing returns promptly.",
+          "sub_id": "6a",
+          "topic_title": "Syncope and Fainting Management"
+        },
+        {
+          "fact": "Conscious diabetics experiencing hypoglycemia should be given fast-acting oral carbohydrates like fruit juice.",
+          "misconception": "An unconscious diabetic individual should be forced to swallow granulated sugar or soda immediately.",
+          "pamphlet_summary": "Hypoglycemia develops when blood glucose drops below normal levels, causing confusion, diaphoresis, and eventual unconsciousness. Conscious patients receive oral glucose or sweet juice, while unconscious individuals require urgent nine one one dispatch.",
+          "sub_id": "6b",
+          "topic_title": "Diabetic Hypoglycemic Emergency Care"
+        },
+        {
+          "fact": "Seizure first aid focuses on cushioning the head and timing the active convulsive phase.",
+          "misconception": "Holding down a seizing person arms and legs prevents dangerous bodily injury during convulsions.",
+          "pamphlet_summary": "Seizures result from abnormal electrical activity in the brain, causing sudden motor convulsions and altered awareness. First aid requires clearing nearby hazards, cushioning the head, and placing the patient in recovery position afterward.",
+          "sub_id": "6c",
+          "topic_title": "Epileptic Seizure Supportive Care"
+        },
+        {
+          "fact": "Naloxone administration reverses opioid respiratory depression without causing harm if opioids are absent.",
+          "misconception": "Walking an overdose victim around outdoors or giving them black coffee restores respiratory drive.",
+          "pamphlet_summary": "Overdose from opioids or toxic alcohol levels depresses the central nervous system, leading to respiratory arrest. Responders administer nasal naloxone for suspected opioids, maintain an open airway, and monitor chest rise.",
+          "sub_id": "6d",
+          "topic_title": "Substance Overdose Emergency Response"
+        },
+        {
+          "fact": "Hyperventilating before underwater breath holding suppresses the carbon dioxide reflex that triggers breathing.",
+          "misconception": "Hyperventilating before swimming underwater increases blood oxygen saturation far above normal human levels.",
+          "pamphlet_summary": "Underwater hypoxic blackout occurs when swimmers deliberately hyperventilate, driving carbon dioxide levels down without increasing oxygen. The brain loses consciousness from hypoxia before carbon dioxide builds up sufficiently to stimulate breathing.",
+          "sub_id": "6e",
+          "topic_title": "Hypoxic Underwater Blackout Prevention"
+        },
+        {
+          "fact": "Cold shock initiates an involuntary gasp reflex that can cause immediate massive water aspiration.",
+          "misconception": "Swimming vigorously immediately after plunging into freezing water prevents hypothermia and cold incapacitation.",
+          "pamphlet_summary": "Sudden immersion in cold water triggers rapid hyperventilation, cardiac strain, and early muscular incapacitation. First aid involves prompt extrication from water, removing wet clothing, gentle rewarming, and treating for near drowning.",
+          "sub_id": "6f",
+          "topic_title": "Cold Water Shock Drowning"
+        },
+        {
+          "fact": "Lightning strike victims do not retain an electrical charge and are safe to touch immediately.",
+          "misconception": "Touching a person struck by lightning transfers dangerous residual electrical charge to the rescuer.",
+          "pamphlet_summary": "Lightning strikes deliver massive electrical energy that causes cardiac arrest, cutaneous flash burns, and blunt trauma. Responders immediately perform CPR on pulseless non-breathing victims, as cardiac standstill can be reversed.",
+          "sub_id": "6g",
+          "topic_title": "Lightning Strike Trauma Response"
+        }
+      ],
+      "topic_title": "Loss of Consciousness Management"
+    },
+    {
+      "fact": "Aspirin should be chewed by conscious heart attack patients unless they have documented allergy.",
+      "misconception": "A heart attack and cardiac arrest are medically identical terms describing the exact same event.",
+      "pamphlet_excerpts": [
+        "Coronary Ischemia Recognition: Recognize retrosternal chest pressure radiating to the jaw neck back or left arm.",
+        "Aspirin Antiplatelet Administration: Encourage conscious heart attack patients to chew one adult aspirin to inhibit clotting.",
+        "CPR Compression Metrics: Deliver continuous chest compressions at two inches depth and one hundred beats speed.",
+        "Automated Defibrillation Sequence: Attach adhesive electrode pads to bare dry skin and follow automated audible prompts."
+      ],
+      "pamphlet_summary": "A heart attack occurs when coronary artery blood flow is blocked, causing ischemic myocardial muscle damage. Recognizing symptoms such as retrosternal crushing pain, nausea, and shortness of breath allows prompt life-saving intervention.",
+      "req_id": "7",
+      "safety_callout": "Ensure nobody is touching the patient when an automated external defibrillator delivers an electrical shock.",
+      "socratic_questions": [
+        "How does a blockage in coronary arteries lead to myocardial infarction and potential cardiac arrest?",
+        "Why is the compression rate of one hundred to one hundred twenty per minute critical during CPR?",
+        "How does an automated external defibrillator identify and treat ventricular fibrillation in pulseless victims?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Emergency Dispatch: Recognize heart attack symptoms and immediately instruct a bystander to call nine one one.",
+        "Step 2 - Comfort Positioning: Place the conscious patient in a comfortable seated position leaning against a firm wall.",
+        "Step 3 - Aspirin Administration: Encourage the conscious non-allergic patient to chew one adult or two low-dose aspirins.",
+        "Step 4 - AED Readiness: Position an automated external defibrillator beside the patient in case cardiac arrest occurs."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "A heart attack involves myocardial tissue death resulting from inadequate arterial coronary blood flow.",
+          "misconception": "A heart attack only happens when the heart stops beating completely inside the chest.",
+          "pamphlet_summary": "A myocardial infarction happens when atherosclerotic plaque rupture or a blood clot obstructs a coronary artery. Deprived of oxygenated blood, heart muscle cells rapidly experience ischemic damage and begin dying.",
+          "sub_id": "7a",
+          "topic_title": "Myocardial Infarction Biological Mechanism"
+        },
+        {
+          "fact": "Classic symptoms include substernal chest pressure, radiating arm or jaw pain, diaphoresis, and dyspnea.",
+          "misconception": "Heart attack pain always presents as sharp, localized left-sided chest pain that stabs intermittently.",
+          "pamphlet_summary": "Signs include crushing chest tightness radiating to the jaw, neck, back, or left arm, accompanied by sweating. First aid requires calling nine one one, keeping the patient calm, and administering chewable aspirin.",
+          "sub_id": "7b",
+          "topic_title": "Heart Attack Symptom Recognition"
+        },
+        {
+          "fact": "Cardiopulmonary resuscitation is performed exclusively on individuals who are unresponsive with absent or abnormal breathing.",
+          "misconception": "CPR should be started on anyone who feels dizzy or faints while remaining responsive.",
+          "pamphlet_summary": "CPR is indicated solely when an individual is completely unresponsive and exhibits absent or abnormal agonal breathing. Responders quickly verify lack of responsiveness and inadequate breathing before starting chest compressions without delay.",
+          "sub_id": "7c",
+          "topic_title": "Cardiac Arrest Verification Conditions"
+        },
+        {
+          "fact": "Effective CPR requires compressions at a depth of two inches and complete chest recoil.",
+          "misconception": "Soft shallow chest compressions are sufficient to circulate oxygenated blood during adult cardiac arrest.",
+          "pamphlet_summary": "High-quality CPR maintains an adult compression depth of two to two point four inches at continuous speed. Responders perform thirty chest compressions followed by two ventilations, allowing full chest wall recoil between compressions.",
+          "sub_id": "7d",
+          "topic_title": "Cardiopulmonary Resuscitation Technique Standards"
+        },
+        {
+          "fact": "Defibrillators deliver an electrical shock to reset chaotic ventricular fibrillation into coordinated rhythm.",
+          "misconception": "An automated external defibrillator will shock a healthy beating heart if pads are attached.",
+          "pamphlet_summary": "An AED analyzes heart rhythms to detect shockable ventricular fibrillation and pulseless ventricular tachycardia dysrhythmias. Defibrillation momentarily stops chaotic electrical activity, allowing the heart natural pacemaker to reestablish an organized rhythm.",
+          "sub_id": "7e",
+          "topic_title": "Automated External Defibrillator Function"
+        },
+        {
+          "fact": "Voice prompts on automated defibrillators guide responders through electrode pad placement and rhythm analysis.",
+          "misconception": "Responders must manually diagnose electrocardiogram waveforms on screen before triggering an AED shock.",
+          "pamphlet_summary": "Operating an AED involves powering the unit, attaching adhesive pads to bare skin, and following audible prompts. Responders stand clear during rhythm analysis and shock delivery, resuming chest compressions immediately after every discharge.",
+          "sub_id": "7f",
+          "topic_title": "AED Operational Demonstration Steps"
+        },
+        {
+          "fact": "Public access defibrillators are situated in visible wall cabinets near main building entryways and gyms.",
+          "misconception": "AED devices are kept exclusively inside locked hospital pharmacy rooms and private physician offices.",
+          "pamphlet_summary": "AED units are mounted in high-traffic public locations including community schools, athletic centers, and transit stations. Visible signage identifies wall-mounted cabinets containing units equipped with adult and pediatric electrode pads.",
+          "sub_id": "7g",
+          "topic_title": "Public Access Defibrillator Locations"
+        }
+      ],
+      "topic_title": "Myocardial Infarction and Defibrillation"
+    },
+    {
+      "fact": "Compound fractures penetrate through overlying skin and require sterile dressing coverage before rigid splint stabilization.",
+      "misconception": "Dislocated joints should be forcefully popped back into their anatomical sockets on the trail.",
+      "pamphlet_excerpts": [
+        "Musculoskeletal Injury Differentiation: Differentiate ligament sprains from muscle strains and joint dislocations from long bone fractures.",
+        "Neurovascular Status Verification: Check distal pulses capillary refill temperature and tactile sensation before and after splinting.",
+        "Sling Swathe Immobilization: Support the forearm with an arm sling and bind the arm against torso.",
+        "Adjacent Joint Stabilization: Immobilize the joints immediately above and below a suspected long bone fracture site."
+      ],
+      "pamphlet_summary": "Musculoskeletal trauma involves stretching, tearing, or fracturing of bones, ligaments, tendons, and surrounding joint capsules. Splinting stabilizes damaged structures in the position found, immobilizing both the joint above and below.",
+      "req_id": "8",
+      "safety_callout": "Always check distal circulation sensation and motor function before and after applying any splint or bandage.",
+      "socratic_questions": [
+        "What anatomical differences distinguish a ligament sprain from a muscular or tendinous strain?",
+        "Why must a splint immobilize both the joint above and the joint below a suspected bone fracture?",
+        "How do you verify that an elastic wrap has not compromised circulation to a sprained foot?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Neurovascular Check: Check distal pulse capillary refill temperature and neurological sensation in the injured limb.",
+        "Step 2 - Gentle Support: Support the injured extremity gently in the position found without attempting bone realignment.",
+        "Step 3 - Splint Application: Secure a rigid or padded splint across the injury immobilizing adjacent joints securely.",
+        "Step 4 - Bandage Monitoring: Recheck distal pulses and finger or toe sensation to verify that bandages remain nonconstrictive."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Sprains injure joint ligaments while strains involve stretched or torn muscle fibers and tendons.",
+          "misconception": "The terms sprain and strain are identical words describing the exact same joint injury.",
+          "pamphlet_summary": "Strains damage muscles or connecting tendons, whereas sprains stretch or rupture stabilizing fibrous joint ligaments. Fractures represent cracked or broken bones, while dislocations occur when bones displace entirely from normal joint articulations.",
+          "sub_id": "8a",
+          "topic_title": "Musculoskeletal Injury Classification Comparison"
+        },
+        {
+          "fact": "Acute muscle strains benefit from rest, cold compression wraps, elevation, and avoiding forceful stretching.",
+          "misconception": "Aggressively massaging a torn hamstring immediately after injury accelerates muscle fiber reconnection and repair.",
+          "pamphlet_summary": "Muscle strains and tendon ruptures produce localized tenderness, weakness, swelling, and palpable structural defects. Initial care utilizes rest, ice packs wrapped in cloth, mild compression, and elevation to limit internal hemorrhage.",
+          "sub_id": "8b",
+          "topic_title": "Muscle Strain and Rupture Care"
+        },
+        {
+          "fact": "Fractures and dislocations risk severing adjacent neurovascular bundles and compromising distal limb perfusion.",
+          "misconception": "A broken arm causes significant complications only if bone ends pierce through the skin.",
+          "pamphlet_summary": "Sprains, fractures, and dislocations produce acute pain, swelling, ecchymosis, and loss of normal joint function. Complications include neurovascular impingement, permanent articular cartilage degradation, chronic joint instability, and secondary tissue necrosis.",
+          "sub_id": "8c",
+          "topic_title": "Fracture and Dislocation Complications"
+        },
+        {
+          "fact": "Sling and swathe bandages immobilize the clavicle and humerus by binding the arm against the torso.",
+          "misconception": "An arm sling should hang loosely so the forearm dangles well below the waistline.",
+          "pamphlet_summary": "Arm slings support the forearm while a swathe binds the extremity against the chest to immobilize shoulder bones. Cravat bandages and figure-eight elastic wraps support sprained ankles and knees without creating arterial occlusion.",
+          "sub_id": "8d",
+          "topic_title": "Orthopedic Bandaging and Sling Application"
+        },
+        {
+          "fact": "Splints must immobilize the joints immediately proximal and distal to a suspected long-bone fracture.",
+          "misconception": "Straightening an angulated broken leg by pulling hard is required before applying a splint.",
+          "pamphlet_summary": "Splinting suspected fractures stabilizes broken bone ends, preventing secondary nerve injury, blood vessel laceration, and pain. Responders pad rigid splints, secure them with ties, and continuously monitor distal pulses and capillary refill.",
+          "sub_id": "8e",
+          "topic_title": "Extremity Fracture Splinting Procedures"
+        }
+      ],
+      "topic_title": "Musculoskeletal Trauma and Splinting Techniques"
+    },
+    {
+      "fact": "Suspected spinal trauma requires manual inline stabilization to prevent catastrophic permanent spinal cord transection.",
+      "misconception": "A concussion is only dangerous if the athlete loses consciousness completely following head impact.",
+      "pamphlet_excerpts": [
+        "Spinal Alignment Preservation: Hold the head and neck in neutral alignment without moving cervical vertebrae.",
+        "Trauma Airway Technique: Use the jaw thrust maneuver without head tilt to open airways during trauma.",
+        "Scalp Laceration Dressing: Apply sterile dressings with triangular bandages without pressing inward on depressed cranial fractures.",
+        "Concussion Rest Protocol: Remove athletes showing dizziness confusion or photophobia from activity for complete physical rest."
+      ],
+      "pamphlet_summary": "Trauma to the head, neck, and back can damage neural pathways, resulting in paralysis, respiratory arrest, or death. Management prioritizes manual cervical spine stabilization, maintaining an open airway, and identifying subtle concussion symptoms.",
+      "req_id": "9",
+      "safety_callout": "Never move a suspected spinal injury patient neck or back to improve their sleeping position.",
+      "socratic_questions": [
+        "Why can moving the head of a patient with cervical trauma cause permanent bodily paralysis?",
+        "What observable neurological symptoms indicate that a concussed Scout must not return to physical activities?",
+        "How do you apply pressure to a bleeding scalp laceration without depressing underlying skull fractures?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Manual Stabilization: Place your hands on both sides of the head to prevent neck movement.",
+        "Step 2 - Airway Evaluation: Open the airway using the jaw-thrust maneuver without tilting the cervical neck backward.",
+        "Step 3 - Scalp Wound Dressing: Place a sterile dressing over scalp wounds applying light pressure around bone edges.",
+        "Step 4 - Concussion Monitoring: Assess pupil equality orientation to time and place and observe for persistent nausea."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Cervical spine injuries can sever the spinal cord, permanently terminating breathing drive and limb motor function.",
+          "misconception": "Patients with broken neck vertebrae can always walk around normally without experiencing any discomfort.",
+          "pamphlet_summary": "Head injuries frequently accompany cervical spine trauma due to violent forces transmitted through the neck. Possible complications include permanent quadriplegia, intracranial hemorrhage, neurological deficit, and fatal central respiratory depression.",
+          "sub_id": "9a",
+          "topic_title": "Spinal Cord Injury Pathophysiology"
+        },
+        {
+          "fact": "Concussions produce physical, cognitive, and emotional symptoms requiring immediate complete rest from sports.",
+          "misconception": "An athlete diagnosed with a mild concussion may safely reenter competitive sports the same afternoon.",
+          "pamphlet_summary": "A concussion represents a traumatic brain injury that temporarily disrupts normal cerebral neurological functioning. Symptoms include headache, confusion, dizziness, photophobia, and nausea, demanding complete cognitive and physical rest.",
+          "sub_id": "9b",
+          "topic_title": "Concussion Symptoms and Assessment"
+        },
+        {
+          "fact": "Triangular bandages secure scalp dressings smoothly without exerting focused inward pressure on cranial fractures.",
+          "misconception": "Scalp lacerations bleed minimally and should be left uncovered to dry in open air.",
+          "pamphlet_summary": "Scalp lacerations bleed profusely due to high vascularity within the dense subcutaneous cranial layers. Responders apply sterile dressings secured by triangular bandages folded as broad cravats or full cranial caps.",
+          "sub_id": "9c",
+          "topic_title": "Open Cranial Wound Bandaging"
+        },
+        {
+          "fact": "First aid for spinal trauma centers on keeping the head, neck, and torso aligned motionless.",
+          "misconception": "Rolling a patient with suspected spinal injuries onto their stomach relieves pressure on vertebrae.",
+          "pamphlet_summary": "First aid for suspected spinal injury requires holding the head and neck aligned manually in neutral position. Responders reassure the patient, instruct them to remain completely still, and summon emergency medical services.",
+          "sub_id": "9d",
+          "topic_title": "Spinal Trauma Immobilization Management"
+        }
+      ],
+      "topic_title": "Head and Spinal Cord Trauma"
+    },
+    {
+      "fact": "An injured person should only be moved if there is immediate, life-threatening environmental danger.",
+      "misconception": "Rescuers should always immediately carry an injured hiker back to the trailhead before splinting.",
+      "pamphlet_excerpts": [
+        "Patient Relocation Indications: Move injured persons only when immediate environmental hazards threaten imminent loss of life.",
+        "Transport Method Selection: Select transport techniques based on rescuer physical strength patient weight and terrain difficulty.",
+        "Low Smoke Extraction: Crawl beneath rising toxic smoke layers using a blanket drag to extract victims.",
+        "Improvised Litter Testing: Test improvised pole and jacket stretchers with uninjured weight before carrying injured casualties."
+      ],
+      "pamphlet_summary": "Unnecessary movement of injured patients risks converting closed fractures into compound injuries or aggravating spinal trauma. Transport is justified only when immediate environmental hazards threaten survival or when coordinating wilderness rescue.",
+      "req_id": "10",
+      "safety_callout": "Always lift using your leg muscles while keeping your back straight to prevent spinal injury.",
+      "socratic_questions": [
+        "Under what emergency circumstances must you move an injured person before completing full stabilization?",
+        "Why does moving an individual from a smoke-filled room require staying low along the floor?",
+        "How do rescuer teams maintain patient spinal alignment when transferring someone onto a stretcher?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Hazard Assessment: Assess the scene to determine whether immediate physical threats necessitate urgent patient movement.",
+        "Step 2 - Method Selection: Select a transport technique appropriate for patient injuries rescuer numbers and local terrain.",
+        "Step 3 - Rescuer Command: Coordinate all lifters under a single designated leader who counts before movement.",
+        "Step 4 - Smooth Transport: Carry the patient smoothly while constantly monitoring their airway breathing and spinal stability."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Patients must remain stationary unless immediate environmental hazards like fire or rising water threaten life.",
+          "misconception": "Any injured person lying on cold ground must be picked up and relocated immediately.",
+          "pamphlet_summary": "Injured individuals should not be moved until emergency responders arrive and injuries are stabilized. Movement is indicated exclusively when impending hazards such as fire, flooding, or rockfalls threaten life.",
+          "sub_id": "10a",
+          "topic_title": "Patient Movement Conditions and Criteria"
+        },
+        {
+          "fact": "Transport methods depend upon rescuer strength, terrain difficulty, available equipment, and specific patient injuries.",
+          "misconception": "A single rescuer should attempt a fireman carry across rough rocky mountain terrain alone.",
+          "pamphlet_summary": "Selecting transport methods requires evaluating rescuer capabilities, patient injuries, path distances, and available materials. Techniques range from one-person ankle pulls across smooth floors to two-person seat carries over trails.",
+          "sub_id": "10b",
+          "topic_title": "Transport Method Decision Guidelines"
+        },
+        {
+          "fact": "Responders crawl low beneath smoke, pulling the patient by their clothing or a blanket drag.",
+          "misconception": "Rescuers in smoke-filled buildings should stand fully erect to carry victims quickly in arms.",
+          "pamphlet_summary": "Smoke inhalation and heated toxic gases rise toward ceilings, making floor-level air significantly safer. Responders crawl low beneath smoke layers, utilizing a shirt drag or blanket carry to extract victims.",
+          "sub_id": "10c",
+          "topic_title": "Smoke Evacuation Drag Techniques"
+        },
+        {
+          "fact": "A two-person walking assist allows an ankle-injured victim to walk while distributing weight across responders.",
+          "misconception": "A person with a sprained ankle should be forced to hop unsupported across rough terrain.",
+          "pamphlet_summary": "Transferring a patient with lower limb injuries requires offloading weight from the affected joint. Two rescuers position themselves on either side of the patient, providing walking support or a two-handed seat.",
+          "sub_id": "10d",
+          "topic_title": "Assisted Ambulation Extremity Transport"
+        },
+        {
+          "fact": "Improvised stretchers made from poles and jackets require thorough weight testing before loading an injured person.",
+          "misconception": "Buttoning coats over poles creates a stretcher that never requires testing before patient placement.",
+          "pamphlet_summary": "Improvised litters are constructed using sturdy poles slid through inverted heavy jacket sleeves or wrapped blankets. Rescuers must test the improvised stretcher with an uninjured person before transporting a heavy patient.",
+          "sub_id": "10e",
+          "topic_title": "Improvised Stretcher Construction Protocols"
+        }
+      ],
+      "topic_title": "Emergency Patient Transport and Movement"
+    },
+    {
+      "fact": "Heatstroke is a life-threatening emergency marked by mental status changes and dangerously elevated body temperature.",
+      "misconception": "Giving salt tablets to a severely dehydrated hiker rapidly cures heat exhaustion on the trail.",
+      "pamphlet_excerpts": [
+        "Heatstroke Emergency Cooling: Immerse heatstroke victims in cold water baths immediately to lower core body temperature.",
+        "Hyponatremia Prevention Rule: Balance plain drinking water consumption with salty snacks during strenuous endurance mountain backpacking.",
+        "Cold Induced Angina: Stop physical exertion and warm the patient upon developing chest pressure during snowstorms.",
+        "Accidental Hypothermia Insulation: Wrap hypothermic patients in dry sleeping bags and windproof tarps avoiding rough movement."
+      ],
+      "pamphlet_summary": "Thermal illness stems from the body inability to balance metabolic heat production with environmental heat exchange. Interventions range from rapid active water immersion for heatstroke to warm sweetened hydration for mild hypothermia.",
+      "req_id": "11",
+      "safety_callout": "Immerse heatstroke victims in cold water immediately, as delaying cooling leads to fatal brain damage.",
+      "socratic_questions": [
+        "What specific physiological indicator differentiates dangerous heatstroke from common heat exhaustion?",
+        "Why does drinking excessive plain water without electrolytes cause hazardous hyponatremia during endurance hiking?",
+        "Why should a severely hypothermic individual be handled with extreme gentleness during field warming?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Environmental Relocation: Move the patient out of direct sunlight or freezing wind into shelter immediately.",
+        "Step 2 - Heatstroke Cooling: Immerse heatstroke patients in cold water or apply wet cloths to neck and armpits.",
+        "Step 3 - Hypothermia Insulation: Remove wet garments and wrap a hypothermic patient in dry sleeping bags and tarps.",
+        "Step 4 - Vital Monitoring: Monitor mental status respiration and summon immediate professional evacuation for severe thermal illness."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Overhydration dilutes serum sodium levels, causing hyponatremia, cerebral edema, confusion, and potential seizures.",
+          "misconception": "Thirst is the only indicator of hydration, and drinking unlimited plain water is always healthy.",
+          "pamphlet_summary": "Dehydration reduces blood volume and impairs sweating, whereas over-hydration dilutes vital blood electrolytes causing cerebral edema. Prevention involves monitoring urine color and balancing water intake with electrolyte-containing foods during sustained exertion.",
+          "sub_id": "11a",
+          "topic_title": "Fluid Balance and Hyponatremia"
+        },
+        {
+          "fact": "Heat cramps resolve with rest, gentle muscle stretching, and sipping balanced electrolyte solutions.",
+          "misconception": "Vigorously kneading a cramping calf muscle immediately releases underlying sodium electrolyte deficiency spasms.",
+          "pamphlet_summary": "Heat cramps are painful, involuntary muscle spasms occurring during heavy physical labor in warm environments. First aid includes resting in shade, gently stretching affected muscles, and consuming fluids containing balanced electrolytes.",
+          "sub_id": "11b",
+          "topic_title": "Exercise-Induced Heat Cramp Care"
+        },
+        {
+          "fact": "Heat exhaustion presents with profuse sweating, pale clammy skin, headache, dizziness, and mild nausea.",
+          "misconception": "A person with heat exhaustion always has dry skin and high fevers above critical thresholds.",
+          "pamphlet_summary": "Heat exhaustion develops when heavy perspiration depletes body fluids and salts without adequate replacement. Signs include pale, cool, clammy skin, fatigue, and normal mental status, managed by shade and fan cooling.",
+          "sub_id": "11c",
+          "topic_title": "Heat Exhaustion Clinical Management"
+        },
+        {
+          "fact": "Heatstroke damages vital organs rapidly and requires immediate aggressive cold water whole-body immersion.",
+          "misconception": "Waiting for an ambulance to arrive before starting cooling is acceptable for heatstroke victims.",
+          "pamphlet_summary": "Heatstroke occurs when thermoregulatory mechanisms fail, elevating core temperature above one hundred four degrees Fahrenheit. Manifestations include altered mental state, confusion, coma, and demands urgent whole-body immersion in ice water.",
+          "sub_id": "11d",
+          "topic_title": "Exertional Heatstroke Emergency Interventions"
+        },
+        {
+          "fact": "Cold temperatures cause coronary vasoconstriction, increasing cardiac workload and precipitating acute angina pectoris.",
+          "misconception": "Chest pain experienced while shoveling snow in freezing temperatures is simply pulled chest muscles.",
+          "pamphlet_summary": "Cold exposure increases peripheral vascular resistance and cardiac oxygen demand, triggering ischemic myocardial chest pain. First aid requires immediately stopping exertion, moving indoors to warmth, and dialing nine one one.",
+          "sub_id": "11e",
+          "topic_title": "Cold-Induced Angina Pectoris Assessment"
+        },
+        {
+          "fact": "Hypothermia depresses core temperature below ninety-five degrees, requiring gentle handling and dry insulation.",
+          "misconception": "Giving hot black coffee or alcohol warms up a hypothermic backcountry camper safely.",
+          "pamphlet_summary": "Hypothermia develops when heat loss exceeds heat production, lowering internal body temperature below ninety-five degrees. Treatment involves removing wet clothes, wrapping in warm windproof blankets, and avoiding rough physical movements.",
+          "sub_id": "11f",
+          "topic_title": "Accidental Hypothermia Rewarming Protocols"
+        }
+      ],
+      "topic_title": "Thermal Exposure and Temperature Emergencies"
+    },
+    {
+      "fact": "Trained adult leaders and mental health professionals must be engaged when an individual displays suicidal ideation.",
+      "misconception": "Asking someone directly if they are considering suicide will plant the idea into their head.",
+      "pamphlet_excerpts": [
+        "Sympathetic Arousal Recognition: Identify rapid breathing trembling tachycardia and tunnel vision during acute wilderness stress reactions.",
+        "Stress Inoculation Strategy: Mitigate situational panic through incremental skill progressions controlled breathing and structured peer support.",
+        "Self Harm Warning Signs: Recognize talk of hopelessness social withdrawal and giving away prized personal possessions.",
+        "Crisis Intervention Escalation: Report threats of self harm immediately to trusted adult leaders or crisis hotlines."
+      ],
+      "pamphlet_summary": "Psychological first aid addresses acute stress reactions and behavioral emergencies through empathetic listening and de-escalation. Responders must recognize danger signs to self or others and connect struggling individuals with adult leaders.",
+      "req_id": "12",
+      "safety_callout": "Never leave an individual who expresses suicidal intent or severe self-harm ideation unattended.",
+      "socratic_questions": [
+        "How do acute physical stressors like wilderness storms amplify emotional anxiety within a patrol?",
+        "What observable changes in peer behavior indicate potential depression or risk of self-harm?",
+        "What concrete steps must a Scout take upon learning a peer is contemplating self-harm?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Stress Recognition: Identify physiological signs of acute stress such as hyperventilation trembling or withdrawal.",
+        "Step 2 - Calming Reassurance: Provide calm reassuring communication while moving the stressed individual to a quiet space.",
+        "Step 3 - Threat Assessment: Listen for direct or indirect statements regarding self-harm or violence toward other people.",
+        "Step 4 - Adult Engagement: Notify trusted adult leaders or contact crisis hotlines immediately for dangerous situations."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Acute stress triggers sympathetic nervous system arousal, causing tachycardia, rapid breathing, and tunnel vision.",
+          "misconception": "Feeling nervousness or panic during a high ropes course indicates permanent mental weakness.",
+          "pamphlet_summary": "High-stress activities like rappelling or public speaking trigger physiological fight-or-flight responses including trembling and sweating. Recognizing these symptoms as natural biological reactions helps individuals regain composure through controlled breathing exercises.",
+          "sub_id": "12a",
+          "topic_title": "Acute Situational Stress Reactions"
+        },
+        {
+          "fact": "Preparation, clear skill progression, and structured peer support mitigate extreme situational anxiety effectively.",
+          "misconception": "Ignoring personal anxiety and forcing unprepared youth into scary challenges cures phobias reliably.",
+          "pamphlet_summary": "Managing situational stress involves thorough advance preparation, incremental skill practice, and supportive patrol communication. Leaders should encourage controlled diaphragmatic breathing, provide clear expectations, and avoid high-pressure social shaming.",
+          "sub_id": "12b",
+          "topic_title": "Stress Inoculation and Management"
+        },
+        {
+          "fact": "Warning indicators include talking about suicide, withdrawing from friends, and giving away prized personal possessions.",
+          "misconception": "People who talk openly about wanting to harm themselves are only seeking casual attention.",
+          "pamphlet_summary": "Signs that someone may present a danger include verbalizing hopelessness, dramatic mood swings, and sudden social isolation. Additional red flags involve reckless behavior, collecting lethal means, and preoccupation with death or self-harm.",
+          "sub_id": "12c",
+          "topic_title": "Self-Harm and Danger Indicators"
+        },
+        {
+          "fact": "Scouts must immediately report any threats of self-harm to unit leaders, parents, or crisis counselors.",
+          "misconception": "Promising a struggling friend to keep their suicidal thoughts a secret demonstrates true loyalty.",
+          "pamphlet_summary": "When someone threatens self-harm or violence, responders must stay with the person and maintain calm presence. Scouts must immediately alert qualified adult leaders, call emergency dispatch, or dial the national suicide lifeline.",
+          "sub_id": "12d",
+          "topic_title": "Crisis Intervention and Escalation"
+        }
+      ],
+      "topic_title": "Psychological First Aid and Crisis Support"
+    },
+    {
+      "fact": "Recognizing stroke symptoms using the FAST acronym enables rapid hospital administration of clot-dissolving medications.",
+      "misconception": "Scrubbing a knocked out tooth clean with soap and a stiff brush preserves roots.",
+      "pamphlet_excerpts": [
+        "Ophthalmic Foreign Irrigation: Flush foreign particles from eyes using sterile saline solution without rubbing the cornea.",
+        "Avulsed Tooth Transport: Handle knocked out teeth by enamel crowns and transport them submerged in milk.",
+        "Food Poisoning Rehydration: Replace fluid and electrolyte losses from food poisoning using frequent small oral sips.",
+        "Stroke FAST Assessment: Evaluate facial drooping arm drift and slurred speech before calling emergency medical dispatchers."
+      ],
+      "pamphlet_summary": "Miscellaneous emergencies encompass ocular trauma, dental avulsions, gastrointestinal distress, and acute cerebral vascular strokes. Fast intervention preserves sight, maintains replantable dentition, prevents foodborne dehydration, and minimizes stroke-induced brain death.",
+      "req_id": "13",
+      "safety_callout": "Cover both eyes with protective shields when an impaled object penetrates one eye globe.",
+      "socratic_questions": [
+        "Why must you avoid rubbing your eye when a small foreign particle enters it?",
+        "Why should a knocked-out tooth be handled only by its crown and preserved in milk?",
+        "What critical time window governs the medical administration of clot-busting stroke treatments?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Eye Flushing: Flush foreign particles from the eye gently using sterile saline or clean potable water.",
+        "Step 2 - Tooth Preservation: Handle a knocked-out tooth by the crown and place it in milk immediately.",
+        "Step 3 - Rehydration Support: Provide small sips of oral electrolyte solution for vomiting and diarrhea from food poisoning.",
+        "Step 4 - Stroke Assessment: Check facial droop arm drift and slurred speech before calling nine one one immediately."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Chemical eye exposures require immediate continuous water irrigation for at least fifteen minutes.",
+          "misconception": "Rubbing an eye vigorously with fingers dislodges foreign specks from the cornea safely.",
+          "pamphlet_summary": "Foreign particles on the cornea or conjunctiva cause severe tearing, photophobia, and risk corneal scratching. Responders flush the eye gently with potable water and cover impaled objects without applying direct pressure.",
+          "sub_id": "13a",
+          "topic_title": "Ophthalmic Foreign Body Irrigation"
+        },
+        {
+          "fact": "An avulsed permanent tooth should be transported in cold milk or saliva without touching roots.",
+          "misconception": "A knocked-out permanent tooth can never be successfully reimplanted into its alveolar socket.",
+          "pamphlet_summary": "A knocked-out tooth should be handled exclusively by the enamel crown, avoiding damage to delicate periodontal ligaments. Rinse briefly with water if dirty, place in milk or physiological saline, and seek dental care within thirty minutes.",
+          "sub_id": "13b",
+          "topic_title": "Dental Avulsion Preservation Care"
+        },
+        {
+          "fact": "Food poisoning causes gastrointestinal fluid loss requiring oral rehydration salts rather than antimotility drugs.",
+          "misconception": "Withholding all liquids for forty-eight hours cures acute bacterial food poisoning diarrhea quickly.",
+          "pamphlet_summary": "Food poisoning stems from ingested bacterial toxins, causing acute vomiting, abdominal cramping, and watery diarrhea. First aid emphasizes oral rehydration solutions taken in small, frequent sips to replace fluid and electrolyte deficits.",
+          "sub_id": "13c",
+          "topic_title": "Foodborne Illness Rehydration Therapy"
+        },
+        {
+          "fact": "Severe abdominal pain accompanied by localized rigidity or high fever requires immediate professional medical evaluation.",
+          "misconception": "Giving heavy pain relievers and laxatives cures acute appendicitis safely at home.",
+          "pamphlet_summary": "Acute abdominal pain may signal serious surgical conditions such as acute appendicitis, bowel obstruction, or internal bleeding. Responders place the patient in a comfortable position, avoid giving food or drink, and arrange medical assessment.",
+          "sub_id": "13d",
+          "topic_title": "Acute Abdomen Triage Assessment"
+        },
+        {
+          "fact": "Ischemic stroke requires urgent emergency hospital transport to administer intravenous thrombolytic therapies within hours.",
+          "misconception": "Giving an aspirin to someone having a stroke is always safe before hospital scanning.",
+          "pamphlet_summary": "Stroke results from sudden cerebral ischemia or intracranial hemorrhage interrupting oxygen delivery to brain tissue. Responders utilize the FAST assessment to identify facial asymmetry, arm drift, and speech abnormalities, dispatching nine one one instantly.",
+          "sub_id": "13e",
+          "topic_title": "Cerebral Vascular Stroke Identification"
+        }
+      ],
+      "topic_title": "Specialized Medical and Dental Emergencies"
+    },
+    {
+      "fact": "The EDGE method ensures learner competency through staged progression from demonstration to independent practice.",
+      "misconception": "Lecturing about a first aid technique once is sufficient for Scouts to master skills.",
+      "pamphlet_excerpts": [
+        "EDGE Method Framework: Utilize Explain Demonstrate Guide and Enable steps to teach practical first aid skills.",
+        "Instructional Skill Demonstration: Demonstrate the complete first aid procedure slowly while describing each required manual movement.",
+        "Coached Practical Application: Provide immediate positive feedback while guiding students through initial hands on bandage practice.",
+        "Independent Learner Verification: Enable students to perform first aid techniques independently without instructional assistance or prompting."
+      ],
+      "pamphlet_summary": "Instructional planning using the Explain, Demonstrate, Guide, Enable method ensures structured skill transfer and practical retention. The counselor guides lesson design to incorporate hands-on practice, constructive feedback, and objective skill evaluation.",
+      "req_id": "14",
+      "safety_callout": "Ensure all demonstration bandages and training splints are removed gently without cutting clothing or skin.",
+      "socratic_questions": [
+        "How does the transition from Guide to Enable shift responsibility to the first aid student?",
+        "Why is physical hands-on demonstration more effective than verbal instruction when teaching splinting?",
+        "What metrics verify that your student can perform a first aid skill under real pressure?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Skill Explanation: Explain the purpose indications and procedural steps of the selected first aid skill.",
+        "Step 2 - Rescuer Demonstration: Demonstrate the first aid procedure completely while explaining each manual action clearly.",
+        "Step 3 - Guided Practice: Guide the student through hands-on practice while providing immediate supportive corrective coaching.",
+        "Step 4 - Independent Enablement: Enable the student to perform the complete first aid skill independently without assistance."
+      ],
+      "sub_requirements": [],
+      "topic_title": "First Aid Instruction Methodology"
+    },
+    {
+      "fact": "Paramedic certification requires extensive anatomy coursework, hospital clinical rotations, and hundreds of field internship hours.",
+      "misconception": "Emergency medical technicians and paramedics hold the exact same certification and clinical privileges.",
+      "pamphlet_excerpts": [
+        "Emergency Facility Exploration: Tour an emergency medical station to examine mobile intensive care units and equipment.",
+        "EMS Practitioner Interview: Interview active paramedics to understand daily emergency duties shift schedules and career motivations.",
+        "Paramedic Licensure Requirements: Research state licensing requirements prerequisite anatomy coursework and clinical internship training hours for paramedics.",
+        "Backcountry First Aid: Apply emergency medical skills toward outdoor recreation hobbies such as mountaineering and ski patrol."
+      ],
+      "pamphlet_summary": "Emergency medical services encompass pre-hospital triage, acute trauma care, and community disaster response systems. Exploring emergency medical careers reveals diverse opportunities across municipal fire rescue, wilderness SAR, and hospital settings.",
+      "req_id": "15",
+      "safety_callout": "Follow station safety rules and maintain situational awareness when touring operational emergency facilities.",
+      "socratic_questions": [
+        "How do the scopes of practice differ between an Emergency Medical Technician and a Paramedic?",
+        "What physical and emotional traits are essential for emergency medical responders during mass disasters?",
+        "How does wilderness first aid training complement high-adventure outdoor hobbies like mountaineering?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Facility Contact: Contact a local emergency medical service station to schedule an informational instructional visit.",
+        "Step 2 - Professional Interview: Interview on-duty emergency medical responders regarding their training certification requirements and daily duties.",
+        "Step 3 - Career Exploration: Research state licensing requirements prerequisite college coursework and associated tuition expenses for paramedics.",
+        "Step 4 - Counselor Discussion: Discuss career paths and personal outdoor hobby applications with your merit badge counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "First responders operate specialized mobile intensive care units equipped with cardiac monitors and pharmaceuticals.",
+          "misconception": "Emergency medical station crews only clean equipment and wait without regular scheduled duties.",
+          "pamphlet_summary": "Visiting a station house provides direct observation of ambulance equipment, dispatch communications, and daily emergency operations. Responders explain community response roles, incident command protocols, and multi-agency cooperation during regional disasters.",
+          "sub_id": "15a",
+          "topic_title": "Emergency Station Facility Exploration"
+        },
+        {
+          "fact": "EMS professionals must complete continuing medical education to maintain state licenses and national registry.",
+          "misconception": "Paramedics make career choices purely based on driving ambulances at high speeds through traffic.",
+          "pamphlet_summary": "Interviewing emergency medical professionals reveals the career motivations, emotional resilience, and technical expertise required for pre-hospital care. Discussions explore typical shift schedules, stressful field encounters, and the personal fulfillment of saving lives.",
+          "sub_id": "15b",
+          "topic_title": "Paramedic Career Field Interview"
+        },
+        {
+          "fact": "Emergency medical technicians require approximately one hundred fifty training hours, whereas paramedics complete associate degrees.",
+          "misconception": "Working on an ambulance requires no formal college degrees or national board testing.",
+          "pamphlet_summary": "Emergency services careers include basic emergency medical technicians, advanced paramedics, flight nurses, and tactical rescue specialists. Career research examines prerequisite anatomy coursework, extensive hospital clinical rotations, field internships, and national testing.",
+          "sub_id": "15c",
+          "topic_title": "EMS Career Pathways and Qualifications"
+        },
+        {
+          "fact": "Wilderness emergency training enables outdoor enthusiasts to manage backcountry trauma far from definitive clinical care.",
+          "misconception": "Emergency medical knowledge is completely useless outside of working inside an ambulance or hospital.",
+          "pamphlet_summary": "Emergency medical skills enhance personal outdoor hobbies such as mountaineering, whitewater kayaking, search and rescue, and ski patrol. Advanced wilderness first responder certifications prepare outdoor enthusiasts to manage severe environmental emergencies independently.",
+          "sub_id": "15d",
+          "topic_title": "Emergency Skills for Outdoor Hobbies"
+        }
+      ],
+      "topic_title": "Emergency Medical Service Exploration"
+    }
+  ]
+}

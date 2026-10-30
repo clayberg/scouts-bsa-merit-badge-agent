@@ -54,8 +54,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
           "common_misconception_pair": {
-            "misconception": "The terms ancestor and descendant can be used interchangeably for any older or younger relative.",
-            "fact": "An ancestor is someone from whom you descend directly, such as a grandparent, whereas a descendant is someone who comes down from an ancestor in succeeding generations (p. 44)."
+            "misconception": "Scouts sometimes believe a great-uncle qualifies technically as a direct ancestral forebear.",
+            "fact": "An ancestor is strictly someone from whom an individual descends in a direct line.",
+            "myth": "Scouts sometimes believe a great-uncle qualifies technically as a direct ancestral forebear.",
+            "fact_correction": "An ancestor is strictly someone from whom an individual descends in a direct line."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -81,10 +83,10 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Explain to your counselor what the words genealogy, ancestor, and descendant mean.",
-          "topic_title": "Req 1a: Genealogy, Ancestor, and Descendant Definitions",
-          "pamphlet_summary": "For Genealogy Requirement 1a (Genealogy, Ancestor, and Descendant Definitions): The Genealogy pamphlet for Requirement 1a details what the words genealogy, ancestor, and descendant mean, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
+          "topic_title": "Req 1a: Core Lineage Vocabulary Definitions",
+          "pamphlet_summary": "Ancestors precede an individual in direct ascending biological lines, whereas descendants follow downward. Genealogy is the disciplined process of documenting these connected human generations.",
           "pamphlet_excerpts": [
-            "Genealogy, Ancestor, and Descendant Definitions: The Genealogy pamphlet for Requirement 1a details what the words genealogy, ancestor, and descendant mean, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27)."
+            "Ancestors precede an individual in direct ascending biological lines, whereas descendants follow downward. Genealogy is the disciplined process of documenting these connected human generations."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p003_img1.png",
           "workbook_diagram_caption": "Vintage community newspapers offer genealogical obituaries and announcements.",
@@ -125,8 +127,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
           "common_misconception_pair": {
-            "misconception": "You cannot create an illustrated pedigree chart unless you have a photograph for every single ancestor listed on the page.",
-            "fact": "You can place photos next to the ancestors you have pictures for without worrying if some spaces lack photographs (p. 27)."
+            "misconception": "Amateur researchers assume family trees should display all siblings, cousins, aunts, and uncles.",
+            "fact": "Standard pedigree charts display only direct-line ancestors, omitting siblings and collateral relatives entirely.",
+            "myth": "Amateur researchers assume family trees should display all siblings, cousins, aunts, and uncles.",
+            "fact_correction": "Standard pedigree charts display only direct-line ancestors, omitting siblings and collateral relatives entirely."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -152,10 +156,10 @@
           "id": "1b",
           "sub_req_label": "1b",
           "sub_req_text": "Explain what a family tree is and what information would be kept there.",
-          "topic_title": "Req 1b: Pedigree Charts and Family Trees",
-          "pamphlet_summary": "Pedigree Charts and Family Trees: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 27).",
+          "topic_title": "Req 1b: Pedigree Chart Data Architecture",
+          "pamphlet_summary": "A family tree or pedigree chart maps direct biological lineage backward through time. It records standardized dates and places for birth, marriage, and death for each individual.",
           "pamphlet_excerpts": [
-            "Pedigree Charts and Family Trees: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 27)."
+            "A family tree or pedigree chart maps direct biological lineage backward through time. It records standardized dates and places for birth, marriage, and death for each individual."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p027_img1.png",
           "workbook_diagram_caption": "Vintage community newspapers offer genealogical obituaries and announcements.",
@@ -198,8 +202,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
           "common_misconception_pair": {
-            "misconception": "A family group record only lists the names of children without tracking vital dates or parent marriage details.",
-            "fact": "A family group record documents a complete nuclear family unit, including birth, marriage, and death dates and places for both parents and every child (p. 44)."
+            "misconception": "Novices believe one family group sheet contains an entire multi-generational surname history.",
+            "fact": "Each family group sheet isolates one couple and their immediate children to prevent generational confusion.",
+            "myth": "Novices believe one family group sheet contains an entire multi-generational surname history.",
+            "fact_correction": "Each family group sheet isolates one couple and their immediate children to prevent generational confusion."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -225,10 +231,10 @@
           "id": "1c",
           "sub_req_label": "1c",
           "sub_req_text": "Explain what a family group record is and what information would be kept there.",
-          "topic_title": "Req 1c: Family Group Record Details",
-          "pamphlet_summary": "For Genealogy Requirement 1c (Family Group Record Details): The Genealogy pamphlet for Requirement 1c details what a family group record is and what information would be kept there, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
+          "topic_title": "Req 1c: Family Group Record Organization",
+          "pamphlet_summary": "Family group records compile vital data for one couple and all their shared children. They link individual life events to source citations within an immediate household context.",
           "pamphlet_excerpts": [
-            "Family Group Record Details: The Genealogy pamphlet for Requirement 1c details what a family group record is and what information would be kept there, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27)."
+            "Family group records compile vital data for one couple and all their shared children. They link individual life events to source citations within an immediate household context."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p027_img1.png",
           "workbook_diagram_caption": "Vintage community newspapers offer genealogical obituaries and announcements.",
@@ -257,11 +263,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Core Genealogy Terms and Charts",
+      "topic_title": "Req 1: Foundational Genealogical Terminology and Records",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 1): Complete all Core Genealogy Terms and Charts discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Store fragile historical paper records away from open flames, direct sunlight, and liquid containers.",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
       "syllabus_bucket": "In-Class Concept",
@@ -293,8 +299,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "A pedigree chart lists every aunt, uncle, brother, sister, and cousin in your extended family.",
-        "fact": "A pedigree chart tracks only your direct ancestors like parents and grandparents, while a family group record captures siblings, aunts, and uncles within each household (p. 27)."
+        "misconception": "Beginners often think genealogy consists solely of collecting interesting folklore and unverified family stories.",
+        "fact": "Genealogical research demands documentary proof from civil, ecclesiastical, or historical records for every connection.",
+        "myth": "Beginners often think genealogy consists solely of collecting interesting folklore and unverified family stories.",
+        "fact_correction": "Genealogical research demands documentary proof from civil, ecclesiastical, or historical records for every connection."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -318,16 +326,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Visual Pedigree Chart Appeal: Adding small photographs to your pedigree chart can make it more interesting (p. 27).",
-        "Preprinted or Custom Charts: You can buy charts with spaces built in for photos, or you can design (p. 27).",
-        "Incomplete Ancestor Photo Sets: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 27).",
-        "Direct Line Ancestor Records: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 27)."
+        "Lineage Science: Genealogy systematically traces bloodlines and legal relationships across multiple successive historical eras.",
+        "Pedigree Documentation: Ancestor charts record direct biological antecedents while descendant charts track succeeding generational offspring.",
+        "Vital Registration: Family group sheets capture vital statistics for parents and children within households.",
+        "Standard Nomenclature: Standardized genealogical terminology prevents confusion between direct forebears and collateral family lines."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Attach Available Ancestor Photos: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 27).",
-        "Step 2 - Record Direct Line Ancestors: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 27).",
-        "Step 3 - Identify Extended Family Relatives: But what about other relatives such as brothers, sisters, uncles, aunts, and cousins (p. 27).",
-        "Step 4 - Document Complete Family Units: They, too, are an important part of your genealogy (p. 27)."
+        "Step 1 - Define Terms: Write precise operational definitions for genealogy, ancestor, and descendant in your field notebook.",
+        "Step 2 - Structure Pedigree: Sketch a basic ancestral pedigree chart tracing biological lineage back through great-grandparents.",
+        "Step 3 - Draft Household: Enter complete vital statistics for a single nuclear family onto group sheets.",
+        "Step 4 - Review Formats: Compare linear pedigree charts against multi-generational family group sheets with your counselor."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Words Genealogy Ancestor and Descendant)",
@@ -335,15 +343,13 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Genealogy, Ancestor, and Descendan",
-        "right_header": "Req 1b: Pedigree Charts and Family Trees",
+        "left_header": "Req 1a: Core Lineage Vocabulary Definition",
+        "right_header": "Req 1b: Pedigree Chart Data Architecture",
         "left_points": [
-          "(1a) Genealogy, Ancestor, and Descendant Definitions: The Genealogy pamphlet for Requirement 1a details what the words genealogy, ancestor, and descendant mean, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
-          "Preprinted or Custom Charts: You can buy charts with spaces built in for photos, or you can design (p. 27)."
+          "(1a) Core Lineage Vocabulary Definitions: Ancestors precede an individual in direct ascending biological lines, whereas descendants follow downward. Genealogy is the disciplined process of documenting these connected human generations."
         ],
         "right_points": [
-          "(1b) Pedigree Charts and Family Trees: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 27).",
-          "Incomplete Ancestor Photo Sets: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 27)."
+          "(1b) Pedigree Chart Data Architecture: A family tree or pedigree chart maps direct biological lineage backward through time. It records standardized dates and places for birth, marriage, and death for each individual."
         ],
         "rows": [
           {
@@ -367,9 +373,9 @@
         "title": "Genealogy Req 1 Exemplar Workbook Entry: Core Genealogy Terms and Charts",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 1a - Genealogy, Ancestor, and Descendan": "The Genealogy pamphlet for Requirement 1a details what the words genealogy, ancestor, and descendant mean, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
-          "Req 1b (Pedigree Charts and Family Trees)": "Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 27).",
-          "Req 1c (Family Group Record Details)": "The Genealogy pamphlet for Requirement 1c details what a family group record is and what information would be kept there, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27)."
+          "Req 1a - Core Lineage Vocabulary Definitio": "Ancestors precede an individual in direct ascending biological lines, whereas descendants follow downward. Genealogy is the disciplined process of documenting these connected human generations.",
+          "Req 1b - Pedigree Chart Data Architecture": "A family tree or pedigree chart maps direct biological lineage backward through time. It records standardized dates and places for birth, marriage, and death for each individual.",
+          "Req 1c - Family Group Record Organization": "Family group records compile vital data for one couple and all their shared children. They link individual life events to source citations within an immediate household context."
         },
         "sample_output": "Core Genealogy Terms and Charts: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 27).",
         "counselor_tip": "For Genealogy Requirement 1 (Core Genealogy Terms and Charts), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44))."
@@ -401,7 +407,13 @@
       "workbook_diagram_caption": "Illustrated panels show ancestral portrait charts, family pedigree trees, and historical census documents under magnification.",
       "number": "1",
       "description": "Do the following: (a) Explain to your counselor what the words genealogy, ancestor, and descendant mean. (b) Explain what a family tree is and what information would be kept there. (c) Explain what a family group record is and what information would be kept there.",
-      "workbook_visual_caption": "Illustrated panels show ancestral portrait charts, family pedigree trees, and historical census documents under magnification."
+      "workbook_visual_caption": "Illustrated panels show ancestral portrait charts, family pedigree trees, and historical census documents under magnification.",
+      "pamphlet_summary": "Genealogy represents the systematic study of ancestral lineages through validated historical evidence. Family trees and family group records organize biological lineages and generational household units into standardized research formats.",
+      "socratic_questions": [
+        "How does a direct ancestor differ mathematically from a collateral relative on your chart?",
+        "Why must a family group sheet track dates for both marriages and offspring?",
+        "What problems arise when researchers confuse oral family lore with validated historical documentation?"
+      ]
     },
     {
       "req_id": "2",
@@ -447,8 +459,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
           "common_misconception_pair": {
-            "misconception": "Genealogical research must always begin with your oldest known ancestor from centuries ago.",
-            "fact": "The easiest and most accurate place to start researching family history is with your own life story and immediate family (p. 11)."
+            "misconception": "Scouts presume biographies must read like fictional novels filled with unrecorded conversational dialogue.",
+            "fact": "Genealogical biographies rely strictly on documented facts, dates, places, and historical context without invention.",
+            "myth": "Scouts presume biographies must read like fictional novels filled with unrecorded conversational dialogue.",
+            "fact_correction": "Genealogical biographies rely strictly on documented facts, dates, places, and historical context without invention."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -474,10 +488,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Create a timeline for yourself or for a relative. Then write a short biography based on that timeline.",
-          "topic_title": "Req 2a: Personal Timelines and Short Biographies",
-          "pamphlet_summary": "For Genealogy Requirement 2a (Personal Timelines and Short Biographies): The Genealogy pamphlet for Requirement 2a details create a timeline for yourself or for a relative, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
+          "topic_title": "Req 2a: Chronological Life Milestone Synthesis",
+          "pamphlet_summary": "Creating a timeline organizes verified life events in chronological sequence to expose research gaps. Writing a biography from that timeline transforms isolated data points into coherent biographical history.",
           "pamphlet_excerpts": [
-            "Personal Timelines and Short Biographies: The Genealogy pamphlet for Requirement 2a details create a timeline for yourself or for a relative, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11)."
+            "Creating a timeline organizes verified life events in chronological sequence to expose research gaps. Writing a biography from that timeline transforms isolated data points into coherent biographical history."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p007_img1.png",
           "workbook_diagram_caption": "A family silhouette at the beach represents generations and family lineage.",
@@ -522,8 +536,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
           "common_misconception_pair": {
-            "misconception": "A timeline and a biography are identical documents that just list years in a column.",
-            "fact": "A timeline orders key dates and milestones chronologically, providing the outline you use to write a narrative biography (p. 12)."
+            "misconception": "Students believe daily mundane activities are too unimportant to record in a genealogical journal.",
+            "fact": "Everyday routines, technology choices, and local events provide invaluable social history for future genealogists.",
+            "myth": "Students believe daily mundane activities are too unimportant to record in a genealogical journal.",
+            "fact_correction": "Everyday routines, technology choices, and local events provide invaluable social history for future genealogists."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -549,10 +565,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Keep a journal for six weeks. You must write in it at least once a week.",
-          "topic_title": "Req 2b: Six Week Personal Journal",
-          "pamphlet_summary": "Six Week Personal Journal: You should write in your journal on a regular basis, everyday, every week, or every month (p. 11).",
+          "topic_title": "Req 2b: Six-Week Journal Documentation",
+          "pamphlet_summary": "Maintaining a journal for six weeks builds regular record-keeping habits and produces primary source evidence. Weekly entries should detail personal milestones, local observations, and family interactions.",
           "pamphlet_excerpts": [
-            "Six Week Personal Journal: You should write in your journal on a regular basis, everyday, every week, or every month (p. 11)."
+            "Maintaining a journal for six weeks builds regular record-keeping habits and produces primary source evidence. Weekly entries should detail personal milestones, local observations, and family interactions."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p010_img1.png",
           "workbook_diagram_caption": "A family silhouette at the beach represents generations and family lineage.",
@@ -577,11 +593,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Personal Timelines and Journals",
+      "topic_title": "Req 2: Biographical Timelines and Journaling",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Personal Timelines and Journals discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Protect digital journals and personal biographical notes by securing physical notebooks and using encrypted drives.",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
       "syllabus_bucket": "In-Class Concept",
@@ -611,8 +627,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "A genealogical journal is only a dry schedule of dates and locations with no room for personal thoughts or feelings.",
-        "fact": "A good journal is a regular log of your activities, personal thoughts, and feelings that brings your life story to life for future generations (p. 11)."
+        "misconception": "Writers often think personal biographies require extensive speculation about ancestors' secret inner feelings.",
+        "fact": "Genealogical biographies ground every narrative statement in documented dates, residences, occupations, and historical records.",
+        "myth": "Writers often think personal biographies require extensive speculation about ancestors' secret inner feelings.",
+        "fact_correction": "Genealogical biographies ground every narrative statement in documented dates, residences, occupations, and historical records."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -636,28 +654,26 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Starting With Personal History: The easiest place to start your family history is with your own history (p. 11).",
-        "Life Story Starting Activities: You can begin your life story by doing some of the following activities (p. 11).",
-        "Consistent Journal Writing Schedules: You should write in your journal on a regular basis, everyday, every week, or every month (p. 11).",
-        "Activities, Thoughts, and Feelings: It is a log of your activities, thoughts, and feelings (p. 11)."
+        "Chronological Sequencing: Structured timelines reveal geographic migrations and historical context across an individual human life.",
+        "Primary Source Creation: Consistent personal journaling preserves contemporary firsthand eyewitness testimony for future historical researchers.",
+        "Contextual Synthesis: Correlating family events with local historical crises illuminates ancestral decisions and community relocations.",
+        "Standard Date Formatting: Genealogists write dates with day, month, and year to eliminate cross-cultural transcription confusion."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Maintain Regular Writing Habits: You should write in your journal on a regular basis, everyday, every week, or every month (p. 11).",
-        "Step 2 - Log Thoughts and Activities: It is a log of your activities, thoughts, and feelings (p. 11).",
-        "Step 3 - Draft Past Life Events: A personal history, or life story, tells about what happened in the past (p. 11).",
-        "Step 4 - Incorporate Personal Journal Quotes: It may include quotes or stories from your journal or diary (p. 11)."
+        "Step 1 - Collect Milestones: Gather exact birth, education, residence, and career dates for the selected subject.",
+        "Step 2 - Build Chronology: Plot verified personal life milestones in strict chronological sequence along a linear axis.",
+        "Step 3 - Draft Biography: Compose a concise narrative biography explaining the subject's major life transitions and accomplishments.",
+        "Step 4 - Maintain Journal: Log weekly personal reflections, community events, and family observations over six consecutive weeks."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Personal Timelines and Short Biogr",
-        "right_header": "Req 2b: Six Week Personal Journal",
+        "left_header": "Req 2a: Chronological Life Milestone Synth",
+        "right_header": "Req 2b: Six-Week Journal Documentation",
         "left_points": [
-          "(2a) Personal Timelines and Short Biographies: The Genealogy pamphlet for Requirement 2a details create a timeline for yourself or for a relative, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
-          "Life Story Starting Activities: You can begin your life story by doing some of the following activities (p. 11)."
+          "(2a) Chronological Life Milestone Synthesis: Creating a timeline organizes verified life events in chronological sequence to expose research gaps. Writing a biography from that timeline transforms isolated data points into coherent biographical history."
         ],
         "right_points": [
-          "(2b) Six Week Personal Journal: You should write in your journal on a regular basis, everyday, every week, or every month (p. 11).",
-          "Consistent Journal Writing Schedules: You should write in your journal on a regular basis, everyday, every week, or every month (p. 11)."
+          "(2b) Six-Week Journal Documentation: Maintaining a journal for six weeks builds regular record-keeping habits and produces primary source evidence. Weekly entries should detail personal milestones, local observations, and family interactions."
         ],
         "rows": [
           {
@@ -681,8 +697,8 @@
         "title": "Genealogy Req 2 Exemplar Workbook Entry: Personal Timelines and Journals",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 2a - Personal Timelines and Short Biogr": "The Genealogy pamphlet for Requirement 2a details create a timeline for yourself or for a relative, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
-          "Req 2b (Six Week Personal Journal)": "You should write in your journal on a regular basis, everyday, every week, or every month (p. 11)."
+          "Req 2a - Chronological Life Milestone Synt": "Creating a timeline organizes verified life events in chronological sequence to expose research gaps. Writing a biography from that timeline transforms isolated data points into coherent biographical history.",
+          "Req 2b - Six-Week Journal Documentation": "Maintaining a journal for six weeks builds regular record-keeping habits and produces primary source evidence. Weekly entries should detail personal milestones, local observations, and family interactions."
         },
         "sample_output": "Personal Timelines and Journals: It is a log of your activities, thoughts, and feelings (p. 11).",
         "counselor_tip": "For Genealogy Requirement 2 (Personal Timelines and Journals), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12))."
@@ -714,7 +730,13 @@
       "workbook_diagram_caption": "Scouts gather around a laptop and tablet at a forest campsite to explore digitized ancestral photographs and family trees.",
       "number": "2",
       "description": "Do ONE of the following: (a) Create a timeline for yourself or for a relative. Then write a short biography based on that timeline. (b) Keep a journal for six weeks. You must write in it at least once a week.",
-      "workbook_visual_caption": "Scouts gather around a laptop and tablet at a forest campsite to explore digitized ancestral photographs and family trees."
+      "workbook_visual_caption": "Scouts gather around a laptop and tablet at a forest campsite to explore digitized ancestral photographs and family trees.",
+      "pamphlet_summary": "Chronological timelines place personal milestones alongside broader historical events to reveal contextual life patterns. Personal journals capture contemporary daily observations that eventually become primary historical source material for future researchers.",
+      "socratic_questions": [
+        "How does plotting an ancestor's movements on a timeline help identify relevant county courthouses?",
+        "Why do personal diaries serve as primary sources while published biographies serve as secondary sources?",
+        "What historical events in your community might explain sudden shifts in family residence?"
+      ]
     },
     {
       "req_id": "3",
@@ -737,11 +759,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Interviewing Relatives and Acquaintances",
+      "topic_title": "Req 3: Oral History Interview Techniques",
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Genealogy Requirement 3 on interviewing relatives and acquaintances under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
+      "safety_callout": "Follow youth protection guidelines by ensuring a parent or guardian is present during interviews.",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 47)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -771,8 +793,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Every date, spelling, and town name an older relative tells you during an oral interview can be treated as an exact historical fact.",
-        "fact": "While relatives usually remember family relationships accurately, specific names, places, and dates shared from memory may be inaccurate and need verification (p. 17)."
+        "misconception": "Interviewers assume oral recollections are always completely accurate regarding specific historical dates and spellings.",
+        "fact": "Oral history provides valuable leads and personal context, but dates and places require documentary verification.",
+        "myth": "Interviewers assume oral recollections are always completely accurate regarding specific historical dates and spellings.",
+        "fact_correction": "Oral history provides valuable leads and personal context, but dates and places require documentary verification."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -801,16 +825,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Finding Accurate Family Answers: Then you must know where to go to find accurate answers (p. 17).",
-        "Immigrant Family Origin Clues: If your family moved to the United States from another country, it is important to ask your parents or guardians and other relatives (p. 17).",
-        "Recording Informal Family Conversations: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17).",
-        "Limits of Spoken Memory: Not all the information someone tells you is necessarily correct (p. 17)."
+        "Informed Permission: Parental consent ensures proper safety and coordination before interviewing relatives or family acquaintances.",
+        "Open Inquiry: Open-ended questions encourage subjects to recount detailed memories rather than simple yes responses.",
+        "Dual Recording: Taking written shorthand notes while recording audio prevents data loss from technical malfunctions.",
+        "Immediate Indexing: Transcribing spoken interview recollections promptly preserves phonetic spellings and obscure family nicknames."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Record Spoken Family Stories: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17).",
-        "Step 2 - Evaluate Oral History Claims: Not all the information someone tells you is necessarily correct (p. 17).",
-        "Step 3 - Note Stated Family Relationships: Relationships (such as great-uncle Ralph was Grandpa Erickson's brother) are usually correct (p. 17).",
-        "Step 4 - Verify Names, Places, and Dates: But names, places, and dates may not be accurate (p. 17)."
+        "Step 1 - Obtain Permission: Coordinate with parents to select an appropriate relative and schedule the interview session.",
+        "Step 2 - Prepare Questions: Draft ten open-ended questions targeting childhood homes, family migrations, and ancestral traditions.",
+        "Step 3 - Conduct Session: Interview the subject patiently while recording audio and taking detailed field notes.",
+        "Step 4 - Transcribe Notes: Organize recorded recollections into indexed written summaries for cross-referencing against official documents."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Your Parent or Guardian's Help)",
@@ -887,7 +911,13 @@
       "workbook_diagram_caption": "Scouts and their counselor examine vintage scrapbooks, ancestral portraits, and digitized archival records inside a library.",
       "number": "3",
       "description": "With your parent or guardian's help, choose a relative or a family acquaintance you can interview in person, by telephone, or by email or letter. Record the information you collect so you do not forget it.",
-      "workbook_visual_caption": "Scouts and their counselor examine vintage scrapbooks, ancestral portraits, and digitized archival records inside a library."
+      "workbook_visual_caption": "Scouts and their counselor examine vintage scrapbooks, ancestral portraits, and digitized archival records inside a library.",
+      "pamphlet_summary": "Conducting oral history interviews captures living memory, family traditions, and undocumented clues from older generations. Genealogists must prepare open-ended questions, obtain parental permission, and record responses accurately using audio tools or written notes.",
+      "socratic_questions": [
+        "What makes an open-ended interview question more productive than a yes-or-no question?",
+        "How can you verify a family legend heard during an oral interview using public records?",
+        "Why is it vital to transcribe and date interview recordings immediately following the conversation?"
+      ]
     },
     {
       "req_id": "4",
@@ -931,8 +961,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Only government-issued certificates count as genealogical sources for birth and marriage dates.",
-            "fact": "Vital records can be created by families as well as governments, including birth, marriage, and death logs written in family Bibles or home papers (p. 20)."
+            "misconception": "Beginners assume all historical documents have been scanned and placed on the internet.",
+            "fact": "The majority of county courthouse records and local manuscript collections remain exclusively on paper.",
+            "myth": "Beginners assume all historical documents have been scanned and placed on the internet.",
+            "fact_correction": "The majority of county courthouse records and local manuscript collections remain exclusively on paper."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -958,10 +990,10 @@
           "id": "4a",
           "sub_req_label": "4a",
           "sub_req_text": "Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.",
-          "topic_title": "Req 4a: Physical Genealogical Resource Types",
-          "pamphlet_summary": "For Genealogy Requirement 4a (Physical Genealogical Resource Types): The Genealogy pamphlet for Requirement 4a details three types of physical genealogical resources and where you can find them, and explain how these resources can help you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+          "topic_title": "Req 4a: Physical Historical Resource Identification",
+          "pamphlet_summary": "Physical resources include original courthouse ledgers, library manuscripts, and engraved cemetery headstones. These tangible artifacts provide verifiable local provenance and prevent digital transcription errors.",
           "pamphlet_excerpts": [
-            "Physical Genealogical Resource Types: The Genealogy pamphlet for Requirement 4a details three types of physical genealogical resources and where you can find them, and explain how these resources can help you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+            "Physical resources include original courthouse ledgers, library manuscripts, and engraved cemetery headstones. These tangible artifacts provide verifiable local provenance and prevent digital transcription errors."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p020_img1.png",
           "title": "Req 4a: Physical Genealogical Resource Types",
@@ -1003,8 +1035,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Once a genealogical record is posted on a website, its information is guaranteed to be free of errors.",
-            "fact": "Every genealogical document, whether physical or digital, must be evaluated for how close the informant was to the event and whether transcription errors occurred (p. 25)."
+            "misconception": "Scouts believe digital searches always return complete, error-free transcripts of historical documents.",
+            "fact": "Optical character recognition and automated indexing frequently produce spelling errors in digitized historical record sets.",
+            "myth": "Scouts believe digital searches always return complete, error-free transcripts of historical documents.",
+            "fact_correction": "Optical character recognition and automated indexing frequently produce spelling errors in digitized historical record sets."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1030,10 +1064,10 @@
           "id": "4b",
           "sub_req_label": "4b",
           "sub_req_text": "Name three types of digital genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.",
-          "topic_title": "Req 4b: Digital Genealogical Resource Types",
-          "pamphlet_summary": "For Genealogy Requirement 4b (Digital Genealogical Resource Types): The Genealogy pamphlet for Requirement 4b details three types of digital genealogical resources and where you can find them, and explain how these resources can help you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+          "topic_title": "Req 4b: Digital Database Resource Applications",
+          "pamphlet_summary": "Digital resources encompass searchable census indices, digitized probate images, and remote historical newspaper archives. These tools enable rapid searching across worldwide geographic repositories from a personal computer.",
           "pamphlet_excerpts": [
-            "Digital Genealogical Resource Types: The Genealogy pamphlet for Requirement 4b details three types of digital genealogical resources and where you can find them, and explain how these resources can help you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+            "Digital resources encompass searchable census indices, digitized probate images, and remote historical newspaper archives. These tools enable rapid searching across worldwide geographic repositories from a personal computer."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p020_img1.png",
           "title": "Req 4b: Digital Genealogical Resource Types",
@@ -1072,8 +1106,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Death certificates only tell you the date and cause of death for the deceased person.",
-            "fact": "Death certificates and other vital records often provide birth dates, birthplaces, parents' names, and burial locations alongside the death details (p. 20)."
+            "misconception": "Novices think any printed certificate from a web page proves ancestral relationships conclusively.",
+            "fact": "A valid supporting document must directly name individuals and explicitly describe the relevant life event.",
+            "myth": "Novices think any printed certificate from a web page proves ancestral relationships conclusively.",
+            "fact_correction": "A valid supporting document must directly name individuals and explicitly describe the relevant life event."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1099,10 +1135,10 @@
           "id": "4c",
           "sub_req_label": "4c",
           "sub_req_text": "Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record.",
-          "topic_title": "Req 4c: Obtaining Supporting Pedigree Documents",
-          "pamphlet_summary": "Obtaining Supporting Pedigree Documents: Some families keep a record of the names and birth dates of all family members (p. 20).",
+          "topic_title": "Req 4c: Evidentiary Document Acquisition Methods",
+          "pamphlet_summary": "Acquiring an authentic civil birth certificate, census schedule, or military muster roll validates chart entries. The document must substantiate at least one specific date, location, or relationship on record.",
           "pamphlet_excerpts": [
-            "Obtaining Supporting Pedigree Documents: Some families keep a record of the names and birth dates of all family members (p. 20)."
+            "Acquiring an authentic civil birth certificate, census schedule, or military muster roll validates chart entries. The document must substantiate at least one specific date, location, or relationship on record."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p020_img1.png",
           "workbook_diagram_caption": "A death certificate provides primary vital statistics for ancestral research.",
@@ -1138,8 +1174,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
-            "misconception": "During Genealogy Requirement 4d, Scouts can underestimate how directly mastery of finding and evaluating source evidence depends on understanding how you found it and how you would evaluate the genealogical information you found for requirement.",
-            "fact": "Scouting America standards for Genealogy Requirement 4d require complete workbook entries on finding and evaluating source evidence to demonstrate full understanding of how you found it and how you would evaluate the genealogical information you found for requirement."
+            "misconception": "People assume that government documents never contain factual errors regarding ages or birthplaces.",
+            "fact": "Informants sometimes provided false ages or birthplaces to census marshals, clerks, or military recruiters.",
+            "myth": "People assume that government documents never contain factual errors regarding ages or birthplaces.",
+            "fact_correction": "Informants sometimes provided false ages or birthplaces to census marshals, clerks, or military recruiters."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1165,10 +1203,10 @@
           "id": "4d",
           "sub_req_label": "4d",
           "sub_req_text": "Tell how you found it and how you would evaluate the genealogical information you found for requirement.",
-          "topic_title": "Req 4d: Finding and Evaluating Source Evidence",
-          "pamphlet_summary": "For Genealogy Requirement 4d (Finding and Evaluating Source Evidence): The Genealogy pamphlet for Requirement 4d details how you found it and how you would evaluate the genealogical information you found for requirement, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+          "topic_title": "Req 4d: Source Provenance and Reliability Analysis",
+          "pamphlet_summary": "Evaluating genealogical evidence requires assessing the informant's credibility and the document's physical condition. Researchers determine whether the source was created contemporaneously with the recorded life event.",
           "pamphlet_excerpts": [
-            "Finding and Evaluating Source Evidence: The Genealogy pamphlet for Requirement 4d details how you found it and how you would evaluate the genealogical information you found for requirement, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+            "Evaluating genealogical evidence requires assessing the informant's credibility and the document's physical condition. Researchers determine whether the source was created contemporaneously with the recorded life event."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p020_img1.png",
           "title": "Req 4d: Finding and Evaluating Source Evidence",
@@ -1212,10 +1250,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Locating Vital and Census Records (Req 4e) or confusing Locating Vital and Census Records with general Physical and Digital Genealogical Records procedures.",
-            "fact": "For Requirement 4e (Locating Vital and Census Records), Vital records are created to record births, marriages, and deaths (p. 20).",
-            "myth": "Overlooking the specific field checks required for Locating Vital and Census Records (Req 4e) or confusing Locating Vital and Census Records with general Physical and Digital Genealogical Records procedures.",
-            "fact_correction": "For Requirement 4e (Locating Vital and Census Records), Vital records are created to record births, marriages, and deaths (p. 20)."
+            "misconception": "Scouts expect to find local burial registers filed inside state vital statistics bureaus.",
+            "fact": "Burial details generally reside in private cemetery office ledgers, church vestry books, or funeral homes.",
+            "myth": "Scouts expect to find local burial registers filed inside state vital statistics bureaus.",
+            "fact_correction": "Burial details generally reside in private cemetery office ledgers, church vestry books, or funeral homes."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1241,10 +1279,10 @@
           "id": "4e",
           "sub_req_label": "4e",
           "sub_req_text": "Tell a likely place to find these type of genealogical records: marriage record, census record, birth record, and burial information.",
-          "topic_title": "Req 4e: Locating Vital and Census Records",
-          "pamphlet_summary": "Locating Vital and Census Records: Vital records are created to record births, marriages, and deaths (p. 20).",
+          "topic_title": "Req 4e: Vital Record Repository Mapping",
+          "pamphlet_summary": "Genealogical record types reside within specific civic, religious, and commercial institutions. Marriages and births occur in county clerk offices, censuses in national archives, and burials in cemetery registries.",
           "pamphlet_excerpts": [
-            "Locating Vital and Census Records: Vital records are created to record births, marriages, and deaths (p. 20)."
+            "Genealogical record types reside within specific civic, religious, and commercial institutions. Marriages and births occur in county clerk offices, censuses in national archives, and burials in cemetery registries."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p020_img1.png",
           "workbook_diagram_caption": "A death certificate provides primary vital statistics for ancestral research.",
@@ -1273,11 +1311,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Physical and Digital Genealogical Records",
+      "topic_title": "Req 4: Genealogical Source Analysis and Evaluation",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 4): Complete all Physical and Digital Genealogical Records discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Handle original archival documents with clean, dry hands without applying ink pens, adhesives, or tapes.",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
       "syllabus_bucket": "In-Class Concept",
@@ -1313,8 +1351,10 @@
         "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "Vital records of births, marriages, and deaths have always been issued and stored by the federal government in Washington, D.C.",
-        "fact": "In the United States, individual states create and maintain basic vital records, while earlier generations often recorded vital events in a family Bible (p. 20)."
+        "misconception": "Researchers assume that digitized online family trees represent verified, flawless primary source evidence.",
+        "fact": "User-submitted online trees often contain unverified transcription errors and must be corroborated with original documents.",
+        "myth": "Researchers assume that digitized online family trees represent verified, flawless primary source evidence.",
+        "fact_correction": "User-submitted online trees often contain unverified transcription errors and must be corroborated with original documents."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1338,16 +1378,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Core Vital Record Categories: Vital records are created to record births, marriages, and deaths (p. 20).",
-        "Certificate Details and Accuracy: By obtaining copies of these kinds of certificates, you can get accurate information about names, dates, places, and other details from your ancestors (p. 20).",
-        "Government and Family Origins: These records may be created by governments or by families (p. 20).",
-        "Home Family Birth Logs: Some families keep a record of the names and birth dates of all family members (p. 20)."
+        "Physical Repositories: County courthouses, public archives, and cemetery gravestones preserve tangible primary genealogical evidence.",
+        "Digital Aggregation: Online databases, digitized microfilm, and scanned indices accelerate multi-jurisdictional record discovery from home.",
+        "Evidentiary Evaluation: Primary information recorded near the event time carries higher reliability than delayed recollections.",
+        "Jurisdictional Targeting: Civil birth certificates reside with county registrars while historic land patents occupy state archives."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Identify Record Creators: These records may be created by governments or by families (p. 20).",
-        "Step 2 - Inspect Home Family Records: Some families keep a record of the names and birth dates of all family members (p. 20).",
-        "Step 3 - Check Family Bible Entries: In earlier times, many people recorded vital events in the family Bible (p. 20).",
-        "Step 4 - Request State Vital Certificates: In the United States, each state now creates the basic vital records (p. 20)."
+        "Step 1 - Identify Repositories: Locate three physical archives and three digital record databases applicable to your family.",
+        "Step 2 - Retrieve Document: Acquire a certified certificate or digitized census page documenting a specific family milestone.",
+        "Step 3 - Evaluate Quality: Analyze whether the document contains primary or secondary information regarding the recorded event.",
+        "Step 4 - Map Records: List standard municipal, religious, and federal repositories for birth, marriage, and death records."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Name three types of physical genealogical)",
@@ -1355,15 +1395,15 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Physical Genealogical Resource Typ",
-        "right_header": "Req 4c: Obtaining Supporting Pedigree Docu",
+        "left_header": "Req 4a: Physical Historical Resource Ident",
+        "right_header": "Req 4c: Evidentiary Document Acquisition M",
         "left_points": [
-          "(4a) Physical Genealogical Resource Types: The Genealogy pamphlet for Requirement 4a details three types of physical genealogical resources and where you can find them, and explain how these resources can help you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
-          "(4b) Digital Genealogical Resource Types: The Genealogy pamphlet for Requirement 4b details three types of digital genealogical resources and where you can find them, and explain how these resources can help you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+          "(4a) Physical Historical Resource Identification: Physical resources include original courthouse ledgers, library manuscripts, and engraved cemetery headstones. These tangible artifacts provide verifiable local provenance and prevent digital transcription errors.",
+          "(4b) Digital Database Resource Applications: Digital resources encompass searchable census indices, digitized probate images, and remote historical newspaper archives. These tools enable rapid searching across worldwide geographic repositories from a personal computer."
         ],
         "right_points": [
-          "(4c) Obtaining Supporting Pedigree Documents: Some families keep a record of the names and birth dates of all family members (p. 20).",
-          "(4d) Finding and Evaluating Source Evidence: The Genealogy pamphlet for Requirement 4d details how you found it and how you would evaluate the genealogical information you found for requirement, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+          "(4c) Evidentiary Document Acquisition Methods: Acquiring an authentic civil birth certificate, census schedule, or military muster roll validates chart entries. The document must substantiate at least one specific date, location, or relationship on record.",
+          "(4d) Source Provenance and Reliability Analysis: Evaluating genealogical evidence requires assessing the informant's credibility and the document's physical condition. Researchers determine whether the source was created contemporaneously with the recorded life event."
         ],
         "rows": [
           {
@@ -1387,10 +1427,10 @@
         "title": "Genealogy Req 4 Exemplar Workbook Entry: Physical and Digital Genealogical Records",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 4a - Physical Genealogical Resource Typ": "The Genealogy pamphlet for Requirement 4a details three types of physical genealogical resources and where you can find them, and explain how these resources can help you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
-          "Req 4b - Digital Genealogical Resource Type": "The Genealogy pamphlet for Requirement 4b details three types of digital genealogical resources and where you can find them, and explain how these resources can help you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
-          "Req 4c - Obtaining Supporting Pedigree Docu": "Some families keep a record of the names and birth dates of all family members (p. 20).",
-          "Req 4d - Finding and Evaluating Source Evid": "The Genealogy pamphlet for Requirement 4d details how you found it and how you would evaluate the genealogical information you found for requirement, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+          "Req 4a - Physical Historical Resource Iden": "Physical resources include original courthouse ledgers, library manuscripts, and engraved cemetery headstones. These tangible artifacts provide verifiable local provenance and prevent digital transcription errors.",
+          "Req 4b - Digital Database Resource Applica": "Digital resources encompass searchable census indices, digitized probate images, and remote historical newspaper archives. These tools enable rapid searching across worldwide geographic repositories from a personal computer.",
+          "Req 4c - Evidentiary Document Acquisition": "Acquiring an authentic civil birth certificate, census schedule, or military muster roll validates chart entries. The document must substantiate at least one specific date, location, or relationship on record.",
+          "Req 4d - Source Provenance and Reliability": "Evaluating genealogical evidence requires assessing the informant's credibility and the document's physical condition. Researchers determine whether the source was created contemporaneously with the recorded life event."
         },
         "sample_output": "Physical and Digital Genealogical Records: By obtaining copies of these kinds of certificates, you can get accurate information about names, dates, places, and other details from your ancestors (p. 20).",
         "counselor_tip": "For Genealogy Requirement 4 (Physical and Digital Genealogical Records), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25))."
@@ -1422,7 +1462,13 @@
       "workbook_diagram_caption": "A death certificate provides primary vital statistics for ancestral research.",
       "number": "4",
       "description": "Do the following: (a) Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree. (b) Name three types of digital genealogical resources and where you can find them, and explain how these resources can help you chart your family tree. (c) Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record. (d) Tell how you found it and how you would evaluate the genealogical information you found for requirement 4(c). (e) Tell a likely place to find these type of genealogical records: marriage record, census record, birth record, and burial information.",
-      "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research."
+      "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research.",
+      "pamphlet_summary": "Genealogists evaluate evidence by distinguishing between original physical artifacts and digital database reproductions. Researchers must critically appraise document authenticity, analyze primary versus secondary information, and target repositories matching specific record types.",
+      "socratic_questions": [
+        "Why is an informant's relationship to an event critical when evaluating death certificate accuracy?",
+        "How does a physical cemetery visit provide clues that digitized headstone photos might miss?",
+        "What distinguishes a primary source from a secondary source in genealogical analysis?"
+      ]
     },
     {
       "req_id": "5",
@@ -1466,8 +1512,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Genealogical libraries and state archives only allow paid professional genealogists to view their records.",
-            "fact": "Most genealogical libraries, archives, and societies welcome the public and help amateur researchers learn what records and services are available (p. 29)."
+            "misconception": "Scouts assume lineage societies accept verbal family claims without requiring original supporting records.",
+            "fact": "Lineage societies mandate strict primary source documentation for every parent-child link on an application.",
+            "myth": "Scouts assume lineage societies accept verbal family claims without requiring original supporting records.",
+            "fact_correction": "Lineage societies mandate strict primary source documentation for every parent-child link on an application."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1493,10 +1541,10 @@
           "id": "5a",
           "sub_req_label": "5a",
           "sub_req_text": "A genealogical or lineage society.",
-          "topic_title": "Req 5a: Genealogical and Lineage Societies",
-          "pamphlet_summary": "For Genealogy Requirement 5a (Genealogical and Lineage Societies): The Genealogy pamphlet for Requirement 5a details a genealogical or lineage society, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
+          "topic_title": "Req 5a: Lineage Society Service Evaluation",
+          "pamphlet_summary": "Lineage societies require documented proof of descent from specific historical cohorts like revolutionary soldiers or pioneers. They maintain valuable compiled application files containing verified generational proofs.",
           "pamphlet_excerpts": [
-            "Genealogical and Lineage Societies: The Genealogy pamphlet for Requirement 5a details a genealogical or lineage society, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
+            "Lineage societies require documented proof of descent from specific historical cohorts like revolutionary soldiers or pioneers. They maintain valuable compiled application files containing verified generational proofs."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p025_img1.png",
           "workbook_diagram_caption": "A federal census schedule provides household names, ages, and relationships.",
@@ -1537,8 +1585,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Second cousins and grand aunts are too distantly related to know anything useful about your direct ancestors.",
-            "fact": "Extended family members like grand aunts, grand uncles, and second cousins often hold family stories, photos, and documents your immediate household never saw (p. 19)."
+            "misconception": "People think professional genealogists simply search online subscription databases that anyone can access.",
+            "fact": "Professionals analyze original foreign manuscripts, archaic legal scripts, and complex jurisdictional land records.",
+            "myth": "People think professional genealogists simply search online subscription databases that anyone can access.",
+            "fact_correction": "Professionals analyze original foreign manuscripts, archaic legal scripts, and complex jurisdictional land records."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1564,10 +1614,10 @@
           "id": "5b",
           "sub_req_label": "5b",
           "sub_req_text": "A professional genealogist (someone who gets paid for doing genealogical research)",
-          "topic_title": "Req 5b: Professional Genealogical Researchers",
-          "pamphlet_summary": "For Genealogy Requirement 5b (Professional Genealogical Researchers): The Genealogy pamphlet for Requirement 5b details a professional genealogist (someone who gets paid for doing genealogical research), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
+          "topic_title": "Req 5b: Professional Genealogist Practice Standards",
+          "pamphlet_summary": "Professional genealogists conduct client-directed research, paleographic transcriptions, and forensic lineage evaluations for compensation. They adhere to formal genealogical proof standards and maintain specialized regional knowledge.",
           "pamphlet_excerpts": [
-            "Professional Genealogical Researchers: The Genealogy pamphlet for Requirement 5b details a professional genealogist (someone who gets paid for doing genealogical research), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
+            "Professional genealogists conduct client-directed research, paleographic transcriptions, and forensic lineage evaluations for compensation. They adhere to formal genealogical proof standards and maintain specialized regional knowledge."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p025_img1.png",
           "workbook_diagram_caption": "A federal census schedule provides household names, ages, and relationships.",
@@ -1608,8 +1658,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
-            "misconception": "A lineage society and a public courthouse perform the exact same function in genealogy.",
-            "fact": "A courthouse is a government record repository holding legal documents like wills and deeds, whereas a lineage or genealogical society preserves compiled histories and educational programs (p. 29)."
+            "misconception": "Scouts believe all individuals sharing an identical surname descend from one common biological ancestor.",
+            "fact": "Many unrelated families independently adopted identical surnames based on common occupations, locations, or patronymics.",
+            "myth": "Scouts believe all individuals sharing an identical surname descend from one common biological ancestor.",
+            "fact_correction": "Many unrelated families independently adopted identical surnames based on common occupations, locations, or patronymics."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1635,10 +1687,10 @@
           "id": "5c",
           "sub_req_label": "5c",
           "sub_req_text": "A surname organization, such as your family's organization.",
-          "topic_title": "Req 5c: Surname and Family Organizations",
-          "pamphlet_summary": "Surname and Family Organizations: Ancestral family organizations are created around an ancestral couple and include all of their descendants (p. 19).",
+          "topic_title": "Req 5c: Surname Organization Network Collaboration",
+          "pamphlet_summary": "Surname organizations unite researchers investigating a single shared family name across multiple branches. They publish newsletters, aggregate global family records, and coordinate DNA surname studies.",
           "pamphlet_excerpts": [
-            "Surname and Family Organizations: Ancestral family organizations are created around an ancestral couple and include all of their descendants (p. 19)."
+            "Surname organizations unite researchers investigating a single shared family name across multiple branches. They publish newsletters, aggregate global family records, and coordinate DNA surname studies."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p025_img1.png",
           "title": "Req 5c: Surname and Family Organizations",
@@ -1680,8 +1732,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
-            "misconception": "During Genealogy Requirement 5d, Scouts can underestimate how directly mastery of genealogical educational institutions depends on understanding a genealogical educational facility or institution.",
-            "fact": "Scouting America standards for Genealogy Requirement 5d require complete workbook entries on genealogical educational institutions to demonstrate full understanding of a genealogical educational facility or institution."
+            "misconception": "Beginners think genealogical education focuses only on software tutorials rather than historical analysis.",
+            "fact": "Genealogical education emphasizes critical evidence analysis, historical context, paleography, and advanced methodology.",
+            "myth": "Beginners think genealogical education focuses only on software tutorials rather than historical analysis.",
+            "fact_correction": "Genealogical education emphasizes critical evidence analysis, historical context, paleography, and advanced methodology."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1707,10 +1761,10 @@
           "id": "5d",
           "sub_req_label": "5d",
           "sub_req_text": "A genealogical educational facility or institution.",
-          "topic_title": "Req 5d: Genealogical Educational Institutions",
-          "pamphlet_summary": "For Genealogy Requirement 5d (Genealogical Educational Institutions): The Genealogy pamphlet for Requirement 5d details a genealogical educational facility or institution, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
+          "topic_title": "Req 5d: Educational Institution Research Offerings",
+          "pamphlet_summary": "Genealogical educational facilities provide university lectures, methodological institutes, and instructional workshops. These institutions train researchers in methodology, record analysis, and genealogical standards.",
           "pamphlet_excerpts": [
-            "Genealogical Educational Institutions: The Genealogy pamphlet for Requirement 5d details a genealogical educational facility or institution, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
+            "Genealogical educational facilities provide university lectures, methodological institutes, and instructional workshops. These institutions train researchers in methodology, record analysis, and genealogical standards."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p025_img1.png",
           "workbook_diagram_caption": "A federal census schedule provides household names, ages, and relationships.",
@@ -1753,10 +1807,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Genealogical Record Repositories (Req 5e) or confusing Genealogical Record Repositories with general Genealogical Societies, Professionals, and Repositories procedures.",
-            "fact": "For Requirement 5e (Genealogical Record Repositories), The Genealogy pamphlet for Requirement 5e details a genealogical record repository of any type, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
-            "myth": "Overlooking the specific field checks required for Genealogical Record Repositories (Req 5e) or confusing Genealogical Record Repositories with general Genealogical Societies, Professionals, and Repositories procedures.",
-            "fact_correction": "For Requirement 5e (Genealogical Record Repositories), The Genealogy pamphlet for Requirement 5e details a genealogical record repository of any type, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
+            "misconception": "Researchers assume local courthouses discard records that are older than one hundred years.",
+            "fact": "Courthouses and regional archives permanently maintain historic deeds, estate files, and court dockets indefinitely.",
+            "myth": "Researchers assume local courthouses discard records that are older than one hundred years.",
+            "fact_correction": "Courthouses and regional archives permanently maintain historic deeds, estate files, and court dockets indefinitely."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1782,10 +1836,10 @@
           "id": "5e",
           "sub_req_label": "5e",
           "sub_req_text": "A genealogical record repository of any type (courthouse, genealogical library, state or national archive, state library, etc.)",
-          "topic_title": "Req 5e: Genealogical Record Repositories",
-          "pamphlet_summary": "For Genealogy Requirement 5e (Genealogical Record Repositories): The Genealogy pamphlet for Requirement 5e details a genealogical record repository of any type, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
+          "topic_title": "Req 5e: Archival Record Repository Functions",
+          "pamphlet_summary": "Record repositories such as county courthouses and state archives house original permanent public records. They preserve vital civil documents, land titles, court proceedings, and probate packets.",
           "pamphlet_excerpts": [
-            "Genealogical Record Repositories: The Genealogy pamphlet for Requirement 5e details a genealogical record repository of any type, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
+            "Record repositories such as county courthouses and state archives house original permanent public records. They preserve vital civil documents, land titles, court proceedings, and probate packets."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p025_img1.png",
           "workbook_diagram_caption": "A federal census schedule provides household names, ages, and relationships.",
@@ -1822,11 +1876,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Genealogical Societies, Professionals, and Repositories",
+      "topic_title": "Req 5: Professional Institutions and Repositories",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Genealogy Requirement 5 on genealogical societies, professionals, and repositories under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
+      "safety_callout": "When communicating with external institutions, include a parent or leader on all correspondence.",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
       "syllabus_bucket": "In-Class Concept",
@@ -1862,8 +1916,10 @@
         "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "Anyone who happens to share the same last name automatically descends from the same founding couple in a surname organization.",
-        "fact": "An ancestral family organization centers on a specific ancestral couple, and members trace their documented lineage back to that couple to share research (p. 19)."
+        "misconception": "Inquirers expect archival staff to conduct free, comprehensive family tree research upon request.",
+        "fact": "Archivists guide patrons toward relevant catalog collections but rarely conduct extensive personal lineage lookups.",
+        "myth": "Inquirers expect archival staff to conduct free, comprehensive family tree research upon request.",
+        "fact_correction": "Archivists guide patrons toward relevant catalog collections but rarely conduct extensive personal lineage lookups."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1887,16 +1943,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Extended Family Kinship Network: It also may include your great-grandparents, your grand aunts andgranduncles, and your second cousins (p. 19).",
-        "Extended Relatives as Informants: Members of your extended family can be helpful in telling you about your family history and genealogy (p. 19).",
-        "Ancestral Couple Family Groups: Ancestral family organizations are created around an ancestral couple and include all of their descendants (p. 19).",
-        "Historical Surname Organization Example: For example, John and Jane Clough who came to America in the early 1600s are the center of a Clough family organization (p. 19)."
+        "Institutional Services: Lineage societies verify generational bloodlines through stringent documentary standards for prospective member applicants.",
+        "Repository Access: Public archives maintain probate records, tax rolls, and land deeds within reading rooms.",
+        "Professional Expertise: Certified genealogists offer specialized linguistic, paleographic, and jurisdictional search services for complex lineage problems.",
+        "Query Protocol: Formal research inquiries should specify exact names, geographic localities, and narrow historical timeframes."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Locate Ancestral Family Organizations: Ancestral family organizations are created around an ancestral couple and include all of their descendants (p. 19).",
-        "Step 2 - Identify Shared Founding Ancestors: For example, John and Jane Clough who came to America in the early 1600s are the center of a Clough family organization (p. 19).",
-        "Step 3 - Trace Shared Ancestral Lines: Everyone who belongs to this organization should be able to trace his or her ancestry to this couple (p. 19).",
-        "Step 4 - Share Verified Descendant Research: The purposes of a family organization are to do good research into the ancestry and descendants of a couple and to record and share the information (p. 19)."
+        "Step 1 - Select Entity: Choose one genealogical society, certified professional, or historical repository relevant to family origins.",
+        "Step 2 - Formulate Inquiry: Prepare specific questions about their holdings, access policies, search fees, and research services.",
+        "Step 3 - Transmit Query: Contact the selected institution or specialist via telephone, email, or formal postal letter.",
+        "Step 4 - Document Response: Record the organization's service offerings, archival holdings, and research guidance in your notebook."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Genealogy Careers and Pathways)",
@@ -1904,15 +1960,15 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Genealogical and Lineage Societies",
-        "right_header": "Req 5c: Surname and Family Organizations",
+        "left_header": "Req 5a: Lineage Society Service Evaluation",
+        "right_header": "Req 5c: Surname Organization Network Colla",
         "left_points": [
-          "(5a) Genealogical and Lineage Societies: The Genealogy pamphlet for Requirement 5a details a genealogical or lineage society, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
-          "(5b) Professional Genealogical Researchers: The Genealogy pamphlet for Requirement 5b details a professional genealogist (someone who gets paid for doing genealogical research), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
+          "(5a) Lineage Society Service Evaluation: Lineage societies require documented proof of descent from specific historical cohorts like revolutionary soldiers or pioneers. They maintain valuable compiled application files containing verified generational proofs.",
+          "(5b) Professional Genealogist Practice Standards: Professional genealogists conduct client-directed research, paleographic transcriptions, and forensic lineage evaluations for compensation. They adhere to formal genealogical proof standards and maintain specialized regional knowledge."
         ],
         "right_points": [
-          "(5c) Surname and Family Organizations: Ancestral family organizations are created around an ancestral couple and include all of their descendants (p. 19).",
-          "(5d) Genealogical Educational Institutions: The Genealogy pamphlet for Requirement 5d details a genealogical educational facility or institution, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
+          "(5c) Surname Organization Network Collaboration: Surname organizations unite researchers investigating a single shared family name across multiple branches. They publish newsletters, aggregate global family records, and coordinate DNA surname studies.",
+          "(5d) Educational Institution Research Offerings: Genealogical educational facilities provide university lectures, methodological institutes, and instructional workshops. These institutions train researchers in methodology, record analysis, and genealogical standards."
         ],
         "rows": [
           {
@@ -1936,10 +1992,10 @@
         "title": "Genealogy Req 5 Exemplar Workbook Entry: Genealogical Societies, Professionals, and Repositories",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 5a - Genealogical and Lineage Societies": "The Genealogy pamphlet for Requirement 5a details a genealogical or lineage society, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
-          "Req 5b - Professional Genealogical Research": "The Genealogy pamphlet for Requirement 5b details a professional genealogist (someone who gets paid for doing genealogical research), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
-          "Req 5c (Surname and Family Organizations)": "Ancestral family organizations are created around an ancestral couple and include all of their descendants (p. 19).",
-          "Req 5d - Genealogical Educational Instituti": "The Genealogy pamphlet for Requirement 5d details a genealogical educational facility or institution, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
+          "Req 5a - Lineage Society Service Evaluatio": "Lineage societies require documented proof of descent from specific historical cohorts like revolutionary soldiers or pioneers. They maintain valuable compiled application files containing verified generational proofs.",
+          "Req 5b - Professional Genealogist Practice": "Professional genealogists conduct client-directed research, paleographic transcriptions, and forensic lineage evaluations for compensation. They adhere to formal genealogical proof standards and maintain specialized regional knowledge.",
+          "Req 5c - Surname Organization Network Coll": "Surname organizations unite researchers investigating a single shared family name across multiple branches. They publish newsletters, aggregate global family records, and coordinate DNA surname studies.",
+          "Req 5d - Educational Institution Research": "Genealogical educational facilities provide university lectures, methodological institutes, and instructional workshops. These institutions train researchers in methodology, record analysis, and genealogical standards."
         },
         "sample_output": "Genealogical Societies, Professionals, and Repositories: Ancestral family organizations are created around an ancestral couple and include all of their descendants (p. 19).",
         "counselor_tip": "For Genealogy Requirement 5 (Genealogical Societies, Professionals, and Repositories), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29))."
@@ -1971,7 +2027,13 @@
       "workbook_diagram_caption": "A federal census schedule provides household names, ages, and relationships.",
       "number": "5",
       "description": "Contact ONE of the following individuals or institutions. Ask what genealogical services, records, or activities this individual or institution provides, and report the results: (a) A genealogical or lineage society (b) A professional genealogist (someone who gets paid for doing genealogical research) (c) A surname organization, such as your family's organization (d) A genealogical educational facility or institution (e) A genealogical record repository of any type (courthouse, genealogical library, state or national archive, state library, etc.)",
-      "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships."
+      "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships.",
+      "pamphlet_summary": "Genealogical societies, professional researchers, and specialized repositories offer expert guidance and proprietary manuscript holdings. Contacting these organizations demonstrates professional research etiquette and reveals localized catalog systems unavailable in commercial databases.",
+      "socratic_questions": [
+        "How do the research goals of a lineage society differ from those of a county historical society?",
+        "Why is it important to check an archive's catalog and finding aids before initiating contact?",
+        "What value does a surname organization provide that a general genealogical library cannot match?"
+      ]
     },
     {
       "req_id": "6",
@@ -1994,11 +2056,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Three Generation Pedigree Chart",
+      "topic_title": "Req 6: Pedigree Chart Generational Construction",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 6): Complete all Three Generation Pedigree Chart discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Do not publicly publish living individuals' birth dates or social security numbers online.",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 16, p. 56)",
       "syllabus_bucket": "In-Class Concept",
@@ -2026,8 +2088,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "If an online search returns a record with your ancestor's exact first and last name, that record must belong to your family tree.",
-        "fact": "Many people share the same name, so you must narrow searches with places and dates and verify whether any matching record actually belongs to your ancestor (p. 16)."
+        "misconception": "Beginners often write married surnames on pedigree charts instead of the mother's maiden surname.",
+        "fact": "Genealogists always record women under their biological maiden surnames to preserve maternal lineage continuity.",
+        "myth": "Beginners often write married surnames on pedigree charts instead of the mother's maiden surname.",
+        "fact_correction": "Genealogists always record women under their biological maiden surnames to preserve maternal lineage continuity."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2051,16 +2115,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Unique Search Keyword Selection: Keywords are words that are unique to what you are searching (p. 16).",
-        "Broad Search Query Overload: If you just typed in grave and Rose Goldman, you would get thousands of hits (p. 16).",
-        "Place and Date Filters: To do this, you might add the name of the place Rose Goldman died or the year of her death to your search terms (p. 16).",
-        "Same Name Identity Traps: Remember, however, that not all the Rose Gold mans you find will be your ancestor (p. 16)."
+        "Exponential Growth: Every generation doubles ancestral lines, requiring two parents and four biological grandparents on charts.",
+        "Standard Dates: Record dates using day, three-letter month abbreviation, and four-digit year format consistently.",
+        "Standard Places: List geographic locations in ascending hierarchical order from town, to county, state, country.",
+        "Maiden Names: Always record females using their maiden surnames rather than their married legal surnames."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Add Place and Year: To do this, you might add the name of the place Rose Goldman died or the year of her death to your search terms (p. 16).",
-        "Step 2 - Distinguish Matching Ancestor Names: Remember, however, that not all the Rose Gold mans you find will be your ancestor (p. 16).",
-        "Step 3 - Rule Out False Matches: In fact, it is possible that none of the matches you get will be your ancestor (p. 16).",
-        "Step 4 - Check Computer Search Results: Remember, too, that computers are not as smart (p. 16)."
+        "Step 1 - Position Self: Enter your complete legal name, birth date, and birthplace on line one.",
+        "Step 2 - Record Parents: Add father's details on upper line two and mother's details on lower line.",
+        "Step 3 - Add Grandparents: Enter verified vital details for paternal and maternal grandparents on lines four through seven.",
+        "Step 4 - Verify Completeness: Check every chart entry for standard date formatting, maiden names, and complete localities."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -2133,7 +2197,13 @@
       "workbook_diagram_caption": "An ornate historic family record chart organizes multi-generational lineage.",
       "number": "6",
       "description": "Begin your family tree by listing yourself and include at least two additional generations. You may complete this requirement by using the chart provided in the Genealogy merit badge pamphlet or the genealogy software program of your choice.",
-      "workbook_visual_caption": "An ornate historic family record chart organizes multi-generational lineage."
+      "workbook_visual_caption": "An ornate historic family record chart organizes multi-generational lineage.",
+      "pamphlet_summary": "Constructing a three-generation pedigree chart establishes the foundational skeleton of ancestral research. The chart begins with the Scout and expands exponentially to include parents and four biological grandparents.",
+      "socratic_questions": [
+        "Why do genealogical standards require recording women under their maiden surnames rather than married surnames?",
+        "What happens to your ancestral research if you record a county name that did not exist yet?",
+        "Why is the day-month-year format preferred over the numeric month-day-year format in genealogy?"
+      ]
     },
     {
       "req_id": "7",
@@ -2156,11 +2226,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Two Generation Family Group Forms",
+      "topic_title": "Req 7: Family Group Record Construction",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 7): Complete all Two Generation Family Group Forms discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Ensure sensitive personal family details like adoptions remain private unless family members consent.",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 44, p. 47)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 44, p. 47)",
       "syllabus_bucket": "In-Class Concept",
@@ -2192,8 +2262,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "You can fit both your own siblings and your parent's brothers and sisters as children on the exact same family group record form.",
-        "fact": "Each family group record covers a single parent couple and their children, so Requirement 7 uses one form for your household and a second form where your parent and their siblings are the children (p. 44)."
+        "misconception": "Novices often omit siblings who died young from family group sheets, thinking they do not matter.",
+        "fact": "Recording every child who was born prevents misidentifying surviving siblings and clarifies census household tallies.",
+        "myth": "Novices often omit siblings who died young from family group sheets, thinking they do not matter.",
+        "fact_correction": "Recording every child who was born prevents misidentifying surviving siblings and clarifies census household tallies."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2222,16 +2294,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Adding Small Ancestor Photographs: Adding small photographs to your pedigree chart can make it more interesting (p. 44).",
-        "Commercial or Custom Charts: You can buy charts with spaces built in for photos, or you can design (p. 44).",
-        "Handling Missing Ancestor Photos: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 44).",
-        "Direct Ancestor Chart Scope: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 44)."
+        "Household Completeness: Family group sheets capture all children, including those who died during infancy or childhood.",
+        "Chronological Sibling Sequence: List children in strict birth order regardless of gender to maintain accurate generational chronology.",
+        "Marriage Documentation: Document exact marriage dates, officiants, witnesses, and civil jurisdictions for the parental couple.",
+        "Dual Record Linking: Linking generational family group records creates continuous documentation across successive family households."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Add Photos Where Available: Place a photo of each ancestor near his or her space on the chart; do not worry if you don't have a photo of each one (p. 44).",
-        "Step 2 - Verify Direct Line Entries: Your pedigree chart contains information about your parents, grandparents, and other direct ancestors (p. 44).",
-        "Step 3 - List Siblings and Aunts: But what about other relatives such as brothers, sisters, uncles, aunts, and cousins (p. 44).",
-        "Step 4 - Complete Both Family Forms: They, too, are an important part of your genealogy (p. 44)."
+        "Step 1 - Draft Personal Household: List your parents as the couple and yourself with your siblings as children.",
+        "Step 2 - Record Parental Household: Create a second sheet showing a parent and their siblings as the children.",
+        "Step 3 - Enter Vital Dates: Fill in birth, marriage, and death dates with exact locations for every person.",
+        "Step 4 - Cross-Reference Records: Link the child on the older sheet to the parent on the newer sheet."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet and Fillable Scout Workbook (Req 7: Family Group Record Form Listing)",
@@ -2308,7 +2380,13 @@
       "workbook_diagram_caption": "A pedigree chart organizes generational relationships among direct ancestors.",
       "number": "7",
       "description": "Complete a family group record form, listing yourself and your brothers and sisters as the children. On another family group record form, show your parent or guardian and his or her brothers and sisters as the children. This requirement may be completed using the chart provided or the genealogy software program of your choice.",
-      "workbook_visual_caption": "A pedigree chart organizes generational relationships among direct ancestors."
+      "workbook_visual_caption": "A pedigree chart organizes generational relationships among direct ancestors.",
+      "pamphlet_summary": "Family group records document the complete social and biological structure of a single domestic household. Compiling separate records for the Scout's siblings and a parent's siblings illuminates collateral relationships and infant mortality.",
+      "socratic_questions": [
+        "Why must a researcher compile a family group record even when a pedigree chart already exists?",
+        "How can knowing an uncle's or aunt's birth date solve an ancestral mystery for your parent?",
+        "What clues do spacing gaps between recorded children provide when studying historical census households?"
+      ]
     },
     {
       "req_id": "8",
@@ -2352,8 +2430,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
           "common_misconception_pair": {
-            "misconception": "You must be a member of The Church of Jesus Christ of Latter-day Saints or pay a fee to use the Family History Library or its local centers.",
-            "fact": "The Family History Library and thousands of local Family History Centers are open to the general public free of charge (p. 20)."
+            "misconception": "Scouts believe computer databases have completely replaced the need for visiting physical archives.",
+            "fact": "Computers provide access to millions of digitized collections, but vast numbers of records remain un-scanned.",
+            "myth": "Scouts believe computer databases have completely replaced the need for visiting physical archives.",
+            "fact_correction": "Computers provide access to millions of digitized collections, but vast numbers of records remain un-scanned."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2379,10 +2459,10 @@
           "id": "8a",
           "sub_req_label": "8a",
           "sub_req_text": "Explain the effect computers and the internet are having on the world of genealogy.",
-          "topic_title": "Req 8a: Computers and Internet Genealogy Impact",
-          "pamphlet_summary": "For Genealogy Requirement 8a (Computers and Internet Genealogy Impact): The Genealogy pamphlet for Requirement 8a details the effect computers and the internet are having on the world of genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+          "topic_title": "Req 8a: Computer and Internet Paradigm Shift",
+          "pamphlet_summary": "The internet and computing allow instant access to billions of digitized records and collaborative research platforms. They eliminate geographic isolation and enable worldwide cross-referencing of lineage data.",
           "pamphlet_excerpts": [
-            "Computers and Internet Genealogy Impact: The Genealogy pamphlet for Requirement 8a details the effect computers and the internet are having on the world of genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+            "The internet and computing allow instant access to billions of digitized records and collaborative research platforms. They eliminate geographic isolation and enable worldwide cross-referencing of lineage data."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p021_img1.png",
           "workbook_diagram_caption": "A handwritten church christening log preserves historical baptism records.",
@@ -2423,8 +2503,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
           "common_misconception_pair": {
-            "misconception": "Record indexing deletes the original historical document once the names are typed into a database.",
-            "fact": "An index is a searchable pointer of key names and dates that helps researchers rapidly find the exact page on a microfilm roll or digital image (p. 31)."
+            "misconception": "Beginners assume microfilm is an obsolete, useless technology that genealogists no longer utilize.",
+            "fact": "Microfilm rolls still contain rare collections that have not yet been digitized or uploaded online.",
+            "myth": "Beginners assume microfilm is an obsolete, useless technology that genealogists no longer utilize.",
+            "fact_correction": "Microfilm rolls still contain rare collections that have not yet been digitized or uploaded online."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2450,10 +2532,10 @@
           "id": "8b",
           "sub_req_label": "8b",
           "sub_req_text": "Explain how photography (including microfilming) has influenced genealogy.",
-          "topic_title": "Req 8b: Photography and Microfilming Preservation",
-          "pamphlet_summary": "For Genealogy Requirement 8b (Photography and Microfilming Preservation): The Genealogy pamphlet for Requirement 8b details how photography (including microfilming) has influenced genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+          "topic_title": "Req 8b: Photography and Microfilm Preservation",
+          "pamphlet_summary": "Photographic microfilming safeguarded millions of crumbling paper records from fire, decay, and damp conditions. It allowed researchers worldwide to view exact photographic facsimiles of unique original manuscripts.",
           "pamphlet_excerpts": [
-            "Photography and Microfilming Preservation: The Genealogy pamphlet for Requirement 8b details how photography (including microfilming) has influenced genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+            "Photographic microfilming safeguarded millions of crumbling paper records from fire, decay, and damp conditions. It allowed researchers worldwide to view exact photographic facsimiles of unique original manuscripts."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p021_img1.png",
           "workbook_diagram_caption": "A handwritten church christening log preserves historical baptism records.",
@@ -2504,8 +2586,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
           "common_misconception_pair": {
-            "misconception": "Photography only matters in genealogy for taking family portraits at reunions.",
-            "fact": "Beyond capturing ancestor portraits, photography enabled microfilming and digital imaging that preserve decaying courthouse and church ledgers worldwide (p. 31)."
+            "misconception": "Scouts think computer software easily transcribes historical nineteenth-century cursive without human assistance.",
+            "fact": "Archaic handwriting and faded ink require human volunteers to decipher and index names accurately.",
+            "myth": "Scouts think computer software easily transcribes historical nineteenth-century cursive without human assistance.",
+            "fact_correction": "Archaic handwriting and faded ink require human volunteers to decipher and index names accurately."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2531,10 +2615,10 @@
           "id": "8c",
           "sub_req_label": "8c",
           "sub_req_text": "Explain how record indexing works and how that has influenced genealogy.",
-          "topic_title": "Req 8c: Record Indexing Systems and Search",
-          "pamphlet_summary": "For Genealogy Requirement 8c (Record Indexing Systems and Search): The Genealogy pamphlet for Requirement 8c details how record indexing works and how that has influenced genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+          "topic_title": "Req 8c: Crowdsourced Record Indexing Mechanics",
+          "pamphlet_summary": "Record indexing converts handwritten names, dates, and places into electronic search databases through systematic data entry. This process transforms unsearchable scanned manuscript images into instantly discoverable genealogical records.",
           "pamphlet_excerpts": [
-            "Record Indexing Systems and Search: The Genealogy pamphlet for Requirement 8c details how record indexing works and how that has influenced genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+            "Record indexing converts handwritten names, dates, and places into electronic search databases through systematic data entry. This process transforms unsearchable scanned manuscript images into instantly discoverable genealogical records."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p021_img1.png",
           "title": "Req 8c: Record Indexing Systems and Search",
@@ -2568,11 +2652,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Computers, Microfilm, and Record Indexing",
+      "topic_title": "Req 8: Technological Advancements in Genealogy",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 8): Complete all Computers, Microfilm, and Record Indexing discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Exercise digital hygiene by using strong passwords and avoiding unvetted downloads from unfamiliar genealogical sites.",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
       "syllabus_bucket": "In-Class Concept",
@@ -2604,8 +2688,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Microfilming is an obsolete technology that contributed nothing to modern online genealogy websites.",
-        "fact": "Microfilming preserved millions of fragile original documents around the world, and those microfilm rolls form the foundation for many digitized and indexed records online today (p. 20)."
+        "misconception": "Scouts assume artificial intelligence and computers can automatically build a 100 percent accurate family tree.",
+        "fact": "Computers only index and retrieve records; human genealogists must evaluate evidence and resolve record discrepancies.",
+        "myth": "Scouts assume artificial intelligence and computers can automatically build a 100 percent accurate family tree.",
+        "fact_correction": "Computers only index and retrieve records; human genealogists must evaluate evidence and resolve record discrepancies."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2629,16 +2715,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "World's Largest Genealogical Library: Today the FHL is the largest genealogical library in the world and is open to the general public (p. 20).",
-        "Free Public Research Access: Anyone can use the library's resources free of charge (p. 20).",
-        "Global Family History Centers: In addition, thousands of associated branch libraries called Family History Centers are located through out the world (p. 20).",
-        "Volunteer Staffed Local Branches: Family History Centers are often located in local meetinghouses of The Church of Jesus Christ of Latter-day Saints and staffed by volunteers (p. 20)."
+        "Global Connectivity: High-speed internet access connects remote researchers with global archives and centralized family databases.",
+        "Photographic Preservation: Microfilming historic ledgers preserves decaying paper records and enables portable worldwide viewing.",
+        "Index Searchability: Crowdsourced digital indexing converts cursive handwritten registry entries into searchable computer database text.",
+        "Database Linking: Automated computer algorithms match digitized vital certificates to online family trees for verification."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Locate Local Branch Centers: In addition, thousands of associated branch libraries called Family History Centers are located through out the world (p. 20).",
-        "Step 2 - Ask Volunteer Staff for Help: Family History Centers are often located in local meetinghouses of The Church of Jesus Christ of Latter-day Saints and staffed by volunteers (p. 20).",
-        "Step 3 - Use Center Genealogy Computers: Most Family History Centers have computers within ternet access to genealogy websites (p. 20).",
-        "Step 4 - Search Microfilm and Books: The FHL's collection includes more than two million rolls of microfilm and thousands of bound books (p. 20)."
+        "Step 1 - Research Tech Impacts: Document how cloud storage and search engines transformed historical record discovery over decades.",
+        "Step 2 - Study Micrographics: Examine how microfilming and digital photography prevented loss of deteriorating courthouse ledgers.",
+        "Step 3 - Evaluate Indexing: Explore how volunteer indexing projects transcribe manuscript censuses into searchable electronic datasets.",
+        "Step 4 - Discuss Findings: Present your analysis of historical preservation technologies and computerized research to your counselor."
       ],
       "gear_checklist": [
         "Official Genealogy Merit Badge Pamphlet and Fillable Scout Workbook (Req 8: Computers and The Internet)",
@@ -2646,15 +2732,13 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Computers and Internet Genealogy I",
-        "right_header": "Req 8b: Photography and Microfilming Prese",
+        "left_header": "Req 8a: Computer and Internet Paradigm Shi",
+        "right_header": "Req 8b: Photography and Microfilm Preserva",
         "left_points": [
-          "(8a) Computers and Internet Genealogy Impact: The Genealogy pamphlet for Requirement 8a details the effect computers and the internet are having on the world of genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
-          "Free Public Research Access: Anyone can use the library's resources free of charge (p. 20)."
+          "(8a) Computer and Internet Paradigm Shift: The internet and computing allow instant access to billions of digitized records and collaborative research platforms. They eliminate geographic isolation and enable worldwide cross-referencing of lineage data."
         ],
         "right_points": [
-          "(8b) Photography and Microfilming Preservation: The Genealogy pamphlet for Requirement 8b details how photography (including microfilming) has influenced genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
-          "Global Family History Centers: In addition, thousands of associated branch libraries called Family History Centers are located through out the world (p. 20)."
+          "(8b) Photography and Microfilm Preservation: Photographic microfilming safeguarded millions of crumbling paper records from fire, decay, and damp conditions. It allowed researchers worldwide to view exact photographic facsimiles of unique original manuscripts."
         ],
         "rows": [
           {
@@ -2678,9 +2762,9 @@
         "title": "Genealogy Req 8 Exemplar Workbook Entry: Computers, Microfilm, and Record Indexing",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 8a - Computers and Internet Genealogy I": "The Genealogy pamphlet for Requirement 8a details the effect computers and the internet are having on the world of genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
-          "Req 8b - Photography and Microfilming Prese": "The Genealogy pamphlet for Requirement 8b details how photography (including microfilming) has influenced genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
-          "Req 8c - Record Indexing Systems and Search": "The Genealogy pamphlet for Requirement 8c details how record indexing works and how that has influenced genealogy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+          "Req 8a - Computer and Internet Paradigm Sh": "The internet and computing allow instant access to billions of digitized records and collaborative research platforms. They eliminate geographic isolation and enable worldwide cross-referencing of lineage data.",
+          "Req 8b - Photography and Microfilm Preserv": "Photographic microfilming safeguarded millions of crumbling paper records from fire, decay, and damp conditions. It allowed researchers worldwide to view exact photographic facsimiles of unique original manuscripts.",
+          "Req 8c - Crowdsourced Record Indexing Mech": "Record indexing converts handwritten names, dates, and places into electronic search databases through systematic data entry. This process transforms unsearchable scanned manuscript images into instantly discoverable genealogical records."
         },
         "sample_output": "Computers, Microfilm, and Record Indexing: Anyone can use the library's resources free of charge (p. 20).",
         "counselor_tip": "For Genealogy Requirement 8 (Computers, Microfilm, and Record Indexing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31))."
@@ -2712,7 +2796,13 @@
       "workbook_diagram_caption": "A handwritten church christening log preserves historical baptism records.",
       "number": "8",
       "description": "Do the following: (a) Explain the effect computers and the internet are having on the world of genealogy. (b) Explain how photography (including microfilming) has influenced genealogy. (c) Explain how record indexing works and how that has influenced genealogy.",
-      "workbook_visual_caption": "A handwritten church christening log preserves historical baptism records."
+      "workbook_visual_caption": "A handwritten church christening log preserves historical baptism records.",
+      "pamphlet_summary": "Technological innovations have revolutionized genealogical research from manual paper searches to rapid digital exploration. Microfilm, digital computing, high-speed telecommunications, and crowd-sourced indexing enable researchers to access and cross-reference global records instantaneously.",
+      "socratic_questions": [
+        "How did microfilming in the twentieth century save fragile records from catastrophic courthouse fires?",
+        "Why is human verification still necessary even after a volunteer indexes a historical census schedule?",
+        "How has internet connectivity altered the speed and geographic scope of genealogical collaboration?"
+      ]
     },
     {
       "req_id": "9",
@@ -2730,11 +2820,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Sharing Family Research Discoveries",
+      "topic_title": "Req 9: Family Heritage Reflection and Synthesis",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 9): Complete all Sharing Family Research Discoveries discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Treat sensitive family discoveries, such as historical trauma or family disputes, with empathy and confidentiality.",
       "pamphlet_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 58)",
       "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 17, p. 58)",
       "syllabus_bucket": "In-Class Concept",
@@ -2762,8 +2852,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Genealogical research is finished the moment you fill in the blank dates and names on your charts.",
-        "fact": "Genealogy goes beyond names and dates to help you understand who your family members were, where they came from, and how their stories fit into history (p. 58)."
+        "misconception": "Scouts think genealogical research is finished as soon as names and dates fill every blank.",
+        "fact": "True genealogy connects names and dates to real human lives, social history, and family character.",
+        "myth": "Scouts think genealogical research is finished as soon as names and dates fill every blank.",
+        "fact_correction": "True genealogy connects names and dates to real human lives, social history, and family character."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2787,16 +2879,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Confirming Accurate Research Answers: Then you must know where to go to find accurate answers (p. 17).",
-        "Tracing Immigrant Family Roots: If your family moved to the United States from another country, it is important to ask your parents or guardians and other relatives (p. 17).",
-        "Preserving Collected Family Stories: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17).",
-        "Weighing Stories Against Evidence: Not all the information someone tells you is necessarily correct (p. 17)."
+        "Identity Discovery: Uncovering ancestral stories connects an individual's personal life with broader historic social movements.",
+        "Migration Tracking: Tracing family movements reveals economic motivations, geographic challenges, and cultural adaptations across eras.",
+        "Heirloom Appreciation: Studying family history transforms old photographs, heirlooms, and letters into meaningful biographical artifacts.",
+        "Generational Resilience: Discovering ancestral hardships fosters personal gratitude, emotional resilience, and deep respect for forebears."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Compile Recorded Family Notes: Even if you are not formally interviewing all these people, write down or record the information they tell (p. 17).",
-        "Step 2 - Compare Stories With Documents: Not all the information someone tells you is necessarily correct (p. 17).",
-        "Step 3 - Summarize Confirmed Kinship Ties: Relationships (such as great-uncle Ralph was Grandpa Erickson's brother) are usually correct (p. 17).",
-        "Step 4 - Share Verified Family History: But names, places, and dates may not be accurate (p. 17)."
+        "Step 1 - Review Discoveries: Assemble all completed pedigree charts, family group records, documents, and interview transcripts.",
+        "Step 2 - Identify Patterns: Highlight recurring ancestral occupations, migration paths, military service records, and cultural traditions.",
+        "Step 3 - Formulate Insights: Write down three significant personal lessons learned about family resilience and heritage.",
+        "Step 4 - Hold Discussion: Share your findings, family stories, and personal reflections during a merit badge conference."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -2869,7 +2961,13 @@
       "workbook_diagram_caption": "A scrapbook of ancestral portraits preserves valuable biographical details.",
       "number": "9",
       "description": "Discuss what you have learned about your family and your family members through your genealogical research.",
-      "workbook_visual_caption": "A scrapbook of ancestral portraits preserves valuable biographical details."
+      "workbook_visual_caption": "A scrapbook of ancestral portraits preserves valuable biographical details.",
+      "pamphlet_summary": "Synthesizing genealogical findings reveals cultural heritage, migration routes, and resilient personal characteristics across generations. Discussing these discoveries with a counselor contextualizes the Scout's unique place within a broader historical narrative.",
+      "socratic_questions": [
+        "Which ancestor's life story surprised you the most, and how did it change your perspective?",
+        "How did historical events like wars, migrations, or economic depressions directly impact your family line?",
+        "What personal values or traditions from your ancestors do you hope to carry forward in life?"
+      ]
     }
   ],
   "badge_slug": "genealogy",

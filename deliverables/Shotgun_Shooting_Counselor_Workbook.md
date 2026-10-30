@@ -1,8 +1,8 @@
 # Shotgun Shooting Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/shotgun-shooting/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/shotgun-shooting/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Shotgun%20Shooting.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,10 +12,9 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Firearm Safety Rules and Shooting Ethics | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2a** | Modern Shotshell Shotgun: Gauges, Safe Handling & Clay Targets | Identify | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2b** | Muzzleloading Shotgun: Black Powder Safety, Loading & Clay Targets | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Shooting Sports Careers and Hobbies | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 25, p. 30) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Shotgun Safety and Ethics | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Shotgun Mechanics and Marksmanship | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Firearm Careers and Vocations | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 25, p. 30) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -23,29 +22,28 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2a:** Scout must individually identify mastery of Requirement 2a to the Merit Badge Counselor.
-- [ ] **Station Req 2b:** Scout must individually discuss mastery of Requirement 2b to the Merit Badge Counselor.
+- [ ] **Station Req 2:** Working under the supervision of a certified National Rifle Association (NRA) Shotgun instructor and a certified range safety officer, at a nationally authorized camp property or at a commercial firearm range (as defined in the Scouting America National Range and Target Activities Manual ), do ONE of the following options: (a) Option A, Shotgun Shooting (Modern Shotshell Type). Do ALL of the following: (1) Identify and explain the principal parts of a shotgun, action types, and how they function. (2) Identify and demonstrate the rules for safely storing and handling a shotgun. (3) Identify the parts of a shotgun shell and their functions. (4) Identify the various gauges of shotguns. Explain which you would choose for a particular use and why. (5) Identify the causes of a shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a shotgun on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a shotgun, and identify the materials needed. (8) Demonstrate how to clean a shotgun properly and safely. (9) Discuss what points you would consider in selecting a shotgun. (10) Shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 12 out of 25 targets (48%) in two 25-target groups. The two groups need not be shot in consecutive order. A minimum of 50 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. Modern, age-appropriate, target shotgun models, 12-, 16-, or 20-gauge, may be used. Only commercially manufactured ammunition may be used. Reloads may not be used in Scouting America range and target activities. Shooters must shoot in rounds of 25. Rounds need not be shot continuously or on the same day. The term "round" refers to a single series of 25 shots. If using a trap field, shoot station 3 with traps set to throw straightaway targets. If using a skeet field, shoot station 7 low house. (b) Option B, Muzzleloading Shotgun Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of the muzzleloading shotgun. (2) Identify principal parts of muzzleloading shotguns and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading shotgun. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading shotgun. (8) Identify the causes of a muzzleloading shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading shotgun on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading shotgun, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading shotgun properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading shotgun. (13) Shoot a moving target with a muzzleloading shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 5 out of 15 targets in each of two 15-target groups. The two groups need not be shot in consecutive order. A minimum of 30 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. A 10 gauge or smaller muzzleloading rifle in appropriate size for the participant may be used. Matchlock, wheellock, or flintlock firearms are not approved. Standard clay targets customarily used for trap and skeet are to be used. On a standard trap field, the shooter should be positioned 8 yards behind the trap house. The trap should be set to throw only straightaway targets. If using a skeet field, shoot station 7 low house.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Firearm Safety Rules and Shooting Ethics
+### Req 1: Shotgun Safety and Ethics
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations. (b) Explain the basic rules of safe gun handling that apply to all firearms. (c) Describe how you would react if a friend visiting your home asked to see your or your family's firearm. (d) Explain the need for, types, and use of eye protection and hearing protection. (e) Explain the main points of the laws for owning and using guns in your community and state. (f) Explain how hunting is related to the wise use of renewable wildlife resources. (g) Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state. (h) Explain to your counselor the proper hygienic guidelines followed while shooting. (i) List and explain three shotgun sports. Identify places in your community where you could practice these sports, and explain how you can join or be a part of range and target activities. (j) Discuss with your counselor a list of sources you could contact for information on firearms and their use.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Shotgun Shooting Requirement 1: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during firearm safety rules and shooting ethics, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** Keeping the mechanical safety engaged means you no longer have to worry about where the shotgun muzzle is pointed.
-- **Pamphlet Fact:** A mechanical safety is a physical device that can wear out or fail, so the first rule of gun handling is to always keep the gun pointed in a safe direction (p. 26).
+> **Guide to Safe Scouting Warning:** Never point a shotgun at anything you do not intend to shoot, and immediately open the action when a cease-fire is called.
+- **Common Myth:** Small shotgun pellets lose energy immediately and cannot cause severe injury at moderate distances.
+- **Pamphlet Fact:** A shotgun discharges multiple lead or steel pellets capable of traveling several hundred yards with lethal force.
 
 **Official Pamphlet Summary:**
-- Sportsmanship applies to all of shooting, whether recreational, competitive, or hunting (p. 57).
-- Do not litter the area with trash. Be careful of the target, both for safety and also to avoid senseless destruction (p. 57).
-- Protecting Public Utility Property: Do not shoot power line insulators, pipeline valves, signs, or similar property (p. 57).
-- Ethical Field Hunting Courtesy: Confine your shots to proper targets. When hunting in the field, give fellow hunters a fair chance at game (p. 57).
+- Always point the shotgun muzzle toward an established downrange backstop or ground impact area.
+- Keep your finger completely outside the trigger guard until you call for the target.
+- Keep the shotgun action open and fully unloaded until standing on the firing station.
+- Hearing Protection: Wear properly rated earmuffs or fitted earplugs to prevent permanent sensorineural hearing damage.
 
-#### Req 1a: High-Speed Projectile Hazards
+#### Req 1a: Projectile Dynamics and Hazards
 **Official Requirement 1a:** Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Projectile Is and Why Any)
-- **Common Myth:** If a friend visits your home and asks to see a family firearm, it is safe to show it to them as long as you check the chamber first.
-- **Pamphlet Fact:** You must never touch or bring out a family firearm to show a visiting friend without the explicit permission and direct supervision of your parent or guardian (p. 28).
+- **Common Myth:** Shotgun pellets disperse so quickly that they become harmless after traveling fifty yards.
+- **Pamphlet Fact:** A shotgun pellet charge spreads radially and retains lethal velocity across several hundred yards downrange.
 
 ![Step-by-step Shotgun Shooting visual guide highlighting firearm safety rules and shooting ethics positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/shotgun_shooting_p003_img1.png)
 
@@ -55,11 +53,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Fundamental Safe Gun Handling
+#### Req 1b: Universal Gun Handling Rules
 **Official Requirement 1b:** Explain the basic rules of safe gun handling that apply to all firearms.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Basic Rules of Safe Gun)
-- **Common Myth:** Wiping your hands on a dry towel after handling shotshells and cleaning a shotgun is enough to remove lead residue before eating.
-- **Pamphlet Fact:** Proper shooting hygiene requires refraining from eating or drinking on the range and washing both your hands and face thoroughly with soap and water immediately after shooting (p. 30).
+- **Common Myth:** Engaging the crossbolt safety ensures the shotgun cannot fire under any physical circumstances.
+- **Pamphlet Fact:** The safety on a shotgun is a mechanical device that can fail from wear or impact.
 
 ![A shooter wears safety glasses and protective ear muffs on the firing range.](/assets/pamphlet_images/shotgun_shooting_p029_img1.png)
 
@@ -69,11 +67,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1c: Home Firearm Safety Response
+#### Req 1c: Home Firearm Access Safety
 **Official Requirement 1c:** Describe how you would react if a friend visiting your home asked to see your or your family's firearm.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (You Would React If A)
-- **Common Myth:** Regulated hunting reduces wildlife populations permanently rather than supporting conservation.
-- **Pamphlet Fact:** Modern wildlife management uses regulated hunting seasons and license fees to maintain healthy habitat carrying capacities and fund renewable wildlife conservation (p. 57).
+- **Common Myth:** Showing a friend an unloaded home shotgun with the action open is harmless curiosity.
+- **Pamphlet Fact:** Minor guests must never be granted unsupervised access to household firearms without parent and owner presence.
 
 ![Detailed Shotgun Shooting reference illustration comparing key components and stages of shooting sports careers and hobbies for Requirement 3.](/assets/pamphlet_images/shotgun_shooting_p012_img1.png)
 
@@ -83,11 +81,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1d: Eye and Hearing Protection
+#### Req 1d: Eye and Ear Protection
 **Official Requirement 1d:** Explain the need for, types, and use of eye protection and hearing protection.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Need Protection Hearing Protection)
-- **Common Myth:** During Shotgun Shooting Requirement 1d, Scouts can underestimate how directly mastery of eye and hearing protection depends on understanding the need for, types, and use of eye protection and hearing protection.
-- **Pamphlet Fact:** Scouting America standards for Shotgun Shooting Requirement 1d require complete workbook entries on eye and hearing protection to demonstrate full understanding of the need for, types, and use of eye protection and hearing protection.
+- **Common Myth:** Regular foam earplugs eliminate the need to wear safety glasses during clay target shooting.
+- **Pamphlet Fact:** Shotgun blasts frequently exceed one hundred forty decibels, causing permanent acoustic trauma without protectors.
 
 ![Shotguns rest upright in an outdoor range rack with actions open for safety.](/assets/pamphlet_images/shotgun_shooting_p024_img1.png)
 
@@ -97,11 +95,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1e: Community and State Gun Laws
+#### Req 1e: Firearm Ownership Legal Frameworks
 **Official Requirement 1e:** Explain the main points of the laws for owning and using guns in your community and state.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Main Points of The Laws)
-- **Common Myth:** Overlooking the specific field checks required for Community and State Gun Laws (Req 1e) or confusing Community and State Gun Laws with general Firearm Safety Rules and Shooting Ethics procedures.
-- **Pamphlet Fact:** For Requirement 1e (Community and State Gun Laws), The Shotgun Shooting pamphlet for Requirement 1e details the main points of the laws for owning and using guns in your community and state, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).
+- **Common Myth:** State firearm laws are identical across all jurisdictions and allow open carry in vehicles.
+- **Pamphlet Fact:** Federal, state, and local ordinances define minimum ownership ages, storage standards, and transportation criteria.
 
 ![A shooter displays a break-action shotgun with the chamber open and empty.](/assets/pamphlet_images/shotgun_shooting_p026_img1.png)
 
@@ -111,11 +109,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1f: Wildlife Conservation and Hunting
+#### Req 1f: Wildlife Resource Conservation Principles
 **Official Requirement 1f:** Explain how hunting is related to the wise use of renewable wildlife resources.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Hunting Is Related to The)
-- **Common Myth:** When preparing Shotgun Shooting Requirement 1f (Req 1f Wildlife Conservation and Hunting), Scouts sometimes overlook the specific details needed to explain how hunting is related to the wise use of renewable wildlife resour.
-- **Pamphlet Fact:** Counselor verification for Shotgun Shooting Requirement 1f requires concrete workbook evidence covering req 1f wildlife conservation and hunting and a clear explanation of how to explain how hunting is related to the wise use of renewable wildlife resour.
+- **Common Myth:** Hunting depletes game populations without contributing to the overall preservation of regional wildlife habitats.
+- **Pamphlet Fact:** Regulated hunting fees and excise taxes provide primary funding for state wildlife agency conservation programs.
 
 ![A Scout holds an open shotgun securely over his forearm with muzzle pointed safely.](/assets/pamphlet_images/shotgun_shooting_p027_img1.png)
 
@@ -125,15 +123,14 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 1g: State Hunter Education Standards
+### Req 1g: Hunter Education Regulations
 **Official Requirement 1g (Parent Overview):** Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Group Organizer:** Concept & Examples Notes
-- **Common Myth:** For Shotgun Shooting Requirement 1g, a common mistake in state hunter education standards is treating successfully complete a state hunter education course, or obtain a copy of the hunting laws as optional background reading.
-- **Pamphlet Fact:** Mastering Shotgun Shooting Requirement 1g means following the pamphlet standard for state hunter education standards and recording accurate notes on successfully complete a state hunter education course, or obtain a copy of the hunting laws.
+- **Common Myth:** Reading a state hunting regulations brochure exempts a hunter from mandatory hunter education courses.
+- **Pamphlet Fact:** Hunter education certification establishes mandatory field ethics, species identification skills, and legal bag limits.
 
 **Official Pamphlet Summary:**
-- For Shotgun Shooting Requirement 1g (State Hunter Education Standards): The Shotgun Shooting pamphlet for Requirement 1g details successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).
-- State Hunter Education Standards: The Shotgun Shooting pamphlet for Requirement 1g details successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).
+- Hunter safety education courses teach basic outdoor survival, ethical shot placement, and game regulations. Completing official coursework certifies that hunters understand local seasons, weapon restrictions, and private land access rules.
 - Req 1g Standard (Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)): Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state.
 
 #### Req 1g(1): Main Points of Hunting Laws
@@ -164,11 +161,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1h: Range Hygiene and Lead Safety
+#### Req 1h: Range Hygiene and Sanitation
 **Official Requirement 1h:** Explain to your counselor the proper hygienic guidelines followed while shooting.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1h Structured Technical Study & Explanation Matrix (Hygienic Guidelines Followed While Shooting)
-- **Common Myth:** During Shotgun Shooting Requirement 1h, Scouts can underestimate how directly mastery of range hygiene and lead safety depends on understanding the proper hygienic guidelines followed while shooting.
-- **Pamphlet Fact:** Scouting America standards for Shotgun Shooting Requirement 1h require complete workbook entries on range hygiene and lead safety to demonstrate full understanding of the proper hygienic guidelines followed while shooting.
+- **Common Myth:** Warm water rinses without soap adequately remove heavy metal residues from skin after shooting.
+- **Pamphlet Fact:** Ingesting microscopic airborne lead residue from unwashed hands causes chronic toxic heavy metal poisoning.
 
 ![A posted private property sign warns hunters against trespassing on private land.](/assets/pamphlet_images/shotgun_shooting_p086_img1.png)
 
@@ -178,11 +175,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1i: Shotgun Sports and Local Ranges
+#### Req 1i: Shotgun Sporting Disciplines
 **Official Requirement 1i:** List and explain three shotgun sports. Identify places in your community where you could practice these sports, and explain how you can join or be a part of range and target activities.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1i Structured Technical Study & Explanation Matrix (Shotgun Sports Identify Places)
-- **Common Myth:** Overlooking the specific field checks required for Shotgun Sports and Local Ranges (Req 1i) or confusing Shotgun Sports and Local Ranges with general Firearm Safety Rules and Shooting Ethics procedures.
-- **Pamphlet Fact:** For Requirement 1i (Shotgun Sports and Local Ranges), The Shotgun Shooting pamphlet for Requirement 1i details three shotgun sports, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).
+- **Common Myth:** Trap, skeet, and sporting clays share identical field geometry and target launch angles.
+- **Pamphlet Fact:** Trap features targets oscillating away, skeet uses crossing trajectories, and sporting clays mimics hunting flight.
 
 | Req 1i Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -191,11 +188,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1j: Firearm Safety Information Sources
+#### Req 1j: Firearm Information Resources
 **Official Requirement 1j:** Discuss with your counselor a list of sources you could contact for information on firearms and their use.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1j Structured Technical Study & Explanation Matrix (Discuss Sources Could Contact)
-- **Common Myth:** When preparing Shotgun Shooting Requirement 1j (Req 1j Firearm Safety Information Sources), Scouts sometimes overlook the specific details needed to discuss with your counselor a list of sources you could contact for informa.
-- **Pamphlet Fact:** Counselor verification for Shotgun Shooting Requirement 1j requires concrete workbook evidence covering req 1j firearm safety information sources and a clear explanation of how to discuss with your counselor a list of sources you could contact for informa.
+- **Common Myth:** Online social video channels provide authoritative safety guidance for handling and operating sporting firearms.
+- **Pamphlet Fact:** State wildlife departments and national shooting organizations publish verified firearm safety materials and rulebooks.
 
 | Req 1j Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -203,24 +200,29 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Modern Shotshell Shotgun: Gauges, Safe Handling & Clay Targets
-**Official Requirement 2a (Parent Overview):** Option A, Shotgun Shooting (Modern Shotshell Type). Do ALL of the following: (1) Identify and explain the principal parts of a shotgun, action types, and how they function. (2) Identify and demonstrate the rules for safely storing and handling a shotgun. (3) Identify the parts of a shotgun shell and their functions. (4) Identify the various gauges of shotguns. Explain which you would choose for a particular use and why. (5) Identify the causes of a shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a shotgun on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a shotgun, and identify the materials needed. (8) Demonstrate how to clean a shotgun properly and safely. (9) Discuss what points you would consider in selecting a shotgun. (10) Shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 12 out of 25 targets (48%) in two 25-target groups. The two groups need not be shot in consecutive order. A minimum of 50 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. Modern, age-appropriate, target shotgun models, 12-, 16-, or 20-gauge, may be used. Only commercially manufactured ammunition may be used. Reloads may not be used in Scouting America range and target activities. Shooters must shoot in rounds of 25. Rounds need not be shot continuously or on the same day. The term "round" refers to a single series of 25 shots. If using a trap field, shoot station 3 with traps set to throw straightaway targets. If using a skeet field, shoot station 7 low house.
+### Req 2: Shotgun Mechanics and Marksmanship
+**Official Requirement 2 (Parent Overview):** Working under the supervision of a certified National Rifle Association (NRA) Shotgun instructor and a certified range safety officer, at a nationally authorized camp property or at a commercial firearm range (as defined in the Scouting America National Range and Target Activities Manual ), do ONE of the following options: (a) Option A, Shotgun Shooting (Modern Shotshell Type). Do ALL of the following: (1) Identify and explain the principal parts of a shotgun, action types, and how they function. (2) Identify and demonstrate the rules for safely storing and handling a shotgun. (3) Identify the parts of a shotgun shell and their functions. (4) Identify the various gauges of shotguns. Explain which you would choose for a particular use and why. (5) Identify the causes of a shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a shotgun on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a shotgun, and identify the materials needed. (8) Demonstrate how to clean a shotgun properly and safely. (9) Discuss what points you would consider in selecting a shotgun. (10) Shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 12 out of 25 targets (48%) in two 25-target groups. The two groups need not be shot in consecutive order. A minimum of 50 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. Modern, age-appropriate, target shotgun models, 12-, 16-, or 20-gauge, may be used. Only commercially manufactured ammunition may be used. Reloads may not be used in Scouting America range and target activities. Shooters must shoot in rounds of 25. Rounds need not be shot continuously or on the same day. The term "round" refers to a single series of 25 shots. If using a trap field, shoot station 3 with traps set to throw straightaway targets. If using a skeet field, shoot station 7 low house. (b) Option B, Muzzleloading Shotgun Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of the muzzleloading shotgun. (2) Identify principal parts of muzzleloading shotguns and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading shotgun. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading shotgun. (8) Identify the causes of a muzzleloading shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading shotgun on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading shotgun, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading shotgun properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading shotgun. (13) Shoot a moving target with a muzzleloading shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 5 out of 15 targets in each of two 15-target groups. The two groups need not be shot in consecutive order. A minimum of 30 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. A 10 gauge or smaller muzzleloading rifle in appropriate size for the participant may be used. Matchlock, wheellock, or flintlock firearms are not approved. Standard clay targets customarily used for trap and skeet are to be used. On a standard trap field, the shooter should be positioned 8 yards behind the trap house. The trap should be set to throw only straightaway targets. If using a skeet field, shoot station 7 low house.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Shotgun Shooting Requirement 2: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during live range qualification and shotgun options, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** A 20-gauge shotgun has a larger barrel diameter than a 12-gauge shotgun because 20 is a higher number.
-- **Pamphlet Fact:** Gauge is determined by the number of pure lead balls of that bore diameter needed to weigh one pound, so a 12-gauge bore is significantly wider than a 20-gauge bore (p. 17).
+> **Guide to Safe Scouting Warning:** Never attempt to load modern smokeless powder into a muzzleloading shotgun, as catastrophic barrel rupture will occur.
+- **Common Myth:** Full chokes make shot travel significantly farther and strike targets with much greater velocity.
+- **Pamphlet Fact:** Choke constrictions shape the downrange shot pattern density without altering pellet muzzle velocity or energy.
 
 **Official Pamphlet Summary:**
-- Req 2a(1) (1): Identify and explain the principal parts of a shotgun, action types, and how they function.
-- Req 2a(2) (2): Identify and demonstrate the rules for safely storing and handling a shotgun.
-- Req 2a(3) (3): Identify the parts of a shotgun shell and their functions.
-- Req 2a(4) (4): Identify the various gauges of shotguns. Explain which you would choose for a particular use.
-- Req 2a(5) (5): Identify the causes of a shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response.
-- Req 2a(6) (6): Demonstrate the knowledge, skills, and attitude necessary to safely shoot a shotgun on a range, including understanding and following range procedures and commands.
-- Req 2a(7) (7): Explain the basic safety rules for cleaning a shotgun, and identify the materials needed.
-- Req 2a(8) (8): Demonstrate how to clean a shotgun properly and safely.
-- Req 2a(9) (9): Discuss what points you would consider in selecting a shotgun.
-- Req 2a(10) (10): Shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 12 out of 25 targets (48%) in two 25-target groups. The two groups need not be shot in consecutive order. A minimum of 50 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. Modern, age-appropriate, target shotgun models, 12-, 16-, or 20-gauge, may be used. Only commercially manufactured ammunition may be used. Reloads may not be used in Scouting America range and target activities. Shooters must shoot in rounds of 25. Rounds need not be shot continuously or on the same day. The term "round" refers to a single series of 25 shots. If using a trap field, shoot station 3 with traps set to throw straightaway targets. If using a skeet field, shoot station 7 low house.
+- Shotgun gauge numbers indicate the lead ball count weighing exactly one pound.
+- Choke Pattern Control: Constriction at the muzzle narrows the pellet spread for longer distance target breaking.
+- Shell Component Stacking: Modern shotshells assemble primer, powder charge, plastic wad column, and shot inside cases.
+- Black powder or approved synthetic black powder substitutes are the only acceptable propellants.
+
+### Req 2a: Modern Shotshell Systems
+**Official Requirement 2a (Parent Overview):** Option A, Shotgun Shooting (Modern Shotshell Type). Do ALL of the following: (1) Identify and explain the principal parts of a shotgun, action types, and how they function. (2) Identify and demonstrate the rules for safely storing and handling a shotgun. (3) Identify the parts of a shotgun shell and their functions. (4) Identify the various gauges of shotguns. Explain which you would choose for a particular use and why. (5) Identify the causes of a shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a shotgun on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a shotgun, and identify the materials needed. (8) Demonstrate how to clean a shotgun properly and safely. (9) Discuss what points you would consider in selecting a shotgun. (10) Shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 12 out of 25 targets (48%) in two 25-target groups. The two groups need not be shot in consecutive order. A minimum of 50 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. Modern, age-appropriate, target shotgun models, 12-, 16-, or 20-gauge, may be used. Only commercially manufactured ammunition may be used. Reloads may not be used in Scouting America range and target activities. Shooters must shoot in rounds of 25. Rounds need not be shot continuously or on the same day. The term "round" refers to a single series of 25 shots. If using a trap field, shoot station 3 with traps set to throw straightaway targets. If using a skeet field, shoot station 7 low house.
+**Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Group Organizer:** Skill Demonstration Checklist
+> **Guide to Safe Scouting Warning:** Never attempt to load modern smokeless powder into a muzzleloading shotgun, as catastrophic barrel rupture will occur.
+- **Common Myth:** A smaller gauge shotshell simply drops harmlessly through a larger shotgun barrel when fired.
+- **Pamphlet Fact:** Firing a twenty-gauge shell in a twelve-gauge chamber creates an obstruction that bursts the barrel.
+
+**Official Pamphlet Summary:**
+- Modern shotguns operate via break, pump, autoloader, or bolt actions, firing self-contained shotshells consisting of hull, primer, powder, wad, and pellets. Safe marksmanship requires identifying barrel stampings, selecting correct choke tubes, and maintaining proper swing-through follow-through mechanics.
+- Req 2a Standard (Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)): Option A, Shotgun Shooting (Modern Shotshell Type). Do ALL of the following: (1) Identify and explain the principal parts of a shotgun, action types, and how they function. (2) Identify and demonstrate the rules for safely storing and handling a shotgun. (3) Identify the parts of a shotgun shell and their functions. (4) Identify the various gauges of shotguns. Explain which you would choose for a particular use and why. (5) Identify the causes of a shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a shotgun on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a shotgun, and identify the materials needed. (8) Demonstrate how to clean a shotgun properly and safely. (9) Discuss what points you would consider in selecting a shotgun. (10) Shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 12 out of 25 targets (48%) in two 25-target groups. The two groups need not be shot in consecutive order. A minimum of 50 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. Modern, age-appropriate, target shotgun models, 12-, 16-, or 20-gauge, may be used. Only commercially manufactured ammunition may be used. Reloads may not be used in Scouting America range and target activities. Shooters must shoot in rounds of 25. Rounds need not be shot continuously or on the same day. The term "round" refers to a single series of 25 shots. If using a trap field, shoot station 3 with traps set to throw straightaway targets. If using a skeet field, shoot station 7 low house.
 
 #### Req 2a(1): Core principles and practical standards for Modern Shotshell Shotgun Shooting
 **Official Requirement 2a(1):** Identify and explain the principal parts of a shotgun, action types, and how they function.
@@ -349,26 +351,15 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Muzzleloading Shotgun: Black Powder Safety, Loading & Clay Targets
+### Req 2b: Muzzleloading Shotgun Systems
 **Official Requirement 2b (Parent Overview):** Option B, Muzzleloading Shotgun Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of the muzzleloading shotgun. (2) Identify principal parts of muzzleloading shotguns and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading shotgun. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading shotgun. (8) Identify the causes of a muzzleloading shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading shotgun on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading shotgun, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading shotgun properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading shotgun. (13) Shoot a moving target with a muzzleloading shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 5 out of 15 targets in each of two 15-target groups. The two groups need not be shot in consecutive order. A minimum of 30 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. A 10 gauge or smaller muzzleloading rifle in appropriate size for the participant may be used. Matchlock, wheellock, or flintlock firearms are not approved. Standard clay targets customarily used for trap and skeet are to be used. On a standard trap field, the shooter should be positioned 8 yards behind the trap house. The trap should be set to throw only straightaway targets. If using a skeet field, shoot station 7 low house.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Shotgun Shooting Requirement 2: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during live range qualification and shotgun options, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** Smokeless powder can be substituted into a muzzleloading shotgun whenever black powder is unavailable.
-- **Pamphlet Fact:** Muzzleloading shotguns must only be loaded with black powder or an approved black powder substitute because smokeless powder generates dangerously high pressures that can rupture the barrel (p. 63).
+- **Common Myth:** Muzzleloading shotguns use modern smokeless gunpowder loads to achieve uniform high-pressure clay target breaks.
+- **Pamphlet Fact:** Leaving an air space between the powder charge and shot column creates dangerous bore-bursting pressure spikes.
 
 **Official Pamphlet Summary:**
-- Req 2b(1) (1): Discuss with your counselor a brief history of the development of the muzzleloading shotgun.
-- Req 2b(2) (2): Identify principal parts of muzzleloading shotguns and discuss how they function.
-- Req 2b(3) (3): Identify and demonstrate the rules for safely storing and handling a muzzleloading shotgun.
-- Req 2b(4) (4): Identify the various grades of black powder and explain their proper and safe use.
-- Req 2b(5) (5): Discuss proper safety procedures pertaining to black powder storage.
-- Req 2b(6) (6): Discuss proper components of a load.
-- Req 2b(7) (7): Identify proper procedures and accessories used for safely loading a muzzleloading shotgun.
-- Req 2b(8) (8): Identify the causes of a muzzleloading shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response.
-- Req 2b(9) (9): Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading shotgun on a range, including understanding and following range procedures and commands.
-- Req 2b(10) (10): Explain the basic safety rules for cleaning a muzzleloading shotgun, and identify the materials needed.
-- Req 2b(11) (11): Demonstrate how to clean a muzzleloading shotgun properly and safely.
-- Req 2b(12) (12): Discuss what points you would consider in selecting a muzzleloading shotgun.
+- Muzzleloading shotguns load loose black powder, over-powder cards, cushion wads, shot, and over-shot cards through the muzzle. Shooters use marked ramrods to verify firm wad seating against powder charges before capping the nipple.
+- Req 2b Standard (Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)): Option B, Muzzleloading Shotgun Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of the muzzleloading shotgun. (2) Identify principal parts of muzzleloading shotguns and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading shotgun. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading shotgun. (8) Identify the causes of a muzzleloading shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading shotgun on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading shotgun, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading shotgun properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading shotgun. (13) Shoot a moving target with a muzzleloading shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 5 out of 15 targets in each of two 15-target groups. The two groups need not be shot in consecutive order. A minimum of 30 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. A 10 gauge or smaller muzzleloading rifle in appropriate size for the participant may be used. Matchlock, wheellock, or flintlock firearms are not approved. Standard clay targets customarily used for trap and skeet are to be used. On a standard trap field, the shooter should be positioned 8 yards behind the trap house. The trap should be set to throw only straightaway targets. If using a skeet field, shoot station 7 low house.
 
 #### Req 2b(1): Shotgun Shooting Origins and Evolution
 **Official Requirement 2b(1):** Discuss with your counselor a brief history of the development of the muzzleloading shotgun.
@@ -532,12 +523,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Shooting Sports Careers and Hobbies
+### Req 3: Firearm Careers and Vocations
 **Official Requirement 3:** Identify how you could apply the skills and knowledge of safe and responsible use of firearms you learned in this merit badge to pursue a career or personal hobby. Research the additional training and experience you would need, expenses you may incur, and the affiliation with organizations that could help you maximize the positive impact and enjoyment you gain from it. Discuss what you learned with your counselor, and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 25, p. 30)* • **Organizer (Career & Profession Exploration Card):** Req 3 Personal Hobby, Service & Preparedness Application
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Shotgun Shooting Requirement 3: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during shooting sports careers and hobbies, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** Once you earn the Shotgun Shooting merit badge, you are automatically certified to serve as a Range Safety Officer or firearm instructor.
-- **Pamphlet Fact:** Becoming a certified Range Safety Officer or shotgun instructor requires adult age eligibility, formal training courses through organizations like the NRA, and passing written and practical examinations (p. 25).
+> **Guide to Safe Scouting Warning:** All professional firearm modifications must be conducted by certified gunsmiths adhering to strict pressure and proofing standards.
+- **Common Myth:** Earning the Shotgun Shooting merit badge qualifies a Scout to work immediately as an armorer.
+- **Pamphlet Fact:** Competitive shooting and firearm mechanics require formal apprentice certifications, safety credentials, and liability insurance.
 
 ![A certified range instructor guides a young Scout in proper shotgun shoulder mount and firearm aiming technique.](/assets/ai_illustrations/shotgun_shooting_req_3_nano_hero.png)
 
@@ -548,9 +539,9 @@
 | **3. Ongoing Practice, Equipment & Community Service Plan** | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- In marksmanship, nothing is more important than safety (p. 25).
-- Participants in range and target activities assume a vital responsibility that affects the lives of others (p. 25).
-- Practicing Disciplined Safety Habits: It is critically important to learn and practice all of the shotgun safety rules (p. 25).
-- Safe Operation Through Training: When handled correctly and used properly, a shotgun is not dangerous (p. 25).
+- Certified range safety officers manage live firing lines and supervise facility safety protocols.
+- Gunsmithing Technical Training: Professional gunsmiths complete extensive machining, metallurgy, and stock fitting vocational degree coursework.
+- Coaching Certification Paths: Certified shotgun coaches teach scholastic clay target programs and develop competitive youth athletes.
+- Wildlife Law Enforcement: Conservation officers enforce hunting regulations, investigate poaching, and manage public wildlife resources.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`

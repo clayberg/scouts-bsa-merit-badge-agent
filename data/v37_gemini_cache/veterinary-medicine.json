@@ -1,0 +1,316 @@
+{
+  "requirements": [
+    {
+      "fact": "Clinical veterinary medicine spans specialized physiological sectors across domesticated species, companion animals, and captive wildlife populations.",
+      "misconception": "Veterinary medicine is limited to local outpatient clinics treating domestic cats and dogs.",
+      "pamphlet_excerpts": [
+        "Companion Animal Practice: Small animal clinicians provide diagnostic imaging, surgical intervention, and preventive vaccination protocols.",
+        "Equine Musculoskeletal Management: Equine practitioners evaluate athletic lameness issues, perform dental floatings, and manage colic.",
+        "Food Animal Production: Livestock veterinarians maintain herd health, implement biosecurity plans, and prevent herd epidemics.",
+        "Aquaculture Biosecurity Monitoring: Aquatic veterinary specialists diagnose parasitic skin infestations and monitor recirculating water parameters."
+      ],
+      "pamphlet_summary": "Veterinary clinicians diagnose and treat injuries and diseases across diverse taxonomic classifications from household companions to agricultural herds. Practitioners utilize specialized equipment including digital radiography, endoscopes, and ultrasonic scalers to maintain systemic animal health.",
+      "req_id": "1",
+      "safety_callout": "Always wear nitrile gloves, protective coveralls, and steel toe boots when restraining large animals in squeeze chutes.",
+      "socratic_questions": [
+        "How do diagnostic protocols differ between an individual companion animal and a commercial poultry flock?",
+        "Why does equine medicine require specialized field equipment compared to a standard suburban veterinary clinic?",
+        "What ecological parameters must a marine animal veterinarian monitor when managing captive cetaceans?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Triage Examination: Record core temperature, resting heart rate, respiratory frequency, and mucous membrane coloration.",
+        "Step 2 - Physical Palpation: Palpate the peripheral lymph nodes, abdominal organs, and major joints for swelling.",
+        "Step 3 - Diagnostic Sampling: Collect venous blood samples and complete fecal flotation tests for internal parasites.",
+        "Step 4 - Treatment Formulation: Prescribe targeted antimicrobial therapy and calculate fluid resuscitation volumes based on bodyweight."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Equine medicine incorporates athletic performance evaluations, reproductive ultrasound, and specialized field surgery protocols.",
+          "misconception": "Equine veterinarians use identical surgical tools and anesthesia protocols as small animal veterinary clinics.",
+          "pamphlet_summary": "Companion animal clinicians deliver wellness examinations, soft tissue surgeries, and emergency trauma care for domestic pets. Equine veterinarians travel to stables to treat lameness, respiratory disorders, and gastrointestinal colic in sport horses.",
+          "sub_id": "1a",
+          "topic_title": "Companion And Equine Medicine"
+        },
+        {
+          "fact": "Food animal medicine emphasizes epidemiological herd management and residue prevention over individual pet treatments.",
+          "misconception": "Livestock veterinarians spend their time treating individual farm animals rather than whole commercial herds.",
+          "pamphlet_summary": "Food animal practitioners monitor the health, nutrition, and disease transmission risks across dairy, beef, swine, and sheep herds. They design herd vaccination schedules and audit withdrawal times for agricultural medications to safeguard consumers.",
+          "sub_id": "1b",
+          "topic_title": "Food Animal Herd Medicine"
+        },
+        {
+          "fact": "Exotic medicine demands specialized knowledge of divergent metabolic pathways, nutritional requirements, and safe handling techniques.",
+          "misconception": "Exotic pets can receive standard canine and feline pharmaceutical dosages without specialized species modifications.",
+          "pamphlet_summary": "Exotic animal medicine treats reptiles, birds, pocket rodents, and amphibians requiring tailored biological environments and husbandry protocols. Clinicians must master unique anatomical differences like avian air sacs and reptilian renal portal vascular systems.",
+          "sub_id": "1c",
+          "topic_title": "Exotic Animal Practice Specialties"
+        },
+        {
+          "fact": "Marine veterinary medicine requires ongoing water chemistry analysis alongside specialized ultrasonography and blood collection methods.",
+          "misconception": "Marine animal veterinarians only administer medical care to stranded whales and seals on beaches.",
+          "pamphlet_summary": "Marine veterinarians treat aquatic mammals, teleost fishes, and elasmobranchs housed in public aquaria or coastal research reserves. They analyze salinity, dissolved oxygen levels, and filtration mechanics while conducting diagnostic medical procedures on aquatic patients.",
+          "sub_id": "1d",
+          "topic_title": "Marine Mammal And Fish Medicine"
+        },
+        {
+          "fact": "Poultry veterinarians prioritize flock-wide necropsies and environmental air quality over individual bird medical therapies.",
+          "misconception": "Poultry veterinarians treat backyard chickens using individual clinical examinations rather than flock population diagnostics.",
+          "pamphlet_summary": "Poultry veterinarians supervise the systemic biosecurity and immunological defenses of commercial broiler and egg-laying operations. They evaluate ventilation controls, administer water-line vaccines, and examine flock mortality records to suppress infectious pathogens.",
+          "sub_id": "1e",
+          "topic_title": "Poultry Flock Health Management"
+        },
+        {
+          "fact": "Aquaculture medicine balances finfish stocking densities with antimicrobial water treatments and chemical bath protocols.",
+          "misconception": "Wildlife veterinarians and aquaculture specialists rely exclusively on tranquilizer darts for all medical interventions.",
+          "pamphlet_summary": "Wildlife veterinarians manage non-domesticated populations through field immobilization, disease surveillance, and habitat health monitoring programs. Aquaculture clinicians manage finfish hatcheries and commercial shellfish beds to control fungal, bacterial, and parasitic infestations.",
+          "sub_id": "1f",
+          "topic_title": "Wildlife And Aquaculture Medicine"
+        }
+      ],
+      "topic_title": "Clinical Veterinary Practice Sectors"
+    },
+    {
+      "fact": "Veterinarians serve essential societal roles in epidemiology, military operations, food processing facilities, and biomedical discovery laboratories.",
+      "misconception": "Veterinarians work solely in private animal clinics treating personal pets and agricultural livestock.",
+      "pamphlet_excerpts": [
+        "Zoonotic Surveillance Systems: Public health veterinarians track rabies outbreaks and avian influenza vectors across populations.",
+        "Military Veterinary Operations: Army veterinarians inspect operational rations and care for military working dogs overseas.",
+        "Food Safety Verification: USDA inspectors examine slaughterhouse carcasses to stop contaminated meat entering commercial markets.",
+        "Laboratory Animal Oversight: Research veterinarians verify proper pain management protocols during vital biomedical experimental studies."
+      ],
+      "pamphlet_summary": "Veterinarians direct public health agencies, military commands, and agricultural inspection facilities to prevent transmissible zoonotic contagions and toxic exposures. Their expertise safeguards national food safety, guides humane biomedical discovery, and fortifies interagency disease surveillance.",
+      "req_id": "2",
+      "safety_callout": "Wear personal protective equipment including N95 respirators, face shields, and splash aprons when collecting infectious field samples.",
+      "socratic_questions": [
+        "How does the One Health framework connect human health directly to animal disease monitoring?",
+        "Why does the armed forces employ veterinarians to oversee commercial water supplies and food distribution?",
+        "What ethical responsibilities does a laboratory animal veterinarian hold during biomedical research trials?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Vector Assessment: Map localized arthropod populations and record regional wildlife mortality rates across target zones.",
+        "Step 2 - Diagnostic Collection: Collect diagnostic tissue swabs and whole blood specimens from suspected infected vectors.",
+        "Step 3 - Laboratory Analysis: Submit biologic samples to certified reference laboratories for molecular polymerase chain reaction testing.",
+        "Step 4 - Biosecurity Enforcement: Establish quarantine perimeters and notify municipal public health directors regarding confirmed pathogen detections."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Veterinary epidemiologists track viral mutations in animal reservoirs before transmission reaches human communities.",
+          "misconception": "Zoonotic diseases are easily managed without tracking pathogen mutations within wild animal reservoir populations.",
+          "pamphlet_summary": "Public health veterinarians monitor cross-species transmission events for pathogens such as rabies, leptospirosis, and West Nile virus. They collaborate with public agencies to direct vaccination programs and control vector transmission pathways.",
+          "sub_id": "2a",
+          "topic_title": "Public Health Disease Surveillance"
+        },
+        {
+          "fact": "Military veterinarians manage theater-wide food procurement standards and chemical defense readiness alongside canine trauma care.",
+          "misconception": "Military veterinarians only treat the mascots and companion pets of service members on bases.",
+          "pamphlet_summary": "Veterinary Corps officers provide trauma medicine and conditioning programs for military working dogs deployed in high-risk zones. They also certify commercial food sources, evaluate drinking water potability, and mitigate biological warfare threats abroad.",
+          "sub_id": "2b",
+          "topic_title": "Military Veterinary Corps Roles"
+        },
+        {
+          "fact": "Antemortem inspections detect systemic neurological and toxicological conditions that postmortem carcass dressing might obscure completely.",
+          "misconception": "Meat inspectors only observe packaged meat products after butchering and packaging are finished.",
+          "pamphlet_summary": "Food safety veterinarians execute antemortem and postmortem inspections in processing plants to prevent contaminated livestock from entering commerce. They collect tissue samples for chemical residue testing and enforce sanitary handling standards.",
+          "sub_id": "2c",
+          "topic_title": "Food Safety Inspection Oversight"
+        },
+        {
+          "fact": "Laboratory animal veterinarians possess legal authority to stop experimental procedures that compromise animal welfare protocols.",
+          "misconception": "Biomedical laboratory researchers determine all animal housing and pain relief standards without veterinary consultation.",
+          "pamphlet_summary": "Laboratory animal veterinarians oversee institutional animal care programs to assure compliance with the federal Animal Welfare Act. They formulate humane enrichment strategies, refine anesthesia regimens, and train researchers in aseptic microsurgical methods.",
+          "sub_id": "2d",
+          "topic_title": "Laboratory Animal Research Oversight"
+        },
+        {
+          "fact": "Veterinary professors publish clinical research papers that directly transform standard medical practices in private clinics.",
+          "misconception": "Government veterinarians work exclusively as classroom teachers without managing real agricultural or regulatory emergencies.",
+          "pamphlet_summary": "Academic veterinarians teach veterinary candidates while managing specialized referral cases and discovering novel clinical therapies. Government veterinarians author livestock transport regulations, manage national disease eradication initiatives, and certify international trade shipments.",
+          "sub_id": "2e",
+          "topic_title": "Veterinary Education And Governance"
+        }
+      ],
+      "topic_title": "Nonclinical Veterinary Public Health"
+    },
+    {
+      "fact": "Becoming a veterinarian requires rigorous undergraduate science preparation followed by four years of accredited veterinary medical school.",
+      "misconception": "Veterinary school admission requirements are significantly less competitive than human medical school admissions processes.",
+      "pamphlet_excerpts": [
+        "Prerequisite Coursework Requirements: Undergraduate candidates must master organic chemistry, biochemistry, physics, genetics, and calculus.",
+        "Clinical Hour Accrual: Applicants must log hundreds of supervised hours under certified licensed veterinary mentors.",
+        "Four Year Professional Curriculum: Veterinary colleges teach intensive gross anatomy, systemic pathology, pharmacology, and clinical rotations.",
+        "National Board Examination: Graduating seniors must pass the North American Veterinary Licensing Examination to practice."
+      ],
+      "pamphlet_summary": "Veterinary medicine candidates complete an intensive four-year doctoral curriculum covering systemic pathology, animal surgery, pharmacology, and clinical diagnostics. Prior to entering professional school, students must complete extensive undergraduate prerequisites in biochemistry, organic chemistry, physics, and genetics.",
+      "req_id": "3",
+      "safety_callout": "Follow chemical hygiene plans and wear chemical splash goggles when handling formalin-preserved anatomy specimens in university laboratories.",
+      "socratic_questions": [
+        "Why do veterinary school admissions committees emphasize extensive clinical exposure hours under licensed veterinarians?",
+        "How does the veterinary medical school curriculum balance companion animal medicine with large herd health?",
+        "What role does the North American Veterinary Licensing Examination play in ensuring public veterinary competence?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Academic Preparation: Complete required undergraduate coursework in biology, organic chemistry, biochemistry, and general physics.",
+        "Step 2 - Clinical Shadowing: Accumulate diverse shadowing hours across small animal, farm animal, and emergency clinics.",
+        "Step 3 - Admissions Submission: Submit academic transcripts, reference letters, and essay statements through the central admissions portal.",
+        "Step 4 - Doctoral Graduation: Complete didactic coursework, pass licensing board examinations, and finish clinical hospital rotations."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Veterinary Education And Prerequisites"
+    },
+    {
+      "fact": "Registered veterinary technicians must graduate from accredited veterinary technology programs and pass national credentialing examinations.",
+      "misconception": "Veterinary technicians perform only kennel cleaning and animal holding duties without formal scientific education.",
+      "pamphlet_excerpts": [
+        "Accredited Program Education: Veterinary technicians complete two to four years studying nursing, radiology, and anesthesiology.",
+        "National Credentialing Examination: Credentialed technicians pass the Veterinary Technician National Examination covering pharmacology and patient care.",
+        "Diagnostic Laboratory Responsibilities: Technicians perform urinalysis, blood chemistry profiles, and cytological evaluations using automated analyzers.",
+        "Anesthetic Patient Monitoring: Technicians monitor end-tidal carbon dioxide, blood pressure, and pulse oximetry during surgery."
+      ],
+      "pamphlet_summary": "Registered veterinary technicians complete accredited college degree programs that train them in surgical nursing, clinical pathology, and anesthesia monitoring. These credentialed professionals must pass the Veterinary Technician National Examination to obtain state credentials as licensed healthcare practitioners.",
+      "req_id": "4",
+      "safety_callout": "Wear protective lead aprons, thyroid shields, and dosimeter badges whenever positioning veterinary patients for diagnostic radiographs.",
+      "socratic_questions": [
+        "How does the professional relationship between a veterinarian and a veterinary technician parallel a doctor and nurse?",
+        "What advanced monitoring equipment does a veterinary technician manage during an invasive soft-tissue surgery?",
+        "Why is formal credentialing essential for technicians who administer controlled pharmaceuticals to hospitalized patients?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - College Enrollment: Enroll in an accredited associate or bachelor veterinary technology program at college.",
+        "Step 2 - Clinical Mastery: Master phlebotomy techniques, dental prophylaxis procedures, and anesthetic circuit calculations during labs.",
+        "Step 3 - Board Certification: Pass the comprehensive Veterinary Technician National Examination to prove core medical knowledge.",
+        "Step 4 - State Licensure: Submit credentialing paperwork to the state veterinary board to obtain formal practice licensure."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Veterinary Technician Professional Credentials"
+    },
+    {
+      "fact": "Veterinarians actively preserve the human-animal bond by treating companion animal illnesses and guiding families through difficult end-of-life decisions.",
+      "misconception": "The human-animal bond is purely emotional and holds zero clinical significance during veterinary medical treatment.",
+      "pamphlet_excerpts": [
+        "Preventive Health Preservation: Routine wellness plans protect family pets from preventable illnesses that strain household dynamics.",
+        "Zoonotic Risk Reduction: Controlling transmissible parasites protects human family members from contracting ringworm or toxoplasmosis.",
+        "Chronic Disease Support: Managing feline diabetes or canine osteoarthritis extends high-quality companionship for dedicated pet owners.",
+        "Compassionate Euthanasia Counseling: Clinicians provide empathetic guidance and peaceful end-of-life care when quality of life degrades."
+      ],
+      "pamphlet_summary": "The human-animal bond represents a mutually beneficial emotional and physiological dynamic that veterinarians protect through comprehensive medical care. Clinicians preserve this connection by managing chronic illnesses, mitigating zoonotic health hazards, and offering compassionate end-of-life support.",
+      "req_id": "5",
+      "safety_callout": "Utilize low-stress feline and canine restraint methods including towel wraps and calming pheromones to prevent fearful bites.",
+      "socratic_questions": [
+        "In what ways does healthy pet ownership positively influence human cardiovascular and psychological wellness?",
+        "How does a veterinarian balance an owner's financial constraints against the medical needs of a beloved pet?",
+        "What clinical criteria help a veterinarian determine when a companion animal's quality of life has deteriorated?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Patient Assessment: Evaluate the patient's mobility, pain levels, appetite, and emotional responsiveness during the visit.",
+        "Step 2 - Client Communication: Discuss diagnostic findings, therapeutic options, and home nursing requirements openly with the pet owner.",
+        "Step 3 - Environmental Adaptation: Recommend household modifications like ramps, orthopedic bedding, and raised feeding dishes to assist pets.",
+        "Step 4 - Compassionate Guidance: Facilitate quality-of-life discussions and provide humane hospice care protocols when treatment options fail."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Veterinary Human Animal Bond"
+    },
+    {
+      "fact": "Observational rotations in clinics or specialized research facilities reveal the technical coordination required among all veterinary team members.",
+      "misconception": "A veterinary clinical shadowing experience involves directly performing surgeries and administering medications to client animals.",
+      "pamphlet_excerpts": [
+        "Clinical Workflow Observation: Observers track patient flow from initial lobby intake through examination, diagnostics, and recovery.",
+        "Surgical Suite Protocols: Shadowing exposes students to sterile scrub routines, surgical draping, and sterile field maintenance.",
+        "Diagnostic Suite Operation: Students observe ultrasound scans, digital radiography exposures, and automated in-house blood analyzers.",
+        "Veterinary Team Interaction: Observers witness collaborative case management between the primary veterinarian, technicians, and veterinary assistants."
+      ],
+      "pamphlet_summary": "Observing a veterinary facility exposes students to surgical nursing, diagnostic radiography, laboratory analysis, and emergency triage workflows. Students document how veterinarians solve diagnostic puzzles, communicate treatment plans to animal owners, and lead hospital staff.",
+      "req_id": "6",
+      "safety_callout": "Follow hospital biosafety guidelines by standing clear of energized radiographic beams and avoiding unmonitored animal enclosures.",
+      "socratic_questions": [
+        "What safety precautions did you observe hospital staff take when handling potentially infectious canine patients?",
+        "How did the veterinary team coordinate their responsibilities while preparing a patient for general anesthesia?",
+        "What differences did you notice between routine outpatient wellness exams and inpatient surgical nursing care?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Site Coordination: Contact a local veterinary facility and schedule an observational shadowing session with staff.",
+        "Step 2 - Dress Compliance: Wear clean surgical scrubs, closed-toe non-slip footwear, and required personal protective equipment.",
+        "Step 3 - Procedure Observation: Observe medical examinations, surgical preparations, and laboratory diagnostic tests from a safe distance.",
+        "Step 4 - Clinical Journaling: Record observed cases, diagnostic equipment applications, and professional staff interactions in a notebook."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Companion animal practices emphasize client education, preventive wellness exams, and elective soft-tissue surgery protocols.",
+          "misconception": "Private veterinary clinics operate identically without any variation in diagnostic equipment or surgical capabilities.",
+          "pamphlet_summary": "Visiting a small animal or equine hospital illustrates how clinicians diagnose acute medical conditions and communicate with owners. Observers see sterile operating procedures, dental cleaning units, and digital imaging suites in daily operation.",
+          "sub_id": "6a",
+          "topic_title": "Clinical Practice Facility Visit"
+        },
+        {
+          "fact": "Specialized non-clinical veterinarians complete post-doctoral fellowships or board residencies in pathology, toxicology, or epidemiology.",
+          "misconception": "Non-clinical veterinarians complete shorter educational programs because they do not manage private animal clinics.",
+          "pamphlet_summary": "Shadowing a public health, military, or research veterinarian demonstrates how medical science impacts populations and public regulations. Students learn about specialized board certifications and advanced postgraduate residencies required for non-clinical specialties.",
+          "sub_id": "6b",
+          "topic_title": "Specialized Nonclinical Field Mentorship"
+        }
+      ],
+      "topic_title": "Veterinary Facility Clinical Observation"
+    },
+    {
+      "fact": "Choosing a veterinary specialty requires balancing personal interests with rigorous educational demands and mandatory lifetime licensing requirements.",
+      "misconception": "Veterinarians complete their formal scientific education upon graduation without needing ongoing professional training or license renewals.",
+      "pamphlet_excerpts": [
+        "Specialty Career Alignment: Practitioners choose career branches that align with their personal passions for surgery or conservation.",
+        "Daily Work Satisfaction: Clinicians find fulfillment solving diagnostic puzzles, healing patients, and counseling grateful animal caregivers.",
+        "Occupational Stress Management: Practitioners navigate emotional burnout, compassionate fatigue, physical demands, and client financial limitations daily.",
+        "Continuing Education Mandates: Licensed veterinarians must complete state-mandated continuing education hours annually to retain credentials."
+      ],
+      "pamphlet_summary": "Selecting a veterinary career pathway requires evaluating distinct daily responsibilities, emotional demands, compensation levels, and practice environments. Licensed practitioners must complete ongoing continuing education hours annually to maintain state licensure and master advancing medical technologies.",
+      "req_id": "7",
+      "safety_callout": "Maintain strong physical ergonomics and mental health wellness habits to mitigate occupational strain and compassion fatigue.",
+      "socratic_questions": [
+        "How do the daily stresses of an equine field practitioner compare to a laboratory animal veterinarian?",
+        "Why do state licensing boards require veterinarians to complete continuing education courses throughout their careers?",
+        "What personal coping strategies can a veterinarian implement to navigate compassion fatigue when treating terminally ill animals?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Selection: Select a specific veterinary medical sector that aligns with your personal scientific interests.",
+        "Step 2 - Professional Interview: Interview an active veterinarian regarding daily duties, work satisfaction, and operational difficulties.",
+        "Step 3 - Licensure Exploration: Research specific state board continuing education requirements and required annual professional course hours.",
+        "Step 4 - Synthesis Presentation: Present your career analysis, personal reflections, and credentialing findings to your merit badge counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Veterinary students frequently select career tracks based on specific scientific passions for surgery, pathology, or herd management.",
+          "misconception": "All veterinarians choose the profession solely because they enjoyed playing with domestic family puppies.",
+          "pamphlet_summary": "Choosing a veterinary field involves assessing personal aptitude for clinical medicine, epidemiology, public policy, or surgical interventions. Career paths offer distinct lifestyles ranging from rural ambulatory farm calls to metropolitan specialty centers.",
+          "sub_id": "7a",
+          "topic_title": "Career Pathway Selection Factors"
+        },
+        {
+          "fact": "Veterinarians often cite saving critically ill patients and building lasting client relationships as the most rewarding job elements.",
+          "misconception": "The primary satisfaction in veterinary medicine comes from avoiding human social interactions during workday shifts.",
+          "pamphlet_summary": "Veterinarians enjoy solving complex medical mysteries, restoring injured animals to health, and performing life-saving surgical procedures. They also value educating pet owners and mentoring younger clinic staff members throughout daily practice.",
+          "sub_id": "7b",
+          "topic_title": "Veterinary Career Professional Rewards"
+        },
+        {
+          "fact": "Veterinary medicine carries significant emotional burdens including client grief, difficult financial constraints, and physical strain.",
+          "misconception": "The primary difficulty in veterinary medicine is simply memorizing pharmaceutical names and anatomy terms.",
+          "pamphlet_summary": "Veterinarians face significant professional challenges including compassion fatigue, long working hours, and difficult end-of-life decisions. Managing client financial constraints during life-threatening animal emergencies creates intense ethical and personal stress.",
+          "sub_id": "7c",
+          "topic_title": "Veterinary Profession Daily Challenges"
+        },
+        {
+          "fact": "Veterinarians spend substantial daily time educating human clients, managing business operations, and directing clinic staff.",
+          "misconception": "Veterinarians work almost entirely in isolation with animals without needing human interpersonal skills.",
+          "pamphlet_summary": "Many people are surprised by the immense amount of human communication, business administration, and psychiatric empathy required in veterinary practice. Success depends on effectively counseling anxious owners and collaborating smoothly with multi-disciplinary veterinary teams.",
+          "sub_id": "7d",
+          "topic_title": "Surprising Professional Career Aspects"
+        },
+        {
+          "fact": "State veterinary medical boards require between fifteen and thirty continuing education hours annually for license renewal.",
+          "misconception": "Once a veterinarian obtains their doctoral diploma, their formal scientific education is finished for life.",
+          "pamphlet_summary": "Veterinarians must complete state-mandated continuing education hours annually or biennially to maintain their legal practice licenses. They attend medical conferences, complete wet labs, and review scientific journals to learn emerging diagnostic techniques.",
+          "sub_id": "7e",
+          "topic_title": "Mandatory Continuing Professional Education"
+        }
+      ],
+      "topic_title": "Veterinary Career Exploration Pathways"
+    }
+  ]
+}

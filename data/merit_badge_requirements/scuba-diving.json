@@ -76,8 +76,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
-            "misconception": "If a diver begins to panic at the surface, you should encourage them to descend immediately where the water is calmer.",
-            "fact": "If a diver shows signs of panic at any time, you must bring that person back into the boat or onto shore, calm them, encourage slow breathing, and resolve the cause before resuming activity (p. 21)."
+            "misconception": "Swimmers think ear pain during descent disappears naturally if they kick harder toward the bottom.",
+            "fact": "Descending with un-equalized middle ears causes tympanic membrane rupture, requiring immediate descent termination.",
+            "myth": "Swimmers think ear pain during descent disappears naturally if they kick harder toward the bottom.",
+            "fact_correction": "Descending with un-equalized middle ears causes tympanic membrane rupture, requiring immediate descent termination."
           },
           "starting_requirement_gate": {
             "gate_type": "HARD_PREREQ_BADGE",
@@ -108,10 +110,10 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Show that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, hyperventilation, squeezes, decompression illness, nitrogen narcosis, motion sickness, fatigue, overexertion, heat reactions, dehydration, injuries by aquatic life, and cuts and scrapes.",
-          "topic_title": "Req 1a: First Aid for Diving Injuries",
-          "pamphlet_summary": "For Scuba Diving Requirement 1a (First Aid for Diving Injuries): The Scuba Diving pamphlet for Requirement 1a details that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
+          "topic_title": "Req 1a: Diving Maladies and Field Treatment",
+          "pamphlet_summary": "Divers manage barotrauma, narcosis, and decompression illness through vigilant depth monitoring and proper field first aid. Mild nitrogen narcosis resolves upon ascending to shallower depths without requiring recompression therapy.",
           "pamphlet_excerpts": [
-            "First Aid for Diving Injuries: The Scuba Diving pamphlet for Requirement 1a details that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21)."
+            "Divers manage barotrauma, narcosis, and decompression illness through vigilant depth monitoring and proper field first aid. Mild nitrogen narcosis resolves upon ascending to shallower depths without requiring recompression therapy."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p003_img1.png",
           "workbook_diagram_caption": "Student divers hold onto the pool edge while debriefing with an instructor.",
@@ -154,8 +156,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Ear and sinus squeezes happen only during ascent when expanding air pushes outward on the eardrum.",
-            "fact": "Squeezes occur primarily during descent when increasing water pressure compresses trapped air spaces that a diver fails to equalize early and often (p. 25)."
+            "misconception": "Rescuers believe abdominal thrusts must be performed to drain seawater from submerged drowning victims.",
+            "fact": "Immediate chest compressions take absolute priority because seawater enters lungs in small frothy volumes.",
+            "myth": "Rescuers believe abdominal thrusts must be performed to drain seawater from submerged drowning victims.",
+            "fact_correction": "Immediate chest compressions take absolute priority because seawater enters lungs in small frothy volumes."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -186,10 +190,10 @@
           "id": "1b",
           "sub_req_label": "1b",
           "sub_req_text": "Identify the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions. Demonstrate the proper technique for performing CPR using a training device approved by your counselor.",
-          "topic_title": "Req 1b: Conditions for Performing CPR",
-          "pamphlet_summary": "For Scuba Diving Requirement 1b (Conditions for Performing CPR): The Scuba Diving pamphlet for Requirement 1b details the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
+          "topic_title": "Req 1b: Cardiopulmonary Resuscitation for Divers",
+          "pamphlet_summary": "Rescuers confirm unresponsiveness and absence of normal breathing before initiating chest compressions on a dry flat surface. Automated external defibrillators require drying the victim's chest completely before pad placement.",
           "pamphlet_excerpts": [
-            "Conditions for Performing CPR: The Scuba Diving pamphlet for Requirement 1b details the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21)."
+            "Rescuers confirm unresponsiveness and absence of normal breathing before initiating chest compressions on a dry flat surface. Automated external defibrillators require drying the victim's chest completely before pad placement."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p020_img1.png",
           "title": "Req 1b: Conditions for Performing CPR",
@@ -235,11 +239,11 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: Diving First Aid and CPR",
+      "topic_title": "Req 1: Diving Physiology and Emergency Care",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Scuba Diving Requirement 1: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for diving first aid and cpr, and maintain buddy checks throughout the session.",
+      "safety_callout": "Never administer oral fluids or allow unassisted walking when evaluating suspected arterial gas embolism.",
       "pamphlet_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
       "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -269,8 +273,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Deliberately hyperventilating before diving is a safe way to stay underwater much longer without needing to breathe.",
-        "fact": "Hyperventilation results from over-breathing due to panic or deliberate effort and causes dizziness, fainting, and a sensation of suffocation rather than safely extending air supply (p. 21)."
+        "misconception": "Beginners believe drinking warm coffee quickly reverses severe underwater hypothermia on dive boats.",
+        "fact": "Caffeine accelerates fluid loss and vasodilation, so patients require passive warming and warm isotonic fluids.",
+        "myth": "Beginners believe drinking warm coffee quickly reverses severe underwater hypothermia on dive boats.",
+        "fact_correction": "Caffeine accelerates fluid loss and vasodilation, so patients require passive warming and warm isotonic fluids."
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -299,16 +305,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Causes of Diver Hyperventilation: Hyperventilation is the result of over breathing, either deliberately or because of panic (p. 21).",
-        "Dizziness and Suffocation Feelings: The likely result of hyperventilation is dizziness and fainting, and victims will feel as if they are being suffocated (p. 21).",
-        "Preparation Prevents Diving Panic: Such a condition is unlikely in diving if the participants are properly prepared for each new skill level (p. 21).",
-        "Calming a Panicked Diver: If a diver shows signs of panic at any time, bring that person back into the boat or onto shore, calm the person, and encourage slow breathing (p. 21)."
+        "Pressure Equalization: Divers pinch nostrils and exhale gently to equalize middle ear pressure during descent.",
+        "Decompression Management: Administer pure normobaric oxygen continuously to any diver exhibiting neurological decompression sickness symptoms.",
+        "Thermal Protection: Neoprene wetsuits trap thin water layers that body heat warms against cold thermoclines.",
+        "Gas Exchange: Controlled slow breathing prevents carbon dioxide buildup and reduces hazardous hyperventilation underwater risks."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Prepare Divers Before Entry: Such a condition is unlikely in diving if the participants are properly prepared for each new skill level (p. 21).",
-        "Step 2 - Bring Panicked Diver Ashore: If a diver shows signs of panic at any time, bring that person back into the boat or onto shore, calm the person, and encourage slow breathing (p. 21).",
-        "Step 3 - Provide Rest and Air: Make sure the person rests in a comfortable position and has plenty of open, fresh air (p. 21).",
-        "Step 4 - Resolve Underlying Panic Cause: Before resuming any activity, find out and resolve the cause of the panic (p. 21)."
+        "Step 1 - Patient Assessment: Check responsiveness and breathing before activating the local emergency diver evacuation plan immediately.",
+        "Step 2 - Oxygen Administration: Attach a demand valve nonrebreather mask delivering one hundred percent medical oxygen promptly.",
+        "Step 3 - Thermal Stabilization: Remove wet neoprene gear and wrap the patient in dry windproof insulation blankets.",
+        "Step 4 - Transport Coordination: Contact the Divers Alert Network emergency hotline to secure transport toward hyperbaric facilities."
       ],
       "gear_checklist": [
         "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled",
@@ -317,15 +323,13 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer"
       ],
       "comparison_data": {
-        "left_header": "Req 1a: First Aid for Diving Injuries",
-        "right_header": "Req 1b: Conditions for Performing CPR",
+        "left_header": "Req 1a: Diving Maladies and Field Treatmen",
+        "right_header": "Req 1b: Cardiopulmonary Resuscitation for",
         "left_points": [
-          "(1a) First Aid for Diving Injuries: The Scuba Diving pamphlet for Requirement 1a details that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
-          "Dizziness and Suffocation Feelings: The likely result of hyperventilation is dizziness and fainting, and victims will feel as if they are being suffocated (p. 21)."
+          "(1a) Diving Maladies and Field Treatment: Divers manage barotrauma, narcosis, and decompression illness through vigilant depth monitoring and proper field first aid. Mild nitrogen narcosis resolves upon ascending to shallower depths without requiring recompression therapy."
         ],
         "right_points": [
-          "(1b) Conditions for Performing CPR: The Scuba Diving pamphlet for Requirement 1b details the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
-          "Preparation Prevents Diving Panic: Such a condition is unlikely in diving if the participants are properly prepared for each new skill level (p. 21)."
+          "(1b) Cardiopulmonary Resuscitation for Divers: Rescuers confirm unresponsiveness and absence of normal breathing before initiating chest compressions on a dry flat surface. Automated external defibrillators require drying the victim's chest completely before pad placement."
         ],
         "rows": [
           {
@@ -349,8 +353,8 @@
         "title": "Scuba Diving Req 1 Exemplar Workbook Entry: Diving First Aid and CPR",
         "artifact_type": "SYMPTOMS_FIRST_AID_PREVENTION_3COL",
         "fields": {
-          "Req 1a (First Aid for Diving Injuries)": "The Scuba Diving pamphlet for Requirement 1a details that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
-          "Req 1b (Conditions for Performing CPR)": "The Scuba Diving pamphlet for Requirement 1b details the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21)."
+          "Req 1a - Diving Maladies and Field Treatme": "Divers manage barotrauma, narcosis, and decompression illness through vigilant depth monitoring and proper field first aid. Mild nitrogen narcosis resolves upon ascending to shallower depths without requiring recompression therapy.",
+          "Req 1b - Cardiopulmonary Resuscitation for": "Rescuers confirm unresponsiveness and absence of normal breathing before initiating chest compressions on a dry flat surface. Automated external defibrillators require drying the victim's chest completely before pad placement."
         },
         "sample_output": "Diving First Aid and CPR: Such a condition is unlikely in diving if the participants are properly prepared for each new skill level (p. 21).",
         "counselor_tip": "For Scuba Diving Requirement 1 (Diving First Aid and CPR), verify the Scout's own observations and specific pamphlet details (Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25))."
@@ -382,7 +386,13 @@
       "workbook_diagram_caption": "Diagrams explain essential scuba gear components, underwater buddy checks, and ear equalization techniques for safe diving.",
       "number": "1",
       "description": "Do the following: (a) Show that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, hyperventilation, squeezes, decompression illness, nitrogen narcosis, motion sickness, fatigue, overexertion, heat reactions, dehydration, injuries by aquatic life, and cuts and scrapes. (b) Identify the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions. Demonstrate the proper technique for performing CPR using a training device approved by your counselor.",
-      "workbook_visual_caption": "Diagrams explain essential scuba gear components, underwater buddy checks, and ear equalization techniques for safe diving."
+      "workbook_visual_caption": "Diagrams explain essential scuba gear components, underwater buddy checks, and ear equalization techniques for safe diving.",
+      "pamphlet_summary": "Divers must recognize barotrauma and physiological distress caused by hydrostatic pressure variations during descent and ascent. Immediate oxygen delivery and emergency evacuation protocols mitigate permanent arterial gas embolism tissue injuries.",
+      "socratic_questions": [
+        "How does ambient hydrostatic pressure change the volume of air spaces in the human body?",
+        "What physiological mechanism causes dissolved inert nitrogen bubbles to form within bodily tissues during rapid ascent?",
+        "Why does breathing pure oxygen at atmospheric pressure accelerate the elimination of inert nitrogen from blood?"
+      ]
     },
     {
       "req_id": "2",
@@ -409,7 +419,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Scuba Diving Requirement 2: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for swimming merit badge prerequisite, and maintain buddy checks throughout the session.",
+      "safety_callout": "Do not attempt open water scuba training if basic surface swimming proficiency cannot be maintained.",
       "pamphlet_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17)",
       "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 9, p. 17)",
       "syllabus_bucket": "In-Class Concept",
@@ -437,8 +447,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Scouts can complete all their open-water scuba dives first and earn the Swimming merit badge later right before their board of review.",
-        "fact": "All Scouts working toward the Scuba Diving merit badge must earn the Swimming merit badge and present proof to their counselor prior to fulfilling requirements 3 through 6 (p. 9)."
+        "misconception": "Students consider a basic dog paddle sufficient swimming competence for heavy scuba open water training.",
+        "fact": "Scuba training organizations require continuous unassisted distance swimming and unequipped survival water treading tests.",
+        "myth": "Students consider a basic dog paddle sufficient swimming competence for heavy scuba open water training.",
+        "fact_correction": "Scuba training organizations require continuous unassisted distance swimming and unequipped survival water treading tests."
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -467,16 +479,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Recognized Scuba Training Agencies: Your merit badge counselor can help you find a scuba agency recognized by Scouting America scuba policy so that you can fulfill requirement 4 (p. 9).",
-        "Mandatory Swimming Badge Prerequisite: All Scouts working toward the Scuba Diving merit badge must earn the Swimming merit badge prior to fulfilling requirements 3 through 6 (p. 9).",
-        "Presenting Proof to Counselor: Once you have presented proof of having earned your Swimming merit badge to your Scuba Diving merit badge counselor, you may begin working on requirements (p. 9).",
-        "Following Currents in Drift Dives: During adrift dive, divers follow a current and may finish the dive aconsiderable distance from where they started (p. 9)."
+        "Surface Endurance: Strong swimming strokes ensure divers navigate surface currents without exhausting their breathing gas.",
+        "Survival Floating: Resting strokes permit calm recovery when waiting for boat pickup in choppy waters.",
+        "Treading Technique: Effective rotary kicks maintain clear airway positioning above waves while conserving physical energy.",
+        "Subsurface Comfort: Breath holding drills instill confidence during accidental regulator displacement or mask clearing incidents."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Verify Swimming Badge Completion: Once you have presented proof of having earned your Swimming merit badge to your Scuba Diving merit badge counselor, you may begin working on requirements (p. 9).",
-        "Step 2 - Understand Drift Dive Currents: During adrift dive, divers follow a current and may finish the dive aconsiderable distance from where they started (p. 9).",
-        "Step 3 - Coordinate Dive Boat Pickup: Either a single dive boat, or small tenders from a live-aboard vessel, may follow the group and be ready to quickly pick up divers who may end the dive (p. 9).",
-        "Step 4 - Maintain Deep-Water Swimming Fitness: The standard 100-yard Scouting America swimmer test defines the minimum ability needed for safe swimming in deep water (p. 9)."
+        "Step 1 - Record Verification: Review personal advancement tracking records to confirm successful Swimming merit badge completion documentation.",
+        "Step 2 - Stroke Evaluation: Demonstrate strong forward propulsion using efficient crawl and breaststroke techniques in deep water.",
+        "Step 3 - Water Tread Test: Maintain head clearance above water continuously for ten minutes using gentle leg kicks.",
+        "Step 4 - Surface Assessment: Complete an unassisted continuous swim across two hundred meters without resting on walls."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -549,7 +561,13 @@
       "workbook_diagram_caption": "A dive instructor explains scuba gear and flippers to Scouts outside a PADI dive center near a marina.",
       "number": "2",
       "description": "Before completing requirements 3 through 6, earn the Swimming merit badge.",
-      "workbook_visual_caption": "A dive instructor explains scuba gear and flippers to Scouts outside a PADI dive center near a marina."
+      "workbook_visual_caption": "A dive instructor explains scuba gear and flippers to Scouts outside a PADI dive center near a marina.",
+      "pamphlet_summary": "The Swimming merit badge establishes aerobic endurance and surface self-rescue skills necessary for open water scuba diving. Candidates must possess calm stroke mechanics to handle unexpected surface conditions and heavy dive gear.",
+      "socratic_questions": [
+        "Why does surface swimming efficiency directly influence gas consumption during a scuba dive?",
+        "How does mastering survival floating reduce panic when facing equipment failure on open ocean swells?",
+        "In what ways do watermanship skills protect a diver who must ditch heavy gear at surface?"
+      ]
     },
     {
       "req_id": "3",
@@ -572,11 +590,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Scuba Diver's Code and Safety",
+      "topic_title": "Req 3: Scuba Diver Code Guidelines",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Scuba Diving Requirement 3: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for scuba diver's code and safety, and maintain buddy checks throughout the session.",
+      "safety_callout": "Any diver can cancel or terminate a dive at any time without fear of criticism.",
       "pamphlet_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)",
       "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 19, p. 50)",
       "syllabus_bucket": "In-Class Concept",
@@ -604,8 +622,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Because compressed scuba air contains mostly oxygen, divers do not need to worry about nitrogen absorption on recreational dives.",
-        "fact": "Nitrogen makes up 79 percent of the air we breathe, and increasing underwater pressure forces more nitrogen into body tissues the deeper and longer a diver stays down (p. 19)."
+        "misconception": "Divers assume the code functions merely as an informal suggestion rather than safety protocol.",
+        "fact": "Adherence to the diver code directly prevents panic, equipment failure, and fatal out of air situations.",
+        "myth": "Divers assume the code functions merely as an informal suggestion rather than safety protocol.",
+        "fact_correction": "Adherence to the diver code directly prevents panic, equipment failure, and fatal out of air situations."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -629,16 +649,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Medical Fitness for Diving: You may have one or more medical issues that may prevent you from scuba diving (p. 19).",
-        "Importance of Ascending Slowly: Adjusting to the Underwater World Decompression, The Importance of Going Up Slow As you dive, your time underwater has limits (p. 19).",
-        "Depth and Air Limits: These limits are affected by depth, your air supply, the cold, and fatigue (p. 19).",
-        "Increasing Underwater Body Pressure: The pressure on a diver's body increases with depth (p. 19)."
+        "Buddy Integrity: Paired divers maintain visual contact and agree upon underwater signals before water entry.",
+        "Equipment Readiness: Routine functional checks confirm working submersible pressure gauges and primary regulator stage delivery.",
+        "Environmental Protection: Buoyancy control prevents accidental fin contact against fragile coral heads and bottom silt.",
+        "Conservative Limits: Responsible divers plan bottom times well within designated recreational safe decompression limit tables."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Monitor Depth and Air: These limits are affected by depth, your air supply, the cold, and fatigue (p. 19).",
-        "Step 2 - Account for Increasing Pressure: The pressure on a diver's body increases with depth (p. 19).",
-        "Step 3 - Track Tissue Nitrogen Absorption: This increase in pressure causes nitrogen (the gas that makes up 79 percent of the air we breathe) to be absorbed into the body's tissues (p. 19).",
-        "Step 4 - Respect No-Decompression Dive Limits: The deeper a diver dives and the longer the diver stays underwater, the more nitrogen the body absorbs (p. 19)."
+        "Step 1 - Code Review: Read each behavioral guideline within the diver code alongside your designated merit counselor.",
+        "Step 2 - Risk Explanation: Analyze how refusing alcohol before diving prevents impaired judgment and dangerous underwater accidents.",
+        "Step 3 - Environmental Analysis: Discuss methods for securing dangling equipment gauges to prevent physical damage to reefs.",
+        "Step 4 - Commitment Signing: Pledge personal adherence to conservative ascent profiles and mandatory buddy checks before splashdown."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -711,7 +731,13 @@
       "workbook_diagram_caption": "Certified divers inspect regulators and oxygen cylinders on a sunny beach before embarking on an ocean dive.",
       "number": "3",
       "description": "Discuss the Scuba Diver's Code with your counselor, and explain the importance of each guideline to a scuba diver's safety.",
-      "workbook_visual_caption": "Certified divers inspect regulators and oxygen cylinders on a sunny beach before embarking on an ocean dive."
+      "workbook_visual_caption": "Certified divers inspect regulators and oxygen cylinders on a sunny beach before embarking on an ocean dive.",
+      "pamphlet_summary": "The Scuba Diver Code outlines ethical and operational guidelines prioritizing personal responsibility and buddy team integrity. Adhering to these standards ensures conservative dive planning, environmental stewardship, and strict equipment inspection routines.",
+      "socratic_questions": [
+        "Why does personal accountability remain the foundational pillar of recreational diver safety systems?",
+        "How does pre-dive equipment checking prevent emergency complications from arising at maximum depth?",
+        "What ethical responsibilities do divers carry regarding the preservation of fragile underwater historical artifacts?"
+      ]
     },
     {
       "req_id": "4",
@@ -738,7 +764,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Scuba Diving Requirement 4: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for open water diver certification, and maintain buddy checks throughout the session.",
+      "safety_callout": "Breathe continuously and never hold your breath while breathing compressed gas underwater.",
       "pamphlet_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12)",
       "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 10, p. 12)",
       "syllabus_bucket": "In-Class Concept",
@@ -766,8 +792,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Completing the Scuba Diving merit badge pamphlet workbook with your counselor automatically grants you an Open Water Diver certification card.",
-        "fact": "To fulfill Requirement 4, a Scout must complete full academic, confined-water, and open-water training through a recognized scuba agency meeting Recreational Scuba Training Council standards (p. 10)."
+        "misconception": "Beginners think holding their breath during ascent helps conserve precious remaining cylinder air volume.",
+        "fact": "Expanding air in ascending lungs causes fatal alveolar rupture unless breathing normally at all times.",
+        "myth": "Beginners think holding their breath during ascent helps conserve precious remaining cylinder air volume.",
+        "fact_correction": "Expanding air in ascending lungs causes fatal alveolar rupture unless breathing normally at all times."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -791,16 +819,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Agency Learning Objective Standards: Development of learning objectives is left to the respective training agencies (p. 10).",
-        "Basic Theory and Skills: During the Open Water Diver course you can look forward to learning basic scuba theory and developing entry-level scuba skills required for certification (p. 10).",
-        "RSTC Minimum Training Standards: All scuba instruction must meet the minimum training standards for Entry-Level Scuba Certification set by the Recreational Scuba Training Council (p. 10).",
-        "Required Course Topics Overview: Your course will consist of the topics and scuba skills required by the training organization and as outlined in this section (p. 10)."
+        "Regulator Recovery: Sweeping the right arm locates a dislodged hose for rapid underwater regulator replacement.",
+        "Mask Clearing: Tilting the head upward while exhaling through the nose purges flooded mask water.",
+        "Buoyancy Mastery: Adjusting low pressure inflator bursts achieves neutral hovering without sculling arms or legs.",
+        "Emergency Ascent: Humming continuously during an alternate air source ascent prevents pulmonary barotrauma lung injuries."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Verify RSTC Training Standards: All scuba instruction must meet the minimum training standards for Entry-Level Scuba Certification set by the Recreational Scuba Training Council (p. 10).",
-        "Step 2 - Complete Required Course Modules: Your course will consist of the topics and scuba skills required by the training organization and as outlined in this section (p. 10).",
-        "Step 3 - Master Underwater Physics Principles: Learn the physical principles of matter and their application to diving activities and hazards (p. 10).",
-        "Step 4 - Demonstrate Confined and Open Skills: It introduces qualified Scouts BSA, Venturing, and registered adult participants to the special skills, equipment, and safety (p. 10)."
+        "Step 1 - Classroom Instruction: Complete all academic knowledge modules covering dive tables, physics, physiology, and equipment mechanics.",
+        "Step 2 - Confined Water: Practice regulator clearing, buoyancy control, and air sharing drills inside a swimming pool.",
+        "Step 3 - Open Water: Execute four supervised ocean or lake checkout dives demonstrating core autonomous diving competencies.",
+        "Step 4 - Certification Filing: Submit validated logbook entries and instructor signed paperwork to secure official certification cards."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -873,7 +901,13 @@
       "workbook_diagram_caption": "A scuba buoyancy control device provides essential underwater lift.",
       "number": "4",
       "description": "Earn an Open Water Diver Certification from a scuba organization recognized by the Scouting America scuba policy.",
-      "workbook_visual_caption": "A scuba buoyancy control device provides essential underwater lift."
+      "workbook_visual_caption": "A scuba buoyancy control device provides essential underwater lift.",
+      "pamphlet_summary": "Candidates complete academic study, confined water skill sessions, and four open water training dives under certified instruction. Mastery of buoyancy control, regulator recovery, and mask clearing proves foundational autonomous diver readiness.",
+      "socratic_questions": [
+        "Why does Boyle's law dictate that the greatest relative pressure changes occur near the surface?",
+        "How does neutral buoyancy protect both delicate marine life and a diver's energy reserves?",
+        "What exact sequence of actions should a buddy pair follow during an alternate gas ascent?"
+      ]
     },
     {
       "req_id": "5",
@@ -896,11 +930,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Exploring Aquatic Ecosystems",
+      "topic_title": "Req 5: Aquatic Ecosystems and Habitats",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Scuba Diving Requirement 5: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for exploring aquatic ecosystems, and maintain buddy checks throughout the session.",
+      "safety_callout": "Maintain horizontal trim and fin control to prevent silting or damaging fragile benthic communities.",
       "pamphlet_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75)",
       "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 73, p. 75)",
       "syllabus_bucket": "In-Class Concept",
@@ -928,8 +962,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Coral reefs are lifeless mineral rock formations that do not depend on sunlight or microscopic plants.",
-        "fact": "Coral reefs are living tropical ecosystems powered by sunlight, where symbiotic algae provide essential nutrients and energy that pass from organism to organism up the food web (p. 73)."
+        "misconception": "People believe coral formations are inanimate rocks that tolerate diver physical handling without consequence.",
+        "fact": "Corals are fragile living animal colonies that perish when touched or kicked by careless fins.",
+        "myth": "People believe coral formations are inanimate rocks that tolerate diver physical handling without consequence.",
+        "fact_correction": "Corals are fragile living animal colonies that perish when touched or kicked by careless fins."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -953,16 +989,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Diverse Global Ocean Ecosystems: Throughout the world's oceans, there are many different environments, or ecosystems (p. 73).",
-        "Food Webs and Pyramids: Food webs and food pyramids illustrate the flow of energy (p. 73).",
-        "Algae Nutrient Energy Transfer: Nutrients from the algae provide energy to these organisms that in turn are eaten by other organisms (p. 73).",
-        "Passing Solar Energy Forward: In this way, the sun's energy is passed from organism to organism in the ecosystem (p. 73)."
+        "Coral Ecosystem: Tropical reefs feature calcium carbonate structures hosting symbiotic algae and diverse fish species.",
+        "Kelp Habitats: Temperate giant kelp columns create vertical canopy shelter for marine mammals and invertebrates.",
+        "Freshwater Springs: Subterranean limestone aquifers produce crystal clear water supporting submerged grasses and freshwater turtles.",
+        "Rocky Reefs: Benthic boulders provide anchorage for colorful sea anemones, sponges, and bottom dwelling crustaceans."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Trace Algae Nutrient Production: Nutrients from the algae provide energy to these organisms that in turn are eaten by other organisms (p. 73).",
-        "Step 2 - Follow Food Web Energy: In this way, the sun's energy is passed from organism to organism in the ecosystem (p. 73).",
-        "Step 3 - Compare Tropical Sunlight Intensity: The entire tropical zone receives the sun's rays more directly than area sin higher latitudes, so the average annual temperature (p. 73).",
-        "Step 4 - Describe Four Aquatic Environments: Seasonal temperatures vary less than in other places on Earth (p. 73)."
+        "Step 1 - Ecosystem Definition: Define an ecosystem by detailing interactions between living organisms and nonliving environmental components.",
+        "Step 2 - Coral Description: Characterize warm tropical coral reefs highlighting primary producer dynamics and high biodiversity balances.",
+        "Step 3 - Temperate Exploration: Detail cold water kelp forests and rocky reefs including nutrient rich upwelling systems.",
+        "Step 4 - Freshwater Examination: Explain inland limestone spring hydrology noting seasonal temperature stability and specialized cavern fauna."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1035,7 +1071,13 @@
       "workbook_diagram_caption": "An educational chart illustrates diverse species living in a marine ecosystem.",
       "number": "5",
       "description": "Explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience.",
-      "workbook_visual_caption": "An educational chart illustrates diverse species living in a marine ecosystem."
+      "workbook_visual_caption": "An educational chart illustrates diverse species living in a marine ecosystem.",
+      "pamphlet_summary": "An aquatic ecosystem comprises interacting biological communities and abiotic elements functioning within a specific water body. Divers frequently explore diverse environments including coral reefs, kelp forests, freshwater springs, and rocky reefs.",
+      "socratic_questions": [
+        "How do abiotic factors like sunlight penetration and water salinity shape marine ecological niches?",
+        "What ecological disruptions occur when divers disturb delicate sediment layers in stagnant freshwater systems?",
+        "In what ways do apex marine predators maintain population equilibrium across coral reef habitats?"
+      ]
     },
     {
       "req_id": "6",
@@ -1074,11 +1116,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Careers in the Scuba Industry",
+      "topic_title": "Req 6: Professional Diving Career Opportunities",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Scuba Diving Requirement 6: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for careers in the scuba industry, and maintain buddy checks throughout the session.",
+      "safety_callout": "Commercial and scientific diving requires adherence to strict institutional dive safety manual protocols.",
       "pamphlet_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 83, p. 86)",
       "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 83, p. 86)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -1108,8 +1150,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Once you earn your entry-level Open Water Diver certification, you are legally qualified to get paid as a scuba instructor.",
-        "fact": "Open Water certification makes you a beginning recreational diver, requiring progressive advanced courses, logged experience, Divemaster training, and an Instructor Development Course to teach professionally (p. 83)."
+        "misconception": "Candidates think recreational open water certification qualifies a diver for commercial offshore construction jobs.",
+        "fact": "Commercial divers attend accredited diving academies to master surface supplied helmets and underwater burning equipment.",
+        "myth": "Candidates think recreational open water certification qualifies a diver for commercial offshore construction jobs.",
+        "fact_correction": "Commercial divers attend accredited diving academies to master surface supplied helmets and underwater burning equipment."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1133,16 +1177,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Beginning as Recreational Diver: As a Scout, you will first visit the underwater world as are creational scuba diver (p. 83).",
-        "Joining a Scuba Team: You may also want to become a part of the Scuba Team (p. 83).",
-        "Recreational Scuba Instructor Workplaces: As a professional recreational scuba instructor, you might work at a local dive center, at a resort, or on a dive boat (p. 83).",
-        "Daily Tropical Destination Diving: Sailing out into the ocean to dive every day could be the rule, not the exception, especially if you work in a tropical dive destination (p. 83)."
+        "Commercial Operations: Surface supplied diving contractors execute deep underwater welding, salvage, and offshore rig construction.",
+        "Scientific Research: Marine scientists use scientific diving methods to collect biological specimens and environmental samples.",
+        "Instructional Leadership: Certified instructors teach ocean stewardship, equipment maintenance, and autonomous open water diver safety.",
+        "Public Safety: Police and rescue dive teams recover submerged evidence and conduct aquatic victim searches."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Explore Dive Center Roles: As a professional recreational scuba instructor, you might work at a local dive center, at a resort, or on a dive boat (p. 83).",
-        "Step 2 - Examine Resort Boat Careers: Sailing out into the ocean to dive every day could be the rule, not the exception, especially if you work in a tropical dive destination (p. 83).",
-        "Step 3 - Consider Daily Working Environments: Your commute to work could be as easy as a 10-minute boat ride to an exotic reef (p. 83).",
-        "Step 4 - Plan Advanced Diver Training: Once you become certified, you will be a beginning diver, and you can start expanding your diving knowledge and skills immediately by taking (p. 83)."
+        "Step 1 - Industry Research: Investigate commercial diving, scientific research diving, and recreational instruction career tracks thoroughly online.",
+        "Step 2 - Career Selection: Select one specialized diving profession and list all required collegiate or vocational credentials.",
+        "Step 3 - Prerequisite Mapping: Document necessary logged open water dives, medical fitness clearances, and specialized technical certifications.",
+        "Step 4 - Counselor Discussion: Present findings regarding training requirements and explain personal motivations for entering this field."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1215,7 +1259,13 @@
       "workbook_diagram_caption": "A diver swims carefully along the rusted superstructure of a sunken wreck.",
       "number": "6",
       "description": "Find out about three career opportunities in the scuba industry. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this profession might interest you.",
-      "workbook_visual_caption": "A diver swims carefully along the rusted superstructure of a sunken wreck."
+      "workbook_visual_caption": "A diver swims carefully along the rusted superstructure of a sunken wreck.",
+      "pamphlet_summary": "Commercial diving, marine biology research, and recreational dive instruction represent diverse professional vocational pathways. Each career demands rigorous physical conditioning, specialized certifications, and extensive logged hours underwater.",
+      "socratic_questions": [
+        "How do the equipment requirements for surface supplied commercial diving differ from recreational scuba?",
+        "What unique physical risks do saturation divers face while working on deep undersea infrastructure?",
+        "Why does scientific diver training emphasize precise buoyancy control during delicate underwater specimen sampling?"
+      ]
     }
   ],
   "badge_slug": "scuba_diving",

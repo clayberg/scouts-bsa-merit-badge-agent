@@ -33,11 +33,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Metalwork Safety Rules and Gear",
+      "topic_title": "Req 1: Workshop Safety Rules and Equipment",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 1): Complete all Metalwork Safety Rules and Gear discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Tie back long hair, roll up loose sleeves, and remove rings and necklaces before operating rotating machinery.",
       "pamphlet_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 16, p. 19)",
       "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 16, p. 19)",
       "syllabus_bucket": "In-Class Concept",
@@ -67,8 +67,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Safety glasses are only necessary when operating powered grinding wheels or pouring molten metal, not when cutting thin sheet metal by hand.",
-        "fact": "Cutting, shearing, hammering, or filing sheet metal can launch tiny razor-sharp metal chips at any moment, so ANSI-approved safety glasses or goggles must be worn for every metalworking task (p. 16)."
+        "misconception": "Synthetic athletic shirts provide adequate comfort and protection inside a hot metalworking shop.",
+        "fact": "Synthetic fabrics melt rapidly upon contact with flying sparks, bonding molten plastic directly to skin.",
+        "myth": "Synthetic athletic shirts provide adequate comfort and protection inside a hot metalworking shop.",
+        "fact_correction": "Synthetic fabrics melt rapidly upon contact with flying sparks, bonding molten plastic directly to skin."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -92,16 +94,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Focused Attention to Shop Safety: Metal working requires the craftsman to pay close attention to the work at hand and to adhere closely to special safety requirements (p. 16).",
-        "Protecting Yourself and Others First: Before diving into the techniques of metal working, learn how to keep yourself and others safe while working with metal (p. 16).",
-        "Heat, Acid, and Supervision Rules: When working with metal, acid, and high temperatures, metal workers should be aware of possible hazards, and youths must have adult supervision (p. 16).",
-        "Safe and Enjoyable Metalcraft: Following the rules will keep metal working safe and enjoyable (p. 16)."
+        "Eye Protection: Always wear safety glasses with side shields around cutting and grinding tools.",
+        "Natural Fibers: Wear untreated cotton denim or leather garments to resist ignition from hot slag.",
+        "Hearing Conservation: Insert foam earplugs or ear defenders when hammering sheet metal against hard anvils.",
+        "Respiratory Protection: Don a fitted respirator when buffing alloys or heating metals producing toxic fumes."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Ensure Adult Supervision Around Hazards: When working with metal, acid, and high temperatures, metal workers should be aware of possible hazards, and youths must have adult supervision (p. 16).",
-        "Step 2 - Follow Shop Safety Rules Strictly: Following the rules will keep metal working safe and enjoyable (p. 16).",
-        "Step 3 - Wear Proper Protective Gear: Paying attention to what you are doing and wearing the proper gear is critical in metal working (p. 16).",
-        "Step 4 - Guard Eyes Against Flying Chips: When sheet metal is cut, as mall chip of metal can fly anywhere, possibly into your eye (p. 16)."
+        "Step 1 - Gear Selection: Put on flame resistant cotton work clothing and approved impact resistant safety glasses.",
+        "Step 2 - Footwear Check: Lace heavy leather work boots tightly to guard feet against falling heavy billets.",
+        "Step 3 - Perimeter Clearance: Remove combustible debris and flammable solvents within thirty feet of the forge area.",
+        "Step 4 - Ventilation Setup: Turn on exhaust hoods or open shop doors to extract harmful airborne particulates."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -174,7 +176,13 @@
       "workbook_diagram_caption": "Workshop charts display protective blacksmithing gear, anvil hand tools, forge heating, and crafted metal scrollwork.",
       "number": "1",
       "description": "Read the safety rules for metalwork. Discuss how to be safe while working with metal. Discuss with your counselor the additional safety rules that apply to the metalwork option you choose for requirement 5.",
-      "workbook_visual_caption": "Workshop charts display protective blacksmithing gear, anvil hand tools, forge heating, and crafted metal scrollwork."
+      "workbook_visual_caption": "Workshop charts display protective blacksmithing gear, anvil hand tools, forge heating, and crafted metal scrollwork.",
+      "pamphlet_summary": "Eye protection meeting ANSI Z87.1 standards protects against high velocity metal chips and grinding sparks during shop activities. Natural fiber clothing like heavy cotton or leather prevents severe burns caused by molten splatter and hot scale.",
+      "socratic_questions": [
+        "Why do natural fibers like cotton protect against hot embers better than polyester athletic clothing?",
+        "What specific hazards does a face shield guard against that standard safety glasses cannot stop?",
+        "How does poor shop ventilation increase your health risks during prolonged soldering or welding tasks?"
+      ]
     },
     {
       "req_id": "2",
@@ -224,10 +232,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Pre-Iron Age Nonferrous Alloys (Req 2a) or confusing Pre-Iron Age Nonferrous Alloys with general Metallurgy Terms and Metal Alloys procedures.",
-            "fact": "For Requirement 2a (Pre-Iron Age Nonferrous Alloys), Native metals are those that occur naturally in a nearly pure form (p. 11).",
-            "myth": "Overlooking the specific field checks required for Pre-Iron Age Nonferrous Alloys (Req 2a) or confusing Pre-Iron Age Nonferrous Alloys with general Metallurgy Terms and Metal Alloys procedures.",
-            "fact_correction": "For Requirement 2a (Pre-Iron Age Nonferrous Alloys), Native metals are those that occur naturally in a nearly pure form (p. 11)."
+            "misconception": "Ancient bronze tools consisted of pure melted copper beaten directly into sharp cutting shapes.",
+            "fact": "Bronze is an intentional alloy composed primarily of copper combined with approximately twelve percent tin.",
+            "myth": "Ancient bronze tools consisted of pure melted copper beaten directly into sharp cutting shapes.",
+            "fact_correction": "Bronze is an intentional alloy composed primarily of copper combined with approximately twelve percent tin."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -253,10 +261,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Name two nonferrous alloys used by pre-Iron Age metalworkers. Name the metals that are combined to form these alloys.",
-          "topic_title": "Req 2a: Pre-Iron Age Nonferrous Alloys",
-          "pamphlet_summary": "Pre-Iron Age Nonferrous Alloys: Native metals are those that occur naturally in a nearly pure form (p. 11).",
+          "topic_title": "Req 2a: Ancient Nonferrous Alloy History",
+          "pamphlet_summary": "Ancient craftsmen smelted copper with tin to cast durable bronze weapons and bronze utilitarian vessels. Brass emerged through smelting copper ores together with zinc-bearing minerals to produce malleable ornamental artifacts.",
           "pamphlet_excerpts": [
-            "Pre-Iron Age Nonferrous Alloys: Native metals are those that occur naturally in a nearly pure form (p. 11)."
+            "Ancient craftsmen smelted copper with tin to cast durable bronze weapons and bronze utilitarian vessels. Brass emerged through smelting copper ores together with zinc-bearing minerals to produce malleable ornamental artifacts."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p007_img1.png",
           "workbook_diagram_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
@@ -297,8 +305,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
-            "misconception": "A malleable metal is one that shatters like glass whenever it is struck with a hammer.",
-            "fact": "Malleability is a metal's ability to be hammered, rolled, or pressed into thin sheets without cracking, whereas ductility is its ability to be drawn into thin wire (p. 11)."
+            "misconception": "All ferrous steels contain identical ingredients and behave identically when heated and struck.",
+            "fact": "Variations in carbon content, chromium, and molybdenum yield vastly different hardness levels and weldability.",
+            "myth": "All ferrous steels contain identical ingredients and behave identically when heated and struck.",
+            "fact_correction": "Variations in carbon content, chromium, and molybdenum yield vastly different hardness levels and weldability."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -324,10 +334,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Name three ferrous alloys used by modern metalworkers.",
-          "topic_title": "Req 2b: Modern Ferrous Steel Alloys",
-          "pamphlet_summary": "For Metalwork Requirement 2b (Modern Ferrous Steel Alloys): The Metalwork pamphlet for Requirement 2b details three ferrous alloys used by modern metalworkers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
+          "topic_title": "Req 2b: Modern Ferrous Alloy Varieties",
+          "pamphlet_summary": "Modern structural fabrication relies heavily on carbon steels containing precise proportions of iron and carbon. Stainless steels introduce chromium and nickel to prevent oxidation across demanding architectural and industrial environments.",
           "pamphlet_excerpts": [
-            "Modern Ferrous Steel Alloys: The Metalwork pamphlet for Requirement 2b details three ferrous alloys used by modern metalworkers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11)."
+            "Modern structural fabrication relies heavily on carbon steels containing precise proportions of iron and carbon. Stainless steels introduce chromium and nickel to prevent oxidation across demanding architectural and industrial environments."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p024_img1.png",
           "workbook_diagram_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
@@ -372,8 +382,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
-            "misconception": "Ancient metalworkers used iron thousands of years before copper because pure metallic iron nuggets were easy to pick up on river banks.",
-            "fact": "Iron rarely occurs in a pure native metallic state on Earth (apart from rare meteorites) and requires high-temperature smelting from iron ore, which is why the Bronze Age preceded the Iron Age (p. 11)."
+            "misconception": "Hammering metal when cold makes the material softer and easier to bend further.",
+            "fact": "Cold mechanical working packs crystal dislocations tightly together, causing the metal to stiffen and embrittle.",
+            "myth": "Hammering metal when cold makes the material softer and easier to bend further.",
+            "fact_correction": "Cold mechanical working packs crystal dislocations tightly together, causing the metal to stiffen and embrittle."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -399,10 +411,10 @@
           "id": "2c",
           "sub_req_label": "2c",
           "sub_req_text": "Describe how to work-harden a metal.",
-          "topic_title": "Req 2c: Work-Hardening Metal by Hammering",
-          "pamphlet_summary": "For Metalwork Requirement 2c (Work-Hardening Metal by Hammering): The Metalwork pamphlet for Requirement 2c details how to work-harden a metal, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
+          "topic_title": "Req 2c: Mechanical Work Hardening Techniques",
+          "pamphlet_summary": "Striking or bending cold metal distorts its crystalline lattice, generating internal dislocations that restrict atomic slippage. This physical deformation increases yield strength and surface hardness while progressively diminishing ductility.",
           "pamphlet_excerpts": [
-            "Work-Hardening Metal by Hammering: The Metalwork pamphlet for Requirement 2c details how to work-harden a metal, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11)."
+            "Striking or bending cold metal distorts its crystalline lattice, generating internal dislocations that restrict atomic slippage. This physical deformation increases yield strength and surface hardness while progressively diminishing ductility."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p024_img1.png",
           "workbook_diagram_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
@@ -451,8 +463,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
-            "misconception": "During Metalwork Requirement 2d, Scouts can underestimate how directly mastery of annealing nonferrous and ferrous metals depends on understanding how to anneal a nonferrous and a ferrous metal.",
-            "fact": "Scouting America standards for Metalwork Requirement 2d require complete workbook entries on annealing nonferrous and ferrous metals to demonstrate full understanding of how to anneal a nonferrous and a ferrous metal."
+            "misconception": "Quenching red-hot high-carbon steel in cold water softens the metal for easy bending.",
+            "fact": "Rapid water quenching hardens high-carbon steel, whereas slow cooling in insulating media anneals it.",
+            "myth": "Quenching red-hot high-carbon steel in cold water softens the metal for easy bending.",
+            "fact_correction": "Rapid water quenching hardens high-carbon steel, whereas slow cooling in insulating media anneals it."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -478,10 +492,10 @@
           "id": "2d",
           "sub_req_label": "2d",
           "sub_req_text": "Describe how to anneal a nonferrous and a ferrous metal.",
-          "topic_title": "Req 2d: Annealing Nonferrous and Ferrous Metals",
-          "pamphlet_summary": "Annealing Nonferrous and Ferrous Metals: Copper is a nonferrous metal, one that does not contain iron, that occasionally can be found in a native state (p. 11).",
+          "topic_title": "Req 2d: Thermal Annealing Process Methods",
+          "pamphlet_summary": "Annealing nonferrous copper requires heating to a dull red followed by immediate water quenching. Ferrous steels require heating above critical transformation temperature followed by very slow cooling in vermiculite.",
           "pamphlet_excerpts": [
-            "Annealing Nonferrous and Ferrous Metals: Copper is a nonferrous metal, one that does not contain iron, that occasionally can be found in a native state (p. 11)."
+            "Annealing nonferrous copper requires heating to a dull red followed by immediate water quenching. Ferrous steels require heating above critical transformation temperature followed by very slow cooling in vermiculite."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p024_img1.png",
           "title": "Req 2d: Annealing Nonferrous and Ferrous Metals",
@@ -535,11 +549,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Metallurgy Terms and Metal Alloys",
+      "topic_title": "Req 2: Fundamental Metallurgy and Metal Classification",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Metallurgy Terms and Metal Alloys discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Secure stock firmly in bench vises before performing manual file hardness or scratch tests.",
       "pamphlet_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
       "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
       "syllabus_bucket": "In-Class Concept",
@@ -571,8 +585,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Bronze and brass are pure native elements dug straight out of the ground rather than man-made copper alloys.",
-        "fact": "Bronze is a classic pre-Iron Age nonferrous alloy made by combining copper with tin, whereas brass is a nonferrous alloy made by combining copper with zinc (p. 11)."
+        "misconception": "Pure elemental metals consistently perform better in mechanical applications than blended metal alloys.",
+        "fact": "Alloying elements refine crystal grain structures, significantly increasing tensile strength, hardness, and corrosion resistance.",
+        "myth": "Pure elemental metals consistently perform better in mechanical applications than blended metal alloys.",
+        "fact_correction": "Alloying elements refine crystal grain structures, significantly increasing tensile strength, hardness, and corrosion resistance."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -596,28 +612,28 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Late Stone Age Metal Discovery: During the late Stone Age, between 7000 (p. 11).",
-        "Naturally Occurring Native Metals: Native metals are those that occur naturally in a nearly pure form (p. 11).",
-        "Nonferrous Native Copper Properties: Copper is a nonferrous metal, one that does not contain iron, that occasionally can be found in a native state (p. 11).",
-        "Native Gold, Silver, and Tin: Other nonferrous metals that occur naturally are gold, silver, and tin (p. 11)."
+        "Native Metals: Naturally occurring pure elements like gold and copper require no chemical smelting processes.",
+        "Malleability Factor: Malleable materials deform under compressive mechanical stress without experiencing catastrophic brittle fracture.",
+        "Alloy Composition: Combining two or more elements produces metallic mixtures with enhanced mechanical strength.",
+        "Iron Identification: Ferrous metals contain substantial iron content and generally demonstrate strong magnetic attraction qualities."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Identify Nonferrous Native Copper: Copper is a nonferrous metal, one that does not contain iron, that occasionally can be found in a native state (p. 11).",
-        "Step 2 - Recognize Native Gold, Silver, and Tin: Other nonferrous metals that occur naturally are gold, silver, and tin (p. 11).",
-        "Step 3 - Trace Early Crucible Melting History: About a thousand years later, scientists say, our ancestors began to melt native metals (p. 11).",
-        "Step 4 - Melt and Pour Metal From Crucibles: Placing the lumps of metal in acrucible, a container that resists high heat, they would melt the metal and then pour a stream of molten metal (p. 11)."
+        "Step 1 - Magnet Testing: Touch a permanent magnet against clean metal samples to detect active iron presence.",
+        "Step 2 - Scratch Comparison: Drag a hardened steel scribe across raw stock surfaces to evaluate base hardness.",
+        "Step 3 - Spark Observation: Grind stock lightly against a motorized wheel to examine distinctive carbon spark patterns.",
+        "Step 4 - Density Estimation: Compare hand weight and volume ratios among different nonferrous and ferrous bars."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Pre-Iron Age Nonferrous Alloys",
-        "right_header": "Req 2c: Work-Hardening Metal by Hammering",
+        "left_header": "Req 2a: Ancient Nonferrous Alloy History",
+        "right_header": "Req 2c: Mechanical Work Hardening Techniqu",
         "left_points": [
-          "(2a) Pre-Iron Age Nonferrous Alloys: Native metals are those that occur naturally in a nearly pure form (p. 11).",
-          "(2b) Modern Ferrous Steel Alloys: The Metalwork pamphlet for Requirement 2b details three ferrous alloys used by modern metalworkers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11)."
+          "(2a) Ancient Nonferrous Alloy History: Ancient craftsmen smelted copper with tin to cast durable bronze weapons and bronze utilitarian vessels. Brass emerged through smelting copper ores together with zinc-bearing minerals to produce malleable ornamental artifacts.",
+          "(2b) Modern Ferrous Alloy Varieties: Modern structural fabrication relies heavily on carbon steels containing precise proportions of iron and carbon. Stainless steels introduce chromium and nickel to prevent oxidation across demanding architectural and industrial environments."
         ],
         "right_points": [
-          "(2c) Work-Hardening Metal by Hammering: The Metalwork pamphlet for Requirement 2c details how to work-harden a metal, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
-          "(2d) Annealing Nonferrous and Ferrous Metals: Copper is a nonferrous metal, one that does not contain iron, that occasionally can be found in a native state (p. 11)."
+          "(2c) Mechanical Work Hardening Techniques: Striking or bending cold metal distorts its crystalline lattice, generating internal dislocations that restrict atomic slippage. This physical deformation increases yield strength and surface hardness while progressively diminishing ductility.",
+          "(2d) Thermal Annealing Process Methods: Annealing nonferrous copper requires heating to a dull red followed by immediate water quenching. Ferrous steels require heating above critical transformation temperature followed by very slow cooling in vermiculite."
         ],
         "rows": [
           {
@@ -641,10 +657,10 @@
         "title": "Metalwork Req 2 Exemplar Workbook Entry: Metallurgy Terms and Metal Alloys",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a (Pre-Iron Age Nonferrous Alloys)": "Native metals are those that occur naturally in a nearly pure form (p. 11).",
-          "Req 2b (Modern Ferrous Steel Alloys)": "The Metalwork pamphlet for Requirement 2b details three ferrous alloys used by modern metalworkers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
-          "Req 2c (Work-Hardening Metal by Hammering)": "The Metalwork pamphlet for Requirement 2c details how to work-harden a metal, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
-          "Req 2d - Annealing Nonferrous and Ferrous M": "Copper is a nonferrous metal, one that does not contain iron, that occasionally can be found in a native state (p. 11)."
+          "Req 2a - Ancient Nonferrous Alloy History": "Ancient craftsmen smelted copper with tin to cast durable bronze weapons and bronze utilitarian vessels. Brass emerged through smelting copper ores together with zinc-bearing minerals to produce malleable ornamental artifacts.",
+          "Req 2b - Modern Ferrous Alloy Varieties": "Modern structural fabrication relies heavily on carbon steels containing precise proportions of iron and carbon. Stainless steels introduce chromium and nickel to prevent oxidation across demanding architectural and industrial environments.",
+          "Req 2c - Mechanical Work Hardening Techniq": "Striking or bending cold metal distorts its crystalline lattice, generating internal dislocations that restrict atomic slippage. This physical deformation increases yield strength and surface hardness while progressively diminishing ductility.",
+          "Req 2d - Thermal Annealing Process Methods": "Annealing nonferrous copper requires heating to a dull red followed by immediate water quenching. Ferrous steels require heating above critical transformation temperature followed by very slow cooling in vermiculite."
         },
         "sample_output": "Metallurgy Terms and Metal Alloys: Other nonferrous metals that occur naturally are gold, silver, and tin (p. 11).",
         "counselor_tip": "For Metalwork Requirement 2 (Metallurgy Terms and Metal Alloys), verify the Scout's own observations and specific pamphlet details (Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24))."
@@ -676,7 +692,13 @@
       "workbook_diagram_caption": "A blacksmith heats raw metal in an outdoor coal forge while instructing a young Scout in proper technique.",
       "number": "2",
       "description": "Explain the following terms: native metal, malleable, metallurgy, alloy, nonferrous, and ferrous. Then do the following: (a) Name two nonferrous alloys used by pre-Iron Age metalworkers. Name the metals that are combined to form these alloys. (b) Name three ferrous alloys used by modern metalworkers. (c) Describe how to work-harden a metal. (d) Describe how to anneal a nonferrous and a ferrous metal.",
-      "workbook_visual_caption": "A blacksmith heats raw metal in an outdoor coal forge while instructing a young Scout in proper technique."
+      "workbook_visual_caption": "A blacksmith heats raw metal in an outdoor coal forge while instructing a young Scout in proper technique.",
+      "pamphlet_summary": "Metallurgy examines the physical behavior and chemical properties of metallic elements and their complex mixtures. Classifying metals into ferrous and nonferrous categories dictates appropriate heating ranges and fabrication techniques.",
+      "socratic_questions": [
+        "What atomic characteristics allow malleable metals to bend repeatedly without shearing apart instantly?",
+        "Why did early human civilizations discover and utilize native metals long before smelting iron ore?",
+        "Which visible spark characteristics distinguish plain low-carbon steel from high-carbon tool steel during grinding?"
+      ]
     },
     {
       "req_id": "3",
@@ -724,8 +746,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
           "common_misconception_pair": {
-            "misconception": "Lead sheet becomes rock-hard and springy when hammered repeatedly at room temperature.",
-            "fact": "All common metals except lead and mercury work-harden when hammered at room temperature because lead recrystallizes below room temperature and mercury is liquid (p. 22)."
+            "misconception": "Light surface hammering on a sheet bend does not alter metal stiffness underneath.",
+            "fact": "Peening redistributes internal mechanical stresses and multiplies dislocations throughout the entire cross section.",
+            "myth": "Light surface hammering on a sheet bend does not alter metal stiffness underneath.",
+            "fact_correction": "Peening redistributes internal mechanical stresses and multiplies dislocations throughout the entire cross section."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -751,10 +775,10 @@
           "id": "3a",
           "sub_req_label": "3a",
           "sub_req_text": "Work-harden a piece of 26- or 28-gauge sheet brass or sheet copper. Put a 45-degree bend in the metal, then heavily peen the area along the bend line to work-harden it. Note the amount of effort that is required to overcome the yield point in this unworked piece of metal.",
-          "topic_title": "Req 3a: Peening and Work-Hardening Sheet Metal",
-          "pamphlet_summary": "Peening and Work-Hardening Sheet Metal: To overcome thespringback effect, the metal often must be bent past its yield point (p. 22).",
+          "topic_title": "Req 3a: Sheet Metal Cold Work Hardening",
+          "pamphlet_summary": "Bending sheet brass or copper introduces mechanical strain along the fold line. Peening this ridge with a ball-peen hammer packs crystal lattice dislocations, elevating resistance against further movement.",
           "pamphlet_excerpts": [
-            "Peening and Work-Hardening Sheet Metal: To overcome thespringback effect, the metal often must be bent past its yield point (p. 22)."
+            "Bending sheet brass or copper introduces mechanical strain along the fold line. Peening this ridge with a ball-peen hammer packs crystal lattice dislocations, elevating resistance against further movement."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p012_img1.png",
           "workbook_diagram_caption": "A slab of raw native copper mineral exhibits characteristic green surface oxidation.",
@@ -792,8 +816,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
           "common_misconception_pair": {
-            "misconception": "A freshly quenched carbon-steel center punch is ready to strike with a hammer immediately without tempering.",
-            "fact": "Quenching red-hot medium-carbon steel makes it file-hard but too brittle to strike with a hammer; tempering reheats it gently to a specific oxide temper color to trade a little hardness for essential toughness (p. 37)."
+            "misconception": "An annealed nonferrous plate stays soft even after severe subsequent bending and forming.",
+            "fact": "Every subsequent bending action re-introduces dislocations, steadily re-hardening the metal until annealed again.",
+            "myth": "An annealed nonferrous plate stays soft even after severe subsequent bending and forming.",
+            "fact_correction": "Every subsequent bending action re-introduces dislocations, steadily re-hardening the metal until annealed again."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -819,10 +845,10 @@
           "id": "3b",
           "sub_req_label": "3b",
           "sub_req_text": "Soften the work-hardened piece from requirement 3(a) by annealing it, and then try to remove the 45-degree bend. Note the amount of effort that is required to overcome the yield point.",
-          "topic_title": "Req 3b: Annealing Work-Hardened Sheet Metal",
-          "pamphlet_summary": "Annealing Work-Hardened Sheet Metal: Without using any tools, do your best to put a 45-degree bend in the unworked metal (p. 22).",
+          "topic_title": "Req 3b: Thermal Annealing and Realignment",
+          "pamphlet_summary": "Heating the peened bend zone to dull red enables recrystallization, allowing new strain-free grains to nucleate. Once softened, the sheet bends flat under minimal applied force without cracking.",
           "pamphlet_excerpts": [
-            "Annealing Work-Hardened Sheet Metal: Without using any tools, do your best to put a 45-degree bend in the unworked metal (p. 22)."
+            "Heating the peened bend zone to dull red enables recrystallization, allowing new strain-free grains to nucleate. Once softened, the sheet bends flat under minimal applied force without cracking."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p022_img1.png",
           "workbook_diagram_caption": "A curved sheet metal piece is shaped against a specialized wooden forming block stake.",
@@ -865,8 +891,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
           "common_misconception_pair": {
-            "misconception": "On a steel temper color index, a blue oxide color indicates cooler temperatures and harder, more brittle steel than pale straw.",
-            "fact": "As polished steel is heated during tempering, thin surface oxide films turn pale straw, brown, purple, and then blue as temperature rises, indicating progressively softer and tougher states (p. 37)."
+            "misconception": "A center punch tip should be left as hard as possible without tempering.",
+            "fact": "An untempered high-carbon punch tip fractures immediately upon the first heavy hammer strike.",
+            "myth": "A center punch tip should be left as hard as possible without tempering.",
+            "fact_correction": "An untempered high-carbon punch tip fractures immediately upon the first heavy hammer strike."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -892,10 +920,10 @@
           "id": "3c",
           "sub_req_label": "3c",
           "sub_req_text": "Make a temper color index from a flat piece of steel. Using hand tools, make and temper a center punch of medium-carbon or high-carbon steel.",
-          "topic_title": "Req 3c: Steel Temper Colors and Center Punch",
-          "pamphlet_summary": "For Metalwork Requirement 3c (Steel Temper Colors and Center Punch): The Metalwork pamphlet for Requirement 3c details a temper color index from a flat piece of steel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
+          "topic_title": "Req 3c: Steel Tempering and Toolmaking",
+          "pamphlet_summary": "Grinding and polishing high-carbon tool steel creates a clean surface for observing thermal oxide bands. Heating the punch shank draws temper toward the working point to achieve durability.",
           "pamphlet_excerpts": [
-            "Steel Temper Colors and Center Punch: The Metalwork pamphlet for Requirement 3c details a temper color index from a flat piece of steel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+            "Grinding and polishing high-carbon tool steel creates a clean surface for observing thermal oxide bands. Heating the punch shank draws temper toward the working point to achieve durability."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p022_img1.png",
           "title": "Req 3c: Steel Temper Colors and Center Punch",
@@ -921,11 +949,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Work-Hardening, Annealing, and Tempering",
+      "topic_title": "Req 3: Metal Hardening and Tempering Operations",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Metalwork Requirement 3 on work-hardening, annealing, and tempering: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Always pick up recently heated metal tongs or test pieces using thick insulated leather gloves.",
       "pamphlet_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
       "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
       "syllabus_bucket": "In-Class Concept",
@@ -955,8 +983,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Hammering along a bend in sheet copper or brass stretches and weakens the metal so that it bends back flat with less effort than before.",
-        "fact": "Heavily peening a bend in 26- or 28-gauge brass or copper compacts and distorts its internal crystal grain structure (work-hardening), raising its yield point so the bend resists straightening until it is annealed with heat (p. 22)."
+        "misconception": "Heating steel until it glows bright red guarantees an ideal final tool hardness.",
+        "fact": "Untempered quenched steel remains glass-brittle and will shatter violently unless drawn back to temper.",
+        "myth": "Heating steel until it glows bright red guarantees an ideal final tool hardness.",
+        "fact_correction": "Untempered quenched steel remains glass-brittle and will shatter violently unless drawn back to temper."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -980,16 +1010,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Elastic Springback in Cold Metal: Cold metal does not always stay in place after it is bent (p. 22).",
-        "Bending Past the Yield Point: To overcome thespringback effect, the metal often must be bent past its yield point (p. 22).",
-        "Hand-Bending Unworked Sheet Metal: Without using any tools, do your best to put a 45-degree bend in the unworked metal (p. 22).",
-        "Demonstrating Springback at Forty-Five Degrees: Stop when you have pushed the metal to To demonstrate spring back, use your 45 degrees (p. 22)."
+        "Cold Working: Repetitive hammering along bend lines increases surface rigidity and resists further displacement.",
+        "Dislocation Density: Plastic deformation creates internal crystalline lattice jams that elevate the material yield point.",
+        "Oxidation Colors: Surface oxide layers reflect specific thermal plateaus during the steel tool tempering process.",
+        "Thermal Cycling: Controlled heating dissolves trapped internal stresses to restore malleability across deformed workpieces."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Bend Unworked Sheet Metal by Hand: Without using any tools, do your best to put a 45-degree bend in the unworked metal (p. 22).",
-        "Step 2 - Observe Elastic Springback Action: Stop when you have pushed the metal to To demonstrate spring back, use your 45 degrees (p. 22).",
-        "Step 3 - Work-Harden the Bend by Peening: The process of hardening a metal by hammering it is called work hardening (p. 22).",
-        "Step 4 - Compare Metals That Work-Harden: All metals except mercury and lead become harder as they are hammered (p. 22)."
+        "Step 1 - Angle Bending: Clamp sheet metal in smooth vise jaws and bend cleanly to forty-five degrees.",
+        "Step 2 - Peen Hardening: Strike the outside radius evenly using light blows from a polished ball-peen hammer.",
+        "Step 3 - Torch Annealing: Warm the work-hardened bend zone using a torch until dull red glow appears.",
+        "Step 4 - Color Polishing: Polish steel flat stock bright with emery cloth before monitoring running oxide bands."
       ],
       "gear_checklist": [
         "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
@@ -998,15 +1028,13 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Peening and Work-Hardening Sheet M",
-        "right_header": "Req 3b: Annealing Work-Hardened Sheet Meta",
+        "left_header": "Req 3a: Sheet Metal Cold Work Hardening",
+        "right_header": "Req 3b: Thermal Annealing and Realignment",
         "left_points": [
-          "(3a) Peening and Work-Hardening Sheet Metal: To overcome thespringback effect, the metal often must be bent past its yield point (p. 22).",
-          "Bending Past the Yield Point: To overcome thespringback effect, the metal often must be bent past its yield point (p. 22)."
+          "(3a) Sheet Metal Cold Work Hardening: Bending sheet brass or copper introduces mechanical strain along the fold line. Peening this ridge with a ball-peen hammer packs crystal lattice dislocations, elevating resistance against further movement."
         ],
         "right_points": [
-          "(3b) Annealing Work-Hardened Sheet Metal: Without using any tools, do your best to put a 45-degree bend in the unworked metal (p. 22).",
-          "Hand-Bending Unworked Sheet Metal: Without using any tools, do your best to put a 45-degree bend in the unworked metal (p. 22)."
+          "(3b) Thermal Annealing and Realignment: Heating the peened bend zone to dull red enables recrystallization, allowing new strain-free grains to nucleate. Once softened, the sheet bends flat under minimal applied force without cracking."
         ],
         "rows": [
           {
@@ -1030,9 +1058,9 @@
         "title": "Metalwork Req 3 Exemplar Workbook Entry: Work-Hardening, Annealing, and Tempering",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a - Peening and Work-Hardening Sheet M": "To overcome thespringback effect, the metal often must be bent past its yield point (p. 22).",
-          "Req 3b - Annealing Work-Hardened Sheet Meta": "Without using any tools, do your best to put a 45-degree bend in the unworked metal (p. 22).",
-          "Req 3c - Steel Temper Colors and Center Pun": "The Metalwork pamphlet for Requirement 3c details a temper color index from a flat piece of steel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+          "Req 3a - Sheet Metal Cold Work Hardening": "Bending sheet brass or copper introduces mechanical strain along the fold line. Peening this ridge with a ball-peen hammer packs crystal lattice dislocations, elevating resistance against further movement.",
+          "Req 3b - Thermal Annealing and Realignment": "Heating the peened bend zone to dull red enables recrystallization, allowing new strain-free grains to nucleate. Once softened, the sheet bends flat under minimal applied force without cracking.",
+          "Req 3c - Steel Tempering and Toolmaking": "Grinding and polishing high-carbon tool steel creates a clean surface for observing thermal oxide bands. Heating the punch shank draws temper toward the working point to achieve durability."
         },
         "sample_output": "Work-Hardening, Annealing, and Tempering: Cold metal does not always stay in place after it is bent (p. 22).",
         "counselor_tip": "For Metalwork Requirement 3 (Work-Hardening, Annealing, and Tempering), verify the Scout's own observations and specific pamphlet details (Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37))."
@@ -1064,7 +1092,13 @@
       "workbook_diagram_caption": "A slab of raw native copper mineral exhibits characteristic green surface oxidation.",
       "number": "3",
       "description": "Do the following: (a) Work-harden a piece of 26- or 28-gauge sheet brass or sheet copper. Put a 45-degree bend in the metal, then heavily peen the area along the bend line to work-harden it. Note the amount of effort that is required to overcome the yield point in this unworked piece of metal. (b) Soften the work-hardened piece from requirement 3(a) by annealing it, and then try to remove the 45-degree bend. Note the amount of effort that is required to overcome the yield point. (c) Make a temper color index from a flat piece of steel. Using hand tools, make and temper a center punch of medium-carbon or high-carbon steel.",
-      "workbook_visual_caption": "A slab of raw native copper mineral exhibits characteristic green surface oxidation."
+      "workbook_visual_caption": "A slab of raw native copper mineral exhibits characteristic green surface oxidation.",
+      "pamphlet_summary": "Mechanical working and thermal processing allow metalworkers to manipulate the internal microstructure of functional pieces. Careful observation of oxidation colors indicates specific temperature ranges required to relieve internal hardening stresses.",
+      "socratic_questions": [
+        "Why does peening the apex of a bend make the sheet metal noticeably stiffer?",
+        "What microscopic changes occur inside work-hardened copper when you heat it to dull red?",
+        "How do the oxidation colors formed on polished steel correlate with its final working hardness?"
+      ]
     },
     {
       "req_id": "4",
@@ -1126,8 +1160,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)",
           "common_misconception_pair": {
-            "misconception": "Setting up a home blacksmithing or foundry hobby requires no special ventilation, fire safety equipment, or protective gear.",
-            "fact": "Hobbyist metalworking requires investing in proper ventilation, fire protection, eye and hearing protection, and dedicated anvils, stakes, or torches before operating a home shop (p. 88)."
+            "misconception": "Specialized metal trades can be mastered entirely through informal hobby trial and error.",
+            "fact": "Aerospace and structural fabrication enforce strict American Welding Society or equivalent procedural certifications.",
+            "myth": "Specialized metal trades can be mastered entirely through informal hobby trial and error.",
+            "fact_correction": "Aerospace and structural fabrication enforce strict American Welding Society or equivalent procedural certifications."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1153,10 +1189,10 @@
           "id": "4a",
           "sub_req_label": "4a",
           "sub_req_text": "Identify three career opportunities that would use skills and knowledge in metalworking. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.",
-          "topic_title": "Req 4a: Metalworking Career Pathways and Training",
-          "pamphlet_summary": "For Metalwork Requirement 4a (Metalworking Career Pathways and Training): The Metalwork pamphlet for Requirement 4a details three career opportunities that would use skills and knowledge in metalworking, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 87).",
+          "topic_title": "Req 4a: Commercial Metalworking Career Pathways",
+          "pamphlet_summary": "Industrial careers span structural welding, precision machining, and metallurgical quality control inspection. Entering these fields requires vocational diplomas, formal apprenticeships, and rigorous code testing certifications.",
           "pamphlet_excerpts": [
-            "Metalworking Career Pathways and Training: The Metalwork pamphlet for Requirement 4a details three career opportunities that would use skills and knowledge in metalworking, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 87)."
+            "Industrial careers span structural welding, precision machining, and metallurgical quality control inspection. Entering these fields requires vocational diplomas, formal apprenticeships, and rigorous code testing certifications."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p087_img1.png",
           "workbook_diagram_caption": "A worker wearing a yellow hard hat inspects long structural metal studs in a warehouse.",
@@ -1209,8 +1245,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)",
           "common_misconception_pair": {
-            "misconception": "Machine shops only perform rough scrap-metal cutting and never require precision measurement or math skills.",
-            "fact": "Precision machinists and engine rebuilders work to tolerances measured in thousandths of an inch using lathes, mills, and micrometers to manufacture critical aerospace and automotive parts (p. 87)."
+            "misconception": "Setting up a home metalworking hobby requires purchasing expensive computerized factory machinery.",
+            "fact": "Traditional hand tool forgings and jewelry pieces require modest footprints and rudimentary hand tooling.",
+            "myth": "Setting up a home metalworking hobby requires purchasing expensive computerized factory machinery.",
+            "fact_correction": "Traditional hand tool forgings and jewelry pieces require modest footprints and rudimentary hand tooling."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1236,10 +1274,10 @@
           "id": "4b",
           "sub_req_label": "4b",
           "sub_req_text": "Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
-          "topic_title": "Req 4b: Personal Metalworking Hobby Planning",
-          "pamphlet_summary": "For Metalwork Requirement 4b (Personal Metalworking Hobby Planning): The Metalwork pamphlet for Requirement 4b details how you might use the skills and knowledge in metalworking to pursue a personal hobby, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 87).",
+          "topic_title": "Req 4b: Metalcraft Hobby and Guilds",
+          "pamphlet_summary": "Amateur metalcraft allows hobbyists to explore decorative blacksmithing, knife making, and artistic jewelry casting. Joining organizations like the Artist-Blacksmith's Association of North America provides structured mentoring and safety workshops.",
           "pamphlet_excerpts": [
-            "Personal Metalworking Hobby Planning: The Metalwork pamphlet for Requirement 4b details how you might use the skills and knowledge in metalworking to pursue a personal hobby, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 87)."
+            "Amateur metalcraft allows hobbyists to explore decorative blacksmithing, knife making, and artistic jewelry casting. Joining organizations like the Artist-Blacksmith's Association of North America provides structured mentoring and safety workshops."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p087_img1.png",
           "title": "Req 4b: Personal Metalworking Hobby Planning",
@@ -1285,11 +1323,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Metalworking Careers and Hobbies",
+      "topic_title": "Req 4: Metalworking Careers and Craft Pursuits",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 4): Complete all Metalworking Careers and Hobbies discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Review facility safety policies, emergency shutoff switches, and ventilation systems before touring active metalworking facilities.",
       "pamphlet_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)",
       "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -1321,8 +1359,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Every modern metalworking career requires a four-year university engineering degree, or conversely, offers no path for college-educated engineers.",
-        "fact": "Metalworking careers span both skilled trades entered through vocational schools and apprenticeships (machinists, sheet metal mechanics, welders, tool and die makers) and university-degreed metallurgical, structural, and mechanical engineers (p. 87)."
+        "misconception": "Metal fabrication careers rely strictly on manual muscle rather than advanced technical science.",
+        "fact": "Modern metalworkers master computer programming, blueprint interpretation, metallurgy, and precise robotic welding control.",
+        "myth": "Metal fabrication careers rely strictly on manual muscle rather than advanced technical science.",
+        "fact_correction": "Modern metalworkers master computer programming, blueprint interpretation, metallurgy, and precise robotic welding control."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1346,28 +1386,26 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Vocational Training and Apprenticeships: Many metal workers need a high school education, followed by vocational school or an apprenticeship, to become professional hands-on metal workers (p. 87).",
-        "Shipyard, Auto, and Aircraft Jobs: Some may choose to work for a shipyard, an automobile-parts manufacturing plant, or an aircraft manufacturing plant (p. 87).",
-        "Specialty Machine Shop Careers: Others may decide to work for large machine shops that specialize in rebuilding engines or manufacturing specialty parts for other companies (p. 87).",
-        "Engineering Degrees in Metal Fields: Some professionals with interests in metal working earn college degrees in mechanical, structural, or metallurgical engineering (p. 87)."
+        "Welding Technology: Certified welders join critical structural components in shipyards, bridges, and industrial manufacturing plants.",
+        "Precision Machining: Computer numerical control machinists produce aerospace components with tolerances measured in microscopic thousandths.",
+        "Apprenticeship Models: Formal trade unions provide paid on-the-job training alongside classroom vocational theory instructions.",
+        "Guild Organizations: Blacksmithing associations offer regional hammer-ins, instructional workshops, and tool development mentorship networks."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Explore Machine Shop Specializations: Others may decide to work for large machine shops that specialize in rebuilding engines or manufacturing specialty parts for other companies (p. 87).",
-        "Step 2 - Research Engineering Degree Pathways: Some professionals with interests in metal working earn college degrees in mechanical, structural, or metallurgical engineering (p. 87).",
-        "Step 3 - Examine Bridge and Alloy Design Roles: They will tackle such projects as designing bridges or creating specialty metals in a steel mill or an aluminum producing facility (p. 87).",
-        "Step 4 - Survey Core Industrial Employers: An engineer who is familiar with the properties of metals might find a good career in the automobile, shipbuilding, aircraft, petroleum, defense (p. 87)."
+        "Step 1 - Field Investigation: Research certified trade specialties like structural welding, precision toolmaking, or industrial metallurgy.",
+        "Step 2 - Requirement Cataloging: Document necessary technical certifications, trade school diplomas, and union apprenticeship prerequisites.",
+        "Step 3 - Equipment Budgeting: Calculate startup costs for essential personal protective gear, measuring tools, and workshop machinery.",
+        "Step 4 - Organization Outreach: Contact local metal craft guilds or professional trade chapters regarding educational workshops."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Metalworking Career Pathways and T",
-        "right_header": "Req 4b: Personal Metalworking Hobby Planni",
+        "left_header": "Req 4a: Commercial Metalworking Career Pat",
+        "right_header": "Req 4b: Metalcraft Hobby and Guilds",
         "left_points": [
-          "(4a) Metalworking Career Pathways and Training: The Metalwork pamphlet for Requirement 4a details three career opportunities that would use skills and knowledge in metalworking, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 87).",
-          "Shipyard, Auto, and Aircraft Jobs: Some may choose to work for a shipyard, an automobile-parts manufacturing plant, or an aircraft manufacturing plant (p. 87)."
+          "(4a) Commercial Metalworking Career Pathways: Industrial careers span structural welding, precision machining, and metallurgical quality control inspection. Entering these fields requires vocational diplomas, formal apprenticeships, and rigorous code testing certifications."
         ],
         "right_points": [
-          "(4b) Personal Metalworking Hobby Planning: The Metalwork pamphlet for Requirement 4b details how you might use the skills and knowledge in metalworking to pursue a personal hobby, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 87).",
-          "Specialty Machine Shop Careers: Others may decide to work for large machine shops that specialize in rebuilding engines or manufacturing specialty parts for other companies (p. 87)."
+          "(4b) Metalcraft Hobby and Guilds: Amateur metalcraft allows hobbyists to explore decorative blacksmithing, knife making, and artistic jewelry casting. Joining organizations like the Artist-Blacksmith's Association of North America provides structured mentoring and safety workshops."
         ],
         "rows": [
           {
@@ -1391,8 +1429,8 @@
         "title": "Metalwork Req 4 Exemplar Workbook Entry: Metalworking Careers and Hobbies",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 4a - Metalworking Career Pathways and T": "The Metalwork pamphlet for Requirement 4a details three career opportunities that would use skills and knowledge in metalworking, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 87).",
-          "Req 4b - Personal Metalworking Hobby Planni": "The Metalwork pamphlet for Requirement 4b details how you might use the skills and knowledge in metalworking to pursue a personal hobby, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 87)."
+          "Req 4a - Commercial Metalworking Career Pa": "Industrial careers span structural welding, precision machining, and metallurgical quality control inspection. Entering these fields requires vocational diplomas, formal apprenticeships, and rigorous code testing certifications.",
+          "Req 4b - Metalcraft Hobby and Guilds": "Amateur metalcraft allows hobbyists to explore decorative blacksmithing, knife making, and artistic jewelry casting. Joining organizations like the Artist-Blacksmith's Association of North America provides structured mentoring and safety workshops."
         },
         "sample_output": "Metalworking Careers and Hobbies: Some may choose to work for a shipyard, an automobile-parts manufacturing plant, or an aircraft manufacturing plant (p. 87).",
         "counselor_tip": "For Metalwork Requirement 4 (Metalworking Careers and Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88))."
@@ -1424,7 +1462,13 @@
       "workbook_diagram_caption": "A worker wearing a yellow hard hat inspects long structural metal studs in a warehouse.",
       "number": "4",
       "description": "Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in metalworking. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. (b) Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
-      "workbook_visual_caption": "A worker wearing a yellow hard hat inspects long structural metal studs in a warehouse."
+      "workbook_visual_caption": "A worker wearing a yellow hard hat inspects long structural metal studs in a warehouse.",
+      "pamphlet_summary": "Modern industries demand skilled tradespeople who understand metallurgical science and precision fabrication technologies. Exploring commercial certifications and amateur guild affiliations helps individuals translate shop fundamentals into lifelong careers or crafts.",
+      "socratic_questions": [
+        "How does acquiring certified welding credentials expand employment opportunities across international infrastructure projects?",
+        "What primary expenses must a beginner anticipate when setting up a safe home forge?",
+        "In what ways do professional guild associations accelerate craft skill development for novice blacksmiths?"
+      ]
     },
     {
       "req_id": "5",
@@ -1808,8 +1852,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
-            "misconception": "In a founder's two-piece sand-casting mold, the bottom half is called the chimney and the top half is called the anvil.",
-            "fact": "In sand casting, the upper half of the two-piece molding flask is called the cope and the lower half is called the drag, packed with tempered molding sand around a pattern with risers and gates (p. 49)."
+            "misconception": "Flat sheet metal corners can be folded into box shapes without calculating bend allowances.",
+            "fact": "Metal stretches and compresses along bends, requiring precise layout calculations to achieve accurate dimensions.",
+            "myth": "Flat sheet metal corners can be folded into box shapes without calculating bend allowances.",
+            "fact_correction": "Metal stretches and compresses along bends, requiring precise layout calculations to achieve accurate dimensions."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1840,10 +1886,10 @@
           "id": "5a",
           "sub_req_label": "5a",
           "sub_req_text": "Option A, Sheet Metal Mechanic/Tinsmith. Do ALL of the following: (1) Name and describe the use of the basic sheet metalworking tools. (2) Create a sketch of two objects to make from sheet metal. Include each component's dimensions on your sketch, which need not be to scale. (3) Make two objects out of 24- or 26-gauge sheet metal. Use patterns either provided by your counselor or made by you and approved by your counselor. Construct these objects using a metal that is appropriate to the object's ultimate purpose, and using cutting, bending, edging, and either soldering or brazing. (a) One object also must include at least one riveted component. (b) If you do not make your objects from zinc-plated sheet steel or tin-plated sheet steel, preserve your work from oxidation.",
-          "topic_title": "Req 5a: Sheet Metal Mechanic and Tinsmith",
-          "pamphlet_summary": "Sheet Metal Mechanic and Tinsmith: Silversmiths use many of the same tools as other craftsmen, but because the objects silversmiths create are smaller, their tools are scaled (p. 37).",
+          "topic_title": "Req 5a: Sheet Metalwork and Tinsmithing",
+          "pamphlet_summary": "Sheet metal mechanics use aviation snips, hand seamers, and stakes to construct geometric sheet products. Projects incorporate folded hems, wired edges, and soldered or riveted seams to ensure structural rigidity.",
           "pamphlet_excerpts": [
-            "Sheet Metal Mechanic and Tinsmith: Silversmiths use many of the same tools as other craftsmen, but because the objects silversmiths create are smaller, their tools are scaled (p. 37)."
+            "Sheet metal mechanics use aviation snips, hand seamers, and stakes to construct geometric sheet products. Projects incorporate folded hems, wired edges, and soldered or riveted seams to ensure structural rigidity."
           ],
           "workbook_diagram_url": "assets/ai_illustrations/metalwork_req_5_topic_visual.png",
           "workbook_diagram_caption": "After Completing The First Four procedures and verification checkpoints for Metalwork Requirement 5.",
@@ -2282,8 +2328,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
-            "misconception": "When preparing Metalwork Requirement 5b (Silversmithing Tools and Hollowware), Scouts sometimes overlook the concrete pamphlet benchmarks covering option b, silversmith.",
-            "fact": "Counselor verification for Metalwork Requirement 5b requires concrete workbook evidence on silversmithing tools and hollowware, specifically addressing option b, silversmith."
+            "misconception": "Silver sheet can be hammered repeatedly into deep bowls without periodic heat treatment.",
+            "fact": "Sterling silver work-hardens rapidly under hammer blows and fractures unless annealed to dull red.",
+            "myth": "Silver sheet can be hammered repeatedly into deep bowls without periodic heat treatment.",
+            "fact_correction": "Sterling silver work-hardens rapidly under hammer blows and fractures unless annealed to dull red."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2314,10 +2362,10 @@
           "id": "5b",
           "sub_req_label": "5b",
           "sub_req_text": "Option B, Silversmith. Do ALL of the following: (1) Name and describe the use of a silversmith's basic tools. (2) Create a sketch of two objects to make from sheet silver. Include each component's dimensions on your sketch, which need not be to scale. (3) Make two objects out of 18- or 20-gauge sheet copper. Use patterns either provided by your counselor or made by you and approved by your counselor. Both objects must include a soldered joint. If you have prior silversmithing experience, you may substitute sterling silver, nickel silver, or lead-free pewter. (a) At least one object must include a sawed component you have made yourself. (b) At least one object must include a sunken part you have made yourself. (c) Clean and polish your objects.",
-          "topic_title": "Req 5b: Silversmithing Tools and Hollowware",
-          "pamphlet_summary": "For Metalwork Requirement 5b (Silversmithing Tools and Hollowware): The Metalwork pamphlet for Requirement 5b details option B, Silversmith, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+          "topic_title": "Req 5b: Silversmithing and Fine Jewelry",
+          "pamphlet_summary": "Silversmiths utilize raising hammers, planishing stakes, and jewelers saws to form nonferrous precious metals. Sinking, doming, and silver soldering require frequent annealing cycles to prevent stress tears.",
           "pamphlet_excerpts": [
-            "Silversmithing Tools and Hollowware: The Metalwork pamphlet for Requirement 5b details option B, Silversmith, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+            "Silversmiths utilize raising hammers, planishing stakes, and jewelers saws to form nonferrous precious metals. Sinking, doming, and silver soldering require frequent annealing cycles to prevent stress tears."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p049_img2.png",
           "workbook_diagram_caption": "A specialized chasing hammer with a flared handle provides fine control for silversmiths.",
@@ -2686,8 +2734,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
-            "misconception": "For Metalwork Requirement 5c, a common mistake in foundry sand casting and molds is treating option c, founder as optional background reading.",
-            "fact": "Mastering Metalwork Requirement 5c means following the pamphlet standard for foundry sand casting and molds and recording accurate notes on option c, founder."
+            "misconception": "Moisture inside casting sand is completely harmless when molten bronze is poured.",
+            "fact": "Excess moisture vaporizes instantaneously into steam, creating violent explosions that blow molten metal out.",
+            "myth": "Moisture inside casting sand is completely harmless when molten bronze is poured.",
+            "fact_correction": "Excess moisture vaporizes instantaneously into steam, creating violent explosions that blow molten metal out."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2718,10 +2768,10 @@
           "id": "5c",
           "sub_req_label": "5c",
           "sub_req_text": "Option C, Founder. Do ALL of the following: (1) Name and describe the use of the basic parts of a two-piece mold. Name at least three different types of molds. (2) Create a sketch of two objects to cast in metal. Include each component's dimensions on your sketch, which need not be to scale. (3) Make two molds, one using a pattern provided by your counselor and another one you have made yourself that has been approved by your counselor. Position the pouring gate and vents yourself. Note: Do not use copyrighted materials as patterns. (a) Using lead-free pewter, make a casting using a mold provided by your counselor. (b) Using lead-free pewter, make a casting using the mold that you have made.",
-          "topic_title": "Req 5c: Foundry Sand Casting and Molds",
-          "pamphlet_summary": "For Metalwork Requirement 5c (Foundry Sand Casting and Molds): The Metalwork pamphlet for Requirement 5c details option C, Founder, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+          "topic_title": "Req 5c: Foundry Casting and Molding",
+          "pamphlet_summary": "Founders pack greensand around split wood patterns inside two-part flask assemblies called copes and drags. Cutting sprues, gates, and risers allows molten metal to fill cavities without entrapping gases.",
           "pamphlet_excerpts": [
-            "Foundry Sand Casting and Molds: The Metalwork pamphlet for Requirement 5c details option C, Founder, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+            "Founders pack greensand around split wood patterns inside two-part flask assemblies called copes and drags. Cutting sprues, gates, and risers allows molten metal to fill cavities without entrapping gases."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p018_img1.png",
           "workbook_diagram_caption": "A student wearing safety glasses carefully pours liquid metal from a handled ladle pot.",
@@ -3472,8 +3522,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
-            "misconception": "During Metalwork Requirement 5d, Scouts can underestimate how directly mastery of blacksmithing forge and anvil work depends on understanding option d, blacksmith.",
-            "fact": "Scouting America standards for Metalwork Requirement 5d require complete workbook entries on blacksmithing forge and anvil work to demonstrate full understanding of option d, blacksmith."
+            "misconception": "Blacksmiths strike steel when cold to avoid burning the iron away in flames.",
+            "fact": "Forging cold steel causes severe internal fractures and ruins hammer faces and anvil edges.",
+            "myth": "Blacksmiths strike steel when cold to avoid burning the iron away in flames.",
+            "fact_correction": "Forging cold steel causes severe internal fractures and ruins hammer faces and anvil edges."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3504,10 +3556,10 @@
           "id": "5d",
           "sub_req_label": "5d",
           "sub_req_text": "Option D, Blacksmith. Do ALL of the following: (1) Name and describe the use of a blacksmith's basic tools. (2) Make a sketch of two objects to hot-forge. Include each component's dimensions on your sketch, which need not be to scale. (3) Using low-carbon steel at least 1/4 inch thick, perform the following exercises: (a) Draw out by forging a taper. (b) Use the horn of the anvil by forging a U -shaped bend. (c) Form a decorative twist in a piece of square steel. (d) Use the edge of the anvil to bend metal by forging an L -shaped bend. (4) Using low-carbon steel at least 1/4 inch thick, make the two objects you sketched that require hot-forging. Be sure you have your counselor's approval before you begin. (a) Include a decorative twist on one object. (b) Include a hammer-riveted joint in one object. (c) Preserve your work from oxidation.",
-          "topic_title": "Req 5d: Blacksmithing Forge and Anvil Work",
-          "pamphlet_summary": "For Metalwork Requirement 5d (Blacksmithing Forge and Anvil Work): The Metalwork pamphlet for Requirement 5d details option D, Blacksmith, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+          "topic_title": "Req 5d: Blacksmithing and Hot Forging",
+          "pamphlet_summary": "Blacksmiths use coal or propane forges to bring medium-carbon steel to bright orange forging temperatures. Shaping involves drawing out, upsetting, bending over the horn, and punching holes across the anvil.",
           "pamphlet_excerpts": [
-            "Blacksmithing Forge and Anvil Work: The Metalwork pamphlet for Requirement 5d details option D, Blacksmith, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+            "Blacksmiths use coal or propane forges to bring medium-carbon steel to bright orange forging temperatures. Shaping involves drawing out, upsetting, bending over the horn, and punching holes across the anvil."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p024_img2.png",
           "workbook_diagram_caption": "A metalworker strikes a hot workpiece placed across heavy metal bars with a hammer.",
@@ -3552,11 +3604,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Specialized Metalcraft Options",
+      "topic_title": "Req 5: Specialized Metalworking Fabrication Options",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Metalwork Requirement 5 on specialized metalcraft options: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Wear high-top leather safety boots and face shields when pouring molten metal or handling incandescent forge stock.",
       "pamphlet_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
       "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -3588,8 +3640,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Planishing is rough heavy hammering used to bend thick iron bars in half at the start of a project.",
-        "fact": "Planishing uses a highly polished, slightly domed or square hammer face against a matching smooth stake to remove tiny dings and stretch marks after raising or forming, leaving a smooth, work-hardened surface (p. 37)."
+        "misconception": "All four metalwork options share identical tooling and follow the same assembly techniques.",
+        "fact": "Sheet metal relies on mechanical folding, silversmithing on raising, foundry on pouring, and blacksmithing on forging.",
+        "myth": "All four metalwork options share identical tooling and follow the same assembly techniques.",
+        "fact_correction": "Sheet metal relies on mechanical folding, silversmithing on raising, foundry on pouring, and blacksmithing on forging."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3618,28 +3672,28 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Smoothing Metal by Planishing: Planishing is the process of smoothing the finished piece, so hammers used in this process must be fairly specialized to do the job (p. 37).",
-        "Round and Square Planishing Faces: Some planishinghammers have both a round face and a square face (p. 37).",
-        "Scaled-Down Silversmith Hand Tools: Silversmiths use many of the same tools as other craftsmen, but because the objects silversmiths create are smaller, their tools are scaled (p. 37).",
-        "Specialized Hammer Curves and Shapes: The hammers used by silversmiths have specific shapes that have been refined over thousands of years to perform specific purposes (p. 37)."
+        "Sheet Fabrication: Tinsmiths cut, bend, and rivet thin metal sheets into hollow functional containers.",
+        "Silversmithing Precision: Artisans planish and raise precious nonferrous sheet into refined vessels and jewelry.",
+        "Foundry Principles: Founders melt metallic ingots and pour liquid metal into compacted sand molds.",
+        "Blacksmithing Forging: Blacksmiths heat ferrous bars in forges to shape tools using anvil faces."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Select Scaled Silversmithing Tools: Silversmiths use many of the same tools as other craftsmen, but because the objects silversmiths create are smaller, their tools are scaled (p. 37).",
-        "Step 2 - Match Hammer Shapes to Tasks: The hammers used by silversmiths have specific shapes that have been refined over thousands of years to perform specific purposes (p. 37).",
-        "Step 3 - Choose the Proper Face Curvature: Each hammer's face has a slightly different curve (p. 37).",
-        "Step 4 - Use Raising and Forming Hammers: Raising hammers and forming hammers are used for making curved shapes (p. 37)."
+        "Step 1 - Option Selection: Choose between sheet metal fabrication, silversmithing art, foundry casting, or traditional blacksmithing.",
+        "Step 2 - Pattern Drafting: Draw full scale project sketches detailing exact material thicknesses, bend allowances, and dimensions.",
+        "Step 3 - Tool Preparation: Select appropriate hammers, stakes, tongs, snips, or molding flasks for the project.",
+        "Step 4 - Project Execution: Fabricate the approved article following sequential heating, cutting, forming, and finishing procedures."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Sheet Metal Mechanic and Tinsmith",
-        "right_header": "Req 5c: Foundry Sand Casting and Molds",
+        "left_header": "Req 5a: Sheet Metalwork and Tinsmithing",
+        "right_header": "Req 5c: Foundry Casting and Molding",
         "left_points": [
-          "(5a) Sheet Metal Mechanic and Tinsmith: Silversmiths use many of the same tools as other craftsmen, but because the objects silversmiths create are smaller, their tools are scaled (p. 37).",
-          "(5b) Silversmithing Tools and Hollowware: The Metalwork pamphlet for Requirement 5b details option B, Silversmith, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+          "(5a) Sheet Metalwork and Tinsmithing: Sheet metal mechanics use aviation snips, hand seamers, and stakes to construct geometric sheet products. Projects incorporate folded hems, wired edges, and soldered or riveted seams to ensure structural rigidity.",
+          "(5b) Silversmithing and Fine Jewelry: Silversmiths utilize raising hammers, planishing stakes, and jewelers saws to form nonferrous precious metals. Sinking, doming, and silver soldering require frequent annealing cycles to prevent stress tears."
         ],
         "right_points": [
-          "(5c) Foundry Sand Casting and Molds: The Metalwork pamphlet for Requirement 5c details option C, Founder, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
-          "(5d) Blacksmithing Forge and Anvil Work: The Metalwork pamphlet for Requirement 5d details option D, Blacksmith, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+          "(5c) Foundry Casting and Molding: Founders pack greensand around split wood patterns inside two-part flask assemblies called copes and drags. Cutting sprues, gates, and risers allows molten metal to fill cavities without entrapping gases.",
+          "(5d) Blacksmithing and Hot Forging: Blacksmiths use coal or propane forges to bring medium-carbon steel to bright orange forging temperatures. Shaping involves drawing out, upsetting, bending over the horn, and punching holes across the anvil."
         ],
         "rows": [
           {
@@ -3663,10 +3717,10 @@
         "title": "Metalwork Req 5 Exemplar Workbook Entry: Specialized Metalcraft Options",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a (Sheet Metal Mechanic and Tinsmith)": "Silversmiths use many of the same tools as other craftsmen, but because the objects silversmiths create are smaller, their tools are scaled (p. 37).",
-          "Req 5b - Silversmithing Tools and Hollowwar": "The Metalwork pamphlet for Requirement 5b details option B, Silversmith, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
-          "Req 5c (Foundry Sand Casting and Molds)": "The Metalwork pamphlet for Requirement 5c details option C, Founder, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
-          "Req 5d - Blacksmithing Forge and Anvil Work": "The Metalwork pamphlet for Requirement 5d details option D, Blacksmith, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+          "Req 5a - Sheet Metalwork and Tinsmithing": "Sheet metal mechanics use aviation snips, hand seamers, and stakes to construct geometric sheet products. Projects incorporate folded hems, wired edges, and soldered or riveted seams to ensure structural rigidity.",
+          "Req 5b - Silversmithing and Fine Jewelry": "Silversmiths utilize raising hammers, planishing stakes, and jewelers saws to form nonferrous precious metals. Sinking, doming, and silver soldering require frequent annealing cycles to prevent stress tears.",
+          "Req 5c - Foundry Casting and Molding": "Founders pack greensand around split wood patterns inside two-part flask assemblies called copes and drags. Cutting sprues, gates, and risers allows molten metal to fill cavities without entrapping gases.",
+          "Req 5d - Blacksmithing and Hot Forging": "Blacksmiths use coal or propane forges to bring medium-carbon steel to bright orange forging temperatures. Shaping involves drawing out, upsetting, bending over the horn, and punching holes across the anvil."
         },
         "sample_output": "Specialized Metalcraft Options: Silversmiths use many of the same tools as other craftsmen, but because the objects silversmiths create are smaller, their tools are scaled (p. 37).",
         "counselor_tip": "For Metalwork Requirement 5 (Specialized Metalcraft Options), verify the Scout's own observations and specific pamphlet details (Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49))."
@@ -3698,7 +3752,13 @@
       "workbook_diagram_caption": "An experienced blacksmith demonstrates proper hammer grip and surface finishing techniques to a Scout beside an anvil.",
       "number": "5",
       "description": "After completing the first four requirements, complete ONE of the following options: (a) Option A, Sheet Metal Mechanic/Tinsmith. Do ALL of the following: (1) Name and describe the use of the basic sheet metalworking tools. (2) Create a sketch of two objects to make from sheet metal. Include each component's dimensions on your sketch, which need not be to scale. (3) Make two objects out of 24- or 26-gauge sheet metal. Use patterns either provided by your counselor or made by you and approved by your counselor. Construct these objects using a metal that is appropriate to the object's ultimate purpose, and using cutting, bending, edging, and either soldering or brazing. (a) One object also must include at least one riveted component. (b) If you do not make your objects from zinc-plated sheet steel or tin-plated sheet steel, preserve your work from oxidation. (b) Option B, Silversmith. Do ALL of the following: (1) Name and describe the use of a silversmith's basic tools. (2) Create a sketch of two objects to make from sheet silver. Include each component's dimensions on your sketch, which need not be to scale. (3) Make two objects out of 18- or 20-gauge sheet copper. Use patterns either provided by your counselor or made by you and approved by your counselor. Both objects must include a soldered joint. If you have prior silversmithing experience, you may substitute sterling silver, nickel silver, or lead-free pewter. (a) At least one object must include a sawed component you have made yourself. (b) At least one object must include a sunken part you have made yourself. (c) Clean and polish your objects. (c) Option C, Founder. Do ALL of the following: (1) Name and describe the use of the basic parts of a two-piece mold. Name at least three different types of molds. (2) Create a sketch of two objects to cast in metal. Include each component's dimensions on your sketch, which need not be to scale. (3) Make two molds, one using a pattern provided by your counselor and another one you have made yourself that has been approved by your counselor. Position the pouring gate and vents yourself. Note: Do not use copyrighted materials as patterns. (a) Using lead-free pewter, make a casting using a mold provided by your counselor. (b) Using lead-free pewter, make a casting using the mold that you have made. (d) Option D, Blacksmith. Do ALL of the following: (1) Name and describe the use of a blacksmith's basic tools. (2) Make a sketch of two objects to hot-forge. Include each component's dimensions on your sketch, which need not be to scale. (3) Using low-carbon steel at least 1/4 inch thick, perform the following exercises: (a) Draw out by forging a taper. (b) Use the horn of the anvil by forging a U -shaped bend. (c) Form a decorative twist in a piece of square steel. (d) Use the edge of the anvil to bend metal by forging an L -shaped bend. (4) Using low-carbon steel at least 1/4 inch thick, make the two objects you sketched that require hot-forging. Be sure you have your counselor's approval before you begin. (a) Include a decorative twist on one object. (b) Include a hammer-riveted joint in one object. (c) Preserve your work from oxidation.",
-      "workbook_visual_caption": "An experienced blacksmith demonstrates proper hammer grip and surface finishing techniques to a Scout beside an anvil."
+      "workbook_visual_caption": "An experienced blacksmith demonstrates proper hammer grip and surface finishing techniques to a Scout beside an anvil.",
+      "pamphlet_summary": "Selecting a specialized metalworking discipline provides direct experience with distinct tool sets, forming techniques, and thermal processes. Completing detailed technical drawings and calculating material dimensions ensures accurate, durable finished projects.",
+      "socratic_questions": [
+        "How does the choice of metal alloy dictate the specific forming techniques used in your selected option?",
+        "Why is preparing an accurate pattern sketch with bend allowances essential before cutting sheet metal?",
+        "How do the fire and burn hazards differ between sand casting molten bronze and hammer-forging hot steel?"
+      ]
     }
   ],
   "badge_slug": "metalwork",

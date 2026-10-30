@@ -1,0 +1,554 @@
+{
+  "requirements": [
+    {
+      "fact": "Combustion requires fuel, heat, oxygen, and an uninhibited chemical chain reaction to maintain self-sustaining flaming fire.",
+      "misconception": "Fire is a single physical element rather than a rapid exothermic oxidation reaction.",
+      "pamphlet_excerpts": [
+        "Oxidation Process: Rapid oxidation releases heat and light energy through sustained chemical molecular conversion.",
+        "Tetrahedron Components: Self-sustaining combustion demands fuel, oxygen, sufficient heat, and an uninterrupted chain reaction.",
+        "Combustion Products: Incomplete burning produces toxic carbon monoxide gas along with airborne particulate smoke.",
+        "Thermal Transfer: Convection circulates superheated buoyant gases vertically toward enclosed interior ceiling surfaces."
+      ],
+      "pamphlet_summary": "Fire represents a rapid exothermic chemical reaction that converts fuel and oxidizer into combustion gases and thermal energy. Complete containment requires disrupting at least one element of the fire tetrahedron through cooling, smothering, fuel separation, or chemical inhibition.",
+      "req_id": "1",
+      "safety_callout": "Thermal decomposition creates toxic, invisible gases such as carbon monoxide and hydrogen cyanide before visible flames emerge.",
+      "socratic_questions": [
+        "How does removing the chemical chain reaction extinguish a flame without cooling the liquid fuel below flashpoint?",
+        "Why does superheated smoke accumulating along an enclosed ceiling pose an immediate flashover threat to escaping occupants?",
+        "In what specific ways does convection accelerate vertical flame propagation within a multi-story stairwell shaft?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Fuel Classification: Identify whether the primary combustible matter is solid cellulose, liquid, or gas.",
+        "Step 2 - Environment Assessment: Measure ambient oxygen levels and evaluate ventilation pathways feeding incoming airflow.",
+        "Step 3 - Thermal Tracking: Locate ignition sources and track conduction paths through connected structural metal framing.",
+        "Step 4 - Chain Disruption: Introduce a dry chemical suppression agent to stop gas-phase radical propagation reactions."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Fire is an exothermic oxidation reaction occurring between vaporized fuel molecules and atmospheric oxygen.",
+          "misconception": "Solid firewood burns directly on its surface without first decomposing into combustible hydrocarbon vapor.",
+          "pamphlet_summary": "Fire is rapid oxidation that transforms combustible materials into heated gas compounds. Solids and liquids must undergo pyrolysis or vaporization before flaming ignition occurs.",
+          "sub_id": "1a",
+          "topic_title": "Combustion and Oxidation Fundamentals"
+        },
+        {
+          "fact": "The fire tetrahedron adds the uninhibited chemical chain reaction to fuel, heat, and oxygen.",
+          "misconception": "A traditional fire triangle contains all necessary factors required to explain flaming combustion.",
+          "pamphlet_summary": "The fire tetrahedron models the four elements necessary to maintain flaming combustion. Removing any single component halts the ongoing chemical process and extinguishes the fire.",
+          "sub_id": "1b",
+          "topic_title": "Fire Tetrahedron and Products"
+        },
+        {
+          "fact": "Flashover transitions a localized compartment fire into full-room involvement within seconds.",
+          "misconception": "A structure fire expands at a steady, linear rate from initial ignition to decay.",
+          "pamphlet_summary": "Fires develop through distinct stages comprising incipient, growth, fully developed, and decay phases. Flashover represents a sudden transition driven by radiant heat feedback from ceiling smoke layers.",
+          "sub_id": "1c",
+          "topic_title": "Fire Development Life Cycle"
+        },
+        {
+          "fact": "Thermal radiation travels across vacuum and open air through electromagnetic waves without direct contact.",
+          "misconception": "Heat travels through building spaces exclusively through rising hot air currents.",
+          "pamphlet_summary": "Heat moves via conduction through physical solids, convection across moving fluids and gases, and thermal radiation across open spaces. Convective currents drive hot gases upward while radiation ignites adjacent combustible objects.",
+          "sub_id": "1d",
+          "topic_title": "Thermal Energy Transfer Methods"
+        }
+      ],
+      "topic_title": "Fire Dynamics and Chemistry"
+    },
+    {
+      "fact": "Water conducts electric current back to the operator when applied to energized electrical equipment fires.",
+      "misconception": "Pressurized water extinguishers can extinguish any standard indoor fire safely.",
+      "pamphlet_excerpts": [
+        "Class Classifications: Fuel properties determine specific fire classifications designated by lettered and geometric symbols.",
+        "Extinguisher Rating: Numerical extinguisher ratings specify relative extinguishing capability under standardized laboratory test conditions.",
+        "Discharge Sweep: Directing extinguishing stream across the base breaks up the active flame seat.",
+        "Blanket Deprivation: Draping a fire blanket across cooking oil cuts off incoming atmospheric oxygen."
+      ],
+      "pamphlet_summary": "Portable fire extinguishers provide first-line defense against incipient stage fires categorized into classes A, B, C, D, and K based on fuel types. Proper application requires matching the correct agent to the specific burning material and executing the standard pull, aim, squeeze, and sweep sequence.",
+      "req_id": "2",
+      "safety_callout": "Discharging water onto energized electrical gear or deep cooking grease causes immediate electrocution or explosive fireball spread.",
+      "socratic_questions": [
+        "Why does applying water into boiling grease trigger an explosive expansion of steam and burning droplets?",
+        "What physical clues indicate that a pressurized chemical extinguisher has lost internal operating pressure?",
+        "How does the PASS technique protect the operator while suppressing an incipient Class B fire?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Pin Removal: Pull safety pin firmly while breaking the plastic inspection tamper seal.",
+        "Step 2 - Nozzle Aim: Aim the discharge horn directly at the base of the burning material.",
+        "Step 3 - Lever Compression: Squeeze the operating levers together smoothly to release pressurized extinguishing chemical powder.",
+        "Step 4 - Base Sweep: Sweep nozzle side to side across the fuel base until completely extinguished."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Class K fires involve commercial cooking oils that require wet chemical saponification to extinguish.",
+          "misconception": "Commercial cooking oil fires behave exactly like ordinary flammable petroleum liquids in Class B.",
+          "pamphlet_summary": "Fires are grouped into distinct classes based on the chemical nature of the burning fuel. Each class dictates specific extinguishing tactics to avoid accelerating flame spread.",
+          "sub_id": "2a",
+          "topic_title": "Fuel Class Classifications"
+        },
+        {
+          "fact": "Multipurpose dry chemical agents leave corrosive residues on electronic boards and energized components.",
+          "misconception": "A standard clean-agent carbon dioxide extinguisher leaves corrosive residues on electronic wiring.",
+          "pamphlet_summary": "Extinguishers contain tailored agents such as water, carbon dioxide, dry chemicals, or wet potassium salts. Using an incompatible extinguisher risks explosive spattering, toxic reactions, or operator shock.",
+          "sub_id": "2b",
+          "topic_title": "Extinguishing Agent Compatibility Selection"
+        },
+        {
+          "fact": "Pulling a fire blanket backward toward your body exposes your hands and chest to rising heat.",
+          "misconception": "Tossing a fire blanket loosely from afar seals off oxygen from a burning skillet.",
+          "pamphlet_summary": "Operators execute the PASS method while maintaining a safe retreat path away from the fire. Fire blankets smother localized kitchen fires when carefully laid across the vessel rim.",
+          "sub_id": "2c",
+          "topic_title": "Extinguisher and Blanket Operation"
+        }
+      ],
+      "topic_title": "Portable Fire Extinguishing Systems"
+    },
+    {
+      "fact": "Synthetic fabrics like polyester melt into liquid plastic that fuses directly to human skin tissue during fires.",
+      "misconception": "Rolling quickly across dry grass spreads clothing flames instead of smothering them.",
+      "pamphlet_excerpts": [
+        "Suppression Technique: Dropping immediately to the ground eliminates the upward chimney effect on clothing.",
+        "Smothering Motion: Rolling back and forth smothers active flames by depriving fabric of air.",
+        "Cooling Protocol: Cool clean water stabilizes skin temperature and stops deeper tissue thermal destruction.",
+        "Inhalation Hazards: Toxic smoke particles sear delicate bronchial linings and cause severe airway swelling."
+      ],
+      "pamphlet_summary": "Clothing fires ignite through open flame contact or radiant heat, producing severe thermal burns that deepen without rapid intervention. Emergency response combines prompt flame smothering, clean water cooling, and medical triage for inhalation injury and carbon monoxide exposure.",
+      "req_id": "3",
+      "safety_callout": "Never remove charred clothing melted onto burn wounds, as tearing loose fabric strips away underlying dermis.",
+      "socratic_questions": [
+        "Why does running while clothing is on fire accelerate flame growth across your torso?",
+        "How does carbon monoxide compromise oxygen delivery within the human bloodstream during smoke inhalation?",
+        "What visible respiratory signs indicate that a burn victim has sustained critical airway damage?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Immediate Stop: Stop walking or running instantly to prevent feeding ambient airflow into flames.",
+        "Step 2 - Ground Drop: Drop directly to the ground and shield facial skin with both hands.",
+        "Step 3 - Lateral Roll: Roll back and forth continuously across ground surfaces until all flames collapse.",
+        "Step 4 - Water Cooling: Apply clean cool potable water over burned skin for ten full minutes."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Covering the face with hands during rolling prevents upward flame spread across delicate facial tissue.",
+          "misconception": "Slapping burning clothing with bare hands extinguishes burning synthetic fabrics faster than rolling.",
+          "pamphlet_summary": "Stop, drop, roll, cool, and call halts clothing combustion and limits dermal damage. Covering the eyes and mouth protects the respiratory tract from inhaling superheated thermal gases.",
+          "sub_id": "3a",
+          "topic_title": "Clothing Fire Smothering Technique"
+        },
+        {
+          "fact": "Heavy natural wool resists ignition and self-extinguishes, whereas light cotton burns rapidly with tall flames.",
+          "misconception": "All natural plant and animal fibers resist flame ignition equally when exposed to sparks.",
+          "pamphlet_summary": "Garment fit and fiber composition determine clothing fire risk and burn severity. Tight-fitting natural fibers ignite less readily than loose flowing synthetic fabrics that melt into dermal tissue.",
+          "sub_id": "3b",
+          "topic_title": "Fabric Flammability and Burns"
+        },
+        {
+          "fact": "Scald injuries from domestic hot tap water occur within seconds when temperatures exceed one hundred twenty degrees.",
+          "misconception": "Open flame contact causes nearly all severe household burn injuries treated in trauma centers.",
+          "pamphlet_summary": "Scalds, contact burns, and radiant heat account for most home burn casualties. Keeping hot appliance cords tucked away and lowering water heater thermostats minimizes accidental thermal contact.",
+          "sub_id": "3c",
+          "topic_title": "Common Burn Injury Causes"
+        },
+        {
+          "fact": "Carbon monoxide binds to hemoglobin over two hundred times more tightly than ambient oxygen molecules.",
+          "misconception": "Victims suffering from lethal carbon monoxide poisoning cough violently due to pungent irritant fumes.",
+          "pamphlet_summary": "Inhaling hot smoke causes swelling of the laryngeal airway, resulting in rapid asphyxiation. Carbon monoxide binds to blood hemoglobin, depriving vital organs of oxygen despite unlabored breathing.",
+          "sub_id": "3d",
+          "topic_title": "Airway Burns and Poisoning"
+        }
+      ],
+      "topic_title": "Burn Injury Mitigation and Care"
+    },
+    {
+      "fact": "Accelerant pour patterns and multiple isolated ignition points indicate an intentional incendiary fire.",
+      "misconception": "Every house fire of unknown cause is automatically classified by fire marshals as accidental.",
+      "pamphlet_excerpts": [
+        "Burn Pattern Analysis: V-shaped charring patterns along interior walls point downward toward initial origin points.",
+        "Accelerant Detection: Trained hydrocarbon sniffer dogs detect minute traces of petroleum fuels beneath charred floorboards.",
+        "Cause Elimination: Certified investigators systematically eliminate electrical faults and heating equipment before declaring arson.",
+        "Forensic Preservation: Securing physical fire scenes preserves fragile ash residues and chemical accelerant samples."
+      ],
+      "pamphlet_summary": "Trained fire investigators classify fire origins into natural, accidental, incendiary, or undetermined categories based on physical burn patterns and evidence. Incendiary classifications initiate criminal investigations focused on intentional property destruction and reckless endangerment.",
+      "req_id": "4",
+      "safety_callout": "Structural stability collapses unpredictably in burned buildings where floor joists and roof trusses have experienced fire degradation.",
+      "socratic_questions": [
+        "What physical evidence distinguishes a natural lightning fire from an electrical breaker box fire?",
+        "How do low burn patterns on baseboards suggest the presence of poured liquid accelerants?",
+        "Why must fire investigators preserve the integrity of physical evidence found at an origin scene?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Scene Securing: Establish perimeter tape to restrict access and protect delicate burn patterns.",
+        "Step 2 - Vector Tracing: Trace char depth and directional V-patterns back toward the lowest burn point.",
+        "Step 3 - Origin Identification: Uncover the specific physical area where fuel and ignition source first united.",
+        "Step 4 - Cause Categorization: Assign origin classification according to physical evidence and laboratory test results."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "An undetermined fire classification indicates that evidence is insufficient to prove a single specific origin hypothesis.",
+          "misconception": "Fire investigators always find definitive physical evidence identifying the exact cause of every blaze.",
+          "pamphlet_summary": "Fire origins fall into natural, accidental, incendiary, or undetermined categories. Scientific investigation tests physical evidence against multiple working hypotheses to eliminate implausible ignition sources.",
+          "sub_id": "4a",
+          "topic_title": "Fire Origin Classification Categories"
+        },
+        {
+          "fact": "Arson prosecutions require proving intentional ignition and malicious destruction beyond a reasonable doubt.",
+          "misconception": "Accidental electrical short circuits can result in criminal arson charges against the property owner.",
+          "pamphlet_summary": "Incendiary fires involve deliberate ignition where a person knew the property should not burn. Legal arson investigations require rigorous forensic documentation to support criminal court proceedings.",
+          "sub_id": "4b",
+          "topic_title": "Arson Evidence and Prosecution"
+        }
+      ],
+      "topic_title": "Fire Origin and Cause Determination"
+    },
+    {
+      "fact": "Lithium-ion batteries undergoing thermal runaway generate internal oxygen and burn without relying on outside air.",
+      "misconception": "Unplugged kitchen appliances pose no fire danger even if power cords remain pinched behind counters.",
+      "pamphlet_excerpts": [
+        "Kitchen Vigilance: Unattended frying pans ignite rapidly when cooking grease reaches autoignition temperature thresholds.",
+        "Alarm Placement: Working ionization and photoelectric smoke alarms provide critical seconds for residential evacuation.",
+        "Lint Removal: Clean dryer lint screens before every load to prevent heating element ignition.",
+        "Battery Inspection: Damaged lithium rechargeable cells swell and vent violently inside indoor storage areas."
+      ],
+      "pamphlet_summary": "Residential fire prevention requires continuous management of cooking appliances, heating systems, electrical wiring, and combustible household storage. Establishing dual evacuation routes from every sleeping room and maintaining operational detection devices ensures rapid egress during structural fire emergencies.",
+      "req_id": "5",
+      "safety_callout": "Never attempt to extinguish a flaming grease pan with water; slide a metal lid over the skillet to smother flames.",
+      "socratic_questions": [
+        "Why do interconnected smoke alarms improve survival rates compared to standalone single-station units?",
+        "What makes natural gas odorants essential for detecting indoor leaks before reaching explosive concentrations?",
+        "How does sleeping with bedroom doors closed create an effective thermal barrier during structural fires?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Hazard Audit: Scan living spaces for overloaded power strips and pinched electrical appliance cords.",
+        "Step 2 - Alarm Testing: Depress the test button on each smoke alarm to confirm horn sounding.",
+        "Step 3 - Route Mapping: Identify two clear unblocked exits from every single bedroom and common space.",
+        "Step 4 - Family Assembly: Conduct an unannounced home escape drill ending at the assigned outdoor tree."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Lint accumulation inside dryer exhaust ducts restricts airflow and ignites from heating element heat.",
+          "misconception": "Power strips can supply unlimited multi-plug splitters as long as breakers do not trip immediately.",
+          "pamphlet_summary": "Cooking, overloaded electrical circuits, and neglected dryer lint filters cause most household structure fires. Vigilant appliance monitoring and dedicated charging surfaces prevent catastrophic ignition events.",
+          "sub_id": "5a",
+          "topic_title": "Household Electrical and Appliance Hazards"
+        },
+        {
+          "fact": "Dry evergreen holiday trees ignite explosively from a single spark and engulf a room within thirty seconds.",
+          "misconception": "Freshly cut evergreen trees cannot ignite once decorated with modern low-voltage electric light strands.",
+          "pamphlet_summary": "Space heaters, dried holiday trees, and seasonal decorations create severe winter fire risks. Maintaining three feet of clear space around heaters and watering trees daily prevents flash ignition.",
+          "sub_id": "5b",
+          "topic_title": "Seasonal and Holiday Fire Risks"
+        },
+        {
+          "fact": "Trimming candle wicks to one quarter inch prevents uneven flickering flames and mushrooming embers.",
+          "misconception": "Extinguishing candles by blowing hard across the jar opening prevents hot wax spatter.",
+          "pamphlet_summary": "Candles require stable noncombustible bases located far from curtains and circulating room drafts. Snuffing candle flames with a bell snuffer eliminates flying sparks and splattered molten wax.",
+          "sub_id": "5c",
+          "topic_title": "Candle Safety and Extinguishment"
+        },
+        {
+          "fact": "Home safety audits identify blocked window escape routes and missing fire extinguishers across residential spaces.",
+          "misconception": "A casual glance through living spaces identifies all hidden electrical and fire exit hazards.",
+          "pamphlet_summary": "Home safety checklists systematically identify structural hazards, combustible storage risks, and egress impediments. Periodic inspections ensure detection alarms and emergency ladders remain operable.",
+          "sub_id": "5d",
+          "topic_title": "Home Safety Checklist Audit"
+        },
+        {
+          "fact": "Carbon monoxide alarms must be mounted near sleeping quarters and on every finished home level.",
+          "misconception": "A ceiling smoke detector detects lethal carbon monoxide emissions leaking from cracked furnace heat exchangers.",
+          "pamphlet_summary": "Smoke alarms detect combustion particles using photoelectric or ionization sensors, while carbon monoxide alarms measure toxic gas concentration. Local building codes dictate mandatory alarm placement on every level and outside sleeping rooms.",
+          "sub_id": "5e",
+          "topic_title": "Smoke and Monoxide Detectors"
+        },
+        {
+          "fact": "Smoke alarms lose sensor sensitivity and must be replaced ten years after the manufactured date stamped on back.",
+          "misconception": "Changing alkaline batteries annually allows smoke alarms to function indefinitely without complete unit replacement.",
+          "pamphlet_summary": "Regular maintenance involves monthly button testing, vacuuming dust from sensor chambers, and annual battery replacement. Units surpassing their ten-year lifespan must be decommissioned and replaced with modern alarms.",
+          "sub_id": "5f",
+          "topic_title": "Alarm Testing and Replacement"
+        },
+        {
+          "fact": "A family meeting point must be a fixed outdoor landmark located a safe distance from collapsing structures.",
+          "misconception": "Family members should gather on the front porch right outside the burning home doorway.",
+          "pamphlet_summary": "Home fire escape plans designate two clear exits per room and an immovable outdoor meeting location. Practicing escape drills under low-visibility simulated conditions trains household members to crawl beneath heat.",
+          "sub_id": "5g",
+          "topic_title": "Home Escape Planning Drills"
+        },
+        {
+          "fact": "Operating electric wall switches when smelling natural gas can spark an immediate catastrophic building explosion.",
+          "misconception": "Opening all windows to air out natural gas leaks before leaving the house is safe.",
+          "pamphlet_summary": "Natural gas contains mercaptan odorant to alert occupants to explosive atmospheric fuel leaks. Detecting gas or smoke requires immediate evacuation without touching electrical switches, phones, or doorbells.",
+          "sub_id": "5h",
+          "topic_title": "Gas Leak and Smoke Actions"
+        },
+        {
+          "fact": "Emergency dispatchers require the exact street address before callers describe fire conditions or building details.",
+          "misconception": "Emergency dispatch systems automatically pinpoint exact mobile phone room locations without caller confirmation.",
+          "pamphlet_summary": "Calling emergency services requires stating the exact street address, current fire location, and trapped occupant status. Callers must remain calm and stay on the line until instructed to hang up.",
+          "sub_id": "5i",
+          "topic_title": "Emergency Fire Reporting Procedures"
+        }
+      ],
+      "topic_title": "Residential Fire Prevention and Preparedness"
+    },
+    {
+      "fact": "Pouring fuel into a hot lawn mower engine ignites invisible vapors rising from the open tank neck.",
+      "misconception": "Gasoline vapors rise and dissipate harmlessly into outdoor air faster than liquid gasoline evaporates.",
+      "pamphlet_excerpts": [
+        "Vapor Travel: Heavy petroleum vapors creep along floors toward low-lying remote pilot light ignition points.",
+        "Container Integrity: Store volatile fuels exclusively in certified red metal cans with self-closing spring lids.",
+        "Engine Cool-down: Allow small utility engines to cool completely before refilling empty fuel tanks.",
+        "Community Disposal: Municipal hazardous waste roundups safely process unwanted mineral spirits and leftover fuels."
+      ],
+      "pamphlet_summary": "Flammable liquids emit combustible vapors at ordinary temperatures, creating severe flash fire and explosion risks if handled near open ignition sources. Safe storage mandates approved safety cans with flame arrestor screens, well-ventilated outbuildings, and authorized disposal programs.",
+      "req_id": "6",
+      "safety_callout": "Never fill portable gasoline cans inside vehicle trunks or plastic truck beds where static electricity discharges spark vapors.",
+      "socratic_questions": [
+        "Why do flammable fuel vapors sink toward the floor rather than rising into open ceiling areas?",
+        "How does a metal flame arrestor screen inside a safety can spout stop internal tank explosions?",
+        "What chemical hazards occur when household mineral spirits or gasoline are poured into public storm drains?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Area Clearing: Relocate equipment to outdoor ground surfaces ten feet away from structures.",
+        "Step 2 - Thermal Cooling: Allow internal combustion engines to cool for fifteen minutes before opening fuel caps.",
+        "Step 3 - Ground Placement: Set the fuel safety can directly onto bare dirt to eliminate static voltage.",
+        "Step 4 - Controlled Pouring: Insert pouring nozzle firmly into tank opening and fill leaving expansion head space."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Flammable liquids have flash points below one hundred degrees Fahrenheit, while combustible liquids flash higher.",
+          "misconception": "Flammable liquids and combustible liquids ignite with equal ease at normal winter room temperatures.",
+          "pamphlet_summary": "Flammable liquids flash readily at ambient room temperatures, whereas combustible liquids require external preheating to ignite. Both categories require storage in original sealed containers inside dedicated steel cabinets.",
+          "sub_id": "6a",
+          "topic_title": "Volatile Liquid Storage Safety"
+        },
+        {
+          "fact": "Plastic truck bed liners insulate fuel cans and generate static sparks that ignite dispensing gasoline vapors.",
+          "misconception": "Refueling small power equipment while the engine idles saves starter battery life safely.",
+          "pamphlet_summary": "Refueling machinery requires a completely cooled engine, an outdoor well-ventilated space, and grounded dispensing nozzles. Placing safety cans directly on the ground prevents static electrical discharges during fuel transfer.",
+          "sub_id": "6b",
+          "topic_title": "Engine Refueling Procedures"
+        },
+        {
+          "fact": "Pouring flammable solvents into municipal drains causes explosive vapor build-up inside underground municipal sewer mains.",
+          "misconception": "Drying out leftover flammable liquid cans with open flames destroys toxic chemical residues safely.",
+          "pamphlet_summary": "Leftover solvents, gasoline, and oily paint thinners require disposal through designated municipal hazardous waste collection programs. Dumping volatile petroleum products into domestic drains or soil violates environmental laws and creates explosion hazards.",
+          "sub_id": "6c",
+          "topic_title": "Hazardous Chemical Waste Disposal"
+        }
+      ],
+      "topic_title": "Flammable Liquid Handling and Storage"
+    },
+    {
+      "fact": "Propping fire-rated doors open allows smoke and superheated toxic gases to bypass designed compartment barriers.",
+      "misconception": "Modern public structures are completely fireproof and require no active occupant awareness during emergencies.",
+      "pamphlet_excerpts": [
+        "Passive Compartmentation: Fire-rated drywall partitions slow horizontal flame spread between isolated internal building compartments.",
+        "Active Suppression: Automatic fire sprinkler heads activate independently when localized heat melts individual solder links.",
+        "Exit Identification: Scan for illuminated green or red exit signs immediately upon entering public venues.",
+        "Corridor Clearance: Keep fire exit corridors and stairwell vestibules unobstructed by trash or storage pallets."
+      ],
+      "pamphlet_summary": "Public building fire safety relies on integrated passive architectural compartmentation, active detection networks, and automatic sprinkler suppression systems. Occupants must identify multiple exit paths upon entering commercial venues and respond promptly to alarm notifications.",
+      "req_id": "7",
+      "safety_callout": "Never use passenger elevators during a building fire emergency, as shafts draw smoke and cars may lose power.",
+      "socratic_questions": [
+        "How do automatic fire doors compartmentalize smoke spread across large hospital corridors?",
+        "Why does a single activated sprinkler head not trigger every other sprinkler head in a modern building?",
+        "What features make emergency panic hardware bars necessary on exterior public assembly doors?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Exit Reconnaissance: Scan indoor spaces upon arrival to locate two unobstructed emergency exterior exits.",
+        "Step 2 - Path Verification: Confirm exit corridors remain free of stacked boxes, locked gates, and furniture.",
+        "Step 3 - Alarm Response: Evacuate immediately via stairwells when automated horns or strobe lights activate.",
+        "Step 4 - Door Checking: Touch door handles with back of hand to test for heat before opening."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Fire barriers utilize rated gypsum assemblies to maintain structural compartment integrity for hours during fires.",
+          "misconception": "Noncombustible steel structural beams withstand high fire temperatures indefinitely without sagging or buckling.",
+          "pamphlet_summary": "Public building designs integrate passive fire barriers, self-closing fire doors, and pressurized stairwells. These structural features divide large buildings into isolated smoke compartments that protect escaping occupants.",
+          "sub_id": "7a",
+          "topic_title": "Public Facility Architectural Design"
+        },
+        {
+          "fact": "Standpipe systems provide dedicated pressurized water connections for firefighter hoses on every floor of high-rises.",
+          "misconception": "Smoke alarms in commercial high-rises sound only on the specific floor where smoke is detected.",
+          "pamphlet_summary": "Commercial properties integrate automated water sprinkler networks, manual pull stations, duct smoke detectors, and voice evacuation systems. Central monitoring panels relay alarm signals directly to regional emergency response dispatch centers.",
+          "sub_id": "7b",
+          "topic_title": "Commercial Fire Suppression Equipment"
+        },
+        {
+          "fact": "Panic hardware allows crowd pressure against exit doors to unlatch mechanisms instantly without key manipulation.",
+          "misconception": "Exiting through the primary public entrance is always the quickest route during theater fires.",
+          "pamphlet_summary": "Patrons in crowded venues must identify secondary emergency exits and note path obstructions immediately upon arrival. When alarms sound, occupants should calmly walk toward the nearest illuminated exit sign rather than main entrances.",
+          "sub_id": "7c",
+          "topic_title": "Public Space Evacuation Precautions"
+        }
+      ],
+      "topic_title": "Public Facility Fire Protection"
+    },
+    {
+      "fact": "Dumping water over hot coals creates a sudden plume of scalding steam that causes facial burns.",
+      "misconception": "Scouts can establish campfires anywhere on public lands provided surrounding tree branches are cleared away.",
+      "pamphlet_excerpts": [
+        "Clearing Clearance: Clear leaf litter and duff down to bare mineral soil ten feet around.",
+        "Match Extinguishment: Hold extinguished matches between bare fingers to confirm the wooden stick is cold.",
+        "Drown and Stir: Drown embers in water, stir with a stick, and drown repeatedly until cold.",
+        "Fuel Isolation: Store compressed liquid fuel canisters away from direct sunlight and radiant campfire heat."
+      ],
+      "pamphlet_summary": "Campfire management integrates the Outdoor Code and Leave No Trace principles through site selection, fire ring preparation, and thorough extinguishing procedures. Using camp stoves, maintaining clear perimeters, and testing cooled coals with bare hands ensures wilderness fire containment.",
+      "req_id": "8",
+      "safety_callout": "Never leave an open campfire unattended for any duration; a sudden wind gust can launch burning embers into trees.",
+      "socratic_questions": [
+        "How does clearing a ten-foot circle to mineral soil prevent smoldering root fires from spreading underground?",
+        "Why must charcoal briquettes be cool enough to touch with bare hands before campsite departure?",
+        "Under what dry wilderness conditions should a patrol replace open campfires with liquid-fuel camp stoves?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Site Clearing: Rake duff and pine needles ten feet outward exposing bare damp mineral soil.",
+        "Step 2 - Kindling Assembly: Stack dry tinder shavings inside a loose tepee surrounded by finger-sized kindling.",
+        "Step 3 - Shielded Ignition: Strike match away from body and ignite tinder base from upwind sheltered position.",
+        "Step 4 - Complete Extinguishment: Drown burning embers with water, stir ashes, and feel coals with bare hands."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Leave No Trace principles emphasize using established fire rings or portable camp stoves to minimize ground scarring.",
+          "misconception": "Building new rock campfire rings across pristine backcountry meadows leaves no lasting environmental impact.",
+          "pamphlet_summary": "The Outdoor Code and Leave No Trace guidelines prioritize using established fire rings and collecting dead fallen wood. Wildfire risks dictate using lightweight backpacking stoves where wood gathering strips fragile natural ecosystems.",
+          "sub_id": "8a",
+          "topic_title": "Wilderness Fire Ethics Principles"
+        },
+        {
+          "fact": "Safety matches require striking across an abrasive red phosphorus strip, unlike strike-anywhere match compositions.",
+          "misconception": "Safety matches ignite on any rough rock surface when struck with sufficient physical pressure.",
+          "pamphlet_summary": "Lighting matches requires closing the matchbook cover and striking away from the body. Extinguished matchsticks must be felt with fingers to confirm zero heat before disposal in fire pits.",
+          "sub_id": "8b",
+          "topic_title": "Match Handling and Differences"
+        },
+        {
+          "fact": "Scraping a ferrocerium rod generates molten metal shavings exceeding three thousand degrees onto char cloth.",
+          "misconception": "Flint and steel tools produce hot open flames instantly without requiring specialized dry tinder.",
+          "pamphlet_summary": "Striking high-carbon steel against sharp chert or flint casts sparks onto dry charred cotton cloth or fungus tinder. Nurturing the resulting ember inside a dry fibrous tinder nest produces sustainable open flames.",
+          "sub_id": "8c",
+          "topic_title": "Flint and Steel Ignition"
+        },
+        {
+          "fact": "Chimney starters ignite charcoal briquettes using newspaper without requiring explosive petroleum lighter fluids.",
+          "misconception": "Squirt additional lighter fluid onto smoldering charcoal briquettes to accelerate cooking coal temperature rise.",
+          "pamphlet_summary": "Charcoal chimney starters provide safe, chemical-free ignition for Dutch oven cookery. Coals must burn until coated with gray ash before cooking begins, and doused thoroughly before campsite departure.",
+          "sub_id": "8d",
+          "topic_title": "Charcoal Fire Management"
+        },
+        {
+          "fact": "Tinder ignites from tiny sparks, kindling sustains small flames, and fuel logs provide long-lasting heat.",
+          "misconception": "Large oak fuel logs ignite directly from paper match flames without intermediate kindling sticks.",
+          "pamphlet_summary": "Tepee, log cabin, and lean-to fire lays provide specific airflow dynamics for varying cooking and heating requirements. Fuel must be sorted by diameter into tinder shavings, finger-sized kindling, and wrist-sized fuel logs.",
+          "sub_id": "8e",
+          "topic_title": "Campsite Fire Lay Structures"
+        },
+        {
+          "fact": "Lighting a camp stove requires holding a burning match over the burner head before opening fuel valves.",
+          "misconception": "Turning camp stove gas valves fully open before striking matches prevents fuel canister vapor locks.",
+          "pamphlet_summary": "Camp stoves provide controlled heat with minimal environmental footprint when operated on flat noncombustible ground. Lighting burners requires lighting the match first before gently opening control valves to prevent pooling vapor flare-ups.",
+          "sub_id": "8f",
+          "topic_title": "Portable Camp Stove Operation"
+        },
+        {
+          "fact": "Campfires built directly beneath low-hanging evergreen branches ignite overstory tree canopies via convective heat plumes.",
+          "misconception": "Pitching tents within three feet of campfire rings keeps sleeping bags warm safely overnight.",
+          "pamphlet_summary": "Maintaining a fire-safe campsite requires twenty feet of clearance between open flames, sleeping tents, and tree limbs. Keeping full water buckets and shovels beside active rings ensures instantaneous response to escaped embers.",
+          "sub_id": "8g",
+          "topic_title": "Campsite Fire Defense Perimeter"
+        },
+        {
+          "fact": "Effective skills training requires demonstrating the task, explaining steps, and observing student return performance.",
+          "misconception": "Lecturing Scouts about fire prevention rules without hands-on practice builds practical field proficiency.",
+          "pamphlet_summary": "Structured lesson plans outline specific behavioral objectives, required safety gear, step-by-step demonstrations, and supervised practical rehearsals. Instructors verify that learners understand hazard controls before handling ignition tools or fuel appliances.",
+          "sub_id": "8h",
+          "topic_title": "Fire Safety Skill Instruction"
+        }
+      ],
+      "topic_title": "Wilderness and Campfire Protocols"
+    },
+    {
+      "fact": "Embers carried by ambient winds can ignite roof eaves miles ahead of the main wildfire flame front.",
+      "misconception": "Wildland fires only ignite from direct human campfire carelessness and cigarette disposal along highway shoulders.",
+      "pamphlet_excerpts": [
+        "Defensible Perimeter: Clearing dry brush thirty feet around structures deprives advancing wildfire flames of fuel.",
+        "Ember Storms: Lofted airborne firebrands drift miles downwind and ignite combustible asphalt roof shingles.",
+        "Slope Acceleration: Convective heat plumes preheat uphill vegetation, causing flames to run uphill rapidly.",
+        "Environmental Degradation: Severe wildfires destroy protective soil canopies, triggering devastating post-fire watershed mudslides."
+      ],
+      "pamphlet_summary": "Wildland fires result from natural lightning strikes and human activities such as powerline arcing, debris burning, and unattended campfires. Uncontrolled conflagrations destroy watersheds, disrupt regional economies, damage timber resources, and degrade atmospheric air quality for hundreds of miles.",
+      "req_id": "9",
+      "safety_callout": "Never attempt to outrun an advancing uphill wildland fire on foot; fires travel faster uphill due to preheated brush.",
+      "socratic_questions": [
+        "Why do wildfires advance up steep canyon slopes significantly faster than across flat terrain?",
+        "How does clearing home defensible space reduce the likelihood of roof ignition during windborne ember storms?",
+        "What economic impacts ripple through regional agricultural communities following massive rangeland wildland fires?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Fuels Reduction: Clear dry brush, leaves, and low tree branches within thirty feet of homes.",
+        "Step 2 - Roof Maintenance: Remove dead needles and dry leaves from house gutters and wooden deck joints.",
+        "Step 3 - Weather Monitoring: Check regional red flag warning notices and relative humidity before outdoor work.",
+        "Step 4 - Barrier Creation: Scrape noncombustible mineral soil firebreaks around high-value property perimeters and outbuildings."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Dry lightning strikes ignite remote wilderness forests during severe summer drought and low relative humidity.",
+          "misconception": "Wildland fires occur exclusively during midsummer months and pose zero threat during dry autumn seasons.",
+          "pamphlet_summary": "Wildland fires stem from lightning strikes, equipment sparks, downed power transmission lines, and escaped agricultural debris burns. Defensible space landscaping and seasonal burn bans mitigate ignition vectors across wildland-urban interface zones.",
+          "sub_id": "9a",
+          "topic_title": "Wildfire Causes and Mitigation"
+        },
+        {
+          "fact": "Post-fire vegetation loss accelerates soil erosion, triggering catastrophic mudslides and water reservoir siltation during rains.",
+          "misconception": "Wildfires produce only short-term economic losses limited strictly to destroyed timber acreage value.",
+          "pamphlet_summary": "Wildfires destroy timber reserves, wipe out residential communities, pollute municipal watersheds, and incur billions in fire suppression expenses. Long-term impacts include chronic respiratory ailments, lost tourism revenue, and severe debris flows during post-fire rainstorms.",
+          "sub_id": "9b",
+          "topic_title": "Wildfire Socioeconomic Environmental Impacts"
+        }
+      ],
+      "topic_title": "Wildland Fire Prevention and Impact"
+    },
+    {
+      "fact": "Fire department aerial apparatus feature heavy hydraulic outriggers that stabilize high-reach ladders during rescue operations.",
+      "misconception": "All standard municipal fire trucks carry identical tools, water capacities, and structural firefighting equipment.",
+      "pamphlet_excerpts": [
+        "Pumper Mechanics: Fire engines house high-capacity centrifugal pumps, water tanks, and structural attack hose.",
+        "Aerial Capabilities: Ladder trucks extend powered hydraulic ladders to provide elevated rescue and roof ventilation.",
+        "Community Education: Firefighters conduct public safety school visits and install free smoke detectors for families.",
+        "Professional Engineering: Fire protection engineers calculate sprinkler hydraulic flow rates to meet life safety codes."
+      ],
+      "pamphlet_summary": "Fire service careers encompass municipal structural suppression, emergency medical response, hazardous materials mitigation, fire investigation, and code enforcement. Specialized apparatus include structural pumpers carrying water and hose lines, aerial ladder trucks carrying rescue tools, and wildland brush trucks.",
+      "req_id": "10",
+      "safety_callout": "Maintain a safe distance of twenty feet from operating emergency apparatus outriggers and high-pressure hose discharge gates.",
+      "socratic_questions": [
+        "How does a fire engine differ from an aerial truck in functional mission and onboard equipment?",
+        "Why is community fire safety education considered more cost-effective than adding emergency suppression resources?",
+        "What specific physical and educational standards must candidates satisfy to obtain municipal firefighter certification?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Station Coordination: Contact local fire department administration to schedule a formal educational station visit.",
+        "Step 2 - Apparatus Inspection: Inspect specialized pump panel controls, water tanks, and hose loads on structural engines.",
+        "Step 3 - Firefighter Interview: Interview firefighters regarding daily physical training routines and fire prevention inspection protocols.",
+        "Step 4 - Career Research: Document educational prerequisites, civil service examinations, and paramedic certifications for career entry."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Fire engines pump water from hydrants and onboard tanks, whereas ladder trucks provide ventilation, forcible entry, and aerial rescue.",
+          "misconception": "Fire engines and ladder trucks perform identical mechanical functions and carry identical hose lines.",
+          "pamphlet_summary": "Visiting a municipal fire station reveals how modern emergency crews operate engines, ladder trucks, heavy rescues, and medic ambulances. Firefighters lead community risk reduction programs, commercial building code inspections, and public smoke alarm installations.",
+          "sub_id": "10a",
+          "topic_title": "Fire Station Operations Visit"
+        },
+        {
+          "fact": "Fire protection engineers design complex sprinkler calculations, while fire investigators analyze forensic origin chemistry.",
+          "misconception": "Career paths in fire safety are limited strictly to shift firefighters riding emergency response vehicles.",
+          "pamphlet_summary": "Fire safety careers extend across municipal firefighting, industrial safety management, fire protection engineering, and forensic arson investigation. Professional qualifications demand degrees in fire science, national certifications, paramedic licensure, and physical agility assessments.",
+          "sub_id": "10b",
+          "topic_title": "Fire Protection Career Opportunities"
+        }
+      ],
+      "topic_title": "Fire Service Operations and Careers"
+    }
+  ]
+}

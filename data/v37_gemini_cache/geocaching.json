@@ -1,0 +1,326 @@
+{
+  "requirements": [
+    {
+      "fact": "Park trails present active hazards including poison ivy, ticks, tripping roots, and dehydration.",
+      "misconception": "Scouts often believe geocaching in local public parks carries no outdoor survival risk.",
+      "pamphlet_excerpts": [
+        "Terrain Risk Assessment: Steep ravines and loose rock scree require sturdy hiking boots with ankle support.",
+        "Wildlife Protection Protocols: Searchers must avoid reaching blindly into rocky crevices where venomous snakes rest.",
+        "Weather Monitoring Rules: Rapid temperature drops demand waterproof outer layers packed in personal day packs.",
+        "Buddy System Standards: Traveling in pairs prevents isolation during physical injury or sudden navigation failures."
+      ],
+      "pamphlet_summary": "Search operations expose participants to terrain hazards, venomous wildlife, and severe atmospheric changes across backcountry and urban search zones. Mitigating these risks requires structured trip plans, personal protective equipment, and proactive physical conditioning.",
+      "req_id": "1",
+      "safety_callout": "Never place hands or feet into uninspected hollow logs, rock piles, or dense brush.",
+      "socratic_questions": [
+        "How does walking while looking down at a screen increase physical trip hazards?",
+        "Why must every search party carry water even on short suburban trail hunts?",
+        "What specific landmarks indicate an approaching electrical thunderstorm during an active search?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Route Planning: Review topographic contour lines and local park regulations before entering the field.",
+        "Step 2 - Equipment Checks: Pack hydration bladders, first aid kits, extra batteries, and weather gear.",
+        "Step 3 - Visual Hazard Scan: Scan ground cover and tree branches continuously while walking along the trail.",
+        "Step 4 - Incident Logging: Record minor scratches immediately and report any venomous bites to emergency dispatchers."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Topographic features frequently block cellular reception in deep canyons and wooded hollows.",
+          "misconception": "Cellular phones provide guaranteed emergency communication during wilderness searches.",
+          "pamphlet_summary": "Scouts encounter venomous reptiles, toxic flora, heat exhaustion, and uneven terrain during off-trail searches. Proper anticipation involves checking local land warnings and carrying specialized extraction gear.",
+          "sub_id": "1a",
+          "topic_title": "Outdoor Geocaching Environmental Hazards"
+        },
+        {
+          "fact": "Wilderness first aid mandates keeping the limb immobilized below heart level without incisions.",
+          "misconception": "Snakebite treatment requires cutting the puncture marks and attempting venom extraction.",
+          "pamphlet_summary": "Common injuries include severe ankle sprains, tick bites, deep thorns, and heat cramps. Prompt treatment requires immediate cleaning, immobilization, and proper wilderness response protocols.",
+          "sub_id": "1b",
+          "topic_title": "Search Injury First Aid"
+        },
+        {
+          "fact": "Battery failure or satellite signal loss leaves unfiled parties without search rescue support.",
+          "misconception": "A functional GPS unit eliminates the necessity of leaving travel plans with home contacts.",
+          "pamphlet_summary": "Safe expeditions demand filed travel itineraries, matched hiking buddies, and appropriate thermal clothing. Planning prevents catastrophic stranding caused by dead receiver batteries or sudden cold fronts.",
+          "sub_id": "1c",
+          "topic_title": "Electronic Navigation Trip Planning"
+        }
+      ],
+      "topic_title": "Geocaching Hazards and Field Safety"
+    },
+    {
+      "fact": "Geocaching policy strictly bans using shovels, trowels, or pointed tools to create holes.",
+      "misconception": "Digging a shallow hole to conceal an ammo can is acceptable if covered.",
+      "pamphlet_excerpts": [
+        "Burial Prohibition Rule: Placing containers beneath disturbed soil violates land manager permits and park regulations.",
+        "Surface Camouflage Methods: Conceal containers using loose surface bark, fallen branches, or natural hollow rocks.",
+        "Public Property Permissions: Cache placement requires explicit documented authorization from municipal park rangers or landowners.",
+        "Cache Removal Responsibilities: Owners must remove containers and archive listings when regular maintenance ceases permanently."
+      ],
+      "pamphlet_summary": "Geocaching guidelines strictly forbid burying containers or damaging natural resources to maintain public land integrity. Responsible participants uphold Leave No Trace principles by masking hiding spots with natural detritus.",
+      "req_id": "2",
+      "safety_callout": "Inspect hide locations for wasp nests or hazardous discarded glass before placing containers.",
+      "socratic_questions": [
+        "How does digging to place a cache harm native topsoil and plant root systems?",
+        "Why must an owner immediately archive and retrieve a cache they cannot maintain?",
+        "In what ways does creating a social trail through fragile brush violate conservation ethics?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Site Authorization: Obtain written permission from the property administrator before placing any physical container.",
+        "Step 2 - Container Selection: Choose durable waterproof ammo cans or sealed gasket boxes with official markings.",
+        "Step 3 - Natural Placement: Position the container above ground inside existing dead tree hollows or crevices.",
+        "Step 4 - Ethics Verification: Check that retrieval paths cause no vegetation trampling or bank erosion damage."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Any placement requiring tools or digging to conceal or uncover constitutes prohibited burial.",
+          "misconception": "Covering a partially buried plastic tub with soil does not count as excavation.",
+          "pamphlet_summary": "Burying caches creates destructive ground disturbance and raises public security concerns regarding buried items. Regulations require every container to rest above the existing mineral soil line.",
+          "sub_id": "2a",
+          "topic_title": "Cache Excavation Ban Policies"
+        },
+        {
+          "fact": "Moving containers alters published coordinates and causes subsequent searchers to trample larger areas.",
+          "misconception": "Moving a poorly hidden cache to a better hiding spot helps the cache owner.",
+          "pamphlet_summary": "Hiders must monitor moisture seals, replace soggy logbooks, and archive abandoned geocaches responsibly. Searchers must re-hide containers precisely where found without drawing bystander attention.",
+          "sub_id": "2b",
+          "topic_title": "Container Lifecycle and Etiquette"
+        },
+        {
+          "fact": "Leave No Trace principles require leaving all natural and historical features completely undisturbed.",
+          "misconception": "Geocachers may dismantle rock walls or break tree branches to expose hidden containers.",
+          "pamphlet_summary": "Scouts apply conservation ethics by sticking to durable trails and packing out discarded trash. Minimizing campfire impacts and respecting wildlife maintains natural habitat quality during searches.",
+          "sub_id": "2c",
+          "topic_title": "Leave No Trace Principles"
+        }
+      ],
+      "topic_title": "Geocache Placement and Environmental Ethics"
+    },
+    {
+      "fact": "Difficulty reflects mental hiding cunning while terrain measures physical trail roughness and elevation.",
+      "misconception": "Difficulty and terrain ratings measure the exact same physical hiking challenges.",
+      "pamphlet_excerpts": [
+        "Waypoint Coordinate Definitions: A waypoint records precise geographic coordinates marking a specific physical target location.",
+        "Difficulty Rating Parameters: Difficulty ratings measure mental puzzle complexity and container camouflage ingenuity on site.",
+        "Terrain Rating Parameters: Terrain numbers reflect physical elevation changes, ground vegetation thickness, and accessibility obstacles.",
+        "Trackable Item Movement: Trackables carry unique serial codes allowing public tracking across sequential container locations."
+      ],
+      "pamphlet_summary": "Precise technical vocabulary enables accurate communication regarding coordinates, terrain difficulty, and container status across the worldwide community. Standardized rating systems inform searchers about physical exertion and navigational equipment requirements.",
+      "req_id": "3",
+      "safety_callout": "Check terrain ratings before departure to prevent attempting technical climbs without safety gear.",
+      "socratic_questions": [
+        "How do container attributes prevent searchers from encountering unexpected physical hazards?",
+        "Why is signing the physical paper logbook mandatory for claiming an official find?",
+        "What distinguishes a trackable item from standard trading trinkets inside a cache?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Waypoint Entry: Enter target latitude and longitude coordinates into the handheld navigation receiver database.",
+        "Step 2 - Attribute Review: Check listing attributes for warnings regarding poison oak, thorns, or seasonal flooding.",
+        "Step 3 - Physical Log Signing: Sign the physical paper log sheet using permanent waterproof ink upon discovery.",
+        "Step 4 - Online Log Update: Log the successful find online with field notes regarding container condition details."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Geocaching Terminology and Classification Systems"
+    },
+    {
+      "fact": "Consumer GPS units are passive receivers that only detect incoming radio signals from orbit.",
+      "misconception": "Handheld GPS receivers transmit continuous high-power radio signals directly to military satellites.",
+      "pamphlet_excerpts": [
+        "Satellite Constellation Geometry: Twenty-four active satellites orbit Earth transmitting continuous radio timing signals to receivers.",
+        "Trilateration Positioning Methods: Receivers calculate distance from four distinct satellites to establish accurate three-dimensional fixes.",
+        "Map Datum Standards: The World Geodetic System 1984 datum provides global standardized coordinate alignment.",
+        "Waypoint Management Skills: Users save current location coordinates into memory and edit labels for retrieval."
+      ],
+      "pamphlet_summary": "Handheld receivers calculate precise surface positions by measuring radio signal transit times from multiple orbiting satellites via trilateration. Demonstrating these operational functions requires mastering coordinate formats, map datums, and field navigation screens.",
+      "req_id": "4",
+      "safety_callout": "Never stare at a GPS receiver screen while walking over uneven backcountry terrain.",
+      "socratic_questions": [
+        "Why does a receiver require signals from at least four satellites for 3D navigation?",
+        "What happens to position accuracy when entering deep canyons or dense forest canopies?",
+        "How does changing the map datum distort coordinate matching on a paper topographic map?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Explain Concept: Explain satellite trilateration and radio signal timing to patrol members using diagrams.",
+        "Step 2 - Demonstrate Function: Demonstrate marking an active waypoint and editing its displayed name and icon.",
+        "Step 3 - Guide Practice: Guide the learner through switching coordinate formats to degrees and decimal minutes.",
+        "Step 4 - Enable Execution: Observe the Scout independently navigating toward a designated test waypoint coordinate target."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Satellite Navigation Principles and Operations"
+    },
+    {
+      "fact": "Non-electronic compass GPS units require forward walking movement to calculate directional travel headings.",
+      "misconception": "A GPS receiver always points toward your destination even when standing completely still.",
+      "pamphlet_excerpts": [
+        "Magnetic Compass Reliability: Magnetic needles align with Earth magnetic fields without requiring battery electrical power.",
+        "Topographic Map Contours: Contour lines reveal elevation changes, steep cliffs, waterways, and impassable physical terrain.",
+        "Declination Angle Corrections: Users adjust compass declination to align magnetic north with true map north.",
+        "Navigation Redundancy Value: Carrying paper maps prevents wilderness stranding when receiver batteries deplete completely outside."
+      ],
+      "pamphlet_summary": "Traditional terrestrial orienteering provides essential backup navigation when electronic devices suffer battery drain or signal interference. Comparing electronic bearings with magnetic compass headings ensures continuous wilderness spatial awareness and route accuracy.",
+      "req_id": "5",
+      "safety_callout": "Always carry a physical magnetic compass and paper map when navigating remote backcountry trails.",
+      "socratic_questions": [
+        "Why does an electronic GPS compass consume battery power faster than standard screens?",
+        "How do contour lines on a topographic map warn you about inaccessible caches?",
+        "What environmental factors cause a GPS receiver to report inaccurate directional headings?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Map Orientation: Orient the topographic paper map using magnetic north indicated by the compass.",
+        "Step 2 - Terrain Correlation: Match visible mountain peaks and stream valleys to contour lines on paper.",
+        "Step 3 - Bearing Comparison: Compare electronic GPS bearings against needle headings taken with the baseplate compass.",
+        "Step 4 - Route Verification: Plot the final search path on paper before moving toward target coordinates."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Topographic contour maps depict precise geological landforms that digital screens often simplify.",
+          "misconception": "Paper maps provide less accurate elevation information than consumer handheld electronic receivers.",
+          "pamphlet_summary": "Orienting a paper map with a baseplate compass establishes geographic orientation regardless of satellite reception. Understanding map legends and contour intervals enables accurate route planning across rough terrain.",
+          "sub_id": "5a",
+          "topic_title": "Topographic Map and Compass Skills"
+        },
+        {
+          "fact": "Device malfunction, dead batteries, and electronic screen damage make traditional navigation knowledge lifesaving.",
+          "misconception": "Electronic navigation tools eliminate the practical necessity of traditional terrestrial orienteering skills.",
+          "pamphlet_summary": "GPS units calculate real-time transit speed and exact latitude coordinates instantly under open skies. Traditional orienteering requires manual triangulation but operates indefinitely without electrical batteries or satellite access.",
+          "sub_id": "5b",
+          "topic_title": "Navigation Technologies Comparison Analysis"
+        }
+      ],
+      "topic_title": "Map, Compass, and Electronic Navigation"
+    },
+    {
+      "fact": "Civilian GPS accuracy ranges within ten to twenty feet, requiring visual search techniques.",
+      "misconception": "A GPS receiver points with pinpoint laser accuracy to the exact hiding spot.",
+      "pamphlet_excerpts": [
+        "Cache Research Phase: Review online descriptions, hint decryptions, container sizes, and recent seeker logs beforehand.",
+        "Waypoint Navigation Phase: Follow the receiver directional arrow until distance counts down to twenty feet.",
+        "Visual Search Phase: Search natural crevices, hollow stumps, and artificial hangers using observant eyes instead.",
+        "Log Signing Phase: Sign the physical paper scroll and reseal container gaskets tightly against moisture."
+      ],
+      "pamphlet_summary": "Locating a geocache follows a systematic progression from online research through waypoint navigation to physical searching. Once on site, searchers transition from electronic guidance to visual scanning within a twenty-foot radius.",
+      "req_id": "6",
+      "safety_callout": "Look carefully for stinging insects before reaching inside tree hollows or under boulders.",
+      "socratic_questions": [
+        "Why should searchers stop staring at screens when within twenty feet of targets?",
+        "What unusual visual clues indicate that an object in nature is man-made?",
+        "Why must a container be placed back in the exact location where discovered?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Research Cache: Read online coordinates, difficulty ratings, cache sizes, and encrypted hints thoroughly beforehand.",
+        "Step 2 - Navigate Proximity: Follow the GPS directional arrow until entering the target search zone perimeter.",
+        "Step 3 - Scan Environment: Search unusual rock formations, hollow fence posts, and hanging pine branch hooks.",
+        "Step 4 - Record Discovery: Sign the paper logbook, replace swag items, and conceal the container securely."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Four Steps to Finding Caches"
+    },
+    {
+      "fact": "Containers frequently suffer damage, theft, or seasonal removal noted in recent finder logs.",
+      "misconception": "All geocaches listed online remain in place and ready to be found.",
+      "pamphlet_excerpts": [
+        "Listing Data Examination: Online listings display coordinates, owner usernames, difficulty ratings, and recent finder comments.",
+        "Attribute Icon Analysis: Attribute icons warn searchers about flash flood zones, thorny vegetation, and cliffs.",
+        "Recent Activity Checks: Reviewing recent logs confirms whether previous searchers reported missing or damaged containers.",
+        "Target Selection Criteria: Choosing appropriate caches requires matching terrain ratings to personal hiking capability levels."
+      ],
+      "pamphlet_summary": "Navigating official listing platforms exposes Scouts to community logs, geographic coordinate sets, and environmental safety attributes. Analyzing published listings enables informed decision-making regarding gear requirements and physical fitness challenges.",
+      "req_id": "7",
+      "safety_callout": "Verify park operating hours on the listing to avoid trespassing after nightfall.",
+      "socratic_questions": [
+        "What do multiple 'Did Not Find' logs suggest about a cache status?",
+        "How do attribute icons influence the protective clothing you wear into field?",
+        "Why should you read the encrypted hint only after struggling during searches?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Platform Access: Log into the public geocaching database website with parental permission granted beforehand.",
+        "Step 2 - Local Search: Search municipal zip codes to display available public caches within local parks.",
+        "Step 3 - Listing Evaluation: Compare three distinct cache descriptions regarding container sizes, ratings, and recent logs.",
+        "Step 4 - Target Selection: Select one target cache and download coordinates into the personal navigation device."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Online Geocaching Platform Research"
+    },
+    {
+      "fact": "Cache owners hold ongoing responsibility to replace wet logs and maintain container condition.",
+      "misconception": "Hiding a public geocache is a one-time event requiring no future maintenance.",
+      "pamphlet_excerpts": [
+        "Cache to Eagle: Special series caches highlight completed Eagle Scout community leadership service project locations.",
+        "Travel Bug Management: Metal tracking tags travel between physical containers fulfilling specific public mission goals.",
+        "Container Stewardship Plans: Hiders commit to inspecting containers quarterly, replacing soggy logs, and repairing seals.",
+        "Clean In Trash Out: Cache In Trash Out programs remove litter from public parks during searches."
+      ],
+      "pamphlet_summary": "Advanced geocaching emphasizes stewardship through environmental cleanups, public service trail maintenance, and active travel bug tracking. Establishing official containers requires ongoing physical maintenance commitments and documented permission from municipal land managers.",
+      "req_id": "8",
+      "safety_callout": "Wear puncture-resistant leather work gloves when collecting trash along public trails during CITO.",
+      "socratic_questions": [
+        "How does the Cache to Eagle program showcase youth leadership across communities?",
+        "Why must travel bug logs be recorded online promptly after moving items?",
+        "What environmental degradation occurs when broken cache containers leak plastics into woods?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Project Selection: Select one community stewardship option matching troop service goals and local resources.",
+        "Step 2 - Stakeholder Coordination: Coordinate with park rangers, council coordinators, or cache owners before beginning work.",
+        "Step 3 - Action Execution: Execute the cleanup event, cache placement, or travel bug trackable mission release.",
+        "Step 4 - Documentation Review: Document project results and present photographs and maintenance records to your counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Scouting volunteers and local troops maintain these special memorial containers year-round.",
+          "misconception": "Cache to Eagle containers are maintained entirely by local municipal park staff.",
+          "pamphlet_summary": "Council Cache to Eagle series guide the public to significant Eagle Scout service project installations across parks and historic landmarks. Visiting these sites illustrates how youth service projects benefit community infrastructure over decades.",
+          "sub_id": "8a",
+          "topic_title": "Cache to Eagle Series"
+        },
+        {
+          "fact": "Trackables belong to their original owners and must travel forward to other caches.",
+          "misconception": "Trackable travel bugs become the permanent property of whoever finds them first.",
+          "pamphlet_summary": "Creating a Scout-themed travel bug attaches a tracking tag to an emblem promoting the Scout Law. Tracking its movement through online logs demonstrates cooperative community dynamics across geographic distances.",
+          "sub_id": "8b",
+          "topic_title": "Scouting Travel Bug Missions"
+        },
+        {
+          "fact": "Food scent residue attracts rodents that chew through thin plastic, destroying containers.",
+          "misconception": "Any sealed disposable food container functions effectively as a permanent outdoor geocache.",
+          "pamphlet_summary": "Publishing a public cache requires landowner consent, precise coordinate averaging, and a committed three-month upkeep schedule. Active stewardship prevents geolitter and protects sensitive environmental zones from excessive foot traffic.",
+          "sub_id": "8c",
+          "topic_title": "Public Cache Placement Maintenance"
+        },
+        {
+          "fact": "Environmental stewardship represents a core ethical commitment of the international geocaching community.",
+          "misconception": "Picking up litter along trails is secondary to logging the physical cache.",
+          "pamphlet_summary": "Cache In Trash Out events mobilize outdoor enthusiasts to collect garbage along trails while searching for containers. Leaving collection bags at cache locations encourages all visitors to steward public lands.",
+          "sub_id": "8d",
+          "topic_title": "Cache In Trash Out"
+        }
+      ],
+      "topic_title": "Community Service and Cache Management"
+    },
+    {
+      "fact": "Educational courses prioritize participant safety and clear learning over extreme physical hazards.",
+      "misconception": "A geohunt course should place waypoints in dangerous spots to maximize difficulty.",
+      "pamphlet_excerpts": [
+        "Thematic Route Planning: Select an engaging educational theme connecting multiple sequential waypoints along safe pathways.",
+        "Waypoint Coordinate Averaging: Average coordinates at each station to ensure participants receive accurate navigation targets.",
+        "EDGE Method Instruction: Teach navigation by explaining, demonstrating, guiding practice, and enabling independent patrol searches.",
+        "Course Safety Boundaries: Establish physical boundary lines and emergency muster checkpoints before releasing youth participants."
+      ],
+      "pamphlet_summary": "Organizing an educational geohunt requires designing a thematic route, programming clear waypoints, and teaching receiver operation using EDGE instruction methods. Successful leaders manage group pacing, enforce safety boundaries, and debrief learning outcomes after course completion.",
+      "req_id": "9",
+      "safety_callout": "Establish clear physical perimeter boundaries so youth never wander near roadways or cliffs.",
+      "socratic_questions": [
+        "How do you calibrate waypoint difficulty to suit different youth age groups?",
+        "Why must you conduct a dry run of the course before participants arrive?",
+        "What leadership skills are demonstrated when debriefing participants after game completion?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Design Route: Map four distinct educational waypoints following a cohesive historic or ecological theme.",
+        "Step 2 - Program Waypoints: Enter accurate coordinates and clue descriptions into all youth patrol GPS receivers.",
+        "Step 3 - Instruct Participants: Teach receiver screen functions and compass bearing navigation using the EDGE method.",
+        "Step 4 - Supervise Hunt: Monitor patrol movements, enforce buddy systems, and conduct an educational game debriefing."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Geohunt Course Design and Leadership"
+    }
+  ]
+}

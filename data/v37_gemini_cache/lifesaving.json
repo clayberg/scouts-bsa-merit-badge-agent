@@ -1,0 +1,601 @@
+{
+  "requirements": [
+    {
+      "fact": "Designated adult supervisors must hold current training in both Safe Swim Defense and CPR.",
+      "misconception": "A certified lifeguard on duty eliminates the need for adult troop supervision.",
+      "pamphlet_excerpts": [
+        "Qualified Leadership: Adult supervisors must hold current certifications in Safe Swim Defense and basic CPR.",
+        "Safe Water Depth: Maximum swimming area depth must match the verified ability of the participants.",
+        "Buddy System Pairing: Swimmers must remain paired and respond immediately to periodic buddy check whistles.",
+        "Response Team Readiness: Dedicated rescue personnel must remain alert and equipped beside active swimming zones."
+      ],
+      "pamphlet_summary": "Safe Swim Defense establishes eight mandatory operational points for troop water outings. Supervisors maintain water surveillance and enforce buddy checks at ten minute intervals.",
+      "req_id": "1",
+      "safety_callout": "Never conduct open water swimming activities without a designated adult supervisor present on shore.",
+      "socratic_questions": [
+        "Why does adult leadership remain necessary even when municipal lifeguards supervise the facility?",
+        "How does the buddy system prevent quiet distress events during troop water activities?",
+        "Which conditions require leaders to close swimming areas during open water sessions?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Area Inspection: Check water clarity and bottom hazards across the designated swimming boundary line.",
+        "Step 2 - Ability Classification: Administer standard swim tests before assigning participants to distinct activity areas.",
+        "Step 3 - Lifeguard Positioning: Post trained rescuers equipped with rescue tubes at elevated surveillance stations.",
+        "Step 4 - Buddy Assembly: Conduct frequent accountability roll calls to confirm paired swimmer presence and safety."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Safe Swim Defense Principles"
+    },
+    {
+      "fact": "Lifesaving candidate prerequisites mandate verified stroke mechanics alongside continuous aerobic swimming stamina.",
+      "misconception": "Passing the First Class swim test fulfills the prerequisite swimming endurance requirement.",
+      "pamphlet_excerpts": [
+        "Prerequisite Badge Completion: Candidates must complete every requirement for the Swimming merit badge first.",
+        "Stroke Form Maintenance: Swimmers must demonstrate continuous forward progress using correct body position mechanics.",
+        "Rhythmic Breathing Integration: Swimmers must inhale cleanly above water without stopping during stroke transitions.",
+        "Continuous Distance Standard: Candidates must complete four hundred yards without resting against pool perimeter edges."
+      ],
+      "pamphlet_summary": "Rescuers must possess foundational swimming badges before attempting dangerous open water contact rescues. The four hundred yard swim proves continuous cardiovascular fitness and technical mastery across four strokes.",
+      "req_id": "2",
+      "safety_callout": "Terminate prerequisite swim testing immediately if a candidate exhibits ragged breathing or failing stroke mechanics.",
+      "socratic_questions": [
+        "Why must rescue candidates earn the Swimming merit badge before attempting Lifesaving?",
+        "How does rhythmic breathing prevent exhaustion during a sustained deep water swimming approach?",
+        "Which physical hazards emerge when attempting contact rescues without sufficient aerobic stamina?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Record Verification: Confirm official troop advancement records showing completion of the Swimming merit badge.",
+        "Step 2 - Stroke Demonstration: Execute continuous front crawl and sidestroke segments over fifty yards each.",
+        "Step 3 - Form Evaluation: Maintain horizontal body alignment while completing the remaining breaststroke and elementary backstroke.",
+        "Step 4 - Distance Completion: Finish the full four hundred yard sequence without grasping walls or lane ropes."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Swimming merit badge requirements validate survival floating and deep water surface entry skills.",
+          "misconception": "Recreational swimming experience substitutes for formal Swimming merit badge completion records.",
+          "pamphlet_summary": "The Swimming merit badge confirms core stroke competence and aquatic safety foundations. Candidates must complete all badge components before enrolling in advanced rescue training.",
+          "sub_id": "2a",
+          "topic_title": "Swimming Merit Badge Completion"
+        },
+        {
+          "fact": "Each required stroke must maintain consistent forward propulsion without pauses across fifty yards.",
+          "misconception": "Any informal stroke style satisfies the four hundred yard endurance prerequisite.",
+          "pamphlet_summary": "Candidates must sustain rhythmic breathing across four distinct competitive and resting strokes. Continuous movement builds the cardiovascular reserve needed for demanding towing maneuvers.",
+          "sub_id": "2b",
+          "topic_title": "Continuous Endurance Swim Testing"
+        }
+      ],
+      "topic_title": "Aquatic Prerequisites and Assessment"
+    },
+    {
+      "fact": "Drowning victims rarely wave or yell because instinct prioritizes breathing over vocalization.",
+      "misconception": "Drowning victims always splash violently and call for help before slipping underwater.",
+      "pamphlet_excerpts": [
+        "Silent Distress Recognition: Victims often struggle upright without forward propulsion or effective distress calls.",
+        "Rescue Hierarchy Order: Rescuers must utilize reaching and throwing assists before considering swimming approaches.",
+        "Rip Current Navigation: Swimmers caught in rip currents must move parallel to shore until free.",
+        "Environmental Assessment Rules: Fast river currents and low head dams require shoreline land based operations."
+      ],
+      "pamphlet_summary": "Victims experiencing active drowning remain upright with arms pressing down in the instinctive drowning response. Rescuers follow a strict tactical hierarchy that prioritizes shoreline assists over direct contact rescues.",
+      "req_id": "3",
+      "safety_callout": "Never enter turbulent water or low head dams for swimming rescue attempts.",
+      "socratic_questions": [
+        "Why does the physiological drowning reflex prevent a struggling swimmer from shouting?",
+        "Under what specific environmental conditions should a rescuer refuse an in-water rescue?",
+        "How does presenting a buoyant reaching device reduce rescuer risk during shore assists?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Victim Assessment: Identify signs of distressed, active drowning, or passive unconscious swimmer conditions.",
+        "Step 2 - Setting Evaluation: Gauge water current speed, submerged debris, and shoreline footing stability before acting.",
+        "Step 3 - Method Selection: Choose reaching or throwing gear before considering boat craft or swimming options.",
+        "Step 4 - Resource Mobilization: Summon emergency medical support while deploying the least hazardous shoreline rescue technique."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Drop offs cause sudden immersion panic in nonswimmers who step off underwater ledges.",
+          "misconception": "Residential swimming pools present fewer drowning hazards than uncontrolled open water lakes.",
+          "pamphlet_summary": "Sudden drop offs, river hydraulics, and residential pool gates present unique environmental hazards. Recognizing dynamic water movement helps swimmers avoid dangerous entrapment zones.",
+          "sub_id": "3a",
+          "topic_title": "Aquatic Hazards and Prevention"
+        },
+        {
+          "fact": "Active drowning victims press their arms downward against water without kicking their feet.",
+          "misconception": "Tired swimmers behave identically to victims experiencing the instinctive drowning response.",
+          "pamphlet_summary": "Distressed swimmers can call for help while drowning victims focus entirely on breathing. Rescuers monitor head position and arm movements to identify active suffocation struggles.",
+          "sub_id": "3b",
+          "topic_title": "Swimmer Distress Recognition Indicators"
+        },
+        {
+          "fact": "The reach, throw, row, go sequence minimizes rescuer peril by exploiting distance.",
+          "misconception": "Entering the water immediately demonstrates superior bravery and faster emergency rescue resolution.",
+          "pamphlet_summary": "Rescuers must prioritize reach and throw tactics before launching watercraft or swimming. Direct contact rescues represent the highest risk and must remain the final alternative.",
+          "sub_id": "3c",
+          "topic_title": "Water Rescue Order Sequence"
+        },
+        {
+          "fact": "Cold water requires immediate shore assists to prevent rapid victim incapacitation from hypothermia.",
+          "misconception": "Rescue techniques remain identical regardless of whether emergencies occur in pools or rivers.",
+          "pamphlet_summary": "Rescuers adjust equipment choices according to surf conditions, river currents, and victim awareness. High current environments necessitate tethered land based throwing bags instead of wading approaches.",
+          "sub_id": "3d",
+          "topic_title": "Contextual Rescue Method Adaptation"
+        },
+        {
+          "fact": "Floodwater rapids and low head dam hydraulics kill trained rescuers attempting contact rescues.",
+          "misconception": "Rescuers must enter the water regardless of personal safety during every emergency.",
+          "pamphlet_summary": "Extreme current, electrical hazards, and violent surf dictate shoreline operations exclusively. Rescuers preserve personal safety by utilizing watercraft or waiting for specialized emergency personnel.",
+          "sub_id": "3e",
+          "topic_title": "Nonentry Aquatic Rescue Criteria"
+        }
+      ],
+      "topic_title": "Drowning Prevention and Recognition"
+    },
+    {
+      "fact": "Anchoring rescuer body weight prevents the victim from pulling the rescuer into deep water.",
+      "misconception": "Standing upright provides maximum balance when reaching toward a struggling swimmer from shore.",
+      "pamphlet_excerpts": [
+        "Rescuer Stance Anchoring: Rescuers must lie flat or stay low before extending any reaching aid.",
+        "Rigid Tool Extension: Shepherd crooks and long poles provide sturdy support for struggling swimmers.",
+        "Improvised Reaching Gear: Towels and clothing create extended grips when rigid poles are unavailable.",
+        "Targeted Aid Placement: Rescuers must place reaching devices directly into the victim grasp zone."
+      ],
+      "pamphlet_summary": "Reaching rescues provide the safest response for victims struggling near docks or pool walls. Rescuers must lower their center of gravity to prevent being pulled into the water.",
+      "req_id": "4",
+      "safety_callout": "Always maintain a broad, low base of support to avoid being dragged into the water.",
+      "socratic_questions": [
+        "Why must a rescuer lie prone on a dock before extending a reaching device?",
+        "How can clothing items be converted rapidly into viable reaching tools during emergencies?",
+        "Where should you aim a rescue pole relative to a panicked swimmer head?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Body Anchoring: Drop onto knees or lie prone on the solid deck or shoreline.",
+        "Step 2 - Equipment Securement: Grasp the reaching aid firmly with one hand anchored behind your body.",
+        "Step 3 - Aid Extension: Push the pole or paddle across the water surface toward the victim.",
+        "Step 4 - Controlled Retrieval: Pull the grasping subject slowly to the safety edge using smooth motions."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Reaching Assist Field Techniques"
+    },
+    {
+      "fact": "Throwing a ring buoy beyond the subject allows the rescuer to pull the line across their chest.",
+      "misconception": "The primary goal during throwing rescues is hitting the victim directly with the heavy buoy.",
+      "pamphlet_excerpts": [
+        "Line Foot Anchor: Rescuers must step on the nonworking rope end before throwing any aid.",
+        "Downwind Throw Targeting: Rescuers must account for wind drift when tossing buoyant rings or bags.",
+        "Overhand Target Clearance: Aim throws slightly past the victim shoulder to drop line across arms.",
+        "Controlled Rope Retrieval: Pull the rope hand over hand while maintaining low stable footing."
+      ],
+      "pamphlet_summary": "Throwing rescues bridge distance when victims struggle beyond arm or pole reach from shore. Stepping on the rope bitter end prevents losing the safety line during long throws.",
+      "req_id": "5",
+      "safety_callout": "Never coil a throwing line around your wrist or body because sudden tension causes injury.",
+      "socratic_questions": [
+        "Why must you anchor the free end of a throw line under your lead foot?",
+        "How does aiming past the victim improve their chances of grasping the rescue line?",
+        "What adjustment must you make when throwing a lightweight throw bag in high crosswinds?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Stance Preparation: Place the nonworking rope end securely under your forward foot on shore.",
+        "Step 2 - Device Preparation: Hold the coiled line loosely or open the throw bag drawstring cleanly.",
+        "Step 3 - Aim Delivery: Cast the buoyant device past the subject so line crosses their torso.",
+        "Step 4 - Hand Recovery: Retrieve the rope hand over hand while reeling the subject to shore."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Throwing Device Deployment Methods"
+    },
+    {
+      "fact": "Rowing rescues allow responders to reach distant swimmers rapidly without personal water entry.",
+      "misconception": "Kayaks and canoes provide stable platforms for dragging panicked victims over high gunwales.",
+      "pamphlet_excerpts": [
+        "Stern Approach Vector: Back the craft stern toward the victim to avoid capsize from struggling.",
+        "Victim Grasp Protocol: Instruct the conscious swimmer to hold the watercraft stern or paddle blade.",
+        "Craft Balance Preservation: Keep passenger weight centered low along the boat keel during passenger recovery.",
+        "Shore Transit Rowing: Row smoothly toward shallow water while the subject holds the stern securely."
+      ],
+      "pamphlet_summary": "Small craft enable rapid transit across wide distances while providing substantial flotation support for victims. Rescuers back the stern toward the victim to maintain vessel stability and prevent capsize.",
+      "req_id": "6",
+      "safety_callout": "Never permit an active victim to grasp the gunwale amidships on a small watercraft.",
+      "socratic_questions": [
+        "Why is approaching a conscious victim stern first safer than approaching them bow first?",
+        "How does a rescuer prevent a canoe from capsizing during subject contact?",
+        "What commands should the craft operator give to a panicked swimmer holding a paddle?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Craft Positioning: Row or paddle swiftly toward the subject while observing water surface conditions.",
+        "Step 2 - Stern Alignment: Pivot the watercraft to present the stern directly within the victim reach.",
+        "Step 3 - Victim Instruction: Direct the conscious swimmer to grasp the stern handle without climbing aboard.",
+        "Step 4 - Tow Execution: Row steadily toward shallow shoreline water while towing the supported subject behind."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Watercraft Rescue Demonstration Analysis"
+    },
+    {
+      "fact": "Buoyant aids keep rescuers safe by establishing a physical barrier against panicked victims.",
+      "misconception": "Any floating household item serves identically to specialized rescue tubes during swimming assists.",
+      "pamphlet_excerpts": [
+        "Physical Barrier Safety: Buoyant devices prevent direct victim contact and defend the rescuer personal space.",
+        "Rescue Tube Utility: Foam rescue tubes bend around victims to support positive floating airway elevation.",
+        "Kickboard Flotation Aids: Kickboards provide rigid flotation barriers when specialized rescue tubes are not available.",
+        "Buoyant Cushion Handling: Life jackets and buoyant cushions give victims immediate buoyancy during water approaches."
+      ],
+      "pamphlet_summary": "Buoyant aids provide positive flotation that supports both victim airway elevation and rescuer safety margins. Placing an object between rescuer and victim prevents sudden panic holds during open water approaches.",
+      "req_id": "7",
+      "safety_callout": "Always retain positive control of buoyant aids when approaching panicked swimmers in deep water.",
+      "socratic_questions": [
+        "Why does presenting a buoyant aid eliminate the need for dangerous body contact?",
+        "How does a rescue tube strap protect the rescuer during sudden victim lunges?",
+        "What qualities make closed cell foam buoys superior to inflatable beach toys during rescues?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Equipment Selection: Inspect available rescue tubes, ring buoys, kickboards, and certified flotation vests.",
+        "Step 2 - Flotation Assessment: Confirm the selected device provides sufficient buoyancy to support two adult swimmers.",
+        "Step 3 - Harness Attachment: Secure the rescue tube towline harness across your chest before water entry.",
+        "Step 4 - Defensive Positioning: Keep the buoyant device extended forward as a barrier during swimming approaches."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Buoyant Swimming Rescue Aids"
+    },
+    {
+      "fact": "Speaking calms the victim while continuous kicking drives the rescue tube into their chest.",
+      "misconception": "Towing a subject requires holding their body directly with an arm across their torso.",
+      "pamphlet_excerpts": [
+        "Compact Jump Entry: Enter deep water with a compact jump while keeping head above surface.",
+        "Calm Vocal Instructions: Reassure the victim continuously while ordering them to grasp the buoyant aid.",
+        "Push Assist Release: Push the float forward and back away while the subject kicks independently.",
+        "Towed Flotation Support: Tow the subject while they rest their chest over the secure tube."
+      ],
+      "pamphlet_summary": "Rescuers enter deep water using safe entries that keep eyes focused on the victim. Approaching with a buoyant aid allows the rescuer to execute push assists or secure tows without physical contact.",
+      "req_id": "8",
+      "safety_callout": "Maintain visual contact with the subject throughout entry, approach, and equipment delivery phases.",
+      "socratic_questions": [
+        "Why should your head remain above the water surface during rescue water entries?",
+        "What verbal cues help convince a frightened swimmer to grab the float?",
+        "How does an equipment tow differ mechanically from a direct body contact carry?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Stride Entry: Execute a stride entry while keeping eyes locked onto the distant subject.",
+        "Step 2 - Swimming Approach: Swim rapidly using head up crawl stroke while pushing the buoyant aid.",
+        "Step 3 - Vocal Contact: Command the subject to grab the float while stopping outside arm reach.",
+        "Step 4 - Safe Transport: Tow the buoyed subject to the shore edge using strong breaststroke kicks."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Releasing the float allows independent victim recovery without exposing the rescuer to grasping hands.",
+          "misconception": "Rescuers must always maintain physical tether contact with victims during buoyant equipment assists.",
+          "pamphlet_summary": "Pushing a buoyant aid gives responsive swimmers immediate support so they can kick toward safety. The rescuer swims at a safe distance while providing verbal direction and encouragement.",
+          "sub_id": "8a",
+          "topic_title": "Push Assist Device Deployment"
+        },
+        {
+          "fact": "Towing via a rescue tube towline keeps the rescuer completely out of reach of thrashing limbs.",
+          "misconception": "Towing a conscious subject with a buoyant tube requires dragging them by the wrist.",
+          "pamphlet_summary": "The rescuer extends the buoyant device and commands the subject to lock both arms over it. Once secured, the rescuer turns forward and uses powerful kicks to tow the tube to safety.",
+          "sub_id": "8b",
+          "topic_title": "Buoyant Aid Subject Tow"
+        }
+      ],
+      "topic_title": "Conscious Victim Buoyant Rescues"
+    },
+    {
+      "fact": "Heavy waterlogged boots and coats drag rescuers underwater within seconds of deep immersion.",
+      "misconception": "Removing shoes and pants wastes critical time that should be spent swimming toward victims.",
+      "pamphlet_excerpts": [
+        "Rapid Garment Stripping: Shed outer jackets and heavy boots in under twenty seconds before entering.",
+        "Heel Kicking Method: Kick shoes off rapidly by using opposing feet against alternate heel counters.",
+        "Button Release Sequence: Open jacket zippers and waist buttons while running toward the water margin.",
+        "Head High Approach: Swim with eyes above water to track victim status after rapid shedding."
+      ],
+      "pamphlet_summary": "Shedding heavy clothing prevents water weight from dragging rescuers under during emergency swims. Rescuers kick off shoes and peel away trousers rapidly before executing safe water entries.",
+      "req_id": "9",
+      "safety_callout": "Never jump into deep water wearing heavy boots or waterlogged outdoor cold weather coats.",
+      "socratic_questions": [
+        "Under what rare circumstances should a rescuer enter deep water while wearing clothes?",
+        "Which clothing items pose the greatest hazard to swimming efficiency and buoyancy?",
+        "How can unbuttoned trousers be inflated to serve as improvised flotation devices afterward?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Footwear Shedding: Kick off boots or heavy walking shoes by leveraging opposite foot toes.",
+        "Step 2 - Outerwear Release: Shuck jackets and trousers smoothly down your limbs in single fluid motions.",
+        "Step 3 - Safe Water Entry: Jump cleanly into deep water without submerging your head or losing sight.",
+        "Step 4 - Rapid Stroke Approach: Swim thirty feet to the subject using head high breaststroke or crawl."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Emergency Clothing Stripping Procedure"
+    },
+    {
+      "fact": "Maintaining a defensive position beyond arm reach prevents sudden victim lunges from trapping rescuers.",
+      "misconception": "Swimming directly into physical contact with a panicking victim demonstrates decisive rescue competence.",
+      "pamphlet_excerpts": [
+        "Defensive Stop Distance: Halt swimming approaches six to eight feet away from active panicking subjects.",
+        "Lead and Wait: Back away calmly while directing the subject to turn toward shallow margins.",
+        "Reversal Body Positioning: Keep legs tucked forward ready to push away from sudden lunging grasps.",
+        "Verbal Control Commands: Issue sharp loud directions telling the subject to breathe and remain calm."
+      ],
+      "pamphlet_summary": "Active subjects exhibit wild grasping reflexes that can easily overwhelm and submerge an unwary rescuer. Rescuers stop six feet away in a defensive posture, commanding the subject to turn toward safety.",
+      "req_id": "10",
+      "safety_callout": "Never enter physical reach of an active subject without establishing an intentional defensive stance.",
+      "socratic_questions": [
+        "Why do panicked swimmers instinctively attempt to climb on top of their rescuers?",
+        "What physical posture allows a rescuer to back away instantly from lunging hands?",
+        "How does calm vocal authority de-escalate panic in an exhausted swimmer before contact?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Approach Cessation: Stop forward swimming momentum six feet before entering the subject reach envelope.",
+        "Step 2 - Defensive Tucking: Tuck legs beneath your torso with feet facing forward toward the subject.",
+        "Step 3 - Directional Prompting: Instruct the subject firmly to rotate their body toward the safe shoreline.",
+        "Step 4 - Escorted Follow: Swim backward while leading the calming subject toward safety without physical contact."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Active Swimmer Avoidance Protocols"
+    },
+    {
+      "fact": "Armpit tows and cross-chest carries keep the victim mouth clear of incoming water splashes.",
+      "misconception": "Non-equipment contact carries should always be chosen before using buoyant tubes or lines.",
+      "pamphlet_excerpts": [
+        "Tired Swimmer Support: Support calm swimmers by grasping armpits while swimming on your back.",
+        "Cross-Chest Securement: Lock an arm over the victim shoulder and across their upper chest.",
+        "Hip Clearance Mechanics: Keep the victim hips elevated against your body to reduce hydrodynamic drag.",
+        "Sidestroke Power Kick: Deliver powerful scissor kicks to propel both bodies through deep water chop."
+      ],
+      "pamphlet_summary": "Non-equipment rescues require precise contact holds to manage calm or exhausted swimmers safely. Rescuers utilize powerful scissor kicks and hip support to maintain victim airway elevation during towing.",
+      "req_id": "11",
+      "safety_callout": "Immediately release contact carries and adopt defensive postures if the subject attempts to climb you.",
+      "socratic_questions": [
+        "Why is the armpit tow suited for calm swimmers but dangerous for panicked ones?",
+        "How does clamping the victim chest against your hip prevent them from rotating downward?",
+        "Which leg kick generates the most sustainable propulsion during deep water swimming carries?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Subject Reassurance: Approach the subject calmly while explaining the exact support hold you will provide.",
+        "Step 2 - Grip Establishment: Secure the designated armpit or cross-chest hold without compressing the victim neck.",
+        "Step 3 - Airway Elevation: Level the subject body horizontally while keeping their nose and mouth elevated.",
+        "Step 4 - Shoreward Propulsion: Execute rhythmic scissor or inverted breaststroke kicks to reach the pool edge."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "The armpit tow allows a resting swimmer to float comfortably while the rescuer kicks backwards.",
+          "misconception": "The rescuer should hold the tired swimmer neck to keep their head above water.",
+          "pamphlet_summary": "The armpit tow supports a calm swimmer who can maintain a relaxed back float. The rescuer grasps both armpits from behind and glides backward using elementary backstroke kicks.",
+          "sub_id": "11a",
+          "topic_title": "Calm Swimmer Armpit Tow"
+        },
+        {
+          "fact": "The cross-chest carry gives firm mechanical control over an exhausted swimmer prone to sinking.",
+          "misconception": "The cross-chest hold compresses the subject windpipe to force complete compliance during tows.",
+          "pamphlet_summary": "The cross-chest carry secures an exhausted subject tightly against the rescuer side and hip. One arm locks across the chest beneath the armpit while sidestroke kicks provide propulsion.",
+          "sub_id": "11b",
+          "topic_title": "Exhausted Subject Cross-Chest Carry"
+        }
+      ],
+      "topic_title": "Direct Contact Swimming Carries"
+    },
+    {
+      "fact": "Tucking chin and submerging breaks the victim surface leverage by forcing them to release.",
+      "misconception": "Fighting victim grasp holds on the surface with raw physical strength works best.",
+      "pamphlet_excerpts": [
+        "Submersion Release Principle: Submerge immediately when grabbed because drowning victims instinctively pull upward toward air.",
+        "Wrist Hold Counter: Rotate your wrist against the victim thumb line to break their grip.",
+        "Front Head Escape: Push the subject chin upward while submerging to slide out downward.",
+        "Rear Hold Defense: Turn your head sideways, tuck your chin, and slide downward out underneath."
+      ],
+      "pamphlet_summary": "Drowning victims reflexively climb rescuers to keep their own airways above the water surface. Rescuers break panic grips by submerging, pushing against the victim thumbs, and ducking downward.",
+      "req_id": "12",
+      "safety_callout": "Never strike a struggling victim when escaping panic holds in deep water situations.",
+      "socratic_questions": [
+        "Why does sinking underwater cause a panicked swimmer to release their grasp immediately?",
+        "How does anatomical leverage against the victim thumb break a tight wrist grip?",
+        "What is the first protective action your neck must take during head holds?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Immediate Submersion: Inhale sharply, tuck your chin tight, and submerge beneath the water surface.",
+        "Step 2 - Mechanical Break: Leverage your hands against the victim thumbs or chin to break contact.",
+        "Step 3 - Downward Extraction: Push up against the subject while sliding your body down and clear.",
+        "Step 4 - Defensive Re-emergence: Surface six feet away in a defensive posture facing the conscious subject."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Aquatic Grasp Escape Techniques"
+    },
+    {
+      "fact": "Splashing water onto an unconscious subject face confirms absence of normal protective eye blinks.",
+      "misconception": "Unconscious subjects should be approached from the front with standard head up crawl.",
+      "pamphlet_excerpts": [
+        "Responsiveness Check Splash: Splash water onto the subject face from safe distance to verify unresponsiveness.",
+        "Equipment Tube Roll: Place the rescue tube under the subject chest to elevate their airway.",
+        "Wrist Tow Rotation: Grasp the wrist, pull forward, and rotate the subject onto their back.",
+        "Rear Armpit Towing: Grasp both armpits from behind while pulling the floating body toward shore."
+      ],
+      "pamphlet_summary": "Unconscious victims require immediate surface approaches that prioritize rapid airway clearance and breathing verification. Rescuers roll facedown victims faceup using wrist grips, armpit holds, or buoyant equipment.",
+      "req_id": "13",
+      "safety_callout": "Protect the victim cervical spine from excessive twisting when turning an unconscious floating subject.",
+      "socratic_questions": [
+        "Why must you splash water across an apparent unconscious victim face before touching them?",
+        "How does pulling and turning a victim wrist roll their entire torso faceup?",
+        "What immediate medical intervention takes priority once an unconscious victim reaches land?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Rapid Assessment: Approach quickly and splash water across the subject face to test responsiveness.",
+        "Step 2 - Position Rotation: Reach across the floating body to roll the subject into faceup alignment.",
+        "Step 3 - Airway Elevation: Support the neck and chin to maintain open mouth exposure above surface.",
+        "Step 4 - Shoreward Extraction: Tow the floating unconscious body rapidly toward waiting emergency personnel on shore."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Sliding a buoyant rescue tube under an unconscious torso lifts the mouth instantly clear.",
+          "misconception": "Buoyant aids are useless when handling totally limp and unconscious surface victims.",
+          "pamphlet_summary": "Buoyant aids provide rapid airway elevation without exhausting the rescuer during transport. The rescuer wedges the tube beneath the subject shoulders to keep water away from breathing passages.",
+          "sub_id": "13a",
+          "topic_title": "Unconscious Subject Equipment Assist"
+        },
+        {
+          "fact": "Pulling the far wrist rotates the subject along their body axis without neck strain.",
+          "misconception": "Rescuers should grab the hair or clothing to roll an unconscious subject over.",
+          "pamphlet_summary": "The front approach requires grabbing the subject opposite wrist and pulling firmly forward. This rotational force flips the subject from facedown to faceup while towing begins.",
+          "sub_id": "13b",
+          "topic_title": "Front Approach Wrist Tow"
+        },
+        {
+          "fact": "The rear approach avoids potential sudden flailing if the subject regains partial consciousness.",
+          "misconception": "Rear approaches take too much time compared to direct head first contact grabs.",
+          "pamphlet_summary": "Rescuers slide both hands beneath the subject armpits from behind the shoulders. Grasping the shoulders allows smooth towing while the rescuer kicks backwards toward land.",
+          "sub_id": "13c",
+          "topic_title": "Rear Approach Armpit Tow"
+        }
+      ],
+      "topic_title": "Unconscious Victim Surface Rescues"
+    },
+    {
+      "fact": "Equalizing middle ear pressure during surface dives prevents painful eardrum rupture in deep water.",
+      "misconception": "Feetfirst dives are slower and less effective than headfirst dives in dark water.",
+      "pamphlet_excerpts": [
+        "Feetfirst Search Safety: Descend feetfirst when water depth or bottom obstruction hazards remain unknown.",
+        "Headfirst Dive Depth: Pike or tuck headfirst dives provide rapid descent to deep pool bottoms.",
+        "Bottom Weight Retrieval: Grasp submerged objects with one hand while pushing upward with powerful kicks.",
+        "Vertical Ascent Posture: Keep one arm extended upward toward the surface while ascending from depth."
+      ],
+      "pamphlet_summary": "Submerged subjects require rapid recovery using vertical feetfirst or headfirst surface dives. Rescuers keep one hand extended overhead while ascending to protect against surface collisions.",
+      "req_id": "14",
+      "safety_callout": "Never hyperventilate before diving because rapid shallow breathing triggers sudden underwater blackout.",
+      "socratic_questions": [
+        "Why is the feetfirst surface dive preferred when searching turbid or unfamiliar waters?",
+        "How does holding an arm overhead during ascent protect the rescuer from injury?",
+        "What dangers arise when a diver hyperventilates repeatedly prior to deep underwater searches?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Dive Execution: Perform a crisp feetfirst or headfirst surface dive directly above the target.",
+        "Step 2 - Descent Stabilization: Equalize inner ear pressure while swimming down toward the ten pound weight.",
+        "Step 3 - Weight Securement: Grasp the bottom weight securely against your hip using your dominant hand.",
+        "Step 4 - Overhead Ascent: Push forcefully off the bottom with free arm extended upward toward surface."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Feetfirst descents keep the head upright to observe bottom obstructions and murky hazards safely.",
+          "misconception": "Feetfirst surface dives require lead diving weights to overcome natural chest buoyancy.",
+          "pamphlet_summary": "The feetfirst surface dive begins with a strong upward breaststroke kick to lift shoulders. As momentum stops, the rescuer sweeps arms upward, driving the body straight down.",
+          "sub_id": "14a",
+          "topic_title": "Feetfirst Surface Dive Recovery"
+        },
+        {
+          "fact": "Pike surface dives bend the body at right angles to harness gravity during descents.",
+          "misconception": "Headfirst dives are safe to execute in shallow water with unknown submerged rocks.",
+          "pamphlet_summary": "Headfirst surface dives utilize tuck or pike positions to direct body weight downward. The rescuer pulls downward with arms and kicks forcefully toward bottom targets.",
+          "sub_id": "14b",
+          "topic_title": "Headfirst Surface Dive Recovery"
+        }
+      ],
+      "topic_title": "Submerged Subject Dive Recovery"
+    },
+    {
+      "fact": "The head splint technique uses the subject own upper arms to immobilize their neck.",
+      "misconception": "Spinal injury victims should be pulled rapidly out of water before stabilizing their spine.",
+      "pamphlet_excerpts": [
+        "Spinal Trauma Indicators: Suspect spinal injury whenever swimmers dive into shallow water or strike obstacles.",
+        "Head Splint Support: Clamp the subject upper arms firmly against their ears to stabilize cervical vertebrae.",
+        "In-Line Body Rotation: Roll the subject slowly toward the surface while keeping torso and neck aligned.",
+        "Calm Shallow Stabilization: Maintain continuous manual head splint stabilization until dedicated backboard teams arrive."
+      ],
+      "pamphlet_summary": "Suspected spinal injuries require immediate in-line stabilization using the head splint technique in standing water. Rescuers clamp the victim upper arms against their head to prevent cervical movement.",
+      "req_id": "15",
+      "safety_callout": "Never twist or bend the neck or spine when rotating a submerged spinal victim.",
+      "socratic_questions": [
+        "Why do a victim own biceps provide an effective cervical immobilization splint?",
+        "How does removing a spinal injury victim from water without a backboard cause paralysis?",
+        "What environmental clues immediately suggest a swimmer sustained a cervical spine injury?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Gentle Approach: Wade carefully toward the subject without generating disruptive surface wake or waves.",
+        "Step 2 - Arm Splint Placement: Grasp the subject upper arms and press them firmly against their ears.",
+        "Step 3 - Rotational Roll: Turn the facedown subject into a faceup posture while maintaining firm arm clamping.",
+        "Step 4 - Airway Maintenance: Hold the stabilized subject mouth above water while waiting for backboard arrival."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Neck pain, limb numbness, and head lacerations after shallow diving signal serious spinal injury.",
+          "misconception": "A spinal injury victim will always lose consciousness immediately following blunt head trauma.",
+          "pamphlet_summary": "Cervical trauma results from diving into shallow pools, boating collisions, or heavy surf impacts. Rescuers monitor for tingling, loss of motor control, and midline vertebral tenderness.",
+          "sub_id": "15a",
+          "topic_title": "Spinal Injury Symptom Recognition"
+        },
+        {
+          "fact": "Supporting a faceup subject requires gentle hip and shoulder lifts without moving the neck.",
+          "misconception": "Rescuers must apply rigid cervical collars while floating before stabilizing the subject arms.",
+          "pamphlet_summary": "Rescuers maintain continuous head and neck alignment for faceup subjects in standing depth water. Squeezing the upper arms against the ears immobilizes the cervical vertebrae reliably.",
+          "sub_id": "15b",
+          "topic_title": "Faceup Subject Spinal Support"
+        },
+        {
+          "fact": "Rotating the subject under the rescuer armpit preserves perfect in-line head and spine alignment.",
+          "misconception": "Turning a facedown spinal victim requires flipping them quickly to restore air access.",
+          "pamphlet_summary": "Facedown victims must be rolled into a faceup position to clear the airway. The rescuer glides the subject forward while rotating their body under an extended arm.",
+          "sub_id": "15c",
+          "topic_title": "Facedown Spinal Subject Rotation"
+        }
+      ],
+      "topic_title": "Spinal Injury Water Management"
+    },
+    {
+      "fact": "Early chest compressions circulate oxygenated blood to vital organs before irreversible brain death occurs.",
+      "misconception": "Rescuers must check for a pulse for thirty seconds before initiating chest compressions.",
+      "pamphlet_excerpts": [
+        "Agonal Breathing Recognition: Infrequent gasping breaths represent cardiac arrest and require immediate cardiopulmonary resuscitation.",
+        "Compression Depth Standard: Deliver compressions two inches deep at one hundred twenty beats per minute.",
+        "Airway Opening Mechanics: Tilt head and lift chin to open airways before delivering rescue breaths.",
+        "AED Pad Application: Attach automated external defibrillator pads to bare dry skin without interrupting compressions."
+      ],
+      "pamphlet_summary": "Cardiopulmonary resuscitation provides artificial circulation and ventilation for nonbreathing victims pulled from water. Rescuers deliver high quality chest compressions combined with effective barrier mask rescue breaths.",
+      "req_id": "16",
+      "safety_callout": "Dry the victim chest thoroughly before applying automated external defibrillator electrode pads.",
+      "socratic_questions": [
+        "Why does agonal gasping require the immediate start of cardiopulmonary resuscitation?",
+        "How does high quality chest recoil allow cardiac chambers to refill between compressions?",
+        "Why are rescue breaths especially vital for drowning victims compared to sudden cardiac arrest?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Response Verification: Tap shoulders and shout loudly to determine consciousness and normal breathing status.",
+        "Step 2 - Help Summoning: Direct a specific bystander to call emergency services and retrieve an AED.",
+        "Step 3 - CPR Delivery: Deliver cycles of thirty rapid chest compressions followed by two gentle rescue breaths.",
+        "Step 4 - Defibrillator Operation: Power on the AED, attach pads, and follow voice prompts to deliver shocks."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Victims who are unresponsive and not breathing or only gasping need immediate resuscitation.",
+          "misconception": "Rescuers should wait to begin CPR until all water is drained from lungs.",
+          "pamphlet_summary": "Rescuers identify cardiac and respiratory arrest by checking responsiveness and observing chest rise. Gasping or absent respirations mandate immediate activation of emergency medical services and CPR.",
+          "sub_id": "16a",
+          "topic_title": "Resuscitation Need Clinical Assessment"
+        },
+        {
+          "fact": "Continuous chest compressions combined with rescue breathing maximize survival chances after drowning.",
+          "misconception": "Compression only CPR without rescue breaths is optimal for submersion drowning victims.",
+          "pamphlet_summary": "Scouts demonstrate thirty compressions and two breaths on training mannequins under certified guidance. Proper hand placement and complete chest recoil ensure adequate coronary perfusion pressure.",
+          "sub_id": "16b",
+          "topic_title": "Mannequin CPR Skill Demonstration"
+        }
+      ],
+      "topic_title": "Resuscitation and CPR Protocols"
+    },
+    {
+      "fact": "Shivering stops in severe hypothermia, indicating critical failure of autonomic temperature regulation.",
+      "misconception": "Drinking hot coffee or rubbing frostbitten skin rapidly warms hypothermic aquatic casualties.",
+      "pamphlet_excerpts": [
+        "Hypothermia Rewarming Protocol: Remove wet clothing and insulate core body areas with dry warm blankets.",
+        "Dehydration Prevention Discipline: Drink water frequently during aquatic outings to prevent debilitating muscle cramps.",
+        "Heat Exhaustion Recognition: Move pale dizzy victims with clammy skin into cool shaded rest environments.",
+        "Hyperventilation Blackout Hazard: Avoid repeated deep breathing before underwater swims to prevent sudden blackout."
+      ],
+      "pamphlet_summary": "Aquatic activities expose participants to hypothermia, dehydration, severe heat illness, and hazardous marine stings. Prompt recognition, passive rewarming, oral hydration, and avoidance of hyperventilation prevent life threatening emergencies.",
+      "req_id": "17",
+      "safety_callout": "Never allow swimmers to practice breath holding contests or hyperventilation before diving.",
+      "socratic_questions": [
+        "Why does hyperventilation cause sudden underwater blackout without warning suffocation sensations?",
+        "How does cool water induce hypothermia even on warm, sunny summer afternoons?",
+        "What field treatments stabilize a swimmer suffering from severe abdominal muscle cramps?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Hazard Assessment: Identify physical signs of shivering, pale skin, cramping, or severe heat exhaustion.",
+        "Step 2 - Environment Removal: Remove the casualty from cold water, hot sun, or marine sting hazards.",
+        "Step 3 - Supportive Care: Provide dry clothing, shade, electrolyte fluids, or marine sting rinses as appropriate.",
+        "Step 4 - Medical Escalation: Monitor airway stability and transport deteriorating patients to professional emergency facilities."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Aquatic Illness and Injury Management"
+    }
+  ]
+}

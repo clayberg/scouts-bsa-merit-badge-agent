@@ -58,8 +58,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 10, p. 15)",
           "common_misconception_pair": {
-            "misconception": "Being safe means avoiding all outdoor sports, tools, and challenging physical activities.",
-            "fact": "Safety means mixing smart precautions, knowledge, and protective equipment into your favorite activities so you can enjoy them without injury (p. 10)."
+            "misconception": "Being safe requires avoiding all adventurous or physically challenging outdoor pursuits.",
+            "fact": "Safety provides practical boundaries that allow challenging activities to proceed without catastrophic injury.",
+            "myth": "Being safe requires avoiding all adventurous or physically challenging outdoor pursuits.",
+            "fact_correction": "Safety provides practical boundaries that allow challenging activities to proceed without catastrophic injury."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -85,10 +87,10 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Explain what safety is and what it means to be safe.",
-          "topic_title": "Req 1a: Core Principles of Personal Safety",
-          "pamphlet_summary": "For Safety Requirement 1a (Core Principles of Personal Safety): The Safety pamphlet for Requirement 1a details what safety is and what it means to be safe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+          "topic_title": "Req 1a: Core Safety Concept Definitions",
+          "pamphlet_summary": "Safety is an active discipline of anticipating dangers and making deliberate choices to preserve health. Being safe means recognizing personal limitations and maintaining vigilance across all environments.",
           "pamphlet_excerpts": [
-            "Core Principles of Personal Safety: The Safety pamphlet for Requirement 1a details what safety is and what it means to be safe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+            "Safety is an active discipline of anticipating dangers and making deliberate choices to preserve health. Being safe means recognizing personal limitations and maintaining vigilance across all environments."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p003_img1.png",
           "workbook_diagram_caption": "A severely crushed car illustrates the severe consequences of automobile crashes and hazards.",
@@ -129,8 +131,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 10, p. 15)",
           "common_misconception_pair": {
-            "misconception": "A hazard and a risk mean the exact same thing when evaluating an activity.",
-            "fact": "A hazard is a potential source of harm, whereas risk is the likelihood that a hazard will actually cause an injury or loss (p. 15)."
+            "misconception": "Warning labels and verbal caution alone suffice to neutralize environmental hazards.",
+            "fact": "Engineering controls and physical isolation must precede administrative rules and personal protective gear.",
+            "myth": "Warning labels and verbal caution alone suffice to neutralize environmental hazards.",
+            "fact_correction": "Engineering controls and physical isolation must precede administrative rules and personal protective gear."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -156,10 +160,10 @@
           "id": "1b",
           "sub_req_label": "1b",
           "sub_req_text": "Explain what hazards are and how people manage hazards to reduce risks of harm and to improve safety.",
-          "topic_title": "Req 1b: Hazard Identification and Risk Reduction",
-          "pamphlet_summary": "For Safety Requirement 1b (Hazard Identification and Risk Reduction): The Safety pamphlet for Requirement 1b details what hazards are and how people manage hazards to reduce risks of harm and to improve safety, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+          "topic_title": "Req 1b: Systematic Hazard Management Strategies",
+          "pamphlet_summary": "Hazards consist of any biological, chemical, or physical condition capable of inflicting harm on people or property. Managing hazards requires applying standard control hierarchies to reduce vulnerability.",
           "pamphlet_excerpts": [
-            "Hazard Identification and Risk Reduction: The Safety pamphlet for Requirement 1b details what hazards are and how people manage hazards to reduce risks of harm and to improve safety, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+            "Hazards consist of any biological, chemical, or physical condition capable of inflicting harm on people or property. Managing hazards requires applying standard control hierarchies to reduce vulnerability."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p010_img1.png",
           "workbook_diagram_caption": "A severely crushed car illustrates the severe consequences of automobile crashes and hazards.",
@@ -188,11 +192,11 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Understanding Safety and Hazard Management",
+      "topic_title": "Req 1: Fundamental Hazard Assessment Principles",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 1): Complete all Understanding Safety and Hazard Management discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Stop any activity immediately whenever an uncontrolled hazard or unsafe condition appears in the operating area.",
       "pamphlet_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 10, p. 15)",
       "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 10, p. 15)",
       "syllabus_bucket": "In-Class Concept",
@@ -220,8 +224,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Accidents are completely random events of bad luck that cannot be anticipated or prevented.",
-        "fact": "Practicing good safety habits, recognizing hazards early, and using proper protective tools help prevent most accidents before they happen (p. 10)."
+        "misconception": "Safety means eliminating all possible danger from every daily task.",
+        "fact": "Safety is the continuous process of identifying, controlling, and mitigating manageable risks to prevent harm.",
+        "myth": "Safety means eliminating all possible danger from every daily task.",
+        "fact_correction": "Safety is the continuous process of identifying, controlling, and mitigating manageable risks to prevent harm."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -245,28 +251,26 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Realizing Personal Accident Risk: It is not hard to imagine yourself becoming part of the accident statistics (p. 10).",
-        "Everyday News of Accidents: Just read the daily newspaper or watch the news on TV (p. 10).",
-        "Daily Reports of Injury: Not a day goes by without a story about some victim who was hurt or killed in an accident (p. 10).",
-        "Preventing Accidents Through Habits: However, learning good safety habits may help prevent an accident (p. 10)."
+        "Risk Reduction: Systematic controls eliminate potential dangers before operational activities begin in earnest.",
+        "Hazard Definition: Unsafe physical conditions or reckless actions directly create severe injury risks.",
+        "Control Hierarchy: Physical hazard elimination provides significantly higher protection than behavioral personal warnings.",
+        "Situational Readiness: Continuous environmental observation prevents unexpected workplace incidents during troop project work."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Recognize Daily Accident Risks: Not a day goes by without a story about some victim who was hurt or killed in an accident (p. 10).",
-        "Step 2 - Build Strong Safety Habits: However, learning good safety habits may help prevent an accident (p. 10).",
-        "Step 3 - Combine Safety With Activities: Try to mix the following safety ingredients with your favorite activities (p. 10).",
-        "Step 4 - Use Proper Protective Tools: Know when you need to use tools or take actions to help you do an activity more safely (p. 10)."
+        "Step 1 - Area Survey: Scan every physical location to identify existing mechanical and environmental dangers.",
+        "Step 2 - Risk Evaluation: Measure the probability and potential severity of every identified hazard accurately.",
+        "Step 3 - Control Selection: Install physical barriers or implement administrative operating rules before beginning.",
+        "Step 4 - Continuous Monitoring: Reassess the activity site periodically to catch newly emerging hazard conditions."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 1a: Core Principles of Personal Safety",
-        "right_header": "Req 1b: Hazard Identification and Risk Red",
+        "left_header": "Req 1a: Core Safety Concept Definitions",
+        "right_header": "Req 1b: Systematic Hazard Management Strat",
         "left_points": [
-          "(1a) Core Principles of Personal Safety: The Safety pamphlet for Requirement 1a details what safety is and what it means to be safe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
-          "Everyday News of Accidents: Just read the daily newspaper or watch the news on TV (p. 10)."
+          "(1a) Core Safety Concept Definitions: Safety is an active discipline of anticipating dangers and making deliberate choices to preserve health. Being safe means recognizing personal limitations and maintaining vigilance across all environments."
         ],
         "right_points": [
-          "(1b) Hazard Identification and Risk Reduction: The Safety pamphlet for Requirement 1b details what hazards are and how people manage hazards to reduce risks of harm and to improve safety, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
-          "Daily Reports of Injury: Not a day goes by without a story about some victim who was hurt or killed in an accident (p. 10)."
+          "(1b) Systematic Hazard Management Strategies: Hazards consist of any biological, chemical, or physical condition capable of inflicting harm on people or property. Managing hazards requires applying standard control hierarchies to reduce vulnerability."
         ],
         "rows": [
           {
@@ -290,8 +294,8 @@
         "title": "Safety Req 1 Exemplar Workbook Entry: Understanding Safety and Hazard Management",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Core Principles of Personal Safety": "The Safety pamphlet for Requirement 1a details what safety is and what it means to be safe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
-          "Req 1b - Hazard Identification and Risk Red": "The Safety pamphlet for Requirement 1b details what hazards are and how people manage hazards to reduce risks of harm and to improve safety, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+          "Req 1a - Core Safety Concept Definitions": "Safety is an active discipline of anticipating dangers and making deliberate choices to preserve health. Being safe means recognizing personal limitations and maintaining vigilance across all environments.",
+          "Req 1b - Systematic Hazard Management Stra": "Hazards consist of any biological, chemical, or physical condition capable of inflicting harm on people or property. Managing hazards requires applying standard control hierarchies to reduce vulnerability."
         },
         "sample_output": "Understanding Safety and Hazard Management: Not a day goes by without a story about some victim who was hurt or killed in an accident (p. 10).",
         "counselor_tip": "For Safety Requirement 1 (Understanding Safety and Hazard Management), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 10, p. 15))."
@@ -323,7 +327,13 @@
       "workbook_diagram_caption": "Safety diagrams highlight home hazard prevention, fire extinguisher readiness, athletic gear, and outdoor precautions.",
       "number": "1",
       "description": "Safety and Hazards. Do the following: (a) Explain what safety is and what it means to be safe. (b) Explain what hazards are and how people manage hazards to reduce risks of harm and to improve safety.",
-      "workbook_visual_caption": "Safety diagrams highlight home hazard prevention, fire extinguisher readiness, athletic gear, and outdoor precautions."
+      "workbook_visual_caption": "Safety diagrams highlight home hazard prevention, fire extinguisher readiness, athletic gear, and outdoor precautions.",
+      "pamphlet_summary": "Safety represents an active state of operational readiness achieved by identifying conditions capable of causing physical harm. Hazard management relies on systematic elimination, engineering controls, administrative procedures, and personal protective equipment to lower risks.",
+      "socratic_questions": [
+        "What distinguishes an environmental hazard from an unsafe human behavior?",
+        "Why is removing a sharp hazard more effective than wearing protective work gloves?",
+        "How does situational awareness change when moving from a meeting hall to an active construction zone?"
+      ]
     },
     {
       "req_id": "2",
@@ -371,8 +381,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Consumer sparklers and backyard fireworks are harmless for children as long as an adult watches from nearby.",
-            "fact": "Fireworks burn at extremely high temperatures and cause thousands of severe burns, eye injuries, and fires each year, so families should attend public displays handled by professionals instead (p. 51)."
+            "misconception": "Accidental poisoning happens almost exclusively to toddlers who explore low kitchen cabinets.",
+            "fact": "Teenagers and adults frequently suffer accidental poisoning from mislabeled bottles, medication mix-ups, and carbon monoxide leaks.",
+            "myth": "Accidental poisoning happens almost exclusively to toddlers who explore low kitchen cabinets.",
+            "fact_correction": "Teenagers and adults frequently suffer accidental poisoning from mislabeled bottles, medication mix-ups, and carbon monoxide leaks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -398,10 +410,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Explain common causes of and prevention of home injuries.",
-          "topic_title": "Req 2a: Preventing Common Home Injuries",
-          "pamphlet_summary": "For Safety Requirement 2a (Preventing Common Home Injuries): The Safety pamphlet for Requirement 2a details common causes of and prevention of home injuries, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51).",
+          "topic_title": "Req 2a: Common Home Injury Prevention",
+          "pamphlet_summary": "Domestic injuries most frequently stem from ground-level falls, scalding liquids, poisoning, and blunt strikes. Mitigating these risks involves installing grab bars, anchoring top-heavy furniture, and locking chemical storage cabinets.",
           "pamphlet_excerpts": [
-            "Preventing Common Home Injuries: The Safety pamphlet for Requirement 2a details common causes of and prevention of home injuries, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51)."
+            "Domestic injuries most frequently stem from ground-level falls, scalding liquids, poisoning, and blunt strikes. Mitigating these risks involves installing grab bars, anchoring top-heavy furniture, and locking chemical storage cabinets."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p007_img1.png",
           "workbook_diagram_caption": "Firefighters spray heavy water streams onto a burning home to control structural fire damage.",
@@ -446,8 +458,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)",
           "common_misconception_pair": {
-            "misconception": "During a home fire drill, escaping the building is the final step and everyone can wait wherever they exit.",
-            "fact": "Every family member must immediately gather at a single prearranged meeting place outside the home so everyone can be accounted for quickly (p. 51)."
+            "misconception": "Handheld sparklers are harmless novelty toys suitable for unsupervised young children.",
+            "fact": "Sparkler tips burn at temperatures exceeding twelve hundred degrees Fahrenheit, hot enough to melt glass and ignite clothing.",
+            "myth": "Handheld sparklers are harmless novelty toys suitable for unsupervised young children.",
+            "fact_correction": "Sparkler tips burn at temperatures exceeding twelve hundred degrees Fahrenheit, hot enough to melt glass and ignite clothing."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -473,10 +487,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Discuss the dangers involved with the use of fireworks.",
-          "topic_title": "Req 2b: Fireworks Hazards and Dangers",
-          "pamphlet_summary": "For Safety Requirement 2b (Fireworks Hazards and Dangers): The Safety pamphlet for Requirement 2b details the dangers involved with the use of fireworks, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51).",
+          "topic_title": "Req 2b: Consumer Fireworks Hazard Awareness",
+          "pamphlet_summary": "Fireworks unleash uncontrolled thermal energy, kinetic blast fragments, and toxic smoke clouds. Professional pyrotechnic displays offer safe entertainment while backyard fireworks cause thousands of emergency room visits annually.",
           "pamphlet_excerpts": [
-            "Fireworks Hazards and Dangers: The Safety pamphlet for Requirement 2b details the dangers involved with the use of fireworks, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51)."
+            "Fireworks unleash uncontrolled thermal energy, kinetic blast fragments, and toxic smoke clouds. Professional pyrotechnic displays offer safe entertainment while backyard fireworks cause thousands of emergency room visits annually."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p049_img1.png",
           "workbook_diagram_caption": "Firefighters spray heavy water streams onto a burning home to control structural fire damage.",
@@ -517,8 +531,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Drawing a floor plan with one exit route per bedroom is sufficient for a home fire escape plan.",
-            "fact": "A complete home fire escape plan requires knowing two ways out of every room in case the primary doorway or hallway is blocked by smoke or flames (p. 51)."
+            "misconception": "Electrical circuit breakers eliminate all possibility of internal wall wiring overheating and igniting.",
+            "fact": "Damaged insulation, loose terminal lugs, and undersized extension cords ignite combustible wall framing without tripping breakers.",
+            "myth": "Electrical circuit breakers eliminate all possibility of internal wall wiring overheating and igniting.",
+            "fact_correction": "Damaged insulation, loose terminal lugs, and undersized extension cords ignite combustible wall framing without tripping breakers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -544,10 +560,10 @@
           "id": "2c",
           "sub_req_label": "2c",
           "sub_req_text": "Explain common causes of and prevention of home fires.",
-          "topic_title": "Req 2c: Residential Fire Causes and Prevention",
-          "pamphlet_summary": "For Safety Requirement 2c (Residential Fire Causes and Prevention): The Safety pamphlet for Requirement 2c details common causes of and prevention of home fires, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51).",
+          "topic_title": "Req 2c: Residential Fire Ignition Controls",
+          "pamphlet_summary": "Unattended cooking equipment, overloaded electrical outlets, and uncleaned dryer lint traps represent leading domestic fire causes. Routine maintenance of heating chimneys and vigilant candle supervision drastically reduce accidental structure fires.",
           "pamphlet_excerpts": [
-            "Residential Fire Causes and Prevention: The Safety pamphlet for Requirement 2c details common causes of and prevention of home fires, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51)."
+            "Unattended cooking equipment, overloaded electrical outlets, and uncleaned dryer lint traps represent leading domestic fire causes. Routine maintenance of heating chimneys and vigilant candle supervision drastically reduce accidental structure fires."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p049_img1.png",
           "workbook_diagram_caption": "Firefighters spray heavy water streams onto a burning home to control structural fire damage.",
@@ -590,8 +606,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)",
           "common_misconception_pair": {
-            "misconception": "During Safety Requirement 2d, Scouts can underestimate how directly mastery of home safety checklist inspection depends on understanding using the home safety checklist in the safety merit badge pamphlet, or one approved by your counselor.",
-            "fact": "Scouting America standards for Safety Requirement 2d require complete workbook entries on home safety checklist inspection to demonstrate full understanding of using the home safety checklist in the safety merit badge pamphlet, or one approved by your counselor."
+            "misconception": "A passing inspection conducted three years ago guarantees current home safety standards.",
+            "fact": "Regular quarterly checklist audits catch degraded equipment, expired fire extinguishers, and new clutter before accidents happen.",
+            "myth": "A passing inspection conducted three years ago guarantees current home safety standards.",
+            "fact_correction": "Regular quarterly checklist audits catch degraded equipment, expired fire extinguishers, and new clutter before accidents happen."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -622,10 +640,10 @@
           "id": "2d",
           "sub_req_label": "2d",
           "sub_req_text": "Using the Home Safety Checklist in the Safety merit badge pamphlet, or one approved by your counselor, inspect your home or a similar building for hazards with an adult. Review your checklist and findings with your counselor.",
-          "topic_title": "Req 2d: Home Safety Checklist Inspection",
-          "pamphlet_summary": "Home Safety Checklist Inspection: For safety tips about holiday decorations, seethe Fire Safety merit badge pamphlet (p. 51).",
+          "topic_title": "Req 2d: Domestic Checklist Safety Inspection",
+          "pamphlet_summary": "Conducting an audit of domestic living spaces uncovers hidden slip hazards, non-working alarms, and blocked pathways. Recording structural deficiencies on an approved checklist enables homeowners to prioritize immediate corrective repairs.",
           "pamphlet_excerpts": [
-            "Home Safety Checklist Inspection: For safety tips about holiday decorations, seethe Fire Safety merit badge pamphlet (p. 51)."
+            "Conducting an audit of domestic living spaces uncovers hidden slip hazards, non-working alarms, and blocked pathways. Recording structural deficiencies on an approved checklist enables homeowners to prioritize immediate corrective repairs."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p049_img1.png",
           "title": "Req 2d: Home Safety Checklist Inspection",
@@ -677,10 +695,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Home Fire Escape Planning (Req 2e) or confusing Home Fire Escape Planning with general Family and Home Safety Planning procedures.",
-            "fact": "For Requirement 2e (Home Fire Escape Planning), As part of the drill, family members should gather at the meeting place outside the home, as specified in the family plan (p. 51).",
-            "myth": "Overlooking the specific field checks required for Home Fire Escape Planning (Req 2e) or confusing Home Fire Escape Planning with general Family and Home Safety Planning procedures.",
-            "fact_correction": "For Requirement 2e (Home Fire Escape Planning), As part of the drill, family members should gather at the meeting place outside the home, as specified in the family plan (p. 51)."
+            "misconception": "Household members will easily regroup near the front porch during midnight smoky evacuations.",
+            "fact": "Escape paths must lead to a fixed outdoor meeting location well away from responding fire department apparatus.",
+            "myth": "Household members will easily regroup near the front porch during midnight smoky evacuations.",
+            "fact_correction": "Escape paths must lead to a fixed outdoor meeting location well away from responding fire department apparatus."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -706,10 +724,10 @@
           "id": "2e",
           "sub_req_label": "2e",
           "sub_req_text": "Develop a fire-escape plan for your home or for a similar building. Include in your drawings exit routes from each room and a meeting place outside. Conduct a fire-escape drill. Review your plan and your drill with your counselor.",
-          "topic_title": "Req 2e: Home Fire Escape Planning",
-          "pamphlet_summary": "Home Fire Escape Planning: As part of the drill, family members should gather at the meeting place outside the home, as specified in the family plan (p. 51).",
+          "topic_title": "Req 2e: Residential Emergency Fire Evacuation",
+          "pamphlet_summary": "A reliable fire escape blueprint plots two unobstructed egress passages out of each living area toward an exterior assembly landmark. Conducting practical timed escape drills ensures every household member reacts instinctively without panic.",
           "pamphlet_excerpts": [
-            "Home Fire Escape Planning: As part of the drill, family members should gather at the meeting place outside the home, as specified in the family plan (p. 51)."
+            "A reliable fire escape blueprint plots two unobstructed egress passages out of each living area toward an exterior assembly landmark. Conducting practical timed escape drills ensures every household member reacts instinctively without panic."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p049_img1.png",
           "workbook_diagram_caption": "Firefighters spray heavy water streams onto a burning home to control structural fire damage.",
@@ -766,8 +784,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)",
           "common_misconception_pair": {
-            "misconception": "When preparing Safety Requirement 2f (Req 2f Family Disaster Evacuation Plan), Scouts sometimes overlook the specific details needed to develop a family emergency action plan for evacuation because of weather.",
-            "fact": "Counselor verification for Safety Requirement 2f requires concrete workbook evidence covering req 2f family disaster evacuation plan and a clear explanation of how to develop a family emergency action plan for evacuation because of weather."
+            "misconception": "Cellular phone networks will remain operational for local voice calls throughout catastrophic natural disasters.",
+            "fact": "Local towers quickly become congested or damaged, making out-of-state text messaging the only viable family communication method.",
+            "myth": "Cellular phone networks will remain operational for local voice calls throughout catastrophic natural disasters.",
+            "fact_correction": "Local towers quickly become congested or damaged, making out-of-state text messaging the only viable family communication method."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -798,10 +818,10 @@
           "id": "2f",
           "sub_req_label": "2f",
           "sub_req_text": "Develop a family emergency action plan for evacuation because of weather or other natural disasters that occur in your area. Using a checklist in the Safety merit badge pamphlet or one approved by your counselor, assemble or inspect an emergency supplies kit. Explain to your counselor how a family would use the plan and the kit supplies in an emergency.",
-          "topic_title": "Req 2f: Family Disaster Evacuation Plan",
-          "pamphlet_summary": "For Safety Requirement 2f (Family Disaster Evacuation Plan): The Safety pamphlet for Requirement 2f details develop a family emergency action plan for evacuation because of weather or other natural disasters that occur in your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51).",
+          "topic_title": "Req 2f: Natural Disaster Family Planning",
+          "pamphlet_summary": "Severe weather events require robust evacuation plans tailored to regional threats like floods, tornadoes, or wildfires. Packing portable survival kits and designating out-of-town emergency contacts establishes household resilience during prolonged municipal infrastructure failures.",
           "pamphlet_excerpts": [
-            "Family Disaster Evacuation Plan: The Safety pamphlet for Requirement 2f details develop a family emergency action plan for evacuation because of weather or other natural disasters that occur in your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51)."
+            "Severe weather events require robust evacuation plans tailored to regional threats like floods, tornadoes, or wildfires. Packing portable survival kits and designating out-of-town emergency contacts establishes household resilience during prolonged municipal infrastructure failures."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p049_img1.png",
           "workbook_diagram_caption": "Firefighters spray heavy water streams onto a burning home to control structural fire damage.",
@@ -866,11 +886,11 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 2: Family and Home Safety Planning",
+      "topic_title": "Req 2: Residential Hazard Mitigation Systems",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Family and Home Safety Planning discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Never re-enter a burning structure under any circumstances once you have evacuated to the designated assembly point.",
       "pamphlet_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)",
       "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)",
       "syllabus_bucket": "In-Class Concept",
@@ -906,8 +926,10 @@
         "min_rows": 6
       },
       "common_misconception_pair": {
-        "misconception": "Faulty electrical wiring and space heaters are the number one cause of residential home fires.",
-        "fact": "Cooking is the number one cause of residential fires, making kitchen vigilance essential for home fire prevention (p. 51)."
+        "misconception": "Residential fires allow ample time to gather personal valuables before exiting.",
+        "fact": "Flashover and toxic gas accumulation can incapacitate occupants in less than two minutes.",
+        "myth": "Residential fires allow ample time to gather personal valuables before exiting.",
+        "fact_correction": "Flashover and toxic gas accumulation can incapacitate occupants in less than two minutes."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -936,16 +958,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Seasonal and Holiday Fires: Fires occur frequently during the holidays and times of seasonal changes (p. 51).",
-        "Holiday Decoration Fire Guidance: For safety tips about holiday decorations, seethe Fire Safety merit badge pamphlet (p. 51).",
-        "Outdoor Family Meeting Place: As part of the drill, family members should gather at the meeting place outside the home, as specified in the family plan (p. 51).",
-        "Emergency Bedding Escape Aid: If time allows, bedding can be used in an emergency to aid an escape (by tying sheets together to make a rope) or cushion a fall (p. 51)."
+        "Fall Prevention: Secure stairway handrails and remove floor clutter to prevent falls.",
+        "Firework Hazards: Consumer pyrotechnics cause catastrophic hand burns and permanent eyesight destruction.",
+        "Smoke Alarms: Test battery operated smoke detectors monthly to ensure reliable operational capability.",
+        "Evacuation Routes: Identify two distinct emergency exit passageways from every residential bedroom."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Gather at Outdoor Meeting: As part of the drill, family members should gather at the meeting place outside the home, as specified in the family plan (p. 51).",
-        "Step 2 - Use Bedding for Escape: If time allows, bedding can be used in an emergency to aid an escape (by tying sheets together to make a rope) or cushion a fall (p. 51).",
-        "Step 3 - Prioritize Life Over Injury: If you must jump to save your life, realize that you can recover from broken bones (p. 51).",
-        "Step 4 - Monitor All Cooking Equipment: Cooking is the number one cause of residential fires (p. 51)."
+        "Step 1 - Walkthrough Inspection: Traverse every room with an adult family member using the checklist.",
+        "Step 2 - Fire Plan: Draw structural escape diagrams showing primary and secondary doors or windows.",
+        "Step 3 - Drill Execution: Practice exiting the building rapidly during a timed home fire simulation.",
+        "Step 4 - Kit Assembly: Assemble essential emergency disaster rations, water, and specialized communication equipment."
       ],
       "gear_checklist": [
         "Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)",
@@ -954,17 +976,17 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad"
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Preventing Common Home Injuries",
-        "right_header": "Req 2d: Home Safety Checklist Inspection",
+        "left_header": "Req 2a: Common Home Injury Prevention",
+        "right_header": "Req 2d: Domestic Checklist Safety Inspecti",
         "left_points": [
-          "(2a) Preventing Common Home Injuries: The Safety pamphlet for Requirement 2a details common causes of and prevention of home injuries, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51).",
-          "(2b) Fireworks Hazards and Dangers: The Safety pamphlet for Requirement 2b details the dangers involved with the use of fireworks, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51).",
-          "(2c) Residential Fire Causes and Prevention: The Safety pamphlet for Requirement 2c details common causes of and prevention of home fires, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51)."
+          "(2a) Common Home Injury Prevention: Domestic injuries most frequently stem from ground-level falls, scalding liquids, poisoning, and blunt strikes. Mitigating these risks involves installing grab bars, anchoring top-heavy furniture, and locking chemical storage cabinets.",
+          "(2b) Consumer Fireworks Hazard Awareness: Fireworks unleash uncontrolled thermal energy, kinetic blast fragments, and toxic smoke clouds. Professional pyrotechnic displays offer safe entertainment while backyard fireworks cause thousands of emergency room visits annually.",
+          "(2c) Residential Fire Ignition Controls: Unattended cooking equipment, overloaded electrical outlets, and uncleaned dryer lint traps represent leading domestic fire causes. Routine maintenance of heating chimneys and vigilant candle supervision drastically reduce accidental structure fires."
         ],
         "right_points": [
-          "(2d) Home Safety Checklist Inspection: For safety tips about holiday decorations, seethe Fire Safety merit badge pamphlet (p. 51).",
-          "(2e) Home Fire Escape Planning: As part of the drill, family members should gather at the meeting place outside the home, as specified in the family plan (p. 51).",
-          "(2f) Family Disaster Evacuation Plan: The Safety pamphlet for Requirement 2f details develop a family emergency action plan for evacuation because of weather or other natural disasters that occur in your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51)."
+          "(2d) Domestic Checklist Safety Inspection: Conducting an audit of domestic living spaces uncovers hidden slip hazards, non-working alarms, and blocked pathways. Recording structural deficiencies on an approved checklist enables homeowners to prioritize immediate corrective repairs.",
+          "(2e) Residential Emergency Fire Evacuation: A reliable fire escape blueprint plots two unobstructed egress passages out of each living area toward an exterior assembly landmark. Conducting practical timed escape drills ensures every household member reacts instinctively without panic.",
+          "(2f) Natural Disaster Family Planning: Severe weather events require robust evacuation plans tailored to regional threats like floods, tornadoes, or wildfires. Packing portable survival kits and designating out-of-town emergency contacts establishes household resilience during prolonged municipal infrastructure failures."
         ],
         "rows": [
           {
@@ -988,10 +1010,10 @@
         "title": "Safety Req 2 Exemplar Workbook Entry: Family and Home Safety Planning",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a (Preventing Common Home Injuries)": "The Safety pamphlet for Requirement 2a details common causes of and prevention of home injuries, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51).",
-          "Req 2b (Fireworks Hazards and Dangers)": "The Safety pamphlet for Requirement 2b details the dangers involved with the use of fireworks, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51).",
-          "Req 2c - Residential Fire Causes and Preven": "The Safety pamphlet for Requirement 2c details common causes of and prevention of home fires, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 51).",
-          "Req 2d (Home Safety Checklist Inspection)": "For safety tips about holiday decorations, seethe Fire Safety merit badge pamphlet (p. 51)."
+          "Req 2a - Common Home Injury Prevention": "Domestic injuries most frequently stem from ground-level falls, scalding liquids, poisoning, and blunt strikes. Mitigating these risks involves installing grab bars, anchoring top-heavy furniture, and locking chemical storage cabinets.",
+          "Req 2b - Consumer Fireworks Hazard Awarene": "Fireworks unleash uncontrolled thermal energy, kinetic blast fragments, and toxic smoke clouds. Professional pyrotechnic displays offer safe entertainment while backyard fireworks cause thousands of emergency room visits annually.",
+          "Req 2c - Residential Fire Ignition Control": "Unattended cooking equipment, overloaded electrical outlets, and uncleaned dryer lint traps represent leading domestic fire causes. Routine maintenance of heating chimneys and vigilant candle supervision drastically reduce accidental structure fires.",
+          "Req 2d - Domestic Checklist Safety Inspect": "Conducting an audit of domestic living spaces uncovers hidden slip hazards, non-working alarms, and blocked pathways. Recording structural deficiencies on an approved checklist enables homeowners to prioritize immediate corrective repairs."
         },
         "sample_output": "Family and Home Safety Planning: If time allows, bedding can be used in an emergency to aid an escape (by tying sheets together to make a rope) or cushion a fall (p. 51).",
         "counselor_tip": "For Safety Requirement 2 (Family and Home Safety Planning), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52))."
@@ -1023,7 +1045,13 @@
       "workbook_diagram_caption": "Uniformed Scouts and family members examine emergency preparedness supplies outside a residential cabin front porch.",
       "number": "2",
       "description": "Family and Home Safety. Do the following: (a) Explain common causes of and prevention of home injuries. (b) Discuss the dangers involved with the use of fireworks. (c) Explain common causes of and prevention of home fires. (d) Using the Home Safety Checklist in the Safety merit badge pamphlet, or one approved by your counselor, inspect your home or a similar building for hazards with an adult. Review your checklist and findings with your counselor. (e) Develop a fire-escape plan for your home or for a similar building. Include in your drawings exit routes from each room and a meeting place outside. Conduct a fire-escape drill. Review your plan and your drill with your counselor. (f) Develop a family emergency action plan for evacuation because of weather or other natural disasters that occur in your area. Using a checklist in the Safety merit badge pamphlet or one approved by your counselor, assemble or inspect an emergency supplies kit. Explain to your counselor how a family would use the plan and the kit supplies in an emergency.",
-      "workbook_visual_caption": "Uniformed Scouts and family members examine emergency preparedness supplies outside a residential cabin front porch."
+      "workbook_visual_caption": "Uniformed Scouts and family members examine emergency preparedness supplies outside a residential cabin front porch.",
+      "pamphlet_summary": "Home safety requires systematic evaluation of structural spaces, heating appliances, electrical circuits, and storage practices. Establishing functional escape plans and natural disaster protocols protects household residents against preventable domestic tragedies.",
+      "socratic_questions": [
+        "Why do kitchen cooking grease fires react violently when water is poured onto them?",
+        "How does maintaining two clear exit routes per room protect trapped occupants during house fires?",
+        "What geographic factors determine whether a household prepares primarily for hurricanes, tornadoes, or winter freezes?"
+      ]
     },
     {
       "req_id": "3",
@@ -1071,8 +1099,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 22, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Security latches and lock hardware can be mounted with exposed screws on the outside of a door frame without reducing security.",
-            "fact": "Hardware on home security devices must be accessible from inside the house only so intruders cannot unscrew or tamper with it from outside (p. 22)."
+            "misconception": "Teenagers are targeted exclusively by adult strangers rather than acquaintances or peers.",
+            "fact": "Most crimes affecting teenagers, including physical assaults and personal thefts, involve acquaintances, classmates, or neighborhood peers.",
+            "myth": "Teenagers are targeted exclusively by adult strangers rather than acquaintances or peers.",
+            "fact_correction": "Most crimes affecting teenagers, including physical assaults and personal thefts, involve acquaintances, classmates, or neighborhood peers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1098,10 +1128,10 @@
           "id": "3a",
           "sub_req_label": "3a",
           "sub_req_text": "Explain common types of crimes that can affect teens.",
-          "topic_title": "Req 3a: Crimes Affecting Teenagers Today",
-          "pamphlet_summary": "For Safety Requirement 3a (Crimes Affecting Teenagers Today): The Safety pamphlet for Requirement 3a details common types of crimes that can affect teens, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
+          "topic_title": "Req 3a: Youth Crime Risk Dynamics",
+          "pamphlet_summary": "Teens are disproportionately exposed to theft, physical bullying, cyber-extortion, and predatory street crimes. Recognizing targeted exploitation methods empowers adolescents to avoid hazardous environments and retain personal safety.",
           "pamphlet_excerpts": [
-            "Crimes Affecting Teenagers Today: The Safety pamphlet for Requirement 3a details common types of crimes that can affect teens, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+            "Teens are disproportionately exposed to theft, physical bullying, cyber-extortion, and predatory street crimes. Recognizing targeted exploitation methods empowers adolescents to avoid hazardous environments and retain personal safety."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p012_img1.png",
           "workbook_diagram_caption": "A boy stands on a step stool to test a ceiling smoke detector during a home safety inspection.",
@@ -1144,8 +1174,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 22, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Teenagers are rarely targeted by property crimes or personal theft compared to older adults.",
-            "fact": "Teens frequently experience theft, vandalism, and personal crimes at school, in public areas, and online when valuables or personal details are left unsecured (p. 40)."
+            "misconception": "Standard interior spring latch door locks offer adequate protection against forced home entry.",
+            "fact": "Spring latches can be bypassed in seconds using simple hand tools unless backed by a heavy-duty deadbolt.",
+            "myth": "Standard interior spring latch door locks offer adequate protection against forced home entry.",
+            "fact_correction": "Spring latches can be bypassed in seconds using simple hand tools unless backed by a heavy-duty deadbolt."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1176,10 +1208,10 @@
           "id": "3b",
           "sub_req_label": "3b",
           "sub_req_text": "Using a Home Security Checklist in the Safety merit badge pamphlet or one approved by your counselor, inspect your home or a similar building for crime security measures with an adult. Review your checklist and findings with your counselor.",
-          "topic_title": "Req 3b: Home Security Checklist Inspection",
-          "pamphlet_summary": "Home Security Checklist Inspection: Hardware on these home security devices should be accessible from inside the house (p. 22).",
+          "topic_title": "Req 3b: Physical Residential Security Assessment",
+          "pamphlet_summary": "A systematic home security assessment inspects entry doors, ground-floor windows, garage access points, and exterior illumination. Documenting hardware weaknesses alongside an adult allows families to install strike plate reinforcement and tamper-resistant latches.",
           "pamphlet_excerpts": [
-            "Home Security Checklist Inspection: Hardware on these home security devices should be accessible from inside the house (p. 22)."
+            "A systematic home security assessment inspects entry doors, ground-floor windows, garage access points, and exterior illumination. Documenting hardware weaknesses alongside an adult allows families to install strike plate reinforcement and tamper-resistant latches."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p021_img1.png",
           "title": "Req 3b: Home Security Checklist Inspection",
@@ -1209,11 +1241,11 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Crime Prevention and Home Security",
+      "topic_title": "Req 3: Community Crime Prevention Protocols",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 3): Complete all Crime Prevention and Home Security discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Never confront an active intruder or burglar in your home; retreat to a lockable room and dial emergency dispatch immediately.",
       "pamphlet_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 22, p. 40)",
       "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 22, p. 40)",
       "syllabus_bucket": "In-Class Concept",
@@ -1241,8 +1273,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Improving home security and safety requires expensive structural remodeling and complex alarm systems.",
-        "fact": "Fixing safety and security issues does not mean rebuilding your home; simple habits like locking doors, securing interior lock hardware, and good housekeeping make a major difference (p. 22)."
+        "misconception": "Having a barking dog or decorative yard alarm sign eliminates the need for deadbolts.",
+        "fact": "Physical hardening through quality deadbolts and reinforced strike plates provides the primary physical barrier against burglars.",
+        "myth": "Having a barking dog or decorative yard alarm sign eliminates the need for deadbolts.",
+        "fact_correction": "Physical hardening through quality deadbolts and reinforced strike plates provides the primary physical barrier against burglars."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1271,16 +1305,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Interior Accessible Lock Hardware: Hardware on these home security devices should be accessible from inside the house (p. 22).",
-        "Fixing Household Safety Dangers: Be aware of the dangers in your home and take steps to fix these problems to keep your home safe (p. 22).",
-        "Household Accident Fatality Risks: Only motor vehicle accidents cause more deaths than accidents at home, such as falling downstairs (p. 22).",
-        "Practical Home Safety Fixes: Fixing problems does not mean rebuilding your home to make it safe (p. 22)."
+        "Entry Security: Install heavy deadbolt locks on exterior doors to deter forced entry.",
+        "Landscape Pruning: Trim bushes near ground windows to remove concealment opportunities for intruders.",
+        "Perimeter Lighting: Mount motion sensor floodlights to illuminate vulnerable residential yard access ways.",
+        "Theft Deterrence: Keep personal electronics and expensive gear concealed while walking in public."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Check Stairway Fall Hazards: Only motor vehicle accidents cause more deaths than accidents at home, such as falling downstairs (p. 22).",
-        "Step 2 - Make Simple Home Repairs: Fixing problems does not mean rebuilding your home to make it safe (p. 22).",
-        "Step 3 - Practice Good Housekeeping Daily: Safety can be as simple as good housekeeping and getting rid of hazardous items (p. 22).",
-        "Step 4 - Inspect Home for Hazards: Take a close look at the things you can do to help prevent personal home accidents (p. 22)."
+        "Step 1 - Perimeter Scan: Walk the home exterior to locate unlit areas and fragile entryways.",
+        "Step 2 - Hardware Check: Test door deadbolts and window sash latches for firm mechanical engagement.",
+        "Step 3 - Security Audit: Fill out the security checklist documenting every vulnerable lock or opening.",
+        "Step 4 - Remediate Vulnerabilities: Install supplemental window pins, trim concealing shrubbery, and replace weak screws."
       ],
       "gear_checklist": [
         "Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)",
@@ -1289,15 +1323,13 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad"
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Crimes Affecting Teenagers Today",
-        "right_header": "Req 3b: Home Security Checklist Inspection",
+        "left_header": "Req 3a: Youth Crime Risk Dynamics",
+        "right_header": "Req 3b: Physical Residential Security Asse",
         "left_points": [
-          "(3a) Crimes Affecting Teenagers Today: The Safety pamphlet for Requirement 3a details common types of crimes that can affect teens, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
-          "Fixing Household Safety Dangers: Be aware of the dangers in your home and take steps to fix these problems to keep your home safe (p. 22)."
+          "(3a) Youth Crime Risk Dynamics: Teens are disproportionately exposed to theft, physical bullying, cyber-extortion, and predatory street crimes. Recognizing targeted exploitation methods empowers adolescents to avoid hazardous environments and retain personal safety."
         ],
         "right_points": [
-          "(3b) Home Security Checklist Inspection: Hardware on these home security devices should be accessible from inside the house (p. 22).",
-          "Household Accident Fatality Risks: Only motor vehicle accidents cause more deaths than accidents at home, such as falling downstairs (p. 22)."
+          "(3b) Physical Residential Security Assessment: A systematic home security assessment inspects entry doors, ground-floor windows, garage access points, and exterior illumination. Documenting hardware weaknesses alongside an adult allows families to install strike plate reinforcement and tamper-resistant latches."
         ],
         "rows": [
           {
@@ -1321,8 +1353,8 @@
         "title": "Safety Req 3 Exemplar Workbook Entry: Crime Prevention and Home Security",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a (Crimes Affecting Teenagers Today)": "The Safety pamphlet for Requirement 3a details common types of crimes that can affect teens, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
-          "Req 3b - Home Security Checklist Inspection": "Hardware on these home security devices should be accessible from inside the house (p. 22)."
+          "Req 3a - Youth Crime Risk Dynamics": "Teens are disproportionately exposed to theft, physical bullying, cyber-extortion, and predatory street crimes. Recognizing targeted exploitation methods empowers adolescents to avoid hazardous environments and retain personal safety.",
+          "Req 3b - Physical Residential Security Ass": "A systematic home security assessment inspects entry doors, ground-floor windows, garage access points, and exterior illumination. Documenting hardware weaknesses alongside an adult allows families to install strike plate reinforcement and tamper-resistant latches."
         },
         "sample_output": "Crime Prevention and Home Security: Hardware on these home security devices should be accessible from inside the house (p. 22).",
         "counselor_tip": "For Safety Requirement 3 (Crime Prevention and Home Security), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 22, p. 40))."
@@ -1354,7 +1386,13 @@
       "workbook_diagram_caption": "A Scout and counselor inspect kitchen cabinet chemical storage and smoke detectors during a home safety survey.",
       "number": "3",
       "description": "Safety from Crime. Do the following: (a) Explain common types of crimes that can affect teens. (b) Using a Home Security Checklist in the Safety merit badge pamphlet or one approved by your counselor, inspect your home or a similar building for crime security measures with an adult. Review your checklist and findings with your counselor.",
-      "workbook_visual_caption": "A Scout and counselor inspect kitchen cabinet chemical storage and smoke detectors during a home safety survey."
+      "workbook_visual_caption": "A Scout and counselor inspect kitchen cabinet chemical storage and smoke detectors during a home safety survey.",
+      "pamphlet_summary": "Protecting personal property and physical wellbeing requires understanding criminal tactics and maintaining solid structural barriers. Performing a physical property audit reveals vulnerable access points, defective locking mechanisms, and illumination blind spots.",
+      "socratic_questions": [
+        "How does environmental design, such as street visibility and lighting, deter opportunistic property crime?",
+        "What behavioral habits make teenagers particularly vulnerable targets for street robbery or pickpocketing?",
+        "Why are deadbolt throw bolts required to penetrate at least one full inch into the door jamb?"
+      ]
     },
     {
       "req_id": "4",
@@ -1402,8 +1440,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
-            "misconception": "When checking into a hotel or entering a stadium, you can wait until an alarm sounds to look for the nearest exit.",
-            "fact": "You should locate emergency exits and stairwells as soon as you enter any hotel, stadium, or public building, and never use elevators during a fire (p. 63)."
+            "misconception": "Elevators provide the fastest evacuation route from upper floors of a burning hotel.",
+            "fact": "Elevators can lose electrical power, fill with smoke, or open directly onto burning floors.",
+            "myth": "Elevators provide the fastest evacuation route from upper floors of a burning hotel.",
+            "fact_correction": "Elevators can lose electrical power, fill with smoke, or open directly onto burning floors."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1429,10 +1469,10 @@
           "id": "4a",
           "sub_req_label": "4a",
           "sub_req_text": "How a person would safely exit from public buildings, a hotel, and a stadium in an emergency.",
-          "topic_title": "Req 4a: Exiting Public Buildings in Emergencies",
-          "pamphlet_summary": "For Safety Requirement 4a (Exiting Public Buildings in Emergencies): The Safety pamphlet for Requirement 4a details how a person would safely exit from public buildings, a hotel, and a stadium in an emergency, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63).",
+          "topic_title": "Req 4a: Public Facility Emergency Egress",
+          "pamphlet_summary": "Exiting public arenas, high-rise hotels, and sprawling stadiums requires avoiding stalled elevators and tracking illuminated emergency signs. Counting doors along hotel hallways allows individuals to navigate smoke-filled corridors to fire exits in complete darkness.",
           "pamphlet_excerpts": [
-            "Exiting Public Buildings in Emergencies: The Safety pamphlet for Requirement 4a details how a person would safely exit from public buildings, a hotel, and a stadium in an emergency, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63)."
+            "Exiting public arenas, high-rise hotels, and sprawling stadiums requires avoiding stalled elevators and tracking illuminated emergency signs. Counting doors along hotel hallways allows individuals to navigate smoke-filled corridors to fire exits in complete darkness."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p064_img1.png",
           "title": "Req 4a: Exiting Public Buildings in Emergencies",
@@ -1478,8 +1518,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
-            "misconception": "A canvas or nylon campsite tent provides adequate protection from lightning and falling limbs during a severe thunderstorm.",
-            "fact": "Tents offer zero protection from lightning or falling trees, so Scouts must move to a substantial building or hard-topped vehicle when severe weather approaches (p. 63)."
+            "misconception": "Gathering beneath a tall, isolated tree provides adequate shelter from driving rain and lightning.",
+            "fact": "Tall solitary trees attract direct ground strikes and transmit fatal side-flash electrical currents to nearby individuals.",
+            "myth": "Gathering beneath a tall, isolated tree provides adequate shelter from driving rain and lightning.",
+            "fact_correction": "Tall solitary trees attract direct ground strikes and transmit fatal side-flash electrical currents to nearby individuals."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1505,10 +1547,10 @@
           "id": "4b",
           "sub_req_label": "4b",
           "sub_req_text": "How and why Scouts would take shelter at camp.",
-          "topic_title": "Req 4b: Taking Shelter at Camp",
-          "pamphlet_summary": "For Safety Requirement 4b (Taking Shelter at Camp): The Safety pamphlet for Requirement 4b details how and why Scouts would take shelter at camp, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63).",
+          "topic_title": "Req 4b: Outdoor Camp Shelter Protocols",
+          "pamphlet_summary": "Camp environments expose Scouts to high winds, falling tree limbs, flash flooding, and lightning strikes. Leaders must direct patrols into designated hardened storm structures or low-lying ravines well before squall lines make impact.",
           "pamphlet_excerpts": [
-            "Taking Shelter at Camp: The Safety pamphlet for Requirement 4b details how and why Scouts would take shelter at camp, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63)."
+            "Camp environments expose Scouts to high winds, falling tree limbs, flash flooding, and lightning strikes. Leaders must direct patrols into designated hardened storm structures or low-lying ravines well before squall lines make impact."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p064_img1.png",
           "workbook_diagram_caption": "A crowded lake swimming area requires lifeguard supervision and clear emergency exit routes.",
@@ -1549,8 +1591,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
-            "misconception": "The slogan 'If You See Something, Say Something' means citizens should confront suspicious individuals themselves.",
-            "fact": "The slogan reminds the public to observe warning signs of potential threats and immediately report suspicious packages or behaviors to law enforcement or authorities (p. 65)."
+            "misconception": "Playing dead in an open corridor is a safe and reliable defensive tactic.",
+            "fact": "Active shooters frequently continue firing at prone individuals; escaping or barricading behind reinforced doors provides vastly higher survival odds.",
+            "myth": "Playing dead in an open corridor is a safe and reliable defensive tactic.",
+            "fact_correction": "Active shooters frequently continue firing at prone individuals; escaping or barricading behind reinforced doors provides vastly higher survival odds."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1576,10 +1620,10 @@
           "id": "4c",
           "sub_req_label": "4c",
           "sub_req_text": "How should Scouts respond to an active shooter.",
-          "topic_title": "Req 4c: Responding to Active Shooter Threats",
-          "pamphlet_summary": "For Safety Requirement 4c (Responding to Active Shooter Threats): The Safety pamphlet for Requirement 4c details how should Scouts respond to an active shooter, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63).",
+          "topic_title": "Req 4c: Active Threat Survival Tactics",
+          "pamphlet_summary": "The Run, Hide, Fight protocol defines the universal civilian response doctrine against active violence in public spaces. Escaping the immediate hazard zone takes precedence, followed by locking and barricading interior rooms when flight is impossible.",
           "pamphlet_excerpts": [
-            "Responding to Active Shooter Threats: The Safety pamphlet for Requirement 4c details how should Scouts respond to an active shooter, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63)."
+            "The Run, Hide, Fight protocol defines the universal civilian response doctrine against active violence in public spaces. Escaping the immediate hazard zone takes precedence, followed by locking and barricading interior rooms when flight is impossible."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p064_img1.png",
           "title": "Req 4c: Responding to Active Shooter Threats",
@@ -1621,8 +1665,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
-            "misconception": "During Safety Requirement 4d, Scouts can underestimate how directly mastery of reporting suspicious public activity depends on understanding the meaning of this saying, \"if you see something, say something®.",
-            "fact": "Scouting America standards for Safety Requirement 4d require complete workbook entries on reporting suspicious public activity to demonstrate full understanding of the meaning of this saying, \"if you see something, say something®."
+            "misconception": "Reporting suspicious activity requires confronting the suspected individual directly to investigate their intentions.",
+            "fact": "Civilians must never engage suspects directly; they should record descriptive physical details and report them to professional law enforcement.",
+            "myth": "Reporting suspicious activity requires confronting the suspected individual directly to investigate their intentions.",
+            "fact_correction": "Civilians must never engage suspects directly; they should record descriptive physical details and report them to professional law enforcement."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1648,10 +1694,10 @@
           "id": "4d",
           "sub_req_label": "4d",
           "sub_req_text": "The meaning of this saying: \"If You See Something, Say Something®.",
-          "topic_title": "Req 4d: Reporting Suspicious Public Activity",
-          "pamphlet_summary": "For Safety Requirement 4d (Reporting Suspicious Public Activity): The Safety pamphlet for Requirement 4d details the meaning of this saying, \"If You See Something, Say Something®, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63).",
+          "topic_title": "Req 4d: Suspicious Activity Reporting Awareness",
+          "pamphlet_summary": "The national campaign If You See Something, Say Something trains citizens to recognize observable indicators of terrorism and crime. Reporting unattended parcels, unauthorized access attempts, or surveillance of infrastructure to authorities preserves community safety.",
           "pamphlet_excerpts": [
-            "Reporting Suspicious Public Activity: The Safety pamphlet for Requirement 4d details the meaning of this saying, \"If You See Something, Say Something®, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63)."
+            "The national campaign If You See Something, Say Something trains citizens to recognize observable indicators of terrorism and crime. Reporting unattended parcels, unauthorized access attempts, or surveillance of infrastructure to authorities preserves community safety."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p064_img1.png",
           "workbook_diagram_caption": "A crowded lake swimming area requires lifeguard supervision and clear emergency exit routes.",
@@ -1692,11 +1738,11 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Public Venue and Camp Safety",
+      "topic_title": "Req 4: Public Venue Threat Response",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Safety Requirement 4 on public venue and camp safety: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "In an active shooter emergency, keep your hands visible, fingers spread, and empty when first encountering law enforcement officers.",
       "pamphlet_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)",
       "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)",
       "syllabus_bucket": "In-Class Concept",
@@ -1728,8 +1774,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Running a small camp stove or lantern inside a tent is safe as long as you unzip a mesh window for ventilation.",
-        "fact": "Fires and fuel appliances give off poisonous carbon monoxide even in a ventilated tent, so flame sources must never be used inside or near tents (p. 63)."
+        "misconception": "Crowds will always evacuate public venues through the main front entrance in an orderly fashion.",
+        "fact": "Main entrances become deadly bottlenecks during panics, making secondary side exits and service stairwells safer.",
+        "myth": "Crowds will always evacuate public venues through the main front entrance in an orderly fashion.",
+        "fact_correction": "Main entrances become deadly bottlenecks during panics, making secondary side exits and service stairwells safer."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1753,28 +1801,28 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Campsite Fire Safety Vigilance: Scouts need to pay special attention to fire safety when camping (p. 63).",
-        "Deadly Tent Carbon Monoxide: Also, fires give off poisonous carbon monoxide in even a ventilated tent (p. 63).",
-        "No Flames Inside Tents: Never use liquid-fuel stoves, heaters, lanterns, lighted candles, matches, or other flame sources (p. 63).",
-        "Safe Swim Defense Plan: The Safe Swim Defense plan has been used successfully for years to help Scouting units swim safely (p. 63)."
+        "Exit Awareness: Locate multiple emergency exit doors immediately upon entering any public auditorium.",
+        "Severe Weather: Seek sturdy interior masonry rooms when severe thunderstorms threaten camp sites.",
+        "Active Threats: Run away immediately from gunshots if an unobstructed escape route exists.",
+        "Suspicious Activity: Report unattended luggage or unusual behaviors to facility security personnel promptly."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Ban Flames Near Tents: Never use liquid-fuel stoves, heaters, lanterns, lighted candles, matches, or other flame sources (p. 63).",
-        "Step 2 - Follow Safe Swim Defense: The Safe Swim Defense plan has been used successfully for years to help Scouting units swim safely (p. 63).",
-        "Step 3 - Swim Under Safe Conditions: The plan gives Scouts an understanding of the basic principles of group swimming under adequately supervised, safe conditions (p. 63).",
-        "Step 4 - Ensure Qualified Adult Supervision: All swimming activity must be supervised by mature and conscientious adults age 21 or older (p. 63)."
+        "Step 1 - Orientation Reconnaissance: Note the two nearest exit corridors whenever entering an unfamiliar venue.",
+        "Step 2 - Camp Sheltering: Move patrol members into engineered storm buildings when weather alarms sound.",
+        "Step 3 - Run Hide Fight: Escape active shooters if possible, barricade doors if trapped, or fight.",
+        "Step 4 - Anomaly Reporting: Notify facility managers immediately when discovering anomalous packages or suspicious tampering."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 4a: Exiting Public Buildings in Emerge",
-        "right_header": "Req 4c: Responding to Active Shooter Threa",
+        "left_header": "Req 4a: Public Facility Emergency Egress",
+        "right_header": "Req 4c: Active Threat Survival Tactics",
         "left_points": [
-          "(4a) Exiting Public Buildings in Emergencies: The Safety pamphlet for Requirement 4a details how a person would safely exit from public buildings, a hotel, and a stadium in an emergency, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63).",
-          "(4b) Taking Shelter at Camp: The Safety pamphlet for Requirement 4b details how and why Scouts would take shelter at camp, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63)."
+          "(4a) Public Facility Emergency Egress: Exiting public arenas, high-rise hotels, and sprawling stadiums requires avoiding stalled elevators and tracking illuminated emergency signs. Counting doors along hotel hallways allows individuals to navigate smoke-filled corridors to fire exits in complete darkness.",
+          "(4b) Outdoor Camp Shelter Protocols: Camp environments expose Scouts to high winds, falling tree limbs, flash flooding, and lightning strikes. Leaders must direct patrols into designated hardened storm structures or low-lying ravines well before squall lines make impact."
         ],
         "right_points": [
-          "(4c) Responding to Active Shooter Threats: The Safety pamphlet for Requirement 4c details how should Scouts respond to an active shooter, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63).",
-          "(4d) Reporting Suspicious Public Activity: The Safety pamphlet for Requirement 4d details the meaning of this saying, \"If You See Something, Say Something®, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63)."
+          "(4c) Active Threat Survival Tactics: The Run, Hide, Fight protocol defines the universal civilian response doctrine against active violence in public spaces. Escaping the immediate hazard zone takes precedence, followed by locking and barricading interior rooms when flight is impossible.",
+          "(4d) Suspicious Activity Reporting Awareness: The national campaign If You See Something, Say Something trains citizens to recognize observable indicators of terrorism and crime. Reporting unattended parcels, unauthorized access attempts, or surveillance of infrastructure to authorities preserves community safety."
         ],
         "rows": [
           {
@@ -1798,10 +1846,10 @@
         "title": "Safety Req 4 Exemplar Workbook Entry: Public Venue and Camp Safety",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a - Exiting Public Buildings in Emerge": "The Safety pamphlet for Requirement 4a details how a person would safely exit from public buildings, a hotel, and a stadium in an emergency, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63).",
-          "Req 4b (Taking Shelter at Camp)": "The Safety pamphlet for Requirement 4b details how and why Scouts would take shelter at camp, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63).",
-          "Req 4c - Responding to Active Shooter Threa": "The Safety pamphlet for Requirement 4c details how should Scouts respond to an active shooter, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63).",
-          "Req 4d - Reporting Suspicious Public Activi": "The Safety pamphlet for Requirement 4d details the meaning of this saying, \"If You See Something, Say Something®, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 63)."
+          "Req 4a - Public Facility Emergency Egress": "Exiting public arenas, high-rise hotels, and sprawling stadiums requires avoiding stalled elevators and tracking illuminated emergency signs. Counting doors along hotel hallways allows individuals to navigate smoke-filled corridors to fire exits in complete darkness.",
+          "Req 4b - Outdoor Camp Shelter Protocols": "Camp environments expose Scouts to high winds, falling tree limbs, flash flooding, and lightning strikes. Leaders must direct patrols into designated hardened storm structures or low-lying ravines well before squall lines make impact.",
+          "Req 4c - Active Threat Survival Tactics": "The Run, Hide, Fight protocol defines the universal civilian response doctrine against active violence in public spaces. Escaping the immediate hazard zone takes precedence, followed by locking and barricading interior rooms when flight is impossible.",
+          "Req 4d - Suspicious Activity Reporting Awa": "The national campaign If You See Something, Say Something trains citizens to recognize observable indicators of terrorism and crime. Reporting unattended parcels, unauthorized access attempts, or surveillance of infrastructure to authorities preserves community safety."
         },
         "sample_output": "Public Venue and Camp Safety: Also, fires give off poisonous carbon monoxide in even a ventilated tent (p. 63).",
         "counselor_tip": "For Safety Requirement 4 (Public Venue and Camp Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65))."
@@ -1833,7 +1881,13 @@
       "workbook_diagram_caption": "A crowded lake swimming area requires lifeguard supervision and clear emergency exit routes.",
       "number": "4",
       "description": "Safety in Public Places. Explain each of the following to your counselor: (a) How a person would safely exit from public buildings, a hotel, and a stadium in an emergency (b) How and why Scouts would take shelter at camp (c) How should Scouts respond to an active shooter (d) The meaning of this saying: \"If You See Something, Say Something®\"",
-      "workbook_visual_caption": "A crowded lake swimming area requires lifeguard supervision and clear emergency exit routes."
+      "workbook_visual_caption": "A crowded lake swimming area requires lifeguard supervision and clear emergency exit routes.",
+      "pamphlet_summary": "Public spaces present unique crowd dynamics and structural evacuation challenges during fires, natural events, or hostile threats. Maintaining situational awareness and identifying secondary emergency egress routes ensures prompt survival action during sudden emergencies.",
+      "socratic_questions": [
+        "Why does staying inside a canvas tent during a lightning storm increase your risk of severe injury?",
+        "What physical objects in a hotel room can serve as impromptu door barricades against an active threat?",
+        "How can a citizen distinguish between harmless eccentric behavior and actionable suspicious activity requiring security notification?"
+      ]
     },
     {
       "req_id": "5",
@@ -1877,8 +1931,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29)",
           "common_misconception_pair": {
-            "misconception": "If someone attempts to cross personal boundaries or molest a youth, resisting will not make any difference.",
-            "fact": "Firmly saying no, getting away, and resisting will stop most attempts at molestation (p. 28)."
+            "misconception": "One-on-one merit badge counseling sessions are permitted if conducted in a public corner of a room.",
+            "fact": "One-on-one sessions are strictly forbidden; counseling must occur in full view of another adult or within group settings.",
+            "myth": "One-on-one merit badge counseling sessions are permitted if conducted in a public corner of a room.",
+            "fact_correction": "One-on-one sessions are strictly forbidden; counseling must occur in full view of another adult or within group settings."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1904,10 +1960,10 @@
           "id": "5a",
           "sub_req_label": "5a",
           "sub_req_text": "Discuss Scouting America's Safeguarding Youth guidelines that adults and Scouts must follow so that everyone is safe at Scouting activities.",
-          "topic_title": "Req 5a: Scouting Safeguarding Youth Guidelines",
-          "pamphlet_summary": "For Safety Requirement 5a (Scouting Safeguarding Youth Guidelines): The Safety pamphlet for Requirement 5a details scouting America's Safeguarding Youth guidelines that adults and Scouts must follow so that everyone is safe at Scouting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
+          "topic_title": "Req 5a: Organizational Youth Protection Policies",
+          "pamphlet_summary": "Mandatory youth protection policies include two-deep adult leadership, no one-on-one contact, and separate accommodations based on age and gender. Adults and youth must strictly adhere to transparent communication guidelines across in-person and digital platforms.",
           "pamphlet_excerpts": [
-            "Scouting Safeguarding Youth Guidelines: The Safety pamphlet for Requirement 5a details scouting America's Safeguarding Youth guidelines that adults and Scouts must follow so that everyone is safe at Scouting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28)."
+            "Mandatory youth protection policies include two-deep adult leadership, no one-on-one contact, and separate accommodations based on age and gender. Adults and youth must strictly adhere to transparent communication guidelines across in-person and digital platforms."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p029_img1.png",
           "workbook_diagram_caption": "Scouts and adult leaders hold an open discussion outdoors to reinforce youth protection rules.",
@@ -1948,8 +2004,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29)",
           "common_misconception_pair": {
-            "misconception": "A Scout should wait until they have absolute proof before reporting a suspicious situation or boundary violation.",
-            "fact": "Any attempted abuse, boundary violation, or suspicious behavior must be reported right away to a parent, guardian, trusted adult, or the Scouts First Helpline (p. 28)."
+            "misconception": "Abuse always involves sudden physical violence rather than gradual manipulative boundary erosion.",
+            "fact": "Perpetrators frequently use subtle emotional manipulation, special privileges, and secrecy to cross boundaries gradually.",
+            "myth": "Abuse always involves sudden physical violence rather than gradual manipulative boundary erosion.",
+            "fact_correction": "Perpetrators frequently use subtle emotional manipulation, special privileges, and secrecy to cross boundaries gradually."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1975,10 +2033,10 @@
           "id": "5b",
           "sub_req_label": "5b",
           "sub_req_text": "Discuss with your counselor what situations and behaviors would prompt you to Recognize, Resist, and Report a possible abuse situation.",
-          "topic_title": "Req 5b: Recognize Resist and Report",
-          "pamphlet_summary": "Recognize Resist and Report: This prevents further abuse and helps to protect other children (p. 28).",
+          "topic_title": "Req 5b: Abuse Recognition and Resistance",
+          "pamphlet_summary": "Scouts learn to Recognize boundary crossings, Resist inappropriate physical or emotional pressure, and Report concerns without delay. Grooming behaviors, including secret gift-giving and isolation attempts, violate core safety protocols.",
           "pamphlet_excerpts": [
-            "Recognize Resist and Report: This prevents further abuse and helps to protect other children (p. 28)."
+            "Scouts learn to Recognize boundary crossings, Resist inappropriate physical or emotional pressure, and Report concerns without delay. Grooming behaviors, including secret gift-giving and isolation attempts, violate core safety protocols."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p029_img1.png",
           "title": "Req 5b: Recognize Resist and Report",
@@ -2024,8 +2082,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29)",
           "common_misconception_pair": {
-            "misconception": "Youth who experience attempted or actual abuse are partly responsible if they did not leave the situation sooner.",
-            "fact": "A young person is never to blame for abuse, and trusted adults must reassure the youth that they will not be blamed for what occurred (p. 28)."
+            "misconception": "Scouts should investigate suspected abuse on their own before sharing allegations with adult authorities.",
+            "fact": "Untrained investigation compromises victim safety; concerns must be reported directly to professional law enforcement and council leadership.",
+            "myth": "Scouts should investigate suspected abuse on their own before sharing allegations with adult authorities.",
+            "fact_correction": "Untrained investigation compromises victim safety; concerns must be reported directly to professional law enforcement and council leadership."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2051,10 +2111,10 @@
           "id": "5c",
           "sub_req_label": "5c",
           "sub_req_text": "Discuss how you, other Scouts, leaders, and anyone can report situations suspicious for abuse through the Scouts First Helpline and other means.",
-          "topic_title": "Req 5c: Reporting Suspected Youth Abuse",
-          "pamphlet_summary": "Reporting Suspected Youth Abuse: Recognize situations that place you at risk of being molested, how child molesters operate, and that anyone could be a molester (p. 28).",
+          "topic_title": "Req 5c: Mandatory Abuse Reporting Channels",
+          "pamphlet_summary": "Any individual who observes or suspects child abuse has a legal and moral obligation to notify professional child welfare authorities. Scouting America maintains the Scouts First Helpline to provide round-the-clock incident intake and counseling.",
           "pamphlet_excerpts": [
-            "Reporting Suspected Youth Abuse: Recognize situations that place you at risk of being molested, how child molesters operate, and that anyone could be a molester (p. 28)."
+            "Any individual who observes or suspects child abuse has a legal and moral obligation to notify professional child welfare authorities. Scouting America maintains the Scouts First Helpline to provide round-the-clock incident intake and counseling."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p029_img1.png",
           "workbook_diagram_caption": "Scouts and adult leaders hold an open discussion outdoors to reinforce youth protection rules.",
@@ -2087,11 +2147,11 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Safeguarding Youth in Scouting Activities",
+      "topic_title": "Req 5: Youth Protection Operational Guidelines",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 5): Complete all Safeguarding Youth in Scouting Activities discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "In an emergency involving imminent danger of child abuse, contact local police authorities immediately before notifying council personnel.",
       "pamphlet_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29)",
       "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29)",
       "syllabus_bucket": "In-Class Concept",
@@ -2121,8 +2181,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "You can easily tell if someone is a child molester because they are always strangers who act frightening.",
-        "fact": "Anyone could be a molester, including someone a youth knows and trusts, which is why recognizing risky situations and boundary violations is essential (p. 28)."
+        "misconception": "Youth protection rules apply only to adult volunteers and not to older youth leaders.",
+        "fact": "Youth protection barriers and anti-bullying policies govern interactions among all participants, regardless of age or rank.",
+        "myth": "Youth protection rules apply only to adult volunteers and not to older youth leaders.",
+        "fact_correction": "Youth protection barriers and anti-bullying policies govern interactions among all participants, regardless of age or rank."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2146,28 +2208,26 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Recognizing High Risk Situations: Recognize situations that place you at risk of being molested, how child molesters operate, and that anyone could be a molester (p. 28).",
-        "Power of Active Resistance: Resistance will stop most attempts at molestation (p. 28).",
-        "Reporting to Trusted Adults: Report attempted or actual molestation to a parent, guardian, or other trusted adult (p. 28).",
-        "Protecting Yourself and Others: This prevents further abuse and helps to protect other children (p. 28)."
+        "Two-Deep Leadership: Maintain two registered adult leaders on all official troop scouting trips.",
+        "One-on-One Contact: Prohibit one-on-one contact between adults and youth in all settings.",
+        "Recognize Resist Report: Identify boundary violations immediately, resist unwanted interactions, and report to authorities.",
+        "Scouts First Helpline: Call the twenty-four-hour helpline to report any suspected youth mistreatment."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Tell a Trusted Adult: Report attempted or actual molestation to a parent, guardian, or other trusted adult (p. 28).",
-        "Step 2 - Help Protect Other Youth: This prevents further abuse and helps to protect other children (p. 28).",
-        "Step 3 - Reassure Victim Without Blame: Let the child know he or she will not be blamed for what occurred (p. 28).",
-        "Step 4 - Learn Abuse Warning Signs: The first step to stopping child abuse is being able to recognize it (p. 28)."
+        "Step 1 - Policy Verification: Confirm that all troop activities maintain mandatory two-deep adult leader supervision.",
+        "Step 2 - Boundary Monitoring: Ensure buddy pairs remain intact and private tenting separation rules are honored.",
+        "Step 3 - Resist Encroachment: Speak up firmly whenever adult or peer behavior crosses acceptable personal boundaries.",
+        "Step 4 - Prompt Reporting: Contact the Scout Executive or Scouts First Helpline immediately regarding suspicious conduct."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Scouting Safeguarding Youth Guidel",
-        "right_header": "Req 5b: Recognize Resist and Report",
+        "left_header": "Req 5a: Organizational Youth Protection Po",
+        "right_header": "Req 5b: Abuse Recognition and Resistance",
         "left_points": [
-          "(5a) Scouting Safeguarding Youth Guidelines: The Safety pamphlet for Requirement 5a details scouting America's Safeguarding Youth guidelines that adults and Scouts must follow so that everyone is safe at Scouting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
-          "Power of Active Resistance: Resistance will stop most attempts at molestation (p. 28)."
+          "(5a) Organizational Youth Protection Policies: Mandatory youth protection policies include two-deep adult leadership, no one-on-one contact, and separate accommodations based on age and gender. Adults and youth must strictly adhere to transparent communication guidelines across in-person and digital platforms."
         ],
         "right_points": [
-          "(5b) Recognize Resist and Report: This prevents further abuse and helps to protect other children (p. 28).",
-          "Reporting to Trusted Adults: Report attempted or actual molestation to a parent, guardian, or other trusted adult (p. 28)."
+          "(5b) Abuse Recognition and Resistance: Scouts learn to Recognize boundary crossings, Resist inappropriate physical or emotional pressure, and Report concerns without delay. Grooming behaviors, including secret gift-giving and isolation attempts, violate core safety protocols."
         ],
         "rows": [
           {
@@ -2191,9 +2251,9 @@
         "title": "Safety Req 5 Exemplar Workbook Entry: Safeguarding Youth in Scouting Activities",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a - Scouting Safeguarding Youth Guidel": "The Safety pamphlet for Requirement 5a details scouting America's Safeguarding Youth guidelines that adults and Scouts must follow so that everyone is safe at Scouting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
-          "Req 5b (Recognize Resist and Report)": "This prevents further abuse and helps to protect other children (p. 28).",
-          "Req 5c (Reporting Suspected Youth Abuse)": "Recognize situations that place you at risk of being molested, how child molesters operate, and that anyone could be a molester (p. 28)."
+          "Req 5a - Organizational Youth Protection P": "Mandatory youth protection policies include two-deep adult leadership, no one-on-one contact, and separate accommodations based on age and gender. Adults and youth must strictly adhere to transparent communication guidelines across in-person and digital platforms.",
+          "Req 5b - Abuse Recognition and Resistance": "Scouts learn to Recognize boundary crossings, Resist inappropriate physical or emotional pressure, and Report concerns without delay. Grooming behaviors, including secret gift-giving and isolation attempts, violate core safety protocols.",
+          "Req 5c - Mandatory Abuse Reporting Channel": "Any individual who observes or suspects child abuse has a legal and moral obligation to notify professional child welfare authorities. Scouting America maintains the Scouts First Helpline to provide round-the-clock incident intake and counseling."
         },
         "sample_output": "Safeguarding Youth in Scouting Activities: Report attempted or actual molestation to a parent, guardian, or other trusted adult (p. 28).",
         "counselor_tip": "For Safety Requirement 5 (Safeguarding Youth in Scouting Activities), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29))."
@@ -2225,7 +2285,13 @@
       "workbook_diagram_caption": "Scouts and adult leaders hold an open discussion outdoors to reinforce youth protection rules.",
       "number": "5",
       "description": "Safeguarding Youth. Do the following: (a) Discuss Scouting America's Safeguarding Youth guidelines that adults and Scouts must follow so that everyone is safe at Scouting activities. (b) Discuss with your counselor what situations and behaviors would prompt you to Recognize, Resist, and Report a possible abuse situation. (c) Discuss how you, other Scouts, leaders, and anyone can report situations suspicious for abuse through the Scouts First Helpline and other means.",
-      "workbook_visual_caption": "Scouts and adult leaders hold an open discussion outdoors to reinforce youth protection rules."
+      "workbook_visual_caption": "Scouts and adult leaders hold an open discussion outdoors to reinforce youth protection rules.",
+      "pamphlet_summary": "Scouting America enforces rigorous Youth Protection policies to create a secure, positive environment across all scouting programs. Understanding personal boundaries, recognizing grooming behaviors, and knowing how to utilize mandatory reporting channels safeguards youth integrity.",
+      "socratic_questions": [
+        "Why does Scouting America prohibit private electronic communications between an adult leader and an individual youth?",
+        "What specific behavioral changes in a peer might indicate they are experiencing abuse or distress?",
+        "How does the buddy system protect Scouts from peer harassment as well as physical trail hazards?"
+      ]
     },
     {
       "req_id": "6",
@@ -2269,8 +2335,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)",
           "common_misconception_pair": {
-            "misconception": "Walking alone at night while wearing headphones and looking at your phone is safe if you stay on a sidewalk.",
-            "fact": "To reduce the risk of street assault, you should stay alert to your surroundings, walk in well-lit areas with companions, and keep your eyes and ears free of distractions (p. 43)."
+            "misconception": "Wearing noise-canceling headphones while walking alone does not impair personal safety awareness.",
+            "fact": "Audio distraction eliminates vital environmental cues like approaching footsteps, vehicle engines, or hostile shouts.",
+            "myth": "Wearing noise-canceling headphones while walking alone does not impair personal safety awareness.",
+            "fact_correction": "Audio distraction eliminates vital environmental cues like approaching footsteps, vehicle engines, or hostile shouts."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2296,10 +2364,10 @@
           "id": "6a",
           "sub_req_label": "6a",
           "sub_req_text": "Assault on a street.",
-          "topic_title": "Req 6a: Preventing Street Assault",
-          "pamphlet_summary": "For Safety Requirement 6a (Preventing Street Assault): The Safety pamphlet for Requirement 6a details assault on a street, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+          "topic_title": "Req 6a: Pedestrian Street Defense Measures",
+          "pamphlet_summary": "Street safety relies on purposeful movement, staying on well-lit sidewalks, and avoiding isolated shortcuts. Keeping hands free and ears unobstructed by headphones allows pedestrians to detect approaching threats promptly.",
           "pamphlet_excerpts": [
-            "Preventing Street Assault: The Safety pamphlet for Requirement 6a details assault on a street, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+            "Street safety relies on purposeful movement, staying on well-lit sidewalks, and avoiding isolated shortcuts. Keeping hands free and ears unobstructed by headphones allows pedestrians to detect approaching threats promptly."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p017_img1.png",
           "workbook_diagram_caption": "A police officer explains crime prevention displays to Scouts to teach personal safety awareness.",
@@ -2335,8 +2403,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)",
           "common_misconception_pair": {
-            "misconception": "Leaving a drink unattended on a table at a party or restaurant is fine if you only step away for a minute.",
-            "fact": "Never leave food or beverages unattended at a restaurant or party, and never accept open drinks from strangers, to prevent drink tampering (p. 43)."
+            "misconception": "Defending personal pride by trading insults is necessary when challenged in a public venue.",
+            "fact": "Verbal engagement escalates conflict; withdrawing immediately preserves physical safety and prevents criminal entanglements.",
+            "myth": "Defending personal pride by trading insults is necessary when challenged in a public venue.",
+            "fact_correction": "Verbal engagement escalates conflict; withdrawing immediately preserves physical safety and prevents criminal entanglements."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2362,10 +2432,10 @@
           "id": "6b",
           "sub_req_label": "6b",
           "sub_req_text": "Assault at a restaurant event.",
-          "topic_title": "Req 6b: Staying Safe at Restaurants",
-          "pamphlet_summary": "For Safety Requirement 6b (Staying Safe at Restaurants): The Safety pamphlet for Requirement 6b details assault at a restaurant event, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+          "topic_title": "Req 6b: Restaurant Venue Altercation Avoidance",
+          "pamphlet_summary": "Public dining establishments occasionally host disruptive or alcohol-fueled confrontations. De-escalating by refusing to return hostile stares, paying the bill, and calmly relocating prevents minor disputes from turning into violent physical brawls.",
           "pamphlet_excerpts": [
-            "Staying Safe at Restaurants: The Safety pamphlet for Requirement 6b details assault at a restaurant event, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+            "Public dining establishments occasionally host disruptive or alcohol-fueled confrontations. De-escalating by refusing to return hostile stares, paying the bill, and calmly relocating prevents minor disputes from turning into violent physical brawls."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p017_img1.png",
           "workbook_diagram_caption": "A police officer explains crime prevention displays to Scouts to teach personal safety awareness.",
@@ -2401,8 +2471,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)",
           "common_misconception_pair": {
-            "misconception": "If you feel uncomfortable on a date or at a social event, it is rude to leave early or call a parent for a ride.",
-            "fact": "Your personal safety always comes first, so you should trust your instincts, have an independent way home, and leave immediately if anyone pressures you or makes you feel unsafe (p. 43)."
+            "misconception": "Sexual assault is committed almost exclusively by masked predators hiding in dark alleys.",
+            "fact": "Most sexual assaults are committed by acquaintances, classmates, or dating partners who disregard explicit verbal boundaries.",
+            "myth": "Sexual assault is committed almost exclusively by masked predators hiding in dark alleys.",
+            "fact_correction": "Most sexual assaults are committed by acquaintances, classmates, or dating partners who disregard explicit verbal boundaries."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2428,10 +2500,10 @@
           "id": "6c",
           "sub_req_label": "6c",
           "sub_req_text": "Sexual assault at a party or on a date.",
-          "topic_title": "Req 6c: Preventing Party and Date Assault",
-          "pamphlet_summary": "For Safety Requirement 6c (Preventing Party and Date Assault): The Safety pamphlet for Requirement 6c details sexual assault at a party or on a date, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+          "topic_title": "Req 6c: Social Setting Boundary Defense",
+          "pamphlet_summary": "Preventing sexual assault on dates or at parties involves establishing firm personal boundaries, never leaving drinks unattended, and maintaining independent transportation options. Clear verbal consent must govern all interactions, and any violation justifies instant departure.",
           "pamphlet_excerpts": [
-            "Preventing Party and Date Assault: The Safety pamphlet for Requirement 6c details sexual assault at a party or on a date, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+            "Preventing sexual assault on dates or at parties involves establishing firm personal boundaries, never leaving drinks unattended, and maintaining independent transportation options. Clear verbal consent must govern all interactions, and any violation justifies instant departure."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p017_img1.png",
           "workbook_diagram_caption": "A police officer explains crime prevention displays to Scouts to teach personal safety awareness.",
@@ -2452,11 +2524,11 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Preventing Personal and Social Assault",
+      "topic_title": "Req 6: Personal Assault Prevention Strategies",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 6): Complete all Preventing Personal and Social Assault discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "If cornered by an aggressive assailant demanding property, surrender material possessions rather than engaging in physical combat.",
       "pamphlet_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)",
       "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)",
       "syllabus_bucket": "In-Class Concept",
@@ -2486,8 +2558,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Hanging out with people who use illegal drugs is safe as long as you do not take the drugs yourself.",
-        "fact": "You should avoid people who use illegal drugs because impairment can make them violent, unpredictable, and unsafe drivers (p. 17)."
+        "misconception": "Assailants always target physically weak individuals regardless of their alert posture.",
+        "fact": "Attackers look for distracted, unobservant targets whose attention is absorbed by smartphones or headphones.",
+        "myth": "Assailants always target physically weak individuals regardless of their alert posture.",
+        "fact_correction": "Attackers look for distracted, unobservant targets whose attention is absorbed by smartphones or headphones."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2511,28 +2585,26 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Extinguishing Lit Candles Safely: Candles are carefully extinguished after use, before bedtime, or before leaving home (p. 17).",
-        "Never Leave Lit Candles: Do not The National Fire Protection leave a room that has a lit candle (p. 17).",
-        "Dating Replacement Alarm Batteries: When replacing the battery, write the date on it with a permanent marker (p. 17).",
-        "Understanding Drug Impairment Risks: Learning how drugs can affect you may help prevent accidents (p. 17)."
+        "Street Vigilance: Walk confidently with head up and avoid distraction from mobile smartphone screens.",
+        "Social Accountability: Attend public venues with trusted companions and monitor beverage cups continuously.",
+        "Firm Refusal: State unequivocal verbal refusals immediately when physical boundaries are violated by anyone.",
+        "Safe Departure: Arrange independent personal transportation before attending unfamiliar social events or dates."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Label New Battery Dates: When replacing the battery, write the date on it with a permanent marker (p. 17).",
-        "Step 2 - Study Drug Safety Risks: Learning how drugs can affect you may help prevent accidents (p. 17).",
-        "Step 3 - Refuse All Illegal Drugs: Of course, do not take illegal drugs in the first place (p. 17).",
-        "Step 4 - Avoid Impaired Violent Individuals: Also, avoid people who do drugs, because they can be violent and are unsafe drivers (p. 17)."
+        "Step 1 - Spatial Awareness: Walk in well-lit areas away from alleys and maintain wide personal distance.",
+        "Step 2 - Social Buddying: Designate a trusted friend to verify safety check-ins throughout any large party.",
+        "Step 3 - Boundary Setting: Deliver clear verbal commands to stop whenever an individual advances unwanted touch.",
+        "Step 4 - Strategic Egress: Move directly toward populated areas or security stations if pursued or threatened."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6a: Preventing Street Assault",
-        "right_header": "Req 6b: Staying Safe at Restaurants",
+        "left_header": "Req 6a: Pedestrian Street Defense Measures",
+        "right_header": "Req 6b: Restaurant Venue Altercation Avoid",
         "left_points": [
-          "(6a) Preventing Street Assault: The Safety pamphlet for Requirement 6a details assault on a street, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
-          "Never Leave Lit Candles: Do not The National Fire Protection leave a room that has a lit candle (p. 17)."
+          "(6a) Pedestrian Street Defense Measures: Street safety relies on purposeful movement, staying on well-lit sidewalks, and avoiding isolated shortcuts. Keeping hands free and ears unobstructed by headphones allows pedestrians to detect approaching threats promptly."
         ],
         "right_points": [
-          "(6b) Staying Safe at Restaurants: The Safety pamphlet for Requirement 6b details assault at a restaurant event, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
-          "Dating Replacement Alarm Batteries: When replacing the battery, write the date on it with a permanent marker (p. 17)."
+          "(6b) Restaurant Venue Altercation Avoidance: Public dining establishments occasionally host disruptive or alcohol-fueled confrontations. De-escalating by refusing to return hostile stares, paying the bill, and calmly relocating prevents minor disputes from turning into violent physical brawls."
         ],
         "rows": [
           {
@@ -2556,9 +2628,9 @@
         "title": "Safety Req 6 Exemplar Workbook Entry: Preventing Personal and Social Assault",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a (Preventing Street Assault)": "The Safety pamphlet for Requirement 6a details assault on a street, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
-          "Req 6b (Staying Safe at Restaurants)": "The Safety pamphlet for Requirement 6b details assault at a restaurant event, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
-          "Req 6c (Preventing Party and Date Assault)": "The Safety pamphlet for Requirement 6c details sexual assault at a party or on a date, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+          "Req 6a - Pedestrian Street Defense Measure": "Street safety relies on purposeful movement, staying on well-lit sidewalks, and avoiding isolated shortcuts. Keeping hands free and ears unobstructed by headphones allows pedestrians to detect approaching threats promptly.",
+          "Req 6b - Restaurant Venue Altercation Avoi": "Public dining establishments occasionally host disruptive or alcohol-fueled confrontations. De-escalating by refusing to return hostile stares, paying the bill, and calmly relocating prevents minor disputes from turning into violent physical brawls.",
+          "Req 6c - Social Setting Boundary Defense": "Preventing sexual assault on dates or at parties involves establishing firm personal boundaries, never leaving drinks unattended, and maintaining independent transportation options. Clear verbal consent must govern all interactions, and any violation justifies instant departure."
         },
         "sample_output": "Preventing Personal and Social Assault: Learning how drugs can affect you may help prevent accidents (p. 17).",
         "counselor_tip": "For Safety Requirement 6 (Preventing Personal and Social Assault), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43))."
@@ -2590,7 +2662,13 @@
       "workbook_diagram_caption": "A police officer explains crime prevention displays to Scouts to teach personal safety awareness.",
       "number": "6",
       "description": "Safety from Assault. Explain how to avoid or prevent: (a) Assault on a street (b) Assault at a restaurant event (c) Sexual assault at a party or on a date",
-      "workbook_visual_caption": "A police officer explains crime prevention displays to Scouts to teach personal safety awareness."
+      "workbook_visual_caption": "A police officer explains crime prevention displays to Scouts to teach personal safety awareness.",
+      "pamphlet_summary": "Preventing physical and sexual assault requires acute situational awareness, proactive environmental appraisal, and firm personal boundary enforcement. Developing assertive de-escalation communication and maintaining reliable exit avenues protects individuals across diverse social settings.",
+      "socratic_questions": [
+        "How does body language and walking pace communicate readiness to an observer?",
+        "What steps should you take if an acquaintance at a restaurant becomes belligerent or aggressive?",
+        "Why is having a prearranged exit plan essential before going on an unfamiliar date?"
+      ]
     },
     {
       "req_id": "7",
@@ -2638,8 +2716,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Messages, notes, and photos posted to a private group or sent by text cannot be seen by strangers.",
-            "fact": "Any note, remark, or photo posted or sent online can be copied and forwarded to strangers, so never post anything you would not want everyone to see (p. 18)."
+            "misconception": "Having active antivirus software guarantees total immunity from online criminal exploits.",
+            "fact": "Antivirus cannot prevent users from willingly surrendering credentials to fraudulent websites or social engineers.",
+            "myth": "Having active antivirus software guarantees total immunity from online criminal exploits.",
+            "fact_correction": "Antivirus cannot prevent users from willingly surrendering credentials to fraudulent websites or social engineers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2665,10 +2745,10 @@
           "id": "7a",
           "sub_req_label": "7a",
           "sub_req_text": "How to avoid being the victim of online crimes.",
-          "topic_title": "Req 7a: Avoiding Online Crime Victimization",
-          "pamphlet_summary": "For Safety Requirement 7a (Avoiding Online Crime Victimization): The Safety pamphlet for Requirement 7a details how to avoid being the victim of online crimes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
+          "topic_title": "Req 7a: Online Crime Victimization Defense",
+          "pamphlet_summary": "Cyber-criminals employ spear-phishing, malicious downloads, and remote access trojans to compromise consumer devices. Maintaining updated software firewalls and verifying sender addresses blocks hostile intrusions.",
           "pamphlet_excerpts": [
-            "Avoiding Online Crime Victimization: The Safety pamphlet for Requirement 7a details how to avoid being the victim of online crimes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+            "Cyber-criminals employ spear-phishing, malicious downloads, and remote access trojans to compromise consumer devices. Maintaining updated software firewalls and verifying sender addresses blocks hostile intrusions."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p018_img1.png",
           "title": "Req 7a: Avoiding Online Crime Victimization",
@@ -2714,8 +2794,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Identity theft only affects wealthy adults who own businesses or have multiple credit cards.",
-            "fact": "Identity theft is one of the fastest-growing crimes in the United States, and criminals target youth Social Security numbers, bank details, and personal data too (p. 18)."
+            "misconception": "Peer-to-peer payment applications provide automatic buyer refunds for fraudulent sales transactions.",
+            "fact": "Peer-to-peer payment transfers behave like cash; once authorized, lost funds are virtually impossible to reverse.",
+            "myth": "Peer-to-peer payment applications provide automatic buyer refunds for fraudulent sales transactions.",
+            "fact_correction": "Peer-to-peer payment transfers behave like cash; once authorized, lost funds are virtually impossible to reverse."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2741,10 +2823,10 @@
           "id": "7b",
           "sub_req_label": "7b",
           "sub_req_text": "Common online financial scams.",
-          "topic_title": "Req 7b: Spotting Online Financial Scams",
-          "pamphlet_summary": "For Safety Requirement 7b (Spotting Online Financial Scams): The Safety pamphlet for Requirement 7b details common online financial scams, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
+          "topic_title": "Req 7b: Digital Financial Scam Recognition",
+          "pamphlet_summary": "Online financial fraud targets teens through fake check overpayment schemes, fraudulent peer-to-peer money transfers, and bogus investment groups. Legitimate companies never demand gift card payments or wire transfers for online prizes.",
           "pamphlet_excerpts": [
-            "Spotting Online Financial Scams: The Safety pamphlet for Requirement 7b details common online financial scams, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+            "Online financial fraud targets teens through fake check overpayment schemes, fraudulent peer-to-peer money transfers, and bogus investment groups. Legitimate companies never demand gift card payments or wire transfers for online prizes."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p017_img1.png",
           "workbook_diagram_caption": "A police officer explains crime prevention displays to Scouts to teach personal safety awareness.",
@@ -2785,8 +2867,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Online bullying and forwarding embarrassing photos via text are just school pranks rather than criminal offenses.",
-            "fact": "Cyberbullying, harassment, and sharing explicit or private images of minors can violate state and federal laws and result in serious criminal charges (p. 59)."
+            "misconception": "Reusing one complex password across multiple non-critical websites carries minimal personal risk.",
+            "fact": "A breach of any single non-critical website exposes the password to credential stuffing attacks across email and banking portals.",
+            "myth": "Reusing one complex password across multiple non-critical websites carries minimal personal risk.",
+            "fact_correction": "A breach of any single non-critical website exposes the password to credential stuffing attacks across email and banking portals."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2812,10 +2896,10 @@
           "id": "7c",
           "sub_req_label": "7c",
           "sub_req_text": "Effective online security.",
-          "topic_title": "Req 7c: Effective Account Security Practices",
-          "pamphlet_summary": "For Safety Requirement 7c (Effective Account Security Practices): The Safety pamphlet for Requirement 7c details effective online security, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
+          "topic_title": "Req 7c: Comprehensive Digital Security Controls",
+          "pamphlet_summary": "Effective cyber defense combines strong unique passwords, multi-factor hardware keys or authenticators, and automated operating system updates. Disabling auto-connect features on public Wi-Fi networks prevents man-in-the-middle data interception.",
           "pamphlet_excerpts": [
-            "Effective Account Security Practices: The Safety pamphlet for Requirement 7c details effective online security, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+            "Effective cyber defense combines strong unique passwords, multi-factor hardware keys or authenticators, and automated operating system updates. Disabling auto-connect features on public Wi-Fi networks prevents man-in-the-middle data interception."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p017_img1.png",
           "workbook_diagram_caption": "A police officer explains crime prevention displays to Scouts to teach personal safety awareness.",
@@ -2856,8 +2940,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)",
           "common_misconception_pair": {
-            "misconception": "During Safety Requirement 7d, Scouts can underestimate how directly mastery of preventing personal identity theft depends on understanding identity theft and how to prevent.",
-            "fact": "Scouting America standards for Safety Requirement 7d require complete workbook entries on preventing personal identity theft to demonstrate full understanding of identity theft and how to prevent."
+            "misconception": "Minors are immune to identity theft because they do not have active credit cards.",
+            "fact": "Criminals covet clean minor Social Security numbers to build undetected fraudulent credit histories for years.",
+            "myth": "Minors are immune to identity theft because they do not have active credit cards.",
+            "fact_correction": "Criminals covet clean minor Social Security numbers to build undetected fraudulent credit histories for years."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2883,10 +2969,10 @@
           "id": "7d",
           "sub_req_label": "7d",
           "sub_req_text": "Identity theft and how to prevent.",
-          "topic_title": "Req 7d: Preventing Personal Identity Theft",
-          "pamphlet_summary": "For Safety Requirement 7d (Preventing Personal Identity Theft): The Safety pamphlet for Requirement 7d details identity theft and how to prevent, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
+          "topic_title": "Req 7d: Identity Theft Prevention Protocols",
+          "pamphlet_summary": "Identity thieves exploit stolen Social Security numbers, full legal names, and birth dates to open credit lines and file bogus tax returns. Freezing consumer credit files and shredding sensitive paper mail effectively blocks unauthorized account openings.",
           "pamphlet_excerpts": [
-            "Preventing Personal Identity Theft: The Safety pamphlet for Requirement 7d details identity theft and how to prevent, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+            "Identity thieves exploit stolen Social Security numbers, full legal names, and birth dates to open credit lines and file bogus tax returns. Freezing consumer credit files and shredding sensitive paper mail effectively blocks unauthorized account openings."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p017_img1.png",
           "title": "Req 7d: Preventing Personal Identity Theft",
@@ -2932,10 +3018,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Social Media Predator Tactics (Req 7e) or confusing Social Media Predator Tactics with general Online Security and Cybercrime Prevention procedures.",
-            "fact": "For Requirement 7e (Social Media Predator Tactics), The Safety pamphlet for Requirement 7e details how criminals use social media to target victims, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
-            "myth": "Overlooking the specific field checks required for Social Media Predator Tactics (Req 7e) or confusing Social Media Predator Tactics with general Online Security and Cybercrime Prevention procedures.",
-            "fact_correction": "For Requirement 7e (Social Media Predator Tactics), The Safety pamphlet for Requirement 7e details how criminals use social media to target victims, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+            "misconception": "Posting vacation photos in real time is safe if accounts have under five hundred followers.",
+            "fact": "Real-time vacation posts signal to local burglars that a family home is currently vacant and unguarded.",
+            "myth": "Posting vacation photos in real time is safe if accounts have under five hundred followers.",
+            "fact_correction": "Real-time vacation posts signal to local burglars that a family home is currently vacant and unguarded."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2961,10 +3047,10 @@
           "id": "7e",
           "sub_req_label": "7e",
           "sub_req_text": "How criminals use social media to target victims.",
-          "topic_title": "Req 7e: Social Media Predator Tactics",
-          "pamphlet_summary": "For Safety Requirement 7e (Social Media Predator Tactics): The Safety pamphlet for Requirement 7e details how criminals use social media to target victims, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
+          "topic_title": "Req 7e: Social Media Exploitation Hazards",
+          "pamphlet_summary": "Predators and thieves harvest personal routine schedules, real-time location data, and school affiliations from social profiles. Configuring strict private audience settings and declining connection requests from unverified individuals eliminates dangerous reconnaissance.",
           "pamphlet_excerpts": [
-            "Social Media Predator Tactics: The Safety pamphlet for Requirement 7e details how criminals use social media to target victims, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+            "Predators and thieves harvest personal routine schedules, real-time location data, and school affiliations from social profiles. Configuring strict private audience settings and declining connection requests from unverified individuals eliminates dangerous reconnaissance."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p017_img1.png",
           "title": "Req 7e: Social Media Predator Tactics",
@@ -3010,8 +3096,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)",
           "common_misconception_pair": {
-            "misconception": "When preparing Safety Requirement 7f (Req 7f Cyberbullying and Illegal Photo Sharing), Scouts sometimes overlook the specific details needed to how bullying, texting, and sharing photos can become crimes.",
-            "fact": "Counselor verification for Safety Requirement 7f requires concrete workbook evidence covering req 7f cyberbullying and illegal photo sharing and a clear explanation of how to how bullying, texting, and sharing photos can become crimes."
+            "misconception": "Deleting an aggressive or compromising text message removes it permanently from police forensic investigation.",
+            "fact": "Digital messages leave indelible traces on carrier servers and recipient hardware that forensic analysts extract readily.",
+            "myth": "Deleting an aggressive or compromising text message removes it permanently from police forensic investigation.",
+            "fact_correction": "Digital messages leave indelible traces on carrier servers and recipient hardware that forensic analysts extract readily."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3037,10 +3125,10 @@
           "id": "7f",
           "sub_req_label": "7f",
           "sub_req_text": "How bullying, texting, and sharing photos can become crimes.",
-          "topic_title": "Req 7f: Cyberbullying and Illegal Photo Sharing",
-          "pamphlet_summary": "For Safety Requirement 7f (Cyberbullying and Illegal Photo Sharing): The Safety pamphlet for Requirement 7f details how bullying, texting, and sharing photos can become crimes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
+          "topic_title": "Req 7f: Digital Harassment Legal Consequences",
+          "pamphlet_summary": "Cyberbullying, non-consensual sharing of intimate media, and stalking through text messages constitute serious criminal violations. Digital communications leave permanent server forensic logs that law enforcement agencies routinely subpoena during criminal prosecutions.",
           "pamphlet_excerpts": [
-            "Cyberbullying and Illegal Photo Sharing: The Safety pamphlet for Requirement 7f details how bullying, texting, and sharing photos can become crimes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+            "Cyberbullying, non-consensual sharing of intimate media, and stalking through text messages constitute serious criminal violations. Digital communications leave permanent server forensic logs that law enforcement agencies routinely subpoena during criminal prosecutions."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p017_img1.png",
           "workbook_diagram_caption": "A police officer explains crime prevention displays to Scouts to teach personal safety awareness.",
@@ -3097,11 +3185,11 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Online Security and Cybercrime Prevention",
+      "topic_title": "Req 7: Digital Security Threat Mitigation",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 7): Complete all Online Security and Cybercrime Prevention discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Never send explicit photos or share passwords with anyone; digital coercion and non-consensual image sharing are felonies.",
       "pamphlet_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)",
       "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)",
       "syllabus_bucket": "In-Class Concept",
@@ -3137,8 +3225,10 @@
         "min_rows": 6
       },
       "common_misconception_pair": {
-        "misconception": "Sharing your internet password with a close school friend is safe because they will keep it secret.",
-        "fact": "You must never share your internet password with anyone other than your parent, guardian, or another responsible adult in your family (p. 18)."
+        "misconception": "Private browsing modes prevent online scammers, websites, and malicious actors from tracking users.",
+        "fact": "Private browsing only clears local device history; internet service providers and external servers still log your activity.",
+        "myth": "Private browsing modes prevent online scammers, websites, and malicious actors from tracking users.",
+        "fact_correction": "Private browsing only clears local device history; internet service providers and external servers still log your activity."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3162,30 +3252,30 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Protecting Internet Account Passwords: Never share your internet password with anyone other than your parent, guardian, or other responsible adults in your family (p. 18).",
-        "Lawful and Ethical Conduct: Do not do anything that harms others or is against the law (p. 18).",
-        "Permanence of Online Posts: Any information posted online, such as notes and personal remarks, can be shared with others (p. 18).",
-        "Smart Public Posting Rule: A good rule of thumb is to not post information you do not want others, including strangers, to see (p. 18)."
+        "Phishing Defense: Scrutinize electronic mail links carefully to detect spoofed fraudulent login portals.",
+        "Password Hygiene: Generate complex unique passphrases and activate multi-factor authentication across all accounts.",
+        "Identity Shielding: Conceal social security numbers and birthdates from public online profile biographies.",
+        "Digital Footprint: Remember that shared digital photographs and texts persist permanently on servers."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Assume Posts Become Public: Any information posted online, such as notes and personal remarks, can be shared with others (p. 18).",
-        "Step 2 - Think Before Posting Online: A good rule of thumb is to not post information you do not want others, including strangers, to see (p. 18).",
-        "Step 3 - Guard Personal Information Online: Never give outpersonal information to anyone you meet online or without your parent or guardian's permission (p. 18).",
-        "Step 4 - Prevent Identity Theft Risks: Identity theft is the fastest-growing crime in the United States (p. 18)."
+        "Step 1 - Account Hardening: Enable multi-factor authentication on every primary email and banking service profile.",
+        "Step 2 - Scam Triage: Evaluate unsolicited electronic messages for urgent monetary demands or suspicious attachments.",
+        "Step 3 - Privacy Lockdown: Restrict public visibility settings on personal social media platforms to friends.",
+        "Step 4 - Incident Escalation: Report digital harassment and extortion attempts to platform administrators and parents."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Avoiding Online Crime Victimizatio",
-        "right_header": "Req 7d: Preventing Personal Identity Theft",
+        "left_header": "Req 7a: Online Crime Victimization Defense",
+        "right_header": "Req 7d: Identity Theft Prevention Protocol",
         "left_points": [
-          "(7a) Avoiding Online Crime Victimization: The Safety pamphlet for Requirement 7a details how to avoid being the victim of online crimes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
-          "(7b) Spotting Online Financial Scams: The Safety pamphlet for Requirement 7b details common online financial scams, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
-          "(7c) Effective Account Security Practices: The Safety pamphlet for Requirement 7c details effective online security, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+          "(7a) Online Crime Victimization Defense: Cyber-criminals employ spear-phishing, malicious downloads, and remote access trojans to compromise consumer devices. Maintaining updated software firewalls and verifying sender addresses blocks hostile intrusions.",
+          "(7b) Digital Financial Scam Recognition: Online financial fraud targets teens through fake check overpayment schemes, fraudulent peer-to-peer money transfers, and bogus investment groups. Legitimate companies never demand gift card payments or wire transfers for online prizes.",
+          "(7c) Comprehensive Digital Security Controls: Effective cyber defense combines strong unique passwords, multi-factor hardware keys or authenticators, and automated operating system updates. Disabling auto-connect features on public Wi-Fi networks prevents man-in-the-middle data interception."
         ],
         "right_points": [
-          "(7d) Preventing Personal Identity Theft: The Safety pamphlet for Requirement 7d details identity theft and how to prevent, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
-          "(7e) Social Media Predator Tactics: The Safety pamphlet for Requirement 7e details how criminals use social media to target victims, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
-          "(7f) Cyberbullying and Illegal Photo Sharing: The Safety pamphlet for Requirement 7f details how bullying, texting, and sharing photos can become crimes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+          "(7d) Identity Theft Prevention Protocols: Identity thieves exploit stolen Social Security numbers, full legal names, and birth dates to open credit lines and file bogus tax returns. Freezing consumer credit files and shredding sensitive paper mail effectively blocks unauthorized account openings.",
+          "(7e) Social Media Exploitation Hazards: Predators and thieves harvest personal routine schedules, real-time location data, and school affiliations from social profiles. Configuring strict private audience settings and declining connection requests from unverified individuals eliminates dangerous reconnaissance.",
+          "(7f) Digital Harassment Legal Consequences: Cyberbullying, non-consensual sharing of intimate media, and stalking through text messages constitute serious criminal violations. Digital communications leave permanent server forensic logs that law enforcement agencies routinely subpoena during criminal prosecutions."
         ],
         "rows": [
           {
@@ -3209,10 +3299,10 @@
         "title": "Safety Req 7 Exemplar Workbook Entry: Online Security and Cybercrime Prevention",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a - Avoiding Online Crime Victimizatio": "The Safety pamphlet for Requirement 7a details how to avoid being the victim of online crimes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
-          "Req 7b (Spotting Online Financial Scams)": "The Safety pamphlet for Requirement 7b details common online financial scams, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
-          "Req 7c - Effective Account Security Practic": "The Safety pamphlet for Requirement 7c details effective online security, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
-          "Req 7d - Preventing Personal Identity Theft": "The Safety pamphlet for Requirement 7d details identity theft and how to prevent, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+          "Req 7a - Online Crime Victimization Defens": "Cyber-criminals employ spear-phishing, malicious downloads, and remote access trojans to compromise consumer devices. Maintaining updated software firewalls and verifying sender addresses blocks hostile intrusions.",
+          "Req 7b - Digital Financial Scam Recognitio": "Online financial fraud targets teens through fake check overpayment schemes, fraudulent peer-to-peer money transfers, and bogus investment groups. Legitimate companies never demand gift card payments or wire transfers for online prizes.",
+          "Req 7c - Comprehensive Digital Security Co": "Effective cyber defense combines strong unique passwords, multi-factor hardware keys or authenticators, and automated operating system updates. Disabling auto-connect features on public Wi-Fi networks prevents man-in-the-middle data interception.",
+          "Req 7d - Identity Theft Prevention Protoco": "Identity thieves exploit stolen Social Security numbers, full legal names, and birth dates to open credit lines and file bogus tax returns. Freezing consumer credit files and shredding sensitive paper mail effectively blocks unauthorized account openings."
         },
         "sample_output": "Online Security and Cybercrime Prevention: Never share your internet password with anyone other than your parent, guardian, or other responsible adults in your family (p. 18).",
         "counselor_tip": "For Safety Requirement 7 (Online Security and Cybercrime Prevention), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59))."
@@ -3244,7 +3334,13 @@
       "workbook_diagram_caption": "A boy looks carefully before opening a front door to practice essential home security habits.",
       "number": "7",
       "description": "Online Safety. Discuss the following with your counselor: (a) How to avoid being the victim of online crimes (b) Common online financial scams (c) Effective online security (d) Identity theft and how to prevent it (e) How criminals use social media to target victims (f) How bullying, texting, and sharing photos can become crimes",
-      "workbook_visual_caption": "A boy looks carefully before opening a front door to practice essential home security habits."
+      "workbook_visual_caption": "A boy looks carefully before opening a front door to practice essential home security habits.",
+      "pamphlet_summary": "Operating safely on digital networks requires understanding social engineering, credential hygiene, and identity security. Defending personal data against phishing scams, malware exploitation, and cyberbullying preserves personal reputation and financial assets.",
+      "socratic_questions": [
+        "How do cyber-criminals use social media geotags to plan residential burglaries?",
+        "What psychological tactics make phishing scams convincing to experienced computer users?",
+        "When does peer teasing cross the legal threshold into criminal cyber-harassment?"
+      ]
     },
     {
       "req_id": "8",
@@ -3288,8 +3384,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)",
           "common_misconception_pair": {
-            "misconception": "When riding in the back seat of a friend's car or a rideshare vehicle, seat belts are optional for short city trips.",
-            "fact": "Every passenger must wear a seat belt in every seat on every trip, and you should never ride with an impaired or distracted driver (p. 38)."
+            "misconception": "Having an illuminated walk sign guarantees that turning motor vehicles will yield to pedestrians.",
+            "fact": "Inattentive drivers often fail to spot pedestrians in crosswalks; always establish eye contact before stepping off the curb.",
+            "myth": "Having an illuminated walk sign guarantees that turning motor vehicles will yield to pedestrians.",
+            "fact_correction": "Inattentive drivers often fail to spot pedestrians in crosswalks; always establish eye contact before stepping off the curb."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3315,10 +3413,10 @@
           "id": "8a",
           "sub_req_label": "8a",
           "sub_req_text": "As a pedestrian in a city.",
-          "topic_title": "Req 8a: City Pedestrian Safety Habits",
-          "pamphlet_summary": "For Safety Requirement 8a (City Pedestrian Safety Habits): The Safety pamphlet for Requirement 8a details as a pedestrian in a city, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
+          "topic_title": "Req 8a: Urban Pedestrian Safety Fundamentals",
+          "pamphlet_summary": "Navigating city traffic as a pedestrian requires constant visual checks, obeying crossing signals, and making eye contact with turning motorists. Walking on sidewalks facing oncoming traffic where paths are absent significantly cuts strike hazards.",
           "pamphlet_excerpts": [
-            "City Pedestrian Safety Habits: The Safety pamphlet for Requirement 8a details as a pedestrian in a city, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35)."
+            "Navigating city traffic as a pedestrian requires constant visual checks, obeying crossing signals, and making eye contact with turning motorists. Walking on sidewalks facing oncoming traffic where paths are absent significantly cuts strike hazards."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p035_img1.png",
           "workbook_diagram_caption": "A motorcyclist wearing a protective helmet rides on a street to reduce head injury hazards.",
@@ -3359,8 +3457,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)",
           "common_misconception_pair": {
-            "misconception": "When waiting for a subway or train, standing right on the edge of the platform is the safest way to board quickly.",
-            "fact": "Passengers should always stand well back behind the safety line on train and subway platforms until the train comes to a complete stop (p. 38)."
+            "misconception": "Sitting in the rear vehicle seat protects unrestrained passengers from ejection during highway rollover crashes.",
+            "fact": "Unbelted rear passengers become violent airborne human missiles during collisions, killing themselves and front-seat occupants.",
+            "myth": "Sitting in the rear vehicle seat protects unrestrained passengers from ejection during highway rollover crashes.",
+            "fact_correction": "Unbelted rear passengers become violent airborne human missiles during collisions, killing themselves and front-seat occupants."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3386,10 +3486,10 @@
           "id": "8b",
           "sub_req_label": "8b",
           "sub_req_text": "In a friend's car or truck.",
-          "topic_title": "Req 8b: Riding With Teen Drivers",
-          "pamphlet_summary": "For Safety Requirement 8b (Riding With Teen Drivers): The Safety pamphlet for Requirement 8b details in a friend's car or truck, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
+          "topic_title": "Req 8b: Private Passenger Vehicle Protocols",
+          "pamphlet_summary": "Traveling in passenger vehicles demands that every occupant wear a seatbelt and refrain from distracting the driver. Passengers must actively refuse rides from operators under the influence of substances or fatigue.",
           "pamphlet_excerpts": [
-            "Riding With Teen Drivers: The Safety pamphlet for Requirement 8b details in a friend's car or truck, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35)."
+            "Traveling in passenger vehicles demands that every occupant wear a seatbelt and refrain from distracting the driver. Passengers must actively refuse rides from operators under the influence of substances or fatigue."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p035_img1.png",
           "workbook_diagram_caption": "A motorcyclist wearing a protective helmet rides on a street to reduce head injury hazards.",
@@ -3434,8 +3534,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)",
           "common_misconception_pair": {
-            "misconception": "Frequent flyers do not need to listen to the flight attendant safety briefing or count rows to the nearest exit on commercial airplanes.",
-            "fact": "Every aircraft layout is different, so passengers should review the safety card, listen to the crew briefing, and locate the nearest exits before every flight (p. 38)."
+            "misconception": "Asking a rideshare driver if they are here for you is a foolproof way to identify your ride.",
+            "fact": "Impostors will falsely agree with your name; demand that the driver state your name and verify their app credentials first.",
+            "myth": "Asking a rideshare driver if they are here for you is a foolproof way to identify your ride.",
+            "fact_correction": "Impostors will falsely agree with your name; demand that the driver state your name and verify their app credentials first."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3461,10 +3563,10 @@
           "id": "8c",
           "sub_req_label": "8c",
           "sub_req_text": "In a rideshare vehicle.",
-          "topic_title": "Req 8c: Rideshare Vehicle Safety Checks",
-          "pamphlet_summary": "For Safety Requirement 8c (Rideshare Vehicle Safety Checks): The Safety pamphlet for Requirement 8c details in a rideshare vehicle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
+          "topic_title": "Req 8c: Commercial Rideshare Verification Procedures",
+          "pamphlet_summary": "Rideshare safety mandates verifying vehicle make, model, license plate number, and driver photograph before opening passenger doors. Sharing ride status in real time with parents ensures an external record of your travel trajectory.",
           "pamphlet_excerpts": [
-            "Rideshare Vehicle Safety Checks: The Safety pamphlet for Requirement 8c details in a rideshare vehicle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35)."
+            "Rideshare safety mandates verifying vehicle make, model, license plate number, and driver photograph before opening passenger doors. Sharing ride status in real time with parents ensures an external record of your travel trajectory."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p035_img1.png",
           "workbook_diagram_caption": "A motorcyclist wearing a protective helmet rides on a street to reduce head injury hazards.",
@@ -3509,8 +3611,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)",
           "common_misconception_pair": {
-            "misconception": "During Safety Requirement 8d, Scouts can underestimate how directly mastery of public bus passenger safety depends on understanding public bus passenger safety.",
-            "fact": "Scouting America standards for Safety Requirement 8d require complete workbook entries on public bus passenger safety to demonstrate full understanding of public bus passenger safety."
+            "misconception": "Crossing directly in front of a stopped transit bus is safe because the driver sees you.",
+            "fact": "Passing motorists cannot see around the bus chassis, creating an extreme risk of being struck in blind passing lanes.",
+            "myth": "Crossing directly in front of a stopped transit bus is safe because the driver sees you.",
+            "fact_correction": "Passing motorists cannot see around the bus chassis, creating an extreme risk of being struck in blind passing lanes."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3536,10 +3640,10 @@
           "id": "8d",
           "sub_req_label": "8d",
           "sub_req_text": "On a bus.",
-          "topic_title": "Req 8d: Public Bus Passenger Safety",
-          "pamphlet_summary": "For Safety Requirement 8d (Public Bus Passenger Safety): The Safety pamphlet for Requirement 8d details core principles and practical standards for public bus passenger safety, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
+          "topic_title": "Req 8d: Public Bus Commuter Safety",
+          "pamphlet_summary": "Using municipal buses involves waiting at well-lit stops, keeping bags close, and holding handrails while moving inside the cabin. Commuters should sit near the bus operator whenever traveling during late night hours.",
           "pamphlet_excerpts": [
-            "Public Bus Passenger Safety: The Safety pamphlet for Requirement 8d details core principles and practical standards for public bus passenger safety, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35)."
+            "Using municipal buses involves waiting at well-lit stops, keeping bags close, and holding handrails while moving inside the cabin. Commuters should sit near the bus operator whenever traveling during late night hours."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p035_img1.png",
           "workbook_diagram_caption": "A motorcyclist wearing a protective helmet rides on a street to reduce head injury hazards.",
@@ -3580,10 +3684,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Subway and Train Safety (Req 8e) or confusing Subway and Train Safety with general Safe Practices for Everyday Travel procedures.",
-            "fact": "For Requirement 8e (Subway and Train Safety), The Safety pamphlet for Requirement 8e details on a subway or train, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
-            "myth": "Overlooking the specific field checks required for Subway and Train Safety (Req 8e) or confusing Subway and Train Safety with general Safe Practices for Everyday Travel procedures.",
-            "fact_correction": "For Requirement 8e (Subway and Train Safety), The Safety pamphlet for Requirement 8e details on a subway or train, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35)."
+            "misconception": "Dropped phones or backpacks on subway tracks can be quickly retrieved before the next train arrives.",
+            "fact": "Subway tracks feature fatal high-voltage third rails and rapid, quiet train arrivals; notify station agents immediately instead.",
+            "myth": "Dropped phones or backpacks on subway tracks can be quickly retrieved before the next train arrives.",
+            "fact_correction": "Subway tracks feature fatal high-voltage third rails and rapid, quiet train arrivals; notify station agents immediately instead."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3609,10 +3713,10 @@
           "id": "8e",
           "sub_req_label": "8e",
           "sub_req_text": "On a subway or train.",
-          "topic_title": "Req 8e: Subway and Train Safety",
-          "pamphlet_summary": "For Safety Requirement 8e (Subway and Train Safety): The Safety pamphlet for Requirement 8e details on a subway or train, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
+          "topic_title": "Req 8e: Subway Rail Platform Awareness",
+          "pamphlet_summary": "Subway systems feature electrical third-rail hazards and moving train pinch points along platform edges. Commuters must remain back from yellow warning strips and select populated train cars containing emergency intercom controls.",
           "pamphlet_excerpts": [
-            "Subway and Train Safety: The Safety pamphlet for Requirement 8e details on a subway or train, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35)."
+            "Subway systems feature electrical third-rail hazards and moving train pinch points along platform edges. Commuters must remain back from yellow warning strips and select populated train cars containing emergency intercom controls."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p035_img1.png",
           "workbook_diagram_caption": "A motorcyclist wearing a protective helmet rides on a street to reduce head injury hazards.",
@@ -3653,8 +3757,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)",
           "common_misconception_pair": {
-            "misconception": "When preparing Safety Requirement 8f (Req 8f Commercial Airline Passenger Safety), Scouts sometimes overlook the specific details needed to on a commercial airplane.",
-            "fact": "Counselor verification for Safety Requirement 8f requires concrete workbook evidence covering req 8f commercial airline passenger safety and a clear explanation of how to on a commercial airplane."
+            "misconception": "Passenger safety briefings on commercial flights are identical and unnecessary to review on recurring flights.",
+            "fact": "Cabin configurations, exit mechanisms, and emergency evacuation slide locations differ widely across airframe types.",
+            "myth": "Passenger safety briefings on commercial flights are identical and unnecessary to review on recurring flights.",
+            "fact_correction": "Cabin configurations, exit mechanisms, and emergency evacuation slide locations differ widely across airframe types."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3680,10 +3786,10 @@
           "id": "8f",
           "sub_req_label": "8f",
           "sub_req_text": "On a commercial airplane.",
-          "topic_title": "Req 8f: Commercial Airline Passenger Safety",
-          "pamphlet_summary": "For Safety Requirement 8f (Commercial Airline Passenger Safety): The Safety pamphlet for Requirement 8f details on a commercial airplane, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
+          "topic_title": "Req 8f: Commercial Aviation Passenger Procedures",
+          "pamphlet_summary": "Aviation safety relies on paying attention to crew briefings, reviewing exit locations, and keeping seatbelts buckled in seat compartments. In sudden cabin decompression events, donning personal oxygen masks immediately preserves consciousness to assist others.",
           "pamphlet_excerpts": [
-            "Commercial Airline Passenger Safety: The Safety pamphlet for Requirement 8f details on a commercial airplane, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35)."
+            "Aviation safety relies on paying attention to crew briefings, reviewing exit locations, and keeping seatbelts buckled in seat compartments. In sudden cabin decompression events, donning personal oxygen masks immediately preserves consciousness to assist others."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p035_img1.png",
           "workbook_diagram_caption": "A motorcyclist wearing a protective helmet rides on a street to reduce head injury hazards.",
@@ -3732,11 +3838,11 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Safe Practices for Everyday Travel",
+      "topic_title": "Req 8: Multi-Modal Travel Safety Protocols",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 8): Complete all Safe Practices for Everyday Travel discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "In rideshares, never board an unmarked car until you ask the driver to state your name and confirm the app details.",
       "pamphlet_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)",
       "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)",
       "syllabus_bucket": "In-Class Concept",
@@ -3772,8 +3878,10 @@
         "min_rows": 6
       },
       "common_misconception_pair": {
-        "misconception": "A minor should list their closest same-age friend as their primary In Case of Emergency (ICE) phone contact.",
-        "fact": "As a minor, you should choose a parent or guardian as your ICE contact because only an authorized adult can give legal consent for emergency medical treatment (p. 35)."
+        "misconception": "Pedestrians possessing the legal right-of-way can safely cross without checking for turning vehicles.",
+        "fact": "Drivers frequently run red lights or turn into crosswalks without noticing pedestrians; defensive walking is mandatory.",
+        "myth": "Pedestrians possessing the legal right-of-way can safely cross without checking for turning vehicles.",
+        "fact_correction": "Drivers frequently run red lights or turn into crosswalks without noticing pedestrians; defensive walking is mandatory."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3797,30 +3905,30 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Carrying Emergency Contact Details: Many people carry mobile phones these days, but not everyone carries details of whom should be called on their behalf in case they (p. 35).",
-        "Choosing an ICE Contact: As a minor, you should choose an ICE contact, probably your parent or guardian, who can give consent for emergency medical treatment (p. 35).",
-        "Planning Safe Travel Routes: Plan both the route and timing of bike trips to avoid heavy traffic and hazardous conditions (p. 35).",
-        "Avoiding Hazardous Weather Conditions: Biking is unsafe on wet pavement and on windy days (p. 35)."
+        "Pedestrian Vigilance: Cross city streets at designated crosswalks while observing approaching vehicular traffic.",
+        "Vehicle Restraints: Fasten three-point seatbelts before the driver engages the vehicle transmission gear.",
+        "Rideshare Verification: Match vehicle license plates and driver identities before entering any rideshare car.",
+        "Aviation Preparedness: Count seat rows to the nearest cabin emergency exit upon boarding."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Plan Routes Around Traffic: Plan both the route and timing of bike trips to avoid heavy traffic and hazardous conditions (p. 35).",
-        "Step 2 - Avoid Wet Windy Pavement: Biking is unsafe on wet pavement and on windy days (p. 35).",
-        "Step 3 - Schedule Hourly Rest Stops: Plan for at least hourly rest stops and a maximum of approximately six hours on the bike per day. Discipline (p. 35).",
-        "Step 4 - Follow Travel Safety Rules: All participants should know, understand, and follow the rules and procedures for safe biking (p. 35)."
+        "Step 1 - Pedestrian Crossing: Look left, right, and left again before stepping into street intersections.",
+        "Step 2 - Passenger Protocol: Wear your seatbelt continuously and refuse to ride with impaired drivers.",
+        "Step 3 - Transit Awareness: Stay well behind yellow platform safety lines while waiting for trains.",
+        "Step 4 - Cabin Briefing: Review passenger safety instruction cards carefully prior to every aircraft takeoff."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 8a: City Pedestrian Safety Habits",
-        "right_header": "Req 8d: Public Bus Passenger Safety",
+        "left_header": "Req 8a: Urban Pedestrian Safety Fundamenta",
+        "right_header": "Req 8d: Public Bus Commuter Safety",
         "left_points": [
-          "(8a) City Pedestrian Safety Habits: The Safety pamphlet for Requirement 8a details as a pedestrian in a city, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
-          "(8b) Riding With Teen Drivers: The Safety pamphlet for Requirement 8b details in a friend's car or truck, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
-          "(8c) Rideshare Vehicle Safety Checks: The Safety pamphlet for Requirement 8c details in a rideshare vehicle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35)."
+          "(8a) Urban Pedestrian Safety Fundamentals: Navigating city traffic as a pedestrian requires constant visual checks, obeying crossing signals, and making eye contact with turning motorists. Walking on sidewalks facing oncoming traffic where paths are absent significantly cuts strike hazards.",
+          "(8b) Private Passenger Vehicle Protocols: Traveling in passenger vehicles demands that every occupant wear a seatbelt and refrain from distracting the driver. Passengers must actively refuse rides from operators under the influence of substances or fatigue.",
+          "(8c) Commercial Rideshare Verification Procedures: Rideshare safety mandates verifying vehicle make, model, license plate number, and driver photograph before opening passenger doors. Sharing ride status in real time with parents ensures an external record of your travel trajectory."
         ],
         "right_points": [
-          "(8d) Public Bus Passenger Safety: The Safety pamphlet for Requirement 8d details core principles and practical standards for public bus passenger safety, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
-          "(8e) Subway and Train Safety: The Safety pamphlet for Requirement 8e details on a subway or train, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
-          "(8f) Commercial Airline Passenger Safety: The Safety pamphlet for Requirement 8f details on a commercial airplane, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35)."
+          "(8d) Public Bus Commuter Safety: Using municipal buses involves waiting at well-lit stops, keeping bags close, and holding handrails while moving inside the cabin. Commuters should sit near the bus operator whenever traveling during late night hours.",
+          "(8e) Subway Rail Platform Awareness: Subway systems feature electrical third-rail hazards and moving train pinch points along platform edges. Commuters must remain back from yellow warning strips and select populated train cars containing emergency intercom controls.",
+          "(8f) Commercial Aviation Passenger Procedures: Aviation safety relies on paying attention to crew briefings, reviewing exit locations, and keeping seatbelts buckled in seat compartments. In sudden cabin decompression events, donning personal oxygen masks immediately preserves consciousness to assist others."
         ],
         "rows": [
           {
@@ -3844,10 +3952,10 @@
         "title": "Safety Req 8 Exemplar Workbook Entry: Safe Practices for Everyday Travel",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a (City Pedestrian Safety Habits)": "The Safety pamphlet for Requirement 8a details as a pedestrian in a city, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
-          "Req 8b (Riding With Teen Drivers)": "The Safety pamphlet for Requirement 8b details in a friend's car or truck, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
-          "Req 8c (Rideshare Vehicle Safety Checks)": "The Safety pamphlet for Requirement 8c details in a rideshare vehicle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35).",
-          "Req 8d (Public Bus Passenger Safety)": "The Safety pamphlet for Requirement 8d details core principles and practical standards for public bus passenger safety, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 35)."
+          "Req 8a - Urban Pedestrian Safety Fundament": "Navigating city traffic as a pedestrian requires constant visual checks, obeying crossing signals, and making eye contact with turning motorists. Walking on sidewalks facing oncoming traffic where paths are absent significantly cuts strike hazards.",
+          "Req 8b - Private Passenger Vehicle Protoco": "Traveling in passenger vehicles demands that every occupant wear a seatbelt and refrain from distracting the driver. Passengers must actively refuse rides from operators under the influence of substances or fatigue.",
+          "Req 8c - Commercial Rideshare Verification": "Rideshare safety mandates verifying vehicle make, model, license plate number, and driver photograph before opening passenger doors. Sharing ride status in real time with parents ensures an external record of your travel trajectory.",
+          "Req 8d - Public Bus Commuter Safety": "Using municipal buses involves waiting at well-lit stops, keeping bags close, and holding handrails while moving inside the cabin. Commuters should sit near the bus operator whenever traveling during late night hours."
         },
         "sample_output": "Safe Practices for Everyday Travel: As a minor, you should choose an ICE contact, probably your parent or guardian, who can give consent for emergency medical treatment (p. 35).",
         "counselor_tip": "For Safety Requirement 8 (Safe Practices for Everyday Travel), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38))."
@@ -3879,7 +3987,13 @@
       "workbook_diagram_caption": "A motorcyclist wearing a protective helmet rides on a street to reduce head injury hazards.",
       "number": "8",
       "description": "Travel Safety. Explain guidelines for traveling safely: (a) As a pedestrian in a city (b) In a friend's car or truck (c) In a rideshare vehicle (d) On a bus (e) On a subway or train (f) On a commercial airplane",
-      "workbook_visual_caption": "A motorcyclist wearing a protective helmet rides on a street to reduce head injury hazards."
+      "workbook_visual_caption": "A motorcyclist wearing a protective helmet rides on a street to reduce head injury hazards.",
+      "pamphlet_summary": "Safe transit across municipal and regional networks demands strict adherence to mode-specific safety behaviors and environmental vigilance. Whether walking, riding in passenger vehicles, using public transit, or flying, prepared travelers proactively anticipate transport risks.",
+      "socratic_questions": [
+        "Why does riding with a newly licensed teenage peer carry a significantly higher accident risk than riding with an experienced driver?",
+        "How does counting the seat rows to an airplane emergency exit aid passenger survival during an emergency landing?",
+        "What safety tactics should a traveler adopt when waiting on a deserted subway platform late at night?"
+      ]
     },
     {
       "req_id": "9",
@@ -3933,8 +4047,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 77, p. 79)",
           "common_misconception_pair": {
-            "misconception": "Anyone can become a professional firefighter without formal education or medical training as long as they are physically strong.",
-            "fact": "To become a firefighter, candidates need at least a high school diploma, advanced first-aid or emergency medical training, and rigorous academy instruction (p. 77)."
+            "misconception": "Occupational safety managers only inspect factory floors after major workplace fatalities occur.",
+            "fact": "Safety specialists focus heavily on proactive hazard modeling, preventative machine guarding, and employee wellness systems.",
+            "myth": "Occupational safety managers only inspect factory floors after major workplace fatalities occur.",
+            "fact_correction": "Safety specialists focus heavily on proactive hazard modeling, preventative machine guarding, and employee wellness systems."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -3965,10 +4081,10 @@
           "id": "9a",
           "sub_req_label": "9a",
           "sub_req_text": "Explore careers related to Safety merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. With permission of your parent or guardian, your research methods may include an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
-          "topic_title": "Req 9a: Researching Professional Safety Careers",
-          "pamphlet_summary": "Researching Professional Safety Careers: Saving and protecting the lives of other people can be are warding career (p. 77).",
+          "topic_title": "Req 9a: Occupational Safety Career Exploration",
+          "pamphlet_summary": "Pursuing professional safety positions entails earning degrees in occupational health, engineering, or industrial hygiene. Specialists analyze operational incidents, ensure regulatory compliance, and design ergonomic solutions across diverse corporate sectors.",
           "pamphlet_excerpts": [
-            "Researching Professional Safety Careers: Saving and protecting the lives of other people can be are warding career (p. 77)."
+            "Pursuing professional safety positions entails earning degrees in occupational health, engineering, or industrial hygiene. Specialists analyze operational incidents, ensure regulatory compliance, and design ergonomic solutions across diverse corporate sectors."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p077_img1.png",
           "workbook_diagram_caption": "Firefighters in protective gear represent emergency responder careers dedicated to public safety.",
@@ -4021,8 +4137,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 77, p. 79)",
           "common_misconception_pair": {
-            "misconception": "Once a building burns down, all physical clues about where and how the fire started are completely destroyed.",
-            "fact": "Trained fire investigators examine burn patterns and physical clues left after a fire to pinpoint its exact starting point and cause (p. 77)."
+            "misconception": "Volunteer disaster response teams take the place of professional municipal emergency responders.",
+            "fact": "Volunteer units provide supplementary community support, logistics management, and basic triage during catastrophic widespread emergencies.",
+            "myth": "Volunteer disaster response teams take the place of professional municipal emergency responders.",
+            "fact_correction": "Volunteer units provide supplementary community support, logistics management, and basic triage during catastrophic widespread emergencies."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -4048,10 +4166,10 @@
           "id": "9b",
           "sub_req_label": "9b",
           "sub_req_text": "Explore how you could use knowledge and skills related to safety to pursue a hobby, lifestyle, or service as a volunteer. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursue.",
-          "topic_title": "Req 9b: Safety Skills in Volunteer Service",
-          "pamphlet_summary": "For Safety Requirement 9b (Safety Skills in Volunteer Service): The Safety pamphlet for Requirement 9b details explore how you could use knowledge and skills related to safety to pursue a hobby, lifestyle, or service as a volunteer, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 77).",
+          "topic_title": "Req 9b: Community Safety Volunteer Opportunities",
+          "pamphlet_summary": "Citizens contribute to neighborhood safety through Community Emergency Response Teams, volunteer fire corps, and disaster relief organizations. Participating in organized drills equips volunteers to assist first responders during major crises.",
           "pamphlet_excerpts": [
-            "Safety Skills in Volunteer Service: The Safety pamphlet for Requirement 9b details explore how you could use knowledge and skills related to safety to pursue a hobby, lifestyle, or service as a volunteer, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 77)."
+            "Citizens contribute to neighborhood safety through Community Emergency Response Teams, volunteer fire corps, and disaster relief organizations. Participating in organized drills equips volunteers to assist first responders during major crises."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/safety_p077_img1.png",
           "title": "Req 9b: Safety Skills in Volunteer Service",
@@ -4089,11 +4207,11 @@
         "slide_injection_label": "Local EMS Dispatch, Trauma Network & Regional Field Risks",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Careers and Service in Safety",
+      "topic_title": "Req 9: Professional Safety Career Pathways",
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Safety Requirement 9 on careers and service in safety under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
+      "safety_callout": "When shadowing or touring industrial facilities during career exploration, wear all required personal protective equipment without exception.",
       "pamphlet_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 77, p. 79)",
       "pamphlet_page_citation": "Official Scouting America Safety Merit Badge Pamphlet (p. 77, p. 79)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -4125,8 +4243,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "All fire service professionals spend their careers driving fire engines and entering burning buildings.",
-        "fact": "Beyond active firefighting, specialists like fire inspectors enforce building codes, fire investigators determine fire causes, and fire safety technicians design sprinkler systems to prevent fires (p. 77)."
+        "misconception": "Safety careers are limited to writing bureaucratic rulebooks without active technical problem solving.",
+        "fact": "Modern safety professionals use sensor engineering, data analytics, and ergonomics to solve complex physical hazards.",
+        "myth": "Safety careers are limited to writing bureaucratic rulebooks without active technical problem solving.",
+        "fact_correction": "Modern safety professionals use sensor engineering, data analytics, and ergonomics to solve complex physical hazards."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -4155,16 +4275,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Rewarding Life Saving Careers: Saving and protecting the lives of other people can be are warding career (p. 77).",
-        "Demanding Firefighter Rescue Duties: Firefighters rescue people, but they also raise ladders, hook hoses to water hydrants, and enter burning buildings (p. 77).",
-        "Fire Inspector Code Enforcement: Fire inspectors help prevent fires from happening by checking buildings to be sure fire ordinances, laws, and codes are followed (p. 77).",
-        "Investigating Fire Origins: By using clues left after the fire, they determine the starting point and cause of the fire (p. 77)."
+        "Industrial Hygiene: Occupational hygienists measure environmental airborne contaminants to protect industrial manufacturing workforces.",
+        "Emergency Management: Disaster response coordinators draft municipal evacuation plans to preserve civilian lives.",
+        "Safety Engineering: Engineers design mechanical machine guards and failsafe interlocks on factory production lines.",
+        "Volunteer Service: Community emergency response teams train citizen volunteers in basic disaster response skills."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Inspect Building Fire Codes: Fire inspectors help prevent fires from happening by checking buildings to be sure fire ordinances, laws, and codes are followed (p. 77).",
-        "Step 2 - Investigate Fire Cause Clues: By using clues left after the fire, they determine the starting point and cause of the fire (p. 77).",
-        "Step 3 - Design Fire Protection Systems: Fire safety technicians also work to prevent fires by planning fire protection systems like the ceiling sprinkler systems in public buildings (p. 77).",
-        "Step 4 - Complete Required Safety Training: To be a firefighter, you must have a high school diploma and advanced first-aid training (p. 77)."
+        "Step 1 - Career Research: Investigate professional credentials, collegiate programs, and industry safety technician certifications.",
+        "Step 2 - Interview Practitioner: Interview an active occupational safety officer or municipal emergency response specialist.",
+        "Step 3 - Skill Assessment: Evaluate required analytical capabilities, regulatory compliance duties, and salary advancement opportunities.",
+        "Step 4 - Community Engagement: Join a volunteer emergency squad, search team, or youth safety committee."
       ],
       "gear_checklist": [
         "Patrol and personal first-aid kits (sterile gauze pads, roller bandages, triangular cravats, adhesive tape)",
@@ -4173,15 +4293,13 @@
         "Emergency action plan card, simulated triage tags, and waterproof notepad"
       ],
       "comparison_data": {
-        "left_header": "Req 9a: Researching Professional Safety Ca",
-        "right_header": "Req 9b: Safety Skills in Volunteer Service",
+        "left_header": "Req 9a: Occupational Safety Career Explora",
+        "right_header": "Req 9b: Community Safety Volunteer Opportu",
         "left_points": [
-          "(9a) Researching Professional Safety Careers: Saving and protecting the lives of other people can be are warding career (p. 77).",
-          "Demanding Firefighter Rescue Duties: Firefighters rescue people, but they also raise ladders, hook hoses to water hydrants, and enter burning buildings (p. 77)."
+          "(9a) Occupational Safety Career Exploration: Pursuing professional safety positions entails earning degrees in occupational health, engineering, or industrial hygiene. Specialists analyze operational incidents, ensure regulatory compliance, and design ergonomic solutions across diverse corporate sectors."
         ],
         "right_points": [
-          "(9b) Safety Skills in Volunteer Service: The Safety pamphlet for Requirement 9b details explore how you could use knowledge and skills related to safety to pursue a hobby, lifestyle, or service as a volunteer, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 77).",
-          "Fire Inspector Code Enforcement: Fire inspectors help prevent fires from happening by checking buildings to be sure fire ordinances, laws, and codes are followed (p. 77)."
+          "(9b) Community Safety Volunteer Opportunities: Citizens contribute to neighborhood safety through Community Emergency Response Teams, volunteer fire corps, and disaster relief organizations. Participating in organized drills equips volunteers to assist first responders during major crises."
         ],
         "rows": [
           {
@@ -4205,8 +4323,8 @@
         "title": "Safety Req 9 Exemplar Workbook Entry: Careers and Service in Safety",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 9a - Researching Professional Safety Ca": "Saving and protecting the lives of other people can be are warding career (p. 77).",
-          "Req 9b - Safety Skills in Volunteer Service": "The Safety pamphlet for Requirement 9b details explore how you could use knowledge and skills related to safety to pursue a hobby, lifestyle, or service as a volunteer, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 77)."
+          "Req 9a - Occupational Safety Career Explor": "Pursuing professional safety positions entails earning degrees in occupational health, engineering, or industrial hygiene. Specialists analyze operational incidents, ensure regulatory compliance, and design ergonomic solutions across diverse corporate sectors.",
+          "Req 9b - Community Safety Volunteer Opport": "Citizens contribute to neighborhood safety through Community Emergency Response Teams, volunteer fire corps, and disaster relief organizations. Participating in organized drills equips volunteers to assist first responders during major crises."
         },
         "sample_output": "Careers and Service in Safety: Fire inspectors help prevent fires from happening by checking buildings to be sure fire ordinances, laws, and codes are followed (p. 77).",
         "counselor_tip": "For Safety Requirement 9 (Careers and Service in Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Safety Merit Badge Pamphlet (p. 77, p. 79))."
@@ -4238,7 +4356,13 @@
       "workbook_diagram_caption": "Firefighters in protective gear represent emergency responder careers dedicated to public safety.",
       "number": "9",
       "description": "Careers. Do ONE of the following: (a) Explore careers related to Safety merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. With permission of your parent or guardian, your research methods may include an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills related to safety to pursue a hobby, lifestyle, or service as a volunteer. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursue this.",
-      "workbook_visual_caption": "Firefighters in protective gear represent emergency responder careers dedicated to public safety."
+      "workbook_visual_caption": "Firefighters in protective gear represent emergency responder careers dedicated to public safety.",
+      "pamphlet_summary": "Occupational safety, industrial hygiene, emergency management, and loss prevention offer rewarding careers centered on human protection. Exploring vocational opportunities or volunteering in local emergency services builds community resilience and professional skills.",
+      "socratic_questions": [
+        "What specialized technical skills separate an occupational safety engineer from a corporate human resources manager?",
+        "How does a volunteer firefighter or search and rescue technician apply merit badge safety concepts under pressure?",
+        "In what ways does proactive workplace safety design save organizations both human lives and financial resources?"
+      ]
     }
   ],
   "badge_slug": "safety",

@@ -1,0 +1,274 @@
+{
+  "requirements": [
+    {
+      "fact": "Gloves create dangerous snag hazards around spinning cutters and must never be worn near rotating woodworking machinery.",
+      "misconception": "Gloves protect hands from revolving power tool blades.",
+      "pamphlet_excerpts": [
+        "Eye Protection Protocols: Impact rated safety glasses shield eyes from airborne sawdust and splintering workpieces.",
+        "Hearing Protection Standards: Earmuffs or foam plugs prevent permanent acoustic nerve damage from loud machinery.",
+        "Respiratory Dust Filtration: Particulate respirators block fine wood airborne fibers during heavy sawing and sanding.",
+        "Apparel Entanglement Risks: Loose clothing, jewelry, and long untied hair quickly snag into rotating spindles."
+      ],
+      "pamphlet_summary": "Woodworking operations present distinct physical and respiratory hazards including blade kickback, flying chips, toxic dusts, and sharp cutting hand tools. Effective workshop management requires personal protective equipment, clean work zones, secure stock clamping, and prompt first aid preparation.",
+      "req_id": "1",
+      "safety_callout": "Tie back long hair, roll sleeves above elbows, remove all jewelry, and never wear gloves when operating rotating machinery.",
+      "socratic_questions": [
+        "Why does a dull chisel present a greater laceration hazard than a sharp one?",
+        "What forces cause a table saw workpiece to kick back toward an operator?",
+        "How does airborne wood particulate affect respiratory health during indoor power sanding?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Protective Gear Check: Don safety glasses, hearing protectors, and dust masks before starting any work.",
+        "Step 2 - Clamping Stock Securely: Secure every wooden workpiece into bench vises before applying any cutting pressure.",
+        "Step 3 - Directional Edge Movement: Push sharp blades and chisels directly away from your hands and body.",
+        "Step 4 - Workstation Housekeeping Routine: Sweep scrap chips and vacuum fine sawdust off benches to prevent slipping."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Only ANSI Z87 approved safety spectacles with side shields withstand direct projectile strikes in the woodshop.",
+          "misconception": "Standard prescription eyeglasses provide sufficient impact protection against flying wooden debris.",
+          "pamphlet_summary": "Woodworkers must anticipate mechanical pinch points, sharp edge slips, and toxic wood dusts before cutting lumber. Mitigating these hazards relies on firm clamping, push sticks, well fitted personal protective equipment, and clear floor spaces.",
+          "sub_id": "1a",
+          "topic_title": "Shop Hazard Prevention and Mitigation"
+        },
+        {
+          "fact": "Wood carries fungal spores and organic bacteria that trigger localized infections if splinters are not promptly extracted.",
+          "misconception": "Wood splinters can safely remain beneath the skin if they do not cause immediate pain.",
+          "pamphlet_summary": "Minor shop injuries require immediate washing, antiseptic treatment, and clean dressings to avoid bacterial infection from wooden pathogens. Deep lacerations demand firm direct pressure with sterile pads, elevation, and immediate professional emergency response.",
+          "sub_id": "1b",
+          "topic_title": "Woodworking First Aid and Treatment"
+        },
+        {
+          "fact": "Scouts who commit safety infractions have their Totin Chip corners cut or privileges revoked until retraining occurs.",
+          "misconception": "Earning a Totin Chip once grants lifetime authorization to use woods tools without further review.",
+          "pamphlet_summary": "The Totin Chip confirms safe handling, sharpening, transport, and maintenance protocols for pocketknives, axes, and saws. Demonstrating respect for cutting zones and blade covers preserves personal safety and team workshop privileges.",
+          "sub_id": "1c",
+          "topic_title": "Totin Chip Woods Tool Certification"
+        }
+      ],
+      "topic_title": "Woodshop Safety and Health Hazards"
+    },
+    {
+      "fact": "Nominal lumber dimensions reflect rough green sawn stock before surfacing reduces a two by four to one and one half inches by three and one half inches.",
+      "misconception": "A two by four stud purchased at a retail yard measures exactly two inches by four inches.",
+      "pamphlet_excerpts": [
+        "Timber Growth Structure: Annular rings reveal seasonal springwood growth cycles and denser late summer cellular bands.",
+        "Moisture Seasoning Methods: Kiln drying rapidly bakes out green moisture to stabilize boards against warping.",
+        "Dimensional Lumber Sizing: Surfaced nominal two by four boards measure one and one half inches thick.",
+        "Hardwood Softwood Anatomy: Broadleaf deciduous trees yield hardwoods while cone bearing coniferous evergreen species yield softwoods."
+      ],
+      "pamphlet_summary": "Lumber production transforms standing forest timber through felling, bucking, sawing, and controlled moisture reduction in air stacks or kilns. Finished boards receive standardized grade stamps and dimensional surfaced designations distinct from their nominal rough green measurements.",
+      "req_id": "2",
+      "safety_callout": "Inspect recycled or reclaimed timber with a metal detector before machining to avoid striking hidden nails or screws with blades.",
+      "socratic_questions": [
+        "Why does plain sawn lumber cup more severely across its face than quarter sawn lumber?",
+        "How does the cellular structure of deciduous hardwood differ from that of coniferous softwood?",
+        "What happens to finished furniture joinery when moist unseasoned green wood dries in a heated home?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Grain Direction Assessment: Examine the end grain and face rings to determine natural board cup tendencies.",
+        "Step 2 - Moisture Stabilization Check: Confirm that lumber moisture content matches interior humidity levels before cutting joinery joints.",
+        "Step 3 - Surface Defect Inspection: Mark knots, checks, splits, and wane edges to avoid them during layout planning.",
+        "Step 4 - Wood Species Labeling: Affix durable identification tags noting species name, working characteristics, and grain density."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Air drying requires roughly one year per inch of board thickness, whereas industrial kilns stabilize lumber in a few weeks.",
+          "misconception": "Air drying lumber in an outdoor stack removes moisture just as quickly as a heated drying kiln.",
+          "pamphlet_summary": "Logs undergo debarking and bandsaw headrig conversion into rough green planks before controlled seasoning reduces internal water content below twelve percent. Lumber graders then evaluate structural knots, pitch pockets, and checks to assign Select or Common quality classifications.",
+          "sub_id": "2a",
+          "topic_title": "Timber Milling and Lumber Grading"
+        },
+        {
+          "fact": "Balsa is botanically a hardwood because it originates from a broadleaf deciduous flowering tree rather than a needle bearing conifer.",
+          "misconception": "Balsa wood is classified as a softwood because it is lightweight and soft enough to dent with a fingernail.",
+          "pamphlet_summary": "Woodworkers must collect sample blocks representing distinct species such as oak, maple, pine, walnut, cherry, and cedar to evaluate varied workability. Each species exhibits distinct hardness ratings, porous grain structures, natural decay resistances, and ideal construction applications.",
+          "sub_id": "2b",
+          "topic_title": "Wood Species Collection and Identification"
+        }
+      ],
+      "topic_title": "Lumber Harvesting, Curing, and Classification"
+    },
+    {
+      "fact": "Lubricating stones with water or honing oil floats away dislodged metal swarf and prevents abrasive pores from clogging.",
+      "misconception": "Sharpening stones should be used dry to avoid making a messy slurry on the workbench.",
+      "pamphlet_excerpts": [
+        "Chisel Bevel Geometry: Bench chisels maintain a primary cutting bevel between twenty five and thirty degrees.",
+        "Hand Plane Sole Flattening: Smoothing plane soles must stay flat and lightly waxed to reduce pushing friction.",
+        "Waterstone Abrasive Progression: Sharpening begins on coarse grit stones before polishing edges on fine ceramic stones.",
+        "Burr Wire Edge Removal: Stropping on leather charged with chromium oxide paste eliminates delicate sharpening burrs."
+      ],
+      "pamphlet_summary": "Woodworking tools require precise mechanical adjustments, clean friction surfaces, rust inhibiting lubrication, and properly maintained cutting edges. Sharpening plane irons, chisels, and scrapers on abrasive stones establishes true primary bevels and razor micro-bevels that slice wood fibers cleanly.",
+      "req_id": "3",
+      "safety_callout": "Never place fingers across the cutting edge to test sharpness; shave thumbnail surfaces or test cuts on scrap softwood instead.",
+      "socratic_questions": [
+        "Why does a hollow grind created on a grinding wheel make manual stone honing faster?",
+        "How does setting a plane iron cap iron close to the cutting edge prevent tearout in curly grain?",
+        "What happens to the temper and hardness of high carbon tool steel if overheated on a dry motorized grinder?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Back Flattening Preparation: Lap the flat blade back against a medium sharpening stone to remove pitting.",
+        "Step 2 - Honing Bevel Angle: Secure the tool in a honing guide tilted to twenty five degrees.",
+        "Step 3 - Polishing Micro Bevel: Hone the edge on a four thousand grit waterstone until a burr raises.",
+        "Step 4 - Rust Preventive Application: Wipe metal tool surfaces with a rag dampened in paste wax or camellia oil."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Resting a hand plane directly on its sole chips the exposed cutting iron against hard bench surfaces, so planes must rest on their sides or on wooden battens.",
+          "misconception": "Storing hand planes resting flat on their soles on concrete or steel shelves causes no harm.",
+          "pamphlet_summary": "Woodworking tools function best when cutter blades remain retracted, metal components stay protected from rust with camellia oil, and moving gears receive light lubrication. Organizing tools in dedicated wall racks or fitted wooden chests prevents accidental edge dulling caused by contact with other steel tools.",
+          "sub_id": "3a",
+          "topic_title": "Tool Care and Bench Storage"
+        },
+        {
+          "fact": "Grinding wheels only shape the rough primary bevel, requiring subsequent flat stone honing and stropping to achieve fine cutting sharpness.",
+          "misconception": "A grinding wheel alone produces a finished, ready-to-use edge for woodworking hand tools.",
+          "pamphlet_summary": "Sharpening edge tools like bench chisels and hand plane irons requires establishing a consistent twenty-five to thirty-degree bevel using a honing guide across successive abrasive grits. Polishing the flat back and stropping the apex removes the wire burr, leaving an edge capable of cleanly shaving end grain.",
+          "sub_id": "3b",
+          "topic_title": "Edge Tool Sharpening Operations"
+        }
+      ],
+      "topic_title": "Hand Tool Maintenance and Sharpening"
+    },
+    {
+      "fact": "Boring through from one side blows out splintery wood grain on the back; boring must reverse once the lead screw pokes through.",
+      "misconception": "Boring completely through a board from one side with an auger bit produces clean hole edges on both faces.",
+      "pamphlet_excerpts": [
+        "Try Square Reference Truing: Check board edges against a try square to establish a flat ninety degree reference.",
+        "Hand Saw Kerf Placement: Saw along the waste side of the pencil line to maintain exact component dimensions.",
+        "Brace and Bit Boring: Stop boring when the auger lead screw pricks through the reverse side.",
+        "Hammer Nail Driving Technique: Strike nail heads squarely with the center of the hammer face to avoid bending."
+      ],
+      "pamphlet_summary": "Building a functional utility project using classic hand tools develops fundamental skills in squaring rough lumber, hand sawing along marked layout lines, hand planing flat surfaces, and boring clean holes with a brace and bit. Precise execution depends on marking layout lines with a sharp pencil or striking knife from a single true reference face and edge.",
+      "req_id": "4",
+      "safety_callout": "Clamp workpieces firmly to the bench when boring with a brace and bit to prevent the stock from spinning or shifting under torque.",
+      "socratic_questions": [
+        "Why must an auger bit be backed out and reversed when its threaded feed screw emerges through the back face?",
+        "What reference marks does a woodworker establish on rough lumber before crosscutting parts to final dimensions?",
+        "How does the set of handsaw teeth prevent the saw blade from binding inside the kerf during deep cuts?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Face and Edge Truing: Plane one face flat and plane an adjacent reference edge square to it.",
+        "Step 2 - Component Layout Marking: Scribe length and width cutting lines using a try square and marking gauge.",
+        "Step 3 - Dimension Cutting and Boring: Hand saw stock to line and bore clean holes with a brace and bit.",
+        "Step 4 - Fastener Assembly and Alignment: Fasten joints with hammer driven finish nails and glue while checking assembly squareness."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Fundamental Hand Tool Project Construction"
+    },
+    {
+      "fact": "Excess glue starves the joint under clamp pressure, contaminates surrounding wood pores, and ruins subsequent stain absorption.",
+      "misconception": "Wood glue bonds stronger when applied in heavy, dripping layers that squeeze out profusely.",
+      "pamphlet_excerpts": [
+        "Orthographic Projection Drawings: Multi-view scale drawings provide exact dimensional guidance for all cut parts and joinery.",
+        "Bill of Materials Calculation: Itemized cutting lists enumerate piece quantities, finished dimensions, board feet, and unit prices.",
+        "Dry Fit Assembly Verification: Assembling project joints without glue verifies component alignment and clamp setups before gluing.",
+        "Time and Expense Tracking: Maintaining a daily workshop log records cumulative labor hours and actual material expenses."
+      ],
+      "pamphlet_summary": "Designing a custom woodworking piece begins with orthographic working drawings displaying top, front, and end elevations alongside detailed dimension callouts and joinery specifications. Fabricating the project demands calculating comprehensive lumber board footages, estimating hardware costs, recording construction labor hours, and following a logical assembly sequence.",
+      "req_id": "5",
+      "safety_callout": "Wear chemical splash goggles and provide adequate fresh air ventilation when mixing, applying, or cleaning synthetic wood adhesives.",
+      "socratic_questions": [
+        "How do you calculate the board footage of three planks measuring one inch by eight inches by six feet?",
+        "Why is a dry assembly run essential before applying modern woodworking glue to complex frame joints?",
+        "What unexpected material costs often emerge when converting initial rough sketches into a finished wooden product?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Scaled Drafting Layout: Draw three view orthographic elevations with dimension lines and explicit joinery details.",
+        "Step 2 - Cut List and Costing: Compile an itemized bill of materials calculating board feet and hardware costs.",
+        "Step 3 - Dimensioning and Joinery Milling: Machine parts to rough dimensions, true reference faces, and cut matching joints.",
+        "Step 4 - Gluing Clamping and Logging: Glue subassemblies, clamp square with protective cauls, and log total hours spent."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Original Project Design and Fabrication"
+    },
+    {
+      "fact": "Miter joints join weak end-grain surfaces and fail easily unless reinforced with internal splines, biscuits, or dowels.",
+      "misconception": "Miter joints alone provide strong structural bonds for heavy wooden frames and boxes.",
+      "pamphlet_excerpts": [
+        "Edge Chamfering and Rounding: Block planes and spokeshaves create uniform bevels and rounded profiles along grain edges.",
+        "Curved Scroll Cutting Mastery: Coping saws and band saws cut delicate internal curves without binding blade kerfs.",
+        "Precision Joinery Interlocking: Mortise and tenon or doweled joints resist racking forces through mechanical interlock.",
+        "Inset Hinge Mortising Standards: Recessed butt hinge leaves mount flush with door edges for tight perimeter reveals."
+      ],
+      "pamphlet_summary": "Advanced woodworking expands structural durability and aesthetic quality through specialized edge treatments, curved shaping, mechanical joinery, and hung cabinetry hardware. Mastering these techniques requires careful grain selection, accurate layout lines, sharp edge tools, and precise chisel control.",
+      "req_id": "6",
+      "safety_callout": "Keep both hands positioned behind the cutting edge of carving gouges, chisels, and drawknives during shaping operations.",
+      "socratic_questions": [
+        "Why do woodworkers cut relief slots into tight concave waste sections before operating a coping saw?",
+        "What mechanical advantages make a properly fitted mortise and tenon joint superior to a simple butt joint?",
+        "How do inset hinges differ from overlay hinges in terms of door mortise depth and face frame alignment?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Edge Profile Layout: Scribe parallel guide lines on face and edge to establish bevel depth.",
+        "Step 2 - Relief Sawing Curves: Make perpendicular relief kerf cuts toward curved outline markings before sawing profiles.",
+        "Step 3 - Mortise and Tenon Chiseling: Bore out mortise waste with bits and pare sidewalls square with chisels.",
+        "Step 4 - Hinge Leaf Mortise Cutting: Outline hinge perimeters with a knife, chisel shallow gain recesses, and secure screws."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Sharp ninety-degree wooden corners easily dent, split, and shed surface finishes, whereas rounded and beveled arrises distribute impact forces.",
+          "misconception": "Rounded and beveled edges are purely decorative touches that serve no practical structural purpose.",
+          "pamphlet_summary": "Creating beveled and rounded edge profiles softens sharp edges, enhances tactile comfort, and prevents finish chipping on furniture corners. Woodworkers layout stop lines with marking gauges and execute the profiles using block planes, rasps, spokeshaves, and sanding blocks.",
+          "sub_id": "6a",
+          "topic_title": "Beveled and Rounded Edge Fabrication"
+        },
+        {
+          "fact": "Attempting tight radius turns without relief cuts twists and snaps thin coping saw blades and tears the adjacent wood grain.",
+          "misconception": "A coping saw blade can make sharp ninety-degree turns in thick lumber without relief cuts.",
+          "pamphlet_summary": "Curved work requires cutting complex internal and external contours using coping saws, compass saws, or scroll saws along scribed templates. Relief cuts prevent blade binding in tight radiuses, while incised surface carving utilizes sharp vee tools and gouges driven with controlled mallet strikes.",
+          "sub_id": "6b",
+          "topic_title": "Curved and Incised Cutting Operations"
+        },
+        {
+          "fact": "Dowels require insertion depth equal to at least two and a half times their diameter into each side to prevent joint shearing.",
+          "misconception": "Dowel joints hold securely regardless of grain orientation or depth into the mating pieces.",
+          "pamphlet_summary": "Building projects with miter, dowel, or mortise and tenon joints demands precise squaring and marking with striking knives to ensure seamless mating faces. Tenons must fit snugly into mortises with hand pressure alone, allowing sufficient clearance for a thin, even film of wood adhesive.",
+          "sub_id": "6c",
+          "topic_title": "Precision Joinery Frame Construction"
+        },
+        {
+          "fact": "Inset doors require a deliberate clearance gap of approximately one sixteenth to one eighth inch all around to avoid binding during seasonal humidity shifts.",
+          "misconception": "Cabinet doors with inset hinges can be cut to the exact size of the face frame opening.",
+          "pamphlet_summary": "Constructing small cabinets or lidded boxes with inset hinges requires building square casework, flat flush doors, and chiseling precise shallow mortises called gains. Accurately hung inset hinges ensure uniform reveal gaps around the door perimeter and prevent binding against the cabinet frame.",
+          "sub_id": "6d",
+          "topic_title": "Cabinet Making and Inset Hinges"
+        },
+        {
+          "fact": "Children's wooden toys must be finished with certified non-toxic, lead-free food-grade mineral oils, pure beeswax, or certified child-safe acrylics.",
+          "misconception": "Any standard commercial oil-based wood stain is safe for children's wooden toys once dry.",
+          "pamphlet_summary": "Fabricating wooden toys for children or completing community service projects introduces batch production, repetitive part templating, and child-safe construction standards. All components must be rounded to eliminate sharp corners, fastened without exposed metal hardware, and finished exclusively with non-toxic oils or waterborne coatings.",
+          "sub_id": "6e",
+          "topic_title": "Wooden Toy and Service Projects"
+        }
+      ],
+      "topic_title": "Advanced Joinery and Cabinetry Techniques"
+    },
+    {
+      "fact": "Contemporary woodworking professionals operate advanced multi-axis CNC machines, manage digital CAD models, and oversee complex commercial architectural installations.",
+      "misconception": "Woodworking careers are restricted to hand craftspeople making rustic furniture one piece at a time.",
+      "pamphlet_excerpts": [
+        "Carpentry Apprenticeship Pathways: Registered union programs combine four years of paid on-the-job training with classroom instruction.",
+        "Millwork Technical Credentials: Professional trade certifications validate proficiency in architectural blueprint reading and CAD drafting.",
+        "Modern Automated Manufacturing: Commercial cabinet shops combine hand assembly with automated CNC nested router cutting.",
+        "Trade Union Representation: Brotherhood of Carpenters union locals negotiate hourly wage scales, pensions, and medical benefits."
+      ],
+      "pamphlet_summary": "Professional woodworking encompasses cabinetmaking, residential finish carpentry, architectural millwork, and commercial furniture fabrication. Career pathways involve formal trade school training, registered union apprenticeships, journeyman certifications, and mastering both manual joinery and computer numerical control machinery.",
+      "req_id": "7",
+      "safety_callout": "Adhere to all commercial facility PPE requirements including steel-toed boots, eye shields, and hearing protection during shop tours.",
+      "socratic_questions": [
+        "How does an apprentice carpenter's compensation and skill set evolve across a four-year apprenticeship program?",
+        "In what ways has computer numerical control technology transformed custom architectural cabinetmaking shops?",
+        "What safety liabilities and environmental regulations must a commercial woodworking shop owner manage daily?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Professional Interview Scheduling: Contact a licensed local cabinetmaker or commercial millwork contractor to request an informational interview.",
+        "Step 2 - Career Discussion Preparation: Formulate specific questions regarding union apprenticeships, trade certifications, wage scales, and working hours.",
+        "Step 3 - Shop Site Visitation: Tour a commercial woodworking facility to observe production workflow, machinery, and dust collection systems.",
+        "Step 4 - Career Summary Reflection: Document key findings about career progression, prevailing industry wages, and technical skill requirements."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Woodworking Industry Careers and Apprenticeships"
+    }
+  ]
+}

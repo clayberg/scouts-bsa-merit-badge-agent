@@ -1,0 +1,271 @@
+{
+  "requirements": [
+    {
+      "fact": "Resin crosslinking generates exothermic heat that can melt mixing cups and ignite surrounding shop trash.",
+      "misconception": "Resin mixtures cure strictly through room air drying rather than an internal exothermic chemical reaction.",
+      "pamphlet_excerpts": [
+        "Vapor Control: Active exhaust ventilation removes volatile organic styrene fumes from indoor laminating work areas.",
+        "Resin Toxicity: Uncured epoxy and polyester liquid resins irritate human skin and trigger severe sensitization.",
+        "Fiber Protection: Airborne glass particulates penetrate lung tissue without tightly fitted particulate respirators.",
+        "Thermal Hazard: Catalyzed thermoset liquid generates rapid exothermic heat that can melt ordinary mixing vessels."
+      ],
+      "pamphlet_summary": "Composite fabrications present chemical vapors, skin contact risks, and airborne particulate hazards during cutting or sanding. Scouts must wear certified eye protection, nitrile gloves, and organic vapor respirators in ventilated workspaces.",
+      "req_id": "1",
+      "safety_callout": "Work exclusively in cross-ventilated spaces with an operational eyewash station and an ABC dry chemical extinguisher.",
+      "socratic_questions": [
+        "Why does sanding cured carbon fiber require different personal protective equipment than wet resin layup?",
+        "What specific chemical reaction causes mixed thermoset resin to release intense thermal energy?",
+        "How does an organic vapor cartridge differ mechanically from a simple paper dust mask?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Workspace Setup: Position intake and exhaust blowers to draw toxic styrene vapors away from workers.",
+        "Step 2 - Gear Donning: Put on heavy nitrile gloves, chemical splash goggles, and an organic vapor respirator.",
+        "Step 3 - Material Handling: Measure hardener volumes using calibrated dispensers to prevent uncontrolled thermal runaway during polymerization.",
+        "Step 4 - Waste Containment: Submerge contaminated mixing sticks and solvent rags in airtight metal containers with water."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Epoxy sensitization can develop permanently after repeated dermal exposures to uncured liquid hardeners.",
+          "misconception": "Nitrile gloves provide permanent impervious protection against all organic solvents and liquid resins.",
+          "pamphlet_summary": "Thermoset resins and airborne fiber reinforcement fragments present immediate inhalation risks and contact dermatitis hazards. Personal protective equipment must include fitted respirators, impervious aprons, and nitrile gloves.",
+          "sub_id": "1a",
+          "topic_title": "Composite Shop Hazard Mitigation"
+        },
+        {
+          "fact": "Organic peroxides like MEKP decompose violently when exposed to direct sunlight or organic contaminants.",
+          "misconception": "Unused catalyzed resin blends can safely be poured down municipal shop utility sinks.",
+          "pamphlet_summary": "Resin hardeners and catalyst compounds demand cool storage away from direct sunlight and metal contamination. Liquid wastes must cure into inert solid pucks before disposal in approved industrial waste streams.",
+          "sub_id": "1b",
+          "topic_title": "Material Storage and Disposal"
+        },
+        {
+          "fact": "Section eight of every Safety Data Sheet defines mandatory exposure limits and respirators.",
+          "misconception": "Safety Data Sheets contain only shipping classifications and commercial marketing product descriptions.",
+          "pamphlet_summary": "Safety Data Sheets provide standardized sixteen-section chemical safety dossiers covering health hazards and emergency responses. Workers review exposure limits, personal protective equipment requirements, and spill containment protocols before handling materials.",
+          "sub_id": "1c",
+          "topic_title": "Safety Data Sheet Interpretation"
+        }
+      ],
+      "topic_title": "Composite Fabrication Hazard Management"
+    },
+    {
+      "fact": "Modern carbon fiber composites provide higher specific tensile strength per pound than heat-treated alloy steel.",
+      "misconception": "Composite materials were first invented during the space program of the nineteen sixties.",
+      "pamphlet_excerpts": [
+        "Ancient Composites: Straw mixed with mud bricks created durable structural building units in ancient Mesopotamia.",
+        "Matrix Function: Polymer matrix transfers mechanical load stress across individual oriented reinforcement fibers evenly.",
+        "Material Anisotropy: Fiber composites carry directional loads efficiently unlike isotropic metals with uniform structural strength.",
+        "Corrosion Resistance: Fiberglass structures resist marine galvanic degradation far better than structural carbon steel plates."
+      ],
+      "pamphlet_summary": "Composites combine two or more distinct materials to yield structural properties superior to individual components. Engineers select fiber reinforcements embedded in polymer matrices to balance tensile strength, weight, and corrosion resistance.",
+      "req_id": "2",
+      "safety_callout": "Never machine composite panels using high-speed steel bits without active local exhaust ventilation equipment.",
+      "socratic_questions": [
+        "Why does anisotropic fiber orientation matter when designing composite aircraft wings versus aluminum sheets?",
+        "How does the resin matrix protect structural fibers from surface abrasion and environmental degradation?",
+        "What physical properties make glass-reinforced polymers superior to structural steel in marine environments?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Specimen Selection: Gather normalized test coupons of structural aluminum, carbon laminate, mild steel, and oak.",
+        "Step 2 - Mass Assessment: Measure dimensions and compute bulk density across all four coupon materials with calipers.",
+        "Step 3 - Deflection Testing: Apply identical cantilever weights to evaluate bending deflection across composite and metallic specimens.",
+        "Step 4 - Environmental Comparison: Chart galvanic corrosion, heat conductivity, and tensile values using standard engineering reference handbooks."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Ancient Egyptians created plywood composites by gluing opposing wood grain veneers with animal resins.",
+          "misconception": "Composite materials must always contain synthetic laboratory polymers and man-made woven glass fibers.",
+          "pamphlet_summary": "Composite technology evolved from ancient mud bricks reinforced with straw to advanced aerospace carbon prepregs. Modern composites integrate engineered fibers into tailored thermoset or thermoplastic matrices for optimized strength.",
+          "sub_id": "2a",
+          "topic_title": "Composite Material Historical Development"
+        },
+        {
+          "fact": "Fiber reinforced polymers conduct zero electrical current unless intentionally formulated with conductive metallic elements.",
+          "misconception": "Aluminum conducts electrical currents and heat at identical rates as carbon fiber composite laminates.",
+          "pamphlet_summary": "Comparing composites against structural metals reveals significant advantages in strength-to-weight ratios and corrosion resistance. Metals exhibit uniform isotropic strength in all directions while composites demonstrate engineered directional load performance.",
+          "sub_id": "2b",
+          "topic_title": "Material Property Comparative Analysis"
+        }
+      ],
+      "topic_title": "Composite Structure Material Foundations"
+    },
+    {
+      "fact": "Aramid fibers absorb kinetic energy exceptionally well but degrade rapidly when exposed to ultraviolet radiation.",
+      "misconception": "All composite reinforcement fabrics possess identical tensile strength, stiffness, and electrical conductivity profiles.",
+      "pamphlet_excerpts": [
+        "Fiberglass Utility: E-glass fabric provides economical tensile strength, electrical insulation, and chemical corrosion resistance.",
+        "Carbon Dominance: High modulus carbon fibers deliver exceptional stiffness, low density, and extreme tensile capabilities.",
+        "Aramid Toughness: Kevlar woven fabrics resist high-energy ballistic impacts while adding minimal structural mass.",
+        "Matrix Systems: Polyester, vinylester, and epoxy resins bind fibers and determine ultimate thermal endurance."
+      ],
+      "pamphlet_summary": "Reinforcement fibers provide tensile resistance while surrounding thermoset resins transfer shear loads and resist environmental wear. Fabricators select glass, carbon, or aramid fibers matched with compatible epoxy or vinyl ester systems.",
+      "req_id": "3",
+      "safety_callout": "Mix liquid catalysts using eye droppers while wearing full-face shields to prevent chemical corneal burns.",
+      "socratic_questions": [
+        "What mechanical trade-offs occur when choosing economical E-glass over high-modulus carbon fabric?",
+        "Why does polyester resin shrink significantly more during room cure than aerospace grade epoxy?",
+        "How does matrix cross-linking density influence the maximum operating temperature of a cured part?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Fabric Inspection: Examine weave patterns, areal weights, and drape characteristics of fiberglass, carbon, and aramid.",
+        "Step 2 - Resin Ratio: Calculate stoichiometric mass ratios for epoxy, polyester, and vinylester resin systems accurately.",
+        "Step 3 - SDS Analysis: Review section eleven toxicological data sheets for catalyst hazards across all three systems.",
+        "Step 4 - Application Mapping: Match each reinforcement fabric and resin combination to an appropriate high-performance operational environment."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Carbon fiber bundles conduct electricity and will cause severe electrical short circuits in equipment.",
+          "misconception": "Fiberglass fabric provides higher tensile stiffness per unit weight than high-modulus carbon cloth.",
+          "pamphlet_summary": "Scouts analyze glass, carbon, and aramid fabrics to evaluate weight, tensile performance, and impact tolerance. Reviewing reinforcement Safety Data Sheets reveals mandatory ventilation thresholds and skin irritation precautions.",
+          "sub_id": "3a",
+          "topic_title": "Reinforcement Fiber Performance Characteristics"
+        },
+        {
+          "fact": "Epoxy formulations bond with greater adhesive strength to core materials than standard orthophthalic polyester.",
+          "misconception": "Polyester, vinylester, and epoxy resins use identical chemical catalysts and cure times.",
+          "pamphlet_summary": "Thermoset resins range from economical polyesters to corrosion-resistant vinyl esters and high-strength adhesive epoxies. Chemical data sheets specify critical handling precautions, cure shrinkage rates, and VOC emission levels.",
+          "sub_id": "3b",
+          "topic_title": "Thermoset Polymer Matrix Properties"
+        },
+        {
+          "fact": "Tough aramid fabrics paired with epoxy create ultralight earthquake retrofitting jackets for concrete columns.",
+          "misconception": "Composite resin systems have reached peak technological utility with no remaining industrial design uses.",
+          "pamphlet_summary": "Scouts conceptualize novel composite applications by matching unique polymer matrix capabilities to demanding environmental challenges. Advanced formulations solve structural weight challenges across renewable energy systems and biomedical prosthetics.",
+          "sub_id": "3c",
+          "topic_title": "Novel Composite Engineering Applications"
+        }
+      ],
+      "topic_title": "Reinforcement and Resin Formulations"
+    },
+    {
+      "fact": "Industrial vacuum resin infusion processes pull liquid polymers through dry reinforcement stacks using atmospheric pressure.",
+      "misconception": "Composite components are exclusively manufactured by hand brushing liquid resin into open female molds.",
+      "pamphlet_excerpts": [
+        "Autoclave Curing: Pressurized heated autoclaves eliminate structural voids and consolidate aerospace composite prepreg plies.",
+        "Vacuum Infusion: Atmospheric pressure drives liquid resin through sealed dry fibers under airtight nylon films.",
+        "Pultrusion Speed: Continuous pulling of resin-wetted roving strands through heated steel dies produces constant profiles.",
+        "Repair Scarfing: Grinding shallow bevels into damaged laminate layers restores structural load transfer continuity."
+      ],
+      "pamphlet_summary": "Modern composite fabrication spans hand layup, automated vacuum infusion, filament winding, and high-pressure autoclave consolidation. Industrial repair facilities inspect damaged laminates using ultrasonic testing and restore structural continuity using step-scarf joints.",
+      "req_id": "4",
+      "safety_callout": "Wear certified steel-toe work boots, safety glasses, and hearing protection during manufacturing plant walkthroughs.",
+      "socratic_questions": [
+        "How does vacuum bag debulking eliminate structural voids between stacked composite laminate plies?",
+        "What advantages does continuous pultrusion offer over manual compression molding for structural beams?",
+        "Why must damaged aircraft composite panels undergo taper sanding before applying structural repair plies?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Site Coordination: Secure counselor approval and parental permission before contacting local composite manufacturing facilities.",
+        "Step 2 - Facility Tour: Observe automated fiber placement, vacuum infusion tables, and high-temperature curing ovens directly.",
+        "Step 3 - Technical Interview: Ask manufacturing technicians about core materials, release agents, and nondestructive defect testing.",
+        "Step 4 - Report Synthesis: Document industrial resin delivery methods and structural repair standards for counselor review."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Ultrasonic non-destructive testing detects internal laminate delaminations invisible to human visual inspection.",
+          "misconception": "Commercial composite facilities rely entirely on manual open-mold spraying methods for structural parts.",
+          "pamphlet_summary": "Visiting an active composite enterprise provides direct exposure to cleanroom prepreg layup, autoclaves, and infusion systems. Scouts observe quality control testing protocols and structural repair methods used in commercial production.",
+          "sub_id": "4a",
+          "topic_title": "Commercial Manufacturing Facility Tour"
+        },
+        {
+          "fact": "Professional trade associations publish open-access technical bulletins detailing standardized resin matrix testing methodologies.",
+          "misconception": "Online composite forums offer verified engineering safety data comparable to professional society technical publications.",
+          "pamphlet_summary": "Researching accredited composite trade associations and research institutes exposes scouts to cutting-edge material innovations. Web research focuses on automated manufacturing processes, recycling developments, and aerospace qualification standards.",
+          "sub_id": "4b",
+          "topic_title": "Composite Technical Information Research"
+        }
+      ],
+      "topic_title": "Industrial Production and Repair"
+    },
+    {
+      "fact": "Insufficient wax or polyvinyl alcohol mold release agent results in permanent mechanical bonding between part and mold.",
+      "misconception": "Adding extra hardener to liquid epoxy speeds up the curing cycle without weakening final laminate strength.",
+      "pamphlet_excerpts": [
+        "Mold Preparation: Applying paste wax and polyvinyl alcohol release film prevents parts from adhering permanently.",
+        "Resin Wetout: Fully saturating woven fibers with squeegees eliminates dry spots and trapped air bubbles.",
+        "Consolidation Pressure: Clamping molds or drawing vacuum consolidates laminate layers and increases fiber volume fraction.",
+        "Quality Inspection: Tapping cured laminates with plastic inspection hammers reveals internal delaminations and hidden voids."
+      ],
+      "pamphlet_summary": "Scouts construct two distinct composite projects using proper mold preparation, precise resin mixing, and controlled reinforcement wetout. Completed items undergo objective evaluations covering surface finish, structural stiffness, void content, and dimensional accuracy.",
+      "req_id": "5",
+      "safety_callout": "Cure all mixed resin mixing cups on fireproof concrete surfaces away from combustible shop rags.",
+      "socratic_questions": [
+        "Why does an incorrect resin-to-hardener ratio permanently compromise the structural strength of cured epoxy?",
+        "How can you tell visually whether a fiberglass cloth has achieved complete liquid resin saturation?",
+        "What causes surface pinholes and blisters to form along the outer gel coat layer?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Mold Preparation: Polish clean mold surfaces with three coats of carnauba paste wax thoroughly.",
+        "Step 2 - Fabric Cutting: Cut reinforcement cloth plies using clean shears to match mold geometry patterns.",
+        "Step 3 - Resin Lamination: Mix measured epoxy batches and saturate woven fabric layers using flexible plastic spreaders.",
+        "Step 4 - Quality Audit: Evaluate cured parts alongside your counselor by checking surface hardness and laminate thickness."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Vacuum bagging compacts wet laminates under fourteen pounds per square inch of uniform atmospheric pressure.",
+          "misconception": "Thicker resin layers without cloth reinforcement make composite parts stronger and much more resilient.",
+          "pamphlet_summary": "Scouts fabricate two functional composite articles using approved safety protocols and verified wet layup techniques. At least one project originates directly from the official merit badge pamphlet instructional guide.",
+          "sub_id": "5a",
+          "topic_title": "Hands-on Composite Project Fabrication"
+        },
+        {
+          "fact": "Epoxy resins require ambient temperatures above sixty-five degrees Fahrenheit to achieve full chemical polymer cross-linking.",
+          "misconception": "Composite wet layups can be safely executed inside home kitchens or unventilated basements.",
+          "pamphlet_summary": "Safe project fabrication requires an isolated workshop equipped with adequate cross-flow exhaust and spark-free electrical tools. An authorized adult supervisor monitors chemical dispensing, fire prevention protocols, and PPE compliance continuously.",
+          "sub_id": "5b",
+          "topic_title": "Fabrication Facility Safety Management"
+        },
+        {
+          "fact": "Excessive resin content creates brittle, heavy composite laminates prone to micro-cracking under stress loads.",
+          "misconception": "Composite project evaluations judge only aesthetic external paint color rather than structural laminate soundness.",
+          "pamphlet_summary": "Counselors and scouts evaluate finished projects against predefined rubrics measuring dimensional accuracy, fiber alignment, and void reduction. Evaluating structural stiffness and edge trimming quality reinforces high manufacturing craftsmanship standards.",
+          "sub_id": "5c",
+          "topic_title": "Composite Project Quality Evaluation"
+        }
+      ],
+      "topic_title": "Project Fabrication and Quality Evaluation"
+    },
+    {
+      "fact": "Composite repair technicians in commercial aviation must maintain Federal Aviation Administration Airframe certifications.",
+      "misconception": "Careers in composite materials are restricted entirely to entry-level manual factory layup technicians.",
+      "pamphlet_excerpts": [
+        "Materials Engineering: Materials scientists develop high-temperature thermoplastic resins and advanced carbon nanotube matrix formulations.",
+        "Aerospace Design: Structural engineers calculate stress tensors and design optimized carbon composite aircraft wing skins.",
+        "Tooling Fabrication: Master toolmakers machine precision invar molds to match thermal expansion rates of carbon.",
+        "Hobby Applications: Amateur rocketry builders roll custom composite motor casings to withstand extreme internal pressures."
+      ],
+      "pamphlet_summary": "Composite materials drive high-demand careers in aerospace engineering, automotive design, marine architecture, and medical prosthetics development. Hobbyists leverage similar vacuum bagging and molding techniques to craft custom archery bows, surfboards, and radio-controlled aircraft.",
+      "req_id": "6",
+      "safety_callout": "Wear dual-cartridge particulate respirators when machining or trimming composite hobby models on shop benchtop tools.",
+      "socratic_questions": [
+        "How do university materials science programs prepare engineers to solve carbon fiber recycling challenges?",
+        "What professional certifications are required to perform structural composite repairs on commercial jet aircraft?",
+        "Which personal hobby projects benefit most significantly from converting wooden structures to carbon composite?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Exploration: Research credential pathways, educational degrees, and median salaries for composite materials engineers.",
+        "Step 2 - Trade Analysis: Investigate aerospace airframe repair apprenticeships and industry certifications required for manufacturing technicians.",
+        "Step 3 - Hobby Investigation: Identify specialized composite molding equipment used by model rocketry and surfboard makers.",
+        "Step 4 - Counselor Discussion: Present findings regarding educational investments, career growth trajectories, and personal recreation opportunities."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Aerospace composite tooling engineers often hold degrees in mechanical engineering or specialized materials science.",
+          "misconception": "Composite engineering positions require no formal post-secondary mathematics, physics, or chemistry university coursework.",
+          "pamphlet_summary": "Professional composite careers encompass chemical engineering, computer-aided design, quality assurance, and non-destructive testing technician roles. Research explores four-year engineering degrees, vocational apprenticeship programs, starting salaries, and long-term industry demand.",
+          "sub_id": "6a",
+          "topic_title": "Professional Composite Career Pathways"
+        },
+        {
+          "fact": "Amateur radio enthusiasts build ultralight telescoping antenna masts using pultruded fiberglass composite tubing sections.",
+          "misconception": "Recreational composite crafting requires expensive industrial autoclave curing vessels and cleanroom environmental controls.",
+          "pamphlet_summary": "Composite fabrication skills empower hobbyists to build competitive racing drones, custom canoes, and lightweight camping equipment. Scouts investigate local maker spaces, specialized enthusiast associations, and affordable vacuum bagging equipment kits.",
+          "sub_id": "6b",
+          "topic_title": "Recreational Composite Crafting Applications"
+        }
+      ],
+      "topic_title": "Composite Careers and Recreations"
+    }
+  ]
+}

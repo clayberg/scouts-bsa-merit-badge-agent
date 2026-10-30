@@ -1,0 +1,248 @@
+{
+  "requirements": [
+    {
+      "fact": "Current as low as 100 milliamperes passing across the chest can cause fatal ventricular fibrillation regardless of voltage.",
+      "misconception": "Low voltage circuits can never cause severe electric shocks or fires.",
+      "pamphlet_excerpts": [
+        "Capacitor Charge Storage: Large filter capacitors can store lethal electrical energy even after power is removed.",
+        "One Hand Practice: Keeping one hand inside a pocket prevents lethal current loops across the heart.",
+        "Chemical Eye Protection: Splash goggles protect eyes from boiling liquid flux and airborne molten solder droplets.",
+        "Mains Power Isolation: Never service primary power wiring connected directly to domestic utility wall sockets."
+      ],
+      "pamphlet_summary": "Working safely with electronics requires disconnecting all power sources and discharging high capacity electrolytic capacitors before touching circuit traces. Bench spaces must feature adequate ventilation, heat-resistant surfaces, and safety glasses to guard against toxic flux fumes and solder splashes.",
+      "req_id": "1",
+      "safety_callout": "Always unplug equipment from wall current and discharge filter capacitors with a grounded resistor probe before touching exposed leads.",
+      "socratic_questions": [
+        "Why does current passing across the chest present a far greater threat than current passing through one finger?",
+        "What hidden hazard remains inside a television chassis long after the power cord is disconnected?",
+        "How does keeping one hand in your pocket when testing high voltage protect your vital organs?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Power Source Removal: Unplug the bench power supply before inserting components into the breadboard tie points.",
+        "Step 2 - Capacitor Safe Discharge: Connect a high wattage bleed resistor across power supply terminals to dissipate voltage.",
+        "Step 3 - Safety Gear Setup: Put on certified side shield safety glasses before heating any soldering station equipment.",
+        "Step 4 - Bench Hazard Sweep: Clear all loose metal clippings and spilled liquids away from electrical power strips."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Electronic Device Safety Precautions"
+    },
+    {
+      "fact": "Schematic diagrams map functional electrical connections using standardized symbols rather than displaying the physical component layout.",
+      "misconception": "A schematic shows the actual physical layout and physical dimensions of circuit parts.",
+      "pamphlet_excerpts": [
+        "Resistor Graphic Representation: Zigzag lines indicate fixed resistors that limit electrical current through connected circuit branches.",
+        "Capacitor Symbol Geometry: Parallel straight and curved lines identify polarized capacitors with positive and negative terminals.",
+        "Transistor Symbol Anatomy: Base lines and directional arrows distinguish NPN from PNP bipolar junction transistors.",
+        "Integrated Circuit Identification: Rectangular blocks with numbered pins represent multi-terminal integrated circuits and functional logic units."
+      ],
+      "pamphlet_summary": "A schematic diagram uses standardized graphic symbols and functional reference designators to represent components and their electrical connections. Scouts must understand how these abstract diagrams guide breadboard layout, troubleshooting sequences, and component substitution without showing physical scale.",
+      "req_id": "2",
+      "safety_callout": "Check schematic capacitor polarity and transistor pinouts carefully to avoid explosive reverse-bias failure under power.",
+      "socratic_questions": [
+        "Why does an engineer choose abstract schematic symbols instead of realistic component sketches?",
+        "How can you tell the base, collector, and emitter apart on a bipolar junction transistor schematic symbol?",
+        "What problem occurs if a polarized electrolytic capacitor is connected backward in an active circuit?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Power Rail Sketching: Draw positive voltage and ground reference lines across the top and bottom margins.",
+        "Step 2 - Component Symbol Placement: Sketch standard zigzag resistors, parallel capacitor plates, and transistor symbols in logical order.",
+        "Step 3 - Conductor Line Routing: Connect functional pins with horizontal and vertical lines showing dots at joined nodes.",
+        "Step 4 - Component Value Labeling: Add reference designators including part numbers and values next to each graphic symbol."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Standard schematics use reference designators like R1 and C1 beside universally accepted IEEE graphic symbols.",
+          "misconception": "Schematics can use arbitrary handmade shapes as long as connections are drawn neatly.",
+          "pamphlet_summary": "Drafting an accurate schematic requires using standardized symbols for passive devices, transistors, and integrated circuits. Every component symbol must include clear terminal designations and values to allow repeatable assembly.",
+          "sub_id": "2a",
+          "topic_title": "Schematic Diagram Drafting Standards"
+        },
+        {
+          "fact": "Resistors limit current, capacitors store electrostatic charge, and transistors switch or amplify signals.",
+          "misconception": "Resistors and capacitors perform identical electrical functions in active direct current circuits.",
+          "pamphlet_summary": "Each electronic component performs a unique role, such as resisting current, filtering frequencies, or switching paths. Explaining their distinct tasks demonstrates how simple building blocks combine to create complex functional circuits.",
+          "sub_id": "2b",
+          "topic_title": "Circuit Component Functional Roles"
+        }
+      ],
+      "topic_title": "Circuit Schematic Diagram Fundamentals"
+    },
+    {
+      "fact": "Proper soldering forms an intermetallic bond by heating the joint surfaces until solder melts directly onto the work.",
+      "misconception": "Solder acts like glue and should be melted onto the iron tip first.",
+      "pamphlet_excerpts": [
+        "Intermetallic Bond Formation: Heating both joint leads allows molten solder to flow freely across metal surfaces.",
+        "Heat Sink Protection: Clamping metal alligator clips between the joint and semiconductor bodies diverts thermal energy.",
+        "Board Trace Preservation: Excessive contact time with a hot iron delaminates copper foil traces from boards.",
+        "Desolder Braid Capillary: Rosin coated copper braid pulls molten solder away from pins through surface tension."
+      ],
+      "pamphlet_summary": "Soldering creates reliable metallurgical bonds by transferring heat directly to component leads and copper traces before applying flux-core solder. Thermal shunts and minimal contact dwell time protect heat-sensitive semiconductor junctions from permanent internal destruction.",
+      "req_id": "3",
+      "safety_callout": "Keep the hot soldering iron resting in its insulated safety stand and avoid breathing toxic flux vapor plumes.",
+      "socratic_questions": [
+        "What visual signs distinguish an ideal shiny concave solder joint from a defective cold joint?",
+        "Why does applying a thermal heat sink clip protect sensitive diodes while soldering leads?",
+        "How does a vacuum desoldering pump remove liquid solder from a tight through-hole joint?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Tip Tinning Preparation: Clean the hot soldering iron tip against a wet sponge and apply solder.",
+        "Step 2 - Joint Direct Heating: Touch the iron tip simultaneously to the component lead and the circuit pad.",
+        "Step 3 - Solder Flow Application: Feed rosin core solder wire directly into the heated joint until metal wets.",
+        "Step 4 - Joint Cooling Inspection: Remove the iron tip quickly and let the joint solidify without physical movement."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Clean copper braid or a vacuum sucker quickly removes liquid solder from desoldered pins.",
+          "misconception": "Flicking a hot iron removes molten solder safely from printed circuit board connections.",
+          "pamphlet_summary": "Scouts must demonstrate clean soldering and desoldering techniques using appropriate flux and thermal transfer methods. Mastering both processes ensures reliable solder joints without bridging adjacent conductive pads.",
+          "sub_id": "3a",
+          "topic_title": "Soldering And Desoldering Techniques"
+        },
+        {
+          "fact": "Semiconductor diodes and transistors can suffer permanent silicon gate degradation from three seconds of excessive heat.",
+          "misconception": "Silicon components cannot be permanently damaged by common pencil soldering iron temperatures.",
+          "pamphlet_summary": "Semiconductors possess low thermal thresholds that require protective heatsinks during terminal soldering. Diverting heat away from component bodies protects internal silicon structures from overheating and catastrophic failure.",
+          "sub_id": "3b",
+          "topic_title": "Component Thermal Protection Methods"
+        },
+        {
+          "fact": "Printed circuit boards mechanically support components while routing signals across etched laminated copper pathways.",
+          "misconception": "Circuit board traces are solid wire cables embedded inside plastic sheets.",
+          "pamphlet_summary": "Printed circuit boards provide rigid mechanical support and etched copper conductor paths between electronic components. Careful soldering prevents copper trace delamination, lifted pads, and accidental solder bridges across fine-pitch conductor tracks.",
+          "sub_id": "3c",
+          "topic_title": "Printed Circuit Board Assembly"
+        }
+      ],
+      "topic_title": "Soldering And Assembly Practices"
+    },
+    {
+      "fact": "Digital logic processes discrete binary voltages representing one or zero, whereas analog circuits process continuously variable voltage signals.",
+      "misconception": "Digital circuits handle continuous physical sound waves more directly than analog amplifier circuits.",
+      "pamphlet_excerpts": [
+        "Closed Loop Automation: Sensor feedback allows electronic control circuits to regulate output devices automatically and continuously.",
+        "Binary Logic States: High and low voltage thresholds represent discrete true and false states inside computers.",
+        "Analog Continuous Variation: Analog systems amplify smooth gradients of physical variables like sound, heat, and light.",
+        "Breadboard Prototyping Process: Solderless breadboards let designers construct and test functioning electronic projects without permanent soldering."
+      ],
+      "pamphlet_summary": "Electronics enables automatic process control through sensors and actuators that adjust system outputs based on feedback. Digital systems process discrete binary logic states, whereas analog applications handle continuous electrical signals like audio, temperature, and radio frequencies.",
+      "req_id": "4",
+      "safety_callout": "Confirm that prototype circuits do not draw excessive current that could burn components or overheat breadboard strips.",
+      "socratic_questions": [
+        "How does a thermostat use closed loop electronic feedback to maintain a steady room temperature?",
+        "What is the fundamental difference between an analog microphone signal and digital audio data?",
+        "How do NOT gates and AND gates combine to make complex computational decisions in computers?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Control Loop Design: Select an input sensor and an output relay to govern an automated system.",
+        "Step 2 - Logic Gate Selection: Choose standard integrated circuit logic gates that satisfy the specified binary truth table.",
+        "Step 3 - Circuit Breadboard Assembly: Insert integrated circuits and discrete components into matching breadboard rows without overlapping pins.",
+        "Step 4 - Functional System Verification: Apply battery power to test that sensors trigger the anticipated output device state."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Analog circuits process continuously variable signals, digital circuits process discrete binary states, and control circuits automate physical devices.",
+          "misconception": "Digital logic gates can process infinite subtle volume changes without analog-to-digital conversion stages.",
+          "pamphlet_summary": "Electronics applications split into continuous analog processing, discrete digital logic switching, and automated system control. Scouts explore how control loops monitor sensors and how logic gates evaluate binary statements.",
+          "sub_id": "4a",
+          "topic_title": "Control Digital And Analog Applications"
+        },
+        {
+          "fact": "Binary represents numerical quantities using base two positional powers of two instead of powers of ten.",
+          "misconception": "Binary numbers simply append zeros to decimal numbers without changing the underlying base.",
+          "pamphlet_summary": "Converting numbers between decimal and binary demonstrates how digital computers store and compute numerical data. Scouts practice successive division and place value addition to translate numbers between base ten and base two.",
+          "sub_id": "4b",
+          "topic_title": "Decimal And Binary Conversion"
+        },
+        {
+          "fact": "Building an electronic project requires tracing the schematic diagram step by step onto a breadboard or circuit board.",
+          "misconception": "Any electronic project works reliably by connecting parts randomly without checking a schematic.",
+          "pamphlet_summary": "Scouts choose, construct, and explain an electronic project such as an audio oscillator, digital counter, or light sensor. Explaining circuit operation tests the scout's understanding of signal flow, power distribution, and component interactions.",
+          "sub_id": "4c",
+          "topic_title": "Electronic Project Construction"
+        }
+      ],
+      "topic_title": "Electronic Systems And Control"
+    },
+    {
+      "fact": "Ohm's law mathematically equates voltage to the product of electrical current and circuit resistance.",
+      "misconception": "A voltmeter is connected in series with the load to measure electric potential difference.",
+      "pamphlet_excerpts": [
+        "Ohm Law Triangle: Calculating circuit values requires dividing voltage by either current or total circuit resistance.",
+        "Multimeter Voltage Measurement: Measuring voltage requires connecting high impedance meter probes in parallel with circuit components.",
+        "Resistor Color Code: Standardized color bands indicate resistance value in ohms, multiplier exponent, and component tolerance.",
+        "Assembly Technology Comparison: Surface mount technology enables denser circuit boards than traditional through-hole pin assembly."
+      ],
+      "pamphlet_summary": "Ohm's law forms the mathematical bedrock of electronics by defining the direct relationship between voltage, current, and resistance. Diagnostic test equipment such as multimeters, oscilloscopes, and signal generators allows technicians to measure operating parameters and troubleshoot faults.",
+      "req_id": "5",
+      "safety_callout": "Never measure resistance or component continuity while power is applied to the circuit under test.",
+      "socratic_questions": [
+        "What happens to current flow in a circuit when resistance doubles while voltage remains constant?",
+        "Why must an ammeter be placed in series while a voltmeter is connected in parallel?",
+        "What do the colored bands on a four-band carbon composition resistor tell a technician?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Formula Variable Identification: Identify the known values for voltage, current, or resistance from the given problem.",
+        "Step 2 - Equation Algebraic Rearrangement: Rearrange the Ohm's law formula to isolate the single unknown target circuit value.",
+        "Step 3 - Value Calculation Execution: Substitute numeric values into the equation to calculate the precise resulting circuit answer.",
+        "Step 4 - Test Equipment Measurement: Use a digital multimeter to measure and verify the physical circuit electrical value."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Voltage equals current multiplied by resistance in any direct current linear electrical circuit.",
+          "misconception": "Current remains constant across a circuit regardless of whether you increase or decrease resistance.",
+          "pamphlet_summary": "Solving Ohm's law problems requires manipulating the mathematical equation relating electromotive force, current, and resistance. Scouts calculate current draw, dropping resistor values, and power dissipation for basic DC circuits.",
+          "sub_id": "5a",
+          "topic_title": "Ohm Law Problem Solving"
+        },
+        {
+          "fact": "Voltmeters measure potential in parallel, ammeters measure current in series, and oscilloscopes display signal waveforms.",
+          "misconception": "An oscilloscope only measures static direct current resistance values across disconnected component terminals.",
+          "pamphlet_summary": "Electronic testing relies on multimeters, oscilloscopes, and logic probes to verify circuit performance and locate faults. Proper instrument operation requires selecting correct measurement ranges and connecting probes safely into active circuits.",
+          "sub_id": "5b",
+          "topic_title": "Electronic Test Equipment Operation"
+        },
+        {
+          "fact": "The first two bands give significant digits, the third gives the multiplier, and the fourth gives tolerance.",
+          "misconception": "Resistor color bands indicate physical wattage rating rather than the electrical resistance in ohms.",
+          "pamphlet_summary": "Reading resistor color bands enables quick identification of component values and manufacturing tolerance ratings. Scouts decode standardized color rings to determine whether a resistor matches schematic design specifications.",
+          "sub_id": "5c",
+          "topic_title": "Resistor Color Code Identification"
+        },
+        {
+          "fact": "Through-hole parts use leads inserted into drilled holes, while surface mount parts solder directly to exterior surface pads.",
+          "misconception": "Surface mount components cannot be soldered or assembled in high-volume automated manufacturing factories.",
+          "pamphlet_summary": "Through-hole and surface mount technologies represent the two primary methods for populating printed circuit boards. Surface mount components save board space, reduce parasitic capacitance, and lower manufacturing costs in modern consumer devices.",
+          "sub_id": "5d",
+          "topic_title": "Board Assembly Technology Comparison"
+        }
+      ],
+      "topic_title": "Circuit Measurements And Test"
+    },
+    {
+      "fact": "Modern electronics careers range from PCB design and automated manufacturing to embedded firmware development and field repair.",
+      "misconception": "All electronics jobs require a four-year electrical engineering degree from an accredited university.",
+      "pamphlet_excerpts": [
+        "Engineering Degree Pathways: Professional hardware design positions typically require an accredited bachelor degree in electrical engineering.",
+        "Technician Career Apprenticeships: Electronics technicians often begin careers through vocational training programs or military technical schools.",
+        "Industry Recognized Certifications: Obtaining credentials like IPC soldering certification demonstrates verifiable technical competence to manufacturing employers.",
+        "Career Outlook Growth: Demand for electronics specialists continues rising across robotics, aerospace, medical, and telecommunications sectors."
+      ],
+      "pamphlet_summary": "Careers in electronics span diverse roles including bench technicians, printed circuit board layout specialists, and electrical design engineers. Preparing for these careers involves pursuing vocational training, industry certifications, or college engineering degrees along with hands-on laboratory experience.",
+      "req_id": "6",
+      "safety_callout": "Follow all industrial laboratory safety guidelines including electrostatic discharge strap grounding when working in technical repair facilities.",
+      "socratic_questions": [
+        "How does the day-to-day work of an electronics technician differ from an electrical engineer?",
+        "What role do industry certifications like IPC soldering standards play in securing technical employment?",
+        "How have recent advances in microelectronics expanded career opportunities in renewable energy and robotics?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Field Exploration: Research three distinct electronics vocations such as biomedical technician, robotics assembler, or engineer.",
+        "Step 2 - Education Pathway Investigation: Identify specific college degrees, vocational apprenticeships, or military schools required for your chosen job.",
+        "Step 3 - Certification Requirement Analysis: Determine necessary professional licensing, industry safety certificates, and associated testing expenses for entry.",
+        "Step 4 - Career Growth Evaluation: Investigate starting salaries, typical job responsibilities, and long-term industry demand for that role."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Electronics Career Pathways Exploration"
+    }
+  ]
+}

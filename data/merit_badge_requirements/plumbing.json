@@ -54,8 +54,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)",
           "common_misconception_pair": {
-            "misconception": "A small cross-connection between a drain line and a supply line is harmless as long as the main water pressure stays high.",
-            "fact": "Wastewater must never come into contact with water used for drinking, bathing, or washing dishes under any pressure condition (p. 20)."
+            "misconception": "Clean supply water and black drain water run through separate chambers within the same pipe.",
+            "fact": "Potable supply and sanitary drainage are physically isolated networks with dedicated air gaps preventing cross-contamination.",
+            "myth": "Clean supply water and black drain water run through separate chambers within the same pipe.",
+            "fact_correction": "Potable supply and sanitary drainage are physically isolated networks with dedicated air gaps preventing cross-contamination."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -81,10 +83,10 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Describe how a properly working plumbing system protects your family's health and safety.",
-          "topic_title": "Req 1a: Protecting Family Health and Safety",
-          "pamphlet_summary": "Protecting Family Health and Safety: Plumbing systems carry water into and out of a home through a system of pipes (p. 20).",
+          "topic_title": "Req 1a: Family Health And Plumbing Systems",
+          "pamphlet_summary": "Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps.",
           "pamphlet_excerpts": [
-            "Protecting Family Health and Safety: Plumbing systems carry water into and out of a home through a system of pipes (p. 20)."
+            "Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p003_img1.png",
           "title": "Req 1a: Protecting Family Health and Safety",
@@ -121,8 +123,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)",
           "common_misconception_pair": {
-            "misconception": "Once a home plumbing system passes its initial building inspection, it never needs to be checked again unless a pipe bursts.",
-            "fact": "A family's plumbing system must be both properly installed and regularly checked to ensure it remains in safe working order (p. 20)."
+            "misconception": "Plumbing codes are optional suggestions meant to help homeowners save money on piping repairs.",
+            "fact": "Plumbing codes carry legal authority to prevent waterborne disease epidemics and hazardous structural gas leaks.",
+            "myth": "Plumbing codes are optional suggestions meant to help homeowners save money on piping repairs.",
+            "fact_correction": "Plumbing codes carry legal authority to prevent waterborne disease epidemics and hazardous structural gas leaks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -149,9 +153,9 @@
           "sub_req_label": "1b",
           "sub_req_text": "List five important local health regulations related to plumbing and tell how they protect health and safety.",
           "topic_title": "Req 1b: Local Plumbing Health Regulations",
-          "pamphlet_summary": "Local Plumbing Health Regulations: For the health and safety of the people who live there, the water entering the home through the water-supply system must be pure and clean (p. 20).",
+          "pamphlet_summary": "Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps.",
           "pamphlet_excerpts": [
-            "Local Plumbing Health Regulations: For the health and safety of the people who live there, the water entering the home through the water-supply system must be pure and clean (p. 20)."
+            "Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p021_img1.png",
           "workbook_diagram_caption": "An apprentice plumber wears required personal safety gear including a hard hat and protective eyewear.",
@@ -187,8 +191,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)",
           "common_misconception_pair": {
-            "misconception": "You can safely begin disassembling a leaking valve or pipe fitting before locating and shutting off the main water supply valve.",
-            "fact": "Shutting off the water supply and relieving line pressure before starting repairs prevents flooding, scalding, and property damage (p. 40)."
+            "misconception": "Turning off a sink faucet valve provides complete safety when cutting adjacent supply branch lines.",
+            "fact": "Upstream isolation at the fixture stop or main shutoff valve is required before cutting lines.",
+            "myth": "Turning off a sink faucet valve provides complete safety when cutting adjacent supply branch lines.",
+            "fact_correction": "Upstream isolation at the fixture stop or main shutoff valve is required before cutting lines."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -214,10 +220,10 @@
           "id": "1c",
           "sub_req_label": "1c",
           "sub_req_text": "Describe the safety precautions you must take when making home plumbing repairs.",
-          "topic_title": "Req 1c: Home Plumbing Repair Safety Precautions",
-          "pamphlet_summary": "For Plumbing Requirement 1c (Home Plumbing Repair Safety Precautions): The Plumbing pamphlet for Requirement 1c details the safety precautions you must take when making home plumbing repairs, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+          "topic_title": "Req 1c: Home Plumbing Repair Precautions",
+          "pamphlet_summary": "Repair safety requires isolating water lines, locking out electrical heaters, ventilating solvent fumes, and donning protective equipment.",
           "pamphlet_excerpts": [
-            "Home Plumbing Repair Safety Precautions: The Plumbing pamphlet for Requirement 1c details the safety precautions you must take when making home plumbing repairs, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+            "Repair safety requires isolating water lines, locking out electrical heaters, ventilating solvent fumes, and donning protective equipment."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p021_img1.png",
           "workbook_diagram_caption": "An apprentice plumber wears required personal safety gear including a hard hat and protective eyewear.",
@@ -238,11 +244,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Plumbing Health Codes and Repair Safety",
+      "topic_title": "Req 1: Home Sanitation And Health Codes",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 1): Complete all Plumbing Health Codes and Repair Safety discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Always wear safety glasses and chemical-resistant gloves when handling drain piping containing biological pathogens.",
       "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)",
       "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)",
       "syllabus_bucket": "In-Class Concept",
@@ -272,8 +278,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Plumbing codes exist mainly to make home repairs more complicated and require homeowners to hire licensed contractors for every minor fix.",
-        "fact": "Plumbing regulations are essential health safeguards designed to keep potable drinking water completely separated from contaminated wastewater (p. 20)."
+        "misconception": "Drain traps exist solely to catch dropped jewelry before it washes into the sewer.",
+        "fact": "Fixture traps maintain a water seal that blocks dangerous pathogens and lethal sewer gases.",
+        "myth": "Drain traps exist solely to catch dropped jewelry before it washes into the sewer.",
+        "fact_correction": "Fixture traps maintain a water seal that blocks dangerous pathogens and lethal sewer gases."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -297,16 +305,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Household Pipe Network: Plumbing systems carry water into and out of a home through a system of pipes (p. 20).",
-        "Clean Water Supply: For the health and safety of the people who live there, the water entering the home through the water-supply system must be pure and clean (p. 20).",
-        "Preventing Wastewater Contact: Wastewater should never come into contact with the water that the family uses for drinking, bathing, or washing clothes and dishes (p. 20).",
-        "Routine System Inspection: This is the main reason that it is essential that your family's plumbing system be properly installed and regularly checked to make sure it is in good (p. 20)."
+        "Potable Supply Isolation: Pressurized incoming pipes deliver clean water while preventing contaminated waste water from mingling.",
+        "Trap Water Barrier: Standing water in fixture traps seals out toxic flammable methane sewer gas.",
+        "Backflow Prevention Device: Atmospheric vacuum breakers prevent backsiphonage of dirty fluids into municipal supply lines.",
+        "Required Vent Stacks: Vertical roof vent stacks balance atmospheric pressure to keep drain lines flowing."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Separate Supply and Waste: Wastewater should never come into contact with the water that the family uses for drinking, bathing, or washing clothes and dishes (p. 20).",
-        "Step 2 - Inspect Installed Piping Regularly: This is the main reason that it is essential that your family's plumbing system be properly installed and regularly checked to make sure it is in good (p. 20).",
-        "Step 3 - Follow Established Plumbing Standards: Plumbing regulations have been developed to help make sure that plumbing is installed and maintained correctly (p. 20).",
-        "Step 4 - Enforce Local Plumbing Codes: These regulations, commonly called plumbing codes, are important in preventing the water-supply system from becoming contaminated (p. 20)."
+        "Step 1 - Main Shutoff Location: Locate the incoming municipal water meter and identify the primary quarter turn valve.",
+        "Step 2 - Trap Integrity Audit: Examine each fixture P trap under household sinks to detect dried out seals.",
+        "Step 3 - Code Regulation Review: Review local building department ordinances regarding minimum slope for residential waste lines.",
+        "Step 4 - Personal Protection Assembly: Put on neoprene safety gloves and splash goggles before beginning any pipe dismantling."
       ],
       "gear_checklist": [
         "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
@@ -315,15 +323,13 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Protecting Family Health and Safet",
+        "left_header": "Req 1a: Family Health And Plumbing Systems",
         "right_header": "Req 1b: Local Plumbing Health Regulations",
         "left_points": [
-          "(1a) Protecting Family Health and Safety: Plumbing systems carry water into and out of a home through a system of pipes (p. 20).",
-          "Clean Water Supply: For the health and safety of the people who live there, the water entering the home through the water-supply system must be pure and clean (p. 20)."
+          "(1a) Family Health And Plumbing Systems: Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps."
         ],
         "right_points": [
-          "(1b) Local Plumbing Health Regulations: For the health and safety of the people who live there, the water entering the home through the water-supply system must be pure and clean (p. 20).",
-          "Preventing Wastewater Contact: Wastewater should never come into contact with the water that the family uses for drinking, bathing, or washing clothes and dishes (p. 20)."
+          "(1b) Local Plumbing Health Regulations: Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps."
         ],
         "rows": [
           {
@@ -347,9 +353,9 @@
         "title": "Plumbing Req 1 Exemplar Workbook Entry: Plumbing Health Codes and Repair Safety",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Protecting Family Health and Safet": "Plumbing systems carry water into and out of a home through a system of pipes (p. 20).",
-          "Req 1b (Local Plumbing Health Regulations)": "For the health and safety of the people who live there, the water entering the home through the water-supply system must be pure and clean (p. 20).",
-          "Req 1c - Home Plumbing Repair Safety Precau": "The Plumbing pamphlet for Requirement 1c details the safety precautions you must take when making home plumbing repairs, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+          "Req 1a - Family Health And Plumbing System": "Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps.",
+          "Req 1b - Local Plumbing Health Regulations": "Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps.",
+          "Req 1c - Home Plumbing Repair Precautions": "Repair safety requires isolating water lines, locking out electrical heaters, ventilating solvent fumes, and donning protective equipment."
         },
         "sample_output": "Plumbing Health Codes and Repair Safety: Wastewater should never come into contact with the water that the family uses for drinking, bathing, or washing clothes and dishes (p. 20).",
         "counselor_tip": "For Plumbing Requirement 1 (Plumbing Health Codes and Repair Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40))."
@@ -381,7 +387,13 @@
       "workbook_diagram_caption": "Illustrated panels display residential pipe fittings, copper solder joints, drainage stacks, and Scouts using pipe wrenches.",
       "number": "1",
       "description": "Do the following: (a) Describe how a properly working plumbing system protects your family's health and safety. (b) List five important local health regulations related to plumbing and tell how they protect health and safety. (c) Describe the safety precautions you must take when making home plumbing repairs.",
-      "workbook_visual_caption": "Illustrated panels display residential pipe fittings, copper solder joints, drainage stacks, and Scouts using pipe wrenches."
+      "workbook_visual_caption": "Illustrated panels display residential pipe fittings, copper solder joints, drainage stacks, and Scouts using pipe wrenches.",
+      "pamphlet_summary": "Plumbing systems safeguard public health by delivering potable water under pressure and isolating hazardous sewer gases through vented liquid traps. Municipal plumbing codes establish mandatory engineering minimums that prevent dangerous backflow contamination and cross-connections.",
+      "socratic_questions": [
+        "Why does a drop in city main pressure threaten the safety of home drinking water?",
+        "What physical barrier stops hazardous methane gas from rising out of your bathroom sink?",
+        "How do local building permits prevent unlicensed modifications from poisoning community water systems?"
+      ]
     },
     {
       "req_id": "2",
@@ -422,8 +434,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)",
           "common_misconception_pair": {
-            "misconception": "Vent pipes rising through the roof are only there to release warm air from the attic.",
-            "fact": "Air vents are an extension of the soil pipe that prevent the drainage system from becoming air-bound and allow wastewater to flow freely (p. 9)."
+            "misconception": "Expanding ice causes pipe ruptures only at the exact point where the ice freezes solid.",
+            "fact": "Freezing ice traps water downstream and builds extreme hydraulic pressure that bursts the pipe elsewhere.",
+            "myth": "Expanding ice causes pipe ruptures only at the exact point where the ice freezes solid.",
+            "fact_correction": "Freezing ice traps water downstream and builds extreme hydraulic pressure that bursts the pipe elsewhere."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -449,10 +463,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you would make it safe from freezing.",
-          "topic_title": "Req 2a: Hot and Cold Water Supply",
-          "pamphlet_summary": "Hot and Cold Water Supply: As you can see in the illustration showing the drainage and supply system, the main vent is an extension of the soil pipe (p. 9).",
+          "topic_title": "Req 2a: Supply System Winterization Architecture",
+          "pamphlet_summary": "Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves.",
           "pamphlet_excerpts": [
-            "Hot and Cold Water Supply: As you can see in the illustration showing the drainage and supply system, the main vent is an extension of the soil pipe (p. 9)."
+            "Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p007_img1.png",
           "title": "Req 2a: Hot and Cold Water Supply",
@@ -491,8 +505,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)",
           "common_misconception_pair": {
-            "misconception": "Drain pipes and vent pipes must be made of completely different materials and kept separated inside walls.",
-            "fact": "Drain and vent pipes are tied together into a single drain-waste-vent system and share the same types of piping (p. 9)."
+            "misconception": "Vent pipes carry liquid sewage up to the roof to evaporate outside.",
+            "fact": "Vent pipes convey only air and sewer gases, balancing system pressure so drain water flows freely.",
+            "myth": "Vent pipes carry liquid sewage up to the roof to evaporate outside.",
+            "fact_correction": "Vent pipes convey only air and sewer gases, balancing system pressure so drain water flows freely."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -518,10 +534,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Make a drawing and explain the drainage system of the plumbing in a house. Show and explain the use of drains and vents.",
-          "topic_title": "Req 2b: House Drainage and Vent Systems",
-          "pamphlet_summary": "House Drainage and Vent Systems: The air vents are an important part of waste disposal, which is why the drainage system is often called the drain-waste-vent (DWV) system (p. 9).",
+          "topic_title": "Req 2b: Drain Waste And Vent Architecture",
+          "pamphlet_summary": "The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals.",
           "pamphlet_excerpts": [
-            "House Drainage and Vent Systems: The air vents are an important part of waste disposal, which is why the drainage system is often called the drain-waste-vent (DWV) system (p. 9)."
+            "The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p007_img1.png",
           "workbook_diagram_caption": "A professional plumber inspects and tightens drain fittings beneath a modern residential kitchen counter.",
@@ -537,11 +553,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Water Supply and Drainage Vent Systems",
+      "topic_title": "Req 2: Supply And Drainage System Layout",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Water Supply and Drainage Vent Systems discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Ensure water heaters are completely de-energized at the breaker box before draining hot water plumbing lines.",
       "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)",
       "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)",
       "syllabus_bucket": "In-Class Concept",
@@ -569,8 +585,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Household wastewater drains work solely because water pressure from the street main pushes waste through the sewer pipes.",
-        "fact": "While clean supply water enters the home under pressure, the drainage system relies on gravity and atmospheric air vents to carry waste away smoothly (p. 9)."
+        "misconception": "Drain pipes work best when installed completely horizontal to keep wastewater moving slowly.",
+        "fact": "Drain pipes require a downward slope of one-quarter inch per foot to maintain scouring velocity.",
+        "myth": "Drain pipes work best when installed completely horizontal to keep wastewater moving slowly.",
+        "fact_correction": "Drain pipes require a downward slope of one-quarter inch per foot to maintain scouring velocity."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -594,16 +612,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Drain Waste Vent System: The air vents are an important part of waste disposal, which is why the drainage system is often called the drain-waste-vent (DWV) system (p. 9).",
-        "Connected Drain and Vent: The drain and vent pipes are tied together, or share pipes, and use the same types of pipe (p. 9).",
-        "Soil Pipe Vent Extension: As you can see in the illustration showing the drainage and supply system, the main vent is an extension of the soil pipe (p. 9).",
-        "Preventing Air Bound Pipes: Without air vents, the plumbing system would becomeair-bound, like a small-necked bottle filled with water (p. 9)."
+        "Supply Pressure Delivery: Municipal or well pressure forces fresh water through rigid trunk and branch distribution lines.",
+        "Freeze Protection Drainage: Exterior sillcocks require frost-proof valves and interior shutoffs with manual bleeder drain caps.",
+        "Drainage Gravity Fall: Horizontal drain pipes must maintain one quarter inch per foot downward pitch.",
+        "Stack Vent Equalization: Open roof vent pipes admit atmospheric air to prevent siphoning of fixture traps."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Trace the Main Vent: As you can see in the illustration showing the drainage and supply system, the main vent is an extension of the soil pipe (p. 9).",
-        "Step 2 - Prevent Air Lock Conditions: Without air vents, the plumbing system would becomeair-bound, like a small-necked bottle filled with water (p. 9).",
-        "Step 3 - Balance Pressure and Gravity: Pressure and gravity (p. 9).",
-        "Step 4 - Test Faucet Water Pressure: When you turn on a faucet, you can feel the water pressure, weak or strong (p. 9)."
+        "Step 1 - Supply Line Mapping: Trace hot and cold water copper or PEX tubing from the main service.",
+        "Step 2 - Winterization Valve Setup: Close interior isolation valves to outdoor faucets and open small side waste bleeder caps.",
+        "Step 3 - Drain Pitch Layout: Sketch the main soil stack showing proper downward grade toward the municipal sewer.",
+        "Step 4 - Vent Stack Termination: Route the continuous vent stack vertically through the roof plane away from windows."
       ],
       "gear_checklist": [
         "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
@@ -612,15 +630,13 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Hot and Cold Water Supply",
-        "right_header": "Req 2b: House Drainage and Vent Systems",
+        "left_header": "Req 2a: Supply System Winterization Archit",
+        "right_header": "Req 2b: Drain Waste And Vent Architecture",
         "left_points": [
-          "(2a) Hot and Cold Water Supply: As you can see in the illustration showing the drainage and supply system, the main vent is an extension of the soil pipe (p. 9).",
-          "Connected Drain and Vent: The drain and vent pipes are tied together, or share pipes, and use the same types of pipe (p. 9)."
+          "(2a) Supply System Winterization Architecture: Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves."
         ],
         "right_points": [
-          "(2b) House Drainage and Vent Systems: The air vents are an important part of waste disposal, which is why the drainage system is often called the drain-waste-vent (DWV) system (p. 9).",
-          "Soil Pipe Vent Extension: As you can see in the illustration showing the drainage and supply system, the main vent is an extension of the soil pipe (p. 9)."
+          "(2b) Drain Waste And Vent Architecture: The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals."
         ],
         "rows": [
           {
@@ -644,8 +660,8 @@
         "title": "Plumbing Req 2 Exemplar Workbook Entry: Water Supply and Drainage Vent Systems",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a (Hot and Cold Water Supply)": "As you can see in the illustration showing the drainage and supply system, the main vent is an extension of the soil pipe (p. 9).",
-          "Req 2b (House Drainage and Vent Systems)": "The air vents are an important part of waste disposal, which is why the drainage system is often called the drain-waste-vent (DWV) system (p. 9)."
+          "Req 2a - Supply System Winterization Archi": "Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves.",
+          "Req 2b - Drain Waste And Vent Architecture": "The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals."
         },
         "sample_output": "Water Supply and Drainage Vent Systems: Without air vents, the plumbing system would becomeair-bound, like a small-necked bottle filled with water (p. 9).",
         "counselor_tip": "For Plumbing Requirement 2 (Water Supply and Drainage Vent Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14))."
@@ -677,7 +693,13 @@
       "workbook_diagram_caption": "A professional plumber inspects and tightens drain fittings beneath a modern residential kitchen counter.",
       "number": "2",
       "description": "Do the following: (a) Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you would make it safe from freezing. (b) Make a drawing and explain the drainage system of the plumbing in a house. Show and explain the use of drains and vents.",
-      "workbook_visual_caption": "A professional plumber inspects and tightens drain fittings beneath a modern residential kitchen counter."
+      "workbook_visual_caption": "A professional plumber inspects and tightens drain fittings beneath a modern residential kitchen counter.",
+      "pamphlet_summary": "A residential plumbing diagram shows pressurized hot and cold supply branches running alongside gravity-fed drainage waste and vent piping. Supply systems incorporate insulation and drain valves to prevent freezing, while drainage stacks exhaust sewer gases above the roofline.",
+      "socratic_questions": [
+        "What happens to the water inside a fixture trap if the roof vent stack becomes blocked by snow?",
+        "Why must outdoor hose bibbs feature an internal shutoff valve located inside the heated building envelope?",
+        "How does water pressure differ between second-floor supply lines and ground-floor gravity drain lines?"
+      ]
     },
     {
       "req_id": "3",
@@ -700,11 +722,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Selecting and Using Essential Plumbing Tools",
+      "topic_title": "Req 3: Plumber Hand Tool Mastery",
       "action_verb": "Show",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Review task hazards with your counselor before starting Plumbing Requirement 3 on selecting and using essential plumbing tools: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Never pull a pipe wrench toward your face; push firmly with an open palm or pull away.",
       "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 23, p. 24)",
       "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 23, p. 24)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -732,8 +754,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "A standard hacksaw is always better than a tubing cutter for copper pipe because it cuts faster and leaves a cleaner edge.",
-        "fact": "Using a pipe cutter instead of a hacksaw makes it much easier to produce a square, straight cut without bending or crushing copper pipe (p. 23)."
+        "misconception": "A pipe wrench and an adjustable wrench can be used interchangeably on chrome-plated brass nuts.",
+        "fact": "Serrated pipe wrench teeth will gouge and crush delicate chrome finish, which requires smooth-jaw wrenches.",
+        "myth": "A pipe wrench and an adjustable wrench can be used interchangeably on chrome-plated brass nuts.",
+        "fact_correction": "Serrated pipe wrench teeth will gouge and crush delicate chrome finish, which requires smooth-jaw wrenches."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -757,16 +781,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Square Pipe Cutter Cuts: When using a pipe cutter instead of ahacksaw, you will more easily make a straight, not slanted, cut (p. 23).",
-        "Protecting Soft Copper Tubing: A pipe cutter also make sit easier to avoid bending or crushing a copper pipe (p. 23).",
-        "Formal Plumbing Trade Courses: Community colleges and technical schools offer excellent plumbing courses (p. 23).",
-        "Common Household Tool Chest: Many of the tools used in plumbing will be found in your family tool chest (p. 23)."
+        "Pipe Wrench Direction: Align jaw opening towards the direction of pull so serrated teeth grip firmly.",
+        "Tubing Cutter Operation: Rotate the cutter wheel smoothly while tightening the adjustment knob every two revolutions.",
+        "Basin Wrench Reach: Swiveling spring loaded jaws reach deep behind sink basins to loosen faucet mounting nuts.",
+        "Tongue Groove Pliers: Offset slip jaws adjust across multiple parallel widths to grasp irregular drainage slip nuts."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Explore Technical Plumbing Courses: Community colleges and technical schools offer excellent plumbing courses (p. 23).",
-        "Step 2 - Gather Standard Household Tools: Many of the tools used in plumbing will be found in your family tool chest (p. 23).",
-        "Step 3 - Handle Borrowed Tools Carefully: As a Scout, you will, of course, handle tools carefully, especially borrowed ones (p. 23).",
-        "Step 4 - Practice Careful Craftsmanship Habits: Your care will pay off in better workmanship and the satisfaction that goes (p. 23)."
+        "Step 1 - Wrench Jaw Alignment: Position the straight pipe wrench so the hook jaw faces the direction of turn.",
+        "Step 2 - Copper Tube Cutting: Clamp the tubing cutter wheel lightly onto the scored copper cut mark line.",
+        "Step 3 - Reaming Burr Removal: Extend the cutter reamer blade inside the pipe bore to scrape away burrs.",
+        "Step 4 - Basin Nut Removal: Engage spring loaded basin wrench jaws onto the undersink mounting nut and turn."
       ],
       "gear_checklist": [
         "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
@@ -844,7 +868,13 @@
       "workbook_diagram_caption": "An adult instructor demonstrates how to cut, fit, and solder copper water pipes at an outdoor workbench.",
       "number": "3",
       "description": "Show how to use five important plumber's tools.",
-      "workbook_visual_caption": "An adult instructor demonstrates how to cut, fit, and solder copper water pipes at an outdoor workbench."
+      "workbook_visual_caption": "An adult instructor demonstrates how to cut, fit, and solder copper water pipes at an outdoor workbench.",
+      "pamphlet_summary": "Professional plumbing hand tools provide mechanical leverage, precise cutting geometry, and non-marring grip across various metal and plastic materials. Using the correct tool prevents damaged fittings, deformed pipe walls, and rounded hex fastener flats.",
+      "socratic_questions": [
+        "Why must you remove the internal burr from a copper pipe after using a wheel cutter?",
+        "How does the ratcheting jaw action of a basin wrench solve tight clearance problems under sinks?",
+        "What happens to a threaded pipe fitting if you use an oversized wrench with excessive leverage?"
+      ]
     },
     {
       "req_id": "4",
@@ -862,11 +892,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Essential Plumbing Fittings Valves and Terms",
+      "topic_title": "Req 4: Plumbing Component Terminology Recognition",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Plumbing Requirement 4 on essential plumbing fittings valves and terms: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Avoid touching chemical flux paste with bare fingers because zinc chloride causes severe skin and eye irritation.",
       "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 13, p. 19)",
       "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 13, p. 19)",
       "syllabus_bucket": "In-Class Concept",
@@ -894,8 +924,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Solder flux is an adhesive glue that holds copper pipes together until the torch heats the joint.",
-        "fact": "Flux is a chemical cleaning paste that removes oxidation and helps molten solder flow smoothly into the narrow gap between copper pipe and fitting (p. 19)."
+        "misconception": "A pipe union and a standard coupling perform identical permanent connections between two pipe ends.",
+        "fact": "A union allows quick disconnection without cutting pipes, whereas a coupling creates a fixed connection.",
+        "myth": "A pipe union and a standard coupling perform identical permanent connections between two pipe ends.",
+        "fact_correction": "A union allows quick disconnection without cutting pipes, whereas a coupling creates a fixed connection."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -919,16 +951,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Solar Water Storage Tank: Electric water heater A solar system uses a storage tank (p. 13).",
-        "Rooftop Solar Collector Pump: A pressure pump pushes water through the rooftop solar collectors to the storage tank until the water is heated (p. 13).",
-        "Cloudy Day Backup Heater: Usually a gas or electric water heater is used as a backup for cloudy days (p. 13).",
-        "Pressure Dependent Steam Point: The exact temperature at which water turns to steam depends upon the pressure (p. 13)."
+        "Threaded Pipe Nipple: Short lengths of male threaded pipe connect closely positioned valves and female fittings.",
+        "Directional Elbow Fitting: Ninety or forty-five degree elbows alter flow direction without crimping or kinking pipes.",
+        "Sanitary Waste Trap: Curved piping retains a standing water plug that halts poisonous sewer gas infiltration.",
+        "Solder Flux Cleaning: Chemical paste prevents oxidation and draws molten filler metal deep into heated copper fittings."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Maintain Backup Heating Systems: Usually a gas or electric water heater is used as a backup for cloudy days (p. 13).",
-        "Step 2 - Monitor Pressurized Water Temperature: The exact temperature at which water turns to steam depends upon the pressure (p. 13).",
-        "Step 3 - Inspect Temperature Pressure Relief Valves: All hot-water heating systems have temperature and pressure-relief valves that allow for this expansion and the escape of steam (p. 13).",
-        "Step 4 - Verify Valve Operation Prevents Explosions: A properly working valve will prevent explosions (p. 13)."
+        "Step 1 - Component Function Categorization: Separate fittings into supply, drainage, sealing, directional, and flow measurement groups.",
+        "Step 2 - Fitting Thread Identification: Inspect internal female and external male threads across nipples, couplings, and plugs.",
+        "Step 3 - Trap Seal Inspection: Measure the vertical distance between the dip and crown weir on a P trap.",
+        "Step 4 - Meter Dial Reading: Read the municipal water meter register dials to record consumption in gallons or feet."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1001,7 +1033,13 @@
       "workbook_diagram_caption": "A Scout wears safety goggles and gloves while cleaning residential bathroom fixtures and surrounding tiles.",
       "number": "4",
       "description": "Identify and explain the following terms: washer, retaining nut, plunger (rubber force cup), solder, flux, elbow, tee, nipple, coupling, plug, union, trap, drainpipe, and water meter.",
-      "workbook_visual_caption": "A Scout wears safety goggles and gloves while cleaning residential bathroom fixtures and surrounding tiles."
+      "workbook_visual_caption": "A Scout wears safety goggles and gloves while cleaning residential bathroom fixtures and surrounding tiles.",
+      "pamphlet_summary": "Mastering standard plumbing terminology ensures clear communication when sourcing fittings, assembling pipe runs, and troubleshooting fixture malfunctions. Each component serves a distinct structural function, whether sealing joints, changing flow direction, or measuring consumption.",
+      "socratic_questions": [
+        "Why is a sanitary tee curved differently than a pressurized water supply tee fitting?",
+        "What distinguishes a compression washer from a retaining nut in a common stem faucet assembly?",
+        "Under what circumstances would an installer choose a pipe union over an inexpensive threaded coupling?"
+      ]
     },
     {
       "req_id": "5",
@@ -1024,11 +1062,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Common Plumbing Pipe Materials and Applications",
+      "topic_title": "Req 5: Common Piping Material Applications",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 5): Complete all Common Plumbing Pipe Materials and Applications discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Never test plastic pipe systems like PVC or CPVC using compressed air due to explosive shattering hazards.",
       "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 28, p. 31)",
       "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 28, p. 31)",
       "syllabus_bucket": "In-Class Concept",
@@ -1056,8 +1094,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Standard white PVC pipe is suitable for indoor hot-water supply lines because all rigid plastic pipes handle heat equally well.",
-        "fact": "Hot water causes standard PVC pipe to lose its strength, so PVC is no longer recommended for indoor water-supply systems (p. 28)."
+        "misconception": "White PVC pipe can safely convey both pressurized hot and cold household drinking water.",
+        "fact": "Standard PVC softens and fails under hot water; chlorinated CPVC or PEX is required.",
+        "myth": "White PVC pipe can safely convey both pressurized hot and cold household drinking water.",
+        "fact_correction": "Standard PVC softens and fails under hot water; chlorinated CPVC or PEX is required."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1081,16 +1121,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Diverse Pipe Material Options: Pipes and fittings are made of many different materials (p. 28).",
-        "Pre-1950s Cast Iron Piping: Homes built before the 1950s were built with cast-iron and galvanized steel pipes (p. 28).",
-        "PVC Heat Strength Loss: For instance, a kind of plastic pipe called PVC used to be installed for hot- and cold-water supply, but the hot water made the pipe lose its strength (p. 28).",
-        "Indoor PVC Supply Restrictions: For this reason, PVC pipe is no longer recommended for use in the indoor water system (p. 28)."
+        "Rigid Copper Tubing: Rigid copper provides exceptional heat tolerance, biostatic properties, and durable high pressure containment.",
+        "Flexible PEX Tubing: Cross-linked polyethylene resists scaling, expands during freezes, and installs with minimal joint fittings.",
+        "Drainage PVC Pipe: Polyvinyl chloride offers smooth interior surfaces and chemical resistance for gravity drain waste stacks.",
+        "Chlorinated CPVC Pipe: Added chlorine enables CPVC to handle pressurized hot water that standard PVC cannot tolerate."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Check Heat Ratings on Plastics: For instance, a kind of plastic pipe called PVC used to be installed for hot- and cold-water supply, but the hot water made the pipe lose its strength (p. 28).",
-        "Step 2 - Avoid Standard PVC Indoors: For this reason, PVC pipe is no longer recommended for use in the indoor water system (p. 28).",
-        "Step 3 - Identify Outdated Galvanized Steel: Another outdated product is the galvanized steel pipe (p. 28).",
-        "Step 4 - Replace Corroded Fifty Year Pipes: Galvanized-steel pipes are strong at first, but corrode and leak after about 50 years (p. 28)."
+        "Step 1 - Material Property Comparison: Evaluate pipe temperature limits, working pressure ratings, and flexibility for the specific installation.",
+        "Step 2 - Copper Type Selection: Select Type M, L, or K copper tubing based on wall thickness requirements.",
+        "Step 3 - Plastic Pipe Designation: Verify schedule forty ratings on PVC drainage pipe before assembling gravity sewer lines.",
+        "Step 4 - Thermal Expansion Allowance: Install expansion loops along long runs of CPVC or PEX to accommodate heat."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1163,7 +1203,13 @@
       "workbook_diagram_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
       "number": "5",
       "description": "Name the kinds of pipe that are used most often in a plumbing system. Explain why these pipes are used.",
-      "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely."
+      "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
+      "pamphlet_summary": "Residential plumbing relies on copper, PEX, PVC, CPVC, and cast iron based on pressure ratings, temperature tolerances, and chemical resistance. Selecting the appropriate pipe material prevents thermal degradation, premature corrosion, and catastrophic water damage.",
+      "socratic_questions": [
+        "Why has flexible PEX largely replaced rigid copper in modern residential domestic water supply lines?",
+        "What makes heavy cast iron pipe preferable to thin plastic pipe for multi-story drain stacks?",
+        "How does the chemical addition of chlorine alter the physical performance of CPVC compared to PVC?"
+      ]
     },
     {
       "req_id": "6",
@@ -1609,8 +1655,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
-            "misconception": "When soldering a copper joint, you should hold the torch flame directly on the tip of the solder wire so it drips onto the cold pipe.",
-            "fact": "You must heat the cleaned and fluxed copper fitting with the torch until the metal itself is hot enough to melt the solder by capillary action (p. 36)."
+            "misconception": "Fittings designed for PEX tubing can be directly glued onto standard rigid CPVC pipes.",
+            "fact": "Each piping family requires manufacturer-certified fittings engineered for that specific material's outside diameter and joining method.",
+            "myth": "Fittings designed for PEX tubing can be directly glued onto standard rigid CPVC pipes.",
+            "fact_correction": "Each piping family requires manufacturer-certified fittings engineered for that specific material's outside diameter and joining method."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1636,10 +1684,10 @@
           "id": "6a",
           "sub_req_label": "6a",
           "sub_req_text": "Visit the plumbing section of a hardware store or home center and identify: (1) PVC pipe and fittings (2) CPVC pipe and fittings (3) PEX pipe and fittings (4) Copper pipe and fittings (5) Steel pipe and fittings (6) Specialty plumbing tools.",
-          "topic_title": "Req 6a: Hardware Store Pipe Identification",
-          "pamphlet_summary": "Hardware Store Pipe Identification: For the same reasons, it is necessary to vent the plumbing at the proper places and with the proper size of pipe (p. 15).",
+          "topic_title": "Req 6a: Store Plumbing Component Survey",
+          "pamphlet_summary": "Visiting a plumbing supply retailer allows Scouts to compare wall thicknesses, joint designs, and connection hardware across major piping materials.",
           "pamphlet_excerpts": [
-            "Hardware Store Pipe Identification: For the same reasons, it is necessary to vent the plumbing at the proper places and with the proper size of pipe (p. 15)."
+            "Visiting a plumbing supply retailer allows Scouts to compare wall thicknesses, joint designs, and connection hardware across major piping materials."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p032_img1.png",
           "workbook_diagram_caption": "A boy cuts a white plastic pipe secured in a workbench vise using a handsaw under adult supervision.",
@@ -1682,8 +1730,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Pipe thread tape should be wrapped counterclockwise around male pipe threads so it unravels as you tighten the fitting.",
-            "fact": "Pipe thread tape must be wrapped clockwise around the male threads in the same direction the fitting turns so tightening pulls the tape snug into the threads (p. 36)."
+            "misconception": "Solvent cement acts as a glue that sticks two separate pieces of plastic together like tape.",
+            "fact": "Solvent cement chemically dissolves and fuses the pipe and fitting walls into one solid piece of plastic.",
+            "myth": "Solvent cement acts as a glue that sticks two separate pieces of plastic together like tape.",
+            "fact_correction": "Solvent cement chemically dissolves and fuses the pipe and fitting walls into one solid piece of plastic."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1709,10 +1759,10 @@
           "id": "6b",
           "sub_req_label": "6b",
           "sub_req_text": "Cut, clean (deburr), PVC or CPVC pipe; solvent weld at least three connections to include a coupling, tee, and elbow.",
-          "topic_title": "Req 6b: Solvent Welding PVC and CPVC",
-          "pamphlet_summary": "For Plumbing Requirement 6b (Solvent Welding PVC and CPVC): The Plumbing pamphlet for Requirement 6b details cut, clean (deburr), PVC or CPVC pipe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+          "topic_title": "Req 6b: Plastic Solvent Cement Welding",
+          "pamphlet_summary": "Solvent welding involves deburring cut plastic ends, applying purple primer to soften mating surfaces, and joining with cement.",
           "pamphlet_excerpts": [
-            "Solvent Welding PVC and CPVC: The Plumbing pamphlet for Requirement 6b details cut, clean (deburr), PVC or CPVC pipe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+            "Solvent welding involves deburring cut plastic ends, applying purple primer to soften mating surfaces, and joining with cement."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
           "title": "Req 6b: Solvent Welding PVC and CPVC",
@@ -1751,8 +1801,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Deburring cut PVC pipe is purely cosmetic and has no effect on solvent-welded joints.",
-            "fact": "Burrs left on cut plastic pipe scrape away primer and solvent cement during assembly and can catch debris inside the line (p. 36)."
+            "misconception": "A standard pair of slip-joint pliers can adequately compress copper PEX crimp rings.",
+            "fact": "Only a calibrated PEX crimp tool with a go/no-go gauge can create code-compliant watertight seals.",
+            "myth": "A standard pair of slip-joint pliers can adequately compress copper PEX crimp rings.",
+            "fact_correction": "Only a calibrated PEX crimp tool with a go/no-go gauge can create code-compliant watertight seals."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1778,10 +1830,10 @@
           "id": "6c",
           "sub_req_label": "6c",
           "sub_req_text": "Cut PEX pipe; make at least one connection using either a quick-connect fitting or a crimp fitting (using specialized tools)",
-          "topic_title": "Req 6c: Joining Flexible PEX Tubing",
-          "pamphlet_summary": "Joining Flexible PEX Tubing: Vent connection for vertical waste pipe VENT PIPE WASTE PIPE TRAP Vent connector for horizontal waste pipe turned upside (p. 15).",
+          "topic_title": "Req 6c: PEX Crimp Connection Assembly",
+          "pamphlet_summary": "PEX tubing connections use specialized crimp tools or push-fit connectors that seat against barbed brass or polyphenylsulfone fittings.",
           "pamphlet_excerpts": [
-            "Joining Flexible PEX Tubing: Vent connection for vertical waste pipe VENT PIPE WASTE PIPE TRAP Vent connector for horizontal waste pipe turned upside (p. 15)."
+            "PEX tubing connections use specialized crimp tools or push-fit connectors that seat against barbed brass or polyphenylsulfone fittings."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
           "workbook_diagram_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
@@ -1822,8 +1874,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
-            "misconception": "During Plumbing Requirement 6d, Scouts can underestimate how directly mastery of soldering copper pipe connections depends on understanding solder a copper connection using a gas torch.",
-            "fact": "Scouting America standards for Plumbing Requirement 6d require complete workbook entries on soldering copper pipe connections to demonstrate full understanding of solder a copper connection using a gas torch."
+            "misconception": "Directing the open torch flame straight at the solder wire ensures the strongest joint bond.",
+            "fact": "The copper fitting itself must heat the solder, drawing molten metal inward via capillary action.",
+            "myth": "Directing the open torch flame straight at the solder wire ensures the strongest joint bond.",
+            "fact_correction": "The copper fitting itself must heat the solder, drawing molten metal inward via capillary action."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1849,10 +1903,10 @@
           "id": "6d",
           "sub_req_label": "6d",
           "sub_req_text": "Solder a copper connection using a gas torch.",
-          "topic_title": "Req 6d: Soldering Copper Pipe Connections",
-          "pamphlet_summary": "For Plumbing Requirement 6d (Soldering Copper Pipe Connections): The Plumbing pamphlet for Requirement 6d details solder a copper connection using a gas torch, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+          "topic_title": "Req 6d: Copper Torch Sweat Soldering",
+          "pamphlet_summary": "Sweat soldering requires thoroughly cleaning copper surfaces with emery cloth, applying flux, heating the joint evenly, and applying solder.",
           "pamphlet_excerpts": [
-            "Soldering Copper Pipe Connections: The Plumbing pamphlet for Requirement 6d details solder a copper connection using a gas torch, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+            "Sweat soldering requires thoroughly cleaning copper surfaces with emery cloth, applying flux, heating the joint evenly, and applying solder."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
           "workbook_diagram_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
@@ -1897,10 +1951,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Replacing Kitchen or Lavatory Faucets (Req 6e) or confusing Replacing Kitchen or Lavatory Faucets with general Hands On Pipe Joining and Repairs procedures.",
-            "fact": "For Requirement 6e (Replacing Kitchen or Lavatory Faucets), The Plumbing pamphlet for Requirement 6e details replace a kitchen or lavatory faucet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
-            "myth": "Overlooking the specific field checks required for Replacing Kitchen or Lavatory Faucets (Req 6e) or confusing Replacing Kitchen or Lavatory Faucets with general Hands On Pipe Joining and Repairs procedures.",
-            "fact_correction": "For Requirement 6e (Replacing Kitchen or Lavatory Faucets), The Plumbing pamphlet for Requirement 6e details replace a kitchen or lavatory faucet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+            "misconception": "Old crusty supply riser hoses should be reused whenever installing a brand-new faucet body.",
+            "fact": "Old supply risers degrade internally and must be replaced with new braided stainless steel lines.",
+            "myth": "Old crusty supply riser hoses should be reused whenever installing a brand-new faucet body.",
+            "fact_correction": "Old supply risers degrade internally and must be replaced with new braided stainless steel lines."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1926,10 +1980,10 @@
           "id": "6e",
           "sub_req_label": "6e",
           "sub_req_text": "Replace a kitchen or lavatory faucet.",
-          "topic_title": "Req 6e: Replacing Kitchen or Lavatory Faucets",
-          "pamphlet_summary": "For Plumbing Requirement 6e (Replacing Kitchen or Lavatory Faucets): The Plumbing pamphlet for Requirement 6e details replace a kitchen or lavatory faucet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+          "topic_title": "Req 6e: Sink Faucet Fixture Replacement",
+          "pamphlet_summary": "Replacing a sink faucet requires shutting off undersink stop valves, disconnecting flexible supply risers, and securing mounting nuts.",
           "pamphlet_excerpts": [
-            "Replacing Kitchen or Lavatory Faucets: The Plumbing pamphlet for Requirement 6e details replace a kitchen or lavatory faucet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+            "Replacing a sink faucet requires shutting off undersink stop valves, disconnecting flexible supply risers, and securing mounting nuts."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
           "workbook_diagram_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
@@ -1970,8 +2024,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
-            "misconception": "When preparing Plumbing Requirement 6f (Req 6f Servicing Sink Drain Traps), Scouts sometimes overlook the specific details needed to remove, clean or replace, and reinstall a sink or lavatory drain trap.",
-            "fact": "Counselor verification for Plumbing Requirement 6f requires concrete workbook evidence covering req 6f servicing sink drain traps and a clear explanation of how to remove, clean or replace, and reinstall a sink or lavatory drain trap."
+            "misconception": "Slip joint nuts on sink traps require excessive tightening with a heavy pipe wrench.",
+            "fact": "Over-tightening slip nuts cracks plastic threads and pinches rubber washers, causing chronic leaks.",
+            "myth": "Slip joint nuts on sink traps require excessive tightening with a heavy pipe wrench.",
+            "fact_correction": "Over-tightening slip nuts cracks plastic threads and pinches rubber washers, causing chronic leaks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1997,10 +2053,10 @@
           "id": "6f",
           "sub_req_label": "6f",
           "sub_req_text": "Remove, clean or replace, and reinstall a sink or lavatory drain trap.",
-          "topic_title": "Req 6f: Servicing Sink Drain Traps",
-          "pamphlet_summary": "For Plumbing Requirement 6f (Servicing Sink Drain Traps): The Plumbing pamphlet for Requirement 6f details remove, clean or replace, and reinstall a sink or lavatory drain trap, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+          "topic_title": "Req 6f: Drain Trap Removal Servicing",
+          "pamphlet_summary": "Servicing a sink P-trap involves loosening slip nuts, draining trapped water into a bucket, clearing debris, and resealing washers.",
           "pamphlet_excerpts": [
-            "Servicing Sink Drain Traps: The Plumbing pamphlet for Requirement 6f details remove, clean or replace, and reinstall a sink or lavatory drain trap, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+            "Servicing a sink P-trap involves loosening slip nuts, draining trapped water into a bucket, clearing debris, and resealing washers."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
           "title": "Req 6f: Servicing Sink Drain Traps",
@@ -2037,8 +2093,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
           "common_misconception_pair": {
-            "misconception": "For Plumbing Requirement 6g, a common mistake in applying pipe thread sealant tape is treating properly apply pipe thread tape to a pipe or a plumbing connector as optional background reading.",
-            "fact": "Mastering Plumbing Requirement 6g means following the pamphlet standard for applying pipe thread sealant tape and recording accurate notes on properly apply pipe thread tape to a pipe or a plumbing connector."
+            "misconception": "Wrapping thread tape counterclockwise provides the exact same sealing performance as clockwise wrapping.",
+            "fact": "Counterclockwise wrapping bunches up and shreds off as the male fitting threads into the female socket.",
+            "myth": "Wrapping thread tape counterclockwise provides the exact same sealing performance as clockwise wrapping.",
+            "fact_correction": "Counterclockwise wrapping bunches up and shreds off as the male fitting threads into the female socket."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2064,10 +2122,10 @@
           "id": "6g",
           "sub_req_label": "6g",
           "sub_req_text": "Properly apply pipe thread tape to a pipe or a plumbing connector.",
-          "topic_title": "Req 6g: Applying Pipe Thread Sealant Tape",
-          "pamphlet_summary": "For Plumbing Requirement 6g (Applying Pipe Thread Sealant Tape): The Plumbing pamphlet for Requirement 6g details properly apply pipe thread tape to a pipe or a plumbing connector, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+          "topic_title": "Req 6g: Thread Tape Sealant Application",
+          "pamphlet_summary": "PTFE thread sealant tape wraps snugly into male pipe threads in a clockwise direction to lubricate and seal tapered NPT joints.",
           "pamphlet_excerpts": [
-            "Applying Pipe Thread Sealant Tape: The Plumbing pamphlet for Requirement 6g details properly apply pipe thread tape to a pipe or a plumbing connector, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+            "PTFE thread sealant tape wraps snugly into male pipe threads in a clockwise direction to lubricate and seal tapered NPT joints."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
           "title": "Req 6g: Applying Pipe Thread Sealant Tape",
@@ -2109,11 +2167,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Hands On Pipe Joining and Repairs",
+      "topic_title": "Req 6: Practical Plumbing Assembly Skills",
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Plumbing Requirement 6 on hands on pipe joining and repairs: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Keep a certified fire extinguisher and heat shield pad directly behind copper joints when operating torches.",
       "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
       "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2151,8 +2209,10 @@
         "min_rows": 7
       },
       "common_misconception_pair": {
-        "misconception": "The curved U-shaped trap beneath a bathroom sink is designed primarily to catch dropped jewelry before it enters the sewer.",
-        "fact": "The curved drain trap holds a standing water seal that blocks toxic and foul-smelling sewer gases from entering the house through the sink drain (p. 15)."
+        "misconception": "Applying extra layers of pipe thread tape guarantees a tighter seal on mechanical compression fittings.",
+        "fact": "Thread tape lubricates tapered pipe threads and will ruin the seal on flat washer compression joints.",
+        "myth": "Applying extra layers of pipe thread tape guarantees a tighter seal on mechanical compression fittings.",
+        "fact_correction": "Thread tape lubricates tapered pipe threads and will ruin the seal on flat washer compression joints."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2176,16 +2236,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Waste Pipe Vent Connections: Vent connection for vertical waste pipe VENT PIPE WASTE PIPE TRAP Vent connector for horizontal waste pipe turned upside (p. 15).",
-        "Noisy Unvented Bottle Drainage: The water would run out of the bottle very noisily, and it would take the bottle a long time to empty (p. 15).",
-        "Air Relief Vent Opening: However, if ahole the size of the bottleneck we remade in the bottom of the bottle, the water would readily escape when the bottle was tipped (p. 15).",
-        "Proper Vent Sizing Placement: For the same reasons, it is necessary to vent the plumbing at the proper places and with the proper size of pipe (p. 15)."
+        "Square Cut Alignment: Pipe ends must be cut exactly square to seat fully inside fitting sockets.",
+        "Solvent Cement Fusion: Primer softens plastic surfaces while solvent cement chemically welds fitting and pipe together.",
+        "Capillary Action Soldering: Molten solder flows inward toward heat to seal clean fluxed copper joint gaps.",
+        "Thread Sealant Direction: Wrap PTFE tape clockwise around male pipe threads to prevent unravelling during assembly."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Relieve Vacuum Behind Draining Water: However, if ahole the size of the bottleneck we remade in the bottom of the bottle, the water would readily escape when the bottle was tipped (p. 15).",
-        "Step 2 - Size and Place Vents Properly: For the same reasons, it is necessary to vent the plumbing at the proper places and with the proper size of pipe (p. 15).",
-        "Step 3 - Route Sewer Gas Above Windows: Vents also allow sewer gas to pass out safely above the level of open windows and people (p. 15).",
-        "Step 4 - Maintain the Trap Water Seal: Water rests in the trap and is called a water seal (p. 15)."
+        "Step 1 - Pipe End Preparation: Cut the pipe squarely and scrape internal and external burrs smooth with reamers.",
+        "Step 2 - Fitting Joint Assembly: Join prepared fittings using solvent cement, crimp rings, or torch applied solder paste.",
+        "Step 3 - Fixture Trap Installation: Align slip nuts and beveled washers onto the trap tailpiece before hand tightening.",
+        "Step 4 - Pressure Leak Testing: Turn on the water supply slowly to inspect newly made joints for weeping."
       ],
       "gear_checklist": [
         "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
@@ -2194,17 +2254,17 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Hardware Store Pipe Identification",
-        "right_header": "Req 6d: Soldering Copper Pipe Connections",
+        "left_header": "Req 6a: Store Plumbing Component Survey",
+        "right_header": "Req 6d: Copper Torch Sweat Soldering",
         "left_points": [
-          "(6a) Hardware Store Pipe Identification: For the same reasons, it is necessary to vent the plumbing at the proper places and with the proper size of pipe (p. 15).",
-          "(6b) Solvent Welding PVC and CPVC: The Plumbing pamphlet for Requirement 6b details cut, clean (deburr), PVC or CPVC pipe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
-          "(6c) Joining Flexible PEX Tubing: Vent connection for vertical waste pipe VENT PIPE WASTE PIPE TRAP Vent connector for horizontal waste pipe turned upside (p. 15)."
+          "(6a) Store Plumbing Component Survey: Visiting a plumbing supply retailer allows Scouts to compare wall thicknesses, joint designs, and connection hardware across major piping materials.",
+          "(6b) Plastic Solvent Cement Welding: Solvent welding involves deburring cut plastic ends, applying purple primer to soften mating surfaces, and joining with cement.",
+          "(6c) PEX Crimp Connection Assembly: PEX tubing connections use specialized crimp tools or push-fit connectors that seat against barbed brass or polyphenylsulfone fittings."
         ],
         "right_points": [
-          "(6d) Soldering Copper Pipe Connections: The Plumbing pamphlet for Requirement 6d details solder a copper connection using a gas torch, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
-          "(6e) Replacing Kitchen or Lavatory Faucets: The Plumbing pamphlet for Requirement 6e details replace a kitchen or lavatory faucet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
-          "(6f) Servicing Sink Drain Traps: The Plumbing pamphlet for Requirement 6f details remove, clean or replace, and reinstall a sink or lavatory drain trap, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+          "(6d) Copper Torch Sweat Soldering: Sweat soldering requires thoroughly cleaning copper surfaces with emery cloth, applying flux, heating the joint evenly, and applying solder.",
+          "(6e) Sink Faucet Fixture Replacement: Replacing a sink faucet requires shutting off undersink stop valves, disconnecting flexible supply risers, and securing mounting nuts.",
+          "(6f) Drain Trap Removal Servicing: Servicing a sink P-trap involves loosening slip nuts, draining trapped water into a bucket, clearing debris, and resealing washers."
         ],
         "rows": [
           {
@@ -2228,10 +2288,10 @@
         "title": "Plumbing Req 6 Exemplar Workbook Entry: Hands On Pipe Joining and Repairs",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a - Hardware Store Pipe Identification": "For the same reasons, it is necessary to vent the plumbing at the proper places and with the proper size of pipe (p. 15).",
-          "Req 6b (Solvent Welding PVC and CPVC)": "The Plumbing pamphlet for Requirement 6b details cut, clean (deburr), PVC or CPVC pipe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
-          "Req 6c (Joining Flexible PEX Tubing)": "Vent connection for vertical waste pipe VENT PIPE WASTE PIPE TRAP Vent connector for horizontal waste pipe turned upside (p. 15).",
-          "Req 6d (Soldering Copper Pipe Connections)": "The Plumbing pamphlet for Requirement 6d details solder a copper connection using a gas torch, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+          "Req 6a - Store Plumbing Component Survey": "Visiting a plumbing supply retailer allows Scouts to compare wall thicknesses, joint designs, and connection hardware across major piping materials.",
+          "Req 6b - Plastic Solvent Cement Welding": "Solvent welding involves deburring cut plastic ends, applying purple primer to soften mating surfaces, and joining with cement.",
+          "Req 6c - PEX Crimp Connection Assembly": "PEX tubing connections use specialized crimp tools or push-fit connectors that seat against barbed brass or polyphenylsulfone fittings.",
+          "Req 6d - Copper Torch Sweat Soldering": "Sweat soldering requires thoroughly cleaning copper surfaces with emery cloth, applying flux, heating the joint evenly, and applying solder."
         },
         "sample_output": "Hands On Pipe Joining and Repairs: For the same reasons, it is necessary to vent the plumbing at the proper places and with the proper size of pipe (p. 15).",
         "counselor_tip": "For Plumbing Requirement 6 (Hands On Pipe Joining and Repairs), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36))."
@@ -2263,7 +2323,13 @@
       "workbook_diagram_caption": "A boy cuts a white plastic pipe secured in a workbench vise using a handsaw under adult supervision.",
       "number": "6",
       "description": "Do FOUR of the following, each under the supervision of a knowledgeable adult: (a) Visit the plumbing section of a hardware store or home center and identify: (1) PVC pipe and fittings (2) CPVC pipe and fittings (3) PEX pipe and fittings (4) Copper pipe and fittings (5) Steel pipe and fittings (6) Specialty plumbing tools (b) Cut, clean (deburr), PVC or CPVC pipe; solvent weld at least three connections to include a coupling, tee, and elbow. (c) Cut PEX pipe; make at least one connection using either a quick-connect fitting or a crimp fitting (using specialized tools). (d) Solder a copper connection using a gas torch. (e) Replace a kitchen or lavatory faucet. (f) Remove, clean or replace, and reinstall a sink or lavatory drain trap. (g) Properly apply pipe thread tape to a pipe or a plumbing connector.",
-      "workbook_visual_caption": "A boy cuts a white plastic pipe secured in a workbench vise using a handsaw under adult supervision."
+      "workbook_visual_caption": "A boy cuts a white plastic pipe secured in a workbench vise using a handsaw under adult supervision.",
+      "pamphlet_summary": "Hands-on plumbing skills require measuring accurately, cutting square ends, deburring pipe edges, and applying approved joining techniques. Practicing solvent welding, mechanical crimping, soldering, and fixture replacement builds competency in creating leak-free assemblies.",
+      "socratic_questions": [
+        "Why must you twist a PVC pipe a quarter turn immediately after inserting it into the fitting socket?",
+        "How does capillary action enable liquid solder to flow upward into an inverted copper coupling joint?",
+        "What causes a newly installed sink drain slip joint to leak even when the nut is fully tightened?"
+      ]
     },
     {
       "req_id": "7",
@@ -2290,11 +2356,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Plumbing Trade Careers and Training Pathways",
+      "topic_title": "Req 7: Plumbing Industry Career Pathways",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 7): Complete all Plumbing Trade Careers and Training Pathways discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Occupational plumbers must maintain OSHA certification regarding confined space entry, trench shoring, and hazardous gas mitigation.",
       "pamphlet_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 8, p. 40)",
       "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 8, p. 40)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -2326,8 +2392,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Plumbers only unclog household toilets and sinks and never work on industrial machinery or gas pipelines.",
-        "fact": "Plumbing and pipe fitting cover installations and repairs in homes, commercial buildings, and factories for water supply, waste drainage, and natural-gas heating (p. 8)."
+        "misconception": "Plumbing careers involve only clearing clogged household toilets with hand snakes.",
+        "fact": "Plumbing encompasses complex engineering, medical gas distribution in hospitals, fire suppression, and municipal water infrastructure.",
+        "myth": "Plumbing careers involve only clearing clogged household toilets with hand snakes.",
+        "fact_correction": "Plumbing encompasses complex engineering, medical gas distribution in hospitals, fire suppression, and municipal water infrastructure."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2351,16 +2419,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Well Paid Pipe Trades: Plumbing, including pipe fitting, is an important and well-paid occupation (p. 8).",
-        "Residential and Industrial Scope: It covers installations and repairs in homes, commercial properties, and factories (p. 8).",
-        "Water Waste and Gas: Plumbing pipelines are used for water supply, waste drainage, natural-gas heating, and many other purposes (p. 8).",
-        "Scout Home Repair Skills: As a Scout, your major interest in plumbing probably will be in the field of home repairs (p. 8)."
+        "Apprentice Training Programs: Registered apprenticeships blend paid on the job mechanical experience with technical night school.",
+        "Journeyman Licensing Exams: Passing state licensing exams verifies comprehensive mastery of regional codes and hydraulic engineering.",
+        "Master Plumber Leadership: Master plumbers pull municipal permits, manage contracting businesses, and supervise developing apprentice crews.",
+        "Specialized Pipefitter Careers: Commercial industrial pipefitters install massive high pressure steam, gas, and chemical transport systems."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Study Diverse Pipeline Systems: Plumbing pipelines are used for water supply, waste drainage, natural-gas heating, and many other purposes (p. 8).",
-        "Step 2 - Build Practical Home Repair Skills: As a Scout, your major interest in plumbing probably will be in the field of home repairs (p. 8).",
-        "Step 3 - Diagnose Leaks and Frozen Pipes: If a faucet leaks, a pipe freezes, or a plumbing fixture does not operate properly, you will want to know how to evaluate the problem (p. 8).",
-        "Step 4 - Decide When Professionals Are Needed: Then you will be able to decide on the proper steps to take to fix the problem, or determine that the job requires a professional plumber (p. 8)."
+        "Step 1 - Vocational Pathway Exploration: Research trade school curricula, union joint apprenticeship committees, and non-union contractor programs.",
+        "Step 2 - Licensing Prerequisite Analysis: Document state board requirements for classroom hours, field hours, and written examinations.",
+        "Step 3 - Financial Obligation Breakdown: Calculate anticipated initial expenses for personal tool purchases, trade textbooks, and licensing fees.",
+        "Step 4 - Industry Employment Projection: Review Bureau of Labor Statistics projections regarding regional employment growth and journeyman wages."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -2433,7 +2501,13 @@
       "workbook_diagram_caption": "A Scout and adult instructor thread and cut rigid steel pipes using a heavy-duty portable pipe vise.",
       "number": "7",
       "description": "Identify three career opportunities that would use skills and knowledge in plumbing. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.",
-      "workbook_visual_caption": "A Scout and adult instructor thread and cut rigid steel pipes using a heavy-duty portable pipe vise."
+      "workbook_visual_caption": "A Scout and adult instructor thread and cut rigid steel pipes using a heavy-duty portable pipe vise.",
+      "pamphlet_summary": "Career opportunities in plumbing range from residential service technicians and commercial pipefitters to fire sprinkler installers and plumbing inspectors. Advancing from an apprentice to a licensed master plumber requires thousands of hours of classroom education and supervised on-the-job training.",
+      "socratic_questions": [
+        "How do trade union apprenticeship programs balance paid work experience with classroom plumbing theory?",
+        "Why must a contractor hold a master plumber license rather than a journeyman license to pull building permits?",
+        "In what ways is evolving green building technology creating new specialization fields within the plumbing industry?"
+      ]
     }
   ],
   "badge_slug": "plumbing",

@@ -1,0 +1,478 @@
+{
+  "requirements": [
+    {
+      "fact": "Cutting the power source immediately halts current flow through the victim and prevents secondary rescuer electrocution.",
+      "misconception": "Beginners often believe they can pull an electrocution victim away immediately with bare hands without personal injury.",
+      "pamphlet_excerpts": [
+        "Main Panel Isolation: Main circuit breakers disconnect service entrance conductors from entire residential distribution panels during emergency events.",
+        "Nonconductive Rescue Tool: Dry wooden broom handles separate fallen conductors from victims without passing deadly electrical shock.",
+        "Vehicle Wire Contact: Remaining seated inside rubber insulated vehicles shields passengers from dangerous step voltage differentials.",
+        "Electrical Fire Extinguishment: Carbon dioxide extinguishers smother energized equipment flames without creating electrical shock paths for operators."
+      ],
+      "pamphlet_summary": "Electrical emergency management requires rapid disconnection of live circuits before initiating victim extraction or fire suppression. Rescuers must use nonconductive materials and maintain structural isolation to prevent becoming secondary conduits for lethal voltage.",
+      "req_id": "1",
+      "safety_callout": "Never make direct physical contact with an energized person or equipment before verifying total circuit de-energization.",
+      "socratic_questions": [
+        "Why does touching a live electrical victim create a parallel circuit through your own body?",
+        "How does remaining inside a downed wire vehicle keep your body at an equipotential state?",
+        "What chemical properties make water streams extremely hazardous when directed at energized panel fires?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Main Service Disconnection: Push the primary residential breaker handle firmly into the off position right away.",
+        "Step 2 - Conductor Separation Action: Push the live conductor off the victim using a dry wooden broom handle.",
+        "Step 3 - Vital Sign Assessment: Check the unconscious victim for regular breathing and begin chest compressions if absent.",
+        "Step 4 - Burn Area Protection: Cover entrance and exit burn points loosely using sterile dry nonstick dressing pads."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Branch breakers isolate targeted circuits while the primary breaker disconnects power to the entire panel enclosure.",
+          "misconception": "Beginners often believe switching off a wall switch completely de-energizes the underlying service panel wiring.",
+          "pamphlet_summary": "Service panels house individual branch circuit breakers along with a primary main disconnect. Throwing the main breaker cuts all incoming utility electrical potential from distribution buses.",
+          "sub_id": "1a",
+          "topic_title": "Residential Service Disconnection Procedures"
+        },
+        {
+          "fact": "Only completely dry nonconductive items such as wooden dowels or fiberglass rods isolate rescuers from lethal line current.",
+          "misconception": "Beginners often believe wearing regular rubber sneakers allows safe physical contact with live electrical victims.",
+          "pamphlet_summary": "Direct physical contact with a live victim transfers dangerous electrical current directly into the rescuer. Rescuers must use dry, nonconductive objects to push live wires away.",
+          "sub_id": "1b",
+          "topic_title": "Live Conductor Victim Extraction"
+        },
+        {
+          "fact": "Jumping clear with feet bound together prevents step potential from driving current across separate legs.",
+          "misconception": "Beginners often believe stepping out one foot at a time safely grounds an occupant leaving an energized vehicle.",
+          "pamphlet_summary": "Downed lines charge vehicle frames and surrounding soil, generating hazardous voltage gradients across the ground surface. Occupants must jump clear without contacting the metal frame and shuffle away.",
+          "sub_id": "1c",
+          "topic_title": "Downed Utility Wire Evacuation"
+        },
+        {
+          "fact": "High voltage exposure can cause cardiac ventricular fibrillation requiring immediate chest compressions and automated external defibrillation.",
+          "misconception": "Beginners often believe electrical shock victims retain an electrical charge that harms medical first responders.",
+          "pamphlet_summary": "Electrical current passing across the human torso can arrest respiratory function and disrupt cardiac rhythm. Responders must initiate cardiopulmonary resuscitation and deploy automated external defibrillators immediately.",
+          "sub_id": "1d",
+          "topic_title": "Electrical Shock Triage Protocol"
+        },
+        {
+          "fact": "Current flowing through internal muscle and vascular systems produces severe hidden thermal injuries requiring medical evaluation.",
+          "misconception": "Beginners often believe electrical burns only harm the superficial epidermal layer visible at contact points.",
+          "pamphlet_summary": "Electrical current generates intense resistive heat that travels through dense internal tissues between entry and exit contact wounds. First aiders cover visible wounds with clean dry dressings without applying ointments.",
+          "sub_id": "1e",
+          "topic_title": "Electrical Thermal Burn Treatment"
+        },
+        {
+          "fact": "Class C rated dry chemical or carbon dioxide fire extinguishers suppress electrical fires without conducting dangerous current.",
+          "misconception": "Beginners often believe small amounts of household tap water can safely quench sparking baseboard electrical fires.",
+          "pamphlet_summary": "Electrical fires ignite when overloaded conductors or arcing components ignite nearby framing or wiring insulation. De-energizing the circuit precedes suppression using nonconductive Class C extinguishing agents.",
+          "sub_id": "1f",
+          "topic_title": "Class C Electrical Suppression"
+        },
+        {
+          "fact": "A low crouch on insulating soles with heels touching minimizes contact points and ground current entry paths.",
+          "misconception": "Beginners often believe lying completely flat across wet ground minimizes lightning strike danger in open fields.",
+          "pamphlet_summary": "Lightning seeks the path of least impedance to earth, creating deadly ground currents near strike locations. Scouts caught outdoors must assume a low crouching stance with feet together away from isolated trees.",
+          "sub_id": "1g",
+          "topic_title": "Lightning Storm Shelter Protocol"
+        }
+      ],
+      "topic_title": "Electrical Emergency Response Procedures"
+    },
+    {
+      "fact": "Ground fault circuit interrupters detect tiny microampere leakages to ground and cut circuit power within milliseconds.",
+      "misconception": "Beginners often believe standard two-prong ungrounded outlets offer identical surge and ground fault protection to modern receptacles.",
+      "pamphlet_excerpts": [
+        "Cording Integrity Assessment: Flexible appliance cords with cracked outer jackets expose copper conductors to grounding hazards.",
+        "Receptacle Loading Boundaries: Octopus receptacle adapters draw excessive amperes through single wall boxes causing insulation breakdown.",
+        "Wet Location Protection: Moisture prone bathroom outlets require functional ground fault interrupters to prevent electrocution.",
+        "Clearance Zone Maintenance: Electrical distribution panel doors require thirty inches of unobstructed width for servicing."
+      ],
+      "pamphlet_summary": "Residential electrical safety evaluations systematically identify degraded conductor insulation, missing device covers, and overloaded branch circuits. Routine testing of ground fault interrupters and visual hardware reviews mitigate home fire and electrocution hazards.",
+      "req_id": "2",
+      "safety_callout": "Never insert fingers, metal screwdrivers, or uninsulated probing tools inside wall outlet boxes or open service panels.",
+      "socratic_questions": [
+        "Why does a three-prong receptacle require an intact equipment grounding conductor to function safely?",
+        "How does persistent heat near a wall switch reveal loose terminal screw connections?",
+        "What hazards occur when extension cords run beneath area rugs across heavy foot traffic corridors?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Panel Clearance Check: Confirm clear access space extending thirty-six inches outward from the electrical panel front.",
+        "Step 2 - Cord Insulation Review: Examine appliance power cords for brittle insulation, outer jacket splits, or exposed strands.",
+        "Step 3 - Receptacle Tester Validation: Plug a three-wire receptacle tester into every room outlet to confirm ground continuity.",
+        "Step 4 - Interrupter Button Testing: Press the test button on ground fault receptacles to confirm power cuts off."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Home Electrical Safety Inspection"
+    },
+    {
+      "fact": "Soft iron loses magnetism rapidly when current stops, whereas hard steel retains permanent domain alignment.",
+      "misconception": "Beginners often believe electromagnets produce permanent magnetism that remains indefinitely after disconnecting the power source.",
+      "pamphlet_excerpts": [
+        "Magnetic Core Selection: Soft iron cores concentrate lines of magnetic flux produced by surrounding wire coils.",
+        "Ampere Turns Relationship: Increasing the number of coiled conductor turns multiplies the resulting electromagnetic strength.",
+        "Poles Polarity Rule: Reversing current direction through coil windings swaps the north and south magnetic poles.",
+        "Coil Wire Insulation: Enameled magnet wire prevents adjacent winding coils from shorting current through the core."
+      ],
+      "pamphlet_summary": "Coiling insulated magnet wire around a ferrous core concentrates magnetic flux when an electric current flows. The magnetic field strength scales directly with coil winding density and direct current amperage.",
+      "req_id": "3",
+      "safety_callout": "Disconnect battery connections immediately if copper coil windings become hot to the touch during operation.",
+      "socratic_questions": [
+        "How does increasing current flow through copper windings affect magnetic field strength?",
+        "Why must magnet wire have insulating enamel coating when winding an iron core?",
+        "What happens to iron core magnetic domains when the direct current circuit opens?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Wire Coiling Process: Wrap fifty turns of enameled magnet wire tightly around a large iron nail.",
+        "Step 2 - Terminal Insulation Stripping: Scrape away enamel coating from both wire ends using medium grit sandpaper sheets.",
+        "Step 3 - Circuit Power Application: Connect bare wire ends across a single D-cell battery holder with alligator clips.",
+        "Step 4 - Magnetic Polarity Demonstration: Bring the energized nail tip near a compass needle to show attraction and repulsion."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Electromagnet Construction and Polarity"
+    },
+    {
+      "fact": "High voltage alternating current allows low current bulk transmission with minimal line resistance heat loss.",
+      "misconception": "Beginners often believe alternating current and direct current travel through utility lines at identical transmission voltages.",
+      "pamphlet_excerpts": [
+        "Current Flow Polarity: Direct current flows continuously in one direction while alternating current reverses direction periodically.",
+        "Voltage Transformation Capability: Alternating current voltages step up or down efficiently using electromagnetic core transformers.",
+        "Chemical Energy Production: Electrochemical batteries produce steady direct current by spontaneous chemical oxidation and reduction reactions.",
+        "Electromagnetic Generator Motion: Spinning copper coils within fixed magnetic fields generates utility scale alternating current electricity."
+      ],
+      "pamphlet_summary": "Direct current maintains unidirectional electron flow, whereas alternating current periodically reverses direction at fixed cycles per second. Transformers step alternating current voltages up for low loss transmission and step them down for consumer safety.",
+      "req_id": "4",
+      "safety_callout": "Never connect external direct current power sources across household alternating current receptacles under any circumstances.",
+      "socratic_questions": [
+        "Why is alternating current superior to direct current for long distance municipal power transmission?",
+        "How does the internal chemical reaction in a primary cell produce a potential difference?",
+        "What physical phenomenon causes alternating current to induce voltage across adjacent transformer coils?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Polarity Flow Identification: Trace single direction direct current flow from battery negative terminals through loads.",
+        "Step 2 - Transformer Principle Analysis: Diagram how alternating magnetic fields induce stepped voltages across secondary transformer coils.",
+        "Step 3 - Chemical Generation Setup: Assemble a simple voltaic wet cell using copper and zinc strips in electrolyte.",
+        "Step 4 - Induction Generation Demonstration: Spin an iron armature between ceramic field magnets to produce measurable alternating current."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Alternating current readily changes voltages through transformers, whereas direct current requires solid-state converter circuits.",
+          "misconception": "Beginners often believe household wall receptacles supply direct current electricity to small plug-in table lamps.",
+          "pamphlet_summary": "Direct current flows continuously in a single direction, making it ideal for portable battery devices and electronics. Alternating current reverses polarity sixty times per second, enabling efficient high voltage grid transmission via step down transformers.",
+          "sub_id": "4a",
+          "topic_title": "Current Flow Direction Characteristics"
+        },
+        {
+          "fact": "Electricity is generated by mechanical electromagnetic induction, chemical battery reactions, and photovoltaic solar cell conversion.",
+          "misconception": "Beginners often believe spinning turbine generators create brand new electrical charges out of nothing.",
+          "pamphlet_summary": "Electrical energy generation converts mechanical, chemical, light, thermal, or pressure energy into moving electric charge. Rotating magnetic coils, electrochemical cells, and photovoltaic semiconductors represent the primary generation methods.",
+          "sub_id": "4b",
+          "topic_title": "Electrical Generation Methods Analysis"
+        }
+      ],
+      "topic_title": "Current Dynamics and Generation"
+    },
+    {
+      "fact": "The make-and-break contact points rapidly interrupt coil current to create reciprocal mechanical striking motion.",
+      "misconception": "Beginners often believe an electric bell uses a continuously energized permanent magnet to sustain continuous ringing.",
+      "pamphlet_excerpts": [
+        "Electromagnet Bell Core: The soft iron core pulls the striker whenever direct current flows through windings.",
+        "Interrupter Contact Screw: Vibrating contacts mechanically break coil circuit connection to drop the striker spring.",
+        "Striker Armature Spring: Flexible spring steel snaps the clapper back against contacts to repeat ringing.",
+        "Gong Impact Vibration: Mechanical impacts against the metallic bell gong produce clear audible warning tones."
+      ],
+      "pamphlet_summary": "An electric bell circuit combines a direct current power source, an electromagnetic coil, a spring mounted armature, and contact points. When current flows, the energized electromagnet pulls the armature hammer against the gong, breaking the circuit and resetting the spring.",
+      "req_id": "5",
+      "safety_callout": "Secure all low-voltage connections firmly to avoid sparking across loose contact screws or battery terminals.",
+      "socratic_questions": [
+        "Why does the armature pull away from the contact screw when the electromagnet energizes?",
+        "What force returns the hammer armature to its original resting position after circuit interruption?",
+        "How would substituting a permanent magnet for the coil change the mechanical operation of the bell?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Schematic Circuit Drafting: Draw the series circuit linking the battery, momentary switch, coil, and contact screw.",
+        "Step 2 - Component Purpose Labeling: Label the electromagnet, flexible spring armature, clapper hammer, gong, and electrical contacts.",
+        "Step 3 - Electrical Continuity Tracing: Trace current flow from the battery terminal through closed contacts into coil windings.",
+        "Step 4 - Interruption Cycle Explanation: Explain how armature motion separates contacts to collapse the magnetic field instantly."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Electric Bell Circuit Operation"
+    },
+    {
+      "fact": "Circuit breakers trip mechanically via thermal bimetallic strips or magnetic coils to prevent wire insulation fires.",
+      "misconception": "Beginners often believe installing a larger amperage fuse safely prevents irritating circuit overloads on small branch wires.",
+      "pamphlet_excerpts": [
+        "Conductor Thermal Threshold: Excess current heats branch copper conductors beyond safe insulation temperature tolerance ratings.",
+        "Mathematical Current Calculation: Dividing total appliance wattage by line voltage determines the operating circuit amperage.",
+        "Sacrificial Link Protection: Fuses contain low melting point alloy links that open during severe overcurrent conditions.",
+        "Breaker Handle Alignment: Tripped circuit breakers display intermediate handle positions between full on and full off."
+      ],
+      "pamphlet_summary": "Branch circuits carry strict ampere capacities governed by copper conductor cross sectional gauge and insulation thermal ratings. Overloading occurs when concurrent appliance wattage draws total current exceeding breaker trip thresholds, risking structural fires.",
+      "req_id": "6",
+      "safety_callout": "Never replace a blown fuse with a higher rated fuse or bridge terminals with metallic bypass jumpers.",
+      "socratic_questions": [
+        "What danger arises when a twenty-ampere fuse protects a fourteen-gauge copper branch wire circuit?",
+        "How does Ohm's power law help you determine safe appliance loading on a fifteen-ampere breaker?",
+        "Why must a tripped circuit breaker handle move fully to off before switching to on?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Conductor Rating Identification: Identify the branch wire gauge and corresponding fifteen or twenty ampere circuit limit.",
+        "Step 2 - Appliance Wattage Summation: Sum the nameplate wattage ratings of all electrical devices plugged into the circuit.",
+        "Step 3 - Current Amperage Calculation: Divide the total accumulated wattage by one hundred twenty volts to find amperes.",
+        "Step 4 - Breaker Reset Sequence: Push the tripped breaker handle firmly into off before flipping it back on."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Balancing heavy wattage heating appliances across separate branch circuits prevents dangerous overheating of residential wires.",
+          "misconception": "Beginners often believe plugging multiple multi-outlet power strips into one wall box prevents electrical circuit overloads.",
+          "pamphlet_summary": "An overloaded circuit draws higher current than the distribution wire and breaker are rated to carry safely. Distributing high wattage appliances across separate circuits keeps thermal stress within design parameters.",
+          "sub_id": "6a",
+          "topic_title": "Circuit Overload Prevention Methods"
+        },
+        {
+          "fact": "Dividing total connected device wattage by supply line voltage provides total running amperes drawn across conductors.",
+          "misconception": "Beginners often believe small kitchen appliances draw negligible electrical current regardless of their heating elements.",
+          "pamphlet_summary": "Scouts calculate branch circuit demand by summing device nameplate wattages and dividing by one hundred twenty volts. If calculated total amperes exceed eighty percent of breaker capacity, loads require redistribution.",
+          "sub_id": "6b",
+          "topic_title": "Branch Circuit Current Calculations"
+        },
+        {
+          "fact": "Fuses melt an internal metal alloy link while circuit breakers deflect an internal bimetallic strip.",
+          "misconception": "Beginners often believe circuit breakers burn out internal components each time an overcurrent event occurs.",
+          "pamphlet_summary": "Fuses contain sacrificial metal strips calibrated to melt when excessive current produces destructive heat. Circuit breakers use bimetallic thermal elements or electromagnets to release a spring loaded mechanical latch.",
+          "sub_id": "6c",
+          "topic_title": "Overcurrent Protective Device Operation"
+        },
+        {
+          "fact": "Tripped breakers show an intermediate handle position and reset only after pushing firmly to off.",
+          "misconception": "Beginners often believe a tripped breaker handle always swings completely to the off position automatically.",
+          "pamphlet_summary": "A blown screw-in fuse shows a blackened glass window or broken metal link inside the plug body. Resetting a tripped breaker requires pushing the lever to off to engage the spring before turning on.",
+          "sub_id": "6d",
+          "topic_title": "Overcurrent Device Triage Procedures"
+        }
+      ],
+      "topic_title": "Circuit Overload and Protection"
+    },
+    {
+      "fact": "All devices connected to a single branch breaker share a common ungrounded hot and neutral conductor path.",
+      "misconception": "Beginners often believe every individual wall outlet in a bedroom connects directly to its own separate breaker.",
+      "pamphlet_excerpts": [
+        "Plan View Symbols: Standard architectural electrical plans use specific circle and line symbols for receptacles.",
+        "Branch Circuit Mapping: Switching individual breakers off isolates specific wall outlets and ceiling lighting fixtures.",
+        "Shared Conductor Runs: Multiple lighting fixtures and utility receptacles frequently connect in parallel across one breaker.",
+        "Panel Index Correlation: Clear labeling inside panel door directories links specific living spaces to assigned breakers."
+      ],
+      "pamphlet_summary": "A residential wiring diagram details the layout of luminaires, wall switches, and duplex receptacles within a room. Mapping each device to its specific distribution breaker ensures clear maintenance awareness and prevents unexpected shocks.",
+      "req_id": "7",
+      "safety_callout": "Always test conductors with a verified noncontact voltage detector before opening junction boxes or receptacle covers.",
+      "socratic_questions": [
+        "Why are household wall receptacles wired in parallel rather than in series configurations?",
+        "How does a single pole wall switch control light fixtures without interrupting unswitched wall receptacles?",
+        "What role does the bare copper grounding conductor play across all metal outlet box enclosures?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Room Layout Measurement: Sketch the architectural floor outline of the selected room including doors and windows.",
+        "Step 2 - Electrical Symbol Placement: Draw standard blueprint symbols for every outlet receptacle, wall switch, and light fixture.",
+        "Step 3 - Circuit Breaker Identification: Switch off branch breakers individually to identify which breaker feeds each room device.",
+        "Step 4 - Distribution Pathway Tracing: Draw dotted lines connecting all room fixtures to their identified service panel breaker."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Room Wiring Layout Diagram"
+    },
+    {
+      "fact": "Electric utility meters record cumulative kilowatt-hours while electrical power measures the instantaneous rate of energy consumption.",
+      "misconception": "Beginners often believe utility meters measure instantaneous electrical voltage rather than cumulative energy consumption over time.",
+      "pamphlet_excerpts": [
+        "Meter Dial Interpretation: Mechanical meter dials rotate in alternating directions to register cumulative energy consumption.",
+        "Kilowatt Hour Metric: One kilowatt-hour equals one thousand watts of continuous power consumption for one hour.",
+        "Billing Component Breakdown: Electric utility invoices separate volumetric energy supply charges from fixed distribution infrastructure fees.",
+        "Efficiency Conservation Actions: Lowering heating thermostats and using energy efficient lighting significantly reduces monthly energy draw."
+      ],
+      "pamphlet_summary": "Utility meters measure cumulative electrical energy consumption in kilowatt-hours over distinct billing periods. Analyzing billing tariffs, utility fees, and consumption habits allows families to enact effective conservation measures.",
+      "req_id": "8",
+      "safety_callout": "Keep a safe distance from glass meter enclosures and never tamper with utility company security tags.",
+      "socratic_questions": [
+        "Why do adjacent analog meter dials rotate in opposite clockwise and counterclockwise directions?",
+        "What distinguishes the rate of electrical power consumption from the total electrical energy consumed?",
+        "How do municipal franchise fees and transmission delivery tariffs impact total electricity billing costs?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Meter Dial Reading: Record the pointer positions on all electric utility meter dials from left to right.",
+        "Step 2 - Energy Consumption Calculation: Subtract the prior billed meter reading from current figures to find kilowatt-hours consumed.",
+        "Step 3 - Financial Cost Computation: Multiply calculated kilowatt-hours by the stated utility rate to determine total energy costs.",
+        "Step 4 - Conservation Strategy Formulation: Identify five household behavioral changes that reduce overall kilowatt-hour consumption each month."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Subtracting the prior month reading from the current meter reading yields total kilowatt-hours used.",
+          "misconception": "Beginners often believe digital utility meters display monthly financial charges directly in dollars and cents.",
+          "pamphlet_summary": "Electric meters register cumulative energy consumption using either cyclometer digital numbers or five geared analog dials. Multiplying the kilowatt-hour difference by the rate tariff calculates the total baseline energy expense.",
+          "sub_id": "8a",
+          "topic_title": "Meter Consumption and Billing"
+        },
+        {
+          "fact": "Taxes and regulatory surcharges fund state energy grids, environmental initiatives, and municipal right-of-way infrastructure.",
+          "misconception": "Beginners often believe the total electric bill represents only the pure cost of generated electricity.",
+          "pamphlet_summary": "Electric bills itemize generation charges, delivery tariffs, and statutory taxes or administrative surcharges. These separate line items support grid maintenance, public assistance programs, and local municipal franchise fees.",
+          "sub_id": "8b",
+          "topic_title": "Utility Tariff Fee Analysis"
+        },
+        {
+          "fact": "Adjusting thermostat setpoints and cleaning appliance cooling coils produce substantial, measurable reductions in kilowatt-hour consumption.",
+          "misconception": "Beginners often believe turning off small led charger indicator lights saves huge quantities of household power.",
+          "pamphlet_summary": "Residential energy conservation targets major thermal loads such as space conditioning, water heating, and refrigeration. Installing programmable thermostats, sealing air leaks, and utilizing high efficiency luminaires dramatically lower energy draw.",
+          "sub_id": "8c",
+          "topic_title": "Household Energy Conservation Practices"
+        }
+      ],
+      "topic_title": "Electrical Consumption and Metering"
+    },
+    {
+      "fact": "Volts measure electrical potential difference while amperes measure the volume of electron charge passing per second.",
+      "misconception": "Beginners often believe voltage and current are interchangeable terms describing the speed of electrical flow.",
+      "pamphlet_excerpts": [
+        "Current Flow Measurement: Electrical current represents the rate of electron flow through conductors measured in amperes.",
+        "Electrical Resistance Factor: Ohms quantify conductor opposition to electric current flow causing voltage drop and heat.",
+        "Grounding Reference Path: Electrical ground establishes a zero volt reference point and safety fault return path.",
+        "Current Rectification Equipment: Solid state rectifiers convert alternating current into smooth direct current for digital circuits."
+      ],
+      "pamphlet_summary": "Electrical systems function according to fundamental physical principles governing charge motion, potential difference, and material impedance. Specialized equipment transforms voltage levels, rectifies alternating waveform polarities, and routes stray fault currents safely to earth.",
+      "req_id": "9",
+      "safety_callout": "Ensure electrical test equipment probes maintain proper insulation and correct multimeter measurement settings before contact.",
+      "socratic_questions": [
+        "How does electrical potential difference drive current through a resistive conductor material?",
+        "Why does an unintentional short circuit produce massive instantaneous current spikes across wires?",
+        "What internal semiconductor mechanisms allow a rectifier to convert alternating current into direct current?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Fundamental Terminology Definition: Define current, voltage, resistance, electrical energy, and power using precise physical descriptions.",
+        "Step 2 - Standard Units Matching: Pair each electrical quantity with its international metric unit of measurement and symbol.",
+        "Step 3 - Circuit Condition Analysis: Compare open circuits, short circuits, grounded lines, and overvoltage states using schematic diagrams.",
+        "Step 4 - Equipment Role Examination: Explain how transformers, rectifiers, inverters, and interrupters modify and protect electrical distribution."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Voltage provides electrical pressure, current represents charge movement, resistance opposes flow, and power measures energy rate.",
+          "misconception": "Beginners often believe electrical power and electrical energy represent identical physical quantities in circuits.",
+          "pamphlet_summary": "Current represents the flow of electric charge, while voltage expresses electrical potential difference between points. Resistance quantifies opposition to current flow, and power represents the time rate of energy consumption.",
+          "sub_id": "9a",
+          "topic_title": "Fundamental Electrical Property Terms"
+        },
+        {
+          "fact": "One watt-hour measures one watt of power sustained continuously across a sixty minute operational period.",
+          "misconception": "Beginners often believe watts and watt-hours measure the exact same physical property in electrical systems.",
+          "pamphlet_summary": "Amperes measure current volume, volts quantify electrical pressure, and ohms express conductor resistance. Watts measure instantaneous electrical power, while watt-hours quantify total energy expended over time.",
+          "sub_id": "9b",
+          "topic_title": "Standard Electrical Units Measurement"
+        },
+        {
+          "fact": "A short circuit bypasses normal load resistance, creating extremely high current flow and dangerous conductor heating.",
+          "misconception": "Beginners often believe an open circuit causes fuses to blow and conductors to catch fire.",
+          "pamphlet_summary": "An open circuit completely breaks continuity, halting all current flow, whereas a short circuit bypasses load resistance entirely. Overvoltage conditions deliver excessive potential difference that can damage sensitive semiconductor components.",
+          "sub_id": "9c",
+          "topic_title": "System Conditions and Faults"
+        },
+        {
+          "fact": "Inverters convert direct current into alternating current, whereas rectifiers convert alternating current into direct current.",
+          "misconception": "Beginners often believe transformers change alternating current into direct current electricity during power delivery.",
+          "pamphlet_summary": "Inverters convert direct current into alternating current, while rectifiers change alternating current into direct current. Ground fault circuit interrupters monitor current balance between ungrounded and neutral lines to prevent electrocution.",
+          "sub_id": "9d",
+          "topic_title": "Distribution Equipment Operational Roles"
+        }
+      ],
+      "topic_title": "Electrical Theory and Terminology"
+    },
+    {
+      "fact": "Parallel circuits maintain uniform voltage across separate branches while series circuits divide total supply voltage.",
+      "misconception": "Beginners often believe adding light bulbs in series makes every bulb in the circuit shine brighter.",
+      "pamphlet_excerpts": [
+        "Series Circuit Continuity: Opening any single component in a series circuit stops current through all devices.",
+        "Parallel Voltage Equivalence: Parallel branches experience identical system voltage regardless of individual branch load resistances.",
+        "Variable Rheostat Function: Sliding rheostat contacts adjust internal conductor resistance to control circuit current delivery.",
+        "Rotary Motor Induction: Commutators switch armature coil polarities to sustain continuous shaft rotation inside magnetic fields."
+      ],
+      "pamphlet_summary": "Practical circuit construction validates theoretical electrical behaviors by linking loads, power cells, and controlling switches. Breadboarding series and parallel loads demonstrates how circuit topology dictates voltage distribution, current draw, and component reliability.",
+      "req_id": "10",
+      "safety_callout": "Disconnect all DC power supplies before rearranging jumper wires or changing component circuit configurations.",
+      "socratic_questions": [
+        "Why does unscrewing one lamp in a series string extinguish every other connected lamp?",
+        "How does varying the resistance of a rheostat alter the brightness of a connected lamp?",
+        "What enables three-way switches to control a common ceiling fixture from two distinct locations?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Series Circuit Assembly: Wire two incandescent lamps in series across a battery and single pole switch.",
+        "Step 2 - Series Performance Observation: Close the switch and record lamp brightness, then unscrew one lamp to test continuity.",
+        "Step 3 - Parallel Circuit Rewiring: Reconnect both incandescent lamps across the battery in parallel using separate branch jumpers.",
+        "Step 4 - Comparative Difference Analysis: Compare parallel lamp brightness and independent branch operation against the series circuit baseline."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Switches interrupt circuit continuity along the ungrounded line to turn loads on and off safely.",
+          "misconception": "Beginners often believe switches consume significant electrical power on their own during normal closed operation.",
+          "pamphlet_summary": "A basic control circuit places a mechanical switch or telegraph key in series with an electrical load and battery. Closing the switch provides an unbroken conductive path for current flow to activate the device.",
+          "sub_id": "10a",
+          "topic_title": "Basic Switched Indicator Circuit"
+        },
+        {
+          "fact": "A simple motor uses an electromagnetic rotor and commutator to interact with permanent field magnets.",
+          "misconception": "Beginners often believe electric motors run purely on mechanical momentum once started without continuous magnetic repulsion.",
+          "pamphlet_summary": "Electric motors convert direct current electrical energy into mechanical rotational torque through magnetic field interactions. Commutators or scraped coil leads alternate rotor magnetic polarity at each half rotation to sustain continuous turning.",
+          "sub_id": "10b",
+          "topic_title": "Direct Current Motor Assembly"
+        },
+        {
+          "fact": "Adjusting the effective length of resistive wire in a circuit changes current according to Ohm's law.",
+          "misconception": "Beginners often believe rheostats change circuit current by creating physical barriers that trap electrons.",
+          "pamphlet_summary": "A rheostat acts as a variable resistor by moving a sliding contact along a coiled resistive wire. Lengthening the conductor path increases circuit resistance, reducing current flow to dim lamps or slow motors.",
+          "sub_id": "10c",
+          "topic_title": "Variable Rheostat Resistance Construction"
+        },
+        {
+          "fact": "Single pole double throw switches direct current from one common input terminal to either of two outputs.",
+          "misconception": "Beginners often believe double throw switches can connect both load outputs to power simultaneously.",
+          "pamphlet_summary": "A single pole double throw switch incorporates a movable center contact that pivots between two alternate terminal positions. This configuration routes supply current selectively to one of two distinct indicator loads.",
+          "sub_id": "10d",
+          "topic_title": "Double Throw Switching Mechanism"
+        },
+        {
+          "fact": "Three-way switches use two alternate traveler conductors to control a load from separate room entryways.",
+          "misconception": "Beginners often believe three-way switches require complex internal computers to coordinate multi-location lighting control.",
+          "pamphlet_summary": "Three-way switching circuits use two single pole double throw switches linked by a pair of traveler conductors. Flipping either switch completes or interrupts the circuit path regardless of the other switch position.",
+          "sub_id": "10e",
+          "topic_title": "Three Way Lighting Control"
+        },
+        {
+          "fact": "Parallel lamps draw full source voltage and shine brighter than series lamps that divide voltage.",
+          "misconception": "Beginners often believe series circuits draw more total current from batteries than parallel circuits.",
+          "pamphlet_summary": "Series circuits provide a single conductive loop where total resistance equals the sum of individual component resistances. Parallel circuits provide independent conductive branches where each branch receives full source voltage.",
+          "sub_id": "10f",
+          "topic_title": "Series and Parallel Circuits"
+        }
+      ],
+      "topic_title": "Circuit Construction and Experiments"
+    },
+    {
+      "fact": "Licensed journeyman electricians complete rigorous multi-year apprenticeships combining classroom theory with thousands of supervised field hours.",
+      "misconception": "Beginners often believe residential electrical technicians only need a few informal hours of on-the-job training.",
+      "pamphlet_excerpts": [
+        "Apprenticeship Training Standards: Union and trade apprenticeships require four years of classroom instruction and field work.",
+        "Licensure Exam Requirements: Professional electricians must pass thorough examinations covering the National Electrical Code regulations.",
+        "Engineering Degree Prerequisites: Electrical engineering careers demand accredited university bachelor degrees in calculus and physics.",
+        "Career Industry Diversity: Qualified electrical personnel work in power generation, industrial automation, telecommunications, and construction."
+      ],
+      "pamphlet_summary": "The electrical industry encompasses varied career tracks ranging from licensed residential and commercial electricians to professional electrical engineers. Entering these fields requires formal technical education, apprenticeships, passing licensing examinations, and mastering National Electrical Code safety standards.",
+      "req_id": "11",
+      "safety_callout": "Never perform unlicensed electrical alterations on commercial or residential premises without certified journeyman oversight.",
+      "socratic_questions": [
+        "How do classroom apprenticeship hours prepare an electrician to apply National Electrical Code rules?",
+        "What distinct technical responsibilities separate an electrical engineer from an installation master electrician?",
+        "Why does the electrical trade require mandatory continuing education credits for ongoing license renewals?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Field Exploration: Identify three distinct career opportunities utilizing applied electrical science and practical trade skills.",
+        "Step 2 - Education Pathway Selection: Select one specific electrical trade or engineering profession for detailed career research.",
+        "Step 3 - Requirement Qualification Inventory: Document the necessary postsecondary degrees, vocational apprenticeships, state licenses, and associated costs.",
+        "Step 4 - Career Trajectory Summary: Compile findings into a structured report outlining job responsibilities, compensation, and career growth."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Electrical Trade Career Pathways"
+    }
+  ]
+}

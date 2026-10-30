@@ -1,8 +1,8 @@
 # Small-Boat Sailing Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/small-boat-sailing/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/small-boat-sailing/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Small%20Boat%20Sailing.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,15 +12,15 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Sailing Hazards and First Aid | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Scouting America Swimmer Qualification | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Sailboat Parts and Functions | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Safety Afloat and Weather Planning | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Wind Direction and Indicators | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: On-the-Water Sailing Maneuvers | Show | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Marlinespike Seamanship and Knots | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Year-Round Sailboat Maintenance | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Points of Sail and Boat Types | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Small-Boat Sailing Hazard Management | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Scouting Swimmer Classification Standard | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Sailing Craft Anatomy Function | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Pre-Voyage Safety Weather Planning | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Wind Direction Indicator Identification | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Underway Boat Handling Seamanship | Show | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Marlinespike Seamanship Line Handling | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Annual Sailboat Maintenance Care | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Sailing Terminology And Architecture | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 8) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -28,32 +28,32 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Scout must individually describe mastery of Requirement 3 to the Merit Badge Counselor.
-- [ ] **Station Req 6:** Scout must individually show mastery of Requirement 6 to the Merit Badge Counselor.
-- [ ] **Station Req 7:** Scout must individually demonstrate mastery of Requirement 7 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Describe the boat you will be using for the sailing requirement, naming all of the major parts and the function of those parts. Note: The skills may be demonstrated on any boat available to the Scout; sailboards are not acceptable. While no specific sail plan is recommended, it is suggested that the craft be smaller than 20 feet. The boat must be capsizable and have the capability of sailing to windward.
+- [ ] **Station Req 6:** Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following: (a) Prepare a boat for sailing, including a safety inspection. (b) Get underway from a dock, mooring, or beach. (c) Properly set sails for a round-trip course approved by your counselor that will include running, beating, and reaching, the basic points of sail. While sailing, demonstrate good helmsmanship skills. (d) Change direction by tacking; change direction by jibing. (e) Demonstrate getting out of irons. (f) Demonstrate the safety position. (g) Demonstrate capsize procedures and the rescue of a person overboard. Note: Capsize procedures should be conducted under the close supervision of the counselor. A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore. Self-bailing boats are acceptable for this requirement. Extreme care should be taken to avoid personal injury and damage to the boat or equipment. (h) Demonstrate the procedure to take after running aground. (i) Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths. (j) Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow sails, and prepare the craft for unattended docking or beaching overnight or longer.
+- [ ] **Station Req 7:** Demonstrate a working knowledge of marlinespike seamanship. Do the following: (a) Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot. Demonstrate the use of each. (b) Show how to heave a line, coil a line, and fake down a line. (c) Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture. Explain the advantages and disadvantages of each.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Sailing Hazards and First Aid
+### Req 1: Small-Boat Sailing Hazard Management
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in small-boat sailing activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while sailing: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, and strains. (c) Discuss the Scouting America Safety Afloat policy. Tell how it applies to small-boat sailing activities.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
-> **Guide to Safe Scouting Warning:** Operate under BSA Safe Swim Defense and Safety Afloat for Small-Boat Sailing Requirement 1: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for sailing hazards and first aid, and maintain buddy checks throughout the session.
+> **Guide to Safe Scouting Warning:** Always maintain a low crouch during tacks and jibes to clear the swinging boom path.
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** Strong swimmers do not need to wear a lifejacket on calm days if they stay close to the shoreline in a small sailboat.
-- **Pamphlet Fact:** Even strong swimmers must wear a properly fitted U.S. Coast Guard-approved lifejacket at all times while sailing because sudden capsizes, boom strikes, or cold water immersion can incapacitate a sailor instantly (p. 6).
+- **Common Myth:** A life jacket is only necessary once winds reach whitecap conditions.
+- **Pamphlet Fact:** Coast Guard approved life jackets must be securely fastened before boarding any small craft.
 
 **Official Pamphlet Summary:**
-- Pre-Sail Hazard Briefing: Explain the importance of this task before setting sail (p. 6).
-- Capsize procedures should be conducted under the close supervision of the counselor (p. 6).
-- A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).
-- Self-bailing boats are acceptable for this requirement (p. 6).
+- Boom Strike Hazard: Sudden accidental jibes swing heavy aluminum spars violently across the open cockpit.
+- Cold Water Immersion: Sudden thermal shock causes involuntary gasping and rapid loss of muscular control.
+- Entanglement Risk: Loose coiled sheets wrap around crew limbs during rapid capsize recovery drills.
+- Aluminum masts conduct lethal electrical current when contacting low hanging power lines.
 
-#### Req 1a: Sailing Hazards and Mitigation
+#### Req 1a: Aquatic Sailing Hazard Mitigation
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in small-boat sailing activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Small-Boat Sailing Hazards and First Aid)
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** Hypothermia only happens when sailing in freezing winter temperatures or icy northern lakes.
-- **Pamphlet Fact:** Because water conducts heat away from the body roughly 25 times faster than air, hypothermia can develop in water as warm as 70 degrees Fahrenheit during prolonged immersion (p. 6).
+- **Common Myth:** Wind direction remains completely constant across small bays and inland lake coves.
+- **Pamphlet Fact:** Local topography causes abrupt localized wind velocity increases and directional wind shifts.
 
 ![Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1.](/assets/pamphlet_images/small_boat_sailing_p003_img1.png)
 
@@ -63,11 +63,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Sailing Injuries and First Aid
+#### Req 1b: Nautical First Aid Treatment
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while sailing: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, and strains.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Common Myth:** A cool breeze on the water prevents sunburn and dehydration during a summer afternoon sail.
-- **Pamphlet Fact:** Sunlight reflecting off the water and white sails intensifies ultraviolet exposure, while wind masks the feeling of heat, making sunscreen and regular hydration essential (p. 7).
+- **Common Myth:** Shivering sailors can warm up quickly by sitting in wet sailing gear.
+- **Pamphlet Fact:** Wet clothing conducts heat away from skin twenty five times faster than dry air.
 
 ![Detailed Small-Boat Sailing reference illustration comparing key components and stages of small-boat sailing identify the wind direction reference figure.](/assets/pamphlet_images/small_boat_sailing_p005_img1.png)
 
@@ -83,11 +83,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1c: Safety Afloat Policy Application
+#### Req 1c: Safety Afloat Sailing Protocols
 **Official Requirement 1c:** Discuss the Scouting America Safety Afloat policy. Tell how it applies to small-boat sailing activities.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** The boom is only dangerous during gale-force winds and cannot hurt you in light breezes.
-- **Pamphlet Fact:** Sailors should always keep their heads low and watch the boom carefully during tacks and jibes, as an uncontrolled boom swing in light or shifting wind can cause severe head injuries (p. 6).
+- **Common Myth:** Safety Afloat rules permit unrated swimmers to skipper double handed sailing dinghies.
+- **Pamphlet Fact:** Every sailboat operator must pass the comprehensive classified swimmer test before launch.
 
 ![Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for scouting america swimmer qualification in Requirement 2.](/assets/pamphlet_images/small_boat_sailing_p007_img1.png)
 
@@ -98,13 +98,13 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Scouting America Swimmer Qualification
+### Req 2: Scouting Swimmer Classification Standard
 **Official Requirement 2:** Before doing the following requirements, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 2 Structured Technical Study & Explanation Matrix (BSA Swimmer Qualification and Safety)
-> **Guide to Safe Scouting Warning:** Operate under BSA Safe Swim Defense and Safety Afloat for Small-Boat Sailing Requirement 2: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for scouting america swimmer qualification, and maintain buddy checks throughout the session.
+> **Guide to Safe Scouting Warning:** Never attempt capsize recovery drills without current certified swimmer classification records on file.
 > **Starting Gate (Prerequisite Merit Badge / Certification):** BSA Swimmer Classification Gate - Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.
-- **Common Myth:** Passing the beginner swim test is sufficient to operate a sailboat as long as a rescue boat is patrolling nearby.
-- **Pamphlet Fact:** Every Scout must complete the full 100-yard swimmer test, including 75 yards of strong forward strokes, 25 yards of restful elementary backstroke, and floating, before boarding a sailboat for on-the-water requirements (p. 6).
+- **Common Myth:** Passing the beginner swim test grants full operational clearance for solo dinghy sailing.
+- **Pamphlet Fact:** Sailors must complete the full one hundred yard swimmer classification test without stopping.
 
 ![A Scout monitors fellow troop members completing open water swimming tests beside a wooden lake dock.](/assets/ai_illustrations/small_boat_sailing_req_2_nano_hero.png)
 
@@ -114,19 +114,19 @@
 | **2. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Pre-Sail Readiness Check: Explain the importance of this task before setting sail (p. 6).
-- Capsize procedures should be conducted under the close supervision of the counselor (p. 6).
-- A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).
-- Self-bailing boats are acceptable for this requirement (p. 6).
+- Jump feet first into water over head depth and level off smoothly.
+- Continuous Lap Distance: Swim one hundred yards continuously using strong forward arm strokes without resting.
+- Stroke Mechanics Variety: Complete seventy five yards using an assertive forward stroke and twenty five breaststroke.
+- Maintain an effortless resting back float with minimal arm or leg movement.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Sailboat Parts and Functions
+### Req 3: Sailing Craft Anatomy Function
 **Official Requirement 3:** Describe the boat you will be using for the sailing requirement, naming all of the major parts and the function of those parts. Note: The skills may be demonstrated on any boat available to the Scout; sailboards are not acceptable. While no specific sail plan is recommended, it is suggested that the craft be smaller than 20 feet. The boat must be capsizable and have the capability of sailing to windward.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (Boat You)
-> **Guide to Safe Scouting Warning:** Operate under BSA Safe Swim Defense and Safety Afloat for Small-Boat Sailing Requirement 3: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for sailboat parts and functions, and maintain buddy checks throughout the session.
-- **Common Myth:** A windsurfing sailboard counts as an acceptable small sailboat for completing the merit badge requirements.
-- **Pamphlet Fact:** While requirements may be completed on catboats or sloops with centerboards or keels, sailboards are explicitly excluded because they lack standard standing rigging, rudders, and cockpit controls (p. 6).
+> **Guide to Safe Scouting Warning:** Always verify the rudder retaining clip clicks shut to prevent steering loss during knockdowns.
+- **Common Myth:** The centerboard acts purely as dead ballast weight to keep boats upright.
+- **Pamphlet Fact:** The centerboard acts as a hydrodynamic wing creating lateral resistance against sideways water drift.
 
 ![A sailing instructor and two Scouts inspect the mast, boom, and hull of a docked sailboat.](/assets/ai_illustrations/small_boat_sailing_req_3_nano_hero.png)
 
@@ -138,31 +138,31 @@
 | **4. The boat must be capsizable and have the capability of sailing to windward.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Capsize procedures should be conducted under the close supervision of the counselor (p. 6).
-- Standby Tow Vessel: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).
-- Self-bailing boats are acceptable for this requirement (p. 6).
-- Pre-Launch Rigging Inspection: Explain the importance of this task before setting sail (p. 6).
+- Centerboard Hydrodynamic Lift: Lowered underwater foils counteract sideways leeway drift created by aerodynamic sail force.
+- Rudder Directional Steering: Pivoting underwater blades redirect stern water flow to pivot the vessel bow.
+- Standing Rigging Support: Wire stays and shrouds stabilize aluminum masts against tremendous aerodynamic sail strain.
+- Running Rigging Adjustment: Halyards hoist sail corners while mainsheets trim boom angles against the wind.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Safety Afloat and Weather Planning
+### Req 4: Pre-Voyage Safety Weather Planning
 **Official Requirement 4 (Parent Overview):** Before going afloat, do the following: (a) Discuss the nine points of the Scouting America Safety Afloat plan. (b) Explain the rules of the road in general and any specific rules or laws that apply to your area or state. (c) Explain how water conditions, the hazards of weather, and heavy winds can affect both safety and performance in sailing. (d) Discuss the warning signs of inclement weather and what to do should heavy winds develop or a storm approach. (e) Prepare a typical float plan. (f) Discuss the proper clothing, footwear, and personal gear required for small-boat sailing in warm weather and in cool weather. Explain how choosing the proper clothing, footwear, and personal gear will help keep you comfortable and safe while sailing.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Operate under BSA Safe Swim Defense and Safety Afloat for Small-Boat Sailing Requirement 4: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for safety afloat and weather planning, and maintain buddy checks throughout the session.
-- **Common Myth:** Powerboats always have the right-of-way over small sailboats because motorboats travel faster and are heavier.
-- **Pamphlet Fact:** Because unpowered sailboats have less maneuverability than motorboats, power-driven vessels must normally yield the right-of-way to boats under sail unless the sailboat is overtaking them or impeding a narrow channel (p. 22).
+> **Guide to Safe Scouting Warning:** Immediately abort sailing outings whenever darkening cumulonimbus anvil clouds appear on upwind horizons.
+- **Common Myth:** Sailboats always possess absolute right of way over every motorized vessel on waterways.
+- **Pamphlet Fact:** Sailboats must yield to deep draft commercial ships restricted to narrow maritime shipping channels.
 
 **Official Pamphlet Summary:**
-- Close Counselor Supervision: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).
-- A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).
-- Self-bailing boats are acceptable for this requirement (p. 6).
-- Pre-Sail Safety Briefing: Explain the importance of this task before setting sail (p. 6).
+- Float Plan Dispatch: Leave written routes, crew rosters, and return times with responsible shore contacts.
+- Right Of Way: Stand on vessels maintain steady course while give way vessels alter heading.
+- Thermal Clothing Selection: Layer synthetic fleece and windproof shells while avoiding heat draining wet cotton fabrics.
+- Squall Visual Indicators: Dark towering cumulonimbus clouds signal sudden violent gusts and rapid wind shifts.
 
-#### Req 4a: Nine Safety Afloat Points
+#### Req 4a: Safety Afloat Nine Points
 **Official Requirement 4a:** Discuss the nine points of the Scouting America Safety Afloat plan.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** When two sailboats are on the same tack, the leeward boat must always yield to the windward boat.
-- **Pamphlet Fact:** When two sailboats are on the same tack, the windward boat (closer to the source of the wind) must keep clear of the leeward boat (p. 22).
+- **Common Myth:** A float plan is unnecessary when sailing within sight of a Scout camp beach.
+- **Pamphlet Fact:** Safety Afloat mandates filing float plans with shoreside monitors for all sailing sessions.
 
 ![Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection.](/assets/pamphlet_images/small_boat_sailing_p004_img1.png)
 
@@ -172,11 +172,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Navigational Rules of Road
+#### Req 4b: Maritime Navigation Rules Road
 **Official Requirement 4b:** Explain the rules of the road in general and any specific rules or laws that apply to your area or state.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Road in General and Any)
-- **Common Myth:** Towering anvil clouds and a sudden drop in air temperature mean the wind is dying down for a calm evening sail.
-- **Pamphlet Fact:** Darkening cumulonimbus clouds, sudden temperature drops, and shifting gusty winds signal an approaching squall, requiring sailors to head for shore or reef sails immediately (p. 24).
+- **Common Myth:** The boat sailing at higher speed always maintains right of way over slower vessels.
+- **Pamphlet Fact:** Navigation rules assign right of way based on tack, windward position, and maneuvering capability.
 
 ![Illustrated Small-Boat Sailing technical diagram of sailboat parts and functions for Requirement 3 field execution.](/assets/pamphlet_images/small_boat_sailing_p012_img1.png)
 
@@ -186,11 +186,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Water and Wind Effects
+#### Req 4c: Water And Wind Hazards
 **Official Requirement 4c:** Explain how water conditions, the hazards of weather, and heavy winds can affect both safety and performance in sailing.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Water Conditions The Hazards of)
-- **Common Myth:** A float plan is just a mental note of where you want to sail that you keep to yourself before launching.
-- **Pamphlet Fact:** A float plan must be left with a responsible person onshore and detail the boat description, crew names, planned route, departure time, and expected return time (p. 25).
+- **Common Myth:** Heavier winds always improve small boat sailing performance by maximizing forward hull speed.
+- **Pamphlet Fact:** Excessive wind pushes hulls past displacement hull speed limits and induces violent uncontrolled broaches.
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -198,11 +198,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4d: Storm Warnings and Responses
+#### Req 4d: Inclement Weather Response Tactics
 **Official Requirement 4d:** Discuss the warning signs of inclement weather and what to do should heavy winds develop or a storm approach.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Discuss The Warning Signs of)
-- **Common Myth:** During Small-Boat Sailing Requirement 4d, Scouts can underestimate how directly mastery of storm warnings and responses depends on understanding the warning signs of inclement weather and what to do should heavy winds develop or a storm approach.
-- **Pamphlet Fact:** Scouting America standards for Small-Boat Sailing Requirement 4d require complete workbook entries on storm warnings and responses to demonstrate full understanding of the warning signs of inclement weather and what to do should heavy winds develop or a storm approach.
+- **Common Myth:** Scouts should sail faster downwind to outrun approaching summer thunderstorm squall fronts.
+- **Pamphlet Fact:** Thunderstorm gusts advance far faster than small sailboats can travel across open water.
 
 | Req 4d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -210,11 +210,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4e: Preparing a Float Plan
+#### Req 4e: Float Plan Route Preparation
 **Official Requirement 4e:** Prepare a typical float plan.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Small-Boat Sailing Typical Principles)
-- **Common Myth:** Overlooking the specific field checks required for Preparing a Float Plan (Req 4e) or confusing Preparing a Float Plan with general Safety Afloat and Weather Planning procedures.
-- **Pamphlet Fact:** For Requirement 4e (Preparing a Float Plan), The Small-Boat Sailing pamphlet for Requirement 4e details a typical float plan, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 6).
+- **Common Myth:** Leaving a verbal message with a friend satisfies official maritime float plan standards.
+- **Pamphlet Fact:** A float plan must be written, comprehensive, and held by a reliable shoreside guardian.
 
 | Req 4e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -222,11 +222,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4f: Seasonal Sailing Clothing Gear
+#### Req 4f: Nautical Personal Protective Gear
 **Official Requirement 4f:** Discuss the proper clothing, footwear, and personal gear required for small-boat sailing in warm weather and in cool weather. Explain how choosing the proper clothing, footwear, and personal gear will help keep you comfortable and safe while sailing.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix (Discuss The Proper Clothing Footwear)
-- **Common Myth:** When preparing Small-Boat Sailing Requirement 4f (Req 4f Seasonal Sailing Clothing Gear), Scouts sometimes overlook the specific details needed to discuss the proper clothing, footwear, and personal gear required for small.
-- **Pamphlet Fact:** Counselor verification for Small-Boat Sailing Requirement 4f requires concrete workbook evidence covering req 4f seasonal sailing clothing gear and a clear explanation of how to discuss the proper clothing, footwear, and personal gear required for small.
+- **Common Myth:** Barefoot sailing provides superior grip on wet fiberglass non skid deck surfaces.
+- **Pamphlet Fact:** Closed toe deck shoes protect toes from heavy metal deck cleats, travelers, and blocks.
 
 | Req 4f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -235,12 +235,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Wind Direction and Indicators
+### Req 5: Wind Direction Indicator Identification
 **Official Requirement 5:** Discuss with your counselor how to identify the wind direction and wind indicators. Explain the importance of this task before setting sail.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Discuss Wind Direction Wind)
-> **Guide to Safe Scouting Warning:** Operate under BSA Safe Swim Defense and Safety Afloat for Small-Boat Sailing Requirement 5: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for wind direction and indicators, and maintain buddy checks throughout the session.
-- **Common Myth:** You only need to check the wind direction after you have pushed off from the dock and raised your sails.
-- **Pamphlet Fact:** Knowing the exact wind direction before launching dictates how you position the hull to hoist sails head-to-wind and determines whether you can safely clear the dock or beach without being blown onto obstacles (p. 26).
+> **Guide to Safe Scouting Warning:** Always verify wind direction relative to shoreline obstructions before releasing mooring lines to avoid leeward crashes.
+- **Common Myth:** The wind felt while moving forward represents the exact direction of the true atmospheric wind.
+- **Pamphlet Fact:** Moving boats generate apparent wind, combining forward hull velocity with true atmospheric wind direction.
 
 ![Scouts hold a handheld wind meter and signal flags along the sandy beach to assess lake sailing conditions.](/assets/ai_illustrations/small_boat_sailing_req_5_nano_hero.png)
 
@@ -250,33 +250,33 @@
 | **2. Explain the importance of this task before setting sail.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Pre-Sail Wind Assessment: Explain the importance of this task before setting sail (p. 6).
-- Capsize procedures should be conducted under the close supervision of the counselor (p. 6).
-- A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).
-- Self-bailing boats are acceptable for this requirement (p. 6).
+- Masthead Fly Observation: Pivoting wind vanes mounted at mastheads indicate instantaneous apparent wind direction overhead.
+- Dark patches of ripples moving across calm water reveal approaching fresh wind gusts.
+- Facial Sensory Perception: Turning face directly into the breeze reveals accurate wind bearing across both cheeks.
+- Streaming yarn ribbons taped on sail fabric indicate laminar air attachment or stall.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: On-the-Water Sailing Maneuvers
+### Req 6: Underway Boat Handling Seamanship
 **Official Requirement 6 (Parent Overview):** Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following: (a) Prepare a boat for sailing, including a safety inspection. (b) Get underway from a dock, mooring, or beach. (c) Properly set sails for a round-trip course approved by your counselor that will include running, beating, and reaching, the basic points of sail. While sailing, demonstrate good helmsmanship skills. (d) Change direction by tacking; change direction by jibing. (e) Demonstrate getting out of irons. (f) Demonstrate the safety position. (g) Demonstrate capsize procedures and the rescue of a person overboard. Note: Capsize procedures should be conducted under the close supervision of the counselor. A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore. Self-bailing boats are acceptable for this requirement. Extreme care should be taken to avoid personal injury and damage to the boat or equipment. (h) Demonstrate the procedure to take after running aground. (i) Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths. (j) Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow sails, and prepare the craft for unattended docking or beaching overnight or longer.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Operate under BSA Safe Swim Defense and Safety Afloat for Small-Boat Sailing Requirement 6: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for on-the-water sailing maneuvers, and maintain buddy checks throughout the session.
+> **Guide to Safe Scouting Warning:** Stay in contact with the hull during capsizes and count crew members before climbing the centerboard.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Small-Boat Sailing Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** To stop a sailboat on open water, you should sheet the sails in as tightly as possible and point straight downwind.
-- **Pamphlet Fact:** In the safety position, the boat is brought onto a close reach with the centerboard partially down and all sheets completely eased so the sails luff like flags and forward motion stops under control (p. 32).
+- **Common Myth:** Jibing is simply tacking backwards and requires no special sheet control or crew warning.
+- **Pamphlet Fact:** Jibes bring the stern through the wind, causing rapid, violent boom swings requiring mainsheet control.
 
 **Official Pamphlet Summary:**
-- Capsize procedures should be conducted under the close supervision of the counselor (p. 6).
-- A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).
-- Self-bailing boats are acceptable for this requirement (p. 6).
-- Pre-Launch Safety Check: Explain the importance of this task before setting sail (p. 6).
+- Controlled Tack Rotation: Push the tiller smoothly toward the sail to bring the bow through wind.
+- Controlled Jibe Sweep: Pull the tiller away from sail while centering the boom across centerline.
+- Stand on the exposed daggerboard foil to lever the submerged mast upright.
+- Overboard Rescue Approach: Circle back on a close reach to stop boat momentum beside the victim.
 
-#### Req 6a: Pre-Sail Safety Inspection
+#### Req 6a: Pre-Sail Rigging Safety Inspection
 **Official Requirement 6a:** Prepare a boat for sailing, including a safety inspection.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Boat for Sailing Including A)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Small-Boat Sailing Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** During a controlled jibe, you should let the mainsheet out all the way and let the wind slam the boom across the boat at full speed.
-- **Pamphlet Fact:** Unlike tacking, jibing turns the stern through the wind while sailing downwind, requiring the crew to sheet the mainsail in toward the centerline first so the boom does not slam violently across the cockpit (p. 30).
+- **Common Myth:** Transom drain plugs can be inserted loosely since bilge water naturally sloshes out.
+- **Pamphlet Fact:** Unsecured drain plugs allow water ingress that eliminates reserve buoyancy within minutes.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
@@ -292,11 +292,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b: Getting Underway Safely
+#### Req 6b: Dock Departure Underway Maneuvers
 **Official Requirement 6b:** Get underway from a dock, mooring, or beach.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Get Underway From A Dock)
-- **Common Myth:** When your sailboat runs aground on a sandbar, you should sheet the sails in tighter so the wind forces the centerboard through the mud.
-- **Pamphlet Fact:** If a sailboat runs aground, you should immediately ease the sheets to depower the sails, raise the centerboard and rudder blade if needed, and push or sail off toward deeper water (p. 34).
+- **Common Myth:** Trimming sails tightly against docks will pull boats cleanly away from pilings.
+- **Pamphlet Fact:** Trimming sails while pinned to a leeward dock capsizes craft against pier pilings.
 
 | Req 6b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -304,12 +304,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c: Sailing a Triangular Course
+#### Req 6c: Course Sail Trim Points
 **Official Requirement 6c:** Properly set sails for a round-trip course approved by your counselor that will include running, beating, and reaching, the basic points of sail. While sailing, demonstrate good helmsmanship skills.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Skill Demonstration Checklist):** Req 6c Hands-On Skill Station & EDGE Verification Checklist (Round-trip Course Approved)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Small-Boat Sailing Req 6c preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** If your sailboat capsizes half a mile from shore, it is safer to abandon the boat and swim to land than to stay with the capsized hull.
-- **Pamphlet Fact:** After a capsize, crew members must never abandon the boat to swim for shore; they should account for their buddy, stay with the floating hull, and stand on the centerboard to right the craft (p. 33).
+- **Common Myth:** Sails should remain pinned tightly against the boat centerline across all points of sail.
+- **Pamphlet Fact:** Sails must be eased until they begin to luff, then trimmed slightly to maximize laminar flow.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -318,11 +318,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6d: Tacking and Jibing Maneuvers
+#### Req 6d: Tacking And Jibing Maneuvers
 **Official Requirement 6d:** Change direction by tacking; change direction by jibing.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix (Change Direction By Tacking Change)
-- **Common Myth:** During Small-Boat Sailing Requirement 6d, Scouts can underestimate how directly mastery of tacking and jibing maneuvers depends on understanding change direction by tacking.
-- **Pamphlet Fact:** Scouting America standards for Small-Boat Sailing Requirement 6d require complete workbook entries on tacking and jibing maneuvers to demonstrate full understanding of change direction by tacking.
+- **Common Myth:** The helmsman should push the tiller abruptly to its limit when initiating a tack.
+- **Pamphlet Fact:** Smooth, progressive rudder movement preserves boat speed needed to carry the bow through irons.
 
 | Req 6d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -331,11 +331,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6e: Recovering From Irons
+#### Req 6e: In Irons Recovery Technique
 **Official Requirement 6e:** Demonstrate getting out of irons.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Skill Demonstration Checklist):** Req 6e Hands-On Skill Station & EDGE Verification Checklist (Getting Out)
-- **Common Myth:** Overlooking the specific field checks required for Recovering From Irons (Req 6e) or confusing Recovering From Irons with general On-the-Water Sailing Maneuvers procedures.
-- **Pamphlet Fact:** For Requirement 6e (Recovering From Irons), The Small-Boat Sailing pamphlet for Requirement 6e details getting out of irons, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 6).
+- **Common Myth:** Pumping the tiller back and forth rapidly will restart forward momentum from irons.
+- **Pamphlet Fact:** Pumping the tiller creates braking drag, keeping the stationary craft pinned directly in irons.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -343,11 +343,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6f: Demonstrating Safety Position
+#### Req 6f: Heaving To Safety Position
 **Official Requirement 6f:** Demonstrate the safety position.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Skill Demonstration Checklist):** Req 6f Hands-On Skill Station & EDGE Verification Checklist (Safety Position)
-- **Common Myth:** When preparing Small-Boat Sailing Requirement 6f (Req 6f Demonstrating Safety Position), Scouts sometimes overlook the specific details needed to demonstrate the safety position.
-- **Pamphlet Fact:** Counselor verification for Small-Boat Sailing Requirement 6f requires concrete workbook evidence covering req 6f demonstrating safety position and a clear explanation of how to demonstrate the safety position.
+- **Common Myth:** Dropping anchors is the only way to hold a sailboat stationary in deep lakes.
+- **Pamphlet Fact:** Heaving to balances opposing sail and rudder forces, parking the boat in deep open water.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -355,11 +355,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6g: Capsize and Overboard Rescue
+#### Req 6g: Capsize And Overboard Rescue
 **Official Requirement 6g:** Demonstrate capsize procedures and the rescue of a person overboard. Note: Capsize procedures should be conducted under the close supervision of the counselor. A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore. Self-bailing boats are acceptable for this requirement. Extreme care should be taken to avoid personal injury and damage to the boat or equipment.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Skill Demonstration Checklist):** Req 6g Hands-On Skill Station & EDGE Verification Checklist (Capsize Procedures and The Rescue)
-- **Common Myth:** For Small-Boat Sailing Requirement 6g, a common mistake in capsize and overboard rescue is treating capsize procedures and the rescue of a person overboard as optional background reading.
-- **Pamphlet Fact:** Mastering Small-Boat Sailing Requirement 6g means following the pamphlet standard for capsize and overboard rescue and recording accurate notes on capsize procedures and the rescue of a person overboard.
+- **Common Myth:** Rescuers should sail directly downwind toward an overboard swimmer at full cruising speed.
+- **Pamphlet Fact:** Approaching on a close reach allows complete speed control by easing sheets to stop gently.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -370,11 +370,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6h: Running Aground Procedures
+#### Req 6h: Aground Vessel Recovery Actions
 **Official Requirement 6h:** Demonstrate the procedure to take after running aground.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Skill Demonstration Checklist):** Req 6h Hands-On Skill Station & EDGE Verification Checklist (Procedure to Take After Running)
-- **Common Myth:** During Small-Boat Sailing Requirement 6h, Scouts can underestimate how directly mastery of running aground procedures depends on understanding the procedure to take after running aground.
-- **Pamphlet Fact:** Scouting America standards for Small-Boat Sailing Requirement 6h require complete workbook entries on running aground procedures to demonstrate full understanding of the procedure to take after running aground.
+- **Common Myth:** Trimming sails harder provides the thrust required to force a grounded boat over sandbars.
+- **Pamphlet Fact:** Trimming sails drives the keel harder into mud and damages delicate centerboard trunks.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -382,11 +382,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6i: Accepting a Tow Safely
+#### Req 6i: Towing Operation Seamanship Skills
 **Official Requirement 6i:** Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 6i Structured Technical Study & Explanation Matrix (Accept A Single Line or)
-- **Common Myth:** Overlooking the specific field checks required for Accepting a Tow Safely (Req 6i) or confusing Accepting a Tow Safely with general On-the-Water Sailing Maneuvers procedures.
-- **Pamphlet Fact:** For Requirement 6i (Accepting a Tow Safely), A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).
+- **Common Myth:** Tie towlines directly to bow mooring cleats to handle strong towing pull loads.
+- **Pamphlet Fact:** Light bow cleats tear out under shock loads, so towlines must loop around mast steps.
 
 | Req 6i Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -394,11 +394,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6j: Securing Boat and Gear
+#### Req 6j: Mooring And Stowage Procedures
 **Official Requirement 6j:** Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow sails, and prepare the craft for unattended docking or beaching overnight or longer.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 6j Structured Technical Study & Explanation Matrix (Upon Returning to The Dock)
-- **Common Myth:** When preparing Small-Boat Sailing Requirement 6j (Req 6j Securing Boat and Gear), Scouts sometimes overlook the specific details needed to upon returning to the dock, mooring, or beach, properly secure all equipmen.
-- **Pamphlet Fact:** Counselor verification for Small-Boat Sailing Requirement 6j requires concrete workbook evidence covering req 6j securing boat and gear and a clear explanation of how to upon returning to the dock, mooring, or beach, properly secure all equipmen.
+- **Common Myth:** Leaving sails loosely bunched in cockpit floorboards prevents mildew growth after sailing.
+- **Pamphlet Fact:** Sails must be dried, flaked along foot seams, and rolled smoothly into sailbags.
 
 | Req 6j Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -406,24 +406,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Marlinespike Seamanship and Knots
+### Req 7: Marlinespike Seamanship Line Handling
 **Official Requirement 7 (Parent Overview):** Demonstrate a working knowledge of marlinespike seamanship. Do the following: (a) Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot. Demonstrate the use of each. (b) Show how to heave a line, coil a line, and fake down a line. (c) Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture. Explain the advantages and disadvantages of each.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Operate under BSA Safe Swim Defense and Safety Afloat for Small-Boat Sailing Requirement 7: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for marlinespike seamanship and knots, and maintain buddy checks throughout the session.
-- **Common Myth:** An overhand knot is the best stopper knot for sailing sheets because it pulls tight and never jams under heavy wind loads.
-- **Pamphlet Fact:** A figure-eight knot is tied in the bitter end of sheets and halyards as a stopper knot so the line cannot accidentally slip out through blocks or fair leads when eased (p. 36).
+> **Guide to Safe Scouting Warning:** Never step inside coils or bights of line resting on the deck to prevent traumatic entanglement.
+- **Common Myth:** Adding multiple extra half hitches on a mooring cleat improves knot holding strength.
+- **Pamphlet Fact:** Excessive half hitches jam under heavy strain and prevent quick emergency release of lines.
 
 **Official Pamphlet Summary:**
-- Do Demonstrate a working knowledge of marlinespike seamanship (p. 7).
-- Marlinespike Seamanship and Knots: Review the Small-Boat Sailing pamphlet standards for marlinespike seamanship and knots, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 7).
-- Line Fiber Characteristics: Explain the advantages and disadvantages (p. 7).
-- Practical Knot Applications: Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot (p. 7).
+- Form an unshakeable fixed eye loop that will not slip under load.
+- Wrap a clean locking hitch around deck cleats without jamming redundant hitches.
+- Dacron Halyard Strength: Low stretch polyester fibers maintain steady sail shape without stretching under hoist tension.
+- Faking Down Preparedness: Flake sheets in overlapping figure eight patterns for rapid, jam free line running.
 
-#### Req 7a: Six Essential Sailing Knots
+#### Req 7a: Essential Nautical Knot Tying
 **Official Requirement 7a:** Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot. Demonstrate the use.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Skill Demonstration Checklist):** Req 7a Hands-On Skill Station & EDGE Verification Checklist (Square Reef Knot Clove Hitch)
-- **Common Myth:** A square knot is safe for tying two heavy towlines together or securing a boat to a mooring in a storm.
-- **Pamphlet Fact:** A square knot capsizes and spills easily when shaken or unevenly loaded, so it is used only for light tasks like reefing or tying sail covers, never for joining critical working lines (p. 36).
+- **Common Myth:** A square reef knot is reliable for joining two heavy dock mooring lines together.
+- **Pamphlet Fact:** Square knots spill into destructive slip hitches when tied between lines of unequal size.
 
 **Gear & Readiness Checklist:**
 - [ ] U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled
@@ -440,11 +440,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b: Heaving Coiling and Faking
+#### Req 7b: Line Throwing And Coiling
 **Official Requirement 7b:** Show how to heave a line, coil a line, and fake down a line.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Skill Demonstration Checklist):** Req 7b Hands-On Skill Station & EDGE Verification Checklist (Heave A Line Coil A)
-- **Common Myth:** Faking down a line means stuffing the rope into a tight canvas bag so no one steps on it in the cockpit.
-- **Pamphlet Fact:** Faking down a line arranges it in flat, overlapping figure-eight or parallel loops on deck so the top working end can run out freely without kinking or fouling (p. 37).
+- **Common Myth:** Coiling lines tightly around your bent elbow prevents kinking when lines pay out.
+- **Pamphlet Fact:** Elbow wrapping introduces heavy twists into cordage, causing severe block jams during hoists.
 
 ![A counselor guides a Scout through tying secure nautical knots with braided marine rope on the shoreline.](/assets/ai_illustrations/small_boat_sailing_req_7_nano_hero.png)
 
@@ -454,11 +454,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7c: Sailboat Lines and Fibers
+#### Req 7c: Synthetic Cordage Fiber Construction
 **Official Requirement 7c:** Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture. Explain the advantages and disadvantages.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (2-Column Comparison Table):** Req 7c Technical Comparison Matrix (Discuss The Kinds of Lines)
-- **Common Myth:** Nylon and polyester lines behave identically under load, so stretchy nylon rope works great for hoisting a mainsail halyard.
-- **Pamphlet Fact:** Dacron (polyester) has very low stretch, making it ideal for halyards and sheets that hold sail trim, whereas nylon stretches significantly to absorb shock loads on anchor and dock lines (p. 35).
+- **Common Myth:** Nylon cordage makes the ideal low stretch material for dinghy main halyard rigging.
+- **Pamphlet Fact:** Nylon stretches up to twenty percent under tension, making it unsuitable for sail halyards.
 
 | Comparison Dimension | Low-Stretch Polyester Control Lines | Shock-Absorbing Nylon Dock Lines |
 | :--- | :--- | :--- |
@@ -467,12 +467,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Year-Round Sailboat Maintenance
+### Req 8: Annual Sailboat Maintenance Care
 **Official Requirement 8:** Describe how you would care for and maintain a sailboat and its gear throughout the year.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (You Would Care)
-> **Guide to Safe Scouting Warning:** Operate under BSA Safe Swim Defense and Safety Afloat for Small-Boat Sailing Requirement 8: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for year-round sailboat maintenance, and maintain buddy checks throughout the session.
-- **Common Myth:** Stuffing wet sails tightly into a sail bag right after docking protects the fabric from ultraviolet rays and keeps them crisp.
-- **Pamphlet Fact:** Putting wet sails away in a closed bag promotes mildew and weakens stitching; sails must be rinsed with fresh water, dried thoroughly out of prolonged direct sunlight, and folded or rolled loosely (p. 38).
+> **Guide to Safe Scouting Warning:** Inspect wire shroud swage fittings annually for cracked barrels or broken individual wire strands.
+- **Common Myth:** Fiberglass hulls need no preventative maintenance because plastic and resin never deteriorate outdoors.
+- **Pamphlet Fact:** Ultraviolet solar radiation breaks down polyester resins, causing gelcoat chalking and structural fiberglass embrittlement.
 
 ![Scouts and their counselor prepare a small sailboat hull and step the mast on a lakeside grassy lawn.](/assets/ai_illustrations/small_boat_sailing_req_8_nano_hero.png)
 
@@ -481,19 +481,19 @@
 | **1. Describe how you would care for and maintain a sailboat and its gear throughout the year.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Routine Gear Inspection: Capsize procedures should be conducted under the close supervision of the counselor (p. 6).
-- Hull and Hardware Care: A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore (p. 6).
-- Sail Folding and Storage: Self-bailing boats are acceptable for this requirement (p. 6).
-- Annual Maintenance Schedule: Explain the importance of this task before setting sail (p. 6).
+- Freshwater Hardware Rinse: Wash salt crystals off stainless blocks and anodized aluminum spars to stop corrosion.
+- Fiberglass Gelcoat Protection: Apply marine paste wax on topsides to shield gelcoat against destructive solar rays.
+- Sail Cleaning Mildew: Wash sailcloth with mild freshwater detergent and dry completely before winterizing inside bags.
+- Winter Storage Elevation: Support stored boat hulls on shaped bunks off the ground under ventilated covers.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Points of Sail and Boat Types
+### Req 9: Sailing Terminology And Architecture
 **Official Requirement 9:** With your counselor, review sailing terminology and the points of sail. Discuss various types of sailboats in use today and explain their differences.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (2-Column Comparison Table):** Req 9 Technical Comparison Matrix (Sailing Terminology)
-> **Guide to Safe Scouting Warning:** Operate under BSA Safe Swim Defense and Safety Afloat for Small-Boat Sailing Requirement 9: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for points of sail and boat types, and maintain buddy checks throughout the session.
-- **Common Myth:** By pulling the sails flat along the centerline, a modern sloop can sail straight into the eye of the wind.
-- **Pamphlet Fact:** No sailboat can sail directly into the wind (the ~90-degree no-sail zone); to reach an upwind destination, a sailor must beat to windward by sailing close-hauled on alternating zig-zag tacks (p. 40).
+> **Guide to Safe Scouting Warning:** Always maintain three points of contact when moving across heeled monohull or multihull decks.
+- **Common Myth:** Catamarans are completely incapable of capsizing due to their wide multihull stance.
+- **Pamphlet Fact:** Catamarans resist initial heeling but can flip violently into irreversible pitchpole or turtle capsizes.
 
 ![An adult instructor and Scouts examine depth contours and navigation channels on a nautical lake chart.](/assets/ai_illustrations/small_boat_sailing_req_9_nano_hero.png)
 
@@ -503,9 +503,9 @@
 | **2. Discuss various types of sailboats in use today and explain their differences.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Essential Sailing Vocabulary: Do Demonstrate a working knowledge of marlinespike seamanship (p. 6).
-- Points of Sail and Boat Types: Review the Small-Boat Sailing pamphlet standards for points of sail and boat types, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 6).
-- Explain the advantages and disadvantages (p. 6).
-- Modern Rig Designs: Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot (p. 6).
+- Points Of Sail: Orienting boat heading across wind zones defines close hauled, reaching, and running.
+- Monohull Ballast Stability: Weighted keels generate righting moments when monohulls heel over under wind pressure.
+- Multihull Form Stability: Wide beam spacing between twin catamaran hulls provides immense resistance against initial heeling.
+- Catboat Single Sail: Simple catboats carry one mainsail on an unstayed mast stepped near the bow.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`

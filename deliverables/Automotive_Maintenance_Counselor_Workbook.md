@@ -1,8 +1,8 @@
 # Automotive Maintenance Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/automotive-maintenance/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/automotive-maintenance/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Automotive%20Maintenance.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,18 +12,18 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Shop Safety and Vehicle Registration | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Fluid Checks, Fuses, and Filters | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Dashboard Gauges and Warning Indicators | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Tire Pressure, Alignment, and Wear | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Engine Operation and Motor Oil | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Engine Cooling System Service | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Air Intake and Fuel Injection | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 48, p. 49) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Ignition and Electrical Systems | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Drive Train and Transmission Systems | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **10** | Req 10: Disc, Drum, and Antilock Brakes | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **11** | Req 11: Hands-On Service and Vehicle Ownership | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **12** | Req 12: Careers in the Automotive Industry | Explain | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 94, p. 95) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Automotive Safety and Maintenance Regulations | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: General Vehicle Maintenance Procedures | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Dashboard and Information Center Diagnostics | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Tire Maintenance and Alignment Specifications | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Internal Combustion Engine Fundamentals | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Automotive Cooling System Service | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Fuel Delivery and Air Induction Systems | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 48, p. 49) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Ignition and Vehicle Electrical Systems | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Automotive Drivetrain and Transmission Systems | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **10** | Req 10: Automotive Braking System Operation | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **11** | Req 11: Practical Automotive Maintenance Operations | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **12** | Req 12: Automotive Industry Professional Career Pathways | Explain | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 94, p. 95) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -31,32 +31,32 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
-- [ ] **Station Req 4:** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
-- [ ] **Station Req 8:** Scout must individually explain mastery of Requirement 8 to the Merit Badge Counselor.
-- [ ] **Station Req 10:** Scout must individually explain mastery of Requirement 10 to the Merit Badge Counselor.
-- [ ] **Station Req 11:** Scout must individually explain mastery of Requirement 11 to the Merit Badge Counselor.
+- [ ] **Station Req 2:** General Maintenance. Do the following: (a) Demonstrate how to check the following: (1) Brake fluid (2) Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid (7) Battery fluid (if possible) and condition of the battery terminals (b) Locate the fuse boxes; determine the type and size of fuses. Demonstrate the proper replacement of burned-out fuses. (c) Demonstrate how to check the condition and tension of belts and hoses. (d) Check the vehicle for proper operation of its lights, including the interior overhead lights, instrument lights, warning lights, and exterior bulbs. (e) Locate and check the air filter(s).
+- [ ] **Station Req 4:** Tires. Do the following: (a) Explain the difference between tire manufacturer's and vehicle manufacturer's specifications and show where to find them. (b) Demonstrate how to check tire pressure and properly inflate a tire. Check the spare tire and make sure it is ready for use. (c) Explain why wheel alignment is important to the life of a tire. Explain caster, camber, and toe-in adjustments on wheel alignment. (d) Explain the purpose of the lateral-wear bar indicator. (e) Explain how to dispose of old tires in accordance with local laws and regulations.
+- [ ] **Station Req 8:** Ignition and Electrical Systems. Do the following: (a) Diagram and explain the parts of one of the following electrical systems: (1) Starting/charging system (2) Hybrid or electric vehicle inverter (3) Lighting system (b) Explain the engine's firing order. (c) Explain the purpose of the spark gap. (d) Demonstrate how to safely connect jumper cables to your car battery. (e) Discuss with your counselor what factors can affect range on an electrified vehicle. Explain the procedure for recharging an electric or plug-in hybrid vehicle. (f) Explain what other vehicle systems are dependent on a reliable electrical system.
+- [ ] **Station Req 10:** Brake System. Do the following: (a) Explain the brake system (including antilock systems) and how it operates. (b) Explain the differences between disc and drum brake systems. (c) Demonstrate how to check the condition of a vehicle's brake system. After checking, make recommendations for repairs (if necessary).
+- [ ] **Station Req 11:** Do TWO of the following: (a) Determine the value of three different vehicles you are interested in purchasing. One must be new and one must be used; the third vehicle can be new or used. For each vehicle, find out the requirements and cost of automobile insurance to include basic liability and options for collision, comprehensive, towing, and rental car. Using the three vehicles you chose and with your counselor's assistance, complete the operation/maintenance chart provided in the Automotive Maintenance merit badge pamphlet. Use this information to determine the operating cost per mile for each vehicle, and discuss what you learn with your counselor. (b) Choose a car cleaner and wax product for a vehicle you want to clean. Explain clear-coat paint and the precautions necessary for care. Clean the vehicle, both inside and out, and wax the exterior. Use a vinyl and rubber protectant (on vinyl tops, rubber door seals, sidewalls, etc.) and explain the importance of this protectant. (c) Locate the manufacturer's jack. Use the jack to demonstrate how to engage the jack correctly on the vehicle, then change a tire correctly. (d) Perform an oil filter and oil change on a vehicle. Explain how to properly dispose of the used oil and filter.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Shop Safety and Vehicle Registration
+### Req 1: Automotive Safety and Maintenance Regulations
 **Official Requirement 1 (Parent Overview):** Safety and Registration. Do the following: (a) Explain to your counselor the hazards you are most likely to encounter during automotive maintenance activities, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards. (b) Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing a motor vehicle. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge. (c) Explain the different ways motor vehicles are powered. (d) Explain the safety considerations when performing maintenance on a vehicle equipped with a high-voltage electrical system. (e) Review the maintenance chart in the vehicle owner's manual. Explain the requirements and time limits. (f) Explain the purpose, importance, and limitations of safety belts and passive restraints. (g) Find out the requirements for your state's emissions and safety inspections (as applicable), including how often a vehicle needs to be inspected. (h) Explain the importance of registering a vehicle and find out the annual registration fee for renewing your family car's registration.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Review task hazards with your counselor before starting Automotive Maintenance Requirement 1 on shop safety and vehicle registration: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.
-- **Common Myth:** Airbags provide complete crash protection on their own, so wearing a seat belt is optional in modern vehicles.
-- **Pamphlet Fact:** Airbags are supplemental passive restraints designed to work together with three-point lap and shoulder safety belts to protect occupants during a collision (p. 20).
+> **Guide to Safe Scouting Warning:** Never crawl beneath any vehicle supported only by a hydraulic or mechanical jack without secondary rated jack stands.
+- **Common Myth:** A standard hydraulic floor jack provides sufficient support for working beneath a raised vehicle.
+- **Pamphlet Fact:** Automotive maintenance demands personal protective equipment, wheel chocks, jack stands, and systematic fire prevention.
 
 **Official Pamphlet Summary:**
-- Some cars also include side-impact airbags, which open if the car is hit from either side (p. 20).
-- Automatic Passive Restraint Operation: These are safety features that do not need the driver or passenger to do anything to make them work (p. 20).
-- These devices stay in the steering wheel and dashboard until needed (p. 20).
-- They protect the driver and front-seat passenger (p. 20).
+- Hazard Prevention: Secure elevated vehicles on rated jack stands before placing any limb underneath.
+- Eye Protection: Wear ANSI Z87 approved safety glasses during all fluid checks and mechanical work.
+- Toxicity Control: Collect hazardous fluids in sealed containers to prevent skin contact and environmental runoff.
+- Electrical Safety: Disconnect the negative battery terminal before servicing any starting or charging circuit components.
 
-#### Req 1a: Automotive Maintenance Hazards
+#### Req 1a: Automotive Shop Hazard Mitigation
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter during automotive maintenance activities, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Automotive Maintenance Hazards and First Aid)
-- **Common Myth:** High-voltage cables in hybrid and electric vehicles look identical to standard 12-volt wiring under the hood.
-- **Pamphlet Fact:** High-voltage wiring in electric and hybrid vehicles is encased in bright orange insulation to warn technicians of severe shock hazards (p. 21).
+- **Common Myth:** Minor fluid leaks and hot exhaust pipes present negligible injury risks during basic maintenance.
+- **Pamphlet Fact:** Crushed limbs, chemical burns, eye injuries, and thermal burns represent frequent automotive shop injuries.
 
 ![Detailed Automotive Maintenance reference illustration comparing key components and stages of shop safety and vehicle registration for Requirement 1.](/assets/pamphlet_images/automotive_maintenance_p003_img1.png)
 
@@ -66,11 +66,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Protective Gear and Safe Tools
+#### Req 1b: Personal Protective Equipment Standards
 **Official Requirement 1b:** Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing a motor vehicle. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss With Your Counselor The)
-- **Common Myth:** You only need to perform maintenance on a vehicle when a warning light appears or a part stops working.
-- **Pamphlet Fact:** Following the scheduled time and mileage intervals in the owner's manual prevents breakdowns before parts fail (p. 20).
+- **Common Myth:** Loose clothing, rings, and sneakers are acceptable attire for light under-hood vehicle checks.
+- **Pamphlet Fact:** Flame resistant cotton clothing, steel toe boots, and impact goggles protect against catastrophic shop trauma.
 
 ![A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.](/assets/pamphlet_images/automotive_maintenance_p020_img1.png)
 
@@ -81,11 +81,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1c: Vehicle Power train Types
+#### Req 1c: Motor Vehicle Powertrain Architectures
 **Official Requirement 1c:** Explain the different ways motor vehicles are powered.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Motor Vehicles Are Powered)
-- **Common Myth:** Safety glasses are only necessary when using power tools or grinding metal in the garage.
-- **Pamphlet Fact:** You must wear safety glasses during all automotive maintenance tasks to protect your eyes from battery acid, pressurized fluids, and falling dirt (p. 20).
+- **Common Myth:** All motor vehicles convert chemical fuel into mechanical work using traditional spark ignition internal combustion.
+- **Pamphlet Fact:** Automotive platforms utilize gasoline, diesel compression, electric traction motors, hybrid configurations, and hydrogen fuel.
 
 ![A straight paved two-lane road extends into the desert, illustrating open highway driving.](/assets/pamphlet_images/automotive_maintenance_p021_img1.png)
 
@@ -95,11 +95,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1d: High-Voltage System Safety
+#### Req 1d: High Voltage Powertrain Safety
 **Official Requirement 1d:** Explain the safety considerations when performing maintenance on a vehicle equipped with a high-voltage electrical system.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Safety Considerations When Performing Maintenance)
-- **Common Myth:** During Automotive Maintenance Requirement 1d, Scouts can underestimate how directly mastery of high-voltage system safety depends on understanding the safety considerations when performing maintenance on a vehicle equipped with a high-voltage.
-- **Pamphlet Fact:** Scouting America standards for Automotive Maintenance Requirement 1d require complete workbook entries on high-voltage system safety to demonstrate full understanding of the safety considerations when performing maintenance on a vehicle equipped with a high-voltage.
+- **Common Myth:** Turning off the car ignition completely eliminates high voltage shock hazards in hybrid battery packs.
+- **Pamphlet Fact:** Hybrid and electric vehicle cables colored bright orange carry lethal direct current exceeding sixty volts.
 
 ![Heavy duty jumper cables with color-coded clamps provide emergency battery jump-starting power.](/assets/pamphlet_images/automotive_maintenance_p021_img4.png)
 
@@ -109,11 +109,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1e: Owner's Manual Maintenance Schedule
+#### Req 1e: Manufacturer Maintenance Schedule Interpretation
 **Official Requirement 1e:** Review the maintenance chart in the vehicle owner's manual. Explain the requirements and time limits.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Maintenance Chart in The Vehicle)
-- **Common Myth:** Overlooking the specific field checks required for Owner's Manual Maintenance Schedule (Req 1e) or confusing Owner's Manual Maintenance Schedule with general Shop Safety and Vehicle Registration procedures.
-- **Pamphlet Fact:** For Requirement 1e (Owner's Manual Maintenance Schedule), The Automotive Maintenance pamphlet for Requirement 1e details the maintenance chart in the vehicle owner's manual, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).
+- **Common Myth:** Vehicle maintenance intervals depend strictly on elapsed mileage regardless of operating temperature or calendar time.
+- **Pamphlet Fact:** Factory maintenance charts designate severe service schedules for frequent short trips, towing, and dusty environments.
 
 ![A mechanical diagram shows two interlocking spur gears transferring rotational drive motion.](/assets/pamphlet_images/automotive_maintenance_p032_img2.png)
 
@@ -124,11 +124,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1f: Seat Belts and Passive Restraints
+#### Req 1f: Passenger Restraint System Dynamics
 **Official Requirement 1f:** Explain the purpose, importance, and limitations of safety belts and passive restraints.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Limitations of Safety Belts and)
-- **Common Myth:** When preparing Automotive Maintenance Requirement 1f (Req 1f Seat Belts and Passive Restraints), Scouts sometimes overlook the specific details needed to explain the purpose, importance, and limitations of safety belts and passiv.
-- **Pamphlet Fact:** Counselor verification for Automotive Maintenance Requirement 1f requires concrete workbook evidence covering req 1f seat belts and passive restraints and a clear explanation of how to explain the purpose, importance, and limitations of safety belts and passiv.
+- **Common Myth:** Supplemental restraint airbags provide adequate crash protection even if vehicle occupants omit wearing safety belts.
+- **Pamphlet Fact:** Three point seatbelts spread deceleration force across the pelvis and sternum while pre-tensioners lock instantaneously.
 
 ![A schematic diagram shows interlocking mechanical gears rotating together to transfer power.](/assets/pamphlet_images/automotive_maintenance_p032_img3.png)
 
@@ -138,11 +138,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1g: State Emissions and Safety Inspections
+#### Req 1g: State Emissions Inspection Mandates
 **Official Requirement 1g:** Find out the requirements for your state's emissions and safety inspections (as applicable), including how often a vehicle needs to be inspected.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix (Out The Requirements for Your)
-- **Common Myth:** For Automotive Maintenance Requirement 1g, a common mistake in state emissions and safety inspections is treating the requirements for your state's emissions and safety inspections (as applicable), including how often as optional background reading.
-- **Pamphlet Fact:** Mastering Automotive Maintenance Requirement 1g means following the pamphlet standard for state emissions and safety inspections and recording accurate notes on the requirements for your state's emissions and safety inspections (as applicable), including how often.
+- **Common Myth:** State vehicle inspections examine only cosmetic body panels and tailpipe smoke visibility.
+- **Pamphlet Fact:** Jurisdictional inspections monitor particulate exhaust limits, evaporative emissions systems, brake lining thickness, and suspension ball joints.
 
 ![A curved brake shoe with friction lining material demonstrates the components of drum brakes.](/assets/pamphlet_images/automotive_maintenance_p047_img2.png)
 
@@ -152,11 +152,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1h: Vehicle Registration and Renewal Fees
+#### Req 1h: Annual Motor Vehicle Registration
 **Official Requirement 1h:** Explain the importance of registering a vehicle and find out the annual registration fee for renewing your family car's registration.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Organizer (Concept & Examples Notes):** Req 1h Structured Technical Study & Explanation Matrix (Registering A Vehicle and Find)
-- **Common Myth:** During Automotive Maintenance Requirement 1h, Scouts can underestimate how directly mastery of vehicle registration and renewal fees depends on understanding the importance of registering a vehicle and find out the annual registration fee for renewing.
-- **Pamphlet Fact:** Scouting America standards for Automotive Maintenance Requirement 1h require complete workbook entries on vehicle registration and renewal fees to demonstrate full understanding of the importance of registering a vehicle and find out the annual registration fee for renewing.
+- **Common Myth:** Vehicle registration is a one-time purchase completed solely when buying a car from a dealer.
+- **Pamphlet Fact:** Motor vehicle registrations establish legal state ownership, finance highway infrastructure funds, and validate insurance compliance.
 
 ![An automotive distributor cap and attached spark plug wires route high voltage to cylinders.](/assets/pamphlet_images/automotive_maintenance_p066_img3.png)
 
@@ -166,24 +166,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Fluid Checks, Fuses, and Filters
+### Req 2: General Vehicle Maintenance Procedures
 **Official Requirement 2 (Parent Overview):** General Maintenance. Do the following: (a) Demonstrate how to check the following: (1) Brake fluid (2) Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid (7) Battery fluid (if possible) and condition of the battery terminals (b) Locate the fuse boxes; determine the type and size of fuses. Demonstrate the proper replacement of burned-out fuses. (c) Demonstrate how to check the condition and tension of belts and hoses. (d) Check the vehicle for proper operation of its lights, including the interior overhead lights, instrument lights, warning lights, and exterior bulbs. (e) Locate and check the air filter(s).
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Review task hazards with your counselor before starting Automotive Maintenance Requirement 2 on fluid checks, fuses, and filters: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.
-- **Common Myth:** If a blown fuse keeps burning out, replacing it with a higher-amperage fuse will safely solve the electrical problem.
-- **Pamphlet Fact:** You must always replace a blown fuse with one of the exact same amperage rating to prevent wiring from overheating and causing an electrical fire (p. 76).
+> **Guide to Safe Scouting Warning:** Never loosen or remove the radiator cap or pressurized coolant expansion tank cap while the engine is hot.
+- **Common Myth:** All under-hood fluid reservoirs can be opened immediately after running the engine at operating temperature.
+- **Pamphlet Fact:** Under-hood maintenance requires separate assessment protocols for closed hydraulic lines, pressurized cooling systems, and electrical circuits.
 
 **Official Pamphlet Summary:**
-- Signs of Hose Deterioration: Belts and hoses that need to be replaced might feel brittle or mushy when you pinch them; they also might show cracks (p. 16).
-- To accurately check the tension of belts, you must use a belt tension gauge (p. 16).
-- Manual Belt Deflection Test: However, you can get a rough idea of tension by depressing the belt in the middle of its longest straight section (p. 16).
-- Modern serpentine belts do not show obvious wear; use amanufacturerapproved wear gauge to determine if replacement is needed (p. 16).
+- Examine fluid levels on level ground before starting or after adequate cooldown.
+- Circuit Protection: Match fuse amp ratings precisely to manufacturer board markings during circuit replacement.
+- Drive Belt Inspection: Twist serpentine belts outward to inspect ribs for cracking, fraying, or glaze.
+- Check pleated air filter elements against bright light to detect accumulated particulate.
 
-#### Req 2a: Essential Vehicle Fluid Checks
+#### Req 2a: Fluid Reservoir Inspection Protocols
 **Official Requirement 2a:** Demonstrate how to check the following: (1) Brake fluid (2) Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid (7) Battery fluid (if possible) and condition of the battery terminals.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Brake Fluid Engine Oil Coolant)
-- **Common Myth:** Modern serpentine belts always show obvious fraying and chunks missing before they need to be replaced.
-- **Pamphlet Fact:** Modern serpentine belts often do not show obvious visual wear and require a manufacturer-approved wear gauge to check groove depth accurately (p. 16).
+- **Common Myth:** Clear brake fluid never requires periodic chemical replacement throughout the operational life of the vehicle.
+- **Pamphlet Fact:** Brake fluid absorbs atmospheric moisture over time, lowering its boiling point and inducing pedal fade.
 
 **Gear & Readiness Checklist:**
 - [ ] ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools
@@ -205,11 +205,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Fuse Box and Fuse Replacement
+#### Req 2b: Electrical Fuse Box Diagnostics
 **Official Requirement 2b:** Locate the fuse boxes; determine the type and size of fuses. Demonstrate the proper replacement of burned-out fuses.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)* • **Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Fuse Boxes)
-- **Common Myth:** A dirty engine air filter can be cleaned with water and soapy detergent so it never needs replacement.
-- **Pamphlet Fact:** Paper air filter elements trap fine dust inside their fibers and must be replaced when dirty so the engine receives clean, unrestricted airflow (p. 76).
+- **Common Myth:** A blown blade fuse can be replaced with any fuse that fits physically into the slot.
+- **Pamphlet Fact:** Replacing a blown ten-ampere fuse with a thirty-ampere fuse can ignite vehicle wiring harnesses.
 
 ![A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.](/assets/pamphlet_images/automotive_maintenance_p016_img1.png)
 
@@ -220,11 +220,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c: Belt and Hose Inspection
+#### Req 2c: Accessory Drive Belt Inspection
 **Official Requirement 2c:** Demonstrate how to check the condition and tension of belts and hoses.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)* • **Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist (Condition and Tension of Belts)
-- **Common Myth:** For Automotive Maintenance Requirement 2c, a common mistake in belt and hose inspection is treating how to check the condition and tension of belts and hoses as optional background reading.
-- **Pamphlet Fact:** Mastering Automotive Maintenance Requirement 2c means following the pamphlet standard for belt and hose inspection and recording accurate notes on how to check the condition and tension of belts and hoses.
+- **Common Myth:** Accessory drive belts only require replacement once they produce loud audible slipping squeals.
+- **Pamphlet Fact:** Serpentine belts require tensioner gauge alignment and must show fewer than three cracks per inch of ribbing.
 
 ![A hand uses a socket wrench to safely loosen and disconnect a vehicle battery terminal clamp.](/assets/pamphlet_images/automotive_maintenance_p073_img1.png)
 
@@ -234,11 +234,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2d: Interior and Exterior Light Checks
+#### Req 2d: Vehicle Lighting System Audit
 **Official Requirement 2d:** Check the vehicle for proper operation of its lights, including the interior overhead lights, instrument lights, warning lights, and exterior bulbs.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Vehicle for Proper Operation of)
-- **Common Myth:** It is safe to remove the radiator pressure cap immediately after turning off a hot engine to check the coolant level.
-- **Pamphlet Fact:** Opening a hot radiator cap releases scalding pressurized coolant, so you should check the translucent overflow reservoir instead and wait until the engine cools (p. 16).
+- **Common Myth:** Exterior vehicle lighting checks require only verifying that high-beam forward headlights illuminate.
+- **Pamphlet Fact:** Burned-out license plate and turn signal bulbs violate highway safety laws and reduce vehicle visibility.
 
 ![A specialized wire brush tool cleans corrosion from inside a vehicle battery cable terminal.](/assets/pamphlet_images/automotive_maintenance_p073_img2.png)
 
@@ -248,11 +248,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2e: Engine Air Filter Inspection
+#### Req 2e: Air Filtration Media Inspection
 **Official Requirement 2e:** Locate and check the air filter(s)
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Air Filter(s)
-- **Common Myth:** Overlooking the specific field checks required for Engine Air Filter Inspection (Req 2e) or confusing Engine Air Filter Inspection with general Fluid Checks, Fuses, and Filters procedures.
-- **Pamphlet Fact:** For Requirement 2e (Engine Air Filter Inspection), The Automotive Maintenance pamphlet for Requirement 2e details locate and check the air filter, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).
+- **Common Myth:** Air filter maintenance requires merely tapping dirt out of the element rather than replacement.
+- **Pamphlet Fact:** Engine air filters prevent microscopic abrasive silica particles from scouring cylinder walls and piston rings.
 
 ![Red and black jumper cable clamps attach to car battery terminals to provide booster power.](/assets/pamphlet_images/automotive_maintenance_p075_img1.png)
 
@@ -262,24 +262,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Dashboard Gauges and Warning Indicators
+### Req 3: Dashboard and Information Center Diagnostics
 **Official Requirement 3 (Parent Overview):** Dashboard/Driver Information Center. Do the following: (a) Explain the function of the fuel gauge, speedometer, tachometer, oil pressure, and engine temperature gauge. Point each one out on the instrument cluster. (b) Explain the symbols that light up on the dashboard and the difference between the yellow and red symbols. Explain each of the indicators on the dashboard, using the owner's manual if necessary. (c) Explain the messages and alerts that may be displayed on the dashboard/driver information center including maintenance-related reminders.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Review task hazards with your counselor before starting Automotive Maintenance Requirement 3 on dashboard gauges and warning indicators: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.
-- **Common Myth:** If the check engine light comes on while the car still drives normally, you can safely ignore it indefinitely.
-- **Pamphlet Fact:** An illuminated malfunction indicator lamp signals an emissions or engine control fault that can lower fuel economy and damage components even when the car feels normal (p. 85).
+> **Guide to Safe Scouting Warning:** Immediately pull over and shut off the engine if the red oil pressure light or temperature warning illuminates while driving.
+- **Common Myth:** Dashboard warning lights represent mere suggestions that can wait until the next scheduled oil change.
+- **Pamphlet Fact:** Red warning indicators demand immediate engine shutdown to prevent permanent mechanical destruction or catastrophic brake failure.
 
 **Official Pamphlet Summary:**
-- Other Critical System Gauges and Indicators These gauges and indicators show you the status of several of the vehicle's important systems (p. 85).
-- Malfunction Indicator Lamp Identification: Check them off as you identify them. ■ Malfunction indicator lamp (MIL) (p. 85).
-- Common Check Engine Light: This indicator is often called the "check engine" light (p. 85).
-- Emissions Control Problem Alert: It comes on if one of the engine's emissions control systems may have a problem (p. 85).
+- Gauge Function: Instrument cluster dials communicate real-time operating metrics including engine speed and thermal state.
+- Telltale Color Coding: Red symbols demand immediate stoppage while yellow icons signify non-emergency diagnostic faults.
+- Tachometer Limits: Exceeding redline engine revolutions per minute triggers valve float and severe engine damage.
+- Digital driver information centers show calculated oil life percentages and active tire pressures.
 
-#### Req 3a: Primary Instrument Cluster Gauges
+#### Req 3a: Instrument Cluster Gauge Monitoring
 **Official Requirement 3a:** Explain the function of the fuel gauge, speedometer, tachometer, oil pressure, and engine temperature gauge. Point each one out on the instrument cluster.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Function of The Fuel Gauge)
-- **Common Myth:** The tachometer measures how fast the vehicle's tires are rolling along the pavement in miles per hour.
-- **Pamphlet Fact:** The speedometer indicates road speed, whereas the tachometer measures how fast the engine crankshaft spins in revolutions per minute (p. 85).
+- **Common Myth:** The tachometer measures wheel speed over the ground rather than internal crankshaft rotation rate.
+- **Pamphlet Fact:** Tachometers indicate crankshaft revolutions per minute, allowing drivers to prevent severe mechanical over-revving.
 
 ![Practical Automotive Maintenance field visual showing proper setup, measurement, and technique for dashboard gauges and warning indicators in Requirement 3.](/assets/pamphlet_images/automotive_maintenance_p012_img1.png)
 
@@ -290,11 +290,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: Yellow and Red Warning Symbols
+#### Req 3b: Dashboard Warning Symbol Decoding
 **Official Requirement 3b:** Explain the symbols that light up on the dashboard and the difference between the yellow and red symbols. Explain each of the indicators on the dashboard, using the owner's manual if necessary.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)* • **Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix (Symbols Dashboard Yellow Symbols)
-- **Common Myth:** The battery icon on the dashboard lights up only when the 12-volt battery needs distilled water added.
-- **Pamphlet Fact:** The charging system indicator lights up when the alternator or charging circuit is failing to recharge the battery properly (p. 85).
+- **Common Myth:** All dashboard symbols indicate identical severity levels regardless of display color.
+- **Pamphlet Fact:** Yellow symbols indicate advisory faults such as traction control deactivation or emissions sensor errors.
 
 ![A driver dashboard features an instrument cluster with speedometer, tachometer, and gauges.](/assets/pamphlet_images/automotive_maintenance_p082_img2.png)
 
@@ -308,8 +308,8 @@
 #### Req 3c: Driver Information Center Alerts
 **Official Requirement 3c:** Explain the messages and alerts that may be displayed on the dashboard/driver information center including maintenance-related reminders.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Messages and Alerts)
-- **Common Myth:** Red and yellow dashboard warning symbols have the exact same urgency and only differ to match the interior lighting.
-- **Pamphlet Fact:** Yellow dashboard symbols advise that a system needs service soon, whereas red symbols warn of a serious safety or mechanical issue requiring immediate attention (p. 86).
+- **Common Myth:** Vehicle maintenance reminders are simple mechanical timers set strictly to five thousand miles.
+- **Pamphlet Fact:** Modern driver information centers calculate oil life based on cold starts, idle time, and operating temperatures.
 
 ![A vehicle fuse box contains color-coded blade fuses and relays protecting electrical circuits.](/assets/pamphlet_images/automotive_maintenance_p077_img1.png)
 
@@ -319,24 +319,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Tire Pressure, Alignment, and Wear
+### Req 4: Tire Maintenance and Alignment Specifications
 **Official Requirement 4 (Parent Overview):** Tires. Do the following: (a) Explain the difference between tire manufacturer's and vehicle manufacturer's specifications and show where to find them. (b) Demonstrate how to check tire pressure and properly inflate a tire. Check the spare tire and make sure it is ready for use. (c) Explain why wheel alignment is important to the life of a tire. Explain caster, camber, and toe-in adjustments on wheel alignment. (d) Explain the purpose of the lateral-wear bar indicator. (e) Explain how to dispose of old tires in accordance with local laws and regulations.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 4): Complete all Tire Pressure, Alignment, and Wear discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** You should always inflate your tires to the maximum pounds per square inch number molded onto the tire's rubber sidewall.
-- **Pamphlet Fact:** When the tire sidewall pressure differs from the vehicle specification placard, you must inflate the tires to the pressure listed on the vehicle (p. 39).
+> **Guide to Safe Scouting Warning:** Always check tire inflation pressures when tires are completely cold to prevent dangerously inaccurate low readings.
+- **Common Myth:** The maximum pressure stamped on the tire sidewall indicates the recommended daily inflation pressure.
+- **Pamphlet Fact:** Tire pressure recommendations listed on the driver door jamb placard dictate optimal handling, tread life, and braking distance.
 
 **Official Pamphlet Summary:**
-- Proper Tire Inflation Benefits: Tires work best and last longest when they are properly inflated (p. 39).
-- In addition, fuel efficiency goes down by 1 percent for every 3 pounds per square inch that tires are under inflated (p. 39).
-- If the inflation pressure listed on the tire is different from the pressure noted on the vehicle, use the pressure noted on the vehicle (p. 39).
-- Monthly Spare Tire Checks: You should check the pressure of all tires, including the spare tire, once a month (p. 39).
+- Placard Specifications: Inflate tires strictly according to vehicle door jamb placards rather than sidewall maxima.
+- Cold Pressure Measurement: Check inflation pressures using a calibrated gauge when tires are completely cold.
+- Alignment Geometry: Align caster, camber, and toe angles to prevent premature edge wear and pulling.
+- Replace tires immediately when tread depths wear flush with the wear indicators.
 
-#### Req 4a: Tire vs Vehicle Pressure Specs
+#### Req 4a: Tire Specification Placard Comparison
 **Official Requirement 4a:** Explain the difference between tire manufacturer's and vehicle manufacturer's specifications and show where to find them.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix (Tire Manufacturer's and Vehicle Manufacturer's)
-- **Common Myth:** Spare tires hold their air permanently inside the trunk and never need to be checked until a flat occurs.
-- **Pamphlet Fact:** Spare tires lose air pressure over time just like mounted tires and should be checked once a month so they are ready for emergencies (p. 39).
+- **Common Myth:** The tire sidewall pressure rating represents the exact inflation level intended by the vehicle manufacturer.
+- **Pamphlet Fact:** The vehicle door placard specifies cold inflation pressure engineered for suspension dynamics and vehicle weight.
 
 ![A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.](/assets/pamphlet_images/automotive_maintenance_p039_img1.png)
 
@@ -346,11 +346,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Tire Pressure and Spare Checks
+#### Req 4b: Tire Pressure Inflation Protocols
 **Official Requirement 4b:** Demonstrate how to check tire pressure and properly inflate a tire. Check the spare tire and make sure it is ready for use.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist (Tire Pressure and Properly Inflate)
-- **Common Myth:** Wheel alignment means adding lead weights to the wheel rim so it spins without vibrating.
-- **Pamphlet Fact:** Wheel balancing corrects weight distribution on a spinning wheel, whereas wheel alignment adjusts suspension angles called caster, camber, and toe-in (p. 39).
+- **Common Myth:** Spare tires retain factory inflation pressure indefinitely without requiring periodic maintenance checks.
+- **Pamphlet Fact:** Compact temporary spare tires require higher inflation pressures, commonly sixty pounds per square inch.
 
 ![A person inserts a fuel pump nozzle into a car fuel tank filler neck to dispense gasoline.](/assets/pamphlet_images/automotive_maintenance_p081_img1.png)
 
@@ -361,11 +361,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Wheel Alignment and Suspension Angles
+#### Req 4c: Wheel Alignment Geometry Fundamentals
 **Official Requirement 4c:** Explain why wheel alignment is important to the life of a tire. Explain caster, camber, and toe-in adjustments on wheel alignment.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Wheel Alignment Is Important)
-- **Common Myth:** Tires are still safe for wet highway driving until the rubber tread is worn completely smooth across the entire surface.
-- **Pamphlet Fact:** When the tread wears down to 1/16 inch, solid rubber lateral-wear bars appear flush with the tread to show the tire must be replaced immediately (p. 43).
+- **Common Myth:** Wheel alignment problems affect only steering wheel straightness without causing accelerated tire degradation.
+- **Pamphlet Fact:** Excessive toe-in or toe-out scrubs tire tread sideways across pavement, causing rapid feathered edge wear.
 
 ![Passengers ride in a horse-drawn buggy carriage before the era of modern motor automobiles.](/assets/pamphlet_images/automotive_maintenance_p083_img1.png)
 
@@ -376,11 +376,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4d: Lateral Tread Wear Indicators
+#### Req 4d: Tread Wear Indicator Evaluation
 **Official Requirement 4d:** Explain the purpose of the lateral-wear bar indicator.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (Lateral-wear Bar Indicator)
-- **Common Myth:** During Automotive Maintenance Requirement 4d, Scouts can underestimate how directly mastery of lateral tread wear indicators depends on understanding the purpose of the lateral-wear bar indicator.
-- **Pamphlet Fact:** Scouting America standards for Automotive Maintenance Requirement 4d require complete workbook entries on lateral tread wear indicators to demonstrate full understanding of the purpose of the lateral-wear bar indicator.
+- **Common Myth:** Tires remain safe to drive in heavy rain as long as any visible groove remains.
+- **Pamphlet Fact:** Tread wear indicators sit at two thirty-seconds of an inch, marking the legal tire replacement limit.
 
 ![A young buyer compares vehicle specifications and pricing listed on a dealer window sticker.](/assets/pamphlet_images/automotive_maintenance_p088_img1.png)
 
@@ -390,11 +390,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4e: Proper Used Tire Disposal
+#### Req 4e: Scrap Tire Disposal Regulations
 **Official Requirement 4e:** Explain how to dispose of old tires in accordance with local laws and regulations.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix (Dispose of Old Tires in)
-- **Common Myth:** Overlooking the specific field checks required for Proper Used Tire Disposal (Req 4e) or confusing Proper Used Tire Disposal with general Tire Pressure, Alignment, and Wear procedures.
-- **Pamphlet Fact:** For Requirement 4e (Proper Used Tire Disposal), The Automotive Maintenance pamphlet for Requirement 4e details how to dispose of old tires in accordance with local laws and regulations, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).
+- **Common Myth:** Old tires can be discarded safely in municipal household trash or incinerated in open fires.
+- **Pamphlet Fact:** Scrap tire recyclers shred old casings into crumb rubber for athletic turf and asphalt rubber roadways.
 
 ![A printed valuation table compares vehicle specifications, pricing, and features side by side.](/assets/pamphlet_images/automotive_maintenance_p090_img1.png)
 
@@ -404,24 +404,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Engine Operation and Motor Oil
+### Req 5: Internal Combustion Engine Fundamentals
 **Official Requirement 5 (Parent Overview):** Engine. Do the following: (a) Explain how an internal combustion engine operates. Tell the differences between gasoline and diesel engines. Explain how a gasoline-electric hybrid vehicle is powered. (b) Discuss the purpose of engine oil. Explain the API service code, the SAE number, and the viscosity rating. (c) Explain where to find the recommended oil type and the amount of oil to be used in the vehicle engine.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Review task hazards with your counselor before starting Automotive Maintenance Requirement 5 on engine operation and motor oil: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.
-- **Common Myth:** Diesel engines use heavy-duty spark plugs to ignite diesel fuel inside the cylinders.
-- **Pamphlet Fact:** Unlike gasoline engines that use spark plugs, diesel engines compress air until it becomes hot enough to ignite the injected fuel automatically (p. 30).
+> **Guide to Safe Scouting Warning:** Allow hot engine oil to cool sufficiently before draining to prevent deep thermal burns to hands and arms.
+- **Common Myth:** Engine oil serves only to make metal parts slippery and never requires replacement if clean on the dipstick.
+- **Pamphlet Fact:** Engine oil lubricates metal friction surfaces, absorbs intense combustion heat, suspends carbon contaminants, and inhibits internal corrosion.
 
 **Official Pamphlet Summary:**
-- An electric vehicle (EV) works differently than a traditional gasoline car (p. 30).
-- Battery-Powered Electric Motor Drive: Instead of using an internal combustion engine that runs on gasoline, an EV uses an electric motor powered by electricity stored in a large battery (p. 30).
-- EVs have a big battery pack, usually located under the floor or in the back of the car (p. 30).
-- Rechargeable Electrical Energy Storage: This battery stores electricity, much like how your phone stores power (p. 30).
+- Combustion Cycle: Four stroke engines complete intake, compression, power, and exhaust strokes across two revolutions.
+- Diesel engines ignite fuel purely through high compression heat without using spark plugs.
+- Viscosity designations communicate cold pumping fluid flow and high temperature hydrodynamic film thickness.
+- Standard Specifications: Look up oil capacity and API standards directly from the owner manual index.
 
-#### Req 5a: Gasoline, Diesel, and Hybrid Engines
+#### Req 5a: Internal Combustion Engine Principles
 **Official Requirement 5a:** Explain how an internal combustion engine operates. Tell the differences between gasoline and diesel engines. Explain how a gasoline-electric hybrid vehicle is powered.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix (Internal Combustion Engine)
-- **Common Myth:** The 'W' in a multi-grade motor oil rating like 5W-30 stands for the weight of the oil container.
-- **Pamphlet Fact:** The 'W' in an SAE viscosity rating stands for Winter and indicates how easily the oil flows at cold starting temperatures (p. 57).
+- **Common Myth:** Gasoline and diesel engines share identical ignition systems, fuel injection pressures, and operational compression ratios.
+- **Pamphlet Fact:** Gasoline engines require spark ignition, while diesel engines inject fuel into air heated by high compression.
 
 ![A roadside parking sign marks a dedicated charging station for electric vehicle battery recharge.](/assets/pamphlet_images/automotive_maintenance_p030_img1.png)
 
@@ -433,11 +433,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b: Engine Oil Viscosity and Ratings
+#### Req 5b: Engine Oil Viscosity Classifications
 **Official Requirement 5b:** Discuss the purpose of engine oil. Explain the API service code, the SAE number, and the viscosity rating.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Discuss The Purpose of Engine)
-- **Common Myth:** Thick, high-viscosity oil is always better for every engine because it forms a heavier film.
-- **Pamphlet Fact:** Using oil thicker than the vehicle manufacturer recommends can restrict oil flow during cold starts and reduce fuel efficiency (p. 57).
+- **Common Myth:** Thicker motor oil always provides superior engine protection compared to thin factory-recommended low-viscosity oils.
+- **Pamphlet Fact:** The American Petroleum Institute starburst mark certifies oil performance standards, while SAE numbers define fluid viscosity.
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -446,11 +446,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c: Recommended Oil Type and Capacity
+#### Req 5c: Engine Oil Capacity Specifications
 **Official Requirement 5c:** Explain where to find the recommended oil type and the amount of oil to be used in the vehicle engine.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (Recommended Oil Type and The)
-- **Common Myth:** Hybrid vehicles must always be plugged into a wall outlet every night or their electric motors will not function.
-- **Pamphlet Fact:** Standard gasoline-electric hybrids recharge their battery pack automatically through regenerative braking and the gasoline engine without needing a wall plug (p. 30).
+- **Common Myth:** Every four-cylinder passenger car engine requires exactly five quarts of motor oil during changes.
+- **Pamphlet Fact:** The vehicle owner manual specifies exact crankcase capacities with and without oil filter canister replacement.
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -458,24 +458,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Engine Cooling System Service
+### Req 6: Automotive Cooling System Service
 **Official Requirement 6 (Parent Overview):** Cooling System. Do the following: (a) Explain the need for coolant in the cooling system, and the importance of selecting the correct coolant type for a given vehicle. (b) Explain how to flush and change the engine coolant in the vehicle, and how to properly dispose of the used coolant.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Review task hazards with your counselor before starting Automotive Maintenance Requirement 6 on engine cooling system service: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.
-- **Common Myth:** Filling a radiator with 100 percent pure water works just as well as a 50/50 coolant mixture in all climates.
-- **Pamphlet Fact:** An equal mixture of water and ethylene-glycol antifreeze raises the boiling point in summer, prevents corrosion, and protects down to -35 degrees Fahrenheit in winter (p. 60).
+> **Guide to Safe Scouting Warning:** Keep drained antifreeze in sealed containers away from pets and wildlife because ethylene glycol tastes sweet and is lethal.
+- **Common Myth:** Pure tap water provides superior cooling efficiency and can replace formulated coolant mixtures indefinitely.
+- **Pamphlet Fact:** Engine coolant consists of ethylene or propylene glycol mixed with demineralized water and specialized corrosion inhibitors.
 
 **Official Pamphlet Summary:**
-- Manufacturers generally recommend an equal mixture of water and ethylene-glycol antifreeze (p. 60).
-- Year-Round Temperature Protection: This coolant mixture offers good cooling during the summer and protects the engine down to about 35 degrees below zero Fahrenheit in the winter (p. 60).
-- When you use this type of coolant, you should not add water (p. 60).
-- Coolant should be checked regularly and replaced about every 30,000 miles or two years, or up to five years in some newer vehicles (p. 60).
+- Cooling Function: Coolant transfers combustion heat to the radiator while raising boiling and lowering freezing.
+- Chemistry Selection: Modern engines require vehicle specific organic acid technology to prevent galvanic aluminum corrosion.
+- Drain spent coolant from the radiator petcock into dedicated sealed automotive waste containers.
+- Purge entrained air pockets from cooling passages to prevent localized cylinder head warping.
 
-#### Req 6a: Coolant Purpose and Proper Selection
+#### Req 6a: Coolant Chemistry and Selection
 **Official Requirement 6a:** Explain the need for coolant in the cooling system, and the importance of selecting the correct coolant type for a given vehicle.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Need for Coolant in The)
-- **Common Myth:** When using pre-diluted 50/50 coolant from the store, you should still mix it with an equal amount of tap water.
-- **Pamphlet Fact:** When using premixed coolant, you must not add any water because diluting it further reduces freeze and boil-over protection (p. 60).
+- **Common Myth:** All universal green antifreeze products can be mixed safely into any modern automotive cooling system.
+- **Pamphlet Fact:** Organic acid technology coolants contain chemical inhibitor packages formulated specifically for aluminum engine blocks.
 
 ![An automotive radiator with cooling fins and tanks dissipates excess heat from engine coolant.](/assets/pamphlet_images/automotive_maintenance_p060_img1.png)
 
@@ -485,11 +485,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b: Coolant Flushing and Safe Disposal
+#### Req 6b: Coolant Flush and Disposal
 **Official Requirement 6b:** Explain how to flush and change the engine coolant in the vehicle, and how to properly dispose of the used coolant.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Flush and Change The Engine)
-- **Common Myth:** Used antifreeze is biodegradable and safe to pour down a storm drain or onto a gravel driveway.
-- **Pamphlet Fact:** Ethylene-glycol coolant is toxic to people and animals because of its sweet taste and must be collected in a sealed container for hazardous waste recycling (p. 63).
+- **Common Myth:** Flushed engine coolant can be washed down storm drains or household plumbing sinks safely.
+- **Pamphlet Fact:** Recycling facilities distill spent antifreeze to remove heavy metals and recover ethylene glycol base stock.
 
 | Req 6b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -497,24 +497,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Air Intake and Fuel Injection
+### Req 7: Fuel Delivery and Air Induction Systems
 **Official Requirement 7 (Parent Overview):** Fuel System. Do the following: (a) Explain how the air and fuel systems work together and why it is necessary to have an air filter and fuel filter. (b) Explain how a fuel injection system works and how an onboard computer works with the fuel injection system.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 48, p. 49)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 7): Complete all Air Intake and Fuel Injection discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Gasoline engines burn pure liquid gasoline inside the cylinders without needing outside air.
-- **Pamphlet Fact:** Liquid gasoline will not burn efficiently unless it is vaporized and mixed with air at roughly 14.7 parts air to 1 part fuel (p. 48).
+> **Guide to Safe Scouting Warning:** Depressurize the fuel rail before disconnecting any high-pressure fuel lines to avoid high-pressure fuel spray fires.
+- **Common Myth:** Fuel injectors spray fuel continuously into the engine cylinders regardless of throttle valve position.
+- **Pamphlet Fact:** Fuel injection systems utilize electronic control modules to meter precise microsecond fuel pulses matching intake airflow.
 
 **Official Pamphlet Summary:**
-- Combustible Air-Fuel Mixture: As mentioned earlier, automobile engines burn a mixture of fuel and air (p. 48).
-- The air intake and fuel systems work together to create this mixture (p. 48).
-- Core Fuel System Principles: These systems may seem complex, but they rely on three basic principles, air-fuel mixture, pressure, and gasoline vaporization (p. 48).
-- The combustion process creates power by burning a mixture of air and gasoline (p. 48).
+- Air Fuel Stoichiometry: Computer systems maintain fourteen point seven to one air fuel ratios for complete combustion.
+- Pleated intake filters prevent particulate debris from damaging delicate mass airflow sensor wires.
+- Injector Metering: Electronic solenoids pulse high pressure fuel sprays into intake ports or combustion chambers.
+- Sensor Feedback: Heated oxygen sensors measure exhaust gas composition to adjust dynamic injector pulse widths.
 
-#### Req 7a: Air and Fuel Filtration Systems
+#### Req 7a: Air and Fuel Filtration Mechanics
 **Official Requirement 7a:** Explain how the air and fuel systems work together and why it is necessary to have an air filter and fuel filter.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 48, p. 49)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Air and Fuel Systems Work)
-- **Common Myth:** The air-fuel ratio inside an engine stays locked at one fixed proportion regardless of temperature or hill climbing.
-- **Pamphlet Fact:** The onboard computer constantly adjusts the air-fuel ratio based on engine temperature, vehicle speed, and terrain demands (p. 48).
+- **Common Myth:** Fuel filters and engine air filters last the entire operational lifetime of the vehicle.
+- **Pamphlet Fact:** Fuel filters trap rust particles and tank debris before high-pressure pumps and micron-sized injector orifices clog.
 
 ![A diagram of balanced spheres illustrates atmospheric pressure principles used in carburetors.](/assets/pamphlet_images/automotive_maintenance_p049_img1.png)
 
@@ -524,11 +524,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b: Computer-Controlled Fuel Injection
+#### Req 7b: Electronic Fuel Injection Operation
 **Official Requirement 7b:** Explain how a fuel injection system works and how an onboard computer works with the fuel injection system.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 48, p. 49)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Fuel Injection System Works)
-- **Common Myth:** Fuel filters are unnecessary on fuel-injected cars because gasoline from a service station pump is completely pure.
-- **Pamphlet Fact:** Fuel injectors have tiny nozzles that clog easily, making a clean fuel filter essential to trap rust, dirt, and tank sediment (p. 49).
+- **Common Myth:** Carburetors and modern electronic fuel injection systems deliver fuel at identical low operating pressures.
+- **Pamphlet Fact:** Direct fuel injection systems operate at fuel pressures exceeding two thousand pounds per square inch.
 
 | Req 7b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -536,24 +536,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Ignition and Electrical Systems
+### Req 8: Ignition and Vehicle Electrical Systems
 **Official Requirement 8 (Parent Overview):** Ignition and Electrical Systems. Do the following: (a) Diagram and explain the parts of one of the following electrical systems: (1) Starting/charging system (2) Hybrid or electric vehicle inverter (3) Lighting system (b) Explain the engine's firing order. (c) Explain the purpose of the spark gap. (d) Demonstrate how to safely connect jumper cables to your car battery. (e) Discuss with your counselor what factors can affect range on an electrified vehicle. Explain the procedure for recharging an electric or plug-in hybrid vehicle. (f) Explain what other vehicle systems are dependent on a reliable electrical system.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Review task hazards with your counselor before starting Automotive Maintenance Requirement 8 on ignition and electrical systems: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.
-- **Common Myth:** Engine cylinders always fire in numerical order from front to back, such as 1-2-3-4.
-- **Pamphlet Fact:** Engines use a specific non-sequential firing order designed by the manufacturer to balance crankshaft forces and minimize vibration (p. 71).
+> **Guide to Safe Scouting Warning:** Connect the final jumper cable clamp to an unpainted engine block ground rather than the dead battery terminal.
+- **Common Myth:** The vehicle twelve-volt battery powers all onboard electrical accessories while the engine is running.
+- **Pamphlet Fact:** The charging system alternator converts mechanical rotation into alternating current before internal diodes rectify it to direct current.
 
 **Official Pamphlet Summary:**
-- A voltage regulator controls the amount of recharging (p. 69).
-- The lighting system includes the interior overhead lights, instrument lights, headlights, taillights, turn signals, warning lights, hazard lights (p. 69).
-- Door-Activated Interior Light Switches: When you open a car door, plunger-type switches close a circuit to the interior lights and make them (p. 69).
-- When you apply the brakes, a switch under the pedal closes a circuit to the brake light bulbs so they light (p. 69).
+- Starting Charging Loop: The starter motor cranks the engine while the alternator replenishes battery electrical reserve.
+- Internal engine firing orders balance rotational crankshaft harmonics and reduce engine vibration.
+- Spark plug electrode gaps must match factory tolerances to ensure complete spark kernel generation.
+- Battery Jumper Safety: Connect positive terminals together before attaching negative ground to unpainted chassis metal.
 
-#### Req 8a: Starting, Charging, and Lighting Diagrams
+#### Req 8a: Starting and Charging System Components
 **Official Requirement 8a:** Diagram and explain the parts of one of the following electrical systems: (1) Starting/charging system (2) Hybrid or electric vehicle inverter (3) Lighting system.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Field Sketch & Diagram Canvas):** Req 8a Structured Technical Study & Explanation Matrix (Electrical Systems Starting/charging System Hybrid)
-- **Common Myth:** When jump-starting a car, the final negative jumper cable clamp should be clipped directly onto the dead battery's negative post.
-- **Pamphlet Fact:** The final negative clamp should be connected to an unpainted metal engine ground away from the dead battery to avoid igniting hydrogen gas (p. 71).
+- **Common Myth:** Alternators generate direct current electricity natively without requiring internal semiconductor diode bridges.
+- **Pamphlet Fact:** Alternators use spinning rotor electromagnets and stationary stator windings to generate three-phase alternating current.
 
 ![A modern luxury sport utility vehicle displays front lighting and body styling on the road.](/assets/pamphlet_images/automotive_maintenance_p071_img1.png)
 
@@ -573,11 +573,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8b: Engine Cylinder Firing Order
+#### Req 8b: Engine Cylinder Firing Orders
 **Official Requirement 8b:** Explain the engine's firing order.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix (Engine's Firing Order)
-- **Common Myth:** A wider or narrower spark plug gap makes no difference as long as the plug produces a visible spark.
-- **Pamphlet Fact:** An incorrect spark gap causes misfires, rough idling, and wasted fuel because the electric arc is either too weak or requires excessive voltage (p. 71).
+- **Common Myth:** Multicylinder engines ignite fuel in simple sequential physical order from cylinder one to cylinder four.
+- **Pamphlet Fact:** A typical inline four-cylinder engine utilizes a one-three-four-two firing sequence to cancel torsional vibrations.
 
 | Req 8b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -585,11 +585,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8c: Spark Plug Gap Purpose
+#### Req 8c: Spark Plug Gap Calibration
 **Official Requirement 8c:** Explain the purpose of the spark gap.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix (Spark Gap)
-- **Common Myth:** Outdoor weather and cabin heater use have no effect on how far an electric vehicle can drive on a charge.
-- **Pamphlet Fact:** Extreme temperatures, cabin heating or air conditioning, high speeds, and steep terrain all reduce an electric vehicle's driving range (p. 69).
+- **Common Myth:** Spark plugs come perfectly gapped from the factory and never require verification before installation.
+- **Pamphlet Fact:** Wider spark plug gaps require higher secondary ignition voltages, causing high-load coil insulation breakdown.
 
 | Req 8c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -597,11 +597,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8d: Safe Jumper Cable Connection
+#### Req 8d: Safe Battery Jumper Connections
 **Official Requirement 8d:** Demonstrate how to safely connect jumper cables to your car battery.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Skill Demonstration Checklist):** Req 8d Hands-On Skill Station & EDGE Verification Checklist (Connect Jumper Cables to Your)
-- **Common Myth:** During Automotive Maintenance Requirement 8d, Scouts can underestimate how directly mastery of safe jumper cable connection depends on understanding how to safely connect jumper cables to your car battery.
-- **Pamphlet Fact:** Scouting America standards for Automotive Maintenance Requirement 8d require complete workbook entries on safe jumper cable connection to demonstrate full understanding of how to safely connect jumper cables to your car battery.
+- **Common Myth:** Jumper cable clamps can be attached to battery terminals in any arbitrary order.
+- **Pamphlet Fact:** Lead acid batteries emit flammable hydrogen gas during discharge, which can ignite from clamp sparks.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -609,11 +609,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8e: Electric Vehicle Range and Charging
+#### Req 8e: Electric Vehicle Range Factors
 **Official Requirement 8e:** Discuss with your counselor what factors can affect range on an electrified vehicle. Explain the procedure for recharging an electric or plug-in hybrid vehicle.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix (Discuss With Your Counselor What)
-- **Common Myth:** Overlooking the specific field checks required for Electric Vehicle Range and Charging (Req 8e) or confusing Electric Vehicle Range and Charging with general Ignition and Electrical Systems procedures.
-- **Pamphlet Fact:** For Requirement 8e (Electric Vehicle Range and Charging), The Automotive Maintenance pamphlet for Requirement 8e details what factors can affect range on an electrified vehicle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 69).
+- **Common Myth:** Electric vehicle driving range remains completely unaffected by extreme sub-zero winter temperatures.
+- **Pamphlet Fact:** Cabin climate control heating draws direct battery current in electric vehicles, significantly diminishing available winter range.
 
 | Req 8e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -622,11 +622,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 8f: Electrically Dependent Vehicle Systems
+#### Req 8f: Electrical Subsystem Dependencies
 **Official Requirement 8f:** Explain what other vehicle systems are dependent on a reliable electrical system.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 8f Structured Technical Study & Explanation Matrix (Vehicle Systems Are Dependent)
-- **Common Myth:** When preparing Automotive Maintenance Requirement 8f (Req 8f Electrically Dependent Vehicle Systems), Scouts sometimes overlook the specific details needed to explain what other vehicle systems are dependent on a reliable electrical.
-- **Pamphlet Fact:** Counselor verification for Automotive Maintenance Requirement 8f requires concrete workbook evidence covering req 8f electrically dependent vehicle systems and a clear explanation of how to explain what other vehicle systems are dependent on a reliable electrical.
+- **Common Myth:** Engine ignition represents the only vehicle system dependent upon the battery and charging system.
+- **Pamphlet Fact:** Electric power steering racks and electronic anti-lock brake modulators fail when system voltage drops below ten volts.
 
 | Req 8f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -634,24 +634,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Drive Train and Transmission Systems
+### Req 9: Automotive Drivetrain and Transmission Systems
 **Official Requirement 9 (Parent Overview):** Drive Train. Do the following: (a) Diagram the drive train and explain the different parts. (b) Explain the difference between automatic and standard transmissions. (c) Explain the types of automatic transmission fluid. (d) Explain the types of lubricants used in a standard transmission, and in the differential and transfer case. (e) Explain the difference between front-wheel, rear-wheel, and four-wheel drive.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 9): Complete all Drive Train and Transmission Systems discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** When a car turns a sharp corner, the inside and outside drive wheels spin at the exact same speed.
-- **Pamphlet Fact:** The outside wheel must travel a longer arc than the inside wheel during a turn, so the differential allows the drive wheels to rotate at different speeds (p. 35).
+> **Guide to Safe Scouting Warning:** Never engage four-wheel-drive low range on dry pavement because drivetrain binding can snap axle shafts.
+- **Common Myth:** The engine connects directly to the vehicle drive wheels without intermediate gear reduction assemblies.
+- **Pamphlet Fact:** The drivetrain transfers rotational torque from the engine crankshaft through the transmission, driveshaft, and differential to the drive wheels.
 
 **Official Pamphlet Summary:**
-- Bicycle Gear Ratio Analogy: You may have seen this idea at work on a bicycle (p. 33).
-- Low-Gear Hill-Climbing Torque: If your chain is on a small chain ring in the front and a large sprocket in the back, it will help you climb a very steep hill (p. 33).
-- High-Gear Flat-Road Cruising: If it is on a large chain ring and a small sprocket, it will help you pedal along a flat road at high speed (p. 33).
-- A key difference between a car transmission and a bicycle gear set is that on a bicycle, you can use any chain ring with any sprocket (p. 33).
+- Drivetrain Architecture: Torque flows from engine flywheel through transmission, driveshafts, and differentials to driving wheels.
+- Transmission Diversity: Manual gearboxes use mechanical friction clutches while automatics employ hydraulic torque converters.
+- Hydraulic Fluid: Automatic transmission fluids lubricate planetary gearsets, cool clutches, and transmit hydraulic pressure.
+- Gearbox Lubrication: Heavy hypoid gear oils protect differential ring and pinion teeth from extreme shear.
 
-#### Req 9a: Drive Train Component Diagram
+#### Req 9a: Drivetrain Component Architecture
 **Official Requirement 9a:** Diagram the drive train and explain the different parts.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Organizer (Field Sketch & Diagram Canvas):** Req 9a Structured Technical Study & Explanation Matrix (Automotive Maintenance Train Principles)
-- **Common Myth:** Car transmissions move a single metal chain across sprockets just like a multi-speed bicycle.
-- **Pamphlet Fact:** Unlike a bicycle chain, the gears on a car transmission's input and output shafts remain meshed in dedicated pairs (p. 33).
+- **Common Myth:** Drive axles are solid rigid steel shafts that do not require flexible articulation joints.
+- **Pamphlet Fact:** Constant velocity joints allow front drive axles to transmit smooth rotational torque during sharp steering turns.
 
 ![Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.](/assets/pamphlet_images/automotive_maintenance_p031_img1.png)
 
@@ -669,11 +669,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9b: Automatic vs Manual Transmissions
+#### Req 9b: Transmission Mechanism Comparison
 **Official Requirement 9b:** Explain the difference between automatic and standard transmissions.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Organizer (2-Column Comparison Table):** Req 9b Technical Comparison Matrix (Automatic and Standard Transmissions)
-- **Common Myth:** Any brand of red automatic transmission fluid works interchangeably in all automatic and manual gearboxes.
-- **Pamphlet Fact:** Different transmissions require specific fluid formulations, and using the wrong automatic transmission fluid or gear oil can ruin clutches and synchronizers (p. 35).
+- **Common Myth:** Automatic and manual transmissions share identical internal mechanical gears, clutches, and operating fluids.
+- **Pamphlet Fact:** Manual transmissions use mechanical friction clutches, while automatic transmissions utilize hydraulic torque converters and planetary gears.
 
 | Comparison Dimension | Low-Gear High-Torque Hill Climbing | High-Gear Efficient Highway Cruising |
 | :--- | :--- | :--- |
@@ -681,11 +681,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9c: Automatic Transmission Fluid Types
+#### Req 9c: Automatic Transmission Fluid Specifications
 **Official Requirement 9c:** Explain the types of automatic transmission fluid.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (Automatic Transmission Fluid)
-- **Common Myth:** Front-wheel-drive vehicles send engine power through a long drive shaft to a rear axle differential.
-- **Pamphlet Fact:** Front-wheel-drive cars combine the transmission and differential into a single front transaxle that drives the front wheels directly (p. 35).
+- **Common Myth:** All automatic transmission fluids are completely interchangeable across all vehicle makes and model years.
+- **Pamphlet Fact:** Using incorrect automatic transmission fluid types can cause internal clutch slippage, shudder, and transmission failure.
 
 | Req 9c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -693,11 +693,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9d: Manual Gear and Differential Lubricants
+#### Req 9d: Gearbox and Differential Lubricants
 **Official Requirement 9d:** Explain the types of lubricants used in a standard transmission, and in the differential and transfer case.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix (Lubricants Used in A Standard)
-- **Common Myth:** During Automotive Maintenance Requirement 9d, Scouts can underestimate how directly mastery of manual gear and differential lubricants depends on understanding the types of lubricants used in a standard transmission, and in the differential and transfer case.
-- **Pamphlet Fact:** Scouting America standards for Automotive Maintenance Requirement 9d require complete workbook entries on manual gear and differential lubricants to demonstrate full understanding of the types of lubricants used in a standard transmission, and in the differential and transfer case.
+- **Common Myth:** Engine motor oil provides sufficient lubrication protection for heavy differential and manual transmission gears.
+- **Pamphlet Fact:** Hypoid gear oils contain extreme-pressure sulfur-phosphorus additives designed to withstand intense sliding tooth contact.
 
 | Req 9d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -705,11 +705,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9e: Front, Rear, and Four-Wheel Drive
+#### Req 9e: Drive Wheel Configuration Comparisons
 **Official Requirement 9e:** Explain the difference between front-wheel, rear-wheel, and four-wheel drive.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Organizer (2-Column Comparison Table):** Req 9e Technical Comparison Matrix (Front-wheel Rear-wheel and Four-wheel)
-- **Common Myth:** Overlooking the specific field checks required for Front, Rear, and Four-Wheel Drive (Req 9e) or confusing Front, Rear, and Four-Wheel Drive with general Drive Train and Transmission Systems procedures.
-- **Pamphlet Fact:** For Requirement 9e (Front, Rear, and Four-Wheel Drive), The Automotive Maintenance pamphlet for Requirement 9e details the difference between front-wheel, rear-wheel, and four-wheel drive, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33).
+- **Common Myth:** All-wheel drive and four-wheel drive represent identical mechanical systems operating under identical driveline rules.
+- **Pamphlet Fact:** Part-time four-wheel drive locks front and rear propeller shafts, requiring tire slip on loose surfaces.
 
 | Comparison Dimension | Low-Gear High-Torque Hill Climbing | High-Gear Efficient Highway Cruising |
 | :--- | :--- | :--- |
@@ -717,24 +717,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 10: Disc, Drum, and Antilock Brakes
+### Req 10: Automotive Braking System Operation
 **Official Requirement 10 (Parent Overview):** Brake System. Do the following: (a) Explain the brake system (including antilock systems) and how it operates. (b) Explain the differences between disc and drum brake systems. (c) Demonstrate how to check the condition of a vehicle's brake system. After checking, make recommendations for repairs (if necessary).
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 10): Complete all Disc, Drum, and Antilock Brakes discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** When stopping quickly with antilock brakes (ABS), you should rapidly pump the brake pedal up and down.
-- **Pamphlet Fact:** With antilock brakes, you should maintain firm, continuous pressure on the brake pedal while the ABS computer pulses the brakes automatically to prevent wheel lockup (p. 76).
+> **Guide to Safe Scouting Warning:** Never blow brake dust with compressed air because older friction linings may contain harmful asbestos fibers.
+- **Common Myth:** Stepping on the brake pedal pushes mechanical steel cables directly against modern passenger vehicle wheels.
+- **Pamphlet Fact:** Hydraulic brake systems multiply pedal force through incompressible brake fluid to clamp friction pads against spinning rotors.
 
 **Official Pamphlet Summary:**
-- Owner's Manual Light Controls: Check the owner'smanual to learn how to turn on the lights for your particular vehicle (p. 46).
-- Burned-Out Bulb Replacement: Light bulbs in a car burn out just like the ones at home, and you must replace them (p. 46).
-- Routine Exterior Light Inspections: You should check all the lights on your vehicle from time to time to make sure they work properly (p. 46).
-- Headlight and Taillight Activation: Turn on the headlights, which will simultaneously light the instrument lights and taillights (p. 46).
+- Incompressible brake fluid transmits master cylinder hydraulic pressure instantaneously to caliper pistons.
+- Antilock brake modulators rapidly pulse hydraulic pressure to prevent wheel lockup during stops.
+- Friction Design: Disc brakes clamp spinning flat rotors while drum brakes expand shoes outward inside drums.
+- Lining Inspection: Measure brake friction pad thickness against factory minimum discard limits using thickness gauges.
 
-#### Req 10a: Hydraulic and Antilock Brake Operation
+#### Req 10a: Hydraulic and Antilock Brake Principles
 **Official Requirement 10a:** Explain the brake system (including antilock systems) and how it operates.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76)* • **Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix (Brake System Including Antilock Systems)
-- **Common Myth:** Disc brakes stop a vehicle by pressing curved shoes outward against the inside of a hollow iron drum.
-- **Pamphlet Fact:** Drum brakes press shoes outward against a drum, whereas disc brakes use a hydraulic caliper to squeeze friction pads against a spinning flat rotor (p. 76).
+- **Common Myth:** Pumping the brake pedal rapidly stops a vehicle faster than modern automated antilock brake modulators.
+- **Pamphlet Fact:** Pascal law governs hydraulic braking, allowing small master cylinder pistons to actuate larger caliper pistons with high force.
 
 ![A cross-section diagram explains how air and vaporized fuel mix in a carburetor and intake valve.](/assets/pamphlet_images/automotive_maintenance_p049_img2.png)
 
@@ -744,11 +744,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 10b: Disc vs Drum Brake Systems
+#### Req 10b: Disc and Drum Brake Comparison
 **Official Requirement 10b:** Explain the differences between disc and drum brake systems.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76)* • **Organizer (2-Column Comparison Table):** Req 10b Technical Comparison Matrix (Disc and Drum Brake Systems)
-- **Common Myth:** A high-pitched metallic squeal when braking just means the rotors are cold and can be ignored.
-- **Pamphlet Fact:** Brake pads include metal wear indicators designed to make a high-pitched squealing sound when the friction material wears thin and needs replacement (p. 76).
+- **Common Myth:** Drum brakes provide superior heat dissipation and wet stopping capability compared to disc brake assemblies.
+- **Pamphlet Fact:** Disc brakes dissipate extreme friction heat faster than enclosed drums, resisting brake fade during repetitive stops.
 
 | Comparison Dimension | Caliper and Rotor Disc Brakes | Wheel Cylinder and Shoe Drum Brakes |
 | :--- | :--- | :--- |
@@ -756,11 +756,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 10c: Brake Inspection and Repair Recommendations
+#### Req 10c: Brake System Condition Inspection
 **Official Requirement 10c:** Demonstrate how to check the condition of a vehicle's brake system. After checking, make recommendations for repairs (if necessary)
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76)* • **Organizer (Skill Demonstration Checklist):** Req 10c Hands-On Skill Station & EDGE Verification Checklist (Condition of A Vehicle's Brake)
-- **Common Myth:** You can check whether your rear brake lights work by turning on the headlights and walking behind the car alone.
-- **Pamphlet Fact:** Turning on the headlights only illuminates the taillights, so you should have a helper step on the brake pedal while you verify the brighter brake lights (p. 46).
+- **Common Myth:** Brake friction pads only require replacement after loud metal-on-metal grinding noises begin during stops.
+- **Pamphlet Fact:** Brake pads worn below three thirty-seconds of an inch risk metal backing plates gouging expensive rotors.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -769,24 +769,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 11: Hands-On Service and Vehicle Ownership
+### Req 11: Practical Automotive Maintenance Operations
 **Official Requirement 11 (Parent Overview):** Do TWO of the following: (a) Determine the value of three different vehicles you are interested in purchasing. One must be new and one must be used; the third vehicle can be new or used. For each vehicle, find out the requirements and cost of automobile insurance to include basic liability and options for collision, comprehensive, towing, and rental car. Using the three vehicles you chose and with your counselor's assistance, complete the operation/maintenance chart provided in the Automotive Maintenance merit badge pamphlet. Use this information to determine the operating cost per mile for each vehicle, and discuss what you learn with your counselor. (b) Choose a car cleaner and wax product for a vehicle you want to clean. Explain clear-coat paint and the precautions necessary for care. Clean the vehicle, both inside and out, and wax the exterior. Use a vinyl and rubber protectant (on vinyl tops, rubber door seals, sidewalls, etc.) and explain the importance of this protectant. (c) Locate the manufacturer's jack. Use the jack to demonstrate how to engage the jack correctly on the vehicle, then change a tire correctly. (d) Perform an oil filter and oil change on a vehicle. Explain how to properly dispose of the used oil and filter.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 11): Complete all Hands-On Service and Vehicle Ownership discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** It is safe to crawl underneath a car to change the oil while it is supported only by the manufacturer's tire-changing jack.
-- **Pamphlet Fact:** A manufacturer's jack is only for changing a wheel from the side; you must never get under a vehicle unless it is supported by rated jack stands (p. 95).
+> **Guide to Safe Scouting Warning:** Always loosen wheel lug nuts slightly while the tire rests on the ground before raising the vehicle.
+- **Common Myth:** Automotive detailing products can be applied with household dish soap without damaging clear coat finishes.
+- **Pamphlet Fact:** Practical automotive maintenance skills require correct hand tool selection, vehicle lifting safety, and certified fluid disposal.
 
 **Official Pamphlet Summary:**
-- Repair Estimator Cost Assessments: Duties may overlap, especially in a small shop. Estimators inspect a vehicle to determine the time, materials required, and cost to make a repair (p. 58).
-- Large service organizations like dealerships employ a variety of other people (p. 58).
-- Automotive service is exciting, challenging, and important work (p. 58).
-- Varied Daily Repair Challenges: No two days, and no two vehicles (p. 58).
+- Valuation Analysis: Consult automotive pricing guides to compare depreciation, insurance expenses, and maintenance overhead.
+- Paint Preservation: Wash clear-coat finishes with balanced automotive soaps to avoid stripping protective wax layers.
+- Lifting Protocols: Position emergency jacks strictly beneath reinforced factory pinch welds to prevent structural collapse.
+- Oil Service: Replace drain plug crush washers and lubricate new oil filter rubber gaskets before installation.
 
-#### Req 11a: Vehicle Pricing and Insurance Costs
+#### Req 11a: Vehicle Valuation and Purchase Analysis
 **Official Requirement 11a:** Determine the value of three different vehicles you are interested in purchasing. One must be new and one must be used; the third vehicle can be new or used. For each vehicle, find out the requirements and cost of automobile insurance to include basic liability and options for collision, comprehensive, towing, and rental car. Using the three vehicles you chose and with your counselor's assistance, complete the operation/maintenance chart provided in the Automotive Maintenance merit badge pamphlet. Use this information to determine the operating cost per mile for each vehicle, and discuss what you learn with your counselor.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix (Value of Three Different Vehicles)
-- **Common Myth:** When changing a flat tire, you should jack the wheel completely off the ground before loosening the tight lug nuts.
-- **Pamphlet Fact:** You must break the lug nuts loose a half-turn while the tire is still firmly on the ground so the wheel does not spin when you turn the wrench (p. 95).
+- **Common Myth:** The purchase sticker price represents the total comprehensive expenditure required to own and operate a car.
+- **Pamphlet Fact:** Vehicle valuation models calculate depreciation, collision insurance brackets, financing interest, and anticipated maintenance repairs.
 
 ![A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition.](/assets/pamphlet_images/automotive_maintenance_p057_img1.png)
 
@@ -800,11 +800,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11b: Car Washing and Clear-Coat Waxing
+#### Req 11b: Exterior Clear Coat Surface Detailing
 **Official Requirement 11b:** Choose a car cleaner and wax product for a vehicle you want to clean. Explain clear-coat paint and the precautions necessary for care. Clean the vehicle, both inside and out, and wax the exterior. Use a vinyl and rubber protectant (on vinyl tops, rubber door seals, sidewalls, etc.) and explain the importance of this protectant.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Car Cleaner and Wax Product)
-- **Common Myth:** Household dish soap and abrasive scouring pads are ideal for washing a car with a clear-coat finish.
-- **Pamphlet Fact:** Dish soap strips protective wax and abrasive pads scratch the transparent clear-coat layer, so you should use dedicated car wash soap and soft mitts (p. 95).
+- **Common Myth:** Scrubbing vehicle paint with household abrasive cleansers removes stubborn road tar without scratching clear coat.
+- **Pamphlet Fact:** Household dishwashing liquid strips protective wax barriers and leaches plasticizers out of automotive exterior paint.
 
 | Req 11b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -815,11 +815,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11c: Jacking Safety and Wheel Removal
+#### Req 11c: Emergency Jack and Tire Replacement
 **Official Requirement 11c:** Locate the manufacturer's jack. Use the jack to demonstrate how to engage the jack correctly on the vehicle, then change a tire correctly.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Organizer (Skill Demonstration Checklist):** Req 11c Hands-On Skill Station & EDGE Verification Checklist (Manufacturer's Jack Use The Jack)
-- **Common Myth:** When installing a new spin-on oil filter, you should put it on dry and tighten it as hard as possible with a long pipe wrench.
-- **Pamphlet Fact:** You should coat the new oil filter's rubber gasket with a thin film of clean oil and tighten it according to the filter instructions so it seals without crushing (p. 95).
+- **Common Myth:** Lug nuts should be tightened in sequential clockwise order around the wheel perimeter during installation.
+- **Pamphlet Fact:** Vehicle lug nuts must be torqued in a crisscross star pattern to prevent warping the brake rotor.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -828,11 +828,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11d: Engine Oil and Filter Change
+#### Req 11d: Engine Oil and Filter Replacement
 **Official Requirement 11d:** Perform an oil filter and oil change on a vehicle. Explain how to properly dispose of the used oil and filter.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix (Oil Filter and Oil Change)
-- **Common Myth:** During Automotive Maintenance Requirement 11d, Scouts can underestimate how directly mastery of engine oil and filter change depends on understanding perform an oil filter and oil change on a vehicle.
-- **Pamphlet Fact:** Scouting America standards for Automotive Maintenance Requirement 11d require complete workbook entries on engine oil and filter change to demonstrate full understanding of perform an oil filter and oil change on a vehicle.
+- **Common Myth:** Used motor oil can be poured into backyard soil or storm drains without causing contamination.
+- **Pamphlet Fact:** Automotive parts retailers accept spent engine oil and saturated oil filters for certified environmental recycling.
 
 | Req 11d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -841,12 +841,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 12: Careers in the Automotive Industry
+### Req 12: Automotive Industry Professional Career Pathways
 **Official Requirement 12:** Find out about three career opportunities in the automotive industry. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this profession might interest you.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 94, p. 95)* • **Organizer (Career & Profession Exploration Card):** Req 12 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 12): Complete all Careers in the Automotive Industry discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Knowing how to turn wrenches and use basic hand tools is all that is required to work as a modern automotive technician.
-- **Pamphlet Fact:** Modern automotive technicians must combine mechanical tool skills with computerized diagnostic training for engine control units and onboard electronics (p. 94).
+> **Guide to Safe Scouting Warning:** High voltage electric vehicle technicians must obtain specialized safety certifications and use insulated tools rated for one thousand volts.
+- **Common Myth:** Automotive technicians perform only repetitive manual labor without needing computer networking and electronics training.
+- **Pamphlet Fact:** Modern automotive careers encompass certified diagnostic master technicians, mechanical powertrain engineers, and collision restoration specialists.
 
 ![An assortment of automotive air and oil filters demonstrates periodic maintenance components.](/assets/pamphlet_images/automotive_maintenance_p093_img1.png)
 
@@ -857,9 +857,9 @@
 | **3. Discuss this with your counselor, and explain why this profession might interest you.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- The automobile was once a simple piece of machinery (p. 94).
-- Today, itis a sophisticated mode of transportation (p. 94).
-- From Mechanics To Technicians: This change shows in what we call people who take care of cars (p. 94).
-- Beyond Basic Hand Tools: To work on today's vehicles, knowing how to use wrenches and hand tools is not near enough (p. 94).
+- Master Technician Pathway: Technicians earn ASE certifications in engine performance, electrical circuits, and braking systems.
+- Engineering Disciplines: Powertrain design engineers develop lightweight alloys, electric traction inverters, and battery management electronics.
+- Modern collision estimators utilize digital laser frame measurement tools and structural welding methods.
+- Apprenticeship Training: Trade academies and community colleges combine classroom electrical theory with hands-on shop internships.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`

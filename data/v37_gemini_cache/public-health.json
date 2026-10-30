@@ -1,0 +1,315 @@
+{
+  "requirements": [
+    {
+      "fact": "Public health targets population-level preventative programs, clean water infrastructure, disease surveillance, and sanitation codes.",
+      "misconception": "Public health is merely individual clinical doctor visits conducted inside a community clinic.",
+      "pamphlet_excerpts": [
+        "Community Protection: Organized population interventions prevent epidemic outbreaks before individual clinical treatment becomes necessary.",
+        "Bacterial Foodborne Risk: Ingesting undercooked ground beef or contaminated produce introduces pathogenic Escherichia coli toxins.",
+        "Clostridium Tetani Spores: Soil bacteria enter deep puncture wounds to produce neurotoxins causing muscle spasms.",
+        "Tick Borne Spirochetes: Blacklegged ticks transmit Borrelia burgdorferi bacteria during prolonged attachments exceeding thirty six hours."
+      ],
+      "pamphlet_summary": "Public health focuses on preventing disease and prolonging life across entire populations through organized community sanitation efforts. Infectious pathogens spread through distinct routes including contaminated food, vector bites, airborne droplets, and direct bodily contact.",
+      "req_id": "1",
+      "safety_callout": "Avoid direct contact with unfamiliar blood, bodily fluids, animal carcasses, or discarded medical sharps.",
+      "socratic_questions": [
+        "How does treating an entire population differ from treating one sick patient in an examination room?",
+        "Why does interrupting an insect vector lifecycle prevent outbreaks more effectively than treating individual infections?",
+        "What environmental factors allow waterborne bacteria to spread rapidly through an entire municipal watershed?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Map Transmission Pathways: Chart primary environmental reservoirs, intermediate animal vectors, and direct human exposure routes.",
+        "Step 2 - Classify Pathogen Biology: Separate bacterial, viral, toxin, and environmental agents using official medical reference manuals.",
+        "Step 3 - Contrast Individual Clinical Treatment: Compare personal medical therapy with broad community barrier interventions across populations.",
+        "Step 4 - Formulate Prevention Protocols: Establish specific sanitation barriers, food storage standards, and vector avoidance field measures."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Public health develops community regulations, water standards, and epidemiological tracking systems to prevent disease occurrence.",
+          "misconception": "Public health programs exist solely to provide free emergency medical care to uninsured individuals.",
+          "pamphlet_summary": "Public health encompasses organized scientific measures aimed at preventing disease, extending life expectancy, and promoting human health across society. These efforts rely on government sanitation, disease surveillance, immunization policies, and community education.",
+          "sub_id": "1a",
+          "topic_title": "Public Health System Science"
+        },
+        {
+          "fact": "Tetanus results from Clostridium tetani bacterial spores entering punctures from contaminated soil or animal feces.",
+          "misconception": "Tetanus infections develop spontaneously from rusty metal rather than bacterial spores living in soil.",
+          "pamphlet_summary": "Specific infectious illnesses spread through distinct vectors, airborne particles, or contact with contaminated materials. Identifying the exact pathogen transmission route allows public health officials to interrupt the chain of infection.",
+          "sub_id": "1b",
+          "topic_title": "Infectious Pathogen Transmission Routes"
+        },
+        {
+          "fact": "Clostridium botulinum toxins can be present without altering the visual appearance, odor, or taste of food.",
+          "misconception": "Home-canned low-acid vegetables can be made safe simply by smelling or looking at the jar contents.",
+          "pamphlet_summary": "Diseases such as influenza, hepatitis, botulism, and West Nile virus spread through respiratory droplets, contaminated consumables, or mosquito vectors. Prevention requires targeted food canning temperatures, sexual barrier methods, insect repellents, and annual vaccinations.",
+          "sub_id": "1c",
+          "topic_title": "Selected Communicable Disease Management"
+        },
+        {
+          "fact": "Many pathogens spread directly through airborne respiratory droplets, contaminated drinking water, or surface fomites.",
+          "misconception": "All infectious diseases require an animal or insect vector to move between hosts.",
+          "pamphlet_summary": "Communicable illnesses are categorized by their causative agents, including viral, bacterial, toxin-mediated, or environmental sources. Transmission occurs through physical vectors, environmental reservoirs, or direct contact, which dictates the necessary barrier protections.",
+          "sub_id": "1d",
+          "topic_title": "Pathogen Classification and Vector Control"
+        }
+      ],
+      "topic_title": "Disease Transmission and Prevention Fundamentals"
+    },
+    {
+      "fact": "Vaccines generate protective antibodies while avoiding life-threatening complications, permanent disability, and mortality.",
+      "misconception": "Natural infection is always safer for developing immunity than receiving a laboratory vaccine.",
+      "pamphlet_excerpts": [
+        "Immune Memory Activation: Vaccines introduce weakened antigens to teach lymphocytes how to neutralize future active infections.",
+        "Periodic Booster Shots: Tetanus and diphtheria toxoid boosters must be administered every ten calendar years.",
+        "Annual Viral Updates: Annual influenza immunizations adapt vaccine formulations against rapidly mutating seasonal respiratory strains.",
+        "Herd Immunity Barrier: High community vaccination percentages prevent contagious pathogens from reaching vulnerable unvaccinated individuals."
+      ],
+      "pamphlet_summary": "Immunization stimulates the human immune system to produce protective antibodies without causing the full clinical disease. Public health schedules mandate specific early childhood doses alongside periodic adult booster injections to sustain herd immunity.",
+      "req_id": "2",
+      "safety_callout": "Adhere to sterile hypodermic injection protocols and dispose of all used needles in rigid biohazard containers.",
+      "socratic_questions": [
+        "Why does a tetanus booster require renewal every ten years while some vaccines grant lifetime immunity?",
+        "How does high community vaccination coverage protect newborn infants who are too young for immunizations?",
+        "What happens to the chain of infection when a pathogen encounters a population with eighty percent immunity?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Review Vaccination Records: Examine official state immunization forms to track completed childhood antigen series.",
+        "Step 2 - Identify Periodic Boosters: Calculate expiration dates for tetanus toxoid boosters requiring administration every ten years.",
+        "Step 3 - Cross-Reference Unvaccinated Pathogens: Check diseases lacking approved commercial vaccines to establish non-pharmacological sanitary barrier protocols.",
+        "Step 4 - Calculate Community Coverage: Determine the required threshold percentage necessary to establish effective local herd immunity."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Vaccines utilize killed pathogens, weakened antigens, or messenger RNA fragments incapable of causing active systemic disease.",
+          "misconception": "Vaccines cause the exact active illness that they are engineered to prevent in healthy recipients.",
+          "pamphlet_summary": "Immunization introduces dead or attenuated antigens into the bloodstream to trigger an adaptive antibody response without illness. When real pathogens invade later, memory cells recognize the antigens and destroy them before infection takes hold.",
+          "sub_id": "2a",
+          "topic_title": "Biological Mechanisms of Immunization"
+        },
+        {
+          "fact": "Antibody titers for certain diseases such as tetanus diminish over time, requiring boosters every ten years.",
+          "misconception": "Childhood vaccinations provide permanent, lifelong protection against every communicable disease without ever needing boosters.",
+          "pamphlet_summary": "Young children require immunizations against eight standard illnesses including polio, measles, mumps, rubella, pertussis, diphtheria, tetanus, and hepatitis B. Adults require periodic tetanus and diphtheria toxoid boosters every decade, alongside an annual influenza vaccine.",
+          "sub_id": "2b",
+          "topic_title": "Childhood and Adult Vaccine Schedules"
+        },
+        {
+          "fact": "Several significant pathogens lack commercial vaccines, necessitating strict vector avoidance, food sanitation, and barrier precautions.",
+          "misconception": "Every major infectious bacterial or viral disease has an approved vaccine available at local clinics.",
+          "pamphlet_summary": "Certain pathogens like the bacteria causing syphilis, gonorrhea, and Lyme disease, or the human immunodeficiency virus, currently lack widely approved preventive vaccines. Public health must rely on barrier devices, vector control, clean blood supplies, and behavioral measures.",
+          "sub_id": "2c",
+          "topic_title": "Non-Vaccine Preventable Pathogen Challenges"
+        }
+      ],
+      "topic_title": "Immunization Science and Vaccine Schedules"
+    },
+    {
+      "fact": "Clear wilderness streams frequently harbor microscopic Giardia cysts and bacterial pathogens shed by wild animals.",
+      "misconception": "Crystal clear mountain stream water is naturally pure and completely safe to drink untreated.",
+      "pamphlet_excerpts": [
+        "Vigorous Thermal Disinfection: Rolling boils maintained for one continuous full minute kill vegetative waterborne microbial pathogens.",
+        "Halogen Chemical Treatment: Chlorine or iodine tablets require specific contact dwell times to destroy waterborne microbes.",
+        "Submicron Pore Filtration: Ceramic or hollow-fiber membranes physically trap encysted protozoans including Cryptosporidium and Giardia.",
+        "Three-Pot Sanitation Array: Camp dishwashing demands wash, clear rinse, and warm chemical sanitizing immersion stations."
+      ],
+      "pamphlet_summary": "Untreated water carries pathogenic bacteria, viruses, and intestinal parasites such as Giardia. Field sanitation requires reliable physical filtration, vigorous boiling, or chemical disinfection, paired with strict three-pot kitchen dishwashing methods.",
+      "req_id": "3",
+      "safety_callout": "Allow boiled water to cool before handling, and store chemical purification tablets in child-resistant moisture-proof containers.",
+      "socratic_questions": [
+        "Why does chemical chlorine disinfection require much longer contact time in cold snowmelt water?",
+        "What failure in the camp kitchen dishwashing line causes gastrointestinal outbreaks among patrol members?",
+        "Why does a 0.2 micron membrane filter remove bacteria but fail to remove dissolved chemical toxins?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Clarify Turbid Raw Water: Filter cloudy raw surface water through cloth to eliminate suspended mineral particulates.",
+        "Step 2 - Apply Thermal Disinfection: Heat clarified water until vigorous bubbling persists for one full continuous minute.",
+        "Step 3 - Dose Chemical Sanitizers: Add sodium dichloroisocyanurate or iodine tablets following exact manufacturer contact time tables.",
+        "Step 4 - Wash Camp Utensils: Scrub dishes in hot soapy water, rinse cleanly, and soak in sanitizer."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Safe Drinking Water Sanitation Methods"
+    },
+    {
+      "fact": "Repellents disrupt the olfactory receptors of insects to deter landing and biting without killing the insect.",
+      "misconception": "Insect repellents like DEET kill mosquitoes immediately upon coming into contact with treated skin.",
+      "pamphlet_excerpts": [
+        "Biological Vector Function: Female Anopheles and Culex mosquitoes transmit viral and parasitic pathogens through salivary secretions.",
+        "Mechanical Vector Transmission: Common houseflies transport enteric bacteria on hairy leg setae directly onto exposed foodstuffs.",
+        "Larval Habitat Abatement: Emptying residential stagnant water containers halts mosquito development cycles before adult emergence.",
+        "Rodent Harborage Denial: Sealing exterior foundation cracks prevents mice and rats from nesting near food supplies."
+      ],
+      "pamphlet_summary": "A disease vector is an organism, typically an arthropod or rodent, that transfers infectious pathogens from an infected host to a susceptible individual. Controlling vector populations requires eliminating standing water breeding sites, sealing structural building gaps, and maintaining sanitary food storage.",
+      "req_id": "4",
+      "safety_callout": "Wear rubber gloves and a particulate respirator when sweeping areas contaminated with rodent droppings to avoid hantavirus.",
+      "socratic_questions": [
+        "Why can a homeowner control tick breeding in their yard while mosquito control requires municipal aircraft spraying?",
+        "What specific diseases do rodents transmit indirectly through ectoparasites like fleas versus direct urine contamination?",
+        "How does municipal storm drain design influence urban vector populations during prolonged summer droughts?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Survey Vector Habitats: Inspect perimeter ditches, clogged gutters, and tire piles for standing stagnant water.",
+        "Step 2 - Eliminate Breeding Reservoirs: Tip outdoor water receptacles and apply larvicidal Bacillus thuringiensis to persistent ponds.",
+        "Step 3 - Seal Structural Entryways: Install fine window mesh screens and pack wire wool into wall penetrations.",
+        "Step 4 - Deploy Food Enclosures: Store campsite rations in airtight rodent-resistant canisters away from canvas sleeping tents."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Vector Identification and Pest Management"
+    },
+    {
+      "fact": "Effluent is sanitized to eliminate pathogens and reduce biochemical oxygen demand, but retains dissolved environmental minerals.",
+      "misconception": "Treated wastewater discharged from municipal plants into local rivers is completely sterile distilled water.",
+      "pamphlet_excerpts": [
+        "Wastewater Primary Settling: Heavy organic solids settle into sludge hoppers through mechanical gravity clarification tanks.",
+        "Secondary Biological Digestion: Aerobic microorganisms consume dissolved organic waste compounds inside oxygenated wastewater aeration basins.",
+        "Temperature Danger Zone: Perishable foods kept between forty and one hundred forty degrees incubate bacteria.",
+        "Cross Contamination Barrier: Dedicated cutting boards keep raw poultry pathogens separated from ready-to-eat salad produce."
+      ],
+      "pamphlet_summary": "Public sanitation safeguards communities through wastewater processing plants, landfill containment, and commercial food service regulation. These facilities separate raw human waste, neutralize biological hazards, and maintain the food cold chain to stop foodborne illness outbreaks.",
+      "req_id": "5",
+      "safety_callout": "Wear high-visibility vests and stay behind pedestrian railings to avoid biohazard splashing near open sewage aeration basins.",
+      "socratic_questions": [
+        "What ecological disaster occurs in downstream rivers when untreated municipal sewage bypasses treatment during storms?",
+        "Why must commercial food handlers wash hands between preparing raw hamburger patties and assembling cold sandwiches?",
+        "How do sanitary landfill clay liners and leachate collection pipes protect local municipal groundwater reservoirs?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Obtain Facility Permissions: Coordinate site visit permissions with plant managers, certified health inspectors, and guardians.",
+        "Step 2 - Trace Waste Processing: Follow effluent movement from bar screens through settling tanks to final disinfection.",
+        "Step 3 - Audit Kitchen Temperatures: Check walk-in refrigeration units with calibrated probe thermometers to ensure safe storage.",
+        "Step 4 - Review Sanitation Logs: Examine chemical dish machine concentration logs and handwashing station employee hygiene practices."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Engineered landfills seal compacted refuse inside synthetic liners and clay layers, capturing hazardous leachate and methane gas.",
+          "misconception": "Sanitary landfills are simply open trash dumps where garbage decomposes quickly under open air.",
+          "pamphlet_summary": "Municipal wastewater plants utilize mechanical screening, gravity sedimentation, biological aeration digestion, and chemical or ultraviolet disinfection to treat domestic sewage. Solid waste operations compact refuse into engineered landfill cells sealed with impermeable liners to protect groundwater.",
+          "sub_id": "5a",
+          "topic_title": "Municipal Wastewater Treatment Operations"
+        },
+        {
+          "fact": "Freezing halts bacterial reproduction and puts microbes into dormancy, but pathogens revive rapidly once meat thaws.",
+          "misconception": "Freezing meat at zero degrees Fahrenheit kills all underlying Salmonella and Campylobacter bacterial pathogens.",
+          "pamphlet_summary": "Food service establishments prevent foodborne illness by controlling food temperatures, sanitizing cooking utensils, and enforcing worker personal hygiene. Food safety codes mandate keeping hazardous foods below forty degrees or above one hundred forty degrees Fahrenheit.",
+          "sub_id": "5b",
+          "topic_title": "Commercial Food Service Sanitation Standards"
+        }
+      ],
+      "topic_title": "Sanitation and Food Facility Inspections"
+    },
+    {
+      "fact": "Vaping aerosol contains aerosolized nicotine, heavy metals, volatile organic compounds, and ultra-fine chemical particles.",
+      "misconception": "Electronic cigarettes and vapes emit harmless water vapor that poses no health danger to lungs.",
+      "pamphlet_excerpts": [
+        "Particulate Lung Damage: Airborne fine particulates below two point five microns penetrate deep pulmonary alveoli.",
+        "Acoustic Hearing Destruction: Continuous occupational noise exceeding eighty-five decibels permanently destroys delicate cochlear hair cells.",
+        "Carcinogenic Combustion Toxins: Inhaling burning tobacco smoke deposits tar and mutagenic benzopyrenes inside bronchial tissues.",
+        "Synthetic Opioid Depression: Fentanyl and heroin suppress autonomic brainstem respiratory centers, inducing fatal hypoxic arrest."
+      ],
+      "pamphlet_summary": "Environmental pollution and chemical substance abuse cause chronic organ damage, respiratory disease, and systemic societal harm. Understanding how pollutants, tobacco, alcohol, and unregulated drugs destroy physiological systems enables communities to establish protective regulations.",
+      "req_id": "6",
+      "safety_callout": "Never consume prescription medications prescribed to another person, and never touch unknown powders or pills.",
+      "socratic_questions": [
+        "How does secondary secondhand tobacco smoke endanger children who never smoked a cigarette themselves?",
+        "At what decibel threshold does continuous exposure to headphone volume cause permanent sensory hearing loss?",
+        "Why does mixing central nervous system depressants like alcohol and prescription sedatives cause fatal respiratory failure?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Measure Environmental Exposure: Quantify local air particulate counts, drinking water nitrates, and decibel sound levels.",
+        "Step 2 - Map Tobacco Pathology: Diagram cellular bronchial transformations leading from chronic bronchitis to malignant lung tumors.",
+        "Step 3 - Analyze Ethanol Toxicity: Chart hepatic tissue scarring, neurological impairment, and motor coordination degradation during intoxication.",
+        "Step 4 - Evaluate Prescription Misuse: Contrast legitimate supervised clinical opioid therapy with unmonitored recreational dependency and addiction."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Prolonged exposure to intense sound vibrations permanently shears and destroys non-regenerating microscopic cochlear hair cells.",
+          "misconception": "Noise pollution only causes temporary ringing in the ears without creating permanent physical physiological damage.",
+          "pamphlet_summary": "Air pollution containing ozone and particulates aggravates asthma and causes cardiovascular illness. Chemical water contaminants cause gastrointestinal distress, while chronic acoustic noise above eighty-five decibels causes irreversible sensory neural hearing damage.",
+          "sub_id": "6a",
+          "topic_title": "Air Water and Noise Pollution"
+        },
+        {
+          "fact": "Alcohol is a pharmacological central nervous system depressant that suppresses cerebral cortical inhibitory controls.",
+          "misconception": "Alcohol is a stimulant beverage because it frequently causes people to become loud and animated.",
+          "pamphlet_summary": "Tobacco smoke delivers carcinogenic tars, toxic carbon monoxide, and addictive nicotine into pulmonary and cardiovascular structures. Chronic alcohol abuse damages liver hepatocytes, degrades central nervous system functioning, and increases traumatic injury rates across communities.",
+          "sub_id": "6b",
+          "topic_title": "Tobacco and Alcohol Health Impacts"
+        },
+        {
+          "fact": "Prescription analgesics and stimulants carry high risks of severe physical dependency, respiratory arrest, and overdose.",
+          "misconception": "Medications prescribed by licensed medical doctors are completely non-addictive and harmless when taken without prescription.",
+          "pamphlet_summary": "Abusing prescription opioids, tranquilizers, or illicit street drugs alters brain chemistry and generates severe physical dependency. Illicit drug contamination with synthetic opioids creates extreme risks of fatal respiratory failure and cardiovascular collapse.",
+          "sub_id": "6c",
+          "topic_title": "Prescription and Illicit Drug Risks"
+        }
+      ],
+      "topic_title": "Environmental Hazards and Substance Abuse"
+    },
+    {
+      "fact": "Public health agencies focus on community health education, disease surveillance, environmental inspection, and preventive regulations.",
+      "misconception": "Public health agencies focus exclusively on running hospitals and providing direct emergency ambulance services.",
+      "pamphlet_excerpts": [
+        "Epidemiological Surveillance Role: County health departments track communicable infection clusters to deploy rapid outbreak containment measures.",
+        "Vital Statistics Registries: State health agencies catalog certified birth and death certificates to calculate community mortality.",
+        "Chronic Disease Burden: Heart disease and malignant neoplasms represent the leading statistical causes of adult mortality.",
+        "Federal Guidance Leadership: The Centers for Disease Control and Prevention publishes national public health recommendations."
+      ],
+      "pamphlet_summary": "Public health departments monitor disease trends, enforce health codes, manage immunization registries, and respond to environmental health emergencies. Analyzing county and state mortality data reveals primary lifestyle, cardiac, and communicable causes of death within a population.",
+      "req_id": "7",
+      "safety_callout": "Protect personal identity information when accessing or discussing public vital health statistics and patient medical records.",
+      "socratic_questions": [
+        "Why does analyzing leading causes of mortality help a county health department allocate financial resources?",
+        "What factors cause cardiovascular disease mortality rates to vary significantly between rural and urban counties?",
+        "How do epidemiological disease surveillance networks identify foodborne outbreaks before hospital emergency rooms detect them?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Access Agency Database: Navigate the official municipal or state public health department epidemiological statistics portal.",
+        "Step 2 - Retrieve Mortality Records: Download recent county mortality tables listing the top causes of resident death.",
+        "Step 3 - Compare Leading Causes: Contrast local community heart disease and cancer rates against statewide statistical averages.",
+        "Step 4 - Formulate Preventive Recommendations: Identify targeted lifestyle and environmental health interventions to reduce leading mortality causes."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Local health departments dispatch sanitarians and epidemiologists directly into field environments to halt communicable outbreaks.",
+          "misconception": "County health departments only handle administrative paperwork rather than active field disease containment.",
+          "pamphlet_summary": "Local, state, and federal public health agencies manage vital statistics, inspect restaurants, track infectious outbreaks, and coordinate emergency health responses. Visiting an agency or exploring its official portal reveals how government sanitarians and epidemiologists protect public welfare.",
+          "sub_id": "7a",
+          "topic_title": "Government Public Health Agency Operations"
+        },
+        {
+          "fact": "Chronic non-communicable conditions including cardiovascular disease and malignant tumors cause the vast majority of deaths.",
+          "misconception": "Infectious diseases remain the number one leading cause of mortality in modern American communities.",
+          "pamphlet_summary": "Mortality statistics indicate the primary diseases causing death within a municipality, such as heart disease, cancer, accidents, and strokes. Comparing local county mortality figures against national data allows communities to address specific regional health risks.",
+          "sub_id": "7b",
+          "topic_title": "Community Mortality Rate Comparative Analysis"
+        }
+      ],
+      "topic_title": "Public Health Agencies and Mortality"
+    },
+    {
+      "fact": "Public health relies heavily on environmental scientists, epidemiologists, and educators holding specialized public health degrees.",
+      "misconception": "Working in public health always requires attending medical school and becoming a licensed physician.",
+      "pamphlet_excerpts": [
+        "Epidemiologist Field Investigations: Epidemiologists analyze infection patterns, calculate outbreak probabilities, and track disease transmission clusters.",
+        "Environmental Health Inspections: Environmental sanitarians inspect commercial food kitchens, wastewater plants, and public swimming pools.",
+        "Biostatistical Data Modeling: Biostatisticians utilize mathematical modeling to evaluate community healthcare program outcomes and trends.",
+        "Health Educator Outreach: Public health educators design community campaigns promoting vaccinations, proper nutrition, and sanitation."
+      ],
+      "pamphlet_summary": "Public health professions encompass epidemiologists, environmental health specialists, biostatisticians, and public health educators who protect community wellbeing. These careers typically require specialized university degrees, laboratory training, field internships, and official professional certifications.",
+      "req_id": "8",
+      "safety_callout": "Wear appropriate personal protective gear when shadowing environmental health sanitarians during hazardous facility inspections.",
+      "socratic_questions": [
+        "How does an epidemiologist's daily job responsibilities differ from a hospital physician's responsibilities?",
+        "Why are strong statistical and mathematical skills necessary for evaluating disease outbreaks across communities?",
+        "What role do environmental health specialists play in preventing foodborne illness outbreaks at restaurants?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Select Public Health Discipline: Choose a specific specialty such as epidemiology, environmental health, or biostatistics.",
+        "Step 2 - Research Educational Credentials: Identify required undergraduate biology coursework and Master of Public Health degree requirements.",
+        "Step 3 - Investigate Certification Standards: Review state registered sanitarian credentials or national public health board examination standards.",
+        "Step 4 - Conduct Counselor Interview: Present career educational paths, internship experiences, and daily job duties during discussion."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Public Health Professional Career Pathways"
+    }
+  ]
+}

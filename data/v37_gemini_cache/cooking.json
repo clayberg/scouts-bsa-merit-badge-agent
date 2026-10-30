@@ -1,0 +1,445 @@
+{
+  "requirements": [
+    {
+      "fact": "Harmful bacteria such as Salmonella and Campylobacter produce no odor, taste, or discoloration.",
+      "misconception": "Scouts think food that smells and tastes normal cannot cause foodborne illness.",
+      "pamphlet_excerpts": [
+        "Temperature Danger Zone: Perishable foods spoil rapidly between forty degrees and one hundred forty degrees Fahrenheit.",
+        "Sanitization Solution Ratio: Mix one tablespoon unscented chlorine bleach per gallon of clean warm water.",
+        "Cutting Board Isolation: Prepare raw poultry on nonporous boards separated completely from ready to eat vegetables.",
+        "Poultry Cooking Temperature: Cook all raw poultry until internal meat probes register one hundred sixty five degrees."
+      ],
+      "pamphlet_summary": "Food preparation requires strict sanitation standards to prevent pathogenic bacterial growth and physical injury in the kitchen. Handlers must sanitize prep stations with chlorine bleach solutions and keep perishable items outside the danger zone.",
+      "req_id": "1",
+      "safety_callout": "Store raw meats in sealed containers on the lowest cooler shelf to prevent drippings onto other foods.",
+      "socratic_questions": [
+        "Why does chilling leftovers within two hours prevent staphylococcal toxin production?",
+        "How do separate cutting boards prevent the transfer of Campylobacter to fresh salad greens?",
+        "What physiological symptoms indicate an acute anaphylactic reaction during a patrol meal?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Hand Cleansing: Wash hands vigorously using warm water and antibacterial soap for twenty seconds.",
+        "Step 2 - Station Sanitizing: Wipe food prep surfaces with dilute bleach solution using a clean cloth.",
+        "Step 3 - Temperature Verification: Check refrigerator thermometers to confirm internal storage temperatures stay below forty degrees.",
+        "Step 4 - Glove Disposal: Discard disposable nitrile gloves immediately after handling raw meats or poultry pieces."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Dull knives slip off food surfaces under excessive pressure and cause deep puncture wounds.",
+          "misconception": "Beginners believe dull knives are safer than sharp knives because dull edges cut less.",
+          "pamphlet_summary": "Camp kitchens contain burn, cut, and fire hazards that require preventative positioning and designated cooking zones. Establishing a clear perimeter keeps non-cooks away from hot pots and open flames.",
+          "sub_id": "1a",
+          "topic_title": "Kitchen Hazard Mitigation Plans"
+        },
+        {
+          "fact": "Grease traps heat inside skin tissue, so burns must be cooled with potable water.",
+          "misconception": "Scouts think grease burns should be coated with butter or oil to soothe pain.",
+          "pamphlet_summary": "Minor cooking injuries require immediate treatment to limit tissue damage and prevent infection. Cool minor thermal burns with cold running potable water rather than applying butter or ice.",
+          "sub_id": "1b",
+          "topic_title": "Cooking First Aid Procedures"
+        },
+        {
+          "fact": "Rinsing poultry splashes bacteria across sinks, countertops, and nearby utensils up to three feet away.",
+          "misconception": "Novices assume washing raw chicken under tap water removes surface bacterial contamination.",
+          "pamphlet_summary": "Perishable foods must remain packed in waterproof bags surrounded by crushed ice below forty degrees Fahrenheit. Raw animal proteins must never contact ready-to-eat vegetables, utensils, or unwashed hands.",
+          "sub_id": "1c",
+          "topic_title": "Cross Contamination Prevention Protocols"
+        },
+        {
+          "fact": "Trace proteins left on surfaces or cookware can trigger acute anaphylactic shock in sensitive individuals.",
+          "misconception": "Scouts assume removing nuts from a finished dish makes it safe for allergic diners.",
+          "pamphlet_summary": "Food intolerances cause digestive distress, whereas immune-mediated food allergies can trigger life-threatening anaphylaxis. Cook teams must know patrol member dietary restrictions before drafting ingredients and shopping lists.",
+          "sub_id": "1d",
+          "topic_title": "Foodborne Illness and Allergies"
+        },
+        {
+          "fact": "Food manufacturers alter ingredient formulations and manufacturing line procedures without obvious package redesigns.",
+          "misconception": "Beginners believe product brand loyalty guarantees an item remains free of new allergens.",
+          "pamphlet_summary": "Packaged ingredient labels must be examined for the major recognized food allergens listed by federal regulations. Cross-contact warnings such as shared equipment advisories indicate potential hidden allergen risks.",
+          "sub_id": "1e",
+          "topic_title": "Allergen Ingredient Label Analysis"
+        }
+      ],
+      "topic_title": "Kitchen Health and Safety Protocols"
+    },
+    {
+      "fact": "Nutrient-dense foods provide essential vitamins, minerals, and dietary fiber that empty-calorie foods lack.",
+      "misconception": "Scouts assume all calories provide identical nutritional value regardless of the food source.",
+      "pamphlet_excerpts": [
+        "Plate Proportion Balance: Fill half your plate with colorful fruits and vegetables at every meal.",
+        "Whole Grain Selection: Ensure at least half of your daily grain intake comes from whole grains.",
+        "Caloric Energy Balance: Daily energy expenditure from physical exertion must balance total calories consumed from foods.",
+        "Added Sugar Restraint: Keep added sugars below ten percent of your total daily caloric intake."
+      ],
+      "pamphlet_summary": "The USDA MyPlate model organizes balanced nutrition into vegetables, fruits, grains, protein foods, and dairy groups. Active individuals must match caloric intake to daily metabolic expenditure while minimizing empty sugars.",
+      "req_id": "2",
+      "safety_callout": "Extreme caloric restriction during strenuous wilderness expeditions causes cognitive impairment, hypothermia, and physical collapse.",
+      "socratic_questions": [
+        "How does balancing complex carbohydrates with lean protein stabilize physical stamina on treks?",
+        "Why does the body require unsaturated fats for fat-soluble vitamin absorption?",
+        "What physiological cues distinguish true nutritional hunger from simple dehydration during camp activities?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Food Group Logging: Record every food item eaten across all meals in a pocket notebook.",
+        "Step 2 - Activity Level Estimation: Calculate daily metabolic burn by rating physical exertion against established lifestyle activity charts.",
+        "Step 3 - Caloric Need Calculation: Determine total basal calories required using standard age, weight, and activity formulas.",
+        "Step 4 - Menu Adjustment: Modify daily meal portions until caloric intake matches calculated physical energy requirements."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Fried snack chips contain excess sodium and fats, excluding them from vegetable serving counts.",
+          "misconception": "Beginners assume potato chips count toward the vegetable group on MyPlate.",
+          "pamphlet_summary": "MyPlate establishes specific daily serving recommendations across fruits, vegetables, grains, protein, and dairy. Portion control aligns with individual age, sex, and daily physical exertion.",
+          "sub_id": "2a",
+          "topic_title": "MyPlate Food Group Servings"
+        },
+        {
+          "fact": "All pure culinary oils supply approximately one hundred twenty calories per liquid tablespoon.",
+          "misconception": "Scouts believe plant oils contain zero calories because they are derived from vegetables.",
+          "pamphlet_summary": "Excess saturated fats, trans fats, and refined sugars elevate cardiovascular disease and diabetes risks. Healthy unsaturated oils from plants and fish should replace solid animal fats.",
+          "sub_id": "2b",
+          "topic_title": "Oils and Added Sugars"
+        },
+        {
+          "fact": "Moderate hiking burns roughly three hundred to five hundred extra calories per hour.",
+          "misconception": "Scouts believe a one-hour hike requires doubling daily food intake immediately.",
+          "pamphlet_summary": "Tracking daily exertion over five days reveals baseline caloric requirements for various lifestyle conditions. Backpacking or sports significantly increase daily energy expenditure beyond sedentary levels.",
+          "sub_id": "2c",
+          "topic_title": "Caloric Expenditure Activity Tracking"
+        },
+        {
+          "fact": "Complex carbohydrates from whole grains supply the brain with essential glucose for cognitive function.",
+          "misconception": "Beginners think healthy eating requires eliminating all carbohydrate foods completely.",
+          "pamphlet_summary": "Reviewing personal meal logs against MyPlate standards reveals nutritional deficiencies or excess processed food consumption. Small adjustments toward whole fruits and lean proteins improve long-term vitality.",
+          "sub_id": "2d",
+          "topic_title": "Personal Dietary Habit Evaluation"
+        },
+        {
+          "fact": "Manufacturers frequently list two or three servings within a single portable package.",
+          "misconception": "Scouts think a single snack wrapper always equals one standard dietary serving.",
+          "pamphlet_summary": "Nutrition labels list serving sizes, caloric values, macronutrients, and daily value percentages. Calculating total calories requires multiplying calories per serving by servings per container.",
+          "sub_id": "2e",
+          "topic_title": "Nutrition Facts Panel Interpretation"
+        }
+      ],
+      "topic_title": "Patrol Nutrition and Dietary Guidelines"
+    },
+    {
+      "fact": "Excessive heat chars exterior surfaces while leaving the internal core raw or undercooked.",
+      "misconception": "Novices assume high heat cooks food faster without diminishing the final meal quality.",
+      "pamphlet_excerpts": [
+        "Baking Heat Distribution: Enclose baked items within Dutch ovens banked with charcoal on top and bottom.",
+        "Simmering Liquid Control: Maintain small bubbles gently breaking the surface below the active boiling point.",
+        "Camp Stove Efficiency: Pressurized fuel stoves boil water rapidly and leave no ground thermal scars.",
+        "Aroma and Appetite: Volatile food aromas stimulate digestive salivary enzymes and enhance perceived flavor complexity."
+      ],
+      "pamphlet_summary": "Mastering fundamental cooking methods allows patrols to prepare diverse ingredients using appropriate heat controls. Camp stoves provide instant flame modulation and eliminate the soot and fuel gathering of open fires.",
+      "req_id": "3",
+      "safety_callout": "Never operate liquid fuel or canister stoves inside tents or enclosed shelters due to carbon monoxide hazards.",
+      "socratic_questions": [
+        "How does adjusting charcoal briquette distribution control top versus bottom heat in Dutch ovens?",
+        "Why does boiling point temperature drop at higher elevations, and how does that affect cooking time?",
+        "How does combining contrasting food textures like crunchy and smooth improve dining satisfaction?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Stove Base Setup: Place the camp stove firmly on a level, stable, nonflammable ground surface.",
+        "Step 2 - Fuel Connection: Attach pressurized gas canisters firmly while checking rubber seals for leak odors.",
+        "Step 3 - Burner Ignition: Light the match first before turning the stove fuel control valve counterclockwise.",
+        "Step 4 - Heat Modulation: Adjust the control knob to produce a steady blue flame without soot."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Boiling occurs at two hundred twelve degrees Fahrenheit, whereas simmering remains between one hundred eighty-five and two hundred.",
+          "misconception": "Scouts believe boiling and simmering foods occur at the exact same liquid temperature.",
+          "pamphlet_summary": "Different culinary methods apply radiant, conductive, or convective heat transfer to transform raw foods into digestible meals. Maintaining proper cooking temperatures prevents burning while ensuring thorough internal pasteurization.",
+          "sub_id": "3a",
+          "topic_title": "Core Cooking Methods Overview"
+        },
+        {
+          "fact": "Camp stoves ignite instantly in rain and boil water in minutes without gathering damp kindling.",
+          "misconception": "Beginners assume wood fires are always more convenient than stoves for quick trail meals.",
+          "pamphlet_summary": "Camp stoves provide immediate heat control, operate in wet conditions, and leave no charred ground scars. Wood fires require extensive fuel gathering and produce fluctuating temperatures that char cookware.",
+          "sub_id": "3b",
+          "topic_title": "Camp Stove Comparative Advantages"
+        },
+        {
+          "fact": "Ingredients with short cooking times turn soggy or cold if started alongside long-simmering items.",
+          "misconception": "Scouts assume all recipe components can start cooking at the exact same moment.",
+          "pamphlet_summary": "Coordinating multi-course meals requires calculating backward from the target serving time based on recipe cook durations. Staggering preparation ensures hot items finish cooking simultaneously without cooling on prep tables.",
+          "sub_id": "3c",
+          "topic_title": "Meal Course Timing Coordination"
+        },
+        {
+          "fact": "Retronasal olfaction provides the vast majority of subtle flavor discrimination beyond basic tastes.",
+          "misconception": "Scouts think the human tongue alone determines all perceived food flavors.",
+          "pamphlet_summary": "Perception of food involves the integrated sensory processing of taste buds, olfactory receptors, and mouthfeel texture. Visual appearance and aromatic steam trigger anticipatory digestive saliva production.",
+          "sub_id": "3d",
+          "topic_title": "Sensory Impact on Eating"
+        }
+      ],
+      "topic_title": "Culinary Techniques and Camp Stoves"
+    },
+    {
+      "fact": "Preparing whole ingredients at home costs significantly less per serving than prepared retail meals.",
+      "misconception": "Beginners assume cooking at home is always more expensive than purchasing restaurant takeout.",
+      "pamphlet_excerpts": [
+        "Three Day Menu Planning: Plan distinct balanced menus covering three breakfasts, three lunches, and three dinners.",
+        "Grocery Budget Calculation: Compute total grocery expenditures and individual serving costs before purchasing ingredients at stores.",
+        "Technique Diversity Standard: Employ at least five distinct cooking techniques across the three prepared meals.",
+        "Post Meal Feedback Collection: Collect honest diner evaluations on food presentation, taste, and overall meal timing."
+      ],
+      "pamphlet_summary": "Home cooking builds nutritional independence through budgeting, recipe execution, and kitchen time management. Scouts execute balanced menus across multiple culinary techniques and evaluate family dining outcomes.",
+      "req_id": "4",
+      "safety_callout": "Turn pot handles inward toward the back of the stove to prevent accidental tip-overs and scalding.",
+      "socratic_questions": [
+        "How did calculating the price per serving change your ingredient selections at the grocery store?",
+        "What adjustments to burner heat were necessary to keep side dishes warm while entrees finished?",
+        "Which cooking method gave you the greatest challenge regarding temperature control and why?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Recipe Selection: Choose balanced recipes meeting MyPlate criteria and utilizing five distinct cooking methods.",
+        "Step 2 - Ingredient Inventory: Check household pantry shelves before listing remaining grocery items and calculating prices.",
+        "Step 3 - Timed Meal Execution: Follow a written timeline to prepare and cook all course components concurrently.",
+        "Step 4 - Family Dining Service: Plate hot food neatly and present the meal to your adult guest."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "The requirement specifies creating varied balanced menus covering three full distinct days of meals.",
+          "misconception": "Scouts think eating the exact same meal three days in a row satisfies planning requirements.",
+          "pamphlet_summary": "Developing home meal plans requires balancing daily macronutrients across nine distinct meals plus dessert. Incorporating variety prevents palate fatigue while providing comprehensive vitamins.",
+          "sub_id": "4a",
+          "topic_title": "Home Three Day Menus"
+        },
+        {
+          "fact": "Comparing price per ounce or pound reveals which package volume provides genuine cost savings.",
+          "misconception": "Scouts assume buying package sizes without checking unit price gives the cheapest grocery cost.",
+          "pamphlet_summary": "Recipes must be scaled to the number of diners, and shopping lists must reflect unit pricing. Calculating cost per meal teaches practical financial management and resource conservation.",
+          "sub_id": "4b",
+          "topic_title": "Recipe Budgeting and Shopping"
+        },
+        {
+          "fact": "Handbook guidelines require discussing meal plans and budgets with counselors prior to purchasing ingredients.",
+          "misconception": "Beginners believe the counselor review can happen after all meals are cooked and eaten.",
+          "pamphlet_summary": "Reviewing menus and shopping lists with the counselor verifies nutritional balance and realistic preparation logistics. Counselors check that planned recipes utilize required cooking techniques before meal execution.",
+          "sub_id": "4c",
+          "topic_title": "Counselor Meal Plan Review"
+        },
+        {
+          "fact": "Microwaving counts as only one method, requiring four other techniques such as baking or broiling.",
+          "misconception": "Scouts think using the microwave for all three meals satisfies method diversity requirements.",
+          "pamphlet_summary": "Scouts must prepare and serve one breakfast, one lunch, and one dinner using five different cooking methods. Meals must be shared with at least one adult family member or guardian.",
+          "sub_id": "4d",
+          "topic_title": "Five Method Cooking Execution"
+        },
+        {
+          "fact": "Professional kitchen pacing coordinates cook start times so all dishes peak at service.",
+          "misconception": "Scouts assume side dishes can sit cold while meats finish cooking in the oven.",
+          "pamphlet_summary": "Executing timed meals ensures all hot foods arrive at the table at optimal serving temperatures. An adult supervisor verifies proper culinary execution and kitchen safety directly to the counselor.",
+          "sub_id": "4e",
+          "topic_title": "Cooking Timeline and Verification"
+        },
+        {
+          "fact": "Culinary critique evaluates visual plate appeal, texture contrast, temperature appropriateness, and balanced seasoning.",
+          "misconception": "Beginners believe a meal is successful if food was merely edible without burning.",
+          "pamphlet_summary": "Gathering feedback from adult diners provides constructive insights into flavor balance, texture, and visual presentation. Self-reflection helps young cooks identify workflow bottlenecks and seasoning corrections.",
+          "sub_id": "4f",
+          "topic_title": "Meal Evaluation and Reflection"
+        }
+      ],
+      "topic_title": "Home Meal Planning and Preparation"
+    },
+    {
+      "fact": "Food scraps habituate wildlife to human camps and create severe rodent and bear problems.",
+      "misconception": "Scouts believe scraping plates into camp soil feeds wildlife harmlessly without consequence.",
+      "pamphlet_excerpts": [
+        "Patrol Menu Nutrition: Design outdoor group menus providing adequate calories for rigorous camp physical activities.",
+        "Dutch Oven Thermal Control: Regulate baking heat by placing twice as many coals on top lids.",
+        "Three Basin Sanitizing: Wash camp dishes in soapy water, rinse in clear, and sanitize hot.",
+        "Bear Resistant Food Cache: Hang patrol food bags twelve feet high and four feet from trunks."
+      ],
+      "pamphlet_summary": "Camp cooking requires organizing patrol gear, rationing perishables, and maintaining field sanitation away from home plumbing. Patrol cooks prepare balanced outdoor meals using portable stoves, Dutch ovens, and three-pot wash stations.",
+      "req_id": "5",
+      "safety_callout": "Never store food, wrappers, or cooking pots inside sleeping tents due to wildlife attraction.",
+      "socratic_questions": [
+        "How do you calculate charcoal counts to achieve three hundred fifty degrees in Dutch ovens?",
+        "Why must camp dishwater reach boiling sanitizing temperatures to prevent dysentery outbreaks?",
+        "What specific steps ensure perishable meats stay frozen in camp coolers over multiple days?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Kitchen Site Perimeter: Establish a ten foot safety perimeter separating cooking stoves from tent areas.",
+        "Step 2 - Three Pot Setup: Fill three basins with wash water, clear rinse water, and sanitizing rinse.",
+        "Step 3 - Skillet Meal Cooking: Cook patrol entrees over the camp stove using moderate heat and spatulas.",
+        "Step 4 - Greywater Disposal: Strain food particles from dishwater and scatter dispersed droplets far from camps."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Strenuous camp activities demand sustained energy from complex carbohydrates, vegetables, and lean protein.",
+          "misconception": "Scouts assume hot dogs and chips provide adequate nutrition for active weekend campouts.",
+          "pamphlet_summary": "Menu planning for a patrol of up to eight youth requires high-energy foods that travel well without spoiling. The menu must include four substantial meals, one nutritious snack, and one Dutch oven dessert.",
+          "sub_id": "5a",
+          "topic_title": "Patrol Camp Menu Formulation"
+        },
+        {
+          "fact": "Spices and liquids often need adjustments when scaling recipes up for eight hungry campers.",
+          "misconception": "Beginners believe multiplying a two-person recipe by four automatically yields correct seasoning levels.",
+          "pamphlet_summary": "Recipes must be mathematically scaled to match patrol headcounts, calculating ingredient bulk needs accurately. Group shopping budgets must divide expenses equitably among all participating patrol members.",
+          "sub_id": "5b",
+          "topic_title": "Camp Recipe Scaling Budget"
+        },
+        {
+          "fact": "Consulting the counselor prevents missing critical utensils, specialized cookware, or shelf-stable substitutions.",
+          "misconception": "Scouts think packing lists can be finalized without checking menu recipe ingredient requirements.",
+          "pamphlet_summary": "Reviewing camp menus with the counselor validates gear requirements, cooler packing plans, and safety preparations. The counselor verifies that planned recipes meet group nutritional guidelines and budget constraints.",
+          "sub_id": "5c",
+          "topic_title": "Camp Menu Counselor Consultation"
+        },
+        {
+          "fact": "Thin camping pans hot-spot quickly under high heat, burning food while center portions remain raw.",
+          "misconception": "Novices think cranking camp stove burners to maximum speed cooks patrol meals efficiently.",
+          "pamphlet_summary": "Cooking two patrol meals on camp stoves requires managing wind screens, burner valves, and heavy skillets. Cooks must maintain steady simmer temperatures to thoroughly cook ingredients without scorching pan bottoms.",
+          "sub_id": "5d",
+          "topic_title": "Outdoor Stove Meal Execution"
+        },
+        {
+          "fact": "Baking requires two-thirds of the charcoal on the lid to brown top crusts evenly.",
+          "misconception": "Scouts assume Dutch ovens cook evenly with coals placed only underneath the oven base.",
+          "pamphlet_summary": "Preparing field snacks and desserts teaches bakers how to manage charcoal heat on Dutch oven lids. Serving fresh baked cobbler or trail mix boosts patrol morale during long evenings.",
+          "sub_id": "5e",
+          "topic_title": "Camp Snack Dessert Preparation"
+        },
+        {
+          "fact": "Evaluating diner feedback teaches cooks how to adjust portions and seasoning for future outings.",
+          "misconception": "Scouts think cleanup completion means the cooking task is entirely finished without reflection.",
+          "pamphlet_summary": "Conducting an after-action meal review gives patrol members voice regarding food seasoning, quantity, and presentation. The cook analyzes what preparation steps caused delays and shares lessons with counselors.",
+          "sub_id": "5f",
+          "topic_title": "Patrol Meal Review Critique"
+        },
+        {
+          "fact": "Unwashed grease residues harbor dangerous enteric bacteria and attract bears to gear storage boxes.",
+          "misconception": "Beginners believe wiping plates with paper towels cleans them sufficiently for camp storage.",
+          "pamphlet_summary": "The three-pot dishwashing method uses hot soapy wash water, warm rinse water, and chemical or boiling sanitizer. Solid food scraps must be strained into trash bags, and greywater broadcast away from campsites.",
+          "sub_id": "5g",
+          "topic_title": "Camp Sanitation and Cleanup"
+        },
+        {
+          "fact": "Decomposition takes months or years in arid climates while attracting wildlife to campsites.",
+          "misconception": "Scouts believe biodegradable apple cores and orange peels can be tossed into bushes.",
+          "pamphlet_summary": "Outdoor cooking ethics demand protecting riparian zones, minimizing campfire impacts, and packing out all trash. Cooking on durable surfaces prevents long-term ground vegetation loss in established campsites.",
+          "sub_id": "5h",
+          "topic_title": "Leave No Trace Cooking"
+        }
+      ],
+      "topic_title": "Outdoor Patrol Cooking Operations"
+    },
+    {
+      "fact": "Heavy cans contain mostly water weight and generate bulky noncombustible metal trail garbage.",
+      "misconception": "Beginners believe canned goods are ideal trail food because cans resist crushing.",
+      "pamphlet_excerpts": [
+        "Caloric Density Threshold: Select lightweight backpacking foods delivering at least one hundred calories per ounce.",
+        "Packaging Bulk Reduction: Repackage boxed trail foods into lightweight resealable plastic pouches before trail departure.",
+        "Trail Stove Efficiency: Compact canister stoves boil small volumes of mountain water using minimal fuel.",
+        "Backcountry Bear Protection: Store all aromatic trail food securely inside rigid certified bear canisters overnight."
+      ],
+      "pamphlet_summary": "Backpacking meals demand high caloric density, minimal pack weight, and durable packaging to endure rugged trail conditions. Hikers repackage dry goods into resealable bags to eliminate garbage bulk and preserve wilderness areas.",
+      "req_id": "6",
+      "safety_callout": "Treat all natural backcountry water sources by boiling, filtering, or chemical disinfection before cooking.",
+      "socratic_questions": [
+        "Why is caloric density per ounce the most critical metric for multi-day expeditions?",
+        "How does pre-cooking and dehydrating meals at home improve trail nutrition and fuel efficiency?",
+        "What environmental factors dictate whether you hang bear bags or carry rigid canisters?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Trail Food Repackaging: Transfer dehydrated ingredients into labeled zip bags while discarding excess cardboard packaging.",
+        "Step 2 - Weight Distribution: Distribute food packs evenly among patrol members according to personal pack capacity.",
+        "Step 3 - Backpacking Stove Cooking: Heat mountain stream water to boiling using an ultralight trail canister stove.",
+        "Step 4 - Sump Water Disposal: Filter dish rinse water through bandanas and scatter droplets two hundred feet away."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Mayonnaise and deli meats spoil quickly when carried without refrigeration in backpacks.",
+          "misconception": "Scouts assume cold sandwiches keep safely inside backpacks during warm multi-day treks.",
+          "pamphlet_summary": "Planning trail menus requires calculating daily calorie burn during strenuous hiking across varied elevations. Menus must feature lightweight, shelf-stable ingredients that rehydrate quickly with boiled water.",
+          "sub_id": "6a",
+          "topic_title": "Backpacking Daily Menu Formulation"
+        },
+        {
+          "fact": "Dehydrated beans, instant rice, and rolled oats from supermarkets provide economical lightweight nutrition.",
+          "misconception": "Novices believe commercial freeze-dried pouches are the only viable backpacking food option.",
+          "pamphlet_summary": "Creating a trail shopping list requires calculating portion weights and total trip food costs. Selecting lightweight dehydrated staples from grocery aisles keeps expenses reasonable compared to prepackaged freeze-dried pouches.",
+          "sub_id": "6b",
+          "topic_title": "Trail Grocery Shopping Budget"
+        },
+        {
+          "fact": "Cardboard takes up valuable pack volume, gets soggy in rain, and creates trail trash.",
+          "misconception": "Scouts assume original supermarket boxes protect food best inside a loaded backpack.",
+          "pamphlet_summary": "Repackaging removes cardboard boxes, glass jars, and heavy exterior packaging before hitting the trail. Portioned dry meals fit compactly into resealable bags marked with cooking liquid instructions.",
+          "sub_id": "6c",
+          "topic_title": "Trail Repackaging Food Storage"
+        },
+        {
+          "fact": "A small bed of glowing wood coals cooks food evenly without scorching cookpots.",
+          "misconception": "Scouts believe building a massive roaring campfire is the best way to cook trail meals.",
+          "pamphlet_summary": "Scouts cook two trail meals and a snack in the field, including one meal over campfire coals or backpacking stoves. Backpackers must operate compact stoves safely on mineral soil away from dry vegetation.",
+          "sub_id": "6d",
+          "topic_title": "Backcountry Cooking Meal Execution"
+        },
+        {
+          "fact": "Appetite fatigue frequently strikes tired hikers, requiring robust spices to stimulate proper caloric intake.",
+          "misconception": "Scouts assume backcountry meals do not need tasty seasonings if hikers are sufficiently hungry.",
+          "pamphlet_summary": "Gathering evaluations on trail meals helps scouts assess calorie sufficiency, ease of rehydration, and flavor satisfaction. The cook reflects on fuel consumption rates and recipe rehydration times with the counselor.",
+          "sub_id": "6e",
+          "topic_title": "Backcountry Dining Meal Critique"
+        },
+        {
+          "fact": "Equitably distributing stove fuel, pots, and food bags balances total pack weights across patrol members.",
+          "misconception": "Beginners assume the designated trail cook must carry all the patrol cooking gear alone.",
+          "pamphlet_summary": "Splitting collective food weight and cook gear evenly across patrol packs ensures fair physical burden sharing. Backcountry kitchen cleanup requires straining dish water through sumps and hanging bear bags.",
+          "sub_id": "6f",
+          "topic_title": "Patrol Load Distribution Cleanup"
+        }
+      ],
+      "topic_title": "Trail and Backpacking Nutrition"
+    },
+    {
+      "fact": "Culinary professionals work in research and development, food photography, dietetics, and school nutrition.",
+      "misconception": "Scouts assume all culinary careers involve working late nights on restaurant cook lines.",
+      "pamphlet_excerpts": [
+        "Executive Chef Leadership: Oversee commercial kitchen operations, staff training, recipe creation, and strict inventory budgets.",
+        "Registered Dietitian Credentials: Earn accredited university degrees and complete clinical internships to practice nutritional counseling.",
+        "Culinary Apprenticeship Models: Combine paid commercial kitchen employment with formal classroom instruction under master chefs.",
+        "Home Baking Mastery: Cultivate artisanal sourdough bread baking techniques through temperature and fermentation timing control."
+      ],
+      "pamphlet_summary": "Culinary training opens diverse vocational pathways in commercial restaurants, institutional food management, and specialized nutritional counseling. Cooking also serves as an enriching lifelong hobby that supports personal wellness and hospitality.",
+      "req_id": "7",
+      "safety_callout": "Commercial kitchens require slip-resistant footwear and cut-resistant steel mesh gloves during high-volume butchery.",
+      "socratic_questions": [
+        "How do culinary arts apprenticeships balance practical kitchen experience against formal culinary school debt?",
+        "What role does ServSafe manager certification play in advancing toward restaurant management?",
+        "How does developing advanced home culinary skills improve your long-term personal health and household budget?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Field Research: Investigate professional culinary institutes, community college programs, and registered food apprenticeship pathways.",
+        "Step 2 - Certification Requirement Audit: Review state sanitation credentials, industry food handler certificates, and specialized hospitality degrees.",
+        "Step 3 - Cost Benefit Analysis: Calculate tuition expenses against starting culinary wages across various commercial hospitality roles.",
+        "Step 4 - Counselor Career Presentation: Present your researched culinary vocation and educational pathway to your merit badge counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Many top chefs advance through on-the-job training and stage apprenticeships without attending culinary school.",
+          "misconception": "Beginners believe a culinary arts degree is legally required to work in commercial kitchens.",
+          "pamphlet_summary": "Researching culinary vocations exposes scouts to diverse professional roles including executive chefs, registered dietitians, and food scientists. Understanding credential requirements, apprentice training, and equipment expenses prepares aspiring food industry professionals.",
+          "sub_id": "7a",
+          "topic_title": "Professional Culinary Career Pathways"
+        },
+        {
+          "fact": "Basic standard home kitchen tools and sharp knives suffice to master advanced culinary techniques.",
+          "misconception": "Scouts think recreational home cooking requires buying expensive professional commercial appliances.",
+          "pamphlet_summary": "Exploring cooking as a lifelong recreational hobby enables individuals to prepare healthful, affordable meals and host family gatherings. Joining cooking clubs or taking community workshops expands culinary skills without professional career commitments.",
+          "sub_id": "7b",
+          "topic_title": "Culinary Arts Personal Hobbies"
+        }
+      ],
+      "topic_title": "Culinary Careers and Hobbies"
+    }
+  ]
+}

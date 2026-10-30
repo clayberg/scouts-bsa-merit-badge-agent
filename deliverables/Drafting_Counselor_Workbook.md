@@ -1,8 +1,8 @@
 # Drafting Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/drafting/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/drafting/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Drafting.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,14 +12,14 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Formatting Borders and Title Blocks | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Manual Pencil Drawings for Manufacturing | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Producing Computer-Aided Design Drawings | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Redline Reviews and Drawing Revisions | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Comparing Manual and CAD Workflows | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 15, p. 19) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Freehand Gothic Lettering on CAD Benefits | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Exploring Drafting in Modern Industry | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Drafting Careers and Educational Pathways | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Drafting Merit Badge Pamphlet (p. 60, p. 62) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Drawing Sheet Format Standards | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Manual Manufacturing Drawing Production | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Computer Aided Design Production | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Engineering Drawing Revision Process | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Manual And CAD Comparison | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 15, p. 19) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Technical Lettering And Application | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Drafting Industry Practice Investigation | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Drafting Career Pathway Opportunities | Identify | `In-Class Discussion` | **Make-Up Eligible** | Official Scouting America Drafting Merit Badge Pamphlet (p. 60, p. 62) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -31,24 +31,24 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Formatting Borders and Title Blocks
+### Req 1: Drawing Sheet Format Standards
 **Official Requirement 1 (Parent Overview):** Format TWO sheets of drawing paper with proper borders and title blocks, one for your manual project (see requirement 2) and one for your lettering project (see requirement 5). (a) Make a rough sketch for each of your project drawings to determine the correct size of paper to format. (b) Using either single-stroke vertical or slant Gothic lettering, fill in all important information in the title block sections of the formatted paper.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Conduct all counselor discussions, community interviews, and research for Drafting Requirement 1 on formatting borders and title blocks under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.
-- **Common Myth:** You can pick any standard sheet of paper first and squeeze your project views inside the borders later.
-- **Pamphlet Fact:** You should make a rough sketch of each project first to determine the proper sheet size before formatting your borders and title block (p. 32).
+> **Guide to Safe Scouting Warning:** Store razor blades and draft trim cutters safely inside sheaths to prevent severe hand lacerations.
+- **Common Myth:** Drafting paper borders can be drawn at any arbitrary distance from the edge.
+- **Pamphlet Fact:** Standard border margins measure one half inch on standard letter and tabloid drawing sheets.
 
 **Official Pamphlet Summary:**
-- Lettering is just as important to master as other drawing techniques (p. 30).
-- Often, more information is contained in the notes than in the drawing itself (p. 30).
-- Illegible printing can cause the crafts person to overlook critical information (p. 30).
-- Before lettering, draw light guidelines on the paper; erase the guidelines after lettering is complete (p. 30).
+- Standard technical sheets require uniform margins drawn with hard graphite pencils for precision.
+- Landscape orientation provides the maximum horizontal drawing field for standard engineering views.
+- Title Block Location: Lower right corner positioning allows immediate identification when drawings are bound or folded.
+- Paper Attachment: Low tack drafting tape secures sheet corners smoothly without tearing delicate surface fibers.
 
-#### Req 1a: Rough Sketching for Paper Sizing
+#### Req 1a: Preliminary Layout Rough Sketch
 **Official Requirement 1a:** Make a rough sketch for each of your project drawings to determine the correct size of paper to format.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Field Sketch & Diagram Canvas):** Req 1a Hands-On Skill Station & EDGE Verification Checklist (Rough Project Drawings Size)
-- **Common Myth:** Guidelines should be drawn heavily in ink so the reader can see that your text is aligned.
-- **Pamphlet Fact:** Guidelines must be drawn lightly in pencil before lettering and erased completely once the lettering is finished (p. 30).
+- **Common Myth:** Rough preliminary sketches waste project preparation time and offer no practical layout value.
+- **Pamphlet Fact:** Thumbnails establish spatial relationships and scale selection before laying pencil to full sheets.
 
 ![Illustrated Drafting technical diagram of formatting borders and title blocks for Requirement 1 field execution.](/assets/pamphlet_images/drafting_p003_img1.png)
 
@@ -66,11 +66,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Single-Stroke Gothic Title Block Lettering
+#### Req 1b: Title Block Technical Lettering
 **Official Requirement 1b:** Using either single-stroke vertical or slant Gothic lettering, fill in all important information in the title block sections of the formatted paper.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Single-stroke Vertical or Slant Gothic)
-- **Common Myth:** The visual lines of a technical drawing hold all the essential details, making the written notes secondary.
-- **Pamphlet Fact:** Written notes often contain more manufacturing information than the drawing views themselves, so clear lettering is critical (p. 30).
+- **Common Myth:** Decorative calligraphy and lowercase cursive writing are acceptable choices in drafting title blocks.
+- **Pamphlet Fact:** Drafting title blocks require single stroke Gothic lettering created between very faint guidelines.
 
 ![A student prepares paper and practices technical sketching at her desk.](/assets/pamphlet_images/drafting_p022_img1.png)
 
@@ -80,24 +80,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Manual Pencil Drawings for Manufacturing
+### Req 2: Manual Manufacturing Drawing Production
 **Official Requirement 2 (Parent Overview):** Using the formatted sheet of paper you prepared for your manual project, produce a pencil drawing as it would be used for manufacturing. Fill in all title block information. The manual drawing may be any one of the following drawing types: (a) Architectural: Make a scale drawing of an architectural project. The architectural drawing may be a floor plan; electrical, plumbing, or mechanical service plan; elevation plan; or landscaping plan. Use an architect's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and considerations necessary for construction. Properly print a bill of materials for at least three of the raw materials or components in the project. (b) Mechanical: Make a scale drawing of some mechanical device or interesting object. The mechanical drawing may be of the orthographic (third-angle) or isometric style. Use an engineer's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and manufacturing considerations. Properly print a bill of materials for at least three of the raw materials or components in the assembly. (c) Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill of materials including all of the major electrical components used in the circuit. Use standard drawing symbols to represent the electronic components.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 2): Complete all Manual Pencil Drawings for Manufacturing discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** An electrical schematic must be drawn to exact physical scale showing the real-world size of each resistor and wire.
-- **Pamphlet Fact:** Unlike architectural or mechanical scale drawings, an electrical schematic uses standard symbols to show circuit connections along with a printed bill of materials (p. 24).
+> **Guide to Safe Scouting Warning:** Keep sharp compass points shielded when not in active use to prevent accidental puncture injuries.
+- **Common Myth:** All lines on a manual technical manufacturing drawing should have identical darkness and thickness.
+- **Pamphlet Fact:** Manual technical drawings use standardized line weights to communicate object contours, hidden edges, and dimensions.
 
 **Official Pamphlet Summary:**
-- Ubiquity of Electronic Circuits: These days, everything from an automobile engine to a greeting card can have a computer chip (p. 24).
-- Related Circuit Diagram Resources: For more about diagrams, see the Electronics and Radio merit badge pamphlets (p. 24).
-- To clearly present the various views and plans, drafters use different types of formats (p. 24).
-- Common Title Block Elements: Although formats differ in style and content, all share a few things in common (p. 24).
+- Lead Selection: Sharp hard grade leads produce clean thin dimension lines without smudging across paper.
+- Line Contrast: Visible object outlines must display distinct thickness compared to thin construction lines.
+- Scale Selection: Engineering and architectural scales allow accurate reduction of full sized manufactured objects.
+- Eraser Shield: Thin steel erasing shields protect neighboring lines while cleaning small drawing mistakes.
 
-#### Req 2a: Architectural Scale Floor Plans
+#### Req 2a: Architectural Scale Construction Drawing
 **Official Requirement 2a:** Architectural: Make a scale drawing of an architectural project. The architectural drawing may be a floor plan; electrical, plumbing, or mechanical service plan; elevation plan; or landscaping plan. Use an architect's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and considerations necessary for construction. Properly print a bill of materials for at least three of the raw materials or components in the project.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)* • **Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist (Architectural Make A Scale Drawing)
-- **Common Myth:** Title block formats are completely arbitrary and share no common information across different drafting fields.
-- **Pamphlet Fact:** Although drawing formats vary in style, all of them record key details such as the drawing name or number, date, and designer's name (p. 24).
+- **Common Myth:** Architectural drawings rely entirely on engineering decimal scales rather than fractional feet and inches.
+- **Pamphlet Fact:** Architectural floor plans use fractional scales where one quarter inch represents one physical foot.
 
 ![Step-by-step Drafting visual guide highlighting manual pencil drawings for manufacturing positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/drafting_p007_img1.png)
 
@@ -110,11 +110,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Mechanical Device Scale Drawings
+#### Req 2b: Mechanical Component Orthographic Drawing
 **Official Requirement 2b:** Mechanical: Make a scale drawing of some mechanical device or interesting object. The mechanical drawing may be of the orthographic (third-angle) or isometric style. Use an engineer's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and manufacturing considerations. Properly print a bill of materials for at least three of the raw materials or components in the assembly.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)* • **Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist (Mechanical Make A Scale Drawing)
-- **Common Myth:** When preparing Drafting Requirement 2b (Mechanical Device Scale Drawings), Scouts sometimes overlook the concrete pamphlet benchmarks covering mechanical, make a scale drawing of some mechanical device or interesting object.
-- **Pamphlet Fact:** Counselor verification for Drafting Requirement 2b requires concrete workbook evidence on mechanical device scale drawings, specifically addressing mechanical, make a scale drawing of some mechanical device or interesting object.
+- **Common Myth:** Isometric drawings provide complete dimensions needed for tooling without requiring orthographic projections.
+- **Pamphlet Fact:** Third angle orthographic projection aligns top, front, and right side views perpendicularly to each other.
 
 ![A detailed technical drawing displays precise room dimensions and walls.](/assets/pamphlet_images/drafting_p024_img1.png)
 
@@ -127,11 +127,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c: Electrical Schematics and Material Bills
+#### Req 2c: Electrical Circuit Schematic Diagram
 **Official Requirement 2c:** Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill of materials including all of the major electrical components used in the circuit. Use standard drawing symbols to represent the electronic components.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)* • **Organizer (Field Sketch & Diagram Canvas):** Req 2c Structured Technical Study & Explanation Matrix (Electrical Draw A Simple Schematic)
-- **Common Myth:** Electronic schematics are only used for massive power grids and industrial machinery.
-- **Pamphlet Fact:** Modern electronic circuits appear in everything from automobile engines to musical greeting cards (p. 24).
+- **Common Myth:** Electrical schematics must depict exact physical component dimensions and wire routing lengths accurately.
+- **Pamphlet Fact:** Electrical schematics display circuit logic and connections using standardized symbols rather than physical part shapes.
 
 ![A modern digital blueprint printer copies wide architectural drawings.](/assets/pamphlet_images/drafting_p016_img2.png)
 
@@ -151,24 +151,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Producing Computer-Aided Design Drawings
+### Req 3: Computer Aided Design Production
 **Official Requirement 3 (Parent Overview):** Produce a computer-aided design (CAD) drawing as it would be used in manufacturing. Fill in all title block information. The CAD drawing may be any one of the following drawing types: (a) Architectural: Make a scale drawing of an architectural project. The architectural drawing may be a floor plan; electrical, plumbing, or mechanical service plan; elevation plan; or landscaping plan. Use an architect's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and considerations necessary for construction. (b) Mechanical: Make a scale drawing of some mechanical device or interesting object. The mechanical drawing may be of the orthographic (third-angle) or isometric style. Use an engineer's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and manufacturing considerations. (c) Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill of materials including all of the major electrical components used in the circuit. Use standard drawing symbols to represent the electronic components.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 3): Complete all Producing Computer-Aided Design Drawings discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Because CAD software stores files with computer file names, a digital drawing does not need a formatted title block on the sheet.
-- **Pamphlet Fact:** Every CAD drawing produced for manufacturing must still include a complete title block with the drawing identification, date, scale, and designer's name (p. 25).
+> **Guide to Safe Scouting Warning:** Adjust display brightness and sit with ergonomic posture to avoid repetitive strain and eye fatigue.
+- **Common Myth:** CAD geometry must be scaled down manually while drawing lines in virtual design space.
+- **Pamphlet Fact:** CAD software creates digital models at full real scale within virtual coordinate space before plotting.
 
 **Official Pamphlet Summary:**
-- Modern Microchips in Products: These days, everything from an automobile engine to a greeting card can have a computer chip (p. 25).
-- Electronic Schematic Reference Guides: For more about diagrams, see the Electronics and Radio merit badge pamphlets (p. 25).
-- Digital Sheet Format Types: To clearly present the various views and plans, drafters use different types of formats (p. 25).
-- Shared Title Block Standards: Although formats differ in style and content, all share a few things in common (p. 25).
+- Virtual Modeling: Digital CAD software models parts at exact one to one physical scale.
+- Layer assignments control line color, line weight, and visibility across complex assemblies.
+- Object snaps ensure perfect mathematical endpoint connections without manual visual guesswork errors.
+- Digital Annotation: Dimension styles establish consistent text heights, arrow sizes, and engineering tolerance formats.
 
-#### Req 3a: CAD Architectural Scale Plans
+#### Req 3a: Architectural CAD Model Generation
 **Official Requirement 3a:** Architectural: Make a scale drawing of an architectural project. The architectural drawing may be a floor plan; electrical, plumbing, or mechanical service plan; elevation plan; or landscaping plan. Use an architect's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and considerations necessary for construction.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)* • **Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist (Architectural Make A Scale Drawing)
-- **Common Myth:** When drawing in CAD, you must draw an object smaller than life-size in model space so it fits on your monitor.
-- **Pamphlet Fact:** CAD allows you to create accurate geometry and format the output view to the proper scale inside the sheet border for manufacturing (p. 50).
+- **Common Myth:** All architectural plan elements should be drawn on a single active CAD layer.
+- **Pamphlet Fact:** Architectural CAD layers separate interior partitions, electrical fixtures, and plumbing systems for selective display.
 
 ![Step-by-step Drafting visual guide highlighting producing computer-aided design drawings positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/drafting_p012_img1.png)
 
@@ -181,11 +181,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: CAD Mechanical Object Drawings
+#### Req 3b: Mechanical Component CAD Modeling
 **Official Requirement 3b:** Mechanical: Make a scale drawing of some mechanical device or interesting object. The mechanical drawing may be of the orthographic (third-angle) or isometric style. Use an engineer's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and manufacturing considerations.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)* • **Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist (Mechanical Make A Scale Drawing)
-- **Common Myth:** CAD software can only be used for mechanical parts and cannot produce electrical schematics or architectural plans.
-- **Pamphlet Fact:** CAD software supports architectural floor plans, mechanical scale drawings, and electrical schematics with bills of materials (p. 25).
+- **Common Myth:** Mechanical CAD packages require manual redrawing of every individual two dimensional orthographic view.
+- **Pamphlet Fact:** Mechanical CAD models export orthographic views directly from three dimensional solid bodies into layout sheets.
 
 ![A colored landscape site plan illustrates outdoor zones, paths, and trees.](/assets/pamphlet_images/drafting_p049_img2.png)
 
@@ -198,11 +198,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3c: CAD Electrical Circuit Schematics
+#### Req 3c: Electrical Schematic CAD Layout
 **Official Requirement 3c:** Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill of materials including all of the major electrical components used in the circuit. Use standard drawing symbols to represent the electronic components.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)* • **Organizer (Field Sketch & Diagram Canvas):** Req 3c Structured Technical Study & Explanation Matrix (Electrical Draw A Simple Schematic)
-- **Common Myth:** A CAD electrical schematic automatically replaces the need for a bill of materials.
-- **Pamphlet Fact:** An electrical CAD project still requires a properly printed bill of materials listing the components shown in the schematic (p. 50).
+- **Common Myth:** Every electrical schematic symbol in CAD must be drawn manually from loose lines.
+- **Pamphlet Fact:** CAD electrical libraries insert standardized schematic symbols linked to automated part schedule tables.
 
 ![A set of mechanical pencils provides different lead widths for drafting.](/assets/pamphlet_images/drafting_p017_img1.png)
 
@@ -222,24 +222,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Redline Reviews and Drawing Revisions
+### Req 4: Engineering Drawing Revision Process
 **Official Requirement 4 (Parent Overview):** Do the following: (a) Present a copy of your drawings from requirements 2 and 3, either in paper or digital format to your counselor. Your counselor will return a redlined version of your drawings indicating to add/remove/change a feature, material, BOM QTY, etc. (b) Make the correction from the redline, identify it on the drawings with a revision marker, and add a revision block.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 4): Complete all Redline Reviews and Drawing Revisions discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** When a counselor or engineer marks a change on a drawing, you should silently fix it without leaving any trace that the drawing changed.
-- **Pamphlet Fact:** After making a redlined correction, you must mark the change on the drawing with a revision marker and log it in a revision block (p. 36).
+> **Guide to Safe Scouting Warning:** Handle printed drawing archives carefully to prevent skin paper cuts and accidental workspace liquid spills.
+- **Common Myth:** Corrected drawings should completely erase earlier revision records to make drawings look pristine.
+- **Pamphlet Fact:** A revision block records revision letters, description notes, author initials, and completion dates chronologically.
 
 **Official Pamphlet Summary:**
-- Views and Plans in Drafting The front view shows only the front of the first two barrels (p. 22).
-- The two rear barrels are behind the front barrels but are unseen from this view (p. 22).
-- Remember that each view gives the crafts person only two-dimensional information (p. 22).
-- Complementary Front and Side Views: You can see that dimensional information in the front view could not possibly have been given to the crafts person in the side view (p. 22).
+- Redline Markings: Red pencil annotations highlight required additions, removals, or revisions across technical drawing views.
+- Standard title blocks contain revision columns recording chronological alteration descriptions and authorization dates.
+- Triangular delta symbols identify altered features on drawings to facilitate quality inspection reviews.
+- Drawing Integrity: Updating drawings to reflect engineering change orders ensures parts match current fabrication requirements.
 
-#### Req 4a: Counselor Review and Redline Markup
+#### Req 4a: Counselor Drawing Redline Submission
 **Official Requirement 4a:** Present a copy of your drawings from requirements 2 and 3, either in paper or digital format to your counselor. Your counselor will return a redlined version of your drawings indicating to add/remove/change a feature, material, BOM QTY, etc.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Copy of Your Drawings)
-- **Common Myth:** A single front view is always enough to show every dimension and feature of a three-dimensional assembly.
-- **Pamphlet Fact:** Each orthographic view provides only two-dimensional information, so features behind the front plane are unseen without additional views (p. 22).
+- **Common Myth:** Redline marks represent minor suggestions that drafters may freely ignore at their discretion.
+- **Pamphlet Fact:** Counselor redline markups serve as formal engineering change orders instructing drafting drawing updates.
 
 **Gear & Readiness Checklist:**
 - [ ] Official Drafting Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Copy of Your Drawings)
@@ -255,11 +255,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Revision Markers and Revision Blocks
+#### Req 4b: Drawing Revision Delta Implementation
 **Official Requirement 4b:** Make the correction from the redline, identify it on the drawings with a revision marker, and add a revision block.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Correction From The Redline)
-- **Common Myth:** Changing a feature's width in the front view never affects the top view.
-- **Pamphlet Fact:** Because the top view shows both the width from the front view and the length from the side view, dimensional redlines must stay consistent across views (p. 22).
+- **Common Myth:** Placing revision notes in the title block eliminates any need for sheet markers.
+- **Pamphlet Fact:** Delta revision markers connect modified sheet areas directly to corresponding lines in revision tables.
 
 ![A draftsman uses a pencil to sketch a mechanical design on drawing paper.](/assets/pamphlet_images/drafting_p024_img2.png)
 
@@ -269,12 +269,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Comparing Manual and CAD Workflows
+### Req 5: Manual And CAD Comparison
 **Official Requirement 5:** Discuss with your counselor how fulfilling requirements 2, 3, and 4 differed from each other. Tell about the benefits derived from using CAD for requirements 3 and 4. Include in your discussion the software you used as well as other software options that are available.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 15, p. 19)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (CAD vs. Manual Drafting Workflow)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 5): Complete all Comparing Manual and CAD Workflows discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Manual pencil drafting on paper is more accurate than CAD because a computer screen is limited by pixel resolution.
-- **Pamphlet Fact:** CAD software can depict lines and features using units of millionths of an inch or even smaller, far exceeding manual pencil precision (p. 15).
+> **Guide to Safe Scouting Warning:** Maintain clean dry computer workstations to prevent electrical shocks and hardware component damage.
+- **Common Myth:** CAD drafters never need to understand manual drafting principles or fundamental drawing standards.
+- **Pamphlet Fact:** CAD software eliminates physical erasing while providing instant parametric editing and geometric precision.
 
 ![An instructor guides students designing technical drawings on computer-aided drafting workstations.](/assets/pamphlet_images/drafting_p015_img1.png)
 
@@ -285,19 +285,19 @@
 | **3. Include in your discussion the software you used as well as other software options that are available** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Since computers entered the drafting industry in the 1970s, their use has grown dramatically (p. 15).
-- The most powerful drafting tool of all is the computer, running special software for computer-aided drafting (CAD) (p. 15).
-- Computers make it easy to do tasks that once were difficult and time-consuming (p. 15).
-- Lettering, for example, takes lots of time and skill to do neatly by hand (p. 15).
+- Workflow Comparison: Manual drafting develops tactile line control whereas CAD provides rapid parametric editing.
+- Revision Efficiency: Updating CAD geometry requires seconds compared to erasing manual graphite drawing lines.
+- Mathematical Accuracy: CAD software computes dimensions automatically from precise digital geometry without measurement scaling.
+- Software Ecosystem: Industry utilizes diverse CAD platforms ranging from AutoCAD to specialized SolidWorks modeling.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Freehand Gothic Lettering on CAD Benefits
+### Req 6: Technical Lettering And Application
 **Official Requirement 6:** Using single-stroke slant or vertical Gothic lettering (without the aid of a template or lettering guide), write a brief explanation of what you consider to be the most important benefit in using CAD in a particular industry (aerospace, electronics, manufacturing, architectural, or other). Use the experience gained in fulfilling requirements 2 through 5 to support your opinion. Use the formatted sheet of paper you prepared in requirement 1 for your lettering project.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Single-stroke Slant or Vertical Gothic)
-> **Guide to Safe Scouting Warning:** Conduct all counselor discussions, community interviews, and research for Drafting Requirement 6 on freehand gothic lettering on cad benefits under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.
-- **Common Myth:** You are allowed to use a plastic stencil or lettering template to trace your characters for Requirement 6.
-- **Pamphlet Fact:** Requirement 6 must be completed using freehand single-stroke slant or vertical Gothic lettering without the aid of a template or lettering guide (p. 30).
+> **Guide to Safe Scouting Warning:** Avoid resting heavy body weight on drafting wrists to prevent carpal tunnel strain.
+- **Common Myth:** Technical lettering guidelines allow expressive decorative flourishes if words remain somewhat legible.
+- **Pamphlet Fact:** Single stroke Gothic characters maintain legibility through uniform stroke thickness and balanced letterform proportions.
 
 ![A hand carefully draws uniform Gothic letters on lined drafting paper.](/assets/pamphlet_images/drafting_p030_img2.png)
 
@@ -308,37 +308,37 @@
 | **3. Use the formatted sheet of paper you prepared in requirement 1 for your lettering project** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Lettering is just as important to master as other drawing techniques (p. 30).
-- Value of Written Notes: Often, more information is contained in the notes than in the drawing itself (p. 30).
-- Preventing Manufacturing Reading Errors: Illegible printing can cause the crafts person to overlook critical information (p. 30).
-- Before lettering, draw light guidelines on the paper; erase the guidelines after lettering is complete (p. 30).
+- Single stroke Gothic letters provide maximum visual legibility across blueprints and microfilm.
+- Guideline Construction: Extremely faint horizontal guidelines ensure consistent letter height across technical written descriptions.
+- Standardized pencil stroke sequences prevent hand fatigue while producing uniform letter shapes.
+- Industry Application: Aerospace and automotive sectors rely on CAD for rapid digital simulation prototypes.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Exploring Drafting in Modern Industry
+### Req 7: Drafting Industry Practice Investigation
 **Official Requirement 7 (Parent Overview):** Do ONE of the following: (a) Visit a facility or industry workplace where drafting is part of the business. Ask to see an example of the work that is done there, the different drafting facilities, and the tools used. (1) Find out how much of the drafting done there is manual and how much is done using CAD. If CAD is used, find out what software is used and how and why it was chosen. (2) Ask about the drafting services provided. Ask who uses the designs produced in the drafting area and how those designs are used. Discuss how the professionals who perform drafting cooperate with other individuals in the drafting area and other areas of the business. (3) Ask how important the role of drafting is to producing the end product or service that this business supplies. Find out how drafting contributes to the company's end product or service. (b) Using resources you find on your own such as at the library and on the internet (with your parent or guardian's permission), learn more about the drafting trade and discuss the following with your counselor. (1) The drafting tools used in the past, why and how they were used. Explain which tools are still used today and how their use has changed with the advent of new tools. Discuss which tools are being made obsolete by newer tools in the industry. (2) Tell what media types were used in the past and how drawings were used, stored, and reproduced. Tell how the advent of CAD has changed the media used, and discuss how these changes affect the storage or reproduction of drawings. (3) Discuss whether the types of media have changed such that there are new uses the drawings, or other outputs, produced by designers. Briefly discuss how new media types are used in the industry today.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Conduct all counselor discussions, community interviews, and research for Drafting Requirement 7 on exploring drafting in modern industry under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.
+> **Guide to Safe Scouting Warning:** Wear safety glasses and high visibility vests when touring active engineering fabrication facilities.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Drafting Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** When multiple designers work on the same engineering project in CAD, every sheet looks noticeably different because of each person's handwriting and drawing habits.
-- **Pamphlet Fact:** CAD enables all designers in a company to produce drawings with the exact same lettering and line style, giving every project a consistent appearance (p. 16).
+- **Common Myth:** Modern design firms have completely abandoned paper drawings, plotters, and physical shop prints.
+- **Pamphlet Fact:** Industrial drafting facilities combine digital design stations with large format plotters and modelers.
 
 **Official Pamphlet Summary:**
-- Compact Computer Workstation Footprint: Computers take up less space than the drafting boards needed for manual drafting (p. 16).
-- This allows engineering offices, for example, to be filled with normal-size desks and work spaces, instead of needing a large room filled (p. 16).
-- Company-Wide Drawing Style Consistency: With CAD, all designers in the same company can produce drawings with the same style of lettering and drawing (p. 16).
-- Uniform Multi-Designer Project Output: This allows all jobs to have a common feel to them instead of reflecting a mix of styles depending on which designer worked on the project (p. 16).
+- Facility Exploration: Professional drafting offices employ networked workstations, large format plotters, and scanners.
+- Workflow Integration: Drafters collaborate directly with manufacturing engineers, CNC machinists, and field contractors.
+- Tool Diversity: Modern drafting utilizes three dimensional scanners, virtual reality headsets, and plotters.
+- Research Avenues: Technical libraries and industry journals provide insight into emerging automated drafting technologies.
 
-### Req 7a: Workplace Visit and Tool Observation
+### Req 7a: Drafting Facility Onsite Tour
 **Official Requirement 7a (Parent Overview):** Visit a facility or industry workplace where drafting is part of the business. Ask to see an example of the work that is done there, the different drafting facilities, and the tools used. (1) Find out how much of the drafting done there is manual and how much is done using CAD. If CAD is used, find out what software is used and how and why it was chosen. (2) Ask about the drafting services provided. Ask who uses the designs produced in the drafting area and how those designs are used. Discuss how the professionals who perform drafting cooperate with other individuals in the drafting area and other areas of the business. (3) Ask how important the role of drafting is to producing the end product or service that this business supplies. Find out how drafting contributes to the company's end product or service.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Conduct all counselor discussions, community interviews, and research for Drafting Requirement 7 on exploring drafting in modern industry under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.
+> **Guide to Safe Scouting Warning:** Wear safety glasses and high visibility vests when touring active engineering fabrication facilities.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Drafting Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Modern engineering offices still require massive rooms filled with oversized tilting drafting tables for daily production.
-- **Pamphlet Fact:** Because computers take up much less space than manual drafting boards, modern engineering offices use normal-size desks and workspaces (p. 16).
+- **Common Myth:** Commercial drafting offices operate using simple home office desktop setups and basic printers.
+- **Pamphlet Fact:** Design offices use high performance multi monitor workstations linked to centralized engineering data management servers.
 
 **Official Pamphlet Summary:**
-- Workplace Visit and Tool Observation: Computers take up less space than the drafting boards needed for manual drafting (p. 16).
+- Touring an engineering design firm exposes Scouts to specialized drafting peripherals, networked plotters, and team workflows. Scouts observe how drafters translate design concepts into detailed shop drawings and digital fabrication files.
 - Req 7a Standard (Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)): Visit a facility or industry workplace where drafting is part of the business. Ask to see an example of the work that is done there, the different drafting facilities, and the tools used. (1) Find out how much of the drafting done there is manual and how much is done using CAD. If CAD is used, find out what software is used and how and why it was chosen. (2) Ask about the drafting services provided. Ask who uses the designs produced in the drafting area and how those designs are used. Discuss how the professionals who perform drafting cooperate with other individuals in the drafting area and other areas of the business. (3) Ask how important the role of drafting is to producing the end product or service that this business supplies. Find out how drafting contributes to the company's end product or service.
 
 #### Req 7a(1): Much of the Drafting Done There
@@ -387,15 +387,15 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7b: Industry Research on Engineering Drawings
+### Req 7b: Drafting Trade Industry Research
 **Official Requirement 7b (Parent Overview):** Using resources you find on your own such as at the library and on the internet (with your parent or guardian's permission), learn more about the drafting trade and discuss the following with your counselor. (1) The drafting tools used in the past, why and how they were used. Explain which tools are still used today and how their use has changed with the advent of new tools. Discuss which tools are being made obsolete by newer tools in the industry. (2) Tell what media types were used in the past and how drawings were used, stored, and reproduced. Tell how the advent of CAD has changed the media used, and discuss how these changes affect the storage or reproduction of drawings. (3) Discuss whether the types of media have changed such that there are new uses the drawings, or other outputs, produced by designers. Briefly discuss how new media types are used in the industry today.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Group Organizer:** Concept & Examples Notes
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Drafting Req 7b with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** You cannot print a CAD drawing without chemical blueprint paper and specialized ammonia reproduction machines.
-- **Pamphlet Fact:** CAD designs do not require specialized papers to view or check and can be printed like any other computer document (p. 16).
+- **Common Myth:** Drafting trade techniques have remained unchanged since the introduction of early CAD systems.
+- **Pamphlet Fact:** Trade research reveals that drafters increasingly specialize in building information modeling and parametric solid modeling.
 
 **Official Pamphlet Summary:**
-- Industry Research on Engineering Drawings: With CAD, all designers in the same company can produce drawings with the same style of lettering and drawing (p. 16).
+- Independent research through trade journals, libraries, and approved internet resources broadens understanding of drafting disciplines. Scouts investigate specialized fields like civil, mechanical, structural, and electrical drafting and their respective tooling.
 - Req 7b Standard (Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)): Using resources you find on your own such as at the library and on the internet (with your parent or guardian's permission), learn more about the drafting trade and discuss the following with your counselor. (1) The drafting tools used in the past, why and how they were used. Explain which tools are still used today and how their use has changed with the advent of new tools. Discuss which tools are being made obsolete by newer tools in the industry. (2) Tell what media types were used in the past and how drawings were used, stored, and reproduced. Tell how the advent of CAD has changed the media used, and discuss how these changes affect the storage or reproduction of drawings. (3) Discuss whether the types of media have changed such that there are new uses the drawings, or other outputs, produced by designers. Briefly discuss how new media types are used in the industry today.
 
 #### Req 7b(1): Drafting Tools Used in the Past
@@ -444,12 +444,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Drafting Careers and Educational Pathways
+### Req 8: Drafting Career Pathway Opportunities
 **Official Requirement 8:** Identify three career opportunities that would use skills and knowledge in Drafting. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 60, p. 62)* • **Organizer (Career & Profession Exploration Card):** Req 8 Career & Professional Pathway Investigation Matrix
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 8): Complete all Drafting Careers and Educational Pathways discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Most drafting and design employers today hire high school graduates with no formal CAD schooling and train them entirely on the job for several years.
-- **Pamphlet Fact:** Traditional on-the-job learning has mostly given way to college or technical training, and many employers require a four-year degree for designer roles (p. 60).
+> **Guide to Safe Scouting Warning:** Ensure safe computer cabling routing and surge protection at home study workstations.
+- **Common Myth:** Drafting positions require no specialized post secondary training, technical degree, or formal certification.
+- **Pamphlet Fact:** Professional drafters typically earn associate degrees in CAD technology and obtain industry software certifications.
 
 ![A computer screen displays a complex three-dimensional automotive CAD model.](/assets/pamphlet_images/drafting_p020_img1.png)
 
@@ -461,9 +461,9 @@
 | **4. Discuss what you learned with your counselor and whether you might be interested in this career.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- As the technology of drafting has evolved, so have career opportunities in drafting (p. 60).
-- Historical On-the-Job Apprenticeships: Drafters of the past spent several years in training, mostly on the job (p. 60).
-- They learned the trade from more experienced coworkers, and, in time, were experienced enough to teach newer employees themselves (p. 60).
-- Shift Toward College Education: This system of on-the-job learning has mostly givenway to college training in drafting and drawing (p. 60).
+- Career Pathways: Drafting careers encompass architectural designers, mechanical detailers, and electrical layout drafters.
+- Educational Options: Vocational colleges and technical institutes offer associate degrees focusing on CAD technology.
+- Professional Credentials: Industry certifications validate specialized proficiency in platforms like AutoCAD, Revit, and SolidWorks.
+- Industry Outlook: Growing construction and manufacturing automation drives steady demand for skilled digital drafters.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`

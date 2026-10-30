@@ -1,0 +1,249 @@
+{
+  "requirements": [
+    {
+      "fact": "Neutral wrist posture and scheduled hourly breaks prevent median nerve compression during long keyboard sessions.",
+      "misconception": "Carpal tunnel syndrome only affects adult office workers who type continuously for decades.",
+      "pamphlet_excerpts": [
+        "Digital Privacy Rule: Never share passwords or home location details in public forum profiles.",
+        "Ergonomic Display Angle: Position monitors at eye level to prevent persistent cervical spine strain.",
+        "Twenty Minute Pause: Look at objects twenty feet away to relieve ocular fatigue.",
+        "Neutral Joint Position: Keep wrists parallel to desk surfaces to avoid damaging median nerves."
+      ],
+      "pamphlet_summary": "Programmers must maintain neutral wrist alignments and proper monitor distances to prevent cumulative ergonomic trauma. Safe computing habits include shielding sensitive personal information and following parental guidelines during online sessions.",
+      "req_id": "1",
+      "safety_callout": "Position power cords away from walkways and keep open beverage containers off equipment desks to eliminate shock hazards.",
+      "socratic_questions": [
+        "How does poor chair height contribute directly to wrist tingling during extended programming sessions?",
+        "Why is sharing project source code online risky if personal directory paths remain in configuration files?",
+        "Which physical symptoms indicate that a programmer needs an immediate twenty minute visual rest break?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Ergonomic Chair Setup: Adjust seat height until feet rest completely flat across floor boards.",
+        "Step 2 - Monitor Alignment: Position screen top bezel at natural eye level twenty inches away.",
+        "Step 3 - Cable Routing: Route power lines away from footpaths to avoid dangerous tripping hazards.",
+        "Step 4 - Timer Configuration: Set recurring alerts prompting mandatory physical standing stretches every forty minutes."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Source code repositories often expose private identity markers through commit log email addresses.",
+          "misconception": "Digital security safeguards only matter when entering credit card numbers into commercial shopping carts.",
+          "pamphlet_summary": "Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables.",
+          "sub_id": "1a",
+          "topic_title": "Digital Safety Video Instruction"
+        },
+        {
+          "fact": "Cervical muscle tension drops when monitors sit directly at natural horizontal eye level.",
+          "misconception": "Screen brightness settings have zero impact on physical eye strain during evening coding sprints.",
+          "pamphlet_summary": "Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals.",
+          "sub_id": "1b",
+          "topic_title": "Ergonomics And Injury Prevention"
+        }
+      ],
+      "topic_title": "Computer Safety And Ergonomics"
+    },
+    {
+      "fact": "Ada Lovelace documented algorithmic process execution on paper long before electronic computers existed.",
+      "misconception": "Computer programming began only after silicon microprocessors were invented in California research labs.",
+      "pamphlet_excerpts": [
+        "Analytical Engine Concept: Ada Lovelace authored the earliest machine algorithm designed for mechanical calculation.",
+        "Compiler Invention Impact: Grace Hopper developed early language translation systems converting English words into bytecode.",
+        "Stored Program Architecture: John von Neumann structured computer memory to store both instructions and data.",
+        "High Level Evolution: Fortran enabled engineers to write mathematical expressions instead of raw machine instructions."
+      ],
+      "pamphlet_summary": "Programming evolved from mechanical punch cards and machine code toward human readable structured programming languages. Key milestones include compiler development, structural language standardization, and modern high level object oriented paradigms.",
+      "req_id": "2",
+      "safety_callout": "Maintain stable desk seating and organized cabling while examining vintage hardware displays or legacy computer apparatus.",
+      "socratic_questions": [
+        "How did Grace Hopper's invention of compilers change who could write functional computer programs?",
+        "Why was storing instructions in memory more flexible than manually rewiring patch cords on hardware?",
+        "What trade-offs emerged when software shifted from assembly language toward interpreted scripting languages?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Timeline Selection: Identify three pivotal milestones across distinct decades of computer science history.",
+        "Step 2 - Technical Context Research: Document the exact hardware limitations that forced engineers toward software innovations.",
+        "Step 3 - Evolution Analysis: Trace how machine language abstractions progressed into modern high level compiled code.",
+        "Step 4 - Counselor Presentation: Explain milestone impacts on modern application development during your patrol review session."
+      ],
+      "sub_requirements": [],
+      "topic_title": "History Of Programming Languages"
+    },
+    {
+      "fact": "Embedded microcontroller software runs under strict memory constraints without interactive operating system shells.",
+      "misconception": "All modern electronic gadgets run identical general purpose operating systems like desktop computers.",
+      "pamphlet_excerpts": [
+        "Enterprise Language Domain: Java provides robust type safety across large distributed commercial banking architectures.",
+        "Data Analysis Standard: Python dominates machine learning environments due to extensive mathematical scientific libraries.",
+        "System Programming Role: C delivers bare metal execution efficiency inside microcontrollers and operating system kernels.",
+        "Embedded Controller Logic: Digital thermostats execute firmware control loops reading sensors to switch physical relays."
+      ],
+      "pamphlet_summary": "Different programming languages solve distinct operational challenges ranging from systems engineering to machine learning pipelines. Everyday appliances execute compiled firmware loops inside embedded processors to control electrical and mechanical hardware.",
+      "req_id": "3",
+      "safety_callout": "Disconnect household appliances from wall power before examining microcontroller housing panels or wiring harnesses.",
+      "socratic_questions": [
+        "Why would an engineer select C over Python when programming an automotive braking system?",
+        "How does the firmware inside a modern microwave differ from software running on a smartphone?",
+        "What architectural traits make JavaScript dominant in browser rendering engines rather than embedded engines?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Language Identification: Select five distinct programming languages utilized across differing modern industrial sectors.",
+        "Step 2 - Industrial Role Matching: Document specific reasons each chosen language fits its target industry ecosystem.",
+        "Step 3 - Appliance Hardware Audit: Choose three household programmed devices containing dedicated embedded microcontroller processor boards.",
+        "Step 4 - Embedded Operation Analysis: Describe sensor inputs and mechanical actuator responses governed by each device firmware."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Language selection depends on garbage collection latency, concurrency needs, and available hardware architecture.",
+          "misconception": "Software engineers always choose the single newest programming language for every commercial project.",
+          "pamphlet_summary": "Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
+          "sub_id": "3a",
+          "topic_title": "Popular Languages And Industries"
+        },
+        {
+          "fact": "Modern vehicle control modules process real time sensor data over shared controller area networks.",
+          "misconception": "Simple household appliances like microwave ovens contain no software or internal computer chips.",
+          "pamphlet_summary": "Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components.",
+          "sub_id": "3b",
+          "topic_title": "Programmed Daily Embedded Devices"
+        }
+      ],
+      "topic_title": "Programming Languages And Applications"
+    },
+    {
+      "fact": "Copyright automatically covers original written code upon creation, while patents protect novel functional processes.",
+      "misconception": "Purchasing a software license gives the buyer total legal ownership of the underlying codebase.",
+      "pamphlet_excerpts": [
+        "Copyright Code Protection: Copyright protects original source text against unauthorized direct duplication or redistribution.",
+        "Patent Functional Scope: Patents safeguard novel algorithmic processes rather than specific written line implementations.",
+        "License Permission Boundaries: Software licenses grant limited operational rights without transferring intellectual property ownership.",
+        "Open Source Obligations: Permissive licenses require preserving copyright notices while copyleft rules mandate source distribution."
+      ],
+      "pamphlet_summary": "Software developers rely on patents, copyrights, trademarks, and trade secrets to protect distinct legal aspects of their work. Licensing grants specific operational permissions rather than ownership, requiring users to respect proprietary and open source distribution conditions.",
+      "req_id": "4",
+      "safety_callout": "Download source code and precompiled binaries exclusively from signed, official repositories to prevent malicious payload execution.",
+      "socratic_questions": [
+        "Why does purchasing a proprietary software license not grant permission to disassemble the binary file?",
+        "How does a copyleft open source license differ legally from a permissive MIT software license?",
+        "What protection does a registered patent offer an algorithm inventor that simple copyright cannot?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Legal Category Definition: Identify core differences separating copyright, patent, trademark, and trade secret protections.",
+        "Step 2 - License Agreement Audit: Examine an end user license agreement to identify granted rights versus restrictions.",
+        "Step 3 - Distribution Model Comparison: Contrast open source license requirements against closed source commercial distribution rules.",
+        "Step 4 - Ethics Evaluation Review: Present reasons why developers must respect license notices and creator attribution terms."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Trade secret protection remains valid indefinitely provided the proprietary source information stays strictly confidential.",
+          "misconception": "A registered trademark prevents other programmers from writing code that performs identical calculations.",
+          "pamphlet_summary": "Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering.",
+          "sub_id": "4a",
+          "topic_title": "Intellectual Property Protection Types"
+        },
+        {
+          "fact": "Software licensing contracts define precise constraints regarding concurrent installations and commercial distribution rights.",
+          "misconception": "Downloading a retail software installer transfers complete copyright ownership to the personal computer owner.",
+          "pamphlet_summary": "Software licenses grant conditional rights to install and run programs without transferring underlying copyright ownership. Commercial users must adhere to seat limits, reverse engineering prohibitions, and redistribution terms specified by the developer.",
+          "sub_id": "4b",
+          "topic_title": "Software Licensing Versus Ownership"
+        },
+        {
+          "fact": "Open source licenses require redistributing modified code or preserving original author copyright headers.",
+          "misconception": "Freeware programs provide open access to their original source code without legal restrictions.",
+          "pamphlet_summary": "Freeware permits zero cost execution while keeping source code closed, whereas open source licenses expose source code under defined reuse criteria. Commercial software requires financial purchase and enforces strict proprietary legal restrictions.",
+          "sub_id": "4c",
+          "topic_title": "Software Distribution Models Comparison"
+        }
+      ],
+      "topic_title": "Software Intellectual Property Law"
+    },
+    {
+      "fact": "Source code must be translated into binary machine instructions or interpreted line by line at runtime.",
+      "misconception": "Programming languages execute directly on computer silicon without requiring any translation or runtime engine.",
+      "pamphlet_excerpts": [
+        "Integrated Environment Role: Integrated development environments combine code editing, automated syntax highlighting, and debugging tools.",
+        "Variable Typing Rule: Strict variable types prevent mathematical operations on mismatched textual data values.",
+        "Conditional Branching Logic: Conditional statements guide program execution flows based on evaluated boolean expressions.",
+        "Systematic Debugging Method: Step through code line by line while monitoring changing memory variable states."
+      ],
+      "pamphlet_summary": "Scouts gain hands on engineering proficiency by writing, compiling, and debugging projects across three distinct programming languages. Projects demonstrate fundamental concepts including variable initialization, conditional branching, repetitive iteration loops, and structured functional decomposition.",
+      "req_id": "5",
+      "safety_callout": "Ensure test programs containing hardware input output loops do not overheat computer components or write endless disk logs.",
+      "socratic_questions": [
+        "How does an integrated development environment debugger help isolate variable assignment errors rapidly?",
+        "Why is modular functional decomposition superior to writing one massive sequential script file?",
+        "What differences did you observe between how interpreted scripts and compiled programs report syntax mistakes?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Environment Configuration: Install the editor compiler toolchain for your first chosen programming language.",
+        "Step 2 - Algorithm Logic Implementation: Write source code incorporating user input, conditional branches, and iterative loops.",
+        "Step 3 - Systematic Debugging Pass: Run the interactive debugger to isolate syntax errors and incorrect variable assignments.",
+        "Step 4 - Functional Demonstration Execution: Demonstrate program execution to your counselor while explaining underlying algorithmic decision structures."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Block based environments teach control flow semantics without exposing users to textual syntax punctuation errors.",
+          "misconception": "Visual block languages cannot implement real algorithmic logic or complex mathematical calculation loops.",
+          "pamphlet_summary": "Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior.",
+          "sub_id": "5a",
+          "topic_title": "First Language Program Implementation"
+        },
+        {
+          "fact": "Interpreted languages check type mismatches dynamically at runtime rather than during ahead of time compilation.",
+          "misconception": "Scripting languages run instantly because they bypass all internal syntax parsing checks completely.",
+          "pamphlet_summary": "Building the second program in an interpreted language introduces text based syntax formatting and dynamic variable typing. Scouts write modular functions and handle basic runtime error exceptions during testing.",
+          "sub_id": "5b",
+          "topic_title": "Second Language Program Implementation"
+        },
+        {
+          "fact": "Compiled languages detect variable type mismatches during build passes before any program execution starts.",
+          "misconception": "Compiled programs always require identical memory footprints regardless of target CPU platform architectures.",
+          "pamphlet_summary": "The third project in a statically compiled language emphasizes explicit memory usage, rigid type declarations, and linker mechanics. Scouts compile source files into executable binaries and validate program performance against requirements.",
+          "sub_id": "5c",
+          "topic_title": "Third Language Program Implementation"
+        }
+      ],
+      "topic_title": "Software Development Project Practice"
+    },
+    {
+      "fact": "Software engineering roles require proficiency in continuous integration, unit testing, and team source control.",
+      "misconception": "A professional programmer spends entire workdays writing brand new code without reading documentation.",
+      "pamphlet_excerpts": [
+        "Degree Pathway Focus: Computer science degree curricula prioritize discrete mathematics, data structures, and algorithmic complexity.",
+        "Apprenticeship Value: Practical coding bootcamps and open source contributions provide alternative career entry points.",
+        "Quality Assurance Duty: Testing engineers write automated scripts to identify software bugs before customer deployments.",
+        "Hobby Project Community: Open robotics clubs foster applied programming skills outside commercial enterprise environments."
+      ],
+      "pamphlet_summary": "Career exploration in software engineering encompasses software architecture, quality assurance, cybersecurity analysis, and database administration. Maintaining coding as a personal hobby promotes problem solving skills through robotics clubs, game design, and civic hacking projects.",
+      "req_id": "6",
+      "safety_callout": "Follow ergonomic recommendations and schedule screen time limits to prevent sedentary health problems during career exploration.",
+      "socratic_questions": [
+        "How do day to day tasks of a cybersecurity analyst differ from a frontend web developer?",
+        "Why are collaborative communication skills equally important as coding proficiency in commercial development teams?",
+        "Which local volunteer organizations or amateur clubs allow student programmers to apply technical skills?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Track Selection: Choose one computer science specialization such as mobile engineering or database administration.",
+        "Step 2 - Educational Path Analysis: Research requisite academic degrees, vocational certifications, and expected financial training expenses.",
+        "Step 3 - Compensation Investigation: Examine regional entry level salaries, expected promotion milestones, and long term employment growth.",
+        "Step 4 - Career Summary Documentation: Prepare a structured report detailing required technical skills and daily job responsibilities."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Enterprise engineering positions often require passing rigorous peer code reviews and architectural security screenings.",
+          "misconception": "Earning a technical degree guarantees immediate qualification for senior system architect management roles.",
+          "pamphlet_summary": "Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards.",
+          "sub_id": "6a",
+          "topic_title": "Software Engineering Career Exploration"
+        },
+        {
+          "fact": "Contributing to non profit open source projects builds demonstrable technical portfolios for amateur developers.",
+          "misconception": "Programming skills offer zero personal value unless utilized to earn full time corporate employment.",
+          "pamphlet_summary": "Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement.",
+          "sub_id": "6b",
+          "topic_title": "Computing Hobbies And Lifestyle"
+        }
+      ],
+      "topic_title": "Careers And Hobbies In Computing"
+    }
+  ]
+}

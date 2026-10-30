@@ -1,8 +1,8 @@
 # Skating Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/skating/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/skating/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,11 +12,8 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Skating Hazard Mitigation and First Aid | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2a** | Ice Skating: Rink Safety, Skate Care & Ice Maneuvers | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2b** | Roller Skating: Safety Rules, Skate Care & Rink Skills | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2c** | In-Line Skating: Protective Gear, Braking & Street Skills | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2d** | Skateboarding: Board Anatomy, Safety Gear & Park Skills | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Skating Safety and First Aid | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Skating Disciplines and Technical Foundations | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -24,32 +21,29 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Scout must individually demonstrate mastery of Requirement 1 to the Merit Badge Counselor.
-- [ ] **Station Req 2a:** Scout must individually explain mastery of Requirement 2a to the Merit Badge Counselor.
-- [ ] **Station Req 2b:** Scout must individually explain mastery of Requirement 2b to the Merit Badge Counselor.
-- [ ] **Station Req 2c:** Scout must individually explain mastery of Requirement 2c to the Merit Badge Counselor.
-- [ ] **Station Req 2d:** Scout must individually explain mastery of Requirement 2d to the Merit Badge Counselor.
+- [ ] **Station Req 1:** Do the following: (a) Explain to your counselor the most likely hazards associated with skating and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Show that you know first aid for injuries or illnesses that could occur while skating, including hypothermia, frostbite, lacerations, abrasions, fractures, sprains and strains, concussions, blisters, heat-related reactions, and shock.
+- [ ] **Station Req 2:** Working under the supervision of an experienced adult, do ONE of the following options: (a) Option A, Ice Skating. Do ALL of the following: (1) Explain the general safety and courtesy guidelines for ice skating. (2) Discuss preparations that must be taken when skating outdoors on natural ice. Explain how to make an ice rescue. (3) Discuss the parts and functions of the different types of ice skates. (4) Describe the proper way to carry ice skates at the rink and for travel. (5) Describe how to store ice skates for long periods of time, such as seasonal storage. (6) Skate forward at least 40 feet and come to a complete stop. Use either a two-foot snowplow stop or a one-foot snowplow stop. (7) After skating forward, glide forward on two feet, then on one foot, first right and then left. (8) Starting from a T position, stroke forward around the test area, avoiding the use of toe picks if wearing figure skates. (9) Glide backward on two feet for at least two times the skater's height. (10) Skate backward for at least 20 feet on two skates. (11) After gaining forward speed, glide forward on two feet, making a turn of 180 degrees around a cone, first to the right and then to the left. (12) Perform forward crossovers in a figure-eight pattern. (13) Explain to your counselor the safety considerations for participating in an ice-skating race. (14) Perform a hockey stop. (b) Option B, Roller Skating. Do ALL of the following: (1) Explain the general safety rules and etiquette guidelines for roller skating. (2) Discuss the parts of a roller skate and their functions. (3) Describe five essential steps to good roller skate care. (4) Skate forward with smooth, linked strokes on two feet for at least 100 feet in both directions around the rink and demonstrate proper techniques for stopping. (5) Skate forward and glide at least 15 feet on one skate, then on the other skate. (6) Perform a forward crossover. (7) Skate backward for at least 40 feet on two skates, then for at least 15 feet on one skate. (8) Skate forward in a slalom pattern for at least 40 feet on two skates, then for at least 20 feet on one skate. (9) Skate backward in a slalom pattern for at least 15 feet on two skates. (10) Shuttle skate once around the rink, bending twice along the way, without stopping. (11) Perform a series of two consecutive spins on skates, OR hop, skip, and jump on skates for at least 10 feet. (12) Perform a stepover. (13) While skating, dribble a basketball at least 40 feet, then back to your starting position, OR push a hockey ball with a stick at least 40 feet, then back to your starting position. (c) Option C, In-Line Skating. Do ALL of the following: (1) Explain the general safety rules and courtesy guidelines for in-line skating. (2) Describe the parts of an in-line skate and their functions. (3) Describe the required and recommended safety equipment for in-line skating. (4) Explain four essential steps to good in-line skate care. (5) Skate forward with smooth, linked strokes on two feet for at least 100 feet. (6) Skate forward and glide at least 15 feet on one skate, then on the other skate. (7) Stop on command on flat pavement using the heel brake. (8) Perform a forward crossover. (9) Perform a series of forward, linked swizzles for at least 40 feet. (10) Skate backward for at least 40 feet in a series of linked, backward swizzles. (11) From a strong pace, perform a lunge turn around an object predetermined by your counselor. (12) Perform a mohawk. (13) Perform a series of at least four one-footed downhill slaloms on pavement with a gentle slope. (14) Describe how to pass a pedestrian or another skater from behind. (15) Describe at least three ways to avoid an unforeseen obstacle while skating. (16) Describe two ways to get on and off a curb, and demonstrate at least one of these methods. (d) Option D, Skateboarding. Do ALL of the following: (1) Explain the history and evolution of skateboarding. (2) Describe the benefits of skateboarding (physical fitness, balance, coordination, perseverance, and creativity). (3) Explain the safety rules and courtesy guidelines for skateboarding, including right-of-way and communication signals and warnings. (4) Explain the protective gear needed to skate safely, including helmet, knee pads, elbow pads, and wrist guards, and show how to wear them correctly. (5) Describe the two main styles of skateboarding (street and vert), and describe common skatepark features (ramps, manual pad, rails, spine, etc.). (6) Explain skateboard anatomy (deck, trucks, wheels, hardware, etc.). (7) Build a board by assembling all pieces (deck, wheels, trucks, hardware, and grip tape) in the proper order. (8) Explain skateboard maintenance (cleaning, adjusting bolts, and replacing parts). (9) Explain the difference between regular and goofy stance, and demonstrate your preferred stance. (10) Demonstrate how to push, cruise, and carve on flat ground. (11) Show at least two braking and stopping techniques. (12) Do a basic ollie and at least one variation. (13) Show how to drop-in from coping. (14) Demonstrate THREE skateboarding tricks from the following types: (a) Flat ground tricks (b) Flip and shove-it tricks (c) Grind and slide tricks (d) Air and grab tricks (e) Footplant tricks
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Skating Hazard Mitigation and First Aid
+### Req 1: Skating Safety and First Aid
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain to your counselor the most likely hazards associated with skating and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Show that you know first aid for injuries or illnesses that could occur while skating, including hypothermia, frostbite, lacerations, abrasions, fractures, sprains and strains, concussions, blisters, heat-related reactions, and shock.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 1): Complete all Skating Hazard Mitigation and First Aid discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** You should keep skating through a tender "hot spot" on your foot until a full blister forms and then pop it immediately on the rink bench.
-- **Pamphlet Fact:** You should stop skating immediately when you feel a warm, tender "hot spot" on your foot and adjust your socks, lacing, or apply moleskin/tape before fluid accumulates and forms a blister (p. 89).
+> **Guide to Safe Scouting Warning:** Never skate onto frozen open water without checking ice depth with an auger to confirm four inches of clear ice.
+- **Common Myth:** Beginners often believe that extending straight arms during a fall protects the body from injury.
+- **Pamphlet Fact:** Bracing with outstretched locked arms transfers impact energy to the wrists, causing radial fractures.
 
 **Official Pamphlet Summary:**
-- In skating, blisters are most likely to occur on the feet (p. 89).
-- Early Hot Spot Detection: Skaters should be attentive to any tenderness or sensitive areas ("hot spots") that indicate the start of a blister (p. 89).
-- Boot Lacing and Sock Adjustments: You may be able to adjust lacing or socks to avoid friction on the sensitive area (p. 89).
-- Recognizing Physical Fatigue Limits: Listen to your body and quit for the day (p. 89).
+- Rigid splints inside wrist guards disperse impact forces away from delicate carpal bones.
+- Helmet Standards: Multi-impact certified helmets shield the cranial vault during backward falls onto hard surfaces.
+- Hypothermia Prevention: Synthetic wicking base layers prevent rapid core cooling by transporting sweat from skin.
+- Laceration Defense: Cut-resistant Kevlar socks guard Achilles tendons against sharp skate blades during collisions.
 
-#### Req 1a: Skating Hazard Anticipation and Prevention
+#### Req 1a: Skating Environmental Hazard Mitigation
 **Official Requirement 1a:** Explain to your counselor the most likely hazards associated with skating and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Skating Hazards and First Aid)
-- **Common Myth:** Wearing three pairs of thick cotton socks in oversized skates is the best way to prevent foot blisters.
-- **Pamphlet Fact:** Properly fitted skates coupled with clean, wrinkle-free socks prevent the heel slippage and rubbing that cause most skating blisters (p. 89).
+- **Common Myth:** Beginners think outdoor pond ice that supports one person at the shoreline is safe throughout the center.
+- **Pamphlet Fact:** Currents and thermal springs thin ice unpredictably away from shore, requiring depth soundings across the entire span.
 
 ![Practical Skating field visual showing proper setup, measurement, and technique for skating hazard mitigation and first aid in Requirement 1.](/assets/pamphlet_images/skating_p003_img1.png)
 
@@ -59,11 +53,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Skating Injury and Illness Treatment
+#### Req 1b: Acute Skating First Aid
 **Official Requirement 1b:** Show that you know first aid for injuries or illnesses that could occur while skating, including hypothermia, frostbite, lacerations, abrasions, fractures, sprains and strains, concussions, blisters, heat-related reactions, and shock.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
-- **Common Myth:** Experienced skaters do not need wrist guards or helmets because they can always catch themselves safely with bare hands.
-- **Pamphlet Fact:** When falling while in-line skating or skateboarding, wrist guards and a certified helmet absorb the impact energy that frequently causes distal radius fractures and concussions (p. 89).
+- **Common Myth:** Scouts sometimes think rubbing frostbitten fingers vigorously restores blood flow without causing tissue damage.
+- **Pamphlet Fact:** Friction tears ice crystals inside frozen cells, compounding skin necrosis, so passive slow rewarming in warm water is required.
 
 ![A skater wears a helmet, knee pads, and wrist guards to prevent falling injuries.](/assets/pamphlet_images/skating_p085_img1.png)
 
@@ -73,32 +67,35 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Ice Skating: Rink Safety, Skate Care & Ice Maneuvers
-**Official Requirement 2a (Parent Overview):** Option A, Ice Skating. Do ALL of the following: (1) Explain the general safety and courtesy guidelines for ice skating. (2) Discuss preparations that must be taken when skating outdoors on natural ice. Explain how to make an ice rescue. (3) Discuss the parts and functions of the different types of ice skates. (4) Describe the proper way to carry ice skates at the rink and for travel. (5) Describe how to store ice skates for long periods of time, such as seasonal storage. (6) Skate forward at least 40 feet and come to a complete stop. Use either a two-foot snowplow stop or a one-foot snowplow stop. (7) After skating forward, glide forward on two feet, then on one foot, first right and then left. (8) Starting from a T position, stroke forward around the test area, avoiding the use of toe picks if wearing figure skates. (9) Glide backward on two feet for at least two times the skater's height. (10) Skate backward for at least 20 feet on two skates. (11) After gaining forward speed, glide forward on two feet, making a turn of 180 degrees around a cone, first to the right and then to the left. (12) Perform forward crossovers in a figure-eight pattern. (13) Explain to your counselor the safety considerations for participating in an ice-skating race. (14) Perform a hockey stop.
-**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Review task hazards with your counselor before starting Skating Requirement 2 on specialized skating disciplines and techniques: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.
+### Req 2: Skating Disciplines and Technical Foundations
+**Official Requirement 2 (Parent Overview):** Working under the supervision of an experienced adult, do ONE of the following options: (a) Option A, Ice Skating. Do ALL of the following: (1) Explain the general safety and courtesy guidelines for ice skating. (2) Discuss preparations that must be taken when skating outdoors on natural ice. Explain how to make an ice rescue. (3) Discuss the parts and functions of the different types of ice skates. (4) Describe the proper way to carry ice skates at the rink and for travel. (5) Describe how to store ice skates for long periods of time, such as seasonal storage. (6) Skate forward at least 40 feet and come to a complete stop. Use either a two-foot snowplow stop or a one-foot snowplow stop. (7) After skating forward, glide forward on two feet, then on one foot, first right and then left. (8) Starting from a T position, stroke forward around the test area, avoiding the use of toe picks if wearing figure skates. (9) Glide backward on two feet for at least two times the skater's height. (10) Skate backward for at least 20 feet on two skates. (11) After gaining forward speed, glide forward on two feet, making a turn of 180 degrees around a cone, first to the right and then to the left. (12) Perform forward crossovers in a figure-eight pattern. (13) Explain to your counselor the safety considerations for participating in an ice-skating race. (14) Perform a hockey stop. (b) Option B, Roller Skating. Do ALL of the following: (1) Explain the general safety rules and etiquette guidelines for roller skating. (2) Discuss the parts of a roller skate and their functions. (3) Describe five essential steps to good roller skate care. (4) Skate forward with smooth, linked strokes on two feet for at least 100 feet in both directions around the rink and demonstrate proper techniques for stopping. (5) Skate forward and glide at least 15 feet on one skate, then on the other skate. (6) Perform a forward crossover. (7) Skate backward for at least 40 feet on two skates, then for at least 15 feet on one skate. (8) Skate forward in a slalom pattern for at least 40 feet on two skates, then for at least 20 feet on one skate. (9) Skate backward in a slalom pattern for at least 15 feet on two skates. (10) Shuttle skate once around the rink, bending twice along the way, without stopping. (11) Perform a series of two consecutive spins on skates, OR hop, skip, and jump on skates for at least 10 feet. (12) Perform a stepover. (13) While skating, dribble a basketball at least 40 feet, then back to your starting position, OR push a hockey ball with a stick at least 40 feet, then back to your starting position. (c) Option C, In-Line Skating. Do ALL of the following: (1) Explain the general safety rules and courtesy guidelines for in-line skating. (2) Describe the parts of an in-line skate and their functions. (3) Describe the required and recommended safety equipment for in-line skating. (4) Explain four essential steps to good in-line skate care. (5) Skate forward with smooth, linked strokes on two feet for at least 100 feet. (6) Skate forward and glide at least 15 feet on one skate, then on the other skate. (7) Stop on command on flat pavement using the heel brake. (8) Perform a forward crossover. (9) Perform a series of forward, linked swizzles for at least 40 feet. (10) Skate backward for at least 40 feet in a series of linked, backward swizzles. (11) From a strong pace, perform a lunge turn around an object predetermined by your counselor. (12) Perform a mohawk. (13) Perform a series of at least four one-footed downhill slaloms on pavement with a gentle slope. (14) Describe how to pass a pedestrian or another skater from behind. (15) Describe at least three ways to avoid an unforeseen obstacle while skating. (16) Describe two ways to get on and off a curb, and demonstrate at least one of these methods. (d) Option D, Skateboarding. Do ALL of the following: (1) Explain the history and evolution of skateboarding. (2) Describe the benefits of skateboarding (physical fitness, balance, coordination, perseverance, and creativity). (3) Explain the safety rules and courtesy guidelines for skateboarding, including right-of-way and communication signals and warnings. (4) Explain the protective gear needed to skate safely, including helmet, knee pads, elbow pads, and wrist guards, and show how to wear them correctly. (5) Describe the two main styles of skateboarding (street and vert), and describe common skatepark features (ramps, manual pad, rails, spine, etc.). (6) Explain skateboard anatomy (deck, trucks, wheels, hardware, etc.). (7) Build a board by assembling all pieces (deck, wheels, trucks, hardware, and grip tape) in the proper order. (8) Explain skateboard maintenance (cleaning, adjusting bolts, and replacing parts). (9) Explain the difference between regular and goofy stance, and demonstrate your preferred stance. (10) Demonstrate how to push, cruise, and carve on flat ground. (11) Show at least two braking and stopping techniques. (12) Do a basic ollie and at least one variation. (13) Show how to drop-in from coping. (14) Demonstrate THREE skateboarding tricks from the following types: (a) Flat ground tricks (b) Flip and shove-it tricks (c) Grind and slide tricks (d) Air and grab tricks (e) Footplant tricks
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Group Organizer:** 2-Column Comparison Table
+> **Guide to Safe Scouting Warning:** Inspect axle nuts, kingpin tightness, and blade mountings before every session to prevent catastrophic component detachment.
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Skating Req 2 inspection prior to hands-on station work.
-- **Common Myth:** Fast skaters have the right-of-way to weave in and out against traffic on a crowded indoor rink.
-- **Pamphlet Fact:** All skaters on a rink must skate in the same counterclockwise flow (unless directed otherwise), pass slower skaters on the outside, and keep the center of the rink clear for figure practice (p. 49).
+- **Common Myth:** Novice skaters assume stiff legs and an upright spine provide the most stable skating posture.
+- **Pamphlet Fact:** Flexed knees and ankles lower the skater center of gravity, maintaining balance through irregular surface changes.
 
 **Official Pamphlet Summary:**
-- Req 2a(1) (1): Explain the general safety and courtesy guidelines for ice skating.
-- Req 2a(2) (2): Discuss preparations that must be taken when skating outdoors on natural ice. Explain how to make an ice rescue.
-- Req 2a(3) (3): Discuss the parts and functions of the different types of ice skates.
-- Req 2a(4) (4): Describe the proper way to carry ice skates at the rink and for travel.
-- Req 2a(5) (5): Describe how to store ice skates for long periods of time, such as seasonal storage.
-- Req 2a(6) (6): Skate forward at least 40 feet and come to a complete stop. Use either a two-foot snowplow stop or a one-foot snowplow stop.
-- Req 2a(7) (7): After skating forward, glide forward on two feet, then on one foot, first right and then left.
-- Req 2a(8) (8): Starting from a T position, stroke forward around the test area, avoiding the use of toe picks if wearing figure skates.
-- Req 2a(9) (9): Glide backward on two feet for at least two times the skater's height.
-- Req 2a(10) (10): Skate backward for at least 20 feet on two skates.
-- Req 2a(11) (11): After gaining forward speed, glide forward on two feet, making a turn of 180 degrees around a cone, first to the right and then to the left.
-- Req 2a(12) (12): Perform forward crossovers in a figure-eight pattern.
+- Edge Engagement: Deep blade edges grip ice effectively by distributing body weight over curved steel profiles.
+- Kingpin nuts govern truck turning resistance, balancing board agility against high-speed wobble instabilities.
+- Wheel Hardness: Softer urethane wheels provide superior grip outdoors, while harder wheels maximize indoor rink velocity.
+- Braking Mechanics: In-line heel brakes stop skaters cleanly when forward boot cuffs press backward firmly.
+
+### Req 2a: Ice Skating Safety and Preparations
+**Official Requirement 2a (Parent Overview):** Option A, Ice Skating. Do ALL of the following: (1) Explain the general safety and courtesy guidelines for ice skating. (2) Discuss preparations that must be taken when skating outdoors on natural ice. Explain how to make an ice rescue. (3) Discuss the parts and functions of the different types of ice skates. (4) Describe the proper way to carry ice skates at the rink and for travel. (5) Describe how to store ice skates for long periods of time, such as seasonal storage. (6) Skate forward at least 40 feet and come to a complete stop. Use either a two-foot snowplow stop or a one-foot snowplow stop. (7) After skating forward, glide forward on two feet, then on one foot, first right and then left. (8) Starting from a T position, stroke forward around the test area, avoiding the use of toe picks if wearing figure skates. (9) Glide backward on two feet for at least two times the skater's height. (10) Skate backward for at least 20 feet on two skates. (11) After gaining forward speed, glide forward on two feet, making a turn of 180 degrees around a cone, first to the right and then to the left. (12) Perform forward crossovers in a figure-eight pattern. (13) Explain to your counselor the safety considerations for participating in an ice-skating race. (14) Perform a hockey stop.
+**Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Group Organizer:** Concept & Examples Notes
+> **Guide to Safe Scouting Warning:** Inspect axle nuts, kingpin tightness, and blade mountings before every session to prevent catastrophic component detachment.
+> **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Skating Req 2 inspection prior to hands-on station work.
+- **Common Myth:** Beginners believe thicker wool socks keep feet warmer and improve skate control inside cold boots.
+- **Pamphlet Fact:** Bulky socks compress circulation and induce sweat accumulation, whereas thin synthetic socks preserve circulation and boot fit.
+
+**Official Pamphlet Summary:**
+- Ice skaters must dress in breathable moisture-wicking layers and ensure skate blades are sharpened with appropriate hollow radii. Outdoor lake skating requires verified ice thickness, rescue throw lines, and awareness of ice ruts.
+- Req 2a Standard (Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)): Option A, Ice Skating. Do ALL of the following: (1) Explain the general safety and courtesy guidelines for ice skating. (2) Discuss preparations that must be taken when skating outdoors on natural ice. Explain how to make an ice rescue. (3) Discuss the parts and functions of the different types of ice skates. (4) Describe the proper way to carry ice skates at the rink and for travel. (5) Describe how to store ice skates for long periods of time, such as seasonal storage. (6) Skate forward at least 40 feet and come to a complete stop. Use either a two-foot snowplow stop or a one-foot snowplow stop. (7) After skating forward, glide forward on two feet, then on one foot, first right and then left. (8) Starting from a T position, stroke forward around the test area, avoiding the use of toe picks if wearing figure skates. (9) Glide backward on two feet for at least two times the skater's height. (10) Skate backward for at least 20 feet on two skates. (11) After gaining forward speed, glide forward on two feet, making a turn of 180 degrees around a cone, first to the right and then to the left. (12) Perform forward crossovers in a figure-eight pattern. (13) Explain to your counselor the safety considerations for participating in an ice-skating race. (14) Perform a hockey stop.
 
 #### Req 2a(1): General Safety and Courtesy Guidelines
 **Official Requirement 2a(1):** Explain the general safety and courtesy guidelines for ice skating.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2a(1) Structured Technical Study & Explanation Matrix (General Safety and Courtesy Guidelines)
-> **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Skating Req 2 inspection prior to hands-on station work.
 - **Common Myth:** In Skating Requirement 2a(1), many Scouts assume general safety and courtesy guidelines only requires a general overview rather than specific details on the general safety and courtesy guidelines for ice skating.
 - **Pamphlet Fact:** The official Skating pamphlet for Requirement 2a(1) specifies that Scouts must thoroughly document general safety and courtesy guidelines and explain the general safety and courtesy guidelines for ice skating during counselor review.
 
@@ -282,32 +279,19 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Roller Skating: Safety Rules, Skate Care & Rink Skills
+### Req 2b: Roller Skating Mechanics and Etiquette
 **Official Requirement 2b (Parent Overview):** Option B, Roller Skating. Do ALL of the following: (1) Explain the general safety rules and etiquette guidelines for roller skating. (2) Discuss the parts of a roller skate and their functions. (3) Describe five essential steps to good roller skate care. (4) Skate forward with smooth, linked strokes on two feet for at least 100 feet in both directions around the rink and demonstrate proper techniques for stopping. (5) Skate forward and glide at least 15 feet on one skate, then on the other skate. (6) Perform a forward crossover. (7) Skate backward for at least 40 feet on two skates, then for at least 15 feet on one skate. (8) Skate forward in a slalom pattern for at least 40 feet on two skates, then for at least 20 feet on one skate. (9) Skate backward in a slalom pattern for at least 15 feet on two skates. (10) Shuttle skate once around the rink, bending twice along the way, without stopping. (11) Perform a series of two consecutive spins on skates, OR hop, skip, and jump on skates for at least 10 feet. (12) Perform a stepover. (13) While skating, dribble a basketball at least 40 feet, then back to your starting position, OR push a hockey ball with a stick at least 40 feet, then back to your starting position.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Review task hazards with your counselor before starting Skating Requirement 2 on specialized skating disciplines and techniques: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.
-> **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Skating Req 2 inspection prior to hands-on station work.
-- **Common Myth:** When preparing Skating Requirement 2b (Roller Skating Etiquette and Maneuvers), Scouts sometimes overlook the concrete pamphlet benchmarks covering option b, roller skating.
-- **Pamphlet Fact:** Counselor verification for Skating Requirement 2b requires concrete workbook evidence on roller skating etiquette and maneuvers, specifically addressing option b, roller skating.
+- **Common Myth:** Skaters often think quad toe stops should be dragged backward behind the skater to stop.
+- **Pamphlet Fact:** Toe stops function by lifting the heel while skating forward or turning backward onto the toe block.
 
 **Official Pamphlet Summary:**
-- Req 2b(1) (1): Explain the general safety rules and etiquette guidelines for roller skating.
-- Req 2b(2) (2): Discuss the parts of a roller skate and their functions.
-- Req 2b(3) (3): Describe five essential steps to good roller skate care.
-- Req 2b(4) (4): Skate forward with smooth, linked strokes on two feet for at least 100 feet in both directions around the rink and demonstrate proper techniques for stopping.
-- Req 2b(5) (5): Skate forward and glide at least 15 feet on one skate, then on the other skate.
-- Req 2b(6) (6): Perform a forward crossover.
-- Req 2b(7) (7): Skate backward for at least 40 feet on two skates, then for at least 15 feet on one skate.
-- Req 2b(8) (8): Skate forward in a slalom pattern for at least 40 feet on two skates, then for at least 20 feet on one skate.
-- Req 2b(9) (9): Skate backward in a slalom pattern for at least 15 feet on two skates.
-- Req 2b(10) (10): Shuttle skate once around the rink, bending twice along the way, without stopping.
-- Req 2b(11) (11): Perform a series of two consecutive spins on skates, OR hop, skip, and jump on skates for at least 10 feet.
-- Req 2b(12) (12): Perform a stepover.
+- Quad roller skates rely on front toe stops, independent trucks, and split double-action rubber cushions for turning. Rink etiquette dictates skating in the designated group flow direction and yielding to entering skaters.
+- Req 2b Standard (Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)): Option B, Roller Skating. Do ALL of the following: (1) Explain the general safety rules and etiquette guidelines for roller skating. (2) Discuss the parts of a roller skate and their functions. (3) Describe five essential steps to good roller skate care. (4) Skate forward with smooth, linked strokes on two feet for at least 100 feet in both directions around the rink and demonstrate proper techniques for stopping. (5) Skate forward and glide at least 15 feet on one skate, then on the other skate. (6) Perform a forward crossover. (7) Skate backward for at least 40 feet on two skates, then for at least 15 feet on one skate. (8) Skate forward in a slalom pattern for at least 40 feet on two skates, then for at least 20 feet on one skate. (9) Skate backward in a slalom pattern for at least 15 feet on two skates. (10) Shuttle skate once around the rink, bending twice along the way, without stopping. (11) Perform a series of two consecutive spins on skates, OR hop, skip, and jump on skates for at least 10 feet. (12) Perform a stepover. (13) While skating, dribble a basketball at least 40 feet, then back to your starting position, OR push a hockey ball with a stick at least 40 feet, then back to your starting position.
 
 #### Req 2b(1): General Safety Rules and Etiquette
 **Official Requirement 2b(1):** Explain the general safety rules and etiquette guidelines for roller skating.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2b(1) Structured Technical Study & Explanation Matrix (General Safety Rules and Etiquette)
-> **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Skating Req 2 inspection prior to hands-on station work.
 - **Common Myth:** In Skating Requirement 2b(1), many Scouts assume general safety rules and etiquette only requires a general overview rather than specific details on the general safety rules and etiquette guidelines for roller skating.
 - **Pamphlet Fact:** The official Skating pamphlet for Requirement 2b(1) specifies that Scouts must thoroughly document general safety rules and etiquette and explain the general safety rules and etiquette guidelines for roller skating during counselor review.
 
@@ -463,32 +447,19 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### In-Line Skating: Protective Gear, Braking & Street Skills
+### Req 2c: In-Line Skating Chassis Components
 **Official Requirement 2c (Parent Overview):** Option C, In-Line Skating. Do ALL of the following: (1) Explain the general safety rules and courtesy guidelines for in-line skating. (2) Describe the parts of an in-line skate and their functions. (3) Describe the required and recommended safety equipment for in-line skating. (4) Explain four essential steps to good in-line skate care. (5) Skate forward with smooth, linked strokes on two feet for at least 100 feet. (6) Skate forward and glide at least 15 feet on one skate, then on the other skate. (7) Stop on command on flat pavement using the heel brake. (8) Perform a forward crossover. (9) Perform a series of forward, linked swizzles for at least 40 feet. (10) Skate backward for at least 40 feet in a series of linked, backward swizzles. (11) From a strong pace, perform a lunge turn around an object predetermined by your counselor. (12) Perform a mohawk. (13) Perform a series of at least four one-footed downhill slaloms on pavement with a gentle slope. (14) Describe how to pass a pedestrian or another skater from behind. (15) Describe at least three ways to avoid an unforeseen obstacle while skating. (16) Describe two ways to get on and off a curb, and demonstrate at least one of these methods.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Review task hazards with your counselor before starting Skating Requirement 2 on specialized skating disciplines and techniques: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.
-> **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Skating Req 2 inspection prior to hands-on station work.
-- **Common Myth:** Dropping full body weight abruptly onto the rear T-stop skate brings you to a smoother stop than gradual pressure.
-- **Pamphlet Fact:** In a T-stop, placing the trailing skate at a 90-degree angle behind the gliding foot prevents its wheels or blade from rolling forward, creating smooth sliding friction as weight is gradually applied (p. 49).
+- **Common Myth:** New in-line skaters believe tighter cuff buckles are always better for ankle stability.
+- **Pamphlet Fact:** Overtightened cuffs restrict necessary forward tibia flexion, limiting shock absorption and causing foot numbness.
 
 **Official Pamphlet Summary:**
-- Req 2c(1) (1): Explain the general safety rules and courtesy guidelines for in-line skating.
-- Req 2c(2) (2): Describe the parts of an in-line skate and their functions.
-- Req 2c(3) (3): Describe the required and recommended safety equipment for in-line skating.
-- Req 2c(4) (4): Explain four essential steps to good in-line skate care.
-- Req 2c(5) (5): Skate forward with smooth, linked strokes on two feet for at least 100 feet.
-- Req 2c(6) (6): Skate forward and glide at least 15 feet on one skate, then on the other skate.
-- Req 2c(7) (7): Stop on command on flat pavement using the heel brake.
-- Req 2c(8) (8): Perform a forward crossover.
-- Req 2c(9) (9): Perform a series of forward, linked swizzles for at least 40 feet.
-- Req 2c(10) (10): Skate backward for at least 40 feet in a series of linked, backward swizzles.
-- Req 2c(11) (11): From a strong pace, perform a lunge turn around an object predetermined by your counselor.
-- Req 2c(12) (12): Perform a mohawk.
+- In-line chassis position three to five wheels linearly along an aluminum or composite frame beneath a rigid supportive cuff. Novice skaters use a rear heel brake on the right boot by extending the foot forward and flexing the ankle upward.
+- Req 2c Standard (Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)): Option C, In-Line Skating. Do ALL of the following: (1) Explain the general safety rules and courtesy guidelines for in-line skating. (2) Describe the parts of an in-line skate and their functions. (3) Describe the required and recommended safety equipment for in-line skating. (4) Explain four essential steps to good in-line skate care. (5) Skate forward with smooth, linked strokes on two feet for at least 100 feet. (6) Skate forward and glide at least 15 feet on one skate, then on the other skate. (7) Stop on command on flat pavement using the heel brake. (8) Perform a forward crossover. (9) Perform a series of forward, linked swizzles for at least 40 feet. (10) Skate backward for at least 40 feet in a series of linked, backward swizzles. (11) From a strong pace, perform a lunge turn around an object predetermined by your counselor. (12) Perform a mohawk. (13) Perform a series of at least four one-footed downhill slaloms on pavement with a gentle slope. (14) Describe how to pass a pedestrian or another skater from behind. (15) Describe at least three ways to avoid an unforeseen obstacle while skating. (16) Describe two ways to get on and off a curb, and demonstrate at least one of these methods.
 
 #### Req 2c(1): General Safety Rules and Courtesy
 **Official Requirement 2c(1):** Explain the general safety rules and courtesy guidelines for in-line skating.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2c(1) Structured Technical Study & Explanation Matrix (General Safety Rules and Courtesy)
-> **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Skating Req 2 inspection prior to hands-on station work.
 - **Common Myth:** In Skating Requirement 2c(1), many Scouts assume general safety rules and courtesy only requires a general overview rather than specific details on the general safety rules and courtesy guidelines for in-line skating.
 - **Pamphlet Fact:** The official Skating pamphlet for Requirement 2c(1) specifies that Scouts must thoroughly document general safety rules and courtesy and explain the general safety rules and courtesy guidelines for in-line skating during counselor review.
 
@@ -680,32 +651,20 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Skateboarding: Board Anatomy, Safety Gear & Park Skills
+### Req 2d: Skateboarding Heritage and Physical Fitness
 **Official Requirement 2d (Parent Overview):** Option D, Skateboarding. Do ALL of the following: (1) Explain the history and evolution of skateboarding. (2) Describe the benefits of skateboarding (physical fitness, balance, coordination, perseverance, and creativity). (3) Explain the safety rules and courtesy guidelines for skateboarding, including right-of-way and communication signals and warnings. (4) Explain the protective gear needed to skate safely, including helmet, knee pads, elbow pads, and wrist guards, and show how to wear them correctly. (5) Describe the two main styles of skateboarding (street and vert), and describe common skatepark features (ramps, manual pad, rails, spine, etc.). (6) Explain skateboard anatomy (deck, trucks, wheels, hardware, etc.). (7) Build a board by assembling all pieces (deck, wheels, trucks, hardware, and grip tape) in the proper order. (8) Explain skateboard maintenance (cleaning, adjusting bolts, and replacing parts). (9) Explain the difference between regular and goofy stance, and demonstrate your preferred stance. (10) Demonstrate how to push, cruise, and carve on flat ground. (11) Show at least two braking and stopping techniques. (12) Do a basic ollie and at least one variation. (13) Show how to drop-in from coping. (14) Demonstrate THREE skateboarding tricks from the following types: (a) Flat ground tricks (b) Flip and shove-it tricks (c) Grind and slide tricks (d) Air and grab tricks (e) Footplant tricks.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Review task hazards with your counselor before starting Skating Requirement 2 on specialized skating disciplines and techniques: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.
-> **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Skating Req 2 inspection prior to hands-on station work.
-- **Common Myth:** During a forward crossover turn, the inside skate simply glides passively while only the outside leg pushes.
-- **Pamphlet Fact:** When performing forward crossovers around a corner, BOTH the outside skate crossing over and the inside skate pushing underneath push outward against the turn radius to build speed (p. 49).
+> **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Skating Req 2d inspection prior to hands-on station work.
+- **Common Myth:** Riders think skateboard trucks must be clamped completely rigid to prevent dangerous speed wobbles.
+- **Pamphlet Fact:** Overly tight trucks impair carving control and destabilize riders when encountering surface irregularities.
 
 **Official Pamphlet Summary:**
-- Req 2d(1) (1): Explain the history and evolution of skateboarding.
-- Req 2d(2) (2): Describe the benefits of skateboarding (physical fitness, balance, coordination, perseverance, and creativity)
-- Req 2d(3) (3): Explain the safety rules and courtesy guidelines for skateboarding, including right-of-way and communication signals and warnings.
-- Req 2d(4) (4): Explain the protective gear needed to skate safely, including helmet, knee pads, elbow pads, and wrist guards, and show how to wear them correctly.
-- Req 2d(5) (5): Describe the two main styles of skateboarding (street and vert), and describe common skatepark features (ramps, manual pad, rails, spine, etc.)
-- Req 2d(6) (6): Explain skateboard anatomy (deck, trucks, wheels, hardware, etc.)
-- Req 2d(7) (7): Build a board by assembling all pieces (deck, wheels, trucks, hardware, and grip tape) in the proper order.
-- Req 2d(8) (8): Explain skateboard maintenance (cleaning, adjusting bolts, and replacing parts)
-- Req 2d(9) (9): Explain the difference between regular and goofy stance, and demonstrate your preferred stance.
-- Req 2d(10) (10): Demonstrate how to push, cruise, and carve on flat ground.
-- Req 2d(11) (11): Show at least two braking and stopping techniques.
-- Req 2d(12) (12): Do a basic ollie and at least one variation.
+- Skateboarding evolved from California surfboard culture into an athletic pursuit emphasizing core strength, dynamic balance, and spatial awareness. Pushing and carving activate the lower posterior chain while developing aerobic endurance.
+- Req 2d Standard (Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)): Option D, Skateboarding. Do ALL of the following: (1) Explain the history and evolution of skateboarding. (2) Describe the benefits of skateboarding (physical fitness, balance, coordination, perseverance, and creativity). (3) Explain the safety rules and courtesy guidelines for skateboarding, including right-of-way and communication signals and warnings. (4) Explain the protective gear needed to skate safely, including helmet, knee pads, elbow pads, and wrist guards, and show how to wear them correctly. (5) Describe the two main styles of skateboarding (street and vert), and describe common skatepark features (ramps, manual pad, rails, spine, etc.). (6) Explain skateboard anatomy (deck, trucks, wheels, hardware, etc.). (7) Build a board by assembling all pieces (deck, wheels, trucks, hardware, and grip tape) in the proper order. (8) Explain skateboard maintenance (cleaning, adjusting bolts, and replacing parts). (9) Explain the difference between regular and goofy stance, and demonstrate your preferred stance. (10) Demonstrate how to push, cruise, and carve on flat ground. (11) Show at least two braking and stopping techniques. (12) Do a basic ollie and at least one variation. (13) Show how to drop-in from coping. (14) Demonstrate THREE skateboarding tricks from the following types: (a) Flat ground tricks (b) Flip and shove-it tricks (c) Grind and slide tricks (d) Air and grab tricks (e) Footplant tricks.
 
 #### Req 2d(1): Skating Origins and Evolution
 **Official Requirement 2d(1):** Explain the history and evolution of skateboarding.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Concept & Examples Notes):** Req 2d(1) Structured Technical Study & Explanation Matrix (Skating Origins and Evolution)
-> **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Skating Req 2 inspection prior to hands-on station work.
 - **Common Myth:** In Skating Requirement 2d(1), many Scouts assume skating origins and evolution only requires a general overview rather than specific details on the history and evolution of skateboarding.
 - **Pamphlet Fact:** The official Skating pamphlet for Requirement 2d(1) specifies that Scouts must thoroughly document skating origins and evolution and explain the history and evolution of skateboarding during counselor review.
 
@@ -861,7 +820,7 @@
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
 #### Req 2d(14): Skateboarding Tricks
-**Official Requirement 2d(14):** Demonstrate THREE skateboarding tricks from the following types: (a) Flat ground tricks (b) Flip and shove-it tricks (c) Grind and slide tricks (d) Air and grab tricks (e) Footplant tricks.
+**Official Requirement 2d(14):** Demonstrate THREE skateboarding tricks from the following types: (a) Flat ground tricks (b) Flip and shove-it tricks (c) Grind and slide tricks (d) Air and grab tricks (e) Footplant tricks. (a) Flat ground tricks. (b) Flip and shove-it tricks. (c) Grind and slide tricks. (d) Air and grab tricks. (e) Footplant tricks.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 49, p. 93)* • **Organizer (Skill Demonstration Checklist):** Req 2d(14) Hands-On Skill Station & EDGE Verification Checklist (Skateboarding Tricks)
 - **Common Myth:** When preparing Skating Requirement 2d(14) (Skateboarding Tricks), Scouts sometimes overlook the concrete pamphlet benchmarks covering three skateboarding tricks from the following types, (a) flat ground tricks (b) flip and shove-it tricks.
 - **Pamphlet Fact:** Counselor verification for Skating Requirement 2d(14) requires concrete workbook evidence on skateboarding tricks, specifically addressing three skateboarding tricks from the following types, (a) flat ground tricks (b) flip and shove-it tricks.

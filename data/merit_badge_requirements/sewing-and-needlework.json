@@ -28,11 +28,11 @@
         }
       ],
       "sub_requirements": [],
-      "topic_title": "Req 1: Sewing Tool Safety and Hazard Prevention",
+      "topic_title": "Req 1: Sewing Studio Safety Protocols",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 1: store needles, pins, shears, and rotary cutters in closed cases immediately after working on sewing tool safety and hazard prevention, cut away from your body, and unplug pressing irons when unattended.",
+      "safety_callout": "Always engage the rotary blade safety latch before placing the tool on any surface.",
       "pamphlet_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 4-9",
       "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 4-9",
       "syllabus_bucket": "In-Class Concept",
@@ -62,8 +62,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Holding straight pins between your lips while basting fabric is a harmless way to keep them within easy reach.",
-        "fact": "Holding pins or needles in your mouth creates an immediate swallowing or inhalation hazard if you cough, trip, or get startled, so pins belong in a pincushion or magnetic holder (p. 4)."
+        "misconception": "Rotary cutters work exactly like dull pizza wheels and require no blade guard.",
+        "fact": "Rotary blades possess extreme razor sharpness that causes severe lacerations without safety guards.",
+        "myth": "Rotary cutters work exactly like dull pizza wheels and require no blade guard.",
+        "fact_correction": "Rotary blades possess extreme razor sharpness that causes severe lacerations without safety guards."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -92,16 +94,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Sewing Tool Safety and Hazard Prevention: Sewing tool safety and hazard prevention, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 4).",
-        "Required Adult Tool Permission: When using a sewing machine or rotary cutter, always obtain your parent or guardian and counselor's permission (p. 4).",
-        "Sewing Tool Safety and Hazard Prevention: Sewing tool safety and hazard prevention, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 10).",
-        "Counselor Safety Readiness Review: Review your completed Sewing and Needlework Hazards and First Aid evidence and demonstrate proficiency during your counselor conference (p. 10)."
+        "Rotary Cutter Safety: Always close the blade safety shield immediately after finishing every individual fabric cut.",
+        "Needle Disposal Method: Place broken sewing machine needles inside a hard puncture resistant container before disposal.",
+        "Iron Temperature Settings: Select lower heat settings for synthetic fibers to prevent melted fabric burns.",
+        "Finger Guard Clearance: Keep hands four inches away from moving machine needles during active stitching."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Sewing Tool Safety and Hazard Prevention: Sewing tool safety and hazard prevention, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 10).",
-        "Step 2 - Demonstrate Safe Tool Handling: Review your completed Sewing and Needlework Hazards and First Aid evidence and demonstrate proficiency during your counselor conference (p. 10).",
-        "Step 3 - Study Tool Safety Rules: For Sewing and Needlework Requirement 1 (Sewing and Needlework Hazards and First Aid), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 4).",
-        "Step 4 - Log Hazard Prevention Notes: Record concrete observations, measurements, and examples for Sewing and Needlework Hazards and First Aid in your Sewing and Needlework Scout Workbook (p. 4)."
+        "Step 1 - Workspace Organization: Clear scissors and pins off the cutting surface before beginning fabric layout.",
+        "Step 2 - Blade Guard Check: Confirm the rotary cutter blade retracts fully into its protective safety housing.",
+        "Step 3 - Iron Station Preparation: Position the iron cord safely to avoid snagging while pressing fabric seams.",
+        "Step 4 - Machine Speed Setting: Adjust the foot pedal speed controller to low before starting any stitches."
       ],
       "gear_checklist": [
         "Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 1",
@@ -184,7 +186,13 @@
         "site_requirement": "Approved Sewing and Needlework demonstration area for Requirement 1",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Uniformed Scout and counselor reviewing sewing safety with a pincushion, guarded rotary cutter, and thimble."
+      "workbook_visual_caption": "Uniformed Scout and counselor reviewing sewing safety with a pincushion, guarded rotary cutter, and thimble.",
+      "pamphlet_summary": "Safe sewing requires proper posture and constant awareness around sharp blades and hot irons. Scouts must secure loose hair and obtain adult permission before operating powered equipment.",
+      "socratic_questions": [
+        "Why does a sharp sewing needle pose less puncture danger than a dull or bent one?",
+        "How does proper body posture at the sewing table reduce hand fatigue and cutting errors?",
+        "What emergency steps should your patrol take if an electric cord frays during machine use?"
+      ]
     },
     {
       "req_id": "2",
@@ -229,8 +237,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 10-15",
           "common_misconception_pair": {
-            "misconception": "Flat four-hole buttons should be stitched as tightly as possible against the garment fabric so they cannot wobble.",
-            "fact": "Buttons need a small thread shank or spacer underneath them so the overlapping fabric layer has room to fit cleanly beneath the button when fastened (p. 13)."
+            "misconception": "A field sewing kit requires full size dressmaker shears and large thread spools.",
+            "fact": "Compact embroidery snips and carded thread bobbins maximize pack space and repair utility.",
+            "myth": "A field sewing kit requires full size dressmaker shears and large thread spools.",
+            "fact_correction": "Compact embroidery snips and carded thread bobbins maximize pack space and repair utility."
           },
           "starting_requirement_gate": {
             "gate_type": "EQUIPMENT_GATE",
@@ -261,10 +271,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Assemble a basic sewing and repair kit and explain the purpose of each item.",
-          "topic_title": "Req 2a: Basic Sewing Repair Kit",
-          "pamphlet_summary": "Basic Sewing Repair Kit: Assemble a basic sewing and repair kit and explain the purpose of each item (p. 10).",
+          "topic_title": "Req 2a: Emergency Field Sewing Kit",
+          "pamphlet_summary": "A compact sewing kit contains needles, thread, small shears, safety pins, and spare buttons for field repairs. Storing these tools in a water resistant container keeps needles rust free during outdoor treks.",
           "pamphlet_excerpts": [
-            "Basic Sewing Repair Kit: Assemble a basic sewing and repair kit and explain the purpose of each item (p. 10)."
+            "A compact sewing kit contains needles, thread, small shears, safety pins, and spare buttons for field repairs. Storing these tools in a water resistant container keeps needles rust free during outdoor treks."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Sewing and Needlework technical diagram of essential hand sewing and mending skills for Requirement 2 field execution.",
@@ -309,8 +319,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 10-15",
           "common_misconception_pair": {
-            "misconception": "Using fabric glue or iron-on adhesive alone is sufficient to keep a Scout uniform patch permanently attached through repeated washing.",
-            "fact": "Iron-on backing only holds a badge in position temporarily, whereas a neat whip stitch or hidden slip stitch around the merrowed border keeps the patch secure (p. 12)."
+            "misconception": "Licking frayed thread ends creates the best tip for threading small needle eyes.",
+            "fact": "Cutting thread at a forty five degree angle creates a crisp stiff point.",
+            "myth": "Licking frayed thread ends creates the best tip for threading small needle eyes.",
+            "fact_correction": "Cutting thread at a forty five degree angle creates a crisp stiff point."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -336,10 +348,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Thread a needle and tie a quilter's or tailor's knot in a piece of fabric.",
-          "topic_title": "Req 2b: Threading Needles and Knots",
-          "pamphlet_summary": "Threading Needles and Knots: Thread a needle and tie a quilter's or tailor's knot in a piece of fabric (p. 10).",
+          "topic_title": "Req 2b: Needle Threading and Knotting",
+          "pamphlet_summary": "Threading needles smoothly requires a clean diagonal thread cut and steady finger placement. A quilter knot forms a secure ball that cannot pull through fabric weaves.",
           "pamphlet_excerpts": [
-            "Threading Needles and Knots: Thread a needle and tie a quilter's or tailor's knot in a piece of fabric (p. 10)."
+            "Threading needles smoothly requires a clean diagonal thread cut and steady finger placement. A quilter knot forms a secure ball that cannot pull through fabric weaves."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Sewing and Needlework technical diagram of essential hand sewing and mending skills for Requirement 2 field execution.",
@@ -651,8 +663,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 10-15",
           "common_misconception_pair": {
-            "misconception": "Visible mending is a sloppy shortcut used only when you do not have matching thread to hide a tear.",
-            "fact": "Visible mending intentionally uses contrasting threads, decorative darning, or sashiko-inspired stitching to reinforce worn fabric while turning the repair into a design feature (p. 15)."
+            "misconception": "Every hand sewing project relies on the standard running stitch for structural seams.",
+            "fact": "Running stitches pull apart under stress and serve primarily for basting or gathering.",
+            "myth": "Every hand sewing project relies on the standard running stitch for structural seams.",
+            "fact_correction": "Running stitches pull apart under stress and serve primarily for basting or gathering."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -678,10 +692,10 @@
           "id": "2c",
           "sub_req_label": "2c",
           "sub_req_text": "Demonstrate the following sewing techniques, including when and why each is used.",
-          "topic_title": "Req 2c: Fundamental Hand Stitch Techniques",
-          "pamphlet_summary": "For Sewing and Needlework Requirement 2c (Fundamental Hand Stitch Techniques): The Sewing and Needlework pamphlet for Requirement 2c details the following sewing techniques, including when and why each is used, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+          "topic_title": "Req 2c: Core Hand Stitch Demonstrations",
+          "pamphlet_summary": "Running stitches baste temporary layers, while backstitches create permanent structural seams. Overcast stitches prevent cut fabric edges from unraveling under repeated washings.",
           "pamphlet_excerpts": [
-            "Fundamental Hand Stitch Techniques: The Sewing and Needlework pamphlet for Requirement 2c details the following sewing techniques, including when and why each is used, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+            "Running stitches baste temporary layers, while backstitches create permanent structural seams. Overcast stitches prevent cut fabric edges from unraveling under repeated washings."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Sewing and Needlework technical diagram of essential hand sewing and mending skills for Requirement 2 field execution.",
@@ -722,8 +736,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 10-15",
           "common_misconception_pair": {
-            "misconception": "During Sewing and Needlework Requirement 2d, Scouts can underestimate how directly mastery of uniform patch attachment depends on understanding sew a patch on your uniform or other fabric.",
-            "fact": "Scouting America standards for Sewing and Needlework Requirement 2d require complete workbook entries on uniform patch attachment to demonstrate full understanding of sew a patch on your uniform or other fabric."
+            "misconception": "Iron on adhesive backing secures uniform patches permanently without any needle stitching needed.",
+            "fact": "Heat activated adhesive degrades quickly in laundry cycles and requires perimeter hand stitching.",
+            "myth": "Iron on adhesive backing secures uniform patches permanently without any needle stitching needed.",
+            "fact_correction": "Heat activated adhesive degrades quickly in laundry cycles and requires perimeter hand stitching."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -749,10 +765,10 @@
           "id": "2d",
           "sub_req_label": "2d",
           "sub_req_text": "Sew a patch on your uniform or other fabric.",
-          "topic_title": "Req 2d: Uniform Patch Attachment",
-          "pamphlet_summary": "For Sewing and Needlework Requirement 2d (Uniform Patch Attachment): The Sewing and Needlework pamphlet for Requirement 2d details sew a patch on your uniform or other fabric, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+          "topic_title": "Req 2d: Uniform Patch Attachment Technique",
+          "pamphlet_summary": "Pinning patches flat prevents fabric bunching during the application of edge stitches. A blind stitch or whipstitch around the border secures the emblem cleanly.",
           "pamphlet_excerpts": [
-            "Uniform Patch Attachment: The Sewing and Needlework pamphlet for Requirement 2d details sew a patch on your uniform or other fabric, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+            "Pinning patches flat prevents fabric bunching during the application of edge stitches. A blind stitch or whipstitch around the border secures the emblem cleanly."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Sewing and Needlework technical diagram of essential hand sewing and mending skills for Requirement 2 field execution.",
@@ -793,10 +809,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 10-15",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Button Attachment and Shanks (Req 2e) or confusing Button Attachment and Shanks with general Essential Hand Sewing and Mending Skills procedures.",
-            "fact": "For Requirement 2e (Button Attachment and Shanks), The Sewing and Needlework pamphlet for Requirement 2e details sew a button onto an item, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
-            "myth": "Overlooking the specific field checks required for Button Attachment and Shanks (Req 2e) or confusing Button Attachment and Shanks with general Essential Hand Sewing and Mending Skills procedures.",
-            "fact_correction": "For Requirement 2e (Button Attachment and Shanks), The Sewing and Needlework pamphlet for Requirement 2e details sew a button onto an item, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+            "misconception": "Pulling button stitches tightly against the fabric surface ensures the strongest long term bond.",
+            "fact": "Tight buttons lack clearance for garment buttonholes and tear fabric fibers during closure.",
+            "myth": "Pulling button stitches tightly against the fabric surface ensures the strongest long term bond.",
+            "fact_correction": "Tight buttons lack clearance for garment buttonholes and tear fabric fibers during closure."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -822,10 +838,10 @@
           "id": "2e",
           "sub_req_label": "2e",
           "sub_req_text": "Sew a button onto an item.",
-          "topic_title": "Req 2e: Button Attachment and Shanks",
-          "pamphlet_summary": "For Sewing and Needlework Requirement 2e (Button Attachment and Shanks): The Sewing and Needlework pamphlet for Requirement 2e details sew a button onto an item, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+          "topic_title": "Req 2e: Button Shank Attachment Method",
+          "pamphlet_summary": "Sewing flat buttons over a toothpick creates necessary shank clearance for thick fabrics. Wrapping thread firmly around the raised thread stem reinforces the button against strain.",
           "pamphlet_excerpts": [
-            "Button Attachment and Shanks: The Sewing and Needlework pamphlet for Requirement 2e details sew a button onto an item, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+            "Sewing flat buttons over a toothpick creates necessary shank clearance for thick fabrics. Wrapping thread firmly around the raised thread stem reinforces the button against strain."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p007_img1.png",
           "title": "Req 2e: Button Attachment and Shanks",
@@ -871,8 +887,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 10-15",
           "common_misconception_pair": {
-            "misconception": "When preparing Sewing and Needlework Requirement 2f (Req 2f Upcycling With Visible Mending), Scouts sometimes overlook the specific details needed to upcycle by practicing visible mending to patch a piece of clothing or mater.",
-            "fact": "Counselor verification for Sewing and Needlework Requirement 2f requires concrete workbook evidence covering req 2f upcycling with visible mending and a clear explanation of how to upcycle by practicing visible mending to patch a piece of clothing or mater."
+            "misconception": "Visible mending hides tears completely by blending camouflage thread colors into damaged cloth.",
+            "fact": "Visible mending intentionally displays contrasting stitches and patches to celebrate textile longevity and repair.",
+            "myth": "Visible mending hides tears completely by blending camouflage thread colors into damaged cloth.",
+            "fact_correction": "Visible mending intentionally displays contrasting stitches and patches to celebrate textile longevity and repair."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -898,21 +916,21 @@
           "id": "2f",
           "sub_req_label": "2f",
           "sub_req_text": "Upcycle by practicing visible mending to patch a piece of clothing or material.",
-          "topic_title": "Req 2f: Upcycling With Visible Mending",
-          "pamphlet_summary": "For Sewing and Needlework Requirement 2f (Upcycling With Visible Mending): The Sewing and Needlework pamphlet for Requirement 2f details upcycle by practicing visible mending to patch a piece of clothing or material, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+          "topic_title": "Req 2f: Visible Mending and Upcycling",
+          "pamphlet_summary": "Sashiko geometric stitching reinforces worn fabric while highlighting the mended area with decorative thread. Upcycling extends garment lifespans by turning structural damage into artistic textile embellishment.",
           "pamphlet_excerpts": [
-            "Upcycling With Visible Mending: The Sewing and Needlework pamphlet for Requirement 2f details upcycle by practicing visible mending to patch a piece of clothing or material, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+            "Sashiko geometric stitching reinforces worn fabric while highlighting the mended area with decorative thread. Upcycling extends garment lifespans by turning structural damage into artistic textile embellishment."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Sewing and Needlework technical diagram of essential hand sewing and mending skills for Requirement 2 field execution.",
           "workbook_visual_caption": "Illustrated Sewing and Needlework technical diagram of essential hand sewing and mending skills for Requirement 2 field execution."
         }
       ],
-      "topic_title": "Req 2: Essential Hand Sewing and Mending Skills",
+      "topic_title": "Req 2: Essential Hand Stitching Methods",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 2: store needles, pins, shears, and rotary cutters in closed cases immediately after working on essential hand sewing and mending skills, cut away from your body, and unplug pressing irons when unattended.",
+      "safety_callout": "Push needles into a fabric pincushion rather than holding them in your mouth or lapel.",
       "pamphlet_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 10-15",
       "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 10-15",
       "syllabus_bucket": "In-Class Demonstration",
@@ -948,8 +966,10 @@
         "min_rows": 6
       },
       "common_misconception_pair": {
-        "misconception": "Cutting a three-foot length of thread makes hand sewing faster because you do not have to rethread the needle as often.",
-        "fact": "Working with a thread longer than 18 to 24 inches causes frequent tangling, knotting, and fraying as the strand is pulled repeatedly through the fabric (p. 10)."
+        "misconception": "Using double strands of extra long thread makes hand sewn seams stronger and faster.",
+        "fact": "Excessively long thread creates severe knots and weakens fiber integrity through repeated friction.",
+        "myth": "Using double strands of extra long thread makes hand sewn seams stronger and faster.",
+        "fact_correction": "Excessively long thread creates severe knots and weakens fiber integrity through repeated friction."
       },
       "starting_requirement_gate": {
         "gate_type": "EQUIPMENT_GATE",
@@ -978,16 +998,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Assembling Your Repair Kit: Assemble a basic sewing and repair kit and explain the purpose of each item (p. 10).",
-        "Threading and Starter Knots: Thread a needle and tie a quilter's or tailor's knot in a piece of fabric (p. 10).",
-        "Selecting Hand Stitch Types: Demonstrate the following sewing techniques, including when and why each is used (p. 10).",
-        "Basic Running Stitch Mechanics: Running stitch (p. 10)."
+        "Thimble Selection Standard: Wear a metal or leather thimble on the middle finger for control.",
+        "Thread Length Rule: Cut hand sewing thread eighteen inches long to prevent tangles and knots.",
+        "Backstitch Seam Strength: Overlapping backstitches produce durable seams that resist tension in high stress repairs.",
+        "Tailors Knot Purpose: Wrapping thread twice around the needle tip creates a neat anchored knot."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Practice Core Hand Stitches: Demonstrate the following sewing techniques, including when and why each is used (p. 10).",
-        "Step 2 - Sew Even Running Stitches: Running stitch (p. 10).",
-        "Step 3 - Essential Hand Sewing and Mending Skills: Essential hand sewing and mending skills, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 14).",
-        "Step 4 - Present Completed Handwork Samples: Review your completed Hand Sewing evidence and demonstrate proficiency during your counselor conference (p. 14)."
+        "Step 1 - Needle Threading: Thread the cut strand cleanly through the needle eye without fraying fibers.",
+        "Step 2 - Tailor Knot Creation: Wrap the working thread around the needle twice and pull it taut.",
+        "Step 3 - Fabric Piercing: Push the needle tip through both layers of cloth using a thimble.",
+        "Step 4 - Seam Lock Finish: Take two tiny anchor stitches in place before cutting the trailing thread."
       ],
       "gear_checklist": [
         "Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 2",
@@ -996,17 +1016,17 @@
         "Completed sample piece and stitch log for Essential Hand Sewing and Mending Skills"
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Basic Sewing Repair Kit",
-        "right_header": "Req 2d: Uniform Patch Attachment",
+        "left_header": "Req 2a: Emergency Field Sewing Kit",
+        "right_header": "Req 2d: Uniform Patch Attachment Technique",
         "left_points": [
-          "(2a) Basic Sewing Repair Kit: Assemble a basic sewing and repair kit and explain the purpose of each item (p. 10).",
-          "(2b) Threading Needles and Knots: Thread a needle and tie a quilter's or tailor's knot in a piece of fabric (p. 10).",
-          "(2c) Fundamental Hand Stitch Techniques: The Sewing and Needlework pamphlet for Requirement 2c details the following sewing techniques, including when and why each is used, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+          "(2a) Emergency Field Sewing Kit: A compact sewing kit contains needles, thread, small shears, safety pins, and spare buttons for field repairs. Storing these tools in a water resistant container keeps needles rust free during outdoor treks.",
+          "(2b) Needle Threading and Knotting: Threading needles smoothly requires a clean diagonal thread cut and steady finger placement. A quilter knot forms a secure ball that cannot pull through fabric weaves.",
+          "(2c) Core Hand Stitch Demonstrations: Running stitches baste temporary layers, while backstitches create permanent structural seams. Overcast stitches prevent cut fabric edges from unraveling under repeated washings."
         ],
         "right_points": [
-          "(2d) Uniform Patch Attachment: The Sewing and Needlework pamphlet for Requirement 2d details sew a patch on your uniform or other fabric, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
-          "(2e) Button Attachment and Shanks: The Sewing and Needlework pamphlet for Requirement 2e details sew a button onto an item, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
-          "(2f) Upcycling With Visible Mending: The Sewing and Needlework pamphlet for Requirement 2f details upcycle by practicing visible mending to patch a piece of clothing or material, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+          "(2d) Uniform Patch Attachment Technique: Pinning patches flat prevents fabric bunching during the application of edge stitches. A blind stitch or whipstitch around the border secures the emblem cleanly.",
+          "(2e) Button Shank Attachment Method: Sewing flat buttons over a toothpick creates necessary shank clearance for thick fabrics. Wrapping thread firmly around the raised thread stem reinforces the button against strain.",
+          "(2f) Visible Mending and Upcycling: Sashiko geometric stitching reinforces worn fabric while highlighting the mended area with decorative thread. Upcycling extends garment lifespans by turning structural damage into artistic textile embellishment."
         ],
         "rows": [
           {
@@ -1030,10 +1050,10 @@
         "title": "Sewing and Needlework Req 2 Exemplar Workbook Entry: Essential Hand Sewing and Mending Skills",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a (Basic Sewing Repair Kit)": "Assemble a basic sewing and repair kit and explain the purpose of each item (p. 10).",
-          "Req 2b (Threading Needles and Knots)": "Thread a needle and tie a quilter's or tailor's knot in a piece of fabric (p. 10).",
-          "Req 2c - Fundamental Hand Stitch Techniques": "The Sewing and Needlework pamphlet for Requirement 2c details the following sewing techniques, including when and why each is used, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
-          "Req 2d (Uniform Patch Attachment)": "The Sewing and Needlework pamphlet for Requirement 2d details sew a patch on your uniform or other fabric, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+          "Req 2a - Emergency Field Sewing Kit": "A compact sewing kit contains needles, thread, small shears, safety pins, and spare buttons for field repairs. Storing these tools in a water resistant container keeps needles rust free during outdoor treks.",
+          "Req 2b - Needle Threading and Knotting": "Threading needles smoothly requires a clean diagonal thread cut and steady finger placement. A quilter knot forms a secure ball that cannot pull through fabric weaves.",
+          "Req 2c - Core Hand Stitch Demonstrations": "Running stitches baste temporary layers, while backstitches create permanent structural seams. Overcast stitches prevent cut fabric edges from unraveling under repeated washings.",
+          "Req 2d - Uniform Patch Attachment Techniqu": "Pinning patches flat prevents fabric bunching during the application of edge stitches. A blind stitch or whipstitch around the border secures the emblem cleanly."
         },
         "sample_output": "Essential Hand Sewing and Mending Skills: Running stitch (p. 10).",
         "counselor_tip": "For Sewing and Needlework Requirement 2 (Essential Hand Sewing and Mending Skills), verify the Scout's own observations and specific pamphlet details (Sewing and Needlework Test Lab Resource Guide, pp. 10-15)."
@@ -1070,7 +1090,13 @@
         "site_requirement": "Approved Sewing and Needlework demonstration area for Requirement 2",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Scout assembling a field sewing kit and practicing running stitch, back stitch, whip stitch, and button attachment."
+      "workbook_visual_caption": "Scout assembling a field sewing kit and practicing running stitch, back stitch, whip stitch, and button attachment.",
+      "pamphlet_summary": "Hand stitching provides fundamental construction techniques for garment assembly and gear repair in camp. Mastering specific knotting and stitch patterns ensures durable repairs on varied woven fabrics.",
+      "socratic_questions": [
+        "When would a slip stitch be superior to a whipstitch on an outer jacket hem?",
+        "Why do tailored garments require different hand needles for silk than for heavy wool?",
+        "How does thread tension determine whether a repaired seam puckers or lies flat?"
+      ]
     },
     {
       "req_id": "3",
@@ -2610,8 +2636,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
-            "misconception": "If loops of thread bunch up on the underside of your fabric while machine sewing, the lower bobbin tension is always the problem.",
-            "fact": "Thread loops on the underside of the seam almost always indicate that the upper thread missed the take-up lever or did not seat inside the upper tension discs (p. 17)."
+            "misconception": "Turning the machine handwheel away from you clears jammed thread knots safely.",
+            "fact": "Turning the handwheel backwards tangles the bobbin thread race and disrupts mechanical timing.",
+            "myth": "Turning the machine handwheel away from you clears jammed thread knots safely.",
+            "fact_correction": "Turning the handwheel backwards tangles the bobbin thread race and disrupts mechanical timing."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2637,10 +2665,10 @@
           "id": "3A",
           "sub_req_label": "3A",
           "sub_req_text": "Machine Sewing.",
-          "topic_title": "Req 3A: Machine Sewing Fundamentals",
-          "pamphlet_summary": "Machine Sewing Fundamentals: Machine Sewing (p. 16).",
+          "topic_title": "Req 3A: Mechanical Sewing Machine Operation",
+          "pamphlet_summary": "Modern lockstitch machines link upper needle thread with lower bobbin thread beneath the throat plate. Maintaining proper upper tension disks ensures balanced stitches that do not loop on either fabric side.",
           "pamphlet_excerpts": [
-            "Machine Sewing Fundamentals: Machine Sewing (p. 16)."
+            "Modern lockstitch machines link upper needle thread with lower bobbin thread beneath the throat plate. Maintaining proper upper tension disks ensures balanced stitches that do not loop on either fabric side."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p009_img1.png",
           "workbook_diagram_caption": "Comparison of machine seam stitching, yarn knitting, hoop embroidery, and quilt piecing.",
@@ -3412,8 +3440,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
-            "misconception": "Knitting and crochet use the exact same tools and hold only one active loop at a time.",
-            "fact": "Knitting holds an entire row of live loops across two needles, whereas crochet works with a single hooked needle and usually keeps one active loop on the hook (p. 18)."
+            "misconception": "Dropped knitting stitches require ripping out entire garment sections back to cast on.",
+            "fact": "A small crochet hook easily catches and latches dropped loops up the column.",
+            "myth": "Dropped knitting stitches require ripping out entire garment sections back to cast on.",
+            "fact_correction": "A small crochet hook easily catches and latches dropped loops up the column."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3439,10 +3469,10 @@
           "id": "3B",
           "sub_req_label": "3B",
           "sub_req_text": "Knitting.",
-          "topic_title": "Req 3B: Two-Needle Yarn Knitting",
-          "pamphlet_summary": "For Sewing and Needlework Requirement 3B (Two-Needle Yarn Knitting): The Sewing and Needlework pamphlet for Requirement 3B details core principles and practical standards for two-needle yarn knitting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+          "topic_title": "Req 3B: Fundamentals of Knitted Fabrics",
+          "pamphlet_summary": "Knitting constructs elastic textiles by interlocking yarn loops across two pointed needles using knit and purl stitches. Controlling hand tension produces uniform rows and prevents uneven fabric stretching.",
           "pamphlet_excerpts": [
-            "Two-Needle Yarn Knitting: The Sewing and Needlework pamphlet for Requirement 3B details core principles and practical standards for two-needle yarn knitting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+            "Knitting constructs elastic textiles by interlocking yarn loops across two pointed needles using knit and purl stitches. Controlling hand tension produces uniform rows and prevents uneven fabric stretching."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p009_img1.png",
           "workbook_diagram_caption": "Comparison of machine seam stitching, yarn knitting, hoop embroidery, and quilt piecing.",
@@ -4067,8 +4097,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
-            "misconception": "For Sewing and Needlework Requirement 3C, a common mistake in single-hook yarn crochet is treating single-hook yarn crochet as optional background reading.",
-            "fact": "Mastering Sewing and Needlework Requirement 3C means following the pamphlet standard for single-hook yarn crochet and recording accurate notes on single-hook yarn crochet."
+            "misconception": "Crochet fabrics stretch identically to knitted fabrics in both length and width.",
+            "fact": "Crochet structures produce denser, less elastic fabrics than knitting due to knotted loop nodes.",
+            "myth": "Crochet fabrics stretch identically to knitted fabrics in both length and width.",
+            "fact_correction": "Crochet structures produce denser, less elastic fabrics than knitting due to knotted loop nodes."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -4094,10 +4126,10 @@
           "id": "3C",
           "sub_req_label": "3C",
           "sub_req_text": "Crochet.",
-          "topic_title": "Req 3C: Single-Hook Yarn Crochet",
-          "pamphlet_summary": "For Sewing and Needlework Requirement 3C (Single-Hook Yarn Crochet): The Sewing and Needlework pamphlet for Requirement 3C details core principles and practical standards for single-hook yarn crochet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+          "topic_title": "Req 3C: Structural Crochet Stitch Practice",
+          "pamphlet_summary": "Crochet creates textured, sturdy textiles by pulling loops through previous stitches with a single hooked tool. Changing stitch height from single to double crochet alters fabric density and flexibility.",
           "pamphlet_excerpts": [
-            "Single-Hook Yarn Crochet: The Sewing and Needlework pamphlet for Requirement 3C details core principles and practical standards for single-hook yarn crochet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+            "Crochet creates textured, sturdy textiles by pulling loops through previous stitches with a single hooked tool. Changing stitch height from single to double crochet alters fabric density and flexibility."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p009_img1.png",
           "workbook_diagram_caption": "Comparison of machine seam stitching, yarn knitting, hoop embroidery, and quilt piecing.",
@@ -4350,8 +4382,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
-            "misconception": "During Sewing and Needlework Requirement 3D, Scouts can underestimate how directly mastery of decorative hand embroidery depends on understanding hand embroidery.",
-            "fact": "Scouting America standards for Sewing and Needlework Requirement 3D require complete workbook entries on decorative hand embroidery to demonstrate full understanding of hand embroidery."
+            "misconception": "Threading all six strands of embroidery floss creates the neatest decorative details.",
+            "fact": "Separating floss into individual strands before recombining prevents twisted threads and bulky stitches.",
+            "myth": "Threading all six strands of embroidery floss creates the neatest decorative details.",
+            "fact_correction": "Separating floss into individual strands before recombining prevents twisted threads and bulky stitches."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -4377,10 +4411,10 @@
           "id": "3D",
           "sub_req_label": "3D",
           "sub_req_text": "Hand Embroidery.",
-          "topic_title": "Req 3D: Decorative Hand Embroidery",
-          "pamphlet_summary": "For Sewing and Needlework Requirement 3D (Decorative Hand Embroidery): The Sewing and Needlework pamphlet for Requirement 3D details hand Embroidery, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+          "topic_title": "Req 3D: Surface Hand Embroidery Art",
+          "pamphlet_summary": "Hand embroidery decorates woven cloth using varied floss strands, specialized needles, and decorative stitch families. Hooping base fabric smoothly prevents surface distortion while stitching satin or French knot designs.",
           "pamphlet_excerpts": [
-            "Decorative Hand Embroidery: The Sewing and Needlework pamphlet for Requirement 3D details hand Embroidery, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+            "Hand embroidery decorates woven cloth using varied floss strands, specialized needles, and decorative stitch families. Hooping base fabric smoothly prevents surface distortion while stitching satin or French knot designs."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p009_img1.png",
           "workbook_diagram_caption": "Comparison of machine seam stitching, yarn knitting, hoop embroidery, and quilt piecing.",
@@ -4728,10 +4762,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Layered Fabric Applique (Req 3E) or confusing Layered Fabric Applique with general Specialized Needlework and Machine Options procedures.",
-            "fact": "For Requirement 3E (Layered Fabric Applique), The Sewing and Needlework pamphlet for Requirement 3E details core principles and practical standards for layered fabric applique, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
-            "myth": "Overlooking the specific field checks required for Layered Fabric Applique (Req 3E) or confusing Layered Fabric Applique with general Specialized Needlework and Machine Options procedures.",
-            "fact_correction": "For Requirement 3E (Layered Fabric Applique), The Sewing and Needlework pamphlet for Requirement 3E details core principles and practical standards for layered fabric applique, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+            "misconception": "Fusible web eliminates the requirement for edge stitching on washable appliqué projects.",
+            "fact": "Fusible adhesives peel after washing unless reinforced with edge stitching along every contour.",
+            "myth": "Fusible web eliminates the requirement for edge stitching on washable appliqué projects.",
+            "fact_correction": "Fusible adhesives peel after washing unless reinforced with edge stitching along every contour."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -4757,10 +4791,10 @@
           "id": "3E",
           "sub_req_label": "3E",
           "sub_req_text": "Appliqué.",
-          "topic_title": "Req 3E: Layered Fabric Applique",
-          "pamphlet_summary": "For Sewing and Needlework Requirement 3E (Layered Fabric Applique): The Sewing and Needlework pamphlet for Requirement 3E details core principles and practical standards for layered fabric applique, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+          "topic_title": "Req 3E: Decorative Fabric Appliqué Methods",
+          "pamphlet_summary": "Appliqué bonds or stitches smaller fabric motifs onto a larger background foundation to build complex pictorial designs. Securing raw edges with satin or blanket stitching prevents fraying during laundering.",
           "pamphlet_excerpts": [
-            "Layered Fabric Applique: The Sewing and Needlework pamphlet for Requirement 3E details core principles and practical standards for layered fabric applique, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+            "Appliqué bonds or stitches smaller fabric motifs onto a larger background foundation to build complex pictorial designs. Securing raw edges with satin or blanket stitching prevents fraying during laundering."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p009_img1.png",
           "workbook_diagram_caption": "Comparison of machine seam stitching, yarn knitting, hoop embroidery, and quilt piecing.",
@@ -5552,8 +5586,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
-            "misconception": "When preparing Sewing and Needlework Requirement 3F (Three-Layer Patchwork Quilting), Scouts sometimes overlook the concrete pamphlet benchmarks covering three-layer patchwork quilting.",
-            "fact": "Counselor verification for Sewing and Needlework Requirement 3F requires concrete workbook evidence on three-layer patchwork quilting, specifically addressing three-layer patchwork quilting."
+            "misconception": "Thicker polyester batting always produces warmer and more durable heirloom bed quilts.",
+            "fact": "Dense low loft cotton batting breathes better and prevents thread strain along quilt seams.",
+            "myth": "Thicker polyester batting always produces warmer and more durable heirloom bed quilts.",
+            "fact_correction": "Dense low loft cotton batting breathes better and prevents thread strain along quilt seams."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -5579,21 +5615,21 @@
           "id": "3F",
           "sub_req_label": "3F",
           "sub_req_text": "Quilting.",
-          "topic_title": "Req 3F: Three-Layer Patchwork Quilting",
-          "pamphlet_summary": "For Sewing and Needlework Requirement 3F (Three-Layer Patchwork Quilting): The Sewing and Needlework pamphlet for Requirement 3F details core principles and practical standards for three-layer patchwork quilting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+          "topic_title": "Req 3F: Quilt Assembly and Layering",
+          "pamphlet_summary": "Quilting binds top patchwork, batting insulation, and backing fabric together using decorative or grid stitching lines. Basting layers securely with safety pins prevents shifting and puckering on the quilting frame.",
           "pamphlet_excerpts": [
-            "Three-Layer Patchwork Quilting: The Sewing and Needlework pamphlet for Requirement 3F details core principles and practical standards for three-layer patchwork quilting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+            "Quilting binds top patchwork, batting insulation, and backing fabric together using decorative or grid stitching lines. Basting layers securely with safety pins prevents shifting and puckering on the quilting frame."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p009_img1.png",
           "workbook_diagram_caption": "Comparison of machine seam stitching, yarn knitting, hoop embroidery, and quilt piecing.",
           "workbook_visual_caption": "Comparison of machine seam stitching, yarn knitting, hoop embroidery, and quilt piecing."
         }
       ],
-      "topic_title": "Req 3: Specialized Needlework and Machine Options",
+      "topic_title": "Req 3: Textile Craft Specialization Options",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 3: store needles, pins, shears, and rotary cutters in closed cases immediately after working on specialized needlework and machine options, cut away from your body, and unplug pressing irons when unattended.",
+      "safety_callout": "Unplug electrical sewing machines before changing needles, presser feet, or internal bulbs.",
       "pamphlet_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 16-21",
       "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 16-21",
       "syllabus_bucket": "In-Class Demonstration",
@@ -5629,8 +5665,10 @@
         "min_rows": 6
       },
       "common_misconception_pair": {
-        "misconception": "When threading the upper thread of a sewing machine, you should lower the presser foot so the thread stays tight.",
-        "fact": "You must raise the presser foot while threading the upper path so the tension discs open and allow the thread to seat properly between them (p. 17)."
+        "misconception": "All textile crafts use identical yarn weights and standardized universal needle sizes.",
+        "fact": "Specific crafts require distinct fiber densities, twist structures, and calibrated needle gauges.",
+        "myth": "All textile crafts use identical yarn weights and standardized universal needle sizes.",
+        "fact_correction": "Specific crafts require distinct fiber densities, twist structures, and calibrated needle gauges."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -5654,16 +5692,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Machine Sewing Option Overview: Machine Sewing (p. 16).",
-        "Lock stitch Machine Historical Evolution: Provide a brief overview of the evolution of the sewing machine (p. 16).",
-        "Consulting the Operator Manual: Read your machine manual and do the following (p. 16).",
-        "Core Machine Component Functions: Explain the parts of a sewing machine and their functions (p. 16)."
+        "Machine Needle Timing: Rotating machine handwheels toward you maintains proper hook timing and prevents snarls.",
+        "Yarn Gauge Calculation: Knitting swatch stitch counts determine exact garment dimensions before starting full sweaters.",
+        "Crochet Hook Holding: Holding crochet hooks in pencil grip allows fluid wrist motion and tension.",
+        "Embroidery Hoop Tension: Drum tight embroidery hoop fabric prevents puckering when working dense decorative stitches."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Study Your Machine Manual: Read your machine manual and do the following (p. 16).",
-        "Step 2 - Identify Key Machine Parts: Explain the parts of a sewing machine and their functions (p. 16).",
-        "Step 3 - Specialized Needlework and Machine Options: Specialized needlework and machine options, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18).",
-        "Step 4 - Present Completed Craft Project: Review your completed Historical Origins and Evolution evidence and demonstrate proficiency during your counselor conference (p. 18)."
+        "Step 1 - Tool Selection: Choose the correct hook, needle gauge, or presser foot for your material.",
+        "Step 2 - Gauge Swatch Creation: Work a small practice square to measure stitch tension before project start.",
+        "Step 3 - Pattern Execution: Follow technical diagram instructions row by row while checking dimensions against schematics.",
+        "Step 4 - Finishing and Blocking: Steam or wet block completed needlework to relax fibers into final shapes."
       ],
       "gear_checklist": [
         "Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 3",
@@ -5672,17 +5710,17 @@
         "Completed sample piece and stitch log for Specialized Needlework and Machine Options"
       ],
       "comparison_data": {
-        "left_header": "Req 3A: Machine Sewing Fundamentals",
-        "right_header": "Req 3D: Decorative Hand Embroidery",
+        "left_header": "Req 3A: Mechanical Sewing Machine Operatio",
+        "right_header": "Req 3D: Surface Hand Embroidery Art",
         "left_points": [
-          "(3A) Machine Sewing Fundamentals: Provide a brief overview of the evolution of the sewing machine (p. 16).",
-          "(3B) Two-Needle Yarn Knitting: The Sewing and Needlework pamphlet for Requirement 3B details core principles and practical standards for two-needle yarn knitting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
-          "(3C) Single-Hook Yarn Crochet: The Sewing and Needlework pamphlet for Requirement 3C details core principles and practical standards for single-hook yarn crochet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+          "(3A) Mechanical Sewing Machine Operation: Modern lockstitch machines link upper needle thread with lower bobbin thread beneath the throat plate. Maintaining proper upper tension disks ensures balanced stitches that do not loop on either fabric side.",
+          "(3B) Fundamentals of Knitted Fabrics: Knitting constructs elastic textiles by interlocking yarn loops across two pointed needles using knit and purl stitches. Controlling hand tension produces uniform rows and prevents uneven fabric stretching.",
+          "(3C) Structural Crochet Stitch Practice: Crochet creates textured, sturdy textiles by pulling loops through previous stitches with a single hooked tool. Changing stitch height from single to double crochet alters fabric density and flexibility."
         ],
         "right_points": [
-          "(3D) Decorative Hand Embroidery: The Sewing and Needlework pamphlet for Requirement 3D details hand Embroidery, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
-          "(3E) Layered Fabric Applique: The Sewing and Needlework pamphlet for Requirement 3E details core principles and practical standards for layered fabric applique, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
-          "(3F) Three-Layer Patchwork Quilting: The Sewing and Needlework pamphlet for Requirement 3F details core principles and practical standards for three-layer patchwork quilting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+          "(3D) Surface Hand Embroidery Art: Hand embroidery decorates woven cloth using varied floss strands, specialized needles, and decorative stitch families. Hooping base fabric smoothly prevents surface distortion while stitching satin or French knot designs.",
+          "(3E) Decorative Fabric Appliqué Methods: Appliqué bonds or stitches smaller fabric motifs onto a larger background foundation to build complex pictorial designs. Securing raw edges with satin or blanket stitching prevents fraying during laundering.",
+          "(3F) Quilt Assembly and Layering: Quilting binds top patchwork, batting insulation, and backing fabric together using decorative or grid stitching lines. Basting layers securely with safety pins prevents shifting and puckering on the quilting frame."
         ],
         "rows": [
           {
@@ -5706,10 +5744,10 @@
         "title": "Sewing and Needlework Req 3 Exemplar Workbook Entry: Specialized Needlework and Machine Options",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3A (Machine Sewing Fundamentals)": "Provide a brief overview of the evolution of the sewing machine (p. 16).",
-          "Req 3B (Two-Needle Yarn Knitting)": "The Sewing and Needlework pamphlet for Requirement 3B details core principles and practical standards for two-needle yarn knitting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
-          "Req 3C (Single-Hook Yarn Crochet)": "The Sewing and Needlework pamphlet for Requirement 3C details core principles and practical standards for single-hook yarn crochet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
-          "Req 3D (Decorative Hand Embroidery)": "The Sewing and Needlework pamphlet for Requirement 3D details hand Embroidery, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+          "Req 3A - Mechanical Sewing Machine Operati": "Modern lockstitch machines link upper needle thread with lower bobbin thread beneath the throat plate. Maintaining proper upper tension disks ensures balanced stitches that do not loop on either fabric side.",
+          "Req 3B - Fundamentals of Knitted Fabrics": "Knitting constructs elastic textiles by interlocking yarn loops across two pointed needles using knit and purl stitches. Controlling hand tension produces uniform rows and prevents uneven fabric stretching.",
+          "Req 3C - Structural Crochet Stitch Practic": "Crochet creates textured, sturdy textiles by pulling loops through previous stitches with a single hooked tool. Changing stitch height from single to double crochet alters fabric density and flexibility.",
+          "Req 3D - Surface Hand Embroidery Art": "Hand embroidery decorates woven cloth using varied floss strands, specialized needles, and decorative stitch families. Hooping base fabric smoothly prevents surface distortion while stitching satin or French knot designs."
         },
         "sample_output": "Specialized Needlework and Machine Options: Machine Sewing (p. 16).",
         "counselor_tip": "For Sewing and Needlework Requirement 3 (Specialized Needlework and Machine Options), verify the Scout's own observations and specific pamphlet details (Sewing and Needlework Test Lab Resource Guide, pp. 16-21)."
@@ -5746,7 +5784,13 @@
         "site_requirement": "Approved Sewing and Needlework demonstration area for Requirement 3",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Comparison of machine seam stitching, yarn knitting, hoop embroidery, and quilt piecing."
+      "workbook_visual_caption": "Comparison of machine seam stitching, yarn knitting, hoop embroidery, and quilt piecing.",
+      "pamphlet_summary": "Choosing a textile craft builds advanced mechanical, fiber manipulation, or decorative needlework capabilities. Each technique requires specialized tools, precise tension regulation, and systematic project planning.",
+      "socratic_questions": [
+        "How does the choice between animal, plant, and synthetic fibers affect project drape?",
+        "Why is calculating accurate stitch gauge essential before beginning fitted needlework items?",
+        "What mechanical differences distinguish lockstitch machine sewing from single strand interlocking crochet?"
+      ]
     },
     {
       "req_id": "4",
@@ -5756,11 +5800,11 @@
       "req_text": "Art. Visit a quilt or textile arts show or museum display either in-person or virtually. Explain to your counselor how they were created.",
       "resources": [],
       "sub_requirements": [],
-      "topic_title": "Req 4: Exploring Quilt and Textile Art Exhibitions",
+      "topic_title": "Req 4: Textile Arts Museum Exhibition",
       "action_verb": "Show",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 4: store needles, pins, shears, and rotary cutters in closed cases immediately after working on exploring quilt and textile art exhibitions, cut away from your body, and unplug pressing irons when unattended.",
+      "safety_callout": "Maintain designated viewing boundaries and avoid touching historical textile fibers without white gloves.",
       "pamphlet_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 22-27",
       "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 22-27",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -5790,8 +5834,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Piecing a quilt top and quilting a quilt refer to the exact same step in creating textile art.",
-        "fact": "Piecing is sewing smaller fabric shapes together to build the decorative top layer, whereas quilting is the stitching that binds the top, batting, and backing layers together (p. 23)."
+        "misconception": "Textile exhibits display only decorative tapestries without practical or structural sewing elements.",
+        "fact": "Historic textile exhibits highlight intricate structural piecing, hand quilting, and tailored garment engineering.",
+        "myth": "Textile exhibits display only decorative tapestries without practical or structural sewing elements.",
+        "fact_correction": "Historic textile exhibits highlight intricate structural piecing, hand quilting, and tailored garment engineering."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -5815,16 +5861,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Visiting Textile Art Exhibitions: Visit a quilt or textile arts show or museum display either in-person or virtually (p. 22).",
-        "Exploring Quilt and Textile Art Exhibitions: Exploring quilt and textile art exhibitions, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22).",
-        "Exploring Quilt and Textile Art Exhibitions: Exploring quilt and textile art exhibitions, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22).",
-        "Discussing Artwork With Counselor: Review your completed Textile Arts Exhibition & Museum Critique evidence and demonstrate proficiency during your counselor conference (p. 22)."
+        "Museum Viewing Distance: Stand several feet back from fragile antique tapestries to prevent accidental contact.",
+        "Textile Conservation Lighting: Low gallery lighting protects organic natural dye pigments from severe ultraviolet fading.",
+        "Weave Structure Inspection: Close visual analysis reveals warp and weft density across complex historical tapestries.",
+        "Cultural Motif Documentation: Sketching historic embroidery patterns preserves traditional ethnic designs for modern research projects."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Exploring Quilt and Textile Art Exhibitions: Exploring quilt and textile art exhibitions, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22).",
-        "Step 2 - Explain Piece Construction Techniques: Review your completed Textile Arts Exhibition & Museum Critique evidence and demonstrate proficiency during your counselor conference (p. 22).",
-        "Step 3 - Review Textile Curation Terms: For Sewing and Needlework Requirement 4 (Textile Arts Exhibition & Museum Critique), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 22).",
-        "Step 4 - Document Observed Exhibit Pieces: Record concrete observations, measurements, and examples for Textile Arts Exhibition & Museum Critique in your Sewing and Needlework Scout Workbook (p. 22)."
+        "Step 1 - Gallery Exhibit Selection: Choose a local museum collection displaying historical quilts or contemporary fiber art.",
+        "Step 2 - Construction Detail Observation: Examine the stitch density, backing materials, and piecing precision on display.",
+        "Step 3 - Note Taking Process: Record artist techniques, fiber compositions, and historical eras in your field journal.",
+        "Step 4 - Counselor Discussion Preparation: Formulate specific observations regarding construction methods to present during merit badge review."
       ],
       "gear_checklist": [
         "Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 4",
@@ -5907,7 +5953,13 @@
         "site_requirement": "Approved Sewing and Needlework demonstration area for Requirement 4",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Uniformed Scout visiting a textile arts and heritage quilt exhibition in a gallery examining geometric patterns."
+      "workbook_visual_caption": "Uniformed Scout visiting a textile arts and heritage quilt exhibition in a gallery examining geometric patterns.",
+      "pamphlet_summary": "Visiting a textile art exhibit reveals how historical and contemporary artists manipulate fiber, dye, and structure. Observing construction details firsthand develops appreciation for technical craftsmanship and cultural textile heritage.",
+      "socratic_questions": [
+        "How do the natural dye choices in historic quilts reflect regional trade routes?",
+        "In what ways do contemporary textile artists use traditional techniques to address modern themes?",
+        "What structural challenges arise when preserving antique silk garments compared to wool blankets?"
+      ]
     },
     {
       "req_id": "5",
@@ -5934,11 +5986,11 @@
         }
       ],
       "sub_requirements": [],
-      "topic_title": "Req 5: Community Service Through Sewing Skills",
+      "topic_title": "Req 5: Community Needlework Service Projects",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 5: store needles, pins, shears, and rotary cutters in closed cases immediately after working on community service through sewing skills, cut away from your body, and unplug pressing irons when unattended.",
+      "safety_callout": "Wash and sanitize donated fabrics before cutting to prevent skin irritation from chemical finishes.",
       "pamphlet_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 28-33",
       "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 28-33",
       "syllabus_bucket": "In-Class Concept",
@@ -5968,8 +6020,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Hospitals and neonatal units accept handmade blankets made from any leftover yarn or fabric scraps you have at home.",
-        "fact": "Charities and hospitals enforce strict fiber, washability, and safety standards, such as requiring washable hypoallergenic yarns free of loose buttons, sequins, or pet hair (p. 29)."
+        "misconception": "Service sewing projects only provide small decorative crafts with little practical community utility.",
+        "fact": "Volunteer textile groups fabricate essential cold weather sleeping gear and critical hospital bedding.",
+        "myth": "Service sewing projects only provide small decorative crafts with little practical community utility.",
+        "fact_correction": "Volunteer textile groups fabricate essential cold weather sleeping gear and critical hospital bedding."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -5993,16 +6047,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Community Service Through Sewing Skills: Community service through sewing skills, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 28).",
-        "Helping Family and Community: How can they benefit your family, community, church, or school (p. 28).",
-        "Community Service Through Sewing Skills: Community service through sewing skills, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26).",
-        "Presenting Service Impact Ideas: Review your completed Sewing and Needlework Core Field Standard evidence and demonstrate proficiency during your counselor conference (p. 26)."
+        "Shelter Blanket Construction: Simple fleece tie blankets provide immediate thermal insulation for displaced local families.",
+        "Hospital Gown Standards: Medical service sewing requires durable French seams that withstand harsh commercial laundering.",
+        "School Uniform Repairs: Mending loose hems and missing buttons restores dignity to students needing assistance.",
+        "Community Patching Days: Organizing repair clinics reduces landfill waste by extending wearable clothing lifespans locally."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Community Service Through Sewing Skills: Community service through sewing skills, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26).",
-        "Step 2 - Discuss Community Benefit Examples: Review your completed Sewing and Needlework Core Field Standard evidence and demonstrate proficiency during your counselor conference (p. 26).",
-        "Step 3 - Check Charity Fabric Guidelines: For Sewing and Needlework Requirement 5 (Sewing and Needlework Core Field Standard), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 28).",
-        "Step 4 - Outline Local Service Opportunities: Record concrete observations, measurements, and examples for Sewing and Needlework Core Field Standard in your Sewing and Needlework Scout Workbook (p. 28)."
+        "Step 1 - Community Need Identification: Contact local shelters or hospitals to determine specific textile donation requirements beforehand.",
+        "Step 2 - Material Collection Drive: Gather clean cotton fabrics, sewing thread, and batting donations from troop families.",
+        "Step 3 - Production Assembly Line: Organize Scouts into cutting, pinning, machine sewing, and quality inspection stations.",
+        "Step 4 - Distribution and Delivery: Package finished handmade quilts into protective bags for direct distribution to recipients."
       ],
       "gear_checklist": [
         "Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 5",
@@ -6085,7 +6139,13 @@
         "site_requirement": "Approved Sewing and Needlework demonstration area for Requirement 5",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Scouts sewing handmade comfort blankets and quilts for community charity service projects."
+      "workbook_visual_caption": "Scouts sewing handmade comfort blankets and quilts for community charity service projects.",
+      "pamphlet_summary": "Applying sewing skills toward community service addresses essential human needs through comfort quilts and outdoor gear repairs. Organizing patrol sewing days produces practical items that support hospitals, shelters, and civic groups.",
+      "socratic_questions": [
+        "How does extending garment life through free community mending support local environmental goals?",
+        "Which specific fabric choices ensure dignity and skin comfort for pediatric hospital patients?",
+        "How can your patrol organize a repair clinic to mend camping tents and sleeping bags?"
+      ]
     },
     {
       "req_id": "6",
@@ -6148,8 +6208,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 34-39",
           "common_misconception_pair": {
-            "misconception": "Technical patternmakers only sketch artistic illustrations of outfits and leave all measurements to factory operators.",
-            "fact": "Patternmakers use precise geometry and computer-aided design software to translate sketches into graded templates that fit human anatomy across multiple garment sizes (p. 35)."
+            "misconception": "Fashion designers spend most work hours hand sewing garments on standard home sewing machines.",
+            "fact": "Apparel designers primarily create digital technical specification packages and oversee overseas factory production.",
+            "myth": "Fashion designers spend most work hours hand sewing garments on standard home sewing machines.",
+            "fact_correction": "Apparel designers primarily create digital technical specification packages and oversee overseas factory production."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -6175,10 +6237,10 @@
           "id": "6a",
           "sub_req_label": "6a",
           "sub_req_text": "Identify three career opportunities that would use skills and knowledge in sewing and/or needlework. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.",
-          "topic_title": "Req 6a: Textile and Apparel Careers",
-          "pamphlet_summary": "Textile and Apparel Careers: Identify three career opportunities that would use skills and knowledge in sewing and/or needlework (p. 34).",
+          "topic_title": "Req 6a: Commercial Textile Career Investigation",
+          "pamphlet_summary": "Commercial garment industries employ fashion designers, technical pattern makers, and industrial machine operators. Obtaining trade certifications or college fashion design degrees prepares candidates for competitive manufacturing careers.",
           "pamphlet_excerpts": [
-            "Textile and Apparel Careers: Identify three career opportunities that would use skills and knowledge in sewing and/or needlework (p. 34)."
+            "Commercial garment industries employ fashion designers, technical pattern makers, and industrial machine operators. Obtaining trade certifications or college fashion design degrees prepares candidates for competitive manufacturing careers."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p015_img1.png",
           "workbook_diagram_caption": "Scouts crafting charity comfort blankets and exploring technical textile design.",
@@ -6227,8 +6289,10 @@
           },
           "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 34-39",
           "common_misconception_pair": {
-            "misconception": "Starting a serious needlework or quilting hobby requires buying an expensive computerized longarm machine right away.",
-            "fact": "Most hobbyists begin with basic hand needles or an entry-level sewing machine and join local guilds or makers paces to share specialized equipment and learn from experienced mentors (p. 37)."
+            "misconception": "Fiber arts hobbies require expensive studio setups before a beginner can produce functional projects.",
+            "fact": "Basic hand needles, thrifted fabrics, and embroidery floss enable high level personal craftsmanship affordably.",
+            "myth": "Fiber arts hobbies require expensive studio setups before a beginner can produce functional projects.",
+            "fact_correction": "Basic hand needles, thrifted fabrics, and embroidery floss enable high level personal craftsmanship affordably."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -6254,10 +6318,10 @@
           "id": "6b",
           "sub_req_label": "6b",
           "sub_req_text": "Identify how you might use the skills and knowledge in sewing and/or needlework to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
-          "topic_title": "Req 6b: Personal Needlework Hobby Pursuits",
-          "pamphlet_summary": "Personal Needlework Hobby Pursuits: Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field (p. 34).",
+          "topic_title": "Req 6b: Personal Fiber Arts Avocation",
+          "pamphlet_summary": "Pursuing needlework as a lifelong hobby provides creative relaxation and practical independence in repairing personal gear. Joining regional quilting guilds or craft associations connects makers with shared resources and skill workshops.",
           "pamphlet_excerpts": [
-            "Personal Needlework Hobby Pursuits: Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field (p. 34)."
+            "Pursuing needlework as a lifelong hobby provides creative relaxation and practical independence in repairing personal gear. Joining regional quilting guilds or craft associations connects makers with shared resources and skill workshops."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sewing_and_needlework_p015_img1.png",
           "title": "Req 6b: Personal Needlework Hobby Pursuits",
@@ -6265,11 +6329,11 @@
           "workbook_visual_caption": "Scouts crafting charity comfort blankets and exploring technical textile design."
         }
       ],
-      "topic_title": "Req 6: Textile Careers and Lifelong Hobbies",
+      "topic_title": "Req 6: Professional Needlework Career Exploration",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 6: store needles, pins, shears, and rotary cutters in closed cases immediately after working on textile careers and lifelong hobbies, cut away from your body, and unplug pressing irons when unattended.",
+      "safety_callout": "Wear hearing protection and safety goggles when operating high speed industrial production machinery.",
       "pamphlet_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 34-39",
       "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 34-39",
       "syllabus_bucket": "Make-Up Eligible",
@@ -6301,8 +6365,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Professional sewing careers are limited to fashion clothing design and retail tailoring.",
-        "fact": "Industrial sewing and textile engineering skills are essential in aerospace parachute rigging, automotive and marine upholstery, theatrical costuming, medical textiles, and outdoor technical gear manufacturing (p. 34)."
+        "misconception": "Professional sewing careers are limited entirely to home alterations and basic dry cleaner mending.",
+        "fact": "Textile careers span advanced sports gear engineering, aerospace spacesuit manufacturing, and haute couture design.",
+        "myth": "Professional sewing careers are limited entirely to home alterations and basic dry cleaner mending.",
+        "fact_correction": "Textile careers span advanced sports gear engineering, aerospace spacesuit manufacturing, and haute couture design."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -6326,16 +6392,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Exploring Textile Career Paths: Identify three career opportunities that would use skills and knowledge in sewing and/or needlework (p. 34).",
-        "Pursuing Lifelong Fiber Hobbies: Identify how you might use the skills and knowledge in sewing and/or needlework to pursue a personal hobby (p. 34).",
-        "Textile Careers and Lifelong Hobbies: Review the Sewing and Needlework pamphlet standards for textile careers and lifelong hobbies, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 34).",
-        "Researching Training and Credentials: Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field (p. 34)."
+        "Theatrical Costumer Demands: Costume technicians construct durable garments designed for rapid changes during theatrical performances.",
+        "Industrial Pattern Drafting: Pattern makers utilize computer aided design software to grade apparel production sizes.",
+        "Custom Tailoring Apprenticeship: Master tailors undergo multiyear apprenticeships to learn bespoke suit construction and fitting.",
+        "Fiber Science Careers: Textile scientists develop synthetic high performance fabrics for aerospace and military applications."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Textile Careers and Lifelong Hobbies: Review the Sewing and Needlework pamphlet standards for textile careers and lifelong hobbies, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 34).",
-        "Step 2 - Research Required Career Training: Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field (p. 34).",
-        "Step 3 - Textile Careers and Lifelong Hobbies: Textile careers and lifelong hobbies, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 30).",
-        "Step 4 - Discuss Career Or Hobby: Review your completed Textile, Apparel Design & Fiber Arts Careers evidence and demonstrate proficiency during your counselor conference (p. 30)."
+        "Step 1 - Career Field Research: Investigate professional specialties including technical apparel design, theatrical costuming, or industrial upholstery.",
+        "Step 2 - Educational Requirement Review: Identify vocational certifications, collegiate design degrees, and technical trade apprenticeship programs.",
+        "Step 3 - Industry Tool Evaluation: Compare commercial industrial sewing machines against domestic machines used in home studios.",
+        "Step 4 - Career Summary Documentation: Compile detailed findings on typical work environments, entry salaries, and necessary equipment."
       ],
       "gear_checklist": [
         "Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 6",
@@ -6344,15 +6410,13 @@
         "Completed sample piece and stitch log for Textile Careers and Lifelong Hobbies"
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Textile and Apparel Careers",
-        "right_header": "Req 6b: Personal Needlework Hobby Pursuits",
+        "left_header": "Req 6a: Commercial Textile Career Investig",
+        "right_header": "Req 6b: Personal Fiber Arts Avocation",
         "left_points": [
-          "(6a) Textile and Apparel Careers: Identify three career opportunities that would use skills and knowledge in sewing and/or needlework (p. 34).",
-          "Pursuing Lifelong Fiber Hobbies: Identify how you might use the skills and knowledge in sewing and/or needlework to pursue a personal hobby (p. 34)."
+          "(6a) Commercial Textile Career Investigation: Commercial garment industries employ fashion designers, technical pattern makers, and industrial machine operators. Obtaining trade certifications or college fashion design degrees prepares candidates for competitive manufacturing careers."
         ],
         "right_points": [
-          "(6b) Personal Needlework Hobby Pursuits: Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field (p. 34).",
-          "Textile Careers and Lifelong Hobbies: Review the Sewing and Needlework pamphlet standards for textile careers and lifelong hobbies, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 34)."
+          "(6b) Personal Fiber Arts Avocation: Pursuing needlework as a lifelong hobby provides creative relaxation and practical independence in repairing personal gear. Joining regional quilting guilds or craft associations connects makers with shared resources and skill workshops."
         ],
         "rows": [
           {
@@ -6376,8 +6440,8 @@
         "title": "Sewing and Needlework Req 6 Exemplar Workbook Entry: Textile Careers and Lifelong Hobbies",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 6a (Textile and Apparel Careers)": "Identify three career opportunities that would use skills and knowledge in sewing and/or needlework (p. 34).",
-          "Req 6b - Personal Needlework Hobby Pursuits": "Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field (p. 34)."
+          "Req 6a - Commercial Textile Career Investi": "Commercial garment industries employ fashion designers, technical pattern makers, and industrial machine operators. Obtaining trade certifications or college fashion design degrees prepares candidates for competitive manufacturing careers.",
+          "Req 6b - Personal Fiber Arts Avocation": "Pursuing needlework as a lifelong hobby provides creative relaxation and practical independence in repairing personal gear. Joining regional quilting guilds or craft associations connects makers with shared resources and skill workshops."
         },
         "sample_output": "Textile Careers and Lifelong Hobbies: Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field (p. 34).",
         "counselor_tip": "For Sewing and Needlework Requirement 6 (Textile Careers and Lifelong Hobbies), verify the Scout's own observations and specific pamphlet details (Sewing and Needlework Test Lab Resource Guide, pp. 34-39)."
@@ -6414,7 +6478,13 @@
         "site_requirement": "Approved Sewing and Needlework demonstration area for Requirement 6",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Scouts crafting charity comfort blankets and exploring technical textile design."
+      "workbook_visual_caption": "Scouts crafting charity comfort blankets and exploring technical textile design.",
+      "pamphlet_summary": "Professional sewing encompasses industrial garment manufacturing, custom bespoke tailoring, theatrical costuming, and textile engineering. Researching technical qualifications reveals educational pathways in fashion design, pattern drafting, and fiber science.",
+      "socratic_questions": [
+        "How does computer automation influence the demand for hand tailored clothing and artisan needlework?",
+        "What technical differences distinguish an industrial walking foot machine from a domestic sewing machine?",
+        "How do material science innovations create new career opportunities in smart textile manufacturing?"
+      ]
     },
     {
       "req_id": "7",
@@ -6424,11 +6494,11 @@
       "req_text": "Complete the survey below to complete the test lab requirements",
       "resources": [],
       "sub_requirements": [],
-      "topic_title": "Req 7: Test Lab Survey and Feedback",
+      "topic_title": "Req 7: Test Lab Experience Survey",
       "action_verb": "Complete",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Enable",
-      "safety_callout": "Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 7: store needles, pins, shears, and rotary cutters in closed cases immediately after working on test lab survey and feedback, cut away from your body, and unplug pressing irons when unattended.",
+      "safety_callout": "Store all sharp sewing tools securely in cases before sitting down to complete surveys.",
       "pamphlet_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 40-45",
       "pamphlet_page_citation": "Sewing and Needlework Test Lab Resource Guide, pp. 40-45",
       "syllabus_bucket": "In-Class Concept",
@@ -6456,8 +6526,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "The Test Lab survey is a graded test that can cause a Scout to fail the merit badge if they critique a difficult requirement.",
-        "fact": "The Test Lab survey collects honest feedback from Scouts and counselors to help Scouting America evaluate and refine pilot merit badge requirements before national release (p. 40)."
+        "misconception": "Lab feedback surveys have no effect on how future merit badge workshops run.",
+        "fact": "Survey responses directly inform national program updates and hands on workshop equipment allocations.",
+        "myth": "Lab feedback surveys have no effect on how future merit badge workshops run.",
+        "fact_correction": "Survey responses directly inform national program updates and hands on workshop equipment allocations."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -6481,16 +6553,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Submitting Test Lab Feedback: Complete the survey below to complete the test lab requirements (p. 40).",
-        "Test Lab Survey and Feedback: Test lab survey and feedback, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 34).",
-        "Confirming Final Badge Completion: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 34).",
-        "Verifying All Requirement Standards: Cross-check every sub-requirement of Requirement 7 (Survey Below) against the Scouting America Sewing and Needlework pamphlet standard (p. 40)."
+        "Feedback Metric Collection: Standardized survey ratings measure curriculum clarity and tool accessibility across troop workshops.",
+        "Student Experience Evaluation: Honest evaluations identify which technical sewing steps caused confusion or practical delays.",
+        "Program Improvement Process: Curriculum committees review Scout feedback to update pamphlet diagrams and safety guidelines.",
+        "Learning Assessment Documentation: Recording completed project milestones validates that Scouts achieved core needlework performance objectives."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Confirm Completion With Counselor: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 34).",
-        "Step 2 - Verify All Badge Requirements: Cross-check every sub-requirement of Requirement 7 (Survey Below) against the Scouting America Sewing and Needlework pamphlet standard (p. 40).",
-        "Step 3 - Reflect On Learned Skills: For Sewing and Needlework Requirement 7 (Survey Below), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 40).",
-        "Step 4 - Submit Official Feedback Survey: Record concrete observations, measurements, and examples for Survey Below in your Sewing and Needlework Scout Workbook (p. 40)."
+        "Step 1 - Survey Link Access: Open the designated test lab evaluation form on your troop tablet computer.",
+        "Step 2 - Requirement Review Reflection: Review the sewing techniques practiced during the lab session before scoring questions.",
+        "Step 3 - Detailed Feedback Entry: Provide specific comments regarding tool availability, instruction clarity, and project difficulty levels.",
+        "Step 4 - Form Submission Confirmation: Submit your completed survey answers and confirm response receipt with your counselor."
       ],
       "gear_checklist": [
         "Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 7",
@@ -6573,7 +6645,13 @@
         "site_requirement": "Approved Sewing and Needlework demonstration area for Requirement 7",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Uniformed Scout displaying finished sewing projects to a counselor and completing the Test Lab survey."
+      "workbook_visual_caption": "Uniformed Scout displaying finished sewing projects to a counselor and completing the Test Lab survey.",
+      "pamphlet_summary": "Completing feedback surveys provides essential data for improving merit badge curriculum design and laboratory exercises. Sharing constructive insights helps program leaders refine instructional materials for future Scout cohorts.",
+      "socratic_questions": [
+        "How does evaluating your own learning experience improve your retention of practical manual skills?",
+        "What specific sewing skill from this laboratory proved most challenging to master initially?",
+        "How can feedback from youth participants help counselors improve technical needlework instruction?"
+      ]
     }
   ],
   "badge_slug": "sewing_and_needlework",

@@ -1,8 +1,8 @@
 # Snow Sports Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/snow-sports/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/snow-sports/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Snow%20Sports.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,49 +12,43 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Snow Sport Hazards and First Aid | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Emergency Response and Accident Reporting | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Winter Mountain Environmental Hazards | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Mountain Emergency First Aid | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: International Trail Marking System | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Physical Conditioning and Warm-Up Exercises | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Cold-Weather Layering and Protective Gear | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Responsibility Code and Avalanche Safety | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7a** | Downhill (Alpine) Skiing: Ski Care, Lift Safety & Slope Runs | Demonstrate | `Hands-On Skill Station` | **Pre-Class Prerequisite** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7b** | Cross-Country (Nordic) Skiing: Touring Gear, Waxing & 4-Mile Tour | Show | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7c** | Snowboarding: Fall Prevention, Bindings, Lifts & Slope Runs | Demonstrate | `Hands-On Skill Station` | **Pre-Class Prerequisite** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7d** | Snowshoeing: Snowshoe Parts, Sizing, Trail Breaking & 2-Mile Hike | Explain | `Hands-On Skill Station` | **Pre-Class Prerequisite** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Physical Conditioning and Fitness | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Snow Sports Clothing Systems | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Mountain Safety and Ethics | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Snow Sports Discipline Options | Explain | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
-- [ ] **Req 7a (Demonstrate):** Option A, Downhill (Alpine) Skiing. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate each of the required skills. (1) Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers. (2) Explain the American Teaching System and a basic snowskiing progression. (3) Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily. (4) Demonstrate how to ride one kind of lift and explain how to ride two others. (5) On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers. (6) On slightly steeper terrain, show linked wedge turns. (7) On a moderate slope, demonstrate five to 10 christies. (8) Make a controlled run down an intermediate slope. (9) Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions. Maintain your balance and ability to turn. (10) Name the major ski organizations in the United States and explain their functions.
-- [ ] **Req 7b (Show):** Option B, Cross-Country (Nordic) Skiing. Do ALL of the following: (1) Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort. (2) Explain the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing on snowmobile trails. (3) Discuss classic, skating, touring, and telemark skis. (4) Discuss the basic principles of waxing for cross-country ski touring. (5) Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing. (6) List the items you would take on a one-day ski tour. (7) Demonstrate the proper use of a topographic map and compass. (8) On a gentle, packed slope, show some basic ways to control speed and direction. Include the straight run, traverse, side slip, step turn, wedge stop, and wedge turn maneuvers. (9) On a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, rhythm, flow, and glide. (10) Demonstrate your ability, on a 4-mile tour, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile tour with prior approval from their counselor. (11) Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag.
-- [ ] **Req 7c (Demonstrate):** Option C, Snowboarding. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate the required skills. (1) Discuss forward-fall injuries. (2) Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort. (3) Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes. (4) Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely. (5) Demonstrate how to ride one kind of lift and explain how to ride two others. (6) Demonstrate the basic principles of waxing a snowboard. (7) Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing. (8) On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie. (9) Make a controlled run down an intermediate slope. (10) Demonstrate your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls. Maintain your balance and ability to turn. (11) Name the major snowboarding organizations in the United States and explain their functions.
-- [ ] **Req 7d (Explain):** Option D, Snowshoeing. Do ALL of the following: (1) Name the parts of a snowshoe. (2) Explain how to choose the correct size of snowshoe. (3) Describe the different types of snowshoes and their specialized uses. Discuss factors to consider when choosing a snowshoe. (4) Explain how to properly care for and maintain snowshoes. (5) List the items you would take on a one-day snowshoe hike. (6) Describe areas that are best for snowshoeing. Discuss some advantages and dangers of backcountry snowshoeing. (7) Discuss the benefits of snowshoeing. (8) Demonstrate the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope. (9) Demonstrate your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions. Note: Adaptive snowshoers may complete a 1-mile hike with prior approval from their counselor. (10) Demonstrate the proper use of a topographic map and compass.
+- [ ] **Req 7 (Explain):** Do ONE of the following options: (a) Option A, Downhill (Alpine) Skiing. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate each of the required skills. (1) Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers. (2) Explain the American Teaching System and a basic snowskiing progression. (3) Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily. (4) Demonstrate how to ride one kind of lift and explain how to ride two others. (5) On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers. (6) On slightly steeper terrain, show linked wedge turns. (7) On a moderate slope, demonstrate five to 10 christies. (8) Make a controlled run down an intermediate slope. (9) Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions. Maintain your balance and ability to turn. (10) Name the major ski organizations in the United States and explain their functions. (b) Option B, Cross-Country (Nordic) Skiing. Do ALL of the following: (1) Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort. (2) Explain the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing on snowmobile trails. (3) Discuss classic, skating, touring, and telemark skis. (4) Discuss the basic principles of waxing for cross-country ski touring. (5) Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing. (6) List the items you would take on a one-day ski tour. (7) Demonstrate the proper use of a topographic map and compass. (8) On a gentle, packed slope, show some basic ways to control speed and direction. Include the straight run, traverse, side slip, step turn, wedge stop, and wedge turn maneuvers. (9) On a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, rhythm, flow, and glide. (10) Demonstrate your ability, on a 4-mile tour, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile tour with prior approval from their counselor. (11) Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag. (c) Option C, Snowboarding. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate the required skills. (1) Discuss forward-fall injuries. (2) Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort. (3) Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes. (4) Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely. (5) Demonstrate how to ride one kind of lift and explain how to ride two others. (6) Demonstrate the basic principles of waxing a snowboard. (7) Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing. (8) On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie. (9) Make a controlled run down an intermediate slope. (10) Demonstrate your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls. Maintain your balance and ability to turn. (11) Name the major snowboarding organizations in the United States and explain their functions. (d) Option D, Snowshoeing. Do ALL of the following: (1) Name the parts of a snowshoe. (2) Explain how to choose the correct size of snowshoe. (3) Describe the different types of snowshoes and their specialized uses. Discuss factors to consider when choosing a snowshoe. (4) Explain how to properly care for and maintain snowshoes. (5) List the items you would take on a one-day snowshoe hike. (6) Describe areas that are best for snowshoeing. Discuss some advantages and dangers of backcountry snowshoeing. (7) Discuss the benefits of snowshoeing. (8) Demonstrate the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope. (9) Demonstrate your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions. Note: Adaptive snowshoers may complete a 1-mile hike with prior approval from their counselor. (10) Demonstrate the proper use of a topographic map and compass.
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Scout must individually demonstrate mastery of Requirement 1 to the Merit Badge Counselor.
-- [ ] **Station Req 4:** Scout must individually discuss mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 1:** Do the following: (a) Explain to your counselor the hazards you are most likely to encounter while participating in snow sport activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in snow sports, including hypothermia, frostbite, shock, dehydration, sunburn, concussion, fractures, bruises, sprains, and strains. Tell how to apply splints.
+- [ ] **Station Req 4:** Discuss the importance of strength, endurance, and flexibility in snow sports. Demonstrate exercises and activities you can do to get fit for the option you choose in requirement 7.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Snow Sport Hazards and First Aid
+### Req 1: Winter Mountain Environmental Hazards
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain to your counselor the hazards you are most likely to encounter while participating in snow sport activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in snow sports, including hypothermia, frostbite, shock, dehydration, sunburn, concussion, fractures, bruises, sprains, and strains. Tell how to apply splints.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 1): Complete all Snow Sport Hazards and First Aid discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Applying ice directly to a sprained ankle for an hour straight is the fastest way to stop swelling on the slopes.
-- **Pamphlet Fact:** Cold compresses should be applied to an elevated sprained joint for no more than 20 minutes at a time to reduce swelling safely (p. 22).
+> **Guide to Safe Scouting Warning:** Stay at least ten feet away from evergreen tree trunks to avoid falling into hidden tree wells.
+- **Common Myth:** Snow sports hazards only occur during massive blizzards or subzero deep freezes.
+- **Pamphlet Fact:** Reflected solar radiation, tree wells, and dehydration present severe risks on sunny days.
 
 **Official Pamphlet Summary:**
-- RICE Treatment for Sprains: R = Rest I = Ice C = Compression E = Elevation Sprains and Strains Sprains are relatively common snow-sports (p. 22).
-- Sprains are caused by twisting, wrenching, or lifting movements that tear or stretch tissues surrounding a joint (p. 22).
-- Such an injury causes sudden pain and swelling at the joint (p. 22).
-- There may be some discoloration, and the joint will likely be tender to the touch and very painful when moved (p. 22).
+- Thermal Regulation: Layered synthetic clothing prevents sweat accumulation that causes rapid conductive body cooling.
+- Sun Protection: Snow reflection intensifies ultraviolet exposure requiring dark polarized sunglasses and zinc sunscreen.
+- Hydration Maintenance: Cold dry mountain air accelerates respiratory moisture loss requiring regular fluid intake.
+- Tree Wells: Deep loose snow surrounding evergreen bases causes fatal suffocation from immersion.
 
-#### Req 1a: Anticipating and Preventing Slope Hazards
+#### Req 1a: Alpine Hazard Prevention Protocol
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while participating in snow sport activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Snow Sports Hazards and First Aid)
-- **Common Myth:** A muscle strain and a joint sprain are identical injuries that both involve torn ligaments.
-- **Pamphlet Fact:** A sprain tears or stretches tissues surrounding a joint, whereas a strain is a less severe injury where muscle or joint tissues are overextended without tearing (p. 22).
+- **Common Myth:** Staying on marked trails completely eliminates the danger of alpine terrain hazards.
+- **Pamphlet Fact:** Icy patches, wind drifts, and hidden obstacles emerge rapidly on groomed trails.
 
 ![Step-by-step Snow Sports visual guide highlighting snow sport hazards and first aid positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/snow_sports_p003_img1.png)
 
@@ -64,11 +58,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: First Aid for Winter Injuries
+#### Req 1b: Cold Weather First Aid
 **Official Requirement 1b:** Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in snow sports, including hypothermia, frostbite, shock, dehydration, sunburn, concussion, fractures, bruises, sprains, and strains. Tell how to apply splints.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
-- **Common Myth:** Rubbing frostbitten skin vigorously with snow helps restore warmth and circulation quickly.
-- **Pamphlet Fact:** Rubbing frostbitten tissue causes severe cellular damage, so affected areas must be rewarmed gently with skin-to-skin contact or warm water (p. 23).
+- **Common Myth:** Rubbing frostbitten skin with snow stimulates circulation and thaws frozen tissues safely.
+- **Pamphlet Fact:** Rubbing damaged skin causes severe tissue loss and cellular destruction from ice crystals.
 
 ![A skier uses a trailside emergency phone to report an accident.](/assets/pamphlet_images/snow_sports_p018_img1.png)
 
@@ -79,24 +73,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Emergency Response and Accident Reporting
+### Req 2: Mountain Emergency First Aid
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Explain why every snow sport participant should be prepared to render first aid in the event of an accident. (b) Explain the procedure used to report an accident to the local ski patrol or local emergency personnel.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 2): Complete all Emergency Response and Accident Reporting discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** If someone is injured on an Alpine ski trail, everyone in your group should ski down together to find the main lodge.
-- **Pamphlet Fact:** One person should ski to the bottom of the nearest lift to notify the lift attendant while others stay to protect and care for the injured person (p. 19).
+> **Guide to Safe Scouting Warning:** Never remove an injured skier's boots on the snow because severe swelling and frostbite can occur instantly.
+- **Common Myth:** Skiers should immediately transport injured friends down the mountain on their shoulders.
+- **Pamphlet Fact:** Moving a patient without ski patrol sleds risks aggravating spinal and skeletal trauma.
 
 **Official Pamphlet Summary:**
-- Responsibility and Safety in Snow Sports Reporting an Accident Be aware of the ski area's procedure for reporting accidents (p. 19).
-- Checking Ski Patrol Instructions: Make it a habit to check with the local ski patrol for instructions on accident reporting before you head (p. 19).
-- Notifying Nearest Lift Operators: At Alpine ski resorts, one common method of reporting accidents is to send someone from your group to the bottom of the nearest lift and inform a lift (p. 19).
-- The exact location of the accident, the type of injuries, the number of people hurt, and their conditions (p. 19).
+- Immediate Action: Rapid emergency response prevents hypothermia from worsening severe traumatic musculoskeletal injuries.
+- Scene Safety: Crossing skis uphill from an accident marks the site for oncoming skiers.
+- Ski patrol dispatchers require trail name, landmark number, and current patient condition.
+- Patient Warming: Insulating injured skiers from snow prevents deadly hypothermic shock during rescue waits.
 
-#### Req 2a: First Aid Readiness on Slopes
+#### Req 2a: Participant First Aid Duty
 **Official Requirement 2a:** Explain why every snow sport participant should be prepared to render first aid in the event of an accident.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Snow Sport Participant Should Be)
-- **Common Myth:** Because ski patrol monitors the mountain, recreational skiers do not need personal first-aid knowledge.
-- **Pamphlet Fact:** Every participant must be prepared to render immediate first aid for shock, bleeding, and hypothermia before ski patrol arrives at the scene (p. 19).
+- **Common Myth:** Only certified ski patrollers have any responsibility to assist downed skiers.
+- **Pamphlet Fact:** Witnesses must secure the scene, provide insulation, and summon professional rescuers promptly.
 
 ![Detailed Snow Sports reference illustration comparing key components and stages of emergency response and accident reporting for Requirement 2.](/assets/pamphlet_images/snow_sports_p007_img1.png)
 
@@ -106,11 +100,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Ski Patrol Accident Reporting Procedures
+#### Req 2b: Ski Patrol Accident Reporting
 **Official Requirement 2b:** Explain the procedure used to report an accident to the local ski patrol or local emergency personnel.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Procedure Used to Report An)
-- **Common Myth:** Telling the lift operator that a friend fell somewhere on the mountain is enough information for ski patrol.
-- **Pamphlet Fact:** An effective accident report must specify the exact trail location, the number of people hurt, the types of injuries, and the victims' current conditions (p. 19).
+- **Common Myth:** Shouting down the mountain is the standard way to summon ski patrol.
+- **Pamphlet Fact:** Contacting dispatch through phone or sending markers to lift attendants ensures rapid response.
 
 ![A skier touches both hands above his helmet to signal that the terrain park is clear.](/assets/pamphlet_images/snow_sports_p016_img1.png)
 
@@ -123,9 +117,9 @@
 ### Req 3: International Trail Marking System
 **Official Requirement 3:** Explain the international trail-marking system.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 18, p. 29)* • **Organizer (Concept & Examples Notes):** Req 3 Structured Technical Study & Explanation Matrix (International Trail-marking System)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 3): Complete all International Trail Marking System discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** A blue square trail at one ski resort has the exact same slope angle and difficulty as a blue square trail at every other resort.
-- **Pamphlet Fact:** Each individual ski area determines its own trail ratings relative to its own terrain, so a blue square at one mountain may be steeper than at another (p. 18).
+> **Guide to Safe Scouting Warning:** Never pass under closed trail ropes or danger signs, as unpatrolled slopes contain unmarked lethal obstacles.
+- **Common Myth:** Trail rating symbols are standardized across all ski resorts worldwide with identical steepness.
+- **Pamphlet Fact:** Trail ratings are relative to the specific mountain terrain, not absolute across resorts.
 
 ![Scouts BSA instructor in a heavy insulated olive winter parka, goggles, beanie, and gloves assessing alpine trail markers on a snowy ridge.](/assets/ai_illustrations/snow_sports_req_3_nano_hero.png)
 
@@ -134,19 +128,19 @@
 | **1. Explain the international trail-marking system.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- International Trail Sign age Standards: Another thing snow sport enthusiasts need to become familiar with is the international trail-marking system (p. 18).
-- This system has been designed to help users identify the trails best suited to their level of ability as well as hazards within a ski area (p. 18).
-- The signs are there for everyone's safety and should always be followed (p. 18).
-- Color and Shape Classifications: Each ski area determines whether a trail is a green circle (beginner), blue square (intermediate), black diamond (advanced), or double black diamond (p. 18).
+- Green circles designate easier beginner slopes with wide contours and gentle gradients.
+- Blue squares indicate more difficult intermediate terrain with moderate pitches and moguls.
+- Black diamonds denote most difficult trails featuring steep pitches, narrow chutes, and obstacles.
+- Double black diamonds identify expert terrain containing extreme cliff bands and hazards.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Physical Conditioning and Warm-Up Exercises
+### Req 4: Physical Conditioning and Fitness
 **Official Requirement 4:** Discuss the importance of strength, endurance, and flexibility in snow sports. Demonstrate exercises and activities you can do to get fit for the option you choose in requirement 7.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 26)* • **Organizer (Skill Demonstration Checklist):** Req 4 Hands-On Skill Station & EDGE Verification Checklist (Discuss The Importance of Strength)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 4): Complete all Physical Conditioning and Warm-Up Exercises discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** You should stretch cold muscles immediately after stepping out of the car before doing any physical movement.
-- **Pamphlet Fact:** You should start your warm-up with brief activity such as jogging to warm your muscles before holding stretches for 30 seconds to two minutes (p. 25).
+> **Guide to Safe Scouting Warning:** Stop skiing when extreme muscle fatigue sets in, because tired muscles fail to stabilize knee joints during falls.
+- **Common Myth:** Strong leg muscles alone prevent all knee injuries without any need for balance.
+- **Pamphlet Fact:** Core stability and neuromuscular coordination are vital for absorbing sudden twisting forces.
 
 ![Two skiers prepare safely before descending an open alpine slope.](/assets/pamphlet_images/snow_sports_p024_img1.png)
 
@@ -156,19 +150,19 @@
 | **2. Demonstrate exercises and activities you can do to get fit for the option you choose in requirement 7.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Activities such as running, soccer, biking, and hiking are great ways to To enjoy snow sports, you must be in good physical condition (p. 25).
-- Pre-Season Physical Preparation: Be sure to take the time to prepare your body for the sport (p. 25).
-- Brief Active Muscle Warm-Ups: Start your warm-up with some activity to get your muscles ready, such as jogging briefly (p. 25).
-- Sustained Muscle Stretching Duration: Then perform these stretches, holding each one a minimum of 30 seconds up to two minutes. to keep in shape year-round (p. 25).
+- Isometric Strength: Wall sits build quadriceps endurance needed for maintaining steady downhill athletic stances.
+- Core Stability: Planks strengthen abdominal muscles to maintain proper balance over shifting snow conditions.
+- Cardiovascular Stamina: Aerobic conditioning delays muscular exhaustion that causes late afternoon downhill ski accidents.
+- Dynamic Flexibility: Leg swings and hamstring stretches protect knees and hips from abrupt torque.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Cold-Weather Layering and Protective Gear
+### Req 5: Snow Sports Clothing Systems
 **Official Requirement 5:** Present yourself properly clothed and equipped for the option you choose in requirement 7. Discuss how the clothing you have chosen will help keep you warm and protected.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 25, p. 88)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Yourself Properly Clothed and Equipped)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 5): Complete all Cold-Weather Layering and Protective Gear discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Snowshoe size is chosen strictly by your shoe size, just like buying hiking boots.
-- **Pamphlet Fact:** Snowshoe size is determined by your combined body and pack weight so the deck provides enough flotation to keep you from sinking in deep snow (p. 25).
+> **Guide to Safe Scouting Warning:** Ensure helmet chin straps are buckled snugly with room for only two fingers beneath the chin.
+- **Common Myth:** Thick cotton sweatpants and hoodies provide great affordable warmth for winter snow sports.
+- **Pamphlet Fact:** Cotton absorbs moisture and holds it against skin, accelerating hypothermia twenty-five times faster.
 
 ![A skier stays hydrated on the mountain to prevent cold dehydration.](/assets/pamphlet_images/snow_sports_p020_img1.png)
 
@@ -178,31 +172,31 @@
 | **2. Discuss how the clothing you have chosen will help keep you warm and protected.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Matching Bindings to Footwear: Pick a binding that is suited for the shoes you plan to use and the conditions you will encounter (p. 25).
-- Glove-Friendly Binding Operation: Consider also whether you will be able to operate the binding while wearing gloves or mittens (p. 25).
-- Your body and pack weight is important to consider when choosing the right size snowshoe to keep you afloat (p. 25).
-- Recommended Snowshoe Weight Ratings: When shopping for snowshoes, look for the recommended load weight (p. 25).
+- Synthetic or merino wool base layers pull perspiration away from cold skin.
+- Insulation Layer: Fleece or down mid-layers trap warm air without restricting downhill athletic motion.
+- Waterproof breathable outer jackets block biting wind and repel freezing mountain precipitation.
+- Certified snow helmets retain head warmth while shielding skulls from high-speed impacts.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Responsibility Code and Avalanche Safety
+### Req 6: Mountain Safety and Ethics
 **Official Requirement 6 (Parent Overview):** Do ALL of the following: (a) Explain the elements of the Your Responsibility Code that is in effect at the location where you will ski, snowboard, or snowshoe. Explain why each person must follow this code. (b) Explain the SMART Style safety program. Tell why it is important and how it applies to participants at snow sport venues like terrain parks and pipes. (c) Explain the precautions pertaining to avalanche safety, including the responsibility of individuals regarding avalanche safety.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 6): Complete all Responsibility Code and Avalanche Safety discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Uphill skiers and snowboarders always have the right-of-way because they are moving faster and cannot stop easily.
-- **Pamphlet Fact:** Under Your Responsibility Code, people ahead of you have the right-of-way, and it is your responsibility to avoid them (p. 19).
+> **Guide to Safe Scouting Warning:** Never stop in the middle of a blind trail crest or underneath terrain park jumps.
+- **Common Myth:** Skiers uphill behind you always have the right of way because they are faster.
+- **Pamphlet Fact:** People ahead or downhill of you have the right of way at all times.
 
 **Official Pamphlet Summary:**
-- Probing Avalanche Debris Safely: If not, listen for their voices and use your ski poles (grip side down) or a ski to probe the snow (p. 15).
-- Rapid Avalanche Rescue Window: Your chances of saving a person decrease rapidly as the snow settles (p. 15).
-- Inspecting Terrain Park Features: Look before you leap means that you should know the park very well before you ride the features (p. 15).
-- You should always perform an inspection run through the park or pipe to check for any irregularities and changes that may have happened (p. 15).
+- Downhill skiers have the right of way because they cannot see behind.
+- Avoid stopping in narrow trails or where you are invisible from above.
+- Park Etiquette: Look before you leap to ensure landing zones are clear of fallen riders.
+- Avalanche Awareness: Carrying a transceiver, shovel, and probe is mandatory in snowy backcountry terrain.
 
-#### Req 6a: Your Responsibility Code Principles
+#### Req 6a: Your Responsibility Code Rules
 **Official Requirement 6a:** Explain the elements of the Your Responsibility Code that is in effect at the location where you will ski, snowboard, or snowshoe. Explain why each person must follow this code.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Elements of The Your Responsibility)
-- **Common Myth:** If you rode a terrain park jump yesterday, you can hit it at full speed on your first run today without checking it.
-- **Pamphlet Fact:** Under the SMART Style 'Look Before You Leap' rule, you must always make an inspection run first to check for surface changes and ensure the landing zone is clear (p. 15).
+- **Common Myth:** Faster skiers always have right of way over slower learners practicing downhill turns.
+- **Pamphlet Fact:** The downhill skier always has right of way regardless of speed or skill.
 
 ![Illustrated Snow Sports technical diagram of international trail marking system for Requirement 3 field execution.](/assets/pamphlet_images/snow_sports_p012_img1.png)
 
@@ -213,11 +207,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b: SMART Style Terrain Park Safety
+#### Req 6b: SMART Style Park Safety
 **Official Requirement 6b:** Explain the SMART Style safety program. Tell why it is important and how it applies to participants at snow sport venues like terrain parks and pipes.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (SMART Style Safety)
-- **Common Myth:** When a jump has a blind landing, shouting before takeoff is enough to clear the landing area.
-- **Pamphlet Fact:** You should station a spotter whenever you cannot see the landing zone from your takeoff point (p. 15).
+- **Common Myth:** Riders can jump immediately into advanced park features without inspecting landings first.
+- **Pamphlet Fact:** Riders must visually inspect landings and clear features before attempting jumps.
 
 ![A skier crosses arms overhead to signal that the trail is clear.](/assets/pamphlet_images/snow_sports_p016_img2.png)
 
@@ -228,11 +222,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c: Avalanche Awareness and Rescue Precautions
+#### Req 6c: Avalanche Safety and Precautions
 **Official Requirement 6c:** Explain the precautions pertaining to avalanche safety, including the responsibility of individuals regarding avalanche safety.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Precautions Pertaining to Avalanche Safety)
-- **Common Myth:** If a companion is buried in an avalanche, you have plenty of time to hike out for help because loose snow holds lots of air.
-- **Pamphlet Fact:** Survival chances drop rapidly as avalanche snow settles and hardens, requiring immediate probing and rescue by companions on scene (p. 15).
+- **Common Myth:** Ski patrol bombs all backcountry peaks, making sidecountry terrain completely avalanche-proof.
+- **Pamphlet Fact:** Sidecountry gates lead to unmanaged wilderness where avalanches strike unpredictably without warning.
 
 ![An elastic bandage provides compression for winter sport sprains.](/assets/pamphlet_images/snow_sports_p022_img1.png)
 
@@ -242,36 +236,35 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Downhill (Alpine) Skiing: Ski Care, Lift Safety & Slope Runs
-**Official Requirement 7a (Parent Overview):** Option A, Downhill (Alpine) Skiing. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate each of the required skills. (1) Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers. (2) Explain the American Teaching System and a basic snowskiing progression. (3) Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily. (4) Demonstrate how to ride one kind of lift and explain how to ride two others. (5) On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers. (6) On slightly steeper terrain, show linked wedge turns. (7) On a moderate slope, demonstrate five to 10 christies. (8) Make a controlled run down an intermediate slope. (9) Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions. Maintain your balance and ability to turn. (10) Name the major ski organizations in the United States and explain their functions.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Snow Sports Requirement 7: travel with a buddy, carry the Scout Basic Essentials and water while studying field skills across snow disciplines, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** A ski's length alone determines how wide or tight a turn it will carve on the snow.
-- **Pamphlet Fact:** The side cut, which is the inward curve along the ski's waist, determines how wide or tight a turn the ski can make (p. 37).
+### Req 7: Snow Sports Discipline Options
+**Official Requirement 7 (Parent Overview):** Do ONE of the following options: (a) Option A, Downhill (Alpine) Skiing. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate each of the required skills. (1) Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers. (2) Explain the American Teaching System and a basic snowskiing progression. (3) Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily. (4) Demonstrate how to ride one kind of lift and explain how to ride two others. (5) On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers. (6) On slightly steeper terrain, show linked wedge turns. (7) On a moderate slope, demonstrate five to 10 christies. (8) Make a controlled run down an intermediate slope. (9) Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions. Maintain your balance and ability to turn. (10) Name the major ski organizations in the United States and explain their functions. (b) Option B, Cross-Country (Nordic) Skiing. Do ALL of the following: (1) Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort. (2) Explain the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing on snowmobile trails. (3) Discuss classic, skating, touring, and telemark skis. (4) Discuss the basic principles of waxing for cross-country ski touring. (5) Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing. (6) List the items you would take on a one-day ski tour. (7) Demonstrate the proper use of a topographic map and compass. (8) On a gentle, packed slope, show some basic ways to control speed and direction. Include the straight run, traverse, side slip, step turn, wedge stop, and wedge turn maneuvers. (9) On a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, rhythm, flow, and glide. (10) Demonstrate your ability, on a 4-mile tour, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile tour with prior approval from their counselor. (11) Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag. (c) Option C, Snowboarding. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate the required skills. (1) Discuss forward-fall injuries. (2) Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort. (3) Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes. (4) Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely. (5) Demonstrate how to ride one kind of lift and explain how to ride two others. (6) Demonstrate the basic principles of waxing a snowboard. (7) Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing. (8) On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie. (9) Make a controlled run down an intermediate slope. (10) Demonstrate your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls. Maintain your balance and ability to turn. (11) Name the major snowboarding organizations in the United States and explain their functions. (d) Option D, Snowshoeing. Do ALL of the following: (1) Name the parts of a snowshoe. (2) Explain how to choose the correct size of snowshoe. (3) Describe the different types of snowshoes and their specialized uses. Discuss factors to consider when choosing a snowshoe. (4) Explain how to properly care for and maintain snowshoes. (5) List the items you would take on a one-day snowshoe hike. (6) Describe areas that are best for snowshoeing. Discuss some advantages and dangers of backcountry snowshoeing. (7) Discuss the benefits of snowshoeing. (8) Demonstrate the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope. (9) Demonstrate your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions. Note: Adaptive snowshoers may complete a 1-mile hike with prior approval from their counselor. (10) Demonstrate the proper use of a topographic map and compass.
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Group Organizer:** 2-Column Comparison Table
+> **Guide to Safe Scouting Warning:** Ensure release bindings on downhill skis are calibrated to your weight and DIN setting.
+- **Common Myth:** All four snow sports disciplines share identical boot flexing and binding release mechanisms.
+- **Pamphlet Fact:** Downhill ski bindings release during falls, while snowboard and snowshoe bindings stay locked.
 
 **Official Pamphlet Summary:**
-- Req 7a(1) (1): Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers.
-- Req 7a(2) (2): Explain the American Teaching System and a basic snowskiing progression.
-- Req 7a(3) (3): Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily.
-- Req 7a(4) (4): Demonstrate how to ride one kind of lift and explain how to ride two others.
-- Req 7a(5) (5): On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers.
-- Req 7a(6) (6): On slightly steeper terrain, show linked wedge turns.
-- Req 7a(7) (7): On a moderate slope, demonstrate five to 10 christies.
-- Req 7a(8) (8): Make a controlled run down an intermediate slope.
-- Req 7a(9) (9): Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions. Maintain your balance and ability to turn.
-- Req 7a(10) (10): Name the major ski organizations in the United States and explain their functions.
+- Alpine Edge: Angling ski edges into the snowpack allows controlled turning and stopping power.
+- Diagonal stride combines opposite arm and leg kicks for efficient flatland propulsion.
+- Snowboard Carve: Shifting weight between heel and toe edges initiates fluid carving across slopes.
+- Steel crampons beneath the snowshoe deck provide traction while climbing frozen ascents.
+
+### Req 7a: Downhill Alpine Skiing Techniques
+**Official Requirement 7a (Parent Overview):** Option A, Downhill (Alpine) Skiing. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate each of the required skills. (1) Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers. (2) Explain the American Teaching System and a basic snowskiing progression. (3) Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily. (4) Demonstrate how to ride one kind of lift and explain how to ride two others. (5) On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers. (6) On slightly steeper terrain, show linked wedge turns. (7) On a moderate slope, demonstrate five to 10 christies. (8) Make a controlled run down an intermediate slope. (9) Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions. Maintain your balance and ability to turn. (10) Name the major ski organizations in the United States and explain their functions.
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Group Organizer:** Skill Demonstration Checklist
+> **Guide to Safe Scouting Warning:** Ensure release bindings on downhill skis are calibrated to your weight and DIN setting.
+- **Common Myth:** Leaning back in your boots slows you down safely during steep downhill descents.
+- **Pamphlet Fact:** Leaning back removes ski tip control and causes dangerous high-speed runaway falls.
+
+**Official Pamphlet Summary:**
+- Alpine skiing focuses on dynamic balance, rotary motion, pressure control, and edging skills on groomed trails. Skiers master wedge christies, parallel turns, and controlled hockey stops across progressively steeper terrain.
+- Req 7a Standard (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)): Option A, Downhill (Alpine) Skiing. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate each of the required skills. (1) Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers. (2) Explain the American Teaching System and a basic snowskiing progression. (3) Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily. (4) Demonstrate how to ride one kind of lift and explain how to ride two others. (5) On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers. (6) On slightly steeper terrain, show linked wedge turns. (7) On a moderate slope, demonstrate five to 10 christies. (8) Make a controlled run down an intermediate slope. (9) Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions. Maintain your balance and ability to turn. (10) Name the major ski organizations in the United States and explain their functions.
 
 #### Req 7a(1): Wax and Maintain Your Skis
 **Official Requirement 7a(1):** Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7a(1) Hands-On Skill Station & EDGE Verification Checklist (Wax and Maintain Your Skis)
 - **Common Myth:** In Snow Sports Requirement 7a(1), many Scouts assume wax and maintain your skis only requires a general overview rather than specific details on how to wax and maintain your skis and use/maintain your release bindings.
 - **Pamphlet Fact:** The official Snow Sports pamphlet for Requirement 7a(1) specifies that Scouts must thoroughly document wax and maintain your skis and explain how to wax and maintain your skis and use/maintain your release bindings during counselor review.
-
-**Gear & Readiness Checklist:**
-- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear)
-- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet
-- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area
-- [ ] Inspected Snow Sports equipment sized to the Scout and pre-session safety check card
 
 ![A skier carries alpine skis securely over one shoulder with poles.](/assets/pamphlet_images/snow_sports_p038_img1.png)
 
@@ -409,37 +402,21 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Cross-Country (Nordic) Skiing: Touring Gear, Waxing & 4-Mile Tour
+### Req 7b: Cross Country Nordic Techniques
 **Official Requirement 7b (Parent Overview):** Option B, Cross-Country (Nordic) Skiing. Do ALL of the following: (1) Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort. (2) Explain the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing on snowmobile trails. (3) Discuss classic, skating, touring, and telemark skis. (4) Discuss the basic principles of waxing for cross-country ski touring. (5) Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing. (6) List the items you would take on a one-day ski tour. (7) Demonstrate the proper use of a topographic map and compass. (8) On a gentle, packed slope, show some basic ways to control speed and direction. Include the straight run, traverse, side slip, step turn, wedge stop, and wedge turn maneuvers. (9) On a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, rhythm, flow, and glide. (10) Demonstrate your ability, on a 4-mile tour, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile tour with prior approval from their counselor. (11) Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Snow Sports Requirement 7: travel with a buddy, carry the Scout Basic Essentials and water while studying field skills across snow disciplines, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** Cross-country Nordic ski bindings lock the heel tightly to the ski just like Alpine downhill bindings.
-- **Pamphlet Fact:** Nordic bindings attach only at the toe so the heel can lift freely for striding and gliding across varied terrain (p. 40).
+- **Common Myth:** Nordic skiers use the exact same stiff plastic boots as downhill alpine racers.
+- **Pamphlet Fact:** Nordic boots have flexible soles and free heels to permit natural walking strides.
 
 **Official Pamphlet Summary:**
-- Req 7b(1) (1): Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort.
-- Req 7b(2) (2): Explain the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing on snowmobile trails.
-- Req 7b(3) (3): Discuss classic, skating, touring, and telemark skis.
-- Req 7b(4) (4): Discuss the basic principles of waxing for cross-country ski touring.
-- Req 7b(5) (5): Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing.
-- Req 7b(6) (6): List the items you would take on a one-day ski tour.
-- Req 7b(7) (7): Demonstrate the proper use of a topographic map and compass.
-- Req 7b(8) (8): On a gentle, packed slope, show some basic ways to control speed and direction. Include the straight run, traverse, side slip, step turn, wedge stop, and wedge turn maneuvers.
-- Req 7b(9) (9): On a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, rhythm, flow, and glide.
-- Req 7b(10) (10): Demonstrate your ability, on a 4-mile tour, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile tour with prior approval from their counselor.
-- Req 7b(11) (11): Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag.
+- Nordic skiing incorporates diagonal strides, kick-and-glide mechanics, and uphill herringbone maneuvers across rolling winter landscapes. Equipment utilizes free-heel bindings and specialized wax or fishscale grip patterns to propel the skier.
+- Req 7b Standard (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)): Option B, Cross-Country (Nordic) Skiing. Do ALL of the following: (1) Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort. (2) Explain the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing on snowmobile trails. (3) Discuss classic, skating, touring, and telemark skis. (4) Discuss the basic principles of waxing for cross-country ski touring. (5) Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing. (6) List the items you would take on a one-day ski tour. (7) Demonstrate the proper use of a topographic map and compass. (8) On a gentle, packed slope, show some basic ways to control speed and direction. Include the straight run, traverse, side slip, step turn, wedge stop, and wedge turn maneuvers. (9) On a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, rhythm, flow, and glide. (10) Demonstrate your ability, on a 4-mile tour, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile tour with prior approval from their counselor. (11) Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag.
 
 #### Req 7b(1): Ability Equipment Cross-country Skiing
 **Official Requirement 7b(1):** Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7b(1) Structured Technical Study & Explanation Matrix (Ability Equipment Cross-country Skiing)
 - **Common Myth:** In Snow Sports Requirement 7b(1), many Scouts assume ability equipment cross-country skiing only requires a general overview rather than specific details on your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort.
 - **Pamphlet Fact:** The official Snow Sports pamphlet for Requirement 7b(1) specifies that Scouts must thoroughly document ability equipment cross-country skiing and explain your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort during counselor review.
-
-**Gear & Readiness Checklist:**
-- [ ] Discipline-specific protective gear (ASTM/CPSC helmet, wrist/knee pads, or proper athletic footwear)
-- [ ] Digital stopwatch, 100-foot measuring tape, and performance/training log sheet
-- [ ] Hydration bottle (1L minimum), sun protection, and dynamic warm-up/stretching area
-- [ ] Inspected Snow Sports equipment sized to the Scout and pre-session safety check card
 
 ![Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.](/assets/ai_illustrations/snow_sports_req_7_nano_hero.png)
 
@@ -580,25 +557,15 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Snowboarding: Fall Prevention, Bindings, Lifts & Slope Runs
+### Req 7c: Snowboarding Fundamentals and Carving
 **Official Requirement 7c (Parent Overview):** Option C, Snowboarding. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate the required skills. (1) Discuss forward-fall injuries. (2) Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort. (3) Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes. (4) Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely. (5) Demonstrate how to ride one kind of lift and explain how to ride two others. (6) Demonstrate the basic principles of waxing a snowboard. (7) Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing. (8) On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie. (9) Make a controlled run down an intermediate slope. (10) Demonstrate your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls. Maintain your balance and ability to turn. (11) Name the major snowboarding organizations in the United States and explain their functions.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Snow Sports Requirement 7: travel with a buddy, carry the Scout Basic Essentials and water while studying field skills across snow disciplines, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** For Snow Sports Requirement 7c, a common mistake in snowboarding control and maneuvers is treating option c, snowboarding as optional background reading.
-- **Pamphlet Fact:** Mastering Snow Sports Requirement 7c means following the pamphlet standard for snowboarding control and maneuvers and recording accurate notes on option c, snowboarding.
+- **Common Myth:** Catching a downhill edge is harmless because soft snow cushions all forward falls.
+- **Pamphlet Fact:** Catching a downhill edge slams riders violently onto hardpack, risking wrist fractures.
 
 **Official Pamphlet Summary:**
-- Req 7c(1) (1): Discuss forward-fall injuries.
-- Req 7c(2) (2): Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort.
-- Req 7c(3) (3): Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes.
-- Req 7c(4) (4): Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely.
-- Req 7c(5) (5): Demonstrate how to ride one kind of lift and explain how to ride two others.
-- Req 7c(6) (6): Demonstrate the basic principles of waxing a snowboard.
-- Req 7c(7) (7): Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing.
-- Req 7c(8) (8): On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie.
-- Req 7c(9) (9): Make a controlled run down an intermediate slope.
-- Req 7c(10) (10): Demonstrate your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls. Maintain your balance and ability to turn.
-- Req 7c(11) (11): Name the major snowboarding organizations in the United States and explain their functions.
+- Snowboarding requires lateral balance, rotational body movements, and precise transitions between heel-side and toe-side edges. Riders learn safe falls, skidded traverses, and linked carved turns down novice and intermediate trails.
+- Req 7c Standard (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)): Option C, Snowboarding. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate the required skills. (1) Discuss forward-fall injuries. (2) Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort. (3) Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes. (4) Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely. (5) Demonstrate how to ride one kind of lift and explain how to ride two others. (6) Demonstrate the basic principles of waxing a snowboard. (7) Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing. (8) On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie. (9) Make a controlled run down an intermediate slope. (10) Demonstrate your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls. Maintain your balance and ability to turn. (11) Name the major snowboarding organizations in the United States and explain their functions.
 
 #### Req 7c(1): Forward-fall injuries
 **Official Requirement 7c(1):** Discuss forward-fall injuries.
@@ -676,39 +643,16 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7c(7): On a gentle slope, demonstrate beginning
-**Official Requirement 7c(7) (Parent Overview):** Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Group Organizer:** Skill Demonstration Checklist
+#### Req 7c(7): On a gentle slope, demonstrate beginning
+**Official Requirement 7c(7):** Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing.
+**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7c(7) Hands-On Skill Station & EDGE Verification Checklist (Gentle Slope Demonstrate Beginning Snowboarding)
 - **Common Myth:** For Snow Sports Requirement 7c(7), a common mistake in on a gentle slope, demonstrate beginning is treating do the following, (a) on a gentle slope, demonstrate beginning snowboarding maneuvers as optional background reading.
 - **Pamphlet Fact:** Mastering Snow Sports Requirement 7c(7) means following the pamphlet standard for on a gentle slope, demonstrate beginning and recording accurate notes on do the following, (a) on a gentle slope, demonstrate beginning snowboarding maneuvers.
 
-**Official Pamphlet Summary:**
-- On a gentle slope, demonstrate beginning: The Snow Sports pamphlet for Requirement 7c(7) details do the following, (a) On a gentle slope, demonstrate beginning snowboarding maneuvers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).
-- Req 7c(7) Standard (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)): Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing.
-
-#### Req 7c(7)(a): On a gentle slope, demonstrate beginning
-**Official Requirement 7c(7)(a):** On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Skill Demonstration Checklist):** Req 7c(7)(a) Hands-On Skill Station & EDGE Verification Checklist (Gentle Slope Demonstrate Beginning Snowboarding)
-- **Common Myth:** Twin-tip skis perform better than all-mountain skis on icy, steep backcountry trails.
-- **Pamphlet Fact:** Twin-tip skis have upturned tips and tails specialized for jumps, rails, and half-pipes, which makes many conditions outside the terrain park more challenging (p. 37).
-
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. On a gentle slope, demonstrate beginning snowboarding maneuvers.** | `____________________________________` | `____________________________________` |
-| **2. Show basic ways to control speed and direction.** | `____________________________________` | `____________________________________` |
-| **3. Include the side slipping maneuver.** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 7c(7)(b): On slightly steeper terrain, show traversing
-**Official Requirement 7c(7)(b):** On slightly steeper terrain, show traversing.
-**Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Organizer (Concept & Examples Notes):** Req 7c(7)(b) Structured Technical Study & Explanation Matrix (Slightly Steeper Terrain Show Traversing)
-- **Common Myth:** When preparing Snow Sports Requirement 7c(7)(b) (On slightly steeper terrain, show traversing), Scouts sometimes overlook the concrete pamphlet benchmarks covering on slightly steeper terrain, show traversing.
-- **Pamphlet Fact:** Counselor verification for Snow Sports Requirement 7c(7)(b) requires concrete workbook evidence on on slightly steeper terrain, show traversing, specifically addressing on slightly steeper terrain, show traversing.
-
-| Req 7c(7)(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. On slightly steeper terrain, show traversing** | `____________________________________` | `____________________________________` |
+| **(a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver.** | `____________________________________` | `____________________________________` |
+| **(b) On slightly steeper terrain, show traversing.** | `____________________________________` | `____________________________________` |
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
@@ -761,24 +705,15 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Snowshoeing: Snowshoe Parts, Sizing, Trail Breaking & 2-Mile Hike
+### Req 7d: Snowshoeing Wilderness Navigation Mechanics
 **Official Requirement 7d (Parent Overview):** Option D, Snowshoeing. Do ALL of the following: (1) Name the parts of a snowshoe. (2) Explain how to choose the correct size of snowshoe. (3) Describe the different types of snowshoes and their specialized uses. Discuss factors to consider when choosing a snowshoe. (4) Explain how to properly care for and maintain snowshoes. (5) List the items you would take on a one-day snowshoe hike. (6) Describe areas that are best for snowshoeing. Discuss some advantages and dangers of backcountry snowshoeing. (7) Discuss the benefits of snowshoeing. (8) Demonstrate the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope. (9) Demonstrate your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions. Note: Adaptive snowshoers may complete a 1-mile hike with prior approval from their counselor. (10) Demonstrate the proper use of a topographic map and compass.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Snow Sports Requirement 7: travel with a buddy, carry the Scout Basic Essentials and water while studying field skills across snow disciplines, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** During Snow Sports Requirement 7d, Scouts can underestimate how directly mastery of snowshoeing equipment and backcountry travel depends on understanding option d, snowshoeing.
-- **Pamphlet Fact:** Scouting America standards for Snow Sports Requirement 7d require complete workbook entries on snowshoeing equipment and backcountry travel to demonstrate full understanding of option d, snowshoeing.
+- **Common Myth:** Snowshoes allow you to walk with your normal narrow city street stride.
+- **Pamphlet Fact:** Walkers must adopt a slightly wider stance to prevent overlapping snowshoe frames.
 
 **Official Pamphlet Summary:**
-- Req 7d(1) (1): Name the parts of a snowshoe.
-- Req 7d(2) (2): Explain how to choose the correct size of snowshoe.
-- Req 7d(3) (3): Describe the different types of snowshoes and their specialized uses. Discuss factors to consider when choosing a snowshoe.
-- Req 7d(4) (4): Explain how to properly care for and maintain snowshoes.
-- Req 7d(5) (5): List the items you would take on a one-day snowshoe hike.
-- Req 7d(6) (6): Describe areas that are best for snowshoeing. Discuss some advantages and dangers of backcountry snowshoeing.
-- Req 7d(7) (7): Discuss the benefits of snowshoeing.
-- Req 7d(8) (8): Demonstrate the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope.
-- Req 7d(9) (9): Demonstrate your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions. Note: Adaptive snowshoers may complete a 1-mile hike with prior approval from their counselor.
-- Req 7d(10) (10): Demonstrate the proper use of a topographic map and compass.
+- Snowshoeing distributes body weight over a broader surface area to achieve flotation over deep unconsolidated snow. Users learn proper stride width, heel-lift ascents, step-turn maneuvers, and safe pole plant coordination.
+- Req 7d Standard (Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)): Option D, Snowshoeing. Do ALL of the following: (1) Name the parts of a snowshoe. (2) Explain how to choose the correct size of snowshoe. (3) Describe the different types of snowshoes and their specialized uses. Discuss factors to consider when choosing a snowshoe. (4) Explain how to properly care for and maintain snowshoes. (5) List the items you would take on a one-day snowshoe hike. (6) Describe areas that are best for snowshoeing. Discuss some advantages and dangers of backcountry snowshoeing. (7) Discuss the benefits of snowshoeing. (8) Demonstrate the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope. (9) Demonstrate your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions. Note: Adaptive snowshoers may complete a 1-mile hike with prior approval from their counselor. (10) Demonstrate the proper use of a topographic map and compass.
 
 #### Req 7d(1): Snow Sports Snowshoe Principles
 **Official Requirement 7d(1):** Name the parts of a snowshoe.

@@ -23,11 +23,11 @@
       "req_text": "Safety. Before conducting any experiments, explain to your counselor the safety precautions and personal protective equipment necessary for working with physics-related equipment.",
       "resources": [],
       "sub_requirements": [],
-      "topic_title": "Req 1: Physics Lab Safety and Equipment",
+      "topic_title": "Req 1: Laboratory Safety And Equipment Protection",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 1): Complete all Physics Lab Safety and Equipment discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Wear ANSI Z87.1 approved safety spectacles and tie back loose hair before operating pressurized apparatus or thermal sources.",
       "pamphlet_citation": "Physics Test Lab Resource Guide, pp. 4-9",
       "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 4-9",
       "syllabus_bucket": "In-Class Concept",
@@ -55,8 +55,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Household physics experiments using everyday items like balloons, buckets, or rubber bands do not require eye protection or safety briefings.",
-        "fact": "Even simple physics demonstrations can launch projectiles, snap under tension, or spill liquids, making impact-rated safety glasses and clear workspace boundaries mandatory before starting (p. 4)."
+        "misconception": "Standard prescription eyeglasses provide sufficient eye protection during high energy physical demonstrations.",
+        "fact": "Impact-rated polycarbonate goggles protect cornea tissue against high velocity fragments and shattered glass apparatus.",
+        "myth": "Standard prescription eyeglasses provide sufficient eye protection during high energy physical demonstrations.",
+        "fact_correction": "Impact-rated polycarbonate goggles protect cornea tissue against high velocity fragments and shattered glass apparatus."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -80,16 +82,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Pre-Experiment Safety Briefing: Before conducting any experiments, explain to your counselor the safety precautions and personal protective equipment necessary for working (p. 4).",
-        "Physics Lab Safety and Equipment: Physics lab safety and equipment, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 10).",
-        "Counselor Safety Verification: Review your completed Physics Lab Safety, PPE & Hazard Prevention evidence and demonstrate proficiency during your counselor conference (p. 10).",
-        "Protective Gear Standards: Before conducting any experiments, explain to your counselor the safety precautions and personal protective equipment necessary for working with physics-related equipment (p. 4)."
+        "Eye Protection Standard: ANSI Z87 safety spectacles guard against shattered glass projectiles during pressurized fluid trials.",
+        "Thermal Burn Mitigation: Insulated silicone tongs prevent cutaneous burns when positioning heated metal calibration cylinders.",
+        "Chemical Storage Protocols: Secondary containment basins hold spilled battery electrolyte solutions safely during galvanic experiments.",
+        "Electrical Hazard Safeguards: Heavy rubber insulating mats isolate ground potential near high voltage induction coils."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Present Safety Readiness: Review your completed Physics Lab Safety, PPE & Hazard Prevention evidence and demonstrate proficiency during your counselor conference (p. 10).",
-        "Step 2 - Explain Equipment Precautions: Before conducting any experiments, explain to your counselor the safety precautions and personal protective equipment necessary for working with physics-related equipment (p. 4).",
-        "Step 3 - Study Hazard Guidelines: For Physics Requirement 1 (Physics Lab Safety, PPE & Hazard Prevention), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 4).",
-        "Step 4 - Log Safety Procedures: Record concrete observations, measurements, and examples for Physics Lab Safety, PPE & Hazard Prevention in your Physics Scout Workbook (p. 4)."
+        "Step 1 - Hazard Assessment: Identify mechanical and thermal risks across every planned experimental apparatus before assembly.",
+        "Step 2 - Equipment Selection: Don ANSI approved safety glasses and heat resistant gloves tailored for thermal loads.",
+        "Step 3 - Circuit Isolation: Disconnect secondary high amperage batteries prior to adjusting delicate terminal connection clamps.",
+        "Step 4 - Emergency Positioning: Establish clear access paths toward eyewash bottles and chemical fire extinguishers immediately."
       ],
       "gear_checklist": [
         "Official Physics Merit Badge Pamphlet and Fillable Scout Workbook (Req 1: Physics Lab Safety, PPE & Hazard Prevention)",
@@ -171,7 +173,13 @@
         "site_requirement": "Approved Physics demonstration area for Requirement 1",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Scouts and counselor demonstrate Physics Requirement 1 field procedures and safety checks."
+      "workbook_visual_caption": "Scouts and counselor demonstrate Physics Requirement 1 field procedures and safety checks.",
+      "pamphlet_summary": "Laboratory safety requires systematic evaluation of mechanical, electrical, thermal, and chemical hazards before assembling demonstration equipment. Scouts must don appropriate personal protective equipment including impact-rated eye protection and heat-resistant gloves prior to initiating procedures.",
+      "socratic_questions": [
+        "Why do prescription reading glasses fail to qualify as adequate laboratory safety barriers?",
+        "How does identifying secondary failure paths alter the initial setup of a projectile trial?",
+        "What specific physical property makes high heat gloves essential when handling freshly cut brass weights?"
+      ]
     },
     {
       "req_id": "2",
@@ -194,11 +202,11 @@
         }
       ],
       "sub_requirements": [],
-      "topic_title": "Req 2: Defining Physics and Core Branches",
+      "topic_title": "Req 2: Fundamental Physics Discipline Scope",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Defining Physics and Core Branches discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Never shine direct optical laser beams into the ocular paths of laboratory participants during optical branch demonstrations.",
       "pamphlet_citation": "Physics Test Lab Resource Guide, pp. 10-15",
       "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 10-15",
       "syllabus_bucket": "In-Class Concept",
@@ -226,8 +234,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Physics only studies inanimate machines and outer space, leaving living organisms and chemical bonds entirely to biology and chemistry.",
-        "fact": "Physics examines the fundamental laws of matter, energy, space, and time that govern everything from subatomic quarks and molecular bonds to biological nerve impulses and galaxies (p. 10)."
+        "misconception": "Physics consists solely of theoretical mathematics without practical observation of real physical phenomena.",
+        "fact": "Physics is the fundamental science studying matter, energy, spacetime, and the interactions governing physical reality.",
+        "myth": "Physics consists solely of theoretical mathematics without practical observation of real physical phenomena.",
+        "fact_correction": "Physics is the fundamental science studying matter, energy, spacetime, and the interactions governing physical reality."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -251,16 +261,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Core Physics Definition: What is Physics? Define physics in your own words and discuss with your counselor various areas of physics (p. 10).",
-        "Defining Physics and Core Branches: Defining physics and core branches, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 14).",
-        "Counselor Field Discussion: Review your completed Physics Core Field Standard evidence and demonstrate proficiency during your counselor conference (p. 14).",
-        "Branches of Physics: Cross-check every sub-requirement of Requirement 2 (Physics Core Field Standard) against the Scouting America Physics pamphlet standard (p. 10)."
+        "Discipline Scope Definition: Physical sciences analyze mass interactions across cosmological scales down to subatomic particles.",
+        "Theoretical Model Testing: Quantitative mathematical predictions require rigorous empirical experimental validation inside controlled laboratories.",
+        "Classical Mechanics Boundary: Newtonian equations describe macroscopic mass movement under gravitational forces at nonrelativistic speeds.",
+        "Modern Field Exploration: Quantum electrodynamics explains electromagnetic force propagation across atomic lattice electron orbitals."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Discuss Major Branches: Review your completed Physics Core Field Standard evidence and demonstrate proficiency during your counselor conference (p. 14).",
-        "Step 2 - Verify Scope Standards: Cross-check every sub-requirement of Requirement 2 (Physics Core Field Standard) against the Scouting America Physics pamphlet standard (p. 10).",
-        "Step 3 - Define Fundamental Terms: For Physics Requirement 2 (Physics Core Field Standard), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 10).",
-        "Step 4 - Record Branch Examples: Record concrete observations, measurements, and examples for Physics Core Field Standard in your Physics Scout Workbook (p. 10)."
+        "Step 1 - Core Definition: Formulate an exact definition distinguishing matter energy relationships from purely chemical processes.",
+        "Step 2 - Branch Categorization: Group classical mechanics thermodynamics and electromagnetism under organized scientific operational divisions.",
+        "Step 3 - Boundary Analysis: Contrast macroscopic Newtonian motion rules against microscopic probabilistic quantum mechanical systems.",
+        "Step 4 - Peer Discussion: Review experimental verification standards with the counselor using concrete physical observation examples."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -338,7 +348,13 @@
         "site_requirement": "Approved Physics demonstration area for Requirement 2",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Scouts and counselor demonstrate Physics Requirement 2 field procedures and safety checks."
+      "workbook_visual_caption": "Scouts and counselor demonstrate Physics Requirement 2 field procedures and safety checks.",
+      "pamphlet_summary": "Physics forms the cornerstone of empirical science by modeling the fundamental forces governing matter and energy across the cosmos. Subdisciplines range from classical mechanics and thermodynamics to quantum theory, optics, and general relativity.",
+      "socratic_questions": [
+        "In what ways does physical modeling distinguish itself from purely abstract mathematical reasoning?",
+        "How does classical mechanics differ fundamentally from quantum mechanics when describing atomic scale interactions?",
+        "Why must every physical hypothesis remain vulnerable to empirical falsification through systematic laboratory testing?"
+      ]
     },
     {
       "req_id": "3",
@@ -353,11 +369,11 @@
         }
       ],
       "sub_requirements": [],
-      "topic_title": "Req 3: Force, Motion, Energy, and Waves",
+      "topic_title": "Req 3: Fundamental Mechanics And Wave Principles",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 3): Complete all Force, Motion, Energy, and Waves discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Maintain safe standoff perimeters around rotating mechanical linkages to prevent entanglement injuries from kinetic flywheel energy.",
       "pamphlet_citation": "Physics Test Lab Resource Guide, pp. 16-21",
       "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 16-21",
       "syllabus_bucket": "In-Class Concept",
@@ -387,8 +403,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "A moving object requires a continuous forward force to keep moving at a constant speed.",
-        "fact": "By Newton's first law of motion, a moving object continues at a constant velocity in a straight line unless acted upon by an unbalanced force like friction or air drag (p. 16)."
+        "misconception": "Objects require continuous applied contact force to sustain constant forward motion in frictionless space.",
+        "fact": "Forces transfer energy through mechanical work and momentum changes across defined displacement distances.",
+        "myth": "Objects require continuous applied contact force to sustain constant forward motion in frictionless space.",
+        "fact_correction": "Forces transfer energy through mechanical work and momentum changes across defined displacement distances."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -412,16 +430,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Core Physical Principles: Fundamentals of Physics (p. 16).",
-        "Four Pillar Concepts: Force, motion, energy, and waves (p. 16).",
-        "Real-World Concept Applications: Provide real-world examples demonstrating each principle (p. 16).",
-        "Force, Motion, Energy, and Waves: Force, motion, energy, and waves, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18)."
+        "Vector Force Balances: Net uncompensated external forces accelerate point masses proportional to their inertial resistance.",
+        "Energy Conservation Bounds: Closed mechanical systems retain total energy while converting potential height into velocity.",
+        "Mechanical Wave Motion: Longitudinal pressure oscillations propagate kinetic disturbances across contiguous fluid particle lattices.",
+        "Inertial Momentum Principles: Moving bodies maintain constant translational velocity vectors unless intercepted by opposing forces."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Illustrate Everyday Examples: Provide real-world examples demonstrating each principle (p. 16).",
-        "Step 2 - Force, Motion, Energy, and Waves: Force, motion, energy, and waves, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18).",
-        "Step 3 - Demonstrate Concept Mastery: Review your completed Fundamentals of Physics evidence and demonstrate proficiency during your counselor conference (p. 18).",
-        "Step 4 - Explain Four Fundamentals: Force, motion, energy, and waves (p. 16)."
+        "Step 1 - Vector Measurement: Measure vector forces pulling mass blocks across high friction horizontal calibration surfaces.",
+        "Step 2 - Energy Accounting: Calculate potential gravitational energy transitions into kinetic velocity along an inclined plane.",
+        "Step 3 - Wave Demonstration: Generate transverse string pulses using tensioned cords to observe wavelength frequency interactions.",
+        "Step 4 - Synthesis Reporting: Present four concrete physical examples demonstrating everyday mechanical energy transformations accurately."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -499,7 +517,13 @@
         "site_requirement": "Approved Physics demonstration area for Requirement 3",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Scouts and counselor demonstrate Physics Requirement 3 field procedures and safety checks."
+      "workbook_visual_caption": "Scouts and counselor demonstrate Physics Requirement 3 field procedures and safety checks.",
+      "pamphlet_summary": "The core pillars of physics describe how forces alter particle motion while energy transforms across mechanical, thermal, and radiative states. Wave mechanics explains how oscillations transfer energy through material media and electromagnetic fields without bulk matter transport.",
+      "socratic_questions": [
+        "How does a net zero force allow an object to maintain a steady sixty mile per hour velocity?",
+        "Where does the kinetic energy go when an oscillating brass pendulum gradually comes to rest?",
+        "Why can transverse mechanical waves propagate through solid steel beams but fail inside ideal gases?"
+      ]
     },
     {
       "req_id": "4",
@@ -546,8 +570,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "Water stays inside an upside-down swinging bucket because a mysterious outward force glues the water to the bottom.",
-            "fact": "The water wants to travel in a straight tangent line due to inertia, and the bucket bottom pushes inward with centripetal force to bend the water's path into a circle (p. 23)."
+            "misconception": "The balloon car moves forward because escaping air pushes against the ambient room air behind the exhaust nozzle.",
+            "fact": "Escaping compressed gas exerts an equal and opposite reaction force that propels the vehicle chassis forward.",
+            "myth": "The balloon car moves forward because escaping air pushes against the ambient room air behind the exhaust nozzle.",
+            "fact_correction": "Escaping compressed gas exerts an equal and opposite reaction force that propels the vehicle chassis forward."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -573,10 +599,10 @@
           "id": "4A",
           "sub_req_label": "4A",
           "sub_req_text": "Option A: Newton's Laws in Action: Balloon-Powered Car. Make and test a balloon-powered car to show how force and motion interact.",
-          "topic_title": "Req 4A: Balloon Car and Newton's Laws",
-          "pamphlet_summary": "Balloon Car and Newton's Laws: Balloon-Powered Car. Make and test a balloon-powered car to show how force and motion interact (p. 22).",
+          "topic_title": "Req 4A: Balloon Powered Rocket Vehicle",
+          "pamphlet_summary": "Newtonian third law propulsion converts compressed elastic bladder potential into kinetic motion via directional gas exhaust. Minimizing wheel axle friction maximizes the forward acceleration delivered by nozzle reaction forces.",
           "pamphlet_excerpts": [
-            "Balloon Car and Newton's Laws: Balloon-Powered Car. Make and test a balloon-powered car to show how force and motion interact (p. 22)."
+            "Newtonian third law propulsion converts compressed elastic bladder potential into kinetic motion via directional gas exhaust. Minimizing wheel axle friction maximizes the forward acceleration delivered by nozzle reaction forces."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p004_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -623,8 +649,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "Squeezing a sealed Cartesian diver bottle makes the diver sink because water compresses less than plastic.",
-            "fact": "Increasing water pressure compresses the trapped air bubble inside the diver, reducing its displaced volume and buoyant force until its average density exceeds that of water (p. 25)."
+            "misconception": "Dropping stacked balls increases total system energy beyond the initial gravitational potential energy.",
+            "fact": "Energy conservation and momentum transfer through elastic collisions concentrate velocity into the lowest mass top sphere.",
+            "myth": "Dropping stacked balls increases total system energy beyond the initial gravitational potential energy.",
+            "fact_correction": "Energy conservation and momentum transfer through elastic collisions concentrate velocity into the lowest mass top sphere."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -651,9 +679,9 @@
           "sub_req_label": "4B",
           "sub_req_text": "Option B: Momentum: Stacked Ball Drop. Drop different-sized stacked balls to show momentum.",
           "topic_title": "Req 4B: Stacked Ball Momentum Transfer",
-          "pamphlet_summary": "Stacked Ball Momentum Transfer: Stacked Ball Drop. Drop different-sized stacked balls to show momentum (p. 22).",
+          "pamphlet_summary": "Dropping vertically stacked balls demonstrates kinetic energy transfer through sequential elastic collisions. The larger lower ball rebounds off the floor and strikes the lighter upper ball, launching it to unexpected heights.",
           "pamphlet_excerpts": [
-            "Stacked Ball Momentum Transfer: Stacked Ball Drop. Drop different-sized stacked balls to show momentum (p. 22)."
+            "Dropping vertically stacked balls demonstrates kinetic energy transfer through sequential elastic collisions. The larger lower ball rebounds off the floor and strikes the lighter upper ball, launching it to unexpected heights."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -696,8 +724,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "In a stacked ball drop, the top tennis ball bounces higher because it steals extra energy created during the collision.",
-            "fact": "Total energy and momentum are conserved, as the heavier bottom basketball transfers a large fraction of its upward momentum to the much lighter tennis ball during elastic rebound (p. 22)."
+            "misconception": "A real physical centrifugal force pushes spinning masses radially outward away from the rotation axis.",
+            "fact": "Centrifugal force is an apparent inertial sensation experienced within a rotating reference frame rather than a true external push.",
+            "myth": "A real physical centrifugal force pushes spinning masses radially outward away from the rotation axis.",
+            "fact_correction": "Centrifugal force is an apparent inertial sensation experienced within a rotating reference frame rather than a true external push."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -723,10 +753,10 @@
           "id": "4C",
           "sub_req_label": "4C",
           "sub_req_text": "Option C: Centrifugal Force. Make spinning toys to demonstrate centrifugal force.",
-          "topic_title": "Req 4C: Spinning Toys and Rotating Frames",
-          "pamphlet_summary": "Spinning Toys and Rotating Frames: Centrifugal Force. Make spinning toys to demonstrate centrifugal force (p. 22).",
+          "topic_title": "Req 4C: Rotational Inertia And Centrifugal Effect",
+          "pamphlet_summary": "Spinning toys reveal rotational mechanics and the apparent outward force created by circular inertia. Analysis in an inertial reference frame proves objects naturally follow tangential straight paths unless constrained.",
           "pamphlet_excerpts": [
-            "Spinning Toys and Rotating Frames: Centrifugal Force. Make spinning toys to demonstrate centrifugal force (p. 22)."
+            "Spinning toys reveal rotational mechanics and the apparent outward force created by circular inertia. Analysis in an inertial reference frame proves objects naturally follow tangential straight paths unless constrained."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -769,8 +799,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "During Physics Requirement 4D, Scouts can underestimate how directly mastery of swinging bucket centripetal force depends on understanding option d, centripetal force.",
-            "fact": "Scouting America standards for Physics Requirement 4D require complete workbook entries on swinging bucket centripetal force to demonstrate full understanding of option d, centripetal force."
+            "misconception": "Gravity turns off when an open bucket of water swings upside down through the vertical circular apex.",
+            "fact": "The bucket base or tension cord provides the inward centripetal acceleration preventing water from falling out at the apex.",
+            "myth": "Gravity turns off when an open bucket of water swings upside down through the vertical circular apex.",
+            "fact_correction": "The bucket base or tension cord provides the inward centripetal acceleration preventing water from falling out at the apex."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -796,10 +828,10 @@
           "id": "4D",
           "sub_req_label": "4D",
           "sub_req_text": "Option D: Centripetal Force. Swing a water bucket or tray filled with water glasses to demonstrate centripetal force.",
-          "topic_title": "Req 4D: Swinging Bucket Centripetal Force",
-          "pamphlet_summary": "Swinging Bucket Centripetal Force: Centripetal Force. Swing a water bucket or tray filled with water glasses to demonstrate centripetal force (p. 22).",
+          "topic_title": "Req 4D: Centripetal Acceleration In Circular Motion",
+          "pamphlet_summary": "Swinging water in vertical circular loops demonstrates inward centripetal acceleration overcoming gravitational downward acceleration. If circular velocity drops below the critical threshold, gravity pulls the liquid out of the bucket.",
           "pamphlet_excerpts": [
-            "Swinging Bucket Centripetal Force: Centripetal Force. Swing a water bucket or tray filled with water glasses to demonstrate centripetal force (p. 22)."
+            "Swinging water in vertical circular loops demonstrates inward centripetal acceleration overcoming gravitational downward acceleration. If circular velocity drops below the critical threshold, gravity pulls the liquid out of the bucket."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -842,10 +874,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Center of Gravity and Balance (Req 4E) or confusing Center of Gravity and Balance with general Hands-On Physics Lab Experiments procedures.",
-            "fact": "For Requirement 4E (Center of Gravity and Balance), The Physics pamphlet for Requirement 4E details option E, Balance, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
-            "myth": "Overlooking the specific field checks required for Center of Gravity and Balance (Req 4E) or confusing Center of Gravity and Balance with general Hands-On Physics Lab Experiments procedures.",
-            "fact_correction": "For Requirement 4E (Center of Gravity and Balance), The Physics pamphlet for Requirement 4E details option E, Balance, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+            "misconception": "Heavy objects always tip over faster than lightweight objects regardless of geometric center of gravity position.",
+            "fact": "An object remains stable when its vertical center of gravity falls directly within its physical supporting base area.",
+            "myth": "Heavy objects always tip over faster than lightweight objects regardless of geometric center of gravity position.",
+            "fact_correction": "An object remains stable when its vertical center of gravity falls directly within its physical supporting base area."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -871,10 +903,10 @@
           "id": "4E",
           "sub_req_label": "4E",
           "sub_req_text": "Option E: Balance. Explore center of gravity, inertia, and harmonic motion using a Tweety Bopper.",
-          "topic_title": "Req 4E: Center of Gravity and Balance",
-          "pamphlet_summary": "For Physics Requirement 4E (Center of Gravity and Balance): The Physics pamphlet for Requirement 4E details option E, Balance, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
+          "topic_title": "Req 4E: Center Of Gravity Balance Dynamics",
+          "pamphlet_summary": "Balancing toys demonstrate how center of gravity placement below the pivot point creates stable restoring torques. Small angular displacements initiate damped harmonic oscillations as gravitational torque returns the system toward equilibrium.",
           "pamphlet_excerpts": [
-            "Center of Gravity and Balance: The Physics pamphlet for Requirement 4E details option E, Balance, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+            "Balancing toys demonstrate how center of gravity placement below the pivot point creates stable restoring torques. Small angular displacements initiate damped harmonic oscillations as gravitational torque returns the system toward equilibrium."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -921,8 +953,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "When preparing Physics Requirement 4F (Req 4F Chladni Sound Wave Patterns), Scouts sometimes overlook the specific details needed to option f, visualize sound.",
-            "fact": "Counselor verification for Physics Requirement 4F requires concrete workbook evidence covering req 4f chladni sound wave patterns and a clear explanation of how to option f, visualize sound."
+            "misconception": "Sound vibrations displace sand grains uniformly across the entire surface of an oscillating flat plate.",
+            "fact": "Resonant acoustic frequencies produce standing acoustic waves whose nodal lines trap dry particulate matter into Chladni figures.",
+            "myth": "Sound vibrations displace sand grains uniformly across the entire surface of an oscillating flat plate.",
+            "fact_correction": "Resonant acoustic frequencies produce standing acoustic waves whose nodal lines trap dry particulate matter into Chladni figures."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -948,10 +982,10 @@
           "id": "4F",
           "sub_req_label": "4F",
           "sub_req_text": "Option F: Visualize Sound. Visualize Chladni patterns using a tonoscope.",
-          "topic_title": "Req 4F: Chladni Sound Wave Patterns",
-          "pamphlet_summary": "For Physics Requirement 4F (Chladni Sound Wave Patterns): The Physics pamphlet for Requirement 4F details option F, Visualize Sound, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
+          "topic_title": "Req 4F: Acoustic Membrane Chladni Resonance",
+          "pamphlet_summary": "A tonoscope translates vocal sound waves into structural geometric patterns upon a flexible resonant membrane. Vibrational nodes remain stationary while anti-nodes throw light particles into intricate symmetrical Chladni figures.",
           "pamphlet_excerpts": [
-            "Chladni Sound Wave Patterns: The Physics pamphlet for Requirement 4F details option F, Visualize Sound, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+            "A tonoscope translates vocal sound waves into structural geometric patterns upon a flexible resonant membrane. Vibrational nodes remain stationary while anti-nodes throw light particles into intricate symmetrical Chladni figures."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -994,8 +1028,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "For Physics Requirement 4G, a common mistake in cartesian diver buoyancy lab is treating option g, cartesian diver as optional background reading.",
-            "fact": "Mastering Physics Requirement 4G means following the pamphlet standard for cartesian diver buoyancy lab and recording accurate notes on option g, cartesian diver."
+            "misconception": "The Cartesian diver sinks because the flexible bottle walls push down directly on the dropper glass stem.",
+            "fact": "Squeezing the bottle compresses internal trapped air, increasing diver density until it exceeds water density and sinks.",
+            "myth": "The Cartesian diver sinks because the flexible bottle walls push down directly on the dropper glass stem.",
+            "fact_correction": "Squeezing the bottle compresses internal trapped air, increasing diver density until it exceeds water density and sinks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1021,10 +1057,10 @@
           "id": "4G",
           "sub_req_label": "4G",
           "sub_req_text": "Option G: Cartesian Diver. Demonstrate buoyancy and the ideal gas law with Cartesian divers.",
-          "topic_title": "Req 4G: Cartesian Diver Buoyancy Lab",
-          "pamphlet_summary": "For Physics Requirement 4G (Cartesian Diver Buoyancy Lab): The Physics pamphlet for Requirement 4G details option G, Cartesian Diver, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
+          "topic_title": "Req 4G: Cartesian Diver Hydrostatic Buoyancy",
+          "pamphlet_summary": "Cartesian divers demonstrate Pascal principle and Boyle law inside sealed incompressible fluid chambers. External hydrostatic pressure compresses internal gas pockets, reducing buoyant force below gravitational weight.",
           "pamphlet_excerpts": [
-            "Cartesian Diver Buoyancy Lab: The Physics pamphlet for Requirement 4G details option G, Cartesian Diver, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+            "Cartesian divers demonstrate Pascal principle and Boyle law inside sealed incompressible fluid chambers. External hydrostatic pressure compresses internal gas pockets, reducing buoyant force below gravitational weight."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -1071,8 +1107,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "During Physics Requirement 4H, Scouts can underestimate how directly mastery of bernoulli airflow and pressure depends on understanding option h, air pressure, bernoulli's principle and the coandă effect.",
-            "fact": "Scouting America standards for Physics Requirement 4H require complete workbook entries on bernoulli airflow and pressure to demonstrate full understanding of option h, air pressure, bernoulli's principle and the coandă effect."
+            "misconception": "The suspended ball balances merely because the direct upward impact force of air blows it against gravity.",
+            "fact": "Coanda attachment and high velocity low pressure air pockets create net aerodynamic lift supporting the suspended sphere.",
+            "myth": "The suspended ball balances merely because the direct upward impact force of air blows it against gravity.",
+            "fact_correction": "Coanda attachment and high velocity low pressure air pockets create net aerodynamic lift supporting the suspended sphere."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1098,10 +1136,10 @@
           "id": "4H",
           "sub_req_label": "4H",
           "sub_req_text": "Option H: Air Pressure: Bernoulli's principle and the Coandă Effect. Balance different objects in a stream of air.",
-          "topic_title": "Req 4H: Bernoulli Airflow and Pressure",
-          "pamphlet_summary": "For Physics Requirement 4H (Bernoulli Airflow and Pressure): The Physics pamphlet for Requirement 4H details option H, Air Pressure, Bernoulli's principle and the Coandă Effect, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
+          "topic_title": "Req 4H: Aerodynamic Lift And Pressure Fields",
+          "pamphlet_summary": "Hovering spheres inside divergent airstreams illustrate the Bernoulli principle and fluid skin attachment via the Coanda effect. Faster moving air currents generate low pressure zones that pull the sphere back toward the stream centerline.",
           "pamphlet_excerpts": [
-            "Bernoulli Airflow and Pressure: The Physics pamphlet for Requirement 4H details option H, Air Pressure, Bernoulli's principle and the Coandă Effect, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+            "Hovering spheres inside divergent airstreams illustrate the Bernoulli principle and fluid skin attachment via the Coanda effect. Faster moving air currents generate low pressure zones that pull the sphere back toward the stream centerline."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -1144,10 +1182,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Electromagnet Coil Strength Lab (Req 4I) or confusing Electromagnet Coil Strength Lab with general Hands-On Physics Lab Experiments procedures.",
-            "fact": "For Requirement 4I (Electromagnet Coil Strength Lab), The Physics pamphlet for Requirement 4I details option I, Electromagnet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
-            "myth": "Overlooking the specific field checks required for Electromagnet Coil Strength Lab (Req 4I) or confusing Electromagnet Coil Strength Lab with general Hands-On Physics Lab Experiments procedures.",
-            "fact_correction": "For Requirement 4I (Electromagnet Coil Strength Lab), The Physics pamphlet for Requirement 4I details option I, Electromagnet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+            "misconception": "Permanent magnets and electric coils generate magnetic forces through electrostatic charge accumulation on exterior surfaces.",
+            "fact": "Magnetic field strength scales directly with coil turn density and electric current magnitude through the ferromagnetic core.",
+            "myth": "Permanent magnets and electric coils generate magnetic forces through electrostatic charge accumulation on exterior surfaces.",
+            "fact_correction": "Magnetic field strength scales directly with coil turn density and electric current magnitude through the ferromagnetic core."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1173,21 +1211,21 @@
           "id": "4I",
           "sub_req_label": "4I",
           "sub_req_text": "Option I: Electromagnet. Make an electromagnet and explore how to increase its strength.",
-          "topic_title": "Req 4I: Electromagnet Coil Strength Lab",
-          "pamphlet_summary": "For Physics Requirement 4I (Electromagnet Coil Strength Lab): The Physics pamphlet for Requirement 4I details option I, Electromagnet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
+          "topic_title": "Req 4I: Ferromagnetic Core Electromagnetics",
+          "pamphlet_summary": "Passing direct current through insulated wire wrapped around a ferromagnetic core induces a concentrated magnetic flux. Increasing wire loops or electric current systematically amplifies magnetic dipole alignment within the iron core.",
           "pamphlet_excerpts": [
-            "Electromagnet Coil Strength Lab: The Physics pamphlet for Requirement 4I details option I, Electromagnet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+            "Passing direct current through insulated wire wrapped around a ferromagnetic core induces a concentrated magnetic flux. Increasing wire loops or electric current systematically amplifies magnetic dipole alignment within the iron core."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
           "workbook_visual_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics."
         }
       ],
-      "topic_title": "Req 4: Hands-On Physics Lab Experiments",
+      "topic_title": "Req 4: Controlled Physical Mechanics Investigations",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 4): Complete all Hands-On Physics Lab Experiments discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Clear projectile flight paths and clean liquid spills immediately to eliminate slip hazards during dynamic kinetic trials.",
       "pamphlet_citation": "Physics Test Lab Resource Guide, pp. 22-27",
       "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 22-27",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1227,8 +1265,10 @@
         "min_rows": 8
       },
       "common_misconception_pair": {
-        "misconception": "A balloon-powered car moves forward because the escaping air pushes against the outside air behind the straw.",
-        "fact": "A balloon car accelerates by Newton's third law because the stretched rubber forces air backward out of the nozzle, and that expelled air exerts an equal and opposite forward thrust on the car (p. 22)."
+        "misconception": "An experiment succeeds only if the final observed data perfectly matches the initial guess.",
+        "fact": "Experimental design requires isolating independent variables while holding environmental controls constant to validate hypotheses.",
+        "myth": "An experiment succeeds only if the final observed data perfectly matches the initial guess.",
+        "fact_correction": "Experimental design requires isolating independent variables while holding environmental controls constant to validate hypotheses."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1252,16 +1292,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Action-Reaction Propulsion Test: Balloon-Powered Car. Make and test a balloon-powered car to show how force and motion interact (p. 22).",
-        "Elastic Momentum Transfer: Stacked Ball Drop. Drop different-sized stacked balls to show momentum (p. 22).",
-        "Rotational Frame Effects: Centrifugal Force. Make spinning toys to demonstrate centrifugal force (p. 22).",
-        "Circular Motion Containment: Centripetal Force. Swing a water bucket or tray filled with water glasses to demonstrate centripetal force (p. 22)."
+        "Hypothesis Formulation Rule: Stated testable predictions must link quantifiable variables before beginning physical lab measurements.",
+        "System Variable Isolation: Experimental designs isolate single independent factors while stabilizing secondary ambient laboratory variables.",
+        "Empirical Data Collection: Repeated sensor measurements establish statistical precision across varying physical trial test runs.",
+        "Scientific Error Analysis: Observed deviations between expected values and measured results reveal frictional dissipative losses."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Test Rotational Inertia: Centrifugal Force. Make spinning toys to demonstrate centrifugal force (p. 22).",
-        "Step 2 - Demonstrate Centripetal Acceleration: Centripetal Force. Swing a water bucket or tray filled with water glasses to demonstrate centripetal force (p. 22).",
-        "Step 3 - Hands-On Physics Lab Experiments: Hands-on physics lab experiments, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22).",
-        "Step 4 - Present Lab Conclusions: Review your completed Hands-On Physics Experiments & Data Analysis evidence and demonstrate proficiency during your counselor conference (p. 22)."
+        "Step 1 - Hypothesis Drafting: Write a clear testable prediction detailing expected relationships between specific measurable variables.",
+        "Step 2 - Apparatus Assembly: Assemble selected experimental apparatus securely while establishing necessary physical safety zone boundaries.",
+        "Step 3 - Metric Recording: Conduct multiple calibrated measurement runs while logging precise numerical values into data tables.",
+        "Step 4 - Conclusion Formulation: Compare measured data trends against the initial hypothesis to identify mechanical energy losses."
       ],
       "gear_checklist": [
         "Official Physics Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Hands-On Experimentation Conduct THREE Physics)",
@@ -1269,17 +1309,17 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Req 4A: Balloon Car and Newton's Laws",
-        "right_header": "Req 4E: Center of Gravity and Balance",
+        "left_header": "Req 4A: Balloon Powered Rocket Vehicle",
+        "right_header": "Req 4E: Center Of Gravity Balance Dynamics",
         "left_points": [
-          "(4A) Balloon Car and Newton's Laws: Balloon-Powered Car. Make and test a balloon-powered car to show how force and motion interact (p. 22).",
-          "(4B) Stacked Ball Momentum Transfer: Stacked Ball Drop. Drop different-sized stacked balls to show momentum (p. 22).",
-          "(4C) Spinning Toys and Rotating Frames: Centrifugal Force. Make spinning toys to demonstrate centrifugal force (p. 22)."
+          "(4A) Balloon Powered Rocket Vehicle: Newtonian third law propulsion converts compressed elastic bladder potential into kinetic motion via directional gas exhaust. Minimizing wheel axle friction maximizes the forward acceleration delivered by nozzle reaction forces.",
+          "(4B) Stacked Ball Momentum Transfer: Dropping vertically stacked balls demonstrates kinetic energy transfer through sequential elastic collisions. The larger lower ball rebounds off the floor and strikes the lighter upper ball, launching it to unexpected heights.",
+          "(4C) Rotational Inertia And Centrifugal Effect: Spinning toys reveal rotational mechanics and the apparent outward force created by circular inertia. Analysis in an inertial reference frame proves objects naturally follow tangential straight paths unless constrained."
         ],
         "right_points": [
-          "(4E) Center of Gravity and Balance: The Physics pamphlet for Requirement 4E details option E, Balance, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
-          "(4F) Chladni Sound Wave Patterns: The Physics pamphlet for Requirement 4F details option F, Visualize Sound, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22).",
-          "(4G) Cartesian Diver Buoyancy Lab: The Physics pamphlet for Requirement 4G details option G, Cartesian Diver, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 22)."
+          "(4E) Center Of Gravity Balance Dynamics: Balancing toys demonstrate how center of gravity placement below the pivot point creates stable restoring torques. Small angular displacements initiate damped harmonic oscillations as gravitational torque returns the system toward equilibrium.",
+          "(4F) Acoustic Membrane Chladni Resonance: A tonoscope translates vocal sound waves into structural geometric patterns upon a flexible resonant membrane. Vibrational nodes remain stationary while anti-nodes throw light particles into intricate symmetrical Chladni figures.",
+          "(4G) Cartesian Diver Hydrostatic Buoyancy: Cartesian divers demonstrate Pascal principle and Boyle law inside sealed incompressible fluid chambers. External hydrostatic pressure compresses internal gas pockets, reducing buoyant force below gravitational weight."
         ],
         "rows": [
           {
@@ -1303,10 +1343,10 @@
         "title": "Physics Req 4 Exemplar Workbook Entry: Hands-On Physics Lab Experiments",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4A (Balloon Car and Newton's Laws)": "Balloon-Powered Car. Make and test a balloon-powered car to show how force and motion interact (p. 22).",
-          "Req 4B (Stacked Ball Momentum Transfer)": "Stacked Ball Drop. Drop different-sized stacked balls to show momentum (p. 22).",
-          "Req 4C (Spinning Toys and Rotating Frames)": "Centrifugal Force. Make spinning toys to demonstrate centrifugal force (p. 22).",
-          "Req 4D (Swinging Bucket Centripetal Force)": "Centripetal Force. Swing a water bucket or tray filled with water glasses to demonstrate centripetal force (p. 22)."
+          "Req 4A - Balloon Powered Rocket Vehicle": "Newtonian third law propulsion converts compressed elastic bladder potential into kinetic motion via directional gas exhaust. Minimizing wheel axle friction maximizes the forward acceleration delivered by nozzle reaction forces.",
+          "Req 4B - Stacked Ball Momentum Transfer": "Dropping vertically stacked balls demonstrates kinetic energy transfer through sequential elastic collisions. The larger lower ball rebounds off the floor and strikes the lighter upper ball, launching it to unexpected heights.",
+          "Req 4C - Rotational Inertia And Centrifuga": "Spinning toys reveal rotational mechanics and the apparent outward force created by circular inertia. Analysis in an inertial reference frame proves objects naturally follow tangential straight paths unless constrained.",
+          "Req 4D - Centripetal Acceleration In Circu": "Swinging water in vertical circular loops demonstrates inward centripetal acceleration overcoming gravitational downward acceleration. If circular velocity drops below the critical threshold, gravity pulls the liquid out of the bucket."
         },
         "sample_output": "Hands-On Physics Lab Experiments: Stacked Ball Drop. Drop different-sized stacked balls to show momentum (p. 22).",
         "counselor_tip": "For Physics Requirement 4 (Hands-On Physics Lab Experiments), verify the Scout's own observations and specific pamphlet details (Physics Test Lab Resource Guide, pp. 22-27)."
@@ -1343,7 +1383,13 @@
         "site_requirement": "Approved Physics demonstration area for Requirement 4",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Uniformed Scouts conducting physics experiments with a projectile ramp, glass prism light refraction, and electromagnets."
+      "workbook_visual_caption": "Uniformed Scouts conducting physics experiments with a projectile ramp, glass prism light refraction, and electromagnets.",
+      "pamphlet_summary": "Controlled experimentation tests mathematical predictions by systematically isolating dependent variables under precise environmental controls. Scouts record quantitative data, track measurement uncertainties, and formulate conclusions rooted strictly in empirical evidence.",
+      "socratic_questions": [
+        "Why must an experiment keep all variables constant except for the specific factor being tested?",
+        "How do unexpected friction losses help explain discrepancies between theoretical formulas and physical trials?",
+        "What criteria determine whether an experimental hypothesis is validated or disproven by recorded observations?"
+      ]
     },
     {
       "req_id": "5",
@@ -1390,8 +1436,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
-            "misconception": "Camping knots hold tight under heavy loads solely because of the stiffness of the rope fibers.",
-            "fact": "Hitches and bends hold secure because rope wraps multiply normal force and capstan friction exponentially against the standing part as tension increases (p. 32)."
+            "misconception": "Refrigerator cooling systems operate by pumping cold air directly into food storage compartments.",
+            "fact": "Microwave ovens heat water molecules through dielectric resonance, while vehicle brakes convert kinetic energy into friction heat.",
+            "myth": "Refrigerator cooling systems operate by pumping cold air directly into food storage compartments.",
+            "fact_correction": "Microwave ovens heat water molecules through dielectric resonance, while vehicle brakes convert kinetic energy into friction heat."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1417,10 +1465,10 @@
           "id": "5a",
           "sub_req_label": "5a",
           "sub_req_text": "Physics in Everyday Life. Describe FIVE ways physics is applied in daily life, such as in transportation, sports, or household appliances.",
-          "topic_title": "Req 5a: Everyday Appliances and Sports",
-          "pamphlet_summary": "Everyday Appliances and Sports: Physics in Everyday Life. Describe FIVE ways physics is applied in daily life, such as in transportation, sports, or household appliances (p. 28).",
+          "topic_title": "Req 5a: Domestic Applied Physical Technologies",
+          "pamphlet_summary": "Everyday appliances rely on thermodynamics, mechanics, and electromagnetism to perform common domestic tasks. From convection heat transfer to induction motors, physical laws govern consumer technology.",
           "pamphlet_excerpts": [
-            "Everyday Appliances and Sports: Physics in Everyday Life. Describe FIVE ways physics is applied in daily life, such as in transportation, sports, or household appliances (p. 28)."
+            "Everyday appliances rely on thermodynamics, mechanics, and electromagnetism to perform common domestic tasks. From convection heat transfer to induction motors, physical laws govern consumer technology."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p005_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -1471,8 +1519,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
-            "misconception": "Water boils at the exact same temperature of 100 degrees Celsius whether you are camping at sea level or high in the mountains.",
-            "fact": "Lower atmospheric pressure at high mountain elevations lets water molecules escape into vapor at lower temperatures, which increases required cooking times for boiled meals (p. 33)."
+            "misconception": "Spacecraft cannot maneuver inside orbital space because there is no surrounding atmosphere to push against.",
+            "fact": "Rocket propulsion functions via Newton third law by expelling combustion mass at high supersonic velocities into vacuum.",
+            "myth": "Spacecraft cannot maneuver inside orbital space because there is no surrounding atmosphere to push against.",
+            "fact_correction": "Rocket propulsion functions via Newton third law by expelling combustion mass at high supersonic velocities into vacuum."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1498,10 +1548,10 @@
           "id": "5b",
           "sub_req_label": "5b",
           "sub_req_text": "Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration.",
-          "topic_title": "Req 5b: Space Travel and Satellites",
-          "pamphlet_summary": "Space Travel and Satellites: Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration (p. 28).",
+          "topic_title": "Req 5b: Orbital Mechanics And Astronautics",
+          "pamphlet_summary": "Spacecraft navigation utilizes orbital mechanics, gravitational assists, and reaction control systems to traverse planetary bodies. Orbital satellites balance continuous forward velocity against gravitational pull to maintain stable freefall trajectories.",
           "pamphlet_excerpts": [
-            "Space Travel and Satellites: Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration (p. 28)."
+            "Spacecraft navigation utilizes orbital mechanics, gravitational assists, and reaction control systems to traverse planetary bodies. Orbital satellites balance continuous forward velocity against gravitational pull to maintain stable freefall trajectories."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -1552,8 +1602,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
-            "misconception": "A pioneering block-and-tackle pulley system reduces the total amount of mechanical work required to lift a heavy timber tower.",
-            "fact": "Pulleys trade force for distance by reducing the effort pull required while increasing the length of rope you must haul, keeping total work output plus friction losses conserved (p. 32)."
+            "misconception": "Wind turbines produce electrical power by pushing incoming air currents forward like massive outdoor fans.",
+            "fact": "Photovoltaic cells use the photoelectric effect to release conduction electrons directly from doped silicon semi-conductor junctions.",
+            "myth": "Wind turbines produce electrical power by pushing incoming air currents forward like massive outdoor fans.",
+            "fact_correction": "Photovoltaic cells use the photoelectric effect to release conduction electrons directly from doped silicon semi-conductor junctions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1579,10 +1631,10 @@
           "id": "5c",
           "sub_req_label": "5c",
           "sub_req_text": "Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation.",
-          "topic_title": "Req 5c: Renewable Energy and Climate",
-          "pamphlet_summary": "Renewable Energy and Climate: Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation (p. 28).",
+          "topic_title": "Req 5c: Environmental Thermodynamics And Energy",
+          "pamphlet_summary": "Environmental physics analyzes atmospheric thermodynamics, radiative heat balance, and renewable energy conversion mechanisms. Solar arrays, wind generators, and hydroelectric dams harness natural energetic flows to generate usable electricity.",
           "pamphlet_excerpts": [
-            "Renewable Energy and Climate: Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation (p. 28)."
+            "Environmental physics analyzes atmospheric thermodynamics, radiative heat balance, and renewable energy conversion mechanisms. Solar arrays, wind generators, and hydroelectric dams harness natural energetic flows to generate usable electricity."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "workbook_diagram_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics.",
@@ -1641,8 +1693,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
-            "misconception": "During Physics Requirement 5d, Scouts can underestimate how directly mastery of campcraft and pioneering physics depends on understanding physics in scouting.",
-            "fact": "Scouting America standards for Physics Requirement 5d require complete workbook entries on campcraft and pioneering physics to demonstrate full understanding of physics in scouting."
+            "misconception": "Campfire flames heat cooking pots exclusively through upward thermal conduction across surrounding ambient air molecules.",
+            "fact": "Pioneering shear lashing friction resists axial timber displacement by distributing tension loads across hemp cord wraps.",
+            "myth": "Campfire flames heat cooking pots exclusively through upward thermal conduction across surrounding ambient air molecules.",
+            "fact_correction": "Pioneering shear lashing friction resists axial timber displacement by distributing tension loads across hemp cord wraps."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1668,10 +1722,10 @@
           "id": "5d",
           "sub_req_label": "5d",
           "sub_req_text": "Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering.",
-          "topic_title": "Req 5d: Campcraft and Pioneering Physics",
-          "pamphlet_summary": "Campcraft and Pioneering Physics: Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering (p. 28).",
+          "topic_title": "Req 5d: Practical Scouting Mechanical Systems",
+          "pamphlet_summary": "Scouting skills rely fundamentally on mechanical advantage, friction coefficients, and thermodynamic heat transfer. Lashings utilize rope tensile strength, while campfire Dutch ovens exploit thermal radiation and conduction.",
           "pamphlet_excerpts": [
-            "Campcraft and Pioneering Physics: Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering (p. 28)."
+            "Scouting skills rely fundamentally on mechanical advantage, friction coefficients, and thermodynamic heat transfer. Lashings utilize rope tensile strength, while campfire Dutch ovens exploit thermal radiation and conduction."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p009_img1.png",
           "title": "Req 5d: Campcraft and Pioneering Physics",
@@ -1679,11 +1733,11 @@
           "workbook_visual_caption": "Four-panel experimental setup for pendulum period, buoyancy, circuits, and acoustics."
         }
       ],
-      "topic_title": "Req 5: Physics in Daily Life and Scouting",
+      "topic_title": "Req 5: Everyday Environmental And Technological Physics",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 5): Complete all Physics in Daily Life and Scouting discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Disconnect power cords and avoid contacting moving parts when inspecting the mechanical drives of household appliances.",
       "pamphlet_citation": "Physics Test Lab Resource Guide, pp. 28-33",
       "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 28-33",
       "syllabus_bucket": "In-Class Concept",
@@ -1715,8 +1769,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Astronauts and satellites float in low Earth orbit because Earth's gravity is almost zero at that altitude.",
-        "fact": "Earth's gravity in low orbit is still nearly ninety percent as strong as on the ground, and satellites stay aloft because their high sideways velocity keeps them in continuous free-fall around Earth's curve (p. 29)."
+        "misconception": "Physics principles apply solely inside high tech laboratories and have little relevance to routine household activities.",
+        "fact": "Physical laws govern everyday conveniences from automotive hydraulic brakes to orbital communication satellite relays.",
+        "myth": "Physics principles apply solely inside high tech laboratories and have little relevance to routine household activities.",
+        "fact_correction": "Physical laws govern everyday conveniences from automotive hydraulic brakes to orbital communication satellite relays."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1740,28 +1796,28 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Household and Sports Mechanics: Physics in Everyday Life. Describe FIVE ways physics is applied in daily life, such as in transportation, sports, or household appliances (p. 28).",
-        "Orbital and Rocket Dynamics: Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration (p. 28).",
-        "Environmental Energy Systems: Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation (p. 28).",
-        "Outdoor Scouting Mechanics: Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering (p. 28)."
+        "Hydraulic Pressure Transmission: Incompressible brake fluids transmit pedal force uniformly across caliper pistons via Pascal law.",
+        "Orbital Velocity Equilibrium: Geosynchronous communication satellites match planetary rotational speed to remain stationary over ground coordinates.",
+        "Thermal Conduction Barrier: Double walled vacuum flasks prevent conductive and convective heat losses across interior chambers.",
+        "Atmospheric Radiative Balance: Greenhouse gases absorb planetary infrared radiation, maintaining equilibrium temperatures inside terrestrial biosphere ecosystems."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Analyze Environmental Physics: Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation (p. 28).",
-        "Step 2 - Evaluate Campcraft Mechanics: Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering (p. 28).",
-        "Step 3 - Physics in Daily Life and Scouting: Physics in daily life and scouting, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26).",
-        "Step 4 - Present Applied Physics: Review your completed Physics All Around You evidence and demonstrate proficiency during your counselor conference (p. 26)."
+        "Step 1 - Daily Life Audit: Identify five distinct household devices functioning via thermodynamic or electromagnetic principles.",
+        "Step 2 - Space Analysis: Trace gravitational slingshot trajectories used by interplanetary space probes escaping planetary orbits.",
+        "Step 3 - Environmental Mapping: Diagram solar photovoltaic energy capture and wind turbine mechanical induction generation systems.",
+        "Step 4 - Scouting Integration: Explain mechanical advantages of tackle systems and campfire heat transfer methods thoroughly."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 5a: Everyday Appliances and Sports",
-        "right_header": "Req 5c: Renewable Energy and Climate",
+        "left_header": "Req 5a: Domestic Applied Physical Technolo",
+        "right_header": "Req 5c: Environmental Thermodynamics And E",
         "left_points": [
-          "(5a) Everyday Appliances and Sports: Physics in Everyday Life. Describe FIVE ways physics is applied in daily life, such as in transportation, sports, or household appliances (p. 28).",
-          "(5b) Space Travel and Satellites: Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration (p. 28)."
+          "(5a) Domestic Applied Physical Technologies: Everyday appliances rely on thermodynamics, mechanics, and electromagnetism to perform common domestic tasks. From convection heat transfer to induction motors, physical laws govern consumer technology.",
+          "(5b) Orbital Mechanics And Astronautics: Spacecraft navigation utilizes orbital mechanics, gravitational assists, and reaction control systems to traverse planetary bodies. Orbital satellites balance continuous forward velocity against gravitational pull to maintain stable freefall trajectories."
         ],
         "right_points": [
-          "(5c) Renewable Energy and Climate: Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation (p. 28).",
-          "(5d) Campcraft and Pioneering Physics: Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering (p. 28)."
+          "(5c) Environmental Thermodynamics And Energy: Environmental physics analyzes atmospheric thermodynamics, radiative heat balance, and renewable energy conversion mechanisms. Solar arrays, wind generators, and hydroelectric dams harness natural energetic flows to generate usable electricity.",
+          "(5d) Practical Scouting Mechanical Systems: Scouting skills rely fundamentally on mechanical advantage, friction coefficients, and thermodynamic heat transfer. Lashings utilize rope tensile strength, while campfire Dutch ovens exploit thermal radiation and conduction."
         ],
         "rows": [
           {
@@ -1785,10 +1841,10 @@
         "title": "Physics Req 5 Exemplar Workbook Entry: Physics in Daily Life and Scouting",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 5a (Everyday Appliances and Sports)": "Physics in Everyday Life. Describe FIVE ways physics is applied in daily life, such as in transportation, sports, or household appliances (p. 28).",
-          "Req 5b (Space Travel and Satellites)": "Physics in Space Exploration. Describe how physics is used in space travel, satellite technology, or planetary exploration (p. 28).",
-          "Req 5c (Renewable Energy and Climate)": "Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation (p. 28).",
-          "Req 5d (Campcraft and Pioneering Physics)": "Physics in Scouting. Explain how physics is found in Scouting, such as knot tying, fire building, cooking, or pioneering (p. 28)."
+          "Req 5a - Domestic Applied Physical Technol": "Everyday appliances rely on thermodynamics, mechanics, and electromagnetism to perform common domestic tasks. From convection heat transfer to induction motors, physical laws govern consumer technology.",
+          "Req 5b - Orbital Mechanics And Astronautic": "Spacecraft navigation utilizes orbital mechanics, gravitational assists, and reaction control systems to traverse planetary bodies. Orbital satellites balance continuous forward velocity against gravitational pull to maintain stable freefall trajectories.",
+          "Req 5c - Environmental Thermodynamics And": "Environmental physics analyzes atmospheric thermodynamics, radiative heat balance, and renewable energy conversion mechanisms. Solar arrays, wind generators, and hydroelectric dams harness natural energetic flows to generate usable electricity.",
+          "Req 5d - Practical Scouting Mechanical Sys": "Scouting skills rely fundamentally on mechanical advantage, friction coefficients, and thermodynamic heat transfer. Lashings utilize rope tensile strength, while campfire Dutch ovens exploit thermal radiation and conduction."
         },
         "sample_output": "Physics in Daily Life and Scouting: Physics in the Environment. Explain how physics contributes to renewable energy, climate science, or environmental conservation (p. 28).",
         "counselor_tip": "For Physics Requirement 5 (Physics in Daily Life and Scouting), verify the Scout's own observations and specific pamphlet details (Physics Test Lab Resource Guide, pp. 28-33)."
@@ -1825,7 +1881,13 @@
         "site_requirement": "Approved Physics demonstration area for Requirement 5",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Everyday physics applications showing bicycle gear leverage, soccer ball aerodynamics, and solar photovoltaics."
+      "workbook_visual_caption": "Everyday physics applications showing bicycle gear leverage, soccer ball aerodynamics, and solar photovoltaics.",
+      "pamphlet_summary": "Physics principles operate continuously across daily human routines, civil engineering structures, and modern communication infrastructure. Scouts examine how thermodynamics, fluid dynamics, and electromagnetic waves enable modern civilization.",
+      "socratic_questions": [
+        "How does fluid friction inside bicycle disc brakes convert kinetic motion into dissipated thermal energy?",
+        "Why do orbital communication satellites require specific orbital velocities to maintain stationary ground footprints?",
+        "In what ways does understanding friction assist a Scout in selecting proper structural knot materials?"
+      ]
     },
     {
       "req_id": "6",
@@ -2012,8 +2074,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
           "common_misconception_pair": {
-            "misconception": "Dark matter and dark energy are two names for the same invisible cloud of dust floating in space.",
-            "fact": "Dark matter pulls galaxies together through gravity, whereas dark energy is a property of space driving the accelerated expansion of the universe (p. 34)."
+            "misconception": "Dark matter is simply normal interstellar gas clouds that telescopes cannot illuminate with optical light.",
+            "fact": "Galactic rotation anomalies indicate that nonluminous dark matter constitutes roughly eighty percent of all cosmic matter.",
+            "myth": "Dark matter is simply normal interstellar gas clouds that telescopes cannot illuminate with optical light.",
+            "fact_correction": "Galactic rotation anomalies indicate that nonluminous dark matter constitutes roughly eighty percent of all cosmic matter."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2039,10 +2103,10 @@
           "id": "6A",
           "sub_req_label": "6A",
           "sub_req_text": "Option A: Unsolved Mysteries of Physics. Discuss the following with your counselor.",
-          "topic_title": "Req 6A: Unsolved Cosmic Mysteries",
-          "pamphlet_summary": "Unsolved Cosmic Mysteries: Unsolved Mysteries of Physics. Discuss the following with your counselor (p. 34).",
+          "topic_title": "Req 6A: Unsolved Cosmological Physics Mysteries",
+          "pamphlet_summary": "Astrophysical observations reveal that visible baryonic matter cannot account for observed galactic rotational velocities or gravitational lensing. Cosmologists investigate dark matter candidates while exploring accelerating cosmic expansion driven by dark energy.",
           "pamphlet_excerpts": [
-            "Unsolved Cosmic Mysteries: Unsolved Mysteries of Physics. Discuss the following with your counselor (p. 34)."
+            "Astrophysical observations reveal that visible baryonic matter cannot account for observed galactic rotational velocities or gravitational lensing. Cosmologists investigate dark matter candidates while exploring accelerating cosmic expansion driven by dark energy."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p006_img1.png",
           "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
@@ -2229,8 +2293,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
           "common_misconception_pair": {
-            "misconception": "When preparing Physics Requirement 6B (Quantum Mechanics and Computing), Scouts sometimes overlook the concrete pamphlet benchmarks covering option b, quantum mechanics & computing.",
-            "fact": "Counselor verification for Physics Requirement 6B requires concrete workbook evidence on quantum mechanics and computing, specifically addressing option b, quantum mechanics & computing."
+            "misconception": "Quantum computers process information like standard computers but simply utilize faster silicon transistor clocks.",
+            "fact": "Quantum superposition allows qubits to process complex combinatorial states simultaneously through quantum entanglement matrices.",
+            "myth": "Quantum computers process information like standard computers but simply utilize faster silicon transistor clocks.",
+            "fact_correction": "Quantum superposition allows qubits to process complex combinatorial states simultaneously through quantum entanglement matrices."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2256,10 +2322,10 @@
           "id": "6B",
           "sub_req_label": "6B",
           "sub_req_text": "Option B: Quantum Mechanics & Computing. Discuss the following with your counselor.",
-          "topic_title": "Req 6B: Quantum Mechanics and Computing",
-          "pamphlet_summary": "Quantum Mechanics and Computing: Quantum Mechanics & Computing. Discuss the following with your counselor (p. 34).",
+          "topic_title": "Req 6B: Quantum Computation Information Theory",
+          "pamphlet_summary": "Quantum information science harnesses particle superposition, wave function interference, and entanglement to perform complex algorithms. Cryogenic dilution refrigerators maintain ultra low thermal environments to prevent decoherence in superconducting qubit loops.",
           "pamphlet_excerpts": [
-            "Quantum Mechanics and Computing: Quantum Mechanics & Computing. Discuss the following with your counselor (p. 34)."
+            "Quantum information science harnesses particle superposition, wave function interference, and entanglement to perform complex algorithms. Cryogenic dilution refrigerators maintain ultra low thermal environments to prevent decoherence in superconducting qubit loops."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
           "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
@@ -2446,8 +2512,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
           "common_misconception_pair": {
-            "misconception": "For Physics Requirement 6C, a common mistake in astrophysics and deep space is treating option c, space exploration & astrophysics as optional background reading.",
-            "fact": "Mastering Physics Requirement 6C means following the pamphlet standard for astrophysics and deep space and recording accurate notes on option c, space exploration & astrophysics."
+            "misconception": "Black holes act like giant cosmic vacuum cleaners sucking in distant solar systems instantly.",
+            "fact": "Gravitational waves create microscopic spatial strains detected by laser interferometers when massive black holes merge.",
+            "myth": "Black holes act like giant cosmic vacuum cleaners sucking in distant solar systems instantly.",
+            "fact_correction": "Gravitational waves create microscopic spatial strains detected by laser interferometers when massive black holes merge."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2473,10 +2541,10 @@
           "id": "6C",
           "sub_req_label": "6C",
           "sub_req_text": "Option C: Space Exploration & Astrophysics. Discuss the following with your counselor.",
-          "topic_title": "Req 6C: Astrophysics and Deep Space",
-          "pamphlet_summary": "For Physics Requirement 6C (Astrophysics and Deep Space): The Physics pamphlet for Requirement 6C details option C, Space Exploration & Astrophysics, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34).",
+          "topic_title": "Req 6C: Astrophysical Relativistic Spacetime Dynamics",
+          "pamphlet_summary": "Modern astrophysics explores extreme relativistic environments around neutron stars, active galactic nuclei, and colliding black holes. Interferometers measure minute spacetime distortions, opening multi-messenger observational channels into cosmic evolutionary history.",
           "pamphlet_excerpts": [
-            "Astrophysics and Deep Space: The Physics pamphlet for Requirement 6C details option C, Space Exploration & Astrophysics, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34)."
+            "Modern astrophysics explores extreme relativistic environments around neutron stars, active galactic nuclei, and colliding black holes. Interferometers measure minute spacetime distortions, opening multi-messenger observational channels into cosmic evolutionary history."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
           "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
@@ -2659,8 +2727,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
           "common_misconception_pair": {
-            "misconception": "During Physics Requirement 6D, Scouts can underestimate how directly mastery of emerging theoretical breakthroughs depends on understanding option d, advanced theories & future discoveries.",
-            "fact": "Scouting America standards for Physics Requirement 6D require complete workbook entries on emerging theoretical breakthroughs to demonstrate full understanding of option d, advanced theories & future discoveries."
+            "misconception": "Theoretical physicists accept unverified mathematical string equations as confirmed facts without requiring empirical proof.",
+            "fact": "String theory attempts to unite standard gauge bosons with gravity by modeling particles as vibrating one dimensional filaments.",
+            "myth": "Theoretical physicists accept unverified mathematical string equations as confirmed facts without requiring empirical proof.",
+            "fact_correction": "String theory attempts to unite standard gauge bosons with gravity by modeling particles as vibrating one dimensional filaments."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2686,21 +2756,21 @@
           "id": "6D",
           "sub_req_label": "6D",
           "sub_req_text": "Option D: Advanced Theories & Future Discoveries. Discuss the following with your counselor.",
-          "topic_title": "Req 6D: Emerging Theoretical Breakthroughs",
-          "pamphlet_summary": "For Physics Requirement 6D (Emerging Theoretical Breakthroughs): The Physics pamphlet for Requirement 6D details option D, Advanced Theories & Future Discoveries, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34).",
+          "topic_title": "Req 6D: Advanced Unified Theoretical Frameworks",
+          "pamphlet_summary": "Advanced theoretical physics seeks a unified theory of quantum gravity to resolve singularities inside black holes. Hypotheses explore extra spatial dimensions, supersymmetry, and holographic dualities to extend physics beyond the standard model.",
           "pamphlet_excerpts": [
-            "Emerging Theoretical Breakthroughs: The Physics pamphlet for Requirement 6D details option D, Advanced Theories & Future Discoveries, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34)."
+            "Advanced theoretical physics seeks a unified theory of quantum gravity to resolve singularities inside black holes. Hypotheses explore extra spatial dimensions, supersymmetry, and holographic dualities to extend physics beyond the standard model."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
           "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
           "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
         }
       ],
-      "topic_title": "Req 6: Modern Frontiers and Quantum Physics",
+      "topic_title": "Req 6: Emerging Frontiers In Physical Science",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 6): Complete all Modern Frontiers and Quantum Physics discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Do not view high intensity optical telescope focal planes without certified solar absorption filters in place.",
       "pamphlet_citation": "Physics Test Lab Resource Guide, pp. 34-39",
       "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
       "syllabus_bucket": "In-Class Concept",
@@ -2732,8 +2802,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Black holes act like cosmic vacuum cleaners that suck in stars from across the galaxy with infinite reach.",
-        "fact": "At a safe distance outside its event horizon, a black hole exerts the exact same gravitational pull as a normal star of equal mass (p. 35)."
+        "misconception": "Physicists have discovered every fundamental law of the universe, leaving only minor engineering details unresolved.",
+        "fact": "Modern physical research focuses on reconciling quantum mechanics with general relativity and identifying dark matter components.",
+        "myth": "Physicists have discovered every fundamental law of the universe, leaving only minor engineering details unresolved.",
+        "fact_correction": "Modern physical research focuses on reconciling quantum mechanics with general relativity and identifying dark matter components."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2757,28 +2829,28 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Open Questions in Cosmology: Unsolved Mysteries of Physics. Discuss the following with your counselor (p. 34).",
-        "Dark Matter and Energy: Dark Matter & Dark Energy. Scientists know it exists (p. 34).",
-        "Black Holes and Space time: Black Holes & Wormholes. Can we harness their energy or travel through them (p. 34).",
-        "Quantum Computing Principles: Quantum Mechanics & Computing. Discuss the following with your counselor (p. 34)."
+        "Dark Matter Evidence: Anomalous galactic rotational velocities indicate substantial unseen mass halos surrounding visible galactic disks.",
+        "Quantum Entanglement Property: Entangled photon pairs exhibit instantaneous correlated quantum states across arbitrary macroscopic spatial separations.",
+        "Spacetime Curvature Waves: Coalescing binary black hole mergers radiate quadrupolar gravitational ripples through the cosmic fabric.",
+        "Grand Unification Hypothesis: Supersymmetric mathematical theories attempt to merge electroweak and strong nuclear interactions at high energies."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Examine Relativistic Gravity: Black Holes & Wormholes. Can we harness their energy or travel through them (p. 34).",
-        "Step 2 - Explore Quantum Phenomena: Quantum Mechanics & Computing. Discuss the following with your counselor (p. 34).",
-        "Step 3 - Modern Frontiers and Quantum Physics: Modern frontiers and quantum physics, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 30).",
-        "Step 4 - Summarize Research Findings: Review your completed Future of Physics evidence and demonstrate proficiency during your counselor conference (p. 30)."
+        "Step 1 - Topic Selection: Select one cutting edge physics domain such as quantum computing or astrophysics.",
+        "Step 2 - Literature Review: Study recent observational data regarding dark matter galactic curves or qubit coherence.",
+        "Step 3 - Theoretical Mapping: Outline current mathematical models attempting to unite standard particles with gravitational curvature.",
+        "Step 4 - Counselor Discussion: Review future technological breakthroughs enabled by resolving current quantum mechanical paradoxes clearly."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 6A: Unsolved Cosmic Mysteries",
-        "right_header": "Req 6C: Astrophysics and Deep Space",
+        "left_header": "Req 6A: Unsolved Cosmological Physics Myst",
+        "right_header": "Req 6C: Astrophysical Relativistic Spaceti",
         "left_points": [
-          "(6A) Unsolved Cosmic Mysteries: Unsolved Mysteries of Physics. Discuss the following with your counselor (p. 34).",
-          "(6B) Quantum Mechanics and Computing: Quantum Mechanics & Computing. Discuss the following with your counselor (p. 34)."
+          "(6A) Unsolved Cosmological Physics Mysteries: Astrophysical observations reveal that visible baryonic matter cannot account for observed galactic rotational velocities or gravitational lensing. Cosmologists investigate dark matter candidates while exploring accelerating cosmic expansion driven by dark energy.",
+          "(6B) Quantum Computation Information Theory: Quantum information science harnesses particle superposition, wave function interference, and entanglement to perform complex algorithms. Cryogenic dilution refrigerators maintain ultra low thermal environments to prevent decoherence in superconducting qubit loops."
         ],
         "right_points": [
-          "(6C) Astrophysics and Deep Space: The Physics pamphlet for Requirement 6C details option C, Space Exploration & Astrophysics, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34).",
-          "(6D) Emerging Theoretical Breakthroughs: The Physics pamphlet for Requirement 6D details option D, Advanced Theories & Future Discoveries, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34)."
+          "(6C) Astrophysical Relativistic Spacetime Dynamics: Modern astrophysics explores extreme relativistic environments around neutron stars, active galactic nuclei, and colliding black holes. Interferometers measure minute spacetime distortions, opening multi-messenger observational channels into cosmic evolutionary history.",
+          "(6D) Advanced Unified Theoretical Frameworks: Advanced theoretical physics seeks a unified theory of quantum gravity to resolve singularities inside black holes. Hypotheses explore extra spatial dimensions, supersymmetry, and holographic dualities to extend physics beyond the standard model."
         ],
         "rows": [
           {
@@ -2802,10 +2874,10 @@
         "title": "Physics Req 6 Exemplar Workbook Entry: Modern Frontiers and Quantum Physics",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6A (Unsolved Cosmic Mysteries)": "Unsolved Mysteries of Physics. Discuss the following with your counselor (p. 34).",
-          "Req 6B (Quantum Mechanics and Computing)": "Quantum Mechanics & Computing. Discuss the following with your counselor (p. 34).",
-          "Req 6C (Astrophysics and Deep Space)": "The Physics pamphlet for Requirement 6C details option C, Space Exploration & Astrophysics, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34).",
-          "Req 6D - Emerging Theoretical Breakthroughs": "The Physics pamphlet for Requirement 6D details option D, Advanced Theories & Future Discoveries, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34)."
+          "Req 6A - Unsolved Cosmological Physics Mys": "Astrophysical observations reveal that visible baryonic matter cannot account for observed galactic rotational velocities or gravitational lensing. Cosmologists investigate dark matter candidates while exploring accelerating cosmic expansion driven by dark energy.",
+          "Req 6B - Quantum Computation Information T": "Quantum information science harnesses particle superposition, wave function interference, and entanglement to perform complex algorithms. Cryogenic dilution refrigerators maintain ultra low thermal environments to prevent decoherence in superconducting qubit loops.",
+          "Req 6C - Astrophysical Relativistic Spacet": "Modern astrophysics explores extreme relativistic environments around neutron stars, active galactic nuclei, and colliding black holes. Interferometers measure minute spacetime distortions, opening multi-messenger observational channels into cosmic evolutionary history.",
+          "Req 6D - Advanced Unified Theoretical Fram": "Advanced theoretical physics seeks a unified theory of quantum gravity to resolve singularities inside black holes. Hypotheses explore extra spatial dimensions, supersymmetry, and holographic dualities to extend physics beyond the standard model."
         },
         "sample_output": "Modern Frontiers and Quantum Physics: Quantum Mechanics & Computing. Discuss the following with your counselor (p. 34).",
         "counselor_tip": "For Physics Requirement 6 (Modern Frontiers and Quantum Physics), verify the Scout's own observations and specific pamphlet details (Physics Test Lab Resource Guide, pp. 34-39)."
@@ -2842,7 +2914,13 @@
         "site_requirement": "Approved Physics demonstration area for Requirement 6",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Frontier physics technologies featuring magnetic levitation, fusion energy models, quantum hardware, and telescopes."
+      "workbook_visual_caption": "Frontier physics technologies featuring magnetic levitation, fusion energy models, quantum hardware, and telescopes.",
+      "pamphlet_summary": "Frontier physics investigates unexplained cosmic anomalies such as dark energy, gravitational waves, and quantum computational coherence. Researchers build particle colliders and space telescopes to probe phenomena beyond the standard model.",
+      "socratic_questions": [
+        "Why does quantum mechanics struggle to integrate with Einstein geometric theory of general relativity?",
+        "How does observing galaxy rotation curves lead astrophysicists to deduce dark matter existence?",
+        "What operational benefits make quantum computing fundamentally faster than traditional binary silicon logic?"
+      ]
     },
     {
       "req_id": "7",
@@ -2893,8 +2971,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 40-45",
           "common_misconception_pair": {
-            "misconception": "Filling a water bottle rocket completely to the top with water before pumping air produces the highest launch altitude.",
-            "fact": "A bottle completely full of water leaves no room for compressed air to store potential energy, so filling it roughly one-third full balances reaction mass with pneumatic pressure (p. 43)."
+            "misconception": "Placing heavy ballast weight over the front wheels makes Pinewood Derby cars roll faster down slopes.",
+            "fact": "Placing ballast mass rearward elevates initial gravitational potential energy while wheel polishing minimizes friction.",
+            "myth": "Placing heavy ballast weight over the front wheels makes Pinewood Derby cars roll faster down slopes.",
+            "fact_correction": "Placing ballast mass rearward elevates initial gravitational potential energy while wheel polishing minimizes friction."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2920,10 +3000,10 @@
           "id": "7A",
           "sub_req_label": "7A",
           "sub_req_text": "Option A: Fastest Pinewood Derby Car. Build pinewood derby cars using physics principles to get the fastest time on the track.",
-          "topic_title": "Req 7A: Pinewood Derby Car Optimization",
-          "pamphlet_summary": "Pinewood Derby Car Optimization: Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40).",
+          "topic_title": "Req 7A: Pinewood Derby Kinematic Optimization",
+          "pamphlet_summary": "Pinewood derby optimization applies conservation of energy, friction reduction, and aerodynamic streamlining. Raising the vehicle center of mass stores greater initial potential energy for conversion into terminal track kinetic energy.",
           "pamphlet_excerpts": [
-            "Pinewood Derby Car Optimization: Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40)."
+            "Pinewood derby optimization applies conservation of energy, friction reduction, and aerodynamic streamlining. Raising the vehicle center of mass stores greater initial potential energy for conversion into terminal track kinetic energy."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
           "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
@@ -2988,8 +3068,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 40-45",
           "common_misconception_pair": {
-            "misconception": "Placing the lead or tungsten weights at the very front nose of a Pinewood Derby car maximizes its speed on a sloped track.",
-            "fact": "Placing weight near the rear without causing wheelie instability raises the initial center of mass higher on the sloped starting ramp, giving the car more gravitational potential energy to convert into kinetic energy (p. 40)."
+            "misconception": "Rube Goldberg mechanisms can run indefinitely without continuous external potential energy inputs along the chain.",
+            "fact": "Each link in a compound mechanism transfers momentum and potential energy through discrete mechanical steps.",
+            "myth": "Rube Goldberg mechanisms can run indefinitely without continuous external potential energy inputs along the chain.",
+            "fact_correction": "Each link in a compound mechanism transfers momentum and potential energy through discrete mechanical steps."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3015,10 +3097,10 @@
           "id": "7B",
           "sub_req_label": "7B",
           "sub_req_text": "Option B: Rube Goldberg Machine. Build a machine using household materials to perform a simple task. You can use examples of tasks from the annual Rube Goldberg competition, or you can create your own task.",
-          "topic_title": "Req 7B: Rube Goldberg Chain Machine",
-          "pamphlet_summary": "Rube Goldberg Chain Machine: Rube Goldberg Machine (p. 40).",
+          "topic_title": "Req 7B: Compound Kinetic Energy Cascades",
+          "pamphlet_summary": "Rube Goldberg devices chain simple machines including levers, pulleys, and inclined planes into sequential kinetic cascades. Energy transfer efficiency drops at each stage due to frictional losses and acoustic dissipation.",
           "pamphlet_excerpts": [
-            "Rube Goldberg Chain Machine: Rube Goldberg Machine (p. 40)."
+            "Rube Goldberg devices chain simple machines including levers, pulleys, and inclined planes into sequential kinetic cascades. Energy transfer efficiency drops at each stage due to frictional losses and acoustic dissipation."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
           "title": "Req 7B: Rube Goldberg Chain Machine",
@@ -3064,8 +3146,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 40-45",
           "common_misconception_pair": {
-            "misconception": "A Rube Goldberg machine gains extra total energy with every additional lever, domino, and ramp added to the chain.",
-            "fact": "Every step in a Rube Goldberg machine loses some mechanical energy to friction and sound, so each stage must release newly stored potential energy to keep the chain moving (p. 41)."
+            "misconception": "Rigid unyielding impact shields protect an egg better than soft deformable crumple zone structures.",
+            "fact": "Crumple zones and shock absorption extend deceleration time, minimizing peak impact force experienced by the egg.",
+            "myth": "Rigid unyielding impact shields protect an egg better than soft deformable crumple zone structures.",
+            "fact_correction": "Crumple zones and shock absorption extend deceleration time, minimizing peak impact force experienced by the egg."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3096,10 +3180,10 @@
           "id": "7C",
           "sub_req_label": "7C",
           "sub_req_text": "Option C: Egg Drop Challenge. Explore the physics of energy and momentum by building a structure using household materials to prevent an egg from breaking when dropped from a significant height. The location of the egg drop must be approved by your counselor.",
-          "topic_title": "Req 7C: Egg Drop Impact Protection",
-          "pamphlet_summary": "Egg Drop Impact Protection: Egg Drop Challenge (p. 40).",
+          "topic_title": "Req 7C: Impact Impulse Momentum Mitigation",
+          "pamphlet_summary": "The egg drop challenge demonstrates the impulse-momentum theorem, where impact force equals change in momentum divided by collision time. Extending deceleration duration via deformable packaging diminishes destructive peak loads below the shell failure threshold.",
           "pamphlet_excerpts": [
-            "Egg Drop Impact Protection: Egg Drop Challenge (p. 40)."
+            "The egg drop challenge demonstrates the impulse-momentum theorem, where impact force equals change in momentum divided by collision time. Extending deceleration duration via deformable packaging diminishes destructive peak loads below the shell failure threshold."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
           "title": "Req 7C: Egg Drop Impact Protection",
@@ -3149,8 +3233,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 40-45",
           "common_misconception_pair": {
-            "misconception": "During Physics Requirement 7D, Scouts can underestimate how directly mastery of pressurized water bottle rockets depends on understanding option d, water bottle rockets.",
-            "fact": "Scouting America standards for Physics Requirement 7D require complete workbook entries on pressurized water bottle rockets to demonstrate full understanding of option d, water bottle rockets."
+            "misconception": "Adding maximum pressurized air without any water propellant launches bottle rockets to the highest altitudes.",
+            "fact": "Water propellant provides high reactive mass, producing significantly greater forward momentum than compressed air alone.",
+            "myth": "Adding maximum pressurized air without any water propellant launches bottle rockets to the highest altitudes.",
+            "fact_correction": "Water propellant provides high reactive mass, producing significantly greater forward momentum than compressed air alone."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3176,10 +3262,10 @@
           "id": "7D",
           "sub_req_label": "7D",
           "sub_req_text": "Option D: Water Bottle Rockets. Explore propulsion and Newton's Third Law. The challenge is to land an air pressured rocket, using water as a propellant, exactly at a specific distance (for example, 70 m) from launch point, three times, with extra points for flight duration.",
-          "topic_title": "Req 7D: Pressurized Water Bottle Rockets",
-          "pamphlet_summary": "Pressurized Water Bottle Rockets: Water Bottle Rockets (p. 40).",
+          "topic_title": "Req 7D: Pneumatic Water Rocket Propulsion",
+          "pamphlet_summary": "Water bottle rocketry illustrates Newton third law, conservation of momentum, and compressible fluid dynamics. Expelling dense water mass at high nozzle velocity yields superior thrust compared to expanding low-density air alone.",
           "pamphlet_excerpts": [
-            "Pressurized Water Bottle Rockets: Water Bottle Rockets (p. 40)."
+            "Water bottle rocketry illustrates Newton third law, conservation of momentum, and compressible fluid dynamics. Expelling dense water mass at high nozzle velocity yields superior thrust compared to expanding low-density air alone."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
           "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
@@ -3217,10 +3303,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 40-45",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Custom Physics Design Challenge (Req 7E) or confusing Custom Physics Design Challenge with general Applied Physics Engineering Design Challenge procedures.",
-            "fact": "For Requirement 7E (Custom Physics Design Challenge), The Physics pamphlet for Requirement 7E details option E, Design your Own Physics Challenge, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40).",
-            "myth": "Overlooking the specific field checks required for Custom Physics Design Challenge (Req 7E) or confusing Custom Physics Design Challenge with general Applied Physics Engineering Design Challenge procedures.",
-            "fact_correction": "For Requirement 7E (Custom Physics Design Challenge), The Physics pamphlet for Requirement 7E details option E, Design your Own Physics Challenge, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40)."
+            "misconception": "A valid physics challenge only needs an impressive visual demonstration without measurable quantitative parameters.",
+            "fact": "Self-designed physics challenges require quantifiable criteria, reproducible test procedures, and verified mathematical models.",
+            "myth": "A valid physics challenge only needs an impressive visual demonstration without measurable quantitative parameters.",
+            "fact_correction": "Self-designed physics challenges require quantifiable criteria, reproducible test procedures, and verified mathematical models."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3246,10 +3332,10 @@
           "id": "7E",
           "sub_req_label": "7E",
           "sub_req_text": "Option E: Design your Own Physics Challenge. Create a physics challenge with your counselor's approval.",
-          "topic_title": "Req 7E: Custom Physics Design Challenge",
-          "pamphlet_summary": "For Physics Requirement 7E (Custom Physics Design Challenge): The Physics pamphlet for Requirement 7E details option E, Design your Own Physics Challenge, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40).",
+          "topic_title": "Req 7E: Custom Physical System Engineering",
+          "pamphlet_summary": "Custom engineering challenges require defining precise problem statements, material constraints, and measurable physics criteria with counselor approval. Scouts model the underlying physical mechanisms and validate their solutions through empirical testing.",
           "pamphlet_excerpts": [
-            "Custom Physics Design Challenge: The Physics pamphlet for Requirement 7E details option E, Design your Own Physics Challenge, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40)."
+            "Custom engineering challenges require defining precise problem statements, material constraints, and measurable physics criteria with counselor approval. Scouts model the underlying physical mechanisms and validate their solutions through empirical testing."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
           "title": "Req 7E: Custom Physics Design Challenge",
@@ -3257,11 +3343,11 @@
           "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
         }
       ],
-      "topic_title": "Req 7: Applied Physics Engineering Design Challenge",
+      "topic_title": "Req 7: Applied Physics Engineering Design Challenges",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Review task hazards with your counselor before starting Physics Requirement 7 on applied physics engineering design challenge: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Wear safety glasses and secure long hair when testing high speed rolling or pressurized launching apparatus.",
       "pamphlet_citation": "Physics Test Lab Resource Guide, pp. 40-45",
       "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 40-45",
       "syllabus_bucket": "In-Class Demonstration",
@@ -3295,8 +3381,10 @@
         "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "An egg drop container protects a raw egg best when built as a rigid, solid shell that does not bend on impact.",
-        "fact": "A rigid shell stops instantaneously and transfers lethal peak force to the egg, whereas a crumple zone increases stopping time to reduce peak impact force via the impulse-momentum theorem (p. 42)."
+        "misconception": "Engineering solutions emerge from trial and error without requiring formal calculations of physical force vectors.",
+        "fact": "Engineering design applies physical constraints to optimize structural strength, aerodynamic drag, and energy transfer efficiency.",
+        "myth": "Engineering solutions emerge from trial and error without requiring formal calculations of physical force vectors.",
+        "fact_correction": "Engineering design applies physical constraints to optimize structural strength, aerodynamic drag, and energy transfer efficiency."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3325,16 +3413,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Derby Car Energy Optimization: Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40).",
-        "Multi-Step Energy Transfers: Rube Goldberg Machine (p. 40).",
-        "Impulse and Impact Cushioning: Egg Drop Challenge (p. 40).",
-        "Pneumatic Reaction Propulsion: Water Bottle Rockets (p. 40)."
+        "Kinematic Slope Conversion: Elevating center of mass maximizes initial gravitational potential energy along inclined wooden tracks.",
+        "Sequential Energy Coupling: Chained levers and inclined planes transfer momentum through discrete mechanical cascade stages.",
+        "Impact Impulse Mitigation: Collapsible crumple structures extend deceleration time intervals to reduce peak destructive force loads.",
+        "Pressurized Liquid Thrust: High density fluid expulsion provides substantial reaction momentum during pneumatic bottle rocket flights."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Test Impact Absorption: Egg Drop Challenge (p. 40).",
-        "Step 2 - Launch Pressurized Rockets: Water Bottle Rockets (p. 40).",
-        "Step 3 - Applied Physics Engineering: Applied Physics Engineering Design Challenge: Applied physics engineering design challenge, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 34).",
-        "Step 4 - Present Prototype Results: Review your completed Engineering & Physics Design Challenge evidence and demonstrate proficiency during your counselor conference (p. 34)."
+        "Step 1 - Challenge Selection: Select one specific engineering challenge option and document all applicable physical constraints.",
+        "Step 2 - Physics Modeling: Calculate ideal mass distributions and kinetic energy requirements before cutting structural materials.",
+        "Step 3 - Prototype Construction: Build the operational test article using approved household materials and designated safety gear.",
+        "Step 4 - Empirical Testing: Execute controlled launch trials while recording time duration, impact survival, and flight distance."
       ],
       "gear_checklist": [
         "Official Physics Merit Badge Pamphlet and Fillable Scout Workbook (Req 7: Engineering and Physics Challenge)",
@@ -3342,15 +3430,15 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Req 7A: Pinewood Derby Car Optimization",
-        "right_header": "Req 7C: Egg Drop Impact Protection",
+        "left_header": "Req 7A: Pinewood Derby Kinematic Optimizat",
+        "right_header": "Req 7C: Impact Impulse Momentum Mitigation",
         "left_points": [
-          "(7A) Pinewood Derby Car Optimization: Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40).",
-          "(7B) Rube Goldberg Chain Machine: Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40)."
+          "(7A) Pinewood Derby Kinematic Optimization: Pinewood derby optimization applies conservation of energy, friction reduction, and aerodynamic streamlining. Raising the vehicle center of mass stores greater initial potential energy for conversion into terminal track kinetic energy.",
+          "(7B) Compound Kinetic Energy Cascades: Rube Goldberg devices chain simple machines including levers, pulleys, and inclined planes into sequential kinetic cascades. Energy transfer efficiency drops at each stage due to frictional losses and acoustic dissipation."
         ],
         "right_points": [
-          "(7C) Egg Drop Impact Protection: Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40).",
-          "(7D) Pressurized Water Bottle Rockets: Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40)."
+          "(7C) Impact Impulse Momentum Mitigation: The egg drop challenge demonstrates the impulse-momentum theorem, where impact force equals change in momentum divided by collision time. Extending deceleration duration via deformable packaging diminishes destructive peak loads below the shell failure threshold.",
+          "(7D) Pneumatic Water Rocket Propulsion: Water bottle rocketry illustrates Newton third law, conservation of momentum, and compressible fluid dynamics. Expelling dense water mass at high nozzle velocity yields superior thrust compared to expanding low-density air alone."
         ],
         "rows": [
           {
@@ -3374,10 +3462,10 @@
         "title": "Physics Req 7 Exemplar Workbook Entry: Applied Physics Engineering Design Challenge",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7A (Pinewood Derby Car Optimization)": "Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40).",
-          "Req 7B (Rube Goldberg Chain Machine)": "Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40).",
-          "Req 7C (Egg Drop Impact Protection)": "Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40).",
-          "Req 7D (Pressurized Water Bottle Rockets)": "Fastest Pine wood Derby Car. Build pine wood derby cars using physics principles to get the fastest time on the track (p. 40)."
+          "Req 7A - Pinewood Derby Kinematic Optimiza": "Pinewood derby optimization applies conservation of energy, friction reduction, and aerodynamic streamlining. Raising the vehicle center of mass stores greater initial potential energy for conversion into terminal track kinetic energy.",
+          "Req 7B - Compound Kinetic Energy Cascades": "Rube Goldberg devices chain simple machines including levers, pulleys, and inclined planes into sequential kinetic cascades. Energy transfer efficiency drops at each stage due to frictional losses and acoustic dissipation.",
+          "Req 7C - Impact Impulse Momentum Mitigatio": "The egg drop challenge demonstrates the impulse-momentum theorem, where impact force equals change in momentum divided by collision time. Extending deceleration duration via deformable packaging diminishes destructive peak loads below the shell failure threshold.",
+          "Req 7D - Pneumatic Water Rocket Propulsion": "Water bottle rocketry illustrates Newton third law, conservation of momentum, and compressible fluid dynamics. Expelling dense water mass at high nozzle velocity yields superior thrust compared to expanding low-density air alone."
         },
         "sample_output": "Applied Physics Engineering Design Challenge: Fastest Pinewood Derby Car. Build pinewood derby cars using physics principles to get the fastest (p. 40).",
         "counselor_tip": "For Physics Requirement 7 (Applied Physics Engineering Design Challenge), verify the Scout's own observations and specific pamphlet details (Physics Test Lab Resource Guide, pp. 40-45)."
@@ -3414,7 +3502,13 @@
         "site_requirement": "Approved Physics demonstration area for Requirement 7",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
+      "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
+      "pamphlet_summary": "Engineering challenges demand the rigorous application of physics principles to solve complex design and manufacturing problems. Scouts establish measurable parameters, evaluate material properties, and iterate prototypes to meet strict performance metrics.",
+      "socratic_questions": [
+        "How does relocating center of mass alter potential energy conversion along a gravity track?",
+        "What structural trade-offs occur when increasing vehicle weight while attempting to minimize rolling resistance?",
+        "Why does extending impact duration significantly decrease the peak force exerted upon fragile cargo?"
+      ]
     },
     {
       "req_id": "8",
@@ -3469,8 +3563,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
-            "misconception": "Medical physicists perform surgery rather than applying radiation and imaging physics in hospitals.",
-            "fact": "Medical physicists calibrate linear accelerators, design radiation therapy treatment plans, and ensure MRI and CT imaging safety alongside physicians (p. 47)."
+            "misconception": "Entry-level physics jobs require no formal post-secondary mathematics or laboratory instrumentation training.",
+            "fact": "Professional physicists typically require graduate doctoral degrees for independent research, though applied roles accept baccalaureates.",
+            "myth": "Entry-level physics jobs require no formal post-secondary mathematics or laboratory instrumentation training.",
+            "fact_correction": "Professional physicists typically require graduate doctoral degrees for independent research, though applied roles accept baccalaureates."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -3501,10 +3597,10 @@
           "id": "8a",
           "sub_req_label": "8a",
           "sub_req_text": "Explore careers related to this badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include , with your parent or guardian's permission , an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
-          "topic_title": "Req 8a: Physics Career Pathway Research",
-          "pamphlet_summary": "Physics Career Pathway Research: Explore careers related to this badge (p. 46).",
+          "topic_title": "Req 8a: Professional Physics Career Pathways",
+          "pamphlet_summary": "Professional physics careers span specialized sectors from nuclear engineering and astrophysics to patent law and optics. Aspiring physicists complete rigorous university training in calculus, linear algebra, and laboratory instrumentation.",
           "pamphlet_excerpts": [
-            "Physics Career Pathway Research: Explore careers related to this badge (p. 46)."
+            "Professional physics careers span specialized sectors from nuclear engineering and astrophysics to patent law and optics. Aspiring physicists complete rigorous university training in calculus, linear algebra, and laboratory instrumentation."
           ],
           "workbook_diagram_url": "assets/ai_illustrations/physics_req_8_topic_visual.png",
           "workbook_diagram_caption": "Four-panel physics career pathways showing astrophysics, medical imaging, acoustics engineering, and telescope making.",
@@ -3553,8 +3649,10 @@
           },
           "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
-            "misconception": "Amateur astronomy and photography rely purely on artistic intuition rather than applied physics.",
-            "fact": "Both hobbies apply optical focal lengths, aperture diffraction limits, sensor quantum efficiency, and exposure reciprocity to capture sharp images (p. 49)."
+            "misconception": "Engaging in physics hobbies requires millions of dollars in industrial grade particle accelerator equipment.",
+            "fact": "Amateur telescope making and amateur radio operation reinforce optical diffraction and electromagnetic wave principles.",
+            "myth": "Engaging in physics hobbies requires millions of dollars in industrial grade particle accelerator equipment.",
+            "fact_correction": "Amateur telescope making and amateur radio operation reinforce optical diffraction and electromagnetic wave principles."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3580,10 +3678,10 @@
           "id": "8b",
           "sub_req_label": "8b",
           "sub_req_text": "Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
-          "topic_title": "Req 8b: Physics-Based Hobbies and Lifestyles",
-          "pamphlet_summary": "Physics-Based Hobbies and Lifestyles: Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle (p. 46).",
+          "topic_title": "Req 8b: Lifelong Applied Physics Avocations",
+          "pamphlet_summary": "Physics concepts enrich numerous lifestyle hobbies including competitive sailing, sound engineering, amateur astronomy, and rocketry. Participating in amateur scientific societies connects enthusiasts with observation networks and hands-on fabrication projects.",
           "pamphlet_excerpts": [
-            "Physics-Based Hobbies and Lifestyles: Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle (p. 46)."
+            "Physics concepts enrich numerous lifestyle hobbies including competitive sailing, sound engineering, amateur astronomy, and rocketry. Participating in amateur scientific societies connects enthusiasts with observation networks and hands-on fabrication projects."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
           "title": "Req 8b: Physics-Based Hobbies and Lifestyles",
@@ -3591,11 +3689,11 @@
           "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
         }
       ],
-      "topic_title": "Req 8: Physics Careers and Lifelong Hobbies",
+      "topic_title": "Req 8: Physics Vocations And Avocational Pursuits",
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Physics Requirement 8 on physics careers and lifelong hobbies under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
+      "safety_callout": "Ensure safe posture and appropriate screen ergonomics when conducting extended digital database career research.",
       "pamphlet_citation": "Physics Test Lab Resource Guide, pp. 46-51",
       "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 46-51",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -3627,8 +3725,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Graduating with a physics degree only prepares you to work as a university professor or theoretical researcher.",
-        "fact": "Physicists work across hospital radiation oncology, aerospace engineering, semiconductor manufacturing, renewable energy, acoustical design, and quantitative data science (p. 46)."
+        "misconception": "A physics degree qualifies graduates solely for academic classroom teaching or abstract laboratory research positions.",
+        "fact": "Physics training develops advanced mathematical modeling, data science, and quantitative problem-solving skills valued across high-technology industries.",
+        "myth": "A physics degree qualifies graduates solely for academic classroom teaching or abstract laboratory research positions.",
+        "fact_correction": "Physics training develops advanced mathematical modeling, data science, and quantitative problem-solving skills valued across high-technology industries."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -3657,16 +3757,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "STEM Career Exploration: Explore careers related to this badge (p. 46).",
-        "Physics in Recreational Hobbies: Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle (p. 46).",
-        "Professional Training Pathways: (a) Explore careers related to this badge (p. 46).",
-        "Job Duties and Outlook: Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement (p. 46)."
+        "Academic Research Pathway: Doctoral programs train candidates in experimental apparatus design and advanced mathematical formalisms.",
+        "Industrial Engineering Integration: Applied physics graduates develop lithographic semiconductor nodes and superconducting magnetic resonance imaging systems.",
+        "Computational Modeling Demand: Quantitative investment firms recruit physicists to construct stochastic differential equations analyzing market fluctuations.",
+        "Amateur Experimental Contributions: Citizen scientists operate distributed radio telescopes and optical sky surveys tracking asteroid trajectories."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Select Career or Hobby: (a) Explore careers related to this badge (p. 46).",
-        "Step 2 - Investigate Education and Duties: Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement (p. 46).",
-        "Step 3 - Physics Careers and Lifelong Hobbies: Physics careers and lifelong hobbies, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 38).",
-        "Step 4 - Discuss Pathway Findings: Review your completed Physics Careers, Research & STEM Pathways evidence and demonstrate proficiency during your counselor conference (p. 38)."
+        "Step 1 - Career Identification: Select an occupational specialty such as medical physics, geophysics, or aerospace engineering.",
+        "Step 2 - Credential Research: Document required academic degrees, technical certifications, and expected starting compensation packages.",
+        "Step 3 - Interview Execution: Interview an active professional or review detailed industry career profiles regarding daily duties.",
+        "Step 4 - Counselor Presentation: Present findings regarding educational investments and career advancement trajectories to the counselor."
       ],
       "gear_checklist": [
         "Official Physics Merit Badge Pamphlet and Fillable Scout Workbook (Req 8: Physics Careers and Pathways)",
@@ -3674,15 +3774,13 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Physics Career Pathway Research",
-        "right_header": "Req 8b: Physics-Based Hobbies and Lifestyl",
+        "left_header": "Req 8a: Professional Physics Career Pathwa",
+        "right_header": "Req 8b: Lifelong Applied Physics Avocation",
         "left_points": [
-          "(8a) Physics Career Pathway Research: Explore careers related to this badge (p. 46).",
-          "Physics in Recreational Hobbies: Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle (p. 46)."
+          "(8a) Professional Physics Career Pathways: Professional physics careers span specialized sectors from nuclear engineering and astrophysics to patent law and optics. Aspiring physicists complete rigorous university training in calculus, linear algebra, and laboratory instrumentation."
         ],
         "right_points": [
-          "(8b) Physics-Based Hobbies and Lifestyles: Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle (p. 46).",
-          "Professional Training Pathways: (a) Explore careers related to this badge (p. 46)."
+          "(8b) Lifelong Applied Physics Avocations: Physics concepts enrich numerous lifestyle hobbies including competitive sailing, sound engineering, amateur astronomy, and rocketry. Participating in amateur scientific societies connects enthusiasts with observation networks and hands-on fabrication projects."
         ],
         "rows": [
           {
@@ -3706,8 +3804,8 @@
         "title": "Physics Req 8 Exemplar Workbook Entry: Physics Careers and Lifelong Hobbies",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 8a (Physics Career Pathway Research)": "Explore careers related to this badge (p. 46).",
-          "Req 8b - Physics-Based Hobbies and Lifestyl": "Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle (p. 46)."
+          "Req 8a - Professional Physics Career Pathw": "Professional physics careers span specialized sectors from nuclear engineering and astrophysics to patent law and optics. Aspiring physicists complete rigorous university training in calculus, linear algebra, and laboratory instrumentation.",
+          "Req 8b - Lifelong Applied Physics Avocatio": "Physics concepts enrich numerous lifestyle hobbies including competitive sailing, sound engineering, amateur astronomy, and rocketry. Participating in amateur scientific societies connects enthusiasts with observation networks and hands-on fabrication projects."
         },
         "sample_output": "Physics Careers and Lifelong Hobbies: Explore how you could use knowledge and skills from this badge to pursue a hobby or healthy lifestyle (p. 46).",
         "counselor_tip": "For Physics Requirement 8 (Physics Careers and Lifelong Hobbies), verify the Scout's own observations and specific pamphlet details (Physics Test Lab Resource Guide, pp. 46-51)."
@@ -3744,7 +3842,13 @@
         "site_requirement": "Approved Physics demonstration area for Requirement 8",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Research physicist and aerospace engineer mentoring a uniformed Scout beside an optical bench and wind tunnel."
+      "workbook_visual_caption": "Research physicist and aerospace engineer mentoring a uniformed Scout beside an optical bench and wind tunnel.",
+      "pamphlet_summary": "Physics education prepares individuals for diverse careers in aerospace engineering, medical imaging, computational finance, and energy research. Scouts investigate degree pathways, occupational requirements, and the analytical mindsets driving technological innovation.",
+      "socratic_questions": [
+        "How do the mathematical problem-solving skills learned in physics apply to medical diagnostic imaging?",
+        "What undergraduate coursework and laboratory certifications are essential for entering semiconductor research careers?",
+        "In what ways can amateur physics hobbies like amateur astronomy contribute to real scientific discovery?"
+      ]
     },
     {
       "req_id": "9",
@@ -3754,11 +3858,11 @@
       "req_text": "Complete the survey below to complete the test lab requirements",
       "resources": [],
       "sub_requirements": [],
-      "topic_title": "Req 9: Test Lab Feedback and Evaluation",
+      "topic_title": "Req 9: Experimental Test Laboratory Evaluation",
       "action_verb": "Complete",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Enable",
-      "safety_callout": "Review task hazards with your counselor before starting Physics Requirement 9 on test lab feedback and evaluation: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Safely store and power down all laboratory equipment before completing post-experiment administrative evaluation forms.",
       "pamphlet_citation": "Physics Test Lab Resource Guide, pp. 52-57",
       "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 52-57",
       "syllabus_bucket": "In-Class Concept",
@@ -3786,8 +3890,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "The Test Lab survey is a graded physics exam that can cause you to fail the badge if you disliked an experiment.",
-        "fact": "The Test Lab survey collects honest Scout feedback on experiment clarity, safety, and engagement to help Scouting America refine the official merit badge requirements before national release (p. 52)."
+        "misconception": "Submitting curriculum survey responses is an optional administrative step with no connection to badge completion.",
+        "fact": "Laboratory survey completion provides essential feedback on experimental clarity, equipment usability, and pedagogical effectiveness.",
+        "myth": "Submitting curriculum survey responses is an optional administrative step with no connection to badge completion.",
+        "fact_correction": "Laboratory survey completion provides essential feedback on experimental clarity, equipment usability, and pedagogical effectiveness."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -3811,16 +3917,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Test Lab Completion Survey: Complete the survey below to complete the test lab requirements (p. 52).",
-        "Test Lab Feedback and Evaluation: Test lab feedback and evaluation, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 42).",
-        "Counselor Wrap-Up Conference: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 42).",
-        "Program Evaluation Standards: Cross-check every sub-requirement of Requirement 9 (Survey Below) against the Scouting America Physics pamphlet standard (p. 52)."
+        "Curriculum Feedback Loop: Quantitative user evaluations reveal specific experimental apparatus bottlenecks and unclear procedural instructions.",
+        "Safety Protocol Auditing: Standardized survey data tracks minor laboratory mishaps to enhance safety protective guidelines.",
+        "Pedagogical Clarity Metrics: Participant ratings identify which mechanical demonstrations produced the strongest conceptual physics comprehension.",
+        "Instructional Design Optimization: Authoring committees update pamphlet text based on aggregated scout experimental performance data."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Complete Final Conference: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 42).",
-        "Step 2 - Verify Survey Submission: Cross-check every sub-requirement of Requirement 9 (Survey Below) against the Scouting America Physics pamphlet standard (p. 52).",
-        "Step 3 - Review Test Lab Goals: For Physics Requirement 9 (Survey Below), review the key definitions, technical terms, and safety principles in the official pamphlet (p. 52).",
-        "Step 4 - Document Experiment Feedback: Record concrete observations, measurements, and examples for Survey Below in your Physics Scout Workbook (p. 52)."
+        "Step 1 - Apparatus Stowage: Return every laboratory component into designated protective storage containers in order.",
+        "Step 2 - Survey Access: Open the official merit badge test lab survey form on your terminal.",
+        "Step 3 - Data Entry: Input detailed feedback regarding apparatus functionality, instruction clarity, and experiment duration.",
+        "Step 4 - Counselor Verification: Review completed survey confirmation records with your counselor to finalize badge requirements."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -3898,7 +4004,13 @@
         "site_requirement": "Approved Physics demonstration area for Requirement 9",
         "supervision": "Registered Merit Badge Counselor with BSA two-deep leadership"
       },
-      "workbook_visual_caption": "Uniformed Scout and counselor reviewing experiment data graphs and submitting Physics Test Lab feedback."
+      "workbook_visual_caption": "Uniformed Scout and counselor reviewing experiment data graphs and submitting Physics Test Lab feedback.",
+      "pamphlet_summary": "Completing the standardized test lab survey enables program developers to refine instructional materials and safety guidelines. Scouts evaluate their hands-on lab experiences, reporting equipment reliability and overall conceptual comprehension.",
+      "socratic_questions": [
+        "Which experimental procedure proved most effective in clarifying an otherwise difficult physics concept?",
+        "How did recording quantitative observations change your understanding of the underlying physical law?",
+        "What modifications to the experimental equipment would improve measurement accuracy in future trials?"
+      ]
     }
   ],
   "badge_slug": "physics",

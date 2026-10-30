@@ -37,11 +37,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Fingerprint History and Identification Types",
+      "topic_title": "Req 1: Fingerprint History And Identification Types",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 1): Complete all Fingerprint History and Identification Types discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Sanitize shared historical document replicas and archival displays to prevent allergic reactions or dust inhalation.",
       "pamphlet_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 13, p. 15)",
       "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 13, p. 15)",
       "syllabus_bucket": "In-Class Concept",
@@ -69,8 +69,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Many people believe fingerprinting is used exclusively by police to track down criminal suspects.",
-        "fact": "Civil identification uses fingerprints for non-criminal purposes such as background checks, military service records, and identifying amnesia or disaster victims (p. 15)."
+        "misconception": "Fingerprint identification began exclusively as a police tool during modern nineteenth century criminal investigations.",
+        "fact": "Ancient civilizations used thumbprints on clay contracts thousands of years before modern forensic police systems existed.",
+        "myth": "Fingerprint identification began exclusively as a police tool during modern nineteenth century criminal investigations.",
+        "fact_correction": "Ancient civilizations used thumbprints on clay contracts thousands of years before modern forensic police systems existed."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -94,16 +96,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Scientific Proof of Permanence: Gal ton was able to scientifically prove what Herschel and Faulds already suspected, that fingerprints are permanent and unique to each individual (p. 13).",
-        "Gal ton Probability Calculation: According to Gal ton's calculations, the odds of two individual fingerprints being the same were 1 in 64 billion (p. 13).",
-        "First Official Fingerprint Files: In 1891, Juan Vucetich, an Argentine police official, began the first fingerprint files based on Gal ton pattern types (p. 13).",
-        "First Criminal Fingerprint Match: In 1892, Vucetich made the first criminal fingerprint identification (p. 13)."
+        "Ancient Records: Early civilizations used clay finger impressions to validate commercial transactions and personal contracts.",
+        "Herschel Initiative: Sir William Herschel instituted biometric handprints to prevent fraudulent pension claims in India.",
+        "Civil Systems: Civil repositories record citizen prints voluntarily to resolve missing person cases accurately.",
+        "Criminal Archives: Law enforcement databases retain arrest records to track repeat offenders across jurisdictions."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Trace Vucetich Classification Files: In 1891, Juan Vucetich, an Argentine police official, began the first fingerprint files based on Gal ton pattern types (p. 13).",
-        "Step 2 - Review First Criminal Case: In 1892, Vucetich made the first criminal fingerprint identification (p. 13).",
-        "Step 3 - Examine Henry Classification System: The classification system was based on Gal ton's observations, as revised by Sir Edward Richard Henry (p. 13).",
-        "Step 4 - Note Early American Adoption: In 1903, the New York State prison system became the first agency in the United States to regularly use fingerprints to identify criminals (p. 13)."
+        "Step 1 - Historical Survey: Research early scientific contributions by Sir Francis Galton and Juan Vucetich carefully.",
+        "Step 2 - Timeline Construction: Map evolutionary milestones from ancient clay seals to modern automated law archives.",
+        "Step 3 - Civil Purpose Contrast: Chart noncriminal uses such as disaster victim identification and military personnel records.",
+        "Step 4 - Legal Record Distinction: Document how criminal print files associate specific biometric data with past charges."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -176,7 +178,13 @@
       "workbook_diagram_caption": "Illustrated panels demonstrate ink rolling techniques, ten-print card recording, and structural comparisons of ridge patterns.",
       "number": "1",
       "description": "Give a short history of fingerprinting. Tell the difference between civil and criminal identification.",
-      "workbook_visual_caption": "Illustrated panels demonstrate ink rolling techniques, ten-print card recording, and structural comparisons of ridge patterns."
+      "workbook_visual_caption": "Illustrated panels demonstrate ink rolling techniques, ten-print card recording, and structural comparisons of ridge patterns.",
+      "pamphlet_summary": "Ancient Babylonians pressed finger impressions into clay tablets to protect business contracts against forgery. Civil identification catalogs citizens for personal safety, whereas criminal records link individuals directly to law violations.",
+      "socratic_questions": [
+        "Why did ancient merchants trust a clay thumbprint more than an ink signature on contracts?",
+        "How does a civil missing persons file differ fundamentally from a criminal arrest registry?",
+        "What social developments forced nineteenth century governments to replace physical body descriptions with fingerprinting?"
+      ]
     },
     {
       "req_id": "2",
@@ -220,8 +228,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Token-based identification systems are completely secure because a physical card or passport proves the holder is the rightful owner.",
-            "fact": "Physical tokens like driver's licenses, key cards, and passports can be lost, stolen, or forged, making them less reliable than unique biometric identifiers (p. 35)."
+            "misconception": "Commercial door locks store actual photographic images of every fingerprint scanned at the entrance.",
+            "fact": "Access systems convert ridge features into mathematical vectors rather than storing raw raster fingerprint images.",
+            "myth": "Commercial door locks store actual photographic images of every fingerprint scanned at the entrance.",
+            "fact_correction": "Access systems convert ridge features into mathematical vectors rather than storing raw raster fingerprint images."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -247,10 +257,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Explain the difference between the automated fingerprint identification systems (AFIS) now used by law enforcement agencies and the biometric fingerprint systems used to control access to computers and places like buildings and airports.",
-          "topic_title": "Req 2a: Law Enforcement AFIS Versus Biometrics",
-          "pamphlet_summary": "Law Enforcement AFIS Versus Biometrics: Biometrics in our Society People can identify themselves for access and for privileges in several general ways (p. 35).",
+          "topic_title": "Req 2a: Database Searching And Access Systems",
+          "pamphlet_summary": "Law enforcement systems compare latent crime scene marks against massive repositories containing millions of individuals. Local access scanners simply compare a fresh scan against one credential template stored on the device.",
           "pamphlet_excerpts": [
-            "Law Enforcement AFIS Versus Biometrics: Biometrics in our Society People can identify themselves for access and for privileges in several general ways (p. 35)."
+            "Law enforcement systems compare latent crime scene marks against massive repositories containing millions of individuals. Local access scanners simply compare a fresh scan against one credential template stored on the device."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p007_img1.png",
           "workbook_diagram_caption": "A digital biometric screen analyzes ridge points for automated fingerprint identification.",
@@ -303,8 +313,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Knowledge-based systems such as PINs and passwords count as biometric security when typed on a personal smartphone.",
-            "fact": "Passwords, PINs, and security questions are knowledge-based systems relying on something you know, whereas biometrics rely on unique physical body measurements (p. 35)."
+            "misconception": "Biometric scanners eliminate all security risks because physical bodily features cannot be duplicated.",
+            "fact": "Sensor spoofing and digital template database breaches present unique risks to biometric identification infrastructures.",
+            "myth": "Biometric scanners eliminate all security risks because physical bodily features cannot be duplicated.",
+            "fact_correction": "Sensor spoofing and digital template database breaches present unique risks to biometric identification infrastructures."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -330,10 +342,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Discuss how our society uses identification systems based on tokens, passwords, and biometrics.",
-          "topic_title": "Req 2b: Tokens, Passwords, and Biometric Access",
-          "pamphlet_summary": "Tokens, Passwords, and Biometric Access: Token-based identification systems include driver's licenses and passports (p. 35).",
+          "topic_title": "Req 2b: Societal Identification Security Methods",
+          "pamphlet_summary": "Modern communities rely on tokens, passwords, and biometrics to regulate access to sensitive assets and restricted facilities. Layered security combines items individuals own, passwords they memorize, and physical bodily characteristics they possess.",
           "pamphlet_excerpts": [
-            "Tokens, Passwords, and Biometric Access: Token-based identification systems include driver's licenses and passports (p. 35)."
+            "Modern communities rely on tokens, passwords, and biometrics to regulate access to sensitive assets and restricted facilities. Layered security combines items individuals own, passwords they memorize, and physical bodily characteristics they possess."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p035_img1.png",
           "workbook_diagram_caption": "A digital biometric screen analyzes ridge points for automated fingerprint identification.",
@@ -370,11 +382,11 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 2: Automated Identification and Biometric Systems",
+      "topic_title": "Req 2: Automated And Biometric Security Systems",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Automated Identification and Biometric Systems discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Clean biometric optical glass sensors with alcohol wipes to avoid transferring pathogens between consecutive users.",
       "pamphlet_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)",
       "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)",
       "syllabus_bucket": "In-Class Concept",
@@ -402,8 +414,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "A biometric door scanner stores a full photograph of your fingerprint and searches a massive police database every time you unlock a building.",
-        "fact": "Biometric access systems convert specific fingerprint characteristics into a compact digital template to quickly verify an authorized user's identity on the spot, whereas law enforcement AFIS searches millions of full fingerprint records to identify unknown prints (p. 35)."
+        "misconception": "A smartphone fingerprint scanner queries national police databases whenever an owner unlocks the device.",
+        "fact": "Consumer devices store mathematical templates locally to perform rapid one to one verification matches.",
+        "myth": "A smartphone fingerprint scanner queries national police databases whenever an owner unlocks the device.",
+        "fact_correction": "Consumer devices store mathematical templates locally to perform rapid one to one verification matches."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -427,16 +441,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Methods of Personal Identification: Biometrics in our Society People can identify themselves for access and for privileges in several general ways (p. 35).",
-        "Token-Based Physical Credentials: Token-based identification systems include driver's licenses and passports (p. 35).",
-        "Knowledge-Based Secret Credentials: Knowledge-based identification systems include a computer password, apersonal identification number, and security questions for password (p. 35).",
-        "Reliability of Biometric Identifiers: Because biometric identifiers are unique to individuals, biometric identification systems are more reliable than token- or knowledge-based systems (p. 35)."
+        "Database Searches: Automated fingerprint networks execute complex one to many searches against large criminal repositories.",
+        "Access Verification: Building security scanners execute direct one to one matches confirming an entered identity.",
+        "Physical Tokens: Keycards and metal badges grant access but risk theft by unauthorized third parties.",
+        "Password Vulnerability: Memorized secret strings provide digital security but remain vulnerable to brute force guessing."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Evaluate Knowledge-Based Passwords: Knowledge-based identification systems include a computer password, apersonal identification number, and security questions for password (p. 35).",
-        "Step 2 - Compare Biometric Reliability Advantages: Because biometric identifiers are unique to individuals, biometric identification systems are more reliable than token- or knowledge-based systems (p. 35).",
-        "Step 3 - Define Biometric Body Measurements: Biometrics are body measurements used to identify people (p. 35).",
-        "Step 4 - Assess Facility Access Controls: These systems can enhance security of access to computer systems and their data and to buildings, laboratories, and warehouses (p. 35)."
+        "Step 1 - System Architecture Analysis: Compare database size differences between national law enforcement repositories and commercial terminals.",
+        "Step 2 - Match Ratio Evaluation: Distinguish one to many investigative searches from one to one authentication queries.",
+        "Step 3 - Token Security Audit: Review security vulnerabilities when users misplace physical keycards or loan access badges.",
+        "Step 4 - Biometric Integration Review: Evaluate how combining biometric scans with secret passwords enhances multi factor authentication."
       ],
       "gear_checklist": [
         "Official Fingerprinting Merit Badge Pamphlet and Fillable Scout Workbook (Req 2: Automated Fingerprint Identification Systems AFIS)",
@@ -444,15 +458,13 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Law Enforcement AFIS Versus Biomet",
-        "right_header": "Req 2b: Tokens, Passwords, and Biometric A",
+        "left_header": "Req 2a: Database Searching And Access Syst",
+        "right_header": "Req 2b: Societal Identification Security M",
         "left_points": [
-          "(2a) Law Enforcement AFIS Versus Biometrics: Biometrics in our Society People can identify themselves for access and for privileges in several general ways (p. 35).",
-          "Token-Based Physical Credentials: Token-based identification systems include driver's licenses and passports (p. 35)."
+          "(2a) Database Searching And Access Systems: Law enforcement systems compare latent crime scene marks against massive repositories containing millions of individuals. Local access scanners simply compare a fresh scan against one credential template stored on the device."
         ],
         "right_points": [
-          "(2b) Tokens, Passwords, and Biometric Access: Token-based identification systems include driver's licenses and passports (p. 35).",
-          "Knowledge-Based Secret Credentials: Knowledge-based identification systems include a computer password, apersonal identification number, and security questions for password (p. 35)."
+          "(2b) Societal Identification Security Methods: Modern communities rely on tokens, passwords, and biometrics to regulate access to sensitive assets and restricted facilities. Layered security combines items individuals own, passwords they memorize, and physical bodily characteristics they possess."
         ],
         "rows": [
           {
@@ -476,8 +488,8 @@
         "title": "Fingerprinting Req 2 Exemplar Workbook Entry: Automated Identification and Biometric Systems",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a - Law Enforcement AFIS Versus Biomet": "Biometrics in our Society People can identify themselves for access and for privileges in several general ways (p. 35).",
-          "Req 2b - Tokens, Passwords, and Biometric A": "Token-based identification systems include driver's licenses and passports (p. 35)."
+          "Req 2a - Database Searching And Access Sys": "Law enforcement systems compare latent crime scene marks against massive repositories containing millions of individuals. Local access scanners simply compare a fresh scan against one credential template stored on the device.",
+          "Req 2b - Societal Identification Security": "Modern communities rely on tokens, passwords, and biometrics to regulate access to sensitive assets and restricted facilities. Layered security combines items individuals own, passwords they memorize, and physical bodily characteristics they possess."
         },
         "sample_output": "Automated Identification and Biometric Systems: Because biometric identifiers are unique to individuals, biometric identification systems are more reliable than token- or knowledge-based systems (p. 35).",
         "counselor_tip": "For Fingerprinting Requirement 2 (Automated Identification and Biometric Systems), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36))."
@@ -509,7 +521,13 @@
       "workbook_diagram_caption": "Scouts and their instructor explore digital fingerprint scanners and biometric security displays inside a forensics laboratory.",
       "number": "2",
       "description": "Do the following: (a) Explain the difference between the automated fingerprint identification systems (AFIS) now used by law enforcement agencies and the biometric fingerprint systems used to control access to computers and places like buildings and airports. (b) Discuss how our society uses identification systems based on tokens, passwords, and biometrics.",
-      "workbook_visual_caption": "Scouts and their instructor explore digital fingerprint scanners and biometric security displays inside a forensics laboratory."
+      "workbook_visual_caption": "Scouts and their instructor explore digital fingerprint scanners and biometric security displays inside a forensics laboratory.",
+      "pamphlet_summary": "Automated fingerprint identification systems search extensive databases to match unknown prints against millions of stored arrest records. Biometric access controls perform rapid one to one comparisons to verify claimed identities at doors and devices.",
+      "socratic_questions": [
+        "Why is a one to many database search significantly more complex than a one to one scan?",
+        "What vulnerabilities emerge when a security system relies entirely on physical plastic cards?",
+        "How does combining a password with a biometric scan create stronger overall access security?"
+      ]
     },
     {
       "req_id": "3",
@@ -553,8 +571,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
-            "misconception": "Identical twins share identical fingerprints because they develop from the same fertilized egg and have the exact same DNA.",
-            "fact": "No two fingerprints are identical, not even on the same hand of the same person or between identical twins, because friction ridges form uniquely before birth (p. 32)."
+            "misconception": "Friction ridges cover all parts of human skin to facilitate tactile sensory perception everywhere.",
+            "fact": "Friction ridges exist exclusively on the hairless palmar and plantar epidermal surfaces of the body.",
+            "myth": "Friction ridges cover all parts of human skin to facilitate tactile sensory perception everywhere.",
+            "fact_correction": "Friction ridges exist exclusively on the hairless palmar and plantar epidermal surfaces of the body."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -580,10 +600,10 @@
           "id": "3a",
           "sub_req_label": "3a",
           "sub_req_text": "Name the surfaces of the body where friction or papillary ridges are found.",
-          "topic_title": "Req 3a: Body Surfaces With Friction Ridges",
-          "pamphlet_summary": "For Fingerprinting Requirement 3a (Body Surfaces With Friction Ridges): The Fingerprinting pamphlet for Requirement 3a details the surfaces of the body where friction or papillary ridges are found, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32).",
+          "topic_title": "Req 3a: Papillary Ridge Skin Locations",
+          "pamphlet_summary": "Friction ridge skin appears exclusively on the grasping surfaces of primates, covering human palms, fingers, and feet soles. These corrugated epidermal ridges elevate sweat pore openings to improve tactile friction.",
           "pamphlet_excerpts": [
-            "Body Surfaces With Friction Ridges: The Fingerprinting pamphlet for Requirement 3a details the surfaces of the body where friction or papillary ridges are found, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32)."
+            "Friction ridge skin appears exclusively on the grasping surfaces of primates, covering human palms, fingers, and feet soles. These corrugated epidermal ridges elevate sweat pore openings to improve tactile friction."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p012_img1.png",
           "title": "Req 3a: Body Surfaces With Friction Ridges",
@@ -629,8 +649,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
-            "misconception": "Friction ridges are found only on the tips of the ten fingers and nowhere else on the human body.",
-            "fact": "Friction or papillary ridges cover the inner surfaces of the hands, including the fingers and palms, as well as the soles of the feet and the toes (p. 32)."
+            "misconception": "Severe surface skin scrapes will permanently erase personal fingerprint ridge patterns from the fingertips.",
+            "fact": "Superficial epidermal damage regrows original ridge details unless the deeper dermal layer sustains scar tissue.",
+            "myth": "Severe surface skin scrapes will permanently erase personal fingerprint ridge patterns from the fingertips.",
+            "fact_correction": "Superficial epidermal damage regrows original ridge details unless the deeper dermal layer sustains scar tissue."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -656,10 +678,10 @@
           "id": "3b",
           "sub_req_label": "3b",
           "sub_req_text": "Name the two basic principles supporting the science of fingerprints and give a brief explanation of each principle.",
-          "topic_title": "Req 3b: Core Principles of Fingerprint Science",
-          "pamphlet_summary": "For Fingerprinting Requirement 3b (Core Principles of Fingerprint Science): The Fingerprinting pamphlet for Requirement 3b details the two basic principles supporting the science of fingerprints and give a brief explanation of each principle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32).",
+          "topic_title": "Req 3b: Foundational Fingerprint Science Principles",
+          "pamphlet_summary": "Fingerprint science rests on the dual pillars of absolute individual uniqueness and lifetime structural permanence. Every human friction ridge pattern develops uniquely in the womb and remains structurally stable until decomposition.",
           "pamphlet_excerpts": [
-            "Core Principles of Fingerprint Science: The Fingerprinting pamphlet for Requirement 3b details the two basic principles supporting the science of fingerprints and give a brief explanation of each principle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32)."
+            "Fingerprint science rests on the dual pillars of absolute individual uniqueness and lifetime structural permanence. Every human friction ridge pattern develops uniquely in the womb and remains structurally stable until decomposition."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p033_img1.png",
           "workbook_diagram_caption": "A vintage hospital birth record displays newborn footprints used for civil identification.",
@@ -700,8 +722,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
-            "misconception": "Fingerprint ridge patterns naturally change shape and rearrange themselves as a child grows into an adult.",
-            "fact": "Fingerprints remain unchanged throughout a person's entire lifetime, forming before birth and lasting until the body decomposes after death, unless deep scarring destroys the underlying dermal layer (p. 32)."
+            "misconception": "Forensic identification requires finding a fixed universal number of matching points mandated by federal statute.",
+            "fact": "Identification standards rely on qualitative and quantitative analysis of minutiae without a rigid numerical threshold.",
+            "myth": "Forensic identification requires finding a fixed universal number of matching points mandated by federal statute.",
+            "fact_correction": "Identification standards rely on qualitative and quantitative analysis of minutiae without a rigid numerical threshold."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -727,10 +751,10 @@
           "id": "3c",
           "sub_req_label": "3c",
           "sub_req_text": "Explain what it takes to positively identify a person using fingerprints.",
-          "topic_title": "Req 3c: Requirements for Positive Fingerprint Identification",
-          "pamphlet_summary": "For Fingerprinting Requirement 3c (Requirements for Positive Fingerprint Identification): The Fingerprinting pamphlet for Requirement 3c details what it takes to positively identify a person using fingerprints, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32).",
+          "topic_title": "Req 3c: Positive Forensic Identification Process",
+          "pamphlet_summary": "Conclusive identification relies on expert analysis of minutiae characteristics including ridge endings, bifurcations, and islands. Examiners compare the relative positions, directions, and relationships of these features against a known reference print.",
           "pamphlet_excerpts": [
-            "Requirements for Positive Fingerprint Identification: The Fingerprinting pamphlet for Requirement 3c details what it takes to positively identify a person using fingerprints, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32)."
+            "Conclusive identification relies on expert analysis of minutiae characteristics including ridge endings, bifurcations, and islands. Examiners compare the relative positions, directions, and relationships of these features against a known reference print."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p033_img1.png",
           "workbook_diagram_caption": "A vintage hospital birth record displays newborn footprints used for civil identification.",
@@ -763,11 +787,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Friction Ridges and Identification Principles",
+      "topic_title": "Req 3: Friction Ridge Anatomy And Identification",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 3): Complete all Friction Ridges and Identification Principles discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Examine hand surfaces gently without applying excessive force to prevent paper cuts or skin abrasion.",
       "pamphlet_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)",
       "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)",
       "syllabus_bucket": "In-Class Concept",
@@ -797,8 +821,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "United States law requires a strict minimum of 12 matching ridge points before a fingerprint examiner can declare a positive identification.",
-        "fact": "No minimum area or minimum number of features or points is required to make a positive identification, provided the friction-ridge details match with no unexplainable dissimilarities (p. 32)."
+        "misconception": "Identical twins possess identical fingerprints because their genetic DNA codes are completely indistinguishable.",
+        "fact": "Environmental womb forces produce distinct friction ridge patterns even between genetically identical twin siblings.",
+        "myth": "Identical twins possess identical fingerprints because their genetic DNA codes are completely indistinguishable.",
+        "fact_correction": "Environmental womb forces produce distinct friction ridge patterns even between genetically identical twin siblings."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -822,16 +848,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Matching Friction-Ridge Details: For an identification to be made, the friction-ridge details from two impressions must match without any unexplainabledissimilarities (p. 32).",
-        "Rule Against Unexplainable Differences: Even one unexplainable difference means the fingerprints are not from the same finger (p. 32).",
-        "No Minimum Point Requirement: No minimum amount of area or minimum number of features or points is required to make an identification (p. 32).",
-        "Identifying Small Partial Prints: Often, an area as small as the tip of a pencil eraser may be identified, if the friction-ridge detail that is present is clearly represented (p. 32)."
+        "Ridge Locations: Papillary ridges exist exclusively on the palms, fingers, and soles of human feet.",
+        "Individual Uniqueness: No two individuals have ever shared identical friction ridge formations across their fingers.",
+        "Permanent Structure: Friction ridge patterns remain unchanged throughout life unless deep dermal tissue suffers injury.",
+        "Minutiae Comparison: Forensic examiners confirm positive identity by comparing minute ridge endings and bifurcations accurately."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Verify Ridge Detail Quality: No minimum amount of area or minimum number of features or points is required to make an identification (p. 32).",
-        "Step 2 - Inspect Clear Partial Impressions: Often, an area as small as the tip of a pencil eraser may be identified, if the friction-ridge detail that is present is clearly represented (p. 32).",
-        "Step 3 - Review Amnesia Victim Case: From a phone booth in a southwestern city, a mancalled the police, asking for help (p. 32).",
-        "Step 4 - Trace Civil Fingerprint Identification: When the officers arrived, they found a tall, young, red-haired manwaiting for them (p. 32)."
+        "Step 1 - Anatomical Surface Location: Examine palms, fingers, and soles under illumination to locate friction ridge skin.",
+        "Step 2 - Principle Definition Review: Detail the core principles of permanent ridge durability and absolute individual uniqueness.",
+        "Step 3 - Minutiae Point Marking: Locate specific bifurcations, ridge endings, and dots on an enlarged fingerprint diagram.",
+        "Step 4 - Comparison Protocol Execution: Match distinctive minutiae formations between two sample impressions to verify identical source origin."
       ],
       "gear_checklist": [
         "Official Fingerprinting Merit Badge Pamphlet and Fillable Scout Workbook (Req 3: Name the surfaces of the body)",
@@ -839,15 +865,13 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Body Surfaces With Friction Ridges",
-        "right_header": "Req 3b: Core Principles of Fingerprint Sci",
+        "left_header": "Req 3a: Papillary Ridge Skin Locations",
+        "right_header": "Req 3b: Foundational Fingerprint Science P",
         "left_points": [
-          "(3a) Body Surfaces With Friction Ridges: The Fingerprinting pamphlet for Requirement 3a details the surfaces of the body where friction or papillary ridges are found, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32).",
-          "Rule Against Unexplainable Differences: Even one unexplainable difference means the fingerprints are not from the same finger (p. 32)."
+          "(3a) Papillary Ridge Skin Locations: Friction ridge skin appears exclusively on the grasping surfaces of primates, covering human palms, fingers, and feet soles. These corrugated epidermal ridges elevate sweat pore openings to improve tactile friction."
         ],
         "right_points": [
-          "(3b) Core Principles of Fingerprint Science: The Fingerprinting pamphlet for Requirement 3b details the two basic principles supporting the science of fingerprints and give a brief explanation of each principle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32).",
-          "No Minimum Point Requirement: No minimum amount of area or minimum number of features or points is required to make an identification (p. 32)."
+          "(3b) Foundational Fingerprint Science Principles: Fingerprint science rests on the dual pillars of absolute individual uniqueness and lifetime structural permanence. Every human friction ridge pattern develops uniquely in the womb and remains structurally stable until decomposition."
         ],
         "rows": [
           {
@@ -871,9 +895,9 @@
         "title": "Fingerprinting Req 3 Exemplar Workbook Entry: Friction Ridges and Identification Principles",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a - Body Surfaces With Friction Ridges": "The Fingerprinting pamphlet for Requirement 3a details the surfaces of the body where friction or papillary ridges are found, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32).",
-          "Req 3b - Core Principles of Fingerprint Sci": "The Fingerprinting pamphlet for Requirement 3b details the two basic principles supporting the science of fingerprints and give a brief explanation of each principle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32).",
-          "Req 3c - Requirements for Positive Fingerpr": "The Fingerprinting pamphlet for Requirement 3c details what it takes to positively identify a person using fingerprints, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32)."
+          "Req 3a - Papillary Ridge Skin Locations": "Friction ridge skin appears exclusively on the grasping surfaces of primates, covering human palms, fingers, and feet soles. These corrugated epidermal ridges elevate sweat pore openings to improve tactile friction.",
+          "Req 3b - Foundational Fingerprint Science": "Fingerprint science rests on the dual pillars of absolute individual uniqueness and lifetime structural permanence. Every human friction ridge pattern develops uniquely in the womb and remains structurally stable until decomposition.",
+          "Req 3c - Positive Forensic Identification": "Conclusive identification relies on expert analysis of minutiae characteristics including ridge endings, bifurcations, and islands. Examiners compare the relative positions, directions, and relationships of these features against a known reference print."
         },
         "sample_output": "Friction Ridges and Identification Principles: For an identification to be made, the friction-ridge details from two impressions must match without any unexplainabledissimilarities (p. 32).",
         "counselor_tip": "For Fingerprinting Requirement 3 (Friction Ridges and Identification Principles), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33))."
@@ -905,7 +929,13 @@
       "workbook_diagram_caption": "Scouts use a magnifying glass to inspect inked ridge patterns on standard fingerprint identification cards outdoors.",
       "number": "3",
       "description": "Do the following: (a) Name the surfaces of the body where friction or papillary ridges are found. (b) Name the two basic principles supporting the science of fingerprints and give a brief explanation of each principle. (c) Explain what it takes to positively identify a person using fingerprints.",
-      "workbook_visual_caption": "Scouts use a magnifying glass to inspect inked ridge patterns on standard fingerprint identification cards outdoors."
+      "workbook_visual_caption": "Scouts use a magnifying glass to inspect inked ridge patterns on standard fingerprint identification cards outdoors.",
+      "pamphlet_summary": "Friction ridges develop during fetal growth on palmar and plantar surfaces to provide mechanical gripping traction. Forensic identification requires matching sufficient ridge detail and minutiae arrangements between unknown prints and known standards.",
+      "socratic_questions": [
+        "Why do friction ridges develop only on our hands and feet rather than other skin?",
+        "What biological changes must occur within the skin layers to alter a fingerprint permanently?",
+        "How many matching minutiae characteristics must an expert locate before declaring a conclusive identification?"
+      ]
     },
     {
       "req_id": "4",
@@ -951,8 +981,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)",
           "common_misconception_pair": {
-            "misconception": "When rolling a fingerprint on a card, you should roll the finger back and forth across the paper twice to make sure the ink transfers completely.",
-            "fact": "A rolled impression must be rolled in a single smooth motion from one side of the fingernail to the other and lifted straight up so the ridges do not double-print or smudge (p. 16)."
+            "misconception": "Rolling fingers back and forth across the card creates clearer and darker ridge impressions.",
+            "fact": "Double rolling fingers creates overlapping double impressions that render fingerprint classification cards unusable.",
+            "myth": "Rolling fingers back and forth across the card creates clearer and darker ridge impressions.",
+            "fact_correction": "Double rolling fingers creates overlapping double impressions that render fingerprint classification cards unusable."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -978,10 +1010,10 @@
           "id": "4a",
           "sub_req_label": "4a",
           "sub_req_text": "Make both rolled and plain impressions. Make these on an 8-by-8-inch fingerprint identification card, available from your local police department or your counselor.",
-          "topic_title": "Req 4a: Rolled and Plain Card Impressions",
-          "pamphlet_summary": "Rolled and Plain Card Impressions: Denatured alcohol works well as a cleansing fluid. You can get paper fingerprint cards from your local police department (p. 16).",
+          "topic_title": "Req 4a: Standard Card Inking Procedure",
+          "pamphlet_summary": "Technicians record rolled prints individually in upper boxes before applying four-finger simultaneous plain impressions below. Plain impressions serve as visual quality checks to ensure fingers were recorded in their proper sequential order.",
           "pamphlet_excerpts": [
-            "Rolled and Plain Card Impressions: Denatured alcohol works well as a cleansing fluid. You can get paper fingerprint cards from your local police department (p. 16)."
+            "Technicians record rolled prints individually in upper boxes before applying four-finger simultaneous plain impressions below. Plain impressions serve as visual quality checks to ensure fingers were recorded in their proper sequential order."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p016_img1.png",
           "workbook_diagram_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges.",
@@ -1024,8 +1056,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)",
           "common_misconception_pair": {
-            "misconception": "Plain impressions at the bottom of a fingerprint card are redundant spares that serve the exact same purpose as rolled impressions.",
-            "fact": "Plain impressions are taken without rolling to verify that the individual rolled prints above them were recorded in the proper finger sequence without smudging (p. 16)."
+            "misconception": "Standard pencil graphite creates permanent prints that resist smearing without protective tape coverings.",
+            "fact": "Uncovered graphite transfers easily to contact surfaces, requiring clear tape to seal the carbon ridges.",
+            "myth": "Standard pencil graphite creates permanent prints that resist smearing without protective tape coverings.",
+            "fact_correction": "Uncovered graphite transfers easily to contact surfaces, requiring clear tape to seal the carbon ridges."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1051,10 +1085,10 @@
           "id": "4b",
           "sub_req_label": "4b",
           "sub_req_text": "Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person.",
-          "topic_title": "Req 4b: Graphite Pencil and Tape Method",
-          "pamphlet_summary": "For Fingerprinting Requirement 4b (Graphite Pencil and Tape Method): The Fingerprinting pamphlet for Requirement 4b details using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+          "topic_title": "Req 4b: Adhesive Tape Lifting Technique",
+          "pamphlet_summary": "Scouts can collect personal prints using standard graphite pencil shading, transparent adhesive tape, and white cardstock. After rubbing a clean finger across pencil graphite, tape lifts the deposit and adheres to paper.",
           "pamphlet_excerpts": [
-            "Graphite Pencil and Tape Method: The Fingerprinting pamphlet for Requirement 4b details using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+            "Scouts can collect personal prints using standard graphite pencil shading, transparent adhesive tape, and white cardstock. After rubbing a clean finger across pencil graphite, tape lifts the deposit and adheres to paper."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p016_img1.png",
           "workbook_diagram_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges.",
@@ -1079,11 +1113,11 @@
         "slide_injection_label": "Local Municipal Government, Courts & Community Organizations",
         "ttl_days": 30
       },
-      "topic_title": "Req 4: Recording Rolled and Plain Prints",
+      "topic_title": "Req 4: Fingerprint Recording Methods And Cards",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 4): Complete all Recording Rolled and Plain Prints discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Dispose of ink solvent wipes in designated metal containers to mitigate volatile chemical exposure hazards.",
       "pamphlet_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)",
       "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)",
       "syllabus_bucket": "In-Class Concept",
@@ -1113,8 +1147,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Pressing a heavily inked finger straight down with firm pressure produces the clearest rolled impression on an 8-by-8-inch fingerprint card.",
-        "fact": "Excessive ink or heavy downward pressure clogs the valleys between friction ridges and smears the print, whereas a thin, even layer of ink rolled smoothly from nail edge to nail edge captures clear ridge details (p. 16)."
+        "misconception": "Thick pools of liquid ink on the inking plate produce the clearest fingerprint card impressions.",
+        "fact": "Heavy ink fills pattern valleys, causing blackened smudges that obliterate critical minutiae and ridge detail.",
+        "myth": "Thick pools of liquid ink on the inking plate produce the clearest fingerprint card impressions.",
+        "fact_correction": "Heavy ink fills pattern valleys, causing blackened smudges that obliterate critical minutiae and ridge detail."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1138,16 +1174,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Identify and Label Patterns: When you have learned the three basic types of fingerprint patterns (seethe next chapter, \"Fingerprint Pattern Types\"), identify and label (p. 16).",
-        "Smudge-Resistant Print Handling: You can handle fresh work immediately with little danger of smudging (p. 16).",
-        "Cleaning Supplies and Print Cards: Denatured alcohol works well as a cleansing fluid. You can get paper fingerprint cards from your local police department (p. 16).",
-        "Personal Identification Card Type: Be sure to ask for the personal identification type (p. 16)."
+        "Card Standards: Standard criminal justice cards measure eight by eight inches with preprinted record boxes.",
+        "Rolled Technique: Roll fingers smoothly from nail to nail to capture complete lateral ridge detail.",
+        "Plain Impressions: Press fingers simultaneously at a forty five degree angle without rolling the skin.",
+        "Graphite Alternative: Rub pencil lead on scrap paper, press fingertip, and lift with transparent tape."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Prepare Clean Printing Surfaces: Denatured alcohol works well as a cleansing fluid. You can get paper fingerprint cards from your local police department (p. 16).",
-        "Step 2 - Obtain Personal Identification Card: Be sure to ask for the personal identification type (p. 16).",
-        "Step 3 - Compare Recorded Hand Sets: The drawing shows two sets of fingerprints, taken from the left hands of two different people (p. 16).",
-        "Step 4 - Check Finger Pattern Sequence: Notice that each set has three loop patterns, one arch pattern, and one whorl, but the order of the patterns in each set is different (p. 16)."
+        "Step 1 - Hand Preparation Cleansing: Wash fingertips thoroughly with soap and water to eliminate dirt and excess oils.",
+        "Step 2 - Slab Inking Preparation: Roll a thin, even layer of black printer ink across the smooth inking plate.",
+        "Step 3 - Rolled Print Capture: Roll each finger from nail to nail without pausing to capture complete patterns.",
+        "Step 4 - Plain Control Placement: Press all four fingers simultaneously onto bottom boxes to verify correct hand orientation."
       ],
       "gear_checklist": [
         "Official Fingerprinting Merit Badge Pamphlet and Fillable Scout Workbook (Req 4: Clear Set of Prints)",
@@ -1155,15 +1191,13 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Rolled and Plain Card Impressions",
-        "right_header": "Req 4b: Graphite Pencil and Tape Method",
+        "left_header": "Req 4a: Standard Card Inking Procedure",
+        "right_header": "Req 4b: Adhesive Tape Lifting Technique",
         "left_points": [
-          "(4a) Rolled and Plain Card Impressions: Denatured alcohol works well as a cleansing fluid. You can get paper fingerprint cards from your local police department (p. 16).",
-          "Smudge-Resistant Print Handling: You can handle fresh work immediately with little danger of smudging (p. 16)."
+          "(4a) Standard Card Inking Procedure: Technicians record rolled prints individually in upper boxes before applying four-finger simultaneous plain impressions below. Plain impressions serve as visual quality checks to ensure fingers were recorded in their proper sequential order."
         ],
         "right_points": [
-          "(4b) Graphite Pencil and Tape Method: The Fingerprinting pamphlet for Requirement 4b details using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
-          "Cleaning Supplies and Print Cards: Denatured alcohol works well as a cleansing fluid. You can get paper fingerprint cards from your local police department (p. 16)."
+          "(4b) Adhesive Tape Lifting Technique: Scouts can collect personal prints using standard graphite pencil shading, transparent adhesive tape, and white cardstock. After rubbing a clean finger across pencil graphite, tape lifts the deposit and adheres to paper."
         ],
         "rows": [
           {
@@ -1187,8 +1221,8 @@
         "title": "Fingerprinting Req 4 Exemplar Workbook Entry: Recording Rolled and Plain Prints",
         "artifact_type": "TIME_SERIES_LOG_TABLE",
         "fields": {
-          "Req 4a (Rolled and Plain Card Impressions)": "Denatured alcohol works well as a cleansing fluid. You can get paper fingerprint cards from your local police department (p. 16).",
-          "Req 4b (Graphite Pencil and Tape Method)": "The Fingerprinting pamphlet for Requirement 4b details using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+          "Req 4a - Standard Card Inking Procedure": "Technicians record rolled prints individually in upper boxes before applying four-finger simultaneous plain impressions below. Plain impressions serve as visual quality checks to ensure fingers were recorded in their proper sequential order.",
+          "Req 4b - Adhesive Tape Lifting Technique": "Scouts can collect personal prints using standard graphite pencil shading, transparent adhesive tape, and white cardstock. After rubbing a clean finger across pencil graphite, tape lifts the deposit and adheres to paper."
         },
         "sample_output": "Recording Rolled and Plain Prints: You can handle fresh work immediately with little danger of smudging (p. 16).",
         "counselor_tip": "For Fingerprinting Requirement 4 (Recording Rolled and Plain Prints), verify the Scout's own observations and specific pamphlet details (Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18))."
@@ -1220,7 +1254,13 @@
       "workbook_diagram_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges.",
       "number": "4",
       "description": "Take a clear set of prints using ONE of the following methods: (a) Make both rolled and plain impressions. Make these on an 8-by-8-inch fingerprint identification card, available from your local police department or your counselor. (b) Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person.",
-      "workbook_visual_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges."
+      "workbook_visual_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges.",
+      "pamphlet_summary": "Recording clear impressions requires coating clean fingertips with a thin, uniform film of specialized printer ink. Technicians capture rolled impressions from nail edge to nail edge, followed by simultaneous flat control impressions.",
+      "socratic_questions": [
+        "Why must a technician roll fingers away from the body during thumb inking procedures?",
+        "What purpose do the plain control prints at the bottom of the card serve?",
+        "How does excessive pressure distort friction ridge impressions during manual card rolling sessions?"
+      ]
     },
     {
       "req_id": "5",
@@ -1243,11 +1283,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Fingerprint Pattern Types and Subcategories",
+      "topic_title": "Req 5: Fingerprint Pattern Classification Analysis",
       "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 5): Complete all Fingerprint Pattern Types and Subcategories discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Maintain safe eye distance from optical magnification lenses to prevent eye strain and collision.",
       "pamphlet_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 18, p. 23)",
       "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 18, p. 23)",
       "syllabus_bucket": "In-Class Concept",
@@ -1275,8 +1315,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "A radial loop always slopes toward the left side of a fingerprint card regardless of whether the print came from the left or right hand.",
-        "fact": "A radial loop opens and slopes toward the thumb (the radius bone side of the forearm), so its direction on a card reverses between the left hand and the right hand (p. 18)."
+        "misconception": "Arch patterns are the most common fingerprint configuration found across the human population.",
+        "fact": "Loops constitute approximately sixty five percent of human patterns, while arches occur in roughly five percent.",
+        "myth": "Arch patterns are the most common fingerprint configuration found across the human population.",
+        "fact_correction": "Loops constitute approximately sixty five percent of human patterns, while arches occur in roughly five percent."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1300,16 +1342,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Three Basic Pattern Families: Fingerprints are classified into three basic types, loops, arches, and whorls, based on the patterns made by the ridges that cover the skin (p. 18).",
-        "Recognizing Pattern Subcategories: Learning to recognize these general patterns and their subcategories is not hard (p. 18).",
-        "Completing Pattern Identification Worksheet: Study the examples shown in this pamphlet, then complete the worksheet found on page 38 to show your counselor you can identify the three basic types (p. 18).",
-        "Classifying Your Own Prints: Also identify the pattern types of your own fingerprints (p. 18)."
+        "Loop Anatomy: Loops contain ridges that enter, recurve, and exit toward the original entry side.",
+        "Whorl Characteristics: Whorl configurations feature circular or spiral ridges accompanied by at least two distinct deltas.",
+        "Arch Simplicity: Plain arches enter from one side, rise slightly in center, and exit opposite.",
+        "Tented Variations: Tented arches present sharp upward thrusts exceeding forty five degrees at pattern centers."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Complete Pattern Practice Worksheet: Study the examples shown in this pamphlet, then complete the worksheet found on page 38 to show your counselor you can identify the three basic types (p. 18).",
-        "Step 2 - Examine Your Own Fingerprints: Also identify the pattern types of your own fingerprints (p. 18).",
-        "Step 3 - Trace Loop Ridge Recurves: In the loop pattern, the ridges begin on one side of the finger, curve or turn back sharply, and end on the same side (p. 18).",
-        "Step 4 - Determine Radial or Ulnar Slope: The loop may slope or \"lean\" toward either the thumb or the little finger (p. 18)."
+        "Step 1 - Core And Delta Inspection: Use a magnifying glass to locate central focal points and triangular delta formations.",
+        "Step 2 - Primary Category Sorting: Classify the overall friction flow into basic arch, loop, or circular whorl configurations.",
+        "Step 3 - Subcategory Feature Identification: Distinguish radial from ulnar loops based on finger bone orientation and flow direction.",
+        "Step 4 - Personal Pattern Inventory: Examine personal digits under illumination and chart every individual fingertip classification accurately."
       ],
       "gear_checklist": [
         "Official Fingerprinting Merit Badge Pamphlet and Fillable Scout Workbook (Req 5: Your counselor you can identify)",
@@ -1386,7 +1428,13 @@
       "workbook_diagram_caption": "A high-contrast fingerprint impression displays curving ridge lines of a loop pattern.",
       "number": "5",
       "description": "Show your counselor you can identify the three basic types of fingerprint patterns and their subcategories. Using your own hand, identify the types of patterns you see.",
-      "workbook_visual_caption": "A high-contrast fingerprint impression displays curving ridge lines of a loop pattern."
+      "workbook_visual_caption": "A high-contrast fingerprint impression displays curving ridge lines of a loop pattern.",
+      "pamphlet_summary": "Fingerprint patterns divide into three primary architectural families consisting of loops, whorls, and arches. Examiners classify individual impressions by counting ridges across loop cores and tracking deltas across whorl formations.",
+      "socratic_questions": [
+        "How do you distinguish an ulnar loop from a radial loop on the right hand?",
+        "What structural feature separates a plain arch from a sharply angled tented arch pattern?",
+        "Why does a true whorl pattern always require the presence of two separate deltas?"
+      ]
     },
     {
       "req_id": "6",
@@ -1409,11 +1457,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Careers in Fingerprinting and Biometrics",
+      "topic_title": "Req 6: Biometrics And Forensic Career Pathways",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 6): Complete all Careers in Fingerprinting and Biometrics discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Follow ergonomic computer display guidelines and wear protective eyewear during prolonged microscope examination research.",
       "pamphlet_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 36, p. 37)",
       "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 36, p. 37)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -1445,8 +1493,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "As shown on television crime dramas, a single investigator collects evidence at the scene, analyzes DNA and fingerprints in the lab, and makes arrests all in the same afternoon.",
-        "fact": "Forensic work is divided among specialized roles, crime scene investigators collect physical evidence in the field, while latent print examiners, forensic scientists, and biometric engineers conduct specialized analysis in laboratories (p. 36)."
+        "misconception": "Forensic fingerprint examiners learn their entire trade through a brief weekend law enforcement workshop.",
+        "fact": "Certified examiners typically require bachelor degrees in physical sciences followed by multiyear supervised apprenticeships.",
+        "myth": "Forensic fingerprint examiners learn their entire trade through a brief weekend law enforcement workshop.",
+        "fact_correction": "Certified examiners typically require bachelor degrees in physical sciences followed by multiyear supervised apprenticeships."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1470,16 +1520,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Managing Imaging and Record Systems: They are experts in record keeping and managing computer imaging and processing systems (p. 36).",
-        "Disaster Victim Identification Teams: They may participate with other service personnel to identify victims of mass disasters or of war (p. 36).",
-        "Law Enforcement Crime Scene Roles: Crime scene investigators usually work for law enforcement agencies (p. 36).",
-        "Collecting Latent Evidence in Field: They collect evidence of many types, including fingerprints, at crime scenes and suspected crime scenes, such as fires where the crime of arson (p. 36)."
+        "Latent Print Examiner: Forensic laboratory specialists analyze and testify regarding friction ridge evidence in court trials.",
+        "Biometrics Software Engineer: Computer scientists develop automated algorithms for facial, iris, and digital fingerprint recognition systems.",
+        "Crime Scene Specialist: Field investigators preserve and dust latent prints at active crime scenes for analysis.",
+        "Certification Standards: The International Association for Identification administers formal certification examinations for forensic examiners."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Identify Law Enforcement Careers: Crime scene investigators usually work for law enforcement agencies (p. 36).",
-        "Step 2 - Research Evidence Collection Duties: They collect evidence of many types, including fingerprints, at crime scenes and suspected crime scenes, such as fires where the crime of arson (p. 36).",
-        "Step 3 - Review Laboratory Support Workflows: They support forensic scientists and engineers and pathologists in their laboratory studies of evidentiary materials that they collect (p. 36).",
-        "Step 4 - Compare Laboratory and Field Roles: Forensic scientists, engineers, and pathologists are based in laboratories or testing sites (p. 36)."
+        "Step 1 - Career Field Exploration: Investigate duties of crime lab examiners, biometric algorithm developers, and scene investigators.",
+        "Step 2 - Specialty Role Selection: Select one specialized forensic discipline to conduct in depth professional career research.",
+        "Step 3 - Credential Pathway Mapping: Identify necessary university degrees, forensic accreditation prerequisites, and mandatory apprenticeship training hours.",
+        "Step 4 - Career Budget Calculation: Outline tuition expenses, laboratory certification costs, and expected entry level forensic salary structures."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1552,7 +1602,13 @@
       "workbook_diagram_caption": "A forensic technician in protective gear collects trace physical evidence at a crime scene.",
       "number": "6",
       "description": "Identify three career opportunities that would use skills and knowledge in the areas of biometrics and/or fingerprinting. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.",
-      "workbook_visual_caption": "A forensic technician in protective gear collects trace physical evidence at a crime scene."
+      "workbook_visual_caption": "A forensic technician in protective gear collects trace physical evidence at a crime scene.",
+      "pamphlet_summary": "Career opportunities in friction ridge analysis span crime laboratory examiners, digital biometrics engineers, and crime scene investigators. Entering these fields requires formal science coursework, specialized professional certifications, and rigorous practical training internships.",
+      "socratic_questions": [
+        "What technical challenges distinguish the work of a software biometrics engineer from a lab examiner?",
+        "Why do forensic science laboratories require formal proficiency testing and rigorous professional certification?",
+        "How does specialized coursework in chemistry or biology prepare candidates for modern forensic fingerprinting careers?"
+      ]
     }
   ],
   "badge_slug": "fingerprinting",

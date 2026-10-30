@@ -1,0 +1,344 @@
+{
+  "requirements": [
+    {
+      "fact": "Physical and digital mediums demand distinct approaches to information hiding, physics resolution, and rule enforcement.",
+      "misconception": "Beginners often believe digital video games share identical operational design fundamentals with physical board games.",
+      "pamphlet_excerpts": [
+        "Medium Distinction: Tabletop, electronic, card, and live outdoor games each provide unique mechanical constraints.",
+        "Resource Accounting: Games limit currency, territory, health, and turn actions to establish strategic tension.",
+        "Player Dynamics: Competitive formats create direct opposition while cooperative formats unite players against mechanics.",
+        "Play Motivations: Designers target diverse engagement patterns including social bonding, mastery, immersion, and discovery."
+      ],
+      "pamphlet_summary": "Game designers must categorize play experiences across diverse media including tabletop, electronic, traditional card, and outdoor physical environments. Every successful design balances structural rules, resource tracking, player formats, and targeted psychological play values.",
+      "req_id": "1",
+      "safety_callout": "When analyzing outdoor physical games, establish clear playing boundaries free of trip hazards, obstacles, and vehicular traffic.",
+      "socratic_questions": [
+        "How does the enforcement of rules differ between an automated software program and a tabletop group?",
+        "Which specific game resources create the most emotional tension for losing players?",
+        "Why might a player enjoy a cooperative card game more than a head-to-head strategy title?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Medium Selection: Select four finished titles representing electronic, board, card, and live athletic categories.",
+        "Step 2 - Component Decomposition: Document the player count, win condition, core mechanics, and resource management systems.",
+        "Step 3 - Value Categorization: Identify the primary play value delivering emotional satisfaction during each game session.",
+        "Step 4 - Experience Review: Compare personal engagement levels across mediums during a structured counselor discussion session."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Abstract game mechanics function independently of theme, allowing identical rules under vastly different fictional settings.",
+          "misconception": "Novices expect theme to dictate gameplay mechanics rather than serving as visual context.",
+          "pamphlet_summary": "Analyzing four games from different mediums reveals how platforms dictate user interaction, pacing, and rule clarity. Designers evaluate player format, goals, and resources to understand how distinct delivery systems shape player choices.",
+          "sub_id": "1a",
+          "topic_title": "Four Medium Comparative Analysis"
+        },
+        {
+          "fact": "Scouts discover players regularly seek narrative immersion, creative socialization, puzzle solving, or physical exertion.",
+          "misconception": "Players only seek high scores and victory conditions during competitive play.",
+          "pamphlet_summary": "Play value describes the core emotional, physical, intellectual, or social reward that motivates continued engagement. Identifying these values helps designers target specific audiences and craft compelling player feedback loops.",
+          "sub_id": "1b",
+          "topic_title": "Core Play Value Systems"
+        }
+      ],
+      "topic_title": "Game Mediums and Play Value"
+    },
+    {
+      "fact": "True difficulty encompasses cognitive load, spatial reasoning, resource scarcity, and time pressure imposed on players.",
+      "misconception": "A game difficulty setting is simply a mathematical adjustment to enemy health or damage values.",
+      "pamphlet_excerpts": [
+        "Interface Clarity: User interfaces communicate game state and action options through clean visual feedback.",
+        "Balance Architecture: Game balance prevents dominant strategies while preserving meaningful decision paths for players.",
+        "Level Structure: Intentional level design guides player navigation, introduces new obstacles, and controls pacing.",
+        "Play Sequencing: Turn structures establish order, resolution timing, and information availability between competing participants."
+      ],
+      "pamphlet_summary": "Mastering formal game design terminology allows creators to critique interactive mechanics, narrative structures, and player interfaces precisely. Designers employ these terms to isolate mechanical imbalances, interface friction, and pacing defects within specific games.",
+      "req_id": "2",
+      "safety_callout": "Maintain comfortable ambient lighting and proper ergonomic seating during extended analysis sessions to prevent eye strain and posture fatigue.",
+      "socratic_questions": [
+        "How does asymmetric balance make a strategy game more interesting without creating unfair advantages?",
+        "In what ways does poor interface design ruin an otherwise excellent mechanical balance?",
+        "Why is a clear play sequence essential for resolving simultaneous player actions fairly?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Term Selection: Select five specific terms from the seventeen options listed in the requirements.",
+        "Step 2 - Game Pairing: Pair each chosen design term with a specific published game you know.",
+        "Step 3 - Mechanical Demonstration: Outline the precise mechanism where each concept directly impacts player decision making.",
+        "Step 4 - Concept Discussion: Explain each term and real game example clearly to your merit badge counselor."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Core Game Design Vocabulary"
+    },
+    {
+      "fact": "Patent law protects unique apparatuses, but copyright protects only the specific text, art, and audiovisual presentation.",
+      "misconception": "Game developers can copyright abstract rule mechanics like roll-and-move or worker-placement.",
+      "pamphlet_excerpts": [
+        "Copyright Boundaries: Copyright protects original artistic assets, music, code, and dialogue, but not mechanics.",
+        "Trademark Function: Trademarks protect studio brands, franchise logos, game titles, and commercial merchandising identities.",
+        "Patent Utility: Patents protect novel mechanical innovations, physical hardware controllers, and specialized technical systems.",
+        "Licensing Rights: Licensing contracts permit developers to build games using external proprietary story worlds."
+      ],
+      "pamphlet_summary": "Intellectual property laws safeguard creative expressions, trade secrets, patented hardware, and commercial trademarks across the entertainment industry. Licensing agreements grant legal permission to adapt established fictional universes, character designs, or proprietary engines into novel gaming titles.",
+      "req_id": "3",
+      "safety_callout": "Respect intellectual property and privacy laws by using legally licensed software tools and open assets on personal computers.",
+      "socratic_questions": [
+        "Why does copyright law refuse to protect general game mechanics like jumping or rolling dice?",
+        "What financial risks do studio developers face when creating games without trademark protections?",
+        "How does a publisher benefit from licensing an established movie franchise for a new video game?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Legal Definition: Define intellectual property as proprietary creations of the mind recognized by law.",
+        "Step 2 - Category Classification: Differentiate copyright, trademark, trade secret, and patent protections within game development.",
+        "Step 3 - Protection Analysis: Detail why developers require legal protections to secure financial returns on investments.",
+        "Step 4 - Licensing Review: Examine an existing licensed franchise game to explain owner permissions and obligations."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Intellectual Property Protection Systems"
+    },
+    {
+      "fact": "Excessive resource abundance eliminates meaningful trade-offs, reducing strategic tension and making victory feel unearned.",
+      "misconception": "Doubling resource generation or speed always makes a game twice as exciting for participants.",
+      "pamphlet_excerpts": [
+        "Baseline Testing: Playtesting baseline rules establishes standard pacing, resource balance, and typical player interactions.",
+        "Hypothesis Formulation: Predicting mechanical outcomes requires analyzing player incentives under altered game constraints.",
+        "Single Variable Testing: Testing one rule change at a time isolates direct behavioral causation reliably.",
+        "Outcome Verification: Comparing actual play results against initial predictions reveals subtle emergent player behaviors."
+      ],
+      "pamphlet_summary": "Modifying existing games allows designers to isolate how individual mechanical adjustments alter pacing, strategy, and player emotions. Documenting controlled variations demonstrates how minor parameter shifts ripple through complex game economies and decision trees.",
+      "req_id": "4",
+      "safety_callout": "Ensure participants do not engage in overly aggressive physical contact when modifying rules in athletic or field games.",
+      "socratic_questions": [
+        "Why must a game designer change only one rule at a time during iterative testing?",
+        "How did the emotional atmosphere at the table shift when victory conditions became harder?",
+        "Did players invent unintended loopholes or exploits when you modified the standard turn structure?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Baseline Execution: Select an adaptable game, summarize official rules, and complete a normal playthrough.",
+        "Step 2 - Change Proposal: Draft three distinct rule adjustments and record written predictions regarding gameplay impact.",
+        "Step 3 - Iterative Playtesting: Conduct three separate play sessions implementing only one proposed rule modification each.",
+        "Step 4 - Counselor Debrief: Review player observations, emotional shifts, and prediction accuracy with your counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Classic games like Hearts or Kickball offer mature, highly balanced reference systems ideal for experimental manipulation.",
+          "misconception": "Familiar childhood games cannot yield rigorous scientific design observations.",
+          "pamphlet_summary": "Selecting an established customizable game provides a known control environment for testing. Documenting its standard rules and completing a full playthrough records reference data on game length and decision points.",
+          "sub_id": "4a",
+          "topic_title": "Standard Game Baseline Evaluation"
+        },
+        {
+          "fact": "Modifications to early resource gathering fundamentally alter late-game victory probabilities and player willingness to take risks.",
+          "misconception": "Rule modifications only affect the specific phase of play where the change occurs.",
+          "pamphlet_summary": "Designers formulate formal hypotheses predicting how altered constraints, victory conditions, or resources will shift strategy. Writing down expected player reactions prevents hindsight bias after observing surprising playtest results.",
+          "sub_id": "4b",
+          "topic_title": "Predictive Rule Change Formulation"
+        },
+        {
+          "fact": "Emotional responses like laughter, analysis paralysis, or boredom reveal core design flaws faster than numerical statistics.",
+          "misconception": "Player body language and emotional reactions matter less than quantitative score totals.",
+          "pamphlet_summary": "Executing separate playtests for three distinct rule changes isolates variables and measures human emotional reactions. Observers note changes in player frustration, excitement, decision speed, and strategic cooperation.",
+          "sub_id": "4c",
+          "topic_title": "Controlled Rule Variation Playtesting"
+        },
+        {
+          "fact": "Surprising playtest outcomes provide the most valuable design lessons by exposing previously invisible system interactions.",
+          "misconception": "An incorrect prediction proves that the design experiment was a failure.",
+          "pamphlet_summary": "Comparing pre-game predictions against observed player behavior demonstrates the unpredictable nature of human agency. Discussing discrepancies with a counselor builds critical analytical insight into emergent system dynamics.",
+          "sub_id": "4d",
+          "topic_title": "Comparative Prediction Analysis Review"
+        }
+      ],
+      "topic_title": "Rule Modification and Gameplay Testing"
+    },
+    {
+      "fact": "Mechanics and resources form the functional engine, requiring preliminary structural definition before investing in final artwork.",
+      "misconception": "A designer should complete every piece of artwork and lore before writing any rules.",
+      "pamphlet_excerpts": [
+        "Vision Statement: A concise vision statement defines player experience, audience, medium, and core theme.",
+        "Notebook Documentation: Maintaining an engineering notebook captures rule changes, sketches, and iterative development decisions.",
+        "Resource Definition: Resources encompass cards, tokens, currency, time, and physical board spaces within games.",
+        "Element Rendering: Sketching game elements clarifies scale, board layout, card iconography, and user interactions."
+      ],
+      "pamphlet_summary": "Designing a new game begins with conceptualizing the vision statement, player format, theme, and mechanical framework in a design notebook. Establishing clear resources, preliminary rules, and visual element sketches ensures the project has actionable technical direction.",
+      "req_id": "5",
+      "safety_callout": "Store sharp crafting tools, scissors, and utility knives safely in protective sheaths when sketching and cutting notebook templates.",
+      "socratic_questions": [
+        "What unique player emotion does your vision statement prioritize above all other feelings?",
+        "How do your defined resources create natural friction or competition among players?",
+        "Why is a rough paper sketch more useful than polished digital art during early concept development?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Vision Formulation: Compose a clear vision statement detailing medium, format, objective, and narrative theme.",
+        "Step 2 - Motivation Definition: Articulate the compelling play value driving player interest and sustained emotional engagement.",
+        "Step 3 - Rules Drafting: Formulate a preliminary rules sheet defining player turns, resources, and victory conditions.",
+        "Step 4 - Element Sketching: Render hand-drawn diagrams illustrating boards, tokens, cards, user interfaces, or physical arenas."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Effective vision statements succinctly define player agency, format, core mechanical loop, and emotional tone.",
+          "misconception": "A vision statement needs to describe every story cutscene and plot twist.",
+          "pamphlet_summary": "The vision statement establishes the foundational roadmap for the game, identifying medium, player format, objectives, and setting. It keeps the designer focused on a unified creative target throughout the iterative development process.",
+          "sub_id": "5a",
+          "topic_title": "Game Vision Statement Authoring"
+        },
+        {
+          "fact": "Designers must identify specific play values, such as collaborative puzzle solving or tactical outmaneuvering, that appeal to target players.",
+          "misconception": "A game is inherently fun if the designer personally enjoys playing it.",
+          "pamphlet_summary": "Defining why someone would want to play highlights the game's unique selling proposition and emotional draw. Identifying the intended psychological hook helps evaluate whether prototypes deliver the promised fun.",
+          "sub_id": "5b",
+          "topic_title": "Target Play Value Identification"
+        },
+        {
+          "fact": "Strict constraints on actions and resources force meaningful trade-offs that generate compelling strategic gameplay.",
+          "misconception": "Unlimited player actions make a game feel more open and rewarding.",
+          "pamphlet_summary": "Drafting preliminary rules establishes turn order, action economy, and win conditions while defining every tracked resource. Clear resource boundaries prevent runaway leaders and establish meaningful operational scarcity.",
+          "sub_id": "5c",
+          "topic_title": "Preliminary Rules and Resources"
+        },
+        {
+          "fact": "Functional schematics require only clear spatial relationships, legible icon placements, and logical component dimensions.",
+          "misconception": "Game sketches must exhibit professional artistic rendering standards to be useful.",
+          "pamphlet_summary": "Drawing visual schematics of game boards, components, interfaces, or playing spaces exposes mechanical bottlenecks early. Rough dimensional sketches reveal whether cards, tokens, or layouts fit ergonomically on the play surface.",
+          "sub_id": "5d",
+          "topic_title": "Game Element Visual Schematics"
+        }
+      ],
+      "topic_title": "Game Concept Document Development"
+    },
+    {
+      "fact": "Playtesting is a rigorous troubleshooting process designed to break the game and reveal hidden mechanical flaws.",
+      "misconception": "Playtesting is primarily an opportunity for the designer to show friends a finished game.",
+      "pamphlet_excerpts": [
+        "Counselor Approval: Counselor concept approval ensures design safety, appropriate themes, and realistic project feasibility.",
+        "Rapid Prototyping: Construct prototypes using inexpensive cardstock, index cards, markers, and repurposed game pieces.",
+        "Iterative Refinement: Playtesting exposes ambiguous rules, unbalance, and downtime that demand immediate mechanical adjustments.",
+        "Multi-session Testing: Repeating playtests across multiple sessions confirms whether rule corrections successfully resolve problems."
+      ],
+      "pamphlet_summary": "Building a rapid prototype enables physical playtesting where mechanics face actual human interpretation and stress. Conducting multiple iterative playtest cycles reveals edge cases, confusing rules, and balance flaws that require design notebook revisions.",
+      "req_id": "6",
+      "safety_callout": "Inspect all physical prototype materials for sharp edges, non-toxic glues, choking hazards, and durable construction.",
+      "socratic_questions": [
+        "What was the first rule that players misunderstood during your initial prototype playthrough?",
+        "Which game resource caused unexpected player frustration or excessive downtime between turns?",
+        "How did the gameplay experience change after your second iteration of rule revisions?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Concept Authorization: Present the design notebook to your counselor and obtain formal concept approval.",
+        "Step 2 - Prototype Construction: Build a functional, low-fidelity prototype addressing all physical and participant safety requirements.",
+        "Step 3 - Initial Playtest: Conduct an initial playtest with target player numbers, recording confusion and breakdowns.",
+        "Step 4 - Iterative Modification: Revise flawed rules and execute at least two additional complete playtest sessions."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Functional prototypes should use plain index cards and pencil so components can be modified immediately during play.",
+          "misconception": "Prototypes must look finished with glossy art before beginning player testing.",
+          "pamphlet_summary": "Creating a physical prototype requires transforming notebook sketches into playable cards, boards, code, or athletic equipment. Designers must evaluate physical safety, ensuring components have no sharp burrs, toxic residues, or ballistic hazards.",
+          "sub_id": "6a",
+          "topic_title": "Safe Prototype Component Fabrication"
+        },
+        {
+          "fact": "Silent observation allows designers to see whether the game design communicates affordances and rules naturally.",
+          "misconception": "The designer should constantly intervene and instruct players whenever they make suboptimal moves.",
+          "pamphlet_summary": "Running the first playtest tests whether human players experience the emotional engagement promised in the vision statement. The designer observes where players hesitate, ask for rule clarifications, or exploit unpredicted imbalances.",
+          "sub_id": "6b",
+          "topic_title": "Initial Playtest Session Execution"
+        },
+        {
+          "fact": "Multiple sessions with different players are required to expose rare edge cases and statistical imbalances.",
+          "misconception": "One successful playtest is sufficient proof that the game rules are completely finalized.",
+          "pamphlet_summary": "Iterating through at least two additional playtest sessions verifies that rule tweaks solved original issues without creating new bugs. Logging each session in the design notebook documents the evolution of balanced game mechanics.",
+          "sub_id": "6c",
+          "topic_title": "Multi-Round Iterative Playtesting"
+        }
+      ],
+      "topic_title": "Iterative Prototype Playtesting Process"
+    },
+    {
+      "fact": "Every player misinterpretation reveals poor rulebook structure, confusing phrasing, or ambiguous component layout.",
+      "misconception": "If blind playtesters make a major rule mistake, the players were simply careless readers.",
+      "pamphlet_excerpts": [
+        "Unassisted Learning: Blind playtesting measures rulebook clarity by eliminating verbal designer assistance entirely.",
+        "Rulebook Structure: Comprehensive instructions outline component inventory, exact setup steps, turn order, and victory.",
+        "Observer Silence: Designers must remain completely silent during blind tests while taking detailed notes.",
+        "Notebook Presentation: Presenting the complete design notebook demonstrates the entire iterative engineering development lifecycle."
+      ],
+      "pamphlet_summary": "Blind testing requires an unfamiliar group of players to learn and execute the game exclusively from written instructions without creator intervention. Analyzing their unassisted play session proves whether the rule sheet communicates setup, gameplay flow, and victory conditions unambiguously.",
+      "req_id": "7",
+      "safety_callout": "Ensure the blind testing play space is well ventilated, clutter-free, and comfortable for extended sitting or movement.",
+      "socratic_questions": [
+        "Where did the blind test group experience their first moment of hesitation or confusion?",
+        "Which written rule was interpreted differently by the players than you had originally intended?",
+        "What revisions to your instruction sheet would prevent those misinterpretations in future printings?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Rulebook Drafting: Write an exhaustive manual detailing component manifests, initial setup, gameplay, and scoring.",
+        "Step 2 - Blind Hand-off: Deliver the prototype and printed manual to fresh players without verbal hints.",
+        "Step 3 - Silent Observation: Observe the unassisted test quietly, recording setup errors, ambiguities, and rule misinterpretations.",
+        "Step 4 - Counselor Debriefing: Review player feedback, notebook documentation, and design process lessons with your counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Explicit boundaries, edge-case resolutions, and turn sequencing prevent players from inventing broken custom rules.",
+          "misconception": "Rulebooks only need to explain what players can do, not what is prohibited.",
+          "pamphlet_summary": "Writing an instruction manual requires clear technical communication of component inventories, board setup, turn mechanics, and endgame triggers. Formatting rules with numbered lists, headings, and visual diagrams prevents reader confusion during unassisted play.",
+          "sub_id": "7a",
+          "topic_title": "Comprehensive Instruction Manual Drafting"
+        },
+        {
+          "fact": "Stepping in ruins the blind test by hiding the specific textual ambiguities that caused the mistake.",
+          "misconception": "The designer should step in to correct a misread rule so the game plays smoothly.",
+          "pamphlet_summary": "Providing the prototype to fresh players who have never seen the game tests the manual under real-world conditions. The designer steps back completely, taking observational notes on player body language, confusion, and rule adherence.",
+          "sub_id": "7b",
+          "topic_title": "Unassisted Blind Playtest Administration"
+        },
+        {
+          "fact": "The discussion evaluates the Scout's mastery of the iterative engineering design loop and response to feedback.",
+          "misconception": "The final discussion focuses only on whether the game is ready for commercial publishing.",
+          "pamphlet_summary": "Sharing the cumulative game design notebook with the counselor showcases the progression from vision statement to refined product. Debriefing player feedback highlights personal growth in systems thinking, empathy, and technical communication.",
+          "sub_id": "7c",
+          "topic_title": "Design Notebook Final Review"
+        }
+      ],
+      "topic_title": "Blind Testing and Evaluation"
+    },
+    {
+      "fact": "Industry careers require disciplined technical mastery in computer programming, project management, mathematics, or digital art.",
+      "misconception": "Entering the game industry only requires playing a large volume of video games.",
+      "pamphlet_excerpts": [
+        "Industry Roles: Production pipelines unite programmers, narrative writers, 3D artists, sound designers, and QA testers.",
+        "Academic Foundations: Game design degree programs cultivate mathematics, programming, creative writing, and systems engineering.",
+        "Collaborative Pipelines: Commercial titles require strict milestone schedules, version control systems, and cross-discipline coordination.",
+        "Portfolio Development: Career advancement in game development relies on demonstrated playable prototypes and collaborative projects."
+      ],
+      "pamphlet_summary": "Investigating professional game development connects recreational hobbyist creation to commercial production pipelines and academic programs. Interviewing industry developers or specialized educators illuminates career pathways, technical competencies, and cross-functional team collaboration.",
+      "req_id": "8",
+      "safety_callout": "Adhere to Youth Protection guidelines during interviews by including a parent or second registered adult at all times.",
+      "socratic_questions": [
+        "How does the day-to-day work of a systems designer differ from that of a game tester?",
+        "Which academic subjects in school provide the strongest foundation for game programming and balancing?",
+        "What role does constructive critique play when working within a multi-disciplinary development studio?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Track Selection: Choose between interviewing a commercial studio developer or a post-secondary game design educator.",
+        "Step 2 - Approval Verification: Obtain written parental permission and merit badge counselor approval prior to scheduling.",
+        "Step 3 - Professional Interview: Conduct the structured interview discussing technical tools, team workflows, and career milestones.",
+        "Step 4 - Career Debrief: Share career insights, educational prerequisites, and industry observations with your counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Professional developers spend their time writing code, debugging engine crashes, attending meetings, and balancing spreadsheets.",
+          "misconception": "Game developers spend the majority of their workdays casually playing new video games.",
+          "pamphlet_summary": "Interviewing a practicing game professional reveals how specialized disciplines collaborate within modern production pipelines. Scouts examine daily responsibilities, toolchains, milestone deadlines, and the realities of commercial product delivery.",
+          "sub_id": "8a",
+          "topic_title": "Studio Developer Industry Interview"
+        },
+        {
+          "fact": "Design programs emphasize systems thinking, player psychology, rapid paper prototyping, and group collaboration.",
+          "misconception": "Game design education focuses strictly on teaching specific software coding languages.",
+          "pamphlet_summary": "Consulting with a game design educator highlights foundational skills taught in academic curricula and vocational programs. Discussions focus on portfolio preparation, iterative prototyping techniques, and essential interdisciplinary coursework.",
+          "sub_id": "8b",
+          "topic_title": "Game Design Educator Consultation"
+        }
+      ],
+      "topic_title": "Game Development Career Exploration"
+    }
+  ]
+}

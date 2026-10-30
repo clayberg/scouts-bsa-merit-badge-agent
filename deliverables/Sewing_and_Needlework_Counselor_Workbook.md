@@ -1,8 +1,8 @@
 # Sewing and Needlework Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/skills/merit-badges/test-lab/sewing-and-needlework/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/sewing-and-needlework/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Test%20Lab/Test%20Lab%20to%20Scouts%20BSA%20Merit%20Badges%20FAQs.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,18 +12,13 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Sewing Tool Safety and Hazard Prevention | Explain | `In-Class Discussion` | **In-Class Concept** | Sewing and Needlework Test Lab Resource Guide, pp. 4-9 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Essential Hand Sewing and Mending Skills | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Sewing and Needlework Test Lab Resource Guide, pp. 10-15 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3A** | Machine Sewing: Machine Parts, Threading, Stitches & Bag Project | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Sewing and Needlework Test Lab Resource Guide, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3B** | Knitting: Needles, Pattern Reading, Cast-On, Stitches & Project | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Sewing and Needlework Test Lab Resource Guide, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3C** | Crochet: Hooks, Pattern Symbols, Chain/Single/Double Stitches & Project | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Sewing and Needlework Test Lab Resource Guide, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3D** | Hand Embroidery: History, Tools, Hoops & Embroidered Sampler | Explain | `In-Class Discussion` | **In-Class Demonstration** | Sewing and Needlework Test Lab Resource Guide, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3E** | Applique: Hand & Machine Fusible Applique & Garment Design | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Sewing and Needlework Test Lab Resource Guide, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3F** | Quilting: Historical Quilts, Color Sorting, Piecing & Binding | Show | `Hands-On Skill Station` | **In-Class Demonstration** | Sewing and Needlework Test Lab Resource Guide, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Exploring Quilt and Textile Art Exhibitions | Show | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Sewing and Needlework Test Lab Resource Guide, pp. 22-27 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Community Service Through Sewing Skills | Discuss | `In-Class Discussion` | **In-Class Concept** | Sewing and Needlework Test Lab Resource Guide, pp. 28-33 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Textile Careers and Lifelong Hobbies | Identify | `In-Class Discussion` | **Make-Up Eligible** | Sewing and Needlework Test Lab Resource Guide, pp. 34-39 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Test Lab Survey and Feedback | Complete | `In-Class Discussion` | **In-Class Concept** | Sewing and Needlework Test Lab Resource Guide, pp. 40-45 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Sewing Studio Safety Protocols | Explain | `In-Class Discussion` | **In-Class Concept** | Sewing and Needlework Test Lab Resource Guide, pp. 4-9 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Essential Hand Stitching Methods | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Sewing and Needlework Test Lab Resource Guide, pp. 10-15 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Textile Craft Specialization Options | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Sewing and Needlework Test Lab Resource Guide, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Textile Arts Museum Exhibition | Show | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Sewing and Needlework Test Lab Resource Guide, pp. 22-27 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Community Needlework Service Projects | Discuss | `In-Class Discussion` | **In-Class Concept** | Sewing and Needlework Test Lab Resource Guide, pp. 28-33 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Professional Needlework Career Exploration | Identify | `In-Class Discussion` | **Make-Up Eligible** | Sewing and Needlework Test Lab Resource Guide, pp. 34-39 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Test Lab Experience Survey | Complete | `In-Class Discussion` | **In-Class Concept** | Sewing and Needlework Test Lab Resource Guide, pp. 40-45 | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -31,23 +26,18 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Scout must individually explain mastery of Requirement 2 to the Merit Badge Counselor.
-- [ ] **Station Req 3A:** Scout must individually explain mastery of Requirement 3A to the Merit Badge Counselor.
-- [ ] **Station Req 3B:** Scout must individually explain mastery of Requirement 3B to the Merit Badge Counselor.
-- [ ] **Station Req 3C:** Scout must individually explain mastery of Requirement 3C to the Merit Badge Counselor.
-- [ ] **Station Req 3D:** Scout must individually explain mastery of Requirement 3D to the Merit Badge Counselor.
-- [ ] **Station Req 3E:** Scout must individually demonstrate mastery of Requirement 3E to the Merit Badge Counselor.
-- [ ] **Station Req 3F:** Scout must individually show mastery of Requirement 3F to the Merit Badge Counselor.
+- [ ] **Station Req 2:** Hand Sewing. Do the following: (a) Assemble a basic sewing and repair kit and explain the purpose of each item. (b) Thread a needle and tie a quilter's or tailor's knot in a piece of fabric. (c) Demonstrate the following sewing techniques, including when and why each is used: (1) Running stitch (2) Back stitch (3) Hem stitch (4) Whip stitch. (d) Sew a patch on your uniform or other fabric. (e) Sew a button onto an item. (f) Upcycle by practicing visible mending to patch a piece of clothing or material.
+- [ ] **Station Req 3:** Choose ONE of the following options and complete each requirement: (A) Machine Sewing (a) Provide a brief overview of the evolution of the sewing machine (b) Read your machine manual and do the following: (1) Explain the parts of a sewing machine and their functions. (2) Thread the machine and the bobbin. (3) Explain how to properly clean and oil the machine and change the needle. (c) Identify other tools you will need for machine sewing. Demonstrate the following sewing techniques, including when and why each is used: (1) Pinning (2) Sewing in a straight line (3) Back stitch (4) Basting stitch (5) Gathering stitch (6) Unpicking or seam ripping. (d) Do the following using a sewing machine: (1) Sew a Scout patch on your uniform or other fabric. (2) Repair a tear or small hole in fabric using a patch or darning technique. (e) Sew ONE item from this list using a pattern, using THREE or more techniques from requirement 3(c): (1) Drawstring backpack (2) Camp utensil holder (3) Storage bag for tent stakes or school supplies (4) Pillowcase (5) An item of your own choosing, approved in advance by your counselor. (B) Knitting (a) Provide a brief overview of the history of knitting. (b) Explain the tools used when knitting. Demonstrate the ability to read a pattern, including deciphering symbols. (c) Using knitting needles, demonstrate how to tie a slip knot, cast on and bind off. (d) Demonstrate the following stitches: (1) Knit stitch (2) Purl stitch. (e) Knit a small item such as a dishcloth, scarf, or an item of your own choosing, approved in advance by your counselor, using ONE of the following stitch patterns with at least two colors of yarn: (1) Garter stitch (2) Stockinette stitch (3) Ribbing. (C) Crochet (a) Provide a brief overview of the history of crochet OR the history of Amigurumi. (b) Explain the tools used when crocheting. Demonstrate the ability to read a pattern, including deciphering symbols. (c) Demonstrate how to tie a slip knot and how to hold a crochet hook and yarn to crochet. (d) Demonstrate the following stitches in a small practice piece: (1) Single crochet (2) Double crochet (3) Half-double crochet. (e) Crochet a small item such as a dishcloth, scrub, or an item of your own choosing, approved in advance by your counselor, using at least two colors of yarn. (D) Hand Embroidery (a) Provide a brief overview of the history of hand embroidery. (b) Explain the tools used in hand embroidery. (c) Embroider a small sampler of your own design or from a purchased kit or embroider a temporary patch for your uniform. Include SIX of the following basic stitches: running stitch, back stitch, stem stitch, chain stitch, surface couching, blanket stitch, herringbone stitch, chevron stitch, feather stitch, weave stitch, seed stitch, French knots, fishbone stitch, satin stitch, cross stitch. (E) Appliqué (a) Provide a brief overview of the history of hand appliqué. (b) In a small sample, demonstrate how to do appliqué by hand using the following methods: needle turn or freezer paper using an invisible (ladder) stitch or blanket stitch. (c) (c) In a small sample, demonstrate machine appliqué using a raw edge fusible technique and a blanket stitch. (d) Appliqué a design onto a T-shirt by hand or machine or reverse appliqué a shape by hand sewing. (F) Quilting (a) Research historical quilts and show your counselor examples of types of quilts that interest you. Discuss how they were made. (b) Explain the tools used when quilting and how to use them safely. Discuss why accuracy is important in traditional quilting. Sew an accurate ¼" seam. (c) Using scraps of cotton quilting fabric, sort into light, medium and dark colors. Choose a focus fabric and find a group of fabrics that would work well in a scrap quilt. Demonstrate how the value and scale of a printed fabric can create interest. (d) Using three copies of a quilting design, color blocks to achieve different quilt designs. Show your counselor your designs and which one is your favorite. (e) Make a small quilt (12" square plus borders): (1) Using a rotary cutter, cut fabric into strips and pieces to make a four patch, rail fence block pattern, or design of your choice. Sew together on a machine or by hand using a ¼" seam allowance and press flat. Cut and add borders. (2) Make a sandwich with backing and batting. Baste. (3) Hand quilt with a running stitch or big stitch. (4) Label your quilt. Explain why this is important. (5) Bind to finish the edge of the quilt.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Sewing Tool Safety and Hazard Prevention
+### Req 1: Sewing Studio Safety Protocols
 **Official Requirement 1:** Safety. Explain to your counselor the potential hazards you may encounter when sewing and how to avoid them. When using a sewing machine or rotary cutter, always obtain your parent or guardian and counselor's permission.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 4-9* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Sewing and Needlework Hazards and First Aid)
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 1: store needles, pins, shears, and rotary cutters in closed cases immediately after working on sewing tool safety and hazard prevention, cut away from your body, and unplug pressing irons when unattended.
+> **Guide to Safe Scouting Warning:** Always engage the rotary blade safety latch before placing the tool on any surface.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Sewing and Needlework Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Holding straight pins between your lips while basting fabric is a harmless way to keep them within easy reach.
-- **Pamphlet Fact:** Holding pins or needles in your mouth creates an immediate swallowing or inhalation hazard if you cough, trip, or get startled, so pins belong in a pincushion or magnetic holder (p. 4).
+- **Common Myth:** Rotary cutters work exactly like dull pizza wheels and require no blade guard.
+- **Pamphlet Fact:** Rotary blades possess extreme razor sharpness that causes severe lacerations without safety guards.
 
 ![Uniformed Scout and counselor reviewing sewing safety with a pincushion, guarded rotary cutter, and thimble.](/assets/ai_illustrations/sewing_and_needlework_req_1_nano_hero.png)
 
@@ -58,33 +48,33 @@
 | **3. When using a sewing machine or rotary cutter, always obtain your parent or guardian and counselor's permission.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Sewing Tool Safety and Hazard Prevention: Sewing tool safety and hazard prevention, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 4).
-- Required Adult Tool Permission: When using a sewing machine or rotary cutter, always obtain your parent or guardian and counselor's permission (p. 4).
-- Sewing Tool Safety and Hazard Prevention: Sewing tool safety and hazard prevention, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 10).
-- Review your completed Sewing and Needlework Hazards and First Aid evidence and demonstrate proficiency during your counselor conference (p. 10).
+- Always close the blade safety shield immediately after finishing every individual fabric cut.
+- Needle Disposal Method: Place broken sewing machine needles inside a hard puncture resistant container before disposal.
+- Select lower heat settings for synthetic fibers to prevent melted fabric burns.
+- Finger Guard Clearance: Keep hands four inches away from moving machine needles during active stitching.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Essential Hand Sewing and Mending Skills
+### Req 2: Essential Hand Stitching Methods
 **Official Requirement 2 (Parent Overview):** Hand Sewing. Do the following: (a) Assemble a basic sewing and repair kit and explain the purpose of each item. (b) Thread a needle and tie a quilter's or tailor's knot in a piece of fabric. (c) Demonstrate the following sewing techniques, including when and why each is used: (1) Running stitch (2) Back stitch (3) Hem stitch (4) Whip stitch. (d) Sew a patch on your uniform or other fabric. (e) Sew a button onto an item. (f) Upcycle by practicing visible mending to patch a piece of clothing or material.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 2: store needles, pins, shears, and rotary cutters in closed cases immediately after working on essential hand sewing and mending skills, cut away from your body, and unplug pressing irons when unattended.
+> **Guide to Safe Scouting Warning:** Push needles into a fabric pincushion rather than holding them in your mouth or lapel.
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Sewing and Needlework Req 2 inspection prior to hands-on station work.
-- **Common Myth:** Cutting a three-foot length of thread makes hand sewing faster because you do not have to rethread the needle as often.
-- **Pamphlet Fact:** Working with a thread longer than 18 to 24 inches causes frequent tangling, knotting, and fraying as the strand is pulled repeatedly through the fabric (p. 10).
+- **Common Myth:** Using double strands of extra long thread makes hand sewn seams stronger and faster.
+- **Pamphlet Fact:** Excessively long thread creates severe knots and weakens fiber integrity through repeated friction.
 
 **Official Pamphlet Summary:**
-- Assemble a basic sewing and repair kit and explain the purpose of each item (p. 10).
-- Thread a needle and tie a quilter's or tailor's knot in a piece of fabric (p. 10).
-- Selecting Hand Stitch Types: Demonstrate the following sewing techniques, including when and why each is used (p. 10).
-- Running stitch (p. 10).
+- Wear a metal or leather thimble on the middle finger for control.
+- Cut hand sewing thread eighteen inches long to prevent tangles and knots.
+- Backstitch Seam Strength: Overlapping backstitches produce durable seams that resist tension in high stress repairs.
+- Tailors Knot Purpose: Wrapping thread twice around the needle tip creates a neat anchored knot.
 
-#### Req 2a: Basic Sewing Repair Kit
+#### Req 2a: Emergency Field Sewing Kit
 **Official Requirement 2a:** Assemble a basic sewing and repair kit and explain the purpose of each item.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Assemble A Basic Sewing)
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Sewing and Needlework Req 2a inspection prior to hands-on station work.
-- **Common Myth:** Flat four-hole buttons should be stitched as tightly as possible against the garment fabric so they cannot wobble.
-- **Pamphlet Fact:** Buttons need a small thread shank or spacer underneath them so the overlapping fabric layer has room to fit cleanly beneath the button when fastened (p. 13).
+- **Common Myth:** A field sewing kit requires full size dressmaker shears and large thread spools.
+- **Pamphlet Fact:** Compact embroidery snips and carded thread bobbins maximize pack space and repair utility.
 
 ![Illustrated Sewing and Needlework technical diagram of essential hand sewing and mending skills for Requirement 2 field execution.](/assets/pamphlet_images/sewing_and_needlework_p007_img1.png)
 
@@ -94,11 +84,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Threading Needles and Knots
+#### Req 2b: Needle Threading and Knotting
 **Official Requirement 2b:** Thread a needle and tie a quilter's or tailor's knot in a piece of fabric.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Thread A Needle)
-- **Common Myth:** Using fabric glue or iron-on adhesive alone is sufficient to keep a Scout uniform patch permanently attached through repeated washing.
-- **Pamphlet Fact:** Iron-on backing only holds a badge in position temporarily, whereas a neat whip stitch or hidden slip stitch around the merrowed border keeps the patch secure (p. 12).
+- **Common Myth:** Licking frayed thread ends creates the best tip for threading small needle eyes.
+- **Pamphlet Fact:** Cutting thread at a forty five degree angle creates a crisp stiff point.
 
 ![Practical Sewing and Needlework field visual showing proper setup, measurement, and technique for sewing tool safety and hazard prevention in Requirement 1.](/assets/pamphlet_images/sewing_and_needlework_p003_img1.png)
 
@@ -108,11 +98,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c: Fundamental Hand Stitch Techniques
+#### Req 2c: Core Hand Stitch Demonstrations
 **Official Requirement 2c:** Demonstrate the following sewing techniques, including when and why each is used.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist (Sewing Techniques)
-- **Common Myth:** Visible mending is a sloppy shortcut used only when you do not have matching thread to hide a tear.
-- **Pamphlet Fact:** Visible mending intentionally uses contrasting threads, decorative darning, or sashiko-inspired stitching to reinforce worn fabric while turning the repair into a design feature (p. 15).
+- **Common Myth:** Every hand sewing project relies on the standard running stitch for structural seams.
+- **Pamphlet Fact:** Running stitches pull apart under stress and serve primarily for basting or gathering.
 
 ![Practical Sewing and Needlework field visual showing proper setup, measurement.](/assets/pamphlet_images/sewing_and_needlework_p004_img1.png)
 
@@ -125,11 +115,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2d: Uniform Patch Attachment
+#### Req 2d: Uniform Patch Attachment Technique
 **Official Requirement 2d:** Sew a patch on your uniform or other fabric.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix (Uniform or Other Fabric)
-- **Common Myth:** During Sewing and Needlework Requirement 2d, Scouts can underestimate how directly mastery of uniform patch attachment depends on understanding sew a patch on your uniform or other fabric.
-- **Pamphlet Fact:** Scouting America standards for Sewing and Needlework Requirement 2d require complete workbook entries on uniform patch attachment to demonstrate full understanding of sew a patch on your uniform or other fabric.
+- **Common Myth:** Iron on adhesive backing secures uniform patches permanently without any needle stitching needed.
+- **Pamphlet Fact:** Heat activated adhesive degrades quickly in laundry cycles and requires perimeter hand stitching.
 
 ![Illustrated Sewing and Needlework technical diagram of sewing and needlework sewing and needlework core field standard reference figure for Requirement 5 field.](/assets/pamphlet_images/sewing_and_needlework_p005_img1.png)
 
@@ -139,11 +129,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2e: Button Attachment and Shanks
+#### Req 2e: Button Shank Attachment Method
 **Official Requirement 2e:** Sew a button onto an item.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Button Onto)
-- **Common Myth:** Overlooking the specific field checks required for Button Attachment and Shanks (Req 2e) or confusing Button Attachment and Shanks with general Essential Hand Sewing and Mending Skills procedures.
-- **Pamphlet Fact:** For Requirement 2e (Button Attachment and Shanks), The Sewing and Needlework pamphlet for Requirement 2e details sew a button onto an item, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).
+- **Common Myth:** Pulling button stitches tightly against the fabric surface ensures the strongest long term bond.
+- **Pamphlet Fact:** Tight buttons lack clearance for garment buttonholes and tear fabric fibers during closure.
 
 ![Step-by-step Sewing and Needlework visual guide highlighting specialized needlework and machine options positioning and inspection checkpoints for Requirement.](/assets/pamphlet_images/sewing_and_needlework_p012_img1.png)
 
@@ -153,11 +143,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2f: Upcycling With Visible Mending
+#### Req 2f: Visible Mending and Upcycling
 **Official Requirement 2f:** Upcycle by practicing visible mending to patch a piece of clothing or material.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2f Structured Technical Study & Explanation Matrix (Upcycle By Practicing Visible Mending)
-- **Common Myth:** When preparing Sewing and Needlework Requirement 2f (Req 2f Upcycling With Visible Mending), Scouts sometimes overlook the specific details needed to upcycle by practicing visible mending to patch a piece of clothing or mater.
-- **Pamphlet Fact:** Counselor verification for Sewing and Needlework Requirement 2f requires concrete workbook evidence covering req 2f upcycling with visible mending and a clear explanation of how to upcycle by practicing visible mending to patch a piece of clothing or mater.
+- **Common Myth:** Visible mending hides tears completely by blending camouflage thread colors into damaged cloth.
+- **Pamphlet Fact:** Visible mending intentionally displays contrasting stitches and patches to celebrate textile longevity and repair.
 
 | Req 2f Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -165,26 +155,29 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Machine Sewing: Machine Parts, Threading, Stitches & Bag Project
-**Official Requirement 3A (Parent Overview):** Machine Sewing.
-**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 3: store needles, pins, shears, and rotary cutters in closed cases immediately after working on specialized needlework and machine options, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** If loops of thread bunch up on the underside of your fabric while machine sewing, the lower bobbin tension is always the problem.
-- **Pamphlet Fact:** Thread loops on the underside of the seam almost always indicate that the upper thread missed the take-up lever or did not seat inside the upper tension discs (p. 17).
+### Req 3: Textile Craft Specialization Options
+**Official Requirement 3 (Parent Overview):** Choose ONE of the following options and complete each requirement: (A) Machine Sewing (a) Provide a brief overview of the evolution of the sewing machine (b) Read your machine manual and do the following: (1) Explain the parts of a sewing machine and their functions. (2) Thread the machine and the bobbin. (3) Explain how to properly clean and oil the machine and change the needle. (c) Identify other tools you will need for machine sewing. Demonstrate the following sewing techniques, including when and why each is used: (1) Pinning (2) Sewing in a straight line (3) Back stitch (4) Basting stitch (5) Gathering stitch (6) Unpicking or seam ripping. (d) Do the following using a sewing machine: (1) Sew a Scout patch on your uniform or other fabric. (2) Repair a tear or small hole in fabric using a patch or darning technique. (e) Sew ONE item from this list using a pattern, using THREE or more techniques from requirement 3(c): (1) Drawstring backpack (2) Camp utensil holder (3) Storage bag for tent stakes or school supplies (4) Pillowcase (5) An item of your own choosing, approved in advance by your counselor. (B) Knitting (a) Provide a brief overview of the history of knitting. (b) Explain the tools used when knitting. Demonstrate the ability to read a pattern, including deciphering symbols. (c) Using knitting needles, demonstrate how to tie a slip knot, cast on and bind off. (d) Demonstrate the following stitches: (1) Knit stitch (2) Purl stitch. (e) Knit a small item such as a dishcloth, scarf, or an item of your own choosing, approved in advance by your counselor, using ONE of the following stitch patterns with at least two colors of yarn: (1) Garter stitch (2) Stockinette stitch (3) Ribbing. (C) Crochet (a) Provide a brief overview of the history of crochet OR the history of Amigurumi. (b) Explain the tools used when crocheting. Demonstrate the ability to read a pattern, including deciphering symbols. (c) Demonstrate how to tie a slip knot and how to hold a crochet hook and yarn to crochet. (d) Demonstrate the following stitches in a small practice piece: (1) Single crochet (2) Double crochet (3) Half-double crochet. (e) Crochet a small item such as a dishcloth, scrub, or an item of your own choosing, approved in advance by your counselor, using at least two colors of yarn. (D) Hand Embroidery (a) Provide a brief overview of the history of hand embroidery. (b) Explain the tools used in hand embroidery. (c) Embroider a small sampler of your own design or from a purchased kit or embroider a temporary patch for your uniform. Include SIX of the following basic stitches: running stitch, back stitch, stem stitch, chain stitch, surface couching, blanket stitch, herringbone stitch, chevron stitch, feather stitch, weave stitch, seed stitch, French knots, fishbone stitch, satin stitch, cross stitch. (E) Appliqué (a) Provide a brief overview of the history of hand appliqué. (b) In a small sample, demonstrate how to do appliqué by hand using the following methods: needle turn or freezer paper using an invisible (ladder) stitch or blanket stitch. (c) (c) In a small sample, demonstrate machine appliqué using a raw edge fusible technique and a blanket stitch. (d) Appliqué a design onto a T-shirt by hand or machine or reverse appliqué a shape by hand sewing. (F) Quilting (a) Research historical quilts and show your counselor examples of types of quilts that interest you. Discuss how they were made. (b) Explain the tools used when quilting and how to use them safely. Discuss why accuracy is important in traditional quilting. Sew an accurate ¼" seam. (c) Using scraps of cotton quilting fabric, sort into light, medium and dark colors. Choose a focus fabric and find a group of fabrics that would work well in a scrap quilt. Demonstrate how the value and scale of a printed fabric can create interest. (d) Using three copies of a quilting design, color blocks to achieve different quilt designs. Show your counselor your designs and which one is your favorite. (e) Make a small quilt (12" square plus borders): (1) Using a rotary cutter, cut fabric into strips and pieces to make a four patch, rail fence block pattern, or design of your choice. Sew together on a machine or by hand using a ¼" seam allowance and press flat. Cut and add borders. (2) Make a sandwich with backing and batting. Baste. (3) Hand quilt with a running stitch or big stitch. (4) Label your quilt. Explain why this is important. (5) Bind to finish the edge of the quilt.
+**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Group Organizer:** Skill Demonstration Checklist
+> **Guide to Safe Scouting Warning:** Unplug electrical sewing machines before changing needles, presser feet, or internal bulbs.
+- **Common Myth:** All textile crafts use identical yarn weights and standardized universal needle sizes.
+- **Pamphlet Fact:** Specific crafts require distinct fiber densities, twist structures, and calibrated needle gauges.
 
 **Official Pamphlet Summary:**
-- Provide a brief overview of the evolution of the sewing machine.
-- Req 3A(b) (b): Read your machine manual and do the following.
-- Req 3A(1) (1): Explain the parts of a sewing machine and their functions.
-- Req 3A(2) (2): Thread the machine and the bobbin.
-- Req 3A(3) (3): Explain how to properly clean and oil the machine and change the needle.
-- Req 3A(c) (c): Identify other tools you will need for machine sewing. Demonstrate the following sewing techniques, including when and why each is used.
-- Req 3A(1) (1): Pinning.
-- Req 3A(2) (2): Sewing in a straight line.
-- Req 3A(3) (3): Back stitch.
-- Req 3A(4) (4): Basting stitch.
-- Req 3A(5) (5): Gathering stitch.
-- Req 3A(6) (6): Unpicking or seam ripping.
+- Rotating machine handwheels toward you maintains proper hook timing and prevents snarls.
+- Yarn Gauge Calculation: Knitting swatch stitch counts determine exact garment dimensions before starting full sweaters.
+- Holding crochet hooks in pencil grip allows fluid wrist motion and tension.
+- Drum tight embroidery hoop fabric prevents puckering when working dense decorative stitches.
+
+### Req 3A: Mechanical Sewing Machine Operation
+**Official Requirement 3A (Parent Overview):** Machine Sewing.
+**Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Group Organizer:** Concept & Examples Notes
+> **Guide to Safe Scouting Warning:** Unplug electrical sewing machines before changing needles, presser feet, or internal bulbs.
+- **Common Myth:** Turning the machine handwheel away from you clears jammed thread knots safely.
+- **Pamphlet Fact:** Turning the handwheel backwards tangles the bobbin thread race and disrupts mechanical timing.
+
+**Official Pamphlet Summary:**
+- Modern lockstitch machines link upper needle thread with lower bobbin thread beneath the throat plate. Maintaining proper upper tension disks ensures balanced stitches that do not loop on either fabric side.
+- Req 3A Standard (Sewing and Needlework Test Lab Resource Guide, pp. 16-21): Machine Sewing.
 
 #### Req 3A(a): Provide a brief overview
 **Official Requirement 3A(a):** Provide a brief overview of the evolution of the sewing machine.
@@ -441,24 +434,15 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Knitting: Needles, Pattern Reading, Cast-On, Stitches & Project
+### Req 3B: Fundamentals of Knitted Fabrics
 **Official Requirement 3B (Parent Overview):** Knitting.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 3: store needles, pins, shears, and rotary cutters in closed cases immediately after working on specialized needlework and machine options, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** Knitting and crochet use the exact same tools and hold only one active loop at a time.
-- **Pamphlet Fact:** Knitting holds an entire row of live loops across two needles, whereas crochet works with a single hooked needle and usually keeps one active loop on the hook (p. 18).
+- **Common Myth:** Dropped knitting stitches require ripping out entire garment sections back to cast on.
+- **Pamphlet Fact:** A small crochet hook easily catches and latches dropped loops up the column.
 
 **Official Pamphlet Summary:**
-- Provide a brief overview of the history of knitting.
-- Req 3B(b) (b): Explain the tools used when knitting. Demonstrate the ability to read a pattern, including deciphering symbols.
-- Req 3B(c) (c): Using knitting needles, demonstrate how to tie a slip knot, cast on and bind off.
-- Req 3B(d) (d): Demonstrate the following stitches.
-- Req 3B(1) (1): Knit stitch.
-- Req 3B(2) (2): Purl stitch.
-- Req 3B(e) (e): Knit a small item such as a dishcloth, scarf, or an item of your own choosing, approved in advance by your counselor, using ONE of the following stitch patterns with at least two colors of yarn.
-- Req 3B(1) (1): Garter stitch.
-- Req 3B(2) (2): Stockinette stitch.
-- Req 3B(3) (3): Ribbing.
+- Knitting constructs elastic textiles by interlocking yarn loops across two pointed needles using knit and purl stitches. Controlling hand tension produces uniform rows and prevents uneven fabric stretching.
+- Req 3B Standard (Sewing and Needlework Test Lab Resource Guide, pp. 16-21): Knitting.
 
 #### Req 3B(a): Sewing and Needlework Origins and Evolution
 **Official Requirement 3B(a):** Provide a brief overview of the history of knitting.
@@ -581,22 +565,15 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Crochet: Hooks, Pattern Symbols, Chain/Single/Double Stitches & Project
+### Req 3C: Structural Crochet Stitch Practice
 **Official Requirement 3C (Parent Overview):** Crochet.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 3: store needles, pins, shears, and rotary cutters in closed cases immediately after working on specialized needlework and machine options, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** For Sewing and Needlework Requirement 3C, a common mistake in single-hook yarn crochet is treating single-hook yarn crochet as optional background reading.
-- **Pamphlet Fact:** Mastering Sewing and Needlework Requirement 3C means following the pamphlet standard for single-hook yarn crochet and recording accurate notes on single-hook yarn crochet.
+- **Common Myth:** Crochet fabrics stretch identically to knitted fabrics in both length and width.
+- **Pamphlet Fact:** Crochet structures produce denser, less elastic fabrics than knitting due to knotted loop nodes.
 
 **Official Pamphlet Summary:**
-- Provide a brief overview of the history of crochet OR the history of Amigurumi.
-- Req 3C(b) (b): Explain the tools used when crocheting. Demonstrate the ability to read a pattern, including deciphering symbols.
-- Req 3C(c) (c): Demonstrate how to tie a slip knot and how to hold a crochet hook and yarn to crochet.
-- Req 3C(d) (d): Demonstrate the following stitches in a small practice piece.
-- Req 3C(1) (1): Single crochet.
-- Req 3C(2) (2): Double crochet.
-- Req 3C(3) (3): Half-double crochet.
-- Req 3C(e) (e): Crochet a small item such as a dishcloth, scrub, or an item of your own choosing, approved in advance by your counselor, using at least two colors of yarn.
+- Crochet creates textured, sturdy textiles by pulling loops through previous stitches with a single hooked tool. Changing stitch height from single to double crochet alters fabric density and flexibility.
+- Req 3C Standard (Sewing and Needlework Test Lab Resource Guide, pp. 16-21): Crochet.
 
 #### Req 3C(a): Sewing and Needlework Origins and Evolution
 **Official Requirement 3C(a):** Provide a brief overview of the history of crochet OR the history of Amigurumi.
@@ -695,17 +672,15 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Hand Embroidery: History, Tools, Hoops & Embroidered Sampler
+### Req 3D: Surface Hand Embroidery Art
 **Official Requirement 3D (Parent Overview):** Hand Embroidery.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 3: store needles, pins, shears, and rotary cutters in closed cases immediately after working on specialized needlework and machine options, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** During Sewing and Needlework Requirement 3D, Scouts can underestimate how directly mastery of decorative hand embroidery depends on understanding hand embroidery.
-- **Pamphlet Fact:** Scouting America standards for Sewing and Needlework Requirement 3D require complete workbook entries on decorative hand embroidery to demonstrate full understanding of hand embroidery.
+- **Common Myth:** Threading all six strands of embroidery floss creates the neatest decorative details.
+- **Pamphlet Fact:** Separating floss into individual strands before recombining prevents twisted threads and bulky stitches.
 
 **Official Pamphlet Summary:**
-- Provide a brief overview of the history of hand embroidery.
-- Req 3D(b) (b): Explain the tools used in hand embroidery.
-- Req 3D(c) (c): Embroider a small sampler of your own design or from a purchased kit or embroider a temporary patch for your uniform. Include SIX of the following basic stitches: running stitch, back stitch, stem stitch, chain stitch, surface couching, blanket stitch, herringbone stitch, chevron stitch, feather stitch, weave stitch, seed stitch, French knots, fishbone stitch, satin stitch, cross stitch.
+- Hand embroidery decorates woven cloth using varied floss strands, specialized needles, and decorative stitch families. Hooping base fabric smoothly prevents surface distortion while stitching satin or French knot designs.
+- Req 3D Standard (Sewing and Needlework Test Lab Resource Guide, pp. 16-21): Hand Embroidery.
 
 #### Req 3D(a): Sewing and Needlework Origins and Evolution
 **Official Requirement 3D(a):** Provide a brief overview of the history of hand embroidery.
@@ -744,30 +719,21 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Applique: Hand & Machine Fusible Applique & Garment Design
+### Req 3E: Decorative Fabric Appliqué Methods
 **Official Requirement 3E (Parent Overview):** Appliqué.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 3: store needles, pins, shears, and rotary cutters in closed cases immediately after working on specialized needlework and machine options, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** Overlooking the specific field checks required for Layered Fabric Applique (Req 3E) or confusing Layered Fabric Applique with general Specialized Needlework and Machine Options procedures.
-- **Pamphlet Fact:** For Requirement 3E (Layered Fabric Applique), The Sewing and Needlework pamphlet for Requirement 3E details core principles and practical standards for layered fabric applique, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).
+- **Common Myth:** Fusible web eliminates the requirement for edge stitching on washable appliqué projects.
+- **Pamphlet Fact:** Fusible adhesives peel after washing unless reinforced with edge stitching along every contour.
 
 **Official Pamphlet Summary:**
-- Provide a brief overview of the history of hand appliqué.
-- Req 3E(b) (b): In a small sample, demonstrate how to do appliqué by hand using the following methods: needle turn or freezer paper using an invisible (ladder) stitch or blanket stitch.
-- (c) In a small sample, demonstrate machine appliqué using a raw edge fusible technique and a blanket stitch.
-- Req 3E(d) (d): Appliqué a design onto a T-shirt by hand or machine or reverse appliqué a shape by hand sewing.
+- Appliqué bonds or stitches smaller fabric motifs onto a larger background foundation to build complex pictorial designs. Securing raw edges with satin or blanket stitching prevents fraying during laundering.
+- Req 3E Standard (Sewing and Needlework Test Lab Resource Guide, pp. 16-21): Appliqué.
 
 #### Req 3E(a): Sewing and Needlework Origins and Evolution
 **Official Requirement 3E(a):** Provide a brief overview of the history of hand appliqué.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3E(a) Structured Technical Study & Explanation Matrix (Sewing and Needlework Origins and Evolution)
 - **Common Myth:** In Sewing and Needlework Requirement 3E(a), many Scouts assume sewing and needlework origins and evolution only requires a general overview rather than specific details on provide a brief overview of the history of hand appliqué.
 - **Pamphlet Fact:** The official Sewing and Needlework pamphlet for Requirement 3E(a) specifies that Scouts must thoroughly document sewing and needlework origins and evolution and explain provide a brief overview of the history of hand appliqué during counselor review.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 3
-- [ ] Fabric swatches, thread spools, hand-sewing needles, and pin cushion
-- [ ] Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk
-- [ ] Completed sample piece and stitch log for Specialized Needlework and Machine Options
 
 | Req 3E(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -811,36 +777,21 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Quilting: Historical Quilts, Color Sorting, Piecing & Binding
+### Req 3F: Quilt Assembly and Layering
 **Official Requirement 3F (Parent Overview):** Quilting.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 3: store needles, pins, shears, and rotary cutters in closed cases immediately after working on specialized needlework and machine options, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** When preparing Sewing and Needlework Requirement 3F (Three-Layer Patchwork Quilting), Scouts sometimes overlook the concrete pamphlet benchmarks covering three-layer patchwork quilting.
-- **Pamphlet Fact:** Counselor verification for Sewing and Needlework Requirement 3F requires concrete workbook evidence on three-layer patchwork quilting, specifically addressing three-layer patchwork quilting.
+- **Common Myth:** Thicker polyester batting always produces warmer and more durable heirloom bed quilts.
+- **Pamphlet Fact:** Dense low loft cotton batting breathes better and prevents thread strain along quilt seams.
 
 **Official Pamphlet Summary:**
-- Req 3F(a) (a): Research historical quilts and show your counselor examples of types of quilts that interest you. Discuss how they were made.
-- Req 3F(b) (b): Explain the tools used when quilting and how to use them safely. Discuss why accuracy is important in traditional quilting. Sew an accurate ¼" seam.
-- Req 3F(c) (c): Using scraps of cotton quilting fabric, sort into light, medium and dark colors. Choose a focus fabric and find a group of fabrics that would work well in a scrap quilt. Demonstrate how the value and scale of a printed fabric can create interest.
-- Req 3F(d) (d): Using three copies of a quilting design, color blocks to achieve different quilt designs. Show your counselor your designs and which one is your favorite.
-- Req 3F(e) (e): Make a small quilt (12" square plus borders)
-- Req 3F(1) (1): Using a rotary cutter, cut fabric into strips and pieces to make a four patch, rail fence block pattern, or design of your choice. Sew together on a machine or by hand using a ¼" seam allowance and press flat. Cut and add borders.
-- Req 3F(2) (2): Make a sandwich with backing and batting. Baste.
-- Req 3F(3) (3): Hand quilt with a running stitch or big stitch.
-- Req 3F(4) (4): Label your quilt. Explain why this is important.
-- Req 3F(5) (5): Bind to finish the edge of the quilt.
+- Quilting binds top patchwork, batting insulation, and backing fabric together using decorative or grid stitching lines. Basting layers securely with safety pins prevents shifting and puckering on the quilting frame.
+- Req 3F Standard (Sewing and Needlework Test Lab Resource Guide, pp. 16-21): Quilting.
 
 #### Req 3F(a): Historical Quilts
 **Official Requirement 3F(a):** Research historical quilts and show your counselor examples of types of quilts that interest you. Discuss how they were made.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3F(a) Structured Technical Study & Explanation Matrix (Historical Quilts)
 - **Common Myth:** In Sewing and Needlework Requirement 3F(a), many Scouts assume historical quilts only requires a general overview rather than specific details on research historical quilts and show your counselor examples of types of quilts that interest you.
 - **Pamphlet Fact:** The official Sewing and Needlework pamphlet for Requirement 3F(a) specifies that Scouts must thoroughly document historical quilts and explain research historical quilts and show your counselor examples of types of quilts that interest you during counselor review.
-
-**Gear & Readiness Checklist:**
-- [ ] Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 3
-- [ ] Fabric swatches, thread spools, hand-sewing needles, and pin cushion
-- [ ] Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk
-- [ ] Completed sample piece and stitch log for Specialized Needlework and Machine Options
 
 | Req 3F(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -966,12 +917,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Exploring Quilt and Textile Art Exhibitions
+### Req 4: Textile Arts Museum Exhibition
 **Official Requirement 4:** Art. Visit a quilt or textile arts show or museum display either in-person or virtually. Explain to your counselor how they were created.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Art Visit A Quilt or)
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 4: store needles, pins, shears, and rotary cutters in closed cases immediately after working on exploring quilt and textile art exhibitions, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** Piecing a quilt top and quilting a quilt refer to the exact same step in creating textile art.
-- **Pamphlet Fact:** Piecing is sewing smaller fabric shapes together to build the decorative top layer, whereas quilting is the stitching that binds the top, batting, and backing layers together (p. 23).
+> **Guide to Safe Scouting Warning:** Maintain designated viewing boundaries and avoid touching historical textile fibers without white gloves.
+- **Common Myth:** Textile exhibits display only decorative tapestries without practical or structural sewing elements.
+- **Pamphlet Fact:** Historic textile exhibits highlight intricate structural piecing, hand quilting, and tailored garment engineering.
 
 **Gear & Readiness Checklist:**
 - [ ] Official Sewing and Needlework merit badge pamphlet and pattern worksheet for Req 4
@@ -988,18 +939,19 @@
 | **3. Explain to your counselor how they were created.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Visit a quilt or textile arts show or museum display either in-person or virtually (p. 22).
-- Exploring Quilt and Textile Art Exhibitions: Exploring quilt and textile art exhibitions, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22).
-- Discussing Artwork With Counselor: Review your completed Textile Arts Exhibition & Museum Critique evidence and demonstrate proficiency during your counselor conference (p. 22).
+- Museum Viewing Distance: Stand several feet back from fragile antique tapestries to prevent accidental contact.
+- Low gallery lighting protects organic natural dye pigments from severe ultraviolet fading.
+- Weave Structure Inspection: Close visual analysis reveals warp and weft density across complex historical tapestries.
+- Cultural Motif Documentation: Sketching historic embroidery patterns preserves traditional ethnic designs for modern research projects.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Community Service Through Sewing Skills
+### Req 5: Community Needlework Service Projects
 **Official Requirement 5:** Service. Discuss with your counselor how sewing and needlework skills might be of service to others. How can they benefit your family, community, church, or school.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Service Discuss)
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 5: store needles, pins, shears, and rotary cutters in closed cases immediately after working on community service through sewing skills, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** Hospitals and neonatal units accept handmade blankets made from any leftover yarn or fabric scraps you have at home.
-- **Pamphlet Fact:** Charities and hospitals enforce strict fiber, washability, and safety standards, such as requiring washable hypoallergenic yarns free of loose buttons, sequins, or pet hair (p. 29).
+> **Guide to Safe Scouting Warning:** Wash and sanitize donated fabrics before cutting to prevent skin irritation from chemical finishes.
+- **Common Myth:** Service sewing projects only provide small decorative crafts with little practical community utility.
+- **Pamphlet Fact:** Volunteer textile groups fabricate essential cold weather sleeping gear and critical hospital bedding.
 
 ![Scouts sewing handmade comfort blankets and quilts for community charity service projects.](/assets/ai_illustrations/sewing_and_needlework_req_5_nano_hero.png)
 
@@ -1010,31 +962,31 @@
 | **3. How can they benefit your family, community, church, or school.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Community Service Through Sewing Skills: Community service through sewing skills, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 28).
-- How can they benefit your family, community, church, or school (p. 28).
-- Community Service Through Sewing Skills: Community service through sewing skills, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26).
-- Presenting Service Impact Ideas: Review your completed Sewing and Needlework Core Field Standard evidence and demonstrate proficiency during your counselor conference (p. 26).
+- Shelter Blanket Construction: Simple fleece tie blankets provide immediate thermal insulation for displaced local families.
+- Hospital Gown Standards: Medical service sewing requires durable French seams that withstand harsh commercial laundering.
+- School Uniform Repairs: Mending loose hems and missing buttons restores dignity to students needing assistance.
+- Community Patching Days: Organizing repair clinics reduces landfill waste by extending wearable clothing lifespans locally.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Textile Careers and Lifelong Hobbies
+### Req 6: Professional Needlework Career Exploration
 **Official Requirement 6 (Parent Overview):** Careers. Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in sewing and/or needlework. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. (b) Identify how you might use the skills and knowledge in sewing and/or needlework to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 34-39* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 6: store needles, pins, shears, and rotary cutters in closed cases immediately after working on textile careers and lifelong hobbies, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** Professional sewing careers are limited to fashion clothing design and retail tailoring.
-- **Pamphlet Fact:** Industrial sewing and textile engineering skills are essential in aerospace parachute rigging, automotive and marine upholstery, theatrical costuming, medical textiles, and outdoor technical gear manufacturing (p. 34).
+> **Guide to Safe Scouting Warning:** Wear hearing protection and safety goggles when operating high speed industrial production machinery.
+- **Common Myth:** Professional sewing careers are limited entirely to home alterations and basic dry cleaner mending.
+- **Pamphlet Fact:** Textile careers span advanced sports gear engineering, aerospace spacesuit manufacturing, and haute couture design.
 
 **Official Pamphlet Summary:**
-- Identify three career opportunities that would use skills and knowledge in sewing and/or needlework (p. 34).
-- Pursuing Lifelong Fiber Hobbies: Identify how you might use the skills and knowledge in sewing and/or needlework to pursue a personal hobby (p. 34).
-- Textile Careers and Lifelong Hobbies: Review the Sewing and Needlework pamphlet standards for textile careers and lifelong hobbies, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 34).
-- Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field (p. 34).
+- Theatrical Costumer Demands: Costume technicians construct durable garments designed for rapid changes during theatrical performances.
+- Pattern makers utilize computer aided design software to grade apparel production sizes.
+- Custom Tailoring Apprenticeship: Master tailors undergo multiyear apprenticeships to learn bespoke suit construction and fitting.
+- Fiber Science Careers: Textile scientists develop synthetic high performance fabrics for aerospace and military applications.
 
-#### Req 6a: Textile and Apparel Careers
+#### Req 6a: Commercial Textile Career Investigation
 **Official Requirement 6a:** Identify three career opportunities that would use skills and knowledge in sewing and/or needlework. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 34-39* • **Organizer (Career & Profession Exploration Card):** Req 6a Career & Professional Pathway Investigation Matrix
-- **Common Myth:** Technical patternmakers only sketch artistic illustrations of outfits and leave all measurements to factory operators.
-- **Pamphlet Fact:** Patternmakers use precise geometry and computer-aided design software to translate sketches into graded templates that fit human anatomy across multiple garment sizes (p. 35).
+- **Common Myth:** Fashion designers spend most work hours hand sewing garments on standard home sewing machines.
+- **Pamphlet Fact:** Apparel designers primarily create digital technical specification packages and oversee overseas factory production.
 
 ![Scouts crafting charity comfort blankets and exploring technical textile design.](/assets/pamphlet_images/sewing_and_needlework_p015_img1.png)
 
@@ -1047,11 +999,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b: Personal Needlework Hobby Pursuits
+#### Req 6b: Personal Fiber Arts Avocation
 **Official Requirement 6b:** Identify how you might use the skills and knowledge in sewing and/or needlework to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (You Might Use The Skills)
-- **Common Myth:** Starting a serious needlework or quilting hobby requires buying an expensive computerized longarm machine right away.
-- **Pamphlet Fact:** Most hobbyists begin with basic hand needles or an entry-level sewing machine and join local guilds or makers paces to share specialized equipment and learn from experienced mentors (p. 37).
+- **Common Myth:** Fiber arts hobbies require expensive studio setups before a beginner can produce functional projects.
+- **Pamphlet Fact:** Basic hand needles, thrifted fabrics, and embroidery floss enable high level personal craftsmanship affordably.
 
 | Req 6b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -1061,12 +1013,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Test Lab Survey and Feedback
+### Req 7: Test Lab Experience Survey
 **Official Requirement 7:** Complete the survey below to complete the test lab requirements
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Survey Below)
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Sewing and Needlework Requirement 7: store needles, pins, shears, and rotary cutters in closed cases immediately after working on test lab survey and feedback, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** The Test Lab survey is a graded test that can cause a Scout to fail the merit badge if they critique a difficult requirement.
-- **Pamphlet Fact:** The Test Lab survey collects honest feedback from Scouts and counselors to help Scouting America evaluate and refine pilot merit badge requirements before national release (p. 40).
+> **Guide to Safe Scouting Warning:** Store all sharp sewing tools securely in cases before sitting down to complete surveys.
+- **Common Myth:** Lab feedback surveys have no effect on how future merit badge workshops run.
+- **Pamphlet Fact:** Survey responses directly inform national program updates and hands on workshop equipment allocations.
 
 ![Uniformed Scout displaying finished sewing projects to a counselor and completing the Test Lab survey.](/assets/ai_illustrations/sewing_and_needlework_req_7_nano_hero.png)
 
@@ -1075,9 +1027,9 @@
 | **1. Complete the survey below to complete the test lab requirements** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Submitting Test Lab Feedback: Complete the survey below to complete the test lab requirements (p. 40).
-- Test Lab Survey and Feedback: Test lab survey and feedback, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 34).
-- Confirming Final Badge Completion: Review your completed Survey Below to Complete evidence and demonstrate proficiency during your counselor conference (p. 34).
-- Cross-check every sub-requirement of Requirement 7 (Survey Below) against the Scouting America Sewing and Needlework pamphlet standard (p. 40).
+- Feedback Metric Collection: Standardized survey ratings measure curriculum clarity and tool accessibility across troop workshops.
+- Student Experience Evaluation: Honest evaluations identify which technical sewing steps caused confusion or practical delays.
+- Program Improvement Process: Curriculum committees review Scout feedback to update pamphlet diagrams and safety guidelines.
+- Learning Assessment Documentation: Recording completed project milestones validates that Scouts achieved core needlework performance objectives.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`

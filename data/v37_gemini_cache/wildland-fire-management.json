@@ -1,0 +1,487 @@
+{
+  "requirements": [
+    {
+      "fact": "Early federal fire policy mandated complete suppression by ten in the morning following detection before modern science recognized ecological benefits.",
+      "misconception": "Native wilderness ecosystems never experienced fire prior to human settlement and industrial development.",
+      "pamphlet_excerpts": [
+        "Suppression Mandate: The ten in the morning suppression policy governed early federal wildland firefighting operations nationwide.",
+        "Ecological Role: Natural fire regimes recycle surface nutrients and balance vegetative fuel loads across landscapes.",
+        "Smokey Bear: Public prevention messaging successfully reduced careless accidental ignitions across private timber tracts.",
+        "Wildland Management: Current policy integrates planned prescribed burning alongside rapid containment of threatening fires."
+      ],
+      "pamphlet_summary": "Federal wildland fire management evolved from the total suppression 10:00 AM policy adopted after the 1910 Big Blowup to contemporary ecological fire management. Natural fire regimes maintain forest succession, nutrient cycling, and fuel load equilibrium across diverse native landscapes.",
+      "req_id": "1",
+      "safety_callout": "Maintain situational awareness when researching historic fire zones because snag hazards and unstable soil persist for decades.",
+      "socratic_questions": [
+        "How did the 1910 fires in Idaho and Montana transform American forest management philosophies?",
+        "In what ways does total suppression inadvertently increase the intensity of subsequent wildland fires?",
+        "Why must natural resource managers balance human life protection with natural fire cycles?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Timeline Construction: Chronologically catalog catastrophic fires spanning from the Miramichi fire through modern conflagrations.",
+        "Step 2 - Agency Analysis: Compare traditional Forest Service suppression policies against contemporary multiagency fire management strategies.",
+        "Step 3 - Ecological Review: Document how native tree species depend directly on regular periodic fire return intervals.",
+        "Step 4 - Synthesis Presentation: Present findings to your counselor comparing historical suppression outcomes with modern ecological practices."
+      ],
+      "sub_requirements": [],
+      "topic_title": "American Wildland Fire History"
+    },
+    {
+      "fact": "Wildfires cause billions of dollars in commercial timber losses, structural damage, water watershed degradation, and prolonged smoke related public health crises.",
+      "misconception": "Forest fires only consume harvestable wood without causing lasting damage to regional economies or infrastructure.",
+      "pamphlet_excerpts": [
+        "Annual Acreage: Over seven million acres burn annually on average across western and southern states.",
+        "Erosion Threat: Hydrophobic soils after severe burns trigger devastating mudslides during intense seasonal rains.",
+        "Air Degradation: Particulate matter from smoke degrades regional air quality across distant populated urban centers.",
+        "Economic Disruption: Wildfire closures shut down municipal recreation revenue and compromise electrical transmission lines."
+      ],
+      "pamphlet_summary": "Wildfires burn millions of acres annually, destroying timber resources, impairing air sheds, and damaging municipal water collection basins. Catastrophic burns create hydrophobic soil crusts that generate post-fire debris flows and eliminate essential wildlife habitat.",
+      "req_id": "2",
+      "safety_callout": "Avoid entering active burn scars during precipitation events due to imminent risks of flash floods and debris flows.",
+      "socratic_questions": [
+        "How does the loss of commercial timber impact regional economies and long-term wood supply chains?",
+        "What physical processes create water contamination downstream from high-severity wildland burn areas?",
+        "Why does wildland fire smoke pose serious medical hazards to communities hundreds of miles downwind?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Data Gathering: Collect annual national acreage burn statistics from National Interagency Fire Center records.",
+        "Step 2 - Sector Mapping: Chart wildfire losses across timber products, municipal water basins, and human settlements.",
+        "Step 3 - Damage Assessment: Calculate cumulative post fire rehabilitation costs alongside direct structural and health expenditures.",
+        "Step 4 - Impact Review: Discuss identified ecological and economic harms with your merit badge counselor systematically."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Severe crown fires destroy mature sawtimber, pulpwood plantations, and sapling regeneration, taking decades to recover commercially.",
+          "misconception": "Burned commercial forest stands can be fully salvaged with no financial loss to timber operators.",
+          "pamphlet_summary": "High-intensity wildland fires incinerate merchantable timber reserves and destroy seed banks required for natural timber stand regeneration. Post-fire salvage logging yields degraded lumber that commands significantly lower market prices.",
+          "sub_id": "2a",
+          "topic_title": "Commercial Forest Products Losses"
+        },
+        {
+          "fact": "High water temperatures and heavy post-fire ash runoff strip dissolved oxygen and suffocate coldwater fish species.",
+          "misconception": "Wildlife easily escapes fires unharmed and immediately reoccupies burned areas without population declines.",
+          "pamphlet_summary": "Severe fires eradicate forest canopy cover, leading to elevated stream water temperatures and lethal sediment loading in aquatic spawning beds. Ground-dwelling wildlife species suffer direct mortality and extended displacement due to food chain destruction.",
+          "sub_id": "2b",
+          "topic_title": "Fish and Wildlife Habitat"
+        },
+        {
+          "fact": "Severe soil heating creates water-repellent hydrophobic organic layers that accelerate surface runoff and gully erosion.",
+          "misconception": "Soil absorbs burned ash quickly, which immediately increases permeability and groundwater filtration rates.",
+          "pamphlet_summary": "Extreme heat volatilizes soil organic compounds, depositing a waxy hydrophobic layer that prevents rain absorption. Unchecked surface runoff transports sediment directly into municipal reservoirs, clouding public drinking water supplies.",
+          "sub_id": "2c",
+          "topic_title": "Soil and Water Degradation"
+        },
+        {
+          "fact": "Burned public parks face extended closures to remove hazard snags and repair compromised recreational trails.",
+          "misconception": "Public recreation lands reopen immediately after active fire lines are extinguished and cool down.",
+          "pamphlet_summary": "Wildfires destroy park campgrounds, historic visitor centers, and wooden bridges across public recreation lands. Forest closures remain in effect for months or years while crews fell dead hazard trees.",
+          "sub_id": "2d",
+          "topic_title": "Recreation and Public Land"
+        },
+        {
+          "fact": "Wildland fires consume critical communication towers, power distribution grids, and residential neighborhoods within interface areas.",
+          "misconception": "Modern suburban building materials provide complete protection against radiant heat and airborne embers.",
+          "pamphlet_summary": "Interface conflagrations destroy residential neighborhoods, public water pumping facilities, and essential electrical distribution grids. Displaced populations overwhelm local municipal emergency services, creating long-term regional economic distress.",
+          "sub_id": "2e",
+          "topic_title": "Homes and Human Resources"
+        },
+        {
+          "fact": "Wildfire smoke contains hazardous PM2.5 particulates that penetrate deep into lung tissue, causing severe respiratory illness.",
+          "misconception": "Wood smoke consists only of harmless carbon dioxide and steam that dissipates without health effects.",
+          "pamphlet_summary": "Combustion releases fine particulate matter and volatile organic compounds that travel thousands of miles downwind. Vulnerable civilian populations face heightened asthma attacks, cardiac emergencies, and premature hospital admissions during smoky conditions.",
+          "sub_id": "2f",
+          "topic_title": "Air Quality Public Health"
+        }
+      ],
+      "topic_title": "Harms of Uncontrolled Wildfires"
+    },
+    {
+      "fact": "Prescribed burning applies low-intensity fire under precise weather parameters to reduce fuels, improve wildlife browse, and regenerate fire-adapted tree species.",
+      "misconception": "Prescribed fire always burns out of control and permanently damages the surrounding forest ecosystem.",
+      "pamphlet_excerpts": [
+        "Prescribed Burn Plan: Certified burn plans establish strict humidity, wind, and fuel moisture prescription boundaries.",
+        "Surface Fuel Reduction: Consuming leaf litter and dead wood prevents future catastrophic high-intensity crown fires.",
+        "Nutrient Mineralization: Low-intensity fire mineralizes organic matter, releasing calcium and nitrogen into native forest soil.",
+        "Seed Stratification: Serotinous cones open and drop viable seeds only when heated by fire."
+      ],
+      "pamphlet_summary": "Trained land managers utilize prescribed fire under strict environmental prescriptions to consume hazardous ground fuel accumulations safely. Controlled fire stimulates native plant growth, controls pest populations, and restores balance to fire-dependent ecosystems.",
+      "req_id": "3",
+      "safety_callout": "Never attempt unauthorized burning; prescribed fires require certified incident commanders, burn permits, and professional safety perimeters.",
+      "socratic_questions": [
+        "What environmental conditions must align before a prescribed fire manager ignites a burn unit?",
+        "How does regular understory burning protect canopy trees from future high-intensity crown fires?",
+        "Why do certain pine species require fire before their seeds can disperse and germinate?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Prescription Review: Analyze fuel moisture, relative humidity, wind velocity, and ambient air temperature specifications.",
+        "Step 2 - Objective Identification: Identify specific resource goals including understory thinning, forage enhancement, or seedbed preparation.",
+        "Step 3 - Firing Pattern Selection: Select backing, strip heading, or flanking firing techniques based on wind direction.",
+        "Step 4 - Outcome Documentation: Evaluate post-burn fuel consumption, crown scorch percentages, and vegetative recovery with your counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Prescribed fires consume heavy duff, fallen logs, and ladder fuels that otherwise carry flame into the forest canopy.",
+          "misconception": "Mechanical clearing completely replaces prescribed fire as a low-cost fuel reduction technique in forests.",
+          "pamphlet_summary": "Prescribed burns consume brush, downed branches, and pine needle litter under humid conditions to limit flame length. Removing surface fuels starves potential wildfires of flammable ladder vegetation.",
+          "sub_id": "3a",
+          "topic_title": "Hazardous Fuel Reduction Methods"
+        },
+        {
+          "fact": "Low-intensity fires create forest canopy gaps and stimulate tender herbaceous browse preferred by foraging deer and game birds.",
+          "misconception": "Prescribed burns destroy all local wildlife forage and permanently drive game animals from the forest.",
+          "pamphlet_summary": "Controlled fire opens dense brush thickets, exposing mineral soil for native forage grasses and berry-producing shrubs. Wildlife species rapidly forage on nutritious post-fire sprouts and insects across the open burn patchwork.",
+          "sub_id": "3b",
+          "topic_title": "Wildlife Habitat Enhancement Practices"
+        },
+        {
+          "fact": "Many native savannas and prairies deteriorate rapidly and lose species diversity when fire is excluded.",
+          "misconception": "Healthy forest ecosystems maintain peak biodiversity without any natural or human-ignited fire disturbances.",
+          "pamphlet_summary": "Periodic fire suppresses encroaching non-native brush and allows sun-loving prairie forbs and grasses to dominate. Longleaf pine and oak savannas depend on recurring fire to preserve their distinct species compositions.",
+          "sub_id": "3c",
+          "topic_title": "Fire Dependent Ecosystem Restoration"
+        },
+        {
+          "fact": "Species such as lodgepole pine possess resin-sealed serotinous cones that release seed only when heated by fire.",
+          "misconception": "Tree seedlings germinate best under thick, unburned layers of decayed leaf and pine needle litter.",
+          "pamphlet_summary": "Fire burns away thick needle litter, exposing bare mineral soil essential for tree seed germination and seedling survival. High temperatures melt resin coats on serotinous cones, showering newly cleared seedbeds with millions of seeds.",
+          "sub_id": "3d",
+          "topic_title": "Forest Stand Natural Regeneration"
+        },
+        {
+          "fact": "Surface fire kills dormant fungal pathogens and destroys invasive beetle larvae infesting fallen tree bark.",
+          "misconception": "Fires spread tree diseases by weakening all living trees against parasitic fungal and insect infestations.",
+          "pamphlet_summary": "Controlled understory burning sterilizes leaf litter harbouring fungal spores like brown spot needle blight. Fire thins stressed stands, increasing the vigor of residual trees against bark beetle infestations.",
+          "sub_id": "3e",
+          "topic_title": "Insects and Disease Control"
+        }
+      ],
+      "topic_title": "Prescribed Fire Resource Management"
+    },
+    {
+      "fact": "Over eighty percent of wildland fires in the United States result from human causes, including unattended campfires, debris burning, and vehicle sparks.",
+      "misconception": "Most catastrophic wildfires are started by lightning strikes rather than preventable human negligence.",
+      "pamphlet_excerpts": [
+        "Human Ignitions: Careless debris burning and abandoned campfires cause the vast majority of wildfires.",
+        "Appliance Safety: Spark arrestors on chainsaws and lawnmowers prevent dangerous roadside and field ignitions.",
+        "Defensible Buffer: Homeowners create defensible space zones to protect structures from intense radiant heat.",
+        "Ember Intrusion: Fine mesh vent screens block flying embers from entering home attics and eaves."
+      ],
+      "pamphlet_summary": "Human carelessness accounts for most wildfire ignitions through unattended campfires, open debris burning, and unmaintained internal combustion machinery. Homeowners in wildland-urban interface zones reduce structure loss through vegetation thinning and non-combustible roofing retrofits.",
+      "req_id": "4",
+      "safety_callout": "Douse campfires with copious water, stir ashes thoroughly with soil, and feel coals with the back of your hand until completely cold.",
+      "socratic_questions": [
+        "What are the three most common careless human actions that ignite wildland fires?",
+        "How does modifying vegetation within thirty feet of a home reduce structure ignition?",
+        "Why do windblown embers pose a greater threat to homes than direct contact with flaming fronts?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Cause Analysis: Categorize regional human ignition sources including equipment sparks, powerlines, campfires, and debris burning.",
+        "Step 2 - Prevention Planning: Establish camp safety protocols including campfire clearance zones, spark arrestors, and extinguish buckets.",
+        "Step 3 - Defensible Survey: Map the three concentric defensible space zones surrounding a selected community interface structure.",
+        "Step 4 - Hardening Checklist: Review building materials, roof gutters, and vent screening standards with your merit badge counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Properly extinguishing campfires requires dousing with water, stirring with dirt, and confirming ashes are completely cold to the touch.",
+          "misconception": "Covering hot camp coals with sand without water completely extinguishes the fire and prevents flareups.",
+          "pamphlet_summary": "Escaped trash fires, dragging trailer safety chains, and abandoned recreational campfires cause thousands of preventable wildfires annually. Scouts implement campfire clearance perimeters and carry dedicated water buckets during all backcountry outings.",
+          "sub_id": "4a",
+          "topic_title": "Human Caused Wildfire Prevention"
+        },
+        {
+          "fact": "Creating defensible space within thirty feet of foundations starves approaching fires of fuel and limits radiant heat transfer.",
+          "misconception": "Defensible space requires clearcutting every tree and bush across an entire residential acreage parcel.",
+          "pamphlet_summary": "Wildland-urban interface areas place residential structures in close proximity to flammable natural fuels. Property owners prune tree branches, clear roof gutters, and install ember-resistant metal vent screens.",
+          "sub_id": "4b",
+          "topic_title": "Wildland Urban Interface Mitigation"
+        }
+      ],
+      "topic_title": "Wildfire Prevention and Mitigation"
+    },
+    {
+      "fact": "Fire behavior is dictated by the wildland fire environment, which consists of fuel, weather, and topography.",
+      "misconception": "Wildfires always spread uphill because the flames are blown upward by gentle valley breezes alone.",
+      "pamphlet_excerpts": [
+        "Fire Triangle: Wildland combustion requires oxygen, ambient heat, and flammable wildland vegetative fuel.",
+        "Topographic Preheating: Rising convection currents preheat uphill vegetation, rapidly accelerating uphill fire spread rates.",
+        "Fuel Moisture: Fine dead fuels respond rapidly to hourly changes in ambient relative humidity.",
+        "Wildfire Anatomy: A wildland fire consists of head, flanks, rear, fingers, and spot fires."
+      ],
+      "pamphlet_summary": "Wildland fire behavior depends on dynamic interactions between fuel types, ambient weather conditions, and surrounding topographic relief. Firefighters suppress active fires by removing oxygen with smothering tools, eliminating heat with water, or cutting fuelbreaks down to bare soil.",
+      "req_id": "5",
+      "safety_callout": "Never position yourself uphill or downwind from an uncontained fire front in steep terrain or narrow canyons.",
+      "socratic_questions": [
+        "How does slope steepness affect the rate of heat transfer to unburned fuels?",
+        "What role does relative humidity play in the ignition susceptibility of one-hour fuels?",
+        "How does constructing a handline to bare mineral soil interrupt the wildland fire triangle?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Environment Assessment: Record wind velocity, air temperature, relative humidity, fuel model, and terrain slope percentages.",
+        "Step 2 - Suppression Mapping: Identify how water applications remove heat while mineral soil firelines cut fuel continuity.",
+        "Step 3 - Diagram Construction: Draw the head, fingers, pocket, flanks, heel, origin, and perimeter of a wildfire.",
+        "Step 4 - Counselor Review: Explain the diagrammed wildland fire anatomy and suppression mechanisms to your counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Steep terrain dramatically accelerates fire spread because flames lean closer to uphill slope vegetation, preheating fuels through radiation.",
+          "misconception": "Air temperature alone influences wildfire behavior without being impacted by terrain features or wind speed.",
+          "pamphlet_summary": "The fire environment triangle consists of fuel characteristics, prevailing weather conditions, and physical terrain features. Winds deliver oxygen, slope preheats uphill brush, and drought lowers vegetative fuel moisture.",
+          "sub_id": "5a",
+          "topic_title": "Fire Environment Influence Factors"
+        },
+        {
+          "fact": "Smothering fire with soil removes atmospheric oxygen, while water application absorbs latent heat and cools combustion below ignition temperature.",
+          "misconception": "Water chemically neutralizes the fuel so that wet wood can never ignite under radiant heat.",
+          "pamphlet_summary": "Combustion ceases when one component of the classic fire triangle is completely eliminated from the reaction. Firefighters apply water to absorb heat, throw dirt to starve oxygen, or dig firelines to isolate fuel.",
+          "sub_id": "5b",
+          "topic_title": "Fire Triangle Suppression Principles"
+        },
+        {
+          "fact": "A wildfire perimeter features a rapidly moving head, slower lateral flanks, an origin, a rear heel, and secondary spot fires.",
+          "misconception": "A wildland fire forms a perfect circle that burns with identical intensity on every side.",
+          "pamphlet_summary": "Wind and terrain shape wildfires into irregular elliptical forms with distinct operational sections. Firefighters identify the fast-moving head, slower-burning flanks, rear heel, unburned pockets, and dangerous advancing spot fires.",
+          "sub_id": "5c",
+          "topic_title": "Wildfire Parts Anatomy Diagram"
+        }
+      ],
+      "topic_title": "Fire Behavior and Environment"
+    },
+    {
+      "fact": "Wildland firefighters wear flame-resistant Nomex clothing, eight-inch leather boots, hard hats, eye protection, and leather gloves, and carry emergency fire shelters.",
+      "misconception": "Structural turnout coats and heavy air tanks provide ideal protection for mobile wildland fire crews.",
+      "pamphlet_excerpts": [
+        "Nomex Fabric: Aramid clothing resists direct flame and high heat without melting onto skin.",
+        "Fire Shelter: Aluminum foil shelters reflect radiant heat when trapped by sudden fire entrapment.",
+        "Lookouts Standard: Post dedicated lookouts who maintain continuous visual contact with the fire.",
+        "Escape Routes: Maintain clear unblocked escape routes leading directly to predetermined safety zones."
+      ],
+      "pamphlet_summary": "Wildland firefighters wear lightweight Nomex aramid clothing, shroud-equipped hard hats, wrap-around eye protection, and heavy leather lug-soled boots. Crews maintain personal safety in hazardous environments by strictly enforcing the LCES system: Lookouts, Communications, Escape Routes, and Safety Zones.",
+      "req_id": "6",
+      "safety_callout": "Never wear synthetic polyester or nylon garments on a wildland fire incident because synthetics melt into skin under radiant heat.",
+      "socratic_questions": [
+        "Why is structural firefighting turnout gear unsuitable for extended wildland fire suppression missions?",
+        "How does the LCES system protect crews from sudden, unexpected shifts in fire behavior?",
+        "What are the critical deployment parameters for an emergency wildland fire shelter?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Gear Inspection: Check leather boots, Nomex pants, flame-resistant shirt, hard hat, gloves, and eye protection.",
+        "Step 2 - Shelter Readiness: Confirm the M-2002 aluminum fire shelter is undamaged, sealed, and carried in its harness.",
+        "Step 3 - LCES Checklist: Identify designated lookouts, establish clear radio channels, map escape routes, and verify safety zones.",
+        "Step 4 - Protocol Discussion: Discuss PPE functionality and the Standard Firefighting Orders with your merit badge counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Nomex fabric does not melt or drip when exposed to intense heat, shielding firefighters from severe burns.",
+          "misconception": "Regular cotton work clothes offer the same heat and flame protection as certified aramid garments.",
+          "pamphlet_summary": "Wildland PPE includes flame-resistant Nomex trousers and shirts, shroud-fitted hard hats, leather work gloves, and heavy vibram-soled boots. Each firefighter carries a certified aluminum-clad fire shelter on their chest or waist harness.",
+          "sub_id": "6a",
+          "topic_title": "Personal Protective Equipment Standards"
+        },
+        {
+          "fact": "A valid safety zone must be large enough that radiant heat will not injure firefighters without deploying fire shelters.",
+          "misconception": "Deploying a portable fire shelter constitutes a designated primary safety zone during suppression operations.",
+          "pamphlet_summary": "Situational awareness requires continuous observation of weather changes, smoke column indicators, and crew fatigue levels. Firefighters identify escape routes and construct safety zones that provide four times the maximum flame length in clearance.",
+          "sub_id": "6b",
+          "topic_title": "Situational Awareness and LCES"
+        }
+      ],
+      "topic_title": "Wildland Firefighter Personal Safety"
+    },
+    {
+      "fact": "Direct suppression attacks flames along the active perimeter, while indirect suppression constructs control lines at a strategic distance from the fire front.",
+      "misconception": "Firefighters extinguish large forest fires solely by spraying water directly onto the flame front from tanker trucks.",
+      "pamphlet_excerpts": [
+        "Direct Attack: Firefighters attack burning edge directly using hand tools, water hoses, and dirt.",
+        "Indirect Strategy: Crews construct control lines far ahead of advancing fires and burn out fuels.",
+        "Chain of Command: The Incident Command System establishes clear span of control across all operational resources.",
+        "Command Staff: Safety officers, public information officers, and liaison officers report directly to Incident Commanders."
+      ],
+      "pamphlet_summary": "Incident commanders choose direct attack strategies along active flaming edges or indirect attack strategies that build distant control lines and burn out interior vegetation. The Incident Command System provides a standardized hierarchical management framework coordinating operations, planning, logistics, and finance.",
+      "req_id": "7",
+      "safety_callout": "Maintain a safety perimeter equal to twice the height of adjacent trees when operating along active firelines.",
+      "socratic_questions": [
+        "When would an incident commander select an indirect attack over a direct attack on a fire?",
+        "What is the primary role of the Safety Officer within the Incident Command System structure?",
+        "Why is an effective span of control limited to between three and seven subordinates per supervisor?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Strategy Formulation: Evaluate flame lengths to select direct attack at the edge or distant indirect containment.",
+        "Step 2 - Sandtable Simulation: Move resource tokens on a fire map to demonstrate flanking actions and anchor point establishment.",
+        "Step 3 - Chart Organization: Draw an Incident Command System chart showing Command Staff and the four General Staff sections.",
+        "Step 4 - Tactical Explanation: Present command roles and tactical suppression simulations to your merit badge counselor clearly."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Crews initiate line construction from an unburnable anchor point, such as a road or rock outcropping, to prevent flanking.",
+          "misconception": "Fire suppression crews can safely start digging a fireline in the middle of a burning flank without anchors.",
+          "pamphlet_summary": "Firefighters use direct attack with water and hand tools when flame lengths are under four feet along the edge. In higher flames, crews anchor distant control lines and burn out intermediate vegetation toward the main fire.",
+          "sub_id": "7a",
+          "topic_title": "Tactical Suppression Map Simulation"
+        },
+        {
+          "fact": "The four General Staff sections in ICS are Operations, Planning, Logistics, and Finance/Administration.",
+          "misconception": "The Incident Commander personally directs all tactical firefighting squads and drives supply delivery trucks directly.",
+          "pamphlet_summary": "The Incident Command System establishes a standardized organizational hierarchy scalable from small spot fires to major disasters. The Incident Commander manages Command Staff while Section Chiefs coordinate tactical operations, future planning, resource logistics, and cost tracking.",
+          "sub_id": "7b",
+          "topic_title": "Incident Command System Structure"
+        }
+      ],
+      "topic_title": "Wildfire Suppression and ICS"
+    },
+    {
+      "fact": "The Pulaski combines an axe blade and an adze trenching grubbing tool, while the McLeod features a scraping blade backed by wide rake tines.",
+      "misconception": "Standard garden spades and rakes are sufficiently durable for cutting wildland fire trenches through rooted brush.",
+      "pamphlet_excerpts": [
+        "Pulaski Versatility: The Pulaski chops thick roots with its axe blade and grubs mineral soil.",
+        "McLeod Scraping: The McLeod rakes loose surface litter and scrapes duff down to mineral earth.",
+        "Fireline Clearance: A complete handline exposes continuous bare mineral soil devoid of flammable organic debris.",
+        "Specialized Apparatus: Type three wildland fire engines carry four-wheel drive and off-road pump and roll capabilities."
+      ],
+      "pamphlet_summary": "Wildland fire crews utilize purpose-built hand tools including the Pulaski, McLeod, and combi-tool to scrape mineral soil and chop roots during line construction. Heavy apparatus such as bulldozers, water tenders, Type 3 brush engines, and air tankers deliver tactical support.",
+      "req_id": "8",
+      "safety_callout": "Carry hand tools at the balance point on the downhill side with sharp cutting edges pointed away from your body.",
+      "socratic_questions": [
+        "Why does a standard wildland fireline require scraping down to clean, bare mineral soil?",
+        "How does a wildland Type 3 fire engine differ functionally from an urban structural pumper?",
+        "In what operational conditions are retardant-dropping air tankers most effective during fire suppression?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Tool Inspection: Inspect wooden handles, tighten loose toolheads, and check sharpness on cutting and scraping edges.",
+        "Step 2 - Stance Spacing: Position crew members at least ten feet apart while walking and swinging heavy fire tools.",
+        "Step 3 - Line Construction: Scrape surface fuels and grub underground roots until reaching a continuous mineral soil strip.",
+        "Step 4 - Equipment Overview: Describe seven mechanized wildland suppression apparatus and air resources to your counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Constructing an effective handline requires clearing surface vegetation and scraping duff down to bare mineral soil.",
+          "misconception": "Cutting tall brush with hand tools without scraping the leaf litter stops a creeping surface fire.",
+          "pamphlet_summary": "Hand crews construct firelines using specialized tools like the Pulaski, McLeod, and Council rake in a coordinated progression. One tool cuts thick roots and brush while trailing tools scrape loose litter to mineral soil.",
+          "sub_id": "8a",
+          "topic_title": "Hand Tools Line Construction"
+        },
+        {
+          "fact": "Helitack crews deploy helicopter water drops, delivery rappellers, and aerial recon to contain remote spot fires rapidly.",
+          "misconception": "Chemical fire retardant dropped from aircraft extinguishes burning brush instantly without requiring ground crew mopup.",
+          "pamphlet_summary": "Wildland firefighting relies on heavy specialized apparatus including bulldozers, tractor-plows, heavy water tenders, and high-clearance brush trucks. Aerial resources drop long-term chemical retardant or foam to cool flaming fronts and slow fire spread for hand crews.",
+          "sub_id": "8b",
+          "topic_title": "Specialized Heavy Fire Apparatus"
+        }
+      ],
+      "topic_title": "Wildfire Suppression Tools Equipment"
+    },
+    {
+      "fact": "Local wildland fire readiness plans identify water sources, access roads, defensible buffers, and evacuation routes across community interfaces.",
+      "misconception": "Wildfire mitigation assessments require professional certification and cannot be practiced at Scout camps or residences.",
+      "pamphlet_excerpts": [
+        "Readiness Mapping: Map water supply points, natural firebreaks, and primary ingress roads across designated wildland areas.",
+        "Agency Engagement: State foresters provide local fire history, regional season lengths, and hazard zoning statistics.",
+        "Firewise Evaluation: Inspect structure foundations for accumulated dry needles and clear flammable woodpiles from perimeter.",
+        "Weather Monitoring: Fire meteorologists track atmospheric instability, Haines Index scores, and relative humidity trends daily."
+      ],
+      "pamphlet_summary": "Scouts take proactive wildfire prevention action by drafting comprehensive area readiness plans, conducting structural Firewise evaluations, or interviewing regional fire specialists. Preparing community risk maps and examining localized weather patterns reinforces personal responsibility within wildland-urban interface environments.",
+      "req_id": "9",
+      "safety_callout": "Obtain property owner permission before conducting building assessments and stay clear of active hazard trees or machinery.",
+      "socratic_questions": [
+        "What specific topographic features on a local map serve as natural barriers during a wildfire?",
+        "How does inspecting combustible items within five feet of a home reduce structure ignition risks?",
+        "What weather indicators prompt national weather services to issue Red Flag Warnings locally?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Option Selection: Select one specific action project covering planning, official interviews, Firewise auditing, or weather study.",
+        "Step 2 - Field Assessment: Conduct on-site inspections, map critical geographic resources, or formulate detailed technical interview questions.",
+        "Step 3 - Data Synthesis: Compile mapped firebreaks, interview transcripts, structure hazard checklists, or local fire meteorology charts.",
+        "Step 4 - Counselor Presentation: Present your completed readiness deliverable and actionable local fire prevention recommendations to your counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "A wildland readiness map highlights primary access routes, helicopter dip sites, fire hydrants, and natural ridgeline barriers.",
+          "misconception": "Fire response plans only need to list the local municipal emergency telephone number for safety.",
+          "pamphlet_summary": "Developing a readiness plan requires mapping local natural firebreaks, surface water supplies, locked gates, and primary road corridors. The plan outlines resource staging locations and emergency evacuation corridors for personnel and nearby residents.",
+          "sub_id": "9a",
+          "topic_title": "Wildland Area Readiness Plan"
+        },
+        {
+          "fact": "State foresters monitor local fuel moisture levels to dictate seasonal burn bans and equipment operation restrictions.",
+          "misconception": "Local fire seasons occur at the exact same calendar dates regardless of regional weather patterns.",
+          "pamphlet_summary": "Meeting with state forestry officials or municipal fire wardens provides insight into localized wildfire ignition trends and fire seasons. Officials explain common human cause factors and enforcement mechanisms for municipal open burning ordinances.",
+          "sub_id": "9b",
+          "topic_title": "Forestry Official Agency Consultation"
+        },
+        {
+          "fact": "The Firewise program identifies the home ignition zone starting with the non-combustible zero-to-five-foot perimeter around foundations.",
+          "misconception": "A structure assessment focuses only on the interior fire extinguishers and indoor electrical breaker boxes.",
+          "pamphlet_summary": "Conducting a Firewise property audit evaluates the structure ignition zone, flammable roof materials, and foundation vegetation clearances. The assessment identifies accumulated combustible debris on decks, unscreened attic vents, and firewood stacks placed against exterior walls.",
+          "sub_id": "9c",
+          "topic_title": "Firewise Interface Home Assessment"
+        },
+        {
+          "fact": "Effective fire prevention campaigns deliver concise, actionable guidance regarding campfire safety and lawnmower operation hours.",
+          "misconception": "Public fire prevention posters only need catchy slogans without providing concrete safety mitigation actions.",
+          "pamphlet_summary": "Meeting with fire prevention specialists reveals proven public education campaigns designed to curb human-caused wildland ignitions. Scouts design educational posters, social messages, or audio announcements teaching campfire safety and vehicle spark prevention.",
+          "sub_id": "9d",
+          "topic_title": "Community Fire Prevention Education"
+        },
+        {
+          "fact": "Red Flag Warnings are triggered by combinations of relative humidity below fifteen percent and high wind speeds.",
+          "misconception": "Hot sunny days always create extreme fire weather even during calm winds and high humidity.",
+          "pamphlet_summary": "Consulting with a meteorologist reveals how low relative humidity, dry lightning, and gusty winds elevate fire danger. Scouts examine local weather monitoring stations, drought indexes, and atmospheric stability indicators influencing erratic wildland fire behavior.",
+          "sub_id": "9e",
+          "topic_title": "Fire Weather Meteorological Factors"
+        }
+      ],
+      "topic_title": "Wildfire Preparedness Action Projects"
+    },
+    {
+      "fact": "The 1949 Mann Gulch Fire claimed the lives of thirteen smokejumpers when an unexpected blowout trapped them on a steep grassy slope.",
+      "misconception": "Historic fire disasters occurred purely because firefighters lacked modern radios and motorized transport equipment.",
+      "pamphlet_excerpts": [
+        "Mann Gulch Blowout: Rapidly spreading grass fires in steep gulches can overtake retreating firefighters uphill.",
+        "Escape Fire Innovation: Foreman Wag Dodge lit an escape fire to create an unburnable safety zone.",
+        "Weather Shifts: Sudden cold front passages cause drastic wind direction reversals that expand fire flanks.",
+        "Tragic Lessons: Disasters resulted in the establishment of the Ten Standard Firefighting Orders."
+      ],
+      "pamphlet_summary": "Analyzing catastrophic fires such as Mann Gulch, Storm King Mountain, or Yarnell Hill illuminates critical lessons in extreme fire behavior and human decision making. These fatal incidents prompted radical overhauls in federal training, weather forecasting, safety equipment, and command communications.",
+      "req_id": "10",
+      "safety_callout": "Treat every historic burn incident analysis with solemn respect for fallen personnel and honor established safety doctrines.",
+      "socratic_questions": [
+        "What weather and topographic factors contributed to the tragic blowout at Mann Gulch?",
+        "Why was the concept of an escape fire misunderstood by the crew at Mann Gulch?",
+        "How did the lessons learned from fatal historic incidents reshape modern wildland firefighter safety orders?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Incident Selection: Select an historic wildland fire tragedy like Mann Gulch, South Canyon, or Yarnell Hill.",
+        "Step 2 - Environment Review: Analyze fuel conditions, drought indices, slope topography, and weather shifts influencing fire behavior.",
+        "Step 3 - Decision Critique: Examine crew communications, lookout positioning, escape route choices, and incident leadership decisions critically.",
+        "Step 4 - Discussion Delivery: Lead a patrol discussion presenting the tragic incident timeline and lasting modern safety reforms."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Historic Wildland Fire Analysis"
+    },
+    {
+      "fact": "Wildland fire careers include hotshot crew members, smokejumpers, wildland fire investigators, and certified fire behavior analysts.",
+      "misconception": "Wildland firefighting jobs only offer temporary summer employment digging ditches with no long-term professional paths.",
+      "pamphlet_excerpts": [
+        "Operational Roles: Hotshot crews and smokejumpers perform arduous frontline initial attack and line construction.",
+        "Technical Specialists: Fire behavior analysts use physics models to forecast fire front movement and intensity.",
+        "Educational Pathways: Forestry degrees and federal NWCG certifications prepare professionals for advanced command staff positions.",
+        "Arduous Pack Test: Firefighters must pass the forty-five-pound pack test over three miles annually."
+      ],
+      "pamphlet_summary": "Wildland fire management offers diverse professional opportunities spanning initial attack smokejumping, heavy machine operations, fire ecology research, and emergency command leadership. Career paths require specialized National Wildfire Coordinating Group certifications, forestry or fire science degrees, and rigorous physical fitness qualifications.",
+      "req_id": "11",
+      "safety_callout": "Participate in physical fitness preparation for wildland careers gradually under proper medical clearance and hydration protocols.",
+      "socratic_questions": [
+        "What technical training distinguishes an interagency hotshot crew member from an engine crew firefighter?",
+        "How does a fire behavior analyst combine meteorological data and computer modeling to support incident commanders?",
+        "What educational degrees and certifications best position a candidate for long-term career advancement in wildland management?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Selection: Select one specific wildland fire profession such as fire ecologist, smokejumper, or forester.",
+        "Step 2 - Qualifications Research: Research required NWCG task books, civil service qualifications, college degrees, and physical prerequisites.",
+        "Step 3 - Economic Evaluation: Document entry-level wages, seasonal employment structures, gear costs, and long-term career promotional pathways.",
+        "Step 4 - Counselor Discussion: Review your researched wildland career profile and personalized educational preparation strategy with your counselor."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Wildland Fire Career Pathways"
+    }
+  ]
+}

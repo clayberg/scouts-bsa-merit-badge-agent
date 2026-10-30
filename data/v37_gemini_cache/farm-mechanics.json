@@ -1,0 +1,310 @@
+{
+  "requirements": [
+    {
+      "fact": "Personal protective equipment must be chosen based on specific chemical and mechanical shop hazards.",
+      "misconception": "Standard sunglasses provide sufficient optical protection when grinding or handling caustic shop chemicals.",
+      "pamphlet_excerpts": [
+        "Eye Protection Standards: Impact resistant safety glasses shield eyes against high speed flying metal fragments.",
+        "Protective Footwear Guidelines: Steel toe leather boots guard feet against heavy dropped machine parts.",
+        "Respiratory Mask Requirements: Dual cartridge respirators filter toxic solvent vapors during parts degreasing procedures.",
+        "Hand Safety Rules: Heavy leather gloves protect hands during metal grinding and torch cutting."
+      ],
+      "pamphlet_summary": "Farm equipment repair requires personal protective gear tailored to chemical, thermal, and mechanical hazards present in modern agricultural workshops. Technicians must inspect safety guards, emergency shutoffs, and fire extinguishers before starting machine service.",
+      "req_id": "1",
+      "safety_callout": "Remove all rings, wristwatches, and loose clothing before servicing rotating power takeoff shafts or belt drives.",
+      "socratic_questions": [
+        "Why do standard prescription glasses fail to qualify as approved agricultural shop safety eye protection?",
+        "How do specific shop floor layout zones minimize collision hazards between tractors and service technicians?",
+        "What immediate chemical hazard information does a standard sixteen section safety data sheet convey?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Gear Selection: Don chemical goggles and nitrile gloves before uncapping any hydraulic fluid reservoirs.",
+        "Step 2 - Floor Inspection: Clear all oil slicks and metal scrap from the active service bay floor.",
+        "Step 3 - Shield Verification: Confirm all protective guards on grinder wheels and drill presses remain securely fastened.",
+        "Step 4 - Emergency Check: Locate the charged dry chemical fire extinguisher before starting any torch operation."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Untucked shirts or loose sleeves easily wrap around spinning tractor shafts causing severe injury.",
+          "misconception": "Loose cotton clothing keeps mechanics cooler without presenting any moving machine entanglement risk.",
+          "pamphlet_summary": "Agricultural mechanics rely on close-fitting coveralls, heavy leather boots, and industrial eye protection to prevent catastrophic entanglement and impact injuries. Technicians must match respirator filter ratings to specific airborne solvents, paint fumes, and diesel exhaust.",
+          "sub_id": "1a",
+          "topic_title": "Personal Protective Equipment Standards"
+        },
+        {
+          "fact": "Federal safety codes mandate unobstructed three-foot clearance radii around all electrical disconnect panels.",
+          "misconception": "Shop safety equipment can be stored anywhere as long as workers know where it sits.",
+          "pamphlet_summary": "A functional farm service shop features clearly marked walkways, dedicated welding ventilation bays, and illuminated emergency egress routes. Flammable chemical cabinets, eyewash stations, and heavy machinery lifts must follow strict clearance guidelines.",
+          "sub_id": "1b",
+          "topic_title": "Farm Shop Layout Planning"
+        },
+        {
+          "fact": "Orange warning labels indicate potential hazards that could result in death or serious injury.",
+          "misconception": "Safety decals on agricultural machinery use colors purely for visual brand styling.",
+          "pamphlet_summary": "Universal safety decals communicate immediate hazard severities through standardized caution yellow, warning orange, and danger red backgrounds. Operators must replace damaged or illegible pictograms immediately to preserve operational warnings.",
+          "sub_id": "1c",
+          "topic_title": "Universal Equipment Safety Symbols"
+        },
+        {
+          "fact": "Safety data sheets provide emergency first aid instructions and personal protective equipment specifications.",
+          "misconception": "Product labels provide all necessary emergency medical treatment instructions for chemical ingestion.",
+          "pamphlet_summary": "Safety data sheets detail sixteen standardized sections covering chemical composition, handling limits, fire hazards, and spill neutralization methods. Agricultural shops must maintain organized binders containing sheets for all lubricants, fuels, coolants, and cleaners.",
+          "sub_id": "1d",
+          "topic_title": "Chemical Safety Data Sheets"
+        }
+      ],
+      "topic_title": "Farm Shop Safety Systems"
+    },
+    {
+      "fact": "High compression heats trapped air above the ignition point of injected fuel oil.",
+      "misconception": "Diesel engines ignite fuel using high-voltage spark plugs similar to gasoline engines.",
+      "pamphlet_excerpts": [
+        "Compression Ignition Principles: Diesel cylinders compress air until extreme heat ignites atomized fuel oil.",
+        "Hydraulic Force Transfer: Incompressible hydraulic oil transmits force through high pressure lines to cylinders.",
+        "Planetary Gear Operation: Planetary gearsets multiply engine torque to rotate drive axles under load.",
+        "Fluid Reservoir Purpose: Reservoirs store excess oil while dissipating heat and releasing entrained air."
+      ],
+      "pamphlet_summary": "Modern tractors combine diesel compression ignition, high pressure fluid power circuits, and multi-speed gearboxes to deliver tractive effort. Understanding energy transformation across thermodynamic, fluid dynamic, and mechanical drive paths enables efficient field troubleshooting.",
+      "req_id": "2",
+      "safety_callout": "Relieve residual hydraulic line pressure before cracking open any fittings or disconnecting implement quick couplers.",
+      "socratic_questions": [
+        "How does thermal expansion in a diesel cylinder generate rotational crankshaft torque?",
+        "Why does air contamination reduce the operational force output of hydraulic actuators?",
+        "What mechanical advantage allows low engine torque to pull heavy tillage implements?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Diesel Tracing: Trace diesel fuel flow from supply tank through primary filter to injectors.",
+        "Step 2 - Pump Inspection: Locate the engine-driven hydraulic pump and identify the high pressure outlet tube.",
+        "Step 3 - Valve Operation: Shift the directional spool valve to observe fluid extension of hydraulic cylinders.",
+        "Step 4 - Gear Engagement: Select lower transmission gears to observe increased axle torque and reduced wheel speed."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Diesel engine cylinders operate at compression ratios exceeding sixteen to one without spark plugs.",
+          "misconception": "Diesel fuel ignites spontaneously at room temperature without requiring heat or compression.",
+          "pamphlet_summary": "Four-stroke diesel engines draw fresh air into the cylinder, compress it to extreme pressures, and inject atomized fuel directly into the superheated air mass. Rapid fuel expansion forces the piston downward to rotate the heavy steel crankshaft.",
+          "sub_id": "2a",
+          "topic_title": "Diesel Compression Ignition Cycles"
+        },
+        {
+          "fact": "Pascal principle states that confined fluid pressure acts equally in all directions throughout a container.",
+          "misconception": "Hydraulic systems compress oil to store energy like a mechanical steel spring.",
+          "pamphlet_summary": "Hydraulic systems convert mechanical engine rotation into fluid pressure using fixed or variable displacement pumps. Pressurized oil travels through control valves to push linear cylinder pistons or rotate hydraulic drive motors.",
+          "sub_id": "2b",
+          "topic_title": "Fluid Power Transmission Circuits"
+        },
+        {
+          "fact": "Clutches decouple engine flywheel rotation from transmission input shafts to prevent gear clash.",
+          "misconception": "Tractor transmissions only change vehicle travel speed without altering output wheel torque.",
+          "pamphlet_summary": "Mechanical transmissions employ countershaft gears, synchronizers, or planetary packs to alter torque and speed ratios between engine and drive wheels. Differential units divide torque evenly between drive tires while allowing independent wheel speeds during turns.",
+          "sub_id": "2c",
+          "topic_title": "Mechanical Drivetrain Power Flow"
+        }
+      ],
+      "topic_title": "Agricultural Machinery Power Systems"
+    },
+    {
+      "fact": "A mushroomed chisel head can shatter under hammer blows and send metal shrapnel flying.",
+      "misconception": "A mushroomed chisel head provides a larger, safer striking target for shop hammers.",
+      "pamphlet_excerpts": [
+        "Wood Wedge Fitting: Hardwood wedges spread tool handle tenons firmly against steel eye walls.",
+        "Fastener Sizing Systems: Thread pitch gauges identify bolt thread counts before hardware cabinet sorting.",
+        "Chisel Dressing Technique: Hand files dress mushroomed tool heads back to original chamfered edge profiles.",
+        "Screwdriver Blade Profiles: Flat file strokes create parallel screwdriver tip faces that grip screw slots."
+      ],
+      "pamphlet_summary": "Agricultural hand tool maintenance requires regular restoration of wooden handles, striking surfaces, and driving tips to ensure safe operation. Systematic storage of nuts, bolts, and washers prevents equipment repair delays and fastener mismatches.",
+      "req_id": "3",
+      "safety_callout": "Clamp struck tools in a heavy bench vise before using a file on mushroomed metal heads.",
+      "socratic_questions": [
+        "Why does an improperly seated wooden wedge cause a hammer head to fly loose?",
+        "How do mixed metric and customary hardware bins cause catastrophic machine failures?",
+        "What causes hardened steel punch striking caps to spread into dangerous mushroomed rims?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Head Securing: Secure the damaged steel chisel vertically inside heavy serrated bench vise jaws.",
+        "Step 2 - Metal Filing: File mushroomed rim metal downward until establishing original factory steel bevel angles.",
+        "Step 3 - Edge Smoothing: Chamfer the outer striking crown perimeter using smooth forward diagonal file strokes.",
+        "Step 4 - Surface Check: Run shop towels across dressed steel to confirm removal of sharp burrs."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Steep grain runout on replacement wood handles creates weak points that snap under heavy shock.",
+          "misconception": "Any hardwood branch from the farm woodlot works reliably as a sledgehammer handle.",
+          "pamphlet_summary": "Replacing tool handles involves boring out old wood, shaping the new hickory or ash tenon to fit the tool eye, and driving wedges. Proper grain orientation along the line of swing prevents premature handle fracture under heavy impact.",
+          "sub_id": "3a",
+          "topic_title": "Striking Tool Handle Replacement"
+        },
+        {
+          "fact": "Grade five bolts possess three radial slash markings on their hexagonal heads indicating tensile strength.",
+          "misconception": "Hardware diameter determines total fastener load rating regardless of alloy grade markings.",
+          "pamphlet_summary": "Fastener organization relies on divided bins indexed by diameter, thread pitch, length, and grade hardness ratings. Storing washers and nuts adjacent to corresponding bolt diameters speeds emergency field repairs during planting and harvest seasons.",
+          "sub_id": "3b",
+          "topic_title": "Shop Fastener Storage Organization"
+        },
+        {
+          "fact": "Filing away mushroomed metal edges removes work-hardened steel before brittle slivers detach violently.",
+          "misconception": "Hammer heads and cold chisels share identical metal hardness across striking surfaces.",
+          "pamphlet_summary": "Repeated hammer strikes mushroom cold chisel crowns into ragged flanges of brittle, work-hardened steel. Mechanics clamp the chisel in a vise and file the crown back to its original chamfered profile without overheating the metal.",
+          "sub_id": "3c",
+          "topic_title": "Cold Chisel Crown Dressing"
+        },
+        {
+          "fact": "Rounded screwdriver tips slip from screw slots and strip fastener drive recesses completely.",
+          "misconception": "Tapering screwdriver tips into sharp knife edges helps them enter shallow screw slots.",
+          "pamphlet_summary": "Worn flat-blade screwdrivers slip out of screw slots, burring fastener heads and endangering hands. Filing the tip square with parallel sides restores crisp engagement with screw drive recesses.",
+          "sub_id": "3d",
+          "topic_title": "Screwdriver Blade Tip Restoration"
+        }
+      ],
+      "topic_title": "Farm Tool Maintenance Techniques"
+    },
+    {
+      "fact": "Pumping grease too rapidly or overfilling joints ruptures rubber dust seals and admits grit.",
+      "misconception": "Pumping grease into a fitting until grease overflows guarantees the joint is properly lubricated.",
+      "pamphlet_excerpts": [
+        "Grease Gun Calibration: Manual grease guns deliver specific ounce volumes per lever stroke during lubrication.",
+        "Engine Oil Degradation: Heat and soot deplete engine oil additive packages during heavy fieldwork.",
+        "Dry Air Filtration: Compressed air bursts can tear microscopic filter paper pores, allowing dirt entry.",
+        "Cooling Fin Clearing: Clogged radiator fins reduce airflow, causing severe engine overheating during tillage."
+      ],
+      "pamphlet_summary": "Comprehensive machinery preventive maintenance protects expensive engines, gearboxes, and cooling cores from premature abrasive wear and thermal breakdown. Establishing rigorous preoperational walkaround routines identifies loose hardware, fluid leaks, and low charge states before field operations commence.",
+      "req_id": "4",
+      "safety_callout": "Lock out engine ignitions and lower all hydraulic implements to ground contact before greasing equipment.",
+      "socratic_questions": [
+        "How does clean engine oil neutralize acids formed during diesel fuel combustion?",
+        "Why does dirty engine cooling fin blockages rapidly lead to catastrophic cylinder scoring?",
+        "What specific voltage threshold indicates a lead-acid battery requires immediate bench charging?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Fitting Prep: Wipe grease zerks clean using clean cotton rags before attaching grease couplers.",
+        "Step 2 - Lube Delivery: Pump recommended grease into suspension fittings until new lubricant slightly purges seals.",
+        "Step 3 - Drain Execution: Remove crankcase oil drain plugs over catch pans while engines remain warm.",
+        "Step 4 - Filter Install: Lubricate new oil filter rubber gaskets with fresh engine oil before hand-tightening."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Spin-on oil filters require only three-quarters turn past initial gasket contact for reliable sealing.",
+          "misconception": "Tightening oil filters with heavy metal strap wrenches prevents high pressure fluid leaks.",
+          "pamphlet_summary": "Routine machine servicing entails draining hot crankcase oil, replacing spin-on filters, cleaning dry air filter canisters, and flushing radiator fins. Flushing dirt from grease fittings prior to coupler engagement prevents pumping abrasive grit directly into bearing assemblies.",
+          "sub_id": "4a",
+          "topic_title": "Engine Fluid Lubrication Service"
+        },
+        {
+          "fact": "A static battery resting voltage of twelve point two volts indicates fifty percent discharge.",
+          "misconception": "Dashboard warning lights illuminate immediately when engine oil levels drop below safe thresholds.",
+          "pamphlet_summary": "Preoperational inspections require physical dipstick fluid checks, coolant level verification in expansion tanks, and multimeter battery voltage readings. Verifying tire pressures and hydraulic hose conditions prevents roadside breakdowns and field downtime.",
+          "sub_id": "4b",
+          "topic_title": "Preoperational Machinery Inspection Checklists"
+        },
+        {
+          "fact": "Stabilizing stored fuel prevents varnish buildup that clogs carburetor jets and fuel injector nozzles.",
+          "misconception": "Parking machinery under outdoor canvas tarps protects internal engine parts from winter condensation.",
+          "pamphlet_summary": "Preparing farm machines for winter storage involves washing corrosive fertilizers, treating fuel with chemical stabilizers, and fogging cylinders. Relieving tension on rubber drive belts and blocking equipment off tires prevents flat-spotting and ozone cracking.",
+          "sub_id": "4c",
+          "topic_title": "Winter Machinery Storage Preparation"
+        }
+      ],
+      "topic_title": "Machinery Preventive Maintenance Operations"
+    },
+    {
+      "fact": "Scheduled preventive maintenance costs significantly less than emergency field repairs during planting season.",
+      "misconception": "Operating machinery until parts break down completely is cheaper than performing scheduled maintenance.",
+      "pamphlet_excerpts": [
+        "Dealership Service Interviews: Master technicians explain component wear patterns caused by abrasive agricultural soil particles.",
+        "Lubrication Interval Value: Scheduled grease cycles prevent costly premature bearing failure across tillage equipment.",
+        "Fluid Analysis Benefits: Spectrographic oil testing reveals internal bronze and iron bushing wear patterns early.",
+        "Equipment Downtime Costs: In-season machine breakdowns produce severe financial losses through delayed planting operations."
+      ],
+      "pamphlet_summary": "Interviewing implement dealership service managers exposes the financial balance between scheduled maintenance expenditures and catastrophic field breakdown expenses. Dealership technicians emphasize that abrasive dirt contamination, inadequate lubrication, and uncorrected vibrations cause the majority of major mechanical failures.",
+      "req_id": "5",
+      "safety_callout": "Stay behind designated yellow customer walkways and wear safety glasses when entering dealership repair service bays.",
+      "socratic_questions": [
+        "How does unmonitored bearing play cause cascading gear tooth destruction inside tractor gearboxes?",
+        "Why do implement dealerships rely on scheduled fluid sampling rather than fixed calendar dates?",
+        "What hidden labor and logistical costs make mobile in-field mechanical repairs extremely expensive?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Interview Booking: Contact the dealership service manager to schedule an informative shop maintenance interview.",
+        "Step 2 - Question Prep: Draft specific technical questions regarding common harvest season combine breakdown causes.",
+        "Step 3 - Facility Walk: Walk designated service bays observing specialized hydraulic diagnostic benches and calibration tools.",
+        "Step 4 - Report Synthesis: Document technician insights comparing scheduled upkeep costs against catastrophic in-season repairs."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Implement Dealership Maintenance Consultation"
+    },
+    {
+      "fact": "Over-tightening flared hydraulic fittings crushes the brass or steel flare cone and induces leaks.",
+      "misconception": "Tightening hydraulic fittings as hard as possible with a cheater pipe stops stubborn leaks.",
+      "pamphlet_excerpts": [
+        "Backup Wrench Usage: Mechanics hold fixed adapter bodies while torquing hydraulic hose swivel nuts.",
+        "Air Element Inspection: Backlighting paper filter elements reveals tiny pinhole tears admitting engine grit.",
+        "Bench Grinder Safety: Wire wheels fling broken steel bristles at extreme velocities during workpiece cleaning.",
+        "Thread Sealant Rules: Tapered pipe threads require liquid paste sealant rather than shredded teflon tape."
+      ],
+      "pamphlet_summary": "Agricultural mechanics must follow exact mechanical protocols when torquing high pressure hydraulic couplings, inspecting paper air elements, or using rotary wire wheels. Proper tool selection, such as dual wrenches on hose swivels, prevents twisted hoses and dangerous high pressure fluid leaks.",
+      "req_id": "6",
+      "safety_callout": "Wear a full-face shield and leather apron when cleaning rusted steel parts on rotating wire-brush wheels.",
+      "socratic_questions": [
+        "Why does twisting a hydraulic hose while tightening its fitting cause premature line rupture?",
+        "How does high-pressure compressed air ruin the microscopic filtration pores of pleated paper elements?",
+        "What forces cause loose wire wheel bristles to penetrate standard cotton shop shirts?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Wrench Placement: Place an open-end wrench on the fixed hydraulic connector body hex.",
+        "Step 2 - Swivel Engagement: Fit a flare nut wrench over the hose swivel fitting nut.",
+        "Step 3 - Thread Alignment: Thread the fitting by hand to avoid cross-threading fine hydraulic threads.",
+        "Step 4 - Final Torquing: Tighten the swivel nut to specified torque while holding the body motionless."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Using two wrenches prevents twisting the internal wire reinforcement braids of flexible hydraulic hoses.",
+          "misconception": "Teflon tape wrapped on flared hydraulic threads seals high-pressure oil leaks reliably.",
+          "pamphlet_summary": "Tightening hydraulic fittings requires two matching wrenches to avoid twisting reinforced rubber hoses or damaging connector flare seats. Mechanics hand-thread nuts until snug before applying specified torque to create metal-to-metal high pressure seals.",
+          "sub_id": "6a",
+          "topic_title": "Hydraulic Hose Fitting Assembly"
+        },
+        {
+          "fact": "Tapping paper filter ends lightly dislodges loose dust without tearing delicate pleated media fibers.",
+          "misconception": "Washing paper air filter elements with diesel fuel restores factory air flow capacity.",
+          "pamphlet_summary": "Air cleaner inspection involves wiping canister seals, checking vacuum restriction gauges, and examining pleated paper elements against bright light. Pinholes or ruptured rubber end gaskets allow abrasive silica dust to enter engine cylinders, destroying rings.",
+          "sub_id": "6b",
+          "topic_title": "Engine Air Filter Servicing"
+        },
+        {
+          "fact": "Holding workpieces below wheel centerlines prevents spinning wire bristles from violently kicking parts upward.",
+          "misconception": "Worn wire wheels can be operated safely without wheel guards or spark arrestors.",
+          "pamphlet_summary": "Cleaning rusty components on a motorized wire-brush wheel requires rigid tool rest adjustment within one-eighth inch of bristles. Technicians hold workpieces firmly below wheel centerlines to prevent bristles from snagging metal parts from their grip.",
+          "sub_id": "6c",
+          "topic_title": "Rotary Wire Wheel Deburring"
+        }
+      ],
+      "topic_title": "Standard Shop Maintenance Procedures"
+    },
+    {
+      "fact": "Modern equipment technicians must master digital CAN-bus diagnostics alongside traditional engine and transmission repair.",
+      "misconception": "Farm mechanics work solely with manual hand tools and rarely use computerized diagnostic equipment.",
+      "pamphlet_excerpts": [
+        "Agricultural Service Techs: Mobile technicians diagnose complex electro-hydraulic systems on modern GPS-guided tractors and combines.",
+        "Heavy Equipment Mechanics: Dealership specialists overhaul diesel powerplants, planetary transmissions, and hydrostatic drive pumps.",
+        "Custom Fabricator Roles: Agricultural welders design and fabricate specialized livestock handling gates and tillage frames.",
+        "Certification Pathway Steps: Technical colleges provide two-year associate degrees paired with manufacturer equipment apprenticeships."
+      ],
+      "pamphlet_summary": "Agricultural equipment mechanics combines traditional diesel engine overhaul, hydraulic circuit engineering, and modern satellite telematics troubleshooting. Pursuing a career in farm mechanics requires technical college education, dealership apprenticeships, and continuing manufacturer certifications.",
+      "req_id": "7",
+      "safety_callout": "Wear steel-toe footwear and high-visibility vests when shadowing technicians in busy commercial repair facilities.",
+      "socratic_questions": [
+        "How has computerized variable-rate planting technology transformed the job skills modern farm technicians need?",
+        "What advantages does completing a formal manufacturer service apprenticeship offer over unaccredited on-the-job training?",
+        "Why is a thorough grasp of electrical schematics essential for modern diesel technicians?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Exploration: Research three agricultural mechanic disciplines including mobile service tech and dealership rebuilder.",
+        "Step 2 - Specialty Selection: Select mobile field service technician as a target career for in-depth educational study.",
+        "Step 3 - Program Research: Investigate regional community college diesel technology associate degrees and dealer sponsorship options.",
+        "Step 4 - Counselor Discussion: Review required mechanical certifications and career advancement paths during your counselor meeting."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Farm Mechanics Career Pathways"
+    }
+  ]
+}

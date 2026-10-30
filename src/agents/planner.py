@@ -1474,26 +1474,38 @@ def _build_slide_teaching_notes(
         ask_block = (
             f"[ASK SCOUTS FIRST] Compare a vague one-line note with this worked example for \"{clean_title}\": what specific detail in {topic_1} makes this log ready for {clean_badge} {req_display_label} sign-off?"
         )
-    elif len(dedup_topics) >= 2:
-        general_asks_plural = [
-            f"[ASK SCOUTS FIRST] How do {topic_1} and {topic_2} reinforce each other in {clean_badge} {req_display_label}, and where would your patrol apply both on a troop outing?",
-            f"[ASK SCOUTS FIRST] If a younger Scout asked you why {topic_1} matters alongside {topic_2} in {clean_badge} {req_display_label}, what real-world example would you give first?",
-            f"[ASK SCOUTS FIRST] What is the practical connection between {topic_1} and {topic_2} during \"{clean_title},\" and what field clue tells you both are working?",
-            f"[ASK SCOUTS FIRST] Before we unpack the cards on screen, how would your buddy pair use {topic_1} and {topic_2} to solve a real problem in {clean_badge} {req_display_label}?",
-            f"[ASK SCOUTS FIRST] Between {topic_1} and {topic_2} on this slide, which one requires the most preparation ahead of time for {clean_badge} {req_display_label}, and why?",
-            f"[ASK SCOUTS FIRST] When evaluating {clean_title} ({clean_badge} {req_display_label}), how does mastering {topic_1} prepare your patrol to handle {topic_2}?",
-        ]
-        ask_block = general_asks_plural[tpl_idx]
     else:
-        general_asks_singular = [
-            f"[ASK SCOUTS FIRST] How does {topic_1} apply in {clean_badge} {req_display_label}, and where can your patrol see its impact on a real Scouting activity?",
-            f"[ASK SCOUTS FIRST] Why is {topic_1} a core requirement in {clean_badge} {req_display_label}, and what field sign shows a Scout has mastered it?",
-            f"[ASK SCOUTS FIRST] If you had to coach a Tenderfoot buddy on {topic_1} for {clean_badge} {req_display_label}, what is the very first check you would show them?",
-            f"[ASK SCOUTS FIRST] What makes {topic_1} essential during \"{clean_title},\" and how do you verify it under real outdoor conditions?",
-            f"[ASK SCOUTS FIRST] Before we review the pamphlet standard for {clean_badge} {req_display_label}, what is the most important rule to remember about {topic_1}?",
-            f"[ASK SCOUTS FIRST] How does understanding {topic_1} help your patrol stay prepared and effective during {clean_badge} {req_display_label}?",
+        curated_socratic = [
+            _sanitize_no_ellipsis_or_emdash(str(q).strip())
+            for q in (req_data.get("socratic_questions") or [])
+            if str(q).strip() and len(str(q).strip()) >= 25
         ]
-        ask_block = general_asks_singular[tpl_idx]
+        if curated_socratic and slide_idx_in_req < len(curated_socratic):
+            q_base = curated_socratic[slide_idx_in_req].rstrip("?.! ") + "?"
+            if slide_idx_in_req == 0:
+                ask_block = f"[ASK SCOUTS FIRST] {q_base}"
+            else:
+                ask_block = f"[ASK SCOUTS FIRST] {q_base} (Focus on {topic_1} and {topic_2} in {req_display_label}.)"
+        elif len(dedup_topics) >= 2:
+            general_asks_plural = [
+                f"[ASK SCOUTS FIRST] How do {topic_1} and {topic_2} reinforce each other in {clean_badge} {req_display_label}, and where would your patrol apply both on a troop outing?",
+                f"[ASK SCOUTS FIRST] If a younger Scout asked you why {topic_1} matters alongside {topic_2} in {clean_badge} {req_display_label}, what real-world example would you give first?",
+                f"[ASK SCOUTS FIRST] What is the practical connection between {topic_1} and {topic_2} during \"{clean_title},\" and what field clue tells you both are working?",
+                f"[ASK SCOUTS FIRST] Before we unpack the cards on screen, how would your buddy pair use {topic_1} and {topic_2} to solve a real problem in {clean_badge} {req_display_label}?",
+                f"[ASK SCOUTS FIRST] Between {topic_1} and {topic_2} on this slide, which one requires the most preparation ahead of time for {clean_badge} {req_display_label}, and why?",
+                f"[ASK SCOUTS FIRST] When evaluating {clean_title} ({clean_badge} {req_display_label}), how does mastering {topic_1} prepare your patrol to handle {topic_2}?",
+            ]
+            ask_block = general_asks_plural[tpl_idx]
+        else:
+            general_asks_singular = [
+                f"[ASK SCOUTS FIRST] How does {topic_1} apply in {clean_badge} {req_display_label}, and where can your patrol see its impact on a real Scouting activity?",
+                f"[ASK SCOUTS FIRST] Why is {topic_1} a core requirement in {clean_badge} {req_display_label}, and what field sign shows a Scout has mastered it?",
+                f"[ASK SCOUTS FIRST] If you had to coach a Tenderfoot buddy on {topic_1} for {clean_badge} {req_display_label}, what is the very first check you would show them?",
+                f"[ASK SCOUTS FIRST] What makes {topic_1} essential during \"{clean_title},\" and how do you verify it under real outdoor conditions?",
+                f"[ASK SCOUTS FIRST] Before we review the pamphlet standard for {clean_badge} {req_display_label}, what is the most important rule to remember about {topic_1}?",
+                f"[ASK SCOUTS FIRST] How does understanding {topic_1} help your patrol stay prepared and effective during {clean_badge} {req_display_label}?",
+            ]
+            ask_block = general_asks_singular[tpl_idx]
 
     # 3. [EXPECTED PAMPHLET ANSWER KEY] — Scoped sub-requirements & rotated pamphlet excerpts
     sub_reqs = list(req_data.get("sub_requirements") or [])

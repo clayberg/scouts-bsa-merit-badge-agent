@@ -12,7 +12,7 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Golf Course Safety and First Aid | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Golf Merit Badge Pamphlet (p. 53, p. 55) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Course Safety and First Aid | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Golf Merit Badge Pamphlet (p. 53, p. 55) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2b(1)** | Disc Golf: PDGA Rules, Courtesy (812) & Scoring (808) | Explain | `In-Class Discussion` | **In-Class Demonstration** | Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2b(3)** | Disc Golf: Ed Headrick, Disc Design Evolution & Fitness | Explain | `In-Class Discussion` | **In-Class Demonstration** | Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2b(5)** | Disc Golf: Grips, X-Step, Backhand, Forehand, Roller & Putting | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -31,12 +31,12 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Golf Course Safety and First Aid
+### Req 1: Course Safety and First Aid
 **Official Requirement 1:** Discuss safety on the golf course. Show that you know first aid for injuries or illnesses that could occur while golfing, including lightning, heat reactions, sunburn, dehydration, blisters, animal or bug bites, poison ivy exposure, sprains, and strains.
 **Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 53, p. 55)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
-> **Guide to Safe Scouting Warning:** Complete a dynamic warm-up, check that the swing or play zone is clear of bystanders before demonstrating golf course safety and first aid for Golf Requirement 1, and hydrate regularly according to BSA Sports and Fitness guidelines.
-- **Common Myth:** Licking dirt off a golf ball or holding a used wooden tee in your mouth is a harmless way to keep gear clean during a round.
-- **Pamphlet Fact:** Golf courses are treated with fertilizers, pesticides, and weed killers that cling to balls and tees and can cause serious illnesses like hepatitis if ingested (p. 53).
+> **Guide to Safe Scouting Warning:** Clear the course immediately when thunder sounds or lightning detection sirens activate, never seeking shelter under isolated trees.
+- **Common Myth:** Golf carts provide complete protection from lightning strikes during sudden thunderstorms on open fairways.
+- **Pamphlet Fact:** Golf carts lack rubber enclosed insulation and offer zero protection against direct lightning strikes.
 
 ![Scouts and counselor demonstrate Golf Requirement 1 field procedures and safety checks.](/assets/pamphlet_images/golf_p003_img1.png)
 
@@ -46,20 +46,20 @@
 | **2. Show that you know first aid for injuries or illnesses that could occur while golfing** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Licking Golf Balls: You may have seen golfers lick the dirt off their golf ball so the ball will roll true or to hold a used tee in their mouth (p. 53).
-- Course Chemical Residue: Toxic substances on the courses may cling to the ball and tee (p. 53).
-- Common Turf Contaminants: These include fertilizers, pesticides, weed killers, and animal excrement (p. 53).
-- Hepatitis Infection Risk: Some golfers who have a habit of cleaning their golf balls by licking them develop hepatitis, an inflammation of the liver (p. 53).
+- Lightning Evacuation Protocol: Sirens mandate instant clearing of fairways to reach designated grounded lightning storm shelters.
+- Heat Exhaustion Response: Move overheated players into shaded areas while loosening garments and providing cool water.
+- Blister Prevention Strategy: Friction on walking heels requires prompt application of adhesive moleskin patches before irritation.
+- Severe Weather Stance: Avoid isolated tall trees and metal flagsticks during rapid thunderstorm development on fairways.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
 ### Disc Golf: PDGA Rules, Courtesy (812) & Scoring (808)
 **Official Requirement 2b(1) (Parent Overview):** Disc Golf: (a) Tell about the six areas of Courtesy (812) (b) Describe the seven areas of Scoring (808) (2) Tell about the history of disc golf and why it is an inclusive game.
 **Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Complete a dynamic warm-up, check that the swing or play zone is clear of bystanders before demonstrating traditional and disc golf fundamentals for Golf Requirement 2, and hydrate regularly according to BSA Sports and Fitness guidelines.
+> **Guide to Safe Scouting Warning:** Never swing a club or throw a disc until all players and course workers stand safely clear ahead.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Competitive disc golf is played with the same blunt-edged recreational flying discs used for casual beach catch.
-- **Pamphlet Fact:** Modern disc golf uses specialized triangular beveled-edge discs patented by Dave Dunipace in 1983 for greater speed, distance, and flight control (p. 50).
+- **Common Myth:** Golf etiquette rules are optional informal recommendations that carry no competitive penalty points.
+- **Pamphlet Fact:** Breaching etiquette standards can result in disqualification or stroke penalties under official governing rules.
 
 **Official Pamphlet Summary:**
 - PDGA Official Rules of Disc Golf (Req 2b(1)): The Professional Disc Golf Association governs throwing order, marking the lie (30 cm x 20 cm box behind the disc), out-of-bounds relief, and completion of the hole in the basket.
@@ -113,7 +113,7 @@
 ### Disc Golf: Ed Headrick, Disc Design Evolution & Fitness
 **Official Requirement 2b(3) (Parent Overview):** Disc Golf: (a) Tell about the history of disc golf and why it is an inclusive game. (b) Discuss with your counselor the contributions Ed Headrick made to the sport of disc golf. (c) Describe the evolution of disc design. (d) Tell about the accomplishments of a top disc golfer of your choice. (a) Tell how disc golf can contribute to a healthy lifestyle, mentally and physically. (b) Tell how a disc golf exercise plan can help you play better. Show two exercises that would help improve your game.
 **Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Complete a dynamic warm-up, check that the swing or play zone is clear of bystanders before demonstrating traditional and disc golf fundamentals for Golf Requirement 2, and hydrate regularly according to BSA Sports and Fitness guidelines.
+> **Guide to Safe Scouting Warning:** Never swing a club or throw a disc until all players and course workers stand safely clear ahead.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 
 **Official Pamphlet Summary:**
@@ -211,7 +211,7 @@
 ### Disc Golf: Grips, X-Step, Backhand, Forehand, Roller & Putting
 **Official Requirement 2b(5) (Parent Overview):** Disc Golf: (a) A good throwing grip. (b) A good runup (X-step) when throwing a disc. (c) Backhand shot. (d) Forehand shot. (e) Overhand shot. (f) Rolling shot. (g) A good (in-line) putting stance. (h) A good straddle putting stance. (i) A good putting grip. (j) A good putting motion and follow. (k) The proper use of a mini-marking disc.
 **Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Complete a dynamic warm-up, check that the swing or play zone is clear of bystanders before demonstrating traditional and disc golf fundamentals for Golf Requirement 2, and hydrate regularly according to BSA Sports and Fitness guidelines.
+> **Guide to Safe Scouting Warning:** Never swing a club or throw a disc until all players and course workers stand safely clear ahead.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 
 **Official Pamphlet Summary:**
@@ -384,7 +384,7 @@
 ### Disc Golf: 18-Hole Round, Park Stewardship & Careers
 **Official Requirement 2b(6) (Parent Overview):** Disc Golf: (a) Follow the PDGA Official Rules of Disc Golf. (b) Practice good disc golf etiquette. (c) Show respect to fellow disc golfers and other people in the park along with any wildlife, trees, and plants on the property. (7) Find out about three careers related to disc golf. Pick one and identify the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this interests.
 **Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Group Organizer:** Career & Profession Exploration Card
-> **Guide to Safe Scouting Warning:** Complete a dynamic warm-up, check that the swing or play zone is clear of bystanders before demonstrating traditional and disc golf fundamentals for Golf Requirement 2, and hydrate regularly according to BSA Sports and Fitness guidelines.
+> **Guide to Safe Scouting Warning:** Never swing a club or throw a disc until all players and course workers stand safely clear ahead.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
 
 **Official Pamphlet Summary:**

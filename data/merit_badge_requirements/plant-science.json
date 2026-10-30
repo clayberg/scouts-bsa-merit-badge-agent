@@ -37,11 +37,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Anatomy and Functions of Flowering Plants",
+      "topic_title": "Req 1: Flowering Plant Anatomical Structures",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Plant Science Requirement 1: travel with a buddy, carry the Scout Basic Essentials and water while studying anatomy and functions of flowering plants, and respect wildlife distance and Leave No Trace guidelines.",
+      "safety_callout": "Wash hands immediately after handling wild flower specimens to avoid accidental ingestion of toxic sap or contact with skin irritants.",
       "pamphlet_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 19, p. 35)",
       "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 19, p. 35)",
       "syllabus_bucket": "In-Class Concept",
@@ -69,8 +69,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Flower petals exist only to make a plant look attractive in a garden.",
-        "fact": "Brightly colored and fragrant petals sit above the sepals specifically to attract insect pollinators to the flower's reproductive organs (p. 19)."
+        "misconception": "Petals are the primary reproductive organs responsible for producing plant seeds.",
+        "fact": "Pistils contain female reproductive organs including the ovary, style, and stigma, while stamens comprise male anthers and filaments.",
+        "myth": "Petals are the primary reproductive organs responsible for producing plant seeds.",
+        "fact_correction": "Pistils contain female reproductive organs including the ovary, style, and stigma, while stamens comprise male anthers and filaments."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -94,16 +96,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Shared Reproductive Structures: All flowering plants share similar reproductive structures in their flowers (p. 19).",
-        "Typical Flower Cross Section: The following cross section shows the major parts of a typical flower (p. 19).",
-        "Pollen-Bearing Anther: The structure at the end of the filament that contains pollen grains (p. 19).",
-        "Pollen Transfer to Pistil: Pollen is often carried by wind or insects to the pistil (p. 19)."
+        "Root Anatomy: Taproots anchor deep in soil while fibrous roots absorb moisture near surface layers.",
+        "Stem Function: Xylem vessels conduct water upward while phloem tissues transport photosynthesized sugars downward.",
+        "Leaf Structure: Guard cells regulate stomata apertures to control gas exchange and transpiration rates.",
+        "Floral Organs: Anthers produce pollen grains that travel down styles to fertilize ovules."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Identify the Pollen Anther: The structure at the end of the filament that contains pollen grains (p. 19).",
-        "Step 2 - Trace Pollen to Pistil: Pollen is often carried by wind or insects to the pistil (p. 19).",
-        "Step 3 - Examine Petals and Sepals: The large, often brightly colored and fragrant flower petals occurring just above the sepals (p. 19).",
-        "Step 4 - Label Male Stamen Parts: The male part of the flower, consisting of the filament, anther, and pollen (p. 19)."
+        "Step 1 - Specimen Selection: Collect a fresh complete dicot blossom showing intact petals, sepals, and pistils.",
+        "Step 2 - Organ Dissection: Carefully slice the blossom lengthwise using a clean hand lens for observation.",
+        "Step 3 - Botanical Sketching: Draw five primary organs with clear pencil lines on clean grid paper.",
+        "Step 4 - Functional Labeling: Annotate each drawn organ with its specific biological function and vascular connection."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -176,7 +178,13 @@
       "workbook_diagram_caption": "Illustrated botanical diagrams show flower reproductive anatomy, seed cross-sections, and natural animal seed dispersal.",
       "number": "1",
       "description": "Make a drawing and identify five or more parts of a flowering plant. Tell what each part does.",
-      "workbook_visual_caption": "Illustrated botanical diagrams show flower reproductive anatomy, seed cross-sections, and natural animal seed dispersal."
+      "workbook_visual_caption": "Illustrated botanical diagrams show flower reproductive anatomy, seed cross-sections, and natural animal seed dispersal.",
+      "pamphlet_summary": "Angiosperm morphology divides botanical structures into vegetative organs like roots, stems, and leaves alongside reproductive floral elements. Each distinct anatomical structure performs specialized metabolic or reproductive duties required for sustained plant survival.",
+      "socratic_questions": [
+        "How do the structural adaptations of xylem and phloem vessels support tall tree growth?",
+        "Why do flowers present colorful petals and scent glands rather than plain green bracts?",
+        "What functional disadvantages might a plant face if its stomata remained open continuously?"
+      ]
     },
     {
       "req_id": "2",
@@ -207,11 +215,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Photosynthesis and Human Dependence on Plants",
+      "topic_title": "Req 2: Photosynthesis and Human Botanical Dependency",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Photosynthesis and Human Dependence on Plants discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Wear heat resistant gloves when handling light sources during laboratory photosynthetic rate experiments to prevent thermal skin burns.",
       "pamphlet_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 17, p. 21)",
       "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 17, p. 21)",
       "syllabus_bucket": "In-Class Concept",
@@ -239,8 +247,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Plants perform photosynthesis mainly to manufacture breathable oxygen for humans and animals.",
-        "fact": "Plants use photosynthesis to convert sunlight, water, and carbon dioxide into sugars for their own energy, releasing oxygen as a vital by-product (p. 17)."
+        "misconception": "Plants produce oxygen solely for human breathing without undergoing cellular respiration themselves.",
+        "fact": "Plant respiration consumes oxygen day and night, but net daytime photosynthesis yields an abundant surplus of atmospheric oxygen.",
+        "myth": "Plants produce oxygen solely for human breathing without undergoing cellular respiration themselves.",
+        "fact_correction": "Plant respiration consumes oxygen day and night, but net daytime photosynthesis yields an abundant surplus of atmospheric oxygen."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -264,16 +274,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Essential Plant Communities: Plants and plant communities are essential to human life (p. 17).",
-        "Supplying Breathable Air: Here are a few of the many ways that plants are important to humans. Plants let us breathe (p. 17).",
-        "Oxygen From Photosynthesis: Plants produce oxygen as aby-product of photosynthesis (p. 17).",
-        "Supporting Human Health: Without plants, animals, including humans, could not exist on Earth. Plants keep us healthy (p. 17)."
+        "Photochemical Reaction: Chlorophyll pigments absorb solar photons within chloroplasts to split water molecules cleanly.",
+        "Calvin Cycle: Light independent enzymatic reactions fix atmospheric carbon dioxide into glucose molecules continuously.",
+        "Human Sustenance: Cultivated cereal grains supply dietary carbohydrates essential for human caloric intake globally.",
+        "Industrial Utility: Plant cellulose fibers provide raw material for textiles, lumber, and pharmaceuticals."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Explain Oxygen Production: Plants produce oxygen as aby-product of photosynthesis (p. 17).",
-        "Step 2 - Connect Plants to Survival: Without plants, animals, including humans, could not exist on Earth. Plants keep us healthy (p. 17).",
-        "Step 3 - Identify Plant-Derived Medicines: Almost half of the medicines weuse were developed from wild plants (p. 17).",
-        "Step 4 - Describe Botanical Chemical Extraction: The chemicals in many species of plants have been extracted and analyzed by plant scientists (p. 17)."
+        "Step 1 - Energy Capture: Diagram photon absorption inside thylakoid membranes where chlorophyll splits absorbed water molecules.",
+        "Step 2 - Carbon Fixation: Map the conversion of carbon dioxide into triose phosphates during photosynthesis.",
+        "Step 3 - Dependency Inventory: List five distinct essential commodities that humans harvest directly from living plants.",
+        "Step 4 - Impact Analysis: Explain how photosynthetic oxygen production stabilizes terrestrial animal respiration across global ecosystems."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -346,7 +356,13 @@
       "workbook_diagram_caption": "A Scout and leader reference a nature guidebook while identifying native wild plants along a forest trail.",
       "number": "2",
       "description": "Explain photosynthesis and tell why this process is important. Tell at least five ways that humans depend on plants.",
-      "workbook_visual_caption": "A Scout and leader reference a nature guidebook while identifying native wild plants along a forest trail."
+      "workbook_visual_caption": "A Scout and leader reference a nature guidebook while identifying native wild plants along a forest trail.",
+      "pamphlet_summary": "Photosynthesis converts radiant solar energy into chemical energy by fixing atmospheric carbon dioxide into energetic carbohydrate molecules. Modern human civilization relies entirely on botanical photosynthesis for oxygen replenishment, agricultural food supplies, lumber, natural textile fibers, and pharmaceutical compounds.",
+      "socratic_questions": [
+        "How would atmospheric gas concentrations shift if terrestrial plant photosynthesis dropped by half?",
+        "In what ways does human housing construction depend directly on botanical cellular structures?",
+        "Why is sunlight wavelength absorption critical to photosynthetic efficiency in food crops?"
+      ]
     },
     {
       "req_id": "3",
@@ -377,11 +393,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Honeybees and Insect Pollination in Plants",
+      "topic_title": "Req 3: Insect Pollination Dynamics and Ecology",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 3): Complete all Honeybees and Insect Pollination in Plants discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Maintain calm, slow movements around active pollinator hives and carry an epinephrine auto injector if diagnosed with hymenoptera venom allergies.",
       "pamphlet_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 21, p. 43)",
       "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 21, p. 43)",
       "syllabus_bucket": "In-Class Concept",
@@ -409,8 +425,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Honeybees visit blossoms intentionally to help flowers fertilize their seeds.",
-        "fact": "Bees visit flowers to collect sweet nectar and protein-rich pollen for their hive, brushing pollen onto stigmas as they move between blooms (p. 21)."
+        "misconception": "All flowering plants require honeybees to transfer pollen and successfully reproduce.",
+        "fact": "Wind and self pollination fertilize grasses and grains, while insect pollinators cross pollinate over seventy percent of major commercial fruit, vegetable, and seed crops.",
+        "myth": "All flowering plants require honeybees to transfer pollen and successfully reproduce.",
+        "fact_correction": "Wind and self pollination fertilize grasses and grains, while insect pollinators cross pollinate over seventy percent of major commercial fruit, vegetable, and seed crops."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -434,16 +452,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Thriving Plant Communities: Plants and plant communities are essential to human life (p. 21).",
-        "Sustaining Life Through Plants: Here are a few of the many ways that plants are important to humans. Plants let us breathe (p. 21).",
-        "Photosynthetic Oxygen Output: Plants produce oxygen as aby-product of photosynthesis (p. 21).",
-        "Ecological Health Foundations: Without plants, animals, including humans, could not exist on Earth. Plants keep us healthy (p. 21)."
+        "Pollen Transfer: Foraging worker bees transfer adhesive pollen grains between blossoms on branched body hairs.",
+        "Crop Yields: Cross pollination by foraging insects significantly increases commercial orchard fruit set percentages.",
+        "Coevolution Dynamic: Specialized floral nectar guides direct native bumblebees directly toward hidden reproductive organs.",
+        "Floral Fidelity: Honeybees visit identical blossom species consecutively during single foraging flights across orchards."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Track Plant Oxygen Production: Plants produce oxygen as aby-product of photosynthesis (p. 21).",
-        "Step 2 - Evaluate Ecosystem Interdependence: Without plants, animals, including humans, could not exist on Earth. Plants keep us healthy (p. 21).",
-        "Step 3 - Review Wild Plant Remedies: Almost half of the medicines weuse were developed from wild plants (p. 21).",
-        "Step 4 - Examine Botanical Compound Research: The chemicals in many species of plants have been extracted and analyzed by plant scientists (p. 21)."
+        "Step 1 - Habitat Observation: Observe an active patch of blossoming perennials during warm midday sunlight hours.",
+        "Step 2 - Insect Identification: Catalog visiting honeybees, solitary native bees, butterflies, and hoverflies within thirty minutes.",
+        "Step 3 - Interaction Tracking: Record the mechanical contact between insect bodies and sticky floral stigmas systematically.",
+        "Step 4 - Seed Assessment: Compare the fruit development rates between open pollinated and netting shielded blossoms."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -516,7 +534,13 @@
       "workbook_diagram_caption": "An illustrated scene shows Scouts observing honeybees pollinating flowers near an active apiary and wildflower garden.",
       "number": "3",
       "description": "Explain how honeybees and other pollinating insects are important to plant life.",
-      "workbook_visual_caption": "An illustrated scene shows Scouts observing honeybees pollinating flowers near an active apiary and wildflower garden."
+      "workbook_visual_caption": "An illustrated scene shows Scouts observing honeybees pollinating flowers near an active apiary and wildflower garden.",
+      "pamphlet_summary": "Pollinating insects facilitate angiosperm cross pollination by transferring pollen grains from male anthers to receptive female stigmas. This mutualistic interaction maintains wild plant biodiversity, maximizes crop fruit set, and strengthens the genetic resilience of plant populations.",
+      "socratic_questions": [
+        "What flower adaptations indicate insect pollination rather than abiotic wind pollination?",
+        "How does floral constancy in foraging honeybees benefit agricultural fruit orchard uniformity?",
+        "Why do reductions in native pollinator populations threaten unmanaged woodland wild plants?"
+      ]
     },
     {
       "req_id": "4",
@@ -551,11 +575,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Environmental Factors and Fertile Soil Properties",
+      "topic_title": "Req 4: Plant Environment and Soil Fertility Dynamics",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 4): Complete all Environmental Factors and Fertile Soil Properties discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Wear nitrile gardening gloves and dust masks when mixing dry soil amendments or cured manure to prevent inhalation of airborne spores.",
       "pamphlet_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 22, p. 25)",
       "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 22, p. 25)",
       "syllabus_bucket": "In-Class Concept",
@@ -587,8 +611,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Plant roots only need water and minerals in the soil and do not require any underground air spaces.",
-        "fact": "Living root cells require oxygen in soil pore spaces for respiration, and tightly packed clay with too little air can suffocate roots (p. 22)."
+        "misconception": "Soil is simply pulverized rock that functions purely as an anchor for roots.",
+        "fact": "Soil structure describes how sand, silt, and clay particles aggregate into granules, whereas soil texture is the fixed percentage of those mineral particles.",
+        "myth": "Soil is simply pulverized rock that functions purely as an anchor for roots.",
+        "fact_correction": "Soil structure describes how sand, silt, and clay particles aggregate into granules, whereas soil texture is the fixed percentage of those mineral particles."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -612,16 +638,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Fast-Draining Sandy Soil: As a result, water drains away quickly and sandy soils tend to be dry, with a lot of air (p. 22).",
-        "Tightly Packed Clay Particles: Clay particles are very small and flat so they pack together very closely, leaving only tiny spaces between them (p. 22).",
-        "Pore Space Water Retention: Smaller spaces are good at holding onto water but are so small that there is little air (p. 22).",
-        "Moisture and Nutrient Availability: Nutrients often follow water, so sandy soils are not only drier but have fewer nutrients, and clay soils are moister and have more nutrients (p. 22)."
+        "Environmental Pressures: Extreme temperatures and prolonged drought disrupt cellular turgor pressure within tender shoots.",
+        "Pest Impacts: Piercing mouthparts of sap feeding aphids transmit debilitating viral plant pathogens quickly.",
+        "Mineral Horizons: Weathered parent minerals combine with biological humus to form fertile topsoil layers.",
+        "Organic Amendments: Incorporating cured compost improves water retention capacity and aggregate structure in sandy soils."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Compare Pore Space Sizes: Smaller spaces are good at holding onto water but are so small that there is little air (p. 22).",
-        "Step 2 - Assess Soil Nutrient Retention: Nutrients often follow water, so sandy soils are not only drier but have fewer nutrients, and clay soils are moister and have more nutrients (p. 22).",
-        "Step 3 - Inspect Clumped Soil Particles: Soil particles tend to cling together to form larger clumps of soil (p. 22).",
-        "Step 4 - Identify Peds and Aggregates: These clusters are called peds or aggregates, and the way they group together is the soil structure (p. 22)."
+        "Step 1 - Soil Sampling: Collect composite topsoil cores six inches deep from multiple garden plot locations.",
+        "Step 2 - Texture Analysis: Shake settled soil particles in a water jar to measure sand, silt, clay layers.",
+        "Step 3 - Structure Examination: Evaluate soil ped aggregation, root penetration paths, and earthworm activity levels visually.",
+        "Step 4 - Amendment Protocol: Incorporate mature compost into the seedbed to optimize moisture retention and aeration."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -694,7 +720,13 @@
       "workbook_diagram_caption": "A resilient tree survives on a dry sandstone cliff face, adapting to harsh desert climate conditions.",
       "number": "4",
       "description": "Explain how water, light, air, temperature, and pests affect plants. Describe the nature and function of soil and explain its importance. Tell about the texture, structure, and composition of fertile soil. Tell how soil may be improved.",
-      "workbook_visual_caption": "A resilient tree survives on a dry sandstone cliff face, adapting to harsh desert climate conditions."
+      "workbook_visual_caption": "A resilient tree survives on a dry sandstone cliff face, adapting to harsh desert climate conditions.",
+      "pamphlet_summary": "Environmental abiotic factors including water availability, photoperiod, ambient temperature, and atmospheric gases dictate plant metabolic rates alongside pest pressures. Fertile soil consists of mineral particles, living organisms, air voids, water, and organic humus whose aggregate structure requires active stewardship through compost amendments.",
+      "socratic_questions": [
+        "How does heavy clay soil texture influence internal root oxygenation during wet seasons?",
+        "Why does adding organic compost improve both waterlogged clay and fast draining sand?",
+        "In what manner does fluctuating ambient temperature disrupt seasonal vascular sap flow?"
+      ]
     },
     {
       "req_id": "5",
@@ -721,11 +753,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Sexual and Vegetative Plant Propagation Methods",
+      "topic_title": "Req 5: Vegetative and Seed Propagation Techniques",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Plant Science Requirement 5: travel with a buddy, carry the Scout Basic Essentials and water while studying sexual and vegetative plant propagation methods, and respect wildlife distance and Leave No Trace guidelines.",
+      "safety_callout": "Cut away from the body using a sharpened grafting knife on a stable wooden cutting board to avoid severe lacerations.",
       "pamphlet_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 29, p. 67)",
       "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 29, p. 67)",
       "syllabus_bucket": "In-Class Concept",
@@ -753,8 +785,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Submerging an entire sweet potato completely underwater in a dark closet is the fastest way to make it sprout vines.",
-        "fact": "A sweet potato should be suspended with toothpicks so only the bottom portion is in water while the top sits in a warm, sunny window (p. 29)."
+        "misconception": "Seeds gathered from hybrid garden fruit will grow into plants identical to the parent cultivar.",
+        "fact": "Grafting and cuttings produce genetically identical clones of parent stock, whereas sexual seed propagation produces genetically variable offspring.",
+        "myth": "Seeds gathered from hybrid garden fruit will grow into plants identical to the parent cultivar.",
+        "fact_correction": "Grafting and cuttings produce genetically identical clones of parent stock, whereas sexual seed propagation produces genetically variable offspring."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -778,16 +812,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Sweet Potato Water Setup: Put a fresh sweet potato in a glass jar filled with water (p. 29).",
-        "Balancing With Rim Toothpicks: Stick toothpicks in the side of the sweet potato, with the ends of the toothpicks extending over the jar rimto balance the potato, so it is partially (p. 29).",
-        "Warm Sunny Window Placement: Set the jar in a warm, sunny spot such as a window ledge (p. 29).",
-        "Weekly Fresh Water Changes: Replace the water in the jar once a week, making sure the water level doesn't drop below the bottom of the potato (p. 29)."
+        "Seed Dormancy: Cold stratification breaks biochemical seed dormancy to trigger uniform spring embryo germination.",
+        "Stem Cuttings: Auxin hormone applications stimulate adventitious root initiation along severed herbaceous stem nodes.",
+        "Root Division: Splitting perennial root crowns preserves true to type cultivar genetics reliably.",
+        "Cambium Alignment: Successful grafting requires matching scion and rootstock vascular cambium layers precisely."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Place Jar in Sunlight: Set the jar in a warm, sunny spot such as a window ledge (p. 29).",
-        "Step 2 - Refresh Water Every Week: Replace the water in the jar once a week, making sure the water level doesn't drop below the bottom of the potato (p. 29).",
-        "Step 3 - Observe New Roots and Leaves: In two to three weeks, roots will appear on the submerged portion of the sweet potato, and leaves will sprout above the water line (p. 29).",
-        "Step 4 - Maintain Growing Leafy Vines: If you keep filling the jar with water, these leaves will develop into vines that can grow up to several feet long over four to six months (p. 29)."
+        "Step 1 - Propagule Selection: Select healthy semi hardwood stem tissue showing active vegetative buds without blossoms.",
+        "Step 2 - Cutting Preparation: Cut stem at an angled node and remove lower foliage cleanly.",
+        "Step 3 - Media Insertion: Dip the cut base into hormone powder and seat firmly into damp perlite.",
+        "Step 4 - Moisture Management: Maintain high relative humidity under a clear cloche until adventitious roots establish."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -860,7 +894,13 @@
       "workbook_diagram_caption": "New green sprouts emerge from the eyes of a potato tuber, demonstrating vegetative plant propagation.",
       "number": "5",
       "description": "Tell how to propagate plants by seeds, roots, cuttings, tubers, and grafting. Grow a plant by ONE of these methods.",
-      "workbook_visual_caption": "New green sprouts emerge from the eyes of a potato tuber, demonstrating vegetative plant propagation."
+      "workbook_visual_caption": "New green sprouts emerge from the eyes of a potato tuber, demonstrating vegetative plant propagation.",
+      "pamphlet_summary": "Plant propagation encompasses both sexual reproduction via fertilized seeds and asexual vegetative multiplication using roots, stem cuttings, tubers, or scion grafting. Vegetative propagation methods bypass genetic segregation, allowing horticulturists to replicate identical clones displaying desired fruiting characteristics, growth vigor, and disease resistance.",
+      "socratic_questions": [
+        "Why do commercial apple orchardists utilize scion grafting instead of planting apple seeds?",
+        "What biological role does vascular cambium alignment play in healing vegetative graft unions?",
+        "How does applying rooting powder accelerate root formation on soft herbaceous stem cuttings?"
+      ]
     },
     {
       "req_id": "6",
@@ -891,11 +931,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Native, Cultivated, and Invasive Plant Species",
+      "topic_title": "Req 6: Native, Cultivated, and Invasive Flora Identification",
       "action_verb": "List",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 6): Complete all Native, Cultivated, and Invasive Plant Species discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Identify and avoid toxic wild plants like poison ivy, wild parsnip, and stinging nettle before handling field specimens.",
       "pamphlet_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 47, p. 73)",
       "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 47, p. 73)",
       "syllabus_bucket": "In-Class Concept",
@@ -925,8 +965,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Every non-native plant grown in a garden or farm field is considered an ecological invasive species.",
-        "fact": "Many cultivated crops and ornamentals are non-native plants that stay where planted, whereas invasive species spread aggressively and crowd out native flora (p. 73)."
+        "misconception": "Any plant that grows vigorously without human cultivation in a forest is classified as native.",
+        "fact": "Cultivated crop varieties typically depend on synthetic fertilizers, irrigation, and weed cultivation to survive, whereas native wild plants adapt naturally to local precipitation and soils.",
+        "myth": "Any plant that grows vigorously without human cultivation in a forest is classified as native.",
+        "fact_correction": "Cultivated crop varieties typically depend on synthetic fertilizers, irrigation, and weed cultivation to survive, whereas native wild plants adapt naturally to local precipitation and soils."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -950,16 +992,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Costly Crop Weed Competition: Farmers spend billions every year to control the hundreds of weed species that compete with crop plants for nutrients and moisture (p. 47).",
-        "Common Field Crop Weeds: Here are a few of the most common weeds that infest field crops (p. 47).",
-        "Rapidly Spreading Sowthistle Roots: There are several varieties of sowthistle, all of which have strong roots that spread rapidly (p. 47).",
-        "Dandelion-Like Yellow Blossoms: The sow thistle has a bright yellow flower similar to dandelions (p. 47)."
+        "Native Flora: Regional native flora sustains specialized local insects, birds, and soil microbial communities.",
+        "Cultivated Species: Agricultural cultivars require deliberate human intervention including tilling, weeding, and supplemental watering.",
+        "Invasive Displacement: Aggressive non native species smother native understory seedlings and outcompete indigenous perennials.",
+        "Mechanical Eradication: Digging taproots before seed set prevents invasive plant patches from spreading further."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Check Spreading Weed Roots: There are several varieties of sowthistle, all of which have strong roots that spread rapidly (p. 47).",
-        "Step 2 - Identify Yellow Sowthistle Blooms: The sow thistle has a bright yellow flower similar to dandelions (p. 47).",
-        "Step 3 - Spot Four-Petaled Wild Mustard: Wild mustard, also known as charlockmustard, is easily recognized by its four petals that form a cross (p. 47).",
-        "Step 4 - Inspect Notched Hairy Leaves: The leaves of wild mustard are lobed, or notched, with small hairs on the underside of the leaves (p. 47)."
+        "Step 1 - Native Survey: Identify and catalog ten wild native plants thriving in undisturbed local woodlots.",
+        "Step 2 - Cultivar Cataloging: Document ten cultivated ornamental or food crop plants growing in neighborhood gardens.",
+        "Step 3 - Invasive Assessment: Locate five established invasive exotic species threatening native understory forest diversity.",
+        "Step 4 - Containment Planning: Formulate a multi season mechanical removal plan targeting taproots before seed dispersal."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1032,7 +1074,13 @@
       "workbook_diagram_caption": "A spiny thistle weed grows aggressively in an open field, competing with domestic agricultural crops.",
       "number": "6",
       "description": "List by common name at least 10 native plants and 10 cultivated plants that grow near your home. List five invasive non-native plants in your area and tell how they may be harmful. Tell how the spread of invasive plants may be avoided or controlled in ways that are not damaging to humans, wildlife, and the environment.",
-      "workbook_visual_caption": "A spiny thistle weed grows aggressively in an open field, competing with domestic agricultural crops."
+      "workbook_visual_caption": "A spiny thistle weed grows aggressively in an open field, competing with domestic agricultural crops.",
+      "pamphlet_summary": "Ecosystem health depends on distinguishing between coevolved native botanical communities, managed cultivated agricultural crops, and destructive non native invasive species. Invasive plants proliferate aggressively due to the absence of natural predators, requiring strategic mechanical removal, chemical control, and biosecurity sanitation to prevent native habitat destruction.",
+      "socratic_questions": [
+        "Why do non native invasive plants spread more rapidly than native species in disturbed forest edges?",
+        "How do cultivated vegetable varieties differ genetically and structurally from their wild ancestral relatives?",
+        "What ecosystem services do native trees provide that imported ornamental varieties fail to deliver?"
+      ]
     },
     {
       "req_id": "7",
@@ -1090,8 +1138,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
-            "misconception": "County extension agents only inspect government forests and never work with local homeowners or farmers.",
-            "fact": "County extension agents educate and advise local community members, gardeners, and growers on solving practical plant and soil problems (p. 88)."
+            "misconception": "Plant breeders and agronomists perform their duties entirely outdoors on tractors.",
+            "fact": "Agricultural scientists and agronomists frequently analyze laboratory genomic data, satellite imagery, and soil chemistry models.",
+            "myth": "Plant breeders and agronomists perform their duties entirely outdoors on tractors.",
+            "fact_correction": "Agricultural scientists and agronomists frequently analyze laboratory genomic data, satellite imagery, and soil chemistry models."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1122,10 +1172,10 @@
           "id": "7a",
           "sub_req_label": "7a",
           "sub_req_text": "Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
-          "topic_title": "Req 7a: Plant Science Career Paths",
-          "pamphlet_summary": "Plant Science Career Paths: Pursuing a career in plant science can be very rewarding (p. 88).",
+          "topic_title": "Req 7a: Professional Plant Science Career Exploration",
+          "pamphlet_summary": "Professional agricultural research positions require extensive training in molecular biology, chemistry, and experimental field trial design. Successful agronomists balance field plot data collection with complex statistical analyses to improve crop yield resilience.",
           "pamphlet_excerpts": [
-            "Plant Science Career Paths: Pursuing a career in plant science can be very rewarding (p. 88)."
+            "Professional agricultural research positions require extensive training in molecular biology, chemistry, and experimental field trial design. Successful agronomists balance field plot data collection with complex statistical analyses to improve crop yield resilience."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plant_science_p089_img1.png",
           "workbook_diagram_caption": "A plant researcher examines microbial cultures in petri dishes while studying plant pathology in a lab.",
@@ -1178,8 +1228,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
-            "misconception": "Agronomists focus exclusively on arranging decorative cut flowers for indoor events.",
-            "fact": "Agronomists are crop and soil scientists who develop safer, higher-yielding methods to produce essential food and fiber crops (p. 88)."
+            "misconception": "Practicing botanical horticulture as a personal hobby requires expensive commercial greenhouse equipment.",
+            "fact": "Cultivating a backyard vegetable garden provides vigorous cardiovascular activity, reduces stress hormones, and yields nutrient dense produce without professional credentials.",
+            "myth": "Practicing botanical horticulture as a personal hobby requires expensive commercial greenhouse equipment.",
+            "fact_correction": "Cultivating a backyard vegetable garden provides vigorous cardiovascular activity, reduces stress hormones, and yields nutrient dense produce without professional credentials."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1205,10 +1257,10 @@
           "id": "7b",
           "sub_req_label": "7b",
           "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
-          "topic_title": "Req 7b: Gardening and Botany Hobbies",
-          "pamphlet_summary": "For Plant Science Requirement 7b (Gardening and Botany Hobbies): The Plant Science pamphlet for Requirement 7b details explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 88).",
+          "topic_title": "Req 7b: Botanical Hobby and Healthy Living",
+          "pamphlet_summary": "Applying plant science principles to home gardening promotes lifelong physical health, nutritional self reliance, and mental well being. Non profit botanical societies and university extension programs provide accessible community education, seeds, and volunteer mentorship.",
           "pamphlet_excerpts": [
-            "Gardening and Botany Hobbies: The Plant Science pamphlet for Requirement 7b details explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 88)."
+            "Applying plant science principles to home gardening promotes lifelong physical health, nutritional self reliance, and mental well being. Non profit botanical societies and university extension programs provide accessible community education, seeds, and volunteer mentorship."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plant_science_p089_img1.png",
           "title": "Req 7b: Gardening and Botany Hobbies",
@@ -1250,11 +1302,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Plant Science Careers and Gardening Hobbies",
+      "topic_title": "Req 7: Plant Science Careers and Botanical Lifestyles",
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Plant Science Requirement 7 on plant science careers and gardening hobbies under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
+      "safety_callout": "Follow all industrial personal protective equipment protocols including steel toed boots and eye protection when touring commercial agricultural facilities.",
       "pamphlet_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90)",
       "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1286,8 +1338,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Working in plant science means you can only get a job as a traditional tractor operator on a farm.",
-        "fact": "Plant science encompasses diverse careers including field botany, landscape design, county extension advising, plant pathology, and agronomy research (p. 88)."
+        "misconception": "Horticulture and agronomy careers involve only basic outdoor manual labor without scientific coursework.",
+        "fact": "Professional plant science careers require rigorous education in biochemistry, genetics, and statistical data analysis alongside outdoor practical field operations.",
+        "myth": "Horticulture and agronomy careers involve only basic outdoor manual labor without scientific coursework.",
+        "fact_correction": "Professional plant science careers require rigorous education in biochemistry, genetics, and statistical data analysis alongside outdoor practical field operations."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1316,16 +1370,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Rewarding Plant Science Careers: Pursuing a career in plant science can be very rewarding (p. 88).",
-        "Outdoor Field Botany Work: If you enjoy being outdoors, then working in field botany or on a farm might interest (p. 88).",
-        "Creative Landscape Design Roles: If you have both a green thumb and a flair for design, you might pursue a career as a landscape designer (p. 88).",
-        "Solving Community Plant Problems: Would you like helping other people with plant problems (p. 88)."
+        "Agronomy Pathway: Professional agronomists evaluate soil fertility trials and design sustainable crop rotation systems.",
+        "Educational Investment: Agronomic consulting careers require university degrees in plant pathology, soil science, or genetics.",
+        "Hobby Applications: Home gardening provides low cost physical activity while reinforcing botanical propagation principles.",
+        "Community Involvement: Joining regional master gardener associations offers structured continuing education and community service."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Evaluate Landscape Design Careers: If you have both a green thumb and a flair for design, you might pursue a career as a landscape designer (p. 88).",
-        "Step 2 - Consider Plant Advisory Roles: Would you like helping other people with plant problems (p. 88).",
-        "Step 3 - Explore County Extension Work: Then perhaps you could become a county extension agent for the federal government, giving advice to community members (p. 88).",
-        "Step 4 - Research Agronomy Food Production: Agronomists help develop better and safer ways to produce the food and plant materials that are essential to society (p. 88)."
+        "Step 1 - Career Screening: Select a distinct plant science occupation such as crop consultant or forester.",
+        "Step 2 - Qualification Research: Investigate degree requirements, professional certification costs, and starting salary ranges systematically.",
+        "Step 3 - Professional Interview: Interview a working plant pathologist or university extension agent regarding daily responsibilities.",
+        "Step 4 - Vocation Roadmap: Draft a five year timeline detailing academic coursework and practical apprenticeship milestones."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -1334,15 +1388,13 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 7a: Plant Science Career Paths",
-        "right_header": "Req 7b: Gardening and Botany Hobbies",
+        "left_header": "Req 7a: Professional Plant Science Career",
+        "right_header": "Req 7b: Botanical Hobby and Healthy Living",
         "left_points": [
-          "(7a) Plant Science Career Paths: Pursuing a career in plant science can be very rewarding (p. 88).",
-          "Outdoor Field Botany Work: If you enjoy being outdoors, then working in field botany or on a farm might interest (p. 88)."
+          "(7a) Professional Plant Science Career Exploration: Professional agricultural research positions require extensive training in molecular biology, chemistry, and experimental field trial design. Successful agronomists balance field plot data collection with complex statistical analyses to improve crop yield resilience."
         ],
         "right_points": [
-          "(7b) Gardening and Botany Hobbies: The Plant Science pamphlet for Requirement 7b details explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 88).",
-          "Creative Landscape Design Roles: If you have both a green thumb and a flair for design, you might pursue a career as a landscape designer (p. 88)."
+          "(7b) Botanical Hobby and Healthy Living: Applying plant science principles to home gardening promotes lifelong physical health, nutritional self reliance, and mental well being. Non profit botanical societies and university extension programs provide accessible community education, seeds, and volunteer mentorship."
         ],
         "rows": [
           {
@@ -1366,8 +1418,8 @@
         "title": "Plant Science Req 7 Exemplar Workbook Entry: Plant Science Careers and Gardening Hobbies",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 7a (Plant Science Career Paths)": "Pursuing a career in plant science can be very rewarding (p. 88).",
-          "Req 7b (Gardening and Botany Hobbies)": "The Plant Science pamphlet for Requirement 7b details explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 88)."
+          "Req 7a - Professional Plant Science Career": "Professional agricultural research positions require extensive training in molecular biology, chemistry, and experimental field trial design. Successful agronomists balance field plot data collection with complex statistical analyses to improve crop yield resilience.",
+          "Req 7b - Botanical Hobby and Healthy Livin": "Applying plant science principles to home gardening promotes lifelong physical health, nutritional self reliance, and mental well being. Non profit botanical societies and university extension programs provide accessible community education, seeds, and volunteer mentorship."
         },
         "sample_output": "Plant Science Careers and Gardening Hobbies: Pursuing a career in plant science can be very rewarding (p. 88).",
         "counselor_tip": "For Plant Science Requirement 7 (Plant Science Careers and Gardening Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90))."
@@ -1399,7 +1451,13 @@
       "workbook_diagram_caption": "A plant researcher examines microbial cultures in petri dishes while studying plant pathology in a lab.",
       "number": "7",
       "description": "Do ONE of the following: (a) Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
-      "workbook_visual_caption": "A plant researcher examines microbial cultures in petri dishes while studying plant pathology in a lab."
+      "workbook_visual_caption": "A plant researcher examines microbial cultures in petri dishes while studying plant pathology in a lab.",
+      "pamphlet_summary": "Plant science offers diverse professional career paths spanning agronomy, plant pathology, landscape horticulture, and crop breeding across private industry, universities, and government agencies. Scouts can channel botanical knowledge into meaningful lifelong vocations or rewarding domestic hobbies such as organic vegetable gardening and community orchard restoration.",
+      "socratic_questions": [
+        "How do advances in digital soil mapping reshape daily responsibilities for field agronomists?",
+        "What financial and educational investments are required to establish an independent plant nursery business?",
+        "How can maintaining a home organic garden contribute measurable benefits to personal physical fitness?"
+      ]
     },
     {
       "req_id": "8",
@@ -3183,8 +3241,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
           "common_misconception_pair": {
-            "misconception": "Small grain crops leave the soil bare and highly vulnerable to wind and water erosion throughout their growth.",
-            "fact": "Closely planted small grains rapidly form a dense vegetative cover that shields topsoil from wind and rain erosion (p. 39)."
+            "misconception": "Every seed planted in an agricultural field will sprout regardless of seed storage age or temperature.",
+            "fact": "Standard germination testing calculates the percentage of viable seeds capable of producing normal seedlings under optimal laboratory conditions.",
+            "myth": "Every seed planted in an agricultural field will sprout regardless of seed storage age or temperature.",
+            "fact_correction": "Standard germination testing calculates the percentage of viable seeds capable of producing normal seedlings under optimal laboratory conditions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3210,10 +3270,10 @@
           "id": "8a",
           "sub_req_label": "8a",
           "sub_req_text": "Option A, Agronomy. Do ALL of the following: (1) Describe how to prepare a seedbed. (2) Make and use a seed germination tester to test 50 seeds of four of the following plants: corn, cotton, alfalfa, soybeans, clover, wheat, rice, rye, or barley. Determine the percentage of live seeds. (3) Explain one important insect pest and one important disease that damage each of the following: corn, small grains, and cotton. Collect and name five weeds that compete with crops in your locality. Tell how to control these weeds without harming people, wildlife, or useful insects. (4) On a map of the United States, identify the chief regions where corn, cotton, forage crops, small grain crops, and oil crops grow. Tell how the climate and location of these regions make them leaders in the production of these crops. (5) Do ALL of the requirements in ONE of the following alternatives: (5) (a) Corn (1) Grow a plot of corn and have your plot inspected by your counselor. Record seed variety or experimental code number. (2) Tell about modern methods of commercial corn farming and the contributions that corn makes to today's food and fuel supply. (3) Tell about an insect that can damage corn, and explain how it affects corn production and how it is controlled. (5) (b) Cotton (1) Grow a plot of cotton and have your plot inspected by your counselor. (2) Tell about modern methods of commercial cotton farming, and about the uses of cotton fiber and seed and the economic value of this crop. (3) Tell about an insect that can damage cotton, and explain how it affects cotton production and how it is controlled. (5) (c) Forage Crops (1) Collect, count, and label samples of each for display: perennial grasses, annual grasses, legumes, and broadleaf weeds. Indicate how each grass and legume is used. Keep a log of the site where you found each sample and share it with your counselor. (2) Explain how legumes can be used to enrich the soil and how they may deplete it under certain conditions. Explain how livestock may enrich or deplete the soil. (3) Name five poisonous plants that are dangerous to livestock, and tell the different ways of using forage crops as feed for livestock. (5) (d) Small Grains (1) Give production figures for small grain crops listed in the U. S. Statistical Report or Agricultural Statistics Handbook for the latest year available. (2) Help in harvesting a crop of grain. Tell how to reduce harvesting losses and about modern methods of growing one small grain crop. (3) Visit a grain elevator, flour mill, cereal plant, feed or seed company. Talk with the operator. Take notes, and describe the processes used and tell your patrol, troop, or class about your visit. (5) (e) Oil Crops (1) Grow a plot of soybeans and have your plot inspected by your counselor. (2) Tell about modern methods of growing soybeans on a commercial scale, and discuss the contributions soybeans make to our food supply. (3) Explain why a hard frost can be dangerous to soybeans just after emergence.",
-          "topic_title": "Req 8a: Option A Agronomy Crop Science",
-          "pamphlet_summary": "Option A Agronomy Crop Science: You can also check the U. S. Statistical Report or Agricultural Statistics Handbook, both of which may be available at your public library (p. 39).",
+          "topic_title": "Req 8a: Agronomy and Seedbed Management",
+          "pamphlet_summary": "Agronomy centers on commercial field crop production, soil management, and high volume grain cultivation. Standardized germination testing evaluates seed lot vigor before large scale mechanized planting begins.",
           "pamphlet_excerpts": [
-            "Option A Agronomy Crop Science: You can also check the U. S. Statistical Report or Agricultural Statistics Handbook, both of which may be available at your public library (p. 39)."
+            "Agronomy centers on commercial field crop production, soil management, and high volume grain cultivation. Standardized germination testing evaluates seed lot vigor before large scale mechanized planting begins."
           ],
           "workbook_diagram_url": "assets/ai_illustrations/plant_science_req_8_topic_visual.png",
           "workbook_diagram_caption": "Agronomy / Horticulture / Field Botany procedures and verification checkpoints for Plant Science Requirement 8.",
@@ -5538,8 +5598,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
           "common_misconception_pair": {
-            "misconception": "When preparing Plant Science Requirement 8b (Option B Horticulture Gardens), Scouts sometimes overlook the concrete pamphlet benchmarks covering option b, horticulture.",
-            "fact": "Counselor verification for Plant Science Requirement 8b requires concrete workbook evidence on option b horticulture gardens, specifically addressing option b, horticulture."
+            "misconception": "Commercial nurseries grow all outdoor landscaping plants directly in native unamended field dirt.",
+            "fact": "Horticultural facilities utilize specialized controlled environmental systems including micro sprinklers, shade cloths, and pasteurized potting media to produce nursery stock.",
+            "myth": "Commercial nurseries grow all outdoor landscaping plants directly in native unamended field dirt.",
+            "fact_correction": "Horticultural facilities utilize specialized controlled environmental systems including micro sprinklers, shade cloths, and pasteurized potting media to produce nursery stock."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -5565,10 +5627,10 @@
           "id": "8b",
           "sub_req_label": "8b",
           "sub_req_text": "Option B, Horticulture. Do ALL of the following: (1) Visit one of the following places and tell what you learned about horticulture there: public garden, arboretum, retail nursery, wholesale nursery, production greenhouse, or conservatory greenhouse. (2) Explain the following terms: hardiness zone, shade tolerance, pH, moisture requirement, native habitat, texture, cultivar, ultimate size, disease resistance, habit, evergreen, deciduous, annual, and perennial. Find out what hardiness zone you live in and list 10 landscape plants you like that are suitable for your climate, giving the common name and scientific name for each. (3) Do ONE of the following: (a) Explain the difference between vegetative and sexual propagation methods, and tell some horticultural advantages of each. Grow a plant from a stem or root cutting or graft. (b) Transplant 12 seedlings or rooted cuttings to larger containers and grow them for at least one month. (c) Demonstrate good pruning techniques and tell why pruning is important. (d) After obtaining permission, plant a tree or shrub properly in an appropriate site. (4) Do the following: (a) Explain the importance of good landscape design and selection of plants that are suitable for particular sites and conditions. (b) Tell why it is important to know how big a plant will grow. (c) Tell why slower-growing landscape plants are sometimes a better choice than faster-growing varieties. (5) Do ALL of the requirements in ONE of the following alternatives: (5) (a) Bedding Plants (1) Grow bedding plants appropriate for your area in pots or flats from seed or cuttings in a manufactured soil mix. Explain why you chose the mix and tell what is in it. (2) Transplant plants to a bed in the landscape and maintain the bed until the end of the growing season. Record your activities, observations, materials used, and costs. (3) Demonstrate mulching, fertilizing, watering, weeding, and deadheading, and tell how each practice helps your plants. (4) Tell some differences between gardening with annuals and perennials. (5) (b) Fruit, Berry, and Nut Crops (1) Plant five fruit or nut trees, grapevines, or berry plants that are suited to your area. Take full care of fruit or nut trees, grapevines, or berry plants through one season. (2) Prune a tree, vine, or shrub properly. Explain why pruning is necessary. (3) Demonstrate one type of graft and tell why this method is useful. (4) Describe how one fruit, nut, or berry crop is processed for use. (5) (c) Woody Ornamentals (1) Plant five or more trees or shrubs in a landscape setting. Take full care of the trees or shrubs you have planted for one growing season. (2) Prune a tree or shrub properly. Explain why pruning is necessary. (3) List 10 trees (in addition to those listed in general requirement 6 above) and tell your counselor how each is used in the landscape. Give the common and scientific names. (4) Describe the size, texture, color, flowers, leaves, fruit, hardiness, cultural requirements, and any special characteristics that make each type of tree or shrub attractive or interesting. (5) Tell five ways trees help improve the quality of our environment. (5) (d) Home Gardening (1) Design and plant a garden or landscape that is at least 10 by 10 feet. (2) Plant 10 or more different types of plants in your garden. Tell why you selected particular varieties of vegetables and flowers. Take care of the plants in your garden for one season. (3) Demonstrate soil preparation, staking, watering, weeding, mulching, composting, fertilizing, pest management, and pruning. Tell why each technique is used. (4) Tell four types of things you could provide to make your home landscape or park a better place for birds and wildlife. List the common and scientific names of 10 kinds of native plants that are beneficial to birds and wildlife in your area.",
-          "topic_title": "Req 8b: Option B Horticulture Gardens",
-          "pamphlet_summary": "Option B Horticulture Gardens: To improve production, farmers try to select the best small grain varieties (p. 39).",
+          "topic_title": "Req 8b: Horticulture Facility Operations and Culture",
+          "pamphlet_summary": "Horticulture encompasses the intensive cultivation of flowers, fruits, vegetables, and ornamental nursery stock. Touring public arboretums and retail nurseries reveals professional techniques in pruning, container media blending, and pest management.",
           "pamphlet_excerpts": [
-            "Option B Horticulture Gardens: To improve production, farmers try to select the best small grain varieties (p. 39)."
+            "Horticulture encompasses the intensive cultivation of flowers, fruits, vegetables, and ornamental nursery stock. Touring public arboretums and retail nurseries reveals professional techniques in pruning, container media blending, and pest management."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plant_science_p068_img1.png",
           "workbook_diagram_caption": "A full fruit tree with dense foliage showcases proper horticultural pruning and long-term garden cultivation.",
@@ -8003,8 +8065,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
           "common_misconception_pair": {
-            "misconception": "For Plant Science Requirement 8c, a common mistake in option c field botany is treating option c, field botany as optional background reading.",
-            "fact": "Mastering Plant Science Requirement 8c means following the pamphlet standard for option c field botany and recording accurate notes on option c, field botany."
+            "misconception": "Botanists identify wild plants simply by matching leaf shapes to casual picture books.",
+            "fact": "Field botanists rely on morphological floral characteristics and vegetative keys to identify native species rather than relying on common names.",
+            "myth": "Botanists identify wild plants simply by matching leaf shapes to casual picture books.",
+            "fact_correction": "Field botanists rely on morphological floral characteristics and vegetative keys to identify native species rather than relying on common names."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -8035,10 +8099,10 @@
           "id": "8c",
           "sub_req_label": "8c",
           "sub_req_text": "Option C, Field Botany. Do ALL of the following: (1) Visit a park, forest, Scout camp, or other natural area near your home. While you are there: (a) Determine which species of plants are the largest and which are the most abundant. Note whether they cast shade on other plants. (b) Using information from maps, textbooks, or the internet, describe the environmental factors that may influence the presence of plants on your site, including latitude, climate, air and soil temperature, soil type and pH, geology, hydrology, and topography. (c) Record any differences in the types of plants you see at the edge of a forest, near water, in burned areas, or near a road or railroad. (2) Select a study site that is at least 100 by 100 feet. Make a list of 10 woody plants (trees and shrubs) and 10 non-woody plants in the study site. Find out which of these are native plants and which are exotic (or non-native). (3) Tell how an identification key works and use a simple key to identify 10 kinds of plants (in addition to those in general requirement 5 above). Tell the difference between common and scientific names and tell why scientific names are important. (4) After gaining permission, collect, identify, press, mount, and label 10 different plants that are common in your area. Tell why voucher specimens are important for documentation of a field botanist's discoveries. (5) Obtain a list of rare plants of your state. Tell what is being done to protect rare plants and natural areas in your state. Write a paragraph about one of the rare plants in your state. (6) Do ALL of the requirements in ONE of the following alternatives: (a) Tree Inventory (1) Identify the trees of your neighborhood, a park, a section of your town, or a Scout camp. (2) Collect, press, and label leaves, flowers, or fruits to document your inventory. (3) List the types of trees by scientific name and give common names. Note the number and size (diameter at 4½ feet above ground) of trees observed and determine the largest of each species in your study area. (4) Show two or more people how to use a leaf or twig key to identify at least five species of trees or shrubs. (b) Transect Study (1) Visit two sites, at least one of which is different from the one you visited for Field Botany requirement 1. (2) Use the transect method to study the two different kinds of plant communities. The transects should be at least 500 feet long. (3) At each site, record observations about the soil and other influencing factors AND do the following. Then make a graph or chart to show the results of your studies. (a) Identify each tree within 10 feet of the transect line. (b) Measure the diameter of each tree at 4½ feet above the ground, and map and list each tree. (c) Nested Plot (1) Visit two sites, at least one of which is different from the one you visited for Field Botany requirement 1. (2) Mark off nested plots and inventory two different kinds of plant communities. (3) At each site, record observations about the soil and other influencing factors AND do the following. Then make a graph or chart to show the results of your studies. (a) Identify, measure, and map each tree in a 100-by-100-foot plot. (Measure the diameter of each tree larger than 3 inches in diameter at 4½ feet above the ground.) (b) Identify and count all trees and shrubs in a 10-by-10-foot plot within each of the larger areas. (c) Identify and count all broad-leaved plants (trees, shrubs, vines, and herbaceous plants) and all plants (wildflowers, ferns, grasses, mosses, etc.) of a 4-by-4-foot plot within the 10-by-10-foot plot. Note: If individual plants like ferns, grasses, and mosses cannot be clearly distinguished, make a reasonable estimate of area (square inches of cover) for each species and record that as an estimate within the 4 x 4 subplot. (d) Herbarium Visit (1) Write ahead and arrange to visit an herbarium at a university, park, or botanical garden; OR, visit an herbarium website (with your parent or guardian's permission). (2) Tell how the specimens are arranged and how they are used by researchers. If possible, observe voucher specimens of a plant that is rare in your state. (3) Tell how a voucher specimen is mounted and prepared for permanent storage. Tell how specimens should be handled so that they will not be damaged. (4) Tell about the tools and references used by botanists in an herbarium. (e) Plant Conservation Organization Visit (1) Write ahead and arrange to visit a private conservation organization or government agency that is concerned with protecting rare plants and natural areas. (2) Tell about the activities of the organization in studying and protecting rare plants and natural areas. (3) If possible, visit a nature preserve managed by the organization. Tell about land management practices such as controlled burning, or measures to eradicate invasive (non-native) plants or other threats to the plants that are native to the area.",
-          "topic_title": "Req 8c: Option C Field Botany",
-          "pamphlet_summary": "Option C Field Botany: Growers are concerned about disease resistance, grain quality, straw strength, and plant height (p. 39).",
+          "topic_title": "Req 8c: Field Botany and Ecological Surveying",
+          "pamphlet_summary": "Field botany investigates native plant species diversity, community relationships, and wild habitat distribution. Conducting field surveys requires observing canopy layers, documenting soil moisture regimes, and using taxonomic identification guides.",
           "pamphlet_excerpts": [
-            "Option C Field Botany: Growers are concerned about disease resistance, grain quality, straw strength, and plant height (p. 39)."
+            "Field botany investigates native plant species diversity, community relationships, and wild habitat distribution. Conducting field surveys requires observing canopy layers, documenting soil moisture regimes, and using taxonomic identification guides."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/plant_science_p084_img1.png",
           "workbook_diagram_caption": "Distinct green leaf outlines illustrate varied botanical shapes used to identify native plant species.",
@@ -8123,11 +8187,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Agronomy, Horticulture, and Field Botany",
+      "topic_title": "Req 8: Specialized Plant Science Field Options",
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Plant Science Requirement 8: travel with a buddy, carry the Scout Basic Essentials and water while studying agronomy, horticulture, and field botany, and respect wildlife distance and Leave No Trace guidelines.",
+      "safety_callout": "Wear safety glasses when operating motorized rototillers and apply insect repellent when conducting off trail botanical surveys to avoid tick borne diseases.",
       "pamphlet_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
       "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -8157,8 +8221,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Grain farmers always breed wheat and oats to grow as tall as possible so the plants produce more grain.",
-        "fact": "Overly tall, weak-stemmed grain crops can become lodged, meaning flattened to the ground by wind and rainstorms, making harvest difficult (p. 39)."
+        "misconception": "Agronomy, horticulture, and field botany are identical terms for general outdoor gardening.",
+        "fact": "Agronomy focuses on large scale field crops like corn and soybeans, horticulture manages intensive fruits, vegetables, and ornamentals, and field botany studies wild plant taxonomy.",
+        "myth": "Agronomy, horticulture, and field botany are identical terms for general outdoor gardening.",
+        "fact_correction": "Agronomy focuses on large scale field crops like corn and soybeans, horticulture manages intensive fruits, vegetables, and ornamentals, and field botany studies wild plant taxonomy."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -8187,16 +8253,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Agricultural Statistics Reference Reports: You can also check the U. S. Statistical Report or Agricultural Statistics Handbook, both of which may be available at your public library (p. 39).",
-        "Extension Agent Research Help: If you need help, ask your merit badge counselor or county extension agent to access these statistics (p. 39).",
-        "Selecting Small Grain Varieties: To improve production, farmers try to select the best small grain varieties (p. 39).",
-        "Key Crop Selection Traits: Growers are concerned about disease resistance, grain quality, straw strength, and plant height (p. 39)."
+        "Seedbed Preparation: Pulverizing soil clods creates a firm seedbed that ensures complete seed to soil contact.",
+        "Germination Testing: Blotting fifty agricultural seeds in damp paper towels calculates field emergence percentages accurately.",
+        "Horticulture Production: Commercial greenhouse operations manage drip fertigation systems to maximize containerized ornamental growth.",
+        "Botanical Surveying: Field botanists utilize dichotomous taxonomic keys to identify indigenous wild plant populations systematically."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Select High-Yielding Grain Varieties: To improve production, farmers try to select the best small grain varieties (p. 39).",
-        "Step 2 - Evaluate Disease and Straw Strength: Growers are concerned about disease resistance, grain quality, straw strength, and plant height (p. 39).",
-        "Step 3 - Prevent Crop Storm Lodging: If crops are tall and weak, they may become lodged, or flattened down, by storms or cultivation (p. 39).",
-        "Step 4 - Protect Soil With Cover: Closely grown small grain crops quickly develop a vegetative cover that protects the soil from wind and water erosion (p. 39)."
+        "Step 1 - Track Selection: Choose one specific study focus between agronomy, horticulture, or field botany.",
+        "Step 2 - Experimental Design: Assemble experimental equipment including seed germination testers or field plant presses.",
+        "Step 3 - Data Collection: Record quantitative germination percentages, nursery cultural practices, or wild species frequencies accurately.",
+        "Step 4 - Technical Reporting: Present a structured comparative analysis detailing experimental findings to the counselor."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -8205,15 +8271,13 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Option A Agronomy Crop Science",
-        "right_header": "Req 8b: Option B Horticulture Gardens",
+        "left_header": "Req 8a: Agronomy and Seedbed Management",
+        "right_header": "Req 8b: Horticulture Facility Operations a",
         "left_points": [
-          "(8a) Option A Agronomy Crop Science: You can also check the U. S. Statistical Report or Agricultural Statistics Handbook, both of which may be available at your public library (p. 39).",
-          "Extension Agent Research Help: If you need help, ask your merit badge counselor or county extension agent to access these statistics (p. 39)."
+          "(8a) Agronomy and Seedbed Management: Agronomy centers on commercial field crop production, soil management, and high volume grain cultivation. Standardized germination testing evaluates seed lot vigor before large scale mechanized planting begins."
         ],
         "right_points": [
-          "(8b) Option B Horticulture Gardens: To improve production, farmers try to select the best small grain varieties (p. 39).",
-          "Selecting Small Grain Varieties: To improve production, farmers try to select the best small grain varieties (p. 39)."
+          "(8b) Horticulture Facility Operations and Culture: Horticulture encompasses the intensive cultivation of flowers, fruits, vegetables, and ornamental nursery stock. Touring public arboretums and retail nurseries reveals professional techniques in pruning, container media blending, and pest management."
         ],
         "rows": [
           {
@@ -8237,9 +8301,9 @@
         "title": "Plant Science Req 8 Exemplar Workbook Entry: Agronomy, Horticulture, and Field Botany",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 8a (Option A Agronomy Crop Science)": "You can also check the U. S. Statistical Report or Agricultural Statistics Handbook, both of which may be available at your public library (p. 39).",
-          "Req 8b (Option B Horticulture Gardens)": "To improve production, farmers try to select the best small grain varieties (p. 39).",
-          "Req 8c (Option C Field Botany)": "Growers are concerned about disease resistance, grain quality, straw strength, and plant height (p. 39)."
+          "Req 8a - Agronomy and Seedbed Management": "Agronomy centers on commercial field crop production, soil management, and high volume grain cultivation. Standardized germination testing evaluates seed lot vigor before large scale mechanized planting begins.",
+          "Req 8b - Horticulture Facility Operations": "Horticulture encompasses the intensive cultivation of flowers, fruits, vegetables, and ornamental nursery stock. Touring public arboretums and retail nurseries reveals professional techniques in pruning, container media blending, and pest management.",
+          "Req 8c - Field Botany and Ecological Surve": "Field botany investigates native plant species diversity, community relationships, and wild habitat distribution. Conducting field surveys requires observing canopy layers, documenting soil moisture regimes, and using taxonomic identification guides."
         },
         "sample_output": "Agronomy, Horticulture, and Field Botany: If you need help, ask your merit badge counselor or county extension agent to access these statistics (p. 39).",
         "counselor_tip": "For Plant Science Requirement 8 (Agronomy, Horticulture, and Field Botany), verify the Scout's own observations and specific pamphlet details (Official Scouting America Plant Science Merit Badge Pamphlet (p. 39, p. 88))."
@@ -8271,7 +8335,13 @@
       "workbook_diagram_caption": "Scouts examine mature wheat stalks and grain seeds at an outdoor table during a farm inspection.",
       "number": "8",
       "description": "Choose ONE of the following options and complete each requirement: (a) Option A, Agronomy. Do ALL of the following: (1) Describe how to prepare a seedbed. (2) Make and use a seed germination tester to test 50 seeds of four of the following plants: corn, cotton, alfalfa, soybeans, clover, wheat, rice, rye, or barley. Determine the percentage of live seeds. (3) Explain one important insect pest and one important disease that damage each of the following: corn, small grains, and cotton. Collect and name five weeds that compete with crops in your locality. Tell how to control these weeds without harming people, wildlife, or useful insects. (4) On a map of the United States, identify the chief regions where corn, cotton, forage crops, small grain crops, and oil crops grow. Tell how the climate and location of these regions make them leaders in the production of these crops. (5) Do ALL of the requirements in ONE of the following alternatives: (5) (a) Corn (1) Grow a plot of corn and have your plot inspected by your counselor. Record seed variety or experimental code number. (2) Tell about modern methods of commercial corn farming and the contributions that corn makes to today's food and fuel supply. (3) Tell about an insect that can damage corn, and explain how it affects corn production and how it is controlled. (5) (b) Cotton (1) Grow a plot of cotton and have your plot inspected by your counselor. (2) Tell about modern methods of commercial cotton farming, and about the uses of cotton fiber and seed and the economic value of this crop. (3) Tell about an insect that can damage cotton, and explain how it affects cotton production and how it is controlled. (5) (c) Forage Crops (1) Collect, count, and label samples of each for display: perennial grasses, annual grasses, legumes, and broadleaf weeds. Indicate how each grass and legume is used. Keep a log of the site where you found each sample and share it with your counselor. (2) Explain how legumes can be used to enrich the soil and how they may deplete it under certain conditions. Explain how livestock may enrich or deplete the soil. (3) Name five poisonous plants that are dangerous to livestock, and tell the different ways of using forage crops as feed for livestock. (5) (d) Small Grains (1) Give production figures for small grain crops listed in the U. S. Statistical Report or Agricultural Statistics Handbook for the latest year available. (2) Help in harvesting a crop of grain. Tell how to reduce harvesting losses and about modern methods of growing one small grain crop. (3) Visit a grain elevator, flour mill, cereal plant, feed or seed company. Talk with the operator. Take notes, and describe the processes used and tell your patrol, troop, or class about your visit. (5) (e) Oil Crops (1) Grow a plot of soybeans and have your plot inspected by your counselor. (2) Tell about modern methods of growing soybeans on a commercial scale, and discuss the contributions soybeans make to our food supply. (3) Explain why a hard frost can be dangerous to soybeans just after emergence. (b) Option B, Horticulture. Do ALL of the following: (1) Visit one of the following places and tell what you learned about horticulture there: public garden, arboretum, retail nursery, wholesale nursery, production greenhouse, or conservatory greenhouse. (2) Explain the following terms: hardiness zone, shade tolerance, pH, moisture requirement, native habitat, texture, cultivar, ultimate size, disease resistance, habit, evergreen, deciduous, annual, and perennial. Find out what hardiness zone you live in and list 10 landscape plants you like that are suitable for your climate, giving the common name and scientific name for each. (3) Do ONE of the following: (a) Explain the difference between vegetative and sexual propagation methods, and tell some horticultural advantages of each. Grow a plant from a stem or root cutting or graft. (b) Transplant 12 seedlings or rooted cuttings to larger containers and grow them for at least one month. (c) Demonstrate good pruning techniques and tell why pruning is important. (d) After obtaining permission, plant a tree or shrub properly in an appropriate site. (4) Do the following: (a) Explain the importance of good landscape design and selection of plants that are suitable for particular sites and conditions. (b) Tell why it is important to know how big a plant will grow. (c) Tell why slower-growing landscape plants are sometimes a better choice than faster-growing varieties. (5) Do ALL of the requirements in ONE of the following alternatives: (5) (a) Bedding Plants (1) Grow bedding plants appropriate for your area in pots or flats from seed or cuttings in a manufactured soil mix. Explain why you chose the mix and tell what is in it. (2) Transplant plants to a bed in the landscape and maintain the bed until the end of the growing season. Record your activities, observations, materials used, and costs. (3) Demonstrate mulching, fertilizing, watering, weeding, and deadheading, and tell how each practice helps your plants. (4) Tell some differences between gardening with annuals and perennials. (5) (b) Fruit, Berry, and Nut Crops (1) Plant five fruit or nut trees, grapevines, or berry plants that are suited to your area. Take full care of fruit or nut trees, grapevines, or berry plants through one season. (2) Prune a tree, vine, or shrub properly. Explain why pruning is necessary. (3) Demonstrate one type of graft and tell why this method is useful. (4) Describe how one fruit, nut, or berry crop is processed for use. (5) (c) Woody Ornamentals (1) Plant five or more trees or shrubs in a landscape setting. Take full care of the trees or shrubs you have planted for one growing season. (2) Prune a tree or shrub properly. Explain why pruning is necessary. (3) List 10 trees (in addition to those listed in general requirement 6 above) and tell your counselor how each is used in the landscape. Give the common and scientific names. (4) Describe the size, texture, color, flowers, leaves, fruit, hardiness, cultural requirements, and any special characteristics that make each type of tree or shrub attractive or interesting. (5) Tell five ways trees help improve the quality of our environment. (5) (d) Home Gardening (1) Design and plant a garden or landscape that is at least 10 by 10 feet. (2) Plant 10 or more different types of plants in your garden. Tell why you selected particular varieties of vegetables and flowers. Take care of the plants in your garden for one season. (3) Demonstrate soil preparation, staking, watering, weeding, mulching, composting, fertilizing, pest management, and pruning. Tell why each technique is used. (4) Tell four types of things you could provide to make your home landscape or park a better place for birds and wildlife. List the common and scientific names of 10 kinds of native plants that are beneficial to birds and wildlife in your area. (c) Option C, Field Botany. Do ALL of the following: (1) Visit a park, forest, Scout camp, or other natural area near your home. While you are there: (a) Determine which species of plants are the largest and which are the most abundant. Note whether they cast shade on other plants. (b) Using information from maps, textbooks, or the internet, describe the environmental factors that may influence the presence of plants on your site, including latitude, climate, air and soil temperature, soil type and pH, geology, hydrology, and topography. (c) Record any differences in the types of plants you see at the edge of a forest, near water, in burned areas, or near a road or railroad. (2) Select a study site that is at least 100 by 100 feet. Make a list of 10 woody plants (trees and shrubs) and 10 non-woody plants in the study site. Find out which of these are native plants and which are exotic (or non-native). (3) Tell how an identification key works and use a simple key to identify 10 kinds of plants (in addition to those in general requirement 5 above). Tell the difference between common and scientific names and tell why scientific names are important. (4) After gaining permission, collect, identify, press, mount, and label 10 different plants that are common in your area. Tell why voucher specimens are important for documentation of a field botanist's discoveries. (5) Obtain a list of rare plants of your state. Tell what is being done to protect rare plants and natural areas in your state. Write a paragraph about one of the rare plants in your state. (6) Do ALL of the requirements in ONE of the following alternatives: (a) Tree Inventory (1) Identify the trees of your neighborhood, a park, a section of your town, or a Scout camp. (2) Collect, press, and label leaves, flowers, or fruits to document your inventory. (3) List the types of trees by scientific name and give common names. Note the number and size (diameter at 4½ feet above ground) of trees observed and determine the largest of each species in your study area. (4) Show two or more people how to use a leaf or twig key to identify at least five species of trees or shrubs. (b) Transect Study (1) Visit two sites, at least one of which is different from the one you visited for Field Botany requirement 1. (2) Use the transect method to study the two different kinds of plant communities. The transects should be at least 500 feet long. (3) At each site, record observations about the soil and other influencing factors AND do the following. Then make a graph or chart to show the results of your studies. (a) Identify each tree within 10 feet of the transect line. (b) Measure the diameter of each tree at 4½ feet above the ground, and map and list each tree. (c) Nested Plot (1) Visit two sites, at least one of which is different from the one you visited for Field Botany requirement 1. (2) Mark off nested plots and inventory two different kinds of plant communities. (3) At each site, record observations about the soil and other influencing factors AND do the following. Then make a graph or chart to show the results of your studies. (a) Identify, measure, and map each tree in a 100-by-100-foot plot. (Measure the diameter of each tree larger than 3 inches in diameter at 4½ feet above the ground.) (b) Identify and count all trees and shrubs in a 10-by-10-foot plot within each of the larger areas. (c) Identify and count all broad-leaved plants (trees, shrubs, vines, and herbaceous plants) and all plants (wildflowers, ferns, grasses, mosses, etc.) of a 4-by-4-foot plot within the 10-by-10-foot plot. Note: If individual plants like ferns, grasses, and mosses cannot be clearly distinguished, make a reasonable estimate of area (square inches of cover) for each species and record that as an estimate within the 4 x 4 subplot. (d) Herbarium Visit (1) Write ahead and arrange to visit an herbarium at a university, park, or botanical garden; OR, visit an herbarium website (with your parent or guardian's permission). (2) Tell how the specimens are arranged and how they are used by researchers. If possible, observe voucher specimens of a plant that is rare in your state. (3) Tell how a voucher specimen is mounted and prepared for permanent storage. Tell how specimens should be handled so that they will not be damaged. (4) Tell about the tools and references used by botanists in an herbarium. (e) Plant Conservation Organization Visit (1) Write ahead and arrange to visit a private conservation organization or government agency that is concerned with protecting rare plants and natural areas. (2) Tell about the activities of the organization in studying and protecting rare plants and natural areas. (3) If possible, visit a nature preserve managed by the organization. Tell about land management practices such as controlled burning, or measures to eradicate invasive (non-native) plants or other threats to the plants that are native to the area.",
-      "workbook_visual_caption": "Scouts examine mature wheat stalks and grain seeds at an outdoor table during a farm inspection."
+      "workbook_visual_caption": "Scouts examine mature wheat stalks and grain seeds at an outdoor table during a farm inspection.",
+      "pamphlet_summary": "Advanced plant science specialization divides practical applications into agronomic field crop management, horticultural greenhouse and nursery production, and wild field botanical taxonomy. Each discipline requires specialized diagnostic tools, distinct propagation protocols, and tailored management strategies suited to agricultural fields, retail nurseries, or natural forest preserves.",
+      "socratic_questions": [
+        "How does firm seedbed preparation prevent seed desiccation during early embryonic growth?",
+        "Why do commercial retail nurseries group containerized woody shrubs by sun and irrigation requirements?",
+        "What ecological variables explain why certain native forest perennials grow exclusively on north facing slopes?"
+      ]
     },
     {
       "req_id": "9",
@@ -8298,11 +8368,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Leave No Trace and Herbarium Ethics",
+      "topic_title": "Req 9: Outdoor Ethics and Botanical Stewardship",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 9): Complete all Leave No Trace and Herbarium Ethics discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Stay on established footpaths and observe steep banks from safe distances to avoid triggering soil erosion or suffering accidental falls.",
       "pamphlet_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 80, p. 88)",
       "pamphlet_page_citation": "Official Scouting America Plant Science Merit Badge Pamphlet (p. 80, p. 88)",
       "syllabus_bucket": "In-Class Concept",
@@ -8330,8 +8400,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "An herbarium is a heated glass greenhouse where tropical living plants are grown in pots.",
-        "fact": "An herbarium is a systematically organized library of dried, pressed plant specimens mounted on archival sheets for scientific reference (p. 80)."
+        "misconception": "Picking a few wild woodland flowers does not harm natural plant populations.",
+        "fact": "Harvesting rare wild flowers or peeling birch bark causes permanent damage to wild plants and degrades habitats for future visitors.",
+        "myth": "Picking a few wild woodland flowers does not harm natural plant populations.",
+        "fact_correction": "Harvesting rare wild flowers or peeling birch bark causes permanent damage to wild plants and degrades habitats for future visitors."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -8355,16 +8427,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "University Herbarium Specimen Libraries: Visiting an Her barium or Plant Conservation Organization Herbariums are plant specimen libraries, usually housed in universities or botanical gardens (p. 80).",
-        "Rare Plant Voucher Specimens: They are a valuable resource for plant scientists and researchers because their collections often include voucher specimens of rare or extinct plants (p. 80).",
-        "Systematic Reference Arrangement: The specimens are systematically arranged for reference (p. 80).",
-        "Botanical Family and Genus Order: Some are arranged alphabetically according to botanic classifications (family, genus, and species) (p. 80)."
+        "Trail Preservation: Concentrating foot travel on durable trail surfaces prevents trampling fragile forest understory seedlings.",
+        "Specimen Stewardship: Photographing rare native blossoms preserves wild genetic stock rather than picking vulnerable plants.",
+        "Biosecurity Protocol: Scrubbing hiking boots removes hitchhiking invasive weed seeds before entering pristine nature preserves.",
+        "Campfire Conservation: Burning only dead and downed wood prevents structural damage to standing living trees."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Locate Systematically Arranged Specimens: The specimens are systematically arranged for reference (p. 80).",
-        "Step 2 - Look Up Family and Genus: Some are arranged alphabetically according to botanic classifications (family, genus, and species) (p. 80).",
-        "Step 3 - Handle Fragile Mounts Carefully: They must be handled carefully to avoid damaging the fragile specimens (p. 80).",
-        "Step 4 - Store in Climate-Controlled Cabinets: The collections are stored inside dust proof boxes or cabinets in areas with controlled temperature and humidity (p. 80)."
+        "Step 1 - Surface Selection: Walk exclusively on established gravel or bare soil trails during botanical surveys.",
+        "Step 2 - Non-Invasive Observation: Document wild specimens using sketch pads and field cameras without removing blossoms.",
+        "Step 3 - Equipment Sanitation: Clean boot treads and trowels thoroughly to dislodge clinging invasive plant seeds.",
+        "Step 4 - Stewardship Review: Evaluate campsite and trail areas to ensure zero vegetative disturbance remains visible."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -8437,7 +8509,13 @@
       "workbook_diagram_caption": "Distinct green leaf outlines illustrate varied botanical shapes used to identify native plant species.",
       "number": "9",
       "description": "Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to plant science. Explain how you have followed the Leave No Trace Seven Principles and the Outdoor Code while in natural areas during field observation, specimen collection, and identification.",
-      "workbook_visual_caption": "Distinct green leaf outlines illustrate varied botanical shapes used to identify native plant species."
+      "workbook_visual_caption": "Distinct green leaf outlines illustrate varied botanical shapes used to identify native plant species.",
+      "pamphlet_summary": "Outdoor ethics during botanical excursions demand strict adherence to the Leave No Trace Seven Principles and the Outdoor Code to prevent habitat degradation. Scouts minimize environmental impacts by traveling on durable surfaces, leaving natural plant communities undisturbed, and sanitizing gear to prevent the spread of invasive species.",
+      "socratic_questions": [
+        "How does off trail hiking cause long term soil compaction that inhibits native seedling germination?",
+        "Why should botanists photograph rare wild orchids rather than harvesting them for herbarium collections?",
+        "In what ways does cleaning muddy hiking boots prevent the spread of devastating plant pathogens?"
+      ]
     }
   ],
   "badge_slug": "plant_science",

@@ -1,0 +1,485 @@
+{
+  "requirements": [
+    {
+      "fact": "Safety is the continuous process of identifying, controlling, and mitigating manageable risks to prevent harm.",
+      "misconception": "Safety means eliminating all possible danger from every daily task.",
+      "pamphlet_excerpts": [
+        "Risk Reduction: Systematic controls eliminate potential dangers before operational activities begin in earnest.",
+        "Hazard Definition: Unsafe physical conditions or reckless actions directly create severe injury risks.",
+        "Control Hierarchy: Physical hazard elimination provides significantly higher protection than behavioral personal warnings.",
+        "Situational Readiness: Continuous environmental observation prevents unexpected workplace incidents during troop project work."
+      ],
+      "pamphlet_summary": "Safety represents an active state of operational readiness achieved by identifying conditions capable of causing physical harm. Hazard management relies on systematic elimination, engineering controls, administrative procedures, and personal protective equipment to lower risks.",
+      "req_id": "1",
+      "safety_callout": "Stop any activity immediately whenever an uncontrolled hazard or unsafe condition appears in the operating area.",
+      "socratic_questions": [
+        "What distinguishes an environmental hazard from an unsafe human behavior?",
+        "Why is removing a sharp hazard more effective than wearing protective work gloves?",
+        "How does situational awareness change when moving from a meeting hall to an active construction zone?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Area Survey: Scan every physical location to identify existing mechanical and environmental dangers.",
+        "Step 2 - Risk Evaluation: Measure the probability and potential severity of every identified hazard accurately.",
+        "Step 3 - Control Selection: Install physical barriers or implement administrative operating rules before beginning.",
+        "Step 4 - Continuous Monitoring: Reassess the activity site periodically to catch newly emerging hazard conditions."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Safety provides practical boundaries that allow challenging activities to proceed without catastrophic injury.",
+          "misconception": "Being safe requires avoiding all adventurous or physically challenging outdoor pursuits.",
+          "pamphlet_summary": "Safety is an active discipline of anticipating dangers and making deliberate choices to preserve health. Being safe means recognizing personal limitations and maintaining vigilance across all environments.",
+          "sub_id": "1a",
+          "topic_title": "Core Safety Concept Definitions"
+        },
+        {
+          "fact": "Engineering controls and physical isolation must precede administrative rules and personal protective gear.",
+          "misconception": "Warning labels and verbal caution alone suffice to neutralize environmental hazards.",
+          "pamphlet_summary": "Hazards consist of any biological, chemical, or physical condition capable of inflicting harm on people or property. Managing hazards requires applying standard control hierarchies to reduce vulnerability.",
+          "sub_id": "1b",
+          "topic_title": "Systematic Hazard Management Strategies"
+        }
+      ],
+      "topic_title": "Fundamental Hazard Assessment Principles"
+    },
+    {
+      "fact": "Flashover and toxic gas accumulation can incapacitate occupants in less than two minutes.",
+      "misconception": "Residential fires allow ample time to gather personal valuables before exiting.",
+      "pamphlet_excerpts": [
+        "Fall Prevention: Secure stairway handrails and remove floor clutter to prevent falls.",
+        "Firework Hazards: Consumer pyrotechnics cause catastrophic hand burns and permanent eyesight destruction.",
+        "Smoke Alarms: Test battery operated smoke detectors monthly to ensure reliable operational capability.",
+        "Evacuation Routes: Identify two distinct emergency exit passageways from every residential bedroom."
+      ],
+      "pamphlet_summary": "Home safety requires systematic evaluation of structural spaces, heating appliances, electrical circuits, and storage practices. Establishing functional escape plans and natural disaster protocols protects household residents against preventable domestic tragedies.",
+      "req_id": "2",
+      "safety_callout": "Never re-enter a burning structure under any circumstances once you have evacuated to the designated assembly point.",
+      "socratic_questions": [
+        "Why do kitchen cooking grease fires react violently when water is poured onto them?",
+        "How does maintaining two clear exit routes per room protect trapped occupants during house fires?",
+        "What geographic factors determine whether a household prepares primarily for hurricanes, tornadoes, or winter freezes?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Walkthrough Inspection: Traverse every room with an adult family member using the checklist.",
+        "Step 2 - Fire Plan: Draw structural escape diagrams showing primary and secondary doors or windows.",
+        "Step 3 - Drill Execution: Practice exiting the building rapidly during a timed home fire simulation.",
+        "Step 4 - Kit Assembly: Assemble essential emergency disaster rations, water, and specialized communication equipment."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Teenagers and adults frequently suffer accidental poisoning from mislabeled bottles, medication mix-ups, and carbon monoxide leaks.",
+          "misconception": "Accidental poisoning happens almost exclusively to toddlers who explore low kitchen cabinets.",
+          "pamphlet_summary": "Domestic injuries most frequently stem from ground-level falls, scalding liquids, poisoning, and blunt strikes. Mitigating these risks involves installing grab bars, anchoring top-heavy furniture, and locking chemical storage cabinets.",
+          "sub_id": "2a",
+          "topic_title": "Common Home Injury Prevention"
+        },
+        {
+          "fact": "Sparkler tips burn at temperatures exceeding twelve hundred degrees Fahrenheit, hot enough to melt glass and ignite clothing.",
+          "misconception": "Handheld sparklers are harmless novelty toys suitable for unsupervised young children.",
+          "pamphlet_summary": "Fireworks unleash uncontrolled thermal energy, kinetic blast fragments, and toxic smoke clouds. Professional pyrotechnic displays offer safe entertainment while backyard fireworks cause thousands of emergency room visits annually.",
+          "sub_id": "2b",
+          "topic_title": "Consumer Fireworks Hazard Awareness"
+        },
+        {
+          "fact": "Damaged insulation, loose terminal lugs, and undersized extension cords ignite combustible wall framing without tripping breakers.",
+          "misconception": "Electrical circuit breakers eliminate all possibility of internal wall wiring overheating and igniting.",
+          "pamphlet_summary": "Unattended cooking equipment, overloaded electrical outlets, and uncleaned dryer lint traps represent leading domestic fire causes. Routine maintenance of heating chimneys and vigilant candle supervision drastically reduce accidental structure fires.",
+          "sub_id": "2c",
+          "topic_title": "Residential Fire Ignition Controls"
+        },
+        {
+          "fact": "Regular quarterly checklist audits catch degraded equipment, expired fire extinguishers, and new clutter before accidents happen.",
+          "misconception": "A passing inspection conducted three years ago guarantees current home safety standards.",
+          "pamphlet_summary": "Conducting an audit of domestic living spaces uncovers hidden slip hazards, non-working alarms, and blocked pathways. Recording structural deficiencies on an approved checklist enables homeowners to prioritize immediate corrective repairs.",
+          "sub_id": "2d",
+          "topic_title": "Domestic Checklist Safety Inspection"
+        },
+        {
+          "fact": "Escape paths must lead to a fixed outdoor meeting location well away from responding fire department apparatus.",
+          "misconception": "Household members will easily regroup near the front porch during midnight smoky evacuations.",
+          "pamphlet_summary": "A reliable fire escape blueprint plots two unobstructed egress passages out of each living area toward an exterior assembly landmark. Conducting practical timed escape drills ensures every household member reacts instinctively without panic.",
+          "sub_id": "2e",
+          "topic_title": "Residential Emergency Fire Evacuation"
+        },
+        {
+          "fact": "Local towers quickly become congested or damaged, making out-of-state text messaging the only viable family communication method.",
+          "misconception": "Cellular phone networks will remain operational for local voice calls throughout catastrophic natural disasters.",
+          "pamphlet_summary": "Severe weather events require robust evacuation plans tailored to regional threats like floods, tornadoes, or wildfires. Packing portable survival kits and designating out-of-town emergency contacts establishes household resilience during prolonged municipal infrastructure failures.",
+          "sub_id": "2f",
+          "topic_title": "Natural Disaster Family Planning"
+        }
+      ],
+      "topic_title": "Residential Hazard Mitigation Systems"
+    },
+    {
+      "fact": "Physical hardening through quality deadbolts and reinforced strike plates provides the primary physical barrier against burglars.",
+      "misconception": "Having a barking dog or decorative yard alarm sign eliminates the need for deadbolts.",
+      "pamphlet_excerpts": [
+        "Entry Security: Install heavy deadbolt locks on exterior doors to deter forced entry.",
+        "Landscape Pruning: Trim bushes near ground windows to remove concealment opportunities for intruders.",
+        "Perimeter Lighting: Mount motion sensor floodlights to illuminate vulnerable residential yard access ways.",
+        "Theft Deterrence: Keep personal electronics and expensive gear concealed while walking in public."
+      ],
+      "pamphlet_summary": "Protecting personal property and physical wellbeing requires understanding criminal tactics and maintaining solid structural barriers. Performing a physical property audit reveals vulnerable access points, defective locking mechanisms, and illumination blind spots.",
+      "req_id": "3",
+      "safety_callout": "Never confront an active intruder or burglar in your home; retreat to a lockable room and dial emergency dispatch immediately.",
+      "socratic_questions": [
+        "How does environmental design, such as street visibility and lighting, deter opportunistic property crime?",
+        "What behavioral habits make teenagers particularly vulnerable targets for street robbery or pickpocketing?",
+        "Why are deadbolt throw bolts required to penetrate at least one full inch into the door jamb?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Perimeter Scan: Walk the home exterior to locate unlit areas and fragile entryways.",
+        "Step 2 - Hardware Check: Test door deadbolts and window sash latches for firm mechanical engagement.",
+        "Step 3 - Security Audit: Fill out the security checklist documenting every vulnerable lock or opening.",
+        "Step 4 - Remediate Vulnerabilities: Install supplemental window pins, trim concealing shrubbery, and replace weak screws."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Most crimes affecting teenagers, including physical assaults and personal thefts, involve acquaintances, classmates, or neighborhood peers.",
+          "misconception": "Teenagers are targeted exclusively by adult strangers rather than acquaintances or peers.",
+          "pamphlet_summary": "Teens are disproportionately exposed to theft, physical bullying, cyber-extortion, and predatory street crimes. Recognizing targeted exploitation methods empowers adolescents to avoid hazardous environments and retain personal safety.",
+          "sub_id": "3a",
+          "topic_title": "Youth Crime Risk Dynamics"
+        },
+        {
+          "fact": "Spring latches can be bypassed in seconds using simple hand tools unless backed by a heavy-duty deadbolt.",
+          "misconception": "Standard interior spring latch door locks offer adequate protection against forced home entry.",
+          "pamphlet_summary": "A systematic home security assessment inspects entry doors, ground-floor windows, garage access points, and exterior illumination. Documenting hardware weaknesses alongside an adult allows families to install strike plate reinforcement and tamper-resistant latches.",
+          "sub_id": "3b",
+          "topic_title": "Physical Residential Security Assessment"
+        }
+      ],
+      "topic_title": "Community Crime Prevention Protocols"
+    },
+    {
+      "fact": "Main entrances become deadly bottlenecks during panics, making secondary side exits and service stairwells safer.",
+      "misconception": "Crowds will always evacuate public venues through the main front entrance in an orderly fashion.",
+      "pamphlet_excerpts": [
+        "Exit Awareness: Locate multiple emergency exit doors immediately upon entering any public auditorium.",
+        "Severe Weather: Seek sturdy interior masonry rooms when severe thunderstorms threaten camp sites.",
+        "Active Threats: Run away immediately from gunshots if an unobstructed escape route exists.",
+        "Suspicious Activity: Report unattended luggage or unusual behaviors to facility security personnel promptly."
+      ],
+      "pamphlet_summary": "Public spaces present unique crowd dynamics and structural evacuation challenges during fires, natural events, or hostile threats. Maintaining situational awareness and identifying secondary emergency egress routes ensures prompt survival action during sudden emergencies.",
+      "req_id": "4",
+      "safety_callout": "In an active shooter emergency, keep your hands visible, fingers spread, and empty when first encountering law enforcement officers.",
+      "socratic_questions": [
+        "Why does staying inside a canvas tent during a lightning storm increase your risk of severe injury?",
+        "What physical objects in a hotel room can serve as impromptu door barricades against an active threat?",
+        "How can a citizen distinguish between harmless eccentric behavior and actionable suspicious activity requiring security notification?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Orientation Reconnaissance: Note the two nearest exit corridors whenever entering an unfamiliar venue.",
+        "Step 2 - Camp Sheltering: Move patrol members into engineered storm buildings when weather alarms sound.",
+        "Step 3 - Run Hide Fight: Escape active shooters if possible, barricade doors if trapped, or fight.",
+        "Step 4 - Anomaly Reporting: Notify facility managers immediately when discovering anomalous packages or suspicious tampering."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Elevators can lose electrical power, fill with smoke, or open directly onto burning floors.",
+          "misconception": "Elevators provide the fastest evacuation route from upper floors of a burning hotel.",
+          "pamphlet_summary": "Exiting public arenas, high-rise hotels, and sprawling stadiums requires avoiding stalled elevators and tracking illuminated emergency signs. Counting doors along hotel hallways allows individuals to navigate smoke-filled corridors to fire exits in complete darkness.",
+          "sub_id": "4a",
+          "topic_title": "Public Facility Emergency Egress"
+        },
+        {
+          "fact": "Tall solitary trees attract direct ground strikes and transmit fatal side-flash electrical currents to nearby individuals.",
+          "misconception": "Gathering beneath a tall, isolated tree provides adequate shelter from driving rain and lightning.",
+          "pamphlet_summary": "Camp environments expose Scouts to high winds, falling tree limbs, flash flooding, and lightning strikes. Leaders must direct patrols into designated hardened storm structures or low-lying ravines well before squall lines make impact.",
+          "sub_id": "4b",
+          "topic_title": "Outdoor Camp Shelter Protocols"
+        },
+        {
+          "fact": "Active shooters frequently continue firing at prone individuals; escaping or barricading behind reinforced doors provides vastly higher survival odds.",
+          "misconception": "Playing dead in an open corridor is a safe and reliable defensive tactic.",
+          "pamphlet_summary": "The Run, Hide, Fight protocol defines the universal civilian response doctrine against active violence in public spaces. Escaping the immediate hazard zone takes precedence, followed by locking and barricading interior rooms when flight is impossible.",
+          "sub_id": "4c",
+          "topic_title": "Active Threat Survival Tactics"
+        },
+        {
+          "fact": "Civilians must never engage suspects directly; they should record descriptive physical details and report them to professional law enforcement.",
+          "misconception": "Reporting suspicious activity requires confronting the suspected individual directly to investigate their intentions.",
+          "pamphlet_summary": "The national campaign If You See Something, Say Something trains citizens to recognize observable indicators of terrorism and crime. Reporting unattended parcels, unauthorized access attempts, or surveillance of infrastructure to authorities preserves community safety.",
+          "sub_id": "4d",
+          "topic_title": "Suspicious Activity Reporting Awareness"
+        }
+      ],
+      "topic_title": "Public Venue Threat Response"
+    },
+    {
+      "fact": "Youth protection barriers and anti-bullying policies govern interactions among all participants, regardless of age or rank.",
+      "misconception": "Youth protection rules apply only to adult volunteers and not to older youth leaders.",
+      "pamphlet_excerpts": [
+        "Two-Deep Leadership: Maintain two registered adult leaders on all official troop scouting trips.",
+        "One-on-One Contact: Prohibit one-on-one contact between adults and youth in all settings.",
+        "Recognize Resist Report: Identify boundary violations immediately, resist unwanted interactions, and report to authorities.",
+        "Scouts First Helpline: Call the twenty-four-hour helpline to report any suspected youth mistreatment."
+      ],
+      "pamphlet_summary": "Scouting America enforces rigorous Youth Protection policies to create a secure, positive environment across all scouting programs. Understanding personal boundaries, recognizing grooming behaviors, and knowing how to utilize mandatory reporting channels safeguards youth integrity.",
+      "req_id": "5",
+      "safety_callout": "In an emergency involving imminent danger of child abuse, contact local police authorities immediately before notifying council personnel.",
+      "socratic_questions": [
+        "Why does Scouting America prohibit private electronic communications between an adult leader and an individual youth?",
+        "What specific behavioral changes in a peer might indicate they are experiencing abuse or distress?",
+        "How does the buddy system protect Scouts from peer harassment as well as physical trail hazards?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Policy Verification: Confirm that all troop activities maintain mandatory two-deep adult leader supervision.",
+        "Step 2 - Boundary Monitoring: Ensure buddy pairs remain intact and private tenting separation rules are honored.",
+        "Step 3 - Resist Encroachment: Speak up firmly whenever adult or peer behavior crosses acceptable personal boundaries.",
+        "Step 4 - Prompt Reporting: Contact the Scout Executive or Scouts First Helpline immediately regarding suspicious conduct."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "One-on-one sessions are strictly forbidden; counseling must occur in full view of another adult or within group settings.",
+          "misconception": "One-on-one merit badge counseling sessions are permitted if conducted in a public corner of a room.",
+          "pamphlet_summary": "Mandatory youth protection policies include two-deep adult leadership, no one-on-one contact, and separate accommodations based on age and gender. Adults and youth must strictly adhere to transparent communication guidelines across in-person and digital platforms.",
+          "sub_id": "5a",
+          "topic_title": "Organizational Youth Protection Policies"
+        },
+        {
+          "fact": "Perpetrators frequently use subtle emotional manipulation, special privileges, and secrecy to cross boundaries gradually.",
+          "misconception": "Abuse always involves sudden physical violence rather than gradual manipulative boundary erosion.",
+          "pamphlet_summary": "Scouts learn to Recognize boundary crossings, Resist inappropriate physical or emotional pressure, and Report concerns without delay. Grooming behaviors, including secret gift-giving and isolation attempts, violate core safety protocols.",
+          "sub_id": "5b",
+          "topic_title": "Abuse Recognition and Resistance"
+        },
+        {
+          "fact": "Untrained investigation compromises victim safety; concerns must be reported directly to professional law enforcement and council leadership.",
+          "misconception": "Scouts should investigate suspected abuse on their own before sharing allegations with adult authorities.",
+          "pamphlet_summary": "Any individual who observes or suspects child abuse has a legal and moral obligation to notify professional child welfare authorities. Scouting America maintains the Scouts First Helpline to provide round-the-clock incident intake and counseling.",
+          "sub_id": "5c",
+          "topic_title": "Mandatory Abuse Reporting Channels"
+        }
+      ],
+      "topic_title": "Youth Protection Operational Guidelines"
+    },
+    {
+      "fact": "Attackers look for distracted, unobservant targets whose attention is absorbed by smartphones or headphones.",
+      "misconception": "Assailants always target physically weak individuals regardless of their alert posture.",
+      "pamphlet_excerpts": [
+        "Street Vigilance: Walk confidently with head up and avoid distraction from mobile smartphone screens.",
+        "Social Accountability: Attend public venues with trusted companions and monitor beverage cups continuously.",
+        "Firm Refusal: State unequivocal verbal refusals immediately when physical boundaries are violated by anyone.",
+        "Safe Departure: Arrange independent personal transportation before attending unfamiliar social events or dates."
+      ],
+      "pamphlet_summary": "Preventing physical and sexual assault requires acute situational awareness, proactive environmental appraisal, and firm personal boundary enforcement. Developing assertive de-escalation communication and maintaining reliable exit avenues protects individuals across diverse social settings.",
+      "req_id": "6",
+      "safety_callout": "If cornered by an aggressive assailant demanding property, surrender material possessions rather than engaging in physical combat.",
+      "socratic_questions": [
+        "How does body language and walking pace communicate readiness to an observer?",
+        "What steps should you take if an acquaintance at a restaurant becomes belligerent or aggressive?",
+        "Why is having a prearranged exit plan essential before going on an unfamiliar date?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Spatial Awareness: Walk in well-lit areas away from alleys and maintain wide personal distance.",
+        "Step 2 - Social Buddying: Designate a trusted friend to verify safety check-ins throughout any large party.",
+        "Step 3 - Boundary Setting: Deliver clear verbal commands to stop whenever an individual advances unwanted touch.",
+        "Step 4 - Strategic Egress: Move directly toward populated areas or security stations if pursued or threatened."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Audio distraction eliminates vital environmental cues like approaching footsteps, vehicle engines, or hostile shouts.",
+          "misconception": "Wearing noise-canceling headphones while walking alone does not impair personal safety awareness.",
+          "pamphlet_summary": "Street safety relies on purposeful movement, staying on well-lit sidewalks, and avoiding isolated shortcuts. Keeping hands free and ears unobstructed by headphones allows pedestrians to detect approaching threats promptly.",
+          "sub_id": "6a",
+          "topic_title": "Pedestrian Street Defense Measures"
+        },
+        {
+          "fact": "Verbal engagement escalates conflict; withdrawing immediately preserves physical safety and prevents criminal entanglements.",
+          "misconception": "Defending personal pride by trading insults is necessary when challenged in a public venue.",
+          "pamphlet_summary": "Public dining establishments occasionally host disruptive or alcohol-fueled confrontations. De-escalating by refusing to return hostile stares, paying the bill, and calmly relocating prevents minor disputes from turning into violent physical brawls.",
+          "sub_id": "6b",
+          "topic_title": "Restaurant Venue Altercation Avoidance"
+        },
+        {
+          "fact": "Most sexual assaults are committed by acquaintances, classmates, or dating partners who disregard explicit verbal boundaries.",
+          "misconception": "Sexual assault is committed almost exclusively by masked predators hiding in dark alleys.",
+          "pamphlet_summary": "Preventing sexual assault on dates or at parties involves establishing firm personal boundaries, never leaving drinks unattended, and maintaining independent transportation options. Clear verbal consent must govern all interactions, and any violation justifies instant departure.",
+          "sub_id": "6c",
+          "topic_title": "Social Setting Boundary Defense"
+        }
+      ],
+      "topic_title": "Personal Assault Prevention Strategies"
+    },
+    {
+      "fact": "Private browsing only clears local device history; internet service providers and external servers still log your activity.",
+      "misconception": "Private browsing modes prevent online scammers, websites, and malicious actors from tracking users.",
+      "pamphlet_excerpts": [
+        "Phishing Defense: Scrutinize electronic mail links carefully to detect spoofed fraudulent login portals.",
+        "Password Hygiene: Generate complex unique passphrases and activate multi-factor authentication across all accounts.",
+        "Identity Shielding: Conceal social security numbers and birthdates from public online profile biographies.",
+        "Digital Footprint: Remember that shared digital photographs and texts persist permanently on servers."
+      ],
+      "pamphlet_summary": "Operating safely on digital networks requires understanding social engineering, credential hygiene, and identity security. Defending personal data against phishing scams, malware exploitation, and cyberbullying preserves personal reputation and financial assets.",
+      "req_id": "7",
+      "safety_callout": "Never send explicit photos or share passwords with anyone; digital coercion and non-consensual image sharing are felonies.",
+      "socratic_questions": [
+        "How do cyber-criminals use social media geotags to plan residential burglaries?",
+        "What psychological tactics make phishing scams convincing to experienced computer users?",
+        "When does peer teasing cross the legal threshold into criminal cyber-harassment?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Account Hardening: Enable multi-factor authentication on every primary email and banking service profile.",
+        "Step 2 - Scam Triage: Evaluate unsolicited electronic messages for urgent monetary demands or suspicious attachments.",
+        "Step 3 - Privacy Lockdown: Restrict public visibility settings on personal social media platforms to friends.",
+        "Step 4 - Incident Escalation: Report digital harassment and extortion attempts to platform administrators and parents."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Antivirus cannot prevent users from willingly surrendering credentials to fraudulent websites or social engineers.",
+          "misconception": "Having active antivirus software guarantees total immunity from online criminal exploits.",
+          "pamphlet_summary": "Cyber-criminals employ spear-phishing, malicious downloads, and remote access trojans to compromise consumer devices. Maintaining updated software firewalls and verifying sender addresses blocks hostile intrusions.",
+          "sub_id": "7a",
+          "topic_title": "Online Crime Victimization Defense"
+        },
+        {
+          "fact": "Peer-to-peer payment transfers behave like cash; once authorized, lost funds are virtually impossible to reverse.",
+          "misconception": "Peer-to-peer payment applications provide automatic buyer refunds for fraudulent sales transactions.",
+          "pamphlet_summary": "Online financial fraud targets teens through fake check overpayment schemes, fraudulent peer-to-peer money transfers, and bogus investment groups. Legitimate companies never demand gift card payments or wire transfers for online prizes.",
+          "sub_id": "7b",
+          "topic_title": "Digital Financial Scam Recognition"
+        },
+        {
+          "fact": "A breach of any single non-critical website exposes the password to credential stuffing attacks across email and banking portals.",
+          "misconception": "Reusing one complex password across multiple non-critical websites carries minimal personal risk.",
+          "pamphlet_summary": "Effective cyber defense combines strong unique passwords, multi-factor hardware keys or authenticators, and automated operating system updates. Disabling auto-connect features on public Wi-Fi networks prevents man-in-the-middle data interception.",
+          "sub_id": "7c",
+          "topic_title": "Comprehensive Digital Security Controls"
+        },
+        {
+          "fact": "Criminals covet clean minor Social Security numbers to build undetected fraudulent credit histories for years.",
+          "misconception": "Minors are immune to identity theft because they do not have active credit cards.",
+          "pamphlet_summary": "Identity thieves exploit stolen Social Security numbers, full legal names, and birth dates to open credit lines and file bogus tax returns. Freezing consumer credit files and shredding sensitive paper mail effectively blocks unauthorized account openings.",
+          "sub_id": "7d",
+          "topic_title": "Identity Theft Prevention Protocols"
+        },
+        {
+          "fact": "Real-time vacation posts signal to local burglars that a family home is currently vacant and unguarded.",
+          "misconception": "Posting vacation photos in real time is safe if accounts have under five hundred followers.",
+          "pamphlet_summary": "Predators and thieves harvest personal routine schedules, real-time location data, and school affiliations from social profiles. Configuring strict private audience settings and declining connection requests from unverified individuals eliminates dangerous reconnaissance.",
+          "sub_id": "7e",
+          "topic_title": "Social Media Exploitation Hazards"
+        },
+        {
+          "fact": "Digital messages leave indelible traces on carrier servers and recipient hardware that forensic analysts extract readily.",
+          "misconception": "Deleting an aggressive or compromising text message removes it permanently from police forensic investigation.",
+          "pamphlet_summary": "Cyberbullying, non-consensual sharing of intimate media, and stalking through text messages constitute serious criminal violations. Digital communications leave permanent server forensic logs that law enforcement agencies routinely subpoena during criminal prosecutions.",
+          "sub_id": "7f",
+          "topic_title": "Digital Harassment Legal Consequences"
+        }
+      ],
+      "topic_title": "Digital Security Threat Mitigation"
+    },
+    {
+      "fact": "Drivers frequently run red lights or turn into crosswalks without noticing pedestrians; defensive walking is mandatory.",
+      "misconception": "Pedestrians possessing the legal right-of-way can safely cross without checking for turning vehicles.",
+      "pamphlet_excerpts": [
+        "Pedestrian Vigilance: Cross city streets at designated crosswalks while observing approaching vehicular traffic.",
+        "Vehicle Restraints: Fasten three-point seatbelts before the driver engages the vehicle transmission gear.",
+        "Rideshare Verification: Match vehicle license plates and driver identities before entering any rideshare car.",
+        "Aviation Preparedness: Count seat rows to the nearest cabin emergency exit upon boarding."
+      ],
+      "pamphlet_summary": "Safe transit across municipal and regional networks demands strict adherence to mode-specific safety behaviors and environmental vigilance. Whether walking, riding in passenger vehicles, using public transit, or flying, prepared travelers proactively anticipate transport risks.",
+      "req_id": "8",
+      "safety_callout": "In rideshares, never board an unmarked car until you ask the driver to state your name and confirm the app details.",
+      "socratic_questions": [
+        "Why does riding with a newly licensed teenage peer carry a significantly higher accident risk than riding with an experienced driver?",
+        "How does counting the seat rows to an airplane emergency exit aid passenger survival during an emergency landing?",
+        "What safety tactics should a traveler adopt when waiting on a deserted subway platform late at night?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Pedestrian Crossing: Look left, right, and left again before stepping into street intersections.",
+        "Step 2 - Passenger Protocol: Wear your seatbelt continuously and refuse to ride with impaired drivers.",
+        "Step 3 - Transit Awareness: Stay well behind yellow platform safety lines while waiting for trains.",
+        "Step 4 - Cabin Briefing: Review passenger safety instruction cards carefully prior to every aircraft takeoff."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Inattentive drivers often fail to spot pedestrians in crosswalks; always establish eye contact before stepping off the curb.",
+          "misconception": "Having an illuminated walk sign guarantees that turning motor vehicles will yield to pedestrians.",
+          "pamphlet_summary": "Navigating city traffic as a pedestrian requires constant visual checks, obeying crossing signals, and making eye contact with turning motorists. Walking on sidewalks facing oncoming traffic where paths are absent significantly cuts strike hazards.",
+          "sub_id": "8a",
+          "topic_title": "Urban Pedestrian Safety Fundamentals"
+        },
+        {
+          "fact": "Unbelted rear passengers become violent airborne human missiles during collisions, killing themselves and front-seat occupants.",
+          "misconception": "Sitting in the rear vehicle seat protects unrestrained passengers from ejection during highway rollover crashes.",
+          "pamphlet_summary": "Traveling in passenger vehicles demands that every occupant wear a seatbelt and refrain from distracting the driver. Passengers must actively refuse rides from operators under the influence of substances or fatigue.",
+          "sub_id": "8b",
+          "topic_title": "Private Passenger Vehicle Protocols"
+        },
+        {
+          "fact": "Impostors will falsely agree with your name; demand that the driver state your name and verify their app credentials first.",
+          "misconception": "Asking a rideshare driver if they are here for you is a foolproof way to identify your ride.",
+          "pamphlet_summary": "Rideshare safety mandates verifying vehicle make, model, license plate number, and driver photograph before opening passenger doors. Sharing ride status in real time with parents ensures an external record of your travel trajectory.",
+          "sub_id": "8c",
+          "topic_title": "Commercial Rideshare Verification Procedures"
+        },
+        {
+          "fact": "Passing motorists cannot see around the bus chassis, creating an extreme risk of being struck in blind passing lanes.",
+          "misconception": "Crossing directly in front of a stopped transit bus is safe because the driver sees you.",
+          "pamphlet_summary": "Using municipal buses involves waiting at well-lit stops, keeping bags close, and holding handrails while moving inside the cabin. Commuters should sit near the bus operator whenever traveling during late night hours.",
+          "sub_id": "8d",
+          "topic_title": "Public Bus Commuter Safety"
+        },
+        {
+          "fact": "Subway tracks feature fatal high-voltage third rails and rapid, quiet train arrivals; notify station agents immediately instead.",
+          "misconception": "Dropped phones or backpacks on subway tracks can be quickly retrieved before the next train arrives.",
+          "pamphlet_summary": "Subway systems feature electrical third-rail hazards and moving train pinch points along platform edges. Commuters must remain back from yellow warning strips and select populated train cars containing emergency intercom controls.",
+          "sub_id": "8e",
+          "topic_title": "Subway Rail Platform Awareness"
+        },
+        {
+          "fact": "Cabin configurations, exit mechanisms, and emergency evacuation slide locations differ widely across airframe types.",
+          "misconception": "Passenger safety briefings on commercial flights are identical and unnecessary to review on recurring flights.",
+          "pamphlet_summary": "Aviation safety relies on paying attention to crew briefings, reviewing exit locations, and keeping seatbelts buckled in seat compartments. In sudden cabin decompression events, donning personal oxygen masks immediately preserves consciousness to assist others.",
+          "sub_id": "8f",
+          "topic_title": "Commercial Aviation Passenger Procedures"
+        }
+      ],
+      "topic_title": "Multi-Modal Travel Safety Protocols"
+    },
+    {
+      "fact": "Modern safety professionals use sensor engineering, data analytics, and ergonomics to solve complex physical hazards.",
+      "misconception": "Safety careers are limited to writing bureaucratic rulebooks without active technical problem solving.",
+      "pamphlet_excerpts": [
+        "Industrial Hygiene: Occupational hygienists measure environmental airborne contaminants to protect industrial manufacturing workforces.",
+        "Emergency Management: Disaster response coordinators draft municipal evacuation plans to preserve civilian lives.",
+        "Safety Engineering: Engineers design mechanical machine guards and failsafe interlocks on factory production lines.",
+        "Volunteer Service: Community emergency response teams train citizen volunteers in basic disaster response skills."
+      ],
+      "pamphlet_summary": "Occupational safety, industrial hygiene, emergency management, and loss prevention offer rewarding careers centered on human protection. Exploring vocational opportunities or volunteering in local emergency services builds community resilience and professional skills.",
+      "req_id": "9",
+      "safety_callout": "When shadowing or touring industrial facilities during career exploration, wear all required personal protective equipment without exception.",
+      "socratic_questions": [
+        "What specialized technical skills separate an occupational safety engineer from a corporate human resources manager?",
+        "How does a volunteer firefighter or search and rescue technician apply merit badge safety concepts under pressure?",
+        "In what ways does proactive workplace safety design save organizations both human lives and financial resources?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Research: Investigate professional credentials, collegiate programs, and industry safety technician certifications.",
+        "Step 2 - Interview Practitioner: Interview an active occupational safety officer or municipal emergency response specialist.",
+        "Step 3 - Skill Assessment: Evaluate required analytical capabilities, regulatory compliance duties, and salary advancement opportunities.",
+        "Step 4 - Community Engagement: Join a volunteer emergency squad, search team, or youth safety committee."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Safety specialists focus heavily on proactive hazard modeling, preventative machine guarding, and employee wellness systems.",
+          "misconception": "Occupational safety managers only inspect factory floors after major workplace fatalities occur.",
+          "pamphlet_summary": "Pursuing professional safety positions entails earning degrees in occupational health, engineering, or industrial hygiene. Specialists analyze operational incidents, ensure regulatory compliance, and design ergonomic solutions across diverse corporate sectors.",
+          "sub_id": "9a",
+          "topic_title": "Occupational Safety Career Exploration"
+        },
+        {
+          "fact": "Volunteer units provide supplementary community support, logistics management, and basic triage during catastrophic widespread emergencies.",
+          "misconception": "Volunteer disaster response teams take the place of professional municipal emergency responders.",
+          "pamphlet_summary": "Citizens contribute to neighborhood safety through Community Emergency Response Teams, volunteer fire corps, and disaster relief organizations. Participating in organized drills equips volunteers to assist first responders during major crises.",
+          "sub_id": "9b",
+          "topic_title": "Community Safety Volunteer Opportunities"
+        }
+      ],
+      "topic_title": "Professional Safety Career Pathways"
+    }
+  ]
+}

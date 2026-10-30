@@ -1,8 +1,8 @@
 # Basketry Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/basketry/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/basketry/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Basketry.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,9 +12,9 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Basketry Tool Safety and First Aid | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Basket Types and Weaving Techniques | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Weaving Baskets and Campstool Seats | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Basketry Workshop Safety Management | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Traditional Basketry Construction Styles | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Handwoven Project Fabrication Practices | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -26,24 +26,24 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Basketry Tool Safety and First Aid
+### Req 1: Basketry Workshop Safety Management
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain to your counselor the hazards you are most likely to encounter while using basketry tools and materials, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Discuss the prevention of and first-aid treatment for injuries, including cuts, scratches, and scrapes, that could occur while working with basketry tools and materials.
 **Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Basketry Requirement 1: store needles, pins, shears, and rotary cutters in closed cases immediately after working on basketry tool safety and first aid, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** Soaking basketry reed in water for several hours makes it stronger and impossible to splinter.
-- **Pamphlet Fact:** Over-soaking reed causes the fibers to fray, split, and sour, so reed should only be soaked in warm water for a few minutes until pliable (p. 9).
+> **Guide to Safe Scouting Warning:** Carry shears closed with point down and wipe basin floor leaks immediately.
+- **Common Myth:** Basket weaving materials are completely harmless because reeds contain no sharp motorized parts.
+- **Pamphlet Fact:** Dry reeds shatter into jagged splinters and soaking basins create dangerous slip hazards.
 
 **Official Pamphlet Summary:**
-- Directing Sharp Tools Outward: Point scissors and pliers away from your body when working with reed (p. 8).
-- Keep your bracing hand away from the path of the scissors (p. 8).
-- The projects needed to complete the Basketry merit badge we redesigned to increase your weaving skills (p. 8).
-- Traditional styles of basket weaving are perhaps as old as the art itself, and the basic steps are easy to learn (p. 8).
+- Tool Handling Protocol: Always cut tough reed splints directly away from your body using shears.
+- Excess soaking weakens natural fibers and creates hazardous slippery puddles on workshop floors.
+- Awl Safety Practice: Direct pointed bodkins into weaving channels while keeping fingers clear of tips.
+- Mold Prevention Rule: Hang damp cane bundles in well ventilated areas to prevent toxic mildew.
 
-#### Req 1a: Basketry Tool and Material Hazards
+#### Req 1a: Tool and Reed Hazard Mitigation
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while using basketry tools and materials, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Basketry Hazards and First Aid)
-- **Common Myth:** When trimming stiff basket stakes with heavy shears, you should pull the blades toward your chest for extra leverage.
-- **Pamphlet Fact:** Always point scissors, shears, awls, and pliers away from your body and keep your bracing hand out of the cutting path (p. 8).
+- **Common Myth:** Dull craft shears are safer than sharp shears when trimming thick basket stakes.
+- **Pamphlet Fact:** Dull blades slip off round reed fibers, increasing the likelihood of painful hand injuries.
 
 ![Illustrated Basketry technical diagram of basketry tool safety and first aid for Requirement 1 field execution.](/assets/pamphlet_images/basketry_p003_img1.png)
 
@@ -53,11 +53,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: First Aid for Weaving Injuries
+#### Req 1b: Shop Injury Prevention Protocols
 **Official Requirement 1b:** Discuss the prevention of and first-aid treatment for injuries, including cuts, scratches, and scrapes, that could occur while working with basketry tools and materials.
 **Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 8, p. 9)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss The Prevention of and)
-- **Common Myth:** Dry reed is easier and safer to weave than damp reed because it holds its shape immediately.
-- **Pamphlet Fact:** Weaving dry reed causes brittle splinters that can puncture skin and crack the basket; always dampen reed so it bends smoothly without snapping (p. 9).
+- **Common Myth:** Minor reed cuts do not need washing because dry rattan fibers are naturally sterile.
+- **Pamphlet Fact:** Plant fibers carry soil bacteria and fungi that cause serious infections in untreated punctures.
 
 ![A multi-tool pocket knife provides small blades and scissors for basketry craftwork.](/assets/pamphlet_images/basketry_p008_img2.png)
 
@@ -67,24 +67,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Basket Types and Weaving Techniques
+### Req 2: Traditional Basketry Construction Styles
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Show your counselor that you are able to identify the following types of baskets: plaited, coiled, ribbed, and wicker. (b) Describe three different types of weaves to your counselor.
 **Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Basketry Requirement 2: store needles, pins, shears, and rotary cutters in closed cases immediately after working on basket types and weaving techniques, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** A single-weaver continuous weave can be woven over an even number of stakes without changing the pattern.
-- **Pamphlet Fact:** A single-weaver continuous weave requires an odd number of stakes so the weaver alternates over and under each stake on successive rounds (p. 11).
+> **Guide to Safe Scouting Warning:** Handle vintage or dry display baskets gently to prevent brittle splinters from flying.
+- **Common Myth:** All baskets with upright stakes belong strictly to the plaited construction classification.
+- **Pamphlet Fact:** Stakes woven with round flexible reed weavers define wicker rather than flat plaiting.
 
 **Official Pamphlet Summary:**
-- The following are common weaves used in this pamphlet (p. 11).
-- Sometimes called over-under weave, the plain weave is done with rigid stakes or spokes, and weavers that wrap around the stakes in an over-one (p. 11).
-- Spokes and stakes usually are more rigid and thicker reed than weavers (p. 11).
-- Continuous weave looks much the same as plain weave, but it is woven with a different technique (p. 11).
+- Plaited Structure Trait: Interlacing flat parallel splints creates checkerboard patterns across the basket wall.
+- Coiled Basket Method: Stitching spiraling bundles of grasses or pine needles builds dense waterproof vessels.
+- Ribbed Frame Design: Bending heavy hoops creates a rigid skeleton that supports woven infill reeds.
+- Wicker Craft Form: Weaving flexible round reed weavers through rigid upright spokes provides upright strength.
 
-#### Req 2a: Identifying Four Basket Types
+#### Req 2a: Four Primary Basket Architecture Classifications
 **Official Requirement 2a:** Show your counselor that you are able to identify the following types of baskets: plaited, coiled, ribbed, and wicker.
 **Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Baskets Plaited Coiled Ribbed)
-- **Common Myth:** Spokes and weavers in a wicker or ribbed basket are cut from the exact same thickness and flexibility of reed.
-- **Pamphlet Fact:** Spokes and stakes are thicker and more rigid to form the basket's skeleton, while weavers are thinner and more flexible to wrap around them (p. 11).
+- **Common Myth:** Coiled baskets use identical over-and-under weaving actions as wicker and ribbed baskets.
+- **Pamphlet Fact:** Coiled baskets rely on continuous sewing stitches that bind successive rounds of core material.
 
 **Gear & Readiness Checklist:**
 - [ ] Official Basketry merit badge pamphlet and pattern worksheet for Req 2
@@ -100,11 +100,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Describing Three Weaving Techniques
+#### Req 2b: Core Weaving Pattern Structural Techniques
 **Official Requirement 2b:** Describe three different types of weaves to your counselor.
 **Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 11, p. 12)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Basketry Requirement 2b Techniques)
-- **Common Myth:** Coiled baskets are woven on rigid vertical wooden slats just like plaited market baskets.
-- **Pamphlet Fact:** Coiled baskets are constructed by wrapping and stitching a flexible foundation bundle in a spiral from the center outward (p. 12).
+- **Common Myth:** Pairing and waling are purely decorative variations with zero added structural strength.
+- **Pamphlet Fact:** Pairing locks upright spokes in place and prevents outward bowing under heavy loads.
 
 ![Traditional handwoven baskets showcase ribbed frames and plaited reed patterns.](/assets/pamphlet_images/basketry_p012_img3.png)
 
@@ -114,24 +114,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Weaving Baskets and Campstool Seats
+### Req 3: Handwoven Project Fabrication Practices
 **Official Requirement 3 (Parent Overview):** Plan and weave the following projects: (a) Square basket (b) Round basket (c) Campstool seat
 **Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Maintain a well-lit, organized craft table for Basketry Requirement 3: store needles, pins, shears, and rotary cutters in closed cases immediately after working on weaving baskets and campstool seats, cut away from your body, and unplug pressing irons when unattended.
-- **Common Myth:** Pulling weavers as tightly as possible around the corners of a square basket is the best way to create ninety-degree angles.
-- **Pamphlet Fact:** Pulling weavers too tightly bows the corner stakes inward and turns a square basket into a round one; instead, gently pinch and shape each corner without over-tightening (p. 18).
+> **Guide to Safe Scouting Warning:** Clamp wooden stool rails securely during weaving to prevent unexpected scissor pinches.
+- **Common Myth:** Tension should be pulled as tightly as possible during every side weaving row.
+- **Pamphlet Fact:** Excessive tension pulls basket sides inward, distorting the intended functional vessel shape.
 
 **Official Pamphlet Summary:**
-- Beginning weavers should start with a simple project and build on their skill by trying projects of increased difficulty (p. 16).
-- The following projects can be used to meet the merit badge requirements, but any qualifying project (p. 16).
-- Three Required Weaving Projects: To earn the Basketry merit badge, you must weave a square basket, a round basket, and a camps tool seat (p. 16).
-- For your convenience, the BSA National Distribution Center has prepackaged kits available for the square basket, round basket, and camps tool seat (p. 16).
+- Soak flat reed fifteen minutes to achieve pliability before bending tight corners.
+- Spoke Upsetting Method: Score flat stakes lightly across fibers to bend basket sides upward cleanly.
+- Space base spokes at equal radial angles before beginning fine twining rows.
+- Stool Splint Tension: Pull seating splints taut without warping the wooden chair frame inward.
 
-#### Req 3a: Weaving a Square Basket
+#### Req 3a: Square Base Utility Basket Weaving
 **Official Requirement 3a:** Square basket.
 **Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Square Basket)
-- **Common Myth:** A campstool seat is woven in a single layer on top of the dowel rails with the underside left open.
-- **Pamphlet Fact:** Each warp strip wraps completely around both top and bottom rails of the frame, creating a strong double-layered woven seat (p. 34).
+- **Common Myth:** Square basket corners form naturally without pre-bending or scoring the base stakes.
+- **Pamphlet Fact:** Failing to score flat stakes causes ragged breaks and rounded, misshapen corners.
 
 ![A weaver shapes a round reed basket using hand tools at a workshop bench.](/assets/pamphlet_images/basketry_p009_img1.png)
 
@@ -141,11 +141,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: Weaving a Round Basket
+#### Req 3b: Round Reed Center Basket Fabrication
 **Official Requirement 3b:** Round basket.
 **Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Round Basket)
-- **Common Myth:** After finishing the top row of a basket, you simply snip the upright stakes flush with the top weaver.
-- **Pamphlet Fact:** Upright stakes must be tucked into a finished border or lashed with a rim and rim filler so the top rows cannot unravel (p. 20).
+- **Common Myth:** Even spoke counts work properly for continuous single-weaver over-and-under round basket weaving.
+- **Pamphlet Fact:** An odd spoke count is required so each row alternates over and under successive stakes.
 
 ![A crafter bends a damp reed splint to check flexibility before weaving.](/assets/pamphlet_images/basketry_p010_img1.png)
 
@@ -155,11 +155,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3c: Weaving a Campstool Seat
+#### Req 3c: Campstool Seat Interlocking Webbing Construction
 **Official Requirement 3c:** Campstool seat.
 **Source:** *Official Scouting America Basketry Merit Badge Pamphlet (p. 16, p. 34)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Campstool Seat)
-- **Common Myth:** Only official prepackaged BSA kits are allowed to satisfy the three weaving projects in Requirement 3.
-- **Pamphlet Fact:** While prepackaged BSA kits are convenient, any qualifying square basket, round basket, and campstool seat woven from scratch meets the requirement (p. 16).
+- **Common Myth:** Splints can be wrapped loose because natural fiber shrinkage tightens the seat later.
+- **Pamphlet Fact:** Loose initial splint wrapping causes sagging and permanent seat failure under occupant weight.
 
 ![Three distinct woven storage baskets demonstrate common plaiting techniques.](/assets/pamphlet_images/basketry_p012_img1.png)
 

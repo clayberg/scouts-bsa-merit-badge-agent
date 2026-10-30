@@ -60,8 +60,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Adding random amounts of commercial fertilizer is always safe and effective without testing the soil first.",
-            "fact": "Chemical soil tests are needed to determine the exact amounts and types of nutrients required for specific plants to grow best (p. 21)."
+            "misconception": "Scouts believe dirt and soil are identical substances created through mechanical grinding alone.",
+            "fact": "Soil represents a complex ecological system combining weathered mineral particles with living biological communities.",
+            "myth": "Scouts believe dirt and soil are identical substances created through mechanical grinding alone.",
+            "fact_correction": "Soil represents a complex ecological system combining weathered mineral particles with living biological communities."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -87,10 +89,10 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Tell what soil is. Tell how it is formed.",
-          "topic_title": "Req 1a: Soil Composition and Formation",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 1a (Soil Composition and Formation): The Soil and Water Conservation pamphlet for Requirement 1a details core principles and practical standards for soil composition and formation, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
+          "topic_title": "Req 1a: Soil Definition and Formation Mechanics",
+          "pamphlet_summary": "Soil develops as climate and living organisms weather parent bedrock into fertile loose horizons over centuries. The resulting mixture holds essential water, atmospheric gases, and decaying organic detritus.",
           "pamphlet_excerpts": [
-            "Soil Composition and Formation: The Soil and Water Conservation pamphlet for Requirement 1a details core principles and practical standards for soil composition and formation, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21)."
+            "Soil develops as climate and living organisms weather parent bedrock into fertile loose horizons over centuries. The resulting mixture holds essential water, atmospheric gases, and decaying organic detritus."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p003_img1.png",
           "workbook_diagram_caption": "A field worker extracts deep soil cores using a truck drill rig.",
@@ -133,8 +135,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Sand, silt, and clay soils all hold water and drain at the exact same rate.",
-            "fact": "Coarse sandy soils drain rapidly and hold few nutrients, whereas fine clay particles pack tightly, hold water longer, and drain slowly (p. 25)."
+            "misconception": "Scouts believe soil texture changes whenever organic mulch is mixed into outdoor planting beds.",
+            "fact": "Soil texture depends strictly on relative mineral particle diameters that remain unchanged by compost additions.",
+            "myth": "Scouts believe soil texture changes whenever organic mulch is mixed into outdoor planting beds.",
+            "fact_correction": "Soil texture depends strictly on relative mineral particle diameters that remain unchanged by compost additions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -160,10 +164,10 @@
           "id": "1b",
           "sub_req_label": "1b",
           "sub_req_text": "Describe three kinds of soil. Tell how they are different.",
-          "topic_title": "Req 1b: Sand Silt and Clay Textures",
-          "pamphlet_summary": "Sand Silt and Clay Textures: Chemical soil tests help determine how much of which nutrients are needed for the best growth of different kinds of plants (p. 21).",
+          "topic_title": "Req 1b: Sand Silt and Clay Classification",
+          "pamphlet_summary": "Soils divide into sand, silt, and clay categories according to distinct mineral particle diameter measurements. Sand drains water rapidly, silt retains moisture evenly, and clay packs tightly with poor drainage.",
           "pamphlet_excerpts": [
-            "Sand Silt and Clay Textures: Chemical soil tests help determine how much of which nutrients are needed for the best growth of different kinds of plants (p. 21)."
+            "Soils divide into sand, silt, and clay categories according to distinct mineral particle diameter measurements. Sand drains water rapidly, silt retains moisture evenly, and clay packs tightly with poor drainage."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p021_img1.png",
           "workbook_diagram_caption": "A field worker extracts deep soil cores using a truck drill rig.",
@@ -206,8 +210,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
-            "misconception": "Once harvested crops deplete nitrogen from a field, that nutrient can never be restored naturally.",
-            "fact": "Depleted soil nutrients can be replenished by rotating nitrogen-fixing legumes, applying manure or compost, or adding balanced commercial fertilizers (p. 25)."
+            "misconception": "Scouts believe chemical fertilizers permanently build topsoil structure better than decomposed organic matter.",
+            "fact": "Chemical fertilizers supply soluble ions immediately but fail to restore the physical sponge structure of humus.",
+            "myth": "Scouts believe chemical fertilizers permanently build topsoil structure better than decomposed organic matter.",
+            "fact_correction": "Chemical fertilizers supply soluble ions immediately but fail to restore the physical sponge structure of humus."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -233,10 +239,10 @@
           "id": "1c",
           "sub_req_label": "1c",
           "sub_req_text": "Name the three main plant nutrients in fertile soil. Tell how they can be put back when used.",
-          "topic_title": "Req 1c: Primary Plant Nutrients and Replenishment",
-          "pamphlet_summary": "Primary Plant Nutrients and Replenishment: Fertile soil can supply the complete nutritional needs of agrowing plant (p. 21).",
+          "topic_title": "Req 1c: Primary Plant Nutrient Replenishment Methods",
+          "pamphlet_summary": "Crops require continuous supplies of nitrogen for leaves, phosphorus for roots, and potassium for disease resistance. Cultivators restore these depleted nutrients by incorporating legume cover crops, manure, compost, or commercial mineral fertilizers.",
           "pamphlet_excerpts": [
-            "Primary Plant Nutrients and Replenishment: Fertile soil can supply the complete nutritional needs of agrowing plant (p. 21)."
+            "Crops require continuous supplies of nitrogen for leaves, phosphorus for roots, and potassium for disease resistance. Cultivators restore these depleted nutrients by incorporating legume cover crops, manure, compost, or commercial mineral fertilizers."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p021_img1.png",
           "workbook_diagram_caption": "A field worker extracts deep soil cores using a truck drill rig.",
@@ -269,11 +275,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Soil Formation Types and Nutrients",
+      "topic_title": "Req 1: Soil Composition and Fertility Principles",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 1): Complete all Soil Formation Types and Nutrients discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Wear heavy leather work gloves and wash hands thoroughly after handling unsterilized outdoor soil.",
       "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
       "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
       "syllabus_bucket": "In-Class Concept",
@@ -303,8 +309,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Plants get all their nourishment from pure water alone, so soil only acts as a physical anchor for roots.",
-        "fact": "As John Woodward demonstrated in 1699, plants grow according to the dissolved soil minerals and sediment nutrients available in the water, especially nitrogen, phosphorus, and potassium (p. 21)."
+        "misconception": "Soil is simply crushed rock that forms quickly following heavy rainstorms.",
+        "fact": "Soil formation requires centuries of biological decomposition and bedrock weathering to produce topsoil.",
+        "myth": "Soil is simply crushed rock that forms quickly following heavy rainstorms.",
+        "fact_correction": "Soil formation requires centuries of biological decomposition and bedrock weathering to produce topsoil."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -328,16 +336,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Complete Plant Nutritional Support: Fertile soil can supply the complete nutritional needs of agrowing plant (p. 21).",
-        "Three Principal Plant Nutrients: The three principal plant nutrients are nitrogen, phosphorus, and potassium (p. 21).",
-        "Visible Nutrient Deficiency Signs: Aplant that lacks an essential nutrient will show physical signs of the deficiency (p. 21).",
-        "Diagnostic Chemical Soil Testing: Chemical soil tests help determine how much of which nutrients are needed for the best growth of different kinds of plants (p. 21)."
+        "Weathering Process: Physical fracturing and chemical weathering convert parent rock material into microscopic mineral grains.",
+        "Organic Humus: Decomposed biological tissue stabilizes aggregate structure and increases moisture holding capacity across topsoil.",
+        "Soil Texture Classes: Proportions of sand, silt, and clay establish critical drainage and aeration properties.",
+        "Primary Nutrients: Nitrogen, phosphorus, and potassium provide chemical fuel for vigorous plant cell development."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Inspect Plants for Deficiencies: Aplant that lacks an essential nutrient will show physical signs of the deficiency (p. 21).",
-        "Step 2 - Perform Chemical Soil Tests: Chemical soil tests help determine how much of which nutrients are needed for the best growth of different kinds of plants (p. 21).",
-        "Step 3 - Observe Flood plain Nutrient Deposition: For centuries, people who lived along the banks of rivers and streams have recognized that the annual floods that covered their land (p. 21).",
-        "Step 4 - Compare Sediment Growth Rates: In 1699, John Woodward experimented by growing plants in water containing differing amounts of sediment (p. 21)."
+        "Step 1 - Core Extraction: Collect vertical soil core samples using a stainless tube sampler across representative terrain.",
+        "Step 2 - Ribbon Assessment: Moisten fine aggregate between thumb and forefinger to estimate sand, silt, clay ratios.",
+        "Step 3 - Chemical Testing: Mix prepared soil with test reagents to determine nitrogen, phosphorus, and potassium levels.",
+        "Step 4 - Amendment Planning: Calculate organic compost additions to restore depleted mineral reserves within the root zone."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -346,15 +354,13 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Soil Composition and Formation",
-        "right_header": "Req 1b: Sand Silt and Clay Textures",
+        "left_header": "Req 1a: Soil Definition and Formation Mech",
+        "right_header": "Req 1b: Sand Silt and Clay Classification",
         "left_points": [
-          "(1a) Soil Composition and Formation: The Soil and Water Conservation pamphlet for Requirement 1a details core principles and practical standards for soil composition and formation, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
-          "Three Principal Plant Nutrients: The three principal plant nutrients are nitrogen, phosphorus, and potassium (p. 21)."
+          "(1a) Soil Definition and Formation Mechanics: Soil develops as climate and living organisms weather parent bedrock into fertile loose horizons over centuries. The resulting mixture holds essential water, atmospheric gases, and decaying organic detritus."
         ],
         "right_points": [
-          "(1b) Sand Silt and Clay Textures: Chemical soil tests help determine how much of which nutrients are needed for the best growth of different kinds of plants (p. 21).",
-          "Visible Nutrient Deficiency Signs: Aplant that lacks an essential nutrient will show physical signs of the deficiency (p. 21)."
+          "(1b) Sand Silt and Clay Classification: Soils divide into sand, silt, and clay categories according to distinct mineral particle diameter measurements. Sand drains water rapidly, silt retains moisture evenly, and clay packs tightly with poor drainage."
         ],
         "rows": [
           {
@@ -378,9 +384,9 @@
         "title": "Soil and Water Conservation Req 1 Exemplar Workbook Entry: Soil Formation Types and Nutrients",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a (Soil Composition and Formation)": "The Soil and Water Conservation pamphlet for Requirement 1a details core principles and practical standards for soil composition and formation, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
-          "Req 1b (Sand Silt and Clay Textures)": "Chemical soil tests help determine how much of which nutrients are needed for the best growth of different kinds of plants (p. 21).",
-          "Req 1c - Primary Plant Nutrients and Replen": "Fertile soil can supply the complete nutritional needs of agrowing plant (p. 21)."
+          "Req 1a - Soil Definition and Formation Mec": "Soil develops as climate and living organisms weather parent bedrock into fertile loose horizons over centuries. The resulting mixture holds essential water, atmospheric gases, and decaying organic detritus.",
+          "Req 1b - Sand Silt and Clay Classification": "Soils divide into sand, silt, and clay categories according to distinct mineral particle diameter measurements. Sand drains water rapidly, silt retains moisture evenly, and clay packs tightly with poor drainage.",
+          "Req 1c - Primary Plant Nutrient Replenishm": "Crops require continuous supplies of nitrogen for leaves, phosphorus for roots, and potassium for disease resistance. Cultivators restore these depleted nutrients by incorporating legume cover crops, manure, compost, or commercial mineral fertilizers."
         },
         "sample_output": "Soil Formation Types and Nutrients: Aplant that lacks an essential nutrient will show physical signs of the deficiency (p. 21).",
         "counselor_tip": "For Soil and Water Conservation Requirement 1 (Soil Formation Types and Nutrients), verify the Scout's own observations and specific pamphlet details (Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25))."
@@ -412,7 +418,13 @@
       "workbook_diagram_caption": "Panels portray underground root systems, soil cross sections, watershed contour farming, and stream water sampling.",
       "number": "1",
       "description": "Do the following: (a) Tell what soil is. Tell how it is formed. (b) Describe three kinds of soil. Tell how they are different. (c) Name the three main plant nutrients in fertile soil. Tell how they can be put back when used up.",
-      "workbook_visual_caption": "Panels portray underground root systems, soil cross sections, watershed contour farming, and stream water sampling."
+      "workbook_visual_caption": "Panels portray underground root systems, soil cross sections, watershed contour farming, and stream water sampling.",
+      "pamphlet_summary": "Soil consists of weathered rock particles, decaying organic matter, living organisms, moisture, and air voids. Natural formation processes require centuries of physical weathering, chemical decomposition, and biological accumulation.",
+      "socratic_questions": [
+        "How does the ratio of mineral particles and organic humus govern water infiltration rates?",
+        "Why does intense cultivation cause rapid depletion of nitrogen, phosphorus, and potassium reserves?",
+        "What biological agents accelerate the mechanical conversion of bedrock into biologically active topsoil?"
+      ]
     },
     {
       "req_id": "2",
@@ -456,8 +468,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
-            "misconception": "Gully erosion is the only form of water erosion that removes significant topsoil.",
-            "fact": "Sheet erosion quietly strips thin, uniform layers of rich topsoil across an entire slope before tiny rills and deep gullies ever become obvious (p. 41)."
+            "misconception": "Scouts believe erosion begins only when rushing water forms visible rushing surface streams.",
+            "fact": "Erosion begins the exact instant individual raindrops strike bare earth and shatter dry soil aggregates.",
+            "myth": "Scouts believe erosion begins only when rushing water forms visible rushing surface streams.",
+            "fact_correction": "Erosion begins the exact instant individual raindrops strike bare earth and shatter dry soil aggregates."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -483,10 +497,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Define soil erosion.",
-          "topic_title": "Req 2a: Defining Soil Erosion Processes",
-          "pamphlet_summary": "Defining Soil Erosion Processes: Soil and water conservation projects help control the rate of this kind of soil erosion, which some call the greatest scourge the world has ever known (p. 39).",
+          "topic_title": "Req 2a: Mechanics of Soil Particle Detachment",
+          "pamphlet_summary": "Soil erosion describes the physical process whereby water, wind, ice, or gravity loosens and carries away soil particles from land surfaces. The detachment removes the nutrient-rich surface horizon necessary for vegetation.",
           "pamphlet_excerpts": [
-            "Defining Soil Erosion Processes: Soil and water conservation projects help control the rate of this kind of soil erosion, which some call the greatest scourge the world has ever known (p. 39)."
+            "Soil erosion describes the physical process whereby water, wind, ice, or gravity loosens and carries away soil particles from land surfaces. The detachment removes the nutrient-rich surface horizon necessary for vegetation."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p007_img1.png",
           "workbook_diagram_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
@@ -527,8 +541,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
-            "misconception": "Muddy runoff in small streams settles harmlessly without affecting game fish survival.",
-            "fact": "Sediment fills the deep stream pools that fish rely on during dry seasons, ruins their eggs on gravel beds, and reduces aquatic insect food supplies (p. 39)."
+            "misconception": "Scouts believe soil loss damages only commercial farmers working in rural agricultural production counties.",
+            "fact": "Urban municipal water bills rise significantly when water treatment utilities must filter excess silt runoff.",
+            "myth": "Scouts believe soil loss damages only commercial farmers working in rural agricultural production counties.",
+            "fact_correction": "Urban municipal water bills rise significantly when water treatment utilities must filter excess silt runoff."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -554,10 +570,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Tell why soil erosion is important and how it affects.",
-          "topic_title": "Req 2b: Ecological and Human Erosion Impacts",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 2b (Ecological and Human Erosion Impacts): The Soil and Water Conservation pamphlet for Requirement 2b details why soil erosion is important and how it affects, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
+          "topic_title": "Req 2b: Societal Consequences of Topsoil Depletion",
+          "pamphlet_summary": "Losing fertile topsoil reduces farmland productivity, forcing higher reliance on synthetic fertilizers and raising consumer food prices. Sediment also fills municipal reservoirs, clogs shipping navigation channels, and intensifies downstream flooding hazards.",
           "pamphlet_excerpts": [
-            "Ecological and Human Erosion Impacts: The Soil and Water Conservation pamphlet for Requirement 2b details why soil erosion is important and how it affects, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+            "Losing fertile topsoil reduces farmland productivity, forcing higher reliance on synthetic fertilizers and raising consumer food prices. Sediment also fills municipal reservoirs, clogs shipping navigation channels, and intensifies downstream flooding hazards."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p040_img1.png",
           "workbook_diagram_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
@@ -595,8 +611,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
-            "misconception": "Once a flood-control dam is built, its reservoir holds the exact same volume of water forever.",
-            "fact": "Engineers must build extra storage allowance into reservoirs because eroded sediment continuously settles behind dams and shrinks water capacity (p. 39)."
+            "misconception": "Scouts believe sheet erosion creates obvious deep scars across fields immediately after storms.",
+            "fact": "Sheet erosion removes thin surface layers evenly without leaving obvious trenches across exposed terrain.",
+            "myth": "Scouts believe sheet erosion creates obvious deep scars across fields immediately after storms.",
+            "fact_correction": "Sheet erosion removes thin surface layers evenly without leaving obvious trenches across exposed terrain."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -622,10 +640,10 @@
           "id": "2c",
           "sub_req_label": "2c",
           "sub_req_text": "Name three kinds of soil erosion. Describe.",
-          "topic_title": "Req 2c: Sheet Rill and Gully Erosion",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 2c (Sheet Rill and Gully Erosion): The Soil and Water Conservation pamphlet for Requirement 2c details three kinds of soil erosion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
+          "topic_title": "Req 2c: Water and Wind Erosion Types",
+          "pamphlet_summary": "Erosion manifests primarily as sheet erosion, rill erosion, gully erosion, and wind deflation. Sheet erosion strips uniform surface sheets, rills cut micro-channels, gullies scour canyons, and wind lifts fine dust across arid fields.",
           "pamphlet_excerpts": [
-            "Sheet Rill and Gully Erosion: The Soil and Water Conservation pamphlet for Requirement 2c details three kinds of soil erosion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+            "Erosion manifests primarily as sheet erosion, rill erosion, gully erosion, and wind deflation. Sheet erosion strips uniform surface sheets, rills cut micro-channels, gullies scour canyons, and wind lifts fine dust across arid fields."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p040_img1.png",
           "workbook_diagram_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
@@ -666,8 +684,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
-            "misconception": "During Soil and Water Conservation Requirement 2d, Scouts can underestimate how directly mastery of documenting local erosion sites depends on understanding take pictures of or draw two kinds of soil erosion.",
-            "fact": "Scouting America standards for Soil and Water Conservation Requirement 2d require complete workbook entries on documenting local erosion sites to demonstrate full understanding of take pictures of or draw two kinds of soil erosion."
+            "misconception": "Scouts believe any photograph of muddy puddles qualifies as proof of active slope erosion.",
+            "fact": "Valid erosion documentation must show clear physical evidence of soil detachment, transport, and deposition.",
+            "myth": "Scouts believe any photograph of muddy puddles qualifies as proof of active slope erosion.",
+            "fact_correction": "Valid erosion documentation must show clear physical evidence of soil detachment, transport, and deposition."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -693,10 +713,10 @@
           "id": "2d",
           "sub_req_label": "2d",
           "sub_req_text": "Take pictures of or draw two kinds of soil erosion.",
-          "topic_title": "Req 2d: Documenting Local Erosion Sites",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 2d (Documenting Local Erosion Sites): The Soil and Water Conservation pamphlet for Requirement 2d details take pictures of or draw two kinds of soil erosion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
+          "topic_title": "Req 2d: Field Documentation of Soil Displacement",
+          "pamphlet_summary": "Scouts record active erosion through scaled photographs or detailed field sketches displaying soil removal patterns. Documentation includes identifying exposed plant root collars, sediment deposition aprons, and incision sidewalls.",
           "pamphlet_excerpts": [
-            "Documenting Local Erosion Sites: The Soil and Water Conservation pamphlet for Requirement 2d details take pictures of or draw two kinds of soil erosion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+            "Scouts record active erosion through scaled photographs or detailed field sketches displaying soil removal patterns. Documentation includes identifying exposed plant root collars, sediment deposition aprons, and incision sidewalls."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p040_img1.png",
           "workbook_diagram_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
@@ -725,11 +745,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Soil Erosion Causes and Impacts",
+      "topic_title": "Req 2: Soil Erosion Mechanics and Impacts",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Soil Erosion Causes and Impacts discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Stay back from unstable vertical gully banks that can collapse under foot traffic during inspections.",
       "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
       "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
       "syllabus_bucket": "In-Class Concept",
@@ -761,8 +781,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Soil erosion only harms the farm fields where the topsoil washes away and has no effect on downstream bays or reservoirs.",
-        "fact": "Washed-away soil becomes sediment that fills deep stream pools, smothers fish spawning beds, eliminates Chesapeake Bay oysters, and reduces reservoir storage capacity (p. 39)."
+        "misconception": "Erosion only occurs in dramatic mountain landslides and massive desert dust storms.",
+        "fact": "Gentle sheet wash silently removes tons of invisible fertile topsoil from bare pastures every season.",
+        "myth": "Erosion only occurs in dramatic mountain landslides and massive desert dust storms.",
+        "fact_correction": "Gentle sheet wash silently removes tons of invisible fertile topsoil from bare pastures every season."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -786,16 +808,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Controlling Accelerated Soil Erosion: Soil and water conservation projects help control the rate of this kind of soil erosion, which some call the greatest scourge the world has ever known (p. 39).",
-        "Muddy Water Recreation Impacts: You don't want to play in it and you certainly don't want to drink (p. 39).",
-        "Sediment Filling Stream Pools: In many small streams, sediment fills the deep pools that provide arefuge for fish during the dry season (p. 39).",
-        "Damage to Fish Spawning: Sediment often damages the spawning beds of game fish, ruins their eggs, and reduces their food supply (p. 39)."
+        "Erosive Detachment: Kinetic energy from falling raindrops breaks open surface soil aggregates upon bare ground.",
+        "Sediment Transport: Flowing surface runoff carries suspended silt grains into downstream drainage basins and reservoirs.",
+        "Sheet Erosion Pattern: Shallow runoff strips uniform thin layers of fertile topsoil across unprotected hillside slopes.",
+        "Gully Incision: Concentrated channel runoff carves deep steep ditches that heavy farm machinery cannot cross."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Check Streams for Siltation: In many small streams, sediment fills the deep pools that provide arefuge for fish during the dry season (p. 39).",
-        "Step 2 - Protect Aquatic Spawning Beds: Sediment often damages the spawning beds of game fish, ruins their eggs, and reduces their food supply (p. 39).",
-        "Step 3 - Assess Estuary Fishery Impacts: It has caused oysters to disappear from the Chesapeake Bay, affecting commercial fisheries (p. 39).",
-        "Step 4 - Account for Reservoir Sedimentation: When flood-prevention and other types of reservoirs are built, allowance must be made for the sedimentation (p. 39)."
+        "Step 1 - Site Identification: Locate an active field incision showing visible root exposure and sediment deposition fans.",
+        "Step 2 - Erosion Classification: Determine whether detachment occurred through uniform sheet wash, distinct rills, or deep gullies.",
+        "Step 3 - Visual Recording: Capture oriented scale photographs and cross section sketches showing active soil loss margins.",
+        "Step 4 - Impact Documentation: Record measurable depth metrics and trace sediment deposition paths to nearby drainage ditches."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -804,15 +826,15 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Defining Soil Erosion Processes",
-        "right_header": "Req 2c: Sheet Rill and Gully Erosion",
+        "left_header": "Req 2a: Mechanics of Soil Particle Detachm",
+        "right_header": "Req 2c: Water and Wind Erosion Types",
         "left_points": [
-          "(2a) Defining Soil Erosion Processes: Soil and water conservation projects help control the rate of this kind of soil erosion, which some call the greatest scourge the world has ever known (p. 39).",
-          "(2b) Ecological and Human Erosion Impacts: The Soil and Water Conservation pamphlet for Requirement 2b details why soil erosion is important and how it affects, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+          "(2a) Mechanics of Soil Particle Detachment: Soil erosion describes the physical process whereby water, wind, ice, or gravity loosens and carries away soil particles from land surfaces. The detachment removes the nutrient-rich surface horizon necessary for vegetation.",
+          "(2b) Societal Consequences of Topsoil Depletion: Losing fertile topsoil reduces farmland productivity, forcing higher reliance on synthetic fertilizers and raising consumer food prices. Sediment also fills municipal reservoirs, clogs shipping navigation channels, and intensifies downstream flooding hazards."
         ],
         "right_points": [
-          "(2c) Sheet Rill and Gully Erosion: The Soil and Water Conservation pamphlet for Requirement 2c details three kinds of soil erosion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
-          "(2d) Documenting Local Erosion Sites: The Soil and Water Conservation pamphlet for Requirement 2d details take pictures of or draw two kinds of soil erosion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+          "(2c) Water and Wind Erosion Types: Erosion manifests primarily as sheet erosion, rill erosion, gully erosion, and wind deflation. Sheet erosion strips uniform surface sheets, rills cut micro-channels, gullies scour canyons, and wind lifts fine dust across arid fields.",
+          "(2d) Field Documentation of Soil Displacement: Scouts record active erosion through scaled photographs or detailed field sketches displaying soil removal patterns. Documentation includes identifying exposed plant root collars, sediment deposition aprons, and incision sidewalls."
         ],
         "rows": [
           {
@@ -836,10 +858,10 @@
         "title": "Soil and Water Conservation Req 2 Exemplar Workbook Entry: Soil Erosion Causes and Impacts",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a (Defining Soil Erosion Processes)": "Soil and water conservation projects help control the rate of this kind of soil erosion, which some call the greatest scourge the world has ever known (p. 39).",
-          "Req 2b - Ecological and Human Erosion Impac": "The Soil and Water Conservation pamphlet for Requirement 2b details why soil erosion is important and how it affects, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
-          "Req 2c (Sheet Rill and Gully Erosion)": "The Soil and Water Conservation pamphlet for Requirement 2c details three kinds of soil erosion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
-          "Req 2d (Documenting Local Erosion Sites)": "The Soil and Water Conservation pamphlet for Requirement 2d details take pictures of or draw two kinds of soil erosion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+          "Req 2a - Mechanics of Soil Particle Detach": "Soil erosion describes the physical process whereby water, wind, ice, or gravity loosens and carries away soil particles from land surfaces. The detachment removes the nutrient-rich surface horizon necessary for vegetation.",
+          "Req 2b - Societal Consequences of Topsoil": "Losing fertile topsoil reduces farmland productivity, forcing higher reliance on synthetic fertilizers and raising consumer food prices. Sediment also fills municipal reservoirs, clogs shipping navigation channels, and intensifies downstream flooding hazards.",
+          "Req 2c - Water and Wind Erosion Types": "Erosion manifests primarily as sheet erosion, rill erosion, gully erosion, and wind deflation. Sheet erosion strips uniform surface sheets, rills cut micro-channels, gullies scour canyons, and wind lifts fine dust across arid fields.",
+          "Req 2d - Field Documentation of Soil Displ": "Scouts record active erosion through scaled photographs or detailed field sketches displaying soil removal patterns. Documentation includes identifying exposed plant root collars, sediment deposition aprons, and incision sidewalls."
         },
         "sample_output": "Soil Erosion Causes and Impacts: Sediment often damages the spawning beds of game fish, ruins their eggs, and reduces their food supply (p. 39).",
         "counselor_tip": "For Soil and Water Conservation Requirement 2 (Soil Erosion Causes and Impacts), verify the Scout's own observations and specific pamphlet details (Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41))."
@@ -871,7 +893,13 @@
       "workbook_diagram_caption": "Scouts crouch beside an excavated soil erosion pit in a rolling green valley to study sediment strata.",
       "number": "2",
       "description": "Do the following: (a) Define soil erosion. (b) Tell why soil erosion is important and how it affects you. (c) Name three kinds of soil erosion. Describe each. (d) Take pictures of or draw two kinds of soil erosion.",
-      "workbook_visual_caption": "Scouts crouch beside an excavated soil erosion pit in a rolling green valley to study sediment strata."
+      "workbook_visual_caption": "Scouts crouch beside an excavated soil erosion pit in a rolling green valley to study sediment strata.",
+      "pamphlet_summary": "Soil erosion detaches and transports fertile topsoil particles across landscapes through the kinetic forces of water and wind. Unchecked displacement damages agricultural yields, chokes aquatic ecosystems with silt, and undermines civil infrastructure.",
+      "socratic_questions": [
+        "How do the kinetic impacts of falling raindrops initiate the mechanical detachment of surface particles?",
+        "In what ways does upstream topsoil sedimentation degrade downstream municipal drinking water filtration systems?",
+        "Why does rill erosion transition into destructive gully erosion when surface runoff remains unchecked?"
+      ]
     },
     {
       "req_id": "3",
@@ -910,8 +938,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
           "common_misconception_pair": {
-            "misconception": "Wildfires only destroy timber and have no lasting effect on municipal reservoirs downstream.",
-            "fact": "Fire strips protective plant cover and exposes bare soil to beating rain, sending muddy runoff into streams and lakes that can devastate a city's water supply (p. 45)."
+            "misconception": "Scouts believe conservation means stopping all commercial timber harvesting and agricultural land cultivation.",
+            "fact": "Conservation represents wise, sustainable utilization of natural resources to ensure continuous future replenishment.",
+            "myth": "Scouts believe conservation means stopping all commercial timber harvesting and agricultural land cultivation.",
+            "fact_correction": "Conservation represents wise, sustainable utilization of natural resources to ensure continuous future replenishment."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -937,10 +967,10 @@
           "id": "3a",
           "sub_req_label": "3a",
           "sub_req_text": "Tell what is meant by conservation practices.",
-          "topic_title": "Req 3a: Meaning of Conservation Practices",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 3a (Meaning of Conservation Practices): The Soil and Water Conservation pamphlet for Requirement 3a details what is meant by conservation practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+          "topic_title": "Req 3a: Principles of Conservation Practices",
+          "pamphlet_summary": "Conservation practices represent systematic management techniques designed to protect natural resources from degradation while sustaining practical economic uses. They emphasize preventative land stewardship to preserve topsoil reserves and freshwater purity for future generations.",
           "pamphlet_excerpts": [
-            "Meaning of Conservation Practices: The Soil and Water Conservation pamphlet for Requirement 3a details what is meant by conservation practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+            "Conservation practices represent systematic management techniques designed to protect natural resources from degradation while sustaining practical economic uses. They emphasize preventative land stewardship to preserve topsoil reserves and freshwater purity for future generations."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p012_img1.png",
           "workbook_diagram_caption": "Severe rill and gully erosion cuts channels through an exposed hillside.",
@@ -976,8 +1006,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
           "common_misconception_pair": {
-            "misconception": "Plowing straight up and down a hillside helps rainwater drain safely without taking soil.",
-            "fact": "Up-and-down furrows act like chutes that speed up runoff, whereas contour farming plows across the slope to catch water and reduce soil loss (p. 45)."
+            "misconception": "Scouts believe planting rows straight up and down hillsides drains stormwater safely away.",
+            "fact": "Plowing up and down hillsides creates artificial ditches that accelerate devastating gully formation.",
+            "myth": "Scouts believe planting rows straight up and down hillsides drains stormwater safely away.",
+            "fact_correction": "Plowing up and down hillsides creates artificial ditches that accelerate devastating gully formation."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1003,10 +1035,10 @@
           "id": "3b",
           "sub_req_label": "3b",
           "sub_req_text": "Describe the effect of three kinds of erosion-control practices.",
-          "topic_title": "Req 3b: Effects of Erosion Control Methods",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 3b (Effects of Erosion Control Methods): The Soil and Water Conservation pamphlet for Requirement 3b details the effect of three kinds of erosion-control practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+          "topic_title": "Req 3b: Erosion Mitigation Practice Effects",
+          "pamphlet_summary": "Practices such as terracing decrease effective slope length, while strip cropping filters sediment and contour tillage increases rainwater infiltration. Together, these methods dissipate water runoff energy, shield soil aggregates from direct wind, and stop sediment migration.",
           "pamphlet_excerpts": [
-            "Effects of Erosion Control Methods: The Soil and Water Conservation pamphlet for Requirement 3b details the effect of three kinds of erosion-control practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+            "Practices such as terracing decrease effective slope length, while strip cropping filters sediment and contour tillage increases rainwater infiltration. Together, these methods dissipate water runoff energy, shield soil aggregates from direct wind, and stop sediment migration."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p045_img1.png",
           "workbook_diagram_caption": "Severe rill and gully erosion cuts channels through an exposed hillside.",
@@ -1047,8 +1079,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
           "common_misconception_pair": {
-            "misconception": "Terraces and check dams are designed to speed water off a hillside as fast as possible.",
-            "fact": "Land shaping and small water-retarding structures are engineered to slow and guide runoff so soil is not scoured away (p. 45)."
+            "misconception": "Scouts believe simple artistic landscape drawings without functional labels fulfill conservation documentation standards.",
+            "fact": "Sketches must clearly label structural components like berms, channels, slopes, and vegetative buffer zones.",
+            "myth": "Scouts believe simple artistic landscape drawings without functional labels fulfill conservation documentation standards.",
+            "fact_correction": "Sketches must clearly label structural components like berms, channels, slopes, and vegetative buffer zones."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1074,10 +1108,10 @@
           "id": "3c",
           "sub_req_label": "3c",
           "sub_req_text": "Take pictures of or draw three kinds of erosion-control practices.",
-          "topic_title": "Req 3c: Illustrating Erosion Control Structures",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 3c (Illustrating Erosion Control Structures): The Soil and Water Conservation pamphlet for Requirement 3c details take pictures of or draw three kinds of erosion-control practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+          "topic_title": "Req 3c: Visual Documentation of Conservation Interventions",
+          "pamphlet_summary": "Documenting conservation practices requires taking clear photographs or drawing technical field sketches of three functioning installations. Useful subjects include established shelterbelts, contour strip mosaics, engineered drop structures, and reinforced retention swales.",
           "pamphlet_excerpts": [
-            "Illustrating Erosion Control Structures: The Soil and Water Conservation pamphlet for Requirement 3c details take pictures of or draw three kinds of erosion-control practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+            "Documenting conservation practices requires taking clear photographs or drawing technical field sketches of three functioning installations. Useful subjects include established shelterbelts, contour strip mosaics, engineered drop structures, and reinforced retention swales."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p045_img1.png",
           "workbook_diagram_caption": "Severe rill and gully erosion cuts channels through an exposed hillside.",
@@ -1102,11 +1136,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Erosion Control and Conservation Practices",
+      "topic_title": "Req 3: Agricultural Erosion Control Practices",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 3): Complete all Erosion Control and Conservation Practices discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Maintain a safe distance of at least fifty feet from operating agricultural machinery during farm surveys.",
       "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
       "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
       "syllabus_bucket": "In-Class Concept",
@@ -1136,8 +1170,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Planting grass or trees is always sufficient by itself to stop all slope runoff in every situation.",
-        "fact": "When continuous plant cover is impossible or slopes are steep, the land surface must also be shaped with terraces or fitted with small water-retarding dams to guide and slow runoff (p. 45)."
+        "misconception": "Conservation practices require leaving agricultural fields completely fallow and unharvested throughout the year.",
+        "fact": "Well-managed conservation practices permit high crop yields while shielding vulnerable soil from destructive erosion.",
+        "myth": "Conservation practices require leaving agricultural fields completely fallow and unharvested throughout the year.",
+        "fact_correction": "Well-managed conservation practices permit high crop yields while shielding vulnerable soil from destructive erosion."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1161,16 +1197,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Wildfire Removal of Cover: Fire also can remove plant cover from the land and expose bare soil to beating rains; then, muddy runoff flows down slopes and fills streams and lakes (p. 45).",
-        "Municipal Water Supply Risks: The damage to a city's water supply can be devastating (p. 45).",
-        "Limits of Vegetative Cover: Plant cover is important in controlling runoff, but in many instances it is not possible to keep plants growing on the land (p. 45).",
-        "Shaping Land for Runoff: Sometimes the surface of the land needs to be shaped to guide and control runoff (p. 45)."
+        "Contour Cultivation: Plowing perpendicular to hillside slope creates micro ridges that retain precipitation on site.",
+        "Strip Cropping Benefits: Alternating dense forage grasses with row crops traps dislodged sediment within hillside fields.",
+        "Terrace Engineering: Earthen embankments break steep slopes into short steps that dissipate downhill runoff velocity.",
+        "Grassed Waterways: Dense perennial sod lines drainage draws to transport excess surface water without trenching."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Maintain Protective Plant Cover: Plant cover is important in controlling runoff, but in many instances it is not possible to keep plants growing on the land (p. 45).",
-        "Step 2 - Shape Slopes and Terraces: Sometimes the surface of the land needs to be shaped to guide and control runoff (p. 45).",
-        "Step 3 - Build Water-Retarding Check Dams: Small dams and other types of water-retarding structures often must be built to control runoff so that the land and the water are not damaged (p. 45).",
-        "Step 4 - Identify Community Conservation Problems: Learning more about soil and water conservation will help you become aware of some of the conservation problems your community might face (p. 45)."
+        "Step 1 - Slope Assessment: Measure the gradient and identify primary drainage flow paths across target field terrain.",
+        "Step 2 - Practice Selection: Match appropriate conservation interventions such as terracing, cover crops, or grassed waterways.",
+        "Step 3 - Field Documentation: Draw detailed layout diagrams or photograph engineered berms, contour swales, and vegetative strips.",
+        "Step 4 - Effectiveness Evaluation: Measure sediment accumulation behind conservation barriers after heavy storm events to verify stability."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -1179,15 +1215,13 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Meaning of Conservation Practices",
-        "right_header": "Req 3b: Effects of Erosion Control Methods",
+        "left_header": "Req 3a: Principles of Conservation Practic",
+        "right_header": "Req 3b: Erosion Mitigation Practice Effect",
         "left_points": [
-          "(3a) Meaning of Conservation Practices: The Soil and Water Conservation pamphlet for Requirement 3a details what is meant by conservation practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
-          "Municipal Water Supply Risks: The damage to a city's water supply can be devastating (p. 45)."
+          "(3a) Principles of Conservation Practices: Conservation practices represent systematic management techniques designed to protect natural resources from degradation while sustaining practical economic uses. They emphasize preventative land stewardship to preserve topsoil reserves and freshwater purity for future generations."
         ],
         "right_points": [
-          "(3b) Effects of Erosion Control Methods: The Soil and Water Conservation pamphlet for Requirement 3b details the effect of three kinds of erosion-control practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
-          "Limits of Vegetative Cover: Plant cover is important in controlling runoff, but in many instances it is not possible to keep plants growing on the land (p. 45)."
+          "(3b) Erosion Mitigation Practice Effects: Practices such as terracing decrease effective slope length, while strip cropping filters sediment and contour tillage increases rainwater infiltration. Together, these methods dissipate water runoff energy, shield soil aggregates from direct wind, and stop sediment migration."
         ],
         "rows": [
           {
@@ -1211,9 +1245,9 @@
         "title": "Soil and Water Conservation Req 3 Exemplar Workbook Entry: Erosion Control and Conservation Practices",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a (Meaning of Conservation Practices)": "The Soil and Water Conservation pamphlet for Requirement 3a details what is meant by conservation practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
-          "Req 3b - Effects of Erosion Control Methods": "The Soil and Water Conservation pamphlet for Requirement 3b details the effect of three kinds of erosion-control practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
-          "Req 3c - Illustrating Erosion Control Struc": "The Soil and Water Conservation pamphlet for Requirement 3c details take pictures of or draw three kinds of erosion-control practices, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+          "Req 3a - Principles of Conservation Practi": "Conservation practices represent systematic management techniques designed to protect natural resources from degradation while sustaining practical economic uses. They emphasize preventative land stewardship to preserve topsoil reserves and freshwater purity for future generations.",
+          "Req 3b - Erosion Mitigation Practice Effec": "Practices such as terracing decrease effective slope length, while strip cropping filters sediment and contour tillage increases rainwater infiltration. Together, these methods dissipate water runoff energy, shield soil aggregates from direct wind, and stop sediment migration.",
+          "Req 3c - Visual Documentation of Conservat": "Documenting conservation practices requires taking clear photographs or drawing technical field sketches of three functioning installations. Useful subjects include established shelterbelts, contour strip mosaics, engineered drop structures, and reinforced retention swales."
         },
         "sample_output": "Erosion Control and Conservation Practices: Fire also can remove plant cover from the land and expose bare soil to beating rains; then, muddy runoff flows down slopes and fills streams and lakes (p. 45).",
         "counselor_tip": "For Soil and Water Conservation Requirement 3 (Erosion Control and Conservation Practices), verify the Scout's own observations and specific pamphlet details (Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90))."
@@ -1245,7 +1279,13 @@
       "workbook_diagram_caption": "An adult leader and Scouts observe charred tree trunks and scorched ground after a woodland forest fire.",
       "number": "3",
       "description": "Do the following: (a) Tell what is meant by conservation practices. (b) Describe the effect of three kinds of erosion-control practices. (c) Take pictures of or draw three kinds of erosion-control practices.",
-      "workbook_visual_caption": "An adult leader and Scouts observe charred tree trunks and scorched ground after a woodland forest fire."
+      "workbook_visual_caption": "An adult leader and Scouts observe charred tree trunks and scorched ground after a woodland forest fire.",
+      "pamphlet_summary": "Conservation practices encompass specialized engineering, agronomic, and biological methods that slow surface runoff and stabilize exposed soil against detachment. Effective techniques include contour plowing, strip cropping, terracing, cover crops, and permanent grassed waterways.",
+      "socratic_questions": [
+        "How do contour ridges alter the hydrology and infiltration rates of hillside agricultural land?",
+        "Why does alternating corn with perennial alfalfa reduce overall soil detachment across sloping fields?",
+        "What maintenance steps keep grassed waterways from silting up and forming bypass erosion gullies?"
+      ]
     },
     {
       "req_id": "4",
@@ -1297,8 +1337,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
-            "misconception": "Watershed boundaries on a topographic map follow straight county lines or roads.",
-            "fact": "Watershed boundaries follow the highest ridgelines and hilltops shown by contour lines, dividing where rainwater flows into separate streams (p. 58)."
+            "misconception": "Scouts believe watersheds consist exclusively of wet marshy areas, riverbeds, and standing ponds.",
+            "fact": "Every dry ridge, suburban rooftop, and city street belongs to a specific drainage watershed.",
+            "myth": "Scouts believe watersheds consist exclusively of wet marshy areas, riverbeds, and standing ponds.",
+            "fact_correction": "Every dry ridge, suburban rooftop, and city street belongs to a specific drainage watershed."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1324,10 +1366,10 @@
           "id": "4a",
           "sub_req_label": "4a",
           "sub_req_text": "Explain what a watershed.",
-          "topic_title": "Req 4a: Defining a Drainage Watershed",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 4a (Defining a Drainage Watershed): The Soil and Water Conservation pamphlet for Requirement 4a details what a watershed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58).",
+          "topic_title": "Req 4a: Watershed Topography and Drainage Concepts",
+          "pamphlet_summary": "A watershed is the geographical basin bounded by natural ridges from which all precipitation drains into a single body of water. Every acre of land forms part of a local catchment basin connected to the hydrological system.",
           "pamphlet_excerpts": [
-            "Defining a Drainage Watershed: The Soil and Water Conservation pamphlet for Requirement 4a details what a watershed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58)."
+            "A watershed is the geographical basin bounded by natural ridges from which all precipitation drains into a single body of water. Every acre of land forms part of a local catchment basin connected to the hydrological system."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p035_img1.png",
           "workbook_diagram_caption": "Researchers measure snow pack depth and water content using a core tube.",
@@ -1363,8 +1405,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
-            "misconception": "How an upstream town uses land or disposes of waste only affects its own local stretch of the river.",
-            "fact": "Water use and wastes discharged by upstream cities directly affect industries, businesses, and communities farther downstream in the same river basin (p. 58)."
+            "misconception": "Scouts believe tracing directly along blue stream lines delineates the boundary of a watershed.",
+            "fact": "Watershed borders follow high dry ridgelines where rainfall divides and flows in opposite directions.",
+            "myth": "Scouts believe tracing directly along blue stream lines delineates the boundary of a watershed.",
+            "fact_correction": "Watershed borders follow high dry ridgelines where rainfall divides and flows in opposite directions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1390,10 +1434,10 @@
           "id": "4b",
           "sub_req_label": "4b",
           "sub_req_text": "Outline the smallest watershed that you can find on a contour map.",
-          "topic_title": "Req 4b: Mapping Small Headwater Watersheds",
-          "pamphlet_summary": "Mapping Small Headwater Watersheds: All river basins are large watersheds, but not all watersheds can be called river basins, some watersheds are very small and their runoff is collected (p. 58).",
+          "topic_title": "Req 4b: Contour Map Catchment Delineation",
+          "pamphlet_summary": "Delineating a small watershed involves identifying a stream outlet point and tracing ridge lines perpendicular to topographic contour lines. The resulting closed boundary isolates the exact surface area draining into that first-order stream channel.",
           "pamphlet_excerpts": [
-            "Mapping Small Headwater Watersheds: All river basins are large watersheds, but not all watersheds can be called river basins, some watersheds are very small and their runoff is collected (p. 58)."
+            "Delineating a small watershed involves identifying a stream outlet point and tracing ridge lines perpendicular to topographic contour lines. The resulting closed boundary isolates the exact surface area draining into that first-order stream channel."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p035_img1.png",
           "title": "Req 4b: Mapping Small Headwater Watersheds",
@@ -1430,8 +1474,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
-            "misconception": "An aquifer is a giant open underground cavern filled with a fast-flowing subterranean river.",
-            "fact": "An aquifer is an underground layer of porous rock, sand, or gravel that holds groundwater in the spaces between particles and supplies wells and springs (p. 60)."
+            "misconception": "Scouts believe larger watersheds replace smaller watersheds rather than fully enclosing their drainage territory.",
+            "fact": "Small tributary catchments nest inside progressively larger river basins that eventually discharge into oceans.",
+            "myth": "Scouts believe larger watersheds replace smaller watersheds rather than fully enclosing their drainage territory.",
+            "fact_correction": "Small tributary catchments nest inside progressively larger river basins that eventually discharge into oceans."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1457,10 +1503,10 @@
           "id": "4c",
           "sub_req_label": "4c",
           "sub_req_text": "Outline, as far as the map will allow, the next larger watershed that also has the smallest one.",
-          "topic_title": "Req 4c: Nesting Sub-Watersheds on Contour Maps",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 4c (Nesting Sub-Watersheds on Contour Maps): The Soil and Water Conservation pamphlet for Requirement 4c details outline, as far as the map will allow, the next larger watershed that also has the smallest one, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58).",
+          "topic_title": "Req 4c: Nested Regional Watershed Delineation",
+          "pamphlet_summary": "Expanding the boundary requires identifying the downstream confluence where the tributary joins a larger river and tracing the higher surrounding ridgelines. This exercise illustrates how local brooks integrate into larger regional hydrographic basins.",
           "pamphlet_excerpts": [
-            "Nesting Sub-Watersheds on Contour Maps: The Soil and Water Conservation pamphlet for Requirement 4c details outline, as far as the map will allow, the next larger watershed that also has the smallest one, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58)."
+            "Expanding the boundary requires identifying the downstream confluence where the tributary joins a larger river and tracing the higher surrounding ridgelines. This exercise illustrates how local brooks integrate into larger regional hydrographic basins."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p035_img1.png",
           "workbook_diagram_caption": "Researchers measure snow pack depth and water content using a core tube.",
@@ -1503,8 +1549,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
-            "misconception": "During Soil and Water Conservation Requirement 4d, Scouts can underestimate how directly mastery of river basin stewardship and cooperation depends on understanding what a river basin.",
-            "fact": "Scouting America standards for Soil and Water Conservation Requirement 4d require complete workbook entries on river basin stewardship and cooperation to demonstrate full understanding of what a river basin."
+            "misconception": "Scouts believe pollutants dumped in small mountain creeks remain confined to isolated local streams.",
+            "fact": "Soluble contaminants and sediment travel downstream through entire river basins to contaminate coastal drinking supplies.",
+            "myth": "Scouts believe pollutants dumped in small mountain creeks remain confined to isolated local streams.",
+            "fact_correction": "Soluble contaminants and sediment travel downstream through entire river basins to contaminate coastal drinking supplies."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1530,10 +1578,10 @@
           "id": "4d",
           "sub_req_label": "4d",
           "sub_req_text": "Explain what a river basin is. Tell why all people living in a river basin should be concerned about land and water use in the basin.",
-          "topic_title": "Req 4d: River Basin Stewardship and Cooperation",
-          "pamphlet_summary": "River Basin Stewardship and Cooperation: But this area is also called a river basin, an area of land drained by a river and all its large and small tributaries (p. 58).",
+          "topic_title": "Req 4d: River Basin Land Stewardship",
+          "pamphlet_summary": "A river basin includes all tributary watersheds feeding a primary trunk river system discharging into estuaries or oceans. All basin inhabitants must regulate pollution and erosion because upstream misuse poisons downstream municipal tap water and wildlife habitats.",
           "pamphlet_excerpts": [
-            "River Basin Stewardship and Cooperation: But this area is also called a river basin, an area of land drained by a river and all its large and small tributaries (p. 58)."
+            "A river basin includes all tributary watersheds feeding a primary trunk river system discharging into estuaries or oceans. All basin inhabitants must regulate pollution and erosion because upstream misuse poisons downstream municipal tap water and wildlife habitats."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p035_img1.png",
           "workbook_diagram_caption": "Researchers measure snow pack depth and water content using a core tube.",
@@ -1574,10 +1622,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Groundwater Aquifers and Community Supply (Req 4e) or confusing Groundwater Aquifers and Community Supply with general Watersheds River Basins and Aquifers procedures.",
-            "fact": "For Requirement 4e (Groundwater Aquifers and Community Supply), The Soil and Water Conservation pamphlet for Requirement 4e details what an aquifer is and why it can be important to communities, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58).",
-            "myth": "Overlooking the specific field checks required for Groundwater Aquifers and Community Supply (Req 4e) or confusing Groundwater Aquifers and Community Supply with general Watersheds River Basins and Aquifers procedures.",
-            "fact_correction": "For Requirement 4e (Groundwater Aquifers and Community Supply), The Soil and Water Conservation pamphlet for Requirement 4e details what an aquifer is and why it can be important to communities, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58)."
+            "misconception": "Scouts believe underground aquifers resemble subterranean roaring rivers flowing through massive open caverns.",
+            "fact": "Most aquifers consist of microscopic water films saturating pore spaces between gravel and sand grains.",
+            "myth": "Scouts believe underground aquifers resemble subterranean roaring rivers flowing through massive open caverns.",
+            "fact_correction": "Most aquifers consist of microscopic water films saturating pore spaces between gravel and sand grains."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1603,10 +1651,10 @@
           "id": "4e",
           "sub_req_label": "4e",
           "sub_req_text": "Explain what an aquifer is and why it can be important to communities.",
-          "topic_title": "Req 4e: Groundwater Aquifers and Community Supply",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 4e (Groundwater Aquifers and Community Supply): The Soil and Water Conservation pamphlet for Requirement 4e details what an aquifer is and why it can be important to communities, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58).",
+          "topic_title": "Req 4e: Aquifer Structure and Public Importance",
+          "pamphlet_summary": "An aquifer is an underground layer of permeable rock, gravel, or sand that yields usable quantities of fresh groundwater. Communities rely on aquifers for municipal drinking water and irrigation, requiring protection against over-pumping and chemical contamination.",
           "pamphlet_excerpts": [
-            "Groundwater Aquifers and Community Supply: The Soil and Water Conservation pamphlet for Requirement 4e details what an aquifer is and why it can be important to communities, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58)."
+            "An aquifer is an underground layer of permeable rock, gravel, or sand that yields usable quantities of fresh groundwater. Communities rely on aquifers for municipal drinking water and irrigation, requiring protection against over-pumping and chemical contamination."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p035_img1.png",
           "workbook_diagram_caption": "Researchers measure snow pack depth and water content using a core tube.",
@@ -1643,11 +1691,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Watersheds River Basins and Aquifers",
+      "topic_title": "Req 4: Watershed Dynamics and Aquifer Systems",
       "action_verb": "Demonstrate",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 4): Complete all Watersheds River Basins and Aquifers discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Stay clear of flooded culverts, stream banks, and rapid drainage outfalls during wet map verification field walks.",
       "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
       "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1681,8 +1729,10 @@
         "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "The terms watershed and river basin mean the exact same thing regardless of size.",
-        "fact": "All river basins are large watersheds drained by a river and all its tributaries, but not all watersheds are river basins because many watersheds drain only a small creek or pond (p. 58)."
+        "misconception": "Watershed boundaries follow straight municipal property lines and county jurisdictional borders on maps.",
+        "fact": "Watershed divides follow natural topographic ridges that channel rainfall into distinct drainage basins.",
+        "myth": "Watershed boundaries follow straight municipal property lines and county jurisdictional borders on maps.",
+        "fact_correction": "Watershed divides follow natural topographic ridges that channel rainfall into distinct drainage basins."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1706,16 +1756,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Mississippi River Drainage Scale: The more than 1 million square miles that is drained by the Mississippi River is a large watershed (p. 58).",
-        "River Basin Tributary Networks: But this area is also called a river basin, an area of land drained by a river and all its large and small tributaries (p. 58).",
-        "Small Watersheds Versus Basins: All river basins are large watersheds, but not all watersheds can be called river basins, some watersheds are very small and their runoff is collected (p. 58).",
-        "Regional Basin Conservation Planning: Today, attention is being focused on river basins as areas for large-scale planning, development, and conservation of natural resources (p. 58)."
+        "Topographic Ridges: High ridge elevations define hydrological drainage boundaries separating adjacent precipitation catchment basins.",
+        "Nested Drainage: Small tributary sub-watersheds connect continuously to form expansive regional river basin systems.",
+        "Basin Interdependence: Upstream chemical discharges and soil tillage degrade water supplies for downstream municipal populations.",
+        "Aquifer Confinement: Porous subsurface rock and sand formations store freshwater reserves beneath impermeable geological layers."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Distinguish Basins from Sub-Watersheds: All river basins are large watersheds, but not all watersheds can be called river basins, some watersheds are very small and their runoff is collected (p. 58).",
-        "Step 2 - Plan Basin-Wide Resource Conservation: Today, attention is being focused on river basins as areas for large-scale planning, development, and conservation of natural resources (p. 58).",
-        "Step 3 - Prevent Downstream Waste Pollution: The way people in cities along a river use water and the kinds of wastes they put into the river will affect industries, businesses, and cities farther (p. 58).",
-        "Step 4 - Steward Local Watershed Land: Remember, the care and use of land in your watershed is important (p. 58)."
+        "Step 1 - Map Orientation: Identify the target stream confluence and study index contour elevations on topographic sheets.",
+        "Step 2 - Ridge Delineation: Trace unbroken ridge crests perpendicular to contour lines around the smallest local tributary.",
+        "Step 3 - Basin Expansion: Follow high ridgelines outward to delineate the larger collector watershed containing that tributary.",
+        "Step 4 - Recharge Analysis: Mark regional aquifer outcrop recharge zones and identify potential contamination threats along rivers."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -1724,15 +1774,15 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Defining a Drainage Watershed",
-        "right_header": "Req 4c: Nesting Sub-Watersheds on Contour ",
+        "left_header": "Req 4a: Watershed Topography and Drainage",
+        "right_header": "Req 4c: Nested Regional Watershed Delineat",
         "left_points": [
-          "(4a) Defining a Drainage Watershed: The Soil and Water Conservation pamphlet for Requirement 4a details what a watershed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58).",
-          "(4b) Mapping Small Headwater Watersheds: All river basins are large watersheds, but not all watersheds can be called river basins, some watersheds are very small and their runoff is collected (p. 58)."
+          "(4a) Watershed Topography and Drainage Concepts: A watershed is the geographical basin bounded by natural ridges from which all precipitation drains into a single body of water. Every acre of land forms part of a local catchment basin connected to the hydrological system.",
+          "(4b) Contour Map Catchment Delineation: Delineating a small watershed involves identifying a stream outlet point and tracing ridge lines perpendicular to topographic contour lines. The resulting closed boundary isolates the exact surface area draining into that first-order stream channel."
         ],
         "right_points": [
-          "(4c) Nesting Sub-Watersheds on Contour Maps: The Soil and Water Conservation pamphlet for Requirement 4c details outline, as far as the map will allow, the next larger watershed that also has the smallest one, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58).",
-          "(4d) River Basin Stewardship and Cooperation: But this area is also called a river basin, an area of land drained by a river and all its large and small tributaries (p. 58)."
+          "(4c) Nested Regional Watershed Delineation: Expanding the boundary requires identifying the downstream confluence where the tributary joins a larger river and tracing the higher surrounding ridgelines. This exercise illustrates how local brooks integrate into larger regional hydrographic basins.",
+          "(4d) River Basin Land Stewardship: A river basin includes all tributary watersheds feeding a primary trunk river system discharging into estuaries or oceans. All basin inhabitants must regulate pollution and erosion because upstream misuse poisons downstream municipal tap water and wildlife habitats."
         ],
         "rows": [
           {
@@ -1756,10 +1806,10 @@
         "title": "Soil and Water Conservation Req 4 Exemplar Workbook Entry: Watersheds River Basins and Aquifers",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a (Defining a Drainage Watershed)": "The Soil and Water Conservation pamphlet for Requirement 4a details what a watershed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58).",
-          "Req 4b - Mapping Small Headwater Watersheds": "All river basins are large watersheds, but not all watersheds can be called river basins, some watersheds are very small and their runoff is collected (p. 58).",
-          "Req 4c - Nesting Sub-Watersheds on Contour": "The Soil and Water Conservation pamphlet for Requirement 4c details outline, as far as the map will allow, the next larger watershed that also has the smallest one, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 58).",
-          "Req 4d - River Basin Stewardship and Cooper": "But this area is also called a river basin, an area of land drained by a river and all its large and small tributaries (p. 58)."
+          "Req 4a - Watershed Topography and Drainage": "A watershed is the geographical basin bounded by natural ridges from which all precipitation drains into a single body of water. Every acre of land forms part of a local catchment basin connected to the hydrological system.",
+          "Req 4b - Contour Map Catchment Delineation": "Delineating a small watershed involves identifying a stream outlet point and tracing ridge lines perpendicular to topographic contour lines. The resulting closed boundary isolates the exact surface area draining into that first-order stream channel.",
+          "Req 4c - Nested Regional Watershed Delinea": "Expanding the boundary requires identifying the downstream confluence where the tributary joins a larger river and tracing the higher surrounding ridgelines. This exercise illustrates how local brooks integrate into larger regional hydrographic basins.",
+          "Req 4d - River Basin Land Stewardship": "A river basin includes all tributary watersheds feeding a primary trunk river system discharging into estuaries or oceans. All basin inhabitants must regulate pollution and erosion because upstream misuse poisons downstream municipal tap water and wildlife habitats."
         },
         "sample_output": "Watersheds River Basins and Aquifers: But this area is also called a river basin, an area of land drained by a river and all its large and small tributaries (p. 58).",
         "counselor_tip": "For Soil and Water Conservation Requirement 4 (Watersheds River Basins and Aquifers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60))."
@@ -1791,7 +1841,13 @@
       "workbook_diagram_caption": "Researchers measure snow pack depth and water content using a core tube.",
       "number": "4",
       "description": "Do the following: (a) Explain what a watershed is. (b) Outline the smallest watershed that you can find on a contour map. (c) Outline, as far as the map will allow, the next larger watershed that also has the smallest one in it. (d) Explain what a river basin is. Tell why all people living in a river basin should be concerned about land and water use in the basin. (e) Explain what an aquifer is and why it can be important to communities.",
-      "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube."
+      "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube.",
+      "pamphlet_summary": "A watershed encompasses all land area that drains surface runoff and groundwater into a shared common stream, river, lake, or bay. Managing land use across river basins protects groundwater aquifers and prevents widespread downstream contamination.",
+      "socratic_questions": [
+        "How do contour line crenulations reveal the exact boundary between two adjacent watershed catchments?",
+        "Why must upstream farming communities and downstream coastal cities collaborate on river basin stewardship?",
+        "What geological characteristics determine whether an underground aquifer recharges rapidly or depletes permanently?"
+      ]
     },
     {
       "req_id": "5",
@@ -1835,8 +1891,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
-            "misconception": "Percolation and capillary action both pull water straight down toward the water table.",
-            "fact": "Percolation is the downward pull of gravity moving water through soil pores, whereas capillary action draws moisture upward and sideways through tiny spaces between soil particles (p. 35)."
+            "misconception": "Scouts believe rainfall represents newly created planetary water rather than recycled prehistoric moisture.",
+            "fact": "Earth possesses a finite volume of water that has circulated continuously for billions of years.",
+            "myth": "Scouts believe rainfall represents newly created planetary water rather than recycled prehistoric moisture.",
+            "fact_correction": "Earth possesses a finite volume of water that has circulated continuously for billions of years."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1862,10 +1920,10 @@
           "id": "5a",
           "sub_req_label": "5a",
           "sub_req_text": "Make a drawing to show the hydrologic cycle.",
-          "topic_title": "Req 5a: Illustrating the Hydrologic Cycle",
-          "pamphlet_summary": "Illustrating the Hydrologic Cycle: Let's begin with the sea, where the sun's energy draws up into the atmosphere most of the water that travels through the hydrologic cycle (p. 30).",
+          "topic_title": "Req 5a: Global Hydrologic Cycle Mechanics",
+          "pamphlet_summary": "The hydrologic cycle describes the continuous solar-driven movement of water from ocean evaporation to atmospheric condensation, precipitation, surface runoff, and groundwater recharge. Visual diagrams depict how water constantly recycles through terrestrial, marine, and atmospheric domains.",
           "pamphlet_excerpts": [
-            "Illustrating the Hydrologic Cycle: Let's begin with the sea, where the sun's energy draws up into the atmosphere most of the water that travels through the hydrologic cycle (p. 30)."
+            "The hydrologic cycle describes the continuous solar-driven movement of water from ocean evaporation to atmospheric condensation, precipitation, surface runoff, and groundwater recharge. Visual diagrams depict how water constantly recycles through terrestrial, marine, and atmospheric domains."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p031_img1.png",
           "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
@@ -1914,8 +1972,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
-            "misconception": "Clearing trees and brush from a hillside increases the amount of rainwater that soaks into groundwater.",
-            "fact": "Removing vegetation eliminates leaf interception and root channels, causing rainwater to race across the surface as rapid, muddy runoff instead of soaking into the soil (p. 39)."
+            "misconception": "Scouts believe water moves through soil only downward due to the force of gravity.",
+            "fact": "Capillary attraction pulls water upward through fine soil pores against gravity to nourish root systems.",
+            "myth": "Scouts believe water moves through soil only downward due to the force of gravity.",
+            "fact_correction": "Capillary attraction pulls water upward through fine soil pores against gravity to nourish root systems."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1941,10 +2001,10 @@
           "id": "5b",
           "sub_req_label": "5b",
           "sub_req_text": "Demonstrate at least two of the following actions of water in relation to soil: percolation, capillary action, precipitation, evaporation, and transpiration.",
-          "topic_title": "Req 5b: Soil Water Movement Demonstrations",
-          "pamphlet_summary": "Soil Water Movement Demonstrations: Evaporation is one of nature's ways of purifying water, because most of the dissolved substances in it, such as the salt in seawater, remain (p. 30).",
+          "topic_title": "Req 5b: Soil Moisture Dynamics Demonstration",
+          "pamphlet_summary": "Scouts demonstrate water physical properties through laboratory models of downward percolation, upward capillary wick action, evaporation, and plant transpiration. These bench tests illustrate how pore spaces dictate water storage and movement inside root zones.",
           "pamphlet_excerpts": [
-            "Soil Water Movement Demonstrations: Evaporation is one of nature's ways of purifying water, because most of the dissolved substances in it, such as the salt in seawater, remain (p. 30)."
+            "Scouts demonstrate water physical properties through laboratory models of downward percolation, upward capillary wick action, evaporation, and plant transpiration. These bench tests illustrate how pore spaces dictate water storage and movement inside root zones."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p031_img1.png",
           "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
@@ -1985,8 +2045,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
-            "misconception": "Evaporation from lakes and oceans is the only way moisture ever re-enters the atmosphere.",
-            "fact": "In addition to ocean evaporation and plant transpiration, breathing by people and animals and the combustion of fuels in engines return water vapor to the air (p. 30)."
+            "misconception": "Scouts believe cleared land absorbs rainfall faster because no trees consume the incoming moisture.",
+            "fact": "Bare exposed soil seals rapidly under raindrop impact, causing up to ninety percent runoff.",
+            "myth": "Scouts believe cleared land absorbs rainfall faster because no trees consume the incoming moisture.",
+            "fact_correction": "Bare exposed soil seals rapidly under raindrop impact, causing up to ninety percent runoff."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2012,10 +2074,10 @@
           "id": "5c",
           "sub_req_label": "5c",
           "sub_req_text": "Explain how removal of vegetation will affect the way water runs off a watershed.",
-          "topic_title": "Req 5c: Vegetation Removal and Runoff",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 5c (Vegetation Removal and Runoff): The Soil and Water Conservation pamphlet for Requirement 5c details how removal of vegetation will affect the way water runs off a watershed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
+          "topic_title": "Req 5c: Vegetative Cover and Runoff Velocity",
+          "pamphlet_summary": "Stripping vegetation removes protective leaf canopies and spongy leaf litter that absorb falling raindrop impact energy. Without root channels and organic matter, rainfall cannot infiltrate quickly, causing accelerated surface runoff, flash flooding, and topsoil washouts.",
           "pamphlet_excerpts": [
-            "Vegetation Removal and Runoff: The Soil and Water Conservation pamphlet for Requirement 5c details how removal of vegetation will affect the way water runs off a watershed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "Stripping vegetation removes protective leaf canopies and spongy leaf litter that absorb falling raindrop impact energy. Without root channels and organic matter, rainfall cannot infiltrate quickly, causing accelerated surface runoff, flash flooding, and topsoil washouts."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p031_img1.png",
           "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
@@ -2056,8 +2118,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
-            "misconception": "During Soil and Water Conservation Requirement 5d, Scouts can underestimate how directly mastery of forest range and farmland impacts depends on understanding how uses of forest, range, and farmland affect usable water supply.",
-            "fact": "Scouting America standards for Soil and Water Conservation Requirement 5d require complete workbook entries on forest range and farmland impacts to demonstrate full understanding of how uses of forest, range, and farmland affect usable water supply."
+            "misconception": "Scouts believe grazing livestock has zero measurable impact on local watershed infiltration rates.",
+            "fact": "Heavy cattle hooves compact topsoil, destroying soil porosity and tripling surface stormwater runoff volumes.",
+            "myth": "Scouts believe grazing livestock has zero measurable impact on local watershed infiltration rates.",
+            "fact_correction": "Heavy cattle hooves compact topsoil, destroying soil porosity and tripling surface stormwater runoff volumes."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2083,10 +2147,10 @@
           "id": "5d",
           "sub_req_label": "5d",
           "sub_req_text": "Tell how uses of forest, range, and farmland affect usable water supply.",
-          "topic_title": "Req 5d: Forest Range and Farmland Impacts",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 5d (Forest Range and Farmland Impacts): The Soil and Water Conservation pamphlet for Requirement 5d details how uses of forest, range, and farmland affect usable water supply, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
+          "topic_title": "Req 5d: Forest Range and Agricultural Impacts",
+          "pamphlet_summary": "Healthy forests act as giant sponges that release clean water slowly into headwater streams throughout dry summer months. Conversely, overgrazing on range land and improper farmland irrigation compact the soil, diminish stream baseflows, and concentrate salts in runoff.",
           "pamphlet_excerpts": [
-            "Forest Range and Farmland Impacts: The Soil and Water Conservation pamphlet for Requirement 5d details how uses of forest, range, and farmland affect usable water supply, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "Healthy forests act as giant sponges that release clean water slowly into headwater streams throughout dry summer months. Conversely, overgrazing on range land and improper farmland irrigation compact the soil, diminish stream baseflows, and concentrate salts in runoff."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p031_img1.png",
           "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
@@ -2127,10 +2191,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Industrial Water Use Effects (Req 5e) or confusing Industrial Water Use Effects with general Hydrologic Cycle and Land Use procedures.",
-            "fact": "For Requirement 5e (Industrial Water Use Effects), The Soil and Water Conservation pamphlet for Requirement 5e details how industrial use affects water supply, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-            "myth": "Overlooking the specific field checks required for Industrial Water Use Effects (Req 5e) or confusing Industrial Water Use Effects with general Hydrologic Cycle and Land Use procedures.",
-            "fact_correction": "For Requirement 5e (Industrial Water Use Effects), The Soil and Water Conservation pamphlet for Requirement 5e details how industrial use affects water supply, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "misconception": "Scouts believe industrial factories consume water only by incorporating it into manufactured retail products.",
+            "fact": "Most industrial water serves as non-consumptive cooling fluid that discharges back warmed or contaminated.",
+            "myth": "Scouts believe industrial factories consume water only by incorporating it into manufactured retail products.",
+            "fact_correction": "Most industrial water serves as non-consumptive cooling fluid that discharges back warmed or contaminated."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2156,10 +2220,10 @@
           "id": "5e",
           "sub_req_label": "5e",
           "sub_req_text": "Explain how industrial use affects water supply.",
-          "topic_title": "Req 5e: Industrial Water Use Effects",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 5e (Industrial Water Use Effects): The Soil and Water Conservation pamphlet for Requirement 5e details how industrial use affects water supply, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
+          "topic_title": "Req 5e: Industrial Water Demand and Quality",
+          "pamphlet_summary": "Industrial plants withdraw immense volumes of clean freshwater for cooling, manufacturing, and chemical processing operations. Discharging untreated industrial waste or warm water degrades aquatic environments, depletes municipal groundwater tables, and fouls public drinking supplies.",
           "pamphlet_excerpts": [
-            "Industrial Water Use Effects: The Soil and Water Conservation pamphlet for Requirement 5e details how industrial use affects water supply, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "Industrial plants withdraw immense volumes of clean freshwater for cooling, manufacturing, and chemical processing operations. Discharging untreated industrial waste or warm water degrades aquatic environments, depletes municipal groundwater tables, and fouls public drinking supplies."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p031_img1.png",
           "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
@@ -2204,11 +2268,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Hydrologic Cycle and Land Use",
+      "topic_title": "Req 5: Hydrologic Cycle and Land Hydrology",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 5): Complete all Hydrologic Cycle and Land Use discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Wipe up water spills immediately from laboratory floors to eliminate slipping hazards during percolation tests.",
       "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
       "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -2242,8 +2306,10 @@
         "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "When seawater evaporates into the sky, it carries ocean salt into rain clouds.",
-        "fact": "Evaporation naturally purifies water because dissolved substances such as sea salt remain behind when solar energy draws water vapor into the atmosphere (p. 30)."
+        "misconception": "Water used by agriculture and industrial plants is permanently destroyed and eliminated from planet Earth.",
+        "fact": "Water moves perpetually through the closed global hydrologic cycle, changing physical states without net loss.",
+        "myth": "Water used by agriculture and industrial plants is permanently destroyed and eliminated from planet Earth.",
+        "fact_correction": "Water moves perpetually through the closed global hydrologic cycle, changing physical states without net loss."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2267,16 +2333,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Natural Purification Through Evaporation: Evaporation is one of nature's ways of purifying water, because most of the dissolved substances in it, such as the salt in seawater, remain (p. 30).",
-        "Atmospheric Water from Reactions: Chemical reactions return small amounts of water to the atmosphere (p. 30).",
-        "Respiration and Fuel Combustion: People, animals, and plants return some through the process of respiration (breathing), and the combustion, or burning, of fuels in cars (p. 30).",
-        "Solar-Driven Ocean Evaporation: Let's begin with the sea, where the sun's energy draws up into the atmosphere most of the water that travels through the hydrologic cycle (p. 30)."
+        "Atmospheric Transport: Solar heat evaporates water into vapor that condenses into clouds and falls as precipitation.",
+        "Percolation Movement: Gravity pulls surface water downward through unsaturated soil pore spaces toward the water table.",
+        "Vegetation Buffer: Canopy foliage intercepts heavy raindrops while root networks maintain open soil infiltration channels.",
+        "Industrial Extraction: Factory cooling systems withdraw large groundwater volumes and risk discharging heated chemical effluent."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Trace Biological Water Return: People, animals, and plants return some through the process of respiration (breathing), and the combustion, or burning, of fuels in cars (p. 30).",
-        "Step 2 - Track Solar Ocean Evaporation: Let's begin with the sea, where the sun's energy draws up into the atmosphere most of the water that travels through the hydrologic cycle (p. 30).",
-        "Step 3 - Follow Moisture-Laden Wind Masses: Much of the moisture evaporated into the air soon falls back into the sea during storms, but winds eventually do carryair masses with moisture (p. 30).",
-        "Step 4 - Observe Condensed Atmospheric Vapor: A small part of the moisture, or water vapor, in the air at any time might be visible to us as clouds, fog, or mist (p. 30)."
+        "Step 1 - Cycle Illustration: Draw the complete hydrologic cycle showing evaporation, condensation, precipitation, transpiration, and infiltration.",
+        "Step 2 - Column Assembly: Pack transparent soil columns with dried sand and clay to test water percolation rates.",
+        "Step 3 - Capillary Demonstration: Place vertical glass tubes in dyed water to measure upward moisture migration through soil.",
+        "Step 4 - Runoff Modeling: Compare water runoff speed and clarity across vegetated turf plots versus bare compacted soil."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -2285,15 +2351,15 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Illustrating the Hydrologic Cycle",
-        "right_header": "Req 5c: Vegetation Removal and Runoff",
+        "left_header": "Req 5a: Global Hydrologic Cycle Mechanics",
+        "right_header": "Req 5c: Vegetative Cover and Runoff Veloci",
         "left_points": [
-          "(5a) Illustrating the Hydrologic Cycle: Let's begin with the sea, where the sun's energy draws up into the atmosphere most of the water that travels through the hydrologic cycle (p. 30).",
-          "(5b) Soil Water Movement Demonstrations: Evaporation is one of nature's ways of purifying water, because most of the dissolved substances in it, such as the salt in seawater, remain (p. 30)."
+          "(5a) Global Hydrologic Cycle Mechanics: The hydrologic cycle describes the continuous solar-driven movement of water from ocean evaporation to atmospheric condensation, precipitation, surface runoff, and groundwater recharge. Visual diagrams depict how water constantly recycles through terrestrial, marine, and atmospheric domains.",
+          "(5b) Soil Moisture Dynamics Demonstration: Scouts demonstrate water physical properties through laboratory models of downward percolation, upward capillary wick action, evaporation, and plant transpiration. These bench tests illustrate how pore spaces dictate water storage and movement inside root zones."
         ],
         "right_points": [
-          "(5c) Vegetation Removal and Runoff: The Soil and Water Conservation pamphlet for Requirement 5c details how removal of vegetation will affect the way water runs off a watershed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-          "(5d) Forest Range and Farmland Impacts: The Soil and Water Conservation pamphlet for Requirement 5d details how uses of forest, range, and farmland affect usable water supply, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+          "(5c) Vegetative Cover and Runoff Velocity: Stripping vegetation removes protective leaf canopies and spongy leaf litter that absorb falling raindrop impact energy. Without root channels and organic matter, rainfall cannot infiltrate quickly, causing accelerated surface runoff, flash flooding, and topsoil washouts.",
+          "(5d) Forest Range and Agricultural Impacts: Healthy forests act as giant sponges that release clean water slowly into headwater streams throughout dry summer months. Conversely, overgrazing on range land and improper farmland irrigation compact the soil, diminish stream baseflows, and concentrate salts in runoff."
         ],
         "rows": [
           {
@@ -2317,10 +2383,10 @@
         "title": "Soil and Water Conservation Req 5 Exemplar Workbook Entry: Hydrologic Cycle and Land Use",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a (Illustrating the Hydrologic Cycle)": "Let's begin with the sea, where the sun's energy draws up into the atmosphere most of the water that travels through the hydrologic cycle (p. 30).",
-          "Req 5b - Soil Water Movement Demonstrations": "Evaporation is one of nature's ways of purifying water, because most of the dissolved substances in it, such as the salt in seawater, remain (p. 30).",
-          "Req 5c (Vegetation Removal and Runoff)": "The Soil and Water Conservation pamphlet for Requirement 5c details how removal of vegetation will affect the way water runs off a watershed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-          "Req 5d (Forest Range and Farmland Impacts)": "The Soil and Water Conservation pamphlet for Requirement 5d details how uses of forest, range, and farmland affect usable water supply, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+          "Req 5a - Global Hydrologic Cycle Mechanics": "The hydrologic cycle describes the continuous solar-driven movement of water from ocean evaporation to atmospheric condensation, precipitation, surface runoff, and groundwater recharge. Visual diagrams depict how water constantly recycles through terrestrial, marine, and atmospheric domains.",
+          "Req 5b - Soil Moisture Dynamics Demonstrat": "Scouts demonstrate water physical properties through laboratory models of downward percolation, upward capillary wick action, evaporation, and plant transpiration. These bench tests illustrate how pore spaces dictate water storage and movement inside root zones.",
+          "Req 5c - Vegetative Cover and Runoff Veloc": "Stripping vegetation removes protective leaf canopies and spongy leaf litter that absorb falling raindrop impact energy. Without root channels and organic matter, rainfall cannot infiltrate quickly, causing accelerated surface runoff, flash flooding, and topsoil washouts.",
+          "Req 5d - Forest Range and Agricultural Imp": "Healthy forests act as giant sponges that release clean water slowly into headwater streams throughout dry summer months. Conversely, overgrazing on range land and improper farmland irrigation compact the soil, diminish stream baseflows, and concentrate salts in runoff."
         },
         "sample_output": "Hydrologic Cycle and Land Use: People, animals, and plants return some through the process of respiration (breathing), and the combustion, or burning, of fuels in cars (p. 30).",
         "counselor_tip": "For Soil and Water Conservation Requirement 5 (Hydrologic Cycle and Land Use), verify the Scout's own observations and specific pamphlet details (Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39))."
@@ -2352,7 +2418,13 @@
       "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
       "number": "5",
       "description": "Do the following: (a) Make a drawing to show the hydrologic cycle. (b) Demonstrate at least two of the following actions of water in relation to soil: percolation, capillary action, precipitation, evaporation, and transpiration. (c) Explain how removal of vegetation will affect the way water runs off a watershed. (d) Tell how uses of forest, range, and farmland affect usable water supply. (e) Explain how industrial use affects water supply.",
-      "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions."
+      "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
+      "pamphlet_summary": "The hydrologic cycle circulates global water between the atmosphere, earth surfaces, and groundwater tables through solar and gravitational forces. Land management practices, industrial operations, and vegetation removal alter infiltration rates, aquifer recharge, and water purity.",
+      "socratic_questions": [
+        "How does plant root transpiration contribute to local atmospheric humidity and regional rainfall patterns?",
+        "Why does removing mountain forest cover convert steady stream baseflows into flash flood torrents?",
+        "In what ways does industrial thermal discharge alter the dissolved oxygen content of receiving rivers?"
+      ]
     },
     {
       "req_id": "6",
@@ -2391,8 +2463,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
-            "misconception": "A trickling filter in a wastewater plant works like a paper coffee filter that strains out dirt particles.",
-            "fact": "In a trickling filter, effluent passes slowly over stones coated with living biological growths that digest and decompose organic waste (p. 78)."
+            "misconception": "Scouts believe muddy water from natural river bends is considered industrial chemical pollution.",
+            "fact": "Pollution specifically describes human-induced degradation that harms water usability and aquatic biological health.",
+            "myth": "Scouts believe muddy water from natural river bends is considered industrial chemical pollution.",
+            "fact_correction": "Pollution specifically describes human-induced degradation that harms water usability and aquatic biological health."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2418,10 +2492,10 @@
           "id": "6a",
           "sub_req_label": "6a",
           "sub_req_text": "Tell what is meant by water pollution.",
-          "topic_title": "Req 6a: Defining Water Pollution",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 6a (Defining Water Pollution): The Soil and Water Conservation pamphlet for Requirement 6a details what is meant by water pollution, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 78).",
+          "topic_title": "Req 6a: Definition of Water Quality Impairment",
+          "pamphlet_summary": "Water pollution denotes the presence of any physical, chemical, or biological agent that degrades water quality and harms living organisms. It renders water hazardous for drinking, recreation, agricultural irrigation, or wildlife habitat.",
           "pamphlet_excerpts": [
-            "Defining Water Pollution: The Soil and Water Conservation pamphlet for Requirement 6a details what is meant by water pollution, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 78)."
+            "Water pollution denotes the presence of any physical, chemical, or biological agent that degrades water quality and harms living organisms. It renders water hazardous for drinking, recreation, agricultural irrigation, or wildlife habitat."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p069_img1.png",
           "workbook_diagram_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
@@ -2457,8 +2531,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
-            "misconception": "A high biochemical oxygen demand (BOD) means a river has plenty of extra oxygen for trout and bass.",
-            "fact": "High biochemical oxygen demand means decomposing organic waste is consuming large amounts of dissolved oxygen, which can suffocate fish and aquatic life (p. 79)."
+            "misconception": "Scouts believe municipal storm sewers route street runoff into sewage treatment plants before discharge.",
+            "fact": "Most street storm drains dump unfiltered rainwater and street motor oil directly into rivers.",
+            "myth": "Scouts believe municipal storm sewers route street runoff into sewage treatment plants before discharge.",
+            "fact_correction": "Most street storm drains dump unfiltered rainwater and street motor oil directly into rivers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2484,10 +2560,10 @@
           "id": "6b",
           "sub_req_label": "6b",
           "sub_req_text": "Describe common sources of water pollution and explain the effects.",
-          "topic_title": "Req 6b: Pollution Sources and Ecological Effects",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 6b (Pollution Sources and Ecological Effects): The Soil and Water Conservation pamphlet for Requirement 6b details common sources of water pollution and explain the effects, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 78).",
+          "topic_title": "Req 6b: Point and Nonpoint Pollution Sources",
+          "pamphlet_summary": "Pollution originates from identifiable point sources like industrial pipes and sewage plants, or diffuse nonpoint sources like urban street runoff and fertilized farm fields. Toxic metals poison food chains, excess nutrients cause algae blooms, and silt suffocates fish eggs.",
           "pamphlet_excerpts": [
-            "Pollution Sources and Ecological Effects: The Soil and Water Conservation pamphlet for Requirement 6b details common sources of water pollution and explain the effects, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 78)."
+            "Pollution originates from identifiable point sources like industrial pipes and sewage plants, or diffuse nonpoint sources like urban street runoff and fertilized farm fields. Toxic metals poison food chains, excess nutrients cause algae blooms, and silt suffocates fish eggs."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p069_img1.png",
           "workbook_diagram_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
@@ -2528,8 +2604,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
-            "misconception": "Secondary wastewater treatment works best in sealed tanks with zero air exposure.",
-            "fact": "Secondary treatment processes require oxygen supplied through aeration, either by spraying the effluent into the air or pumping air through it (p. 78)."
+            "misconception": "Scouts believe primary water treatment removes all harmful bacteria and dissolved chemical compounds.",
+            "fact": "Primary treatment only settles out floating debris and heavy sludge, leaving dissolved waste behind.",
+            "myth": "Scouts believe primary water treatment removes all harmful bacteria and dissolved chemical compounds.",
+            "fact_correction": "Primary treatment only settles out floating debris and heavy sludge, leaving dissolved waste behind."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2555,10 +2633,10 @@
           "id": "6c",
           "sub_req_label": "6c",
           "sub_req_text": "Explain the terms: primary water treatment, secondary waste treatment, and biochemical oxygen demand.",
-          "topic_title": "Req 6c: Primary Secondary Treatment and BOD",
-          "pamphlet_summary": "Primary Secondary Treatment and BOD: Often, the effluent resulting from primary treatment requires secondary treatment (p. 78).",
+          "topic_title": "Req 6c: Wastewater Treatment Stages and Metrics",
+          "pamphlet_summary": "Primary treatment physically removes heavy solids through screening and settling, while secondary treatment uses microorganisms to consume dissolved organic waste. Biochemical oxygen demand measures the amount of dissolved oxygen microbes require to break down that organic matter.",
           "pamphlet_excerpts": [
-            "Primary Secondary Treatment and BOD: Often, the effluent resulting from primary treatment requires secondary treatment (p. 78)."
+            "Primary treatment physically removes heavy solids through screening and settling, while secondary treatment uses microorganisms to consume dissolved organic waste. Biochemical oxygen demand measures the amount of dissolved oxygen microbes require to break down that organic matter."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p069_img1.png",
           "workbook_diagram_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
@@ -2594,8 +2672,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
-            "misconception": "During Soil and Water Conservation Requirement 6d, Scouts can underestimate how directly mastery of diagramming complete wastewater treatment depends on understanding make a drawing showing the principles of complete waste treatment.",
-            "fact": "Scouting America standards for Soil and Water Conservation Requirement 6d require complete workbook entries on diagramming complete wastewater treatment to demonstrate full understanding of make a drawing showing the principles of complete waste treatment."
+            "misconception": "Scouts believe modern sewage treatment plants dump untreated sludge solids directly into rivers.",
+            "fact": "Modern treatment facilities digest separated sludge in anaerobic tanks to produce soil conditioner or biogas.",
+            "myth": "Scouts believe modern sewage treatment plants dump untreated sludge solids directly into rivers.",
+            "fact_correction": "Modern treatment facilities digest separated sludge in anaerobic tanks to produce soil conditioner or biogas."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2621,10 +2701,10 @@
           "id": "6d",
           "sub_req_label": "6d",
           "sub_req_text": "Make a drawing showing the principles of complete waste treatment.",
-          "topic_title": "Req 6d: Diagramming Complete Wastewater Treatment",
-          "pamphlet_summary": "Diagramming Complete Wastewater Treatment: The wastewater repeats all the steps of primary treatment and then one of two processes for further organic waste decomposition (p. 78).",
+          "topic_title": "Req 6d: Complete Wastewater Facility Process Diagram",
+          "pamphlet_summary": "Complete municipal wastewater treatment diagrams depict the sequential flow of sewage through bar screens, grit chambers, primary settling tanks, aeration basins, secondary clarifiers, and disinfection tanks. The schematics show both liquid effluent pathways and solid sludge digestion processes.",
           "pamphlet_excerpts": [
-            "Diagramming Complete Wastewater Treatment: The wastewater repeats all the steps of primary treatment and then one of two processes for further organic waste decomposition (p. 78)."
+            "Complete municipal wastewater treatment diagrams depict the sequential flow of sewage through bar screens, grit chambers, primary settling tanks, aeration basins, secondary clarifiers, and disinfection tanks. The schematics show both liquid effluent pathways and solid sludge digestion processes."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p069_img1.png",
           "workbook_diagram_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
@@ -2653,11 +2733,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Water Pollution and Wastewater Treatment",
+      "topic_title": "Req 6: Water Pollution and Treatment Engineering",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Soil and Water Conservation Requirement 6: travel with a buddy, carry the Scout Basic Essentials and water while studying water pollution and wastewater treatment, and respect wildlife distance and Leave No Trace guidelines.",
+      "safety_callout": "Never drink untreated surface water and wear rubber gloves when collecting stream or wastewater samples.",
       "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
       "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
       "syllabus_bucket": "In-Class Concept",
@@ -2689,8 +2769,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Primary wastewater treatment uses bacteria and oxygen to break down dissolved organic matter.",
-        "fact": "Primary treatment relies on physical screening and settling tanks to remove solids, whereas secondary treatment uses oxygen-dependent biological action to decompose remaining organic waste (p. 78)."
+        "misconception": "Water that looks clear, odorless, and sparkling is completely free from toxic chemical contaminants.",
+        "fact": "Deadly agricultural pesticides, industrial chemicals, and microbial pathogens remain entirely invisible in clear water.",
+        "myth": "Water that looks clear, odorless, and sparkling is completely free from toxic chemical contaminants.",
+        "fact_correction": "Deadly agricultural pesticides, industrial chemicals, and microbial pathogens remain entirely invisible in clear water."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2714,16 +2796,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Advancing to Secondary Treatment: Often, the effluent resulting from primary treatment requires secondary treatment (p. 78).",
-        "Organic Waste Decomposition Processes: The wastewater repeats all the steps of primary treatment and then one of two processes for further organic waste decomposition (p. 78).",
-        "Oxygen-Dependent Biological Action: Both processes depend on biological action and both require oxygen (p. 78).",
-        "Supplying Oxygen Through Aeration: The oxygen is supplied through aeration, that is, by spraying the effluent into the air or by pumping air (p. 78)."
+        "Contamination Thresholds: Pollutants impair aquatic ecosystems when concentrations exceed natural chemical dilution and assimilation capacities.",
+        "Nonpoint Discharges: Stormwater washes motor oil, lawn fertilizers, and road silt into unguarded storm drains.",
+        "Primary Settling: Mechanical screens and settling basins remove floating scum and heavy suspended solid matter.",
+        "Secondary Digestion: Beneficial aerobic bacteria decompose dissolved organic wastes inside oxygenated municipal aeration tanks."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Support Aerobic Bacterial Digestion: Both processes depend on biological action and both require oxygen (p. 78).",
-        "Step 2 - Aerate Effluent with Oxygen: The oxygen is supplied through aeration, that is, by spraying the effluent into the air or by pumping air (p. 78).",
-        "Step 3 - Route Effluent to Filters: In one process, the effluent goes from the primary settling tank to a trickling filter (p. 78).",
-        "Step 4 - Decompose Waste Over Stones: There, it passes slowly over stones or other material where biological growths decompose the waste left in the effluent (p. 78)."
+        "Step 1 - Watershed Survey: Walk a local shoreline to identify storm drain outfalls and point pollution discharge sources.",
+        "Step 2 - Sample Collection: Gather water specimens in sterile containers from both upstream and downstream shoreline locations.",
+        "Step 3 - Parameter Testing: Measure dissolved oxygen, turbidity, and chemical nutrient levels to evaluate biochemical oxygen demand.",
+        "Step 4 - Treatment Schematics: Draw process diagrams illustrating screening, secondary aerobic digestion, clarifiers, and final chlorination stages."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -2732,15 +2814,15 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Defining Water Pollution",
-        "right_header": "Req 6c: Primary Secondary Treatment and BO",
+        "left_header": "Req 6a: Definition of Water Quality Impair",
+        "right_header": "Req 6c: Wastewater Treatment Stages and Me",
         "left_points": [
-          "(6a) Defining Water Pollution: The Soil and Water Conservation pamphlet for Requirement 6a details what is meant by water pollution, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 78).",
-          "(6b) Pollution Sources and Ecological Effects: The Soil and Water Conservation pamphlet for Requirement 6b details common sources of water pollution and explain the effects, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 78)."
+          "(6a) Definition of Water Quality Impairment: Water pollution denotes the presence of any physical, chemical, or biological agent that degrades water quality and harms living organisms. It renders water hazardous for drinking, recreation, agricultural irrigation, or wildlife habitat.",
+          "(6b) Point and Nonpoint Pollution Sources: Pollution originates from identifiable point sources like industrial pipes and sewage plants, or diffuse nonpoint sources like urban street runoff and fertilized farm fields. Toxic metals poison food chains, excess nutrients cause algae blooms, and silt suffocates fish eggs."
         ],
         "right_points": [
-          "(6c) Primary Secondary Treatment and BOD: Often, the effluent resulting from primary treatment requires secondary treatment (p. 78).",
-          "(6d) Diagramming Complete Wastewater Treatment: The wastewater repeats all the steps of primary treatment and then one of two processes for further organic waste decomposition (p. 78)."
+          "(6c) Wastewater Treatment Stages and Metrics: Primary treatment physically removes heavy solids through screening and settling, while secondary treatment uses microorganisms to consume dissolved organic waste. Biochemical oxygen demand measures the amount of dissolved oxygen microbes require to break down that organic matter.",
+          "(6d) Complete Wastewater Facility Process Diagram: Complete municipal wastewater treatment diagrams depict the sequential flow of sewage through bar screens, grit chambers, primary settling tanks, aeration basins, secondary clarifiers, and disinfection tanks. The schematics show both liquid effluent pathways and solid sludge digestion processes."
         ],
         "rows": [
           {
@@ -2764,10 +2846,10 @@
         "title": "Soil and Water Conservation Req 6 Exemplar Workbook Entry: Water Pollution and Wastewater Treatment",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 6a (Defining Water Pollution)": "The Soil and Water Conservation pamphlet for Requirement 6a details what is meant by water pollution, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 78).",
-          "Req 6b - Pollution Sources and Ecological E": "The Soil and Water Conservation pamphlet for Requirement 6b details common sources of water pollution and explain the effects, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 78).",
-          "Req 6c - Primary Secondary Treatment and BO": "Often, the effluent resulting from primary treatment requires secondary treatment (p. 78).",
-          "Req 6d - Diagramming Complete Wastewater Tr": "The wastewater repeats all the steps of primary treatment and then one of two processes for further organic waste decomposition (p. 78)."
+          "Req 6a - Definition of Water Quality Impai": "Water pollution denotes the presence of any physical, chemical, or biological agent that degrades water quality and harms living organisms. It renders water hazardous for drinking, recreation, agricultural irrigation, or wildlife habitat.",
+          "Req 6b - Point and Nonpoint Pollution Sour": "Pollution originates from identifiable point sources like industrial pipes and sewage plants, or diffuse nonpoint sources like urban street runoff and fertilized farm fields. Toxic metals poison food chains, excess nutrients cause algae blooms, and silt suffocates fish eggs.",
+          "Req 6c - Wastewater Treatment Stages and M": "Primary treatment physically removes heavy solids through screening and settling, while secondary treatment uses microorganisms to consume dissolved organic waste. Biochemical oxygen demand measures the amount of dissolved oxygen microbes require to break down that organic matter.",
+          "Req 6d - Complete Wastewater Facility Proc": "Complete municipal wastewater treatment diagrams depict the sequential flow of sewage through bar screens, grit chambers, primary settling tanks, aeration basins, secondary clarifiers, and disinfection tanks. The schematics show both liquid effluent pathways and solid sludge digestion processes."
         },
         "sample_output": "Water Pollution and Wastewater Treatment: The oxygen is supplied through aeration, that is, by spraying the effluent into the air or by pumping air (p. 78).",
         "counselor_tip": "For Soil and Water Conservation Requirement 6 (Water Pollution and Wastewater Treatment), verify the Scout's own observations and specific pamphlet details (Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79))."
@@ -2799,7 +2881,13 @@
       "workbook_diagram_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
       "number": "6",
       "description": "Do the following: (a) Tell what is meant by water pollution. (b) Describe common sources of water pollution and explain the effects of each. (c) Explain the terms: primary water treatment, secondary waste treatment, and biochemical oxygen demand. (d) Make a drawing showing the principles of complete waste treatment.",
-      "workbook_visual_caption": "A hand touches dense surface algae caused by nutrient water pollution."
+      "workbook_visual_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
+      "pamphlet_summary": "Water pollution occurs when biological, chemical, or physical contaminants enter aquatic systems and make water unfit for intended natural or municipal uses. Modern treatment facilities use physical screening, microbial digestion, and biochemical monitoring to restore wastewater quality.",
+      "socratic_questions": [
+        "How does decomposing organic sewage deplete dissolved oxygen and cause catastrophic fish kills?",
+        "Why are nonpoint agricultural runoff sources harder to regulate and remediate than industrial pipe outfalls?",
+        "What critical biological role do aerobic bacteria play during secondary municipal sewage treatment cycles?"
+      ]
     },
     {
       "req_id": "7",
@@ -3486,8 +3574,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
-            "misconception": "A USDA soil survey report only tells farmers which crops sold for the highest price last year.",
-            "fact": "A soil survey report maps detailed soil types, slopes, drainage characteristics, and land-use capabilities across a county or area (p. 53)."
+            "misconception": "Scouts believe commercial woodlots and agricultural research farms operate without planned soil conservation designs.",
+            "fact": "Managed woodlots and experimental farms utilize precision harvest rotations and terrace systems to protect watersheds.",
+            "myth": "Scouts believe commercial woodlots and agricultural research farms operate without planned soil conservation designs.",
+            "fact_correction": "Managed woodlots and experimental farms utilize precision harvest rotations and terrace systems to protect watersheds."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3513,10 +3603,10 @@
           "id": "7a",
           "sub_req_label": "7a",
           "sub_req_text": "Make a trip to TWO of the following places. Write a report of more than 500 words about the soil and water and energy conservation practices you saw. (1) An agricultural experiment (2) A managed forest or woodlot, range, or pasture (3) A wildlife refuge or a fish or game management area (4) A conservation-managed farm or ranch (5) A managed watershed (6) A waste-treatment plant (7) A public drinking water treatment plant (8) An industry water use installation (9) A desalinization plant.",
-          "topic_title": "Req 7a: Conservation Site Visit Reports",
-          "pamphlet_summary": "Conservation Site Visit Reports: Through this initiative, public and private agencies are working together to help landowners create 2 million miles of conservation buffers (p. 49).",
+          "topic_title": "Req 7a: Managed Resource Facility Study Report",
+          "pamphlet_summary": "Scouts visit two managed facilities such as agricultural research stations, woodlots, or windbreaks to inspect operational conservation systems firsthand. They compose a comprehensive 500-word report analyzing observed soil protection, water management, and energy efficiency measures.",
           "pamphlet_excerpts": [
-            "Conservation Site Visit Reports: Through this initiative, public and private agencies are working together to help landowners create 2 million miles of conservation buffers (p. 49)."
+            "Scouts visit two managed facilities such as agricultural research stations, woodlots, or windbreaks to inspect operational conservation systems firsthand. They compose a comprehensive 500-word report analyzing observed soil protection, water management, and energy efficiency measures."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "title": "Req 7a: Conservation Site Visit Reports",
@@ -3553,8 +3643,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Soil erosion is strictly a rural farming problem that never occurs in suburbs, parks, or school grounds.",
-            "fact": "Neighborhoods, camps, school grounds, and parks frequently suffer erosion and sedimentation along bare footpaths, construction sites, and unlined drainage ditches (p. 53)."
+            "misconception": "Scouts believe digging shallow holes and bending seedling roots into J-shapes ensures tree survival.",
+            "fact": "Seedling taproots must hang straight down in deep vertical holes to prevent underground root rot.",
+            "myth": "Scouts believe digging shallow holes and bending seedling roots into J-shapes ensures tree survival.",
+            "fact_correction": "Seedling taproots must hang straight down in deep vertical holes to prevent underground root rot."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3580,10 +3672,10 @@
           "id": "7b",
           "sub_req_label": "7b",
           "sub_req_text": "Plant 100 trees, bushes, and/or vines for a good purpose.",
-          "topic_title": "Req 7b: Planting Trees Bushes and Vines",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 7b (Planting Trees Bushes and Vines): The Soil and Water Conservation pamphlet for Requirement 7b details plant 100 trees, bushes, and/or vines for a good purpose, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+          "topic_title": "Req 7b: Erosion Stabilization Seedling Planting Project",
+          "pamphlet_summary": "Planting 100 trees, shrubs, or vines stabilizes vulnerable soil banks, establishes windbreak barriers, or restores wildlife habitat corridors. Scouts select ecologically suitable native species, dig appropriate root pits, and install protective browse guards.",
           "pamphlet_excerpts": [
-            "Planting Trees Bushes and Vines: The Soil and Water Conservation pamphlet for Requirement 7b details plant 100 trees, bushes, and/or vines for a good purpose, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+            "Planting 100 trees, shrubs, or vines stabilizes vulnerable soil banks, establishes windbreak barriers, or restores wildlife habitat corridors. Scouts select ecologically suitable native species, dig appropriate root pits, and install protective browse guards."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
@@ -3619,8 +3711,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Planting a single row of seasonal annual flowers provides the same year-round erosion control as a conservation buffer.",
-            "fact": "Effective conservation buffers rely on permanent vegetation such as deep-rooted perennial grasses, legumes, bushes, or trees to hold soil year-round (p. 49)."
+            "misconception": "Scouts believe scattering grass seeds over hard unraked ground results in dense vegetative ground cover.",
+            "fact": "Seed requires a scarified soil bed and firm seed-to-soil contact to ensure adequate germination.",
+            "myth": "Scouts believe scattering grass seeds over hard unraked ground results in dense vegetative ground cover.",
+            "fact_correction": "Seed requires a scarified soil bed and firm seed-to-soil contact to ensure adequate germination."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3646,10 +3740,10 @@
           "id": "7c",
           "sub_req_label": "7c",
           "sub_req_text": "Seed an area of at least one-fifth acre for some worthwhile conservation purposes, using suitable grasses or legumes alone or in a mixture.",
-          "topic_title": "Req 7c: Seeding Conservation Grasses and Legumes",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 7c (Seeding Conservation Grasses and Legumes): The Soil and Water Conservation pamphlet for Requirement 7c details seed an area of at least one-fifth acre for some worthwhile conservation purposes, using suitable grasses or legumes alone, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+          "topic_title": "Req 7c: Conservation Cover Crop Seeding Execution",
+          "pamphlet_summary": "Seeding a one-fifth-acre plot with adapted conservation grasses or legumes provides ground cover that halts wind and water erosion. Legumes enrich depleted topsoil with atmospheric nitrogen while deep grass roots restore aggregate stability.",
           "pamphlet_excerpts": [
-            "Seeding Conservation Grasses and Legumes: The Soil and Water Conservation pamphlet for Requirement 7c details seed an area of at least one-fifth acre for some worthwhile conservation purposes, using suitable grasses or legumes alone, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+            "Seeding a one-fifth-acre plot with adapted conservation grasses or legumes provides ground cover that halts wind and water erosion. Legumes enrich depleted topsoil with atmospheric nitrogen while deep grass roots restore aggregate stability."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
@@ -3696,8 +3790,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
-            "misconception": "During Soil and Water Conservation Requirement 7d, Scouts can underestimate how directly mastery of tracing soil survey maps depends on understanding study a soil survey report.",
-            "fact": "Scouting America standards for Soil and Water Conservation Requirement 7d require complete workbook entries on tracing soil survey maps to demonstrate full understanding of study a soil survey report."
+            "misconception": "Scouts believe soil survey maps show only who owns individual parcels of rural agricultural land.",
+            "fact": "Soil surveys detail engineering properties, agricultural fertility ratings, and ecological limitations across landscape zones.",
+            "myth": "Scouts believe soil survey maps show only who owns individual parcels of rural agricultural land.",
+            "fact_correction": "Soil surveys detail engineering properties, agricultural fertility ratings, and ecological limitations across landscape zones."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3723,10 +3819,10 @@
           "id": "7d",
           "sub_req_label": "7d",
           "sub_req_text": "Study a soil survey report. Describe the things in it. Using tracing paper and a pen, trace over any of the soil maps, and outline an area with three or more different kinds of soil. List each kind of soil by full name and map symbol.",
-          "topic_title": "Req 7d: Tracing Soil Survey Maps",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 7d (Tracing Soil Survey Maps): The Soil and Water Conservation pamphlet for Requirement 7d details study a soil survey report, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+          "topic_title": "Req 7d: County Soil Survey Map Analysis",
+          "pamphlet_summary": "Scouts study official USDA county soil survey publications to interpret soil capability classes, water tables, and developmental constraints. Using tracing paper, they delineate an area encompassing at least three distinct soil mapping units.",
           "pamphlet_excerpts": [
-            "Tracing Soil Survey Maps: The Soil and Water Conservation pamphlet for Requirement 7d details study a soil survey report, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+            "Scouts study official USDA county soil survey publications to interpret soil capability classes, water tables, and developmental constraints. Using tracing paper, they delineate an area encompassing at least three distinct soil mapping units."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
@@ -3764,10 +3860,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Surveying Neighborhood Erosion Sites (Req 7e) or confusing Surveying Neighborhood Erosion Sites with general Hands-On Conservation Field Projects procedures.",
-            "fact": "For Requirement 7e (Surveying Neighborhood Erosion Sites), These areas then help control soil erosion and pollution by breaking upand slowing the movement of runoff, sediment, and other pollutants within fields (p. 49).",
-            "myth": "Overlooking the specific field checks required for Surveying Neighborhood Erosion Sites (Req 7e) or confusing Surveying Neighborhood Erosion Sites with general Hands-On Conservation Field Projects procedures.",
-            "fact_correction": "For Requirement 7e (Surveying Neighborhood Erosion Sites), These areas then help control soil erosion and pollution by breaking upand slowing the movement of runoff, sediment, and other pollutants within fields (p. 49)."
+            "misconception": "Scouts believe urban stormwater drainage problems cannot be solved without massive concrete civil infrastructure.",
+            "fact": "Simple low-cost interventions like rain gardens and grassed swales effectively intercept sediment and runoff.",
+            "myth": "Scouts believe urban stormwater drainage problems cannot be solved without massive concrete civil infrastructure.",
+            "fact_correction": "Simple low-cost interventions like rain gardens and grassed swales effectively intercept sediment and runoff."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -3793,10 +3889,10 @@
           "id": "7e",
           "sub_req_label": "7e",
           "sub_req_text": "Make a list of places in your neighborhood, camps, school ground, or park that have erosion, sedimentation, or pollution problems. Describe how these could be corrected through individual or group action.",
-          "topic_title": "Req 7e: Surveying Neighborhood Erosion Sites",
-          "pamphlet_summary": "Surveying Neighborhood Erosion Sites: These areas then help control soil erosion and pollution by breaking upand slowing the movement of runoff, sediment, and other pollutants within fields (p. 49).",
+          "topic_title": "Req 7e: Community Erosion Remediation Action Plan",
+          "pamphlet_summary": "Scouts survey local neighborhoods, parks, or school grounds to map active erosion gullies, sediment deposition fans, and polluted runoff points. They formulate practical corrective plans utilizing vegetative buffers, check dams, or mulch stabilization.",
           "pamphlet_excerpts": [
-            "Surveying Neighborhood Erosion Sites: These areas then help control soil erosion and pollution by breaking upand slowing the movement of runoff, sediment, and other pollutants within fields (p. 49)."
+            "Scouts survey local neighborhoods, parks, or school grounds to map active erosion gullies, sediment deposition fans, and polluted runoff points. They formulate practical corrective plans utilizing vegetative buffers, check dams, or mulch stabilization."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
@@ -3832,8 +3928,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
-            "misconception": "When preparing Soil and Water Conservation Requirement 7f (Req 7f Counselor-Approved Conservation Projects), Scouts sometimes overlook the specific details needed to carry out any other soil and water conservation project approved by your co.",
-            "fact": "Counselor verification for Soil and Water Conservation Requirement 7f requires concrete workbook evidence covering req 7f counselor-approved conservation projects and a clear explanation of how to carry out any other soil and water conservation project approved by your co."
+            "misconception": "Scouts believe picking up surface litter in a park constitutes a complete soil conservation project.",
+            "fact": "An approved project must directly address physical soil stabilization, runoff reduction, or aquatic habitat restoration.",
+            "myth": "Scouts believe picking up surface litter in a park constitutes a complete soil conservation project.",
+            "fact_correction": "An approved project must directly address physical soil stabilization, runoff reduction, or aquatic habitat restoration."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3864,10 +3962,10 @@
           "id": "7f",
           "sub_req_label": "7f",
           "sub_req_text": "Carry out any other soil and water conservation project approved by your counselor.",
-          "topic_title": "Req 7f: Counselor-Approved Conservation Projects",
-          "pamphlet_summary": "For Soil and Water Conservation Requirement 7f (Counselor-Approved Conservation Projects): The Soil and Water Conservation pamphlet for Requirement 7f details carry out any other soil and water conservation project approved by your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+          "topic_title": "Req 7f: Approved Custom Conservation Stewardship Project",
+          "pamphlet_summary": "Scouts design and execute an individualized conservation project addressing local soil stability or water quality under counselor guidance. The project involves rigorous planning, active field labor, measurable conservation impact, and documented results.",
           "pamphlet_excerpts": [
-            "Counselor-Approved Conservation Projects: The Soil and Water Conservation pamphlet for Requirement 7f details carry out any other soil and water conservation project approved by your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+            "Scouts design and execute an individualized conservation project addressing local soil stability or water quality under counselor guidance. The project involves rigorous planning, active field labor, measurable conservation impact, and documented results."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "title": "Req 7f: Counselor-Approved Conservation Projects",
@@ -3921,11 +4019,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Hands-On Conservation Field Projects",
+      "topic_title": "Req 7: Conservation Field Projects and Practice",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 7): Complete all Hands-On Conservation Field Projects discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Wear safety goggles, steel toe boots, and heavy work gloves when operating manual digging implements.",
       "pamphlet_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
       "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -3961,8 +4059,10 @@
         "min_rows": 6
       },
       "common_misconception_pair": {
-        "misconception": "Conservation buffers require taking entire farms out of crop production to stop runoff.",
-        "fact": "Conservation buffers are small strips of land kept in permanent vegetation within or along fields that break up and slow runoff, sediment, and pollutants while farming continues (p. 49)."
+        "misconception": "Planting trees or sowing grass seeds guarantees immediate erosion stabilization without follow-up watering.",
+        "fact": "Newly planted conservation vegetation requires active watering and mulch protection until extensive root systems establish.",
+        "myth": "Planting trees or sowing grass seeds guarantees immediate erosion stabilization without follow-up watering.",
+        "fact_correction": "Newly planted conservation vegetation requires active watering and mulch protection until extensive root systems establish."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3991,30 +4091,30 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Permanent Vegetative Buffer Strips: Conservation buffers are small areas or strips of land kept in permanent vegetation (p. 49).",
-        "Slowing Runoff and Pollutants: These areas then help control soil erosion and pollution by breaking upand slowing the movement of runoff, sediment, and other pollutants within fields (p. 49).",
-        "National Conservation Buffer Initiative: The USDA launched the National Conservation Buffer Initiative in 1997 (p. 49).",
-        "Public-Private Landowner Partnerships: Through this initiative, public and private agencies are working together to help landowners create 2 million miles of conservation buffers (p. 49)."
+        "Field Inspection: Visiting agricultural research stations reveals cutting-edge crop rotation and irrigation efficiency methods.",
+        "Root Stabilization: Planting native shrubs on bare embankments physically binds loose topsoil against rainfall detachment.",
+        "Legume Inoculation: Seeding clover or vetch fixes atmospheric nitrogen while blanketing exposed ground with cover.",
+        "Survey Mapping: Published county soil surveys identify specific soil limitations and drainage ratings for building."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Review USDA Buffer Initiatives: The USDA launched the National Conservation Buffer Initiative in 1997 (p. 49).",
-        "Step 2 - Partner with Conservation Agencies: Through this initiative, public and private agencies are working together to help landowners create 2 million miles of conservation buffers (p. 49).",
-        "Step 3 - Install Grassed Contour Strips: Grassed contour buffer strips cover an entire field in Iowa (p. 49).",
-        "Step 4 - Consult Professional Conservationists: Professional conservationists have solved many conservation problems (p. 49)."
+        "Step 1 - Project Selection: Select two approved field options such as site visits, planting, or soil surveys.",
+        "Step 2 - Site Preparation: Clear competitive weed species and prepare planting beds using hand tools on target ground.",
+        "Step 3 - Implementation Execution: Plant seedlings at proper root depth or trace soil boundary maps on drafting paper.",
+        "Step 4 - Technical Reporting: Author detailed analytical project reports documenting acreage restored, techniques used, and survival rates."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 7a: Conservation Site Visit Reports",
-        "right_header": "Req 7d: Tracing Soil Survey Maps",
+        "left_header": "Req 7a: Managed Resource Facility Study Re",
+        "right_header": "Req 7d: County Soil Survey Map Analysis",
         "left_points": [
-          "(7a) Conservation Site Visit Reports: Through this initiative, public and private agencies are working together to help landowners create 2 million miles of conservation buffers (p. 49).",
-          "(7b) Planting Trees Bushes and Vines: The Soil and Water Conservation pamphlet for Requirement 7b details plant 100 trees, bushes, and/or vines for a good purpose, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
-          "(7c) Seeding Conservation Grasses and Legumes: The Soil and Water Conservation pamphlet for Requirement 7c details seed an area of at least one-fifth acre for some worthwhile conservation purposes, using suitable grasses or legumes alone, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+          "(7a) Managed Resource Facility Study Report: Scouts visit two managed facilities such as agricultural research stations, woodlots, or windbreaks to inspect operational conservation systems firsthand. They compose a comprehensive 500-word report analyzing observed soil protection, water management, and energy efficiency measures.",
+          "(7b) Erosion Stabilization Seedling Planting Project: Planting 100 trees, shrubs, or vines stabilizes vulnerable soil banks, establishes windbreak barriers, or restores wildlife habitat corridors. Scouts select ecologically suitable native species, dig appropriate root pits, and install protective browse guards.",
+          "(7c) Conservation Cover Crop Seeding Execution: Seeding a one-fifth-acre plot with adapted conservation grasses or legumes provides ground cover that halts wind and water erosion. Legumes enrich depleted topsoil with atmospheric nitrogen while deep grass roots restore aggregate stability."
         ],
         "right_points": [
-          "(7d) Tracing Soil Survey Maps: The Soil and Water Conservation pamphlet for Requirement 7d details study a soil survey report, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
-          "(7e) Surveying Neighborhood Erosion Sites: These areas then help control soil erosion and pollution by breaking upand slowing the movement of runoff, sediment, and other pollutants within fields (p. 49).",
-          "(7f) Counselor-Approved Conservation Projects: The Soil and Water Conservation pamphlet for Requirement 7f details carry out any other soil and water conservation project approved by your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+          "(7d) County Soil Survey Map Analysis: Scouts study official USDA county soil survey publications to interpret soil capability classes, water tables, and developmental constraints. Using tracing paper, they delineate an area encompassing at least three distinct soil mapping units.",
+          "(7e) Community Erosion Remediation Action Plan: Scouts survey local neighborhoods, parks, or school grounds to map active erosion gullies, sediment deposition fans, and polluted runoff points. They formulate practical corrective plans utilizing vegetative buffers, check dams, or mulch stabilization.",
+          "(7f) Approved Custom Conservation Stewardship Project: Scouts design and execute an individualized conservation project addressing local soil stability or water quality under counselor guidance. The project involves rigorous planning, active field labor, measurable conservation impact, and documented results."
         ],
         "rows": [
           {
@@ -4038,10 +4138,10 @@
         "title": "Soil and Water Conservation Req 7 Exemplar Workbook Entry: Hands-On Conservation Field Projects",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 7a (Conservation Site Visit Reports)": "Through this initiative, public and private agencies are working together to help landowners create 2 million miles of conservation buffers (p. 49).",
-          "Req 7b (Planting Trees Bushes and Vines)": "The Soil and Water Conservation pamphlet for Requirement 7b details plant 100 trees, bushes, and/or vines for a good purpose, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
-          "Req 7c - Seeding Conservation Grasses and L": "The Soil and Water Conservation pamphlet for Requirement 7c details seed an area of at least one-fifth acre for some worthwhile conservation purposes, using suitable grasses or legumes alone, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
-          "Req 7d (Tracing Soil Survey Maps)": "The Soil and Water Conservation pamphlet for Requirement 7d details study a soil survey report, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+          "Req 7a - Managed Resource Facility Study R": "Scouts visit two managed facilities such as agricultural research stations, woodlots, or windbreaks to inspect operational conservation systems firsthand. They compose a comprehensive 500-word report analyzing observed soil protection, water management, and energy efficiency measures.",
+          "Req 7b - Erosion Stabilization Seedling Pl": "Planting 100 trees, shrubs, or vines stabilizes vulnerable soil banks, establishes windbreak barriers, or restores wildlife habitat corridors. Scouts select ecologically suitable native species, dig appropriate root pits, and install protective browse guards.",
+          "Req 7c - Conservation Cover Crop Seeding E": "Seeding a one-fifth-acre plot with adapted conservation grasses or legumes provides ground cover that halts wind and water erosion. Legumes enrich depleted topsoil with atmospheric nitrogen while deep grass roots restore aggregate stability.",
+          "Req 7d - County Soil Survey Map Analysis": "Scouts study official USDA county soil survey publications to interpret soil capability classes, water tables, and developmental constraints. Using tracing paper, they delineate an area encompassing at least three distinct soil mapping units."
         },
         "sample_output": "Hands-On Conservation Field Projects: Conservation buffers are small areas or strips of land kept in permanent vegetation (p. 49).",
         "counselor_tip": "For Soil and Water Conservation Requirement 7 (Hands-On Conservation Field Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53))."
@@ -4073,7 +4173,13 @@
       "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
       "number": "7",
       "description": "Do TWO of the following: (a) Make a trip to TWO of the following places. Write a report of more than 500 words about the soil and water and energy conservation practices you saw. (1) An agricultural experiment (2) A managed forest or woodlot, range, or pasture (3) A wildlife refuge or a fish or game management area (4) A conservation-managed farm or ranch (5) A managed watershed (6) A waste-treatment plant (7) A public drinking water treatment plant (8) An industry water use installation (9) A desalinization plant (b) Plant 100 trees, bushes, and/or vines for a good purpose. (c) Seed an area of at least one-fifth acre for some worthwhile conservation purposes, using suitable grasses or legumes alone or in a mixture. (d) Study a soil survey report. Describe the things in it. Using tracing paper and a pen, trace over any of the soil maps, and outline an area with three or more different kinds of soil. List each kind of soil by full name and map symbol. (e) Make a list of places in your neighborhood, camps, school ground, or park that have erosion, sedimentation, or pollution problems. Describe how these could be corrected through individual or group action. (f) Carry out any other soil and water conservation project approved by your counselor.",
-      "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+      "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+      "pamphlet_summary": "Scouts execute hands-on conservation stewardship by visiting managed resource facilities, planting stabilizing vegetation, or surveying neighborhood soil erosion hazards. These field projects apply engineering and biological principles to remediate degraded watersheds and restore ecological balance.",
+      "socratic_questions": [
+        "How do county soil survey reports guide civil engineers in avoiding unstable construction sites?",
+        "Why are native perennial grasses and shrubs superior to invasive annuals for stabilizing eroding hillsides?",
+        "What conservation metrics demonstrate that a neighborhood erosion remediation project has achieved long-term success?"
+      ]
     }
   ],
   "badge_slug": "soil_and_water_conservation",

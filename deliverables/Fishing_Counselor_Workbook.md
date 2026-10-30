@@ -1,8 +1,8 @@
 # Fishing Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/fishing/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fishing/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Fishing.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,16 +12,16 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Fishing Hazards and First Aid | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Fishing Outfits and Tackle Care | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 20, p. 50) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Operating Two Fishing Outfits | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fishing Merit Badge Pamphlet (p. 54, p. 70) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Tying Five Essential Fishing Knots | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fishing Merit Badge Pamphlet (p. 56, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Artificial Lures and Natural Baits | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 66, p. 69) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Leave No Trace and Conservation | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Local Game Fishing Regulations | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 8, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Outdoor Ethics and Sportsmanship | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 84, p. 88) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Catching and Identifying One Fish | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 9, p. 19) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **10** | Req 10: Cleaning and Cooking Your Catch | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 79, p. 81) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Angling Hazards and Emergency Safety | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Tackle Outfits and Rod Maintenance | Discuss | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 20, p. 50) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Tackle Operation and Casting Technique | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fishing Merit Badge Pamphlet (p. 54, p. 70) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Terminal Tackle Knots and Rigging | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fishing Merit Badge Pamphlet (p. 56, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Lures Baits and Aquatic Ecology | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 66, p. 69) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Aquatic Conservation and Catch Management | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Fisheries Regulations and Conservation Laws | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 8, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Sportsmanship and Outdoor Angling Ethics | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 84, p. 88) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Fish Capture and Species Identification | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 9, p. 19) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **10** | Req 10: Fish Preparation and Camp Cooking | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fishing Merit Badge Pamphlet (p. 79, p. 81) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -29,29 +29,29 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
-- [ ] **Station Req 4:** Scout must individually demonstrate mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 3:** Demonstrate the proper use of two different types of fishing equipment.
+- [ ] **Station Req 4:** Demonstrate how to tie the following knots: improved clinch knot, Palomar knot, uni knot, uni to uni knot, and arbor knot. Explain how and when each knot is used.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Fishing Hazards and First Aid
+### Req 1: Angling Hazards and Emergency Safety
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in fishing activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Discuss the prevention of and treatment for the following health concerns that could occur while fishing: cuts and scratches, puncture wounds, insect bites, hypothermia, dehydration, heat exhaustion, heatstroke, and sunburn. (c) Explain how to remove a barbed hook that is lodged in someone's arm. (d) Name and explain five safety practices you should always follow while fishing.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Fishing Requirement 1: travel with a buddy, carry the Scout Basic Essentials and water while studying fishing hazards and first aid, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** Pulling an embedded barbed fishhook straight backward out of the skin is the safest way to remove it in the field.
-- **Pamphlet Fact:** You should never try to pull a barbed hook directly backward out of the flesh because the barb will tear tissue; instead, use the string-yank method or have a doctor advance the point and clip the barb (p. 17).
+> **Guide to Safe Scouting Warning:** Never wade into unknown currents without a snug wading belt and wading staff.
+- **Common Myth:** Anglers only need life jackets when operating motorized boats in deep channels.
+- **Pamphlet Fact:** Life jackets are essential whenever wading swift currents or fishing along steep slippery dropoffs.
 
 **Official Pamphlet Summary:**
-- Seeking Cool Shade: If you or someone in your group shows signs of a heat reaction, get to acool, shady place (p. 15).
-- Have the person lie down with the feet, head, and shoulders slightly raised, and remove excess clothing (p. 15).
-- Active Body Cooling Methods: Cool the victim any way you can (cover the person with cool, wet towels, or sponge the person with cool water; fan the person; place the victim in a stream) (p. 15).
-- Emergency Medical Escalation: If you do not see a rapid recovery, seek medical attention right away (p. 15).
+- Check the casting zone for overhead power lines before making any cast.
+- Eye Protection Gear: Wear impact resistant sunglasses to protect eyes from errant hooks and weights.
+- Fasten a secure wading belt around waders to prevent catastrophic water flooding.
+- Lightning Strike Safety: Exit the water immediately when distant thunder rumbles across open waterways.
 
-#### Req 1a: Anticipating Common Fishing Hazards
+#### Req 1a: Aquatic Hazard Identification and Mitigation
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in fishing activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Fishing Hazards and First Aid)
-- **Common Myth:** Sunscreen with an SPF rating of 10 or 15 provides ample protection for a full day on open water.
-- **Pamphlet Fact:** Anglers should prevent sunburn by applying plenty of sunscreen and wearing protective clothing rated at least SPF 30 (p. 15).
+- **Common Myth:** Rubber waders provide sufficient thermal protection during sudden deep water immersion.
+- **Pamphlet Fact:** Submerged waders trap heavy water without thermal retention and pull anglers downward.
 
 ![Detailed Fishing reference illustration comparing key components and stages of fishing hazards and first aid for Requirement 1.](/assets/pamphlet_images/fishing_p003_img1.png)
 
@@ -61,11 +61,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Treating Cuts and Weather Injuries
+#### Req 1b: Waterfront First Aid and Prevention
 **Official Requirement 1b:** Discuss the prevention of and treatment for the following health concerns that could occur while fishing: cuts and scratches, puncture wounds, insect bites, hypothermia, dehydration, heat exhaustion, heatstroke, and sunburn.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss The Prevention of and)
-- **Common Myth:** A person suffering from a heat reaction should sit upright in the sun while drinking warm fluids.
-- **Pamphlet Fact:** Move a heat reaction victim to a cool, shady place, have them lie down with feet, head, and shoulders slightly raised, and cool them immediately with wet towels or water (p. 15).
+- **Common Myth:** Puncture wounds from catfish spines require only basic wiping with river water.
+- **Pamphlet Fact:** Fish spine punctures carry virulent bacteria requiring thorough disinfection and hot water soaking.
 
 ![A vibrant trout leaps above clear lake water, demonstrating natural freshwater game fish behavior.](/assets/pamphlet_images/fishing_p019_img1.png)
 
@@ -75,11 +75,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1c: Removing a Barbed Fishhook Safely
+#### Req 1c: Barbed Hook Extraction Methods
 **Official Requirement 1c:** Explain how to remove a barbed hook that is lodged in someone's arm.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Remove A Barbed Hook)
-- **Common Myth:** Casting sidearm in a crowded boat is safe as long as you shout a warning before releasing the line.
-- **Pamphlet Fact:** Anglers must always look behind and around themselves before casting and keep a safe distance from others so errant hooks never strike bystanders (p. 17).
+- **Common Myth:** Pulling a barbed hook directly backward with pliers is the standard extraction method.
+- **Pamphlet Fact:** Direct backward pulling tears muscle tissue because the barb acts as an anchor.
 
 ![Practical Fishing field visual showing proper setup, measurement, and technique for fishing outfits and tackle care in Requirement 2.](/assets/pamphlet_images/fishing_p007_img1.png)
 
@@ -89,11 +89,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1d: Five Essential Angler Safety Practices
+#### Req 1d: Essential Waterfront Safety Practices
 **Official Requirement 1d:** Name and explain five safety practices you should always follow while fishing.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Safety Practices You Should Always)
-- **Common Myth:** During Fishing Requirement 1d, Scouts can underestimate how directly mastery of five essential angler safety practices depends on understanding five safety practices you should always follow while fishing.
-- **Pamphlet Fact:** Scouting America standards for Fishing Requirement 1d require complete workbook entries on five essential angler safety practices to demonstrate full understanding of five safety practices you should always follow while fishing.
+- **Common Myth:** Experienced anglers can safely fish alone in isolated waters without notifying others.
+- **Pamphlet Fact:** The buddy system remains mandatory for all aquatic activities to ensure rapid emergency rescue.
 
 ![A detailed illustration identifies external fins and lateral anatomy on a freshwater bass.](/assets/pamphlet_images/fishing_p020_img1.png)
 
@@ -103,12 +103,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Fishing Outfits and Tackle Care
+### Req 2: Tackle Outfits and Rod Maintenance
 **Official Requirement 2:** Discuss the differences between two types of fishing outfits. Point out and identify the parts of several types of rods and reels. Explain how and when each would be used. Review with your counselor how to care for this equipment.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 20, p. 50)* • **Organizer (2-Column Comparison Table):** Req 2 Technical Comparison Matrix (Discuss Fishing Outfits Several)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 2): Complete all Fishing Outfits and Tackle Care discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Spinning reels and bait casting reels mount on the exact same side of the rod blank and use identical line guides.
-- **Pamphlet Fact:** Spin casting and bait casting reels mount on top of the rod handle with smaller guides, whereas open-face spinning reels hang underneath the rod with larger guides to control spiraling line loops (p. 50).
+> **Guide to Safe Scouting Warning:** Inspect rod blanks for hairline graphite fractures that can shatter under heavy casting stress.
+- **Common Myth:** Tightly locked drag systems preserve reel springs and internal washers during winter storage.
+- **Pamphlet Fact:** Storing reels with tight drag compresses felt washers and permanently ruins smooth drag operation.
 
 ![Scouts gather around an open tackle box to inspect artificial lures, hooks, and terminal fishing tackle with their counselor.](/assets/ai_illustrations/fishing_req_2_nano_hero.png)
 
@@ -120,19 +120,19 @@
 | **4. Review with your counselor how to care for this equipment.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Caudal Fin Propulsion: Used in swimming, particularly when a fish needs aquick thrust of speed (p. 20).
-- Most fish have monocular vision, each eye sees separately, offering a wide field of view (p. 20).
-- They may be equipped with teeth so that a fish can grip its prey while feeding (p. 20).
-- Transparent protective plates growing from the skin that can be replaced if lost (p. 20).
+- Enclosed spools prevent line tangles, making spincast gear ideal for novice anglers.
+- Open Face Mechanics: Spinning reels feature fixed external spools that allow long casts with light lures.
+- Baitcasting Spool Control: Revolving spools demand thumb braking pressure to prevent severe line overrun tangles.
+- Freshwater Rod Wash: Rinse ceramic line guides and reel seats with clean water after fishing.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Operating Two Fishing Outfits
+### Req 3: Tackle Operation and Casting Technique
 **Official Requirement 3:** Demonstrate the proper use of two different types of fishing equipment.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 54, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 3 Hands-On Skill Station & EDGE Verification Checklist (Fishing Equipment)
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Fishing Requirement 3: travel with a buddy, carry the Scout Basic Essentials and water while studying operating two fishing outfits, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** In fly-fishing, the weight of the artificial fly pulls the weightless line off the reel during a cast.
-- **Pamphlet Fact:** Fly lines are coated with a specialized plastic finish to add weight because the line itself carries the nearly weightless fly to the target (p. 54).
+> **Guide to Safe Scouting Warning:** Always announce your casting intention and check your rear clearance before moving the rod.
+- **Common Myth:** Maximum casting distance requires whipping the rod blank as hard as possible.
+- **Pamphlet Fact:** Casting relies on smooth rod loading and crisp wrist snap rather than raw arm force.
 
 **Gear & Readiness Checklist:**
 - [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks
@@ -147,19 +147,19 @@
 | **1. Demonstrate the proper use of two different types of fishing equipment.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Varieties of lines of different weights, diameters, and construction are available, made for different types of fishing, fly-fishing, spin-fishing (p. 54).
-- Mono filament lines come labeled as nylon, which floats, and fluorocarbon, which sinks. allowing for different delivery of lures and baits (p. 54).
-- These lines come in clear, which is almost invisible to fish, and in colored lines for different conditions (p. 54).
-- Nylon and fluorocarbon monofilament lines are used when using a fixed-line pole, a closed-face spin casting reel, or an open-faced spinning reel (p. 54).
+- Spincast Release Timing: Press the thumb button firmly, swing smoothly overhead, and release forward.
+- Spinning Finger Release: Trap the line against the rod grip with index finger before opening bail.
+- Target Distance Control: Feather the exiting line with index finger pressure to land lures softly.
+- Deliver sidearm casts under overhanging shoreline tree branches to avoid limb snags.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Tying Five Essential Fishing Knots
+### Req 4: Terminal Tackle Knots and Rigging
 **Official Requirement 4:** Demonstrate how to tie the following knots: improved clinch knot, Palomar knot, uni knot, uni to uni knot, and arbor knot. Explain how and when each knot is used.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 56, p. 58)* • **Organizer (Skill Demonstration Checklist):** Req 4 Hands-On Skill Station & EDGE Verification Checklist (Essential Fishing Knots and Rigging)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 4): Complete all Tying Five Essential Fishing Knots discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Pulling a monofilament knot tight while the line is completely dry creates maximum friction to lock the coils securely.
-- **Pamphlet Fact:** You should always moisten a fishing knot with water or saliva before pulling it tight so friction heat does not weaken the monofilament line (p. 56).
+> **Guide to Safe Scouting Warning:** Trim line tags with clippers rather than teeth to prevent enamel chipping and facial injuries.
+- **Common Myth:** Overhand knots are adequate substitutes for engineered fishing knots on heavy terminal tackle.
+- **Pamphlet Fact:** Simple overhand knots cut monofilament under tension and reduce line strength by fifty percent.
 
 **Gear & Readiness Checklist:**
 - [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks
@@ -175,19 +175,19 @@
 | **2. Explain how and when each knot is used.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Loop-to-Loop Leader Connection: This knot combines two leaders, each with a double surgeon's loop (p. 56).
-- Quick Leader Swapping: The leaders can be changed easily with this connection (p. 56).
-- Overlapping Opposing Tag Ends: Start by laying the two lines to be joined with tagends in opposite directions, overlapping by six-plus inches (p. 56).
-- Double Overhand Loop Pass: Now take the overlapping lines and form a double overhand knot, passing the tag end and the entire shorter line through the loop twice (p. 56).
+- Friction Heat Reduction: Lubricate line with water before pulling knot wraps tight to prevent weakening.
+- Palomar Knot Strength: Double the line through the hook eye to produce near hundred percent strength.
+- Line Joining Connection: Form interlocking uni knots to splice braided main line to monofilament leaders securely.
+- Spool Backing Anchor: Wrap arbor knots around the reel arbor to prevent line slipping under tension.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Artificial Lures and Natural Baits
+### Req 5: Lures Baits and Aquatic Ecology
 **Official Requirement 5:** Name and identify five basic artificial lures and five natural baits and explain how to fish with them. Explain why baitfish are not to be released.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 66, p. 69)* • **Organizer (Concept & Examples Notes):** Req 5 Structured Technical Study & Explanation Matrix (Basic Artificial Lures and Five)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 5): Complete all Artificial Lures and Natural Baits discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Dumping leftover live minnows from your bait bucket into the lake at the end of a trip helps feed the native game fish.
-- **Pamphlet Fact:** Unused baitfish must never be released into the water because they can introduce nonnative invasive species, parasites, or diseases that disrupt the aquatic ecosystem (p. 69).
+> **Guide to Safe Scouting Warning:** Use specialized bait needles or safety gloves when threading live baitfish and sharp bait hooks.
+- **Common Myth:** Releasing leftover bait minnows into a local lake benefits the wild fish population.
+- **Pamphlet Fact:** Dumped bait minnows introduce harmful parasites and invasive species that ruin local game fisheries.
 
 ![A metal inline spinner lure reflects light and vibrates to entice strikes from predatory fish.](/assets/pamphlet_images/fishing_p066_img1.png)
 
@@ -197,31 +197,31 @@
 | **2. Explain why bait fish are not to be released.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Slow Bottom Worm Presentation: Plastic worms are fished slowly, on or near the bottom (p. 66).
-- Weedless Texas Rig Hook set: With the Texas rig or weedless rig, the fish is allowed to mouth the bait before the hook is set (p. 66).
-- These soft, pliable lures in varying styles and shapes can be made to swim, wiggle, and dance underwater with an action the fish cannot resist (p. 66).
-- Versatile Soft Bait Rigging: They are used plain on abare hook, impaled on a jig, or effectively utilized with several popular rigs (p. 66).
+- Curved metal spoons wobble through the water column to imitate injured forage minnows.
+- Spinnerbait Blade Flash: Revolving metal blades generate intense underwater thumping vibrations that draw predatory strikes.
+- Earthworms and nightcrawlers release natural amino acids that attract bottom feeding species.
+- Baitfish Disposal Law: Dispose of unused live minnows on land or in municipal trash cans.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Leave No Trace and Conservation
+### Req 6: Aquatic Conservation and Catch Management
 **Official Requirement 6 (Parent Overview):** Do the following: (a) Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code. Discuss the positive effects of Leave No Trace Seven Principles and the Outdoor Code on fishing resources. (b) Discuss the meaning and importance of catch and release. Describe how to properly release a fish safely to the water.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 6): Complete all Leave No Trace and Conservation discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Gripping a fish tightly with dry hands and squeezing its gills helps keep it still so you can release it unharmed.
-- **Pamphlet Fact:** You should wet your hands before touching a fish to protect its mucus coat, never touch the delicate gills, and support the fish gently underwater until it swims away (p. 88).
+> **Guide to Safe Scouting Warning:** Pack out all discarded nylon lines and lead sinkers to prevent fatal wildlife poisoning.
+- **Common Myth:** Fish swim away vigorously after long fights out of water, proving they suffer no damage.
+- **Pamphlet Fact:** Lactic acid buildup and air exposure cause delayed mortality hours after release without proper resuscitation.
 
 **Official Pamphlet Summary:**
-- Beyond Picking Up Litter: To ensure a healthy future for ourselves and our environment, we must do more than simply pick up litter (p. 45).
-- Preserving Outdoor Resource Integrity: We must learn how to maintain the integrity and character of the outdoors (p. 45).
-- Conservation Awareness and Attitude: Leave No Trace is a set of rules, but it is also an awareness and an attitude (p. 45).
-- Core Leave No Trace Guidelines: Along with the Outdoor Code, the seven Leave No Trace principles offer guidelines to follow at all times (p. 45).
+- Monofilament Litter Hazard: Discarded nylon line entangles birds, small mammals, and boat propellers for decades.
+- Wet bare hands before touching fish to prevent rubbing away protective body slime.
+- Crush hook barbs with pliers to facilitate rapid hook removal without tissue damage.
+- Hold exhausted fish facing upstream into gentle current until strong tail kicks return.
 
-#### Req 6a: Outdoor Code and Conservation
+#### Req 6a: Riparian Leave No Trace Ethics
 **Official Requirement 6a:** Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code. Discuss the positive effects of Leave No Trace Seven Principles and the Outdoor Code on fishing resources.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-- **Common Myth:** If a fish has swallowed a hook deep in its gullet, you should work the hook loose with pliers before releasing it.
-- **Pamphlet Fact:** When a fish to be released is deeply hooked, cut the line as close to the hook as possible and leave the hook in place so you do not tear vital organs (p. 88).
+- **Common Myth:** Biodegradable sandwich crusts and apple cores left on shorelines do not count as trash.
+- **Pamphlet Fact:** Food scraps attract wildlife to shorelines, alter natural foraging habits, and degrade water quality.
 
 ![An anatomical illustration depicts a Florida pompano, a popular coastal saltwater sport fish.](/assets/pamphlet_images/fishing_p045_img1.png)
 
@@ -232,11 +232,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b: Safe Catch and Release Practices
+#### Req 6b: Catch and Release Techniques
 **Official Requirement 6b:** Discuss the meaning and importance of catch and release. Describe how to properly release a fish safely to the water.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)* • **Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix (Discuss Fish Water)
-- **Common Myth:** Playing a fish to total exhaustion on ultra-light line gives it the best chance of survival after release.
-- **Pamphlet Fact:** Landing a fish quickly reduces lactic acid buildup and exhaustion, greatly improving its survival rate when released (p. 88).
+- **Common Myth:** Lifting a fish vertically by its jaw or gills causes no internal anatomical harm.
+- **Pamphlet Fact:** Suspending fish by the jaw dislocates vertebrae and tears critical gill membranes required for breathing.
 
 ![A pencil sketch illustrates a predatory game fish bursting from water while striking food.](/assets/pamphlet_images/fishing_p021_img1.png)
 
@@ -247,12 +247,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Local Game Fishing Regulations
+### Req 7: Fisheries Regulations and Conservation Laws
 **Official Requirement 7:** Obtain and review the regulations affecting game fishing where you live. Explain why they were adopted and what is accomplished by following them.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 8, p. 63)* • **Organizer (Concept & Examples Notes):** Req 7 Structured Technical Study & Explanation Matrix (Obtain and Review The Regulations)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 7): Complete all Local Game Fishing Regulations discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** State fishing regulations and license fees exist mainly to restrict anglers and collect general tax revenue.
-- **Pamphlet Fact:** Game fishing laws and license revenues protect fish populations from overharvest, preserve spawning stock, and directly fund habitat restoration and hatchery programs (p. 63).
+> **Guide to Safe Scouting Warning:** Carry required fishing licenses and personal identification in a buoyant waterproof dry pouch.
+- **Common Myth:** Game wardens create fishing regulations primarily to collect fines and penalize recreational anglers.
+- **Pamphlet Fact:** Regulations are biological management tools crafted by fisheries biologists to maintain healthy breeding populations.
 
 ![Youth and adults gather aboard a boat wearing personal flotation gear before angling.](/assets/pamphlet_images/fishing_p012_img1.png)
 
@@ -262,19 +262,19 @@
 | **2. Explain why they were adopted and what is accomplished by following them.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Essential Angling Terminology: Words shown in bold print appear in the glossary near the back of this pamphlet (p. 8).
-- Understanding Fish and Tactics: This pamphlet will tell you a lot about fish and how to catch them (p. 8).
-- You might catch them for fun and "sport," or to eat (p. 8).
-- Fishing can become a lifetime pursuit, like golf or tennis (p. 8).
+- Slot limits protect mature breeding fish while permitting harvest of abundant smaller yearlings.
+- Creel Limit Enforcement: Daily bag limits prevent overharvesting and distribute fish resources equitably across all anglers.
+- Fishing closures during spring protect spawning game fish while laying vulnerable fertile eggs.
+- State fishing license fees directly fund fish hatcheries, public boat ramps, and research.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Outdoor Ethics and Sportsmanship
+### Req 8: Sportsmanship and Outdoor Angling Ethics
 **Official Requirement 8:** Explain what good outdoor sportsmanlike behavior is and how it relates to anglers. Tell how the Leave No Trace Seven Principles and the Outdoor Code relate to a fishing sports enthusiast, including the aspects of littering, trespassing, courteous behavior, and obeying fishing regulations.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 84, p. 88)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 8): Complete all Outdoor Ethics and Sportsmanship discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** If a public stream flows across private farmland, you can walk across the landowner's pastures without permission to reach the bank.
-- **Pamphlet Fact:** Crossing private land without explicit permission from the landowner is trespassing and often leads to landowners closing off fishing access for everyone (p. 84).
+> **Guide to Safe Scouting Warning:** Never cross marked private property or climb steep fenced embankments to access secluded waters.
+- **Common Myth:** Public waterways allow anglers to anchor and cast against private shorelines without landowner permission.
+- **Pamphlet Fact:** Shoreline property rights often extend to the riverbed or low water mark under state statutes.
 
 ![Red sockeye salmon navigate clear gravel shallows during their natural migration run.](/assets/pamphlet_images/fishing_p084_img1.png)
 
@@ -284,19 +284,19 @@
 | **2. Tell how the Leave No Trace Seven Principles and the Outdoor Code relate to a fishing sports enthusiast, including the aspects of littering, trespassing, courteous behavior, and obeying fishing regulations** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Stewardship Beyond Litter Pickup: To ensure a healthy future for ourselves and our environment, we must do more than simply pick up litter (p. 84).
-- Protecting Natural Character: We must learn how to maintain the integrity and character of the outdoors (p. 84).
-- Ethical Angler Attitude: Leave No Trace is a set of rules, but it is also an awareness and an attitude (p. 84).
-- Along with the Outdoor Code, the seven Leave No Trace principles offer guidelines to follow at all times (p. 84).
+- Property Boundary Respect: Ask private landowners for permission before crossing shoreline fences or docking watercraft.
+- Avoid casting into water pools already occupied by stationary shoreline or wade anglers.
+- Wake Reduction Etiquette: Slow motorized boats to idle speed when passing anchored fishing vessels or docks.
+- Shoreline Clean Sweep: Pick up abandoned monofilament and beverage containers before leaving every fishing location.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Catching and Identifying One Fish
+### Req 9: Fish Capture and Species Identification
 **Official Requirement 9:** Catch one fish and identify it.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 9, p. 19)* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Catching, Identifying, and Releasing Fish)
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Fishing Requirement 9: travel with a buddy, carry the Scout Basic Essentials and water while studying catching and identifying one fish, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** Color alone is the most reliable way to identify a fish species because fish never change shade in different waters.
-- **Pamphlet Fact:** Because water clarity, diet, and spawning season alter a fish's coloration, accurate identification relies on structural traits like fin shape, spine count, jaw length, and tail fork (p. 19).
+> **Guide to Safe Scouting Warning:** Grip spiny fish behind the dorsal spines with a wet thumb to avoid deep punctures.
+- **Common Myth:** All freshwater fish with green bodies and dark blotches are largemouth bass.
+- **Pamphlet Fact:** Spotted bass and smallmouth bass share overlapping colors but possess distinct jaw alignments and scales.
 
 ![A vintage photograph shows an angler wading into rushing river waters to catch wild game fish.](/assets/pamphlet_images/fishing_p009_img1.png)
 
@@ -305,19 +305,19 @@
 | **1. Catch one fish and identify it.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Baden-Powell's Favorite Pastime: Baden-Powell, the founder of the Scouting movement, claimed fishing as one of his favorite pastimes (p. 9).
-- Always Ready to Fish: Everywhere he went, his fishing rods, reels, and fishing kit went with him (p. 9).
-- Trout Fishing Rest Cure: In his book Lessons From the Varsity of Life, Baden-Powell declares, "Trout fishing is the best rest-cure in the world (p. 9).
-- Fish are highly specialized aquatic creatures, amazingly constructed for living in water (p. 9).
+- Count the spiny versus soft dorsal fin rays to distinguish perch from sunfish.
+- Examine the upper jaw extension past the eye to distinguish bass species accurately.
+- Body Marking Patterns: Check for vertical bars or horizontal lateral stripes to confirm specific gamefish identification.
+- Safe Net Landing: Lead the exhausted fish over a submerged net without lifting line out early.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 10: Cleaning and Cooking Your Catch
+### Req 10: Fish Preparation and Camp Cooking
 **Official Requirement 10:** If regulations and health concerns permit, clean and cook a fish you have caught. If you are unable to catch a fish for eating, acquire a fish, clean the fish you acquired, and cook the fish you acquired. Note: It is not required that you eat the fish.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 79, p. 81)* • **Organizer (Concept & Examples Notes):** Req 10 Structured Technical Study & Explanation Matrix (Regulations and Health Concerns Permit)
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Fishing Requirement 10: travel with a buddy, carry the Scout Basic Essentials and water while studying cleaning and cooking your catch, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** When filleting a fish, you should saw directly through the backbone and rib cage at the first cut behind the gills.
-- **Pamphlet Fact:** When filleting, you cut behind the gills only down to the backbone, then turn the knife flat to slice alongside the backbone and over the ribs without cutting through the bones (p. 79).
+> **Guide to Safe Scouting Warning:** Always cut away from your body on a stable cutting board when filleting fish.
+- **Common Myth:** Washing fish meat in river or lake water is sufficient preparation before camp skillet cooking.
+- **Pamphlet Fact:** Untreated surface water contaminates dressed fish meat with parasites and harmful aquatic bacteria.
 
 ![An angler wearing cut-resistant gloves uses a sharp fillet knife to dress a freshly caught fish.](/assets/pamphlet_images/fishing_p079_img4.png)
 
@@ -328,9 +328,9 @@
 | **3. Note: It is not required that you eat the fish.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Choosing Whole Versus Filleted: Keep in mind that not all fish should be filleted (p. 79).
-- Boneless Skinless Fillet Benefits: Removing the meat of some fish from the bones and skin makes it easier to cook and to eat (p. 79).
-- Initial Behind-the-Gill Cut: Lay the fish on its side and make a cut just behind the gills down to the backbone (p. 79).
-- Start at the cut made in step 1 and run the point of the knife alongside the backbone, down to where it starts to click along the tops of the ribs (p. 79).
+- Maintain a razor sharp flexible blade to slice meat cleanly without tearing flesh.
+- Entrail Removal Protocol: Slice along the belly slit without puncturing internal organs or the bitter gall bladder.
+- Cold Storage Maintenance: Store cleaned fish flesh on ice immediately to prevent bacterial growth and spoilage.
+- Core Temperature Cooking: Cook fish fillets until flesh turns opaque and flakes easily with a fork.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`

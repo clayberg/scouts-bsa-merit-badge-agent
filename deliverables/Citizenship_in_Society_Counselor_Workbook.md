@@ -1,8 +1,8 @@
 # Citizenship in Society Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Citizenship%20in%20Society.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/citizenship-in-society/
+**Official Pamphlet PDF:** None  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,17 +12,17 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Core Terms and Scout Values | Explain | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 4-9 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Ethical Leadership in Action | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official BSA Citizenship in Society Pamphlet, pp. 10-15 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Personal Ethical Decision Making | Explain | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Upstander Leadership in Real Scenarios | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official BSA Citizenship in Society Pamphlet, pp. 22-27 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Building a Welcoming Scouting Unit | Explain | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 28-33 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Connecting Across Different Identities | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official BSA Citizenship in Society Pamphlet, pp. 34-39 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Community and Historical Inclusion Leaders | Identify | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official BSA Citizenship in Society Pamphlet, pp. 40-45 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Events Advancing Societal Inclusion | Explain | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 46-51 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Inclusive Leadership Beyond Scouting | Discuss | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 52-57 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **10** | Req 10: Challenging Stereotypes and Celebrating Individuality | Discuss | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 58-63 | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **11** | Req 11: Future Leadership and Diverse Perspectives | Explain | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 64-69 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Foundational Principles of Civil Society | Explain | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 4-9 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Ethical Leadership and Moral Decision-Making | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official BSA Citizenship in Society Pamphlet, pp. 10-15 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Personal Integrity and Upstander Action | Explain | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 16-21 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Scouting Ideals in Conflict Resolution | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official BSA Citizenship in Society Pamphlet, pp. 22-27 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Welcoming Culture in Scouting Units | Explain | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 28-33 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Cross-Identity Dialogue and Empathy Building | Discuss | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official BSA Citizenship in Society Pamphlet, pp. 34-39 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Community Diversity Champions and Advocacy | Identify | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official BSA Citizenship in Society Pamphlet, pp. 40-45 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Historical Milestones in Societal Inclusion | Explain | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 46-51 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Everyday Civic Leadership Outside Scouting | Discuss | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 52-57 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **10** | Req 10: Dismantling Stereotypes and Bias | Discuss | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 58-63 | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **11** | Req 11: Diverse Perspectives and Collaborative Innovation | Explain | `In-Class Discussion` | **In-Class Concept** | Official BSA Citizenship in Society Pamphlet, pp. 64-69 | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -31,18 +31,18 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Scout must individually discuss mastery of Requirement 2 to the Merit Badge Counselor.
-- [ ] **Station Req 4:** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
+- [ ] **Station Req 2:** Document and discuss with your counselor what leadership means to you. Share what it means to make ethical decisions. (a) Research and share with your counselor an individual you feel has demonstrated positive leadership while having to make an ethical decision. (It could be someone in history, a family member, a teacher, a coach, a counselor, a clergy member, a Scoutmaster, etc.) (b) Explain what decision and/or options that leader had, why you believe they chose their final course of action, and the outcome of that action
+- [ ] **Station Req 4:** Repeat the Scout Oath and Scout Law for your counselor. Choose TWO of the following scenarios and discuss what you could do as a Scout to demonstrate leadership and your understanding of what it means to help others who may seem different from you: (a) Scenario 1: While at camp, a youth accidentally spills food on another camper. The camper who gets spilled on gets angry and says something that is offensive to people with disabilities; their friends laugh. What could/should you do? (b) Scenario 2: Your friend confides in you that some students in school are making insulting comments about one of their identities, and that those same students created a fake social media account to impersonate your friend online and post messages. What could/should you do? (c) Scenario 3: A new student in your class was born in another country (or has a parent who was born in another country). Your friends make rude comments to the student about their speech or clothes and tell the student to "go back home where you came from." What could/should you do?
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Core Terms and Scout Values
+### Req 1: Foundational Principles of Civil Society
 **Official Requirement 1:** Before beginning work on other requirements for this merit badge, research the following terms and explain to your counselor how you feel they relate to the Scout Oath and Scout Law: identities, diversity, equality, equity, inclusion, discrimination, ethical leadership, and upstander.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 4-9* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Beginning Work)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 1): Complete all Core Terms and Scout Values discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
+> **Guide to Safe Scouting Warning:** Establish emotional boundaries and mutual respect protocols so personal sharing remains psychologically safe for all participants.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Citizenship in Society Req 1 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Equality and equity mean the exact same thing because both involve treating people fairly.
-- **Pamphlet Fact:** Equality means giving everyone the exact same resources, while equity means distributing resources based on individual needs so everyone has a fair opportunity to succeed (p. 5).
+- **Common Myth:** These definitions represent abstract political slogans rather than practical daily guidelines for patrol conduct.
+- **Pamphlet Fact:** The Scout Oath and Law provide practical moral standards for treating all people with dignity regardless of background.
 
 ![Scouts and counselor demonstrate Citizenship in Society Requirement 1 field procedures and safety checks.](/assets/pamphlet_images/citizenship_in_society_p003_img1.png)
 
@@ -51,31 +51,31 @@
 | **1. Before beginning work on other requirements for this merit badge, research the following terms and explain to your counselor how you feel they relate to the Scout Oath and Scout Law: identities, diversity, equality** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Research the following terms and explain to your counselor how you feel they relate to the Scout Oath and Scout Law, identities, diversity, equality (p. 4).
-- Core Terms and Scout Values: Core terms and scout values, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 10).
-- Counselor Discussion Preparation: Review your completed Beginning Work evidence and demonstrate proficiency during your counselor conference (p. 10).
-- Complete Foundational Term Research: Before beginning work on other requirements for this merit badge, research the following terms and explain to your counselor how you feel they relate to the Scout Oath and Scout Law, identities, diversity, equality, equity, inclusion, discrimination, ethical leadership, and upstander (p. 4).
+- Personal identity encompasses family heritage, cultural traditions, personal talents, and individual core values.
+- Equitable Treatment: Equity requires distributing specific resources according to individual needs rather than identical baselines.
+- Intentional Inclusion: Inclusive patrols actively invite every member to participate equally in leadership and decisions.
+- Civil Rights Framework: Discrimination occurs when unfair distinctions deny individuals fair access, opportunities, or basic respect.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Ethical Leadership in Action
+### Req 2: Ethical Leadership and Moral Decision-Making
 **Official Requirement 2 (Parent Overview):** Document and discuss with your counselor what leadership means to you. Share what it means to make ethical decisions. (a) Research and share with your counselor an individual you feel has demonstrated positive leadership while having to make an ethical decision. (It could be someone in history, a family member, a teacher, a coach, a counselor, a clergy member, a Scoutmaster, etc.) (b) Explain what decision and/or options that leader had, why you believe they chose their final course of action, and the outcome of that action
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 10-15* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 2): Complete all Ethical Leadership in Action discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** A person can only demonstrate leadership if they hold an official title or elected position in their troop or community.
-- **Pamphlet Fact:** Leadership is demonstrated through positive influence, character, and ethical actions regardless of whether someone holds a formal title or rank (p. 11).
+> **Guide to Safe Scouting Warning:** Maintain two deep adult leadership throughout all research discussions involving sensitive ethical topics.
+- **Common Myth:** Leadership simply means holding an official rank or giving commands to subordinate patrol members.
+- **Pamphlet Fact:** True leadership requires moral courage to uphold ethical standards even when facing social pressure or opposition.
 
 **Official Pamphlet Summary:**
-- Example of Positive Leadership: Research and share with your counselor an individual you feel has demonstrated positive leadership while having to make an ethical decision (p. 10).
-- Analyzing Choices and Outcomes: Explain what decision and/or options that leader had, why you believe they chose their final course of action, and the outcome of that action (p. 10).
-- Personal Definition of Leadership: Document and discuss with your counselor what leadership means (p. 10).
-- Share what it means to make ethical decisions (p. 10).
+- Ethical Leadership: Principled leaders weigh long term moral consequences rather than choosing expedient short term gains.
+- Decision Mapping: Ethical choices require balancing fairness, honesty, and empathy across all affected community stakeholders.
+- Accountability Standards: Effective leaders accept full personal responsibility for the practical outcomes of difficult decisions.
+- Courage Under Pressure: Standing up for ethical standards often demands resisting conformity and defending unpopular truths.
 
-#### Req 2a: Positive Ethical Leader Profile
+#### Req 2a: Ethical Decision in Leadership History
 **Official Requirement 2a:** Research and share with your counselor an individual you feel has demonstrated positive leadership while having to make an ethical decision. (It could be someone in history, a family member, a teacher, a coach, a counselor, a clergy member, a Scoutmaster, etc.)
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Individual You Feel Has Demonstrated)
-- **Common Myth:** Overlooking the specific field checks required for Positive Ethical Leader Profile (Req 2a) or confusing Positive Ethical Leader Profile with general Ethical Leadership in Action procedures.
-- **Pamphlet Fact:** For Requirement 2a (Positive Ethical Leader Profile), Share what it means to make ethical decisions (p. 10).
+- **Common Myth:** Effective leaders only encounter simple choices between obvious good and obvious evil.
+- **Pamphlet Fact:** Historical figures frequently risked reputations, careers, or physical safety to make principled moral choices.
 
 ![Scouts and counselor demonstrate Citizenship in Society Requirement 2 field procedures and safety checks.](/assets/pamphlet_images/citizenship_in_society_p007_img1.png)
 
@@ -86,11 +86,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Decision Options and Outcomes
+#### Req 2b: Evaluation of Ethical Leadership Outcomes
 **Official Requirement 2b:** Explain what decision and/or options that leader had, why you believe they chose their final course of action, and the outcome of that action.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 10-15* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (Decision And/or Options That Leader)
-- **Common Myth:** The profile of an ethical leader must be a famous historical figure or national politician.
-- **Pamphlet Fact:** You can profile a famous historical figure or someone from your everyday life, such as a teacher, coach, community member, or fellow Scout (p. 10).
+- **Common Myth:** A correct ethical decision always produces an immediate outcome that pleases every participant.
+- **Pamphlet Fact:** Unintended negative outcomes can still follow ethically sound decisions made in complex social environments.
 
 | Req 2b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -98,24 +98,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Personal Ethical Decision Making
+### Req 3: Personal Integrity and Upstander Action
 **Official Requirement 3 (Parent Overview):** Consider ethical decision-making. (a) Think about a time you faced an ethical decision. Discuss the situation, what you did, and how it made you feel. Share if you would do anything differently in the future and if so, what that would be. (b) List three examples of ethical decisions you might have to make in the future at school, at home, in the workplace, or in your community, and what you would do. Share how your actions represent alignment with the Scout Oath and Scout Law. (c) Explain to your counselor how you plan to use what you have learned to assist you when that time comes, and what action(s) you can take to serve as an upstander and help other people at all times.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 16-21* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 3): Complete all Personal Ethical Decision Making discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Reflecting on a past ethical decision is only acceptable if you made the perfect choice at the time.
-- **Pamphlet Fact:** Honest reflection includes examining how the situation made you feel and identifying what you would do differently in the future to grow from the experience (p. 17).
+> **Guide to Safe Scouting Warning:** Avoid sharing confidential details that compromise the emotional privacy of peers or family members.
+- **Common Myth:** Remaining silent or neutral during an unfair situation prevents a person from being ethically culpable.
+- **Pamphlet Fact:** Ethical decision making requires continuous self reflection, practical courage, and active intervention on behalf of others.
 
 **Official Pamphlet Summary:**
-- Reflecting on Past Dilemmas: Think about a time you faced an ethical decision (p. 16).
-- List three examples of ethical decisions you might have to make in the future at school, at home, in the workplace, or in your community (p. 16).
-- Personal ethical decision making, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 16).
-- Consider ethical decision-making (p. 16).
+- Personal Reflection: Examining past mistakes enables individuals to build stronger moral judgment for future dilemmas.
+- Anticipated Dilemmas: Proactive planning helps young leaders respond ethically when sudden peer pressure occurs unexpectedly.
+- Upstander Intervention: Active bystanders speak up directly or seek adult support when witnessing harassment or bias.
+- Moral Courage Practice: Practicing difficult conversations in advance strengthens resolve during high stakes ethical situations.
 
-#### Req 3a: Past Personal Ethical Dilemma
+#### Req 3a: Personal Ethical Dilemma Reflection
 **Official Requirement 3a:** Think about a time you faced an ethical decision. Discuss the situation, what you did, and how it made you feel. Share if you would do anything differently in the future.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Think About A Time You)
-- **Common Myth:** Ethical dilemmas only happen in dramatic emergencies rather than ordinary school or workplace routines.
-- **Pamphlet Fact:** Everyday settings like school projects, part-time jobs, family responsibilities, and friend groups regularly present ethical choices about honesty, fairness, and respect (p. 18).
+- **Common Myth:** A Scout must only discuss past successes where they acted completely blameless and heroic.
+- **Pamphlet Fact:** Acknowledging past errors in judgment is essential for developing mature ethical instincts and personal integrity.
 
 ![Scouts and counselor demonstrate Citizenship in Society Requirement 3 field procedures and safety checks.](/assets/pamphlet_images/citizenship_in_society_p012_img1.png)
 
@@ -127,11 +127,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: Future Ethical Decision Scenarios
+#### Req 3b: Future Moral Dilemma Scenarios
 **Official Requirement 3b:** List three examples of ethical decisions you might have to make in the future at school, at home, in the workplace, or in your community, and what you would do. Share how your actions represent alignment with the Scout Oath and Scout Law.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Ethical Decisions You)
-- **Common Myth:** Serving as an upstander in the future relies purely on spontaneous instinct in the heat of the moment.
-- **Pamphlet Fact:** Thinking ahead about potential dilemmas and planning concrete ways to respond makes it much easier to act as an upstander when pressure arises (p. 19).
+- **Common Myth:** Ethical dilemmas only occur during major legal trials or extraordinary historical emergencies.
+- **Pamphlet Fact:** Advance preparation reduces panic and enables individuals to respond calmly and ethically under pressure.
 
 | Req 3b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -140,11 +140,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3c: Applying Lessons as Upstander
+#### Req 3c: Upstander Intervention Strategy Development
 **Official Requirement 3c:** Explain to your counselor how you plan to use what you have learned to assist you when that time comes, and what action(s) you can take to serve as an upstander and help other people at all times.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 16-21* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (You Plan to Use What)
-- **Common Myth:** Feelings of discomfort during an ethical dilemma mean you are making the wrong decision.
-- **Pamphlet Fact:** Standing up for ethical values often feels uncomfortable or stressful at first because it can challenge peer pressure or social expectations (p. 16).
+- **Common Myth:** Being an upstander requires aggressive physical confrontation against people who treat others unfairly.
+- **Pamphlet Fact:** Serving as an upstander involves measured actions like speaking out, redirecting attention, or reporting harm.
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -152,24 +152,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Upstander Leadership in Real Scenarios
+### Req 4: Scouting Ideals in Conflict Resolution
 **Official Requirement 4 (Parent Overview):** Repeat the Scout Oath and Scout Law for your counselor. Choose TWO of the following scenarios and discuss what you could do as a Scout to demonstrate leadership and your understanding of what it means to help others who may seem different from you: (a) Scenario 1: While at camp, a youth accidentally spills food on another camper. The camper who gets spilled on gets angry and says something that is offensive to people with disabilities; their friends laugh. What could/should you do? (b) Scenario 2: Your friend confides in you that some students in school are making insulting comments about one of their identities, and that those same students created a fake social media account to impersonate your friend online and post messages. What could/should you do? (c) Scenario 3: A new student in your class was born in another country (or has a parent who was born in another country). Your friends make rude comments to the student about their speech or clothes and tell the student to "go back home where you came from." What could/should you do?
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 22-27* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 4): Complete all Upstander Leadership in Real Scenarios discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** If you did not start an argument or make an insulting comment yourself, the Scout Law does not require you to get involved.
-- **Pamphlet Fact:** Promising to help other people at all times and to be friendly, courteous, and kind calls on Scouts to step in constructively when others are mistreated or excluded (p. 23).
+> **Guide to Safe Scouting Warning:** Never intervene physically in hostile confrontations; report severe harassment or cyberbullying to trusted adults immediately.
+- **Common Myth:** Scouts should ignore offensive jokes because calling out peers damages troop camaraderie and friendships.
+- **Pamphlet Fact:** The Scout Oath and Law obligate Scouts to defend peers who face harassment or prejudice.
 
 **Official Pamphlet Summary:**
-- While at camp, a youth accidentally spills food on another camper (p. 22).
-- Supporting Friends Facing Harassment: Your friend confides in you that some students in school are making insulting comments about one of their identities, and that those same students (p. 22).
-- A new student in your class was born in another country (or has a parent who was born in another country) (p. 22).
-- Living the Oath and Law: Repeat the Scout Oath and Scout Law for your counselor (p. 22).
+- Reciting the Scout Oath reminds Scouts of their duty to help other people.
+- Defending Dignity: Confronting ableist slurs immediately upholds the Scout Law principles of being courteous and kind.
+- Cyberbullying Defense: Countering online smear accounts requires documenting evidence and informing responsible school authorities promptly.
+- Welcoming international classmates requires actively rebuking xenophobic mockery and extending practical social inclusion.
 
-#### Req 4a: Camp Dining Hall Conflict
+#### Req 4a: Campfire Conflict and Disability Slurs
 **Official Requirement 4a:** Scenario 1: While at camp, a youth accidentally spills food on another camper. The camper who gets spilled on gets angry and says something that is offensive to people with disabilities; their friends laugh. What could/should.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix (Scenario While At Camp A)
-- **Common Myth:** In Scenario 1 at camp, the best response is to scold both campers publicly in front of the dining hall.
-- **Pamphlet Fact:** Calmly helping clean up the spill, checking on both campers, and lowering tension preserves dignity and prevents the conflict from escalating (p. 24).
+- **Common Myth:** Offensive words spoken in momentary anger can be dismissed as harmless emotional venting.
+- **Pamphlet Fact:** Slurs targeting people with disabilities inflict serious emotional harm and violate the Scout Law.
 
 ![Uniformed Scouts post notices, share personal stories at camp, and support peers through friendly discussions.](/assets/ai_illustrations/citizenship_in_society_req_4_topic_visual.png)
 
@@ -182,11 +182,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: School Identity Harassment Scenario
+#### Req 4b: Cyberbullying and Targeted Online Harassment
 **Official Requirement 4b:** Scenario 2: Your friend confides in you that some students in school are making insulting comments about one of their identities, and that those same students created a fake social media account to impersonate your friend online and post messages. What could/should.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix (Scenario Your Friend Confides in)
-- **Common Myth:** In Scenario 2, if a friend asks you to keep harassment secret, you must never encourage them to seek adult support.
-- **Pamphlet Fact:** Listening empathetic ally while helping your friend connect with a trusted adult or school counselor ensures their safety and well being (p. 25).
+- **Common Myth:** Online insults and parody social accounts are harmless pranks that students should simply ignore.
+- **Pamphlet Fact:** Creating fake social media accounts to humiliate peers constitutes cyberbullying that requires adult intervention.
 
 ![Two Scouts in full uniform share handwritten reflections from a spiral notebook during a wooded discussion with their leader.](/assets/ai_illustrations/citizenship_in_society_req_4_nano_hero.png)
 
@@ -197,11 +197,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: Welcoming an Immigrant Classmate
+#### Req 4c: Xenophobia and Welcoming Foreign Peers
 **Official Requirement 4c:** Scenario 3: A new student in your class was born in another country (or has a parent who was born in another country). Your friends make rude comments to the student about their speech or clothes and tell the student to "go back home where you came from." What could/should.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 22-27* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Scenario A New Student)
-- **Common Myth:** For Citizenship in Society Requirement 4c, a common mistake in welcoming an immigrant classmate is treating scenario 3, a new student in your class was born in another country as optional background reading.
-- **Pamphlet Fact:** Mastering Citizenship in Society Requirement 4c means following the pamphlet standard for welcoming an immigrant classmate and recording accurate notes on scenario 3, a new student in your class was born in another country.
+- **Common Myth:** Teasing a new classmate about their accent is merely lighthearted humor without harmful intent.
+- **Pamphlet Fact:** Mocking foreign accents or immigrant origins isolates students and directly breaches the Scout Law.
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -210,24 +210,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Building a Welcoming Scouting Unit
+### Req 5: Welcoming Culture in Scouting Units
 **Official Requirement 5 (Parent Overview):** Document and discuss: (a) Ideas on what you personally can do to create a welcoming environment in your Scouting unit. (b) An experience you had in which you went out of your way to include another Scout(s) and what you did to make them feel included and welcomed. (c) Things you can do to help ensure all Scouts in your unit are given an opportunity to be heard and included in decision-making and planning.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 28-33* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 5): Complete all Building a Welcoming Scouting Unit discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Creating a welcoming troop environment is solely the responsibility of the Scoutmaster and Senior Patrol Leader.
-- **Pamphlet Fact:** Every member of a Scouting unit can help others feel welcomed through everyday actions like greeting new Scouts, partnering up on tasks, and listening respectfully (p. 29).
+> **Guide to Safe Scouting Warning:** Maintain zero tolerance for hazing, initiation rituals, or informal exclusion practices within the unit.
+- **Common Myth:** A troop is welcoming if members simply do not engage in overt verbal bullying.
+- **Pamphlet Fact:** Deliberate cultural habits like invitation rotations and structured patrol feedback guarantee equitable participation for everyone.
 
 **Official Pamphlet Summary:**
-- Creating Welcoming Unit Culture: Ideas on what you personally can do to create a welcoming environment in your Scouting unit (p. 28).
-- Sharing Past Inclusion Experiences: An experience you had in which you went out of your way to include another Scout(s) and what you did to make them feel included and welcomed (p. 28).
-- Ensuring Every Scout Voice: Things you can do to help ensure all Scouts in your unit are given an opportunity to be heard and included in decision-making and planning (p. 28).
-- Personal Steps for Belonging: (a) Ideas on what you personally can do to create a welcoming environment in your Scouting unit (p. 28).
+- Proactive Hospitality: Welcoming environments require intentional orientation, consistent friendliness, and clear explanations of troop customs.
+- Intentional Outreach: Going out of your way to invite isolated individuals builds lifelong patrol unity.
+- Equitable Voice: Structured meeting agendas ensure younger and quieter Scouts speak without fear of interruption.
+- Involving every member in trip planning fosters authentic ownership and long term retention.
 
-#### Req 5a: Personal Actions for Welcoming Units
+#### Req 5a: Troop Welcoming Environment Development Ideas
 **Official Requirement 5a:** Ideas on what you personally can do to create a welcoming environment in your Scouting unit.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix (Ideas on What You Personally)
-- **Common Myth:** New or quieter Scouts do not have useful ideas to offer during patrol or troop program planning.
-- **Pamphlet Fact:** Actively inviting input from younger and quieter Scouts brings fresh perspectives and helps the entire unit feel ownership of troop activities (p. 31).
+- **Common Myth:** A welcoming environment emerges naturally without any deliberate structural planning by patrol leaders.
+- **Pamphlet Fact:** Creating a welcoming unit culture requires deliberate outreach, mentorship systems, and continuous peer encouragement.
 
 ![Scouts take notes, assist community neighbors, and complete service projects to foster mutual respect.](/assets/ai_illustrations/citizenship_in_society_req_5_topic_visual.png)
 
@@ -237,11 +237,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b: Past Experience Including Scouts
+#### Req 5b: Personal Outreach to Isolated Scouts
 **Official Requirement 5b:** An experience you had in which you went out of your way to include another Scout(s) and what you did to make them feel included and welcomed.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix (Experience You Had in Which)
-- **Common Myth:** Welcoming new members only matters during their very first troop meeting or crossover ceremony.
-- **Pamphlet Fact:** Ongoing inclusion during campouts, meal prep, games, and advancement keeps Scouts connected and prevents cliques from forming (p. 30).
+- **Common Myth:** Small individual gestures of kindness are insignificant compared to formal adult led troop programs.
+- **Pamphlet Fact:** Intentional one on one welcoming efforts break social barriers and build lasting confidence in hesitant peers.
 
 ![Two Scouts stand beside an easel displaying handwritten ideas for building a welcoming community at summer camp.](/assets/ai_illustrations/citizenship_in_society_req_5_nano_hero.png)
 
@@ -251,11 +251,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c: Inclusive Unit Planning Practices
+#### Req 5c: Equitable Participation in Unit Governance
 **Official Requirement 5c:** Things you can do to help ensure all Scouts in your unit are given an opportunity to be heard and included in decision-making and planning.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 28-33* • **Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix (You Can Do to Help)
-- **Common Myth:** Voting by simple majority without discussion is always the fairest way to run patrol meetings.
-- **Pamphlet Fact:** Giving every Scout space to share their ideas and concerns before a vote ensures minority perspectives and practical needs are respected (p. 32).
+- **Common Myth:** The loudest or most experienced Scouts should make all decisions to maximize efficiency during meetings.
+- **Pamphlet Fact:** Rotating planning roles and anonymous brainstorming tools empower quiet youth to share valuable ideas safely.
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -263,26 +263,26 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Connecting Across Different Identities
+### Req 6: Cross-Identity Dialogue and Empathy Building
 **Official Requirement 6 (Parent Overview):** With your parent or guardian's approval, connect with another Scout or youth your own age who has an identity that's different from yours. (This means a trait, belief, or characteristic different from you.) (a) Share with each other what makes the different aspects of your identity meaningful/special to you (b) Share with each other ONE of the following options: (1) Option 1, A time you felt excluded from a group: What was the situation? How did it make you feel? What did you do? Did anyone stand up for you? What did you learn? Would you do anything differently today? (2) Option 2, This imaginary situation: You're attending a new school and don't know anyone there yet. You notice they dress very differently than you do. At lunchtime, you decide you'll try to sit with a group to get to know other students. People at two tables tell you there is someone sitting at the currently empty seat at their table, so you end up eating by yourself. Discuss: How would that make you feel? What could the students have done? If that happened at your school, what would you do? (c) Discuss with your counselor what you learned from the discussion with the other Scout or youth.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 34-39* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Conduct all counselor discussions, community interviews, and research for Citizenship in Society Requirement 6 on connecting across different identities under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.
+> **Guide to Safe Scouting Warning:** Obtain parental permission and adhere to Youth Protection guidelines regarding appropriate communication and boundaries.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in Society Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Connecting with a peer who has a different identity means debating who is right about their beliefs or background.
-- **Pamphlet Fact:** The goal of Requirement 6 is mutual understanding and empathy by listening to what makes each person's identity meaningful and learning from their lived experiences (p. 35).
+- **Common Myth:** Discussing differences divides people, so everyone should pretend that all individuals are identical.
+- **Pamphlet Fact:** Empathy grows through intentional, respectful dialogue with peers possessing distinct backgrounds, beliefs, or personal characteristics.
 
 **Official Pamphlet Summary:**
-- Sharing Meaningful Identity Traits: Share with each other what makes the different aspects of your identity meaningful/special (p. 34).
-- Reflecting on Exclusion Experiences: What was the situation (p. 34).
-- Imagining Unfamiliar Social Settings: You're attending a new school and don't know anyone (p. 34).
-- Connecting across different identities, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 30).
+- Perspective Sharing: One on one conversations build mutual respect by illuminating distinct life experiences and worldviews.
+- Shared Vulnerability: Discussing past exclusion creates deep empathy and mutual understanding between different peer groups.
+- Active Engagement: Listening without judgment allows participants to appreciate cultural, religious, or personal identity traits.
+- Empathetic Synthesis: Reflecting on peer conversations helps youth dismantle unconscious biases and form authentic friendships.
 
-#### Req 6a: Sharing Meaningful Identity Aspects
+#### Req 6a: Meaningful Facets of Personal Identity
 **Official Requirement 6a:** Share with each other what makes the different aspects of your identity meaningful/special.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix (Aspects of Your Identity Meaningful/special)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in Society Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** You can start Requirement 6 on your own online without consulting a parent or guardian first.
-- **Pamphlet Fact:** Requirement 6 explicitly requires getting your parent or guardian's approval before connecting with another Scout or youth (p. 34).
+- **Common Myth:** A person identity is solely determined by surface level physical appearance and external labels.
+- **Pamphlet Fact:** Identity includes cultural heritage, personal faith, family history, and unique life experiences that deserve honor.
 
 ![Scouts study influential leaders, discuss social milestones around camp, and present findings to peers.](/assets/ai_illustrations/citizenship_in_society_req_6_topic_visual.png)
 
@@ -292,14 +292,14 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6b: Exclusion or Unfamiliar Settings
+### Req 6b: Shared Experiences of Social Exclusion
 **Official Requirement 6b (Parent Overview):** Share with each other ONE of the following options: (1) Option 1, A time you felt excluded from a group: What was the situation? How did it make you feel? What did you do? Did anyone stand up for you? What did you learn? Would you do anything differently today? (2) Option 2, This imaginary situation: You're attending a new school and don't know anyone there yet. You notice they dress very differently than you do. At lunchtime, you decide you'll try to sit with a group to get to know other students. People at two tables tell you there is someone sitting at the currently empty seat at their table, so you end up eating by yourself. Discuss: How would that make you feel? What could the students have done? If that happened at your school.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 34-39* • **Group Organizer:** Concept & Examples Notes
-- **Common Myth:** A different identity only counts if the other youth lives in another country or speaks a different language.
-- **Pamphlet Fact:** A different identity can be any meaningful trait, belief, ability, cultural tradition, or life characteristic that differs from your own (p. 34).
+- **Common Myth:** Feeling left out is an uncommon experience that only socially awkward individuals ever experience.
+- **Pamphlet Fact:** Exclusion causes profound emotional distress regardless of the specific social setting or background involved.
 
 **Official Pamphlet Summary:**
-- Exclusion or Unfamiliar Settings: You're attending a new school and don't know anyone (p. 34).
+- Scouts exchange stories about navigating exclusion or isolation within school, neighborhood, or athletic settings. Recognizing shared emotional responses deepens mutual understanding and solidarity.
 - Req 6b Standard (Official BSA Citizenship in Society Pamphlet, pp. 34-39): Share with each other ONE of the following options: (1) Option 1, A time you felt excluded from a group: What was the situation? How did it make you feel? What did you do? Did anyone stand up for you? What did you learn? Would you do anything differently today? (2) Option 2, This imaginary situation: You're attending a new school and don't know anyone there yet. You notice they dress very differently than you do. At lunchtime, you decide you'll try to sit with a group to get to know other students. People at two tables tell you there is someone sitting at the currently empty seat at their table, so you end up eating by yourself. Discuss: How would that make you feel? What could the students have done? If that happened at your school.
 
 #### Req 6b(1): Time You Felt Excluded
@@ -336,11 +336,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c: Takeaways From Peer Conversation
+#### Req 6c: Counselor Debrief on Peer Dialogue
 **Official Requirement 6c:** Discuss with your counselor what you learned from the discussion with the other Scout or youth.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix (Discuss With Your Counselor What)
-- **Common Myth:** For Citizenship in Society Requirement 6c, a common mistake in takeaways from peer conversation is treating what you learned from the discussion with the other scout or youth as optional background reading.
-- **Pamphlet Fact:** Mastering Citizenship in Society Requirement 6c means following the pamphlet standard for takeaways from peer conversation and recording accurate notes on what you learned from the discussion with the other scout or youth.
+- **Common Myth:** A brief conversation with someone different cannot alter a person lifelong outlook or habits.
+- **Pamphlet Fact:** Intentional listening across cultural lines breaks down inherited stereotypes and builds inclusive community habits.
 
 | Req 6c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -348,24 +348,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Community and Historical Inclusion Leaders
+### Req 7: Community Diversity Champions and Advocacy
 **Official Requirement 7 (Parent Overview):** Identify and interview an individual in your community, school, and/or Scouting who has had a significant positive impact in promoting diversity, equity, and inclusion. If you feel your community, school, or local Scouting group does not have such an individual, then research a historical figure who meets these criteria, and discuss that person with your counselor. (a) Discover what inspired the individual, learn about the challenges they faced, and share what you feel attributed to their success (b) Discuss with your counselor what you learned and how you can apply it in your life.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 40-45* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Conduct all counselor discussions, community interviews, and research for Citizenship in Society Requirement 7 on community and historical inclusion leaders under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.
-- **Common Myth:** If you cannot find someone in your immediate school or town to interview for Requirement 7, you cannot complete the requirement.
-- **Pamphlet Fact:** Requirement 7 allows you to research a historical figure who promoted diversity, equity, and inclusion if you cannot identify a local individual to interview (p. 40).
+> **Guide to Safe Scouting Warning:** Conduct interviews in safe public spaces or with a parent present, observing all Youth Protection rules.
+- **Common Myth:** Inclusion work happens automatically through legislation without dedicated individuals doing challenging community work.
+- **Pamphlet Fact:** Grassroots leaders who champion inclusion encounter resistance, requiring resilience, empathy, and collaborative coalition building.
 
 **Official Pamphlet Summary:**
-- Exploring Inspiration and Challenges: Discover what inspired the individual, learn about the challenges they faced, and share what you feel attributed to their success (p. 40).
-- Community and Historical Inclusion Leaders: Community and historical inclusion leaders, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 40).
-- Interviewing Local Inclusion Leaders: Identify and interview an individual in your community, school, and/or Scouting who has had a significant positive impact in promoting diversity, equity (p. 40).
-- Researching Historical Inclusion Figures: If you feel your community, school, or local Scouting group does not have such an individual, then research a historical figure who meets these criteria (p. 40).
+- Community Interview: Interviewing local leaders reveals practical strategies for overcoming entrenched neighborhood biases and barriers.
+- Overcoming Resistance: Champions of equity navigate social backlash through patience, clear communication, and community organizing.
+- Inspirational Roots: Personal experiences of unfairness often inspire community leaders to dedicate their lives to service.
+- Actionable Application: Translating community leader insights into daily youth leadership strengthens schools, troops, and neighborhoods.
 
-#### Req 7a: Inspiration Challenges and Success
+#### Req 7a: Advocate Inspiration and Obstacle Analysis
 **Official Requirement 7a:** Discover what inspired the individual, learn about the challenges they faced, and share what you feel attributed to their success.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Discover What Inspired The Individual)
-- **Common Myth:** People who make a positive impact in inclusion never face obstacles or opposition along the way.
-- **Pamphlet Fact:** Leaders who advance inclusion almost always overcome significant personal, social, or institutional challenges through persistence and courage (p. 42).
+- **Common Myth:** Successful community advocates never face significant opposition or moments of discouragement in their work.
+- **Pamphlet Fact:** Social progress requires persistent dedication through setbacks, public criticism, and slow institutional reform.
 
 ![Scouts conduct respectful community interviews, record notes on clipboards, and learn personal perspectives.](/assets/ai_illustrations/citizenship_in_society_req_7_topic_visual.png)
 
@@ -375,11 +375,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b: Applying Leader Lessons Personally
+#### Req 7b: Practical Application of Community Insights
 **Official Requirement 7b:** Discuss with your counselor what you learned and how you can apply it in your life.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 40-45* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Discuss With Your Counselor What)
-- **Common Myth:** Requirement 7 ends once you summarize the person's biography for your counselor.
-- **Pamphlet Fact:** In addition to sharing their inspiration, challenges, and success factors, you must discuss how you can apply what you learned in your own life (p. 44).
+- **Common Myth:** Civil advocacy techniques only apply to professional politicians rather than ordinary student leaders.
+- **Pamphlet Fact:** Leadership principles from adult community organizers translate directly into everyday youth patrol dynamics.
 
 ![A uniformed Scout holds a microphone to interview an elderly community leader seated outdoors beside an American flag.](/assets/ai_illustrations/citizenship_in_society_req_7_nano_hero.png)
 
@@ -389,13 +389,13 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Events Advancing Societal Inclusion
+### Req 8: Historical Milestones in Societal Inclusion
 **Official Requirement 8:** With the help of your parent or guardian, study an event that had a positive outcome on how society viewed a group of people and made them feel more welcome. Describe to your counselor the event and what you learned.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 46-51* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (Help Event Positive Outcome)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 8): Complete all Events Advancing Societal Inclusion discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
+> **Guide to Safe Scouting Warning:** Select historically verified educational sources and discuss sensitive historical injustices under parental guidance.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in Society Req 8 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** Requirement 8 focuses on studying events where a group of people was further excluded or harmed without any positive resolution.
-- **Pamphlet Fact:** Requirement 8 specifically asks you to study an event that had a positive outcome on how society viewed a group of people and made them feel more welcome (p. 46).
+- **Common Myth:** Societal attitudes change randomly over time without deliberate protests, legal battles, or civic education.
+- **Pamphlet Fact:** Organized civic movements and legal milestones expand cultural acceptance and protect vulnerable groups from institutional harm.
 
 ![An adult counselor gestures toward an easel board while teaching a seated patrol of Scouts in a sunny pine forest.](/assets/ai_illustrations/citizenship_in_society_req_8_nano_hero.png)
 
@@ -405,31 +405,31 @@
 | **2. Describe to your counselor the event and what you learned** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Studying Positive Societal Events: With the help of your parent or guardian, study an event that had a positive outcome on how society viewed a group of people and made them feel (p. 46).
-- Sharing Historical Lessons Learned: Describe to your counselor the event and what you learned (p. 46).
-- Events advancing societal inclusion, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 38).
-- Presenting Findings to Counselor: Review your completed Parent or Guardian Study evidence and demonstrate proficiency during your counselor conference (p. 38).
+- Historical Turning: Major civil rights events transform public consciousness and foster widespread empathy toward marginalized groups.
+- Legislative Milestones: Groundbreaking laws provide enforceable protections while signaling that discrimination is no longer acceptable.
+- Community Welcome: Cultural shifts enable previously excluded populations to participate fully in education and civic life.
+- Civic Reflection: Studying historical progress inspires youth to sustain inclusive values in their current communities.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Inclusive Leadership Beyond Scouting
+### Req 9: Everyday Civic Leadership Outside Scouting
 **Official Requirement 9 (Parent Overview):** Document and discuss with your counselor three or more areas in your life outside of Scouting where you feel you can actively provide stronger leadership in: (a) Making others feel included. (b) Practicing active listening. (c) Creating an environment where others feel comfortable to share their ideas and perspectives. (d) Helping others feel valued for their input and suggestions. (e) Standing up for others.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 9): Complete all Inclusive Leadership Beyond Scouting discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Active listening simply means staying quiet while another person is talking so you can plan what to say next.
-- **Pamphlet Fact:** Active listening requires giving your full attention, seeking to understand the speaker's perspective without interrupting, and acknowledging their thoughts respectfully (p. 53).
+> **Guide to Safe Scouting Warning:** Maintain awareness of peer physical safety and emotional well being when addressing conflicts outside Scouting.
+- **Common Myth:** Leadership outside Scouting only involves directing tasks rather than tending to group emotional dynamics.
+- **Pamphlet Fact:** Active listening, validating contributions, and defending peers create an environment where diverse perspectives flourish.
 
 **Official Pamphlet Summary:**
-- Including Others in Daily Life: Making others feel included (p. 52).
-- Practicing active listening (p. 52).
-- Fostering Safe Spaces for Ideas: Creating an environment where others feel comfortable to share their ideas and perspectives (p. 52).
-- Helping others feel valued for their input and suggestions (p. 52).
+- Active Listening: Concentrating fully on a speaker without interruption demonstrates profound personal respect and validation.
+- Safe Dialogue: Cultivating psychological safety allows hesitant classmates to voice non traditional perspectives without fear.
+- Input Valuation: Acknowledging specific peer contributions reinforces individual worth and encourages broader group participation.
+- Courageous Advocacy: Standing up for mistreated individuals outside Scouting fulfills the obligation of honorable citizenship.
 
-#### Req 9a: Making Others Feel Included
+#### Req 9a: Peer Inclusion Across Everyday Venues
 **Official Requirement 9a:** Making others feel included.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix (Making Others Feel Included)
-- **Common Myth:** Inclusive leadership skills are only meant for Scout meetings and campouts.
-- **Pamphlet Fact:** Requirement 9 asks you to apply inclusive leadership in at least three areas of life outside Scouting, such as school clubs, sports teams, family, or work (p. 52).
+- **Common Myth:** Peers who sit alone always prefer isolation and do not want an invitation to join.
+- **Pamphlet Fact:** Inclusion requires intentional actions like inviting isolated peers into group projects and lunch tables.
 
 ![Scouts mentor younger peers, take civic pledges, and carry forward inclusive values in their communities.](/assets/ai_illustrations/citizenship_in_society_req_9_topic_visual.png)
 
@@ -439,11 +439,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9b: Practicing Active Listening
+#### Req 9b: Active Listening in Daily Conversations
 **Official Requirement 9b:** Practicing active listening.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix (Practicing Active Listening)
-- **Common Myth:** Valuing someone's input means you must adopt every suggestion they make without question.
-- **Pamphlet Fact:** Helping others feel valued means seriously considering their ideas, acknowledging their contribution, and explaining decisions transparently even when another option is chosen (p. 55).
+- **Common Myth:** Listening simply means staying quiet until it is your turn to speak during conversation.
+- **Pamphlet Fact:** Active listening requires eye contact, summarizing spoken points, and withholding premature judgment or interruption.
 
 ![Two Scouts and adult leaders review binder worksheets outdoors to outline goals for lifelong leadership.](/assets/ai_illustrations/citizenship_in_society_req_9_nano_hero.png)
 
@@ -453,11 +453,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9c: Creating Comfortable Sharing Environments
+#### Req 9c: Comfortable Environments for Diverse Perspectives
 **Official Requirement 9c:** Creating an environment where others feel comfortable to share their ideas and perspectives.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix (Creating An Environment Where Others)
-- **Common Myth:** People will naturally share their honest perspectives in a group even if others mock or dismiss unconventional ideas.
-- **Pamphlet Fact:** Creating a comfortable environment requires setting a respectful tone where teammates know their perspectives will not be ridiculed (p. 54).
+- **Common Myth:** People will naturally speak up in any meeting without leaders creating a supportive atmosphere.
+- **Pamphlet Fact:** Leaders create comfort by establishing ground rules that prohibit mockery and reward thoughtful participation.
 
 | Req 9c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -465,11 +465,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9d: Valuing Input and Suggestions
+#### Req 9d: Validation of Peer Input and Suggestions
 **Official Requirement 9d:** Helping others feel valued for their input and suggestions.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix (Helping Others Feel Valued)
-- **Common Myth:** During Citizenship in Society Requirement 9d, Scouts can underestimate how directly mastery of valuing input and suggestions depends on understanding helping others feel valued for their input and suggestions.
-- **Pamphlet Fact:** Scouting America standards for Citizenship in Society Requirement 9d require complete workbook entries on valuing input and suggestions to demonstrate full understanding of helping others feel valued for their input and suggestions.
+- **Common Myth:** People automatically know their work is appreciated without leaders offering verbal affirmation or recognition.
+- **Pamphlet Fact:** Explicitly thanking individuals for specific suggestions reinforces their sense of belonging and community contribution.
 
 | Req 9d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -477,11 +477,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9e: Standing Up for Others
+#### Req 9e: Standing Up for Disrespected Peers
 **Official Requirement 9e:** Standing up for others.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Organizer (Concept & Examples Notes):** Req 9e Structured Technical Study & Explanation Matrix (Citizenship in Society Standing Principles)
-- **Common Myth:** Overlooking the specific field checks required for Standing Up for Others (Req 9e) or confusing Standing Up for Others with general Inclusive Leadership Beyond Scouting procedures.
-- **Pamphlet Fact:** For Requirement 9e (Standing Up for Others), The Citizenship in Society pamphlet for Requirement 9e details standing up for others, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 52).
+- **Common Myth:** Defending others in public always causes more embarrassment for the victim than staying silent.
+- **Pamphlet Fact:** Intervening to defend someone from disrespect requires moral conviction, calm assertion, and consistent follow through.
 
 | Req 9e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -489,12 +489,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 10: Challenging Stereotypes and Celebrating Individuality
+### Req 10: Dismantling Stereotypes and Bias
 **Official Requirement 10:** Discuss with your counselor how stereotyping people can be harmful, and how stereotypes can lead to prejudice and discrimination. Share ideas you have for challenging assumptions and celebrating individuality.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 58-63* • **Organizer (Concept & Examples Notes):** Req 10 Structured Technical Study & Explanation Matrix (Discuss With Your Counselor How)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 10): Complete all Challenging Stereotypes and Celebrating Individuality discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Positive-sounding stereotypes about a group of people are completely harmless and helpful.
-- **Pamphlet Fact:** Even seemingly positive stereotypes are harmful because they reduce unique individuals to generalized assumptions and create unfair expectations (p. 59).
+> **Guide to Safe Scouting Warning:** Address prejudiced remarks calmly without escalating arguments, maintaining a safe and respectful conversational space.
+- **Common Myth:** Positive stereotypes are harmless because they express favorable assumptions about an entire group of people.
+- **Pamphlet Fact:** Stereotypes dehumanize individuals by erasing their unique attributes, often hardening into institutional discrimination.
 
 ![Scouts and their leader display colorful character drawings and masks during an interactive community diversity presentation.](/assets/ai_illustrations/citizenship_in_society_req_10_nano_hero.png)
 
@@ -504,31 +504,31 @@
 | **2. Share ideas you have for challenging assumptions and celebrating individuality.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Challenging Stereotypes and Celebrating Individuality: Challenging stereotypes and celebrating individuality, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 58).
-- Share ideas you have for challenging assumptions and celebrating individuality (p. 58).
-- Challenging Stereotypes and Celebrating Individuality: Challenging stereotypes and celebrating individuality, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 46).
-- Counselor Discussion on Individuality: Review your completed Stereotyping People Can Be Harmful evidence and demonstrate proficiency during your counselor conference (p. 46).
+- Stereotype Damage: Sweeping generalizations reduce complex human beings to simplistic caricatures and unfair social expectations.
+- Unchallenged stereotypes reinforce personal prejudice, which subsequently produces systemic discrimination across communities.
+- Challenging Assumptions: Questioning biased assertions in casual conversations prevents misleading stereotypes from spreading through social circles.
+- Celebrating Individuality: Honoring individual talents and distinct personalities builds rich, diverse, and dynamic community cultures.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 11: Future Leadership and Diverse Perspectives
+### Req 11: Diverse Perspectives and Collaborative Innovation
 **Official Requirement 11 (Parent Overview):** Scouting strives to develop young people to be future leaders in their workplaces, schools, and community environments. As you look at your current involvement in school, your family, Scouting, your job, and/or community, think about how you can have a positive impact in diversity, equity, and inclusion. (a) Describe your ideas on how you can and will support others with different identities to feel included and heard at your school, workplace, and/or social settings in your community. (b) Explain how including diverse thoughts and opinions from others with different identities can: Make your interactions more positive. Help everyone benefit by considering different opinions. (c) Give three examples of how limiting diverse input can be harmful. (d) Give three examples of how considering diverse opinions can lead to innovation and success.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 64-69* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 11): Complete all Future Leadership and Diverse Perspectives discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Teams make better decisions when every member thinks alike because they reach agreement much faster.
-- **Pamphlet Fact:** When everyone thinks alike, teams often overlook blind spots and flaws, whereas diverse perspectives spark innovation and stronger problem-solving (p. 66).
+> **Guide to Safe Scouting Warning:** Ensure online team collaboration platforms adhere to youth protection and data privacy standards.
+- **Common Myth:** Teams achieve the highest success when all members share identical perspectives, habits, and backgrounds.
+- **Pamphlet Fact:** Diverse teams that actively welcome varied viewpoints solve problems faster and achieve superior innovative results.
 
 **Official Pamphlet Summary:**
-- Supporting Diverse Voices Daily: Describe your ideas on how you can and will support others with different identities to feel included and heard at your school, workplace, and/or social settings (p. 64).
-- Enriching Interactions Through Diversity: Explain how including diverse thoughts and opinions from others with different identities can, Make your interactions more positive (p. 64).
-- Risks of Limiting Diverse Input: Give three examples of how limiting diverse input can be harmful (p. 64).
-- Driving Innovation With Diverse Views: Give three examples of how considering diverse opinions can lead to innovation and success (p. 64).
+- Workplace Preparation: Scouting prepares young leaders to thrive within modern diverse workplaces and global communities.
+- Inclusion Strategy: Supporting diverse peers requires proactive mentorship, open communication channels, and equitable resource allocation.
+- Homogeneity Risks: Limiting input to homogeneous voices produces blind spots, poor decisions, and organizational failure.
+- Innovation Driver: Integrating varied perspectives drives creative breakthroughs by challenging assumptions and refining novel ideas.
 
-#### Req 11a: Supporting Inclusion in Daily Settings
+#### Req 11a: Supporting Diverse Identities in Public Settings
 **Official Requirement 11a:** Describe your ideas on how you can and will support others with different identities to feel included and heard at your school, workplace, and/or social settings in your community.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 64-69* • **Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix (Ideas on How You)
-- **Common Myth:** Limiting diverse input only causes minor hurt feelings and never affects project safety or quality.
-- **Pamphlet Fact:** Excluding diverse viewpoints has led to serious engineering, medical, and organizational failures when key user needs or safety risks were ignored (p. 65).
+- **Common Myth:** Treating people fairly means expecting everyone to assimilate into identical speaking and working styles.
+- **Pamphlet Fact:** Actively inviting marginalized voices into project discussions creates an equitable culture where all members thrive.
 
 ![Diverse community members volunteer, construct buildings, mentor youth, and engage in local civic leadership.](/assets/ai_illustrations/citizenship_in_society_req_11_topic_visual.png)
 
@@ -538,11 +538,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11b: Positive Interactions From Diverse Views
+#### Req 11b: Mutual Benefits of Diverse Viewpoints
 **Official Requirement 11b:** Explain how including diverse thoughts and opinions from others with different identities can: Make your interactions more positive. Help everyone benefit by considering different opinions.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 64-69* • **Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix (Diverse Thoughts and Opinions)
-- **Common Myth:** Inviting diverse opinions means every team meeting will turn into unproductive conflict.
-- **Pamphlet Fact:** When guided with mutual respect and active listening, diverse opinions make interactions more positive and creative rather than adversarial (p. 64).
+- **Common Myth:** Including diverse perspectives merely serves political correctness without improving actual operational performance.
+- **Pamphlet Fact:** Exposing ideas to critique from diverse viewpoints exposes hidden flaws and generates superior collective solutions.
 
 ![Scouts collaborate around a circular wooden puzzle board representing diverse contributions to a thriving society.](/assets/ai_illustrations/citizenship_in_society_req_11_nano_hero.png)
 
@@ -553,11 +553,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11c: Harms of Limiting Diverse Input
+#### Req 11c: Dangers of Limiting Diverse Input
 **Official Requirement 11c:** Give three examples of how limiting diverse input can be harmful.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 64-69* • **Organizer (Concept & Examples Notes):** Req 11c Structured Technical Study & Explanation Matrix (Limiting Diverse Input Can Be)
-- **Common Myth:** You must wait until you are an adult executive in a workplace to champion diversity and inclusion.
-- **Pamphlet Fact:** Scouts can make an immediate positive impact right now in their schools, families, troops, part-time jobs, and communities (p. 68).
+- **Common Myth:** Teams that avoid outside opinions move faster and achieve better results through uniform consensus.
+- **Pamphlet Fact:** Homogeneous groups succumb to groupthink, ignoring fatal errors and failing to anticipate broader societal needs.
 
 | Req 11c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -565,11 +565,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 11d: Innovation Through Diverse Opinions
+#### Req 11d: Diverse Opinions Driving Innovation and Success
 **Official Requirement 11d:** Give three examples of how considering diverse opinions can lead to innovation and success.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 64-69* • **Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix (Considering Diverse Opinions Can Lead)
-- **Common Myth:** During Citizenship in Society Requirement 11d, Scouts can underestimate how directly mastery of innovation through diverse opinions depends on understanding give three examples of how considering diverse opinions can lead to innovation and success.
-- **Pamphlet Fact:** Scouting America standards for Citizenship in Society Requirement 11d require complete workbook entries on innovation through diverse opinions to demonstrate full understanding of give three examples of how considering diverse opinions can lead to innovation and success.
+- **Common Myth:** Creative breakthroughs are always the product of a solitary individual working in complete isolation.
+- **Pamphlet Fact:** Breakthrough innovations emerge when cross disciplinary thinkers from diverse backgrounds merge their distinct insights.
 
 | Req 11d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

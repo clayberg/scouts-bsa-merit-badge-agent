@@ -55,8 +55,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)",
           "common_misconception_pair": {
-            "misconception": "Rope burns are minor surface scrapes that only need a dry adhesive bandage to heal properly.",
-            "fact": "Friction burns from fast-moving rope must be cooled with clean water, gently cleaned to remove embedded fibers, and dressed like a thermal burn to prevent infection (p. 50)."
+            "misconception": "Soft damp soil provides safe shock absorption under heavy timber structures.",
+            "fact": "Muddy ground destabilizes vertical spars and pulls stakes directly out of alignment.",
+            "myth": "Soft damp soil provides safe shock absorption under heavy timber structures.",
+            "fact_correction": "Muddy ground destabilizes vertical spars and pulls stakes directly out of alignment."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -82,10 +84,10 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Explain to your counselor the most likely hazards you might encounter while participating in pioneering activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
-          "topic_title": "Req 1a: Field Hazard Prevention and Mitigation",
-          "pamphlet_summary": "For Pioneering Requirement 1a (Field Hazard Prevention and Mitigation): The Pioneering pamphlet for Requirement 1a details the most likely hazards you might encounter while participating in pioneering activities and what you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
+          "topic_title": "Req 1a: Pioneering Hazard Analysis",
+          "pamphlet_summary": "Riggers must anticipate environmental exposures, falling timber, and high-tension rope failures prior to construction. Establishing designated spotters and marking drop lines prevents severe crushing incidents on site.",
           "pamphlet_excerpts": [
-            "Field Hazard Prevention and Mitigation: The Pioneering pamphlet for Requirement 1a details the most likely hazards you might encounter while participating in pioneering activities and what you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11)."
+            "Riggers must anticipate environmental exposures, falling timber, and high-tension rope failures prior to construction. Establishing designated spotters and marking drop lines prevents severe crushing incidents on site."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p003_img1.png",
           "workbook_diagram_caption": "A Scout works with tensioned ropes outdoors while building a pioneering timber construction project.",
@@ -134,8 +136,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)",
           "common_misconception_pair": {
-            "misconception": "As long as the Scouts lifting a tall tower are strong enough, bystanders can safely watch from anywhere near the base.",
-            "fact": "A clear drop zone extending beyond the full height of the spars must be established before lifting any heavy pioneering frame (p. 11)."
+            "misconception": "Rope friction burns heal faster when left open to circulate fresh air.",
+            "fact": "Open friction abrasions require sterile wash and occlusive dressings to prevent infection.",
+            "myth": "Rope friction burns heal faster when left open to circulate fresh air.",
+            "fact_correction": "Open friction abrasions require sterile wash and occlusive dressings to prevent infection."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -161,10 +165,10 @@
           "id": "1b",
           "sub_req_label": "1b",
           "sub_req_text": "Discuss the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering projects, including rope splinters, rope burns, cuts, scratches, insect bites and stings, hypothermia, dehydration, heat exhaustion, heatstroke, sunburn, and falls.",
-          "topic_title": "Req 1b: First Aid for Ropework Injuries",
-          "pamphlet_summary": "For Pioneering Requirement 1b (First Aid for Ropework Injuries): The Pioneering pamphlet for Requirement 1b details the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
+          "topic_title": "Req 1b: Field Injury Treatment Protocols",
+          "pamphlet_summary": "Prompt wound cleaning, cold compression, and limb elevation stabilize minor pioneering injuries in camp. Deep punctures from timber splinters or rope burns require immediate antiseptic dressing.",
           "pamphlet_excerpts": [
-            "First Aid for Ropework Injuries: The Pioneering pamphlet for Requirement 1b details the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11)."
+            "Prompt wound cleaning, cold compression, and limb elevation stabilize minor pioneering injuries in camp. Deep punctures from timber splinters or rope burns require immediate antiseptic dressing."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p011_img1.png",
           "title": "Req 1b: First Aid for Ropework Injuries",
@@ -198,11 +202,11 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: Pioneering Hazards and First Aid",
+      "topic_title": "Req 1: Pioneering Safety and Hazard Management",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Pioneering Requirement 1: travel with a buddy, carry the Scout Basic Essentials and water while studying pioneering hazards and first aid, and respect wildlife distance and Leave No Trace guidelines.",
+      "safety_callout": "Mandatory hard hats protect crew members within the swinging radius of raised timber spars.",
       "pamphlet_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)",
       "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -230,8 +234,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Leather work gloves should be worn at all times during every pioneering activity, including while tying intricate knots and lashings.",
-        "fact": "Work gloves protect hands from splinters and rope burns when hauling lines or carrying heavy spars, but they are often removed for fine knot tying where finger dexterity is required (p. 11)."
+        "misconception": "Stout leather work gloves should be worn while handling all running ropes.",
+        "fact": "Gloves can catch in moving tackle sheaves, causing severe finger crushing injuries.",
+        "myth": "Stout leather work gloves should be worn while handling all running ropes.",
+        "fact_correction": "Gloves can catch in moving tackle sheaves, causing severe finger crushing injuries."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -255,16 +261,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Mark of Skilled Craftsmanship: Making the proper splices in the proper places on your ropes is the benchmark of a skilled craftsman (p. 11).",
-        "Premier Ropework Skill Priority: Very often, the ability to do a neat job of splicing is placed on the top of the skills list ofropework (p. 11).",
-        "Accessible Technique for Scouts: Making splices is not really all that hard (p. 11).",
-        "Three Fundamental Rope Splices: There are three basic types of splices that are typically made on three-strand twisted rope, an eye splice, a back splice, and a short splice (p. 11)."
+        "Drop Zone Clearance: Establish perimeter ropes around active construction to keep bystanders clear of falling spars.",
+        "Personal Protective Equipment: Hard hats protect builders underneath overhead spars while leather gloves prevent friction burns.",
+        "Hydration Protocols: Drink water at regular intervals to prevent heat cramps during heavy timber handling.",
+        "Tool Radius Rules: Maintain a clear blood circle before swinging axes or cutting heavy lashing ropes."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Approach Splicing with Confidence: Making splices is not really all that hard (p. 11).",
-        "Step 2 - Select the Proper Splice: There are three basic types of splices that are typically made on three-strand twisted rope, an eye splice, a back splice, and a short splice (p. 11).",
-        "Step 3 - Unlay and Weave Strands: The process in all three splices is tounlay the strands at the end of the rope, then weave them over and under back into the rope to form (p. 11).",
-        "Step 4 - Replace Bulky Rope Knots: Knots are more bulky than an eye splice or short splice (p. 11)."
+        "Step 1 - Site Survey: Mark boundary stakes thirty feet clear of the planned bridge drop perimeter.",
+        "Step 2 - Gear Inspection: Check all wooden poles for internal dry rot and split longitudinal grain.",
+        "Step 3 - Perimeter Flagging: String bright boundary line flags around the assembly area to stop unauthorized visitors.",
+        "Step 4 - Crew Briefing: Assign distinct lifting jobs to every Scout before raising any heavy timber."
       ],
       "gear_checklist": [
         "Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine",
@@ -273,15 +279,13 @@
         "Scale model spars and elastic bands or cord for pre-build engineering layout"
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Field Hazard Prevention and Mitiga",
-        "right_header": "Req 1b: First Aid for Ropework Injuries",
+        "left_header": "Req 1a: Pioneering Hazard Analysis",
+        "right_header": "Req 1b: Field Injury Treatment Protocols",
         "left_points": [
-          "(1a) Field Hazard Prevention and Mitigation: The Pioneering pamphlet for Requirement 1a details the most likely hazards you might encounter while participating in pioneering activities and what you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
-          "Premier Ropework Skill Priority: Very often, the ability to do a neat job of splicing is placed on the top of the skills list ofropework (p. 11)."
+          "(1a) Pioneering Hazard Analysis: Riggers must anticipate environmental exposures, falling timber, and high-tension rope failures prior to construction. Establishing designated spotters and marking drop lines prevents severe crushing incidents on site."
         ],
         "right_points": [
-          "(1b) First Aid for Ropework Injuries: The Pioneering pamphlet for Requirement 1b details the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
-          "Accessible Technique for Scouts: Making splices is not really all that hard (p. 11)."
+          "(1b) Field Injury Treatment Protocols: Prompt wound cleaning, cold compression, and limb elevation stabilize minor pioneering injuries in camp. Deep punctures from timber splinters or rope burns require immediate antiseptic dressing."
         ],
         "rows": [
           {
@@ -305,8 +309,8 @@
         "title": "Pioneering Req 1 Exemplar Workbook Entry: Pioneering Hazards and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Field Hazard Prevention and Mitiga": "The Pioneering pamphlet for Requirement 1a details the most likely hazards you might encounter while participating in pioneering activities and what you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).",
-          "Req 1b (First Aid for Ropework Injuries)": "The Pioneering pamphlet for Requirement 1b details the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11)."
+          "Req 1a - Pioneering Hazard Analysis": "Riggers must anticipate environmental exposures, falling timber, and high-tension rope failures prior to construction. Establishing designated spotters and marking drop lines prevents severe crushing incidents on site.",
+          "Req 1b - Field Injury Treatment Protocols": "Prompt wound cleaning, cold compression, and limb elevation stabilize minor pioneering injuries in camp. Deep punctures from timber splinters or rope burns require immediate antiseptic dressing."
         },
         "sample_output": "Pioneering Hazards and First Aid: Making splices is not really all that hard (p. 11).",
         "counselor_tip": "For Pioneering Requirement 1 (Pioneering Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50))."
@@ -338,7 +342,13 @@
       "workbook_diagram_caption": "Illustrated panels demonstrate essential rope knots, timber lashings, wooden tripod spars, and an elevated pioneering tower.",
       "number": "1",
       "description": "Do the following: (a) Explain to your counselor the most likely hazards you might encounter while participating in pioneering activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Discuss the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering projects, including rope splinters, rope burns, cuts, scratches, insect bites and stings, hypothermia, dehydration, heat exhaustion, heatstroke, sunburn, and falls.",
-      "workbook_visual_caption": "Illustrated panels demonstrate essential rope knots, timber lashings, wooden tripod spars, and an elevated pioneering tower."
+      "workbook_visual_caption": "Illustrated panels demonstrate essential rope knots, timber lashings, wooden tripod spars, and an elevated pioneering tower.",
+      "pamphlet_summary": "Pioneering safety demands structured job site risk assessments before handling timber or running cordage. Crews establish perimeter safety zones, wear personal protective equipment, and monitor weather conditions continuously.",
+      "socratic_questions": [
+        "How do overhead swing paths dictate where observers stand during tower lifts?",
+        "Why must a rigger refuse cracked timber before applying square lashing turns?",
+        "Which environmental factor accelerates dehydration fastest when moving heavy pioneering poles?"
+      ]
     },
     {
       "req_id": "2",
@@ -386,8 +396,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
-            "misconception": "A clove hitch is sufficient by itself to secure a line under constant, changing tension against a smooth wooden stake.",
-            "fact": "Because a clove hitch can work loose when tension fluctuates or the line rotates, a roundturn with two half hitches is far more reliable for anchoring taut lines to stakes (p. 20)."
+            "misconception": "Adhesive plastic tape serves as a permanent field replacement for whipping.",
+            "fact": "Tape loses adhesive strength in sunlight and moisture, releasing loose strand ends.",
+            "myth": "Adhesive plastic tape serves as a permanent field replacement for whipping.",
+            "fact_correction": "Tape loses adhesive strength in sunlight and moisture, releasing loose strand ends."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -413,10 +425,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Demonstrate the West Country method of whipping a rope.",
-          "topic_title": "Req 2a: West Country Rope Whipping",
-          "pamphlet_summary": "For Pioneering Requirement 2a (West Country Rope Whipping): The Pioneering pamphlet for Requirement 2a details the West Country method of whipping a rope, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+          "topic_title": "Req 2a: West Country Whipping Technique",
+          "pamphlet_summary": "The West Country whipping secures frayed stranded cordage using a series of alternating overhand knots tied on opposite sides. Finishing with a firm square knot locks the twine permanently in place.",
           "pamphlet_excerpts": [
-            "West Country Rope Whipping: The Pioneering pamphlet for Requirement 2a details the West Country method of whipping a rope, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+            "The West Country whipping secures frayed stranded cordage using a series of alternating overhand knots tied on opposite sides. Finishing with a firm square knot locks the twine permanently in place."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p007_img1.png",
           "workbook_diagram_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely.",
@@ -477,8 +489,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
-            "misconception": "Frapping turns in a lashing are meant to bind the two wooden spars directly together just like wrapping turns.",
-            "fact": "Frapping turns go between the spars and around the wrapping turns to cinch the wraps tight and remove slack from the lashing (p. 36)."
+            "misconception": "A standard bowline can substitute for a butterfly knot in midline pulls.",
+            "fact": "Three-way midline stress capsizes a bowline, whereas a butterfly knot handles multidirectional loads.",
+            "myth": "A standard bowline can substitute for a butterfly knot in midline pulls.",
+            "fact_correction": "Three-way midline stress capsizes a bowline, whereas a butterfly knot handles multidirectional loads."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -504,10 +518,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two half hitches, clove hitch on a bight, butterfly knot, roundturn with two half hitches, and rolling hitch.",
-          "topic_title": "Req 2b: Pioneering Knots and Rope Tackle",
-          "pamphlet_summary": "Pioneering Knots and Rope Tackle: Clove Hitch on a Bight A clove hitch on a bight, (tying a clove hitch over an open ended pole) is useful in a variety of circumstances (p. 20).",
+          "topic_title": "Req 2b: Mechanical Knots and Tackle",
+          "pamphlet_summary": "Friction hitches and midline loops create mechanical purchase systems without specialized hardware pulleys. The rope tackle multiplies pulling force to tighten guys and bridge foot ropes securely.",
           "pamphlet_excerpts": [
-            "Pioneering Knots and Rope Tackle: Clove Hitch on a Bight A clove hitch on a bight, (tying a clove hitch over an open ended pole) is useful in a variety of circumstances (p. 20)."
+            "Friction hitches and midline loops create mechanical purchase systems without specialized hardware pulleys. The rope tackle multiplies pulling force to tighten guys and bridge foot ropes securely."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p021_img1.png",
           "title": "Req 2b: Pioneering Knots and Rope Tackle",
@@ -569,8 +583,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
-            "misconception": "A round lashing requires frapping turns between the two parallel poles to keep them from slipping lengthwise.",
-            "fact": "A standard round lashing uses tightly pulled parallel wraps without frapping turns because the two spars lie flush side by side (p. 36)."
+            "misconception": "Square lashings can secure poles that cross at thirty degree acute angles.",
+            "fact": "Poles crossing at acute angles require diagonal lashings to prevent joint racking.",
+            "myth": "Square lashings can secure poles that cross at thirty degree acute angles.",
+            "fact_correction": "Poles crossing at acute angles require diagonal lashings to prevent joint racking."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -596,10 +612,10 @@
           "id": "2c",
           "sub_req_label": "2c",
           "sub_req_text": "Demonstrate and explain when to use the following lashings: square, diagonal, round, shear, tripod, and floor lashing.",
-          "topic_title": "Req 2c: Core Structural Spar Lashings",
-          "pamphlet_summary": "For Pioneering Requirement 2c (Core Structural Spar Lashings): The Pioneering pamphlet for Requirement 2c details when to use the following lashings, square, diagonal, round, shear, tripod, and floor lashing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+          "topic_title": "Req 2c: Structural Lashing Applications",
+          "pamphlet_summary": "Different pole intersections require distinct lashing configurations to resist shear and rotational forces. Square lashings hold perpendicular contacts, while shear lashings join parallel spars for sheer legs.",
           "pamphlet_excerpts": [
-            "Core Structural Spar Lashings: The Pioneering pamphlet for Requirement 2c details when to use the following lashings, square, diagonal, round, shear, tripod, and floor lashing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+            "Different pole intersections require distinct lashing configurations to resist shear and rotational forces. Square lashings hold perpendicular contacts, while shear lashings join parallel spars for sheer legs."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p021_img1.png",
           "workbook_diagram_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely.",
@@ -672,11 +688,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Essential Pioneering Knots and Lashings",
+      "topic_title": "Req 2: Essential Whippings Knots and Lashings",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Essential Pioneering Knots and Lashings discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Never wrap tensioned ropes around your hands while pulling frapping turns tight.",
       "pamphlet_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
       "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -706,8 +722,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "A diagonal lashing should be used whenever two pioneering spars cross each other at an angle other than 90 degrees.",
-        "fact": "Choice of lashing depends on whether the spars touch under load, a square lashing binds spars that already rest firmly together, whereas a diagonal lashing pulls springing spars together at their crossing (p. 36)."
+        "misconception": "A lashing becomes stronger by adding ten or more loose binding wraps.",
+        "fact": "Excessive loose wraps stretch under load, whereas three tight wraps with frapping provide strength.",
+        "myth": "A lashing becomes stronger by adding ten or more loose binding wraps.",
+        "fact_correction": "Excessive loose wraps stretch under load, whereas three tight wraps with frapping provide strength."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -731,16 +749,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Open-Ended Pole Hitch Utility: Clove Hitch on a Bight A clove hitch on a bight, (tying a clove hitch over an open ended pole) is useful in a variety of circumstances (p. 20).",
-        "Leftward Approach Setup Sequence: 1 (p. 20).",
-        "First Right Underhand Loop: Form a right underhand loop and place it over the pole (p. 20).",
-        "Stacked Second Underhand Loop: Form another right underhand loop and place it over the pole (on top of the pervious one) (p. 20)."
+        "West Country Whipping: Alternating overhand knots around the strand prevent rope unraveling under field tension.",
+        "Butterfly Loop Function: Form a midline loop in tensioned line without reducing primary rope strength.",
+        "Frapping Turn Tension: Frapping turns pull binding wraps together to lock the lashing joint tight.",
+        "Diagonal Lashing Use: Diagonal lashings bind cross braces where poles spring apart under structural loads."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Slip First Loop: Form a right underhand loop and place it over the pole (p. 20).",
-        "Step 2 - Stack Second Underhand Loop: Form another right underhand loop and place it over the pole (on top of the pervious one) (p. 20).",
-        "Step 3 - Reverse Loops from Right: When preceding from the right, instead of right underhand loops, form left underhand loops (p. 20).",
-        "Step 4 - Verify Clove Hitch Geometry: Without being informed, one can just look at two of these half hitches and see they look exactly like a clove hitch (p. 20)."
+        "Step 1 - Strand Preparation: Unlay frayed fibers and burn synthetic cord tips before winding binding twine.",
+        "Step 2 - Hitch Foundation: Tie a firm clove hitch around the static post to anchor lashing wraps.",
+        "Step 3 - Frapping Compression: Pull two snug frapping passes between poles to cinch binding cordage tightly.",
+        "Step 4 - Terminal Hitch: Finish the joint with a clove hitch tied around the cross pole."
       ],
       "gear_checklist": [
         "Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine",
@@ -749,15 +767,13 @@
         "Scale model spars and elastic bands or cord for pre-build engineering layout"
       ],
       "comparison_data": {
-        "left_header": "Req 2a: West Country Rope Whipping",
-        "right_header": "Req 2b: Pioneering Knots and Rope Tackle",
+        "left_header": "Req 2a: West Country Whipping Technique",
+        "right_header": "Req 2b: Mechanical Knots and Tackle",
         "left_points": [
-          "(2a) West Country Rope Whipping: The Pioneering pamphlet for Requirement 2a details the West Country method of whipping a rope, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
-          "Leftward Approach Setup Sequence: 1 (p. 20)."
+          "(2a) West Country Whipping Technique: The West Country whipping secures frayed stranded cordage using a series of alternating overhand knots tied on opposite sides. Finishing with a firm square knot locks the twine permanently in place."
         ],
         "right_points": [
-          "(2b) Pioneering Knots and Rope Tackle: Clove Hitch on a Bight A clove hitch on a bight, (tying a clove hitch over an open ended pole) is useful in a variety of circumstances (p. 20).",
-          "First Right Underhand Loop: Form a right underhand loop and place it over the pole (p. 20)."
+          "(2b) Mechanical Knots and Tackle: Friction hitches and midline loops create mechanical purchase systems without specialized hardware pulleys. The rope tackle multiplies pulling force to tighten guys and bridge foot ropes securely."
         ],
         "rows": [
           {
@@ -781,9 +797,9 @@
         "title": "Pioneering Req 2 Exemplar Workbook Entry: Essential Pioneering Knots and Lashings",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a (West Country Rope Whipping)": "The Pioneering pamphlet for Requirement 2a details the West Country method of whipping a rope, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
-          "Req 2b (Pioneering Knots and Rope Tackle)": "Clove Hitch on a Bight A clove hitch on a bight, (tying a clove hitch over an open ended pole) is useful in a variety of circumstances (p. 20).",
-          "Req 2c (Core Structural Spar Lashings)": "The Pioneering pamphlet for Requirement 2c details when to use the following lashings, square, diagonal, round, shear, tripod, and floor lashing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+          "Req 2a - West Country Whipping Technique": "The West Country whipping secures frayed stranded cordage using a series of alternating overhand knots tied on opposite sides. Finishing with a firm square knot locks the twine permanently in place.",
+          "Req 2b - Mechanical Knots and Tackle": "Friction hitches and midline loops create mechanical purchase systems without specialized hardware pulleys. The rope tackle multiplies pulling force to tighten guys and bridge foot ropes securely.",
+          "Req 2c - Structural Lashing Applications": "Different pole intersections require distinct lashing configurations to resist shear and rotational forces. Square lashings hold perpendicular contacts, while shear lashings join parallel spars for sheer legs."
         },
         "sample_output": "Essential Pioneering Knots and Lashings: Form another right underhand loop and place it over the pole (on top of the pervious one) (p. 20).",
         "counselor_tip": "For Pioneering Requirement 2 (Essential Pioneering Knots and Lashings), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36))."
@@ -815,7 +831,13 @@
       "workbook_diagram_caption": "A Scout leader and two youths inspect the tension and braiding of a heavy pioneering rope outdoors.",
       "number": "2",
       "description": "Do the following: (a) Demonstrate the West Country method of whipping a rope. (b) Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two half hitches, clove hitch on a bight, butterfly knot, roundturn with two half hitches, and rolling hitch. (c) Demonstrate and explain when to use the following lashings: square, diagonal, round, shear, tripod, and floor lashing.",
-      "workbook_visual_caption": "A Scout leader and two youths inspect the tension and braiding of a heavy pioneering rope outdoors."
+      "workbook_visual_caption": "A Scout leader and two youths inspect the tension and braiding of a heavy pioneering rope outdoors.",
+      "pamphlet_summary": "Pioneer construction relies on properly finished rope ends, secure friction knots, and tight timber bindings. Applying correct tension and proper frapping turns ensures that structural joints never slip.",
+      "socratic_questions": [
+        "Why does a diagonal lashing begin with a timber hitch instead of a clove hitch?",
+        "How does the butterfly knot protect a damaged section in a long haul rope?",
+        "What structural movement occurs when frapping turns are omitted from a shear lashing?"
+      ]
     },
     {
       "req_id": "3",
@@ -859,8 +881,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
-            "misconception": "Anchor stakes for a guyed camp gadget should be driven straight vertically into the soil for maximum holding power.",
-            "fact": "Stakes should be driven at roughly a 20-degree angle leaning away from the structure, with the notch facing outward so guyline tension pulls down against the soil (p. 67)."
+            "misconception": "Tripod lashings require crossed center poles to sustain downward wash basin weight.",
+            "fact": "Tripod poles remain parallel during lashing, crossing only when standing the legs.",
+            "myth": "Tripod lashings require crossed center poles to sustain downward wash basin weight.",
+            "fact_correction": "Tripod poles remain parallel during lashing, crossing only when standing the legs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -886,10 +910,10 @@
           "id": "3a",
           "sub_req_label": "3a",
           "sub_req_text": "Using square and tripod lashings from requirement 2(c), build a Tripod Wash Station (or with your counselor's permission, another camp gadget of your own design)",
-          "topic_title": "Req 3a: Tripod Wash Station Construction",
-          "pamphlet_summary": "Tripod Wash Station Construction: Lash the top of each pair of legs with as hear lashing, and lash on the 2 1/2- to 3-foot cross piece with tight square lashings (p. 67).",
+          "topic_title": "Req 3a: Tripod Wash Station Assembly",
+          "pamphlet_summary": "A tripod wash station utilizes three equal spars bound with a tripod lashing and reinforced by horizontal perimeter braces. The structure suspends water containers and washbasins at convenient camp working heights.",
           "pamphlet_excerpts": [
-            "Tripod Wash Station Construction: Lash the top of each pair of legs with as hear lashing, and lash on the 2 1/2- to 3-foot cross piece with tight square lashings (p. 67)."
+            "A tripod wash station utilizes three equal spars bound with a tripod lashing and reinforced by horizontal perimeter braces. The structure suspends water containers and washbasins at convenient camp working heights."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p065_img1.png",
           "workbook_diagram_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
@@ -930,8 +954,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
-            "misconception": "When extending a flagpole with round lashings, a single round lashing at the center of the overlap is enough to keep the poles straight.",
-            "fact": "Joining two spars end-to-end requires two separate round lashings spaced apart along the overlapping section so the upper pole cannot pivot or jackknife (p. 68)."
+            "misconception": "Two round lashings per stave joint provide equal rigidity to one long lashing.",
+            "fact": "Separated twin round lashings resist joint pivoting far better than single centered wraps.",
+            "myth": "Two round lashings per stave joint provide equal rigidity to one long lashing.",
+            "fact_correction": "Separated twin round lashings resist joint pivoting far better than single centered wraps."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -957,10 +983,10 @@
           "id": "3b",
           "sub_req_label": "3b",
           "sub_req_text": "Using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build a 15-foot Scout Stave Flagpole (or with your counselor's permission, another camp gadget of your own design)",
-          "topic_title": "Req 3b: Lashed Camp Flagpole Assembly",
-          "pamphlet_summary": "For Pioneering Requirement 3b (Lashed Camp Flagpole Assembly): The Pioneering pamphlet for Requirement 3b details using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67).",
+          "topic_title": "Req 3b: Scout Stave Flagpole Rigging",
+          "pamphlet_summary": "Joining multiple Scout staves with round lashings creates a tall, lightweight vertical mast. Anchoring guy lines with rolling hitches or roundturns allows precise vertical leveling in variable winds.",
           "pamphlet_excerpts": [
-            "Lashed Camp Flagpole Assembly: The Pioneering pamphlet for Requirement 3b details using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67)."
+            "Joining multiple Scout staves with round lashings creates a tall, lightweight vertical mast. Anchoring guy lines with rolling hitches or roundturns allows precise vertical leveling in variable winds."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p065_img1.png",
           "workbook_diagram_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
@@ -1001,8 +1027,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
-            "misconception": "Floor lashing secures table top staves using individual square lashings at every intersection.",
-            "fact": "A continuous floor lashing binds adjacent table staves quickly by trapping each stave with alternating bights and wraps along the supporting rails (p. 68)."
+            "misconception": "Table top branches can be secured loosely since gravity holds them down.",
+            "fact": "Loose tabletop branches tip when loaded, spilling hot liquids onto seated campers.",
+            "myth": "Table top branches can be secured loosely since gravity holds them down.",
+            "fact_correction": "Loose tabletop branches tip when loaded, spilling hot liquids onto seated campers."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1028,10 +1056,10 @@
           "id": "3c",
           "sub_req_label": "3c",
           "sub_req_text": "Using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from requirements 2(b) and 2(c), build a Simple Camp Table (or with your counselor's permission, another camp gadget of your own design)",
-          "topic_title": "Req 3c: Camp Table and Frame Rigging",
-          "pamphlet_summary": "For Pioneering Requirement 3c (Camp Table and Frame Rigging): The Pioneering pamphlet for Requirement 3c details using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from requirements 2(b) and 2(c), build, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67).",
+          "topic_title": "Req 3c: Camp Table Framework Assembly",
+          "pamphlet_summary": "Building a functional camp table combines shear legs, horizontal support rails, and woven branch tabletops. Tight floor lashings secure uniform platform branches to provide a stable, level dining surface.",
           "pamphlet_excerpts": [
-            "Camp Table and Frame Rigging: The Pioneering pamphlet for Requirement 3c details using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from requirements 2(b) and 2(c), build, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67)."
+            "Building a functional camp table combines shear legs, horizontal support rails, and woven branch tabletops. Tight floor lashings secure uniform platform branches to provide a stable, level dining surface."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p065_img1.png",
           "workbook_diagram_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
@@ -1060,11 +1088,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Camp Gadgets and Small Structures",
+      "topic_title": "Req 3: Camp Gadget Project Construction",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Pioneering Requirement 3: travel with a buddy, carry the Scout Basic Essentials and water while studying camp gadgets and small structures, and respect wildlife distance and Leave No Trace guidelines.",
+      "safety_callout": "Clear the surrounding swing area before raising assembled flagpole staves into vertical position.",
       "pamphlet_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
       "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1094,8 +1122,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "A tripod lashing must be tied as tightly as possible before spreading the three legs into their standing position.",
-        "fact": "Wrapping and frapping turns on a tripod lashing should be snug but slightly loose so the three poles can pivot into a triangle without snapping the cord age (p. 67)."
+        "misconception": "Camp gadgets support arbitrary dynamic loads if built with thick manila rope.",
+        "fact": "Light pioneering camp gadgets are engineered solely for static weights like camp washbasins.",
+        "myth": "Camp gadgets support arbitrary dynamic loads if built with thick manila rope.",
+        "fact_correction": "Light pioneering camp gadgets are engineered solely for static weights like camp washbasins."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1119,16 +1149,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Functional Patrol Table Surface: This small table is functional and provides a convenient raised surface for personal or patrol use (p. 67).",
-        "Shear and Crosspiece Lashings: Lash the top of each pair of legs with as hear lashing, and lash on the 2 1/2- to 3-foot cross piece with tight square lashings (p. 67).",
-        "Uniform Crosspiece Height Placement: Lash on each cross piece at the same place on each of the legs, about 2 1/2 feet up from the bottom (p. 67).",
-        "Angled Anchor Stake Positioning: On each side of the stave, about 5 feet out, hammer in a sturdy stake at a 20-degree angle, with the notch facing (p. 67)."
+        "Tripod Leg Spread: Spreading tripod butt ends sixty degrees apart creates stable equilibrium for washbowls.",
+        "Flagpole Overlap Rule: Overlap stave joints at least two feet to ensure maximum bending resistance.",
+        "Shear Leg Binding: Leave slight space between shear legs during wrapping to allow leg spreading.",
+        "Table Surface Lashing: Floor lashings weave cross branches tightly across side rails using single cordage."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Lash Matching Leg Crosspieces: Lash on each cross piece at the same place on each of the legs, about 2 1/2 feet up from the bottom (p. 67).",
-        "Step 2 - Drive Angled Anchor Stakes: On each side of the stave, about 5 feet out, hammer in a sturdy stake at a 20-degree angle, with the notch facing (p. 67).",
-        "Step 3 - Tension Guys with Tackle: Attach each end of the 20-foot rope to a stake with a rope tackle, then pull each A-frame upright (p. 67).",
-        "Step 4 - Secure A-Frames with Hitches: The clove hitches will hold the A-frames in a tight, stable position (p. 67)."
+        "Step 1 - Timber Selection: Select straight, seasoned hardwood poles matching specified lengths for the planned gadget.",
+        "Step 2 - Frame Assembly: Lay main structural poles flat on level turf to align binding points.",
+        "Step 3 - Lashing Execution: Wrap and frap all structural intersections using correctly sized natural fiber cordage.",
+        "Step 4 - Load Testing: Apply downward hand pressure on horizontal rails to confirm joint stability before use."
       ],
       "gear_checklist": [
         "Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine",
@@ -1137,15 +1167,13 @@
         "Scale model spars and elastic bands or cord for pre-build engineering layout"
       ],
       "comparison_data": {
-        "left_header": "Req 3a: Tripod Wash Station Construction",
-        "right_header": "Req 3b: Lashed Camp Flagpole Assembly",
+        "left_header": "Req 3a: Tripod Wash Station Assembly",
+        "right_header": "Req 3b: Scout Stave Flagpole Rigging",
         "left_points": [
-          "(3a) Tripod Wash Station Construction: Lash the top of each pair of legs with as hear lashing, and lash on the 2 1/2- to 3-foot cross piece with tight square lashings (p. 67).",
-          "Shear and Crosspiece Lashings: Lash the top of each pair of legs with as hear lashing, and lash on the 2 1/2- to 3-foot cross piece with tight square lashings (p. 67)."
+          "(3a) Tripod Wash Station Assembly: A tripod wash station utilizes three equal spars bound with a tripod lashing and reinforced by horizontal perimeter braces. The structure suspends water containers and washbasins at convenient camp working heights."
         ],
         "right_points": [
-          "(3b) Lashed Camp Flagpole Assembly: The Pioneering pamphlet for Requirement 3b details using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67).",
-          "Uniform Crosspiece Height Placement: Lash on each cross piece at the same place on each of the legs, about 2 1/2 feet up from the bottom (p. 67)."
+          "(3b) Scout Stave Flagpole Rigging: Joining multiple Scout staves with round lashings creates a tall, lightweight vertical mast. Anchoring guy lines with rolling hitches or roundturns allows precise vertical leveling in variable winds."
         ],
         "rows": [
           {
@@ -1169,9 +1197,9 @@
         "title": "Pioneering Req 3 Exemplar Workbook Entry: Camp Gadgets and Small Structures",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a (Tripod Wash Station Construction)": "Lash the top of each pair of legs with as hear lashing, and lash on the 2 1/2- to 3-foot cross piece with tight square lashings (p. 67).",
-          "Req 3b (Lashed Camp Flagpole Assembly)": "The Pioneering pamphlet for Requirement 3b details using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67).",
-          "Req 3c (Camp Table and Frame Rigging)": "The Pioneering pamphlet for Requirement 3c details using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from requirements 2(b) and 2(c), build, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67)."
+          "Req 3a - Tripod Wash Station Assembly": "A tripod wash station utilizes three equal spars bound with a tripod lashing and reinforced by horizontal perimeter braces. The structure suspends water containers and washbasins at convenient camp working heights.",
+          "Req 3b - Scout Stave Flagpole Rigging": "Joining multiple Scout staves with round lashings creates a tall, lightweight vertical mast. Anchoring guy lines with rolling hitches or roundturns allows precise vertical leveling in variable winds.",
+          "Req 3c - Camp Table Framework Assembly": "Building a functional camp table combines shear legs, horizontal support rails, and woven branch tabletops. Tight floor lashings secure uniform platform branches to provide a stable, level dining surface."
         },
         "sample_output": "Camp Gadgets and Small Structures: This small table is functional and provides a convenient raised surface for personal or patrol use (p. 67).",
         "counselor_tip": "For Pioneering Requirement 3 (Camp Gadgets and Small Structures), verify the Scout's own observations and specific pamphlet details (Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68))."
@@ -1203,7 +1231,13 @@
       "workbook_diagram_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
       "number": "3",
       "description": "Do the following: (a) Using square and tripod lashings from requirement 2(c), build a Tripod Wash Station (or with your counselor's permission, another camp gadget of your own design). (b) Using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build a 15-foot Scout Stave Flagpole (or with your counselor's permission, another camp gadget of your own design). (c) Using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from requirements 2(b) and 2(c), build a Simple Camp Table (or with your counselor's permission, another camp gadget of your own design).",
-      "workbook_visual_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves."
+      "workbook_visual_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
+      "pamphlet_summary": "Camp gadgets demonstrate practical lashing mechanics on functional, lightweight campsite utility equipment. Constructing wash stations, flagpoles, and tables reinforces proper rope tensioning and timber alignment principles.",
+      "socratic_questions": [
+        "Why must shear lashing wraps remain slightly loose before opening the tripod legs?",
+        "Where does the greatest bending stress occur along an extended scout stave flagpole?",
+        "How does floor lashing prevent table top branches from rolling under cooking pots?"
+      ]
     },
     {
       "req_id": "4",
@@ -1226,11 +1260,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Rope Selection Strength and Care",
+      "topic_title": "Req 4: Cordage Characteristics and Selection",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 4): Complete all Rope Selection Strength and Care discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Retire any rope that shows internal powdering, acidic chemical stains, or melted synthetic strands.",
       "pamphlet_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 9, p. 10)",
       "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 9, p. 10)",
       "syllabus_bucket": "In-Class Concept",
@@ -1260,8 +1294,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "A rope's breaking strength represents the maximum weight you can safely hang from that rope during a pioneering project.",
-        "fact": "Safe working load is much lower than breaking strength, typically calculated as a fraction of the breaking strength to account for knots, wear, and dynamic loads (p. 10)."
+        "misconception": "Nylon rope is superior for pioneering towers because it has higher breaking strength.",
+        "fact": "Nylon stretches excessively under load, loosening lashings and destabilizing elevated tower platforms.",
+        "myth": "Nylon rope is superior for pioneering towers because it has higher breaking strength.",
+        "fact_correction": "Nylon stretches excessively under load, loosening lashings and destabilizing elevated tower platforms."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1285,16 +1321,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Finger Safety During Frapping: When lifting a spar to facilitate the frapping of atripod or shear lashing, always ensure the person working the rope doesn't injure their fingers (p. 9).",
-        "Scheduled Crew Alignment Breaks: Take regular breaks to discuss the work in progress and ensure everyone understands what is required of them (p. 9).",
-        "Heavy Mallet Handling Caution: Use extra care when using heavy mallets to pound in pioneering stakes (p. 9).",
-        "Heeling In Structure Legs: For safety, heel in the legs of a structure by setting them in holes approximately 4 to 6 inches deep (p. 9)."
+        "Manila Fiber Grip: Natural manila fibers bite together under load, preventing lashing wraps from slipping.",
+        "Nylon Elasticity Danger: Synthetic nylon stretches thirty percent, storing kinetic energy that causes sudden whiplash.",
+        "Working Load Limit: Safe working loads must remain below one fifth of total breaking strength.",
+        "Cordage Storage Care: Store natural fiber ropes coiled in dry, well ventilated lockers to stop mildew."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Swing Heavy Mallets Safely: Use extra care when using heavy mallets to pound in pioneering stakes (p. 9).",
-        "Step 2 - Dig Four-Inch Footing Holes: For safety, heel in the legs of a structure by setting them in holes approximately 4 to 6 inches deep (p. 9).",
-        "Step 3 - Follow Specified Material Strengths: If the design calls for a certain size and type of rope or spar, do not substitute anything of lesser strength (p. 9).",
-        "Step 4 - Test Completed Structure Thoroughly: Before allowing general use, run a complete test tosee everything is working correctly (p. 9)."
+        "Step 1 - Material Assessment: Check rope tags to verify natural manila construction before rigging structural joints.",
+        "Step 2 - Load Calculation: Divide catalog breaking strength by five to establish the safe working limit.",
+        "Step 3 - Strand Examination: Untwist outer strands gently to check internal fibers for discoloration or grit.",
+        "Step 4 - Proper Coiling: Coil working lines clockwise into clean loops to prevent kinks during storage."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1367,7 +1403,13 @@
       "workbook_diagram_caption": "A Scout works with tensioned ropes outdoors while building a pioneering timber construction project.",
       "number": "4",
       "description": "Explain the differences between synthetic ropes and natural-fiber ropes. Discuss which types of rope are suitable for pioneering work and why. Include the following in your discussion: breaking strength, safe working loads, and the care and storage of rope.",
-      "workbook_visual_caption": "A Scout works with tensioned ropes outdoors while building a pioneering timber construction project."
+      "workbook_visual_caption": "A Scout works with tensioned ropes outdoors while building a pioneering timber construction project.",
+      "pamphlet_summary": "Pioneering projects require manila cordage because natural fibers provide predictable grip and minimal elastic stretch under load. Synthetic nylon ropes stretch excessively and can slip dangerously when friction hitches or lashings bear weight.",
+      "socratic_questions": [
+        "Why is rope stretch dangerous when tensioning monkey bridge foot ropes?",
+        "How does moisture impact the breaking strength of natural manila fiber cordage?",
+        "Why is polypropylene rope unacceptable for structural pioneering lashings and guy anchors?"
+      ]
     },
     {
       "req_id": "5",
@@ -1398,11 +1440,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Back Eye and Short Splices",
+      "topic_title": "Req 5: Permanent Rope Splicing Techniques",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 5): Complete all Back Eye and Short Splices discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Never trust a splice that has fewer than three full tuck cycles per strand.",
       "pamphlet_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 52, p. 53)",
       "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 52, p. 53)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1430,8 +1472,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "A back splice is the best way to finish a rope end that needs to thread smoothly through a tight pulley block.",
-        "fact": "Because a back splice weaves the strands back into the standing part, it thickens the end of the rope, making whipping a better choice when the line must fit through small blocks (p. 52)."
+        "misconception": "Tying a knot in rope is just as strong as completing a proper splice.",
+        "fact": "Knots reduce rope breaking strength up to fifty percent, while splices retain ninety percent.",
+        "myth": "Tying a knot in rope is just as strong as completing a proper splice.",
+        "fact_correction": "Knots reduce rope breaking strength up to fifty percent, while splices retain ninety percent."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1455,16 +1499,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Unlaying Sufficient Rope Strands: Unlay more than sufficient to make the splice and spread the strands evenly (p. 52).",
-        "Temporary Strand End Whipping: With pieces of string or some tape, temporarily whip the ends of each strand (p. 52).",
-        "Forming the Crown Knot: Make a crown knot by bending each end over its neighbor in turn, going the same way round as the lay of the rope (p. 52).",
-        "Over-and-Under Strand Tucking: Tuck each end in turn over the adjoining main strand and under the next (p. 52)."
+        "Eye Splice Durability: Eye splices retain ninety percent of rope strength while forming permanent terminal loops.",
+        "Crown Knot Base: Back splices begin with a crown knot to redirect strands down the line.",
+        "Short Splice Bulk: Short splices double rope diameter at the joint, preventing passage through standard blocks.",
+        "Strand Tucking Rule: Three full tucks against rope lay ensure maximum friction against strand pullout."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Tie Initial Crown Knot: Make a crown knot by bending each end over its neighbor in turn, going the same way round as the lay of the rope (p. 52).",
-        "Step 2 - Tuck Strands: Tuck each end in turn over the adjoining main strand and under the next (p. 52).",
-        "Step 3 - Complete Three Full Tucks: Continue over and under one in turn at least three times (p. 52).",
-        "Step 4 - Join Ropes Without Knots: A short splice can be used in place of a knot to join two ropes or the ends of the same rope together (p. 52)."
+        "Step 1 - Strand Unlaying: Unlay three strand ends five turns and tape tips to prevent unravelling.",
+        "Step 2 - Core Positioning: Form the desired eye diameter and marry working strands across standing lines.",
+        "Step 3 - Friction Weaving: Tuck each working strand over one standing strand and under the next.",
+        "Step 4 - Joint Tapering: Complete three tuck cycles, roll underfoot, and trim excess strand ends neatly."
       ],
       "gear_checklist": [
         "Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine",
@@ -1542,7 +1586,13 @@
       "workbook_diagram_caption": "Tall bamboo spars lashed together create a lightweight pioneering tower structure in an outdoor grove.",
       "number": "5",
       "description": "Explain the uses for the back splice, eye splice, and short splice. View a demonstration on forming each splice.",
-      "workbook_visual_caption": "Tall bamboo spars lashed together create a lightweight pioneering tower structure in an outdoor grove."
+      "workbook_visual_caption": "Tall bamboo spars lashed together create a lightweight pioneering tower structure in an outdoor grove.",
+      "pamphlet_summary": "Splicing weaves individual rope strands back into the body of the line to create permanent terminations or splices. An eye splice creates a durable loop, a short splice joins two ropes, and a back splice finishes ends.",
+      "socratic_questions": [
+        "Why does an eye splice retain more strength than a bowline knot?",
+        "Why can a short splice jam if pulled through a tackle pulley block?",
+        "What causes strands to pop out of a splice when subjected to cyclic tension?"
+      ]
     },
     {
       "req_id": "6",
@@ -1565,11 +1615,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Making and Whipping Three-Strand Rope",
+      "topic_title": "Req 6: Three Strand Rope Fabrication",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Pioneering Requirement 6: travel with a buddy, carry the Scout Basic Essentials and water while studying making and whipping three-strand rope, and respect wildlife distance and Leave No Trace guidelines.",
+      "safety_callout": "Keep hair, loose clothing, and fingers away from rotating crank hooks during twisting.",
       "pamphlet_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 13, p. 47)",
       "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 13, p. 47)",
       "syllabus_bucket": "In-Class Concept",
@@ -1597,8 +1647,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "To make a three-strand rope hold together, you twist the individual strands and the final combined rope in the exact same rotational direction.",
-        "fact": "Rope stays tightly laid because the three strands are twisted in one direction while the combined strands are laid together in the opposite direction, creating balanced counter-tension (p. 47)."
+        "misconception": "Twisting yarns tighter always produces a stronger and more pliable finished rope.",
+        "fact": "Over-twisting causes hockles and stiffens rope, severely reducing overall tensile strength.",
+        "myth": "Twisting yarns tighter always produces a stronger and more pliable finished rope.",
+        "fact_correction": "Over-twisting causes hockles and stiffens rope, severely reducing overall tensile strength."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1622,16 +1674,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Proper Whipping Length Ratio: Make the whipping as long as the diameter of the rope (p. 13).",
-        "Alternating Front-and-Back Half Knots: Continue by taking the two ends of the whipping cord around the back of the rope (away from you), and tie another half knot identical to the first (see) (p. 13).",
-        "Tight Repeated Half Knots: Keep repeating the half knots, front and back, pulling each one tight, until the whipping has been formed (p. 13).",
-        "Square Knot Finishing Trim: The West Country whipping is finished with a square knot and the excess cord is trimmed (p. 13)."
+        "Yarn Strand Ratio: Twist three individual binder twine yarns clockwise to create each uniform strand.",
+        "Counter Twist Lay: Laying finished strands counterclockwise locks the internal twists through opposing torsional friction.",
+        "Rope Wrench Function: Move the wooden guide wrench slowly forward to regulate uniform strand twist density.",
+        "Terminal Whipping Duty: Whip rope ends immediately upon release to stop instantaneous strand unlaying."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Repeat Tight Half Knots: Keep repeating the half knots, front and back, pulling each one tight, until the whipping has been formed (p. 13).",
-        "Step 2 - Finish with Square Knot: The West Country whipping is finished with a square knot and the excess cord is trimmed (p. 13).",
-        "Step 3 - Align Knots Snugly Together: Tie each half knot either right over left or left over right so that the knots lay neatly together and snug against the previous knot to form a smooth (p. 13).",
-        "Step 4 - Protect Rope Ends Early: Sail maker's knew that alittle extra effort spent whipping the ends of the ropes would make their work much easier in the long haul (p. 13)."
+        "Step 1 - Yarn Setup: Hook three sets of three binder twine yarns between twisting crank hooks.",
+        "Step 2 - Strand Twisting: Turn the crank clockwise until yarns twist tightly into kinked, firm strands.",
+        "Step 3 - Wrench Insertion: Place the grooved wooden wrench between strands to control the closing lay rate.",
+        "Step 4 - Counter Laying: Rotate the single hook counterclockwise while advancing the wrench smoothly along cordage."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1704,7 +1756,13 @@
       "workbook_diagram_caption": "Three numbered steps demonstrate tying alternating overhand knots to complete a West Country whipping.",
       "number": "6",
       "description": "Using a rope-making device or machine, make a rope at least 6 feet long consisting of three strands, each having three yarns. Whip the ends.",
-      "workbook_visual_caption": "Three numbered steps demonstrate tying alternating overhand knots to complete a West Country whipping."
+      "workbook_visual_caption": "Three numbered steps demonstrate tying alternating overhand knots to complete a West Country whipping.",
+      "pamphlet_summary": "Making custom rope involves twisting individual yarns into strands before counter-twisting three strands together into a finished cord. A grooved rope wrench maintains uniform tension and controls the pitch of the closing twist.",
+      "socratic_questions": [
+        "Why must the twist of the finished rope oppose the twist of individual strands?",
+        "What happens to the rope lay if the wooden wrench advances too quickly?",
+        "How does uneven tension on the initial three yarns weaken the final rope?"
+      ]
     },
     {
       "req_id": "7",
@@ -1727,11 +1785,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Pioneering Project Anchoring Systems",
+      "topic_title": "Req 7: Structural Guy Line Anchoring Systems",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 7): Complete all Pioneering Project Anchoring Systems discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Never stand in line with a loaded guy rope or anchored picket cluster.",
       "pamphlet_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 84, p. 88)",
       "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 84, p. 88)",
       "syllabus_bucket": "In-Class Concept",
@@ -1761,8 +1819,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "In a 3-2-1 anchoring system, the main guyline from the pioneering tower is tied evenly across all six stakes at the same time.",
-        "fact": "The main structural guyline attaches to the front cluster of three stakes, while lashed tie-backs connect the top of the front stakes to the middle two stakes and then to the rear single stake (p. 88)."
+        "misconception": "A single vertical iron bar driven halfway into the ground holds any bridge.",
+        "fact": "Vertical stakes bend and pull through surface turf; angled, linked pickets distribute load safely.",
+        "myth": "A single vertical iron bar driven halfway into the ground holds any bridge.",
+        "fact_correction": "Vertical stakes bend and pull through surface turf; angled, linked pickets distribute load safely."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1786,16 +1846,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Single-Trestle Dual-Walkway Bridge: This simple bridge uses a single trestle and two walkways (p. 84).",
-        "Extended Trestle Handrail Legs: The legs of the trestle are extended above the walkways to provide away to attach handrails (p. 84).",
-        "Trestle Leg Spar Dimensions: The legs for the trestle are spars that are about 3 inches in diameter and 8 to 10 feet long (p. 84).",
-        "Accounting for Creek Depth: When choosing these spars, take into account the depth of the creek you're crossing (p. 84)."
+        "Picket Drive Angle: Drive anchoring stakes at sixty degree angles leaning away from structural tension.",
+        "Three Two One Stacking: Picket groupings of three, two, and one stake distribute pull across soil.",
+        "Spanish Windlass Cinch: Spanish windlasses tighten picket lashing lines, locking adjacent stakes into rigid units.",
+        "Log And Stake Depth: Bury cross logs three feet deep against driven retaining stakes for deadman anchors."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Select Three-Inch Leg Spars: The legs for the trestle are spars that are about 3 inches in diameter and 8 to 10 feet long (p. 84).",
-        "Step 2 - Measure Creek Crossing Depth: When choosing these spars, take into account the depth of the creek you're crossing (p. 84).",
-        "Step 3 - Set Transom Above Banks: The distance from the base of the legs to the top ledger (transom) on the trestle should be about 1 foot higher than the level of the banks (p. 84).",
-        "Step 4 - Join Trestles with Spreaders: It's formed by building two trestles with top handrails, and joining them on each side with three spreaders and a diagonal support (p. 84)."
+        "Step 1 - Ground Testing: Drive a test rod to verify soil density before establishing structural anchor lines.",
+        "Step 2 - Picket Driving: Sledge three wooden stakes into firm ground at sixty degree reverse angles.",
+        "Step 3 - Picket Binding: Wrap heavy cordage from the top of front stakes to rear bases.",
+        "Step 4 - Windlass Cinch: Insert a stout stick to twist the binding cordage into rigid alignment."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1868,7 +1928,13 @@
       "workbook_diagram_caption": "Scouts position wooden deck boards across the framework of an elevated pioneering walkway structure.",
       "number": "7",
       "description": "Explain the importance of effectively anchoring a pioneering project. Describe to your counselor the 3-2-1 anchoring system and the log-and-stake anchoring system.",
-      "workbook_visual_caption": "Scouts position wooden deck boards across the framework of an elevated pioneering walkway structure."
+      "workbook_visual_caption": "Scouts position wooden deck boards across the framework of an elevated pioneering walkway structure.",
+      "pamphlet_summary": "Pioneers rely on ground anchors to absorb immense lateral forces generated by bridges and elevated observation towers. The 3-2-1 picketed system and log-and-stake deadman configurations transfer rope tension deep into undisturbed soil.",
+      "socratic_questions": [
+        "Why must the binding rope connect the top of one stake to the bottom of the next?",
+        "How does wet, sandy soil change the required depth for a log-and-stake anchor?",
+        "What physical signs indicate that an anchor picket is starting to fail under load?"
+      ]
     },
     {
       "req_id": "8",
@@ -1891,11 +1957,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Trestle Framing and Cross Bracing",
+      "topic_title": "Req 8: Trestle Framework and Bracing Mechanics",
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 8): Complete all Trestle Framing and Cross Bracing discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Inspect all trestle lashing joints for slippage before standing frames upright on site.",
       "pamphlet_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 70, p. 88)",
       "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 70, p. 88)",
       "syllabus_bucket": "In-Class Concept",
@@ -1923,8 +1989,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Both diagonal X braces on a pioneering trestle should be lashed entirely on the same side of the two main legs so they lie flat against each other.",
-        "fact": "To balance the frame and prevent twisting, one cross brace is lashed to the front of both legs while the other cross brace is lashed to the back, or its ends are alternated front and back, and pulled together at the center with a diagonal lashing (p. 70)."
+        "misconception": "A simple rectangular frame with four square corners supports heavy pioneering bridge decks.",
+        "fact": "Rectangular frames rack instantly without diagonal X braces forming rigid structural triangles.",
+        "myth": "A simple rectangular frame with four square corners supports heavy pioneering bridge decks.",
+        "fact_correction": "Rectangular frames rack instantly without diagonal X braces forming rigid structural triangles."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1948,16 +2016,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Core Bridge Building Component: A trestle is the basic component for building a variety of bridges (p. 70).",
-        "Six-Spar Trestle Frame Anatomy: The overall shape The most basic and most often-used form of a trestle consists of two legs, two ledgers, and two cross braces (p. 70).",
-        "Bridge Top Transom Ledger: When building abridge, the top ledger is also called a transom (p. 70).",
-        "Eight Square One Diagonal: Eight of them are square lashings and one is a diagonal lashing, which is used to lash the two cross braces together where they cross in the center (p. 70)."
+        "Trestle Leg Symmetry: Legs must form an isosceles trapezoid to distribute downward weight evenly across ground.",
+        "Ledger Attachment Points: Square lashings secure horizontal ledgers firmly beneath the trestle legs to bear loads.",
+        "Diagonal Cross Bracing: X braces attached to opposite pole faces prevent racking and torsional frame twisting.",
+        "Center Intersection Binding: A diagonal lashing binds crossing X braces where they spring apart under stress."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Identify Top Bridge Transom: When building abridge, the top ledger is also called a transom (p. 70).",
-        "Step 2 - Tie Nine Trestle Lashings: Eight of them are square lashings and one is a diagonal lashing, which is used to lash the two cross braces together where they cross in the center (p. 70).",
-        "Step 3 - Size Spars to Structure: These spars can be most any length, depending on the type and height of the structure you're building (p. 70).",
-        "Step 4 - Align Butt Ends Evenly: Lay the two legs on the ground with the two butt ends of the spars at the same end and even with one another (p. 70)."
+        "Step 1 - Spar Alignment: Lay two trestle legs parallel, spacing them wider at the base than top.",
+        "Step 2 - Ledger Lashing: Secure top and bottom horizontal ledgers across legs using tight square lashings.",
+        "Step 3 - Diagonal Positioning: Place two cross braces diagonally across opposite sides of the rectangular frame.",
+        "Step 4 - Joint Locking: Lash four brace ends with square lashings and the center with diagonal lashing."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -2030,7 +2098,13 @@
       "workbook_diagram_caption": "Four progressive steps illustrate wrapping and frapping crossed wooden spars with a diagonal lashing.",
       "number": "8",
       "description": "Describe the lashings that are used when building a trestle, how the poles are positioned, and how X braces contribute to the overall structural integrity of a pioneering project.",
-      "workbook_visual_caption": "Four progressive steps illustrate wrapping and frapping crossed wooden spars with a diagonal lashing."
+      "workbook_visual_caption": "Four progressive steps illustrate wrapping and frapping crossed wooden spars with a diagonal lashing.",
+      "pamphlet_summary": "A pioneering trestle forms the fundamental rigid modular frame for bridges, signal towers, and large camp gateways. Cross braces arranged in an X configuration resist diagonal shearing loads and prevent rectangular frame collapse.",
+      "socratic_questions": [
+        "Why do the two diagonal X braces sit on opposite faces of the trestle legs?",
+        "What structural force turns a rigid rectangular frame into a collapsed parallelogram?",
+        "Why is a diagonal lashing mandatory at the center intersection of the X braces?"
+      ]
     },
     {
       "req_id": "9",
@@ -2069,11 +2143,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Full-Size Pioneering Structure Construction",
+      "topic_title": "Req 9: Full Scale Pioneering Structure Construction",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Pioneering Requirement 9: travel with a buddy, carry the Scout Basic Essentials and water while studying full-size pioneering structure construction, and respect wildlife distance and Leave No Trace guidelines.",
+      "safety_callout": "Station designated adult spotters beneath monkey bridge spans during all participant crossings.",
       "pamphlet_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 10, p. 79)",
       "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 10, p. 79)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -2101,8 +2175,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Full-size pioneering towers and bridges are built by holding upright poles in the air and tying lashings one spar at a time above the ground.",
-        "fact": "Major pioneering structures are built by lashing identical subassemblies like A-frames or trestles flat on the ground first, then joining and raising the completed frames safely into position (p. 79)."
+        "misconception": "Multiple Scouts can bounce simultaneously on a newly completed pioneering rope bridge.",
+        "fact": "Dynamic bouncing multiplies static cable loads fourfold, risking sudden catenary anchor failure.",
+        "myth": "Multiple Scouts can bounce simultaneously on a newly completed pioneering rope bridge.",
+        "fact_correction": "Dynamic bouncing multiplies static cable loads fourfold, risking sudden catenary anchor failure."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2126,16 +2202,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Simple Strop Lashing Method: A strop lashing is easy to tie (p. 10).",
-        "Midpoint Wraps and Knot: Halve the rope, place the midpoint behind what you'relashing, wrap both ends around the spars a few times and finish with asquare knot (p. 10).",
-        "Four Identical A-Frame Subassemblies: Build four identical A-frames using the 8-foot spars for the two legs and 6-foot spars for the ledger (p. 10).",
-        "Matching Ledger Height Alignment: Make sure the ledgers of each A-frame cross the legs at the same height and that the tips of the legs intersect at an equal distance from the tops (p. 10)."
+        "A Frame Angle: A frames must tilt outward fifteen degrees to establish stable guy rope geometry.",
+        "Foot Rope Tensioning: Tension main bridge cables using double rope tackles tied to primary log anchors.",
+        "Handrail Stringer Spacing: Tie vertical stringers between foot and hand ropes every three feet for safety.",
+        "Safe Crossing Capacity: Limit monkey bridge traffic to one single crossing Scout at any given time."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Assemble Four Matching A-Frames: Build four identical A-frames using the 8-foot spars for the two legs and 6-foot spars for the ledger (p. 10).",
-        "Step 2 - Align Ledgers and Tips: Make sure the ledgers of each A-frame cross the legs at the same height and that the tips of the legs intersect at an equal distance from the tops (p. 10).",
-        "Step 3 - Tie Three Square Lashings: Lash each A-frame together with three tight square lashings (p. 10).",
-        "Step 4 - Join Paired A-Frame Sections: When you have four identical A-frames, lash two of them together (p. 10)."
+        "Step 1 - Component Prefabrication: Lash all modular A frames and trestles flat on ground before final erection.",
+        "Step 2 - Anchor Installation: Drive three pickets or bury deadman logs at both bridge approach ends.",
+        "Step 3 - Cable Rigging: Thread main foot rope and hand ropes over shear legs to anchor points.",
+        "Step 4 - Staged Testing: Test structural ropes with ground level weight bags before permitting Scout crossing."
       ],
       "gear_checklist": [
         "Manila or synthetic sparring poles, 1/4-inch lashing ropes (15-20 ft), and whipping twine",
@@ -2213,7 +2289,13 @@
       "workbook_diagram_caption": "Scouts collaborate outdoors to secure wooden spars together while building a large timber A-frame.",
       "number": "9",
       "description": "Working in a group, (or individually with the help of your counselor) build a full size pioneering structure, using one of the following designs in the Pioneering merit badge pamphlet: Double A-Frame Monkey Bridge, Single A-Frame Bridge, Single Trestle Bridge, Single Lock Bridge, 4x4 Square Climbing Tower, Four Flag Gateway Tower, Double Tripod Chippewa Kitchen, or another type of structure approved in advance by your counselor. Carefully plan the project, assembling and organizing all the materials, referring to the points under Safe Pioneering, and complying with the height restrictions in the Guide to Safe Scouting.",
-      "workbook_visual_caption": "Scouts collaborate outdoors to secure wooden spars together while building a large timber A-frame."
+      "workbook_visual_caption": "Scouts collaborate outdoors to secure wooden spars together while building a large timber A-frame.",
+      "pamphlet_summary": "Building large pioneering structures like monkey bridges or signal towers requires unified teamwork, staged assembly, and rigid anchoring. Scouts must follow engineered project drawings, observe safety perimeters, and rigorously test foot ropes before crossing.",
+      "socratic_questions": [
+        "Why must bridge foot ropes be inspected for fiber wear before every single session?",
+        "How do guy lines prevent an A frame from toppling backward toward the anchor?",
+        "What emergency command halts all activity immediately if a lashing begins slipping?"
+      ]
     }
   ],
   "badge_slug": "pioneering",

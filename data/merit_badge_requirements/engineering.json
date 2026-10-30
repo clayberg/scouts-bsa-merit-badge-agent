@@ -33,11 +33,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Investigating Manufactured Household Items",
+      "topic_title": "Req 1: Manufactured Product Engineering Investigation",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Engineering Requirement 1 on investigating manufactured household items: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Disconnect all power cords and discharge internal capacitors before opening appliance enclosures.",
       "pamphlet_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 19, p. 43)",
       "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 19, p. 43)",
       "syllabus_bucket": "In-Class Concept",
@@ -67,8 +67,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "A Scout can safely disassemble and test a household electrical appliance alone as long as it is unplugged from the wall.",
-        "fact": "Investigating a manufactured household item or operating tools requires approval from your counselor and active supervision from an adult (p. 19)."
+        "misconception": "Consumer devices are engineered by a single person using one discipline.",
+        "fact": "Commercial products require multidisciplinary teams including mechanical, electrical, materials, and manufacturing engineers.",
+        "myth": "Consumer devices are engineered by a single person using one discipline.",
+        "fact_correction": "Commercial products require multidisciplinary teams including mechanical, electrical, materials, and manufacturing engineers."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -92,16 +94,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Adult Power Tool Supervision: The adult must always be present and aware of your task while you are operating a power tool (p. 19).",
-        "Drafting and Measurement Tools: List items you might need, such as a computer for computer aided drafting, drafting tools, voltmeter, measuring scale, or hand tools (p. 19).",
-        "Freestanding Patrol Box Design: This project might be a freestanding patrol box for base camping (p. 19).",
-        "Base Camp Lighting Upgrades: If the base camp has electrical power available, you might add alight to the design project (p. 19)."
+        "Disassembly Protocol: Unplug electrical appliances completely before loosening any external housing screws or fasteners.",
+        "Component Mapping: Trace kinetic energy pathways through gears, drive belts, levers, and rotating shafts.",
+        "Material Selection: Injection molded thermoplastics provide structural support while reducing total consumer assembly weight.",
+        "Manufacturing Tolerances: Precision mating surfaces require defined clearances to prevent premature operational friction wear."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Select a Practical Project: This project might be a freestanding patrol box for base camping (p. 19).",
-        "Step 2 - Incorporate Camp Lighting Features: If the base camp has electrical power available, you might add alight to the design project (p. 19).",
-        "Step 3 - Test Circuits With Multimeters: You have the multi meter to check the electrical system (p. 19).",
-        "Step 4 - Examine Integrated Circuit Components: Jack Kilby, Inventor of the Integrated Circuit Jack Kilby (1923-2005), an electrical engineer, invented the integrated circuit in 1958 while working (p. 19)."
+        "Step 1 - Device Selection: Choose a broken or obsolete household appliance with adult counselor approval.",
+        "Step 2 - Safe Teardown: Remove external fasteners systematically while cataloging component positions on labeled paper.",
+        "Step 3 - Mechanism Analysis: Trace power transfer mechanisms from the electrical input to mechanical output.",
+        "Step 4 - Engineering Synthesis: Document how manufacturing methods shaped each part for strength and assembly."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -174,7 +176,13 @@
       "workbook_diagram_caption": "Illustrated panels highlight engineering branches including mechanical gear design, robotics, and bridges.",
       "number": "1",
       "description": "Select a manufactured item in your home (such as a toy or an appliance) and, under adult supervision and with the approval of your counselor, investigate how and why it works as it does. Find out what sort of engineering activities were needed to create it. Discuss with your counselor what you learned and how you got the information.",
-      "workbook_visual_caption": "Illustrated panels highlight engineering branches including mechanical gear design, robotics, and bridges."
+      "workbook_visual_caption": "Illustrated panels highlight engineering branches including mechanical gear design, robotics, and bridges.",
+      "pamphlet_summary": "Engineers dissect manufactured consumer products to analyze internal mechanical linkages, circuit pathways, and material selections. This forensic examination reveals how manufacturing tolerances and design trade-offs balance durability against production cost.",
+      "socratic_questions": [
+        "Why did the manufacturer choose molded plastic over stamped sheet metal for this housing?",
+        "Where does mechanical wear most frequently occur along this drive train mechanism?",
+        "What failure mode would develop if this specific internal gear tooth sheared off?"
+      ]
     },
     {
       "req_id": "2",
@@ -201,11 +209,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Landmark Engineering Achievements and Impact",
+      "topic_title": "Req 2: Major Engineering Achievement Analysis",
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Engineering Requirement 2 on landmark engineering achievements and impact: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Follow internet safety guidelines and verify digital archive sources alongside adult counselors.",
       "pamphlet_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)",
       "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 26, p. 32)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -235,8 +243,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Major engineering landmarks like massive dams or bridges are designed by a single inventor working alone without scientific specialists.",
-        "fact": "Major engineering achievements require teams of specialists across civil, mechanical, electrical, chemical, and metallurgical disciplines to overcome physical obstacles (p. 26)."
+        "misconception": "Monumental feats occur when an inventor experiences an instantaneous stroke of genius.",
+        "fact": "Major achievements require decades of collaborative mathematical calculations, logistical trials, and incremental prototype revisions.",
+        "myth": "Monumental feats occur when an inventor experiences an instantaneous stroke of genius.",
+        "fact_correction": "Major achievements require decades of collaborative mathematical calculations, logistical trials, and incremental prototype revisions."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -265,16 +275,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Industrial Revolution Engineering Origins: Five early fields of engineering emerged to meet the growing needs of society that were brought about by the industrial revolution in the 1800s (p. 26).",
-        "Five Early Engineering Fields: These engineering fields were civil, mining and metallurgical, mechanical, chemical, and electrical (p. 26).",
-        "Structural Stability and Foundations: A critical part of designing these structures is making sure they will stay where they are put, that they will not tilt, shift, or sink into the soil (p. 26).",
-        "Geology and Physics Applications: Therefore, civil engineers often apply knowledge of geology and physics in their work. engineering, and surveying (p. 26)."
+        "Historical Milestones: Large municipal water treatment grids transformed modern human sanitation and disease prevention.",
+        "Interdisciplinary Collaboration: Megaprojects succeed because structural, geotechnical, and project management engineers unite technical disciplines.",
+        "Constraint Management: Engineers solve acute geographical, material, financial, and environmental limitations through creative design.",
+        "Societal Evolution: Infrastructure systems expand economic productivity while introducing complex long term maintenance responsibilities."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Prevent Structural Shifting Hazards: A critical part of designing these structures is making sure they will stay where they are put, that they will not tilt, shift, or sink into the soil (p. 26).",
-        "Step 2 - Apply Geology and Surveying: Therefore, civil engineers often apply knowledge of geology and physics in their work. engineering, and surveying (p. 26).",
-        "Step 3 - Study Hydroelectric Dam Landmarks: In 2006, the largest dam in the world built to produce electricity was completed in China (p. 26).",
-        "Step 4 - Analyze River Span Dimensions: The Three Gorges Dam stretches 1.4 miles across the massive Yangtze River (p. 26)."
+        "Step 1 - Achievement Selection: Select a prominent historical engineering feat such as the Panama Canal.",
+        "Step 2 - Primary Research: Investigate key historical engineers, project timelines, and technical obstacles using credible archives.",
+        "Step 3 - Innovation Assessment: Identify the breakthrough mathematics, machines, or materials developed to finish the project.",
+        "Step 4 - Societal Reflection: Prepare an analytical summary describing how the project transformed human civilization permanently."
       ],
       "gear_checklist": [
         "Official Engineering merit badge pamphlet and workbook organizer for Req 2",
@@ -352,7 +362,13 @@
       "workbook_diagram_caption": "Historical scenes illustrate Roman aqueduct arches, early steam locomotives, stone bridges, and industrial iron casting.",
       "number": "2",
       "description": "Select an engineering achievement that has had a major impact on society. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out about the engineers who made this engineering feat possible, the special obstacles they had to overcome, and how this achievement has influenced the world today. Tell your counselor what you learned.",
-      "workbook_visual_caption": "Historical scenes illustrate Roman aqueduct arches, early steam locomotives, stone bridges, and industrial iron casting."
+      "workbook_visual_caption": "Historical scenes illustrate Roman aqueduct arches, early steam locomotives, stone bridges, and industrial iron casting.",
+      "pamphlet_summary": "Historic engineering achievements reshape modern civilization by solving massive logistical, structural, and public health challenges. Researching these milestones highlights the iterative testing, mathematical modeling, and team coordination required for success.",
+      "socratic_questions": [
+        "What unintended environmental consequences emerged after completing this major engineering project?",
+        "Which specialized engineering disciplines had to collaborate to overcome the main geographic obstacle?",
+        "How would modern digital simulation tools alter the original design and construction timeline?"
+      ]
     },
     {
       "req_id": "3",
@@ -379,11 +395,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Six Major Engineering Disciplines",
+      "topic_title": "Req 3: Core Engineering Disciplines Comparison",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Engineering Requirement 3 on six major engineering disciplines: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Wear high visibility vests, steel toe boots, and hard hats when visiting industrial jobsites.",
       "pamphlet_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)",
       "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 76)",
       "syllabus_bucket": "In-Class Concept",
@@ -411,8 +427,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Every engineer in a given discipline performs the exact same daily job tasks from initial math modeling to factory maintenance.",
-        "fact": "Beyond industry fields like civil or electrical, engineers also specialize by functional responsibility, such as design engineering or analytical engineering (p. 38)."
+        "misconception": "Engineers in different fields use completely unrelated scientific rules to solve problems.",
+        "fact": "All branches rely on fundamental conservation laws, calculus, material science, and the engineering method.",
+        "myth": "Engineers in different fields use completely unrelated scientific rules to solve problems.",
+        "fact_correction": "All branches rely on fundamental conservation laws, calculus, material science, and the engineering method."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -436,16 +454,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Diverse Engineering Functional Roles: Besides specializing in particular fields, different engineers have different responsibilities (p. 38).",
-        "Creative Problem-Solving in Design: The design engineer uses new and existing ideas to solve a new problem or to solve an old problem in a new way (p. 38).",
-        "Budget and Safety Constraints: These engineers find solutions that work according to the project's requirements, stay within the budget, and are easy and safe to use (p. 38).",
-        "Durability and Environmental Safety: The solutions must be doable, long-lasting, practical to maintain or repair, and environmentally safe (p. 38)."
+        "Mechanical Systems: Mechanical engineers design physical machines, thermal management systems, and dynamic moving linkages.",
+        "Civil Infrastructure: Civil engineers construct bridges, municipal water treatment networks, foundations, and transportation corridors.",
+        "Electrical Circuitry: Electrical engineers develop power distribution grids, microprocessors, sensor arrays, and electromagnetic communications.",
+        "Chemical Processing: Chemical engineers convert raw feedstocks into refined fuels, polymers, and synthetic compounds."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Verify Budget and Requirements: These engineers find solutions that work according to the project's requirements, stay within the budget, and are easy and safe to use (p. 38).",
-        "Step 2 - Ensure Practical Maintenance Standards: The solutions must be doable, long-lasting, practical to maintain or repair, and environmentally safe (p. 38).",
-        "Step 3 - Build Mathematical Problem Models: The analytical engineer is mainly responsible for creating mathematical models of physical problems (p. 38).",
-        "Step 4 - Simulate Physical Object Behavior: Analysis is the process of using the methods and tools of mathematics to simulate (mimic) how a physical object will behave in response (p. 38)."
+        "Step 1 - Branch Survey: Catalog six major engineering fields including mechanical, civil, chemical, and electrical.",
+        "Step 2 - Role Definition: Summarize daily job duties, typical workspaces, and end products for each discipline.",
+        "Step 3 - Pair Selection: Select two contrasting disciplines to evaluate their shared engineering problem solving methods.",
+        "Step 4 - Technical Synthesis: Explain how both chosen fields apply physics, mathematics, and iterative prototype testing."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -518,7 +536,13 @@
       "workbook_diagram_caption": "Split panels show aerospace engineers monitoring orbital spacecraft and cleanroom technicians developing biomedical systems.",
       "number": "3",
       "description": "Explain the work of six types of engineers. Pick two of the six types and explain how their work is related to engineering.",
-      "workbook_visual_caption": "Split panels show aerospace engineers monitoring orbital spacecraft and cleanroom technicians developing biomedical systems."
+      "workbook_visual_caption": "Split panels show aerospace engineers monitoring orbital spacecraft and cleanroom technicians developing biomedical systems.",
+      "pamphlet_summary": "Engineering divides into distinct disciplines that apply scientific principles to solve specialized physical and digital problems. Despite differing operational environments, all branches share core methodologies centered on mathematical modeling and iterative optimization.",
+      "socratic_questions": [
+        "How do mechanical and electrical engineers coordinate when designing an electric vehicle powertrain?",
+        "In what ways does a chemical plant rely directly on civil engineering site design?",
+        "Which scientific law applies equally across aerospace aerodynamics and civil hydraulic pipeline flow?"
+      ]
     },
     {
       "req_id": "4",
@@ -557,8 +581,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Modern engineers only use computer software and no longer need physical testing tools or laboratory measurements.",
-            "fact": "Engineers rely on both analytical software tools to simulate performance and physical measurement instruments to verify real-world results (p. 38)."
+            "misconception": "Engineering tools are limited to manual hand tools like calipers and soldering irons.",
+            "fact": "Modern engineers primarily use computer aided design software, finite element simulators, and specialized diagnostic instruments.",
+            "myth": "Engineering tools are limited to manual hand tools like calipers and soldering irons.",
+            "fact_correction": "Modern engineers primarily use computer aided design software, finite element simulators, and specialized diagnostic instruments."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -585,9 +611,9 @@
           "sub_req_label": "4a",
           "sub_req_text": "Discuss the work this engineer does and the tools the engineer uses.",
           "topic_title": "Req 4a: Engineering Duties and Tools",
-          "pamphlet_summary": "Engineering Duties and Tools: The design engineer uses new and existing ideas to solve a new problem or to solve an old problem in a new way (p. 38).",
+          "pamphlet_summary": "Engineers use specialized software and physical instruments to design, analyze, and test technical solutions. Daily tasks combine computer simulation with physical testing to validate performance under operating conditions.",
           "pamphlet_excerpts": [
-            "Engineering Duties and Tools: The design engineer uses new and existing ideas to solve a new problem or to solve an old problem in a new way (p. 38)."
+            "Engineers use specialized software and physical instruments to design, analyze, and test technical solutions. Daily tasks combine computer simulation with physical testing to validate performance under operating conditions."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png",
           "workbook_diagram_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
@@ -623,8 +649,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
-            "misconception": "A single engineer on a current project is solely responsible for every financial, legal, and manufacturing task.",
-            "fact": "Every engineer plays a specific role on a larger project team to ensure requirements, budgets, and safety standards are met (p. 38)."
+            "misconception": "A lead project engineer oversees every single detailed calculation without specialized team delegation.",
+            "fact": "Engineers contribute as subsystem leads, materials analysts, or quality specialists within a larger structured project hierarchy.",
+            "myth": "A lead project engineer oversees every single detailed calculation without specialized team delegation.",
+            "fact_correction": "Engineers contribute as subsystem leads, materials analysts, or quality specialists within a larger structured project hierarchy."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -650,10 +678,10 @@
           "id": "4b",
           "sub_req_label": "4b",
           "sub_req_text": "Discuss with the engineer a current project and the engineer's particular role.",
-          "topic_title": "Req 4b: Current Project and Role",
-          "pamphlet_summary": "For Engineering Requirement 4b (Current Project and Role): The Engineering pamphlet for Requirement 4b details with the engineer a current project and the engineer's particular role, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38).",
+          "topic_title": "Req 4b: Active Project Role Examination",
+          "pamphlet_summary": "Complex engineering initiatives require distinct specialists who manage discrete subassemblies or analytical stages. Understanding an individual engineer's exact role reveals how distributed project teams achieve unified objectives.",
           "pamphlet_excerpts": [
-            "Current Project and Role: The Engineering pamphlet for Requirement 4b details with the engineer a current project and the engineer's particular role, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38)."
+            "Complex engineering initiatives require distinct specialists who manage discrete subassemblies or analytical stages. Understanding an individual engineer's exact role reveals how distributed project teams achieve unified objectives."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png",
           "title": "Req 4b: Current Project and Role",
@@ -690,8 +718,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Written engineering reports are optional paperwork filed only after a project has failed.",
-            "fact": "Technical reports document how results were achieved, verify compliance with requirements, and guide maintenance and future improvements (p. 48)."
+            "misconception": "Engineering outcomes are proven solely through intuition and trial error without rigorous documentation.",
+            "fact": "Engineers validate results by comparing experimental empirical data against predictive mathematical models and established codes.",
+            "myth": "Engineering outcomes are proven solely through intuition and trial error without rigorous documentation.",
+            "fact_correction": "Engineers validate results by comparing experimental empirical data against predictive mathematical models and established codes."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -717,10 +747,10 @@
           "id": "4c",
           "sub_req_label": "4c",
           "sub_req_text": "Find out how the engineer's work is done and how results are achieved.",
-          "topic_title": "Req 4c: Workflow and Achieving Results",
-          "pamphlet_summary": "Workflow and Achieving Results: These engineers find solutions that work according to the project's requirements, stay within the budget, and are easy and safe to use (p. 38).",
+          "topic_title": "Req 4c: Engineering Methodology and Results",
+          "pamphlet_summary": "Engineers achieve verified results through structured design iterations, rigorous stress tests, and mathematical peer reviews. Documenting each testing milestone guarantees that final builds satisfy performance criteria safely.",
           "pamphlet_excerpts": [
-            "Workflow and Achieving Results: These engineers find solutions that work according to the project's requirements, stay within the budget, and are easy and safe to use (p. 38)."
+            "Engineers achieve verified results through structured design iterations, rigorous stress tests, and mathematical peer reviews. Documenting each testing milestone guarantees that final builds satisfy performance criteria safely."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png",
           "workbook_diagram_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
@@ -756,8 +786,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
-            "misconception": "During Engineering Requirement 4d, Scouts can underestimate how directly mastery of project technical reports depends on understanding ask to see the reports that the engineer writes concerning the project.",
-            "fact": "Scouting America standards for Engineering Requirement 4d require complete workbook entries on project technical reports to demonstrate full understanding of ask to see the reports that the engineer writes concerning the project."
+            "misconception": "Engineering reports are informal personal notes that only the original author needs to read.",
+            "fact": "Formal engineering documentation represents legally binding technical records subjected to peer audits and regulatory reviews.",
+            "myth": "Engineering reports are informal personal notes that only the original author needs to read.",
+            "fact_correction": "Formal engineering documentation represents legally binding technical records subjected to peer audits and regulatory reviews."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -783,10 +815,10 @@
           "id": "4d",
           "sub_req_label": "4d",
           "sub_req_text": "Ask to see the reports that the engineer writes concerning the project.",
-          "topic_title": "Req 4d: Project Technical Reports",
-          "pamphlet_summary": "For Engineering Requirement 4d (Project Technical Reports): The Engineering pamphlet for Requirement 4d details ask to see the reports that the engineer writes concerning the project, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38).",
+          "topic_title": "Req 4d: Technical Project Documentation Review",
+          "pamphlet_summary": "Engineering reports document calculations, materials testing, failure mode analyses, and regulatory compliance. These formal records create an accountable audit trail for future maintenance, safety inspections, and revisions.",
           "pamphlet_excerpts": [
-            "Project Technical Reports: The Engineering pamphlet for Requirement 4d details ask to see the reports that the engineer writes concerning the project, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38)."
+            "Engineering reports document calculations, materials testing, failure mode analyses, and regulatory compliance. These formal records create an accountable audit trail for future maintenance, safety inspections, and revisions."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png",
           "workbook_diagram_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
@@ -822,10 +854,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Counselor Visit Debrief (Req 4e) or confusing Counselor Visit Debrief with general Visiting a Practicing Professional Engineer procedures.",
-            "fact": "For Requirement 4e (Counselor Visit Debrief), The Engineering pamphlet for Requirement 4e details what you learned about engineering from this visit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38).",
-            "myth": "Overlooking the specific field checks required for Counselor Visit Debrief (Req 4e) or confusing Counselor Visit Debrief with general Visiting a Practicing Professional Engineer procedures.",
-            "fact_correction": "For Requirement 4e (Counselor Visit Debrief), The Engineering pamphlet for Requirement 4e details what you learned about engineering from this visit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38)."
+            "misconception": "A site visit only serves to confirm whether someone enjoys working in an office.",
+            "fact": "Debriefing an engineering visit highlights how technical standards, communication skills, and safety ethics intersect in practice.",
+            "myth": "A site visit only serves to confirm whether someone enjoys working in an office.",
+            "fact_correction": "Debriefing an engineering visit highlights how technical standards, communication skills, and safety ethics intersect in practice."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -851,10 +883,10 @@
           "id": "4e",
           "sub_req_label": "4e",
           "sub_req_text": "Discuss with your counselor what you learned about engineering from this visit.",
-          "topic_title": "Req 4e: Counselor Visit Debrief",
-          "pamphlet_summary": "For Engineering Requirement 4e (Counselor Visit Debrief): The Engineering pamphlet for Requirement 4e details what you learned about engineering from this visit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38).",
+          "topic_title": "Req 4e: Engineering Visit Learning Synthesis",
+          "pamphlet_summary": "Reflecting on an engineering workplace visit connects classroom science concepts to practical industrial problem solving. Discussing these takeaways with the counselor clarifies academic pathways and career opportunities.",
           "pamphlet_excerpts": [
-            "Counselor Visit Debrief: The Engineering pamphlet for Requirement 4e details what you learned about engineering from this visit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38)."
+            "Reflecting on an engineering workplace visit connects classroom science concepts to practical industrial problem solving. Discussing these takeaways with the counselor clarifies academic pathways and career opportunities."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png",
           "title": "Req 4e: Counselor Visit Debrief",
@@ -871,11 +903,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Visiting a Practicing Professional Engineer",
+      "topic_title": "Req 4: Professional Engineering Field Interview",
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Engineering Requirement 4 on visiting a practicing professional engineer: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Comply with all facility safety briefings and visitor badging protocols during site tours.",
       "pamphlet_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
       "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -909,8 +941,10 @@
         "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "Professional engineers spend all of their time building hardware or running equations and never need to write formal reports.",
-        "fact": "Practicing engineers spend significant time writing technical reports, documenting test results, and coordinating with project teams alongside using technical tools (p. 48)."
+        "misconception": "Engineers spend their entire working day operating machinery or building physical prototypes.",
+        "fact": "Most professional engineering hours involve computer modeling, mathematical analysis, design reviews, and technical writing.",
+        "myth": "Engineers spend their entire working day operating machinery or building physical prototypes.",
+        "fact_correction": "Most professional engineering hours involve computer modeling, mathematical analysis, design reviews, and technical writing."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -939,16 +973,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Engineering Specializations and Duties: Besides specializing in particular fields, different engineers have different responsibilities (p. 38).",
-        "Design Engineer Problem Solving: The design engineer uses new and existing ideas to solve a new problem or to solve an old problem in a new way (p. 38).",
-        "Meeting Project and Budget Goals: These engineers find solutions that work according to the project's requirements, stay within the budget, and are easy and safe to use (p. 38).",
-        "Sustainable and Repairable Solutions: The solutions must be doable, long-lasting, practical to maintain or repair, and environmentally safe (p. 38)."
+        "Practitioner Dialogue: Direct interviews reveal professional project workflows, specialized software tools, and design responsibilities.",
+        "Software Utilization: Engineers deploy computer aided drafting, finite element analysis, and computational fluid models.",
+        "Technical Documentation: Professional engineering reports communicate test results, cost calculations, safety factors, and specifications.",
+        "Counselor Reflection: Synthesize professional observations to understand how team collaboration drives complex technical success."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Discuss Project Budget Constraints: These engineers find solutions that work according to the project's requirements, stay within the budget, and are easy and safe to use (p. 38).",
-        "Step 2 - Review Maintenance and Safety: The solutions must be doable, long-lasting, practical to maintain or repair, and environmentally safe (p. 38).",
-        "Step 3 - Examine Mathematical Modeling Roles: The analytical engineer is mainly responsible for creating mathematical models of physical problems (p. 38).",
-        "Step 4 - Explore Physical Behavior Simulations: Analysis is the process of using the methods and tools of mathematics to simulate (mimic) how a physical object will behave in response (p. 38)."
+        "Step 1 - Interview Scheduling: Arrange a formal meeting with a practicing engineer and prepare targeted questions.",
+        "Step 2 - Workplace Observation: Discuss daily design duties, computational modeling software, and physical prototyping measurement tools.",
+        "Step 3 - Documentation Review: Examine engineering change orders, calculation sheets, progress logs, and formal project deliverables.",
+        "Step 4 - Counselor Debrief: Share key insights regarding engineering teamwork, technical problem solving, and career paths."
       ],
       "gear_checklist": [
         "ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools",
@@ -958,14 +992,14 @@
       ],
       "comparison_data": {
         "left_header": "Req 4a: Engineering Duties and Tools",
-        "right_header": "Req 4c: Workflow and Achieving Results",
+        "right_header": "Req 4c: Engineering Methodology and Result",
         "left_points": [
-          "(4a) Engineering Duties and Tools: The design engineer uses new and existing ideas to solve a new problem or to solve an old problem in a new way (p. 38).",
-          "(4b) Current Project and Role: The Engineering pamphlet for Requirement 4b details with the engineer a current project and the engineer's particular role, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38)."
+          "(4a) Engineering Duties and Tools: Engineers use specialized software and physical instruments to design, analyze, and test technical solutions. Daily tasks combine computer simulation with physical testing to validate performance under operating conditions.",
+          "(4b) Active Project Role Examination: Complex engineering initiatives require distinct specialists who manage discrete subassemblies or analytical stages. Understanding an individual engineer's exact role reveals how distributed project teams achieve unified objectives."
         ],
         "right_points": [
-          "(4c) Workflow and Achieving Results: These engineers find solutions that work according to the project's requirements, stay within the budget, and are easy and safe to use (p. 38).",
-          "(4d) Project Technical Reports: The Engineering pamphlet for Requirement 4d details ask to see the reports that the engineer writes concerning the project, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38)."
+          "(4c) Engineering Methodology and Results: Engineers achieve verified results through structured design iterations, rigorous stress tests, and mathematical peer reviews. Documenting each testing milestone guarantees that final builds satisfy performance criteria safely.",
+          "(4d) Technical Project Documentation Review: Engineering reports document calculations, materials testing, failure mode analyses, and regulatory compliance. These formal records create an accountable audit trail for future maintenance, safety inspections, and revisions."
         ],
         "rows": [
           {
@@ -989,10 +1023,10 @@
         "title": "Engineering Req 4 Exemplar Workbook Entry: Visiting a Practicing Professional Engineer",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 4a (Engineering Duties and Tools)": "The design engineer uses new and existing ideas to solve a new problem or to solve an old problem in a new way (p. 38).",
-          "Req 4b (Current Project and Role)": "The Engineering pamphlet for Requirement 4b details with the engineer a current project and the engineer's particular role, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38).",
-          "Req 4c (Workflow and Achieving Results)": "These engineers find solutions that work according to the project's requirements, stay within the budget, and are easy and safe to use (p. 38).",
-          "Req 4d (Project Technical Reports)": "The Engineering pamphlet for Requirement 4d details ask to see the reports that the engineer writes concerning the project, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38)."
+          "Req 4a - Engineering Duties and Tools": "Engineers use specialized software and physical instruments to design, analyze, and test technical solutions. Daily tasks combine computer simulation with physical testing to validate performance under operating conditions.",
+          "Req 4b - Active Project Role Examination": "Complex engineering initiatives require distinct specialists who manage discrete subassemblies or analytical stages. Understanding an individual engineer's exact role reveals how distributed project teams achieve unified objectives.",
+          "Req 4c - Engineering Methodology and Resul": "Engineers achieve verified results through structured design iterations, rigorous stress tests, and mathematical peer reviews. Documenting each testing milestone guarantees that final builds satisfy performance criteria safely.",
+          "Req 4d - Technical Project Documentation R": "Engineering reports document calculations, materials testing, failure mode analyses, and regulatory compliance. These formal records create an accountable audit trail for future maintenance, safety inspections, and revisions."
         },
         "sample_output": "Visiting a Practicing Professional Engineer: The design engineer uses new and existing ideas to solve a new problem or to solve an old problem in a new way (p. 38).",
         "counselor_tip": "For Engineering Requirement 4 (Visiting a Practicing Professional Engineer), verify the Scout's own observations and specific pamphlet details (Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48))."
@@ -1024,7 +1058,13 @@
       "workbook_diagram_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
       "number": "4",
       "description": "Visit with an engineer (who may be your counselor, parent or guardian) and do the following: (a) Discuss the work this engineer does and the tools the engineer uses. (b) Discuss with the engineer a current project and the engineer's particular role in it. (c) Find out how the engineer's work is done and how results are achieved. (d) Ask to see the reports that the engineer writes concerning the project. (e) Discuss with your counselor what you learned about engineering from this visit.",
-      "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors."
+      "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
+      "pamphlet_summary": "Meeting a practicing engineer provides direct insight into professional workflows, project lifecycles, and computational analysis tools. Reviewing active project documentation illustrates how technical specifications and safety criteria translate into working installations.",
+      "socratic_questions": [
+        "How does the engineer ensure design safety before a single prototype is constructed?",
+        "What role do customer constraints and budget caps play in the engineer's daily decisions?",
+        "Why are technical writing skills just as critical for engineers as mathematical competence?"
+      ]
     },
     {
       "req_id": "5",
@@ -1051,7 +1091,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Engineering Requirement 5 on systems engineering design process: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Wear safety glasses and secure loose clothing or hair when operating fabrication hand tools.",
       "pamphlet_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)",
       "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 11, p. 46)",
       "syllabus_bucket": "In-Class Concept",
@@ -1079,8 +1119,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Systems engineering means immediately cutting and assembling materials without writing down requirements or comparing alternative designs.",
-        "fact": "The systems engineering approach is a structured process of defining requirements, exploring alternatives, evaluating trade-offs, and testing designs before building a final device (p. 46)."
+        "misconception": "Engineering design is a linear sequence where the initial drawing is constructed directly without changes.",
+        "fact": "Systems engineering relies on cyclical iteration where testing reveals flaws that force design revisions.",
+        "myth": "Engineering design is a linear sequence where the initial drawing is constructed directly without changes.",
+        "fact_correction": "Systems engineering relies on cyclical iteration where testing reveals flaws that force design revisions."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1104,16 +1146,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Scale of Engineered Solutions: Engineers devise all sorts of things, ranging from a tiny, low-cost battery for your cell phone to agigantic dam across the mighty Yangtze River in China (p. 11).",
-        "Engineering in Daily Life: The work of engineers affects every part of our lives, at home, at school, and at work (p. 11).",
-        "Specialized Engineering Branches: Engineering touches so many parts of our lives that it has been divided into many different specialties (p. 11).",
-        "Public Infrastructure and Roadways: Civil engineers create the dams, bridges, and roadways on which we rely every day (p. 11)."
+        "Problem Definition: Define operational constraints, target users, functional requirements, and performance objectives before sketching.",
+        "Trade Studies: Compare competing prototype concepts against cost, weight, durability, and ease of manufacturing.",
+        "Subsystem Integration: Ensure mechanical linkages, electrical power feeds, and user control interfaces fit together.",
+        "Iterative Testing: Subject physical prototypes to realistic stress testing to expose unexpected mechanical failure modes."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Identify Relevant Engineering Specialties: Engineering touches so many parts of our lives that it has been divided into many different specialties (p. 11).",
-        "Step 2 - Study Structural Design Principles: Civil engineers create the dams, bridges, and roadways on which we rely every day (p. 11).",
-        "Step 3 - Design Mechanical Moving Parts: Mechanical engineers develop machines and engines (p. 11).",
-        "Step 4 - Apply Human-Centered Device Ergonomics: Biomedical engineers develop new medical devices to help us live longer and healthier lives (p. 11)."
+        "Step 1 - Requirements Definition: Establish specific user needs, dimensional constraints, and operational goals for the device.",
+        "Step 2 - Conceptual Ideation: Generate multiple design sketches evaluating different mechanical linkages and structural material choices.",
+        "Step 3 - Prototype Construction: Build a working model utilizing readily available shop materials and hand tools.",
+        "Step 4 - Performance Validation: Test the prototype under field conditions and record required design modifications systematically."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1186,7 +1228,13 @@
       "workbook_diagram_caption": "Multi-level escalators transport pedestrians efficiently through a modern engineered facility.",
       "number": "5",
       "description": "Use the systems engineering approach to design an original piece of patrol equipment, a toy, or a useful device for the home, office, or garage.",
-      "workbook_visual_caption": "Multi-level escalators transport pedestrians efficiently through a modern engineered facility."
+      "workbook_visual_caption": "Multi-level escalators transport pedestrians efficiently through a modern engineered facility.",
+      "pamphlet_summary": "Systems engineering provides a structured methodology for defining requirements, developing concepts, and building functional prototypes. Iterative testing cycles identify failure points early, ensuring the finished patrol equipment or home device operates reliably.",
+      "socratic_questions": [
+        "How does setting strict operational requirements at the beginning prevent costly design mistakes later?",
+        "What trade-offs did you encounter between material weight, structural strength, and fabrication ease?",
+        "How would you modify this prototype if it had to withstand outdoor rain and freezing temperatures?"
+      ]
     },
     {
       "req_id": "6",
@@ -1236,8 +1284,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Modern automated machinery no longer uses simple machines like levers or inclined planes.",
-            "fact": "Complex machines rely on basic mechanical elements such as levers, pulleys, gears, and inclined planes to transform the speed, direction, or force of motion (p. 86)."
+            "misconception": "Simple machines create additional work and energy from nothing.",
+            "fact": "Mechanical elements trade input travel distance for output force while conserving total mechanical energy.",
+            "myth": "Simple machines create additional work and energy from nothing.",
+            "fact_correction": "Mechanical elements trade input travel distance for output force while conserving total mechanical energy."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1263,10 +1313,10 @@
           "id": "6a",
           "sub_req_label": "6a",
           "sub_req_text": "Transforming Motion. Using common materials or a construction set, make a simple model that will demonstrate motion. Explain how the model uses basic mechanical elements like levers and inclined planes to demonstrate motion. Describe an example where this mechanism is used in a real product.",
-          "topic_title": "Req 6a: Transforming Mechanical Motion",
-          "pamphlet_summary": "For Engineering Requirement 6a (Transforming Mechanical Motion): The Engineering pamphlet for Requirement 6a details transforming Motion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
+          "topic_title": "Req 6a: Kinetic Motion Transformation Modeling",
+          "pamphlet_summary": "Mechanical linkages transform force and direction by utilizing cams, levers, gears, and inclined planes. Building kinematic models demonstrates how input torque converts to linear or oscillating motion.",
           "pamphlet_excerpts": [
-            "Transforming Mechanical Motion: The Engineering pamphlet for Requirement 6a details transforming Motion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "Mechanical linkages transform force and direction by utilizing cams, levers, gears, and inclined planes. Building kinematic models demonstrates how input torque converts to linear or oscillating motion."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
@@ -1317,8 +1367,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Wood, metal, and plastic conduct heat at the same rate as long as the test pieces have the same thickness.",
-            "fact": "Controlled experiments reveal sharp differences in strength and thermal conductivity between wood, metal, and plastic when subjected to loads or heat (p. 86)."
+            "misconception": "Appliances draw identical electrical power regardless of their heating or motor loads.",
+            "fact": "Resistance heating and compressor motors consume vastly more wattage than low voltage electronic displays.",
+            "myth": "Appliances draw identical electrical power regardless of their heating or motor loads.",
+            "fact_correction": "Resistance heating and compressor motors consume vastly more wattage than low voltage electronic displays."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1344,10 +1396,10 @@
           "id": "6b",
           "sub_req_label": "6b",
           "sub_req_text": "Using Electricity. Make a list of 10 electrical appliances in your home. Find out approximately how much electricity each uses in one month. Learn how to find out the amount and cost of electricity used in your home during periods of light and heavy use. List five ways to conserve electricity.",
-          "topic_title": "Req 6b: Home Electrical Appliance Usage",
-          "pamphlet_summary": "For Engineering Requirement 6b (Home Electrical Appliance Usage): The Engineering pamphlet for Requirement 6b details using Electricity, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
+          "topic_title": "Req 6b: Residential Electrical Power Audit",
+          "pamphlet_summary": "Household appliances consume electrical energy measured in kilowatt hours calculated from power draw and operating duration. Auditing home circuits highlights energy conservation opportunities and electrical utility billing methods.",
           "pamphlet_excerpts": [
-            "Home Electrical Appliance Usage: The Engineering pamphlet for Requirement 6b details using Electricity, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "Household appliances consume electrical energy measured in kilowatt hours calculated from power draw and operating duration. Auditing home circuits highlights energy conservation opportunities and electrical utility billing methods."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "title": "Req 6b: Home Electrical Appliance Usage",
@@ -1393,8 +1445,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Community traffic congestion can only be solved by demolishing buildings to add more highway lanes.",
-            "fact": "Traffic engineering studies analyze vehicle flow, signal timing, and commuter patterns to improve community transportation safety and efficiency (p. 86)."
+            "misconception": "Smartphones transmit raw physical audio sound directly through the air to other phones.",
+            "fact": "Microphones convert sound waves into digital binary packets transmitted via modulated radio frequency waves.",
+            "myth": "Smartphones transmit raw physical audio sound directly through the air to other phones.",
+            "fact_correction": "Microphones convert sound waves into digital binary packets transmitted via modulated radio frequency waves."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1420,10 +1474,10 @@
           "id": "6c",
           "sub_req_label": "6c",
           "sub_req_text": "Understanding Electronics. Using an electronic device such as a smartphone or tablet computer, find out how sound, video, text or images travel from one location to another. Explain how the device was designed for ease of use, function, and durability.",
-          "topic_title": "Req 6c: Understanding Electronic Communication Devices",
-          "pamphlet_summary": "For Engineering Requirement 6c (Understanding Electronic Communication Devices): The Engineering pamphlet for Requirement 6c details understanding Electronics, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
+          "topic_title": "Req 6c: Digital Telecommunication Signal Transmission",
+          "pamphlet_summary": "Electronic devices transmit multimedia data by encoding information onto high frequency electromagnetic radio waves. Wireless protocols route packetized data through local transceivers, fiber optic backbones, and cell towers.",
           "pamphlet_excerpts": [
-            "Understanding Electronic Communication Devices: The Engineering pamphlet for Requirement 6c details understanding Electronics, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "Electronic devices transmit multimedia data by encoding information onto high frequency electromagnetic radio waves. Wireless protocols route packetized data through local transceivers, fiber optic backbones, and cell towers."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
@@ -1468,8 +1522,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "During Engineering Requirement 6d, Scouts can underestimate how directly mastery of testing material strength and conductivity depends on understanding using materials.",
-            "fact": "Scouting America standards for Engineering Requirement 6d require complete workbook entries on testing material strength and conductivity to demonstrate full understanding of using materials."
+            "misconception": "A denser material always exhibits higher tensile strength and better thermal insulation.",
+            "fact": "Dense metals conduct heat rapidly while lightweight polymer foams and aerated wood provide superior insulation.",
+            "myth": "A denser material always exhibits higher tensile strength and better thermal insulation.",
+            "fact_correction": "Dense metals conduct heat rapidly while lightweight polymer foams and aerated wood provide superior insulation."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1495,10 +1551,10 @@
           "id": "6d",
           "sub_req_label": "6d",
           "sub_req_text": "Using Materials. Do experiments to show the differences in strength and heat conductivity in wood, metal, and plastic. Discuss with your counselor what you have learned.",
-          "topic_title": "Req 6d: Testing Material Strength and Conductivity",
-          "pamphlet_summary": "For Engineering Requirement 6d (Testing Material Strength and Conductivity): The Engineering pamphlet for Requirement 6d details using Materials, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
+          "topic_title": "Req 6d: Comparative Material Properties Testing",
+          "pamphlet_summary": "Engineers select materials based on empirical testing of tensile strength, elasticity, and thermal conductivity. Conducting controlled thermal and deflection tests demonstrates why metals, plastics, and wood serve distinct functions.",
           "pamphlet_excerpts": [
-            "Testing Material Strength and Conductivity: The Engineering pamphlet for Requirement 6d details using Materials, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "Engineers select materials based on empirical testing of tensile strength, elasticity, and thermal conductivity. Conducting controlled thermal and deflection tests demonstrates why metals, plastics, and wood serve distinct functions."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
@@ -1557,10 +1613,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Converting Between Energy Forms (Req 6e) or confusing Converting Between Energy Forms with general Hands-On Engineering Experiments and Models procedures.",
-            "fact": "For Requirement 6e (Converting Between Energy Forms), The Engineering pamphlet for Requirement 6e details converting Energy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-            "myth": "Overlooking the specific field checks required for Converting Between Energy Forms (Req 6e) or confusing Converting Between Energy Forms with general Hands-On Engineering Experiments and Models procedures.",
-            "fact_correction": "For Requirement 6e (Converting Between Energy Forms), The Engineering pamphlet for Requirement 6e details converting Energy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "misconception": "Energy transformation systems can achieve one hundred percent mechanical or electrical efficiency.",
+            "fact": "Thermodynamic laws dictate that every real world energy conversion dissipates some energy as waste heat.",
+            "myth": "Energy transformation systems can achieve one hundred percent mechanical or electrical efficiency.",
+            "fact_correction": "Thermodynamic laws dictate that every real world energy conversion dissipates some energy as waste heat."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1586,10 +1642,10 @@
           "id": "6e",
           "sub_req_label": "6e",
           "sub_req_text": "Converting Energy. Do an experiment to show how mechanical, heat, chemical, solar, and/or electrical energy may be converted from one or more types of energy to another. Explain your results. Describe to your counselor what energy is and how energy is converted and used in your surroundings.",
-          "topic_title": "Req 6e: Converting Between Energy Forms",
-          "pamphlet_summary": "For Engineering Requirement 6e (Converting Between Energy Forms): The Engineering pamphlet for Requirement 6e details converting Energy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
+          "topic_title": "Req 6e: Thermodynamic Energy Conversion Analysis",
+          "pamphlet_summary": "Energy transforms continuously between chemical, thermal, mechanical, solar, and electrical forms across engineered systems. Measuring conversion efficiency illustrates how frictional and thermal losses limit theoretical maximum output.",
           "pamphlet_excerpts": [
-            "Converting Between Energy Forms: The Engineering pamphlet for Requirement 6e details converting Energy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "Energy transforms continuously between chemical, thermal, mechanical, solar, and electrical forms across engineered systems. Measuring conversion efficiency illustrates how frictional and thermal losses limit theoretical maximum output."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
@@ -1640,8 +1696,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "When preparing Engineering Requirement 6f (Req 6f Studying Community Traffic Flow), Scouts sometimes overlook the specific details needed to moving people.",
-            "fact": "Counselor verification for Engineering Requirement 6f requires concrete workbook evidence covering req 6f studying community traffic flow and a clear explanation of how to moving people."
+            "misconception": "Adding extra highway lanes always permanently eliminates roadway traffic congestion bottlenecks.",
+            "fact": "Induced travel demand and merge bottlenecks often cause expanded highways to reach congestion quickly.",
+            "myth": "Adding extra highway lanes always permanently eliminates roadway traffic congestion bottlenecks.",
+            "fact_correction": "Induced travel demand and merge bottlenecks often cause expanded highways to reach congestion quickly."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1667,10 +1725,10 @@
           "id": "6f",
           "sub_req_label": "6f",
           "sub_req_text": "Moving People. Find out the different ways people in your community get to work. Make a study of traffic flow (number of vehicles and relative speed) in both heavy and light traffic periods. Discuss with your counselor what might be improved to make it easier for people in your community to get where they need.",
-          "topic_title": "Req 6f: Studying Community Traffic Flow",
-          "pamphlet_summary": "For Engineering Requirement 6f (Studying Community Traffic Flow): The Engineering pamphlet for Requirement 6f details moving People, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
+          "topic_title": "Req 6f: Community Traffic Flow Dynamics",
+          "pamphlet_summary": "Transportation engineers analyze commuter corridors by counting vehicular density, transit modes, and average velocities. Evaluating rush hour bottlenecks reveals how lane geometry and signal timing impact urban mobility.",
           "pamphlet_excerpts": [
-            "Studying Community Traffic Flow: The Engineering pamphlet for Requirement 6f details moving People, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+            "Transportation engineers analyze commuter corridors by counting vehicular density, transit modes, and average velocities. Evaluating rush hour bottlenecks reveals how lane geometry and signal timing impact urban mobility."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "title": "Req 6f: Studying Community Traffic Flow",
@@ -1711,8 +1769,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
-            "misconception": "For Engineering Requirement 6g, a common mistake in entering an engineering competition is treating building an engineering project as optional background reading.",
-            "fact": "Mastering Engineering Requirement 6g means following the pamphlet standard for entering an engineering competition and recording accurate notes on building an engineering project."
+            "misconception": "Judges at engineering fairs only evaluate aesthetic appearance and working prototype speed.",
+            "fact": "Evaluators prioritize the engineering design notebook, structured troubleshooting logs, and rigorous understanding of underlying physics.",
+            "myth": "Judges at engineering fairs only evaluate aesthetic appearance and working prototype speed.",
+            "fact_correction": "Evaluators prioritize the engineering design notebook, structured troubleshooting logs, and rigorous understanding of underlying physics."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1738,10 +1798,10 @@
           "id": "6g",
           "sub_req_label": "6g",
           "sub_req_text": "Building an Engineering Project. Enter a project in a science or engineering fair or similar competition. (This requirement may be met by participation on an engineering competition project team.) Discuss with your counselor what your project demonstrates, the kinds of questions visitors to the fair asked you, and how well you were able to answer their questions.",
-          "topic_title": "Req 6g: Entering an Engineering Competition",
-          "pamphlet_summary": "Entering an Engineering Competition: Planning, developing, organizing, and building your entry into a project that will meet the particular requirements of a fair or competition (p. 30).",
+          "topic_title": "Req 6g: Competitive Engineering Exhibition Project",
+          "pamphlet_summary": "Participating in engineering fairs or robotics competitions requires presenting functional prototypes to technical judges. Teams defend their design choices, experimental data, and iterative improvements against formal evaluation rubrics.",
           "pamphlet_excerpts": [
-            "Entering an Engineering Competition: Planning, developing, organizing, and building your entry into a project that will meet the particular requirements of a fair or competition (p. 30)."
+            "Participating in engineering fairs or robotics competitions requires presenting functional prototypes to technical judges. Teams defend their design choices, experimental data, and iterative improvements against formal evaluation rubrics."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
@@ -1802,11 +1862,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Hands-On Engineering Experiments and Models",
+      "topic_title": "Req 6: Applied Engineering Field Investigations",
       "action_verb": "Explain",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Review task hazards with your counselor before starting Engineering Requirement 6 on hands-on engineering experiments and models: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Use heat resistant gloves and insulated tools when conducting thermal or electrical experiments.",
       "pamphlet_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
       "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1844,8 +1904,10 @@
         "min_rows": 7
       },
       "common_misconception_pair": {
-        "misconception": "Engineers can always build a perfect theoretical machine without being limited by material strength, heat loss, or budget constraints.",
-        "fact": "Real-world engineering experiments demonstrate how engineers work within material, energy, and budget constraints to transform motion, convert energy, or move people efficiently (p. 30)."
+        "misconception": "Engineering experiments require complex industrial laboratories to demonstrate valid mechanical or thermodynamic principles.",
+        "fact": "Accurate physical principles can be demonstrated using simple apparatus when variables are strictly isolated and measured.",
+        "myth": "Engineering experiments require complex industrial laboratories to demonstrate valid mechanical or thermodynamic principles.",
+        "fact_correction": "Accurate physical principles can be demonstrated using simple apparatus when variables are strictly isolated and measured."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1869,16 +1931,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Technical Research Resources: Your research tools should include the World Wide Web, libraries, and related industries (p. 30).",
-        "Mentorship From Teachers and Counselors: Ask your science teacher and merit badge counselor for guidance (p. 30).",
-        "Science Fair Project Planning: Planning, developing, organizing, and building your entry into a project that will meet the particular requirements of a fair or competition (p. 30).",
-        "Ideal vs Practical Solutions: It would be great if we could always find the \"best\" solution (p. 30)."
+        "Mechanical Motion: Gears, pulleys, cams, and levers convert rotary motion into smooth linear displacement.",
+        "Electrical Measurement: Calculate domestic power consumption by tracking appliance wattage ratings and operational hours.",
+        "Material Properties: Compare tensile strength and thermal conductivity across metals, polymers, and structural woods.",
+        "Traffic Dynamics: Measure vehicular throughput and average speeds to identify bottlenecks in urban corridors."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Plan and Build Prototypes: Planning, developing, organizing, and building your entry into a project that will meet the particular requirements of a fair or competition (p. 30).",
-        "Step 2 - Evaluate Candidate Design Options: It would be great if we could always find the \"best\" solution (p. 30).",
-        "Step 3 - Work Within Material Limitations: Engineers, however, must work within limitations imposed on them by available materials, supplies, money, and tools (p. 30).",
-        "Step 4 - Account for Community Factors: They must be sensitive to environmental concerns, politics, and the culture of their company and the community (p. 30)."
+        "Step 1 - Option Selection: Select two specialized technical investigations matching available laboratory tools and personal interests.",
+        "Step 2 - Experimental Setup: Prepare testing apparatus, calibrated measurement instruments, and data recording logs under supervision.",
+        "Step 3 - Data Collection: Conduct repeated trials while controlling experimental variables and tabulating quantitative physical measurements.",
+        "Step 4 - Technical Reporting: Compare measured numerical results against scientific principles and present conclusions to counselor."
       ],
       "gear_checklist": [
         "ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools",
@@ -1887,17 +1949,17 @@
         "Engineering logbook and technical specification sheet for Engineering Requirement 6"
       ],
       "comparison_data": {
-        "left_header": "Req 6a: Transforming Mechanical Motion",
-        "right_header": "Req 6d: Testing Material Strength and Cond",
+        "left_header": "Req 6a: Kinetic Motion Transformation Mode",
+        "right_header": "Req 6d: Comparative Material Properties Te",
         "left_points": [
-          "(6a) Transforming Mechanical Motion: The Engineering pamphlet for Requirement 6a details transforming Motion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-          "(6b) Home Electrical Appliance Usage: The Engineering pamphlet for Requirement 6b details using Electricity, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-          "(6c) Understanding Electronic Communication Devices: The Engineering pamphlet for Requirement 6c details understanding Electronics, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+          "(6a) Kinetic Motion Transformation Modeling: Mechanical linkages transform force and direction by utilizing cams, levers, gears, and inclined planes. Building kinematic models demonstrates how input torque converts to linear or oscillating motion.",
+          "(6b) Residential Electrical Power Audit: Household appliances consume electrical energy measured in kilowatt hours calculated from power draw and operating duration. Auditing home circuits highlights energy conservation opportunities and electrical utility billing methods.",
+          "(6c) Digital Telecommunication Signal Transmission: Electronic devices transmit multimedia data by encoding information onto high frequency electromagnetic radio waves. Wireless protocols route packetized data through local transceivers, fiber optic backbones, and cell towers."
         ],
         "right_points": [
-          "(6d) Testing Material Strength and Conductivity: The Engineering pamphlet for Requirement 6d details using Materials, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-          "(6e) Converting Between Energy Forms: The Engineering pamphlet for Requirement 6e details converting Energy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-          "(6f) Studying Community Traffic Flow: The Engineering pamphlet for Requirement 6f details moving People, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+          "(6d) Comparative Material Properties Testing: Engineers select materials based on empirical testing of tensile strength, elasticity, and thermal conductivity. Conducting controlled thermal and deflection tests demonstrates why metals, plastics, and wood serve distinct functions.",
+          "(6e) Thermodynamic Energy Conversion Analysis: Energy transforms continuously between chemical, thermal, mechanical, solar, and electrical forms across engineered systems. Measuring conversion efficiency illustrates how frictional and thermal losses limit theoretical maximum output.",
+          "(6f) Community Traffic Flow Dynamics: Transportation engineers analyze commuter corridors by counting vehicular density, transit modes, and average velocities. Evaluating rush hour bottlenecks reveals how lane geometry and signal timing impact urban mobility."
         ],
         "rows": [
           {
@@ -1921,10 +1983,10 @@
         "title": "Engineering Req 6 Exemplar Workbook Entry: Hands-On Engineering Experiments and Models",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 6a (Transforming Mechanical Motion)": "The Engineering pamphlet for Requirement 6a details transforming Motion, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-          "Req 6b (Home Electrical Appliance Usage)": "The Engineering pamphlet for Requirement 6b details using Electricity, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-          "Req 6c - Understanding Electronic Communica": "The Engineering pamphlet for Requirement 6c details understanding Electronics, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
-          "Req 6d - Testing Material Strength and Cond": "The Engineering pamphlet for Requirement 6d details using Materials, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+          "Req 6a - Kinetic Motion Transformation Mod": "Mechanical linkages transform force and direction by utilizing cams, levers, gears, and inclined planes. Building kinematic models demonstrates how input torque converts to linear or oscillating motion.",
+          "Req 6b - Residential Electrical Power Audi": "Household appliances consume electrical energy measured in kilowatt hours calculated from power draw and operating duration. Auditing home circuits highlights energy conservation opportunities and electrical utility billing methods.",
+          "Req 6c - Digital Telecommunication Signal": "Electronic devices transmit multimedia data by encoding information onto high frequency electromagnetic radio waves. Wireless protocols route packetized data through local transceivers, fiber optic backbones, and cell towers.",
+          "Req 6d - Comparative Material Properties T": "Engineers select materials based on empirical testing of tensile strength, elasticity, and thermal conductivity. Conducting controlled thermal and deflection tests demonstrates why metals, plastics, and wood serve distinct functions."
         },
         "sample_output": "Hands-On Engineering Experiments and Models: It would be great if we could always find the \"best\" solution (p. 30).",
         "counselor_tip": "For Engineering Requirement 6 (Hands-On Engineering Experiments and Models), verify the Scout's own observations and specific pamphlet details (Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86))."
@@ -1956,7 +2018,13 @@
       "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
       "number": "6",
       "description": "Do TWO of the following: (a) Transforming Motion. Using common materials or a construction set, make a simple model that will demonstrate motion. Explain how the model uses basic mechanical elements like levers and inclined planes to demonstrate motion. Describe an example where this mechanism is used in a real product. (b) Using Electricity. Make a list of 10 electrical appliances in your home. Find out approximately how much electricity each uses in one month. Learn how to find out the amount and cost of electricity used in your home during periods of light and heavy use. List five ways to conserve electricity. (c) Understanding Electronics. Using an electronic device such as a smartphone or tablet computer, find out how sound, video, text or images travel from one location to another. Explain how the device was designed for ease of use, function, and durability. (d) Using Materials. Do experiments to show the differences in strength and heat conductivity in wood, metal, and plastic. Discuss with your counselor what you have learned. (e) Converting Energy. Do an experiment to show how mechanical, heat, chemical, solar, and/or electrical energy may be converted from one or more types of energy to another. Explain your results. Describe to your counselor what energy is and how energy is converted and used in your surroundings. (f) Moving People. Find out the different ways people in your community get to work. Make a study of traffic flow (number of vehicles and relative speed) in both heavy and light traffic periods. Discuss with your counselor what might be improved to make it easier for people in your community to get where they need to go. (g) Building an Engineering Project. Enter a project in a science or engineering fair or similar competition. (This requirement may be met by participation on an engineering competition project team.) Discuss with your counselor what your project demonstrates, the kinds of questions visitors to the fair asked you, and how well you were able to answer their questions.",
-      "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen."
+      "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
+      "pamphlet_summary": "Practical engineering projects apply scientific theory through mechanical modeling, electrical auditing, materials testing, or transport studies. Completing these focused investigations reinforces how empirical data validates mathematical design assumptions.",
+      "socratic_questions": [
+        "Why must an engineer isolate independent variables when comparing material thermal conductivity?",
+        "How does empirical experimental data validate or challenge your initial theoretical calculations?",
+        "What sources of measurement error arose during your testing trials and how did you minimize them?"
+      ]
     },
     {
       "req_id": "7",
@@ -1979,11 +2047,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Professional Engineer Licensing and Registration",
+      "topic_title": "Req 7: Professional Engineer Licensure Requirements",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Engineering Requirement 7 on professional engineer licensing and registration: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Never modify stamped structural calculations without written authorization from the engineer of record.",
       "pamphlet_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 94, p. 95)",
       "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 94, p. 95)",
       "syllabus_bucket": "In-Class Concept",
@@ -2013,8 +2081,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Anyone who graduates from college with an engineering degree is automatically a registered Professional Engineer (P.E.).",
-        "fact": "Becoming a registered Professional Engineer (P.E.) typically requires a four-step process, earning an accredited degree, passing the Fundamentals of Engineering exam, gaining four years of experience, and passing the Principles and Practice exam (p. 94)."
+        "misconception": "Any person who graduates with an engineering degree can legally stamp public building plans.",
+        "fact": "Only a registered Professional Engineer with a state license can stamp and seal municipal structural drawings.",
+        "myth": "Any person who graduates with an engineering degree can legally stamp public building plans.",
+        "fact_correction": "Only a registered Professional Engineer with a state license can stamp and seal municipal structural drawings."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2038,16 +2108,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Three Fundamental Ethical Principles: The Engineer's Code of Ethics has three fundamental principles that guide the work of the engineering profession (p. 94).",
-        "Upholding Professional Integrity: Engineers uphold and advance the integrity, honor, and dignity of their profession by 1 (p. 94).",
-        "Advancing Public Human Welfare: Using their knowledge and skill for the enhancement of human welfare 2 (p. 94).",
-        "Impartial Service to Clients: Being honest and impartial, and faithfully serving the public, their employers, and their clients 3 (p. 94)."
+        "Licensure Path: Candidates must earn accredited degrees, pass two examinations, and complete four practice years.",
+        "Legal Authority: The PE seal certifies engineering drawings meet building codes and protect public safety.",
+        "Public Infrastructure: Licensure is mandatory when approving civil bridges, water systems, and commercial building structures.",
+        "Ethical Accountability: Licensed engineers bear direct legal liability for structural failures resulting from negligence."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Prioritize Public Welfare Standards: Using their knowledge and skill for the enhancement of human welfare 2 (p. 94).",
-        "Step 2 - Maintain Honesty and Impartiality: Being honest and impartial, and faithfully serving the public, their employers, and their clients 3 (p. 94).",
-        "Step 3 - Qualify for Engineering Management: Some firms require engineers to be licensed before they can move up to engineering management positions (p. 94).",
-        "Step 4 - Complete Four Licensing Steps: Requirements vary from state to state, but for most engineers, obtaining a license is a four-step process (p. 94)."
+        "Step 1 - Academic Preparation: Graduate from an ABET accredited engineering university program with a bachelor degree.",
+        "Step 2 - Fundamentals Examination: Pass the comprehensive Fundamentals of Engineering exam to earn Engineer Intern certification.",
+        "Step 3 - Progressive Experience: Complete four years of verified professional engineering practice under licensed practitioner supervision.",
+        "Step 4 - Principles Examination: Pass the discipline specific Principles and Practice of Engineering exam for licensure."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -2120,7 +2190,13 @@
       "workbook_diagram_caption": "Two youth work together assembling an electronic circuit board prototype on a table top.",
       "number": "7",
       "description": "Explain what it means to be a registered Professional Engineer (P. E.). Name the types of engineering work for which registration is most important.",
-      "workbook_visual_caption": "Two youth work together assembling an electronic circuit board prototype on a table top."
+      "workbook_visual_caption": "Two youth work together assembling an electronic circuit board prototype on a table top.",
+      "pamphlet_summary": "Becoming a licensed Professional Engineer requires graduating from an accredited program, passing standardized examinations, and completing documented practice. Licensure legally empowers engineers to seal public infrastructure plans, holding ultimate accountability for public health and safety.",
+      "socratic_questions": [
+        "Why does civil engineering require professional licensure more frequently than consumer electronics design?",
+        "What legal liabilities does an engineer assume when stamping a structural bridge design?",
+        "How does mandatory continuing education protect the public as engineering technology evolves?"
+      ]
     },
     {
       "req_id": "8",
@@ -2151,11 +2227,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Engineering Ethics and Scout Values",
+      "topic_title": "Req 8: Professional Engineering Ethical Codes",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Engineering Requirement 8 on engineering ethics and scout values: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Report any observed structural defects or unsafe jobsite conditions immediately to designated safety officers.",
       "pamphlet_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 21, p. 30)",
       "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 21, p. 30)",
       "syllabus_bucket": "In-Class Concept",
@@ -2183,8 +2259,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "When an employer asks an engineer to cut production costs, the engineer is allowed to ignore safety standards to make a profit.",
-        "fact": "Even when shaving pennies off manufacturing costs or increasing workplace productivity, the Engineer's Code of Ethics requires engineers to hold public safety, honesty, and human welfare paramount, just like the Scout Oath and Law (p. 21)."
+        "misconception": "Engineering ethics are optional guidelines that can be bypassed when project budgets run low.",
+        "fact": "Ethical canons are mandatory professional standards that require engineers to notify authorities if safety is compromised.",
+        "myth": "Engineering ethics are optional guidelines that can be bypassed when project budgets run low.",
+        "fact_correction": "Ethical canons are mandatory professional standards that require engineers to notify authorities if safety is compromised."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2208,16 +2286,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Engineering Impact in Workplaces: As important as engineering is in the home, it is even more important in the workplace (p. 21).",
-        "Boosting Workplace Productivity: Advances in engineering increase productivity, the amount of product that results from a given amount of energy or cost (p. 21).",
-        "Cost-Effective Material Design: Shaving just a few pennies off the cost of making aproduct, through better design or cheaper materials, could make the difference between profit and loss (p. 21).",
-        "Factory Waste Reduction Systems: In factories, engineers can design systems and operating methods to reduce waste (p. 21)."
+        "Paramount Safety: Engineers hold paramount the safety, health, and welfare of the general public.",
+        "Competence Boundaries: Practitioners perform professional services exclusively in their specific areas of technical competence.",
+        "Truthful Statements: Issue public statements and engineering reports only in an objective and truthful manner.",
+        "Scouting Alignment: Professional honesty directly mirrors the Scout Law virtues of trustworthiness, loyalty, and helpfulness."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Balance Cost With Safety: Shaving just a few pennies off the cost of making aproduct, through better design or cheaper materials, could make the difference between profit and loss (p. 21).",
-        "Step 2 - Design Waste Reduction Methods: In factories, engineers can design systems and operating methods to reduce waste (p. 21).",
-        "Step 3 - Automate Production Control Software: They can devise specialized software to control production processes and manage inventory (p. 21).",
-        "Step 4 - Optimize Operational Facility Layouts: They can help plan the best use of salespeople in the field and can design layouts for retail stores (p. 21)."
+        "Step 1 - Code Examination: Read the fundamental canons of the National Society of Professional Engineers code.",
+        "Step 2 - Principle Identification: Highlight clauses addressing conflict of interest, public welfare, and objective scientific honesty.",
+        "Step 3 - Scouting Comparison: Map ethical canons directly to points of the Scout Oath and Scout Law.",
+        "Step 4 - Counselor Discussion: Present case studies demonstrating how ethical choices prevent catastrophic infrastructure failures during construction."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -2290,7 +2368,13 @@
       "workbook_diagram_caption": "A helmeted cyclist rides an engineered mountain bike designed with safety mechanisms.",
       "number": "8",
       "description": "Study the Engineer's Code of Ethics. Explain how it is like the Scout Oath and Law.",
-      "workbook_visual_caption": "A helmeted cyclist rides an engineered mountain bike designed with safety mechanisms."
+      "workbook_visual_caption": "A helmeted cyclist rides an engineered mountain bike designed with safety mechanisms.",
+      "pamphlet_summary": "The National Society of Professional Engineers Code of Ethics demands that practitioners hold paramount public safety, health, and welfare. Comparing this canon with the Scout Oath and Law illustrates how integrity, truthfulness, and service guide engineering decisions.",
+      "socratic_questions": [
+        "Why does the code of ethics place public safety above an employer's commercial deadlines?",
+        "Which point of the Scout Law most directly governs an engineer's obligation to avoid conflicts of interest?",
+        "What steps must an engineer take if an employer demands cutting corners on structural safety tests?"
+      ]
     },
     {
       "req_id": "9",
@@ -2313,11 +2397,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Exploring Engineering Career Pathways",
+      "topic_title": "Req 9: Engineering Career Exploration Pathways",
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Engineering Requirement 9 on exploring engineering career pathways under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
+      "safety_callout": "Maintain eye and hearing protection whenever shadowing engineers in operating manufacturing environments.",
       "pamphlet_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 91, p. 94)",
       "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 91, p. 94)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2349,8 +2433,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "You can enter most professional engineering careers without studying advanced mathematics, physics, or accredited university coursework.",
-        "fact": "Engineering qualifies as a true profession alongside medicine and law because it requires intensive academic preparation in math and science plus adherence to strict technical and ethical standards (p. 91)."
+        "misconception": "An engineering career only requires high school shop classes without advanced university mathematics.",
+        "fact": "Professional engineering positions require a bachelor degree covering multi-variable calculus, differential equations, and physics.",
+        "myth": "An engineering career only requires high school shop classes without advanced university mathematics.",
+        "fact_correction": "Professional engineering positions require a bachelor degree covering multi-variable calculus, differential equations, and physics."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2379,16 +2465,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Intensive Academic Preparation: Engineering qualifies as a profession because it requires specialized knowledge and often long and intensive academic preparation (p. 91).",
-        "Technical and Ethical Standards: Engineers are also professionals because they make their living in an activity that conforms to the technical and ethical standards of a profession (p. 91).",
-        "Ethics in Evolving Technology: Ethics are an important part of the engineering profession, especially as science and technology continue to evolve rapidly (p. 91).",
-        "Comparison With Other Professions: An engineer's ethical standards are similar to those expected of other professionals in the well-established areas of medicine, business, and law (p. 91)."
+        "Degree Accreditation: Choose university engineering programs accredited by ABET to ensure recognized professional standards.",
+        "Curriculum Focus: Collegiate studies demand rigorous mastery of advanced calculus, differential equations, and laboratory physics.",
+        "Compensation Analysis: Entry level salaries reflect specialized technical skills, regional demand, and industrial market sectors.",
+        "Career Progression: Engineers advance from junior design analysts to lead systems architects or executive managers."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Evaluate Emerging Technology Standards: Ethics are an important part of the engineering profession, especially as science and technology continue to evolve rapidly (p. 91).",
-        "Step 2 - Compare Professional Career Standards: An engineer's ethical standards are similar to those expected of other professionals in the well-established areas of medicine, business, and law (p. 91).",
-        "Step 3 - Protect People and Environments: Their work is for the good of the public and the clients they represent, and in no way should result in harm to people or the environment (p. 91).",
-        "Step 4 - Apply Scout Ethics Daily: A Scout who commits to the Scout Oath and the Scout Law already has some understanding of ethics and is practicing them in his everyday life (p. 91)."
+        "Step 1 - Discipline Selection: Select a specific engineering discipline such as aerospace, biomedical, or civil engineering.",
+        "Step 2 - Educational Mapping: Research university degree prerequisites, ABET accreditation criteria, and estimated undergraduate tuition expenses.",
+        "Step 3 - Market Investigation: Examine starting compensation, projected employment growth, and typical entry level job responsibilities.",
+        "Step 4 - Counselor Presentation: Summarize educational milestones and industry advancement pathways in a structured technical briefing."
       ],
       "gear_checklist": [
         "Official Engineering merit badge pamphlet and workbook organizer for Req 9",
@@ -2466,7 +2552,13 @@
       "workbook_diagram_caption": "Technicians and engineers collaborate in a laboratory to construct complex wiring systems.",
       "number": "9",
       "description": "Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
-      "workbook_visual_caption": "Technicians and engineers collaborate in a laboratory to construct complex wiring systems."
+      "workbook_visual_caption": "Technicians and engineers collaborate in a laboratory to construct complex wiring systems.",
+      "pamphlet_summary": "Investigating engineering careers reveals academic prerequisites, university degree accreditation standards, and long term industry compensation trends. Exploring specialized engineering branches assists Scouts in planning secondary coursework and choosing potential collegiate programs.",
+      "socratic_questions": [
+        "How do high school mathematics and science courses prepare students for collegiate engineering workloads?",
+        "What factors explain the salary differences between different regional engineering disciplines?",
+        "How does participating in collegiate internship programs influence post graduation engineering employment opportunities?"
+      ]
     }
   ],
   "badge_slug": "engineering",

@@ -49,10 +49,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Anticipating and Mitigating Water Hazards (Req 1a) or confusing Anticipating and Mitigating Water Hazards with general Water Sports Hazards and First Aid procedures.",
-            "fact": "For Requirement 1a (Anticipating and Mitigating Water Hazards), The Water Sports pamphlet for Requirement 1a details the most likely hazards you may encounter while participating in water sports activities and what you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
-            "myth": "Overlooking the specific field checks required for Anticipating and Mitigating Water Hazards (Req 1a) or confusing Anticipating and Mitigating Water Hazards with general Water Sports Hazards and First Aid procedures.",
-            "fact_correction": "For Requirement 1a (Anticipating and Mitigating Water Hazards), The Water Sports pamphlet for Requirement 1a details the most likely hazards you may encounter while participating in water sports activities and what you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28)."
+            "misconception": "Water provides a completely soft surface that prevents physical impact injuries during falls.",
+            "fact": "Hitting water at thirty miles per hour causes severe contusions and concussion trauma.",
+            "myth": "Water provides a completely soft surface that prevents physical impact injuries during falls.",
+            "fact_correction": "Hitting water at thirty miles per hour causes severe contusions and concussion trauma."
           },
           "starting_requirement_gate": {
             "gate_type": "HARD_PREREQ_BADGE",
@@ -83,10 +83,10 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while participating in water sports activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
-          "topic_title": "Req 1a: Anticipating and Mitigating Water Hazards",
-          "pamphlet_summary": "For Water Sports Requirement 1a (Anticipating and Mitigating Water Hazards): The Water Sports pamphlet for Requirement 1a details the most likely hazards you may encounter while participating in water sports activities and what you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
+          "topic_title": "Req 1a: Aquatic Hazard Identification Protocols",
+          "pamphlet_summary": "Skiing zones present significant dangers like shallow water, docks, swimmer zones, and high-speed wake turbulence. Ski crews mitigate risk through thorough course mapping and establishing wide safety margins from shorelines.",
           "pamphlet_excerpts": [
-            "Anticipating and Mitigating Water Hazards: The Water Sports pamphlet for Requirement 1a details the most likely hazards you may encounter while participating in water sports activities and what you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28)."
+            "Skiing zones present significant dangers like shallow water, docks, swimmer zones, and high-speed wake turbulence. Ski crews mitigate risk through thorough course mapping and establishing wide safety margins from shorelines."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p003_img1.png",
           "workbook_diagram_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp.",
@@ -143,8 +143,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Scouting America Safety Afloat applies only to canoes and kayaks, not powerboats towing skiers.",
-            "fact": "Safety Afloat governs all Scouting boating and towed water sports activities, requiring qualified supervision, physical fitness, lifejackets, buddy checks, and safe equipment (p. 32)."
+            "misconception": "Cold water shock only occurs in freezing winter lakes during ice-out conditions.",
+            "fact": "Immersion in water below sixty degrees Fahrenheit triggers involuntary gasping and rapid hypothermia.",
+            "myth": "Cold water shock only occurs in freezing winter lakes during ice-out conditions.",
+            "fact_correction": "Immersion in water below sixty degrees Fahrenheit triggers involuntary gasping and rapid hypothermia."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -170,10 +172,10 @@
           "id": "1b",
           "sub_req_label": "1b",
           "sub_req_text": "Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while participating in water sports: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, strains, minor cuts and bruises, spinal injury, and concussions and head trauma.",
-          "topic_title": "Req 1b: First Aid for Aquatic Injuries",
-          "pamphlet_summary": "For Water Sports Requirement 1b (First Aid for Aquatic Injuries): The Water Sports pamphlet for Requirement 1b details prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
+          "topic_title": "Req 1b: Water Sports Medical Management",
+          "pamphlet_summary": "Continuous handle friction produces palm blisters while prolonged water exposure induces hypothermia and muscle cramps. Early recognition of shivering, confusion, or skin breakdown allows immediate onshore first aid.",
           "pamphlet_excerpts": [
-            "First Aid for Aquatic Injuries: The Water Sports pamphlet for Requirement 1b details prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28)."
+            "Continuous handle friction produces palm blisters while prolonged water exposure induces hypothermia and muscle cramps. Early recognition of shivering, confusion, or skin breakdown allows immediate onshore first aid."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p031_img1.png",
           "workbook_diagram_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp.",
@@ -216,8 +218,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
-            "misconception": "Propeller strikes and carbon monoxide only threaten swimmers when the boat is moving at top speed.",
-            "fact": "Boat propellers and exhaust carbon monoxide near the transom or swim platform pose deadly hazards even when the motor is idling in neutral, so the engine must be shut off when skiers board or enter the water (p. 28)."
+            "misconception": "Safety Afloat guidelines apply only to human-powered canoes, kayaks, and rowboats.",
+            "fact": "Safety Afloat governs all Scouting motorized watercraft activities including skiing and wakeboarding.",
+            "myth": "Safety Afloat guidelines apply only to human-powered canoes, kayaks, and rowboats.",
+            "fact_correction": "Safety Afloat governs all Scouting motorized watercraft activities including skiing and wakeboarding."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -243,10 +247,10 @@
           "id": "1c",
           "sub_req_label": "1c",
           "sub_req_text": "Review the Scouting America Safety Afloat policy. Tell how it applies to water sports.",
-          "topic_title": "Req 1c: Applying Scouting America Safety Afloat",
-          "pamphlet_summary": "For Water Sports Requirement 1c (Applying Scouting America Safety Afloat): The Water Sports pamphlet for Requirement 1c details the Scouting America Safety Afloat policy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
+          "topic_title": "Req 1c: Safety Afloat Operational Policies",
+          "pamphlet_summary": "Safety Afloat mandates qualified supervision, physical fitness, swimming defense, life jackets, and designated rescue equipment. Every water sports activity requires strict adherence to these nine operational points.",
           "pamphlet_excerpts": [
-            "Applying Scouting America Safety Afloat: The Water Sports pamphlet for Requirement 1c details the Scouting America Safety Afloat policy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28)."
+            "Safety Afloat mandates qualified supervision, physical fitness, swimming defense, life jackets, and designated rescue equipment. Every water sports activity requires strict adherence to these nine operational points."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p031_img1.png",
           "workbook_diagram_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp.",
@@ -287,11 +291,11 @@
         "slide_injection_label": "Local NOAA Weather Office & Regional Hazard Profile",
         "ttl_days": 7
       },
-      "topic_title": "Req 1: Water Sports Hazards and First Aid",
+      "topic_title": "Req 1: Water Sports Hazard Mitigation",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Water Sports Requirement 1: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for water sports hazards and first aid, and maintain buddy checks throughout the session.",
+      "safety_callout": "Always shut down the boat engine before bringing a fallen skier alongside or onto the swim platform.",
       "pamphlet_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
       "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
       "syllabus_bucket": "In-Class Concept",
@@ -321,8 +325,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Because water-skiers and wakeboarders get splashed continuously, they cannot suffer from dehydration, sunburn, or life-threatening heatstroke.",
-        "fact": "Water reflection and physical exertion increase heat and sun exposure, and a body temperature of 105 degrees or higher is life-threatening heatstroke requiring immediate emergency cooling and medical care (p. 28)."
+        "misconception": "A boat operator can easily watch the skier behind the boat while steering forward.",
+        "fact": "The law and safety standards require a separate observer to watch the skier continuously.",
+        "myth": "A boat operator can easily watch the skier behind the boat while steering forward.",
+        "fact_correction": "The law and safety standards require a separate observer to watch the skier continuously."
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -351,16 +357,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Danger of High Body Temperature: A body temperature of 105 degrees or greater is a life-threatening medical condition and requires immediate medical treatment by health-care (p. 28).",
-        "Emergency Medical Call for Heatstroke: Heatstroke is a life-threatening condition; call for medical assistance immediately (p. 28).",
-        "Immediate Cooling Before EMS Arrives: While waiting for medical personnel to arrive, work to lower the victim's temperature (p. 28).",
-        "Relocating to Shade or Cooling: Move the person to an air-conditioned or shady area (p. 28)."
+        "Engine Shutdown Protocol: Turn off the boat motor completely before any skier approaches the boarding ladder.",
+        "Submerged Debris Survey: Scout shallow water zones and sandbars prior to towing skiers at high speeds.",
+        "Tow Line Clearance: Keep floating towlines away from rotating boat propellers to prevent sudden line entanglements.",
+        "Weather Awareness Standards: Cease all towing operations immediately whenever lightning strikes or dense fog develops offshore."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Lower the Victim Body Temperature: While waiting for medical personnel to arrive, work to lower the victim's temperature (p. 28).",
-        "Step 2 - Move Victim to Shade Immediately: Move the person to an air-conditioned or shady area (p. 28).",
-        "Step 3 - Loosen Clothing and Apply Towels: Loosen tight clothing and further cool the victim by fanning and applying wet towels (p. 28).",
-        "Step 4 - Immerse or Spray With Water: If possible, immerse or spray the person with cold water (p. 28)."
+        "Step 1 - Course Reconnaissance: Survey the planned tow corridor for shallow sandbars, floating logs, and mooring buoys.",
+        "Step 2 - Crew Assignment: Station a dedicated driver and an alert safety observer inside the towboat.",
+        "Step 3 - Equipment Check: Examine the tow rope and bridle hardware for strand fraying and knots.",
+        "Step 4 - Emergency Drill: Practice rapid engine cutoffs and recovery approaches during a simulated skier fall."
       ],
       "gear_checklist": [
         "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled",
@@ -369,15 +375,13 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer"
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Anticipating and Mitigating Water ",
-        "right_header": "Req 1b: First Aid for Aquatic Injuries",
+        "left_header": "Req 1a: Aquatic Hazard Identification Prot",
+        "right_header": "Req 1b: Water Sports Medical Management",
         "left_points": [
-          "(1a) Anticipating and Mitigating Water Hazards: The Water Sports pamphlet for Requirement 1a details the most likely hazards you may encounter while participating in water sports activities and what you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
-          "Emergency Medical Call for Heatstroke: Heatstroke is a life-threatening condition; call for medical assistance immediately (p. 28)."
+          "(1a) Aquatic Hazard Identification Protocols: Skiing zones present significant dangers like shallow water, docks, swimmer zones, and high-speed wake turbulence. Ski crews mitigate risk through thorough course mapping and establishing wide safety margins from shorelines."
         ],
         "right_points": [
-          "(1b) First Aid for Aquatic Injuries: The Water Sports pamphlet for Requirement 1b details prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
-          "Immediate Cooling Before EMS Arrives: While waiting for medical personnel to arrive, work to lower the victim's temperature (p. 28)."
+          "(1b) Water Sports Medical Management: Continuous handle friction produces palm blisters while prolonged water exposure induces hypothermia and muscle cramps. Early recognition of shivering, confusion, or skin breakdown allows immediate onshore first aid."
         ],
         "rows": [
           {
@@ -401,9 +405,9 @@
         "title": "Water Sports Req 1 Exemplar Workbook Entry: Water Sports Hazards and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Anticipating and Mitigating Water": "The Water Sports pamphlet for Requirement 1a details the most likely hazards you may encounter while participating in water sports activities and what you, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
-          "Req 1b (First Aid for Aquatic Injuries)": "The Water Sports pamphlet for Requirement 1b details prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28).",
-          "Req 1c - Applying Scouting America Safety A": "The Water Sports pamphlet for Requirement 1c details the Scouting America Safety Afloat policy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 28)."
+          "Req 1a - Aquatic Hazard Identification Pro": "Skiing zones present significant dangers like shallow water, docks, swimmer zones, and high-speed wake turbulence. Ski crews mitigate risk through thorough course mapping and establishing wide safety margins from shorelines.",
+          "Req 1b - Water Sports Medical Management": "Continuous handle friction produces palm blisters while prolonged water exposure induces hypothermia and muscle cramps. Early recognition of shivering, confusion, or skin breakdown allows immediate onshore first aid.",
+          "Req 1c - Safety Afloat Operational Policie": "Safety Afloat mandates qualified supervision, physical fitness, swimming defense, life jackets, and designated rescue equipment. Every water sports activity requires strict adherence to these nine operational points."
         },
         "sample_output": "Water Sports Hazards and First Aid: While waiting for medical personnel to arrive, work to lower the victim's temperature (p. 28).",
         "counselor_tip": "For Water Sports Requirement 1 (Water Sports Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32))."
@@ -435,7 +439,13 @@
       "workbook_diagram_caption": "Instructional guidelines demonstrate proper lifejacket usage, emergency water rescues, and safe boat boarding practices.",
       "number": "1",
       "description": "Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in water sports activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while participating in water sports: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, strains, minor cuts and bruises, spinal injury, and concussions and head trauma. (c) Review the Scouting America Safety Afloat policy. Tell how it applies to water sports.",
-      "workbook_visual_caption": "Instructional guidelines demonstrate proper lifejacket usage, emergency water rescues, and safe boat boarding practices."
+      "workbook_visual_caption": "Instructional guidelines demonstrate proper lifejacket usage, emergency water rescues, and safe boat boarding practices.",
+      "pamphlet_summary": "Towed water sports introduce acute environmental hazards including propeller strikes, submerged obstacles, and collision with other watercraft. Skiers and boat crews maintain continuous vigilance by surveying ski courses and monitoring changing marine weather conditions.",
+      "socratic_questions": [
+        "Why must a boat driver never turn backward to observe a fallen skier?",
+        "How do unseen floating deadheads create catastrophic dangers for towed water skiers?",
+        "What specific environmental changes signal an immediate return to the boat dock?"
+      ]
     },
     {
       "req_id": "2",
@@ -476,8 +486,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)",
           "common_misconception_pair": {
-            "misconception": "A loose lifejacket that rides up over your ears in the water is safer because it has extra room to float.",
-            "fact": "A water sports lifejacket must fit snugly with all straps and buckles fastened so it stays securely in place during a high-speed fall and keeps your airway above water (p. 17)."
+            "misconception": "A loose life jacket is safer because it allows freer arm movement while turning.",
+            "fact": "Loose life jackets can ride up over the face and obstruct breathing during falls.",
+            "myth": "A loose life jacket is safer because it allows freer arm movement while turning.",
+            "fact_correction": "Loose life jackets can ride up over the face and obstruct breathing during falls."
           },
           "starting_requirement_gate": {
             "gate_type": "HARD_PREREQ_BADGE",
@@ -508,10 +520,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Discuss with your counselor the characteristics of lifejackets most appropriate for water sports, and tell why one must always be worn while waterskiing or wakeboarding. Then demonstrate how to select and fit a lifejacket for water sports activities.",
-          "topic_title": "Req 2a: Selecting and Fitting Ski Vests",
-          "pamphlet_summary": "For Water Sports Requirement 2a (Selecting and Fitting Ski Vests): The Water Sports pamphlet for Requirement 2a details the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+          "topic_title": "Req 2a: Life Jacket Selection Protocols",
+          "pamphlet_summary": "Water ski vests feature impact-resistant nylon shells, durable closed-cell foam, and three or four webbed buckle straps. A proper snug fit ensures the jacket stays securely on the body during violent crashes.",
           "pamphlet_excerpts": [
-            "Selecting and Fitting Ski Vests: The Water Sports pamphlet for Requirement 2a details the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+            "Water ski vests feature impact-resistant nylon shells, durable closed-cell foam, and three or four webbed buckle straps. A proper snug fit ensures the jacket stays securely on the body during violent crashes."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p007_img1.png",
           "title": "Req 2a: Selecting and Fitting Ski Vests",
@@ -557,8 +569,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)",
           "common_misconception_pair": {
-            "misconception": "Inflatable lifejackets are ideal for waterskiing and wakeboarding impacts.",
-            "fact": "Inflatable or hybrid flotation devices have special limitations and are not designed for the high-impact falls of towed water sports, where impact-rated Type III ski vests are used (p. 17)."
+            "misconception": "The safety code is merely optional advice that boaters can discard on quiet lakes.",
+            "fact": "The safety code constitutes strict operating rules mandated by maritime law and Scouting policy.",
+            "myth": "The safety code is merely optional advice that boaters can discard on quiet lakes.",
+            "fact_correction": "The safety code constitutes strict operating rules mandated by maritime law and Scouting policy."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -584,10 +598,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Review and discuss the Water Sports Safety Code with your counselor. Promise that you will live up to it and follow it in all water work for this merit badge. Review the safety precautions that must be used by the boat operator in pulling waterskiers and wakeboarders.",
-          "topic_title": "Req 2b: Following the Water Sports Safety Code",
-          "pamphlet_summary": "Following the Water Sports Safety Code: Designed to be tossed to a person nearby in the water (p. 17).",
+          "topic_title": "Req 2b: Water Sports Safety Code",
+          "pamphlet_summary": "The Water Sports Safety Code establishes rules against night skiing, riding boat gunwales, and skiing in shallow areas. Committing to this code protects both participants and non-participating boaters sharing open public waterways.",
           "pamphlet_excerpts": [
-            "Following the Water Sports Safety Code: Designed to be tossed to a person nearby in the water (p. 17)."
+            "The Water Sports Safety Code establishes rules against night skiing, riding boat gunwales, and skiing in shallow areas. Committing to this code protects both participants and non-participating boaters sharing open public waterways."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p041_img1.png",
           "workbook_diagram_caption": "An orange throwable ring buoy provides emergency flotation support for a swimmer in distress.",
@@ -608,11 +622,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Life Jackets and Safety Code",
+      "topic_title": "Req 2: Flotation Selection and Safety Code",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Water Sports Requirement 2: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for life jackets and safety code, and maintain buddy checks throughout the session.",
+      "safety_callout": "Never use an ill-fitting or non-impact-rated life jacket during water sports activities.",
       "pamphlet_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)",
       "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -640,8 +654,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Keeping a Type IV throwable ring buoy or boat seat cushion on board eliminates the need for a strong swimmer to wear a lifejacket while waterskiing.",
-        "fact": "Type IV throwable cushions and buoys are only meant to be tossed to someone nearby and must never be used in place of a properly fitted U.S. Coast Guard-approved Type III ski vest (p. 17)."
+        "misconception": "Inflatable life vests work well for water skiing because they are lightweight and unobtrusive.",
+        "fact": "High-speed water impacts can prevent automatic inflation or tear lightweight inflatable chambers instantly.",
+        "myth": "Inflatable life vests work well for water skiing because they are lightweight and unobtrusive.",
+        "fact_correction": "High-speed water impacts can prevent automatic inflation or tear lightweight inflatable chambers instantly."
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -670,16 +686,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Throwable Flotation Aid Purpose: Designed to be tossed to a person nearby in the water (p. 17).",
-        "Ring Buoys and Seat Cushions: Type IV throwables include ring buoys and seat cushions with straps (p. 17).",
-        "Never Substitute for Wearable Vests: They should never be used in place of a lifejacket (p. 17).",
-        "Hybrid Buoyancy and Inflation Design: Designed to have internal buoyancy and to inflate for additional flotation (p. 17)."
+        "Impact Rating Mandate: Select life jackets constructed with heavy-duty foam designed to withstand high-velocity water impacts.",
+        "Buckle Tension Standard: Fasten every buckle and cinch straps snugly to prevent slippage over the head.",
+        "Code Compliance Rule: Never ski after sunset or before sunrise regardless of clear ambient weather conditions.",
+        "Carbon Monoxide Defense: Avoid teak surfing or dragging behind boat exhaust outlets to prevent poisonings."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Never Substitute Throwable Devices: They should never be used in place of a lifejacket (p. 17).",
-        "Step 2 - Understand Hybrid Flotation Features: Designed to have internal buoyancy and to inflate for additional flotation (p. 17).",
-        "Step 3 - Respect Special Device Limitations: These flotation aids have special characteristics and limitations, and should not be used without specific training (p. 17).",
-        "Step 4 - Select Fitted Type III Vests: Most Type III ski vests are well-suited for water sports because they are comfortable and do not restrict movement (p. 17)."
+        "Step 1 - Label Verification: Inspect the inner Coast Guard approval stamp for correct weight and chest sizing.",
+        "Step 2 - Vest Fitting: Put on the vest and snap each chest buckle from bottom to top.",
+        "Step 3 - Shoulder Pull: Pull upward firmly on shoulder straps to verify the vest stays below chin.",
+        "Step 4 - Code Review: Rehearse all rules in the safety code aloud with the boat driver."
       ],
       "gear_checklist": [
         "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled",
@@ -688,15 +704,13 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer"
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Selecting and Fitting Ski Vests",
-        "right_header": "Req 2b: Following the Water Sports Safety ",
+        "left_header": "Req 2a: Life Jacket Selection Protocols",
+        "right_header": "Req 2b: Water Sports Safety Code",
         "left_points": [
-          "(2a) Selecting and Fitting Ski Vests: The Water Sports pamphlet for Requirement 2a details the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
-          "Ring Buoys and Seat Cushions: Type IV throwables include ring buoys and seat cushions with straps (p. 17)."
+          "(2a) Life Jacket Selection Protocols: Water ski vests feature impact-resistant nylon shells, durable closed-cell foam, and three or four webbed buckle straps. A proper snug fit ensures the jacket stays securely on the body during violent crashes."
         ],
         "right_points": [
-          "(2b) Following the Water Sports Safety Code: Designed to be tossed to a person nearby in the water (p. 17).",
-          "Never Substitute for Wearable Vests: They should never be used in place of a lifejacket (p. 17)."
+          "(2b) Water Sports Safety Code: The Water Sports Safety Code establishes rules against night skiing, riding boat gunwales, and skiing in shallow areas. Committing to this code protects both participants and non-participating boaters sharing open public waterways."
         ],
         "rows": [
           {
@@ -720,8 +734,8 @@
         "title": "Water Sports Req 2 Exemplar Workbook Entry: Life Jackets and Safety Code",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 2a (Selecting and Fitting Ski Vests)": "The Water Sports pamphlet for Requirement 2a details the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
-          "Req 2b - Following the Water Sports Safety": "Designed to be tossed to a person nearby in the water (p. 17)."
+          "Req 2a - Life Jacket Selection Protocols": "Water ski vests feature impact-resistant nylon shells, durable closed-cell foam, and three or four webbed buckle straps. A proper snug fit ensures the jacket stays securely on the body during violent crashes.",
+          "Req 2b - Water Sports Safety Code": "The Water Sports Safety Code establishes rules against night skiing, riding boat gunwales, and skiing in shallow areas. Committing to this code protects both participants and non-participating boaters sharing open public waterways."
         },
         "sample_output": "Life Jackets and Safety Code: Designed to have internal buoyancy and to inflate for additional flotation (p. 17).",
         "counselor_tip": "For Water Sports Requirement 2 (Life Jackets and Safety Code), verify the Scout's own observations and specific pamphlet details (Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41))."
@@ -753,7 +767,13 @@
       "workbook_diagram_caption": "Scouts review lifejackets and equipment regulations along a forested lake shoreline before beginning water activities.",
       "number": "2",
       "description": "Do the following: (a) Discuss with your counselor the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn while waterskiing or wakeboarding. Then demonstrate how to select and fit a life jacket for water sports activities. (b) Review and discuss the Water Sports Safety Code with your counselor. Promise that you will live up to it and follow it in all water work for this merit badge. Review the safety precautions that must be used by the boat operator in pulling waterskiers and wakeboarders.",
-      "workbook_visual_caption": "Scouts review lifejackets and equipment regulations along a forested lake shoreline before beginning water activities."
+      "workbook_visual_caption": "Scouts review lifejackets and equipment regulations along a forested lake shoreline before beginning water activities.",
+      "pamphlet_summary": "Towed water sports require rugged, Coast Guard approved life jackets equipped with secure multi-buckle closures. Skiers commit to the Water Sports Safety Code to preserve discipline, communication, and mutual safety across the crew.",
+      "socratic_questions": [
+        "Why will an unconscious skier drown without a properly secured, inherently buoyant life jacket?",
+        "What structural differences distinguish a water-ski vest from a standard paddle-craft life jacket?",
+        "Which element of the Water Sports Safety Code prevents severe propeller lacerations?"
+      ]
     },
     {
       "req_id": "3",
@@ -776,11 +796,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Swimmer Test and Boating Prerequisites",
+      "topic_title": "Req 3: Swimmer Classification Test Completion",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Water Sports Requirement 3: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for swimmer test and boating prerequisites, and maintain buddy checks throughout the session.",
+      "safety_callout": "Conduct all swimmer classification tests in calm water under certified lifeguard supervision.",
       "pamphlet_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 12, p. 15)",
       "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 12, p. 15)",
       "syllabus_bucket": "In-Class Concept",
@@ -808,8 +828,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Because every skier wears a lifejacket, passing the Scouting America swimmer test is optional before waterskiing or wakeboarding.",
-        "fact": "All water-skiers and wakeboarders must pass the Scouting America swimmer test before participating, in addition to wearing a U.S. Coast Guard-approved lifejacket marked for water skiing (p. 12)."
+        "misconception": "Wearing a life jacket allows a non-swimmer to bypass the required swimmer test.",
+        "fact": "Every participant must pass the standard swimmer test before beginning water sports instruction.",
+        "myth": "Wearing a life jacket allows a non-swimmer to bypass the required swimmer test.",
+        "fact_correction": "Every participant must pass the standard swimmer test before beginning water sports instruction."
       },
       "starting_requirement_gate": {
         "gate_type": "HARD_PREREQ_BADGE",
@@ -838,16 +860,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Mandatory Swimmer Classification Requirement: Swimming Ability All water-skiers and wake boarders must have passed the Scouting America swimmer test (p. 12).",
-        "Rules for Boat Passengers: Anyone not classified as a swimmer may ride as a passenger in the boat when the operator is a skilled adult (p. 12).",
-        "Coast Guard Approved Life Jackets: Lifejackets Properly fitted U. S. Coast Guard-approved lifejackets must be worn by all persons engaged in boating activity (p. 12).",
-        "Recommended Recreational Type III Vests: Type III lifejackets are recommended for general recreational use (p. 12)."
+        "Distance Swimming Benchmark: Swim seventy-five yards using a strong, well-executed forward crawl or trudgen stroke.",
+        "Resting Stroke Transition: Complete the final twenty-five yards using an easy, restful elementary backstroke.",
+        "Water Entry Standard: Leap feetfirst into water over your head before beginning the continuous stroke trial.",
+        "Floating Endurance Demonstration: Rest by floating motionless on your back for one minute following the swim."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Wear Coast Guard Approved Vests: Lifejackets Properly fitted U. S. Coast Guard-approved lifejackets must be worn by all persons engaged in boating activity (p. 12).",
-        "Step 2 - Choose Type III Recreational Vests: Type III lifejackets are recommended for general recreational use (p. 12).",
-        "Step 3 - Verify Water Skiing Vest Rating: All participants in towed activity afloat (water skiing, wake boarding, knee boarding, tubing, etc.) must wear a lifejacket marked for water skiing (p. 12).",
-        "Step 4 - Maintain the Buddy System Afloat: Buddy System All participants in water sports activities must use the buddy system (p. 12)."
+        "Step 1 - Feetfirst Entry: Jump feetfirst into water over your head and level off into swimming position.",
+        "Step 2 - Forward Propulsion: Swim seventy-five yards using a continuous, propulsive crawl or breaststroke without stopping.",
+        "Step 3 - Stroke Transition: Roll over smoothly to swim twenty-five yards using an elementary backstroke technique.",
+        "Step 4 - Motionless Float: Float motionless on your back for one full minute to demonstrate resting stamina."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -920,7 +942,13 @@
       "workbook_diagram_caption": "An experienced wakeboarder launches high into the air during an energetic water sports run.",
       "number": "3",
       "description": "Before doing requirements 4 through 6, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.",
-      "workbook_visual_caption": "An experienced wakeboarder launches high into the air during an energetic water sports run."
+      "workbook_visual_caption": "An experienced wakeboarder launches high into the air during an energetic water sports run.",
+      "pamphlet_summary": "The swimmer test establishes foundational aquatic competency required before attempting deepwater starts or towed maneuvers. Candidates complete one hundred yards using strong forward strokes followed by an unassisted resting float.",
+      "socratic_questions": [
+        "Why must a skier demonstrate independent swimming proficiency even while wearing a life jacket?",
+        "How does the floating requirement demonstrate self-rescue ability in open deep water?",
+        "What physiological advantages does a restful backstroke provide during an unexpected open-water separation?"
+      ]
     },
     {
       "req_id": "4",
@@ -943,11 +971,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Hand Signals and Observer Communication",
+      "topic_title": "Req 4: Skier Hand Signal Communication",
       "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Water Sports Requirement 4: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for hand signals and observer communication, and maintain buddy checks throughout the session.",
+      "safety_callout": "Signal skier safe immediately after falling so the observer knows you are conscious and uninjured.",
       "pamphlet_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 20, p. 21)",
       "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 20, p. 21)",
       "syllabus_bucket": "In-Class Concept",
@@ -975,8 +1003,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "A water-skier or wakeboarder can simply shout speed and turn instructions to the boat driver while under tow.",
-        "fact": "Engine, wind, and water noise make shouting impossible once under way, so the skier must use standard hand signals watched by the safety observer and relayed to the driver (p. 20)."
+        "misconception": "Yelling loudly from behind the boat is an effective way to request speed changes.",
+        "fact": "Outboard engine roar and wind noise completely drown out shouts from a towed skier.",
+        "myth": "Yelling loudly from behind the boat is an effective way to request speed changes.",
+        "fact_correction": "Outboard engine roar and wind noise completely drown out shouts from a towed skier."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1000,16 +1030,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Driver Turn Alert Signal: The driver may use this signal to alert the skier that the boat is about to turn (p. 20).",
-        "Skier Directional Turn Request: If the skier wants the driver to turn, the skier uses the same signal followed by pointing in the direction he or she wants the driver (p. 20).",
-        "Overcoming Boat Engine and Wind Noise: Once a skier is under way, the noise from the boat makes hearing instructions difficult (p. 20).",
-        "Standardized Skier Hand Signals: The skier must learn to give directions by using the hand signals shown here (p. 20)."
+        "Speed Increase Gesture: Extend one hand forward with thumb pointed distinctly upward toward the tow boat.",
+        "Speed Reduction Signal: Point the thumb downward toward the water to instruct the driver to decelerate.",
+        "Motor Cutoff Command: Draw a flat hand firmly across the throat to demand immediate engine shutdown.",
+        "Skier Safe Posture: Clasp both hands together overhead to signal no injury occurred after a fall."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Account for Engine Noise Afloat: Once a skier is under way, the noise from the boat makes hearing instructions difficult (p. 20).",
-        "Step 2 - Demonstrate Standard Skier Hand Signals: The skier must learn to give directions by using the hand signals shown here (p. 20).",
-        "Step 3 - Communicate Through the Safety Observer: The observer serves as the eyes and the ears for the driver and skier (p. 20).",
-        "Step 4 - Apply Signals Across All Boards: Note that \"skier\" refers to both water-skiers and wake boarders (p. 20)."
+        "Step 1 - Signal Preparation: Establish eye contact with the boat safety observer before executing any hand signal.",
+        "Step 2 - Speed Modulation: Form clear thumbs-up or thumbs-down gestures to fine-tune the boat towing speed.",
+        "Step 3 - Directional Indication: Point with your open hand toward the left or right to command turns.",
+        "Step 4 - Recovery Signaling: Raise one ski or clasp hands overhead immediately upon falling into the water."
       ],
       "gear_checklist": [
         "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled",
@@ -1087,7 +1117,13 @@
       "workbook_diagram_caption": "A water skier draws a hand across his throat to signal the boat driver to cut the motor.",
       "number": "4",
       "description": "Show the following skier signals to the safety observer in the boat: skier safe, faster, slower, turns, back to dock, cut motor, skier in water.",
-      "workbook_visual_caption": "A water skier draws a hand across his throat to signal the boat driver to cut the motor."
+      "workbook_visual_caption": "A water skier draws a hand across his throat to signal the boat driver to cut the motor.",
+      "pamphlet_summary": "Engine noise prevents verbal communication across the tow rope, making standardized hand signals essential for skier safety. The skier communicates speed adjustments, directional changes, emergency stops, and physical status clearly to the observer.",
+      "socratic_questions": [
+        "Why must the safety observer watch the skier rather than the boat operator doing so?",
+        "Why is holding a ski vertically out of the water important for a fallen skier?",
+        "Under what circumstances should a skier immediately give the cut motor hand signal?"
+      ]
     },
     {
       "req_id": "5",
@@ -1143,8 +1179,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Putting all your weight on your back foot during a wakeboard start stops the board from wobbling.",
-            "fact": "Placing slightly more weight on your front foot than your back foot as the boat accelerates keeps the wakeboard stable and prevents wobbling (p. 59)."
+            "misconception": "Pulling the handle inward toward your chest helps pull you out of the water.",
+            "fact": "Bending your arms exhausts back muscles and tips your center of balance backward.",
+            "myth": "Pulling the handle inward toward your chest helps pull you out of the water.",
+            "fact_correction": "Bending your arms exhausts back muscles and tips your center of balance backward."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1170,10 +1208,10 @@
           "id": "5a",
           "sub_req_label": "5a",
           "sub_req_text": "Show how to enter the water from a boat and make a deepwater start without help.",
-          "topic_title": "Req 5a: Boat Entry and Deepwater Start",
-          "pamphlet_summary": "Boat Entry and Deepwater Start: To keep the board from wobbling, puts lightly more weight on your front foot than on your back foot as the boat begins Alternate Method for Deep water (p. 59).",
+          "topic_title": "Req 5a: Deepwater Start Execution",
+          "pamphlet_summary": "Entering water safely involves slipping from the swim platform away from the propeller with equipment secured. The skier lets the engine draw them onto a plane while maintaining a tucked position with arms straight.",
           "pamphlet_excerpts": [
-            "Boat Entry and Deepwater Start: To keep the board from wobbling, puts lightly more weight on your front foot than on your back foot as the boat begins Alternate Method for Deep water (p. 59)."
+            "Entering water safely involves slipping from the swim platform away from the propeller with equipment secured. The skier lets the engine draw them onto a plane while maintaining a tucked position with arms straight."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p058_img1.png",
           "title": "Req 5a: Boat Entry and Deepwater Start",
@@ -1223,8 +1261,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
           "common_misconception_pair": {
-            "misconception": "If you are losing balance or approaching an obstacle, you should hang onto the towrope handle as tightly as possible even after hitting the water.",
-            "fact": "To prevent injury or being dragged through the water, you must immediately let go of the towrope handle when falling or when coasting to a planned stop (p. 69)."
+            "misconception": "Skiing directly parallel across wake rollers prevents the ski tips from catching water.",
+            "fact": "Hitting wakes parallel causes skis to slide sideways and triggers violent rotational falls.",
+            "myth": "Skiing directly parallel across wake rollers prevents the ski tips from catching water.",
+            "fact_correction": "Hitting wakes parallel causes skis to slide sideways and triggers violent rotational falls."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1250,10 +1290,10 @@
           "id": "5b",
           "sub_req_label": "5b",
           "sub_req_text": "Starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, without falling.",
-          "topic_title": "Req 5b: Crossing Both Wakes Under Control",
-          "pamphlet_summary": "For Water Sports Requirement 5b (Crossing Both Wakes Under Control): The Water Sports pamphlet for Requirement 5b details starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 59).",
+          "topic_title": "Req 5b: Wake Crossing Traversal",
+          "pamphlet_summary": "Crossing wakes requires carving hard outside the rooster tail, leaning into turns, and cutting diagonally across the wake. The skier absorbs the double wake rollers with spring-loaded knees to avoid catching ski edges.",
           "pamphlet_excerpts": [
-            "Crossing Both Wakes Under Control: The Water Sports pamphlet for Requirement 5b details starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 59)."
+            "Crossing wakes requires carving hard outside the rooster tail, leaning into turns, and cutting diagonally across the wake. The skier absorbs the double wake rollers with spring-loaded knees to avoid catching ski edges."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p058_img1.png",
           "workbook_diagram_caption": "A skier in a life jacket crouches in the water holding the tow handle for a deepwater start.",
@@ -1291,8 +1331,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
           "common_misconception_pair": {
-            "misconception": "Crossing the boat's wakes requires leaning backward and locking your knees stiffly as you hit the wave.",
-            "fact": "Controlled wake crossings require edging smoothly with bent knees that act as shock absorbers as you pass across both wakes and return to the center (p. 69)."
+            "misconception": "Skiing directly up to the beach at full speed makes for an impressive landing.",
+            "fact": "High-speed shore approaches risk catastrophic collisions with shallow bottoms, rocks, or shoreline docks.",
+            "myth": "Skiing directly up to the beach at full speed makes for an impressive landing.",
+            "fact_correction": "High-speed shore approaches risk catastrophic collisions with shallow bottoms, rocks, or shoreline docks."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1318,10 +1360,10 @@
           "id": "5c",
           "sub_req_label": "5c",
           "sub_req_text": "Show you can fall properly to avoid an obstacle. Also show that you can drop handle and coast to a stop without losing your balance.",
-          "topic_title": "Req 5c: Safe Falling and Controlled Coasting",
-          "pamphlet_summary": "For Water Sports Requirement 5c (Safe Falling and Controlled Coasting): The Water Sports pamphlet for Requirement 5c details you can fall properly to avoid an obstacle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 59).",
+          "topic_title": "Req 5c: Obstacle Avoidance and Stopping",
+          "pamphlet_summary": "Skiers release the towline immediately to avoid imminent obstacles and slide safely into open water. When stopping, throwing the handle away and coasting prevents entanglement and avoids collisions with docks or shores.",
           "pamphlet_excerpts": [
-            "Safe Falling and Controlled Coasting: The Water Sports pamphlet for Requirement 5c details you can fall properly to avoid an obstacle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 59)."
+            "Skiers release the towline immediately to avoid imminent obstacles and slide safely into open water. When stopping, throwing the handle away and coasting prevents entanglement and avoids collisions with docks or shores."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p058_img1.png",
           "title": "Req 5c: Safe Falling and Controlled Coasting",
@@ -1367,11 +1409,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Deepwater Starts and Wake Crossings",
+      "topic_title": "Req 5: Water Skiing Maneuvers and Control",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Water Sports Requirement 5: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for deepwater starts and wake crossings, and maintain buddy checks throughout the session.",
+      "safety_callout": "Never wrap any part of the towline around hands, wrists, or limbs while skiing.",
       "pamphlet_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
       "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1401,8 +1443,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "During a deepwater start, you should pull the towrope handle into your chest with bent elbows and stand up straight as soon as the boat moves.",
-        "fact": "You should keep your knees bent and your arms straight during a deepwater start, letting the boat pull you up onto the water before rising and rotating your hips (p. 59)."
+        "misconception": "Standing up quickly by muscle force alone lifts the skier out of deep water.",
+        "fact": "Boat propulsion creates hydroplane lift, meaning the skier should remain crouched until planing occurs.",
+        "myth": "Standing up quickly by muscle force alone lifts the skier out of deep water.",
+        "fact_correction": "Boat propulsion creates hydroplane lift, meaning the skier should remain crouched until planing occurs."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1426,16 +1470,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Front Foot Weight for Stability: To keep the board from wobbling, puts lightly more weight on your front foot than on your back foot as the boat begins Alternate Method for Deep water (p. 59).",
-        "Partially Rotated Wakeboard Start Option: You may prefer to start out with the wake board partially rotated uptoward the front foot (p. 59).",
-        "Parallel Board Starting Position: Begin with the wake board out in front of you and parallel to the water's surface (p. 59).",
-        "Bent Knees and Straight Arms: Keep your knees bent and hold the rope handle with your arms straight (p. 59)."
+        "Deepwater Starting Posture: Keep knees bent deeply against chest while holding ski tips above the water.",
+        "Arms Straight Technique: Allow boat pull to draw body upward without prematurely pulling arms into chest.",
+        "Wake Crossing Angle: Attack wake crests at a sharp diagonal angle while keeping knees flexed.",
+        "Handle Release Procedure: Drop the tow handle cleanly and coast smoothly until momentum dissipates in water."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Position Board Parallel in Front: Begin with the wake board out in front of you and parallel to the water's surface (p. 59).",
-        "Step 2 - Bend Knees With Arms Straight: Keep your knees bent and hold the rope handle with your arms straight (p. 59).",
-        "Step 3 - Signal Driver to Accelerate Smoothly: When you are in position and ready, shout out \"Hit it!\" to let the driver know to accelerate (p. 59).",
-        "Step 4 - Rotate Hips Into Riding Stance: As soon as the boat starts to pull, twist at the hips to turn the front of the board up and toward the boat (p. 59)."
+        "Step 1 - Deepwater Setup: Crouch in deep water with ski tips protruding above surface between towline bridle.",
+        "Step 2 - Planing Phase: Let the boat pull you upright into a balanced athletic stance upon acceleration.",
+        "Step 3 - Wake Traversal: Lean outward and cut across both wakes diagonally with bent knees absorbing chop.",
+        "Step 4 - Controlled Dismount: Release the tow handle, sink into water hips-first, and protect your head."
       ],
       "gear_checklist": [
         "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled",
@@ -1444,15 +1488,13 @@
         "Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer"
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Boat Entry and Deepwater Start",
-        "right_header": "Req 5b: Crossing Both Wakes Under Control",
+        "left_header": "Req 5a: Deepwater Start Execution",
+        "right_header": "Req 5b: Wake Crossing Traversal",
         "left_points": [
-          "(5a) Boat Entry and Deepwater Start: To keep the board from wobbling, puts lightly more weight on your front foot than on your back foot as the boat begins Alternate Method for Deep water (p. 59).",
-          "Partially Rotated Wakeboard Start Option: You may prefer to start out with the wake board partially rotated uptoward the front foot (p. 59)."
+          "(5a) Deepwater Start Execution: Entering water safely involves slipping from the swim platform away from the propeller with equipment secured. The skier lets the engine draw them onto a plane while maintaining a tucked position with arms straight."
         ],
         "right_points": [
-          "(5b) Crossing Both Wakes Under Control: The Water Sports pamphlet for Requirement 5b details starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 59).",
-          "Parallel Board Starting Position: Begin with the wake board out in front of you and parallel to the water's surface (p. 59)."
+          "(5b) Wake Crossing Traversal: Crossing wakes requires carving hard outside the rooster tail, leaning into turns, and cutting diagonally across the wake. The skier absorbs the double wake rollers with spring-loaded knees to avoid catching ski edges."
         ],
         "rows": [
           {
@@ -1476,9 +1518,9 @@
         "title": "Water Sports Req 5 Exemplar Workbook Entry: Deepwater Starts and Wake Crossings",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a (Boat Entry and Deepwater Start)": "To keep the board from wobbling, puts lightly more weight on your front foot than on your back foot as the boat begins Alternate Method for Deep water (p. 59).",
-          "Req 5b (Crossing Both Wakes Under Control)": "The Water Sports pamphlet for Requirement 5b details starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 59).",
-          "Req 5c - Safe Falling and Controlled Coasti": "The Water Sports pamphlet for Requirement 5c details you can fall properly to avoid an obstacle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 59)."
+          "Req 5a - Deepwater Start Execution": "Entering water safely involves slipping from the swim platform away from the propeller with equipment secured. The skier lets the engine draw them onto a plane while maintaining a tucked position with arms straight.",
+          "Req 5b - Wake Crossing Traversal": "Crossing wakes requires carving hard outside the rooster tail, leaning into turns, and cutting diagonally across the wake. The skier absorbs the double wake rollers with spring-loaded knees to avoid catching ski edges.",
+          "Req 5c - Obstacle Avoidance and Stopping": "Skiers release the towline immediately to avoid imminent obstacles and slide safely into open water. When stopping, throwing the handle away and coasting prevents entanglement and avoids collisions with docks or shores."
         },
         "sample_output": "Deepwater Starts and Wake Crossings: Begin with the wakeboard out in front of you and parallel to the water's surface (p. 59).",
         "counselor_tip": "For Water Sports Requirement 5 (Deepwater Starts and Wake Crossings), verify the Scout's own observations and specific pamphlet details (Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69))."
@@ -1510,7 +1552,13 @@
       "workbook_diagram_caption": "A skier in a lifejacket crouches in the water holding the tow handle for a deepwater start.",
       "number": "5",
       "description": "Showing reasonable control while using two skis, one ski, or a wakeboard, do the following: (a) Show how to enter the water from a boat and make a deepwater start without help. (b) Starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, without falling. (c) Show you can fall properly to avoid an obstacle. Also show that you can drop handle and coast to a stop without losing your balance.",
-      "workbook_visual_caption": "A skier in a lifejacket crouches in the water holding the tow handle for a deepwater start."
+      "workbook_visual_caption": "A skier in a lifejacket crouches in the water holding the tow handle for a deepwater start.",
+      "pamphlet_summary": "Towed participants must display balance, proper body posture, and wave management across variable wake patterns. Mastery involves executing unassisted deepwater starts, carving across wake crests, and safely dismounting into open water.",
+      "socratic_questions": [
+        "Why does bending your knees help you maintain balance while crossing turbulent boat wakes?",
+        "How does leaning away from the boat facilitate aggressive carving across the wake crest?",
+        "What catastrophic injury can occur if a skier wraps the tow handle around their arm?"
+      ]
     },
     {
       "req_id": "6",
@@ -1528,11 +1576,11 @@
         "slide_injection_label": "Local BSA Camps, Trailheads & Backcountry Regulations",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Binding Adjustment and Deepwater Recovery",
+      "topic_title": "Req 6: Binding Adjustment and Recovery",
       "action_verb": "Show",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Operate under BSA Safe Swim Defense and Safety Afloat for Water Sports Requirement 6: confirm swimmer classification, wear a properly fitted U.S. Coast Guard-approved life jacket when on the water for binding adjustment and deepwater recovery, and maintain buddy checks throughout the session.",
+      "safety_callout": "Never insert dry feet into rubber bindings because friction can tear delicate boot rubber or sprain ankles.",
       "pamphlet_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 49)",
       "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 49)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1562,8 +1610,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Beginner wakeboard bindings should be mounted right next to each other in the center of the board with both feet pointing straight forward toward the nose.",
-        "fact": "Beginner wakeboard bindings should be set about shoulder-width apart with the back foot at 0 to 9 degrees and the front foot angled outward at 9 to 27 degrees (p. 17)."
+        "misconception": "Bindings should be tightened as rigidly as downhill snow ski boots to maximize control.",
+        "fact": "Water ski bindings must release the feet during violent falls to prevent severe lower-leg fractures.",
+        "myth": "Bindings should be tightened as rigidly as downhill snow ski boots to maximize control.",
+        "fact_correction": "Water ski bindings must release the feet during violent falls to prevent severe lower-leg fractures."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1587,16 +1637,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Skill-Based Wakeboard Foot Angles: With wake boards, the angle of your feet on the board can be adjusted depending on your skill level (p. 17).",
-        "Finding a Comfortable Beginner Stance: As a beginner, you'll want to follow the steps below, fine-tuning the adjustments to find a stance that feels most comfortable (p. 17).",
-        "Shoulder-Width Binding Stance Spacing: Adjust the distance between the bindings to about shoulder-width apart, with your back foot slightly more toward the rear of the board for better (p. 17).",
-        "Back Foot Angle Alignment: Adjust the angle of the back foot so that it is straight across the board or turned outs lightly toward the back (at zero to 9 degrees) (p. 17)."
+        "Dry Binding Lubrication: Wet the rubber binding with lake water before sliding feet into the boots.",
+        "Heel Cup Alignment: Position your heel firmly against the rear cup before tightening overlay tension straps.",
+        "Deepwater Retrieval Drill: Swim toward floating skis using breaststroke while scanning continuously for approaching boat hulls.",
+        "In-Water Fitting Method: Submerge the ski tail beneath you to slide feet into bindings while floating."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Set Bindings Shoulder-Width Apart: Adjust the distance between the bindings to about shoulder-width apart, with your back foot slightly more toward the rear of the board for better (p. 17).",
-        "Step 2 - Align Back Binding Angle: Adjust the angle of the back foot so that it is straight across the board or turned outs lightly toward the back (at zero to 9 degrees) (p. 17).",
-        "Step 3 - Angle Front Binding Outward: Adjust the angle of the front foot so that it is slightly turned outtoward the front (9 to 27 degrees) (p. 17).",
-        "Step 4 - Test Binding Fit on Shore: Try the board on for size before you hit the water (p. 17)."
+        "Step 1 - Shoreline Sizing: Loosen binding laces, wet rubber boots, and slide feet in for snug fit.",
+        "Step 2 - Equipment Retrieval: Locate detached floating skis in deep water and gather them alongside your torso.",
+        "Step 3 - In-Water Mounting: Push the ski tail underwater while guiding your lubricated foot into front binding.",
+        "Step 4 - Rear Foot Insertion: Slip the rear foot into toe piece and cinch cords securely before signaling."
       ],
       "gear_checklist": [
         "U.S. Coast Guard-approved Type III Personal Flotation Device (PFD) properly fitted and buckled",
@@ -1674,7 +1724,13 @@
       "workbook_diagram_caption": "A wakeboarder slides their foot securely into an adjustable boot binding on the board deck.",
       "number": "6",
       "description": "While on shore, show that you know how to properly adjust the bindings of your ski(s) or wakeboard to fit yourself. Then, in deep water, show you can adjust bindings to fit. Recover and put on your ski(s) or wakeboard that has come off during a fall.",
-      "workbook_visual_caption": "A wakeboarder slides their foot securely into an adjustable boot binding on the board deck."
+      "workbook_visual_caption": "A wakeboarder slides their foot securely into an adjustable boot binding on the board deck.",
+      "pamphlet_summary": "Properly adjusted rubber bindings hold feet snugly while permitting rapid release during high-speed water tumbles. Skiers must master wet adjustment methods and retrieve loose floating equipment independently in deep open water.",
+      "socratic_questions": [
+        "Why must water ski bindings release your feet during a high-speed fall?",
+        "How do you maintain flotation and situational awareness while donning skis in deep water?",
+        "What dangers exist when swimming after a runaway ski in active motorboat traffic?"
+      ]
     }
   ],
   "badge_slug": "water_sports",

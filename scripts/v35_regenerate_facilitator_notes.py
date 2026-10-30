@@ -59,6 +59,7 @@ def build_5part_facilitator_note(
     worked_ex: Optional[Dict[str, Any]] = None,
     quiz_item: Optional[Dict[str, Any]] = None,
     gear_list: Optional[List[str]] = None,
+    socratic_questions: Optional[List[str]] = None,
 ) -> str:
     """Builds a rich, Socratic, role-specific 5-Part Facilitator Guide note for a specific slide index."""
     clean_b = clean_prose(badge_name)
@@ -146,12 +147,16 @@ def build_5part_facilitator_note(
     fact = clean_prose(str(misc_pair.get("fact") or misc_pair.get("fact_correction") or ex1))
     safe_str = f" [Safety Check: {clean_prose(safety_callout)}]" if safety_callout else ""
 
+    soc_q0 = clean_prose(socratic_questions[0]) if socratic_questions and len(socratic_questions) >= 1 and clean_prose(socratic_questions[0]) else ""
+    soc_q1 = clean_prose(socratic_questions[1]) if socratic_questions and len(socratic_questions) >= 2 and clean_prose(socratic_questions[1]) else soc_q0
+
     if role_idx == 0:
         pacing = (
             f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
             f"[Point to Card 1: {clean_tp}] Introduce {clean_tp} for {clean_b} Requirement {clean_r} by unpacking {ensure_sentence_end(ex1)}.{safe_str}"
         )
-        ask = f"[ASK SCOUTS FIRST] Before reading the pamphlet details on screen, why does {clean_tp} matter in {clean_b}, and where have you seen it in action?"
+        ask_q0 = soc_q0 or f"Before reading the pamphlet details on screen, why does {clean_tp} matter in {clean_b}, and where have you seen it in action?"
+        ask = f"[ASK SCOUTS FIRST] {ask_q0}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex1} {ex2} [Expected Answer: Scouts explain the core principle of {clean_tp} in their own words.]"
         rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Open the {clean_b} Workbook to {wb_title}] Have each Scout record the primary definition and pamphlet facts for Requirement {clean_r} ({cite})."
     elif role_idx == 1:
@@ -207,7 +212,8 @@ def build_5part_facilitator_note(
             f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
             f"[Facilitate deep-dive discussion on {clean_tp}] Connect {ensure_sentence_end(ex2)} to real-world application and troubleshooting in {clean_b} Requirement {clean_r}.{safe_str}"
         )
-        ask = f"[ASK SCOUTS FIRST] If conditions change unexpectedly while applying {clean_tp} in {clean_b}, how should your patrol adapt while staying within the pamphlet standard?"
+        ask_q1 = soc_q1 or f"If conditions change unexpectedly while applying {clean_tp} in {clean_b}, how should your patrol adapt while staying within the pamphlet standard?"
+        ask = f"[ASK SCOUTS FIRST] {ask_q1}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex2} {ex1} [Expected Answer: Scouts connect {clean_tp} to practical field decision-making and verify their notes in {wb_title}.]"
         rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Final check for Requirement {clean_r}] Initial Blue Card (#34124) once each Scout individually explains or demonstrates {clean_tp} ({cite})."
 
@@ -233,6 +239,7 @@ def _populate_subreq_notes_recursive(
     parent_we: Dict[str, Any],
     parent_quiz: Dict[str, Any],
     parent_gear: List[str],
+    parent_soc: Optional[List[str]] = None,
 ) -> int:
     """Recursively pre-computes all 7 slide roles (0..6) for a sub-requirement node and all its children."""
     count = 0
@@ -251,6 +258,7 @@ def _populate_subreq_notes_recursive(
     sr_we = node.get("worked_example") or parent_we
     sr_quiz = node.get("quiz_item") or parent_quiz
     sr_gear = list(node.get("gear_checklist") or parent_gear)
+    sr_soc = list(node.get("socratic_questions") or parent_soc or [])
 
     for s_idx in range(7):
         sr_note = build_5part_facilitator_note(
@@ -269,6 +277,7 @@ def _populate_subreq_notes_recursive(
             worked_ex=sr_we,
             quiz_item=sr_quiz,
             gear_list=sr_gear,
+            socratic_questions=sr_soc,
         )
         notes_map[f"{u_slug}::{sr_id}::{s_idx}"] = sr_note
         count += 1
@@ -293,6 +302,7 @@ def _populate_subreq_notes_recursive(
                 parent_we=sr_we,
                 parent_quiz=sr_quiz,
                 parent_gear=sr_gear,
+                parent_soc=sr_soc,
             )
     return count
 
@@ -339,6 +349,7 @@ def regenerate_facilitator_notes() -> None:
             worked_ex = req.get("worked_example") or {}
             quiz_item = req.get("quiz_item") or {}
             gear_list = list(req.get("gear_checklist") or [])
+            soc_list = list(req.get("socratic_questions") or [])
 
             for s_idx in range(7):
                 note_txt = build_5part_facilitator_note(
@@ -357,6 +368,7 @@ def regenerate_facilitator_notes() -> None:
                     worked_ex=worked_ex,
                     quiz_item=quiz_item,
                     gear_list=gear_list,
+                    socratic_questions=soc_list,
                 )
                 notes_map[f"{u_slug}::{rid}::{s_idx}"] = note_txt
                 slide_entries_count += 1
@@ -381,6 +393,7 @@ def regenerate_facilitator_notes() -> None:
                         parent_we=worked_ex,
                         parent_quiz=quiz_item,
                         parent_gear=gear_list,
+                        parent_soc=soc_list,
                     )
 
     FACILITATOR_NOTES_PATH.write_text(

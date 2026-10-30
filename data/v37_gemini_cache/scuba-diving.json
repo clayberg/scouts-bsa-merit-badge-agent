@@ -1,0 +1,175 @@
+{
+  "requirements": [
+    {
+      "fact": "Caffeine accelerates fluid loss and vasodilation, so patients require passive warming and warm isotonic fluids.",
+      "misconception": "Beginners believe drinking warm coffee quickly reverses severe underwater hypothermia on dive boats.",
+      "pamphlet_excerpts": [
+        "Pressure Equalization: Divers pinch nostrils and exhale gently to equalize middle ear pressure during descent.",
+        "Decompression Management: Administer pure normobaric oxygen continuously to any diver exhibiting neurological decompression sickness symptoms.",
+        "Thermal Protection: Neoprene wetsuits trap thin water layers that body heat warms against cold thermoclines.",
+        "Gas Exchange: Controlled slow breathing prevents carbon dioxide buildup and reduces hazardous hyperventilation underwater risks."
+      ],
+      "pamphlet_summary": "Divers must recognize barotrauma and physiological distress caused by hydrostatic pressure variations during descent and ascent. Immediate oxygen delivery and emergency evacuation protocols mitigate permanent arterial gas embolism tissue injuries.",
+      "req_id": "1",
+      "safety_callout": "Never administer oral fluids or allow unassisted walking when evaluating suspected arterial gas embolism.",
+      "socratic_questions": [
+        "How does ambient hydrostatic pressure change the volume of air spaces in the human body?",
+        "What physiological mechanism causes dissolved inert nitrogen bubbles to form within bodily tissues during rapid ascent?",
+        "Why does breathing pure oxygen at atmospheric pressure accelerate the elimination of inert nitrogen from blood?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Patient Assessment: Check responsiveness and breathing before activating the local emergency diver evacuation plan immediately.",
+        "Step 2 - Oxygen Administration: Attach a demand valve nonrebreather mask delivering one hundred percent medical oxygen promptly.",
+        "Step 3 - Thermal Stabilization: Remove wet neoprene gear and wrap the patient in dry windproof insulation blankets.",
+        "Step 4 - Transport Coordination: Contact the Divers Alert Network emergency hotline to secure transport toward hyperbaric facilities."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Descending with un-equalized middle ears causes tympanic membrane rupture, requiring immediate descent termination.",
+          "misconception": "Swimmers think ear pain during descent disappears naturally if they kick harder toward the bottom.",
+          "pamphlet_summary": "Divers manage barotrauma, narcosis, and decompression illness through vigilant depth monitoring and proper field first aid. Mild nitrogen narcosis resolves upon ascending to shallower depths without requiring recompression therapy.",
+          "sub_id": "1a",
+          "topic_title": "Diving Maladies and Field Treatment"
+        },
+        {
+          "fact": "Immediate chest compressions take absolute priority because seawater enters lungs in small frothy volumes.",
+          "misconception": "Rescuers believe abdominal thrusts must be performed to drain seawater from submerged drowning victims.",
+          "pamphlet_summary": "Rescuers confirm unresponsiveness and absence of normal breathing before initiating chest compressions on a dry flat surface. Automated external defibrillators require drying the victim's chest completely before pad placement.",
+          "sub_id": "1b",
+          "topic_title": "Cardiopulmonary Resuscitation for Divers"
+        }
+      ],
+      "topic_title": "Diving Physiology and Emergency Care"
+    },
+    {
+      "fact": "Scuba training organizations require continuous unassisted distance swimming and unequipped survival water treading tests.",
+      "misconception": "Students consider a basic dog paddle sufficient swimming competence for heavy scuba open water training.",
+      "pamphlet_excerpts": [
+        "Surface Endurance: Strong swimming strokes ensure divers navigate surface currents without exhausting their breathing gas.",
+        "Survival Floating: Resting strokes permit calm recovery when waiting for boat pickup in choppy waters.",
+        "Treading Technique: Effective rotary kicks maintain clear airway positioning above waves while conserving physical energy.",
+        "Subsurface Comfort: Breath holding drills instill confidence during accidental regulator displacement or mask clearing incidents."
+      ],
+      "pamphlet_summary": "The Swimming merit badge establishes aerobic endurance and surface self-rescue skills necessary for open water scuba diving. Candidates must possess calm stroke mechanics to handle unexpected surface conditions and heavy dive gear.",
+      "req_id": "2",
+      "safety_callout": "Do not attempt open water scuba training if basic surface swimming proficiency cannot be maintained.",
+      "socratic_questions": [
+        "Why does surface swimming efficiency directly influence gas consumption during a scuba dive?",
+        "How does mastering survival floating reduce panic when facing equipment failure on open ocean swells?",
+        "In what ways do watermanship skills protect a diver who must ditch heavy gear at surface?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Record Verification: Review personal advancement tracking records to confirm successful Swimming merit badge completion documentation.",
+        "Step 2 - Stroke Evaluation: Demonstrate strong forward propulsion using efficient crawl and breaststroke techniques in deep water.",
+        "Step 3 - Water Tread Test: Maintain head clearance above water continuously for ten minutes using gentle leg kicks.",
+        "Step 4 - Surface Assessment: Complete an unassisted continuous swim across two hundred meters without resting on walls."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Swimming Merit Badge Prerequisite"
+    },
+    {
+      "fact": "Adherence to the diver code directly prevents panic, equipment failure, and fatal out of air situations.",
+      "misconception": "Divers assume the code functions merely as an informal suggestion rather than safety protocol.",
+      "pamphlet_excerpts": [
+        "Buddy Integrity: Paired divers maintain visual contact and agree upon underwater signals before water entry.",
+        "Equipment Readiness: Routine functional checks confirm working submersible pressure gauges and primary regulator stage delivery.",
+        "Environmental Protection: Buoyancy control prevents accidental fin contact against fragile coral heads and bottom silt.",
+        "Conservative Limits: Responsible divers plan bottom times well within designated recreational safe decompression limit tables."
+      ],
+      "pamphlet_summary": "The Scuba Diver Code outlines ethical and operational guidelines prioritizing personal responsibility and buddy team integrity. Adhering to these standards ensures conservative dive planning, environmental stewardship, and strict equipment inspection routines.",
+      "req_id": "3",
+      "safety_callout": "Any diver can cancel or terminate a dive at any time without fear of criticism.",
+      "socratic_questions": [
+        "Why does personal accountability remain the foundational pillar of recreational diver safety systems?",
+        "How does pre-dive equipment checking prevent emergency complications from arising at maximum depth?",
+        "What ethical responsibilities do divers carry regarding the preservation of fragile underwater historical artifacts?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Code Review: Read each behavioral guideline within the diver code alongside your designated merit counselor.",
+        "Step 2 - Risk Explanation: Analyze how refusing alcohol before diving prevents impaired judgment and dangerous underwater accidents.",
+        "Step 3 - Environmental Analysis: Discuss methods for securing dangling equipment gauges to prevent physical damage to reefs.",
+        "Step 4 - Commitment Signing: Pledge personal adherence to conservative ascent profiles and mandatory buddy checks before splashdown."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Scuba Diver Code Guidelines"
+    },
+    {
+      "fact": "Expanding air in ascending lungs causes fatal alveolar rupture unless breathing normally at all times.",
+      "misconception": "Beginners think holding their breath during ascent helps conserve precious remaining cylinder air volume.",
+      "pamphlet_excerpts": [
+        "Regulator Recovery: Sweeping the right arm locates a dislodged hose for rapid underwater regulator replacement.",
+        "Mask Clearing: Tilting the head upward while exhaling through the nose purges flooded mask water.",
+        "Buoyancy Mastery: Adjusting low pressure inflator bursts achieves neutral hovering without sculling arms or legs.",
+        "Emergency Ascent: Humming continuously during an alternate air source ascent prevents pulmonary barotrauma lung injuries."
+      ],
+      "pamphlet_summary": "Candidates complete academic study, confined water skill sessions, and four open water training dives under certified instruction. Mastery of buoyancy control, regulator recovery, and mask clearing proves foundational autonomous diver readiness.",
+      "req_id": "4",
+      "safety_callout": "Breathe continuously and never hold your breath while breathing compressed gas underwater.",
+      "socratic_questions": [
+        "Why does Boyle's law dictate that the greatest relative pressure changes occur near the surface?",
+        "How does neutral buoyancy protect both delicate marine life and a diver's energy reserves?",
+        "What exact sequence of actions should a buddy pair follow during an alternate gas ascent?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Classroom Instruction: Complete all academic knowledge modules covering dive tables, physics, physiology, and equipment mechanics.",
+        "Step 2 - Confined Water: Practice regulator clearing, buoyancy control, and air sharing drills inside a swimming pool.",
+        "Step 3 - Open Water: Execute four supervised ocean or lake checkout dives demonstrating core autonomous diving competencies.",
+        "Step 4 - Certification Filing: Submit validated logbook entries and instructor signed paperwork to secure official certification cards."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Open Water Diver Certification"
+    },
+    {
+      "fact": "Corals are fragile living animal colonies that perish when touched or kicked by careless fins.",
+      "misconception": "People believe coral formations are inanimate rocks that tolerate diver physical handling without consequence.",
+      "pamphlet_excerpts": [
+        "Coral Ecosystem: Tropical reefs feature calcium carbonate structures hosting symbiotic algae and diverse fish species.",
+        "Kelp Habitats: Temperate giant kelp columns create vertical canopy shelter for marine mammals and invertebrates.",
+        "Freshwater Springs: Subterranean limestone aquifers produce crystal clear water supporting submerged grasses and freshwater turtles.",
+        "Rocky Reefs: Benthic boulders provide anchorage for colorful sea anemones, sponges, and bottom dwelling crustaceans."
+      ],
+      "pamphlet_summary": "An aquatic ecosystem comprises interacting biological communities and abiotic elements functioning within a specific water body. Divers frequently explore diverse environments including coral reefs, kelp forests, freshwater springs, and rocky reefs.",
+      "req_id": "5",
+      "safety_callout": "Maintain horizontal trim and fin control to prevent silting or damaging fragile benthic communities.",
+      "socratic_questions": [
+        "How do abiotic factors like sunlight penetration and water salinity shape marine ecological niches?",
+        "What ecological disruptions occur when divers disturb delicate sediment layers in stagnant freshwater systems?",
+        "In what ways do apex marine predators maintain population equilibrium across coral reef habitats?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Ecosystem Definition: Define an ecosystem by detailing interactions between living organisms and nonliving environmental components.",
+        "Step 2 - Coral Description: Characterize warm tropical coral reefs highlighting primary producer dynamics and high biodiversity balances.",
+        "Step 3 - Temperate Exploration: Detail cold water kelp forests and rocky reefs including nutrient rich upwelling systems.",
+        "Step 4 - Freshwater Examination: Explain inland limestone spring hydrology noting seasonal temperature stability and specialized cavern fauna."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Aquatic Ecosystems and Habitats"
+    },
+    {
+      "fact": "Commercial divers attend accredited diving academies to master surface supplied helmets and underwater burning equipment.",
+      "misconception": "Candidates think recreational open water certification qualifies a diver for commercial offshore construction jobs.",
+      "pamphlet_excerpts": [
+        "Commercial Operations: Surface supplied diving contractors execute deep underwater welding, salvage, and offshore rig construction.",
+        "Scientific Research: Marine scientists use scientific diving methods to collect biological specimens and environmental samples.",
+        "Instructional Leadership: Certified instructors teach ocean stewardship, equipment maintenance, and autonomous open water diver safety.",
+        "Public Safety: Police and rescue dive teams recover submerged evidence and conduct aquatic victim searches."
+      ],
+      "pamphlet_summary": "Commercial diving, marine biology research, and recreational dive instruction represent diverse professional vocational pathways. Each career demands rigorous physical conditioning, specialized certifications, and extensive logged hours underwater.",
+      "req_id": "6",
+      "safety_callout": "Commercial and scientific diving requires adherence to strict institutional dive safety manual protocols.",
+      "socratic_questions": [
+        "How do the equipment requirements for surface supplied commercial diving differ from recreational scuba?",
+        "What unique physical risks do saturation divers face while working on deep undersea infrastructure?",
+        "Why does scientific diver training emphasize precise buoyancy control during delicate underwater specimen sampling?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Industry Research: Investigate commercial diving, scientific research diving, and recreational instruction career tracks thoroughly online.",
+        "Step 2 - Career Selection: Select one specialized diving profession and list all required collegiate or vocational credentials.",
+        "Step 3 - Prerequisite Mapping: Document necessary logged open water dives, medical fitness clearances, and specialized technical certifications.",
+        "Step 4 - Counselor Discussion: Present findings regarding training requirements and explain personal motivations for entering this field."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Professional Diving Career Opportunities"
+    }
+  ]
+}

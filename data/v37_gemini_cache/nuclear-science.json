@@ -1,0 +1,337 @@
+{
+  "requirements": [
+    {
+      "fact": "Radiation exposure passes energy through an object without making that object radioactive, unlike particulate contamination.",
+      "misconception": "Objects placed near radioactive materials automatically become radioactive emitters themselves.",
+      "pamphlet_excerpts": [
+        "Ionization Threshold: Electromagnetic waves with frequencies above ultraviolet possess adequate photon energy to eject orbital electrons.",
+        "Protection Triangle: Shielding material density, physical distance, and minimal handling duration govern personal radiation dosage.",
+        "Biological Impact: Alpha particles deposit substantial ionization damage along very short linear energy transfer paths.",
+        "Trefoil Symbol: Magenta three bladed propellers on yellow backgrounds designate controlled active radiation areas and packages."
+      ],
+      "pamphlet_summary": "Ionizing radiation carries sufficient kinetic energy to liberate tightly bound electrons from atomic shells, altering molecular structures within living tissue. Safe laboratory stewardship requires strict optimization of exposure through distance, shielding barriers, and minimal dwell duration.",
+      "req_id": "1",
+      "safety_callout": "Always maintain maximum separation distance from active sources and wear nitrile gloves to prevent skin contamination.",
+      "socratic_questions": [
+        "Why does nonionizing microwave radiation warm food without breaking chemical bonds in cellular DNA?",
+        "How does doubling your distance from a point source affect your total absorbed dose?",
+        "What specific containment failure turns external radiation exposure into hazardous internal contamination?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Instrument Check: Calibrate the Geiger Mueller survey meter using a known low activity check source.",
+        "Step 2 - Baseline Measurement: Record ambient environmental background counts per minute for three full sixty second intervals.",
+        "Step 3 - Distance Evaluation: Position the calibrated detector probe at increasing intervals from the target test material.",
+        "Step 4 - Shield Insertion: Place lead sheets between the active isotope source and the detector housing window."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Radiofrequency signals are nonionizing and lack the quantum energy required to break molecular bonds.",
+          "misconception": "Cell phones and home Wi-Fi routers emit dangerous ionizing waves that strip atomic electrons.",
+          "pamphlet_summary": "Ionizing radiation possesses sufficient quantum energy to remove bound electrons from atoms, creating reactive ions. Nonionizing radiation like visible light or radio waves merely causes thermal vibration without disrupting molecular electron bonds.",
+          "sub_id": "1a",
+          "topic_title": "Ionizing Radiation Energy Differences"
+        },
+        {
+          "fact": "The ALARA standard balances acceptable risk against practical shielding, distance, and task duration controls.",
+          "misconception": "Radiation safety standards define an absolute zero exposure requirement for any laboratory experiment.",
+          "pamphlet_summary": "The ALARA framework mandates keeping all doses As Low As Reasonably Achievable. Radiation workers minimize exposure by shortening task times, maximizing source distance, and using dense shielding barriers.",
+          "sub_id": "1b",
+          "topic_title": "The ALARA Radiation Principle"
+        },
+        {
+          "fact": "The trefoil exclusively marks areas, containers, and devices that emit ionizing radiation.",
+          "misconception": "The radiation trefoil symbol indicates toxic biological waste or hazardous corrosive chemicals.",
+          "pamphlet_summary": "The magenta or black three-bladed trefoil on a bright yellow background signals ionizing radiation hazards. Facilities post this symbol on storage vaults, transport packages, and rooms containing operating radiation machinery.",
+          "sub_id": "1c",
+          "topic_title": "Radiation Hazard Warning Trefoil"
+        },
+        {
+          "fact": "Cosmic rays, soil minerals, and food isotopes contribute eighty percent of average background doses.",
+          "misconception": "All detectable radiation originates from human nuclear reactors and industrial atomic weapons testing.",
+          "pamphlet_summary": "Cosmic rays from outer space constantly shower Earth alongside terrestrial radionuclides embedded in soils and building materials. Common items like bananas containing potassium-40 and granite rocks containing thorium emit natural background radiation.",
+          "sub_id": "1d",
+          "topic_title": "Naturally Occurring Radioactive Materials"
+        },
+        {
+          "fact": "External irradiation leaves no physical residue, whereas loose radioactive particulates create true contamination.",
+          "misconception": "Standing near an irradiated patient transfers radioactive particles directly to your clothes.",
+          "pamphlet_summary": "Exposure refers to energy absorption from external rays, while contamination occurs when physical radioactive dust deposits on surfaces. Annual dose calculators estimate personal millirems received from cosmic rays, radon inhalation, and medical imaging.",
+          "sub_id": "1e",
+          "topic_title": "Dose Calculation And Contamination"
+        }
+      ],
+      "topic_title": "Fundamentals Of Ionizing Radiation"
+    },
+    {
+      "fact": "Most elements contain stable nonradioactive isotopes alongside unstable radioisotopes that undergo radioactive decay.",
+      "misconception": "Every isotope of an element possesses an unstable radioactive nucleus that decays spontaneously.",
+      "pamphlet_excerpts": [
+        "Subatomic Composition: Protons and neutrons reside inside the nucleus while electrons orbit within discrete energy shells.",
+        "Nuclear Decay Modes: Radioactive nuclei achieve stability by emitting alpha particles, beta electrons, or energetic gamma photons.",
+        "Quark Composition: Protons consist of two up quarks and one down quark held by gluons.",
+        "Isotope Identification: Isotopes share identical atomic numbers of protons but differ in total nuclear neutron count."
+      ],
+      "pamphlet_summary": "Atoms comprise central nuclei of bound protons and neutrons surrounded by orbiting electron clouds. Radioactivity occurs when unstable isotopes spontaneously emit subatomic particles or photons to attain a lower energy ground state.",
+      "req_id": "2",
+      "safety_callout": "Use blunt craft wire and safety glasses when constructing structural orbital models of atomic nuclei.",
+      "socratic_questions": [
+        "Why does changing the number of neutrons in an atom alter stability without altering chemical properties?",
+        "What fundamental force overcomes the electrostatic repulsion between positively charged protons in the nucleus?",
+        "How does the emission of an alpha particle change both the atomic number and mass number of a nucleus?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Element Selection: Select carbon from the periodic table to model six proton nuclear isotopes accurately.",
+        "Step 2 - Nucleon Assembly: Assemble foam spheres representing six protons alongside six, seven, or eight neutrons.",
+        "Step 3 - Orbital Crafting: Attach wire rings around each model to support six surrounding orbital craft beads.",
+        "Step 4 - Standard Notation: Label each finished atomic isotope model with standard chemical mass and atomic numbers."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Gamma radiation consists of massless high energy electromagnetic photons emitted from de-exciting nuclei.",
+          "misconception": "Gamma rays are particulate fragments of shattered nucleons expelled during spontaneous atomic fission.",
+          "pamphlet_summary": "Subatomic particles determine the identity, mass, and nuclear stability of chemical elements. Alpha particles consist of two protons and two neutrons, beta particles are energetic electrons, and gamma rays are electromagnetic photons.",
+          "sub_id": "2a",
+          "topic_title": "Subatomic Particles And Ionization"
+        },
+        {
+          "fact": "Specific neutron to proton ratios are required to maintain strong force stability across nuclei.",
+          "misconception": "Adding neutrons to a nucleus always increases atomic instability and induces rapid decay.",
+          "pamphlet_summary": "Physical isotope models display variations in nuclear neutron count for an element with constant protons. Standard isotope notation writes the total nucleon mass number as a superscript preceding the element symbol.",
+          "sub_id": "2b",
+          "topic_title": "Isotope Modeling And Notation"
+        }
+      ],
+      "topic_title": "Atomic Structure And Radioactivity"
+    },
+    {
+      "fact": "Accelerators manipulate minute quantities of subatomic particles within vacuum pipes, producing microscopic localized particle reactions.",
+      "misconception": "Particle accelerators generate dangerous nuclear explosions during high speed subatomic particle collisions.",
+      "pamphlet_excerpts": [
+        "Beam Acceleration: Radiofrequency cavities supply oscillating electric fields that transfer kinetic momentum to charged particle bunches.",
+        "Magnetic Steering: Powerful superconducting dipole magnets curve particle paths inside circular synchrotron vacuum beamlines.",
+        "Collision Physics: High energy impacts convert kinetic energy into mass, generating novel short lived subatomic hadrons.",
+        "Detector Systems: Multilayer sensor arrays track particle momentum, electrical charge sign, and total absorbed energy."
+      ],
+      "pamphlet_summary": "Particle accelerators use electromagnetic fields to propel charged subatomic particles to near light speeds before collision. Researchers analyze the resulting fragment trajectories to discover fundamental nuclear particles and evaluate strong force interactions.",
+      "req_id": "3",
+      "safety_callout": "Stay behind radiation interlocks and shielding doors during facility operations when accelerators generate active beam radiation.",
+      "socratic_questions": [
+        "Why must particle accelerators operate under ultra-high vacuum conditions instead of atmospheric pressure?",
+        "How do magnetic fields differ from electric fields in controlling charged particle beams?",
+        "What evidence from subatomic collisions proved that protons are made of smaller constituents called quarks?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Mechanism Diagramming: Sketch the primary stages of an accelerator including ion source, cavities, and target.",
+        "Step 2 - Virtual Exploration: Complete an approved virtual tour of a major national particle physics accelerator facility.",
+        "Step 3 - Scientist Interview: Interview an active nuclear researcher regarding nucleon properties and modern subatomic collision detection.",
+        "Step 4 - Research Synthesis: Summarize three prominent particle accelerator facilities and their major atomic discoveries in writing."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Accelerators utilize synchronized alternating radiofrequency electric fields to accelerate charged particles.",
+          "misconception": "Accelerators propel particles using pressurized compressed gases like pneumatic tube systems.",
+          "pamphlet_summary": "Accelerators direct electromagnetic pulses to accelerate charged ions or electrons down linear or circular vacuum chambers. Synchronized radiofrequency cavities boost particle velocity while bending magnets steer the beam toward target collision chambers.",
+          "sub_id": "3a",
+          "topic_title": "Accelerator Operating Principles"
+        },
+        {
+          "fact": "Accelerators use standard electrical power grids to energize magnets and radiofrequency beam cavities.",
+          "misconception": "Subatomic research facilities require high enriched fissile reactor fuel to run accelerator experiments.",
+          "pamphlet_summary": "Scientists at facilities like Fermilab, CERN, or university cyclotrons probe fundamental matter by colliding accelerated particles. Visiting researchers observe massive detectors designed to measure subatomic particles and nuclear binding energies.",
+          "sub_id": "3b",
+          "topic_title": "Nuclear Research Facilities"
+        }
+      ],
+      "topic_title": "Particle Accelerators And Physics"
+    },
+    {
+      "fact": "Cloud chambers reveal liquid droplet condensation formed around ion pairs created by passing ionizing radiation.",
+      "misconception": "Cloud chamber vapor trails represent actual subatomic particles visible to the naked human eye.",
+      "pamphlet_excerpts": [
+        "Electroscope Discharge: Ionizing particles strip electrons from ambient air molecules, neutralizing charged leaves on electroscopes.",
+        "Cloud Chamber Physics: Supersaturated alcohol vapor condenses along ionization trails left by traveling alpha and beta radiation.",
+        "Track Morphology: Dense straight condensation paths indicate heavy alpha particles while thin tortuous tracks show electrons.",
+        "Half Life Probability: Unstable atomic nuclei decay according to constant statistical probabilities over specific characteristic durations."
+      ],
+      "pamphlet_summary": "Classic experimental demonstrations illustrate ion formation, radiation trajectory visualization, and mathematical radioactive decay rates. Using cloud chambers and electroscopes, Scouts observe the physical interactions between ionizing emissions and matter.",
+      "req_id": "4",
+      "safety_callout": "Handle dry ice using insulated leather gloves and ensure an adult supervisor manipulates all sealed radioactive check sources.",
+      "socratic_questions": [
+        "Why do heavy alpha particles create thicker, straighter vapor trails than lighter beta particles?",
+        "What happens to the rate of electroscope leaf collapse when a radiation source moves closer?",
+        "If half of a sample decays in one minute, why does some sample remain after two minutes?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Electroscope Assembly: Mount a metal terminal through an insulating jar stopper holding thin aluminum leaves.",
+        "Step 2 - Chamber Chilling: Place an alcohol saturated felt chamber base upon dry ice to create supersaturation.",
+        "Step 3 - Track Observation: Direct intense side illumination across the vapor zone to visualize ionizing radiation condensation.",
+        "Step 4 - Half Life Trial: Shake one hundred marked coins in a cup and remove all tails each round."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Ionized air molecules transfer charge to the metal terminal, neutralizing the electrostatic charge on the leaves.",
+          "misconception": "The electroscope leaves collapse because radioactive rays physically push the aluminum foil downward.",
+          "pamphlet_summary": "Charging an electroscope forces like electrical charges onto metal foils, causing mutual electrostatic repulsion. When ionizing radiation passes through the jar, it ionizes air molecules that neutralize the leaf charge, prompting the foils to collapse.",
+          "sub_id": "4a",
+          "topic_title": "Electroscope Radiation Detection"
+        },
+        {
+          "fact": "Cloud chambers require intense cold from dry ice to maintain the supersaturated alcohol vapor condition.",
+          "misconception": "Cloud chamber operation requires radioactive sources that emit intense thermal heat to form vapor.",
+          "pamphlet_summary": "A cloud chamber cools isopropyl alcohol vapor over dry ice to create a delicate supersaturated state. As energetic particles traverse this chamber, they ionize vapor molecules, serving as condensation nuclei that form visible droplet trails.",
+          "sub_id": "4b",
+          "topic_title": "Cloud Chamber Vapor Tracks"
+        },
+        {
+          "fact": "Radioactive decay is stochastic, meaning half-life measures the statistical duration for half of a population to decay.",
+          "misconception": "An atom with a one hour half-life is guaranteed to decay at exactly thirty minutes.",
+          "pamphlet_summary": "Simulations using tossed coins or candies demonstrate the constant statistical probability governing radioactive decay. By tracking remaining undecayed items over sequential trials, Scouts plot an exponential decay curve illustrating half-life.",
+          "sub_id": "4c",
+          "topic_title": "Half Life Coin Simulation"
+        }
+      ],
+      "topic_title": "Classic Nuclear Science Experiments"
+    },
+    {
+      "fact": "Low level survey meter clicks measure small fluctuations in background counts far below regulatory safety thresholds.",
+      "misconception": "A survey meter reading twice the background rate poses an immediate lethal danger to bystanders.",
+      "pamphlet_excerpts": [
+        "Inverse Square Rule: Doubling the distance from a radiation source reduces measured intensity to one fourth.",
+        "Radon Accumulation: Radon gas enters residential basements through porous concrete foundation cracks from decaying soil minerals.",
+        "Survey Meter Operation: Geiger tubes detect current pulses produced by cascade ionization inside low pressure inert gas.",
+        "Clinical Shielding Standards: Medical radiographic suites incorporate lead lined walls, glass viewing windows, and protective aprons."
+      ],
+      "pamphlet_summary": "Radiation detection instruments measure ionizing interactions using gas ionization chambers, scintillation crystals, or solid state sensors. Applying inverse square attenuation and shielding boundaries minimizes occupational exposure in residential, laboratory, and clinical settings.",
+      "req_id": "5",
+      "safety_callout": "Never touch an unsealed radioactive check source directly with bare skin; use laboratory tongs or tweezers.",
+      "socratic_questions": [
+        "Why does moving five steps away from a radiation source protect you more effectively than adding thin cardboard shielding?",
+        "What biological hazard does radon gas present to human lung tissue when inhaled over extended periods?",
+        "Why does an X-ray technician step behind a lead-shielded partition while activating the imaging beam?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Background Calibration: Power on the survey meter and establish background baseline counts per minute outdoors.",
+        "Step 2 - Distance Increments: Place the check source at ten, twenty, and forty centimeter detector intervals.",
+        "Step 3 - Radon Deployment: Position an activated charcoal canister in the lowest lived in home level.",
+        "Step 4 - Clinical Mapping: Diagram the operator control console, protective lead glass partition, and patient table."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Survey meters count discrete ionization pulses, which require isotope specific conversion factors to calculate biological dose.",
+          "misconception": "Survey meter counts per minute directly equal the absorbed biological dose in human sieverts.",
+          "pamphlet_summary": "A Geiger-Mueller survey meter counts ionizing events that occur within its gas-filled tube detector window. Testing count rates across multiple distances verifies that radiation intensity falls off sharply with distance following the inverse square law.",
+          "sub_id": "5a",
+          "topic_title": "Radiation Meter Survey Testing"
+        },
+        {
+          "fact": "Radon continuously enters from bedrock, requiring active sub-slab depressurization systems for sustained long term remediation.",
+          "misconception": "Opening basement windows for one afternoon permanently removes radon hazards from residential living areas.",
+          "pamphlet_summary": "Radon-222 is an odorless radioactive noble gas produced by the natural decay of uranium in soils. Short-term charcoal canisters and long-term alpha-track detectors measure indoor radon levels to determine whether remediation fans are required.",
+          "sub_id": "5b",
+          "topic_title": "Home Radon Gas Testing"
+        },
+        {
+          "fact": "X-rays are electromagnetic waves that vanish instantly once electrical power to the vacuum tube ceases.",
+          "misconception": "Diagnostic X-ray equipment leaves lingering airborne radiation inside the examination room after beam shutoff.",
+          "pamphlet_summary": "Diagnostic imaging suites position the radiation emitter toward the patient while isolating the operator behind structural shielding. Lead-lined drywall, leaded glass observation windows, and collimators prevent scatter radiation from exposing medical personnel.",
+          "sub_id": "5c",
+          "topic_title": "Clinical X-Ray Room Layout"
+        }
+      ],
+      "topic_title": "Radiation Safety And Measurement"
+    },
+    {
+      "fact": "Commercial reactor fuel contains less than five percent uranium-235, preventing the super-prompt critical runaway needed for nuclear explosions.",
+      "misconception": "A commercial nuclear power plant can detonate like an atomic bomb during an operational accident.",
+      "pamphlet_excerpts": [
+        "Fission Mechanics: Heavy uranium nuclei split into lighter fragments upon capturing thermal neutrons, yielding thermal energy.",
+        "Chain Reaction Control: Boron control rods absorb excess neutrons to sustain a steady critical reactor state.",
+        "Moderator Function: Light water slows fast fission neutrons down to thermal speeds required for capture.",
+        "Steam Turbine Cycle: Primary coolant water transfers fission heat across steam generators to rotate electrical generators."
+      ],
+      "pamphlet_summary": "Nuclear fission occurs when a fissile nucleus absorbs a thermal neutron and splits into smaller fragments, releasing energy and additional neutrons. Commercial reactors harness this thermal output within controlled coolant loops to drive steam turbines for electrical power generation.",
+      "req_id": "6",
+      "safety_callout": "Stay behind designated viewing barriers during mousetrap reactor simulations to prevent impact from flying plastic balls.",
+      "socratic_questions": [
+        "What physical role do neutron-absorbing control rods play in maintaining a reactor at a steady state?",
+        "How does slowing down fast neutrons with a moderator increase the probability of continued fission?",
+        "Why does a commercial nuclear reactor require multi-barrier containment structures around its primary coolant system?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Fission Diagramming: Illustrate a slow neutron splitting uranium into barium, krypton, and three free neutrons.",
+        "Step 2 - Simulator Observation: Observe a spring trap grid demonstration showing exponential neutron release during chain reactions.",
+        "Step 3 - Virtual Facility Tour: Tour a commercial nuclear plant virtually to inspect containment structures and primary coolant loops.",
+        "Step 4 - Electricity Generation Flow: Trace thermal energy transfer from fuel rods through steam turbines to regional grid distribution."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Nuclear reactors are engineered with negative temperature reactivity coefficients that naturally slow fission as core temperatures rise.",
+          "misconception": "Chain reactions in power reactors multiply uncontrollably without constant human electrical power input.",
+          "pamphlet_summary": "When a fissile nucleus splits, it releases energy alongside two or three prompt neutrons capable of splitting adjacent atoms. Mousetrap models simulate this exponential growth by demonstrating how released ping-pong balls trigger neighboring traps.",
+          "sub_id": "6a",
+          "topic_title": "Fission Chain Reaction Dynamics"
+        },
+        {
+          "fact": "Cooling towers discharge clean condensed water vapor produced by cooling the secondary nonradioactive turbine steam loop.",
+          "misconception": "The massive concrete cooling towers at nuclear power plants release plumes of radioactive smoke.",
+          "pamphlet_summary": "Commercial reactors transfer thermal heat from nuclear fuel assemblies to primary water coolant circulating under high pressure. This thermal energy boils secondary water into steam, spinning a turbine shaft coupled to an electromagnetic generator.",
+          "sub_id": "6b",
+          "topic_title": "Nuclear Power Plant Operation"
+        }
+      ],
+      "topic_title": "Nuclear Fission Power Generation"
+    },
+    {
+      "fact": "Food irradiation uses gamma rays or electron beams to eliminate pathogens without leaving any radioactive residue.",
+      "misconception": "Consuming food irradiated to kill bacteria renders the produce radioactive and unsafe to eat.",
+      "pamphlet_excerpts": [
+        "Diagnostic Medicine: Positron emission tomography uses fluorine eighteen labeled glucose to detect active metabolic tumors.",
+        "Industrial Radiography: Gamma ray projectors inspect steel pipelines and welded structural seams for microscopic internal defects.",
+        "Deep Space Power: Radioisotope thermoelectric generators convert plutonium decay heat into electricity for deep space probes.",
+        "Agricultural Pest Control: Sterile insect technique utilizes gamma irradiation to suppress invasive agricultural fruit fly populations."
+      ],
+      "pamphlet_summary": "Nuclear science provides life saving tools across oncology diagnostics, agricultural pest sterilization, space probe power, and materials testing. Radioisotopes, neutron activation analysis, and radiothermal generators harness atomic emissions for diverse humanitarian and industrial endeavors.",
+      "req_id": "7",
+      "safety_callout": "Confirm that industrial radiography sources remain secured inside their shielded transport pigs when not operating.",
+      "socratic_questions": [
+        "Why is technetium-99m preferred over long-lived radioisotopes for clinical diagnostic imaging procedures?",
+        "How do radioisotope thermoelectric generators enable space exploration missions beyond the reach of solar panels?",
+        "Why does sterilizing male insects with gamma radiation reduce crop damage without chemical pesticides?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Application Research: Research five distinct industrial, medical, agricultural, space, and environmental uses of radioisotopes.",
+        "Step 2 - Medical Case Study: Document how technetium ninety-nine metastable enables organ imaging and cardiac blood flow evaluation.",
+        "Step 3 - Environmental Tracing: Analyze how scientists track groundwater flows and soil erosion rates using radioactive tracers.",
+        "Step 4 - Presentation Preparation: Prepare a comparative chart illustrating each application, the specific isotope used, and benefits."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Beneficial Applications Of Nuclear Science"
+    },
+    {
+      "fact": "Nuclear careers thrive across research universities, industrial testing firms, aerospace contractors, and hospital radiation oncology clinics.",
+      "misconception": "All nuclear careers require working inside containment buildings at commercial electrical power stations.",
+      "pamphlet_excerpts": [
+        "Health Physics Practice: Radiation protection officers calculate exposure limits and monitor worker safety compliance in laboratories.",
+        "Nuclear Engineering Design: Engineers model reactor core thermodynamics, fuel rod geometry, and automatic shutdown system electronics.",
+        "Radiopharmaceutical Synthesis: Medical radiochemists develop radioisotope tagged molecular tracers for cancer detection and targeted therapy.",
+        "Reactor Operations Licensing: Commercial reactor operators must pass rigorous Nuclear Regulatory Commission simulator examinations to qualify."
+      ],
+      "pamphlet_summary": "Careers in nuclear science span health physics, nuclear engineering, radiochemistry, radiation oncology, and reactor operations. Professionals complete specialized academic degrees, radiation safety certifications, and continuous training to manage high technology facilities.",
+      "req_id": "8",
+      "safety_callout": "Wear an assigned thermoluminescent dosimeter badge when job shadowing personnel within licensed radiation work areas.",
+      "socratic_questions": [
+        "How does the work of a health physicist differ from the role of a licensed nuclear reactor operator?",
+        "What unique technical skills make nuclear engineers valuable in non-energy fields like aerospace and medicine?",
+        "Why do nuclear facilities require continuous training and periodic re-qualification for their licensed technical staff?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Field Selection: Select one specific nuclear science career such as health physicist or nuclear engineer.",
+        "Step 2 - Education Analysis: Investigate required undergraduate degrees, trade apprenticeships, board certifications, and estimated training costs.",
+        "Step 3 - Professional Interview: Interview a practicing nuclear professional regarding daily responsibilities, salary ranges, and workplace safety.",
+        "Step 4 - Career Path Summary: Prepare a written career profile outlining job prospects, duties, and advancement opportunities."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Careers In Nuclear Science"
+    }
+  ]
+}

@@ -70,8 +70,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Scouts often think a small craft blade is too small to cause a serious injury compared to a workshop saw.",
-            "fact": "Hobby knives have razor-sharp blades that can snap or slip easily; always cut away from your body on a self-healing mat while wearing safety glasses (p. 12)."
+            "misconception": "Beginners assume dull blades are safer to handle than fresh replacement razor edges.",
+            "fact": "Dull blades require excessive forward force, causing uncontrollable knife slips across work surfaces.",
+            "myth": "Beginners assume dull blades are safer to handle than fresh replacement razor edges.",
+            "fact_correction": "Dull blades require excessive forward force, causing uncontrollable knife slips across work surfaces."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -97,10 +99,10 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Explain the requirements for personal safety when using modelmaking hand tools, and when to use proper protective equipment.",
-          "topic_title": "Req 1a: Hand Tool Personal Safety Gear",
-          "pamphlet_summary": "Hand Tool Personal Safety Gear: Explain digital safety best practices when using computer design software, and digital fabrication tools (p. 12).",
+          "topic_title": "Req 1a: Hand Tool Safety Regulations",
+          "pamphlet_summary": "Hand cutting tools require deliberate cut strokes away from fingers alongside protective eye shields. Dull blades force dangerous manual pressure that often leads to severe slips.",
           "pamphlet_excerpts": [
-            "Hand Tool Personal Safety Gear: Explain digital safety best practices when using computer design software, and digital fabrication tools (p. 12)."
+            "Hand cutting tools require deliberate cut strokes away from fingers alongside protective eye shields. Dull blades force dangerous manual pressure that often leads to severe slips."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p003_img1.png",
           "workbook_diagram_caption": "Practical Model Design and Building field visual showing proper setup, measurement, and technique for workshop and digital fabrication safety in Requirement 1.",
@@ -141,8 +143,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Some people believe that because a 3D printer or laser cutter is computer-controlled, it requires no physical safety precautions.",
-            "fact": "Laser cutters and 3D printers involve high-temperature nozzles, ultraviolet light, moving gantries, and melted plastic or resin fumes that require active ventilation and supervision (p. 12)."
+            "misconception": "Novices think enclosed desktop additive manufacturing printers present zero physical burn or pinch hazards.",
+            "fact": "Hot ends operate above two hundred degrees Celsius and pinch points catch loose sleeves.",
+            "myth": "Novices think enclosed desktop additive manufacturing printers present zero physical burn or pinch hazards.",
+            "fact_correction": "Hot ends operate above two hundred degrees Celsius and pinch points catch loose sleeves."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -168,10 +172,10 @@
           "id": "1b",
           "sub_req_label": "1b",
           "sub_req_text": "Explain digital safety best practices when using computer design software, and digital fabrication tools.",
-          "topic_title": "Req 1b: Digital Design and Fabrication Safety",
-          "pamphlet_summary": "For Model Design and Building Requirement 1b (Digital Design and Fabrication Safety): The Model Design and Building pamphlet for Requirement 1b details digital safety best practices when using computer design software, and digital fabrication tools, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
+          "topic_title": "Req 1b: Digital Tool Safety Protocols",
+          "pamphlet_summary": "Computer numerical control mills and filament extruders generate hot surfaces and mechanical pinch points. Operators must maintain safety interlocks and avoid wearing loose clothing around motorized carriages.",
           "pamphlet_excerpts": [
-            "Digital Design and Fabrication Safety: The Model Design and Building pamphlet for Requirement 1b details digital safety best practices when using computer design software, and digital fabrication tools, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+            "Computer numerical control mills and filament extruders generate hot surfaces and mechanical pinch points. Operators must maintain safety interlocks and avoid wearing loose clothing around motorized carriages."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p003_img1.png",
           "workbook_diagram_caption": "Practical Model Design and Building field visual showing proper setup, measurement, and technique for workshop and digital fabrication safety in Requirement 1.",
@@ -220,8 +224,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Many assume that if a hobby glue or spray paint is sold in a craft store, its fumes are completely safe to breathe indoors.",
-            "fact": "Solvent cements, spray paints, and casting resins release flammable and toxic vapors that require respirator or exhaust ventilation and storage away from sparks (p. 12)."
+            "misconception": "Novices believe odorless cyanoacrylate super glues do not release irritant fumes during curing.",
+            "fact": "Cyanoacrylate adhesives release airborne cyanoacrylate vapors that irritate mucous membranes and skin tissues.",
+            "myth": "Novices believe odorless cyanoacrylate super glues do not release irritant fumes during curing.",
+            "fact_correction": "Cyanoacrylate adhesives release airborne cyanoacrylate vapors that irritate mucous membranes and skin tissues."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -247,10 +253,10 @@
           "id": "1c",
           "sub_req_label": "1c",
           "sub_req_text": "Explain what precautions to take when using flammable or hazardous materials.",
-          "topic_title": "Req 1c: Flammable and Hazardous Material Safety",
-          "pamphlet_summary": "For Model Design and Building Requirement 1c (Flammable and Hazardous Material Safety): The Model Design and Building pamphlet for Requirement 1c details what precautions to take when using flammable or hazardous materials, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
+          "topic_title": "Req 1c: Hazardous Chemical Solvent Controls",
+          "pamphlet_summary": "Liquid plastic cements and aerosol spray paints emit toxic volatile compounds that ignite near open flames. Scouts must use cross-ventilation hoods and store solvents in designated metal safety cabinets.",
           "pamphlet_excerpts": [
-            "Flammable and Hazardous Material Safety: The Model Design and Building pamphlet for Requirement 1c details what precautions to take when using flammable or hazardous materials, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+            "Liquid plastic cements and aerosol spray paints emit toxic volatile compounds that ignite near open flames. Scouts must use cross-ventilation hoods and store solvents in designated metal safety cabinets."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p003_img1.png",
           "workbook_diagram_caption": "Practical Model Design and Building field visual showing proper setup, measurement, and technique for workshop and digital fabrication safety in Requirement 1.",
@@ -303,11 +309,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Workshop and Digital Fabrication Safety",
+      "topic_title": "Req 1: Model Workshop Safety Practices",
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 1): Complete all Workshop and Digital Fabrication Safety discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Cut away from hands and body along a steel straightedge resting on a non-slip mat.",
       "pamphlet_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
@@ -337,8 +343,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Many beginning model makers assume that small hobby tools and desktop 3D printers are harmless toys that do not require real shop safety gear.",
-        "fact": "Both traditional hand tools and digital fabrication machines like 3D printers and laser cutters present serious hazards requiring eye protection, ventilation, and safety protocols (p. 12)."
+        "misconception": "Beginners believe small hobby knives cause negligible injuries compared to full workshop power tools.",
+        "fact": "Sharp hobby scalpel blades cause deep lacerations requiring immediate stitches when guided improperly.",
+        "myth": "Beginners believe small hobby knives cause negligible injuries compared to full workshop power tools.",
+        "fact_correction": "Sharp hobby scalpel blades cause deep lacerations requiring immediate stitches when guided improperly."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -362,16 +370,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Hand Tool Protective Equipment Rules: Explain the requirements for personal safety when using model making hand tools, and when to use proper protective equipment (p. 12).",
-        "Digital Design and Fabrication Safety: Explain digital safety best practices when using computer design software, and digital fabrication tools (p. 12).",
-        "Flammable and Hazardous Material Precautions: Explain what precautions to take when using flammable or hazardous materials (p. 12).",
-        "Pre-Project Counselor Safety Review: Discuss all safety procedures with your counselor before beginning your model making project, and explain why each is important, both in traditional (p. 12)."
+        "Eye Protection Standard: Safety glasses shield eyes from airborne plastic shards during mechanical tool cutting operations.",
+        "Ventilation Airflow Minimum: Dedicated exhaust fans draw volatile organic vapors safely away from indoor workbenches.",
+        "Blade Retraction Habit: Retractable utility knife blades must remain closed when resting on flat workbenches.",
+        "Thermal Enclosure Rule: Heated three-dimensional printer extruders require physical safety guards during active manufacturing runs."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Control Flammable and Toxic Materials: Explain what precautions to take when using flammable or hazardous materials (p. 12).",
-        "Step 2 - Review Safety Protocols With Counselor: Discuss all safety procedures with your counselor before beginning your model making project, and explain why each is important, both in traditional (p. 12).",
-        "Step 3 - Workshop and Digital Fabrication Safety: Review the Model Design and Building pamphlet standards for req 1, workshop and digital fabrication safety, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 10).",
-        "Step 4 - Demonstrate Safe Workshop Proficiency: Review your completed Model Design and Building Core Field Standard evidence and demonstrate proficiency during your counselor conference (p. 10)."
+        "Step 1 - Protective Equipment Donning: Don approved impact goggles and nitrile gloves before handling sharp modeling tools.",
+        "Step 2 - Ventilation System Activation: Turn on outdoor exhaust hoods before opening chemical adhesive solvent bottles today.",
+        "Step 3 - Cutting Mat Placement: Position a self-healing rubber cutting mat firmly beneath all targeted model stock.",
+        "Step 4 - Tool Return Protocol: Store cutting knives in protective wooden blocks immediately following each precise cut."
       ],
       "gear_checklist": [
         "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
@@ -380,15 +388,13 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Hand Tool Personal Safety Gear",
-        "right_header": "Req 1b: Digital Design and Fabrication Saf",
+        "left_header": "Req 1a: Hand Tool Safety Regulations",
+        "right_header": "Req 1b: Digital Tool Safety Protocols",
         "left_points": [
-          "(1a) Hand Tool Personal Safety Gear: Explain digital safety best practices when using computer design software, and digital fabrication tools (p. 12).",
-          "Digital Design and Fabrication Safety: Explain digital safety best practices when using computer design software, and digital fabrication tools (p. 12)."
+          "(1a) Hand Tool Safety Regulations: Hand cutting tools require deliberate cut strokes away from fingers alongside protective eye shields. Dull blades force dangerous manual pressure that often leads to severe slips."
         ],
         "right_points": [
-          "(1b) Digital Design and Fabrication Safety: The Model Design and Building pamphlet for Requirement 1b details digital safety best practices when using computer design software, and digital fabrication tools, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
-          "Flammable and Hazardous Material Precautions: Explain what precautions to take when using flammable or hazardous materials (p. 12)."
+          "(1b) Digital Tool Safety Protocols: Computer numerical control mills and filament extruders generate hot surfaces and mechanical pinch points. Operators must maintain safety interlocks and avoid wearing loose clothing around motorized carriages."
         ],
         "rows": [
           {
@@ -412,9 +418,9 @@
         "title": "Model Design and Building Req 1 Exemplar Workbook Entry: Workshop and Digital Fabrication Safety",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a (Hand Tool Personal Safety Gear)": "Explain digital safety best practices when using computer design software, and digital fabrication tools (p. 12).",
-          "Req 1b - Digital Design and Fabrication Saf": "The Model Design and Building pamphlet for Requirement 1b details digital safety best practices when using computer design software, and digital fabrication tools, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
-          "Req 1c - Flammable and Hazardous Material S": "The Model Design and Building pamphlet for Requirement 1c details what precautions to take when using flammable or hazardous materials, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+          "Req 1a - Hand Tool Safety Regulations": "Hand cutting tools require deliberate cut strokes away from fingers alongside protective eye shields. Dull blades force dangerous manual pressure that often leads to severe slips.",
+          "Req 1b - Digital Tool Safety Protocols": "Computer numerical control mills and filament extruders generate hot surfaces and mechanical pinch points. Operators must maintain safety interlocks and avoid wearing loose clothing around motorized carriages.",
+          "Req 1c - Hazardous Chemical Solvent Contro": "Liquid plastic cements and aerosol spray paints emit toxic volatile compounds that ignite near open flames. Scouts must use cross-ventilation hoods and store solvents in designated metal safety cabinets."
         },
         "sample_output": "Workshop and Digital Fabrication Safety: Explain what precautions to take when using flammable or hazardous materials (p. 12).",
         "counselor_tip": "For Model Design and Building Requirement 1 (Workshop and Digital Fabrication Safety), verify the Scout's own observations and specific pamphlet details (Official Scouting America Model Design and Building Merit Badge Pamphlet)."
@@ -446,7 +452,13 @@
       "workbook_diagram_caption": "Illustrated panels show essential first aid steps for treating workshop cuts, eye splashes, and hobby knife injuries.",
       "number": "1",
       "description": "Safety. Discuss all safety procedures with your counselor before beginning your modelmaking project, and explain why each is important, both in traditional and computer-assisted design and construction: (a) Explain the requirements for personal safety when using modelmaking hand tools, and when to use proper protective equipment. (b) Explain digital safety best practices when using computer design software, and digital fabrication tools. (c) Explain what precautions to take when using flammable or hazardous materials.",
-      "workbook_visual_caption": "Illustrated panels show essential first aid steps for treating workshop cuts, eye splashes, and hobby knife injuries."
+      "workbook_visual_caption": "Illustrated panels show essential first aid steps for treating workshop cuts, eye splashes, and hobby knife injuries.",
+      "pamphlet_summary": "Model construction demands strict adherence to physical tool safety and controlled ventilation protocols when handling adhesives or machinery. Digital fabrication devices introduce distinct high-heat hazards and optical exposure risks requiring dedicated personal protection.",
+      "socratic_questions": [
+        "Why does a sharp hobby blade present fewer accidental slippage risks than a dull blade?",
+        "Which air filtration mechanics protect your respiratory tract from solvent vapors versus airborne sawdust particles?",
+        "How do safety interlocks on computerized laser cutters protect operators from invisible scattered radiation?"
+      ]
     },
     {
       "req_id": "2",
@@ -498,8 +510,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "People frequently confuse architectural models with structural models because both can represent buildings.",
-            "fact": "An architectural model focuses on spatial layout, aesthetics, and site context, while a structural model exposes load-bearing beams, trusses, and framing joints (p. 12)."
+            "misconception": "Beginners assume an architectural model and a structural model display identical internal framing details.",
+            "fact": "Architectural models highlight finished spatial surfaces while structural models expose load-bearing joists and studs.",
+            "myth": "Beginners assume an architectural model and a structural model display identical internal framing details.",
+            "fact_correction": "Architectural models highlight finished spatial surfaces while structural models expose load-bearing joists and studs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -525,10 +539,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Explain the uses for each of the following types of models: architectural, structural, process, mechanical, and industrial.",
-          "topic_title": "Req 2a: Uses of Five Model Types",
-          "pamphlet_summary": "Uses of Five Model Types: Types of Models and Materials (p. 12).",
+          "topic_title": "Req 2a: Technical Model Classification Categories",
+          "pamphlet_summary": "Different engineering disciplines utilize specific model categories to solve distinct spatial and functional challenges. Structural models expose internal framing, while mechanical models test physical linkages and gear assemblies.",
           "pamphlet_excerpts": [
-            "Uses of Five Model Types: Types of Models and Materials (p. 12)."
+            "Different engineering disciplines utilize specific model categories to solve distinct spatial and functional challenges. Structural models expose internal framing, while mechanical models test physical linkages and gear assemblies."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Model Design and Building technical diagram of model categories and fabrication materials for Requirement 2 field execution.",
@@ -569,8 +583,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Some Scouts think a process model is simply a step-by-step photo album showing how they glued their project together.",
-            "fact": "A process model maps the flow of fluids, materials, or energy through interconnected pipes, valves, and tanks, such as a household plumbing system or chemical plant (p. 12)."
+            "misconception": "Beginners believe computer modeling software eliminates the need to understand physical material tolerances.",
+            "fact": "Digital tools require precise real-world material thickness values to generate accurate joint assemblies.",
+            "myth": "Beginners believe computer modeling software eliminates the need to understand physical material tolerances.",
+            "fact_correction": "Digital tools require precise real-world material thickness values to generate accurate joint assemblies."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -596,10 +612,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Explain to your counselor how either traditional and/or computer design tools can be used to create plans, simulate function, visualize models, and assist in constructing or fabricating parts.",
-          "topic_title": "Req 2b: Traditional and Computer Design Tools",
-          "pamphlet_summary": "For Model Design and Building Requirement 2b (Traditional and Computer Design Tools): The Model Design and Building pamphlet for Requirement 2b details how either traditional and/or computer design tools can be used to create plans, simulate function, visualize models, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
+          "topic_title": "Req 2b: Digital Simulation and Drafting",
+          "pamphlet_summary": "Parametric computer design platforms allow builders to test kinematic motions and verify tolerances before physical fabrication. Three-dimensional rendering tools reveal visual balance and lighting behavior under simulated operational conditions.",
           "pamphlet_excerpts": [
-            "Traditional and Computer Design Tools: The Model Design and Building pamphlet for Requirement 2b details how either traditional and/or computer design tools can be used to create plans, simulate function, visualize models, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+            "Parametric computer design platforms allow builders to test kinematic motions and verify tolerances before physical fabrication. Three-dimensional rendering tools reveal visual balance and lighting behavior under simulated operational conditions."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Model Design and Building technical diagram of model categories and fabrication materials for Requirement 2 field execution.",
@@ -646,8 +662,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Many believe a modelmaker must choose strictly between old-fashioned wood carving or 100 percent 3D printing without mixing materials.",
-            "fact": "Traditional materials like balsa wood, basswood, styrene, and brass are frequently combined with 3D-printed PLA or laser-cut acrylic in hybrid professional models (p. 12)."
+            "misconception": "Scouts assume modern three-dimensional printed plastic parts are superior to wood in every application.",
+            "fact": "Basswood provides higher directional tensile strength along straight truss chords than layer-printed plastic.",
+            "myth": "Scouts assume modern three-dimensional printed plastic parts are superior to wood in every application.",
+            "fact_correction": "Basswood provides higher directional tensile strength along straight truss chords than layer-printed plastic."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -673,10 +691,10 @@
           "id": "2c",
           "sub_req_label": "2c",
           "sub_req_text": "Describe to your counselor traditional and modern materials and fabrication methods that can be used for making these models. Include physical and digital materials and methods.",
-          "topic_title": "Req 2c: Modeling Materials and Fabrication Methods",
-          "pamphlet_summary": "For Model Design and Building Requirement 2c (Modeling Materials and Fabrication Methods): The Model Design and Building pamphlet for Requirement 2c details traditional and modern materials and fabrication methods that can be used for making these models, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
+          "topic_title": "Req 2c: Traditional and Additive Materials",
+          "pamphlet_summary": "Model builders select between wood grains, brass tubes, cast resins, and extruded thermoplastic filaments. Each material requires compatible cutting methods, surface primers, and specialized adhesives for durable construction.",
           "pamphlet_excerpts": [
-            "Modeling Materials and Fabrication Methods: The Model Design and Building pamphlet for Requirement 2c details traditional and modern materials and fabrication methods that can be used for making these models, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+            "Model builders select between wood grains, brass tubes, cast resins, and extruded thermoplastic filaments. Each material requires compatible cutting methods, surface primers, and specialized adhesives for durable construction."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p007_img1.png",
           "title": "Req 2c: Modeling Materials and Fabrication Methods",
@@ -718,11 +736,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Model Categories and Fabrication Materials",
+      "topic_title": "Req 2: Scale Model Classifications and Media",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Model Categories and Fabrication Materials discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Wear a particulate respirator mask when shaping high-density urethane foam on electric sanding tables.",
       "pamphlet_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
@@ -752,8 +770,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Scouts often think all scale models serve the exact same purpose of simply showing what a finished object looks like from the outside.",
-        "fact": "Engineers and designers choose specific model types (architectural, structural, process, mechanical, or industrial) and pair traditional materials with CAD simulation to test form and function (p. 12)."
+        "misconception": "Beginners assume all scale models serve purely decorative display functions rather than analytical evaluation.",
+        "fact": "Engineers build functional physical models to stress-test spatial clearances, assembly access, and fluid routing.",
+        "myth": "Beginners assume all scale models serve purely decorative display functions rather than analytical evaluation.",
+        "fact_correction": "Engineers build functional physical models to stress-test spatial clearances, assembly access, and fluid routing."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -777,28 +797,26 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Five Core Engineering Model Categories: Architectural, structural, process, mechanical, and industrial (p. 12).",
-        "Model Categories and Fabrication Materials: Review the Model Design and Building pamphlet standards for req 2, model categories and fabrication materials, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 12).",
-        "Modeling Materials and Fabrication Methods: Describe to your counselor traditional and modern materials and fabrication methods that can be used for making these models (p. 12).",
-        "Classification of Models and Materials: Types of Models and Materials (p. 12)."
+        "Architectural Space Representation: Scaled architectural models illustrate room volumes, site circulation, and external daylight access.",
+        "Mechanical Kinematic Testing: Functional mechanical models demonstrate linkage ratios and gear reduction under manual manipulation.",
+        "Process Piping Identification: Color-coded industrial process models track high-pressure liquid routing through complex piping refineries.",
+        "Modern Filament Deposition: Digital polymer extrusion enables rapid physical prototyping directly from parametric software meshes."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Select Materials and Fabrication Methods: Describe to your counselor traditional and modern materials and fabrication methods that can be used for making these models (p. 12).",
-        "Step 2 - Classify the Five Model Types: Types of Models and Materials (p. 12).",
-        "Step 3 - Model Categories and Fabrication Materials: Review the Model Design and Building pamphlet standards for req 2, model categories and fabrication materials, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 14).",
-        "Step 4 - Present Model Categories to Counselor: Review your completed Types of Models and Materials evidence and demonstrate proficiency during your counselor conference (p. 14)."
+        "Step 1 - Project Type Selection: Identify whether the design represents a building, pipeline, linkage, or transportation vehicle.",
+        "Step 2 - Scale Proportion Calculation: Calculate the exact dimensional reduction ratio matching standard architectural or engineering scales.",
+        "Step 3 - Material Media Determination: Match structural loads with appropriate balsa wood, high-density foam, or plastic sheets.",
+        "Step 4 - Fabrication Workflow Setup: Select between manual razor carving or digital additive fabrication for final production."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 2a: Uses of Five Model Types",
-        "right_header": "Req 2b: Traditional and Computer Design To",
+        "left_header": "Req 2a: Technical Model Classification Cat",
+        "right_header": "Req 2b: Digital Simulation and Drafting",
         "left_points": [
-          "(2a) Uses of Five Model Types: Types of Models and Materials (p. 12).",
-          "Model Categories and Fabrication Materials: Review the Model Design and Building pamphlet standards for req 2, model categories and fabrication materials, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 12)."
+          "(2a) Technical Model Classification Categories: Different engineering disciplines utilize specific model categories to solve distinct spatial and functional challenges. Structural models expose internal framing, while mechanical models test physical linkages and gear assemblies."
         ],
         "right_points": [
-          "(2b) Traditional and Computer Design Tools: The Model Design and Building pamphlet for Requirement 2b details how either traditional and/or computer design tools can be used to create plans, simulate function, visualize models, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
-          "Modeling Materials and Fabrication Methods: Describe to your counselor traditional and modern materials and fabrication methods that can be used for making these models (p. 12)."
+          "(2b) Digital Simulation and Drafting: Parametric computer design platforms allow builders to test kinematic motions and verify tolerances before physical fabrication. Three-dimensional rendering tools reveal visual balance and lighting behavior under simulated operational conditions."
         ],
         "rows": [
           {
@@ -822,9 +840,9 @@
         "title": "Model Design and Building Req 2 Exemplar Workbook Entry: Model Categories and Fabrication Materials",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a (Uses of Five Model Types)": "Types of Models and Materials (p. 12).",
-          "Req 2b - Traditional and Computer Design To": "The Model Design and Building pamphlet for Requirement 2b details how either traditional and/or computer design tools can be used to create plans, simulate function, visualize models, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
-          "Req 2c - Modeling Materials and Fabrication": "The Model Design and Building pamphlet for Requirement 2c details traditional and modern materials and fabrication methods that can be used for making these models, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+          "Req 2a - Technical Model Classification Ca": "Different engineering disciplines utilize specific model categories to solve distinct spatial and functional challenges. Structural models expose internal framing, while mechanical models test physical linkages and gear assemblies.",
+          "Req 2b - Digital Simulation and Drafting": "Parametric computer design platforms allow builders to test kinematic motions and verify tolerances before physical fabrication. Three-dimensional rendering tools reveal visual balance and lighting behavior under simulated operational conditions.",
+          "Req 2c - Traditional and Additive Material": "Model builders select between wood grains, brass tubes, cast resins, and extruded thermoplastic filaments. Each material requires compatible cutting methods, surface primers, and specialized adhesives for durable construction."
         },
         "sample_output": "Model Categories and Fabrication Materials: Types of Models and Materials (p. 12).",
         "counselor_tip": "For Model Design and Building Requirement 2 (Model Categories and Fabrication Materials), verify the Scout's own observations and specific pamphlet details (Official Scouting America Model Design and Building Merit Badge Pamphlet)."
@@ -856,7 +874,13 @@
       "workbook_diagram_caption": "Uniformed Scouts inspect a contoured landscape terrain model resting on an indoor workshop table.",
       "number": "2",
       "description": "Types of Models and Materials. Do the following: (a) Explain the uses for each of the following types of models: architectural, structural, process, mechanical, and industrial. (b) Explain to your counselor how either traditional and/or computer design tools can be used to create plans, simulate function, visualize models, and assist in constructing or fabricating parts. (c) Describe to your counselor traditional and modern materials and fabrication methods that can be used for making these models. Include physical and digital materials and methods.",
-      "workbook_visual_caption": "Uniformed Scouts inspect a contoured landscape terrain model resting on an indoor workshop table."
+      "workbook_visual_caption": "Uniformed Scouts inspect a contoured landscape terrain model resting on an indoor workshop table.",
+      "pamphlet_summary": "Professional modelmakers categorize projects into architectural, structural, process, mechanical, and industrial types according to functional intent. Builders select either traditional carving media or modern additive polymers depending on scale and simulation needs.",
+      "socratic_questions": [
+        "How does an architectural massing model differ in purpose from a finished client presentation model?",
+        "In what situations does an industrial process model prevent catastrophic spatial routing errors on refinery sites?",
+        "Why might a modelmaker choose basswood over polystyrene sheet when building delicate structural trusses?"
+      ]
     },
     {
       "req_id": "3",
@@ -895,8 +919,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Many beginners think drawing plans to scale just means sketching a rough picture that fits on a sheet of notebook paper.",
-            "fact": "Choosing an accurate scale ensures that every part fits together proportionally and matches the mandatory scale ratios specified in Requirement 4 (p. 12)."
+            "misconception": "Beginners assume drawings made to approximate eye proportions function adequately as cutting templates.",
+            "fact": "Inaccurate drawings cause mismatched seams, uneven roof pitches, and failed interlocking joints during assembly.",
+            "myth": "Beginners assume drawings made to approximate eye proportions function adequately as cutting templates.",
+            "fact_correction": "Inaccurate drawings cause mismatched seams, uneven roof pitches, and failed interlocking joints during assembly."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -922,10 +948,10 @@
           "id": "3a",
           "sub_req_label": "3a",
           "sub_req_text": "Prepare the necessary plans to the proper scale.",
-          "topic_title": "Req 3a: Scaled Drawings and Project Plans",
-          "pamphlet_summary": "Scaled Drawings and Project Plans: Prepare the necessary plans to the proper scale (p. 12).",
+          "topic_title": "Req 3a: Scaled Technical Drawing Preparation",
+          "pamphlet_summary": "Builders create orthographic views using precise architectural or engineering scale rulers. These scaled drawings serve as physical cutting templates throughout assembly.",
           "pamphlet_excerpts": [
-            "Scaled Drawings and Project Plans: Prepare the necessary plans to the proper scale (p. 12)."
+            "Builders create orthographic views using precise architectural or engineering scale rulers. These scaled drawings serve as physical cutting templates throughout assembly."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p012_img1.png",
           "workbook_diagram_caption": "Step-by-step Model Design and Building visual guide highlighting original project planning and scaling positioning and inspection checkpoints for Requirement 3.",
@@ -966,8 +992,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Scouts often believe it is faster to start cutting wood immediately and figure out what tools and glues they need along the way.",
-            "fact": "Writing a detailed bill of materials and tool list ahead of time prevents mid-build delays, incompatible glues, and missing safety equipment (p. 12)."
+            "misconception": "Novices assume they can purchase random sheets of balsa without calculating specific part dimensions.",
+            "fact": "Calculating surface area and linear foot requirements prevents mid-project shortages of matching wood grain.",
+            "myth": "Novices assume they can purchase random sheets of balsa without calculating specific part dimensions.",
+            "fact_correction": "Calculating surface area and linear foot requirements prevents mid-project shortages of matching wood grain."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -993,10 +1021,10 @@
           "id": "3b",
           "sub_req_label": "3b",
           "sub_req_text": "Make a list of materials.",
-          "topic_title": "Req 3b: Project Bill of Materials List",
-          "pamphlet_summary": "Project Bill of Materials List: Make a list of materials (p. 12).",
+          "topic_title": "Req 3b: Material Quantity Bill Compilation",
+          "pamphlet_summary": "An itemized bill lists every required raw material, dimensions, structural characteristics, and estimated costs. Accurate accounting ensures adequate stock is on hand before assembly begins.",
           "pamphlet_excerpts": [
-            "Project Bill of Materials List: Make a list of materials (p. 12)."
+            "An itemized bill lists every required raw material, dimensions, structural characteristics, and estimated costs. Accurate accounting ensures adequate stock is on hand before assembly begins."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p012_img1.png",
           "workbook_diagram_caption": "Step-by-step Model Design and Building visual guide highlighting original project planning and scaling positioning and inspection checkpoints for Requirement 3.",
@@ -1041,8 +1069,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Some think that if they use a 3D printer, downloading a pre-made 3D model file from the internet counts as original design work.",
-            "fact": "Using CAD software still requires original geometric modeling, precise dimensioning, and scale calculations created by the Scout, never downloading someone else's ready-made file (p. 18)."
+            "misconception": "Beginners believe standard kitchen knives and utility scissors can substitute for modeling razor saws.",
+            "fact": "Crushing actions from dull household scissors splinter delicate balsa strips and craze thin polystyrene.",
+            "myth": "Beginners believe standard kitchen knives and utility scissors can substitute for modeling razor saws.",
+            "fact_correction": "Crushing actions from dull household scissors splinter delicate balsa strips and craze thin polystyrene."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1068,10 +1098,10 @@
           "id": "3c",
           "sub_req_label": "3c",
           "sub_req_text": "Create a list of the required tools.",
-          "topic_title": "Req 3c: Required Modeling Tools Inventory",
-          "pamphlet_summary": "Required Modeling Tools Inventory: Create a list of the required tools (p. 12).",
+          "topic_title": "Req 3c: Model Tooling Inventory Assessment",
+          "pamphlet_summary": "Compiling a dedicated tooling roster guarantees proper holding fixtures, abrasive grits, and cutters are available. Specialized miniature clamps and mitre boxes ensure accurate geometric alignment.",
           "pamphlet_excerpts": [
-            "Required Modeling Tools Inventory: Create a list of the required tools (p. 12)."
+            "Compiling a dedicated tooling roster guarantees proper holding fixtures, abrasive grits, and cutters are available. Specialized miniature clamps and mitre boxes ensure accurate geometric alignment."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p012_img1.png",
           "workbook_diagram_caption": "Step-by-step Model Design and Building visual guide highlighting original project planning and scaling positioning and inspection checkpoints for Requirement 3.",
@@ -1109,8 +1139,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "During Model Design and Building Requirement 3d, Scouts can underestimate how directly mastery of original subject choice and purpose depends on understanding this model should be your own original work.",
-            "fact": "Scouting America standards for Model Design and Building Requirement 3d require complete workbook entries on original subject choice and purpose to demonstrate full understanding of this model should be your own original work."
+            "misconception": "Scouts assume modifying a commercial injection-molded kit satisfies the requirement for an original design.",
+            "fact": "The requirement strictly mandates scratch-built construction executed from the scout's original dimensional layout.",
+            "myth": "Scouts assume modifying a commercial injection-molded kit satisfies the requirement for an original design.",
+            "fact_correction": "The requirement strictly mandates scratch-built construction executed from the scout's original dimensional layout."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1136,10 +1168,10 @@
           "id": "3d",
           "sub_req_label": "3d",
           "sub_req_text": "This model should be your own original work. Tell why you selected this subject.",
-          "topic_title": "Req 3d: Original Subject Choice and Purpose",
-          "pamphlet_summary": "Original Subject Choice and Purpose: This model should be your own original work. Tell why you selected this subject (p. 12).",
+          "topic_title": "Req 3d: Original Project Subject Selection",
+          "pamphlet_summary": "The modeler documents original design goals, functional intentions, and inspiration behind the chosen subject. Explaining the subject choice validates personal investment and creative problem-solving.",
           "pamphlet_excerpts": [
-            "Original Subject Choice and Purpose: This model should be your own original work. Tell why you selected this subject (p. 12)."
+            "The modeler documents original design goals, functional intentions, and inspiration behind the chosen subject. Explaining the subject choice validates personal investment and creative problem-solving."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p012_img1.png",
           "title": "Req 3d: Original Subject Choice and Purpose",
@@ -1176,10 +1208,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Computer Design Integration Strategy (Req 3e) or confusing Computer Design Integration Strategy with general Original Project Planning and Scaling procedures.",
-            "fact": "For Requirement 3e (Computer Design Integration Strategy), The Model Design and Building pamphlet for Requirement 3e details if you plan to integrate computer design tools to complete your project, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
-            "myth": "Overlooking the specific field checks required for Computer Design Integration Strategy (Req 3e) or confusing Computer Design Integration Strategy with general Original Project Planning and Scaling procedures.",
-            "fact_correction": "For Requirement 3e (Computer Design Integration Strategy), The Model Design and Building pamphlet for Requirement 3e details if you plan to integrate computer design tools to complete your project, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+            "misconception": "Novices think using digital CAD tools reduces the required manual skill of the modeler.",
+            "fact": "Digital tools require rigorous mastery of spatial coordinates, geometric constraints, and manufacturing parameters.",
+            "myth": "Novices think using digital CAD tools reduces the required manual skill of the modeler.",
+            "fact_correction": "Digital tools require rigorous mastery of spatial coordinates, geometric constraints, and manufacturing parameters."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1205,10 +1237,10 @@
           "id": "3e",
           "sub_req_label": "3e",
           "sub_req_text": "Discuss with your counselor if you plan to integrate computer design tools to complete your project.",
-          "topic_title": "Req 3e: Computer Design Integration Strategy",
-          "pamphlet_summary": "For Model Design and Building Requirement 3e (Computer Design Integration Strategy): The Model Design and Building pamphlet for Requirement 3e details if you plan to integrate computer design tools to complete your project, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
+          "topic_title": "Req 3e: Digital Design Tool Integration",
+          "pamphlet_summary": "Builders discuss whether to utilize three-dimensional CAD software for drafting or digital fabrication output. Integrating digital tools allows virtual pre-fitting and rapid revision of intricate subassemblies.",
           "pamphlet_excerpts": [
-            "Computer Design Integration Strategy: The Model Design and Building pamphlet for Requirement 3e details if you plan to integrate computer design tools to complete your project, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+            "Builders discuss whether to utilize three-dimensional CAD software for drafting or digital fabrication output. Integrating digital tools allows virtual pre-fitting and rapid revision of intricate subassemblies."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p012_img1.png",
           "title": "Req 3e: Computer Design Integration Strategy",
@@ -1238,11 +1270,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Original Project Planning and Scaling",
+      "topic_title": "Req 3: Model Project Planning Procedures",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 3): Complete all Original Project Planning and Scaling discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Keep steel straightedges clamped securely to drafting boards when scoring raw sheets with hobby knives.",
       "pamphlet_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
@@ -1276,8 +1308,10 @@
         "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "Some Scouts assume they can fulfill the Model Design and Building merit badge by assembling and painting a store-bought plastic airplane or car kit.",
-        "fact": "Requirement 3 forbids pre-made commercial kits; you must draft original scaled plans, compile a complete bill of materials, and list all required tools before building (p. 12)."
+        "misconception": "Novices think building directly from rough freehand sketches saves substantial project completion time.",
+        "fact": "Unmeasured freehand sketches lead to cumulative dimensional compounding errors during final component joining.",
+        "myth": "Novices think building directly from rough freehand sketches saves substantial project completion time.",
+        "fact_correction": "Unmeasured freehand sketches lead to cumulative dimensional compounding errors during final component joining."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1301,28 +1335,28 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Scaled Blueprints and Drawing Preparation: Prepare the necessary plans to the proper scale (p. 12).",
-        "Comprehensive Bill of Materials List: Make a list of materials (p. 12).",
-        "Required Workshop and Digital Tools: Create a list of the required tools (p. 12).",
-        "Original Subject Selection and Rationale: This model should be your own original work. Tell why you selected this subject (p. 12)."
+        "Orthographic Plan Generation: Detailed top, front, and side views establish dimensional accuracy before cutting materials.",
+        "Balsa Stock Accounting: Accurate material bills list board thickness, structural wood species, and adhesive quantities.",
+        "Cutting Tool Preparation: Modelers inventory exact scalpels, metal rulers, tweezers, and files before beginning assembly.",
+        "Design Rationale Articulation: Project logs document specific technical reasons for selecting a custom scratch-built subject."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Compile Required Tool Inventory: Create a list of the required tools (p. 12).",
-        "Step 2 - Document Original Subject Selection: This model should be your own original work. Tell why you selected this subject (p. 12).",
-        "Step 3 - Original Project Planning and Scaling: Review the Model Design and Building pamphlet standards for req 3, original project planning and scaling, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18).",
-        "Step 4 - Review Project Blueprints With Counselor: Review your completed Planning Your Project evidence and demonstrate proficiency during your counselor conference (p. 18)."
+        "Step 1 - Orthographic Drawing Execution: Draft scaled front, top, and elevation views on gridded drafting paper sheets.",
+        "Step 2 - Bill of Materials Compilation: Quantify all raw balsa strips, styrene sheets, and chemical bonding agents needed.",
+        "Step 3 - Assembly Tool Gathering: Assemble razor saws, sanding sticks, machinist squares, and clamps in the workspace.",
+        "Step 4 - Fabrication Sequence Outline: Write a numbered timeline ordering structural framing prior to external decorative detailing."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Scaled Drawings and Project Plans",
-        "right_header": "Req 3c: Required Modeling Tools Inventory",
+        "left_header": "Req 3a: Scaled Technical Drawing Preparati",
+        "right_header": "Req 3c: Model Tooling Inventory Assessment",
         "left_points": [
-          "(3a) Scaled Drawings and Project Plans: Prepare the necessary plans to the proper scale (p. 12).",
-          "(3b) Project Bill of Materials List: Prepare the necessary plans to the proper scale (p. 12)."
+          "(3a) Scaled Technical Drawing Preparation: Builders create orthographic views using precise architectural or engineering scale rulers. These scaled drawings serve as physical cutting templates throughout assembly.",
+          "(3b) Material Quantity Bill Compilation: An itemized bill lists every required raw material, dimensions, structural characteristics, and estimated costs. Accurate accounting ensures adequate stock is on hand before assembly begins."
         ],
         "right_points": [
-          "(3c) Required Modeling Tools Inventory: Create a list of the required tools (p. 12).",
-          "(3d) Original Subject Choice and Purpose: This model should be your own original work. Tell why you selected this subject (p. 12)."
+          "(3c) Model Tooling Inventory Assessment: Compiling a dedicated tooling roster guarantees proper holding fixtures, abrasive grits, and cutters are available. Specialized miniature clamps and mitre boxes ensure accurate geometric alignment.",
+          "(3d) Original Project Subject Selection: The modeler documents original design goals, functional intentions, and inspiration behind the chosen subject. Explaining the subject choice validates personal investment and creative problem-solving."
         ],
         "rows": [
           {
@@ -1346,10 +1380,10 @@
         "title": "Model Design and Building Req 3 Exemplar Workbook Entry: Original Project Planning and Scaling",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a (Scaled Drawings and Project Plans)": "Prepare the necessary plans to the proper scale (p. 12).",
-          "Req 3b (Project Bill of Materials List)": "Prepare the necessary plans to the proper scale (p. 12).",
-          "Req 3c (Required Modeling Tools Inventory)": "Create a list of the required tools (p. 12).",
-          "Req 3d - Original Subject Choice and Purpos": "This model should be your own original work. Tell why you selected this subject (p. 12)."
+          "Req 3a - Scaled Technical Drawing Preparat": "Builders create orthographic views using precise architectural or engineering scale rulers. These scaled drawings serve as physical cutting templates throughout assembly.",
+          "Req 3b - Material Quantity Bill Compilatio": "An itemized bill lists every required raw material, dimensions, structural characteristics, and estimated costs. Accurate accounting ensures adequate stock is on hand before assembly begins.",
+          "Req 3c - Model Tooling Inventory Assessmen": "Compiling a dedicated tooling roster guarantees proper holding fixtures, abrasive grits, and cutters are available. Specialized miniature clamps and mitre boxes ensure accurate geometric alignment.",
+          "Req 3d - Original Project Subject Selectio": "The modeler documents original design goals, functional intentions, and inspiration behind the chosen subject. Explaining the subject choice validates personal investment and creative problem-solving."
         },
         "sample_output": "Original Project Planning and Scaling: Prepare the necessary plans to the proper scale (p. 12).",
         "counselor_tip": "For Model Design and Building Requirement 3 (Original Project Planning and Scaling), verify the Scout's own observations and specific pamphlet details (Official Scouting America Model Design and Building Merit Badge Pamphlet)."
@@ -1381,7 +1415,13 @@
       "workbook_diagram_caption": "Scouts and their leader review drafted dimension sketches and wooden parts on a busy workshop modeling table.",
       "number": "3",
       "description": "Planning Your Project. With your counselor's advice, select a subject from requirement 4 for your model project. (You must not use a pre-made kit; your project must be your original design.) Do the following: (a) Prepare the necessary plans to the proper scale. (b) Make a list of materials. (c) Create a list of the required tools. (d) This model should be your own original work. Tell why you selected this subject. (e) Discuss with your counselor if you plan to integrate computer design tools to complete your project.",
-      "workbook_visual_caption": "Scouts and their leader review drafted dimension sketches and wooden parts on a busy workshop modeling table."
+      "workbook_visual_caption": "Scouts and their leader review drafted dimension sketches and wooden parts on a busy workshop modeling table.",
+      "pamphlet_summary": "Thorough drafting and detailed material accounting form the essential foundation of any successful scratch-built model. Builders establish an exact scale ratio before ordering stock or sketching working orthographic layout drawings.",
+      "socratic_questions": [
+        "Why is drawing three orthographic projections necessary before cutting three-dimensional physical parts?",
+        "How does an itemized bill of materials prevent costly delays during complex model fabrication?",
+        "Which factors dictate whether a design requires computer-assisted drafting rather than manual drafting boards?"
+      ]
     },
     {
       "req_id": "4",
@@ -1447,8 +1487,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Some think a structural model is just four solid cardboard walls glued together at the corners.",
-            "fact": "A structural corner model must accurately show real wood-frame building components like sill plates, studs, headers, joists, and sheathing at scale (p. 12)."
+            "misconception": "Novices believe exterior architectural models do not require floor layout alignment or interior walls.",
+            "fact": "Floor plan alignment dictates exterior wall placement and prevents structural sagging across roof expanses.",
+            "myth": "Novices believe exterior architectural models do not require floor layout alignment or interior walls.",
+            "fact_correction": "Floor plan alignment dictates exterior wall placement and prevents structural sagging across roof expanses."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1474,10 +1516,10 @@
           "id": "4a",
           "sub_req_label": "4a",
           "sub_req_text": "Architectural Model. Design and build a model of a house to a scale of 1⁄4\" = 1'0\" (1:48 scale). Begin by creating floor plans and elevations. Include windows, doors, and structural elements. Discuss with your counselor the materials you intend to use, the amount of detail required, outside treatment (finish, shrubbery, walks, etc.), and color selections. You may choose to 3D print elements or use laser-cut parts based on using computer design. Present both your design and final model to your counselor for evaluation.",
-          "topic_title": "Req 4a: Architectural House Scale Model",
-          "pamphlet_summary": "Architectural House Scale Model: Structural Model (p. 12).",
+          "topic_title": "Req 4a: Architectural Home Scale Construction",
+          "pamphlet_summary": "Builders construct a residential house model at one-quarter inch equals one foot scale. The model must feature accurate wall elevations, window openings, structural partitions, and roof trusses.",
           "pamphlet_excerpts": [
-            "Architectural House Scale Model: Structural Model (p. 12)."
+            "Builders construct a residential house model at one-quarter inch equals one foot scale. The model must feature accurate wall elevations, window openings, structural partitions, and roof trusses."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Model Design and Building technical diagram of model design and building build your model reference figure for Requirement 4 field execution.",
@@ -1526,8 +1568,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Many assume a mechanical model needs an electric motor or battery to count as a mechanical device.",
-            "fact": "A mechanical model for Requirement 4(d) must incorporate at least two of the six classical simple machines (lever, wheel and axle, pulley, inclined plane, wedge, or screw) with moving parts (p. 12)."
+            "misconception": "Beginners assume a structural corner consists of simply nailing two single studs together at ninety degrees.",
+            "fact": "True structural corners require three studs or corner blocking to provide interior drywall fastening surfaces.",
+            "myth": "Beginners assume a structural corner consists of simply nailing two single studs together at ninety degrees.",
+            "fact_correction": "True structural corners require three studs or corner blocking to provide interior drywall fastening surfaces."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1553,10 +1597,10 @@
           "id": "4b",
           "sub_req_label": "4b",
           "sub_req_text": "Structural Model. Construct a scale model showing corner construction of a wood-frame building to a scale of 1 1⁄2\" = 1'0\" (1:8 scale). Begin with a structural layout showing the parts of the floor and wall frames, such as intermediate girder, joist, bridging, subfloor, sill, sole plate, stud, and rafter. Use your plans to assist in building a physical model with cardboard, foam board, or wood. Review with your counselor the parts of the structure and discuss challenges in both your design and build process, gathering the materials and supporting the structure.",
-          "topic_title": "Req 4b: Wood-Frame Corner Structural Model",
-          "pamphlet_summary": "Wood-Frame Corner Structural Model: Process Model (p. 12).",
+          "topic_title": "Req 4b: Wood Frame Corner Construction",
+          "pamphlet_summary": "This model highlights structural framing conventions at one-and-a-half inches to one foot scale. Builders assemble sole plates, three-stud corner assemblies, blocking, and double top plates.",
           "pamphlet_excerpts": [
-            "Wood-Frame Corner Structural Model: Process Model (p. 12)."
+            "This model highlights structural framing conventions at one-and-a-half inches to one foot scale. Builders assemble sole plates, three-stud corner assemblies, blocking, and double top plates."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Model Design and Building technical diagram of model design and building build your model reference figure for Requirement 4 field execution.",
@@ -1603,8 +1647,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Scouts occasionally believe they can build the entire Requirement 4 model in secret and surprise their counselor at the very end.",
-            "fact": "Whether you build physically, digitally, or with a hybrid approach, you must discuss your planned workflow with your counselor before starting construction (p. 22)."
+            "misconception": "Scouts assume water supply lines and drain waste vent lines follow identical pipe slope rules.",
+            "fact": "Waste lines require continuous downward gravity slope, whereas pressurized supply pipes run in any direction.",
+            "myth": "Scouts assume water supply lines and drain waste vent lines follow identical pipe slope rules.",
+            "fact_correction": "Waste lines require continuous downward gravity slope, whereas pressurized supply pipes run in any direction."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1630,10 +1676,10 @@
           "id": "4c",
           "sub_req_label": "4c",
           "sub_req_text": "Process Model. Design and build a model showing the plumbing system of your house to a scale of 3⁄4\" = 1'0\" (1:16 scale) or an agreed-upon scale. Show hot and cold-water supply, all waste returns, and venting. After creating your plan, talk to your counselor about how to begin this model, and present the scale and the materials you will use. Build the model using appropriate materials such as tubing, straws, or printed parts. After completion, present your model to your counselor, and be prepared to discuss any problems you had building this model.",
-          "topic_title": "Req 4c: Household Plumbing Process Model",
-          "pamphlet_summary": "Household Plumbing Process Model: Mechanical Model (p. 12).",
+          "topic_title": "Req 4c: Residential Process Plumbing Layout",
+          "pamphlet_summary": "Builders assemble a scale process model representing residential water distribution and drainage piping. Scaled pipes must distinguish hot water, cold water, soil stacks, and vent lines.",
           "pamphlet_excerpts": [
-            "Household Plumbing Process Model: Mechanical Model (p. 12)."
+            "Builders assemble a scale process model representing residential water distribution and drainage piping. Scaled pipes must distinguish hot water, cold water, soil stacks, and vent lines."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Model Design and Building technical diagram of model design and building build your model reference figure for Requirement 4 field execution.",
@@ -1686,8 +1732,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "During Model Design and Building Requirement 4d, Scouts can underestimate how directly mastery of simple machines mechanical model depends on understanding mechanical model.",
-            "fact": "Scouting America standards for Model Design and Building Requirement 4d require complete workbook entries on simple machines mechanical model to demonstrate full understanding of mechanical model."
+            "misconception": "Beginners think mechanical models only need to look functional without actually moving or transmitting force.",
+            "fact": "The model must physically operate to demonstrate force transfer between connected simple machine elements.",
+            "myth": "Beginners think mechanical models only need to look functional without actually moving or transmitting force.",
+            "fact_correction": "The model must physically operate to demonstrate force transfer between connected simple machine elements."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1718,10 +1766,10 @@
           "id": "4d",
           "sub_req_label": "4d",
           "sub_req_text": "Mechanical Model. Build a model of a mechanical device that incorporates at least two of the six simple machines. You can use digital tools to design and simulate the device before constructing it. Once your design is approved by your counselor, build a working physical model using materials such as wood, plastic, or 3D printed parts. Present your models to your counselor and be prepared to discuss materials used, the machine's function, and challenges you encountered during the construction process.",
-          "topic_title": "Req 4d: Simple Machines Mechanical Model",
-          "pamphlet_summary": "Simple Machines Mechanical Model: Architectural Model (p. 12).",
+          "topic_title": "Req 4d: Mechanical Simple Machine Assembly",
+          "pamphlet_summary": "The mechanical model combines two or more simple machines into a functioning kinematic device. Builders must demonstrate mechanical advantage through levers, pulleys, wheel-axles, or gear trains.",
           "pamphlet_excerpts": [
-            "Simple Machines Mechanical Model: Architectural Model (p. 12)."
+            "The mechanical model combines two or more simple machines into a functioning kinematic device. Builders must demonstrate mechanical advantage through levers, pulleys, wheel-axles, or gear trains."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Model Design and Building technical diagram of model design and building build your model reference figure for Requirement 4 field execution.",
@@ -1776,10 +1824,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Passenger Vehicle Industrial Model (Req 4e) or confusing Passenger Vehicle Industrial Model with general Building Scaled Engineering Models procedures.",
-            "fact": "For Requirement 4e (Passenger Vehicle Industrial Model), The Model Design and Building pamphlet for Requirement 4e details industrial Model, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
-            "myth": "Overlooking the specific field checks required for Passenger Vehicle Industrial Model (Req 4e) or confusing Passenger Vehicle Industrial Model with general Building Scaled Engineering Models procedures.",
-            "fact_correction": "For Requirement 4e (Passenger Vehicle Industrial Model), The Model Design and Building pamphlet for Requirement 4e details industrial Model, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+            "misconception": "Novices assume vehicle curves can be approximated by eye without taking caliper measurements.",
+            "fact": "Exact measurement stations along the real vehicle body are necessary to reproduce faithful body curves.",
+            "myth": "Novices assume vehicle curves can be approximated by eye without taking caliper measurements.",
+            "fact_correction": "Exact measurement stations along the real vehicle body are necessary to reproduce faithful body curves."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1805,10 +1853,10 @@
           "id": "4e",
           "sub_req_label": "4e",
           "sub_req_text": "Industrial Model. Build a model of an actual passenger-carrying vehicle to a scale of 1\" = 1'0\" or 1⁄2\" = 1'0\" (1:12 or 1:24 scale). Begin by measuring a real vehicle and modeling it from multiple views (top, front, rear, sides). You can draw it or use computer design software. From your plans, build a physical model or use digital rendering or 3D printing to produce the final version. Discuss with your counselor which parts were most challenging.",
-          "topic_title": "Req 4e: Passenger Vehicle Industrial Model",
-          "pamphlet_summary": "For Model Design and Building Requirement 4e (Passenger Vehicle Industrial Model): The Model Design and Building pamphlet for Requirement 4e details industrial Model, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
+          "topic_title": "Req 4e: Passenger Vehicle Industrial Modeling",
+          "pamphlet_summary": "Builders measure a real-world passenger vehicle to construct a scratch model at one-twelfth or one-twenty-fourth scale. Construction captures accurate aerodynamic contours, wheel tracks, and cabin proportions.",
           "pamphlet_excerpts": [
-            "Passenger Vehicle Industrial Model: The Model Design and Building pamphlet for Requirement 4e details industrial Model, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+            "Builders measure a real-world passenger vehicle to construct a scratch model at one-twelfth or one-twenty-fourth scale. Construction captures accurate aerodynamic contours, wheel tracks, and cabin proportions."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/model_design_and_building_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Model Design and Building technical diagram of model design and building build your model reference figure for Requirement 4 field execution.",
@@ -1873,11 +1921,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Building Scaled Engineering Models",
+      "topic_title": "Req 4: Scratch Model Construction Execution",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 4): Complete all Building Scaled Engineering Models discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Clamp small wooden or plastic pieces in miniature table vises rather than holding them by hand when sawing.",
       "pamphlet_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1911,8 +1959,10 @@
         "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "Scouts sometimes think they can build any random object at whatever size they want for Requirement 4 without following specific scale rules.",
-        "fact": "Each of the five project options in Requirement 4 mandates a specific engineering focus and exact scale ratio, such as 1,48 for an architectural house or 1,16 for a plumbing process model (p. 12)."
+        "misconception": "Beginners assume commercial kit parts can be mixed into scratch-built models without invalidating requirements.",
+        "fact": "Merit badge rules mandate original scratch-built construction using raw sheet, strip, and rod materials.",
+        "myth": "Beginners assume commercial kit parts can be mixed into scratch-built models without invalidating requirements.",
+        "fact_correction": "Merit badge rules mandate original scratch-built construction using raw sheet, strip, and rod materials."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1941,16 +1991,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Quarter-Inch Scale Architectural House Model: Architectural Model (p. 12).",
-        "Framing Corner Structural Building Model: Structural Model (p. 12).",
-        "Three-Quarter-Inch Scale Plumbing Process Model: Process Model (p. 12).",
-        "Simple Machine Mechanical Device Model: Mechanical Model (p. 12)."
+        "Quarter Scale Architecture: Architectural models built at quarter-inch scale require accurate door and window openings.",
+        "Framed Corner Joinery: Structural timber models showcase double top plates, corner studs, and sole plates.",
+        "Process Line Coloration: Process plumbing layouts utilize designated colors to separate hot and cold water.",
+        "Mechanical Linkage Motion: Mechanical assemblies must demonstrate smooth kinetic transfer across two combined simple machines."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Construct Scaled Process Model Systems: Process Model (p. 12).",
-        "Step 2 - Build Working Mechanical Device Assemblies: Mechanical Model (p. 12).",
-        "Step 3 - Building Scaled Engineering Models: Review the Model Design and Building pamphlet standards for req 4, building scaled engineering models, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22).",
-        "Step 4 - Present Completed Model to Counselor: Review your completed Model Physical And/or Computer evidence and demonstrate proficiency during your counselor conference (p. 22)."
+        "Step 1 - Subassembly Component Roughing: Cut primary structural framing members to rough length according to scaled orthographic plans.",
+        "Step 2 - Precision Edge Truing: True every mating joint edge using fine sandpaper blocks and machinist squares.",
+        "Step 3 - Adhesive Joinery Clamping: Apply compatible bonding cement and clamp components under light pressure until cured.",
+        "Step 4 - Surface Finish Application: Sand exposed exterior faces smooth before applying uniform protective primer coats evenly."
       ],
       "gear_checklist": [
         "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
@@ -1959,15 +2009,15 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
       ],
       "comparison_data": {
-        "left_header": "Req 4a: Architectural House Scale Model",
-        "right_header": "Req 4c: Household Plumbing Process Model",
+        "left_header": "Req 4a: Architectural Home Scale Construct",
+        "right_header": "Req 4c: Residential Process Plumbing Layou",
         "left_points": [
-          "(4a) Architectural House Scale Model: Architectural Model. Design and build a model of a house to a scale of 1⁄4\" = 1'0\" (1:48 scale). Begin by creating floor plans and elevations. Include windows, doors, and structural elements. Discuss with your counselor the materials you intend to use, the amount of detail required, outside treatment (finish, shrubbery, walks, etc.), and color selections. You may choose to 3D print elements or use laser-cut parts based on using computer design. Present both your design and final model to your counselor for evaluation.",
-          "(4b) Wood-Frame Corner Structural Model: Structural Model. Construct a scale model showing corner construction of a wood-frame building to a scale of 1 1⁄2\" = 1'0\" (1:8 scale). Begin with a structural layout showing the parts of the floor and wall frames, such as intermediate girder, joist, bridging, subfloor, sill, sole plate, stud, and rafter. Use your plans to assist in building a physical model with cardboard, foam board, or wood. Review with your counselor the parts of the structure and discuss challenges in both your design and build process, gathering the materials and supporting the structure."
+          "(4a) Architectural Home Scale Construction: Builders construct a residential house model at one-quarter inch equals one foot scale. The model must feature accurate wall elevations, window openings, structural partitions, and roof trusses.",
+          "(4b) Wood Frame Corner Construction: This model highlights structural framing conventions at one-and-a-half inches to one foot scale. Builders assemble sole plates, three-stud corner assemblies, blocking, and double top plates."
         ],
         "right_points": [
-          "(4c) Household Plumbing Process Model: Process Model. Design and build a model showing the plumbing system of your house to a scale of 3⁄4\" = 1'0\" (1:16 scale) or an agreed-upon scale. Show hot and cold-water supply, all waste returns, and venting. After creating your plan, talk to your counselor about how to begin this model, and present the scale and the materials you will use. Build the model using appropriate materials such as tubing, straws, or printed parts. After completion, present your model to your counselor, and be prepared to discuss any problems you had building this model.",
-          "(4d) Simple Machines Mechanical Model: Mechanical Model. Build a model of a mechanical device that incorporates at least two of the six simple machines. You can use digital tools to design and simulate the device before constructing it. Once your design is approved by your counselor, build a working physical model using materials such as wood, plastic, or 3D printed parts. Present your models to your counselor and be prepared to discuss materials used, the machine's function, and challenges you encountered during the construction process."
+          "(4c) Residential Process Plumbing Layout: Builders assemble a scale process model representing residential water distribution and drainage piping. Scaled pipes must distinguish hot water, cold water, soil stacks, and vent lines.",
+          "(4d) Mechanical Simple Machine Assembly: The mechanical model combines two or more simple machines into a functioning kinematic device. Builders must demonstrate mechanical advantage through levers, pulleys, wheel-axles, or gear trains."
         ],
         "rows": [
           {
@@ -1991,10 +2041,10 @@
         "title": "Model Design and Building Req 4 Exemplar Workbook Entry: Building Scaled Engineering Models",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a (Architectural House Scale Model)": "Architectural Model. Design and build a model of a house to a scale of 1⁄4\" = 1'0\" (1:48 scale). Begin by creating floor plans and elevations. Include windows, doors, and structural elements. Discuss with your counselor the materials you intend to use, the amount of detail required, outside treatment (finish, shrubbery, walks, etc.), and color selections. You may choose to 3D print elements or use laser-cut parts based on using computer design. Present both your design and final model to your counselor for evaluation.",
-          "Req 4b - Wood-Frame Corner Structural Model": "Structural Model. Construct a scale model showing corner construction of a wood-frame building to a scale of 1 1⁄2\" = 1'0\" (1:8 scale). Begin with a structural layout showing the parts of the floor and wall frames, such as intermediate girder, joist, bridging, subfloor, sill, sole plate, stud, and rafter. Use your plans to assist in building a physical model with cardboard, foam board, or wood. Review with your counselor the parts of the structure and discuss challenges in both your design and build process, gathering the materials and supporting the structure.",
-          "Req 4c (Household Plumbing Process Model)": "Process Model. Design and build a model showing the plumbing system of your house to a scale of 3⁄4\" = 1'0\" (1:16 scale) or an agreed-upon scale. Show hot and cold-water supply, all waste returns, and venting. After creating your plan, talk to your counselor about how to begin this model, and present the scale and the materials you will use. Build the model using appropriate materials such as tubing, straws, or printed parts. After completion, present your model to your counselor, and be prepared to discuss any problems you had building this model.",
-          "Req 4d (Simple Machines Mechanical Model)": "Mechanical Model. Build a model of a mechanical device that incorporates at least two of the six simple machines. You can use digital tools to design and simulate the device before constructing it. Once your design is approved by your counselor, build a working physical model using materials such as wood, plastic, or 3D printed parts. Present your models to your counselor and be prepared to discuss materials used, the machine's function, and challenges you encountered during the construction process."
+          "Req 4a - Architectural Home Scale Construc": "Builders construct a residential house model at one-quarter inch equals one foot scale. The model must feature accurate wall elevations, window openings, structural partitions, and roof trusses.",
+          "Req 4b - Wood Frame Corner Construction": "This model highlights structural framing conventions at one-and-a-half inches to one foot scale. Builders assemble sole plates, three-stud corner assemblies, blocking, and double top plates.",
+          "Req 4c - Residential Process Plumbing Layo": "Builders assemble a scale process model representing residential water distribution and drainage piping. Scaled pipes must distinguish hot water, cold water, soil stacks, and vent lines.",
+          "Req 4d - Mechanical Simple Machine Assembl": "The mechanical model combines two or more simple machines into a functioning kinematic device. Builders must demonstrate mechanical advantage through levers, pulleys, wheel-axles, or gear trains."
         },
         "sample_output": "Building Scaled Engineering Models: Structural Model (p. 12).",
         "counselor_tip": "For Model Design and Building Requirement 4 (Building Scaled Engineering Models), verify the Scout's own observations and specific pamphlet details (Official Scouting America Model Design and Building Merit Badge Pamphlet)."
@@ -2026,7 +2076,13 @@
       "workbook_diagram_caption": "Scouts and an adult counselor compare a wooden timber truss model against digital structural diagrams on a tablet.",
       "number": "4",
       "description": "Build Your Model. Do ONE of the following using physical and/or computer design methods. Before beginning any model, discuss your approach with your counselor, including the possible use of computer design software such as CAD or 3D modeling tools. Present your plans and completed model to your counselor. (a) Architectural Model. Design and build a model of a house to a scale of 1⁄4\" = 1'0\" (1:48 scale). Begin by creating floor plans and elevations. Include windows, doors, and structural elements. Discuss with your counselor the materials you intend to use, the amount of detail required, outside treatment (finish, shrubbery, walks, etc.), and color selections. You may choose to 3D print elements or use laser-cut parts based on using computer design. Present both your design and final model to your counselor for evaluation. (b) Structural Model. Construct a scale model showing corner construction of a wood-frame building to a scale of 1 1⁄2\" = 1'0\" (1:8 scale). Begin with a structural layout showing the parts of the floor and wall frames, such as intermediate girder, joist, bridging, subfloor, sill, sole plate, stud, and rafter. Use your plans to assist in building a physical model with cardboard, foam board, or wood. Review with your counselor the parts of the structure and discuss challenges in both your design and build process, gathering the materials and supporting the structure. (c) Process Model. Design and build a model showing the plumbing system of your house to a scale of 3⁄4\" = 1'0\" (1:16 scale) or an agreed-upon scale. Show hot and cold-water supply, all waste returns, and venting. After creating your plan, talk to your counselor about how to begin this model, and present the scale and the materials you will use. Build the model using appropriate materials such as tubing, straws, or printed parts. After completion, present your model to your counselor, and be prepared to discuss any problems you had building this model. (d) Mechanical Model. Build a model of a mechanical device that incorporates at least two of the six simple machines. You can use digital tools to design and simulate the device before constructing it. Once your design is approved by your counselor, build a working physical model using materials such as wood, plastic, or 3D printed parts. Present your models to your counselor and be prepared to discuss materials used, the machine's function, and challenges you encountered during the construction process. (e) Industrial Model. Build a model of an actual passenger-carrying vehicle to a scale of 1\" = 1'0\" or 1⁄2\" = 1'0\" (1:12 or 1:24 scale). Begin by measuring a real vehicle and modeling it from multiple views (top, front, rear, sides). You can draw it or use computer design software. From your plans, build a physical model or use digital rendering or 3D printing to produce the final version. Discuss with your counselor which parts were most challenging.",
-      "workbook_visual_caption": "Scouts and an adult counselor compare a wooden timber truss model against digital structural diagrams on a tablet."
+      "workbook_visual_caption": "Scouts and an adult counselor compare a wooden timber truss model against digital structural diagrams on a tablet.",
+      "pamphlet_summary": "Scouts execute full scratch-built construction of their selected project without relying on commercial pre-molded kit components. Builders meticulously translate two-dimensional scaled drawings into rigid, accurately aligned physical three-dimensional assemblies.",
+      "socratic_questions": [
+        "What techniques ensure right-angle corners remain perfectly square while adhesive dries on a box frame?",
+        "How do different wood grain orientations affect joint strength when constructing miniature wall framing?",
+        "Why must mechanical linkages have calibrated bearing clearances rather than tight friction fits?"
+      ]
     },
     {
       "req_id": "5",
@@ -2074,8 +2130,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Scouts often ask how a fantasy spacecraft can have a scale if the ship does not exist in real life.",
-            "fact": "Establishing a consistent scale for a fantasy spacecraft allows the designer to size cockpit windows, airlocks, and crew quarters proportionally so the ship looks massive and realistic on camera (p. 12)."
+            "misconception": "Beginners assume copying movie spaceships directly is better than studying actual naval and aerospace vessels.",
+            "fact": "Studying real submarines and military jets reveals authentic aerodynamic, hydraulic, and structural design solutions.",
+            "myth": "Beginners assume copying movie spaceships directly is better than studying actual naval and aerospace vessels.",
+            "fact_correction": "Studying real submarines and military jets reveals authentic aerodynamic, hydraulic, and structural design solutions."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2101,10 +2159,10 @@
           "id": "5a",
           "sub_req_label": "5a",
           "sub_req_text": "Research real-world aircraft, submarines, and naval ships for design inspiration.",
-          "topic_title": "Req 5a: Real-World Vehicle Design Inspiration",
-          "pamphlet_summary": "Real-World Vehicle Design Inspiration: Research real-world aircraft, submarines, and naval ships for design inspiration (p. 12).",
+          "topic_title": "Req 5a: Real World Design Inspiration",
+          "pamphlet_summary": "Builders research operational aircraft, submarines, and naval warships to uncover convincing industrial forms. Incorporating functional intakes, exhaust fairings, and armor plate bevels anchors fantasy designs in reality.",
           "pamphlet_excerpts": [
-            "Real-World Vehicle Design Inspiration: Research real-world aircraft, submarines, and naval ships for design inspiration (p. 12)."
+            "Builders research operational aircraft, submarines, and naval warships to uncover convincing industrial forms. Incorporating functional intakes, exhaust fairings, and armor plate bevels anchors fantasy designs in reality."
           ],
           "workbook_diagram_url": "assets/ai_illustrations/model_design_and_building_req_5_topic_visual.png",
           "workbook_diagram_caption": "Illustrated panels highlight scale models of space shuttles, medieval castles, motor vehicles, and industrial structures.",
@@ -2140,8 +2198,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Some think researching naval ships and submarines is useless when designing a vehicle meant to travel through outer space.",
-            "fact": "Studying submarines, aircraft carriers, and jet fighters helps model makers understand how hulls, thrusters, sensor arrays, and crew habitats are logically arranged (p. 12)."
+            "misconception": "Scouts assume a fantasy spaceship exterior can be built without considering internal crew accommodation space.",
+            "fact": "Modeling logical cockpit seats, airlocks, and engine bulkheads prevents nonsensical window and door placements.",
+            "myth": "Scouts assume a fantasy spaceship exterior can be built without considering internal crew accommodation space.",
+            "fact_correction": "Modeling logical cockpit seats, airlocks, and engine bulkheads prevents nonsensical window and door placements."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2167,10 +2227,10 @@
           "id": "5b",
           "sub_req_label": "5b",
           "sub_req_text": "Design individual components (such as the cockpit, living areas, engines, and storage)",
-          "topic_title": "Req 5b: Spacecraft Subsystems and Interior Layout",
-          "pamphlet_summary": "Spacecraft Subsystems and Interior Layout: Design individual components (such as the cockpit, living areas, engines, and storage) (p. 12).",
+          "topic_title": "Req 5b: Spacecraft Subsystem Component Architecture",
+          "pamphlet_summary": "Spacecraft models require deliberate spatial planning for cockpit canopies, crew quarters, powerplants, and thrusters. Laying out functional modules ensures exterior contours reflect believable internal machinery and habitable compartments.",
           "pamphlet_excerpts": [
-            "Spacecraft Subsystems and Interior Layout: Design individual components (such as the cockpit, living areas, engines, and storage) (p. 12)."
+            "Spacecraft models require deliberate spatial planning for cockpit canopies, crew quarters, powerplants, and thrusters. Laying out functional modules ensures exterior contours reflect believable internal machinery and habitable compartments."
           ],
           "workbook_diagram_url": "assets/images/model_design_and_building_req_5_nano_hero.png",
           "title": "Req 5b: Spacecraft Subsystems and Interior Layout",
@@ -2207,8 +2267,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Many beginners believe a single rough side-view doodle is enough to build a complex three-dimensional spacecraft model.",
-            "fact": "Multi-angle orthographic sketches or 3D renders from the front, side, top, and perspective views are essential to resolve 3D geometry before building or rendering the final model (p. 26)."
+            "misconception": "Novices think a single rough perspective sketch provides sufficient blueprint guidance for building a miniature.",
+            "fact": "Orthographic drawings from multiple angles are mandatory to resolve complex three-dimensional hull intersections accurately.",
+            "myth": "Novices think a single rough perspective sketch provides sufficient blueprint guidance for building a miniature.",
+            "fact_correction": "Orthographic drawings from multiple angles are mandatory to resolve complex three-dimensional hull intersections accurately."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2234,10 +2296,10 @@
           "id": "5c",
           "sub_req_label": "5c",
           "sub_req_text": "Produce a final sketch or a rendered image of the complete model from multiple angles.",
-          "topic_title": "Req 5c: Multi-Angle Sketches and Renderings",
-          "pamphlet_summary": "Multi-Angle Sketches and Renderings: Produce a final sketch or a rendered image of the complete model from multiple angles (p. 12).",
+          "topic_title": "Req 5c: Multiview Rendering and Visualization",
+          "pamphlet_summary": "The modeler produces multi-angle orthographic sketches or three-dimensional digital renderings of the completed vehicle. These illustrations establish color palettes, shadow lines, and structural symmetry before fabrication begins.",
           "pamphlet_excerpts": [
-            "Multi-Angle Sketches and Renderings: Produce a final sketch or a rendered image of the complete model from multiple angles (p. 12)."
+            "The modeler produces multi-angle orthographic sketches or three-dimensional digital renderings of the completed vehicle. These illustrations establish color palettes, shadow lines, and structural symmetry before fabrication begins."
           ],
           "workbook_diagram_url": "assets/images/model_design_and_building_req_5_nano_hero.png",
           "workbook_diagram_caption": "Uniformed Scouts collaborate around a craft table to assemble intricate plastic panels on a scale spacecraft model.",
@@ -2275,8 +2337,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "During Model Design and Building Requirement 5d, Scouts can underestimate how directly mastery of design process and scale review depends on understanding your design process and scale choices with your counselor.",
-            "fact": "Scouting America standards for Model Design and Building Requirement 5d require complete workbook entries on design process and scale review to demonstrate full understanding of your design process and scale choices with your counselor."
+            "misconception": "Scouts assume discussing construction difficulties with the counselor will lower their evaluation score.",
+            "fact": "Explaining how unexpected structural failures were diagnosed and repaired demonstrates true engineering maturity.",
+            "myth": "Scouts assume discussing construction difficulties with the counselor will lower their evaluation score.",
+            "fact_correction": "Explaining how unexpected structural failures were diagnosed and repaired demonstrates true engineering maturity."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2302,10 +2366,10 @@
           "id": "5d",
           "sub_req_label": "5d",
           "sub_req_text": "Discuss your design process and scale choices with your counselor. Describe the materials (physical and/or digital) you used, how you engineered your model and discuss any difficulties you encountered and what you learned.",
-          "topic_title": "Req 5d: Design Process and Scale Review",
-          "pamphlet_summary": "For Model Design and Building Requirement 5d (Design Process and Scale Review): The Model Design and Building pamphlet for Requirement 5d details your design process and scale choices with your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12).",
+          "topic_title": "Req 5d: Fabrication Process Counselor Review",
+          "pamphlet_summary": "The builder presents material selections, fabrication techniques, scale choices, and engineering setbacks to the counselor. This dialogue evaluates the scout's problem-solving adaptations during scratch-built assembly.",
           "pamphlet_excerpts": [
-            "Design Process and Scale Review: The Model Design and Building pamphlet for Requirement 5d details your design process and scale choices with your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+            "The builder presents material selections, fabrication techniques, scale choices, and engineering setbacks to the counselor. This dialogue evaluates the scout's problem-solving adaptations during scratch-built assembly."
           ],
           "workbook_diagram_url": "assets/images/model_design_and_building_req_5_nano_hero.png",
           "title": "Req 5d: Design Process and Scale Review",
@@ -2339,11 +2403,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Special-Effects Fantasy Spacecraft Design",
+      "topic_title": "Req 5: Sci-Fi Fantasy Spacecraft Engineering",
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 5): Complete all Special-Effects Fantasy Spacecraft Design discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Work in a spray booth with organic vapor cartridges when applying aerosol surface fillers and lacquer paints.",
       "pamphlet_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Demonstration",
@@ -2375,8 +2439,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "Many people think designing a fantasy sci-fi spacecraft means gluing random shapes together with no connection to real engineering or scale.",
-        "fact": "Believable special-effects fantasy models are grounded in real-world aircraft, submarine, and naval ship engineering, featuring logical functional zones like cockpits, engines, and crew quarters at a practical scale (p. 12)."
+        "misconception": "Beginners assume fantasy models require no real-world engineering logic because the subject is imaginary.",
+        "fact": "Believable fantasy craft rely on authentic aerospace ergonomics, structural paneling, and visible service access hatches.",
+        "myth": "Beginners assume fantasy models require no real-world engineering logic because the subject is imaginary.",
+        "fact_correction": "Believable fantasy craft rely on authentic aerospace ergonomics, structural paneling, and visible service access hatches."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2400,16 +2466,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Real-World Aerospace and Naval Research: Research real-world aircraft, submarines, and naval ships for design inspiration (p. 12).",
-        "Spacecraft Cockpit and Engine Subsystems: Design individual components (such as the cockpit, living areas, engines, and storage) (p. 12).",
-        "Multi-Angle Concept Sketches and Renders: Produce a final sketch or a rendered image of the complete model from multiple angles (p. 12).",
-        "Scale Selection and Process Review: Discuss your design process and scale choices with your counselor (p. 12)."
+        "Naval Hull Inspiration: Submarine and warship hulls provide realistic structural contours for fictional spacecraft designs.",
+        "Internal Modular Partitioning: Designing cockpit controls and cargo bays establishes believable human scale inside fantasy craft.",
+        "Multi Angle Projection: Orthographic rendering displays propulsion systems, hull plating, and sensory arrays from three vistas.",
+        "Greeblie Surface Detailing: Applying tiny structural kit-bashed shapes simulates authentic functional mechanics across blank hull surfaces."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Create Multi-Angle Sketches or Renders: Produce a final sketch or a rendered image of the complete model from multiple angles (p. 12).",
-        "Step 2 - Review Scale Choices With Counselor: Discuss your design process and scale choices with your counselor (p. 12).",
-        "Step 3 - Special-Effects Fantasy Spacecraft Design: Review the Model Design and Building pamphlet standards for req 5, special-effects fantasy spacecraft design, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26).",
-        "Step 4 - Demonstrate Special-Effects Model Design: Review your completed Special-Effects Fantasy Model evidence and demonstrate proficiency during your counselor conference (p. 26)."
+        "Step 1 - Reference Vehicle Study: Analyze naval submarine conning towers and jet engine cowlings for functional hull shapes.",
+        "Step 2 - Internal Module Layout: Sketch interior crew compartments, reactor housings, and propulsion nozzles to a defined scale.",
+        "Step 3 - Multi View Rendering: Draft top, profile, and frontal perspective projections displaying exterior equipment pods clearly.",
+        "Step 4 - Scratch Hull Construction: Assemble the main hull structure using styrene sheets before adding surface mechanical detail."
       ],
       "gear_checklist": [
         "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
@@ -2418,15 +2484,15 @@
         "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Real-World Vehicle Design Inspirat",
-        "right_header": "Req 5c: Multi-Angle Sketches and Rendering",
+        "left_header": "Req 5a: Real World Design Inspiration",
+        "right_header": "Req 5c: Multiview Rendering and Visualizat",
         "left_points": [
-          "(5a) Real-World Vehicle Design Inspiration: Research real-world aircraft, submarines, and naval ships for design inspiration (p. 12).",
-          "(5b) Spacecraft Subsystems and Interior Layout: Design individual components (such as the cockpit, living areas, engines, and storage) (p. 12)."
+          "(5a) Real World Design Inspiration: Builders research operational aircraft, submarines, and naval warships to uncover convincing industrial forms. Incorporating functional intakes, exhaust fairings, and armor plate bevels anchors fantasy designs in reality.",
+          "(5b) Spacecraft Subsystem Component Architecture: Spacecraft models require deliberate spatial planning for cockpit canopies, crew quarters, powerplants, and thrusters. Laying out functional modules ensures exterior contours reflect believable internal machinery and habitable compartments."
         ],
         "right_points": [
-          "(5c) Multi-Angle Sketches and Renderings: Produce a final sketch or a rendered image of the complete model from multiple angles (p. 12).",
-          "(5d) Design Process and Scale Review: The Model Design and Building pamphlet for Requirement 5d details your design process and scale choices with your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+          "(5c) Multiview Rendering and Visualization: The modeler produces multi-angle orthographic sketches or three-dimensional digital renderings of the completed vehicle. These illustrations establish color palettes, shadow lines, and structural symmetry before fabrication begins.",
+          "(5d) Fabrication Process Counselor Review: The builder presents material selections, fabrication techniques, scale choices, and engineering setbacks to the counselor. This dialogue evaluates the scout's problem-solving adaptations during scratch-built assembly."
         ],
         "rows": [
           {
@@ -2450,10 +2516,10 @@
         "title": "Model Design and Building Req 5 Exemplar Workbook Entry: Special-Effects Fantasy Spacecraft Design",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a - Real-World Vehicle Design Inspirat": "Research real-world aircraft, submarines, and naval ships for design inspiration (p. 12).",
-          "Req 5b - Spacecraft Subsystems and Interior": "Design individual components (such as the cockpit, living areas, engines, and storage) (p. 12).",
-          "Req 5c - Multi-Angle Sketches and Rendering": "Produce a final sketch or a rendered image of the complete model from multiple angles (p. 12).",
-          "Req 5d (Design Process and Scale Review)": "The Model Design and Building pamphlet for Requirement 5d details your design process and scale choices with your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 12)."
+          "Req 5a - Real World Design Inspiration": "Builders research operational aircraft, submarines, and naval warships to uncover convincing industrial forms. Incorporating functional intakes, exhaust fairings, and armor plate bevels anchors fantasy designs in reality.",
+          "Req 5b - Spacecraft Subsystem Component Ar": "Spacecraft models require deliberate spatial planning for cockpit canopies, crew quarters, powerplants, and thrusters. Laying out functional modules ensures exterior contours reflect believable internal machinery and habitable compartments.",
+          "Req 5c - Multiview Rendering and Visualiza": "The modeler produces multi-angle orthographic sketches or three-dimensional digital renderings of the completed vehicle. These illustrations establish color palettes, shadow lines, and structural symmetry before fabrication begins.",
+          "Req 5d - Fabrication Process Counselor Rev": "The builder presents material selections, fabrication techniques, scale choices, and engineering setbacks to the counselor. This dialogue evaluates the scout's problem-solving adaptations during scratch-built assembly."
         },
         "sample_output": "Special-Effects Fantasy Spacecraft Design: Produce a final sketch or a rendered image of the complete model from multiple angles (p. 12).",
         "counselor_tip": "For Model Design and Building Requirement 5 (Special-Effects Fantasy Spacecraft Design), verify the Scout's own observations and specific pamphlet details (Official Scouting America Model Design and Building Merit Badge Pamphlet)."
@@ -2485,7 +2551,13 @@
       "workbook_diagram_caption": "Uniformed Scouts collaborate around a craft table to assemble intricate plastic panels on a scale spacecraft model.",
       "number": "5",
       "description": "Special-Effects Fantasy Model. Design and build a fantasy spacecraft model suitable for a science-fiction film, using traditional modeling and/or computer design techniques. Determine an appropriate scale for your design, one that makes practical sense. Do the following: (a) Research real-world aircraft, submarines, and naval ships for design inspiration. (b) Design individual components (such as the cockpit, living areas, engines, and storage). (c) Produce a final sketch or a rendered image of the complete model from multiple angles. (d) Discuss your design process and scale choices with your counselor. Describe the materials (physical and/or digital) you used, how you engineered your model and discuss any difficulties you encountered and what you learned.",
-      "workbook_visual_caption": "Uniformed Scouts collaborate around a craft table to assemble intricate plastic panels on a scale spacecraft model."
+      "workbook_visual_caption": "Uniformed Scouts collaborate around a craft table to assemble intricate plastic panels on a scale spacecraft model.",
+      "pamphlet_summary": "Fantasy spacecraft construction blends imaginative science-fiction aesthetics with real-world maritime and aerospace engineering logic. Modelers select an intentional scale ratio and add greeblies to communicate realistic industrial utility and massive physical size.",
+      "socratic_questions": [
+        "How does borrowing visual design cues from modern submarines give a fantasy spacecraft visual credibility?",
+        "What role do surface greeblies play in helping an audience perceive the enormous scale of a filming miniature?",
+        "Why must a modelmaker establish an exact scale ratio even when designing an imaginary science-fiction vessel?"
+      ]
     },
     {
       "req_id": "6",
@@ -2516,11 +2588,11 @@
         "slide_injection_label": "Local Museums, Field Sites & Professional Mentors",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Careers in Model Design and Prototyping",
+      "topic_title": "Req 6: Model Design Career Pathways",
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Model Design and Building Requirement 6 on careers in model design and prototyping under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
+      "safety_callout": "Commercial fabrication workshops require steel-toed boots and strict adherence to lock-out tag-out machinery procedures.",
       "pamphlet_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Model Design and Building Merit Badge Pamphlet",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2554,8 +2626,10 @@
         "min_rows": 5
       },
       "common_misconception_pair": {
-        "misconception": "Many Scouts think professional modelmaking is a dying hobby rather than a thriving career path in modern engineering, architecture, and film.",
-        "fact": "Professional modelmaking spans architectural visualization, industrial product prototyping, aerospace wind-tunnel testing, medical device design, and entertainment visual effects (p. 12)."
+        "misconception": "Beginners assume digital computer graphics have completely eliminated professional career opportunities for physical modelmakers.",
+        "fact": "Medical device firms and aerospace manufacturers continuously employ physical modelmakers to validate ergonomics and aerodynamic prototypes.",
+        "myth": "Beginners assume digital computer graphics have completely eliminated professional career opportunities for physical modelmakers.",
+        "fact_correction": "Medical device firms and aerospace manufacturers continuously employ physical modelmakers to validate ergonomics and aerodynamic prototypes."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -2584,16 +2658,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Model Design Career Exploration: Explore careers related to this merit badge (p. 12).",
-        "Education, Training, and Salary Research: Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement (p. 12).",
-        "Professional Interviews and Library Research: Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional (p. 12).",
-        "Careers in Model Design and Prototyping: Review the Model Design and Building pamphlet standards for req 6, careers in model design and prototyping, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 12)."
+        "Industrial Prototyping Roles: Automotive and consumer goods modelers create physical ergonomic prototypes for consumer testing.",
+        "Architectural Firm Presentation: Architectural modelmakers construct museum-grade scale representations of planned civic infrastructure projects.",
+        "Entertainment Creature Fabrication: Special effects miniature fabricators build detailed practical filming props for cinematic productions.",
+        "Digital Prototyping Education: Bachelor degrees in industrial design provide foundation training in computer fabrication tools."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Conduct Career Research and Interviews: Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional (p. 12).",
-        "Step 2 - Careers in Model Design and Prototyping: Review the Model Design and Building pamphlet standards for req 6, careers in model design and prototyping, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 12).",
-        "Step 3 - Careers in Model Design and Prototyping: Review the Model Design and Building pamphlet standards for req 6, careers in model design and prototyping, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 30).",
-        "Step 4 - Present Professional Pathway Evidence: Review your completed Careers & Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 30)."
+        "Step 1 - Career Field Identification: Select an industry such as architectural modeling, automotive styling, or film special effects.",
+        "Step 2 - Educational Pathway Research: Investigate required university degree programs, vocational technical certifications, and associated tuition costs.",
+        "Step 3 - Market Compensation Assessment: Research median entry salaries, senior pay bands, and geographic job demand concentrations.",
+        "Step 4 - Professional Interview Execution: Interview an active professional modelmaker regarding daily workshop tasks and career advancement."
       ],
       "gear_checklist": [
         "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
@@ -2671,7 +2745,13 @@
       "workbook_diagram_caption": "A Scout gestures toward a wooden miniature campsite layout while explaining design details to fellow troop members outdoors.",
       "number": "6",
       "description": "Careers. Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
-      "workbook_visual_caption": "A Scout gestures toward a wooden miniature campsite layout while explaining design details to fellow troop members outdoors."
+      "workbook_visual_caption": "A Scout gestures toward a wooden miniature campsite layout while explaining design details to fellow troop members outdoors.",
+      "pamphlet_summary": "Professional modelmakers apply their craft across industrial design studios, architectural firms, movie visual effects shops, and prosthetic laboratories. Entering these industries requires rigorous training in digital modeling, materials science, precision machining, and artistic finishing.",
+      "socratic_questions": [
+        "How has the integration of additive manufacturing changed the daily responsibilities of an industrial modelmaker?",
+        "Why do automotive styling studios still create full-scale clay models alongside computer-generated virtual reality simulations?",
+        "Which technical skills bridge the gap between traditional hand craftsmanship and digital computer-aided manufacturing?"
+      ]
     }
   ],
   "badge_slug": "model_design_and_building",

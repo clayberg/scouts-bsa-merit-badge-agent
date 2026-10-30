@@ -1,8 +1,8 @@
 # Fly-Fishing Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/fly-fishing/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fly-fishing/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Fly-Fishing.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,17 +12,17 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Fly-Fishing Hazards and First Aid | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Balancing Fly Rods and Lines | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 13, p. 16) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Essential Fly-Fishing Knots and Rigging | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Fly Categories and Tying Patterns | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 38, p. 39) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Overhead and Roll Casting Techniques | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 33, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Stream Observation and Matching Hatches | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 62, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Leave No Trace and Conservation | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **8** | Req 8: Game Fishing Regulations and Stewardship | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 85, p. 87) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **9** | Req 9: Outdoor Ethics and Sportsmanlike Behavior | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 86, p. 92) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **10** | Req 10: Landing and Identifying Caught Fish | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 10, p. 11) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **11** | Req 11: Cleaning and Cooking Fresh Fish | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 69, p. 71) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Fly Fishing River Safety Hazards | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Balanced Fly Tackle Systems | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 13, p. 16) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Fly Line Rigging Knots | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Artificial Fly Types Construction | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 38, p. 39) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Overhead Roll Casting Techniques | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 33, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Aquatic Insect Feeding Patterns | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 62, p. 78) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Conservation Catch Release Ethics | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **8** | Req 8: Game Fishery Regulations Compliance | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 85, p. 87) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **9** | Req 9: Angler Sportsmanship River Courtesy | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 86, p. 92) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **10** | Req 10: Fly Caught Fish Identification | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 10, p. 11) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **11** | Req 11: Fish Cleaning Cooking Preparation | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 69, p. 71) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -30,31 +30,31 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Scout must individually discuss mastery of Requirement 2 to the Merit Badge Counselor.
-- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
-- [ ] **Station Req 4:** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
-- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
+- [ ] **Station Req 2:** Demonstrate how to match a fly rod, line, and leader to achieve a balanced system. Discuss several types of fly lines, and explain how and when each would be used. Review with your counselor how to care for this equipment.
+- [ ] **Station Req 3:** Demonstrate how to tie proper knots to prepare a fly rod for fishing: (a) Tie backing to the arbor of a fly reel spool using an arbor knot. (b) Tie backing to the fly line using a nail (tube) knot. (c) Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection. (d) Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection. (e) Tie a fly onto the terminal end of the leader using an improved clinch knot.
+- [ ] **Station Req 4:** Explain how and when each of the following types of flies is used: dry flies, wet flies, nymphs, streamers, bass bugs, poppers, and saltwater flies. Tell what each one imitates. Tie at least two types of the flies mentioned in this requirement.
+- [ ] **Station Req 5:** Demonstrate the ability to cast a fly 30 feet consistently and accurately using both overhead and roll cast techniques.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Fly-Fishing Hazards and First Aid
+### Req 1: Fly Fishing River Safety Hazards
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain to your counselor the most likely hazards you may encounter while participating in fly-fishing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Name and explain five safety practices you should always follow while fly-fishing. (b) Discuss the prevention of and treatment for the following health concerns that could occur while fly-fishing: cuts and scratches, puncture wounds, insect bites, hypothermia, dehydration, heat exhaustion, heatstroke, and sunburn. (c) Explain how to remove a hook that has lodged in someone's arm.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Fly-Fishing Requirement 1: travel with a buddy, carry the Scout Basic Essentials and water while studying fly-fishing hazards and first aid, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** Because fly-fishing uses lightweight artificial flies on calm streams, anglers rarely need to worry about eye protection or puncture wounds.
-- **Pamphlet Fact:** Fast-moving hooks cast on a fly line can easily strike an angler in the wind, so wearing protective eyeglasses, a hat, and crimping down hook barbs are essential safety practices (p. 77).
+> **Guide to Safe Scouting Warning:** Always cinch a wide wading belt around the waist before entering any flowing stream.
+- **Common Myth:** Chest waders immediately pull an angler down to the river bottom if water enters them.
+- **Pamphlet Fact:** Trapped air in waders initially floats your feet, but incoming water makes controlling downstream drift difficult.
 
 **Official Pamphlet Summary:**
-- Even a gentle sport like fly-fishing can come with its perils (p. 77).
-- A good angler will be well-versed in first-aid for cuts, scratches, puncture wounds, and insect bites and stings (p. 77).
-- Cuts and scratches are wounds, openings in the skin and tissues that can allow germs to enter the body and cause infection (p. 77).
-- Wash minor scratches and cuts with soap and water (p. 77).
+- Wading Belt Tension: Tight neoprene belts prevent river water from rapidly filling lower wader legs during falls.
+- Eye Protection Requirement: Polarized safety glasses shield eyes from high velocity flies during errant wind casts.
+- Deep Water Immersion: Sudden submersion in glacial runoff triggers involuntary gasping and rapid muscular failure.
+- Hook Puncture Protocol: Anglers back out barbless hooks smoothly or use string extraction for deep penetration.
 
-#### Req 1a: Anticipating and Preventing Fishing Hazards
+#### Req 1a: River Current Environmental Hazards
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in fly-fishing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Name and explain five safety practices you should always follow while fly-fishing.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Fly-Fishing Hazards and First Aid)
-- **Common Myth:** If a barbed fishhook embeds past the barb in someone's arm, you should immediately pull it straight back out along the entry path.
-- **Pamphlet Fact:** You should never try to pull a deeply embedded barbed hook straight back out; instead, use the string-yank technique on the shank or have a physician push the point through and snip the barb (p. 78).
+- **Common Myth:** Smooth rubber soles provide sufficient traction on wet, mossy river rocks during heavy spring currents.
+- **Pamphlet Fact:** Studded rubber or felt soles bite through algal slime to maintain contact with river bedrock.
 
 ![Illustrated Fly-Fishing technical diagram of fly-fishing hazards and first aid for Requirement 1 field execution.](/assets/pamphlet_images/fly_fishing_p003_img1.png)
 
@@ -65,11 +65,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Treating Common Outdoor Health Concerns
+#### Req 1b: Angler Medical Concern Management
 **Official Requirement 1b:** Discuss the prevention of and treatment for the following health concerns that could occur while fly-fishing: cuts and scratches, puncture wounds, insect bites, hypothermia, dehydration, heat exhaustion, heatstroke, and sunburn.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Discuss The Prevention of and)
-- **Common Myth:** Once a small cut or scratch is bandaged on a multi-day fishing campout, you should leave the original bandage untouched until you get home.
-- **Pamphlet Fact:** On camping trips, you must clean and rebandage small wounds daily and watch closely for redness or swelling that signals infection (p. 77).
+- **Common Myth:** Drinking clear mountain creek water directly from the stream is completely safe while wading.
+- **Pamphlet Fact:** Untreated surface stream water often carries Giardia lamblia cysts that cause severe gastrointestinal illness.
 
 ![An engorged tick represents a common insect hazard encountered outdoors.](/assets/pamphlet_images/fly_fishing_p078_img2.png)
 
@@ -79,11 +79,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1c: Safe Fishhook Removal Techniques
+#### Req 1c: Embedded Hook Extraction Methods
 **Official Requirement 1c:** Explain how to remove a hook that has lodged in someone's arm.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Remove A Hook That Has)
-- **Common Myth:** Wading in fast, waist-deep river currents is safe as long as your waders fit snugly around your boots.
-- **Pamphlet Fact:** Waders that fill with water in swift currents act like anchors, so anglers should always wear a cinched wading belt and use a wading staff for balance in moving water (p. 77).
+- **Common Myth:** Yanking a barbed hook straight out backward causes minimal tissue damage to an angler.
+- **Pamphlet Fact:** Backing out an unsnipped barb tears muscle tissue unless pushed through or disengaged with string.
 
 ![Step-by-step Fly-Fishing visual guide highlighting balancing fly rods and lines positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/fly_fishing_p007_img1.png)
 
@@ -93,12 +93,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Balancing Fly Rods and Lines
+### Req 2: Balanced Fly Tackle Systems
 **Official Requirement 2:** Demonstrate how to match a fly rod, line, and leader to achieve a balanced system. Discuss several types of fly lines, and explain how and when each would be used. Review with your counselor how to care for this equipment.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 13, p. 16)* • **Organizer (Skill Demonstration Checklist):** Req 2 Hands-On Skill Station & EDGE Verification Checklist (Rod Line and Leader to)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 2): Complete all Balancing Fly Rods and Lines discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Just like spin fishing, the weight of the artificial fly pulls the line off the reel during a fly cast.
-- **Pamphlet Fact:** In fly-fishing, the weight of the fly line itself bends and loads the rod to carry a nearly weightless fly to the target, which is why the line weight number must match the rod rating (p. 13).
+> **Guide to Safe Scouting Warning:** Inspect graphite rod blanks for hairline fractures caused by weighted split shot strikes before bending.
+- **Common Myth:** Using a heavier nine weight fly line on a five weight rod increases casting distance.
+- **Pamphlet Fact:** Overloading a fly rod blank softens casting recovery and risks snapping the graphite fibers.
 
 ![A counselor demonstrates the weight, taper, and texture of bright yellow fly line to an attentive young Scout.](/assets/ai_illustrations/fly_fishing_req_2_nano_hero.png)
 
@@ -109,31 +109,31 @@
 | **3. Review with your counselor how to care for this equipment.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Lines vary by weight, and must be matched to the rod (p. 13).
-- They come in different styles (called tapers) and colors and are designed either to float on the surface of the water or to sink to different depths (p. 13).
-- Intermediate lines, for example, sink very slowly and can be fished just below the surface (p. 13).
-- Heavily weighted lines sink quite rapidly and are designed to get down deep very quickly (p. 13).
+- Rod Rating Alignment: Match the designated line weight printed on the rod blank to your line.
+- Weight Forward Line: Concentrated front taper mass loads modern graphite rods quickly in stiff river breezes.
+- Double Taper Performance: Symmetrical tapers allow reversing the line onto the reel spool after heavy wear.
+- Tackle Storage Hygiene: Rinse reels in freshwater and dry cork handles completely before winter storage.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Essential Fly-Fishing Knots and Rigging
+### Req 3: Fly Line Rigging Knots
 **Official Requirement 3 (Parent Overview):** Demonstrate how to tie proper knots to prepare a fly rod for fishing: (a) Tie backing to the arbor of a fly reel spool using an arbor knot. (b) Tie backing to the fly line using a nail (tube) knot. (c) Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection. (d) Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection. (e) Tie a fly onto the terminal end of the leader using an improved clinch knot.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Fly-Fishing Requirement 3: travel with a buddy, carry the Scout Basic Essentials and water while studying essential fly-fishing knots and rigging, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** You can tie a fine monofilament tippet directly to a thick coated fly line using an improved clinch knot.
-- **Pamphlet Fact:** Because the fly line is much thicker than the leader and tippet, you must use a nail knot or loop-to-loop connection to attach the thick butt section of a tapered leader to the fly line (p. 25).
+> **Guide to Safe Scouting Warning:** Moisten all monofilament knots with saliva or water before seating to prevent friction burn damage.
+- **Common Myth:** Standard square knots are strong enough to connect slippery monofilament fly line components together.
+- **Pamphlet Fact:** Monofilament and braided nylon slip through basic knots under tension unless secured with friction wraps.
 
 **Official Pamphlet Summary:**
-- Assemble the gear systematically for trouble-free performance (p. 24).
-- Balanced Outfit Component Alignment: All of the previously discussed elements of a properly balanced fly-fishing outfit must be assembled properly (p. 24).
-- Begin by attaching the reel to the seat on the rod (p. 24).
-- Make sure the handle is on the side of the hand you intend to reel (p. 24).
+- Arbor Knot Function: Two simple overhand knots cinch braided backing securely around the reel spool center.
+- Nail Knot Connection: Smooth cylindrical wraps join limp monofilament leader butt sections to slick fly line.
+- Surgeon Knot Simplicity: Double overhand passes join different tippet diameters without slipping under heavy fish runs.
+- Improved Clinch Security: Five turns around the standing line lock small fly eyes without slipping loose.
 
-#### Req 3a: Arbor Knot for Reel Spool
+#### Req 3a: Arbor Knot Spool Attachment
 **Official Requirement 3a:** Tie backing to the arbor of a fly reel spool using an arbor knot.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Backing to The Arbor)
-- **Common Myth:** When mounting a fly reel, the line should feed off the top of the spool closest to the rod blank.
-- **Pamphlet Fact:** When reeling in or pulling line off the spool, the fly line should feed from the bottom of the reel with the drag engaging when pulled outward (p. 24).
+- **Common Myth:** Tying backing to a reel spool with a single loose overhand loop prevents spinning.
+- **Pamphlet Fact:** Smooth metal spools require a sliding jam knot to prevent the entire spool bundle from spinning.
 
 **Gear & Readiness Checklist:**
 - [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks
@@ -149,11 +149,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: Nail Knot for Backing Connection
+#### Req 3b: Backing To Line Connection
 **Official Requirement 3b:** Tie backing to the fly line using a nail (tube) knot.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix (Backing to The Fly Line)
-- **Common Myth:** An arbor knot is strong enough to join two thin strands of monofilament tippet together.
-- **Pamphlet Fact:** The arbor knot is designed specifically to lock braided backing around the reel spool arbor, whereas a surgeon's knot joins leader and tippet sections (p. 25).
+- **Common Myth:** Looping bulky overhand knots between backing and fly line travels smoothly through narrow guides.
+- **Pamphlet Fact:** Bulky knots catch on rod guides during blistering fish runs, breaking light leaders instantly.
 
 ![Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders.](/assets/pamphlet_images/fly_fishing_p025_img1.png)
 
@@ -163,11 +163,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3c: Leader to Fly Line Connection
+#### Req 3c: Leader Fly Line Connections
 **Official Requirement 3c:** Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix (Attach A Leader)
-- **Common Myth:** Tying dry monofilament knots tightly without moisture creates the highest knot strength.
-- **Pamphlet Fact:** Lubricating monofilament knots with water or saliva before pulling them snug reduces friction heat that weakens the line (p. 25).
+- **Common Myth:** Tying a thick leader butt to fly line with an arbitrary granny knot transfers energy.
+- **Pamphlet Fact:** Abrupt diameter transitions and crooked knots cause the leader to hinge and collapse mid-air.
 
 ![Founder Robert Baden-Powell wades into a river with a fly rod, illustrating early Scouting lore.](/assets/pamphlet_images/fly_fishing_p011_img1.png)
 
@@ -177,11 +177,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3d: Surgeon's Knot for Tippet Addition
+#### Req 3d: Tippet Extension Knots
 **Official Requirement 3d:** Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix (Add A Tippet to A)
-- **Common Myth:** During Fly-Fishing Requirement 3d, Scouts can underestimate how directly mastery of surgeon's knot for tippet addition depends on understanding add a tippet to a leader using a surgeon's knot or a loop-to-loop connection.
-- **Pamphlet Fact:** Scouting America standards for Fly-Fishing Requirement 3d require complete workbook entries on surgeon's knot for tippet addition to demonstrate full understanding of add a tippet to a leader using a surgeon's knot or a loop-to-loop connection.
+- **Common Myth:** A surgeon knot requires five full line twists to hold light tippet sections securely.
+- **Pamphlet Fact:** Two simple passes through the loop create full rated strength for monofilament tippet junctions.
 
 ![A fly rod section, fly reel, and spool of fly line illustrate key components of a balanced rig.](/assets/pamphlet_images/fly_fishing_p013_img1.png)
 
@@ -191,11 +191,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3e: Improved Clinch Knot for Flies
+#### Req 3e: Terminal Fly Attachment Knots
 **Official Requirement 3e:** Tie a fly onto the terminal end of the leader using an improved clinch knot.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix (Onto The Terminal End)
-- **Common Myth:** Overlooking the specific field checks required for Improved Clinch Knot for Flies (Req 3e) or confusing Improved Clinch Knot for Flies with general Essential Fly-Fishing Knots and Rigging procedures.
-- **Pamphlet Fact:** For Requirement 3e (Improved Clinch Knot for Flies), The Fly-Fishing pamphlet for Requirement 3e details tie a fly onto the terminal end of the leader using an improved clinch knot, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).
+- **Common Myth:** Standard clinch knots without the final tag tuck never slip under strong trout strikes.
+- **Pamphlet Fact:** Without the final tag loop lock, slick monofilament pulls through hook eyes under sudden load.
 
 ![Commercial fly line packaging indicates line weight, taper, and floating characteristics.](/assets/pamphlet_images/fly_fishing_p017_img1.png)
 
@@ -205,12 +205,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Fly Categories and Tying Patterns
+### Req 4: Artificial Fly Types Construction
 **Official Requirement 4:** Explain how and when each of the following types of flies is used: dry flies, wet flies, nymphs, streamers, bass bugs, poppers, and saltwater flies. Tell what each one imitates. Tie at least two types of the flies mentioned in this requirement.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 38, p. 39)* • **Organizer (Concept & Examples Notes):** Req 4 Structured Technical Study & Explanation Matrix (Essential Fly-Fishing Knots and Leaders)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 4): Complete all Fly Categories and Tying Patterns discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** All artificial flies used in fly-fishing are designed to float on the water's surface like adult winged insects.
-- **Pamphlet Fact:** While dry flies and poppers float on the surface, nymphs, wet flies, and streamers are fished underwater to imitate aquatic larvae, emerging insects, leeches, and baitfish (p. 38).
+> **Guide to Safe Scouting Warning:** Wear safety glasses while operating rotary vises to shield eyes from snapped high-carbon steel hooks.
+- **Common Myth:** Fish strike artificial flies based entirely on exact anatomical color matching rather than silhouette.
+- **Pamphlet Fact:** Silhouette, overall size, and natural drift motion trigger strikes far more reliably than slight color shades.
 
 ![A young Scout wears a loaded tackle vest while holding his fly rod along the water's edge.](/assets/pamphlet_images/fly_fishing_p036_img1.png)
 
@@ -221,19 +221,19 @@
 | **3. Tie at least two types of the flies mentioned in this requirement** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Use these flies to catch trout, bass andpanfish on the water's surface (p. 38).
-- Floating Dry Fly Patterns: Traditional trout flies that float are called dry flies (p. 38).
-- They are designed to imitate the adult forms of mayflies, caddis flies, and other insects that trout and other fish feed (p. 38).
-- Targeting Surface-Feeding Trout: Anglers use dry flies to catch fish that are feeding on surface-hatching insects (p. 38).
+- Stiff rooster hackle fibers support dry flies high on the surface film tension.
+- Weighted beadheads drop nymph patterns down into the rocky stream riverbed feeding zone.
+- Streamer Minnow Action: Pulsing marabou plumes imitate fleeing baitfish when stripped through deep river holding pools.
+- Bass Popper Agitation: Cupped deer hair or foam heads push noisy water disturbances across lake surfaces.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Overhead and Roll Casting Techniques
+### Req 5: Overhead Roll Casting Techniques
 **Official Requirement 5:** Demonstrate the ability to cast a fly 30 feet consistently and accurately using both overhead and roll cast techniques.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 33, p. 34)* • **Organizer (Skill Demonstration Checklist):** Req 5 Hands-On Skill Station & EDGE Verification Checklist (Ability to Cast A Fly)
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Fly-Fishing Requirement 5: travel with a buddy, carry the Scout Basic Essentials and water while studying overhead and roll casting techniques, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** Snapping your wrist back and forth like cracking a whip is the proper way to generate power in an overhead fly cast.
-- **Pamphlet Fact:** Bending your wrist too far opens the casting arc and dumps the loop into the ground; instead, keep your thumb on top of the grip and stop the rod abruptly near the vertical position (p. 33).
+> **Guide to Safe Scouting Warning:** Look behind your shoulder before every backcast to ensure bystanders and branches remain clear.
+- **Common Myth:** Throwing a fly line requires whipping the rod vigorously with loose wrist snapping motions.
+- **Pamphlet Fact:** Snapping the wrist opens the casting loop wide, dispersing energy and causing tailing loop tangles.
 
 **Gear & Readiness Checklist:**
 - [ ] Balanced rod, reel, monofilament/fluorocarbon line, leaders, and barbless or circle hooks
@@ -248,19 +248,19 @@
 | **1. Demonstrate the ability to cast a fly 30 feet consistently and accurately using both overhead and roll cast techniques.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Using Practice Casting Targets: A large plastic hoop (such as a hula hoop) makes an excellent target for practicing casting (p. 33).
-- Thumb-On-Top Cork Rod Grip: Make sure your thumb is on top of the rod's cork grip and that you have a firm hold (p. 33).
-- Now, strip out 20 to 30 feet of line from the reel (p. 33).
-- Marking Thirty-Foot Casting Distance: You might want to make a mark 30 feet from the line tip, using a waterproof marker (p. 33).
+- Casting Arc Boundaries: Stop the rod tip crisply between ten o'clock forward and two o'clock backward.
+- Roll Cast Prerequisite: Dragging line across water tension loads the rod without requiring backcast bank clearance.
+- Line Loop Dynamics: Narrow parallel loops slice into head winds, transferring energy out to the fly.
+- Smooth left hand line tugs accelerate line speed during the forward rod stroke.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Stream Observation and Matching Hatches
+### Req 6: Aquatic Insect Feeding Patterns
 **Official Requirement 6:** Go to a suitable fishing location and observe what fish may be eating both above and beneath the water's surface. Explain the importance of matching the hatch.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 62, p. 78)* • **Organizer (Concept & Examples Notes):** Req 6 Structured Technical Study & Explanation Matrix (Suitable Fishing Location)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 6): Complete all Stream Observation and Matching Hatches discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Matching the hatch means picking the brightest, flashiest fly in your box so fish can spot it easily in clear water.
-- **Pamphlet Fact:** Matching the hatch means observing the natural insects or forage fish are actively eating and selecting a fly that closely matches their size, profile, color, and behavior (p. 38).
+> **Guide to Safe Scouting Warning:** Step carefully on slick boulders while turning rocks to prevent foot entrapment in fast chutes.
+- **Common Myth:** Any rising fish is feeding directly on fully emerged adult insects riding atop the water.
+- **Pamphlet Fact:** Trout frequently sip nymphs or emerging pupae trapped just below the surface film meniscus.
 
 ![A detailed illustration shows the anatomy and coloration of an Atlantic tarpon game fish.](/assets/pamphlet_images/fly_fishing_p062_img1.png)
 
@@ -270,31 +270,31 @@
 | **2. Explain the importance of matching the hatch.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Fly fishermen fish for many species of saltwater fish (p. 62).
-- Because saltwater fish are usually much larger than their freshwater cousins, anglers casting for them require specially designed rods and lines (p. 62).
-- Preventing Saltwater Tackle Corrosion: Some of the species can be taken on a regular flyrod, but extra care must be taken to clean, rinse, and lubricate the equipment to reduce the corrosive (p. 62).
-- Three species of fish that live in the shallow, subtropical waters of Florida are among the finest fly-fishing trophies (p. 62).
+- Kick Net Sampling: Inverting riverbed gravel into mesh nets captures active burrowing stoneflies and crawling mayflies.
+- Emergence Stage Identification: Trout taking emergers create subtle bulging water rings rather than splashing surface rises.
+- Fly Sizing Precision: Matching insect body length proves more critical than matching exact fly body pigmentation.
+- Mayfly duns ride current surface bubbles while drying wings before taking flight aloft.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Leave No Trace and Conservation
+### Req 7: Conservation Catch Release Ethics
 **Official Requirement 7 (Parent Overview):** Do the following: (a) Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code. Discuss the positive effects of the Leave No Trace Seven Principles and the Outdoor Code on fly-fishing resources. (b) Discuss the meaning and importance of catch and release. Describe how to properly release a fish safely to the water.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 7): Complete all Leave No Trace and Conservation discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Holding a fish tightly with a dry towel makes catch-and-release safer because it keeps the fish from slipping out of your hands.
-- **Pamphlet Fact:** Dry hands or a towel strip away the protective mucus coating that shields a fish from fungal infections, so you must always wet your hands before touching a fish you plan to release (p. 92).
+> **Guide to Safe Scouting Warning:** Never stand directly below unstable undercut stream banks while releasing fish in deep river bends.
+- **Common Myth:** Lifting a caught fish onto dry riverbank gravel causes no permanent harm before release.
+- **Pamphlet Fact:** Dry gravel abrasions scrape away protective mucous coating, leaving fish vulnerable to fatal saprolegnia mold.
 
 **Official Pamphlet Summary:**
-- Principle and the Outdoor Code for your specific activity or destination (p. 88).
-- Check with local land managers to be sure you are using the proper techniques (p. 88).
-- Minimizing Shoreline Land Impact: Whether you fish for a few hours, an entire day, or plan to camp and fish, it is important to minimize your impact on the land (p. 88).
-- Protecting Fragile Bank Vegetation: In high-use areas, concentrate your activity where vegetation is already absent (p. 88).
+- Wet Hand Handling: Wetting hands preserves protective fish slime layers that resist lethal bacterial fungal infections.
+- Pinched hook barbs slide out of fish jaws quickly without tearing sensitive cartilage.
+- Exhaustion Time Limits: Playing hooked fish quickly prevents lethal lactic acid buildup in circulatory bloodstream tissue.
+- Riparian Bank Protection: Walking on established gravel bars prevents erosion and protects delicate streamside plant vegetation.
 
 #### Req 7a: Leave No Trace Principles
 **Official Requirement 7a:** Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code. Discuss the positive effects of the Leave No Trace Seven Principles and the Outdoor Code on fly-fishing resources.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92)* • **Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-- **Common Myth:** Overlooking the specific field checks required for Leave No Trace Principles (Req 7a) or confusing Leave No Trace Principles with general Leave No Trace and Conservation procedures.
-- **Pamphlet Fact:** For Requirement 7a (Leave No Trace Principles), Principle and the Outdoor Code for your specific activity or destination (p. 88).
+- **Common Myth:** Small bits of clipped monofilament tippet degrade naturally and harmlessly along riverbanks within weeks.
+- **Pamphlet Fact:** Discarded nylon monofilament persists in river environments for centuries, fatally entangling birds and mammals.
 
 ![A pristine natural lake shows the clean waterways preserved by outdoorsmen.](/assets/pamphlet_images/fly_fishing_p086_img1.png)
 
@@ -305,11 +305,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b: Safe Catch and Release Practices
+#### Req 7b: Catch Release Revival Techniques
 **Official Requirement 7b:** Discuss the meaning and importance of catch and release. Describe how to properly release a fish safely to the water.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92)* • **Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix (Discuss Fish Water)
-- **Common Myth:** Cutting a shortcut straight through tall streamside brush is better than walking along a worn dirt trail.
-- **Pamphlet Fact:** Trampling streamside vegetation causes bank erosion and siltation, so anglers should use existing trails, wear wading gear, and stand where vegetation is already absent (p. 88).
+- **Common Myth:** Moving a tired fish rapidly back and forth in river current speeds up gill revival.
+- **Pamphlet Fact:** Forcing fish backward pushes gill covers shut and suffocates them; face them upstream in gentle flow.
 
 ![A fly fisherman wades in a river while loading the rod to cast line onto the water surface.](/assets/pamphlet_images/fly_fishing_p026_img1.png)
 
@@ -320,12 +320,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 8: Game Fishing Regulations and Stewardship
+### Req 8: Game Fishery Regulations Compliance
 **Official Requirement 8:** Obtain and review a copy of the regulations affecting game fishing where you live or where you plan to fish. Explain why they were adopted and what is accomplished by following them.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 85, p. 87)* • **Organizer (Concept & Examples Notes):** Req 8 Structured Technical Study & Explanation Matrix (Obtain and Review A Copy)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 8): Complete all Game Fishing Regulations and Stewardship discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** State fishing regulations and license fees exist primarily to restrict anglers from enjoying public waterways.
-- **Pamphlet Fact:** Fishing regulations and license fees protect spawning populations, prevent overharvesting, and fund state fishery restoration so healthy game fish populations survive for future generations (p. 85).
+> **Guide to Safe Scouting Warning:** Carry valid paper or digital fishing licenses and personal identification while on public waters.
+- **Common Myth:** State fishing regulations apply uniformly across every river and lake within the same county.
+- **Pamphlet Fact:** Individual streams often feature special regulations like artificial lures only or trophy slot restrictions.
 
 ![A counselor provides first aid and wraps a chilled Scout in a reflective emergency space blanket near a rushing river.](/assets/ai_illustrations/fly_fishing_req_8_nano_hero.png)
 
@@ -335,19 +335,19 @@
 | **2. Explain why they were adopted and what is accomplished by following them.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Angler Environmental Stewardship: All anglers find that they have a responsibility to their sport and to the environment in which the fish live (p. 85).
-- Impacts of Water Pollution: Entire rivers and lakes have been emptied of game fish because of human-caused pollution (p. 85).
-- Reclaiming Polluted Game Waterways: However, many rivers and lakes have been reclaimed once fishing enthusiasts banded together and demanded (p. 85).
-- Scout Stream Rehabilitation Projects: Scouts have been active in cleaning up trash from rivers and in helping state fishery managers with the rehabilitation of streams for game fish species (p. 85).
+- Slot limits protect prime breeding age fish from harvest to sustain wild reproduction.
+- Seasonal Spawning Closures: Closing streams during egg deposition prevents angler wading boots from crushing hidden redds.
+- Barbless Tackle Mandates: Fly only regulations reduce release mortality compared to deeply swallowed scented bait hooks.
+- Fishing license fees directly fund state fish hatchery operations and public stream access.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 9: Outdoor Ethics and Sportsmanlike Behavior
+### Req 9: Angler Sportsmanship River Courtesy
 **Official Requirement 9:** Explain what good outdoor sportsmanlike behavior is and how it relates to anglers. Tell how the Leave No Trace Seven Principles and the Outdoor Code relate to a fishing sports enthusiast, including the aspects of littering, trespassing, courteous behavior, and obeying fishing regulations.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 86, p. 92)* • **Organizer (Concept & Examples Notes):** Req 9 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)
-> **Guide to Safe Scouting Warning:** BSA Youth Protection & Buddy System (Req 9): Complete all Outdoor Ethics and Sportsmanlike Behavior discussions and demonstrations with Two-Deep Leadership and your patrol buddy.
-- **Common Myth:** Because stream water is public, an angler can walk across fenced private farmland without permission to reach a river.
-- **Pamphlet Fact:** Crossing private land without the landowner's explicit permission is trespassing, which damages landowner relations and often causes private access points to be closed to all anglers (p. 86).
+> **Guide to Safe Scouting Warning:** Never cross marked barbed wire fences or pasture boundaries without express landowner permission.
+- **Common Myth:** Public high water marks give anglers an unrestricted legal right to cross adjacent private pastures.
+- **Pamphlet Fact:** Access rights vary by state law; walking across private uplands without permission constitutes criminal trespass.
 
 ![A young Scout slices fresh salmon fillets into portions for camp cooking and safe consumption.](/assets/pamphlet_images/fly_fishing_p071_img2.png)
 
@@ -357,19 +357,19 @@
 | **2. Tell how the Leave No Trace Seven Principles and the Outdoor Code relate to a fishing sports enthusiast, including the aspects of littering, trespassing, courteous behavior, and obeying fishing regulations** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Fish Conservation and Ethics. Always travel quietly to avoid disturbing other visitors (p. 86).
-- Cumulative Impact of Visitors: The Leave No Trace Seven Principles and the Outdoor Code might seem unimportant until you consider the combined effects of millions of outdoor visitors (p. 86).
-- Shared Wilderness Stewardship Responsibility: With a 750 percent increase in the use of designated wilderness areas over the last 30 years, leaving no trace is everyone's responsibility (p. 86).
-- Tailor your outdoor activities to the environment where the outing will occur (p. 86).
+- Water Sharing Etiquette: Never crowd another angler pool; give them at least one full cast length.
+- Private Property Boundaries: Respect posted landowner fences and obtain landowner permission before crossing private pasture lands.
+- Submerged Litter Retrieval: Pack out discarded beverage cans and snagged line bundles left by careless visitors.
+- Stealthy Pool Approach: Wade quietly along stream margins to avoid spooking resting fish for downstream anglers.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 10: Landing and Identifying Caught Fish
+### Req 10: Fly Caught Fish Identification
 **Official Requirement 10:** Catch one fish on a fly and identify it.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 10, p. 11)* • **Organizer (Concept & Examples Notes):** Req 10 Structured Technical Study & Explanation Matrix (Fly-Fishing Fish Principles)
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Fly-Fishing Requirement 10: travel with a buddy, carry the Scout Basic Essentials and water while studying landing and identifying caught fish, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** When a fish strikes your fly, you should yank the rod tip hard with both hands and haul the fish out of the water by grabbing the thin tippet.
-- **Pamphlet Fact:** Jerking too hard or grabbing the thin tippet snaps the leader; instead, raise the rod tip smoothly to set the hook and keep the rod bent to absorb the fish's runs (p. 10).
+> **Guide to Safe Scouting Warning:** Handle spiny-rayed gamefish carefully to avoid painful dorsal fin punctures and secondary bacterial infection.
+- **Common Myth:** Rainbow trout and brook trout are close biological cousins belonging to the same genus.
+- **Pamphlet Fact:** Brook trout are actually char, identified by light spots on dark bodies and wormlike vermiculations.
 
 ![The classic Scouting for Boys booklet cover commemorates early outdoor skills and ethics.](/assets/pamphlet_images/fly_fishing_p010_img1.png)
 
@@ -378,19 +378,19 @@
 | **1. Catch one fish on a fly and identify it.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Understanding Fish Feeding Habits: To be successful you must know about the habits and the ways of the fish, what kind of haunt he frequents, in what kind of weather he feeds (p. 10).
-- Dealing With Tangled Lines: Your line gets caught up in bushes and reeds, or in your clothes, or when it can't find any other body it ties up in a knot around itself (p. 10).
-- Patiently Untangling Snagged Gear: There are only two things to do, the first is to grin, and the second is to set to work very leisurely to undo (p. 10).
-- Learning From Lost Fish: Then you will have loads of disappointments in losing fish through the line breaking, or other mishaps (p. 10).
+- Trout and salmon possess a small fleshy adipose fin between dorsal and tail.
+- Bluegill and pumpkinseed sunfish display distinctive dark ear flaps on gill covers.
+- Largemouth bass jaws extend distinctly beyond the rear margin of the eye.
+- Hook Setting Timing: Lift the rod smoothly when the surface fly disappears into a fish rise.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 11: Cleaning and Cooking Fresh Fish
+### Req 11: Fish Cleaning Cooking Preparation
 **Official Requirement 11:** If regulations and health concerns permit, clean and cook a fish you have caught. If you are unable to catch a fish for eating, acquire a fish, clean the fish you acquired, and cook the fish you acquired. Note: It is not required that you eat the fish.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 69, p. 71)* • **Organizer (Concept & Examples Notes):** Req 11 Structured Technical Study & Explanation Matrix (Regulations and Health Concerns Permit)
-> **Guide to Safe Scouting Warning:** Follow BSA Guide to Safe Scouting field protocols for Fly-Fishing Requirement 11: travel with a buddy, carry the Scout Basic Essentials and water while studying cleaning and cooking fresh fish, and respect wildlife distance and Leave No Trace guidelines.
-- **Common Myth:** When cleaning a fish in the backcountry, you should always toss the entrails and skeleton onto the stream bank near your campsite for wildlife.
-- **Pamphlet Fact:** Leaving fish entrails on the bank attracts bears and scavengers and violates Leave No Trace principles; follow local regulations and often bury fish waste in a cathole just as you would human waste (p. 69).
+> **Guide to Safe Scouting Warning:** Always cut away from your body and non-dominant hand while gutting fish on slick cleaning tables.
+- **Common Myth:** Rinsing cleaned fish meat directly in untreated lake water eliminates all potential food bacteria.
+- **Pamphlet Fact:** Washing meat in non-potable surface water contaminates flesh with waterborne parasites and harmful pathogens.
 
 ![A freshly caught trout rests beside a fly rod and reel on river gravel before being cleaned.](/assets/pamphlet_images/fly_fishing_p069_img1.png)
 
@@ -401,9 +401,9 @@
 | **3. Note: It is not required that you eat the fish.** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- There are as many recipes for cooking a freshly caught fish as there are anglers (p. 69).
-- Proper cleaning and preparation of a fish before cooking will help ensure success with whatever cooking method you choose (p. 69).
-- Responsible Fish Waste Disposal: Follow the Leave No Trace Seven Principles and the Outdoor Code and local regulations for proper disposal of all fish entrails, skeletons (p. 69).
-- Backcountry Entrail Burial Standards: In many areas, you should treat this waste as you would human waste (p. 69).
+- Ventral Slit Execution: Insert the knife tip into the vent, cutting forward to the gill throat.
+- Kidney Line Removal: Scrape the dark bloodline running along the inside backbone with a thumbnail spoon.
+- Thorough Water Rinse: Wash the cleaned body cavity in potable water to remove blood and debris.
+- Safe Cooking Temperature: Cook fish fillets until flesh becomes opaque and flakes easily with a fork.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`

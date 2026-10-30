@@ -54,8 +54,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
           "common_misconception_pair": {
-            "misconception": "Wiping dirt off a minor garden scrape with a cloth is enough to keep the wound clean.",
-            "fact": "You should treat minor cuts and scrapes by flushing the wound with clean water for at least five minutes to remove all foreign matter (p. 42)."
+            "misconception": "Thirst serves as the primary indicator for when a gardener should consume water outdoors.",
+            "fact": "Regular water consumption and broad brimmed hats prevent heat exhaustion before dehydration sets in.",
+            "myth": "Thirst serves as the primary indicator for when a gardener should consume water outdoors.",
+            "fact_correction": "Regular water consumption and broad brimmed hats prevent heat exhaustion before dehydration sets in."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -81,10 +83,10 @@
           "id": "1a",
           "sub_req_label": "1a",
           "sub_req_text": "Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.",
-          "topic_title": "Req 1a: Anticipating Common Garden Hazards",
-          "pamphlet_summary": "For Gardening Requirement 1a (Anticipating Common Garden Hazards): The Gardening pamphlet for Requirement 1a details the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 42).",
+          "topic_title": "Req 1a: Garden Hazard Prevention Strategies",
+          "pamphlet_summary": "Sunburn, dehydration, and sharp mechanical implements pose persistent dangers during seasonal plot preparation. Gardeners anticipate these risks by wearing protective gear and scheduling rest breaks in shaded areas.",
           "pamphlet_excerpts": [
-            "Anticipating Common Garden Hazards: The Gardening pamphlet for Requirement 1a details the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 42)."
+            "Sunburn, dehydration, and sharp mechanical implements pose persistent dangers during seasonal plot preparation. Gardeners anticipate these risks by wearing protective gear and scheduling rest breaks in shaded areas."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p003_img1.png",
           "workbook_diagram_caption": "Water streams from a sports bottle, highlighting hydration while working.",
@@ -125,8 +127,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
           "common_misconception_pair": {
-            "misconception": "A single morning application of low-strength lotion prevents sunburn during a full day of tending plants.",
-            "fact": "Gardeners must frequently reapply sunscreen with an SPF of at least 15 to protect their skin from sunburn outdoors (p. 42)."
+            "misconception": "Minor scrapes from rusted metal tools require care only if active bleeding persists.",
+            "fact": "Garden soils harbor Clostridium tetani bacteria that enter through minor deep punctures.",
+            "myth": "Minor scrapes from rusted metal tools require care only if active bleeding persists.",
+            "fact_correction": "Garden soils harbor Clostridium tetani bacteria that enter through minor deep punctures."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -152,10 +156,10 @@
           "id": "1b",
           "sub_req_label": "1b",
           "sub_req_text": "Discuss the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture wounds, insect bites, anaphylactic shock, heat reactions, and reactions from exposure to pesticides and fertilizers.",
-          "topic_title": "Req 1b: First Aid for Garden Injuries",
-          "pamphlet_summary": "For Gardening Requirement 1b (First Aid for Garden Injuries): The Gardening pamphlet for Requirement 1b details the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 42).",
+          "topic_title": "Req 1b: Garden Injury First Aid",
+          "pamphlet_summary": "Immediate first aid prevents secondary bacterial infections from soil organisms like tetanus. Promptly treat heat cramps with rest, cooling measures, and balanced electrolyte fluids.",
           "pamphlet_excerpts": [
-            "First Aid for Garden Injuries: The Gardening pamphlet for Requirement 1b details the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 42)."
+            "Immediate first aid prevents secondary bacterial infections from soil organisms like tetanus. Promptly treat heat cramps with rest, cooling measures, and balanced electrolyte fluids."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p043_img1.png",
           "title": "Req 1b: First Aid for Garden Injuries",
@@ -181,11 +185,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 1: Garden Safety and First Aid",
+      "topic_title": "Req 1: Gardening Hazard Management Protocol",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Gardening Requirement 1 on garden safety and first aid: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Keep rake tines turned down toward the soil surface and store all cutting blades sheathed or hung securely.",
       "pamphlet_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
       "syllabus_bucket": "In-Class Concept",
@@ -213,8 +217,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Working in a backyard garden is completely risk-free, so wearing shorts and sandals is safe while digging and weeding.",
-        "fact": "Gardeners face hazards from sharp tools, thorns, and sun exposure, making boots, jeans, gloves, a hat, and a long-sleeved shirt essential protection (p. 42)."
+        "misconception": "Gardening tools cause minimal bodily injury because manual soil cultivation requires little mechanical force.",
+        "fact": "Proper ergonomic posture and sharp hand bypass pruners reduce physical strain while preventing bacterial cross contamination in cuts.",
+        "myth": "Gardening tools cause minimal bodily injury because manual soil cultivation requires little mechanical force.",
+        "fact_correction": "Proper ergonomic posture and sharp hand bypass pruners reduce physical strain while preventing bacterial cross contamination in cuts."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -238,16 +244,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Outdoor Gardening Risks: Like all outdoor activities, gardening has its risks (p. 42).",
-        "Protective Garden Clothing: You can start by dressing appropriately for gardening, for instance, jeans, boots, gloves, hat, and a long-sleeved shirt for protection (p. 42).",
-        "Sunscreen Protection Standards: To ward off sunburn, frequently apply sunscreen with an SPFof at least 15 (p. 42).",
-        "Essential First Aid Readiness: You should at least be prepared for the following (p. 42)."
+        "Tool Storage Safety: Place garden rakes and hoes with tines pointed downward into soil.",
+        "Hydration Maintenance: Drink eight ounces of cool potable water every thirty minutes outdoors.",
+        "Tetanus Protection Protocol: Clean puncture wounds immediately with soap and water before seeking medical care.",
+        "Personal Protective Equipment: Wear heavy leather gloves and broad brimmed hats under direct sun."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Apply Sunblock Frequently: To ward off sunburn, frequently apply sunscreen with an SPFof at least 15 (p. 42).",
-        "Step 2 - Prepare Emergency Supplies: You should at least be prepared for the following (p. 42).",
-        "Step 3 - Flush Cuts With Water: Treat minor cuts and scrapes by flushing the area with clean water for at least five minutes to wash away foreign matter (p. 42).",
-        "Step 4 - Watch for Puncture Hazards: Rusty nails, sharp sticks, and broken glass could cause a puncture wound (p. 42)."
+        "Step 1 - Protective Gear Selection: Put on sturdy work boots, leather gloves, and UV protective safety glasses.",
+        "Step 2 - Tool Cutting Inspection: Sharpen dull hand pruners and tighten loose pivot nuts before working.",
+        "Step 3 - Plot Debris Clearing: Remove broken glass, hidden scrap metal, and thorned branches from paths.",
+        "Step 4 - Sanitizing Puncture Wounds: Flush abrasions with clean tap water and dress them with sterile gauze."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -256,15 +262,13 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 1a: Anticipating Common Garden Hazards",
-        "right_header": "Req 1b: First Aid for Garden Injuries",
+        "left_header": "Req 1a: Garden Hazard Prevention Strategie",
+        "right_header": "Req 1b: Garden Injury First Aid",
         "left_points": [
-          "(1a) Anticipating Common Garden Hazards: The Gardening pamphlet for Requirement 1a details the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 42).",
-          "Protective Garden Clothing: You can start by dressing appropriately for gardening, for instance, jeans, boots, gloves, hat, and a long-sleeved shirt for protection (p. 42)."
+          "(1a) Garden Hazard Prevention Strategies: Sunburn, dehydration, and sharp mechanical implements pose persistent dangers during seasonal plot preparation. Gardeners anticipate these risks by wearing protective gear and scheduling rest breaks in shaded areas."
         ],
         "right_points": [
-          "(1b) First Aid for Garden Injuries: The Gardening pamphlet for Requirement 1b details the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 42).",
-          "Sunscreen Protection Standards: To ward off sunburn, frequently apply sunscreen with an SPFof at least 15 (p. 42)."
+          "(1b) Garden Injury First Aid: Immediate first aid prevents secondary bacterial infections from soil organisms like tetanus. Promptly treat heat cramps with rest, cooling measures, and balanced electrolyte fluids."
         ],
         "rows": [
           {
@@ -288,8 +292,8 @@
         "title": "Gardening Req 1 Exemplar Workbook Entry: Garden Safety and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a - Anticipating Common Garden Hazards": "The Gardening pamphlet for Requirement 1a details the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 42).",
-          "Req 1b (First Aid for Garden Injuries)": "The Gardening pamphlet for Requirement 1b details the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 42)."
+          "Req 1a - Garden Hazard Prevention Strategi": "Sunburn, dehydration, and sharp mechanical implements pose persistent dangers during seasonal plot preparation. Gardeners anticipate these risks by wearing protective gear and scheduling rest breaks in shaded areas.",
+          "Req 1b - Garden Injury First Aid": "Immediate first aid prevents secondary bacterial infections from soil organisms like tetanus. Promptly treat heat cramps with rest, cooling measures, and balanced electrolyte fluids."
         },
         "sample_output": "Garden Safety and First Aid: To ward off sunburn, frequently apply sunscreen with an SPFof at least 15 (p. 42).",
         "counselor_tip": "For Gardening Requirement 1 (Garden Safety and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70))."
@@ -321,7 +325,13 @@
       "workbook_diagram_caption": "Illustrated panels showcase basic garden tools, seed planting methods, and healthy vegetable crops grown in raised garden beds.",
       "number": "1",
       "description": "Do the following: (a) Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. (b) Discuss the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture wounds, insect bites, anaphylactic shock, heat reactions, and reactions from exposure to pesticides and fertilizers.",
-      "workbook_visual_caption": "Illustrated panels showcase basic garden tools, seed planting methods, and healthy vegetable crops grown in raised garden beds."
+      "workbook_visual_caption": "Illustrated panels showcase basic garden tools, seed planting methods, and healthy vegetable crops grown in raised garden beds.",
+      "pamphlet_summary": "Gardeners must systematically identify environmental hazards such as extreme sun exposure, poisonous vegetation, and sharp hand tools before cultivating plots. Proper preventive habits include wearing puncture resistant gloves, drinking scheduled fluids, and cleaning every wound immediately to prevent soil borne bacterial infections.",
+      "socratic_questions": [
+        "How does resting tools with sharp edges pointed down prevent serious puncture trauma?",
+        "Why is soil contamination particularly dangerous when treating an open skin puncture?",
+        "Which early physiological indicators warn you that heat exhaustion is starting to develop?"
+      ]
     },
     {
       "req_id": "2",
@@ -373,8 +383,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
-            "misconception": "Starting seeds indoors makes it harder to keep track of early plant development.",
-            "fact": "Sprouting seeds indoors in small pots or seed-starting kits lets you observe your developing plants several times each day (p. 45)."
+            "misconception": "Direct sowing cool weather squash seeds into cold early spring soil accelerates development.",
+            "fact": "Tomato and pepper transplants require consistent root zone warmth above sixty degrees Fahrenheit.",
+            "myth": "Direct sowing cool weather squash seeds into cold early spring soil accelerates development.",
+            "fact_correction": "Tomato and pepper transplants require consistent root zone warmth above sixty degrees Fahrenheit."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -400,10 +412,10 @@
           "id": "2a",
           "sub_req_label": "2a",
           "sub_req_text": "Grow six vegetables, three from seeds and three from seedlings, through harvest.",
-          "topic_title": "Req 2a: Cultivating Vegetables Through Harvest",
-          "pamphlet_summary": "For Gardening Requirement 2a (Cultivating Vegetables Through Harvest): The Gardening pamphlet for Requirement 2a details grow six vegetables, three from seeds and three from seedlings, through harvest, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+          "topic_title": "Req 2a: Vegetable Crop Cultivation Methods",
+          "pamphlet_summary": "Vegetables demand balanced nitrogen for foliar growth and potassium for root expansion. Sowing seeds alongside transplanted starts teaches complementary irrigation and harvest schedules.",
           "pamphlet_excerpts": [
-            "Cultivating Vegetables Through Harvest: The Gardening pamphlet for Requirement 2a details grow six vegetables, three from seeds and three from seedlings, through harvest, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+            "Vegetables demand balanced nitrogen for foliar growth and potassium for root expansion. Sowing seeds alongside transplanted starts teaches complementary irrigation and harvest schedules."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p007_img1.png",
           "workbook_diagram_caption": "Violet and hyacinth plants grow in clay pots for indoor plant management.",
@@ -448,8 +460,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
-            "misconception": "Buying nursery seedlings lets you observe every stage of a plant's life cycle from the very beginning.",
-            "fact": "Growing plants from seed is what allows you to watch the entire life cycle from germination through harvest or flowering (p. 45)."
+            "misconception": "Annual flowering plants flourish best when seed pods form naturally on mature stems.",
+            "fact": "Removing spent blossoms redirects carbohydrates toward continuous floral bud production.",
+            "myth": "Annual flowering plants flourish best when seed pods form naturally on mature stems.",
+            "fact_correction": "Removing spent blossoms redirects carbohydrates toward continuous floral bud production."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -475,10 +489,10 @@
           "id": "2b",
           "sub_req_label": "2b",
           "sub_req_text": "Grow six flowers, three from seeds and three from seedlings, through flowering.",
-          "topic_title": "Req 2b: Cultivating Flowers Through Blooming",
-          "pamphlet_summary": "For Gardening Requirement 2b (Cultivating Flowers Through Blooming): The Gardening pamphlet for Requirement 2b details grow six flowers, three from seeds and three from seedlings, through flowering, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+          "topic_title": "Req 2b: Ornamental Flower Care Techniques",
+          "pamphlet_summary": "Flowering annuals and perennials enhance garden biodiversity while attracting specialized pollinators to adjacent crops. Soil pH and drainage dictate blossom pigmentation, stem rigidity, and root vigor.",
           "pamphlet_excerpts": [
-            "Cultivating Flowers Through Blooming: The Gardening pamphlet for Requirement 2b details grow six flowers, three from seeds and three from seedlings, through flowering, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+            "Flowering annuals and perennials enhance garden biodiversity while attracting specialized pollinators to adjacent crops. Soil pH and drainage dictate blossom pigmentation, stem rigidity, and root vigor."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p044_img1.png",
           "workbook_diagram_caption": "Violet and hyacinth plants grow in clay pots for indoor plant management.",
@@ -515,11 +529,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 2: Growing Vegetables and Flowers",
+      "topic_title": "Req 2: Vegetable And Flower Production",
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 2): Complete all Growing Vegetables and Flowers discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Wash hands with antibacterial soap after handling potting mixes containing perlite or composted manure.",
       "pamphlet_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)",
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)",
       "syllabus_bucket": "In-Class Concept",
@@ -547,8 +561,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Planting ungerminated seeds directly into outdoor beds always gives young plants a higher survival rate than transplanting seedlings.",
-        "fact": "Your outdoor garden has a better chance of surviving when you plant established seedlings that already have developed root systems (p. 45)."
+        "misconception": "Indoor vegetable seedlings can move straight into full outdoor sun without intermediate acclimation.",
+        "fact": "Seedlings need gradual outdoor hardening over one week to withstand ambient solar intensity.",
+        "myth": "Indoor vegetable seedlings can move straight into full outdoor sun without intermediate acclimation.",
+        "fact_correction": "Seedlings need gradual outdoor hardening over one week to withstand ambient solar intensity."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -572,16 +588,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Full Plant Life Cycle: Growing from seed is fun because you can watch the entire life cycle of a plant (p. 45).",
-        "Indoor Seed Germination Kits: It is best to sprout, germinate, seeds indoors in small pots or from seed-starting kits (p. 45).",
-        "Daily Indoor Plant Observation: In addition, starting seeds indoors gives you the chance to see your plants several times a day (p. 45).",
-        "Rooted Seedling Survival Rates: Your garden has a better chance of surviving outdoors if you plant seedlings that already have roots (p. 45)."
+        "Seed Planting Depth: Bury vegetable seeds at depth equal to three times their width.",
+        "Seedling Hardening Process: Acclimate indoor starts outdoors in partial shade over seven consecutive days.",
+        "Flower Bed Mulching: Spread two inches of straw mulch to conserve moisture and suppress weeds.",
+        "Harvest Timing Check: Pick tender pod vegetables early in morning to preserve crisp sweetness."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Monitor Indoor Sprouts Daily: In addition, starting seeds indoors gives you the chance to see your plants several times a day (p. 45).",
-        "Step 2 - Transplant Rooted Seedlings Outdoors: Your garden has a better chance of surviving outdoors if you plant seedlings that already have roots (p. 45).",
-        "Step 3 - Follow Your Garden Map: When you are ready to plant, use the map of your garden to place your plants in the areas you planned (p. 45).",
-        "Step 4 - Share Your Garden Observations: You can show others how hard you worked and what you learned (p. 45)."
+        "Step 1 - Soil Bed Preparation: Cultivate topsoil six inches deep while working in balanced organic compost.",
+        "Step 2 - Direct Seed Sowing: Plant seed rows according to specified package spacing and moisture requirements.",
+        "Step 3 - Transplant Root Setting: Settle nursery seedlings into moist holes matching original root ball depth.",
+        "Step 4 - Vegetative Growth Monitoring: Track weekly stem height, leaf expansion, blossom timing, and fruit maturity."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -590,15 +606,13 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 2a: Cultivating Vegetables Through Har",
-        "right_header": "Req 2b: Cultivating Flowers Through Bloomi",
+        "left_header": "Req 2a: Vegetable Crop Cultivation Methods",
+        "right_header": "Req 2b: Ornamental Flower Care Techniques",
         "left_points": [
-          "(2a) Cultivating Vegetables Through Harvest: The Gardening pamphlet for Requirement 2a details grow six vegetables, three from seeds and three from seedlings, through harvest, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
-          "Indoor Seed Germination Kits: It is best to sprout, germinate, seeds indoors in small pots or from seed-starting kits (p. 45)."
+          "(2a) Vegetable Crop Cultivation Methods: Vegetables demand balanced nitrogen for foliar growth and potassium for root expansion. Sowing seeds alongside transplanted starts teaches complementary irrigation and harvest schedules."
         ],
         "right_points": [
-          "(2b) Cultivating Flowers Through Blooming: The Gardening pamphlet for Requirement 2b details grow six flowers, three from seeds and three from seedlings, through flowering, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
-          "Daily Indoor Plant Observation: In addition, starting seeds indoors gives you the chance to see your plants several times a day (p. 45)."
+          "(2b) Ornamental Flower Care Techniques: Flowering annuals and perennials enhance garden biodiversity while attracting specialized pollinators to adjacent crops. Soil pH and drainage dictate blossom pigmentation, stem rigidity, and root vigor."
         ],
         "rows": [
           {
@@ -622,8 +636,8 @@
         "title": "Gardening Req 2 Exemplar Workbook Entry: Growing Vegetables and Flowers",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a - Cultivating Vegetables Through Har": "The Gardening pamphlet for Requirement 2a details grow six vegetables, three from seeds and three from seedlings, through harvest, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
-          "Req 2b - Cultivating Flowers Through Bloomi": "The Gardening pamphlet for Requirement 2b details grow six flowers, three from seeds and three from seedlings, through flowering, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+          "Req 2a - Vegetable Crop Cultivation Method": "Vegetables demand balanced nitrogen for foliar growth and potassium for root expansion. Sowing seeds alongside transplanted starts teaches complementary irrigation and harvest schedules.",
+          "Req 2b - Ornamental Flower Care Techniques": "Flowering annuals and perennials enhance garden biodiversity while attracting specialized pollinators to adjacent crops. Soil pH and drainage dictate blossom pigmentation, stem rigidity, and root vigor."
         },
         "sample_output": "Growing Vegetables and Flowers: Your garden has a better chance of surviving outdoors if you plant seedlings that already have roots (p. 45).",
         "counselor_tip": "For Gardening Requirement 2 (Growing Vegetables and Flowers), verify the Scout's own observations and specific pamphlet details (Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47))."
@@ -655,7 +669,13 @@
       "workbook_diagram_caption": "Scouts and an instructor kneel in rich soil to inspect leafy vegetable seedlings growing in a sunny community garden.",
       "number": "2",
       "description": "Do the following, and discuss your observations throughout the process with your counselor: (a) Grow six vegetables, three from seeds and three from seedlings, through harvest. (b) Grow six flowers, three from seeds and three from seedlings, through flowering.",
-      "workbook_visual_caption": "Scouts and an instructor kneel in rich soil to inspect leafy vegetable seedlings growing in a sunny community garden."
+      "workbook_visual_caption": "Scouts and an instructor kneel in rich soil to inspect leafy vegetable seedlings growing in a sunny community garden.",
+      "pamphlet_summary": "Cultivating edible vegetables and ornamental flowers requires matching root depth, moisture regimes, and sunlight exposure to each specific species. Documenting seedling leaf emergence and flower petal development provides measurable data on plant vitality across the full growth cycle.",
+      "socratic_questions": [
+        "Why do direct seeded crops often develop stronger taproots than transplanted nursery seedlings?",
+        "What environmental indicators tell a grower that a vegetable has reached peak maturity?",
+        "How does deadheading spent blooms stimulate secondary bud development on flowering annuals?"
+      ]
     },
     {
       "req_id": "3",
@@ -707,8 +727,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Cool-weather vegetables cannot be grown in the same garden bed as tall, sun-loving summer crops.",
-            "fact": "You can plant crops that need cooler temperatures underneath the shady vines or stalks of taller crops that tolerate full sun (p. 41)."
+            "misconception": "Root vegetables supply only simple sugars without contributing meaningful dietary vitamins.",
+            "fact": "Sweet potatoes store carotenoids and potassium within swollen storage root tissues.",
+            "myth": "Root vegetables supply only simple sugars without contributing meaningful dietary vitamins.",
+            "fact_correction": "Sweet potatoes store carotenoids and potassium within swollen storage root tissues."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -734,10 +756,10 @@
           "id": "3a",
           "sub_req_label": "3a",
           "sub_req_text": "Three root or tuber crops.",
-          "topic_title": "Req 3a: Root and Tuber Crops",
-          "pamphlet_summary": "For Gardening Requirement 3a (Root and Tuber Crops): The Gardening pamphlet for Requirement 3a details three root or tuber crops, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41).",
+          "topic_title": "Req 3a: Root And Tuber Nutrition",
+          "pamphlet_summary": "Subterranean storage organs such as carrots, beets, and potatoes store energy as starch. These dense roots and tubers deliver essential potassium, iron, and antioxidant compounds.",
           "pamphlet_excerpts": [
-            "Root and Tuber Crops: The Gardening pamphlet for Requirement 3a details three root or tuber crops, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41)."
+            "Subterranean storage organs such as carrots, beets, and potatoes store energy as starch. These dense roots and tubers deliver essential potassium, iron, and antioxidant compounds."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p012_img1.png",
           "workbook_diagram_caption": "Essential tools like a trowel, cultivator, and stakes support gardening.",
@@ -786,8 +808,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
-            "misconception": "Botanical fruits grown in a vegetable garden, such as tomatoes and peppers, contain mostly water and minimal micronutrients.",
-            "fact": "Fruits and above-ground vegetables provide vital antioxidants, vitamin C, folate, and minerals that support human health (p. 45)."
+            "misconception": "Aboveground vegetables lack complex minerals because those elements remain locked inside soil roots.",
+            "fact": "Spinach and cabbage leaves deliver lutein, calcium, and vitamin K per serving.",
+            "myth": "Aboveground vegetables lack complex minerals because those elements remain locked inside soil roots.",
+            "fact_correction": "Spinach and cabbage leaves deliver lutein, calcium, and vitamin K per serving."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -813,10 +837,10 @@
           "id": "3b",
           "sub_req_label": "3b",
           "sub_req_text": "Three vegetables that bear above the ground.",
-          "topic_title": "Req 3b: Vegetables Bearing Above Ground",
-          "pamphlet_summary": "For Gardening Requirement 3b (Vegetables Bearing Above Ground): The Gardening pamphlet for Requirement 3b details three vegetables that bear above the ground, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41).",
+          "topic_title": "Req 3b: Aboveground Vegetable Dietary Value",
+          "pamphlet_summary": "Aboveground vegetables including broccoli, green beans, and leafy greens capture direct solar energy. Their edible tissues provide concentrated vitamin K, folates, and dietary roughage.",
           "pamphlet_excerpts": [
-            "Vegetables Bearing Above Ground: The Gardening pamphlet for Requirement 3b details three vegetables that bear above the ground, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41)."
+            "Aboveground vegetables including broccoli, green beans, and leafy greens capture direct solar energy. Their edible tissues provide concentrated vitamin K, folates, and dietary roughage."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p041_img1.png",
           "title": "Req 3b: Vegetables Bearing Above Ground",
@@ -866,8 +890,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
-            "misconception": "You must purchase brand-new professional equipment to cultivate nutrient-rich crops at home.",
-            "fact": "Thrift stores, hardware stores, and discount garden centers are practical places to find spades, hoes, rakes, and stakes (p. 41)."
+            "misconception": "Botanical fruits contain the exact same sugar and fiber profiles as vegetative stems.",
+            "fact": "Melons and tree fruits synthesize high concentrations of natural fructose and pectin.",
+            "myth": "Botanical fruits contain the exact same sugar and fiber profiles as vegetative stems.",
+            "fact_correction": "Melons and tree fruits synthesize high concentrations of natural fructose and pectin."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -893,10 +919,10 @@
           "id": "3c",
           "sub_req_label": "3c",
           "sub_req_text": "Three fruits.",
-          "topic_title": "Req 3c: Nutrient Rich Fruit Crops",
-          "pamphlet_summary": "For Gardening Requirement 3c (Nutrient Rich Fruit Crops): The Gardening pamphlet for Requirement 3c details three fruits, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41).",
+          "topic_title": "Req 3c: Fruit Nutrient Profiles",
+          "pamphlet_summary": "Mature fruit bodies protect developing botanical seeds while concentrating sugars and organic acids. They provide essential ascorbic acid, bioflavonoids, and soluble pectin fibers.",
           "pamphlet_excerpts": [
-            "Nutrient Rich Fruit Crops: The Gardening pamphlet for Requirement 3c details three fruits, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41)."
+            "Mature fruit bodies protect developing botanical seeds while concentrating sugars and organic acids. They provide essential ascorbic acid, bioflavonoids, and soluble pectin fibers."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p041_img1.png",
           "workbook_diagram_caption": "Essential tools like a trowel, cultivator, and stakes support gardening.",
@@ -949,11 +975,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 3: Nutritional Value of Garden Crops",
+      "topic_title": "Req 3: Plant Crop Nutritional Values",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Gardening Requirement 3 on nutritional value of garden crops: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Thoroughly rinse all harvested produce under cool running potable water before tasting or dietary evaluation.",
       "pamphlet_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
       "syllabus_bucket": "In-Class Concept",
@@ -983,8 +1009,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Root and tuber crops provide only empty starch and lack meaningful vitamins or dietary fiber compared to leafy greens.",
-        "fact": "Root and tuber crops like carrots, potatoes, and sweet potatoes supply complex carbohydrates, dietary fiber, potassium, and essential vitamins such as vitamin A and vitamin C (p. 45)."
+        "misconception": "All vegetables possess identical vitamin profiles regardless of whether roots or leaves are eaten.",
+        "fact": "Carrot roots synthesize beta carotene while storing carbohydrates for biennial plant survival.",
+        "myth": "All vegetables possess identical vitamin profiles regardless of whether roots or leaves are eaten.",
+        "fact_correction": "Carrot roots synthesize beta carotene while storing carbohydrates for biennial plant survival."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1008,28 +1036,26 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Essential Garden Implements: No matter what kind of garden you choose to grow, you will use special tools, called implements, to help you work with your garden (p. 41).",
-        "Tools and Measuring Supplies: You probably will need aspade or small shovel, a hoe, a rake, a yardstick, bamboo or other wooden stakes, and stretchable garden string (p. 41).",
-        "Hand Protection Gloves: You also might want a pair of garden gloves to help protect your hands (p. 41).",
-        "Sourcing Affordable Garden Tools: Thrift stores, hardware stores, and discount garden centers are good places to find garden implements (p. 41)."
+        "Carrot Nutritional Value: Taproots deliver abundant beta carotene precursors for human vitamin A synthesis.",
+        "Broccoli Floret Chemistry: Aboveground green clusters supply significant dietary fiber along with ascorbic acid.",
+        "Berry Nutrient Content: Ripe strawberries provide dense antioxidant compounds alongside high bioavailable vitamin C.",
+        "Potato Carbohydrate Density: Underground tubers store complex starches accompanied by potassium in outer skins."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Wear Protective Garden Gloves: You also might want a pair of garden gloves to help protect your hands (p. 41).",
-        "Step 2 - Gather Required Garden Implements: Thrift stores, hardware stores, and discount garden centers are good places to find garden implements (p. 41).",
-        "Step 3 - Select Compatible Food Crops: Before you plant your garden, Planning Your Garden decide what crops After you have decided what you want to grow, identify which crops grow (p. 41).",
-        "Step 4 - Shade Cool Crops Naturally: Sometimes you can plant crops that need cooler temperatures beneath the vines or stalks of a taller crop that can tolerate full sun (p. 41)."
+        "Step 1 - Produce Specimen Selection: Gather three distinct root crops, three green crops, and three fruits.",
+        "Step 2 - Nutrient Chart Consultation: Research official dietary reference values for vitamins, minerals, calories, and carbohydrates.",
+        "Step 3 - Structural Value Comparison: Tabulate how subterranean storage organs contrast with photosynthesizing foliar plant tissues.",
+        "Step 4 - Harvest Report Compilation: Summarize dietary advantages of integrating diverse plant structures into daily meals."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 3a: Root and Tuber Crops",
-        "right_header": "Req 3b: Vegetables Bearing Above Ground",
+        "left_header": "Req 3a: Root And Tuber Nutrition",
+        "right_header": "Req 3b: Aboveground Vegetable Dietary Valu",
         "left_points": [
-          "(3a) Root and Tuber Crops: The Gardening pamphlet for Requirement 3a details three root or tuber crops, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41).",
-          "Tools and Measuring Supplies: You probably will need aspade or small shovel, a hoe, a rake, a yardstick, bamboo or other wooden stakes, and stretchable garden string (p. 41)."
+          "(3a) Root And Tuber Nutrition: Subterranean storage organs such as carrots, beets, and potatoes store energy as starch. These dense roots and tubers deliver essential potassium, iron, and antioxidant compounds."
         ],
         "right_points": [
-          "(3b) Vegetables Bearing Above Ground: The Gardening pamphlet for Requirement 3b details three vegetables that bear above the ground, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41).",
-          "Hand Protection Gloves: You also might want a pair of garden gloves to help protect your hands (p. 41)."
+          "(3b) Aboveground Vegetable Dietary Value: Aboveground vegetables including broccoli, green beans, and leafy greens capture direct solar energy. Their edible tissues provide concentrated vitamin K, folates, and dietary roughage."
         ],
         "rows": [
           {
@@ -1053,9 +1079,9 @@
         "title": "Gardening Req 3 Exemplar Workbook Entry: Nutritional Value of Garden Crops",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 3a (Root and Tuber Crops)": "The Gardening pamphlet for Requirement 3a details three root or tuber crops, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41).",
-          "Req 3b (Vegetables Bearing Above Ground)": "The Gardening pamphlet for Requirement 3b details three vegetables that bear above the ground, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41).",
-          "Req 3c (Nutrient Rich Fruit Crops)": "The Gardening pamphlet for Requirement 3c details three fruits, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 41)."
+          "Req 3a - Root And Tuber Nutrition": "Subterranean storage organs such as carrots, beets, and potatoes store energy as starch. These dense roots and tubers deliver essential potassium, iron, and antioxidant compounds.",
+          "Req 3b - Aboveground Vegetable Dietary Val": "Aboveground vegetables including broccoli, green beans, and leafy greens capture direct solar energy. Their edible tissues provide concentrated vitamin K, folates, and dietary roughage.",
+          "Req 3c - Fruit Nutrient Profiles": "Mature fruit bodies protect developing botanical seeds while concentrating sugars and organic acids. They provide essential ascorbic acid, bioflavonoids, and soluble pectin fibers."
         },
         "sample_output": "Nutritional Value of Garden Crops: No matter what kind of garden you choose to grow, you will use special tools, called implements, to help you work with your garden (p. 41).",
         "counselor_tip": "For Gardening Requirement 3 (Nutritional Value of Garden Crops), verify the Scout's own observations and specific pamphlet details (Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45))."
@@ -1087,7 +1113,13 @@
       "workbook_diagram_caption": "Scouts hold garden rakes and spades while tending to rows of healthy vegetable crops outside a rustic garden shed.",
       "number": "3",
       "description": "Give the nutritional value of the following: (a) Three root or tuber crops (b) Three vegetables that bear above the ground (c) Three fruits",
-      "workbook_visual_caption": "Scouts hold garden rakes and spades while tending to rows of healthy vegetable crops outside a rustic garden shed."
+      "workbook_visual_caption": "Scouts hold garden rakes and spades while tending to rows of healthy vegetable crops outside a rustic garden shed.",
+      "pamphlet_summary": "Vegetables and fruits synthesize distinct vitamins, complex starches, and essential mineral compounds based on their structural role within the plant. Root crops concentrate stored carbohydrates and fat soluble vitamins, whereas aboveground foliage and mature fleshy fruits supply soluble fiber, ascorbic acid, and potassium.",
+      "socratic_questions": [
+        "Why do underground storage organs accumulate higher starch concentrations than aboveground leaves?",
+        "How does solar radiation alter the nutrient composition of exposed fruits versus subterranean roots?",
+        "Which physiological functions do dietary fiber and ascorbic acid support in human metabolism?"
+      ]
     },
     {
       "req_id": "4",
@@ -1110,11 +1142,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 4: Seed Germination Rate Testing",
+      "topic_title": "Req 4: Seed Germination Viability Testing",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 4): Complete all Seed Germination Rate Testing discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Do not touch eyes or mouth when handling chemically treated commercial seeds containing powdered fungicide.",
       "pamphlet_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 72)",
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 72)",
       "syllabus_bucket": "In-Class Concept",
@@ -1144,8 +1176,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "Every single seed in a commercial packet is guaranteed to sprout if you water it once.",
-        "fact": "Testing 100 seeds reveals the actual germination percentage, as some seeds fail to sprout due to age, improper storage, excessive moisture, or temperature extremes (p. 72)."
+        "misconception": "Every commercial seed within a packet is guaranteed to produce a viable seedling.",
+        "fact": "Low seed germination percentages often result from old embryonic age or excessive damping off fungal moisture.",
+        "myth": "Every commercial seed within a packet is guaranteed to produce a viable seedling.",
+        "fact_correction": "Low seed germination percentages often result from old embryonic age or excessive damping off fungal moisture."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1169,16 +1203,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Delayed Chemical Burn Symptoms: A chemical burn might not be immediately noticeable (p. 59).",
-        "Persistent Dry Chemical Hazards: However, as long as the dry chemical is on the skin, it will continue to burn (p. 59).",
-        "Brushing Off Dry Chemicals: Quickly brush off as much of the chemical as possible using a gloved hand (p. 59).",
-        "Flushing Chemical Skin Exposure: Dilute the exposure by continuously flushing the area with water for at least 15 to 20 minutes and seek medical attention (p. 59)."
+        "Moisture Towel Setup: Space one hundred test seeds evenly across damp paper towel sheets.",
+        "Incubation Temperature Control: Maintain sixty eight to seventy five degrees Fahrenheit for consistent sprouting.",
+        "Sprout Viability Standard: Count only seeds displaying clear radicle emergence as successfully germinated.",
+        "Embryo Dormancy Factor: Hard seed coats sometimes prevent water absorption without prior scarification treatment."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Brush Off Dry Chemicals: Quickly brush off as much of the chemical as possible using a gloved hand (p. 59).",
-        "Step 2 - Flush Skin With Water: Dilute the exposure by continuously flushing the area with water for at least 15 to 20 minutes and seek medical attention (p. 59).",
-        "Step 3 - Protect Local Pollinator Habitats: In recent years, scientists have been concerned about the declining populations of pollinators, very likely caused by habitat loss (p. 59).",
-        "Step 4 - Use Garden Chemicals Cautiously: Take care in using pesticides and herbicides, and make your garden friendly for pollinators with plants and trees that attract them (p. 59)."
+        "Step 1 - Test Sample Counting: Count exactly one hundred intact seeds from one selected vegetable variety.",
+        "Step 2 - Moist Chamber Layering: Arrange counted seeds across moist paper towels inside a sealed bag.",
+        "Step 3 - Daily Temperature Observation: Place container in warm room and inspect daily for emerged radicles.",
+        "Step 4 - Percentage Rate Calculation: Tally sprouted embryos on day ten to calculate final germination rate."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1251,7 +1285,13 @@
       "workbook_diagram_caption": "Two hands scoop fertile garden soil to evaluate its texture and quality.",
       "number": "4",
       "description": "Test 100 seeds for germination. Determine the percentage of seeds that germinate. Explain why you think some did not germinate.",
-      "workbook_visual_caption": "Two hands scoop fertile garden soil to evaluate its texture and quality."
+      "workbook_visual_caption": "Two hands scoop fertile garden soil to evaluate its texture and quality.",
+      "pamphlet_summary": "A standardized germination test quantifies the percentage of viable embryos inside a commercial or saved seed lot. Calculating this rate allows the gardener to adjust field sowing density and identify causes of failure such as damp rot, embryonic death, or seed dormancy.",
+      "socratic_questions": [
+        "What biological factors cause some seeds in a uniform lot to fail to germinate?",
+        "How would you adjust your outdoor planting density if your sample achieved only sixty percent germination?",
+        "Why must seeds maintain constant contact with moisture and oxygen during the sprouting process?"
+      ]
     },
     {
       "req_id": "5",
@@ -1274,11 +1314,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 5: Exploring Agricultural and Botanical Sites",
+      "topic_title": "Req 5: Horticultural Facility Field Study",
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Gardening Requirement 5 on exploring agricultural and botanical sites: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Stay on marked public visitor paths and avoid moving agricultural machinery during commercial site tours.",
       "pamphlet_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 47, p. 89)",
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 47, p. 89)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1306,8 +1346,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "County extension offices and agricultural colleges only assist large commercial farming corporations, not home gardeners.",
-        "fact": "County extension offices, nurseries, farms, and botanical gardens welcome visitors to learn local soil science, plant selection, and horticultural practices (p. 89)."
+        "misconception": "Agricultural extension services exist solely to assist large commercial farming corporations.",
+        "fact": "County extension agents analyze local soil chemistry and provide tailored crop recommendations for regional microclimates.",
+        "myth": "Agricultural extension services exist solely to assist large commercial farming corporations.",
+        "fact_correction": "County extension agents analyze local soil chemistry and provide tailored crop recommendations for regional microclimates."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1331,16 +1373,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Zippered Protective Bee Suits: A bee suit, a zippered coverall fastened at the wrists and ankles with loop and hook bands, is safe and easy to use (p. 47).",
-        "Boots and Leather Gloves: Wear high-topped shoes or boots and good leather gloves (p. 47).",
-        "Stiff Wire Screen Veils: Always wear a veil, preferably one with a stiff screen made of wire or plastic so it stands out from your face (p. 47).",
-        "Mandatory Veil Safety Rule: You should never be without a veil when working with bees (p. 47)."
+        "Site Resource Identification: Extension offices provide regional planting calendars calibrated to local frost dates.",
+        "Soil Testing Support: University laboratories measure micronutrient deficiencies and exact soil acidity levels.",
+        "Nursery Crop Selection: Commercial growers demonstrate zone hardy cultivars bred for local pest resistance.",
+        "Field Observation Note: Document professional greenhouse irrigation systems and pest scouting monitoring protocols."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Put On Structured Veil: Always wear a veil, preferably one with a stiff screen made of wire or plastic so it stands out from your face (p. 47).",
-        "Step 2 - Keep Veil On Always: You should never be without a veil when working with bees (p. 47).",
-        "Step 3 - Verify Gear Fits Securely: Most important is that you feel safe with your gear (p. 47).",
-        "Step 4 - Fasten Wrists and Ankles: A good, complete outfit will essentially eliminate all opportunities for any errant bees to sting (p. 47)."
+        "Step 1 - Visit Site Selection: Schedule an educational tour at a local extension office or nursery.",
+        "Step 2 - Interview Question Preparation: Draft inquiries regarding soil amendments, pest outbreaks, and native plant cultivars.",
+        "Step 3 - Guided Facility Walkthrough: Observe professional propagating benches, composting bays, and high tunnel greenhouse structures.",
+        "Step 4 - Findings Summary Report: Present observed agricultural methods and soil testing procedures to the counselor."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -1418,7 +1460,13 @@
       "workbook_diagram_caption": "A beekeeper in protective clothing inspects honeycombs in a wooden hive box.",
       "number": "5",
       "description": "Visit your county extension office, local university, agricultural college, nursery, farm, botanical garden, or arboretum. Report on what you learned.",
-      "workbook_visual_caption": "A beekeeper in protective clothing inspects honeycombs in a wooden hive box."
+      "workbook_visual_caption": "A beekeeper in protective clothing inspects honeycombs in a wooden hive box.",
+      "pamphlet_summary": "Visiting an agricultural extension office or commercial horticultural facility connects home gardening concepts to professional crop science. Scouts explore regional soil analysis, climate adapted plant cultivars, and integrated pest management systems practiced by horticultural specialists.",
+      "socratic_questions": [
+        "What specific agricultural challenges in our local county do extension agents help gardeners solve?",
+        "How do commercial nurseries control environmental variables like humidity, light, and irrigation?",
+        "Which discoveries from your agricultural site visit can you adopt in your own home garden?"
+      ]
     },
     {
       "req_id": "6",
@@ -1445,11 +1493,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 6: Honeybee Pollination and Population Threats",
+      "topic_title": "Req 6: Honeybee Crop Pollination Biology",
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 6): Complete all Honeybee Pollination and Population Threats discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Stand aside from active apiary flight paths and move smoothly without swatting around foraging bees.",
       "pamphlet_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 83)",
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 59, p. 83)",
       "syllabus_bucket": "In-Class Concept",
@@ -1477,8 +1525,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Humans keep honeybees primarily for honey production, and losing them would only reduce sweetener supplies.",
-        "fact": "Humanity relies on honeybees far more for pollinating food crops and livestock feed than for honey, and losing pollinators would put our food supply in great peril (p. 59)."
+        "misconception": "Wind and self pollination can easily replace bee pollination for all commercial fruit crops.",
+        "fact": "Honeybees carry pollen in specialized corbiculae while pollinating approximately one third of human food crops.",
+        "myth": "Wind and self pollination can easily replace bee pollination for all commercial fruit crops.",
+        "fact_correction": "Honeybees carry pollen in specialized corbiculae while pollinating approximately one third of human food crops."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1502,16 +1552,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Ancient Human Bee Partnership: You may have never thought much about honey bees, but there has been a strong relationship between bees and humans for thousands of years (p. 59).",
-        "Pollinator Importance for Food: Without these winged creatures, many of our food sources would be in great peril (p. 59).",
-        "Crop and Feed Pollination: We rely on honeybees not only for the sweet honey they make, but more importantly for their ability to pollinate many of the crops and livestock feed (p. 59).",
-        "Cross Pollination for Seeds: Some plants can produce seeds only if pollen is exchanged between flowers on the same plant, or from flowers of different plants from the same variety (p. 59)."
+        "Foraging Behavior Mechanism: Worker bees transfer pollen grains between flower stigmas during nectar collection.",
+        "Pollination Food Impact: Crops like apples, almonds, and squash depend heavily on bee visits.",
+        "Colony Stress Factors: Varroa destructor mites, habitat loss, and systemic pesticides weaken hive health.",
+        "Ecological Consequence Alert: Absence of pollinating insects would collapse agricultural diversity and crop yields."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Recognize Crop Pollination Value: We rely on honeybees not only for the sweet honey they make, but more importantly for their ability to pollinate many of the crops and livestock feed (p. 59).",
-        "Step 2 - Observe Flower Pollen Transfer: Some plants can produce seeds only if pollen is exchanged between flowers on the same plant, or from flowers of different plants from the same variety (p. 59).",
-        "Step 3 - Identify Diverse Native Pollinators: Birds, bats, bumblebees, butterflies, and many other creatures help transfer pollen as they flit from flower to flower or feed on the nectar (p. 59).",
-        "Step 4 - Compare Honeybee Pollination Advantages: Honey bees, however, have three advantages over all of these other pollinators (p. 59)."
+        "Step 1 - Floral Anatomy Examination: Identify stamens, anthers, pistils, and nectar glands on open crop blooms.",
+        "Step 2 - Forager Tracking Record: Observe honeybees foraging within vegetable blossoms and note collected pollen baskets.",
+        "Step 3 - Pollinator Stress Research: Study how parasitic mites, nutritional deficit, and chemical exposures harm colonies.",
+        "Step 4 - Human Impact Assessment: Chart agricultural crops lost if insect pollination ceased across food systems."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1584,7 +1634,13 @@
       "workbook_diagram_caption": "An exposed root system displays extensive branching for soil nutrient intake.",
       "number": "6",
       "description": "Explain to your counselor how and why honeybees are used in pollinating food crops and the problems that face the bee population today. Discuss what the impact to humanity would be if there were no pollinators.",
-      "workbook_visual_caption": "An exposed root system displays extensive branching for soil nutrient intake."
+      "workbook_visual_caption": "An exposed root system displays extensive branching for soil nutrient intake.",
+      "pamphlet_summary": "Honeybees perform crucial cross pollination by transferring pollen between floral reproductive structures as they forage for nectar. Contemporary hives face severe threats from Varroa mites, habitat destruction, and pesticide toxicity, threatening the stability of human fruit, vegetable, and seed supplies.",
+      "socratic_questions": [
+        "How does the anatomical structure of a honeybee facilitate pollen transfer between flowering plants?",
+        "What biological pressures have contributed to widespread colony collapse disorder over recent decades?",
+        "In what ways would human dietary nutrition change if insect pollinated crops disappeared?"
+      ]
     },
     {
       "req_id": "7",
@@ -1611,11 +1667,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 7: Identifying Pests and Organic Controls",
+      "topic_title": "Req 7: Garden Pest Management Solutions",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Review task hazards with your counselor before starting Gardening Requirement 7 on identifying pests and organic controls: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
+      "safety_callout": "Wear unlined nitrile gloves and eye goggles whenever mixing or applying any garden spray solutions.",
       "pamphlet_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 58, p. 70)",
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 58, p. 70)",
       "syllabus_bucket": "In-Class Concept",
@@ -1645,8 +1701,10 @@
         "min_rows": 3
       },
       "common_misconception_pair": {
-        "misconception": "If an insecticide works well on roses, you can legally spray it on any vegetable crop or bug in your yard.",
-        "fact": "It is illegal to apply a pesticide to any plant or pest that is not explicitly listed on the product label (p. 58)."
+        "misconception": "Broad spectrum synthetic pesticides should be sprayed immediately at the first sight of insects.",
+        "fact": "Insecticidal soap dissolves protective cuticles of soft bodied pests while preserving soil microbial integrity.",
+        "myth": "Broad spectrum synthetic pesticides should be sprayed immediately at the first sight of insects.",
+        "fact_correction": "Insecticidal soap dissolves protective cuticles of soft bodied pests while preserving soil microbial integrity."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1670,16 +1728,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Reading Treatment Labels Carefully: Always carefully read the label on all pesticides, fertilizers, and other treatments (p. 58).",
-        "Adult Supervision for Chemicals: Follow the manufacturer'sinstructions, and use these chemicals only under close adult supervision (p. 58).",
-        "How Chemical Insecticides Work: Pesticides, also called insecticides, are chemical mixtures that kill bugs (p. 58).",
-        "Effective Pest and Disease Control: Properly used, they provide quick, effective ways to control insects and disease in your garden (p. 58)."
+        "Aphid Damage Detection: Clustered soft bodied insects suck plant sap and excrete sticky honeydew.",
+        "Fungal Blight Symptoms: Powdery mildew creates white talcum like fungal coating across leaf surfaces.",
+        "Organic Soap Control: Potassium salts of fatty acids disrupt cell membranes of soft aphids.",
+        "Physical Barrier Defense: Floating row covers prevent cabbage moths from laying eggs on brassicas."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Identify Target Insect Pests: Pesticides, also called insecticides, are chemical mixtures that kill bugs (p. 58).",
-        "Step 2 - Apply Treatments Properly: Properly used, they provide quick, effective ways to control insects and disease in your garden (p. 58).",
-        "Step 3 - Check State Pesticide Regulations: Many states further regulate the use of some pesticides (p. 58).",
-        "Step 4 - Verify Listed Plants on Label: It is illegal to apply pesticide to aplant or pest not listed on the label (p. 58)."
+        "Step 1 - Plant Pest Scouting: Inspect stems and undersides of leaves across five stressed garden specimens.",
+        "Step 2 - Symptom Pest Identification: Match observed chewing, stippling, or mildew spots to known regional garden pests.",
+        "Step 3 - Organic Remedy Selection: Apply insecticidal soaps, biological Bacillus thuringiensis, or beneficial predatory ladybugs.",
+        "Step 4 - Dual Control Execution: Pair mechanical handpicking or physical barriers with approved targeted control measures."
       ],
       "gear_checklist": [],
       "comparison_data": {
@@ -1752,7 +1810,13 @@
       "workbook_diagram_caption": "Bright yellow cone flowers bloom in a garden bed to attract pollinators.",
       "number": "7",
       "description": "Identify five garden pests (insects, diseased plants). Recommend two solutions for each pest. At least one of the two solutions must be an organic method.",
-      "workbook_visual_caption": "Bright yellow cone flowers bloom in a garden bed to attract pollinators."
+      "workbook_visual_caption": "Bright yellow cone flowers bloom in a garden bed to attract pollinators.",
+      "pamphlet_summary": "Effective integrated pest management begins with scouting for specific plant symptoms like leaf curling, stippling, and fungal spores. Controlling garden pests requires combining organic solutions such as predatory insects or horticultural soaps alongside targeted physical or chemical treatments.",
+      "socratic_questions": [
+        "Why is preserving beneficial predatory insects essential when managing an active aphid infestation?",
+        "How do cultural controls like crop rotation disrupt recurring fungal and insect life cycles?",
+        "What distinguishes an organic mechanical control from a systemic synthetic chemical treatment?"
+      ]
     },
     {
       "req_id": "8",
@@ -1796,8 +1860,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "A compost or vermicompost bin produces finished humus overnight without needing ongoing maintenance or observation.",
-            "fact": "Compost and worm bins require 90 days of regular care, moisture management, and weekly recorded observations to break down organic matter (p. 57)."
+            "misconception": "Piling dry leaves in an unmixed heap produces finished compost in two weeks.",
+            "fact": "Maintaining internal pile temperatures above one hundred thirty degrees destroys weed seeds.",
+            "myth": "Piling dry leaves in an unmixed heap produces finished compost in two weeks.",
+            "fact_correction": "Maintaining internal pile temperatures above one hundred thirty degrees destroys weed seeds."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1823,10 +1889,10 @@
           "id": "8a",
           "sub_req_label": "8a",
           "sub_req_text": "Build a compost bin and maintain it for 90 days.",
-          "topic_title": "Req 8a: Ninety Day Compost Bin",
-          "pamphlet_summary": "For Gardening Requirement 8a (Ninety Day Compost Bin): The Gardening pamphlet for Requirement 8a details build a compost bin and maintain it for 90 days, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
+          "topic_title": "Req 8a: Aerobic Compost Bin Construction",
+          "pamphlet_summary": "Aerobic composting combines carbon rich brown materials with nitrogen rich green materials. Regular turning injects atmospheric oxygen to feed heat producing thermophilic decomposers.",
           "pamphlet_excerpts": [
-            "Ninety Day Compost Bin: The Gardening pamphlet for Requirement 8a details build a compost bin and maintain it for 90 days, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27)."
+            "Aerobic composting combines carbon rich brown materials with nitrogen rich green materials. Regular turning injects atmospheric oxygen to feed heat producing thermophilic decomposers."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds vibrant red blooms to home landscaping.",
@@ -1867,8 +1933,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Plants cannot grow unless their roots are anchored in natural backyard dirt.",
-            "fact": "Hydroponic gardens grow vegetables, herbs, and ornamental plants in nutrient-enriched water solutions without using soil (p. 57)."
+            "misconception": "Common earthworms dug from garden soil perform effectively inside closed indoor worm bins.",
+            "fact": "Red wigglers thrive inside shredded damp cardboard within fifty five to seventy seven degrees.",
+            "myth": "Common earthworms dug from garden soil perform effectively inside closed indoor worm bins.",
+            "fact_correction": "Red wigglers thrive inside shredded damp cardboard within fifty five to seventy seven degrees."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1894,10 +1962,10 @@
           "id": "8b",
           "sub_req_label": "8b",
           "sub_req_text": "Build a vermicompost bin (worm compost bin) and maintain it for 90 days.",
-          "topic_title": "Req 8b: Ninety Day Vermicompost Bin",
-          "pamphlet_summary": "For Gardening Requirement 8b (Ninety Day Vermicompost Bin): The Gardening pamphlet for Requirement 8b details build a vermicompost bin (worm compost bin) and maintain it for 90 days, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
+          "topic_title": "Req 8b: Vermicomposting Bin System Care",
+          "pamphlet_summary": "Vermiculture uses specialized Eisenia fetida worms to process kitchen vegetable scraps into castings. Managing bedding moisture and neutral pH prevents anaerobic odors in the bin.",
           "pamphlet_excerpts": [
-            "Ninety Day Vermicompost Bin: The Gardening pamphlet for Requirement 8b details build a vermicompost bin (worm compost bin) and maintain it for 90 days, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27)."
+            "Vermiculture uses specialized Eisenia fetida worms to process kitchen vegetable scraps into castings. Managing bedding moisture and neutral pH prevents anaerobic odors in the bin."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds vibrant red blooms to home landscaping.",
@@ -1944,8 +2012,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Planting expansive wall-to-wall turf grass is the most water-efficient way to landscape a home garden.",
-            "fact": "Water-wise gardeners create practical grassy areas in manageable sizes and shapes using appropriate turf varieties (p. 27)."
+            "misconception": "Plants grown in hydroponic water reservoirs do not require supplemental root zone oxygen.",
+            "fact": "Hydroponic crops need daily electrical conductivity and pH monitoring between 5.5 and 6.5.",
+            "myth": "Plants grown in hydroponic water reservoirs do not require supplemental root zone oxygen.",
+            "fact_correction": "Hydroponic crops need daily electrical conductivity and pH monitoring between 5.5 and 6.5."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1971,10 +2041,10 @@
           "id": "8c",
           "sub_req_label": "8c",
           "sub_req_text": "Build a hydroponic garden containing three vegetables or herbs, or three ornamental plants. Maintain this garden through harvest or flowering, or for 90 days.",
-          "topic_title": "Req 8c: Soilless Hydroponic Plant System",
-          "pamphlet_summary": "Soilless Hydroponic Plant System: One of the easiest ways to foolproof a garden is to grow plants that will survive if you forget to water them (p. 27).",
+          "topic_title": "Req 8c: Hydroponic Garden System Maintenance",
+          "pamphlet_summary": "Hydroponic farming suspends plant roots in oxygenated nutrient solution without traditional soil media. Managing water temperature, dissolved salts, and light cycles ensures vigorous vegetable production.",
           "pamphlet_excerpts": [
-            "Soilless Hydroponic Plant System: One of the easiest ways to foolproof a garden is to grow plants that will survive if you forget to water them (p. 27)."
+            "Hydroponic farming suspends plant roots in oxygenated nutrient solution without traditional soil media. Managing water temperature, dissolved salts, and light cycles ensures vigorous vegetable production."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds vibrant red blooms to home landscaping.",
@@ -2017,8 +2087,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "During Gardening Requirement 8d, Scouts can underestimate how directly mastery of aquatic container or pond garden depends on understanding build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep).",
-            "fact": "Scouting America standards for Gardening Requirement 8d require complete workbook entries on aquatic container or pond garden to demonstrate full understanding of build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep)."
+            "misconception": "Clear decorative garden ponds require continuous chemical algaecide treatments to stay clean.",
+            "fact": "Submerged aquatic plants produce dissolved oxygen while outcompeting single celled green algae.",
+            "myth": "Clear decorative garden ponds require continuous chemical algaecide treatments to stay clean.",
+            "fact_correction": "Submerged aquatic plants produce dissolved oxygen while outcompeting single celled green algae."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2044,10 +2116,10 @@
           "id": "8d",
           "sub_req_label": "8d",
           "sub_req_text": "Build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep), or in the ground as a small, decorative pond no larger than 6 by 3 feet and 24 inches deep. Maintain the water garden for 90 days.",
-          "topic_title": "Req 8d: Aquatic Container or Pond Garden",
-          "pamphlet_summary": "Aquatic Container or Pond Garden: The term water wise means being smart about water conservation by applying water in well-controlled amounts and locations in your garden (p. 27).",
+          "topic_title": "Req 8d: Aquatic Water Garden Design",
+          "pamphlet_summary": "Water gardens balance aquatic plants, surface shading, and biological filtration in a shallow reservoir. Establishing biological equilibrium prevents stagnant conditions while creating microhabitats for beneficial wildlife.",
           "pamphlet_excerpts": [
-            "Aquatic Container or Pond Garden: The term water wise means being smart about water conservation by applying water in well-controlled amounts and locations in your garden (p. 27)."
+            "Water gardens balance aquatic plants, surface shading, and biological filtration in a shallow reservoir. Establishing biological equilibrium prevents stagnant conditions while creating microhabitats for beneficial wildlife."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "title": "Req 8d: Aquatic Container or Pond Garden",
@@ -2095,10 +2167,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "Overlooking the specific field checks required for Honey Super Hive Management (Req 8e) or confusing Honey Super Hive Management with general Extended Composting and Specialty Gardens procedures.",
-            "fact": "For Requirement 8e (Honey Super Hive Management), The Gardening pamphlet for Requirement 8e details a honey super for use on a hive or colony, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
-            "myth": "Overlooking the specific field checks required for Honey Super Hive Management (Req 8e) or confusing Honey Super Hive Management with general Extended Composting and Specialty Gardens procedures.",
-            "fact_correction": "For Requirement 8e (Honey Super Hive Management), The Gardening pamphlet for Requirement 8e details a honey super for use on a hive or colony, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27)."
+            "misconception": "Removing a honey super causes permanent catastrophic starvation to the parent bee colony.",
+            "fact": "Centrifugal extractors spin liquid honey from uncapped wax frames without destroying combs.",
+            "myth": "Removing a honey super causes permanent catastrophic starvation to the parent bee colony.",
+            "fact_correction": "Centrifugal extractors spin liquid honey from uncapped wax frames without destroying combs."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2125,9 +2197,9 @@
           "sub_req_label": "8e",
           "sub_req_text": "Prepare a honey super for use on a hive or colony. Remove a filled honey super from the hive or colony and prepare the honey for sale.",
           "topic_title": "Req 8e: Honey Super Hive Management",
-          "pamphlet_summary": "For Gardening Requirement 8e (Honey Super Hive Management): The Gardening pamphlet for Requirement 8e details a honey super for use on a hive or colony, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
+          "pamphlet_summary": "Beekeepers add honey supers above queen excluders to harvest surplus nectar converted to honey. Extracting, filtering, and bottling honey requires sanitary handling and moisture testing under eighteen percent.",
           "pamphlet_excerpts": [
-            "Honey Super Hive Management: The Gardening pamphlet for Requirement 8e details a honey super for use on a hive or colony, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27)."
+            "Beekeepers add honey supers above queen excluders to harvest surplus nectar converted to honey. Extracting, filtering, and bottling honey requires sanitary handling and moisture testing under eighteen percent."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds vibrant red blooms to home landscaping.",
@@ -2178,8 +2250,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
-            "misconception": "When preparing Gardening Requirement 8f (Req 8f Ninety Day Soil Garden Project), Scouts sometimes overlook the specific details needed to grow a garden of your own using soil from seed or plantings to harvest.",
-            "fact": "Counselor verification for Gardening Requirement 8f requires concrete workbook evidence covering req 8f ninety day soil garden project and a clear explanation of how to grow a garden of your own using soil from seed or plantings to harvest."
+            "misconception": "Pouring high concentration liquid synthetic fertilizer compensates completely for compacted clay soil.",
+            "fact": "Incorporating aged compost improves soil structure, water retention, and cation exchange capacity.",
+            "myth": "Pouring high concentration liquid synthetic fertilizer compensates completely for compacted clay soil.",
+            "fact_correction": "Incorporating aged compost improves soil structure, water retention, and cation exchange capacity."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2210,10 +2284,10 @@
           "id": "8f",
           "sub_req_label": "8f",
           "sub_req_text": "Grow a garden of your own using soil from seed or plantings to harvest or for 90 days, whichever is earlier. This can be an outdoor garden or indoors using appropriate containers, and should include at least three types of plants approved by your counselor.",
-          "topic_title": "Req 8f: Ninety Day Soil Garden Project",
-          "pamphlet_summary": "For Gardening Requirement 8f (Ninety Day Soil Garden Project): The Gardening pamphlet for Requirement 8f details grow a garden of your own using soil from seed or plantings to harvest or for 90 days, whichever is earlier, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
+          "topic_title": "Req 8f: Ninety Day Garden Production",
+          "pamphlet_summary": "Cultivating a dedicated plot or container garden demonstrates season long crop management skills. Regular watering, staking, mulching, and weeding sustain plant vitality through the harvest period.",
           "pamphlet_excerpts": [
-            "Ninety Day Soil Garden Project: The Gardening pamphlet for Requirement 8f details grow a garden of your own using soil from seed or plantings to harvest or for 90 days, whichever is earlier, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27)."
+            "Cultivating a dedicated plot or container garden demonstrates season long crop management skills. Regular watering, staking, mulching, and weeding sustain plant vitality through the harvest period."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds vibrant red blooms to home landscaping.",
@@ -2270,11 +2344,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 8: Extended Composting and Specialty Gardens",
+      "topic_title": "Req 8: Specialized Horticultural Projects",
       "action_verb": "Discuss",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 8): Complete all Extended Composting and Specialty Gardens discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Wash hands thoroughly after handling worm bedding, raw manure, or decomposing compost bin contents.",
       "pamphlet_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2310,8 +2384,10 @@
         "min_rows": 6
       },
       "common_misconception_pair": {
-        "misconception": "Water-wise gardening means replacing all living plants with gravel and never watering your yard.",
-        "fact": "Water-wise gardening means conserving water by choosing drought-tolerant plants and applying water in well-controlled amounts and locations (p. 27)."
+        "misconception": "Organic matter decomposes into nutrient rich humus just as quickly without moisture or aeration.",
+        "fact": "Compost piles require a thirty to one carbon to nitrogen ratio and adequate oxygen to sustain thermophilic decomposition.",
+        "myth": "Organic matter decomposes into nutrient rich humus just as quickly without moisture or aeration.",
+        "fact_correction": "Compost piles require a thirty to one carbon to nitrogen ratio and adequate oxygen to sustain thermophilic decomposition."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2340,16 +2416,16 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Drought Tolerant Plant Selection: One of the easiest ways to foolproof a garden is to grow plants that will survive if you forget to water them (p. 27).",
-        "Smart Water Conservation Principles: The term water wise means being smart about water conservation by applying water in well-controlled amounts and locations in your garden (p. 27).",
-        "Seven Water Wise Rules: The concept of water-wise gardening is based on the following seven rules, 1 (p. 27).",
-        "Conservation Focused Garden Design: Plan and design for water conservation and beauty from the start (p. 27)."
+        "Aerobic Decomposition Metric: Maintain fifty percent moisture and turn material weekly to supply oxygen.",
+        "Red Wiggler Biology: Eisenia fetida worms consume decaying organic matter within moist shaded bedding.",
+        "Hydroponic Nutrient Delivery: Circulate balanced liquid salts past bare roots in oxygenated water basins.",
+        "Water Garden Ecology: Aquatic plants balance decorative pond water by absorbing dissolved organic fish wastes."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Follow Water Wise Guidelines: The concept of water-wise gardening is based on the following seven rules, 1 (p. 27).",
-        "Step 2 - Design for Water Conservation: Plan and design for water conservation and beauty from the start (p. 27).",
-        "Step 3 - Research Compatible Plant Combinations: A little research into what grows where, and what combinations work well, can create a colorful year-round garden (p. 27).",
-        "Step 4 - Size Lawn Areas Practically: Create practical grassy areas of manageable sizes, shapes, and appropriate grasses (p. 27)."
+        "Step 1 - System Project Selection: Choose between standard composting, vermiculture, hydroponics, water gardening, or beekeeping.",
+        "Step 2 - System Enclosure Assembly: Construct the bin, reservoir, or garden plot according to specified project dimensions.",
+        "Step 3 - Environmental Factor Management: Add balanced inputs, maintain moisture, adjust pH, and ensure proper aeration levels.",
+        "Step 4 - Weekly Observation Tracking: Record structural changes, biological activity, and chemical conditions across ninety days."
       ],
       "gear_checklist": [
         "10x hand lens (loupe) or 8x42 binoculars and regional field identification guide",
@@ -2358,17 +2434,17 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 8a: Ninety Day Compost Bin",
-        "right_header": "Req 8d: Aquatic Container or Pond Garden",
+        "left_header": "Req 8a: Aerobic Compost Bin Construction",
+        "right_header": "Req 8d: Aquatic Water Garden Design",
         "left_points": [
-          "(8a) Ninety Day Compost Bin: The Gardening pamphlet for Requirement 8a details build a compost bin and maintain it for 90 days, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
-          "(8b) Ninety Day Vermicompost Bin: The Gardening pamphlet for Requirement 8b details build a vermicompost bin (worm compost bin) and maintain it for 90 days, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
-          "(8c) Soilless Hydroponic Plant System: One of the easiest ways to foolproof a garden is to grow plants that will survive if you forget to water them (p. 27)."
+          "(8a) Aerobic Compost Bin Construction: Aerobic composting combines carbon rich brown materials with nitrogen rich green materials. Regular turning injects atmospheric oxygen to feed heat producing thermophilic decomposers.",
+          "(8b) Vermicomposting Bin System Care: Vermiculture uses specialized Eisenia fetida worms to process kitchen vegetable scraps into castings. Managing bedding moisture and neutral pH prevents anaerobic odors in the bin.",
+          "(8c) Hydroponic Garden System Maintenance: Hydroponic farming suspends plant roots in oxygenated nutrient solution without traditional soil media. Managing water temperature, dissolved salts, and light cycles ensures vigorous vegetable production."
         ],
         "right_points": [
-          "(8d) Aquatic Container or Pond Garden: The term water wise means being smart about water conservation by applying water in well-controlled amounts and locations in your garden (p. 27).",
-          "(8e) Honey Super Hive Management: The Gardening pamphlet for Requirement 8e details a honey super for use on a hive or colony, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
-          "(8f) Ninety Day Soil Garden Project: The Gardening pamphlet for Requirement 8f details grow a garden of your own using soil from seed or plantings to harvest or for 90 days, whichever is earlier, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27)."
+          "(8d) Aquatic Water Garden Design: Water gardens balance aquatic plants, surface shading, and biological filtration in a shallow reservoir. Establishing biological equilibrium prevents stagnant conditions while creating microhabitats for beneficial wildlife.",
+          "(8e) Honey Super Hive Management: Beekeepers add honey supers above queen excluders to harvest surplus nectar converted to honey. Extracting, filtering, and bottling honey requires sanitary handling and moisture testing under eighteen percent.",
+          "(8f) Ninety Day Garden Production: Cultivating a dedicated plot or container garden demonstrates season long crop management skills. Regular watering, staking, mulching, and weeding sustain plant vitality through the harvest period."
         ],
         "rows": [
           {
@@ -2392,10 +2468,10 @@
         "title": "Gardening Req 8 Exemplar Workbook Entry: Extended Composting and Specialty Gardens",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 8a (Ninety Day Compost Bin)": "The Gardening pamphlet for Requirement 8a details build a compost bin and maintain it for 90 days, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
-          "Req 8b (Ninety Day Vermicompost Bin)": "The Gardening pamphlet for Requirement 8b details build a vermicompost bin (worm compost bin) and maintain it for 90 days, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 27).",
-          "Req 8c (Soilless Hydroponic Plant System)": "One of the easiest ways to foolproof a garden is to grow plants that will survive if you forget to water them (p. 27).",
-          "Req 8d (Aquatic Container or Pond Garden)": "The term water wise means being smart about water conservation by applying water in well-controlled amounts and locations in your garden (p. 27)."
+          "Req 8a - Aerobic Compost Bin Construction": "Aerobic composting combines carbon rich brown materials with nitrogen rich green materials. Regular turning injects atmospheric oxygen to feed heat producing thermophilic decomposers.",
+          "Req 8b - Vermicomposting Bin System Care": "Vermiculture uses specialized Eisenia fetida worms to process kitchen vegetable scraps into castings. Managing bedding moisture and neutral pH prevents anaerobic odors in the bin.",
+          "Req 8c - Hydroponic Garden System Maintena": "Hydroponic farming suspends plant roots in oxygenated nutrient solution without traditional soil media. Managing water temperature, dissolved salts, and light cycles ensures vigorous vegetable production.",
+          "Req 8d - Aquatic Water Garden Design": "Water gardens balance aquatic plants, surface shading, and biological filtration in a shallow reservoir. Establishing biological equilibrium prevents stagnant conditions while creating microhabitats for beneficial wildlife."
         },
         "sample_output": "Extended Composting and Specialty Gardens: The term water wise means being smart about water conservation by applying water in well-controlled amounts and locations in your garden (p. 27).",
         "counselor_tip": "For Gardening Requirement 8 (Extended Composting and Specialty Gardens), verify the Scout's own observations and specific pamphlet details (Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57))."
@@ -2427,7 +2503,13 @@
       "workbook_diagram_caption": "A flowering crape myrtle tree adds vibrant red blooms to home landscaping.",
       "number": "8",
       "description": "Do ONE of the following and record weekly observations. Discuss the results of your project with your counselor. (a) Build a compost bin and maintain it for 90 days. (b) Build a vermicompost bin (worm compost bin) and maintain it for 90 days. (c) Build a hydroponic garden containing three vegetables or herbs, or three ornamental plants. Maintain this garden through harvest or flowering, or for 90 days. (d) Build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep), or in the ground as a small, decorative pond no larger than 6 by 3 feet and 24 inches deep. Maintain the water garden for 90 days. (e) Prepare a honey super for use on a hive or colony. Remove a filled honey super from the hive or colony and prepare the honey for sale. (f) Grow a garden of your own using soil from seed or plantings to harvest or for 90 days, whichever is earlier. This can be an outdoor garden or indoors using appropriate containers, and should include at least three types of plants approved by your counselor.",
-      "workbook_visual_caption": "A flowering crape myrtle tree adds vibrant red blooms to home landscaping."
+      "workbook_visual_caption": "A flowering crape myrtle tree adds vibrant red blooms to home landscaping.",
+      "pamphlet_summary": "Sustainable horticultural systems recycle organic nutrients through hot aerobic composting, vermicomposting, or closed loop hydroponics. Tracking weekly temperature, moisture levels, or nutrient conductivity ensures stable biological cycles that support plant growth over ninety days.",
+      "socratic_questions": [
+        "What role do thermophilic bacteria play in raising compost temperatures above one hundred thirty degrees?",
+        "How does oxygen availability dictate whether organic matter decomposes through aerobic or anaerobic pathways?",
+        "Which biological mechanisms maintain chemical equilibrium in a balanced decorative backyard water garden?"
+      ]
     },
     {
       "req_id": "9",
@@ -2481,8 +2563,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
           "common_misconception_pair": {
-            "misconception": "Careers in gardening are limited to mowing lawns and require no scientific training or formal education.",
-            "fact": "Horticulture, landscape architecture, agronomy, and botany offer diverse careers that combine scientific training, certification, and hands-on experience (p. 97)."
+            "misconception": "Professional nursery operators require only informal hands on experience without business education.",
+            "fact": "Certified crop advisers must pass rigorous international examinations and complete recurring continuing education.",
+            "myth": "Professional nursery operators require only informal hands on experience without business education.",
+            "fact_correction": "Certified crop advisers must pass rigorous international examinations and complete recurring continuing education."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2508,10 +2592,10 @@
           "id": "9a",
           "sub_req_label": "9a",
           "sub_req_text": "Identify three career opportunities that would use skills and knowledge in gardening. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.",
-          "topic_title": "Req 9a: Exploring Professional Horticulture Careers",
-          "pamphlet_summary": "Exploring Professional Horticulture Careers: Gardening is a very rewarding experience in many ways (p. 64).",
+          "topic_title": "Req 9a: Horticultural Career Investigation",
+          "pamphlet_summary": "Careers in commercial plant science encompass greenhouse operation, agricultural inspection, plant breeding, and arboriculture. Entering these fields requires coursework in botany, soil chemistry, pathology, and business administration.",
           "pamphlet_excerpts": [
-            "Exploring Professional Horticulture Careers: Gardening is a very rewarding experience in many ways (p. 64)."
+            "Careers in commercial plant science encompass greenhouse operation, agricultural inspection, plant breeding, and arboriculture. Entering these fields requires coursework in botany, soil chemistry, pathology, and business administration."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p065_img1.png",
           "workbook_diagram_caption": "A microscopic view shows nematodes that inhabit garden soil ecosystems.",
@@ -2556,8 +2640,10 @@
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
           "common_misconception_pair": {
-            "misconception": "Home gardening only teaches you how to grow annual summer vegetables.",
-            "fact": "Through gardening, you can learn to cultivate vegetables, fruits, flowers, ornamental shrubs, and trees (p. 64)."
+            "misconception": "Backyard gardening yields insufficient physical activity to qualify as meaningful personal wellness.",
+            "fact": "Growing home food crops increases daily vegetable consumption while delivering moderate cardiovascular physical exercise.",
+            "myth": "Backyard gardening yields insufficient physical activity to qualify as meaningful personal wellness.",
+            "fact_correction": "Growing home food crops increases daily vegetable consumption while delivering moderate cardiovascular physical exercise."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2583,10 +2669,10 @@
           "id": "9b",
           "sub_req_label": "9b",
           "sub_req_text": "Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
-          "topic_title": "Req 9b: Gardening for Lifelong Health",
-          "pamphlet_summary": "For Gardening Requirement 9b (Gardening for Lifelong Health): The Gardening pamphlet for Requirement 9b details how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64).",
+          "topic_title": "Req 9b: Gardening For Personal Wellness",
+          "pamphlet_summary": "Hobby gardening provides lifelong outdoor recreation, improves mental well being, and delivers nutritious homegrown food. Participating in community garden clubs and master gardener seminars connects hobbyists with regional expertise.",
           "pamphlet_excerpts": [
-            "Gardening for Lifelong Health: The Gardening pamphlet for Requirement 9b details how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64)."
+            "Hobby gardening provides lifelong outdoor recreation, improves mental well being, and delivers nutritious homegrown food. Participating in community garden clubs and master gardener seminars connects hobbyists with regional expertise."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p065_img1.png",
           "title": "Req 9b: Gardening for Lifelong Health",
@@ -2616,11 +2702,11 @@
         "slide_injection_label": "Local Watershed, Native Ecology & Conservation Agency",
         "ttl_days": 90
       },
-      "topic_title": "Req 9: Horticultural Careers and Lifelong Hobbies",
+      "topic_title": "Req 9: Gardening Careers And Hobbies",
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "BSA Youth Protection & Buddy System (Req 9): Complete all Horticultural Careers and Lifelong Hobbies discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
+      "safety_callout": "Follow laboratory safety protocols and wear eye protection when analyzing soil chemical reagents.",
       "pamphlet_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
       "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -2652,8 +2738,10 @@
         "min_rows": 4
       },
       "common_misconception_pair": {
-        "misconception": "If a crop fails or a plant dies, it proves you lack natural talent and should give up gardening.",
-        "fact": "Setbacks happen to every gardener, providing an opportunity to act like a detective, figure out what went wrong, and try again (p. 64)."
+        "misconception": "Horticultural professions consist solely of unskilled manual tasks with no professional certifications.",
+        "fact": "Landscape architects and crop agronomists require formal four year degrees in plant sciences and regional licensing.",
+        "myth": "Horticultural professions consist solely of unskilled manual tasks with no professional certifications.",
+        "fact_correction": "Landscape architects and crop agronomists require formal four year degrees in plant sciences and regional licensing."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2677,28 +2765,26 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Rewards of Gardening Practice: Gardening is a very rewarding experience in many ways (p. 64).",
-        "Diverse Plant Cultivation Skills: You may learn how to grow vegetables, fruits, flowers, shrubs and trees (p. 64).",
-        "Outdoor Connection With Nature: You are usually outdoors so you can experience the joys of nature in your environment (p. 64).",
-        "Excitement of Plant Growth: To take a seed or small plant and watch it grow is truly exciting (p. 64)."
+        "Horticulture Career Path: Greenhouse managers oversee propagation, climate automation, and sales logistics schedules.",
+        "Agronomy Science Role: Crop agronomists analyze soil fertility and guide sustainable commercial grain production.",
+        "Landscape Architecture Scope: Licensed designers plan commercial public spaces incorporating drainage and native flora.",
+        "Lifelong Gardening Benefits: Cultivating backyard produce reduces household grocery costs while promoting physical wellness."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Spend Active Time Outdoors: You are usually outdoors so you can experience the joys of nature in your environment (p. 64).",
-        "Step 2 - Nurture Seeds Into Plants: To take a seed or small plant and watch it grow is truly exciting (p. 64).",
-        "Step 3 - Investigate and Overcome Setbacks: If there are setbacks, which can happen, you can be a detective and try to determine what went wrong and tryagain (p. 64).",
-        "Step 4 - Persist Through Garden Challenges: Do not be discouraged, as this happens to everyone (p. 64)."
+        "Step 1 - Career Field Exploration: Identify three specialized occupations within commercial horticulture, agronomy, or design.",
+        "Step 2 - Credential Requirement Research: Document necessary university degrees, technical apprenticeships, and state licensing certifications.",
+        "Step 3 - Financial Obligation Estimation: Calculate tuition expenses, startup equipment investments, and expected vocational income levels.",
+        "Step 4 - Personal Lifestyle Assessment: Map how lifelong gardening practices enhance personal health, nutrition, and recreation."
       ],
       "gear_checklist": [],
       "comparison_data": {
-        "left_header": "Req 9a: Exploring Professional Horticultur",
-        "right_header": "Req 9b: Gardening for Lifelong Health",
+        "left_header": "Req 9a: Horticultural Career Investigation",
+        "right_header": "Req 9b: Gardening For Personal Wellness",
         "left_points": [
-          "(9a) Exploring Professional Horticulture Careers: Gardening is a very rewarding experience in many ways (p. 64).",
-          "Diverse Plant Cultivation Skills: You may learn how to grow vegetables, fruits, flowers, shrubs and trees (p. 64)."
+          "(9a) Horticultural Career Investigation: Careers in commercial plant science encompass greenhouse operation, agricultural inspection, plant breeding, and arboriculture. Entering these fields requires coursework in botany, soil chemistry, pathology, and business administration."
         ],
         "right_points": [
-          "(9b) Gardening for Lifelong Health: The Gardening pamphlet for Requirement 9b details how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64).",
-          "Outdoor Connection With Nature: You are usually outdoors so you can experience the joys of nature in your environment (p. 64)."
+          "(9b) Gardening For Personal Wellness: Hobby gardening provides lifelong outdoor recreation, improves mental well being, and delivers nutritious homegrown food. Participating in community garden clubs and master gardener seminars connects hobbyists with regional expertise."
         ],
         "rows": [
           {
@@ -2722,8 +2808,8 @@
         "title": "Gardening Req 9 Exemplar Workbook Entry: Horticultural Careers and Lifelong Hobbies",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 9a - Exploring Professional Horticultur": "Gardening is a very rewarding experience in many ways (p. 64).",
-          "Req 9b (Gardening for Lifelong Health)": "The Gardening pamphlet for Requirement 9b details how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64)."
+          "Req 9a - Horticultural Career Investigatio": "Careers in commercial plant science encompass greenhouse operation, agricultural inspection, plant breeding, and arboriculture. Entering these fields requires coursework in botany, soil chemistry, pathology, and business administration.",
+          "Req 9b - Gardening For Personal Wellness": "Hobby gardening provides lifelong outdoor recreation, improves mental well being, and delivers nutritious homegrown food. Participating in community garden clubs and master gardener seminars connects hobbyists with regional expertise."
         },
         "sample_output": "Horticultural Careers and Lifelong Hobbies: You are usually outdoors so you can experience the joys of nature in your environment (p. 64).",
         "counselor_tip": "For Gardening Requirement 9 (Horticultural Careers and Lifelong Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97))."
@@ -2755,7 +2841,13 @@
       "workbook_diagram_caption": "A microscopic view shows nematodes that inhabit garden soil ecosystems.",
       "number": "9",
       "description": "Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in gardening. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. (b) Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
-      "workbook_visual_caption": "A microscopic view shows nematodes that inhabit garden soil ecosystems."
+      "workbook_visual_caption": "A microscopic view shows nematodes that inhabit garden soil ecosystems.",
+      "pamphlet_summary": "Gardening expertise prepares individuals for diverse scientific careers in agronomy, nursery management, landscape architecture, and urban forestry. Maintaining a personal garden also supports a healthy lifestyle by providing physical exercise, stress reduction, and fresh produce.",
+      "socratic_questions": [
+        "What educational degrees and certifications distinguish a commercial grower from a landscape designer?",
+        "How do technological advancements in automation and genomics influence modern horticultural careers?",
+        "In what ways does regular gardening support long term personal physical and mental health?"
+      ]
     }
   ],
   "badge_slug": "gardening",

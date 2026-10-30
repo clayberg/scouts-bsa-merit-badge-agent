@@ -1,0 +1,301 @@
+{
+  "requirements": [
+    {
+      "fact": "Standard border margins measure one half inch on standard letter and tabloid drawing sheets.",
+      "misconception": "Drafting paper borders can be drawn at any arbitrary distance from the edge.",
+      "pamphlet_excerpts": [
+        "Border Margins: Standard technical sheets require uniform margins drawn with hard graphite pencils for precision.",
+        "Sheet Orientation: Landscape orientation provides the maximum horizontal drawing field for standard engineering views.",
+        "Title Block Location: Lower right corner positioning allows immediate identification when drawings are bound or folded.",
+        "Paper Attachment: Low tack drafting tape secures sheet corners smoothly without tearing delicate surface fibers."
+      ],
+      "pamphlet_summary": "Drafting sheets require precise outer margins and standardized title blocks aligned to ANSI drafting conventions. Accurate border layout establishes working boundaries that protect drawn views during reproduction and archival handling.",
+      "req_id": "1",
+      "safety_callout": "Store razor blades and draft trim cutters safely inside sheaths to prevent severe hand lacerations.",
+      "socratic_questions": [
+        "Why does ANSI specify placing the title block in the lower right corner?",
+        "How does proper border layout prevent information loss during document trimming and binding?",
+        "What problems occur on shop floors if drafting sheet sizes lack strict standardization?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Sheet Alignment: Align the paper edge parallel against the drafting board parallel rule firmly.",
+        "Step 2 - Corner Taping: Fasten all four paper corners securely with low tack draft masking tape.",
+        "Step 3 - Margin Layout: Measure uniform border offsets using an architect scale and light construction lines.",
+        "Step 4 - Border Darkening: Darken final border perimeters using a sharp medium grade technical lead pencil."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Thumbnails establish spatial relationships and scale selection before laying pencil to full sheets.",
+          "misconception": "Rough preliminary sketches waste project preparation time and offer no practical layout value.",
+          "pamphlet_summary": "Scouts create proportional thumbnail sketches to balance view placement, notes, and dimension clearances. Calculating overall object proportions on rough paper ensures selection of appropriate final drawing paper sheets.",
+          "sub_id": "1a",
+          "topic_title": "Preliminary Layout Rough Sketch"
+        },
+        {
+          "fact": "Drafting title blocks require single stroke Gothic lettering created between very faint guidelines.",
+          "misconception": "Decorative calligraphy and lowercase cursive writing are acceptable choices in drafting title blocks.",
+          "pamphlet_summary": "Title blocks require uniform single stroke Gothic characters crafted within light horizontal guidelines. Scouts record critical technical data including scale, part name, drafter identity, and completion date.",
+          "sub_id": "1b",
+          "topic_title": "Title Block Technical Lettering"
+        }
+      ],
+      "topic_title": "Drawing Sheet Format Standards"
+    },
+    {
+      "fact": "Manual technical drawings use standardized line weights to communicate object contours, hidden edges, and dimensions.",
+      "misconception": "All lines on a manual technical manufacturing drawing should have identical darkness and thickness.",
+      "pamphlet_excerpts": [
+        "Lead Selection: Sharp hard grade leads produce clean thin dimension lines without smudging across paper.",
+        "Line Contrast: Visible object outlines must display distinct thickness compared to thin construction lines.",
+        "Scale Selection: Engineering and architectural scales allow accurate reduction of full sized manufactured objects.",
+        "Eraser Shield: Thin steel erasing shields protect neighboring lines while cleaning small drawing mistakes."
+      ],
+      "pamphlet_summary": "Manual mechanical drafting requires precise control of pencil grades, line weights, and geometric construction methods. Scouts create manufacturing drawings using standard instruments like T-squares, triangles, scales, and compasses.",
+      "req_id": "2",
+      "safety_callout": "Keep sharp compass points shielded when not in active use to prevent accidental puncture injuries.",
+      "socratic_questions": [
+        "Why do drafters use distinct pencil lead hardnesses when producing manual production drawings?",
+        "How does proper line weight contrast improve readability for machine operators on shop floors?",
+        "Which specific drafting scale best fits your chosen object onto the formatted sheet?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Instrument Setup: Clean drafting instruments thoroughly to eliminate residual graphite dust before drawing begins.",
+        "Step 2 - Centerline Layout: Construct primary reference centerlines using very light sharp hard lead pencil strokes.",
+        "Step 3 - Feature Blocking: Block in major object boundaries and geometric profiles with light construction lines.",
+        "Step 4 - Final Inking: Trace finished visible object outlines firmly to establish dark crisp manufacturing edges."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Architectural floor plans use fractional scales where one quarter inch represents one physical foot.",
+          "misconception": "Architectural drawings rely entirely on engineering decimal scales rather than fractional feet and inches.",
+          "pamphlet_summary": "Architectural drafting communicates spatial layout, wall thickness, door swings, and fixture locations using architectural scales. Standard floor plans represent building assemblies through convention symbols and precise fractional dimensions.",
+          "sub_id": "2a",
+          "topic_title": "Architectural Scale Construction Drawing"
+        },
+        {
+          "fact": "Third angle orthographic projection aligns top, front, and right side views perpendicularly to each other.",
+          "misconception": "Isometric drawings provide complete dimensions needed for tooling without requiring orthographic projections.",
+          "pamphlet_summary": "Mechanical drawings show multiple orthographic projections or isometric views to define manufactured component geometry. Drafters apply engineering scales and standard dimensioning rules to specify exact physical tolerances.",
+          "sub_id": "2b",
+          "topic_title": "Mechanical Component Orthographic Drawing"
+        },
+        {
+          "fact": "Electrical schematics display circuit logic and connections using standardized symbols rather than physical part shapes.",
+          "misconception": "Electrical schematics must depict exact physical component dimensions and wire routing lengths accurately.",
+          "pamphlet_summary": "Electrical schematics employ standard graphic symbols to illustrate electronic circuits and interconnection logic. Drafters include comprehensive bills of materials listing part numbers, descriptions, and component quantities.",
+          "sub_id": "2c",
+          "topic_title": "Electrical Circuit Schematic Diagram"
+        }
+      ],
+      "topic_title": "Manual Manufacturing Drawing Production"
+    },
+    {
+      "fact": "CAD software creates digital models at full real scale within virtual coordinate space before plotting.",
+      "misconception": "CAD geometry must be scaled down manually while drawing lines in virtual design space.",
+      "pamphlet_excerpts": [
+        "Virtual Modeling: Digital CAD software models parts at exact one to one physical scale.",
+        "Layer Management: Layer assignments control line color, line weight, and visibility across complex assemblies.",
+        "Geometric Snaps: Object snaps ensure perfect mathematical endpoint connections without manual visual guesswork errors.",
+        "Digital Annotation: Dimension styles establish consistent text heights, arrow sizes, and engineering tolerance formats."
+      ],
+      "pamphlet_summary": "Computer-aided design programs generate precise digital technical drawings utilizing coordinate systems, object snaps, and layer controls. Scouts generate manufacturing plans in CAD while populating drawing attributes and standardized border blocks.",
+      "req_id": "3",
+      "safety_callout": "Adjust display brightness and sit with ergonomic posture to avoid repetitive strain and eye fatigue.",
+      "socratic_questions": [
+        "What distinct benefits do object snap modes provide over manual visual alignment in CAD?",
+        "Why do professional CAD drafters separate dimensions, text, and geometry onto different layers?",
+        "How does drawing at full scale in CAD simplify subsequent drawing sheet plotting?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - File Initialization: Create a new drawing file applying the standard engineering drafting template units.",
+        "Step 2 - Layer Configuration: Establish dedicated drawing layers for object lines, dimensions, hidden features, and centerlines.",
+        "Step 3 - Geometry Creation: Construct primary model profiles using precise coordinate inputs and object snap tools.",
+        "Step 4 - Layout Plotting: Position model viewports inside paper space borders at the assigned manufacturing scale."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Architectural CAD layers separate interior partitions, electrical fixtures, and plumbing systems for selective display.",
+          "misconception": "All architectural plan elements should be drawn on a single active CAD layer.",
+          "pamphlet_summary": "Architectural CAD drawings utilize parametric walls, window blocks, and standard dimension styles to delineate building structures. Layer management enables drafters to toggle trade specific service overlays like electrical or plumbing runs.",
+          "sub_id": "3a",
+          "topic_title": "Architectural CAD Model Generation"
+        },
+        {
+          "fact": "Mechanical CAD models export orthographic views directly from three dimensional solid bodies into layout sheets.",
+          "misconception": "Mechanical CAD packages require manual redrawing of every individual two dimensional orthographic view.",
+          "pamphlet_summary": "Mechanical CAD software generates precise component models using parametric sketches, geometric constraints, and feature extrusions. Scouts generate multiview layout sheets containing orthographic projections, section views, and engineering dimensions.",
+          "sub_id": "3b",
+          "topic_title": "Mechanical Component CAD Modeling"
+        },
+        {
+          "fact": "CAD electrical libraries insert standardized schematic symbols linked to automated part schedule tables.",
+          "misconception": "Every electrical schematic symbol in CAD must be drawn manually from loose lines.",
+          "pamphlet_summary": "Electrical CAD systems provide standard schematic symbol libraries for resistors, capacitors, and solid state semiconductors. Connecting symbols with smart wire nets allows automatic extraction of accurate bills of materials.",
+          "sub_id": "3c",
+          "topic_title": "Electrical Schematic CAD Layout"
+        }
+      ],
+      "topic_title": "Computer Aided Design Production"
+    },
+    {
+      "fact": "A revision block records revision letters, description notes, author initials, and completion dates chronologically.",
+      "misconception": "Corrected drawings should completely erase earlier revision records to make drawings look pristine.",
+      "pamphlet_excerpts": [
+        "Redline Markings: Red pencil annotations highlight required additions, removals, or revisions across technical drawing views.",
+        "Revision Block: Standard title blocks contain revision columns recording chronological alteration descriptions and authorization dates.",
+        "Delta Markers: Triangular delta symbols identify altered features on drawings to facilitate quality inspection reviews.",
+        "Drawing Integrity: Updating drawings to reflect engineering change orders ensures parts match current fabrication requirements."
+      ],
+      "pamphlet_summary": "Drafting revisions require strict documentation workflows where redline markings dictate engineering corrections. Scouts incorporate designated modifications, flag modified zones with revision delta markers, and update title blocks.",
+      "req_id": "4",
+      "safety_callout": "Handle printed drawing archives carefully to prevent skin paper cuts and accidental workspace liquid spills.",
+      "socratic_questions": [
+        "Why must engineering firms preserve formal revision histories across all manufactured component drawings?",
+        "What risks arise if a machinist builds parts from an outdated unrevised drawing?",
+        "How do revision delta markers help inspectors spot altered drawing regions immediately?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Redline Review: Examine counselor redline marks carefully to identify required feature additions or removals.",
+        "Step 2 - Geometry Revision: Modify drawing geometry accurately on manual sheets or in the CAD environment.",
+        "Step 3 - Delta Placement: Place triangular revision delta markers adjacent to every modified drawing graphic feature.",
+        "Step 4 - Block Entry: Record the revision letter, description, date, and drafter initials inside revision blocks."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Counselor redline markups serve as formal engineering change orders instructing drafting drawing updates.",
+          "misconception": "Redline marks represent minor suggestions that drafters may freely ignore at their discretion.",
+          "pamphlet_summary": "Scouts present completed drawings to counselors who act as engineering supervisors reviewing production documentation. Counselors mark corrections using red pencil or digital annotation tools to simulate industrial review processes.",
+          "sub_id": "4a",
+          "topic_title": "Counselor Drawing Redline Submission"
+        },
+        {
+          "fact": "Delta revision markers connect modified sheet areas directly to corresponding lines in revision tables.",
+          "misconception": "Placing revision notes in the title block eliminates any need for sheet markers.",
+          "pamphlet_summary": "Scouts implement redlined engineering changes accurately and document every edit within an official revision block. Delta callout symbols identify modified features on drawing sheets to facilitate rapid quality inspections.",
+          "sub_id": "4b",
+          "topic_title": "Drawing Revision Delta Implementation"
+        }
+      ],
+      "topic_title": "Engineering Drawing Revision Process"
+    },
+    {
+      "fact": "CAD software eliminates physical erasing while providing instant parametric editing and geometric precision.",
+      "misconception": "CAD drafters never need to understand manual drafting principles or fundamental drawing standards.",
+      "pamphlet_excerpts": [
+        "Workflow Comparison: Manual drafting develops tactile line control whereas CAD provides rapid parametric editing.",
+        "Revision Efficiency: Updating CAD geometry requires seconds compared to erasing manual graphite drawing lines.",
+        "Mathematical Accuracy: CAD software computes dimensions automatically from precise digital geometry without measurement scaling.",
+        "Software Ecosystem: Industry utilizes diverse CAD platforms ranging from AutoCAD to specialized SolidWorks modeling."
+      ],
+      "pamphlet_summary": "Comparing manual drafting to CAD illustrates dramatic productivity improvements in design speed, editing, and geometric precision. Understanding both approaches helps Scouts appreciate foundational drafting theory while leveraging modern industrial computing tools.",
+      "req_id": "5",
+      "safety_callout": "Maintain clean dry computer workstations to prevent electrical shocks and hardware component damage.",
+      "socratic_questions": [
+        "Which drafting tasks remain easier to explore initially on manual paper sketchpads?",
+        "How does parametric CAD constraint modeling change how engineers modify mechanical parts?",
+        "Why do basic manual drafting concepts remain vital for engineers working in CAD?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Method Contrast: Contrast manual pencil drafting techniques directly against computerized coordinate entry workflows verbally.",
+        "Step 2 - Revision Analysis: Explain how CAD software streamlines modifying geometry compared with scraping manual paper.",
+        "Step 3 - Tool Review: Review specific CAD features used like object snaps, layers, and automated dimensions.",
+        "Step 4 - Industry Survey: Identify major industry computer drafting software suites like SolidWorks, Inventor, and AutoCAD."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Manual And CAD Comparison"
+    },
+    {
+      "fact": "Single stroke Gothic characters maintain legibility through uniform stroke thickness and balanced letterform proportions.",
+      "misconception": "Technical lettering guidelines allow expressive decorative flourishes if words remain somewhat legible.",
+      "pamphlet_excerpts": [
+        "Gothic Standardization: Single stroke Gothic letters provide maximum visual legibility across blueprints and microfilm.",
+        "Guideline Construction: Extremely faint horizontal guidelines ensure consistent letter height across technical written descriptions.",
+        "Stroke Sequence: Standardized pencil stroke sequences prevent hand fatigue while producing uniform letter shapes.",
+        "Industry Application: Aerospace and automotive sectors rely on CAD for rapid digital simulation prototypes."
+      ],
+      "pamphlet_summary": "Manual technical lettering requires disciplined pencil control to execute uniform single stroke vertical or slant Gothic characters. Scouts practice lettering principles to write an informative paragraph highlighting specific industrial CAD benefits.",
+      "req_id": "6",
+      "safety_callout": "Avoid resting heavy body weight on drafting wrists to prevent carpal tunnel strain.",
+      "socratic_questions": [
+        "Why did engineering industries standardize upon single stroke Gothic lettering over other fonts?",
+        "How does erratic inconsistent technical lettering introduce dangerous misreadings during mechanical assembly?",
+        "What specific CAD advantages make digital design indispensable within modern aerospace engineering?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Guideline Drawing: Draw light parallel guidelines spaced one eighth inch apart using hard lead.",
+        "Step 2 - Pencil Technique: Rotate the pencil periodically between fingers to preserve a uniform conical point.",
+        "Step 3 - Lettering Execution: Form Gothic letters systematically following standard top to bottom stroke sequence directions.",
+        "Step 4 - Content Composition: Compose the explanation detailing CAD benefits within aerospace or electronics industrial manufacturing."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Technical Lettering And Application"
+    },
+    {
+      "fact": "Industrial drafting facilities combine digital design stations with large format plotters and modelers.",
+      "misconception": "Modern design firms have completely abandoned paper drawings, plotters, and physical shop prints.",
+      "pamphlet_excerpts": [
+        "Facility Exploration: Professional drafting offices employ networked workstations, large format plotters, and scanners.",
+        "Workflow Integration: Drafters collaborate directly with manufacturing engineers, CNC machinists, and field contractors.",
+        "Tool Diversity: Modern drafting utilizes three dimensional scanners, virtual reality headsets, and plotters.",
+        "Research Avenues: Technical libraries and industry journals provide insight into emerging automated drafting technologies."
+      ],
+      "pamphlet_summary": "Investigating professional drafting workplaces reveals how designers collaborate with engineers, architects, and fabrication teams. Scouts observe professional equipment, software workflows, and the rigorous standards required across commercial production environments.",
+      "req_id": "7",
+      "safety_callout": "Wear safety glasses and high visibility vests when touring active engineering fabrication facilities.",
+      "socratic_questions": [
+        "How has the role of a drafter evolved from traditional tracing to engineering collaboration?",
+        "What specialized computer hardware and printing equipment did you observe at the facility?",
+        "How does a commercial design office manage file versioning across large engineering teams?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Facility Coordination: Contact a local engineering or architectural firm to arrange an educational visit.",
+        "Step 2 - Equipment Observation: Observe active drafting workstations, wide format plotters, and digital collaboration software tools.",
+        "Step 3 - Professional Interview: Interview a professional drafter regarding daily design responsibilities and essential project skills.",
+        "Step 4 - Career Synthesis: Summarize findings regarding commercial drafting technologies and team workflows for the counselor."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Design offices use high performance multi monitor workstations linked to centralized engineering data management servers.",
+          "misconception": "Commercial drafting offices operate using simple home office desktop setups and basic printers.",
+          "pamphlet_summary": "Touring an engineering design firm exposes Scouts to specialized drafting peripherals, networked plotters, and team workflows. Scouts observe how drafters translate design concepts into detailed shop drawings and digital fabrication files.",
+          "sub_id": "7a",
+          "topic_title": "Drafting Facility Onsite Tour"
+        },
+        {
+          "fact": "Trade research reveals that drafters increasingly specialize in building information modeling and parametric solid modeling.",
+          "misconception": "Drafting trade techniques have remained unchanged since the introduction of early CAD systems.",
+          "pamphlet_summary": "Independent research through trade journals, libraries, and approved internet resources broadens understanding of drafting disciplines. Scouts investigate specialized fields like civil, mechanical, structural, and electrical drafting and their respective tooling.",
+          "sub_id": "7b",
+          "topic_title": "Drafting Trade Industry Research"
+        }
+      ],
+      "topic_title": "Drafting Industry Practice Investigation"
+    },
+    {
+      "fact": "Professional drafters typically earn associate degrees in CAD technology and obtain industry software certifications.",
+      "misconception": "Drafting positions require no specialized post secondary training, technical degree, or formal certification.",
+      "pamphlet_excerpts": [
+        "Career Pathways: Drafting careers encompass architectural designers, mechanical detailers, and electrical layout drafters.",
+        "Educational Options: Vocational colleges and technical institutes offer associate degrees focusing on CAD technology.",
+        "Professional Credentials: Industry certifications validate specialized proficiency in platforms like AutoCAD, Revit, and SolidWorks.",
+        "Industry Outlook: Growing construction and manufacturing automation drives steady demand for skilled digital drafters."
+      ],
+      "pamphlet_summary": "Drafting skills unlock career pathways across architecture, aerospace, civil infrastructure, and advanced industrial manufacturing. Investigating training requirements, educational expenses, and employment outlooks prepares Scouts to evaluate drafting career opportunities.",
+      "req_id": "8",
+      "safety_callout": "Ensure safe computer cabling routing and surge protection at home study workstations.",
+      "socratic_questions": [
+        "Which specific engineering field aligns closest with your personal design interests and talents?",
+        "What advantages does an industry recognized CAD certification provide when seeking employment?",
+        "How are computer automation and artificial intelligence influencing future drafting employment opportunities?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Identification: Select three distinct drafting careers across civil, architectural, or mechanical engineering sectors.",
+        "Step 2 - Deep Research: Choose one career pathway and research required educational degrees, certifications, and costs.",
+        "Step 3 - Employment Analysis: Investigate job growth projections, typical entry salary ranges, and daily workplace responsibilities.",
+        "Step 4 - Presentation Preparation: Present career findings, training pathways, and advancement opportunities to the merit counselor."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Drafting Career Pathway Opportunities"
+    }
+  ]
+}

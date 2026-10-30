@@ -1,0 +1,273 @@
+{
+  "requirements": [
+    {
+      "fact": "Fixture traps maintain a water seal that blocks dangerous pathogens and lethal sewer gases.",
+      "misconception": "Drain traps exist solely to catch dropped jewelry before it washes into the sewer.",
+      "pamphlet_excerpts": [
+        "Potable Supply Isolation: Pressurized incoming pipes deliver clean water while preventing contaminated waste water from mingling.",
+        "Trap Water Barrier: Standing water in fixture traps seals out toxic flammable methane sewer gas.",
+        "Backflow Prevention Device: Atmospheric vacuum breakers prevent backsiphonage of dirty fluids into municipal supply lines.",
+        "Required Vent Stacks: Vertical roof vent stacks balance atmospheric pressure to keep drain lines flowing."
+      ],
+      "pamphlet_summary": "Plumbing systems safeguard public health by delivering potable water under pressure and isolating hazardous sewer gases through vented liquid traps. Municipal plumbing codes establish mandatory engineering minimums that prevent dangerous backflow contamination and cross-connections.",
+      "req_id": "1",
+      "safety_callout": "Always wear safety glasses and chemical-resistant gloves when handling drain piping containing biological pathogens.",
+      "socratic_questions": [
+        "Why does a drop in city main pressure threaten the safety of home drinking water?",
+        "What physical barrier stops hazardous methane gas from rising out of your bathroom sink?",
+        "How do local building permits prevent unlicensed modifications from poisoning community water systems?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Main Shutoff Location: Locate the incoming municipal water meter and identify the primary quarter turn valve.",
+        "Step 2 - Trap Integrity Audit: Examine each fixture P trap under household sinks to detect dried out seals.",
+        "Step 3 - Code Regulation Review: Review local building department ordinances regarding minimum slope for residential waste lines.",
+        "Step 4 - Personal Protection Assembly: Put on neoprene safety gloves and splash goggles before beginning any pipe dismantling."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Potable supply and sanitary drainage are physically isolated networks with dedicated air gaps preventing cross-contamination.",
+          "misconception": "Clean supply water and black drain water run through separate chambers within the same pipe.",
+          "pamphlet_summary": "Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps.",
+          "sub_id": "1a",
+          "topic_title": "Family Health And Plumbing Systems"
+        },
+        {
+          "fact": "Plumbing codes carry legal authority to prevent waterborne disease epidemics and hazardous structural gas leaks.",
+          "misconception": "Plumbing codes are optional suggestions meant to help homeowners save money on piping repairs.",
+          "pamphlet_summary": "Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps.",
+          "sub_id": "1b",
+          "topic_title": "Local Plumbing Health Regulations"
+        },
+        {
+          "fact": "Upstream isolation at the fixture stop or main shutoff valve is required before cutting lines.",
+          "misconception": "Turning off a sink faucet valve provides complete safety when cutting adjacent supply branch lines.",
+          "pamphlet_summary": "Repair safety requires isolating water lines, locking out electrical heaters, ventilating solvent fumes, and donning protective equipment.",
+          "sub_id": "1c",
+          "topic_title": "Home Plumbing Repair Precautions"
+        }
+      ],
+      "topic_title": "Home Sanitation And Health Codes"
+    },
+    {
+      "fact": "Drain pipes require a downward slope of one-quarter inch per foot to maintain scouring velocity.",
+      "misconception": "Drain pipes work best when installed completely horizontal to keep wastewater moving slowly.",
+      "pamphlet_excerpts": [
+        "Supply Pressure Delivery: Municipal or well pressure forces fresh water through rigid trunk and branch distribution lines.",
+        "Freeze Protection Drainage: Exterior sillcocks require frost-proof valves and interior shutoffs with manual bleeder drain caps.",
+        "Drainage Gravity Fall: Horizontal drain pipes must maintain one quarter inch per foot downward pitch.",
+        "Stack Vent Equalization: Open roof vent pipes admit atmospheric air to prevent siphoning of fixture traps."
+      ],
+      "pamphlet_summary": "A residential plumbing diagram shows pressurized hot and cold supply branches running alongside gravity-fed drainage waste and vent piping. Supply systems incorporate insulation and drain valves to prevent freezing, while drainage stacks exhaust sewer gases above the roofline.",
+      "req_id": "2",
+      "safety_callout": "Ensure water heaters are completely de-energized at the breaker box before draining hot water plumbing lines.",
+      "socratic_questions": [
+        "What happens to the water inside a fixture trap if the roof vent stack becomes blocked by snow?",
+        "Why must outdoor hose bibbs feature an internal shutoff valve located inside the heated building envelope?",
+        "How does water pressure differ between second-floor supply lines and ground-floor gravity drain lines?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Supply Line Mapping: Trace hot and cold water copper or PEX tubing from the main service.",
+        "Step 2 - Winterization Valve Setup: Close interior isolation valves to outdoor faucets and open small side waste bleeder caps.",
+        "Step 3 - Drain Pitch Layout: Sketch the main soil stack showing proper downward grade toward the municipal sewer.",
+        "Step 4 - Vent Stack Termination: Route the continuous vent stack vertically through the roof plane away from windows."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Freezing ice traps water downstream and builds extreme hydraulic pressure that bursts the pipe elsewhere.",
+          "misconception": "Expanding ice causes pipe ruptures only at the exact point where the ice freezes solid.",
+          "pamphlet_summary": "Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves.",
+          "sub_id": "2a",
+          "topic_title": "Supply System Winterization Architecture"
+        },
+        {
+          "fact": "Vent pipes convey only air and sewer gases, balancing system pressure so drain water flows freely.",
+          "misconception": "Vent pipes carry liquid sewage up to the roof to evaporate outside.",
+          "pamphlet_summary": "The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals.",
+          "sub_id": "2b",
+          "topic_title": "Drain Waste And Vent Architecture"
+        }
+      ],
+      "topic_title": "Supply And Drainage System Layout"
+    },
+    {
+      "fact": "Serrated pipe wrench teeth will gouge and crush delicate chrome finish, which requires smooth-jaw wrenches.",
+      "misconception": "A pipe wrench and an adjustable wrench can be used interchangeably on chrome-plated brass nuts.",
+      "pamphlet_excerpts": [
+        "Pipe Wrench Direction: Align jaw opening towards the direction of pull so serrated teeth grip firmly.",
+        "Tubing Cutter Operation: Rotate the cutter wheel smoothly while tightening the adjustment knob every two revolutions.",
+        "Basin Wrench Reach: Swiveling spring loaded jaws reach deep behind sink basins to loosen faucet mounting nuts.",
+        "Tongue Groove Pliers: Offset slip jaws adjust across multiple parallel widths to grasp irregular drainage slip nuts."
+      ],
+      "pamphlet_summary": "Professional plumbing hand tools provide mechanical leverage, precise cutting geometry, and non-marring grip across various metal and plastic materials. Using the correct tool prevents damaged fittings, deformed pipe walls, and rounded hex fastener flats.",
+      "req_id": "3",
+      "safety_callout": "Never pull a pipe wrench toward your face; push firmly with an open palm or pull away.",
+      "socratic_questions": [
+        "Why must you remove the internal burr from a copper pipe after using a wheel cutter?",
+        "How does the ratcheting jaw action of a basin wrench solve tight clearance problems under sinks?",
+        "What happens to a threaded pipe fitting if you use an oversized wrench with excessive leverage?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Wrench Jaw Alignment: Position the straight pipe wrench so the hook jaw faces the direction of turn.",
+        "Step 2 - Copper Tube Cutting: Clamp the tubing cutter wheel lightly onto the scored copper cut mark line.",
+        "Step 3 - Reaming Burr Removal: Extend the cutter reamer blade inside the pipe bore to scrape away burrs.",
+        "Step 4 - Basin Nut Removal: Engage spring loaded basin wrench jaws onto the undersink mounting nut and turn."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Plumber Hand Tool Mastery"
+    },
+    {
+      "fact": "A union allows quick disconnection without cutting pipes, whereas a coupling creates a fixed connection.",
+      "misconception": "A pipe union and a standard coupling perform identical permanent connections between two pipe ends.",
+      "pamphlet_excerpts": [
+        "Threaded Pipe Nipple: Short lengths of male threaded pipe connect closely positioned valves and female fittings.",
+        "Directional Elbow Fitting: Ninety or forty-five degree elbows alter flow direction without crimping or kinking pipes.",
+        "Sanitary Waste Trap: Curved piping retains a standing water plug that halts poisonous sewer gas infiltration.",
+        "Solder Flux Cleaning: Chemical paste prevents oxidation and draws molten filler metal deep into heated copper fittings."
+      ],
+      "pamphlet_summary": "Mastering standard plumbing terminology ensures clear communication when sourcing fittings, assembling pipe runs, and troubleshooting fixture malfunctions. Each component serves a distinct structural function, whether sealing joints, changing flow direction, or measuring consumption.",
+      "req_id": "4",
+      "safety_callout": "Avoid touching chemical flux paste with bare fingers because zinc chloride causes severe skin and eye irritation.",
+      "socratic_questions": [
+        "Why is a sanitary tee curved differently than a pressurized water supply tee fitting?",
+        "What distinguishes a compression washer from a retaining nut in a common stem faucet assembly?",
+        "Under what circumstances would an installer choose a pipe union over an inexpensive threaded coupling?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Component Function Categorization: Separate fittings into supply, drainage, sealing, directional, and flow measurement groups.",
+        "Step 2 - Fitting Thread Identification: Inspect internal female and external male threads across nipples, couplings, and plugs.",
+        "Step 3 - Trap Seal Inspection: Measure the vertical distance between the dip and crown weir on a P trap.",
+        "Step 4 - Meter Dial Reading: Read the municipal water meter register dials to record consumption in gallons or feet."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Plumbing Component Terminology Recognition"
+    },
+    {
+      "fact": "Standard PVC softens and fails under hot water; chlorinated CPVC or PEX is required.",
+      "misconception": "White PVC pipe can safely convey both pressurized hot and cold household drinking water.",
+      "pamphlet_excerpts": [
+        "Rigid Copper Tubing: Rigid copper provides exceptional heat tolerance, biostatic properties, and durable high pressure containment.",
+        "Flexible PEX Tubing: Cross-linked polyethylene resists scaling, expands during freezes, and installs with minimal joint fittings.",
+        "Drainage PVC Pipe: Polyvinyl chloride offers smooth interior surfaces and chemical resistance for gravity drain waste stacks.",
+        "Chlorinated CPVC Pipe: Added chlorine enables CPVC to handle pressurized hot water that standard PVC cannot tolerate."
+      ],
+      "pamphlet_summary": "Residential plumbing relies on copper, PEX, PVC, CPVC, and cast iron based on pressure ratings, temperature tolerances, and chemical resistance. Selecting the appropriate pipe material prevents thermal degradation, premature corrosion, and catastrophic water damage.",
+      "req_id": "5",
+      "safety_callout": "Never test plastic pipe systems like PVC or CPVC using compressed air due to explosive shattering hazards.",
+      "socratic_questions": [
+        "Why has flexible PEX largely replaced rigid copper in modern residential domestic water supply lines?",
+        "What makes heavy cast iron pipe preferable to thin plastic pipe for multi-story drain stacks?",
+        "How does the chemical addition of chlorine alter the physical performance of CPVC compared to PVC?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Material Property Comparison: Evaluate pipe temperature limits, working pressure ratings, and flexibility for the specific installation.",
+        "Step 2 - Copper Type Selection: Select Type M, L, or K copper tubing based on wall thickness requirements.",
+        "Step 3 - Plastic Pipe Designation: Verify schedule forty ratings on PVC drainage pipe before assembling gravity sewer lines.",
+        "Step 4 - Thermal Expansion Allowance: Install expansion loops along long runs of CPVC or PEX to accommodate heat."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Common Piping Material Applications"
+    },
+    {
+      "fact": "Thread tape lubricates tapered pipe threads and will ruin the seal on flat washer compression joints.",
+      "misconception": "Applying extra layers of pipe thread tape guarantees a tighter seal on mechanical compression fittings.",
+      "pamphlet_excerpts": [
+        "Square Cut Alignment: Pipe ends must be cut exactly square to seat fully inside fitting sockets.",
+        "Solvent Cement Fusion: Primer softens plastic surfaces while solvent cement chemically welds fitting and pipe together.",
+        "Capillary Action Soldering: Molten solder flows inward toward heat to seal clean fluxed copper joint gaps.",
+        "Thread Sealant Direction: Wrap PTFE tape clockwise around male pipe threads to prevent unravelling during assembly."
+      ],
+      "pamphlet_summary": "Hands-on plumbing skills require measuring accurately, cutting square ends, deburring pipe edges, and applying approved joining techniques. Practicing solvent welding, mechanical crimping, soldering, and fixture replacement builds competency in creating leak-free assemblies.",
+      "req_id": "6",
+      "safety_callout": "Keep a certified fire extinguisher and heat shield pad directly behind copper joints when operating torches.",
+      "socratic_questions": [
+        "Why must you twist a PVC pipe a quarter turn immediately after inserting it into the fitting socket?",
+        "How does capillary action enable liquid solder to flow upward into an inverted copper coupling joint?",
+        "What causes a newly installed sink drain slip joint to leak even when the nut is fully tightened?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Pipe End Preparation: Cut the pipe squarely and scrape internal and external burrs smooth with reamers.",
+        "Step 2 - Fitting Joint Assembly: Join prepared fittings using solvent cement, crimp rings, or torch applied solder paste.",
+        "Step 3 - Fixture Trap Installation: Align slip nuts and beveled washers onto the trap tailpiece before hand tightening.",
+        "Step 4 - Pressure Leak Testing: Turn on the water supply slowly to inspect newly made joints for weeping."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Each piping family requires manufacturer-certified fittings engineered for that specific material's outside diameter and joining method.",
+          "misconception": "Fittings designed for PEX tubing can be directly glued onto standard rigid CPVC pipes.",
+          "pamphlet_summary": "Visiting a plumbing supply retailer allows Scouts to compare wall thicknesses, joint designs, and connection hardware across major piping materials.",
+          "sub_id": "6a",
+          "topic_title": "Store Plumbing Component Survey"
+        },
+        {
+          "fact": "Solvent cement chemically dissolves and fuses the pipe and fitting walls into one solid piece of plastic.",
+          "misconception": "Solvent cement acts as a glue that sticks two separate pieces of plastic together like tape.",
+          "pamphlet_summary": "Solvent welding involves deburring cut plastic ends, applying purple primer to soften mating surfaces, and joining with cement.",
+          "sub_id": "6b",
+          "topic_title": "Plastic Solvent Cement Welding"
+        },
+        {
+          "fact": "Only a calibrated PEX crimp tool with a go/no-go gauge can create code-compliant watertight seals.",
+          "misconception": "A standard pair of slip-joint pliers can adequately compress copper PEX crimp rings.",
+          "pamphlet_summary": "PEX tubing connections use specialized crimp tools or push-fit connectors that seat against barbed brass or polyphenylsulfone fittings.",
+          "sub_id": "6c",
+          "topic_title": "PEX Crimp Connection Assembly"
+        },
+        {
+          "fact": "The copper fitting itself must heat the solder, drawing molten metal inward via capillary action.",
+          "misconception": "Directing the open torch flame straight at the solder wire ensures the strongest joint bond.",
+          "pamphlet_summary": "Sweat soldering requires thoroughly cleaning copper surfaces with emery cloth, applying flux, heating the joint evenly, and applying solder.",
+          "sub_id": "6d",
+          "topic_title": "Copper Torch Sweat Soldering"
+        },
+        {
+          "fact": "Old supply risers degrade internally and must be replaced with new braided stainless steel lines.",
+          "misconception": "Old crusty supply riser hoses should be reused whenever installing a brand-new faucet body.",
+          "pamphlet_summary": "Replacing a sink faucet requires shutting off undersink stop valves, disconnecting flexible supply risers, and securing mounting nuts.",
+          "sub_id": "6e",
+          "topic_title": "Sink Faucet Fixture Replacement"
+        },
+        {
+          "fact": "Over-tightening slip nuts cracks plastic threads and pinches rubber washers, causing chronic leaks.",
+          "misconception": "Slip joint nuts on sink traps require excessive tightening with a heavy pipe wrench.",
+          "pamphlet_summary": "Servicing a sink P-trap involves loosening slip nuts, draining trapped water into a bucket, clearing debris, and resealing washers.",
+          "sub_id": "6f",
+          "topic_title": "Drain Trap Removal Servicing"
+        },
+        {
+          "fact": "Counterclockwise wrapping bunches up and shreds off as the male fitting threads into the female socket.",
+          "misconception": "Wrapping thread tape counterclockwise provides the exact same sealing performance as clockwise wrapping.",
+          "pamphlet_summary": "PTFE thread sealant tape wraps snugly into male pipe threads in a clockwise direction to lubricate and seal tapered NPT joints.",
+          "sub_id": "6g",
+          "topic_title": "Thread Tape Sealant Application"
+        }
+      ],
+      "topic_title": "Practical Plumbing Assembly Skills"
+    },
+    {
+      "fact": "Plumbing encompasses complex engineering, medical gas distribution in hospitals, fire suppression, and municipal water infrastructure.",
+      "misconception": "Plumbing careers involve only clearing clogged household toilets with hand snakes.",
+      "pamphlet_excerpts": [
+        "Apprentice Training Programs: Registered apprenticeships blend paid on the job mechanical experience with technical night school.",
+        "Journeyman Licensing Exams: Passing state licensing exams verifies comprehensive mastery of regional codes and hydraulic engineering.",
+        "Master Plumber Leadership: Master plumbers pull municipal permits, manage contracting businesses, and supervise developing apprentice crews.",
+        "Specialized Pipefitter Careers: Commercial industrial pipefitters install massive high pressure steam, gas, and chemical transport systems."
+      ],
+      "pamphlet_summary": "Career opportunities in plumbing range from residential service technicians and commercial pipefitters to fire sprinkler installers and plumbing inspectors. Advancing from an apprentice to a licensed master plumber requires thousands of hours of classroom education and supervised on-the-job training.",
+      "req_id": "7",
+      "safety_callout": "Occupational plumbers must maintain OSHA certification regarding confined space entry, trench shoring, and hazardous gas mitigation.",
+      "socratic_questions": [
+        "How do trade union apprenticeship programs balance paid work experience with classroom plumbing theory?",
+        "Why must a contractor hold a master plumber license rather than a journeyman license to pull building permits?",
+        "In what ways is evolving green building technology creating new specialization fields within the plumbing industry?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Vocational Pathway Exploration: Research trade school curricula, union joint apprenticeship committees, and non-union contractor programs.",
+        "Step 2 - Licensing Prerequisite Analysis: Document state board requirements for classroom hours, field hours, and written examinations.",
+        "Step 3 - Financial Obligation Breakdown: Calculate anticipated initial expenses for personal tool purchases, trade textbooks, and licensing fees.",
+        "Step 4 - Industry Employment Projection: Review Bureau of Labor Statistics projections regarding regional employment growth and journeyman wages."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Plumbing Industry Career Pathways"
+    }
+  ]
+}

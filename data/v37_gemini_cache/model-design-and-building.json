@@ -1,0 +1,305 @@
+{
+  "requirements": [
+    {
+      "fact": "Sharp hobby scalpel blades cause deep lacerations requiring immediate stitches when guided improperly.",
+      "misconception": "Beginners believe small hobby knives cause negligible injuries compared to full workshop power tools.",
+      "pamphlet_excerpts": [
+        "Eye Protection Standard: Safety glasses shield eyes from airborne plastic shards during mechanical tool cutting operations.",
+        "Ventilation Airflow Minimum: Dedicated exhaust fans draw volatile organic vapors safely away from indoor workbenches.",
+        "Blade Retraction Habit: Retractable utility knife blades must remain closed when resting on flat workbenches.",
+        "Thermal Enclosure Rule: Heated three-dimensional printer extruders require physical safety guards during active manufacturing runs."
+      ],
+      "pamphlet_summary": "Model construction demands strict adherence to physical tool safety and controlled ventilation protocols when handling adhesives or machinery. Digital fabrication devices introduce distinct high-heat hazards and optical exposure risks requiring dedicated personal protection.",
+      "req_id": "1",
+      "safety_callout": "Cut away from hands and body along a steel straightedge resting on a non-slip mat.",
+      "socratic_questions": [
+        "Why does a sharp hobby blade present fewer accidental slippage risks than a dull blade?",
+        "Which air filtration mechanics protect your respiratory tract from solvent vapors versus airborne sawdust particles?",
+        "How do safety interlocks on computerized laser cutters protect operators from invisible scattered radiation?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Protective Equipment Donning: Don approved impact goggles and nitrile gloves before handling sharp modeling tools.",
+        "Step 2 - Ventilation System Activation: Turn on outdoor exhaust hoods before opening chemical adhesive solvent bottles today.",
+        "Step 3 - Cutting Mat Placement: Position a self-healing rubber cutting mat firmly beneath all targeted model stock.",
+        "Step 4 - Tool Return Protocol: Store cutting knives in protective wooden blocks immediately following each precise cut."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Dull blades require excessive forward force, causing uncontrollable knife slips across work surfaces.",
+          "misconception": "Beginners assume dull blades are safer to handle than fresh replacement razor edges.",
+          "pamphlet_summary": "Hand cutting tools require deliberate cut strokes away from fingers alongside protective eye shields. Dull blades force dangerous manual pressure that often leads to severe slips.",
+          "sub_id": "1a",
+          "topic_title": "Hand Tool Safety Regulations"
+        },
+        {
+          "fact": "Hot ends operate above two hundred degrees Celsius and pinch points catch loose sleeves.",
+          "misconception": "Novices think enclosed desktop additive manufacturing printers present zero physical burn or pinch hazards.",
+          "pamphlet_summary": "Computer numerical control mills and filament extruders generate hot surfaces and mechanical pinch points. Operators must maintain safety interlocks and avoid wearing loose clothing around motorized carriages.",
+          "sub_id": "1b",
+          "topic_title": "Digital Tool Safety Protocols"
+        },
+        {
+          "fact": "Cyanoacrylate adhesives release airborne cyanoacrylate vapors that irritate mucous membranes and skin tissues.",
+          "misconception": "Novices believe odorless cyanoacrylate super glues do not release irritant fumes during curing.",
+          "pamphlet_summary": "Liquid plastic cements and aerosol spray paints emit toxic volatile compounds that ignite near open flames. Scouts must use cross-ventilation hoods and store solvents in designated metal safety cabinets.",
+          "sub_id": "1c",
+          "topic_title": "Hazardous Chemical Solvent Controls"
+        }
+      ],
+      "topic_title": "Model Workshop Safety Practices"
+    },
+    {
+      "fact": "Engineers build functional physical models to stress-test spatial clearances, assembly access, and fluid routing.",
+      "misconception": "Beginners assume all scale models serve purely decorative display functions rather than analytical evaluation.",
+      "pamphlet_excerpts": [
+        "Architectural Space Representation: Scaled architectural models illustrate room volumes, site circulation, and external daylight access.",
+        "Mechanical Kinematic Testing: Functional mechanical models demonstrate linkage ratios and gear reduction under manual manipulation.",
+        "Process Piping Identification: Color-coded industrial process models track high-pressure liquid routing through complex piping refineries.",
+        "Modern Filament Deposition: Digital polymer extrusion enables rapid physical prototyping directly from parametric software meshes."
+      ],
+      "pamphlet_summary": "Professional modelmakers categorize projects into architectural, structural, process, mechanical, and industrial types according to functional intent. Builders select either traditional carving media or modern additive polymers depending on scale and simulation needs.",
+      "req_id": "2",
+      "safety_callout": "Wear a particulate respirator mask when shaping high-density urethane foam on electric sanding tables.",
+      "socratic_questions": [
+        "How does an architectural massing model differ in purpose from a finished client presentation model?",
+        "In what situations does an industrial process model prevent catastrophic spatial routing errors on refinery sites?",
+        "Why might a modelmaker choose basswood over polystyrene sheet when building delicate structural trusses?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Project Type Selection: Identify whether the design represents a building, pipeline, linkage, or transportation vehicle.",
+        "Step 2 - Scale Proportion Calculation: Calculate the exact dimensional reduction ratio matching standard architectural or engineering scales.",
+        "Step 3 - Material Media Determination: Match structural loads with appropriate balsa wood, high-density foam, or plastic sheets.",
+        "Step 4 - Fabrication Workflow Setup: Select between manual razor carving or digital additive fabrication for final production."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Architectural models highlight finished spatial surfaces while structural models expose load-bearing joists and studs.",
+          "misconception": "Beginners assume an architectural model and a structural model display identical internal framing details.",
+          "pamphlet_summary": "Different engineering disciplines utilize specific model categories to solve distinct spatial and functional challenges. Structural models expose internal framing, while mechanical models test physical linkages and gear assemblies.",
+          "sub_id": "2a",
+          "topic_title": "Technical Model Classification Categories"
+        },
+        {
+          "fact": "Digital tools require precise real-world material thickness values to generate accurate joint assemblies.",
+          "misconception": "Beginners believe computer modeling software eliminates the need to understand physical material tolerances.",
+          "pamphlet_summary": "Parametric computer design platforms allow builders to test kinematic motions and verify tolerances before physical fabrication. Three-dimensional rendering tools reveal visual balance and lighting behavior under simulated operational conditions.",
+          "sub_id": "2b",
+          "topic_title": "Digital Simulation and Drafting"
+        },
+        {
+          "fact": "Basswood provides higher directional tensile strength along straight truss chords than layer-printed plastic.",
+          "misconception": "Scouts assume modern three-dimensional printed plastic parts are superior to wood in every application.",
+          "pamphlet_summary": "Model builders select between wood grains, brass tubes, cast resins, and extruded thermoplastic filaments. Each material requires compatible cutting methods, surface primers, and specialized adhesives for durable construction.",
+          "sub_id": "2c",
+          "topic_title": "Traditional and Additive Materials"
+        }
+      ],
+      "topic_title": "Scale Model Classifications and Media"
+    },
+    {
+      "fact": "Unmeasured freehand sketches lead to cumulative dimensional compounding errors during final component joining.",
+      "misconception": "Novices think building directly from rough freehand sketches saves substantial project completion time.",
+      "pamphlet_excerpts": [
+        "Orthographic Plan Generation: Detailed top, front, and side views establish dimensional accuracy before cutting materials.",
+        "Balsa Stock Accounting: Accurate material bills list board thickness, structural wood species, and adhesive quantities.",
+        "Cutting Tool Preparation: Modelers inventory exact scalpels, metal rulers, tweezers, and files before beginning assembly.",
+        "Design Rationale Articulation: Project logs document specific technical reasons for selecting a custom scratch-built subject."
+      ],
+      "pamphlet_summary": "Thorough drafting and detailed material accounting form the essential foundation of any successful scratch-built model. Builders establish an exact scale ratio before ordering stock or sketching working orthographic layout drawings.",
+      "req_id": "3",
+      "safety_callout": "Keep steel straightedges clamped securely to drafting boards when scoring raw sheets with hobby knives.",
+      "socratic_questions": [
+        "Why is drawing three orthographic projections necessary before cutting three-dimensional physical parts?",
+        "How does an itemized bill of materials prevent costly delays during complex model fabrication?",
+        "Which factors dictate whether a design requires computer-assisted drafting rather than manual drafting boards?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Orthographic Drawing Execution: Draft scaled front, top, and elevation views on gridded drafting paper sheets.",
+        "Step 2 - Bill of Materials Compilation: Quantify all raw balsa strips, styrene sheets, and chemical bonding agents needed.",
+        "Step 3 - Assembly Tool Gathering: Assemble razor saws, sanding sticks, machinist squares, and clamps in the workspace.",
+        "Step 4 - Fabrication Sequence Outline: Write a numbered timeline ordering structural framing prior to external decorative detailing."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Inaccurate drawings cause mismatched seams, uneven roof pitches, and failed interlocking joints during assembly.",
+          "misconception": "Beginners assume drawings made to approximate eye proportions function adequately as cutting templates.",
+          "pamphlet_summary": "Builders create orthographic views using precise architectural or engineering scale rulers. These scaled drawings serve as physical cutting templates throughout assembly.",
+          "sub_id": "3a",
+          "topic_title": "Scaled Technical Drawing Preparation"
+        },
+        {
+          "fact": "Calculating surface area and linear foot requirements prevents mid-project shortages of matching wood grain.",
+          "misconception": "Novices assume they can purchase random sheets of balsa without calculating specific part dimensions.",
+          "pamphlet_summary": "An itemized bill lists every required raw material, dimensions, structural characteristics, and estimated costs. Accurate accounting ensures adequate stock is on hand before assembly begins.",
+          "sub_id": "3b",
+          "topic_title": "Material Quantity Bill Compilation"
+        },
+        {
+          "fact": "Crushing actions from dull household scissors splinter delicate balsa strips and craze thin polystyrene.",
+          "misconception": "Beginners believe standard kitchen knives and utility scissors can substitute for modeling razor saws.",
+          "pamphlet_summary": "Compiling a dedicated tooling roster guarantees proper holding fixtures, abrasive grits, and cutters are available. Specialized miniature clamps and mitre boxes ensure accurate geometric alignment.",
+          "sub_id": "3c",
+          "topic_title": "Model Tooling Inventory Assessment"
+        },
+        {
+          "fact": "The requirement strictly mandates scratch-built construction executed from the scout's original dimensional layout.",
+          "misconception": "Scouts assume modifying a commercial injection-molded kit satisfies the requirement for an original design.",
+          "pamphlet_summary": "The modeler documents original design goals, functional intentions, and inspiration behind the chosen subject. Explaining the subject choice validates personal investment and creative problem-solving.",
+          "sub_id": "3d",
+          "topic_title": "Original Project Subject Selection"
+        },
+        {
+          "fact": "Digital tools require rigorous mastery of spatial coordinates, geometric constraints, and manufacturing parameters.",
+          "misconception": "Novices think using digital CAD tools reduces the required manual skill of the modeler.",
+          "pamphlet_summary": "Builders discuss whether to utilize three-dimensional CAD software for drafting or digital fabrication output. Integrating digital tools allows virtual pre-fitting and rapid revision of intricate subassemblies.",
+          "sub_id": "3e",
+          "topic_title": "Digital Design Tool Integration"
+        }
+      ],
+      "topic_title": "Model Project Planning Procedures"
+    },
+    {
+      "fact": "Merit badge rules mandate original scratch-built construction using raw sheet, strip, and rod materials.",
+      "misconception": "Beginners assume commercial kit parts can be mixed into scratch-built models without invalidating requirements.",
+      "pamphlet_excerpts": [
+        "Quarter Scale Architecture: Architectural models built at quarter-inch scale require accurate door and window openings.",
+        "Framed Corner Joinery: Structural timber models showcase double top plates, corner studs, and sole plates.",
+        "Process Line Coloration: Process plumbing layouts utilize designated colors to separate hot and cold water.",
+        "Mechanical Linkage Motion: Mechanical assemblies must demonstrate smooth kinetic transfer across two combined simple machines."
+      ],
+      "pamphlet_summary": "Scouts execute full scratch-built construction of their selected project without relying on commercial pre-molded kit components. Builders meticulously translate two-dimensional scaled drawings into rigid, accurately aligned physical three-dimensional assemblies.",
+      "req_id": "4",
+      "safety_callout": "Clamp small wooden or plastic pieces in miniature table vises rather than holding them by hand when sawing.",
+      "socratic_questions": [
+        "What techniques ensure right-angle corners remain perfectly square while adhesive dries on a box frame?",
+        "How do different wood grain orientations affect joint strength when constructing miniature wall framing?",
+        "Why must mechanical linkages have calibrated bearing clearances rather than tight friction fits?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Subassembly Component Roughing: Cut primary structural framing members to rough length according to scaled orthographic plans.",
+        "Step 2 - Precision Edge Truing: True every mating joint edge using fine sandpaper blocks and machinist squares.",
+        "Step 3 - Adhesive Joinery Clamping: Apply compatible bonding cement and clamp components under light pressure until cured.",
+        "Step 4 - Surface Finish Application: Sand exposed exterior faces smooth before applying uniform protective primer coats evenly."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Floor plan alignment dictates exterior wall placement and prevents structural sagging across roof expanses.",
+          "misconception": "Novices believe exterior architectural models do not require floor layout alignment or interior walls.",
+          "pamphlet_summary": "Builders construct a residential house model at one-quarter inch equals one foot scale. The model must feature accurate wall elevations, window openings, structural partitions, and roof trusses.",
+          "sub_id": "4a",
+          "topic_title": "Architectural Home Scale Construction"
+        },
+        {
+          "fact": "True structural corners require three studs or corner blocking to provide interior drywall fastening surfaces.",
+          "misconception": "Beginners assume a structural corner consists of simply nailing two single studs together at ninety degrees.",
+          "pamphlet_summary": "This model highlights structural framing conventions at one-and-a-half inches to one foot scale. Builders assemble sole plates, three-stud corner assemblies, blocking, and double top plates.",
+          "sub_id": "4b",
+          "topic_title": "Wood Frame Corner Construction"
+        },
+        {
+          "fact": "Waste lines require continuous downward gravity slope, whereas pressurized supply pipes run in any direction.",
+          "misconception": "Scouts assume water supply lines and drain waste vent lines follow identical pipe slope rules.",
+          "pamphlet_summary": "Builders assemble a scale process model representing residential water distribution and drainage piping. Scaled pipes must distinguish hot water, cold water, soil stacks, and vent lines.",
+          "sub_id": "4c",
+          "topic_title": "Residential Process Plumbing Layout"
+        },
+        {
+          "fact": "The model must physically operate to demonstrate force transfer between connected simple machine elements.",
+          "misconception": "Beginners think mechanical models only need to look functional without actually moving or transmitting force.",
+          "pamphlet_summary": "The mechanical model combines two or more simple machines into a functioning kinematic device. Builders must demonstrate mechanical advantage through levers, pulleys, wheel-axles, or gear trains.",
+          "sub_id": "4d",
+          "topic_title": "Mechanical Simple Machine Assembly"
+        },
+        {
+          "fact": "Exact measurement stations along the real vehicle body are necessary to reproduce faithful body curves.",
+          "misconception": "Novices assume vehicle curves can be approximated by eye without taking caliper measurements.",
+          "pamphlet_summary": "Builders measure a real-world passenger vehicle to construct a scratch model at one-twelfth or one-twenty-fourth scale. Construction captures accurate aerodynamic contours, wheel tracks, and cabin proportions.",
+          "sub_id": "4e",
+          "topic_title": "Passenger Vehicle Industrial Modeling"
+        }
+      ],
+      "topic_title": "Scratch Model Construction Execution"
+    },
+    {
+      "fact": "Believable fantasy craft rely on authentic aerospace ergonomics, structural paneling, and visible service access hatches.",
+      "misconception": "Beginners assume fantasy models require no real-world engineering logic because the subject is imaginary.",
+      "pamphlet_excerpts": [
+        "Naval Hull Inspiration: Submarine and warship hulls provide realistic structural contours for fictional spacecraft designs.",
+        "Internal Modular Partitioning: Designing cockpit controls and cargo bays establishes believable human scale inside fantasy craft.",
+        "Multi Angle Projection: Orthographic rendering displays propulsion systems, hull plating, and sensory arrays from three vistas.",
+        "Greeblie Surface Detailing: Applying tiny structural kit-bashed shapes simulates authentic functional mechanics across blank hull surfaces."
+      ],
+      "pamphlet_summary": "Fantasy spacecraft construction blends imaginative science-fiction aesthetics with real-world maritime and aerospace engineering logic. Modelers select an intentional scale ratio and add greeblies to communicate realistic industrial utility and massive physical size.",
+      "req_id": "5",
+      "safety_callout": "Work in a spray booth with organic vapor cartridges when applying aerosol surface fillers and lacquer paints.",
+      "socratic_questions": [
+        "How does borrowing visual design cues from modern submarines give a fantasy spacecraft visual credibility?",
+        "What role do surface greeblies play in helping an audience perceive the enormous scale of a filming miniature?",
+        "Why must a modelmaker establish an exact scale ratio even when designing an imaginary science-fiction vessel?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Reference Vehicle Study: Analyze naval submarine conning towers and jet engine cowlings for functional hull shapes.",
+        "Step 2 - Internal Module Layout: Sketch interior crew compartments, reactor housings, and propulsion nozzles to a defined scale.",
+        "Step 3 - Multi View Rendering: Draft top, profile, and frontal perspective projections displaying exterior equipment pods clearly.",
+        "Step 4 - Scratch Hull Construction: Assemble the main hull structure using styrene sheets before adding surface mechanical detail."
+      ],
+      "sub_requirements": [
+        {
+          "fact": "Studying real submarines and military jets reveals authentic aerodynamic, hydraulic, and structural design solutions.",
+          "misconception": "Beginners assume copying movie spaceships directly is better than studying actual naval and aerospace vessels.",
+          "pamphlet_summary": "Builders research operational aircraft, submarines, and naval warships to uncover convincing industrial forms. Incorporating functional intakes, exhaust fairings, and armor plate bevels anchors fantasy designs in reality.",
+          "sub_id": "5a",
+          "topic_title": "Real World Design Inspiration"
+        },
+        {
+          "fact": "Modeling logical cockpit seats, airlocks, and engine bulkheads prevents nonsensical window and door placements.",
+          "misconception": "Scouts assume a fantasy spaceship exterior can be built without considering internal crew accommodation space.",
+          "pamphlet_summary": "Spacecraft models require deliberate spatial planning for cockpit canopies, crew quarters, powerplants, and thrusters. Laying out functional modules ensures exterior contours reflect believable internal machinery and habitable compartments.",
+          "sub_id": "5b",
+          "topic_title": "Spacecraft Subsystem Component Architecture"
+        },
+        {
+          "fact": "Orthographic drawings from multiple angles are mandatory to resolve complex three-dimensional hull intersections accurately.",
+          "misconception": "Novices think a single rough perspective sketch provides sufficient blueprint guidance for building a miniature.",
+          "pamphlet_summary": "The modeler produces multi-angle orthographic sketches or three-dimensional digital renderings of the completed vehicle. These illustrations establish color palettes, shadow lines, and structural symmetry before fabrication begins.",
+          "sub_id": "5c",
+          "topic_title": "Multiview Rendering and Visualization"
+        },
+        {
+          "fact": "Explaining how unexpected structural failures were diagnosed and repaired demonstrates true engineering maturity.",
+          "misconception": "Scouts assume discussing construction difficulties with the counselor will lower their evaluation score.",
+          "pamphlet_summary": "The builder presents material selections, fabrication techniques, scale choices, and engineering setbacks to the counselor. This dialogue evaluates the scout's problem-solving adaptations during scratch-built assembly.",
+          "sub_id": "5d",
+          "topic_title": "Fabrication Process Counselor Review"
+        }
+      ],
+      "topic_title": "Sci-Fi Fantasy Spacecraft Engineering"
+    },
+    {
+      "fact": "Medical device firms and aerospace manufacturers continuously employ physical modelmakers to validate ergonomics and aerodynamic prototypes.",
+      "misconception": "Beginners assume digital computer graphics have completely eliminated professional career opportunities for physical modelmakers.",
+      "pamphlet_excerpts": [
+        "Industrial Prototyping Roles: Automotive and consumer goods modelers create physical ergonomic prototypes for consumer testing.",
+        "Architectural Firm Presentation: Architectural modelmakers construct museum-grade scale representations of planned civic infrastructure projects.",
+        "Entertainment Creature Fabrication: Special effects miniature fabricators build detailed practical filming props for cinematic productions.",
+        "Digital Prototyping Education: Bachelor degrees in industrial design provide foundation training in computer fabrication tools."
+      ],
+      "pamphlet_summary": "Professional modelmakers apply their craft across industrial design studios, architectural firms, movie visual effects shops, and prosthetic laboratories. Entering these industries requires rigorous training in digital modeling, materials science, precision machining, and artistic finishing.",
+      "req_id": "6",
+      "safety_callout": "Commercial fabrication workshops require steel-toed boots and strict adherence to lock-out tag-out machinery procedures.",
+      "socratic_questions": [
+        "How has the integration of additive manufacturing changed the daily responsibilities of an industrial modelmaker?",
+        "Why do automotive styling studios still create full-scale clay models alongside computer-generated virtual reality simulations?",
+        "Which technical skills bridge the gap between traditional hand craftsmanship and digital computer-aided manufacturing?"
+      ],
+      "step_by_step_procedure": [
+        "Step 1 - Career Field Identification: Select an industry such as architectural modeling, automotive styling, or film special effects.",
+        "Step 2 - Educational Pathway Research: Investigate required university degree programs, vocational technical certifications, and associated tuition costs.",
+        "Step 3 - Market Compensation Assessment: Research median entry salaries, senior pay bands, and geographic job demand concentrations.",
+        "Step 4 - Professional Interview Execution: Interview an active professional modelmaker regarding daily workshop tasks and career advancement."
+      ],
+      "sub_requirements": [],
+      "topic_title": "Model Design Career Pathways"
+    }
+  ]
+}

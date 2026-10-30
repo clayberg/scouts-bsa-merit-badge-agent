@@ -12,10 +12,10 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Range Safety Rules and Whistle Commands | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Arrow Anatomy, Materials, and Construction | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Protective Gear and Archery Terminology | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Archery Merit Badge Pamphlet (p. 25, p. 26) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Archery Disciplines and Target Scoring | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Archery Range Safety Protocol | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Arrow Construction and Maintenance | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Archery Equipment and Terminology | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Archery Merit Badge Pamphlet (p. 25, p. 26) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Archery Rounds and Scoring | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5a** | Recurve Bow or Longbow: Bow Parts, Stringing, 11 Steps & Qualification | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Archery Merit Badge Pamphlet (p. 29, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5b** | Compound Bow: Bow Parts, Cable Care, 11 Steps & Qualification | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Archery Merit Badge Pamphlet (p. 29, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
@@ -31,24 +31,24 @@
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Range Safety Rules and Whistle Commands
+### Req 1: Archery Range Safety Protocol
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations. (b) Explain the five range safety rules. (c) Explain the four whistle commands used on the range. (d) Explain how to safely remove arrows from the target and return them to your quiver. (e) Tell your counselor about your local and state laws for owning and using archery equipment.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Archery Requirement 1: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during range safety rules and whistle commands, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** Two whistle blasts on the archery range allow you to step to the shooting line and immediately nock an arrow on your bowstring.
-- **Pamphlet Fact:** Two whistle blasts mean archers may step to the shooting line and pick up their bows, but they must wait for a single whistle blast before picking up or nocking an arrow (p. 11).
+> **Guide to Safe Scouting Warning:** Immediately cease all shooting and lower your bow upon hearing five or more whistle blasts.
+- **Common Myth:** Target arrows cause minimal injury because they lack razor hunting broadheads.
+- **Pamphlet Fact:** A released arrow travels with lethal momentum and penetrates deep into target matter.
 
 **Official Pamphlet Summary:**
-- The whistle commands used on a range, and their related verbal commands, are as follows (p. 11).
-- Two-Blast Line Approach: Two blasts on a whistle, "Step to the shooting line." You may step to the shooting line and pick up your bow (p. 11).
-- One-Blast Shooting Signal: One blast on a whistle, "Commence shooting." You may pick up an arrow and shoot this end (p. 11).
-- When you are done, put your bow in a bow stand and step to the waiting line (p. 11).
+- Projectile Energy: Released arrows carry significant kinetic force capable of causing fatal puncture trauma.
+- Range Boundaries: Approved ranges require controlled buffer zones behind targets preventing stray arrow escapes.
+- Whistle blasts provide unambiguous emergency auditory cues heard across active shooting lines.
+- Safe Retrieval: Proper arrow pulling requires placing one hand flat against the target face.
 
-#### Req 1a: Projectile Hazards and Approved Ranges
+#### Req 1a: Projectile Physics and Caution
 **Official Requirement 1a:** Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Projectile Is and Why Any)
-- **Common Myth:** Three whistle blasts indicate an emergency stop on the archery range.
-- **Pamphlet Fact:** Three whistle blasts signal 'Retrieve your arrows,' while five or more blasts signal an emergency that requires all archers to stop shooting immediately (p. 11).
+- **Common Myth:** Arrows bounce harmlessly off wooden backstops due to low blunt impact speed.
+- **Pamphlet Fact:** Arrows travel at speeds exceeding one hundred fifty feet per second.
 
 ![Practical Archery field visual showing proper setup, measurement, and technique for range safety rules and whistle commands in Requirement 1.](/assets/pamphlet_images/archery_p003_img1.png)
 
@@ -58,11 +58,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Five Core Range Safety Rules
+#### Req 1b: Five Range Safety Rules
 **Official Requirement 1b:** Explain the five range safety rules.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Range Safety)
-- **Common Myth:** Several archers can pull arrows from the same target butt simultaneously as long as they pull slowly.
-- **Pamphlet Fact:** Only one archer at a time should stand directly in front of the target to pull arrows while others wait safely behind the target line to avoid being struck by the nock end (p. 13).
+- **Common Myth:** Safety rules only apply when another archer stands directly beside your lane.
+- **Pamphlet Fact:** The five range safety rules govern bow handling across every active shooting discipline.
 
 ![Mounted hunters use traditional bows and arrows to pursue American bison across the open plains.](/assets/pamphlet_images/archery_p009_img1.png)
 
@@ -72,11 +72,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1c: Four Range Whistle Commands
+#### Req 1c: Range Whistle Command System
 **Official Requirement 1c:** Explain the four whistle commands used on the range.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (Whistle Commands Used on The)
-- **Common Myth:** Because bows do not use gunpowder, they are legally classified as toys and can be shot in any public park.
-- **Pamphlet Fact:** Bows shoot high-speed projectiles capable of causing severe injury, so local and state ordinances strictly regulate where archery equipment may be discharged (p. 11).
+- **Common Myth:** Whistle commands are optional guidelines that archers can ignore during informal practice.
+- **Pamphlet Fact:** Three whistle blasts give the explicit command to walk downrange and score.
 
 ![An archer demonstrates eye protection and safe equipment handling while standing on the shooting line.](/assets/pamphlet_images/archery_p014_img1.png)
 
@@ -86,11 +86,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1d: Safe Arrow Retrieval and Quivering
+#### Req 1d: Safe Target Arrow Extraction
 **Official Requirement 1d:** Explain how to safely remove arrows from the target and return them to your quiver.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Remove Arrows From The Target)
-- **Common Myth:** During Archery Requirement 1d, Scouts can underestimate how directly mastery of safe arrow retrieval and quivering depends on understanding how to safely remove arrows from the target and return them to your quiver.
-- **Pamphlet Fact:** Scouting America standards for Archery Requirement 1d require complete workbook entries on safe arrow retrieval and quivering to demonstrate full understanding of how to safely remove arrows from the target and return them to your quiver.
+- **Common Myth:** Yanking an arrow by its fletching is the fastest method to clear targets.
+- **Pamphlet Fact:** One hand must brace the target face while the other grips the shaft near the boss.
 
 ![An archery instructor explains range safety procedures to Scouts before they approach the shooting line.](/assets/pamphlet_images/archery_p015_img1.png)
 
@@ -100,11 +100,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1e: Local and State Archery Laws
+#### Req 1e: Local Archery Legal Codes
 **Official Requirement 1e:** Tell your counselor about your local and state laws for owning and using archery equipment.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Local and State Laws for)
-- **Common Myth:** Overlooking the specific field checks required for Local and State Archery Laws (Req 1e) or confusing Local and State Archery Laws with general Range Safety Rules and Whistle Commands procedures.
-- **Pamphlet Fact:** For Requirement 1e (Local and State Archery Laws), The Archery pamphlet for Requirement 1e details your counselor about your local and state laws for owning and using archery equipment, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 11).
+- **Common Myth:** Bows are exempt from municipal weapons ordinances because they do not use gunpowder.
+- **Pamphlet Fact:** Municipal codes frequently prohibit discharging bows within city limits outside certified ranges.
 
 ![A craftsman carefully trims the end of a wooden shaft while hand-crafting a traditional arrow.](/assets/pamphlet_images/archery_p022_img1.png)
 
@@ -114,24 +114,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Arrow Anatomy, Materials, and Construction
+### Req 2: Arrow Construction and Maintenance
 **Official Requirement 2 (Parent Overview):** Do the following: (a) Name and point to the parts of an arrow. (b) Describe three or more different types of arrows. (c) Name the four principal materials for making arrow shafts. (d) Do ONE of the following: (1) Make a complete arrow from a bare shaft using appropriate equipment available to you. (2) To demonstrate arrow repair, inspect the shafts and prepare and replace at least three vanes, one point, and one nock. You may use as many arrows as necessary to accomplish this. The repairs can be done on wood, fiberglass, or aluminum arrows. (e) Explain how to properly care for and store arrows.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Archery Requirement 2: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during arrow anatomy, materials, and construction, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** Hunting arrows use the smallest possible plastic vanes so they can fly faster toward game animals.
-- **Pamphlet Fact:** Hunting arrows use longer 4 to 5 inch fletchings set with a strong spiral to spin the shaft and stabilize the heavy broadhead point in flight (p. 18).
+> **Guide to Safe Scouting Warning:** Flex carbon arrows vigorously before shooting to detect hidden structural cracks or fiber fractures.
+- **Common Myth:** Any straight stick or dowel functions safely as a target archery arrow.
+- **Pamphlet Fact:** Arrow components must balance properly to withstand severe buckling forces during launch.
 
 **Official Pamphlet Summary:**
-- You also can tell arrows apart by their fletchings. Target arrows use small fletchings (p. 18).
-- Target Feather and Vane Sizes: These can be feathers from 2 to 3 inches long or plastic vanes about 1 1/2 to 2 inches long (p. 18).
-- Flu-Flu Blunt Arrow Fletching: These fletchings are most often used on blunt-tipped arrows (p. 18).
-- Rapid Drop and Hunting Vanes: They slow the arrow's flight and make it drop quickly. Hunting arrows use longer fletchings, usually 4 to 5 inches long (p. 18).
+- Arrows consist of a point, shaft, cresting, fletching, and indexed nock.
+- Dynamic spine measures shaft bending resistance during the violent initial forward launch.
+- Material Types: Modern arrow shafts utilize wood, tubular aluminum, carbon fiber, or composite materials.
+- Fletching jigs position vanes at precise angles ensuring true in-flight stabilization.
 
-#### Req 2a: Parts of an Arrow
+#### Req 2a: Arrow Anatomy and Parts
 **Official Requirement 2a:** Name and point to the parts of an arrow.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix (Archery Arrow Principles)
-- **Common Myth:** Flu-flu arrows are designed with oversized feathers to help the arrow glide farther across open fields.
-- **Pamphlet Fact:** Flu-flu arrows use large, bushy fletchings that create high aerodynamic drag to slow the arrow down and make it drop quickly after a short flight (p. 18).
+- **Common Myth:** Fletching feathers are purely decorative and can face any direction when loaded.
+- **Pamphlet Fact:** The index feather points perpendicular to the bowstring when nocked on traditional recurves.
 
 ![Illustrated Archery technical diagram of arrow anatomy, materials, and construction for Requirement 2 field execution.](/assets/pamphlet_images/archery_p007_img1.png)
 
@@ -141,11 +141,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b: Types of Arrows and Uses
+#### Req 2b: Arrow Types and Profiles
 **Official Requirement 2b:** Describe three or more different types of arrows.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix (More Different Types of Arrows)
-- **Common Myth:** All three fletchings on an arrow are identical in purpose, so it does not matter which direction the index feather faces when nocking.
-- **Pamphlet Fact:** The index (or cock) feather must point away from the bow riser on traditional and recurve bows so the fletching clears the arrow rest cleanly without deflecting the shot (p. 18).
+- **Common Myth:** All arrows share the same aerodynamic profile regardless of shooting discipline.
+- **Pamphlet Fact:** Target arrows utilize slender bullet points while blunt arrows deliver shock to small game.
 
 ![A camp instructor shows Scouts various archery equipment and bows during a group instructional session.](/assets/pamphlet_images/archery_p020_img1.png)
 
@@ -155,11 +155,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c: Four Principal Shaft Materials
+#### Req 2c: Principal Shaft Material Selection
 **Official Requirement 2c:** Name the four principal materials for making arrow shafts.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix (Principal Materials for Making Arrow)
-- **Common Myth:** Wooden and aluminum arrows can be leaned diagonally in a warm garage corner all winter without affecting their straightness.
-- **Pamphlet Fact:** Arrow shafts should be stored vertically or supported evenly in a divider rack away from heat and moisture so the shafts do not warp or suffer crushed feathers (p. 22).
+- **Common Myth:** Wooden shafts provide identical grain weight and consistency to modern extruded aluminum.
+- **Pamphlet Fact:** Carbon shafts offer extreme durability and recovery speed compared to traditional cedar shafts.
 
 ![A specialized tapering tool shapes the wooden arrow shaft to properly seat a field point or nock.](/assets/pamphlet_images/archery_p022_img2.png)
 
@@ -169,14 +169,14 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2d: Arrow Building and Part Replacement
+### Req 2d: Arrow Fabrication and Repair
 **Official Requirement 2d (Parent Overview):** Do ONE of the following: (1) Make a complete arrow from a bare shaft using appropriate equipment available to you. (2) To demonstrate arrow repair, inspect the shafts and prepare and replace at least three vanes, one point, and one nock. You may use as many arrows as necessary to accomplish this. The repairs can be done on wood, fiberglass, or aluminum arrows.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Group Organizer:** Skill Demonstration Checklist
-- **Common Myth:** During Archery Requirement 2d, Scouts can underestimate how directly mastery of arrow building and part replacement depends on understanding do one of the following, (1) make a complete arrow from a bare shaft using appropriate equipment.
-- **Pamphlet Fact:** Scouting America standards for Archery Requirement 2d require complete workbook entries on arrow building and part replacement to demonstrate full understanding of do one of the following, (1) make a complete arrow from a bare shaft using appropriate equipment.
+- **Common Myth:** Feathers can be glued onto bare shafts by hand without alignment jigs.
+- **Pamphlet Fact:** Fletching adhesive requires several minutes of contact pressure to form an enduring bond.
 
 **Official Pamphlet Summary:**
-- Arrow Building and Part Replacement: They slow the arrow's flight and make it drop quickly. Hunting arrows use longer fletchings, usually 4 to 5 inches long (p. 18).
+- Building an arrow requires squaring the shaft ends, adhering inserts, positioning vanes with an indexed jig, and seating nocks. Re-fletching damaged arrows requires scraping old adhesive cleanly from the shaft surface without gouging base fibers.
 - Req 2d Standard (Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)): Do ONE of the following: (1) Make a complete arrow from a bare shaft using appropriate equipment available to you. (2) To demonstrate arrow repair, inspect the shafts and prepare and replace at least three vanes, one point, and one nock. You may use as many arrows as necessary to accomplish this. The repairs can be done on wood, fiberglass, or aluminum arrows.
 
 #### Req 2d(1): Complete arrow from a bare shaft
@@ -209,11 +209,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2e: Arrow Care and Proper Storage
+#### Req 2e: Arrow Maintenance and Storage
 **Official Requirement 2e:** Explain how to properly care for and store arrows.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix (Care for and Store Arrows)
-- **Common Myth:** Overlooking the specific field checks required for Arrow Care and Proper Storage (Req 2e) or confusing Arrow Care and Proper Storage with general Arrow Anatomy, Materials, and Construction procedures.
-- **Pamphlet Fact:** For Requirement 2e (Arrow Care and Proper Storage), The Archery pamphlet for Requirement 2e details how to properly care for and store arrows, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).
+- **Common Myth:** Storing arrows piled loose in a gear bag prevents feather damage.
+- **Pamphlet Fact:** Moisture warps wooden arrow shafts and causes fletching glue bonds to fail.
 
 ![An archer draws a compound bow at full draw using an armguard to prevent string slap against the forearm.](/assets/pamphlet_images/archery_p037_img1.png)
 
@@ -223,24 +223,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Protective Gear and Archery Terminology
+### Req 3: Archery Equipment and Terminology
 **Official Requirement 3 (Parent Overview):** Do the following: (a) Explain the proper use, care, and storage of, as well as the reasons for using tabs, arm guards, shooting gloves, and quivers. (b) Explain the following terms: draw length, draw weight, mechanical release, and barebow.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 25, p. 26)* • **Group Organizer:** Field Sketch & Diagram Canvas
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Archery Requirement 3: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during protective gear and archery terminology, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** Experienced archers build calluses on their fingertips and no longer need to wear a shooting glove or finger tab.
-- **Pamphlet Fact:** Even the most experienced archers always wear a finger tab or shooting glove because bare fingers quickly become tender and cause a jerky, inaccurate bowstring release (p. 25).
+> **Guide to Safe Scouting Warning:** Never release a bowstring using fingers without a tab or glove to avoid permanent nerve damage.
+- **Common Myth:** Finger tabs and arm guards are optional accessories used only by beginners.
+- **Pamphlet Fact:** Protective gear prevents painful soft tissue bruising and blister formation during shooting sessions.
 
 **Official Pamphlet Summary:**
-- The hunting arm guard usually is wider and longer than guards used on field and target ranges (p. 25).
-- Shooting Glove and Tab Protection: Protect your shooting fingers with a shooting glove or tab (p. 25).
-- Preventing String Finger Blisters: Even the lightest bow will soon make untrained fingers sensitive, eventually causing blisters (p. 25).
-- All archers should use finger protection, no matter how tough they think their fingers (p. 25).
+- Finger tabs shield nerve endings from painful friction caused by taut bowstrings.
+- Arm guards protect inner forearm soft tissue from severe bowstring slap.
+- Peak draw weight represents the force required to pull bows to anchor.
+- Barebow archery prohibits sights, clickers, draw checks, and stabilizing rod accessories.
 
-#### Req 3a: Protective Gear and Quiver Care
+#### Req 3a: Protective Archery Accessory Essentials
 **Official Requirement 3a:** Explain the proper use, care, and storage of, as well as the reasons for using tabs, arm guards, shooting gloves, and quivers.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 25, p. 26)* • **Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix (Care and Storage of As)
-- **Common Myth:** An arm guard is only worn by beginners who have not yet learned how to hold their bow arm properly.
-- **Pamphlet Fact:** Hunting arm guards are wider and longer than target arm guards because they must hold down bulky cold-weather jacket sleeves so the bowstring does not catch on fabric (p. 25).
+- **Common Myth:** Arm guards exist solely because inexperienced archers hold bows with poor posture.
+- **Pamphlet Fact:** Arm guards prevent loose jacket fabric from deflecting bowstrings during forward acceleration.
 
 ![Practical Archery field visual showing proper setup, measurement, and technique for protective gear and archery terminology in Requirement 3.](/assets/pamphlet_images/archery_p012_img1.png)
 
@@ -250,11 +250,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b: Essential Archery Equipment Terms
+#### Req 3b: Archery Terminology and Metrics
 **Official Requirement 3b:** Explain the following terms: draw length, draw weight, mechanical release, and barebow.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 25, p. 26)* • **Organizer (Field Sketch & Diagram Canvas):** Req 3b Structured Technical Study & Explanation Matrix (Length Draw Weight Mechanical)
-- **Common Myth:** Draw length and draw weight both measure how many pounds of force it takes to pull a bowstring back to your anchor point.
-- **Pamphlet Fact:** Draw weight is the peak force in pounds required to pull the bowstring, whereas draw length is the measured distance in inches from the nocking point to the pivot point of the grip at full draw (p. 26).
+- **Common Myth:** Draw length is determined entirely by bow length rather than human arm span.
+- **Pamphlet Fact:** Exceeding appropriate draw weight causes shoulder impingement and poor form development.
 
 ![A leather three-finger shooting glove protects the archer's fingertips from friction when drawing the bow.](/assets/pamphlet_images/archery_p025_img1.png)
 
@@ -272,24 +272,24 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Archery Disciplines and Target Scoring
+### Req 4: Archery Rounds and Scoring
 **Official Requirement 4 (Parent Overview):** Explain the following: (a) The difference between an end and a round (b) The differences among field, target, and 3-D archery (c) How the five-color World Archery Federation target is scored (d) How the National Field Archery Association (NFAA) black-and-white field targets and blue indoor targets are scored
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58)* • **Group Organizer:** 2-Column Comparison Table
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Archery Requirement 4: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during archery disciplines and target scoring, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** Field archery and outdoor target archery both take place on a flat lawn using identical 122-centimeter five-color target faces.
-- **Pamphlet Fact:** Field archery takes place on a roving outdoor course with 14 targets set at varying distances and elevations marked by ground stakes (p. 52).
+> **Guide to Safe Scouting Warning:** Count arrows together at the target butt before pulling to Review the scores.
+- **Common Myth:** Archery targets award maximum points for any hit touching paper target faces.
+- **Pamphlet Fact:** Scoring systems assign point values based on radial target zones from center outwards.
 
 **Official Pamphlet Summary:**
-- Field archery is set up on a course or roving range similar to the field archery plan shown later in this chapter (p. 52).
-- Different target faces and shooting distances are used for 14 targets (p. 52).
-- Ground Stakes for Shooting Spots: Stakes driven into the ground mark the exact shooting spot for each target (p. 52).
-- Outdoor target archery is set up in an open field, using 122-centimeter (48-inch) target faces (p. 52).
+- An end represents a designated package of arrows shot before scoring.
+- A round consists of multiple consecutive ends shot across specific distances.
+- Target Colors: World Archery targets use yellow, red, blue, black, and white rings.
+- Arrows touching a dividing line earn the higher adjacent scoring ring.
 
-#### Req 4a: Ends Versus Complete Rounds
+#### Req 4a: Ends and Rounds Distinction
 **Official Requirement 4a:** The difference between an end and a round.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58)* • **Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix (End and A Round)
-- **Common Myth:** An end refers to the final tie-breaker arrow at the conclusion of an archery tournament.
-- **Pamphlet Fact:** An end is a single group of arrows (typically three to six) shot before retrieving and scoring, whereas a round is a complete competition made up of multiple ends (p. 52).
+- **Common Myth:** An end and a round are interchangeable terms for a single arrow shot.
+- **Pamphlet Fact:** An end consists of three or six arrows, while rounds combine multiple ends.
 
 ![Archery officials verify arrow placement and tally round scores near the target face during competition.](/assets/pamphlet_images/archery_p050_img1.png)
 
@@ -299,11 +299,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b: Field, Target, and 3-D Archery
+#### Req 4b: Archery Disciplines and Formats
 **Official Requirement 4b:** The differences among field, target, and 3-D archery.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58)* • **Organizer (2-Column Comparison Table):** Req 4b Technical Comparison Matrix (Field Target and 3-D Archery)
-- **Common Myth:** NFAA black-and-white field targets use the same 10-ring scoring system as Olympic five-color targets.
-- **Pamphlet Fact:** Standard NFAA black-and-white field targets and blue indoor targets score 5 points for the center spot, 4 points for the middle ring, and 3 points for the outer ring (p. 58).
+- **Common Myth:** Field archery takes place on manicured flat grassy fields identical to target events.
+- **Pamphlet Fact:** Field archery features variable target distances across natural woodland hills and slopes.
 
 ![An archer demonstrates full draw form and anchor point while shooting a traditional wooden longbow.](/assets/pamphlet_images/archery_p051_img1.png)
 
@@ -313,11 +313,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c: World Archery Five-Color Scoring
+#### Req 4c: World Archery Target Scoring
 **Official Requirement 4c:** How the five-color World Archery Federation target is scored.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58)* • **Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix (Five-color World Archery Federation Target)
-- **Common Myth:** Three-dimensional archery requires archers to wear special glasses while shooting at flat paper animal targets.
-- **Pamphlet Fact:** Three-dimensional (3-D) archery uses life-size foam animal targets placed in natural woodland settings at unmarked or marked distances with scoring zones molded into the foam (p. 52).
+- **Common Myth:** The center yellow ring awards one hundred points in international target competitions.
+- **Pamphlet Fact:** The inner gold rings award ten and nine points respectively on WA targets.
 
 ![Archers inspect arrow values on a standard five-color target face before safely retrieving their arrows.](/assets/pamphlet_images/archery_p059_img1.png)
 
@@ -327,11 +327,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4d: NFAA Field and Indoor Scoring
+#### Req 4d: Field and Indoor Target Scoring
 **Official Requirement 4d:** How the National Field Archery Association (NFAA) black-and-white field targets and blue indoor targets are scored.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58)* • **Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix (National Field Archery Association NFAA)
-- **Common Myth:** During Archery Requirement 4d, Scouts can underestimate how directly mastery of nfaa field and indoor scoring depends on understanding how the national field archery association (nfaa) black-and-white field targets and blue indoor targets.
-- **Pamphlet Fact:** Scouting America standards for Archery Requirement 4d require complete workbook entries on nfaa field and indoor scoring to demonstrate full understanding of how the national field archery association (nfaa) black-and-white field targets and blue indoor targets.
+- **Common Myth:** NFAA field targets use the identical ten ring color scheme as World Archery.
+- **Pamphlet Fact:** NFAA indoor targets award five points for white center spots and four outside.
 
 | Req 4d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -342,9 +342,9 @@
 ### Recurve Bow or Longbow: Bow Parts, Stringing, 11 Steps & Qualification
 **Official Requirement 5a (Parent Overview):** Option A, Recurve Bow or Longbow. Do ALL of the following: (1) Name and point to the parts of the recurve or longbow you are shooting. (2) Explain how to properly care for and store recurve bows and longbows. (3) Demonstrate and explain USA Archery's 11 Steps of Shooting for the bow you are shooting. (4) Demonstrate the proper way to string a recurve bow or longbow. (5) Using a bow square, locate and mark with dental floss, crimp-on, or other method, the nocking point on the bowstring of the bow you are using. (6) Do ONE of the following: (a) Using a recurve bow or longbow and arrows with a finger release, shoot a single round of ONE of the following: (1) An NFAA field round of 14 targets and make a score of 60 points (2) A Scouting America field round of 14 targets and make a score of 80 points (3) A World Archery/USA Archery indoor round and make a score of 80 points (Indoor rounds may be shot outdoors if this is more convenient.) (4) An NFAA indoor round and make a score of 50 points (Indoor rounds may be shot outdoors if this is more convenient.) (b) Shooting 30 arrows in five-arrow ends at an 80-centimeter (32-inch) five-color target at 10 yards and using the 10 scoring regions, make a score of 150 points.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 29, p. 33)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Archery Requirement 5: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during bow maintenance and shooting qualification, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** Stepping your leg through a recurve bow is the safest and most reliable way to string it in the field.
-- **Pamphlet Fact:** Using the step-through method twists the bow limbs and can permanently warp or snap them; a bow stringer cord should always be used to flex both limbs evenly (p. 29).
+> **Guide to Safe Scouting Warning:** Never dry fire any bow, as the uncontrolled energy release can shatter limbs into eyes.
+- **Common Myth:** Longbows and recurves can be strung safely using bare hands without stringer tools.
+- **Pamphlet Fact:** Recurve bow tips curve away from the archer to transfer extra arrow velocity.
 
 **Official Pamphlet Summary:**
 - Req 5a(1) (1): Name and point to the parts of the recurve or longbow you are shooting.
@@ -460,9 +460,9 @@
 ### Compound Bow: Bow Parts, Cable Care, 11 Steps & Qualification
 **Official Requirement 5b (Parent Overview):** Option B, Compound Bow. Do ALL of the following: (1) Name and point to the parts of the compound bow you are shooting. (2) Explain how to properly care for and store compound bows. (3) Demonstrate and explain USA Archery's 11 Steps of Shooting for the bow you are shooting. (4) Explain why it is necessary to have the string or cable on a compound bow replaced at an archery shop. (5) Locate and mark with dental floss, crimp-on, or other method, the nocking point on the bowstring of the bow you are using. (6) Do ONE of the following: (a) Using a compound bow and arrows with a finger release, shoot a single round of ONE of the following: (1) An NFAA field round of 14 targets and make a score of 70 points (2) A Scouting America field round of 14 targets and make a score of 90 points (3) A World Archery/USA Archery indoor round and make a score of 90 points (Indoor rounds may be shot outdoors if this is more convenient.) (4) An NFAA indoor round and make a score of 60 points (Indoor rounds may be shot outdoors if this is more convenient.) (b) Shooting at an 80-centimeter (32-inch) five-color target using the 10 scoring regions, make a minimum score of 160 points. Accomplish this in the following manner: Shoot 15 arrows in five-arrow ends, at a distance of 10 yards AND Shoot 15 arrows in five-arrow ends, at a distance of 15 yards.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 29, p. 33)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Archery Requirement 5: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during bow maintenance and shooting qualification, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** When preparing Archery Requirement 5b (Compound Bow Qualification Option), Scouts sometimes overlook the concrete pamphlet benchmarks covering option b, compound bow.
-- **Pamphlet Fact:** Counselor verification for Archery Requirement 5b requires concrete workbook evidence on compound bow qualification option, specifically addressing option b, compound bow.
+> **Guide to Safe Scouting Warning:** Never dry fire any bow, as the uncontrolled energy release can shatter limbs into eyes.
+- **Common Myth:** Compound bows require the same holding force at full draw as traditional recurves.
+- **Pamphlet Fact:** Cams and cables create mechanical let-off, reducing holding weight at full draw.
 
 **Official Pamphlet Summary:**
 - Req 5b(1) (1): Name and point to the parts of the compound bow you are shooting.

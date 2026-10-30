@@ -1,8 +1,8 @@
 # Rifle Shooting Merit Badge - Scout & Counselor Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/rifle-shooting/  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/rifle-shooting/
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Rifle%20Shooting.pdf  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -12,11 +12,9 @@
 
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Req 1: Firearm Safety Rules and Wildlife Conservation | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2a** | Modern Cartridge Rifle: Parts, Safe Handling & Marksmanship | Identify | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2b** | Air Rifle (BB or Pellet): Safety, Fundamentals & Grouping | Identify | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2c** | Muzzleloading Rifle: Black Powder Safety, Loading & Grouping | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **3** | Req 3: Shooting Sports Careers and Lifelong Hobbies | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **1** | Req 1: Firearm Safety And Range Stewardship | Demonstrate | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Supervised Range Marksmanship Qualification | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **3** | Req 3: Shooting Sports Career Pathways | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
@@ -24,30 +22,28 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2a:** Scout must individually identify mastery of Requirement 2a to the Merit Badge Counselor.
-- [ ] **Station Req 2b:** Scout must individually identify mastery of Requirement 2b to the Merit Badge Counselor.
-- [ ] **Station Req 2c:** Scout must individually discuss mastery of Requirement 2c to the Merit Badge Counselor.
+- [ ] **Station Req 2:** Working under the supervision of a certified National Rifle Association (NRA) rifle instructor and a certified range safety officer, at a nationally authorized camp property or at a commercial firearm range (as defined in the Scouting America National Range and Target Activities Manual ), do ONE of the following options: (a) Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following: (1) Identify the three main parts of a rifle, and tell how they function. (2) Identify and demonstrate the rules for safely storing and handling a rifle. (3) Identify the two types of cartridges, their parts, and how they function. (4) Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response to each. (5) Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a rifle, and identify the materials needed. (8) Demonstrate how to clean a rifle properly and safely. (9) Discuss what points you would consider in selecting a rifle. (10) Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle. (11) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable. (b) Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following: (1) Identify the three main parts of an air rifle, and explain how they function. (2) Identify and demonstrate the rules for safely storing and handling an air rifle. (3) Identify the two most common types of air rifle ammunition. (4) Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through. (5) Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands. (6) Explain the basic safety rules for cleaning an air rifle, and identify the materials needed. (7) Demonstrate how to clean an air rifle properly and safely. (8) Discuss what points you would consider in selecting an air rifle. (9) Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter. (10) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6. Note: Other suitable NRA targets may be used if the specified targets are unavailable. (c) Option C, Muzzleloading Rifle Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of muzzleloading rifles. (2) Identify principal parts of muzzleloading rifles and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading rifle. (8) Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading rifle properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading rifle. (13) Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fire three groups (three shots per group) at 50 feet that can be covered by the base of a standard-size soft drink can. (14) Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle, you may explain (rather than doing) how to adjust the sights, and then fire three groups (five shots per group) in which all shots can be covered by the base of a standard-size soft drink can. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7; at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
-### Req 1: Firearm Safety Rules and Wildlife Conservation
+### Req 1: Firearm Safety And Range Stewardship
 **Official Requirement 1 (Parent Overview):** Do the following: (a) Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations. (b) Explain the basic rules of safe gun handling that apply to all firearms. (c) Describe how you would react if a friend visiting your home asked to see your or your family's firearm. (d) Explain the need for, types, and use of eye protection and hearing protection. (e) Explain the main points of the laws for owning and using guns in your community and state. (f) Explain how hunting is related to the wise use of renewable wildlife resources. (g) Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state. (h) Explain to your counselor the proper hygienic guidelines followed while shooting. (i) Identify places in your community where you can join or be a part of range and target activities. (j) Discuss with your counselor a list of sources you could contact for information on firearms and their use.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Group Organizer:** Concept & Examples Notes
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Rifle Shooting Requirement 1: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during firearm safety rules and wildlife conservation, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** Engaging the mechanical safety switch on a rifle guarantees that the firearm cannot fire, even if pointed carelessly.
-- **Pamphlet Fact:** A mechanical safety is a physical device that can wear out or fail, which is why shooters must always keep the muzzle pointed in a safe direction and keep their finger off the trigger until ready to shoot (p. 17).
+> **Guide to Safe Scouting Warning:** Immediately obey any cease-fire command called by anyone on the shooting line by opening the rifle action and stepping back.
+- **Common Myth:** Engaging the mechanical safety switch guarantees a rifle cannot discharge accidentally.
+- **Pamphlet Fact:** Mechanical safeties are physical mechanisms that can fail from wear, shock, or debris.
 
 **Official Pamphlet Summary:**
-- Safety Above All Else: In marksmanship, nothing is more important than safety (p. 17).
-- Shooter Personal Responsibility: Participants in shooting sports assume a vital responsibility that affects the lives of others (p. 17).
-- Practicing Rifle Safety Rules: It is critically important to learn and practice all of the rifle safety rules (p. 17).
-- Proper Firearm Handling: When handled correctly and used properly, a rifle is not dangerous (p. 17).
+- Muzzle Direction Control: Always point the rifle barrel toward a designated safe direction downrange during handling.
+- Keep your index finger off the trigger until sights align on target.
+- Action Status Verification: Keep rifle actions open and chambers completely unloaded until ready to fire.
+- Eye Protection Rating: High velocity fragments require wrap safety glasses meeting ANSI Z87 impact standards.
 
-#### Req 1a: High-Speed Projectile Safety
+#### Req 1a: High Velocity Projectile Dynamics
 **Official Requirement 1a:** Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix (Projectile Is and Why Any)
-- **Common Myth:** If a friend visiting your house asks to see a family rifle, it is fine to unlock it as long as you check the chamber first.
-- **Pamphlet Fact:** You must never touch or show a family firearm without an adult owner present and explicit permission, so you should refuse the request and offer to ask your parent or guardian later (p. 17).
+- **Common Myth:** Small caliber rifle bullets lose destructive kinetic energy within a couple hundred yards.
+- **Pamphlet Fact:** A standard rimfire twenty-two caliber bullet can travel more than one mile.
 
 ![Practical Rifle Shooting field visual showing proper setup, measurement, and technique for firearm safety rules and wildlife conservation in Requirement 1.](/assets/pamphlet_images/rifle_shooting_p003_img1.png)
 
@@ -57,11 +53,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1b: Fundamental Gun Handling Rules
+#### Req 1b: Fundamental Gun Safety Rules
 **Official Requirement 1b:** Explain the basic rules of safe gun handling that apply to all firearms.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix (Basic Rules of Safe Gun)
-- **Common Myth:** Washing your hands after shooting a .22 rimfire or air rifle is only necessary if your hands look visibly dirty with gunpowder.
-- **Pamphlet Fact:** Primers and lead projectiles leave microscopic lead residue on hands and faces, so shooters must avoid eating or drinking on the range and wash thoroughly with soap and water afterward (p. 18).
+- **Common Myth:** Keeping a finger on the trigger helps a shooter react faster safely.
+- **Pamphlet Fact:** The trigger finger must remain outside the trigger guard until aimed on target.
 
 ![An instructor guides a youth holding a rifle to ensure safe muzzle control and handling.](/assets/pamphlet_images/rifle_shooting_p016_img1.png)
 
@@ -71,11 +67,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1c: Unauthorized Home Firearm Requests
+#### Req 1c: Peer Firearm Inquiry Protocol
 **Official Requirement 1c:** Describe how you would react if a friend visiting your home asked to see your or your family's firearm.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix (You Would React If A)
-- **Common Myth:** Regulated hunting reduces wildlife populations and conflicts with modern wildlife conservation.
-- **Pamphlet Fact:** Regulated hunting manages wildlife populations within habitat carrying capacity and funds conservation land purchases and biological research through license fees and excise taxes (p. 18).
+- **Common Myth:** Showing an unloaded family rifle to a visiting friend is harmless entertainment.
+- **Pamphlet Fact:** Scouts must refuse firearm requests and inform parents immediately if visitors ask.
 
 ![Illustrated Rifle Shooting technical diagram of shooting sports careers and lifelong hobbies for Requirement 3 field execution.](/assets/pamphlet_images/rifle_shooting_p012_img1.png)
 
@@ -85,11 +81,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1d: Eye and Hearing Protection
+#### Req 1d: Eye And Hearing Protection
 **Official Requirement 1d:** Explain the need for, types, and use of eye protection and hearing protection.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix (Need Protection Hearing Protection)
-- **Common Myth:** During Rifle Shooting Requirement 1d, Scouts can underestimate how directly mastery of eye and hearing protection depends on understanding the need for, types, and use of eye protection and hearing protection.
-- **Pamphlet Fact:** Scouting America standards for Rifle Shooting Requirement 1d require complete workbook entries on eye and hearing protection to demonstrate full understanding of the need for, types, and use of eye protection and hearing protection.
+- **Common Myth:** Placing foam earplugs loosely in the ear canal provides full sound protection.
+- **Pamphlet Fact:** Hearing protection must seal the ear canal completely or cover the outer ear.
 
 ![Concentric circular scoring rings marked with clock positions illustrate target sight alignment.](/assets/pamphlet_images/rifle_shooting_p055_img1.png)
 
@@ -99,11 +95,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1e: State and Local Firearm Laws
+#### Req 1e: Firearm Statutes And Regulations
 **Official Requirement 1e:** Explain the main points of the laws for owning and using guns in your community and state.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix (Main Points of The Laws)
-- **Common Myth:** Overlooking the specific field checks required for State and Local Firearm Laws (Req 1e) or confusing State and Local Firearm Laws with general Firearm Safety Rules and Wildlife Conservation procedures.
-- **Pamphlet Fact:** For Requirement 1e (State and Local Firearm Laws), The Rifle Shooting pamphlet for Requirement 1e details the main points of the laws for owning and using guns in your community and state, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).
+- **Common Myth:** Federal firearm regulations override every municipal ordinance regarding recreational target discharge.
+- **Pamphlet Fact:** Local municipalities often enact strict ordinances prohibiting firearm discharge within town boundaries.
 
 ![A mallard duck in flight represents game waterfowl protected by conservation regulations.](/assets/pamphlet_images/rifle_shooting_p080_img1.png)
 
@@ -113,11 +109,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1f: Hunting and Wildlife Conservation
+#### Req 1f: Wildlife Conservation And Harvesting
 **Official Requirement 1f:** Explain how hunting is related to the wise use of renewable wildlife resources.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix (Hunting Is Related to The)
-- **Common Myth:** When preparing Rifle Shooting Requirement 1f (Req 1f Hunting and Wildlife Conservation), Scouts sometimes overlook the specific details needed to explain how hunting is related to the wise use of renewable wildlife resour.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 1f requires concrete workbook evidence covering req 1f hunting and wildlife conservation and a clear explanation of how to explain how hunting is related to the wise use of renewable wildlife resour.
+- **Common Myth:** Hunting reduces overall animal populations without providing any ecological or financial benefit.
+- **Pamphlet Fact:** Hunting license fees directly fund state game management and wildlife habitat preservation.
 
 ![A male white-tailed deer exemplifies big game species managed through strict wildlife laws.](/assets/pamphlet_images/rifle_shooting_p082_img1.png)
 
@@ -127,15 +123,14 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 1g: Hunter Education and Regulations
+### Req 1g: Hunter Education And Compliance
 **Official Requirement 1g (Parent Overview):** Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Group Organizer:** Concept & Examples Notes
-- **Common Myth:** For Rifle Shooting Requirement 1g, a common mistake in hunter education and regulations is treating successfully complete a state hunter education course, or obtain a copy of the hunting laws as optional background reading.
-- **Pamphlet Fact:** Mastering Rifle Shooting Requirement 1g means following the pamphlet standard for hunter education and regulations and recording accurate notes on successfully complete a state hunter education course, or obtain a copy of the hunting laws.
+- **Common Myth:** Hunter education cards are only required for hunters using centerfire big game rifles.
+- **Pamphlet Fact:** Most states require hunter education certification for all sporting arms and seasons.
 
 **Official Pamphlet Summary:**
-- For Rifle Shooting Requirement 1g (Hunter Education and Regulations): The Rifle Shooting pamphlet for Requirement 1g details successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).
-- Hunter Education and Regulations: The Rifle Shooting pamphlet for Requirement 1g details successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).
+- Hunter education courses instruct sportsmen in wildlife identification, field etiquette, and firearm ethics. Legal hunters must obtain proper tags and adhere to seasonal bag limits.
 - Req 1g Standard (Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)): Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state.
 
 #### Req 1g(1): Main Points of Hunting Laws
@@ -162,11 +157,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1h: Range Hygiene and Lead Safety
+#### Req 1h: Range Hygiene And Lead
 **Official Requirement 1h:** Explain to your counselor the proper hygienic guidelines followed while shooting.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1h Structured Technical Study & Explanation Matrix (Hygienic Guidelines Followed While Shooting)
-- **Common Myth:** During Rifle Shooting Requirement 1h, Scouts can underestimate how directly mastery of range hygiene and lead safety depends on understanding the proper hygienic guidelines followed while shooting.
-- **Pamphlet Fact:** Scouting America standards for Rifle Shooting Requirement 1h require complete workbook entries on range hygiene and lead safety to demonstrate full understanding of the proper hygienic guidelines followed while shooting.
+- **Common Myth:** Washing hands with warm soapy water removes heavy metal residues most effectively.
+- **Pamphlet Fact:** Warm water opens skin pores and increases the absorption of toxic lead residue.
 
 | Req 1h Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -174,11 +169,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1i: Local Range and Target Opportunities
+#### Req 1i: Community Target Shooting Facilities
 **Official Requirement 1i:** Identify places in your community where you can join or be a part of range and target activities.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1i Structured Technical Study & Explanation Matrix (Places in Your Community Where)
-- **Common Myth:** Overlooking the specific field checks required for Local Range and Target Opportunities (Req 1i) or confusing Local Range and Target Opportunities with general Firearm Safety Rules and Wildlife Conservation procedures.
-- **Pamphlet Fact:** For Requirement 1i (Local Range and Target Opportunities), The Rifle Shooting pamphlet for Requirement 1i details places in your community where you can join or be a part of range and target activities, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).
+- **Common Myth:** Target shooting is permitted on any public open space outside city limits.
+- **Pamphlet Fact:** Shooting is restricted to designated ranges or legally authorized public recreation zones.
 
 | Req 1i Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -186,11 +181,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1j: Firearm Information and Training Sources
+#### Req 1j: Firearm Education Resource Network
 **Official Requirement 1j:** Discuss with your counselor a list of sources you could contact for information on firearms and their use.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1j Structured Technical Study & Explanation Matrix (Discuss Sources Could Contact)
-- **Common Myth:** When preparing Rifle Shooting Requirement 1j (Req 1j Firearm Information and Training Sources), Scouts sometimes overlook the specific details needed to discuss with your counselor a list of sources you could contact for informa.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 1j requires concrete workbook evidence covering req 1j firearm information and training sources and a clear explanation of how to discuss with your counselor a list of sources you could contact for informa.
+- **Common Myth:** Commercial social media forums provide the most reliable firearm safety instruction.
+- **Pamphlet Fact:** Sanctioned shooting organizations and state wildlife agencies produce verified safety materials.
 
 | Req 1j Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -198,25 +193,29 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Modern Cartridge Rifle: Parts, Safe Handling & Marksmanship
-**Official Requirement 2a (Parent Overview):** Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following: (1) Identify the three main parts of a rifle, and tell how they function. (2) Identify and demonstrate the rules for safely storing and handling a rifle. (3) Identify the two types of cartridges, their parts, and how they function. (4) Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response to each. (5) Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a rifle, and identify the materials needed. (8) Demonstrate how to clean a rifle properly and safely. (9) Discuss what points you would consider in selecting a rifle. (10) Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle. (11) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
+### Req 2: Supervised Range Marksmanship Qualification
+**Official Requirement 2 (Parent Overview):** Working under the supervision of a certified National Rifle Association (NRA) rifle instructor and a certified range safety officer, at a nationally authorized camp property or at a commercial firearm range (as defined in the Scouting America National Range and Target Activities Manual ), do ONE of the following options: (a) Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following: (1) Identify the three main parts of a rifle, and tell how they function. (2) Identify and demonstrate the rules for safely storing and handling a rifle. (3) Identify the two types of cartridges, their parts, and how they function. (4) Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response to each. (5) Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a rifle, and identify the materials needed. (8) Demonstrate how to clean a rifle properly and safely. (9) Discuss what points you would consider in selecting a rifle. (10) Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle. (11) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable. (b) Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following: (1) Identify the three main parts of an air rifle, and explain how they function. (2) Identify and demonstrate the rules for safely storing and handling an air rifle. (3) Identify the two most common types of air rifle ammunition. (4) Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through. (5) Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands. (6) Explain the basic safety rules for cleaning an air rifle, and identify the materials needed. (7) Demonstrate how to clean an air rifle properly and safely. (8) Discuss what points you would consider in selecting an air rifle. (9) Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter. (10) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6. Note: Other suitable NRA targets may be used if the specified targets are unavailable. (c) Option C, Muzzleloading Rifle Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of muzzleloading rifles. (2) Identify principal parts of muzzleloading rifles and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading rifle. (8) Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading rifle properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading rifle. (13) Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fire three groups (three shots per group) at 50 feet that can be covered by the base of a standard-size soft drink can. (14) Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle, you may explain (rather than doing) how to adjust the sights, and then fire three groups (five shots per group) in which all shots can be covered by the base of a standard-size soft drink can. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7; at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Rifle Shooting Requirement 2: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during range marksmanship and rifle qualification, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** To move your bullet impacts to the left on the target, you must move the rear sight to the right.
-- **Pamphlet Fact:** When adjusting rifle sights, you move the rear sight in the exact same direction you want the shots to move on the target (p. 19).
+> **Guide to Safe Scouting Warning:** Never load ammunition until the Range Safety Officer commands the firing line to load and commence firing.
+- **Common Myth:** Jerking the trigger quickly ensures the bullet leaves before the sight picture wobbles.
+- **Pamphlet Fact:** Sudden trigger jerking pulls the barrel off target before the projectile exits.
 
 **Official Pamphlet Summary:**
-- Req 2a(1) (1): Identify the three main parts of a rifle, and tell how they function.
-- Req 2a(2) (2): Identify and demonstrate the rules for safely storing and handling a rifle.
-- Req 2a(3) (3): Identify the two types of cartridges, their parts, and how they function.
-- Req 2a(4) (4): Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response.
-- Req 2a(5) (5): Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through.
-- Req 2a(6) (6): Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands.
-- Req 2a(7) (7): Explain the basic safety rules for cleaning a rifle, and identify the materials needed.
-- Req 2a(8) (8): Demonstrate how to clean a rifle properly and safely.
-- Req 2a(9) (9): Discuss what points you would consider in selecting a rifle.
-- Req 2a(10) (10): Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle.
-- Req 2a(11) (11): Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
+- Major Assembly Nomenclature: Every conventional rifle consists of the barrel, the action, and the stock.
+- The prone position provides the steadiest foundation for accurate rifle shot placement.
+- Center the front sight post inside the rear aperture aligned with bullseye.
+- Smoothly squeeze the trigger straight rearward without disturbing the established sight alignment.
+
+### Req 2a: Cartridge Rifle Marksmanship Option
+**Official Requirement 2a (Parent Overview):** Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following: (1) Identify the three main parts of a rifle, and tell how they function. (2) Identify and demonstrate the rules for safely storing and handling a rifle. (3) Identify the two types of cartridges, their parts, and how they function. (4) Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response to each. (5) Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a rifle, and identify the materials needed. (8) Demonstrate how to clean a rifle properly and safely. (9) Discuss what points you would consider in selecting a rifle. (10) Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle. (11) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
+**Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Group Organizer:** Skill Demonstration Checklist
+> **Guide to Safe Scouting Warning:** Never load ammunition until the Range Safety Officer commands the firing line to load and commence firing.
+- **Common Myth:** Rimfire cartridges can be dry fired repeatedly without risking damage to the chamber edge.
+- **Pamphlet Fact:** Dry firing rimfire rifles strikes the firing pin against the steel chamber rim directly.
+
+**Official Pamphlet Summary:**
+- Option A focuses on modern rimfire or centerfire cartridge rifles utilizing metallic casing ammunition. Scouts master loading, cocking, sight adjustment, and scoring tight target groupings.
+- Req 2a Standard (Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)): Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following: (1) Identify the three main parts of a rifle, and tell how they function. (2) Identify and demonstrate the rules for safely storing and handling a rifle. (3) Identify the two types of cartridges, their parts, and how they function. (4) Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response to each. (5) Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a rifle, and identify the materials needed. (8) Demonstrate how to clean a rifle properly and safely. (9) Discuss what points you would consider in selecting a rifle. (10) Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle. (11) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 
 #### Req 2a(1): Three main parts of a rifle
 **Official Requirement 2a(1):** Identify the three main parts of a rifle, and tell how they function.
@@ -357,24 +356,15 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Air Rifle (BB or Pellet): Safety, Fundamentals & Grouping
+### Req 2b: Air Rifle Marksmanship Option
 **Official Requirement 2b (Parent Overview):** Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following: (1) Identify the three main parts of an air rifle, and explain how they function. (2) Identify and demonstrate the rules for safely storing and handling an air rifle. (3) Identify the two most common types of air rifle ammunition. (4) Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through. (5) Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands. (6) Explain the basic safety rules for cleaning an air rifle, and identify the materials needed. (7) Demonstrate how to clean an air rifle properly and safely. (8) Discuss what points you would consider in selecting an air rifle. (9) Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter. (10) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Rifle Shooting Requirement 2: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during range marksmanship and rifle qualification, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** When preparing Rifle Shooting Requirement 2b (BB or Pellet Air Rifle Option), Scouts sometimes overlook the concrete pamphlet benchmarks covering option b, air rifle shooting (bb or pellet).
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2b requires concrete workbook evidence on bb or pellet air rifle option, specifically addressing option b, air rifle shooting (bb or pellet).
+- **Common Myth:** Pneumatic air rifles have negligible power and require fewer range safety protocols than firearms.
+- **Pamphlet Fact:** High velocity air rifle pellets penetrate skin and require identical firearm range safety protocols.
 
 **Official Pamphlet Summary:**
-- Req 2b(1) (1): Identify the three main parts of an air rifle, and explain how they function.
-- Req 2b(2) (2): Identify and demonstrate the rules for safely storing and handling an air rifle.
-- Req 2b(3) (3): Identify the two most common types of air rifle ammunition.
-- Req 2b(4) (4): Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through.
-- Req 2b(5) (5): Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands.
-- Req 2b(6) (6): Explain the basic safety rules for cleaning an air rifle, and identify the materials needed.
-- Req 2b(7) (7): Demonstrate how to clean an air rifle properly and safely.
-- Req 2b(8) (8): Discuss what points you would consider in selecting an air rifle.
-- Req 2b(9) (9): Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter.
-- Req 2b(10) (10): Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
+- Option B covers pneumatic, spring piston, and compressed gas air rifles launching pellets or BBs. Precise trigger technique and followthrough are essential due to longer barrel transit times.
+- Req 2b Standard (Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)): Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following: (1) Identify the three main parts of an air rifle, and explain how they function. (2) Identify and demonstrate the rules for safely storing and handling an air rifle. (3) Identify the two most common types of air rifle ammunition. (4) Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through. (5) Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands. (6) Explain the basic safety rules for cleaning an air rifle, and identify the materials needed. (7) Demonstrate how to clean an air rifle properly and safely. (8) Discuss what points you would consider in selecting an air rifle. (9) Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter. (10) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 
 #### Req 2b(1): Main Parts of An Air
 **Official Requirement 2b(1):** Identify the three main parts of an air rifle, and explain how they function.
@@ -502,26 +492,15 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Muzzleloading Rifle: Black Powder Safety, Loading & Grouping
+### Req 2c: Muzzleloading Black Powder Marksmanship
 **Official Requirement 2c (Parent Overview):** Option C, Muzzleloading Rifle Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of muzzleloading rifles. (2) Identify principal parts of muzzleloading rifles and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading rifle. (8) Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading rifle properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading rifle. (13) Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fire three groups (three shots per group) at 50 feet that can be covered by the base of a standard-size soft drink can. (14) Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle, you may explain (rather than doing) how to adjust the sights, and then fire three groups (five shots per group) in which all shots can be covered by the base of a standard-size soft drink can. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7; at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Group Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Rifle Shooting Requirement 2: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during range marksmanship and rifle qualification, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** A misfire means the cartridge is completely dead and you should immediately open the bolt to eject it.
-- **Pamphlet Fact:** In the event of a misfire, you must keep the rifle pointed downrange at the target and wait at least 30 seconds (or 1 to 2 minutes for muzzleloaders) in case of a delayed hangfire before clearing the action (p. 57).
+- **Common Myth:** Modern smokeless powder can be substituted safely for black powder in muzzleloading rifles.
+- **Pamphlet Fact:** Smokeless powder generates catastrophic chamber pressures that rupture antique muzzleloading steel barrels.
 
 **Official Pamphlet Summary:**
-- Req 2c(1) (1): Discuss with your counselor a brief history of the development of muzzleloading rifles.
-- Req 2c(2) (2): Identify principal parts of muzzleloading rifles and discuss how they function.
-- Req 2c(3) (3): Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle.
-- Req 2c(4) (4): Identify the various grades of black powder and explain their proper and safe use.
-- Req 2c(5) (5): Discuss proper safety procedures pertaining to black powder storage.
-- Req 2c(6) (6): Discuss proper components of a load.
-- Req 2c(7) (7): Identify proper procedures and accessories used for safely loading a muzzleloading rifle.
-- Req 2c(8) (8): Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response.
-- Req 2c(9) (9): Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands.
-- Req 2c(10) (10): Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed.
-- Req 2c(11) (11): Demonstrate how to clean a muzzleloading rifle properly and safely.
-- Req 2c(12) (12): Discuss what points you would consider in selecting a muzzleloading rifle.
+- Option C explores historic muzzleloading rifles loaded from the muzzle with loose powder and patched balls. Shooters adhere to strict black powder handling procedures to prevent premature combustion.
+- Req 2c Standard (Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)): Option C, Muzzleloading Rifle Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of muzzleloading rifles. (2) Identify principal parts of muzzleloading rifles and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading rifle. (8) Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading rifle properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading rifle. (13) Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fire three groups (three shots per group) at 50 feet that can be covered by the base of a standard-size soft drink can. (14) Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle, you may explain (rather than doing) how to adjust the sights, and then fire three groups (five shots per group) in which all shots can be covered by the base of a standard-size soft drink can. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7; at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 
 #### Req 2c(1): Rifle Shooting Origins and Evolution
 **Official Requirement 2c(1):** Discuss with your counselor a brief history of the development of muzzleloading rifles.
@@ -698,12 +677,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 3: Shooting Sports Careers and Lifelong Hobbies
+### Req 3: Shooting Sports Career Pathways
 **Official Requirement 3:** Identify how you could apply the skills and knowledge of safe and responsible use of firearms you learned in this merit badge to pursue a career or personal hobby. Research the additional training and experience you would need, expenses you may incur, and the affiliation with organizations that could help you maximize the positive impact and enjoyment you gain from it. Discuss what you learned with your counselor, and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Career & Profession Exploration Card):** Req 3 Personal Hobby, Service & Preparedness Application
-> **Guide to Safe Scouting Warning:** Follow BSA Shooting Sports range commands for Rifle Shooting Requirement 3: wear ANSI Z87.1 eye and hearing protection, keep actions open and muzzles or bows pointed downrange during shooting sports careers and lifelong hobbies, and handle equipment only under a certified Range Safety Officer.
-- **Common Myth:** The marksmanship and safety skills learned in the Rifle Shooting merit badge only apply to military service or police work.
-- **Pamphlet Fact:** Safe firearm handling and discipline lead to diverse civilian hobbies and careers, including Olympic air rifle competition, gunsmithing, wildlife conservation enforcement, biathlon, and certified range instruction (p. 18).
+> **Guide to Safe Scouting Warning:** Observe professional workshop eye protection standards whenever operating metal lathes or chemical bluing tanks.
+- **Common Myth:** Shooting sports careers are limited strictly to retail firearm counter sales and hunting guide work.
+- **Pamphlet Fact:** Firearms industries employ ballisticians, mechanical engineers, acoustic technicians, and Olympic athletic trainers.
 
 ![A Scout aims a rifle downrange while a range safety officer and fellow Scout observe.](/assets/ai_illustrations/rifle_shooting_req_3_nano_hero.png)
 
@@ -714,9 +693,9 @@
 | **3. Ongoing Practice, Equipment & Community Service Plan** | `____________________________________` |
 
 **Official Pamphlet Summary:**
-- Three basic rules apply to h andling a rifle, under any circumstances (p. 17).
-- ALWAYS keep the gun pointed in a safe direction. 1.  ALWAYS keep the gun pointed in a safe direction (p. 17).
-- Primary Rule of Gun Safety: This is the primary rule of gun safety (p. 17).
-- The keyto this rule is to control where the muzzle or front end of the barrel is pointed at all times (p. 17).
+- Gunsmithing Precision Trade: Professional gunsmiths complete vocational apprenticeships learning metallurgy, machining, and firearm diagnostic repair.
+- Range safety officers obtain credentials through formal National Rifle Association instructional courses.
+- Competitive Marksmanship Pathways: Olympic biathlon and collegiate shooting athletes train under specialized coaches utilizing precision rifles.
+- Forensic ballistics specialists analyze tool marks and bullet striations for criminal justice investigations.
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
