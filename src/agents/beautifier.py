@@ -561,13 +561,15 @@ def beautify_slide_storyboard(
     )
     if not raw_reqs_list:
         try:
+            import json as _json
             import re as _re
+            from src.config import PROJECT_ROOT as _PROJ_ROOT
             from src.tools.scouting_scraper import BENCHMARK_BADGES_DATA
 
             _slug = _re.sub(r"[^a-z0-9]+", "-", str(badge_name or "").strip().lower()).strip("-")
-            _json_path = PROJECT_ROOT / "data" / "merit_badge_requirements" / f"{_slug}.json"
+            _json_path = _PROJ_ROOT / "data" / "merit_badge_requirements" / f"{_slug}.json"
             if _json_path.exists():
-                _official_data = json.loads(_json_path.read_text(encoding="utf-8"))
+                _official_data = _json.loads(_json_path.read_text(encoding="utf-8"))
                 raw_reqs_list = list(_official_data.get("requirements") or [])
             if not raw_reqs_list:
                 bm_entry = (
