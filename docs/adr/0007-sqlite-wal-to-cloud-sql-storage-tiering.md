@@ -7,7 +7,7 @@ Accepted
 2026-10-20
 
 ## Context
-The Counselor Workbench must operate seamlessly across two distinct deployment environments:
+The Counselor Workbench must operate cleanly across two distinct deployment environments:
 1. **Zero-Cost Local Laptop & Single-Instance Warm Cloud Run (`min_instance_count = 1`):** Volunteer counselors at summer camp and FDE evaluators running `./run_local.sh` or single-project Argolis sandboxes need zero external database setup, `$0.00/month` idle database cost, and `<2ms` local vector/session reads.
 2. **Multi-Instance Horizontal Cloud Run Scale (`max_instance_count = 10`):** National Council deployments require shared ACID persistence across 12 normalized tables (`counselor_sessions`, `pamphlet_vector_memory`, `badge_image_catalog`, `hitl_feedback`, `polished_speaker_notes`, `counselor_workspaces`, `counselor_favorites`, `user_preferences`, `compliance_attestation_ledger`, `clinic_session_schedules`, `scout_session_attendance_and_partials`, and `counselor_syllabus_bucket_overrides`) plus automated point-in-time Disaster Recovery (`RPO = 0`, `RTO < 5.0s`).
 

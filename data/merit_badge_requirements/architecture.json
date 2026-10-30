@@ -32,17 +32,17 @@
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
             "table_title": "Req 1a Hands-On Skill Station & EDGE Verification Checklist (Tour Your Community)",
             "headers": [
-              "Skill Station Step",
-              "Required Technique & Safety Standard",
-              "Buddy / Counselor Sign-Off Notes"
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
             ],
             "column_headers": [
-              "Skill Station Step",
-              "Required Technique & Safety Standard",
-              "Buddy / Counselor Sign-Off Notes"
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
             ],
             "row_labels": [
               "1. Tour your community and list the different types of buildings you see.",
@@ -58,10 +58,8 @@
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "Historical architectural achievements only changed how buildings looked on the outside without affecting how people lived or worked inside.",
-            "fact": "Historical breakthroughs like the Roman semicircular arch, the Gothic flying buttress, and the Bessemer steel frame transformed society by allowing taller, wider, and brighter interior spaces (p. 12).",
-            "fact_correction": "Historical breakthroughs like the Roman semicircular arch, the Gothic flying buttress, and the Bessemer steel frame transformed society by allowing taller, wider, and brighter interior spaces (p. 12).",
-            "pamphlet_page_ref": "p. 12"
+            "misconception": "In Architecture Requirement 1a, many Scouts assume community building tour and sketch only requires a general overview rather than specific details on tour your community and list the different types of buildings you see.",
+            "fact": "The official Architecture pamphlet for Requirement 1a specifies that Scouts must thoroughly document community building tour and sketch and explain tour your community and list the different types of buildings you see during counselor review."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -88,12 +86,13 @@
           "sub_req_label": "1a",
           "sub_req_text": "Tour your community and list the different types of buildings you see. Try to identify buildings that can be associated with a specific period of history or style of architecture. Make a sketch of the building you most admire.",
           "topic_title": "Req 1a: Community Building Tour and Sketch",
-          "pamphlet_summary": "Community Building Tour and Sketch: (a) Tour your community and list the different types of buildings you see (p. 12).",
+          "pamphlet_summary": "Community Building Tour and Sketch: Tour your community and list the different types of buildings you see (p. 12).",
           "pamphlet_excerpts": [
-            "Community Building Tour and Sketch: (a) Tour your community and list the different types of buildings you see (p. 12)."
+            "Community Building Tour and Sketch: Tour your community and list the different types of buildings you see (p. 12)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/architecture_p003_img1.png",
-          "workbook_diagram_caption": "Field reference diagram showing Architecture Requirement 1 equipment, technique, and verification milestones for Architecture Requirement 1 (img1)."
+          "workbook_diagram_caption": "Illustrated Architecture technical diagram of architectural styles and historical achievements for Requirement 1 field execution.",
+          "workbook_visual_caption": "Illustrated Architecture technical diagram of architectural styles and historical achievements for Requirement 1 field execution."
         },
         {
           "sub_id": "1b",
@@ -129,23 +128,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Select a historical architectural achievement that has had a major impact on society.",
-              "2. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out how this...",
-              "3. Tell your counselor what you learned."
+              "1. Select a historical architectural achievement that has had a major impact on society",
+              "2. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find",
+              "3. Tell your counselor what you learned"
             ],
             "rows": [
-              "1. Select a historical architectural achievement that has had a major impact on society.",
-              "2. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out how this...",
-              "3. Tell your counselor what you learned."
+              "1. Select a historical architectural achievement that has had a major impact on society",
+              "2. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find",
+              "3. Tell your counselor what you learned"
             ],
             "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "An architectural sketch must be a photorealistic rendering drawn with ruler-straight mechanical lines to be useful.",
-            "fact": "Architectural field sketches focus on capturing overall proportions, roof silhouettes, window rhythms, and defining structural details rather than every individual brick (p. 12).",
-            "fact_correction": "Architectural field sketches focus on capturing overall proportions, roof silhouettes, window rhythms, and defining structural details rather than every individual brick (p. 12).",
-            "pamphlet_page_ref": "p. 12"
+            "fact": "Architectural field sketches focus on capturing overall proportions, roof silhouettes, window rhythms, and defining structural details rather than every individual brick (p. 12)."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -177,12 +174,14 @@
           "sub_req_label": "1b",
           "sub_req_text": "Select a historical architectural achievement that has had a major impact on society. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out how this achievement has influenced the world today. Tell your counselor what you learned.",
           "topic_title": "Req 1b: Historical Architectural Achievement Impact",
-          "pamphlet_summary": "Historical Architectural Achievement Impact: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12).",
+          "pamphlet_summary": "Historical Architectural Achievement Impact: Select a historical architectural achievement that has had a major impact on society (p. 12).",
           "pamphlet_excerpts": [
-            "Historical Architectural Achievement Impact: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12)."
+            "Historical Architectural Achievement Impact: Select a historical architectural achievement that has had a major impact on society (p. 12)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 1b: Historical Architectural Achievement"
+          "workbook_diagram_url": "assets/pamphlet_images/architecture_p003_img1.png",
+          "title": "Req 1b: Historical Architectural Achievement Impact",
+          "workbook_diagram_caption": "Illustrated Architecture technical diagram of architectural styles and historical achievements for Requirement 1 field execution.",
+          "workbook_visual_caption": "Illustrated Architecture technical diagram of architectural styles and historical achievements for Requirement 1 field execution."
         }
       ],
       "resources": [
@@ -215,38 +214,36 @@
       "action_verb": "Demonstrate",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Architecture Requirement 1 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Architecture Requirement 1 on architectural styles and historical achievements under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
         "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist (Tour Your Community)",
         "headers": [
-          "Skill Station Step",
-          "Required Technique & Safety Standard",
-          "Buddy / Counselor Sign-Off Notes"
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
         ],
         "column_headers": [
-          "Skill Station Step",
-          "Required Technique & Safety Standard",
-          "Buddy / Counselor Sign-Off Notes"
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
         ],
         "row_labels": [
-          "1. (1a) Tour Your Community",
-          "2. (1b) Historical Architectural Achievement That Has"
+          "1. (1a) Tour your community and list the different types of buildings you see",
+          "2. (1b) Select a historical architectural achievement that has had a major impact on society"
         ],
         "rows": [
-          "1. (1a) Tour Your Community",
-          "2. (1b) Historical Architectural Achievement That Has"
+          "1. (1a) Tour your community and list the different types of buildings you see",
+          "2. (1b) Select a historical architectural achievement that has had a major impact on society"
         ],
         "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Only famous monuments or ancient ruins exhibit recognizable architectural styles, whereas everyday neighborhood buildings have no historical style.",
-        "fact": "Observing roof pitch, window shapes, column orders, and building materials allows you to trace local community structures back to distinct historical periods and architectural traditions (p. 12).",
-        "fact_correction": "Observing roof pitch, window shapes, column orders, and building materials allows you to trace local community structures back to distinct historical periods and architectural traditions (p. 12).",
-        "pamphlet_page_ref": "p. 12"
+        "fact": "Observing roof pitch, window shapes, column orders, and building materials allows you to trace local community structures back to distinct historical periods and architectural traditions (p. 12)."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -283,7 +280,7 @@
       "step_by_step_procedure": [
         "Step 1 - Tour and List Local Buildings: (a) Tour your community and list the different types of buildings you see (p. 12).",
         "Step 2 - Match Buildings to Historical Styles: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12).",
-        "Step 3 - Sketch Your Most Admired Building: Cross-check your Tour your community and list technique, measurements, and results with a patrol buddy using the EDGE method (p. 10).",
+        "Architectural Styles and Historical Achievements: Architectural styles and historical achievements, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 10).",
         "Step 4 - Present Findings to Your Counselor: Review your completed Tour your community and list evidence and demonstrate proficiency during your counselor conference (p. 10)."
       ],
       "gear_checklist": [
@@ -300,23 +297,23 @@
           "Cataloging Local Structures: (a) Tour your community and list the different types of buildings you see (p. 12)."
         ],
         "right_points": [
-          "(1b) Historical Architectural Achievement Impact: Try to identify buildings that can be associated with a specific period of history (p. 12).",
-          "Step 2 - Match Buildings to Historical Styles: Try to identify buildings that can be associated with a specific period of history (p. 12).",
+          "(1b) Historical Architectural Achievement Impact: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12).",
+          "Step 2 - Match Buildings to Historical Styles: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12).",
           "Step 3 - Sketch Your Most Admired Building: Cross-check your Tour your community and list technique, measurements, and results (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Community Building Tour and Sketch",
             "left": "(1a) Community Building Tour and Sketch: (a) Tour your community and list the different types of buildings you see (p. 12).",
-            "right": "(1b) Historical Architectural Achievement Impact: Try to identify buildings that can be associated with a specific period of history (p. 12)."
+            "right": "(1b) Historical Architectural Achievement Impact: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Historical Architectural Milestones: Select a historical architectural achievement that has had a major impact on society (p. 12).",
-            "right": "Step 2 - Match Buildings to Historical Styles: Try to identify buildings that can be associated with a specific period of history (p. 12)."
+            "right": "Step 2 - Match Buildings to Historical Styles: Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Cataloging Local Structures: (a) Tour your community and list the different types of buildings you see (p. 12).",
             "right": "Step 3 - Sketch Your Most Admired Building: Cross-check your Tour your community and list technique, measurements, and results (p. 10)."
           }
@@ -326,8 +323,8 @@
         "title": "Architecture Req 1 Exemplar Workbook Entry: Architectural Styles and Historical Achievements",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 1a (Community Building Tour)": "(a) Tour your community and list the different types of buildings you see (p. 12).",
-          "Req 1b (Historical Architectural)": "Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12)."
+          "Req 1a (Community Building Tour and Sketch)": "(a) Tour your community and list the different types of buildings you see (p. 12).",
+          "Req 1b (Historical Architectural Achievement Impact)": "Try to identify buildings that can be associated with a specific period of history or style of architecture (p. 12)."
         },
         "sample_output": "Architectural Styles and Historical Achievements: (a) Tour your community and list the different types of buildings you see (p. 12).",
         "counselor_tip": "For Architecture Requirement 1 (Architectural Styles and Historical Achievements), verify the Scout's own observations and specific pamphlet details (Official Scouting America Architecture Merit Badge Pamphlet)."
@@ -354,9 +351,12 @@
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 1.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Architecture Requirement 1 (architectural styles and historical achievements) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/architecture_req_1_nano_hero.png",
-      "workbook_diagram_caption": "Panels portray drafting table sketches, blueprint review sessions, structural timber wall framing, and completed residential homes."
+      "workbook_diagram_caption": "Panels portray drafting table sketches, blueprint review sessions, structural timber wall framing, and completed residential homes.",
+      "number": "1",
+      "description": "Do the following: (a) Tour your community and list the different types of buildings you see. Try to identify buildings that can be associated with a specific period of history or style of architecture. Make a sketch of the building you most admire. (b) Select a historical architectural achievement that has had a major impact on society. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out how this achievement has influenced the world today. Tell your counselor what you learned.",
+      "workbook_visual_caption": "Panels portray drafting table sketches, blueprint review sessions, structural timber wall framing, and completed residential homes."
     },
     {
       "req_id": "2",
@@ -403,9 +403,7 @@
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "A building only qualifies as sustainable architecture if its roof is covered with expensive solar panels.",
-            "fact": "Passive solar orientation, natural cross-ventilation, high-R-value insulation, and daylighting are core sustainable architecture strategies that require no complex electronics (p. 12).",
-            "fact_correction": "Passive solar orientation, natural cross-ventilation, high-R-value insulation, and daylighting are core sustainable architecture strategies that require no complex electronics (p. 12).",
-            "pamphlet_page_ref": "p. 12"
+            "fact": "Passive solar orientation, natural cross-ventilation, high-R-value insulation, and daylighting are core sustainable architecture strategies that require no complex electronics (p. 12)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -432,12 +430,13 @@
           "sub_req_label": "2a",
           "sub_req_text": "The term sustainable architecture. Identify three features typical of green buildings.",
           "topic_title": "Req 2a: Sustainable Architecture and Green Features",
-          "pamphlet_summary": "Sustainable Architecture and Green Features: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12).",
+          "pamphlet_summary": "Sustainable Architecture and Green Features: The term sustainable architecture. Identify three features typical of green buildings (p. 12).",
           "pamphlet_excerpts": [
-            "Sustainable Architecture and Green Features: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12)."
+            "Sustainable Architecture and Green Features: The term sustainable architecture. Identify three features typical of green buildings (p. 12)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/architecture_p007_img1.png",
-          "workbook_diagram_caption": "Field reference diagram showing Architecture Requirement 2 equipment, technique, and verification milestones for Architecture Requirement 2 (img1)."
+          "workbook_diagram_caption": "Step-by-step Architecture visual guide highlighting sustainable architecture and adaptive reuse positioning and inspection checkpoints for Requirement 2.",
+          "workbook_visual_caption": "Step-by-step Architecture visual guide highlighting sustainable architecture and adaptive reuse positioning and inspection checkpoints for Requirement 2."
         },
         {
           "sub_id": "2b",
@@ -468,28 +467,26 @@
             "table_title": "Req 2b Technical Comparison Matrix (Renewable Building Materials and Recycled)",
             "headers": [
               "Comparison Dimension",
-              "Primary Concept / System A",
-              "Comparison Concept / System B"
+              "Rapidly Renewable Building Materials",
+              "Reclaimed and Recycled Construction Materials"
             ],
             "column_headers": [
               "Comparison Dimension",
-              "Primary Concept / System A",
-              "Comparison Concept / System B"
+              "Rapidly Renewable Building Materials",
+              "Reclaimed and Recycled Construction Materials"
             ],
             "row_labels": [
-              "1. The difference between renewable building materials and recycled building materials, and how each can be used in construction."
+              "1. The difference between renewable building materials and recycled building materials, and how each can be used in construction"
             ],
             "rows": [
-              "1. The difference between renewable building materials and recycled building materials, and how each can be used in construction."
+              "1. The difference between renewable building materials and recycled building materials, and how each can be used in construction"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Tearing down an older brick building and building a new one is always greener than renovating the existing structure.",
-            "fact": "Demolishing an existing structure wastes all the embodied energy already invested in its bricks, steel, and concrete while sending tons of debris to landfills (p. 12).",
-            "fact_correction": "Demolishing an existing structure wastes all the embodied energy already invested in its bricks, steel, and concrete while sending tons of debris to landfills (p. 12).",
-            "pamphlet_page_ref": "p. 12"
+            "fact": "Demolishing an existing structure wastes all the embodied energy already invested in its bricks, steel, and concrete while sending tons of debris to landfills (p. 12)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -516,11 +513,13 @@
           "sub_req_label": "2b",
           "sub_req_text": "The difference between renewable building materials and recycled building materials, and how each can be used in construction.",
           "topic_title": "Req 2b: Renewable Versus Recycled Materials",
-          "pamphlet_summary": "Renewable Versus Recycled Materials: The term sustainable architecture. Identify three features typical of green buildings (p. 12).",
+          "pamphlet_summary": "Renewable Versus Recycled Materials: The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12).",
           "pamphlet_excerpts": [
-            "Renewable Versus Recycled Materials: The term sustainable architecture. Identify three features typical of green buildings (p. 12)."
+            "Renewable Versus Recycled Materials: The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/architecture_p007_img1.png",
+          "workbook_diagram_caption": "Step-by-step Architecture visual guide highlighting sustainable architecture and adaptive reuse positioning and inspection checkpoints for Requirement 2.",
+          "workbook_visual_caption": "Step-by-step Architecture visual guide highlighting sustainable architecture and adaptive reuse positioning and inspection checkpoints for Requirement 2."
         },
         {
           "sub_id": "2c",
@@ -536,7 +535,7 @@
               "url": "https://youtu.be/m88-IUjDLq4"
             },
             {
-              "title": "Detroit's $20 billion 5 Mega-Projects Makeover is INSANE (video)",
+              "title": "Detroit's $20 billion 5 Mega-Projects Make over is INSANE (video)",
               "url": "https://youtu.be/k8BivDqSVZg"
             }
           ],
@@ -556,19 +555,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The relationship of architecture with its surrounding environment and the community."
+              "1. The relationship of architecture with its surrounding environment and the community"
             ],
             "rows": [
-              "1. The relationship of architecture with its surrounding environment and the community."
+              "1. The relationship of architecture with its surrounding environment and the community"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Green architecture focuses exclusively on what happens inside the four walls of an individual building.",
-            "fact": "Sustainable architecture considers how a building connects to public transit, pedestrian walkways, stormwater runoff, and the surrounding neighborhood character (p. 12).",
-            "fact_correction": "Sustainable architecture considers how a building connects to public transit, pedestrian walkways, stormwater runoff, and the surrounding neighborhood character (p. 12).",
-            "pamphlet_page_ref": "p. 12"
+            "fact": "Sustainable architecture considers how a building connects to public transit, pedestrian walkways, stormwater runoff, and the surrounding neighborhood character (p. 12)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -595,12 +592,14 @@
           "sub_req_label": "2c",
           "sub_req_text": "The relationship of architecture with its surrounding environment and the community.",
           "topic_title": "Req 2c: Architecture and Community Environment",
-          "pamphlet_summary": "Architecture and Community Environment: The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12).",
+          "pamphlet_summary": "Architecture and Community Environment: The relationship of architecture with its surrounding environment and the community (p. 12).",
           "pamphlet_excerpts": [
-            "Architecture and Community Environment: The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12)."
+            "Architecture and Community Environment: The relationship of architecture with its surrounding environment and the community (p. 12)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 2c: Relationship of Architecture with Its Surrounding Environment"
+          "workbook_diagram_url": "assets/pamphlet_images/architecture_p007_img1.png",
+          "title": "Req 2c: Architecture and Community Environment",
+          "workbook_diagram_caption": "Step-by-step Architecture visual guide highlighting sustainable architecture and adaptive reuse positioning and inspection checkpoints for Requirement 2.",
+          "workbook_visual_caption": "Step-by-step Architecture visual guide highlighting sustainable architecture and adaptive reuse positioning and inspection checkpoints for Requirement 2."
         },
         {
           "sub_id": "2d",
@@ -636,19 +635,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. How entire buildings can be reused rather than torn down when they no longer serve their original purpose."
+              "1. How entire buildings can be reused rather than torn down when they no longer serve their original purpose"
             ],
             "rows": [
-              "1. How entire buildings can be reused rather than torn down when they no longer serve their original purpose."
+              "1. How entire buildings can be reused rather than torn down when they no longer serve their original purpose"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
-            "misconception": "A building only qualifies as sustainable architecture if its roof is covered with expensive solar panels.",
-            "fact": "Passive solar orientation, natural cross-ventilation, high-R-value insulation, and daylighting are core sustainable architecture strategies that require no complex electronics (p. 12).",
-            "fact_correction": "Passive solar orientation, natural cross-ventilation, high-R-value insulation, and daylighting are core sustainable architecture strategies that require no complex electronics (p. 12).",
-            "pamphlet_page_ref": "p. 12"
+            "misconception": "During Architecture Requirement 2d, Scouts can underestimate how directly mastery of adaptive reuse of existing buildings depends on understanding how entire buildings can be reused rather than torn down when they no longer serve their original purpose.",
+            "fact": "Scouting America standards for Architecture Requirement 2d require complete workbook entries on adaptive reuse of existing buildings to demonstrate full understanding of how entire buildings can be reused rather than torn down when they no longer serve their original purpose."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -675,11 +672,13 @@
           "sub_req_label": "2d",
           "sub_req_text": "How entire buildings can be reused rather than torn down when they no longer serve their original purpose.",
           "topic_title": "Req 2d: Adaptive Reuse of Existing Buildings",
-          "pamphlet_summary": "Adaptive Reuse of Existing Buildings: The relationship of architecture with its surrounding environment and the community (p. 12).",
+          "pamphlet_summary": "Adaptive Reuse of Existing Buildings: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12).",
           "pamphlet_excerpts": [
-            "Adaptive Reuse of Existing Buildings: The relationship of architecture with its surrounding environment and the community (p. 12)."
+            "Adaptive Reuse of Existing Buildings: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/architecture_p007_img1.png",
+          "workbook_diagram_caption": "Step-by-step Architecture visual guide highlighting sustainable architecture and adaptive reuse positioning and inspection checkpoints for Requirement 2.",
+          "workbook_visual_caption": "Step-by-step Architecture visual guide highlighting sustainable architecture and adaptive reuse positioning and inspection checkpoints for Requirement 2."
         }
       ],
       "resources": [
@@ -712,7 +711,7 @@
           "url": "https://youtu.be/m88-IUjDLq4"
         },
         {
-          "title": "Detroit's $20 billion 5 Mega-Projects Makeover is INSANE (video)",
+          "title": "Detroit's $20 billion 5 Mega-Projects Make over is INSANE (video)",
           "url": "https://youtu.be/k8BivDqSVZg"
         },
         {
@@ -740,7 +739,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Architecture Requirement 2 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Architecture Requirement 2 on sustainable architecture and adaptive reuse under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
@@ -749,33 +748,31 @@
         "table_title": "Req 2 Technical Comparison Matrix (Leave No Trace and Outdoor Ethics)",
         "headers": [
           "Comparison Dimension",
-          "Primary Concept / System A",
-          "Comparison Concept / System B"
+          "Rapidly Renewable Building Materials",
+          "Reclaimed and Recycled Construction Materials"
         ],
         "column_headers": [
           "Comparison Dimension",
-          "Primary Concept / System A",
-          "Comparison Concept / System B"
+          "Rapidly Renewable Building Materials",
+          "Reclaimed and Recycled Construction Materials"
         ],
         "row_labels": [
-          "1. (2a) Sustainable Architecture Identify Three Features",
-          "2. (2b) Renewable Building Materials and Recycled",
-          "3. (2c) Relationship of Architecture With Its",
-          "4. (2d) Entire Buildings Can Be Reused"
+          "1. (2a) The term sustainable architecture",
+          "2. (2b) The difference between renewable building materials and recycled building materials, and how each can be used in construction",
+          "3. (2c) The relationship of architecture with its surrounding environment and the community",
+          "4. (2d) How entire buildings can be reused rather than torn down when they no longer serve their original purpose"
         ],
         "rows": [
-          "1. (2a) Sustainable Architecture Identify Three Features",
-          "2. (2b) Renewable Building Materials and Recycled",
-          "3. (2c) Relationship of Architecture With Its",
-          "4. (2d) Entire Buildings Can Be Reused"
+          "1. (2a) The term sustainable architecture",
+          "2. (2b) The difference between renewable building materials and recycled building materials, and how each can be used in construction",
+          "3. (2c) The relationship of architecture with its surrounding environment and the community",
+          "4. (2d) How entire buildings can be reused rather than torn down when they no longer serve their original purpose"
         ],
         "min_rows": 4
       },
       "common_misconception_pair": {
         "misconception": "Renewable building materials and recycled building materials mean the exact same thing in green construction.",
-        "fact": "Renewable materials come from living resources like bamboo, cork, or managed timber that regrow quickly after harvest, whereas recycled materials reprocess post-consumer or industrial waste like steel, glass, or crushed concrete into new building products (p. 12).",
-        "fact_correction": "Renewable materials come from living resources like bamboo, cork, or managed timber that regrow quickly after harvest, whereas recycled materials reprocess post-consumer or industrial waste like steel, glass, or crushed concrete into new building products (p. 12).",
-        "pamphlet_page_ref": "p. 12"
+        "fact": "Renewable materials come from living resources like bamboo, cork, or managed timber that regrow quickly after harvest, whereas recycled materials reprocess post-consumer or industrial waste like steel, glass, or crushed concrete into new building products (p. 12)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -807,7 +804,7 @@
       "step_by_step_procedure": [
         "Step 1 - Evaluate Site and Community Context: The relationship of architecture with its surrounding environment and the community (p. 12).",
         "Step 2 - Plan Adaptive Reuse Opportunities: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12).",
-        "Step 3 - Compare Renewable and Recycled Materials: Cross-check your Leave No Trace & Outdoor Ethics technique, measurements, and results with a patrol buddy using the EDGE method (p. 14).",
+        "Sustainable Architecture and Adaptive Reuse: Sustainable architecture and adaptive reuse, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 14).",
         "Step 4 - Discuss Green Design with Counselor: Review your completed Leave No Trace & Outdoor Ethics evidence and demonstrate proficiency during your counselor conference (p. 14)."
       ],
       "gear_checklist": [],
@@ -815,28 +812,28 @@
         "left_header": "Rapidly Renewable Building Materials",
         "right_header": "Reclaimed and Recycled Construction Materials",
         "left_points": [
-          "(2a) Sustainable Architecture and Green Features: How entire buildings can be reused rather than torn down when they no longer serve (p. 12).",
+          "(2a) Sustainable Architecture and Green Features: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12).",
           "(2b) Renewable Versus Recycled Materials: The term sustainable architecture. Identify three features typical of green buildings (p. 12).",
           "Environmental and Community Integration: The relationship of architecture with its surrounding environment and the community (p. 12)."
         ],
         "right_points": [
-          "(2c) Architecture and Community Environment: The difference between renewable building materials and recycled building materials (p. 12).",
+          "(2c) Architecture and Community Environment: The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12).",
           "(2d) Adaptive Reuse of Existing Buildings: The relationship of architecture with its surrounding environment and the community (p. 12).",
           "Step 3 - Compare Renewable and Recycled Materials: Cross-check your Leave No Trace & Outdoor Ethics technique, measurements (p. 14)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(2a) Sustainable Architecture and Green Features: How entire buildings can be reused rather than torn down when they no longer serve (p. 12).",
-            "right": "(2c) Architecture and Community Environment: The difference between renewable building materials and recycled building materials (p. 12)."
+            "attribute": "Sustainable Architecture and Green Features",
+            "left": "(2a) Sustainable Architecture and Green Features: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12).",
+            "right": "(2c) Architecture and Community Environment: The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "(2b) Renewable Versus Recycled Materials: The term sustainable architecture. Identify three features typical of green buildings (p. 12).",
             "right": "(2d) Adaptive Reuse of Existing Buildings: The relationship of architecture with its surrounding environment and the community (p. 12)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Environmental and Community Integration: The relationship of architecture with its surrounding environment and the community (p. 12).",
             "right": "Step 3 - Compare Renewable and Recycled Materials: Cross-check your Leave No Trace & Outdoor Ethics technique, measurements (p. 14)."
           }
@@ -846,12 +843,12 @@
         "title": "Architecture Req 2 Exemplar Workbook Entry: Sustainable Architecture and Adaptive Reuse",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a (Sustainable Architecture)": "How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12).",
-          "Req 2b (Renewable Versus Recycled)": "The term sustainable architecture. Identify three features typical of green buildings (p. 12).",
-          "Req 2c (Architecture and Community)": "The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12).",
-          "Req 2d (Adaptive Reuse of Existing)": "The relationship of architecture with its surrounding environment and the community (p. 12)."
+          "Req 2a (Sustainable Architecture and Green Features)": "How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12).",
+          "Req 2b (Renewable Versus Recycled Materials)": "The term sustainable architecture. Identify three features typical of green buildings (p. 12).",
+          "Req 2c (Architecture and Community Environment)": "The difference between renewable building materials and recycled building materials, and how each can be used in construction (p. 12).",
+          "Req 2d (Adaptive Reuse of Existing Buildings)": "The relationship of architecture with its surrounding environment and the community (p. 12)."
         },
-        "sample_output": "Sustainable Architecture and Adaptive Reuse: How entire buildings can be reused rather than torn down when they no longer serve their original (p. 12).",
+        "sample_output": "Sustainable Architecture and Adaptive Reuse: How entire buildings can be reused rather than torn down when they no longer serve their original purpose (p. 12).",
         "counselor_tip": "For Architecture Requirement 2 (Sustainable Architecture and Adaptive Reuse), verify the Scout's own observations and specific pamphlet details (Official Scouting America Architecture Merit Badge Pamphlet)."
       },
       "quiz_item": {
@@ -876,9 +873,12 @@
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 2.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Architecture Requirement 2 (sustainable architecture and adaptive reuse) across all 4 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/architecture_req_2_nano_hero.png",
-      "workbook_diagram_caption": "Uniformed Scouts and an adult counselor evaluate campsite placement and tent orientation amid tall pine trees."
+      "workbook_diagram_caption": "Uniformed Scouts and an adult counselor evaluate campsite placement and tent orientation amid tall pine trees.",
+      "number": "2",
+      "description": "In following the Leave No Trace Seven Principles and the Outdoor Code, Scouts pledge to \"Travel and camp on durable surfaces\" and to \"Leave what you find\" and to \"Be conservation-minded.\" Discuss the following with your counselor: (a) The term sustainable architecture. Identify three features typical of green buildings. (b) The difference between renewable building materials and recycled building materials, and how each can be used in construction. (c) The relationship of architecture with its surrounding environment and the community. (d) How entire buildings can be reused rather than torn down when they no longer serve their original purpose.",
+      "workbook_visual_caption": "Uniformed Scouts and an adult counselor evaluate campsite placement and tent orientation amid tall pine trees."
     },
     {
       "req_id": "3",
@@ -908,25 +908,23 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect.",
-              "2. Ask to see the scale model of a building and the drawings that a builder would use to construct this building.",
-              "3. Discuss why the different building materials were selected.",
-              "4. Look at the details in the drawings and the model to see how the materials and components are attached to each other during..."
+              "1. With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect",
+              "2. Ask to see the scale model of a building and the drawings that a builder would use to construct this building",
+              "3. Discuss why the different building materials were selected",
+              "4. Look at the details in the drawings and the model to see how the materials and components are attached to each other during construction"
             ],
             "rows": [
-              "1. With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect.",
-              "2. Ask to see the scale model of a building and the drawings that a builder would use to construct this building.",
-              "3. Discuss why the different building materials were selected.",
-              "4. Look at the details in the drawings and the model to see how the materials and components are attached to each other during..."
+              "1. With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect",
+              "2. Ask to see the scale model of a building and the drawings that a builder would use to construct this building",
+              "3. Discuss why the different building materials were selected",
+              "4. Look at the details in the drawings and the model to see how the materials and components are attached to each other during construction"
             ],
             "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Once an architect hands over the blueprints to a builder, the architect never visits the construction site.",
-            "fact": "Architects regularly visit active construction sites to verify that the contractor's work matches the construction drawings, answer field questions, and resolve unforeseen structural issues (p. 12).",
-            "fact_correction": "Architects regularly visit active construction sites to verify that the contractor's work matches the construction drawings, answer field questions, and resolve unforeseen structural issues (p. 12).",
-            "pamphlet_page_ref": "p. 12"
+            "fact": "Architects regularly visit active construction sites to verify that the contractor's work matches the construction drawings, answer field questions, and resolve unforeseen structural issues (p. 12)."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -963,8 +961,9 @@
             "Architect Office Visit and Models: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect (p. 12)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/architecture_p012_img1.png",
-          "title": "Req 3a: Your Parent or Guardian's and Counselor's Permission",
-          "workbook_diagram_caption": "Field reference diagram showing Architecture Requirement 3 equipment, technique, and verification milestones for Architecture Requirement 3 (img1)."
+          "title": "Req 3a: Architect Office Visit and Models",
+          "workbook_diagram_caption": "Detailed Architecture reference illustration comparing key components and stages of architect visits and client interviews for Requirement 3.",
+          "workbook_visual_caption": "Detailed Architecture reference illustration comparing key components and stages of architect visits and client interviews for Requirement 3."
         },
         {
           "sub_id": "3b",
@@ -1003,9 +1002,7 @@
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "A builder only needs a single top-down floor plan drawing to construct an entire house.",
-            "fact": "A complete construction drawing set includes floor plans, exterior elevations, building sections, structural framing plans, and mechanical, electrical, and plumbing layouts (p. 12).",
-            "fact_correction": "A complete construction drawing set includes floor plans, exterior elevations, building sections, structural framing plans, and mechanical, electrical, and plumbing layouts (p. 12).",
-            "pamphlet_page_ref": "p. 12"
+            "fact": "A complete construction drawing set includes floor plans, exterior elevations, building sections, structural framing plans, and mechanical, electrical, and plumbing layouts (p. 12)."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1036,13 +1033,15 @@
           "id": "3b",
           "sub_req_label": "3b",
           "sub_req_text": "With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site. Ask the architect to bring drawings that the builder uses to construct the building. While at the site, discuss why the different building materials being used were selected. Discuss how the different building materials and components are attached to each other during construction. Note: To visit a construction site will require advance planning. You will need permission from a parent or guardian, counselor, the architect, and the construction site manager. A construction site is a very dangerous place. While there, you will need to closely follow the site manager's directions and comply with all the safety procedures, including wearing a hard hat, protective eyewear, and proper footwear. Be aware of the changing conditions at the site, and stay with the architect or site manager.",
-          "topic_title": "Req 3b: Architect Construction Site Walkthrough",
-          "pamphlet_summary": "Architect Construction Site Walkthrough: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
+          "topic_title": "Req 3b: Architect Construction Site Walk",
+          "pamphlet_summary": "Architect Construction Site Walk: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
           "pamphlet_excerpts": [
-            "Architect Construction Site Walkthrough: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12)."
+            "Architect Construction Site Walk: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 3b: Your Parent or Guardian's and Counselor's Permission"
+          "workbook_diagram_url": "assets/pamphlet_images/architecture_p012_img1.png",
+          "title": "Req 3b: Architect Construction Site Walk",
+          "workbook_diagram_caption": "Detailed Architecture reference illustration comparing key components and stages of architect visits and client interviews for Requirement 3.",
+          "workbook_visual_caption": "Detailed Architecture reference illustration comparing key components and stages of architect visits and client interviews for Requirement 3."
         },
         {
           "sub_id": "3c",
@@ -1070,23 +1069,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect.",
-              "2. Find out what your client's requirements would be for designing a new home or business building.",
-              "3. Write a short program including a list of requirements for the project, the functions of the building and site, how the functions..."
+              "1. Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect",
+              "2. Find out what your client's requirements would be for designing a new home or business building",
+              "3. Write a short program including a list of requirements for the project, the functions of the building and site"
             ],
             "rows": [
-              "1. Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect.",
-              "2. Find out what your client's requirements would be for designing a new home or business building.",
-              "3. Write a short program including a list of requirements for the project, the functions of the building and site, how the functions..."
+              "1. Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect",
+              "2. Find out what your client's requirements would be for designing a new home or business building",
+              "3. Write a short program including a list of requirements for the project, the functions of the building and site"
             ],
             "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Architects choose building materials based purely on color and surface appearance.",
-            "fact": "Every material in a building is selected by balancing structural strength, fire resistance, weather durability, acoustic performance, thermal insulation, appearance, and cost (p. 12).",
-            "fact_correction": "Every material in a building is selected by balancing structural strength, fire resistance, weather durability, acoustic performance, thermal insulation, appearance, and cost (p. 12).",
-            "pamphlet_page_ref": "p. 12"
+            "fact": "Every material in a building is selected by balancing structural strength, fire resistance, weather durability, acoustic performance, thermal insulation, appearance, and cost (p. 12)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1117,8 +1114,10 @@
           "pamphlet_excerpts": [
             "Client Design Program Interview: Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 3c: Someone Who Might Be Your Client"
+          "workbook_diagram_url": "assets/pamphlet_images/architecture_p012_img1.png",
+          "title": "Req 3c: Client Design Program Interview",
+          "workbook_diagram_caption": "Detailed Architecture reference illustration comparing key components and stages of architect visits and client interviews for Requirement 3.",
+          "workbook_visual_caption": "Detailed Architecture reference illustration comparing key components and stages of architect visits and client interviews for Requirement 3."
         }
       ],
       "resources": [
@@ -1139,7 +1138,7 @@
       "action_verb": "Explain",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Architecture Requirement 3 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Architecture Requirement 3 on architect visits and client interviews under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1157,22 +1156,20 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. (3a) Permission and Approval Arrange to",
-          "2. (3b) Permission and Approval Arrange to",
-          "3. (3c) Someone Who Might Be Your"
+          "1. (3a) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect",
+          "2. (3b) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site",
+          "3. (3c) Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect"
         ],
         "rows": [
-          "1. (3a) Permission and Approval Arrange to",
-          "2. (3b) Permission and Approval Arrange to",
-          "3. (3c) Someone Who Might Be Your"
+          "1. (3a) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect",
+          "2. (3b) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site",
+          "3. (3c) Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect"
         ],
         "min_rows": 3
       },
       "common_misconception_pair": {
         "misconception": "Architects build physical or 3D scale models only as decorative display pieces after construction drawings are finished.",
-        "fact": "Scale models help clients visualize three-dimensional massing, spatial flow, and light, while working drawings provide the exact dimensions, structural details, and material specifications builders need for construction (p. 12).",
-        "fact_correction": "Scale models help clients visualize three-dimensional massing, spatial flow, and light, while working drawings provide the exact dimensions, structural details, and material specifications builders need for construction (p. 12).",
-        "pamphlet_page_ref": "p. 12"
+        "fact": "Scale models help clients visualize three-dimensional massing, spatial flow, and light, while working drawings provide the exact dimensions, structural details, and material specifications builders need for construction (p. 12)."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1209,7 +1206,7 @@
       "step_by_step_procedure": [
         "Step 1 - Arrange Approved Architect or Client Meeting: Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12).",
         "Step 2 - Examine Scale Models and Blueprints: (a) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect (p. 12).",
-        "Step 3 - Document Client Program Requirements: Cross-check your Parent or Guardian's and Counselor's technique, measurements, and results with a patrol buddy using the EDGE method (p. 18).",
+        "Architect Visits and Client Interviews: Architect visits and client interviews, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 18).",
         "Step 4 - Review Design Notes with Counselor: Review your completed Parent or Guardian's and Counselor's evidence and demonstrate proficiency during your counselor conference (p. 18)."
       ],
       "gear_checklist": [
@@ -1221,29 +1218,29 @@
         "left_header": "Three-Dimensional Architectural Scale Model",
         "right_header": "Two-Dimensional Construction Working Drawings",
         "left_points": [
-          "(3a) Architect Office Visit and Models: With your parent or guardian's and counselor's permission and approval, arrange to meet (p. 12).",
-          "Construction Site Field Visit: With your parent or guardian's and counselor's permission and approval, arrange to meet (p. 12).",
-          "Prospective Client Design Interview: Interview someone who might be your client (such as a prospective homeowner or business owner) if (p. 12)."
+          "(3a) Architect Office Visit and Models: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
+          "Construction Site Field Visit: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
+          "Prospective Client Design Interview: Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12)."
         ],
         "right_points": [
-          "(3b) Architect Construction Site Walkthrough: With your parent or guardian's and counselor's permission and approval, arrange to meet (p. 12).",
-          "(3c) Client Design Program Interview: Interview someone who might be your client (such as a prospective homeowner or business owner) if (p. 12).",
+          "(3b) Architect Construction Site Walk: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
+          "(3c) Client Design Program Interview: Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12).",
           "Step 3 - Document Client Program Requirements: Cross-check your Parent or Guardian's and Counselor's technique, measurements (p. 18)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(3a) Architect Office Visit and Models: With your parent or guardian's and counselor's permission and approval, arrange to meet (p. 12).",
-            "right": "(3b) Architect Construction Site Walkthrough: With your parent or guardian's and counselor's permission and approval, arrange to meet (p. 12)."
+            "attribute": "Architect Office Visit and Models",
+            "left": "(3a) Architect Office Visit and Models: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
+            "right": "(3b) Architect Construction Site Walk: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Construction Site Field Visit: With your parent or guardian's and counselor's permission and approval, arrange to meet (p. 12).",
-            "right": "(3c) Client Design Program Interview: Interview someone who might be your client (such as a prospective homeowner or business owner) if (p. 12)."
+            "attribute": "Practical Field Application",
+            "left": "Construction Site Field Visit: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
+            "right": "(3c) Client Design Program Interview: Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "Prospective Client Design Interview: Interview someone who might be your client (such as a prospective homeowner or business owner) if (p. 12).",
+            "attribute": "Safety & Verification Standard",
+            "left": "Prospective Client Design Interview: Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12).",
             "right": "Step 3 - Document Client Program Requirements: Cross-check your Parent or Guardian's and Counselor's technique, measurements (p. 18)."
           }
         ]
@@ -1252,11 +1249,11 @@
         "title": "Architecture Req 3 Exemplar Workbook Entry: Architect Visits and Client Interviews",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a (Architect Office Visit)": "With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect (p. 12).",
-          "Req 3b (Architect Construction)": "With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
-          "Req 3c (Client Design Program)": "Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12)."
+          "Req 3a (Architect Office Visit and Models)": "With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
+          "Req 3b (Architect Construction Site Walk)": "With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
+          "Req 3c (Client Design Program Interview)": "Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect (p. 12)."
         },
-        "sample_output": "Architect Visits and Client Interviews: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect (p. 12).",
+        "sample_output": "Architect Visits and Client Interviews: With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site (p. 12).",
         "counselor_tip": "For Architecture Requirement 3 (Architect Visits and Client Interviews), verify the Scout's own observations and specific pamphlet details (Official Scouting America Architecture Merit Badge Pamphlet)."
       },
       "quiz_item": {
@@ -1281,9 +1278,12 @@
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 3.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Architecture Requirement 3 (architect visits and client interviews) across all 3 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/architecture_req_3_nano_hero.png",
-      "workbook_diagram_caption": "Three uniformed Scouts gather around a rustic wooden table to examine detailed architectural floor plans outdoors."
+      "workbook_diagram_caption": "Three uniformed Scouts gather around a rustic wooden table to examine detailed architectural floor plans outdoors.",
+      "number": "3",
+      "description": "Do ONE of the following: (a) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect. Ask to see the scale model of a building and the drawings that a builder would use to construct this building. Discuss why the different building materials were selected. Look at the details in the drawings and the model to see how the materials and components are attached to each other during construction. (b) With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site. Ask the architect to bring drawings that the builder uses to construct the building. While at the site, discuss why the different building materials being used were selected. Discuss how the different building materials and components are attached to each other during construction. Note: To visit a construction site will require advance planning. You will need permission from a parent or guardian, counselor, the architect, and the construction site manager. A construction site is a very dangerous place. While there, you will need to closely follow the site manager's directions and comply with all the safety procedures, including wearing a hard hat, protective eyewear, and proper footwear. Be aware of the changing conditions at the site, and stay with the architect or site manager. (c) Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect. Find out what your client's requirements would be for designing a new home or business building. Write a short program including a list of requirements for the project, the functions of the building and site, how the functions relate to one another, and the goals of the project.",
+      "workbook_visual_caption": "Three uniformed Scouts gather around a rustic wooden table to examine detailed architectural floor plans outdoors."
     },
     {
       "req_id": "4",
@@ -1314,7 +1314,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Architecture Requirement 4 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Architecture Requirement 4 on measuring rooms and scaled floor plans under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "In-Class Concept",
@@ -1332,24 +1332,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Measure a room such as one where you live or where your troop meets.",
-          "2. Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or...",
-          "3. Neatly label your drawing with the following: your name, the date, what room you drew, and the scale of the drawing.",
+          "1. Measure a room such as one where you live or where your troop meets",
+          "2. Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets",
+          "3. Neatly label your drawing with the following: your name, the date, what room you drew, and the scale of the drawing",
           "4. (Drawing scale: ¼ inch = 1 foot)"
         ],
         "rows": [
-          "1. Measure a room such as one where you live or where your troop meets.",
-          "2. Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or...",
-          "3. Neatly label your drawing with the following: your name, the date, what room you drew, and the scale of the drawing.",
+          "1. Measure a room such as one where you live or where your troop meets",
+          "2. Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets",
+          "3. Neatly label your drawing with the following: your name, the date, what room you drew, and the scale of the drawing",
           "4. (Drawing scale: ¼ inch = 1 foot)"
         ],
         "min_rows": 4
       },
       "common_misconception_pair": {
         "misconception": "On a 1/4 inch = 1 foot scaled floor plan, a 16-foot wall should be drawn 16 inches long on the paper.",
-        "fact": "At a scale of 1/4 inch = 1 foot, every foot of real room length is represented by 1/4 inch on paper, so a 16-foot wall measures 4 inches (16 multiplied by 1/4 inch) on the drawing (p. 12).",
-        "fact_correction": "At a scale of 1/4 inch = 1 foot, every foot of real room length is represented by 1/4 inch on paper, so a 16-foot wall measures 4 inches (16 multiplied by 1/4 inch) on the drawing (p. 12).",
-        "pamphlet_page_ref": "p. 12"
+        "fact": "At a scale of 1/4 inch = 1 foot, every foot of real room length is represented by 1/4 inch on paper, so a 16-foot wall measures 4 inches (16 multiplied by 1/4 inch) on the drawing (p. 12)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1376,12 +1374,12 @@
         "Measuring an Existing Room Accurately: Measure a room such as one where you live or where your troop meets (p. 12).",
         "Drafting a Scaled Floor Plan: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets (p. 12).",
         "Required Title Block Labels: Your name, the date, what room you drew, and the scale of the drawing (p. 12).",
-        "Quarter-Inch to One-Foot Scale: ¼ inch = 1 foot) (p. 12)."
+        "Quarter-Inch to One-Foot Scale: ¼ inch = 1 foot (p. 12)."
       ],
       "step_by_step_procedure": [
         "Step 1 - Measure Room Walls and Openings: Your name, the date, what room you drew, and the scale of the drawing (p. 12).",
-        "Step 2 - Convert Dimensions to Drawing Scale: ¼ inch = 1 foot) (p. 12).",
-        "Step 3 - Draft Doors, Windows, and Built-Ins: Cross-check your Measure a room technique, measurements, and results with a patrol buddy using the EDGE method (p. 22).",
+        "Step 2 - Convert Dimensions to Drawing Scale: ¼ inch = 1 foot (p. 12).",
+        "Measuring Rooms and Scaled Floor Plans: Measuring rooms and scaled floor plans, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22).",
         "Step 4 - Label Name, Date, Room, and Scale: Review your completed Measure a room evidence and demonstrate proficiency during your counselor conference (p. 22)."
       ],
       "gear_checklist": [
@@ -1394,29 +1392,29 @@
         "right_header": "Quarter-Inch Scaled Floor Plan Drawing",
         "left_points": [
           "Measuring an Existing Room Accurately: Measure a room such as one where you live or where your troop meets (p. 12).",
-          "Drafting a Scaled Floor Plan: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows (p. 12).",
+          "Drafting a Scaled Floor Plan: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets (p. 12).",
           "Required Title Block Labels: Your name, the date, what room you drew, and the scale of the drawing (p. 12)."
         ],
         "right_points": [
           "Step 1 - Measure Room Walls and Openings: Your name, the date, what room you drew, and the scale of the drawing (p. 12).",
-          "Step 2 - Convert Dimensions to Drawing Scale: ¼ inch = 1 foot) (p. 12).",
-          "Step 3 - Draft Doors, Windows, and Built-Ins: Cross-check your Measure a room technique, measurements, and results with a patrol buddy (p. 22)."
+          "Step 2 - Convert Dimensions to Drawing Scale: ¼ inch = 1 foot (p. 12).",
+          "Measuring Rooms and Scaled Floor Plans: Review the Architecture pamphlet standards for measuring rooms and scaled floor plans, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Measuring an Existing Room Accurately",
             "left": "Measuring an Existing Room Accurately: Measure a room such as one where you live or where your troop meets (p. 12).",
             "right": "Step 1 - Measure Room Walls and Openings: Your name, the date, what room you drew, and the scale of the drawing (p. 12)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Drafting a Scaled Floor Plan: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows (p. 12).",
-            "right": "Step 2 - Convert Dimensions to Drawing Scale: ¼ inch = 1 foot) (p. 12)."
+            "attribute": "Practical Field Application",
+            "left": "Drafting a Scaled Floor Plan: Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets (p. 12).",
+            "right": "Step 2 - Convert Dimensions to Drawing Scale: ¼ inch = 1 foot (p. 12)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Required Title Block Labels: Your name, the date, what room you drew, and the scale of the drawing (p. 12).",
-            "right": "Step 3 - Draft Doors, Windows, and Built-Ins: Cross-check your Measure a room technique, measurements, and results with a patrol buddy (p. 22)."
+            "right": "Measuring Rooms and Scaled Floor Plans: Review the Architecture pamphlet standards for measuring rooms and scaled floor plans, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 22)."
           }
         ]
       },
@@ -1427,7 +1425,7 @@
           "Measuring an Existing Room Accurately": "Measure a room such as one where you live or where your troop meets (p. 12).",
           "Drafting a Scaled Floor Plan": "Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets (p. 12).",
           "Required Title Block Labels": "Your name, the date, what room you drew, and the scale of the drawing (p. 12).",
-          "Quarter-Inch to One-Foot Scale": "¼ inch = 1 foot) (p. 12)."
+          "Quarter-Inch to One-Foot Scale": "¼ inch = 1 foot (p. 12)."
         },
         "sample_output": "Measuring Rooms and Scaled Floor Plans: Measure a room such as one where you live or where your troop meets (p. 12).",
         "counselor_tip": "For Architecture Requirement 4 (Measuring Rooms and Scaled Floor Plans), verify the Scout's own observations and specific pamphlet details (Official Scouting America Architecture Merit Badge Pamphlet)."
@@ -1454,9 +1452,12 @@
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 4.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Architecture Requirement 4 (measuring rooms and scaled floor plans) before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/architecture_req_4_nano_hero.png",
-      "workbook_diagram_caption": "A Scout kneels on the wooden floor measuring framing timber while an instructor inspects overhead roof trusses."
+      "workbook_diagram_caption": "A Scout kneels on the wooden floor measuring framing timber while an instructor inspects overhead roof trusses.",
+      "number": "4",
+      "description": "Measure a room such as one where you live or where your troop meets. Make an accurately scaled drawing of the room's floor plan showing walls, doors, closets, windows, and any built-in furniture or cabinets. Neatly label your drawing with the following: your name, the date, what room you drew, and the scale of the drawing. (Drawing scale: ¼ inch = 1 foot)",
+      "workbook_visual_caption": "A Scout kneels on the wooden floor measuring framing timber while an instructor inspects overhead roof trusses."
     },
     {
       "req_id": "5",
@@ -1503,7 +1504,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Architecture Requirement 5 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Architecture Requirement 5 on architectural careers and professional licensure under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "pamphlet_page_citation": "Official Scouting America Architecture Merit Badge Pamphlet",
       "syllabus_bucket": "Make-Up Eligible",
@@ -1534,9 +1535,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Graduating from college with an architecture degree automatically makes you a licensed architect who can legally stamp building plans.",
-        "fact": "Becoming a licensed architect in the United States requires earning a professional degree, completing documented practical internship hours (AXP), and passing all divisions of the Architect Registration Examination (ARE) (p. 26).",
-        "fact_correction": "Becoming a licensed architect in the United States requires earning a professional degree, completing documented practical internship hours (AXP), and passing all divisions of the Architect Registration Examination (ARE) (p. 26).",
-        "pamphlet_page_ref": "p. 12"
+        "fact": "Becoming a licensed architect in the United States requires earning a professional degree, completing documented practical internship hours (AXP), and passing all divisions of the Architect Registration Examination (ARE) (p. 26)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1563,11 +1562,11 @@
         "Exploring Three Architecture Careers: Find out about three career opportunities in architecture (p. 12).",
         "Education, Training, and Experience Requirements: Pick one and find out the education, training, and experience required for this profession (p. 12).",
         "Counselor Career Discussion and Reflection: Discuss this with your counselor, and explain why this profession might interest (p. 12).",
-        "Verifying Professional Licensure Pathways: Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol buddy using the EDGE method (p. 26)."
+        "Architectural Careers and Professional Licensure: Architectural careers and professional licensure, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26)."
       ],
       "step_by_step_procedure": [
         "Step 1 - Research Three Architecture Career Paths: Discuss this with your counselor, and explain why this profession might interest (p. 12).",
-        "Step 2 - Investigate Degree and Internship Rules: Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol buddy using the EDGE method (p. 26).",
+        "Architectural Careers and Professional Licensure: Architectural careers and professional licensure, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26).",
         "Step 3 - Evaluate Personal Career Interests: Review your completed Careers & Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 26).",
         "Step 4 - Discuss Chosen Profession with Counselor: Find out about three career opportunities in architecture (p. 22)."
       ],
@@ -1577,29 +1576,29 @@
         "right_header": "Internship Experience and Licensure Exams",
         "left_points": [
           "Exploring Three Architecture Careers: Find out about three career opportunities in architecture (p. 12).",
-          "Education, Training, and Experience Requirements: Pick one and find out the education, training, and experience required for this (p. 12).",
+          "Education, Training, and Experience Requirements: Pick one and find out the education, training, and experience required for this profession (p. 12).",
           "Counselor Career Discussion and Reflection: Discuss this with your counselor, and explain why this profession might interest (p. 12)."
         ],
         "right_points": [
           "Step 1 - Research Three Architecture Career Paths: Discuss this with your counselor, and explain why this profession might interest (p. 12).",
           "Step 2 - Investigate Degree and Internship Rules: Cross-check your Careers & Professional Pathways technique, measurements, and results (p. 26).",
-          "Step 3 - Evaluate Personal Career Interests: Review your completed Careers & Professional Pathways evidence and demonstrate proficiency (p. 26)."
+          "Step 3 - Evaluate Personal Career Interests: Review your completed Careers & Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 26)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Exploring Three Architecture Careers",
             "left": "Exploring Three Architecture Careers: Find out about three career opportunities in architecture (p. 12).",
             "right": "Step 1 - Research Three Architecture Career Paths: Discuss this with your counselor, and explain why this profession might interest (p. 12)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Education, Training, and Experience Requirements: Pick one and find out the education, training, and experience required for this (p. 12).",
+            "attribute": "Practical Field Application",
+            "left": "Education, Training, and Experience Requirements: Pick one and find out the education, training, and experience required for this profession (p. 12).",
             "right": "Step 2 - Investigate Degree and Internship Rules: Cross-check your Careers & Professional Pathways technique, measurements, and results (p. 26)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Counselor Career Discussion and Reflection: Discuss this with your counselor, and explain why this profession might interest (p. 12).",
-            "right": "Step 3 - Evaluate Personal Career Interests: Review your completed Careers & Professional Pathways evidence and demonstrate proficiency (p. 26)."
+            "right": "Step 3 - Evaluate Personal Career Interests: Review your completed Careers & Professional Pathways evidence and demonstrate proficiency during your counselor conference (p. 26)."
           }
         ]
       },
@@ -1610,7 +1609,7 @@
           "Exploring Three Architecture Careers": "Find out about three career opportunities in architecture (p. 12).",
           "Education, Training, and Experience Requirements": "Pick one and find out the education, training, and experience required for this profession (p. 12).",
           "Counselor Career Discussion and Reflection": "Discuss this with your counselor, and explain why this profession might interest (p. 12).",
-          "Verifying Professional Licensure Pathways": "Cross-check your Careers & Professional Pathways technique, measurements, and results with a patrol buddy using the EDGE method (p. 26)."
+          "Verifying Professional Licensure Pathways": "Architectural Careers and Professional Licensure: Architectural careers and professional licensure, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26)."
         },
         "sample_output": "Architectural Careers and Professional Licensure: Find out about three career opportunities in architecture (p. 12).",
         "counselor_tip": "For Architecture Requirement 5 (Architectural Careers and Professional Licensure), verify the Scout's own observations and specific pamphlet details (Official Scouting America Architecture Merit Badge Pamphlet)."
@@ -1637,9 +1636,12 @@
         "pamphlet_page_ref": "p. 12"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Architecture Workbook organizer table and practical demonstration for Req 5.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Architecture Requirement 5 (architectural careers and professional licensure) before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/architecture_req_5_nano_hero.png",
-      "workbook_diagram_caption": "Scouts inspect wooden wall studs and a decorative column base at an active outdoor building construction site."
+      "workbook_diagram_caption": "Scouts inspect wooden wall studs and a decorative column base at an active outdoor building construction site.",
+      "number": "5",
+      "description": "Find out about three career opportunities in architecture. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this profession might interest you.",
+      "workbook_visual_caption": "Scouts inspect wooden wall studs and a decorative column base at an active outdoor building construction site."
     }
   ],
   "badge_slug": "architecture",
@@ -1782,5 +1784,12 @@
       "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
       "Field notebook, pen/pencil, and personal safety equipment (PPE)"
     ]
+  },
+  "source_url": "https://www.scouting.org/merit-badges/architecture/",
+  "scouting_org_url": "https://www.scouting.org/merit-badges/architecture/",
+  "local_grounding_spec": {
+    "council_jurisdiction": "Local BSA Council & Municipal Code",
+    "facility_type": "Approved Architecture field site or counselor workspace",
+    "emergency_contact_protocol": "BSA Two-Deep Leadership & Local EMS (911)"
   }
 }

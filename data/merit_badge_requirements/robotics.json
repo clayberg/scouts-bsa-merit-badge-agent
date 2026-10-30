@@ -45,21 +45,19 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the most likely hazards you may encounter while working with robots and what you should do to anticipate,...",
-              "2. Describe the appropriate safety gear and clothing that should be used when working with robotics."
+              "1. Explain to your counselor the most likely hazards you may encounter while working with robots and what you should do to anticipate, mitigate, prevent, and respond to these hazards",
+              "2. Describe the appropriate safety gear and clothing that should be used when working with robotics"
             ],
             "rows": [
-              "1. Explain to your counselor the most likely hazards you may encounter while working with robots and what you should do to anticipate,...",
-              "2. Describe the appropriate safety gear and clothing that should be used when working with robotics."
+              "1. Explain to your counselor the most likely hazards you may encounter while working with robots and what you should do to anticipate, mitigate, prevent, and respond to these hazards",
+              "2. Describe the appropriate safety gear and clothing that should be used when working with robotics"
             ],
             "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55)",
           "common_misconception_pair": {
             "misconception": "Safety glasses are only necessary when using power tools to cut metal parts.",
-            "fact": "Eye injuries are a primary hazard across robotics assembly, soldering, and testing, requiring proper eye protection and knowledge of eye injury first aid throughout your project (p. 26).",
-            "fact_correction": "Eye injuries are a primary hazard across robotics assembly, soldering, and testing, requiring proper eye protection and knowledge of eye injury first aid throughout your project (p. 26).",
-            "pamphlet_page_ref": "p. 26, p. 55"
+            "fact": "Eye injuries are a primary hazard across robotics assembly, soldering, and testing, requiring proper eye protection and knowledge of eye injury first aid throughout your project (p. 26)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -86,12 +84,13 @@
           "sub_req_label": "1a",
           "sub_req_text": "Explain to your counselor the most likely hazards you may encounter while working with robots and what you should do to anticipate, mitigate, prevent, and respond to these hazards. Describe the appropriate safety gear and clothing that should be used when working with robotics.",
           "topic_title": "Req 1a: Workshop Hazards and Protective Gear",
-          "pamphlet_summary": "Workshop Hazards and Protective Gear: Know the proper first aid for cuts, burns, andeye injuries (p. 26).",
+          "pamphlet_summary": "Workshop Hazards and Protective Gear: Workshop safety hazards and first aid, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26).",
           "pamphlet_excerpts": [
-            "Workshop Hazards and Protective Gear: Know the proper first aid for cuts, burns, andeye injuries (p. 26)."
+            "Workshop Hazards and Protective Gear: Workshop safety hazards and first aid, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p003_img1.png",
-          "workbook_diagram_caption": "Field reference diagram showing Robotics Requirement 1 equipment, technique, and verification milestones for Robotics Requirement 1 (img1)."
+          "workbook_diagram_caption": "A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages.",
+          "workbook_visual_caption": "A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages."
         },
         {
           "sub_id": "1b",
@@ -119,19 +118,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss first aid and prevention for the types of injuries that could occur while participating in robotics activities and competitions,..."
+              "1. Discuss first aid and prevention for the types of injuries that could occur while participating in robotics activities and competitions, including cuts, eye injuries, and burns (chemical or heat)"
             ],
             "rows": [
-              "1. Discuss first aid and prevention for the types of injuries that could occur while participating in robotics activities and competitions,..."
+              "1. Discuss first aid and prevention for the types of injuries that could occur while participating in robotics activities and competitions, including cuts, eye injuries, and burns (chemical or heat)"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55)",
           "common_misconception_pair": {
-            "misconception": "Everyday shorts and sandals are fine when assembling small tabletop robot kits.",
-            "fact": "Dressing appropriately in durable clothing such as jeans, boots, and gloves helps prevent minor cuts, scrapes, and burns while working on a robot (p. 26).",
-            "fact_correction": "Dressing appropriately in durable clothing such as jeans, boots, and gloves helps prevent minor cuts, scrapes, and burns while working on a robot (p. 26).",
-            "pamphlet_page_ref": "p. 26, p. 55"
+            "misconception": "Everyday shorts and sandals are fine when assembling small table top robot kits.",
+            "fact": "Dressing appropriately in durable clothing such as jeans, boots, and gloves helps prevent minor cuts, scrapes, and burns while working on a robot (p. 26)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -158,11 +155,13 @@
           "sub_req_label": "1b",
           "sub_req_text": "Discuss first aid and prevention for the types of injuries that could occur while participating in robotics activities and competitions, including cuts, eye injuries, and burns (chemical or heat)",
           "topic_title": "Req 1b: First Aid and Injury Prevention",
-          "pamphlet_summary": "First Aid and Injury Prevention: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot, for instance, jeans, boots, gloves (p. 26).",
+          "pamphlet_summary": "First Aid and Injury Prevention: Know the proper first aid for cuts, burns, and eye injuries (p. 26).",
           "pamphlet_excerpts": [
-            "First Aid and Injury Prevention: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot, for instance, jeans, boots, gloves (p. 26)."
+            "First Aid and Injury Prevention: Know the proper first aid for cuts, burns, and eye injuries (p. 26)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/robotics_p020_img1.png",
+          "workbook_diagram_caption": "A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages.",
+          "workbook_visual_caption": "A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages."
         }
       ],
       "resources": [
@@ -187,7 +186,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Robotics Requirement 1 activities.",
+      "safety_callout": "Review task hazards with your counselor before starting Robotics Requirement 1 on workshop safety hazards and first aid: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
       "pamphlet_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55)",
       "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55)",
       "syllabus_bucket": "In-Class Concept",
@@ -216,9 +215,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A quick splash of water is enough to clean a minor cut from a sharp metal robot chassis before putting on a bandage.",
-        "fact": "You should flush minor cuts and scrapes with clean water for at least five minutes, or until all foreign matter is washed away, before applying ointment and a sterile bandage (p. 26).",
-        "fact_correction": "You should flush minor cuts and scrapes with clean water for at least five minutes, or until all foreign matter is washed away, before applying ointment and a sterile bandage (p. 26).",
-        "pamphlet_page_ref": "p. 26, p. 55"
+        "fact": "You should flush minor cuts and scrapes with clean water for at least five minutes, or until all foreign matter is washed away, before applying ointment and a sterile bandage (p. 26)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -243,7 +240,7 @@
       ],
       "pamphlet_excerpts": [
         "First Aid Reference Guide: For more information about first aid, see the First Aid merit badge pamphlet (p. 26).",
-        "Project Hazard Assessment: Discuss with your counselor all the potential hazards stemming from your project (p. 26).",
+        "Workshop Safety Hazards and First Aid: Workshop safety hazards and first aid, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26).",
         "Common Workshop Injuries: Know the proper first aid for cuts, burns, and eye injuries (p. 26).",
         "Protective Workshop Clothing: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot, for instance, jeans, boots, gloves (p. 26)."
       ],
@@ -258,30 +255,30 @@
         "left_header": "Proactive Hazard Mitigation and Gear",
         "right_header": "Emergency First Aid Response Steps",
         "left_points": [
-          "(1a) Workshop Hazards and Protective Gear: Know the proper first aid for cuts, burns, andeye injuries (p. 26).",
-          "Project Hazard Assessment: Discuss with your counselor all the potential hazards stemming from your project (p. 26).",
+          "(1a) Workshop Hazards and Protective Gear: Know the proper first aid for cuts, burns, and eye injuries (p. 26).",
+          "Workshop Safety Hazards and First Aid: Review the Robotics pamphlet standards for workshop safety hazards and first aid, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26).",
           "Common Workshop Injuries: Know the proper first aid for cuts, burns, and eye injuries (p. 26)."
         ],
         "right_points": [
-          "(1b) First Aid and Injury Prevention: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot (p. 26).",
-          "Step 2 - Wear Protective Shop Attire: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot (p. 26).",
-          "Step 3 - Flush Cuts With Water: Treat minor cuts and scrapes by flushing the area with clean water for at least five minutes, or until (p. 26)."
+          "(1b) First Aid and Injury Prevention: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot, for instance, jeans, boots, gloves (p. 26).",
+          "Step 2 - Wear Protective Shop Attire: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot, for instance, jeans, boots, gloves (p. 26).",
+          "Step 3 - Flush Cuts With Water: Treat minor cuts and scrapes by flushing the area with clean water for at least five minutes, or until all foreign matter appears to be washed away (p. 26)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(1a) Workshop Hazards and Protective Gear: Know the proper first aid for cuts, burns, andeye injuries (p. 26).",
-            "right": "(1b) First Aid and Injury Prevention: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot (p. 26)."
+            "attribute": "Workshop Hazards and Protective Gear",
+            "left": "(1a) Workshop Hazards and Protective Gear: Know the proper first aid for cuts, burns, and eye injuries (p. 26).",
+            "right": "(1b) First Aid and Injury Prevention: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot, for instance, jeans, boots, gloves (p. 26)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Project Hazard Assessment: Discuss with your counselor all the potential hazards stemming from your project (p. 26).",
-            "right": "Step 2 - Wear Protective Shop Attire: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot (p. 26)."
+            "attribute": "Practical Field Application",
+            "left": "Workshop Safety Hazards and First Aid: Review the Robotics pamphlet standards for workshop safety hazards and first aid, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 26).",
+            "right": "Step 2 - Wear Protective Shop Attire: To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot, for instance, jeans, boots, gloves (p. 26)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Common Workshop Injuries: Know the proper first aid for cuts, burns, and eye injuries (p. 26).",
-            "right": "Step 3 - Flush Cuts With Water: Treat minor cuts and scrapes by flushing the area with clean water for at least five minutes, or until (p. 26)."
+            "right": "Step 3 - Flush Cuts With Water: Treat minor cuts and scrapes by flushing the area with clean water for at least five minutes, or until all foreign matter appears to be washed away (p. 26)."
           }
         ]
       },
@@ -289,10 +286,10 @@
         "title": "Robotics Req 1 Exemplar Workbook Entry: Workshop Safety Hazards and First Aid",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 1a (Workshop Hazards and)": "Know the proper first aid for cuts, burns, andeye injuries (p. 26).",
-          "Req 1b (First Aid and Injury)": "To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot, for instance, jeans, boots, gloves (p. 26)."
+          "Req 1a (Workshop Hazards and Protective Gear)": "Know the proper first aid for cuts, burns, and eye injuries (p. 26).",
+          "Req 1b (First Aid and Injury Prevention)": "To avoid minor cuts and scrapes, be sure you dress appropriately when working on your robot, for instance, jeans, boots, gloves (p. 26)."
         },
-        "sample_output": "Workshop Safety Hazards and First Aid: Know the proper first aid for cuts, burns, andeye injuries (p. 26).",
+        "sample_output": "Workshop Safety Hazards and First Aid: Know the proper first aid for cuts, burns, and eye injuries (p. 26).",
         "counselor_tip": "For Robotics Requirement 1 (Workshop Safety Hazards and First Aid), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55))."
       },
       "quiz_item": {
@@ -317,9 +314,12 @@
         "pamphlet_page_ref": "p. 26, p. 55"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Robotics Workbook organizer table and practical demonstration for Req 1.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Robotics Requirement 1 (workshop safety hazards and first aid) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/robotics_req_1_nano_hero.png",
-      "workbook_diagram_caption": "Industrial articulated robotic arms operate behind safety guards while youth construct programmable tabletop robots."
+      "workbook_diagram_caption": "Industrial articulated robotic arms operate behind safety guards while youth construct programmable table top robots.",
+      "number": "1",
+      "description": "Safety. Do the following: (a) Explain to your counselor the most likely hazards you may encounter while working with robots and what you should do to anticipate, mitigate, prevent, and respond to these hazards. Describe the appropriate safety gear and clothing that should be used when working with robotics. (b) Discuss first aid and prevention for the types of injuries that could occur while participating in robotics activities and competitions, including cuts, eye injuries, and burns (chemical or heat).",
+      "workbook_visual_caption": "Industrial articulated robotic arms operate behind safety guards while youth construct programmable table top robots."
     },
     {
       "req_id": "2",
@@ -354,19 +354,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The kinds of things robots can do and how robots are best used today."
+              "1. The kinds of things robots can do and how robots are best used today"
             ],
             "rows": [
-              "1. The kinds of things robots can do and how robots are best used today."
+              "1. The kinds of things robots can do and how robots are best used today"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)",
           "common_misconception_pair": {
             "misconception": "Autonomous robots never interact with humans at any point in their setup.",
-            "fact": "Operators typically write and load the robot's instructions beforehand using a human-robot interface such as a computer keyboard (p. 16).",
-            "fact_correction": "Operators typically write and load the robot's instructions beforehand using a human-robot interface such as a computer keyboard (p. 16).",
-            "pamphlet_page_ref": "p. 16, p. 81"
+            "fact": "Operators typically write and load the robot's instructions beforehand using a human-robot interface such as a computer keyboard (p. 16)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -398,8 +396,9 @@
             "Modern Robot Capabilities and Uses: A common computer and robot interface is a keyboard (p. 16)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p007_img1.png",
-          "title": "Req 2a: Kinds of Things Robots",
-          "workbook_diagram_caption": "Field reference diagram showing Robotics Requirement 2 equipment, technique, and verification milestones for Robotics Requirement 2 (img1)."
+          "title": "Req 2a: Modern Robot Capabilities and Uses",
+          "workbook_diagram_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line.",
+          "workbook_visual_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line."
         },
         {
           "sub_id": "2b",
@@ -422,28 +421,26 @@
             "table_title": "Req 2b Technical Comparison Matrix (Similarities and Differences Between Remote-control)",
             "headers": [
               "Comparison Dimension",
-              "Primary Concept / System A",
-              "Comparison Concept / System B"
+              "Direct Human Remote Control Systems",
+              "Self-Regulating Autonomous Robot Systems"
             ],
             "column_headers": [
               "Comparison Dimension",
-              "Primary Concept / System A",
-              "Comparison Concept / System B"
+              "Direct Human Remote Control Systems",
+              "Self-Regulating Autonomous Robot Systems"
             ],
             "row_labels": [
-              "1. The similarities and differences between remote-control vehicles, telerobots, and autonomous robots."
+              "1. The similarities and differences between remote-control vehicles, telerobots, and autonomous robots"
             ],
             "rows": [
-              "1. The similarities and differences between remote-control vehicles, telerobots, and autonomous robots."
+              "1. The similarities and differences between remote-control vehicles, telerobots, and autonomous robots"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)",
           "common_misconception_pair": {
             "misconception": "Telerobots and simple remote-control toys work the exact same way in every situation.",
-            "fact": "While remote-control vehicles rely on direct operator line-of-sight control, telerobots extend human perception and semi-autonomous commands across distance or hazardous environments (p. 16).",
-            "fact_correction": "While remote-control vehicles rely on direct operator line-of-sight control, telerobots extend human perception and semi-autonomous commands across distance or hazardous environments (p. 16).",
-            "pamphlet_page_ref": "p. 16, p. 81"
+            "fact": "While remote-control vehicles rely on direct operator line-of-sight control, telerobots extend human perception and semi-autonomous commands across distance or hazardous environments (p. 16)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -470,11 +467,13 @@
           "sub_req_label": "2b",
           "sub_req_text": "The similarities and differences between remote-control vehicles, telerobots, and autonomous robots.",
           "topic_title": "Req 2b: Remote Control, Telerobots, and Autonomy",
-          "pamphlet_summary": "Remote Control, Telerobots, and Autonomy: An autonomous robot is controlled by its internal computer (p. 16).",
+          "pamphlet_summary": "Remote Control, Telerobots, and Autonomy: The Robotics pamphlet for Requirement 2b details the similarities and differences between remote-control vehicles, telerobots, and autonomous robots, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
           "pamphlet_excerpts": [
-            "Remote Control, Telerobots, and Autonomy: An autonomous robot is controlled by its internal computer (p. 16)."
+            "Remote Control, Telerobots, and Autonomy: The Robotics pamphlet for Requirement 2b details the similarities and differences between remote-control vehicles, telerobots, and autonomous robots, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/robotics_p016_img1.png",
+          "workbook_diagram_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line.",
+          "workbook_visual_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line."
         },
         {
           "sub_id": "2c",
@@ -514,9 +513,7 @@
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)",
           "common_misconception_pair": {
             "misconception": "Wheels and tank tracks are the only practical ways for a robot to move.",
-            "fact": "Robots use legs, fins, propellers, and other specialized locomotion mechanisms when navigating rough terrain, water, or air where wheels cannot operate (p. 81).",
-            "fact_correction": "Robots use legs, fins, propellers, and other specialized locomotion mechanisms when navigating rough terrain, water, or air where wheels cannot operate (p. 81).",
-            "pamphlet_page_ref": "p. 16, p. 81"
+            "fact": "Robots use legs, fins, propellers, and other specialized locomotion mechanisms when navigating rough terrain, water, or air where wheels cannot operate (p. 81)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -543,11 +540,13 @@
           "sub_req_label": "2c",
           "sub_req_text": "Three different methods robots can use to move themselves other than wheels or tracks. Describe when it would be appropriate to use each method.",
           "topic_title": "Req 2c: Non-Wheeled Robot Locomotion Methods",
-          "pamphlet_summary": "Non-Wheeled Robot Locomotion Methods: An autonomous robot system is much like the human autonomic system (a part of the nervous system thatcontrols involuntary actions like heartbeat) (p. 16).",
+          "pamphlet_summary": "Non-Wheeled Robot Locomotion Methods: The Robotics pamphlet for Requirement 2c details three different methods robots can use to move themselves other than wheels or tracks, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
           "pamphlet_excerpts": [
-            "Non-Wheeled Robot Locomotion Methods: An autonomous robot system is much like the human autonomic system (a part of the nervous system thatcontrols involuntary actions like heartbeat) (p. 16)."
+            "Non-Wheeled Robot Locomotion Methods: The Robotics pamphlet for Requirement 2c details three different methods robots can use to move themselves other than wheels or tracks, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/robotics_p016_img1.png",
+          "workbook_diagram_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line.",
+          "workbook_visual_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line."
         }
       ],
       "resources": [
@@ -580,7 +579,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Robotics Requirement 2 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Robotics Requirement 2 on robot applications, autonomy, and locomotion under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)",
       "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)",
       "syllabus_bucket": "In-Class Concept",
@@ -589,31 +588,29 @@
         "table_title": "Req 2 Technical Comparison Matrix (Robotics Industry Discuss)",
         "headers": [
           "Comparison Dimension",
-          "Primary Concept / System A",
-          "Comparison Concept / System B"
+          "Direct Human Remote Control Systems",
+          "Self-Regulating Autonomous Robot Systems"
         ],
         "column_headers": [
           "Comparison Dimension",
-          "Primary Concept / System A",
-          "Comparison Concept / System B"
+          "Direct Human Remote Control Systems",
+          "Self-Regulating Autonomous Robot Systems"
         ],
         "row_labels": [
-          "1. (2a) Robots Can Do and How",
-          "2. (2b) Similarities and Differences Between Remote-control",
-          "3. (2c) Robots Can Use to Move"
+          "1. (2a) The kinds of things robots can do and how robots are best used today",
+          "2. (2b) The similarities and differences between remote-control vehicles, telerobots, and autonomous robots",
+          "3. (2c) Three different methods robots can use to move themselves other than wheels or tracks"
         ],
         "rows": [
-          "1. (2a) Robots Can Do and How",
-          "2. (2b) Similarities and Differences Between Remote-control",
-          "3. (2c) Robots Can Use to Move"
+          "1. (2a) The kinds of things robots can do and how robots are best used today",
+          "2. (2b) The similarities and differences between remote-control vehicles, telerobots, and autonomous robots",
+          "3. (2c) Three different methods robots can use to move themselves other than wheels or tracks"
         ],
         "min_rows": 3
       },
       "common_misconception_pair": {
         "misconception": "Any machine driven live with a handheld radio transmitter qualifies as an autonomous robot.",
-        "fact": "An autonomous robot is directed by a program running on its own internal computer controller so it can operate and regulate itself without continuous human intervention (p. 16).",
-        "fact_correction": "An autonomous robot is directed by a program running on its own internal computer controller so it can operate and regulate itself without continuous human intervention (p. 16).",
-        "pamphlet_page_ref": "p. 16, p. 81"
+        "fact": "An autonomous robot is directed by a program running on its own internal computer controller so it can operate and regulate itself without continuous human intervention (p. 16)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -654,27 +651,27 @@
         "right_header": "Self-Regulating Autonomous Robot Systems",
         "left_points": [
           "(2a) Modern Robot Capabilities and Uses: A common computer and robot interface is a keyboard (p. 16).",
-          "Human Autonomic System Analogy: An autonomous robot system is much like the human autonomic system (p. 16).",
+          "Human Autonomic System Analogy: An autonomous robot system is much like the human autonomic system (a part of the nervous system that controls involuntary actions like heartbeat) (p. 16).",
           "Self-Regulating Robot Operation: It operates and regulates itself without our awareness or interference (p. 16)."
         ],
         "right_points": [
           "(2b) Remote Control, Telerobots, and Autonomy: An autonomous robot is controlled by its internal computer (p. 16).",
-          " (p. 16).",
+          "Core principles and practical standards for Robot Applications, Autonomy, and Locomotion (p. 16).",
           "Step 3 - Enter Control Program Commands: Autonomous robots are generally programmed by the operator using a keyboard (p. 16)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Modern Robot Capabilities and Uses",
             "left": "(2a) Modern Robot Capabilities and Uses: A common computer and robot interface is a keyboard (p. 16).",
             "right": "(2b) Remote Control, Telerobots, and Autonomy: An autonomous robot is controlled by its internal computer (p. 16)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Human Autonomic System Analogy: An autonomous robot system is much like the human autonomic system (p. 16).",
-            "right": " (p. 16)."
+            "attribute": "Practical Field Application",
+            "left": "Human Autonomic System Analogy: An autonomous robot system is much like the human autonomic system (a part of the nervous system that controls involuntary actions like heartbeat) (p. 16).",
+            "right": "Core principles and practical standards for Robot Applications, Autonomy, and Locomotion (p. 16)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Self-Regulating Robot Operation: It operates and regulates itself without our awareness or interference (p. 16).",
             "right": "Step 3 - Enter Control Program Commands: Autonomous robots are generally programmed by the operator using a keyboard (p. 16)."
           }
@@ -684,9 +681,9 @@
         "title": "Robotics Req 2 Exemplar Workbook Entry: Robot Applications, Autonomy, and Locomotion",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a (Modern Robot Capabilities)": "A common computer and robot interface is a keyboard (p. 16).",
-          "Req 2b (Remote Control)": "An autonomous robot is controlled by its internal computer (p. 16).",
-          "Req 2c (Non-Wheeled Robot)": "An autonomous robot system is much like the human autonomic system (a part of the nervous system thatcontrols involuntary actions like heartbeat) (p. 16)."
+          "Req 2a (Modern Robot Capabilities and Uses)": "A common computer and robot interface is a keyboard (p. 16).",
+          "Req 2b (Remote Control, Telerobots, and Autonomy)": "An autonomous robot is controlled by its internal computer (p. 16).",
+          "Req 2c (Non-Wheeled Robot Locomotion Methods)": "An autonomous robot system is much like the human autonomic system (a part of the nervous system that controls involuntary actions like heartbeat) (p. 16)."
         },
         "sample_output": "Robot Applications, Autonomy, and Locomotion: A common computer and robot interface is a keyboard (p. 16).",
         "counselor_tip": "For Robotics Requirement 2 (Robot Applications, Autonomy, and Locomotion), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81))."
@@ -713,9 +710,12 @@
         "pamphlet_page_ref": "p. 16, p. 81"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Robotics Workbook organizer table and practical demonstration for Req 2.",
+      "homework_verification_note": "Lead an interactive counselor discussion verifying that the Scout can articulate real-world examples for Robotics Requirement 2 (robot applications, autonomy, and locomotion) across all 3 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/robotics_req_2_nano_hero.png",
-      "workbook_diagram_caption": "An adult counselor demonstrates the motorized joints of an articulated robotic arm to young Scouts."
+      "workbook_diagram_caption": "An adult counselor demonstrates the motorized joints of an articulated robotic arm to young Scouts.",
+      "number": "2",
+      "description": "Robotics Industry. Discuss the following with your counselor: (a) The kinds of things robots can do and how robots are best used today. (b) The similarities and differences between remote-control vehicles, telerobots, and autonomous robots. (c) Three different methods robots can use to move themselves other than wheels or tracks. Describe when it would be appropriate to use each method.",
+      "workbook_visual_caption": "An adult counselor demonstrates the motorized joints of an articulated robotic arm to young Scouts."
     },
     {
       "req_id": "3",
@@ -742,7 +742,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Robotics Requirement 3 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Robotics Requirement 3 on five core fields of robotics under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 15, p. 17)",
       "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 15, p. 17)",
       "syllabus_bucket": "In-Class Concept",
@@ -760,24 +760,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. General Knowledge.",
-          "2. Discuss with your counselor three of the five major fields of robotics (human-robot interface, mobility, manipulation, programming,...",
-          "3. Discuss either the three fields as they relate to a single robot system OR talk about each field in general.",
-          "4. Find pictures or at least one video to aid your discussion."
+          "1. General Knowledge",
+          "2. Discuss with your counselor three of the five major fields of robotics (human-robot interface, mobility, manipulation,)",
+          "3. Discuss either the three fields as they relate to a single robot system OR talk about each field in general",
+          "4. Find pictures or at least one video to aid your discussion"
         ],
         "rows": [
-          "1. General Knowledge.",
-          "2. Discuss with your counselor three of the five major fields of robotics (human-robot interface, mobility, manipulation, programming,...",
-          "3. Discuss either the three fields as they relate to a single robot system OR talk about each field in general.",
-          "4. Find pictures or at least one video to aid your discussion."
+          "1. General Knowledge",
+          "2. Discuss with your counselor three of the five major fields of robotics (human-robot interface, mobility, manipulation,)",
+          "3. Discuss either the three fields as they relate to a single robot system OR talk about each field in general",
+          "4. Find pictures or at least one video to aid your discussion"
         ],
         "min_rows": 4
       },
       "common_misconception_pair": {
         "misconception": "Mobility and manipulation refer to the same subsystem on a robot because both involve moving mechanical parts.",
-        "fact": "Mobility describes locomotion that moves the robot from place to place using wheels, legs, fins, or propellers, whereas manipulation involves interacting with objects by picking them up, placing them, or spraying paint (p. 15).",
-        "fact_correction": "Mobility describes locomotion that moves the robot from place to place using wheels, legs, fins, or propellers, whereas manipulation involves interacting with objects by picking them up, placing them, or spraying paint (p. 15).",
-        "pamphlet_page_ref": "p. 15, p. 17"
+        "fact": "Mobility describes locomotion that moves the robot from place to place using wheels, legs, fins, or propellers, whereas manipulation involves interacting with objects by picking them up, placing them, or spraying paint (p. 15)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -809,7 +807,7 @@
       "step_by_step_procedure": [
         "Step 1 - Identify Human-Robot Interface: The interface is the mechanism of communication between the person and the robot (p. 15).",
         "Step 2 - Examine Robot Locomotion Method: Locomotion is how the robot gets from place to place, how it moves in its environment (p. 15).",
-        "Step 3 - Select Mobility Drive Mechanism: Mobility can be achieved with wheels, legs, fins, propellers, and much (p. 15).",
+        "Step 3 - Select Mobility Drive Mechanism: Mobility can be achieved with wheels, legs, fins, propellers (p. 15).",
         "Step 4 - Analyze Object Manipulation Tools: The parts of the robot that interact with objects might touch things, pick them up, place them in containers, spray them with paint (p. 15)."
       ],
       "gear_checklist": [],
@@ -824,23 +822,23 @@
         "right_points": [
           "Step 1 - Identify Human-Robot Interface: The interface is the mechanism of communication between the person and the robot (p. 15).",
           "Step 2 - Examine Robot Locomotion Method: Locomotion is how the robot gets from place to place, how it moves in its environment (p. 15).",
-          "Step 3 - Select Mobility Drive Mechanism: Mobility can be achieved with wheels, legs, fins, propellers, and much (p. 15)."
+          "Step 3 - Select Mobility Drive Mechanism: Mobility can be achieved with wheels, legs, fins, propellers (p. 15)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Multidisciplinary Engineering Teams",
             "left": "Multidisciplinary Engineering Teams: Sophisticated robot design typically requires the talents and expertise of teams of engineers (p. 15).",
             "right": "Step 1 - Identify Human-Robot Interface: The interface is the mechanism of communication between the person and the robot (p. 15)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Human-Robot Communication Needs: A robot must be able to communicate with its human controller (p. 15).",
             "right": "Step 2 - Examine Robot Locomotion Method: Locomotion is how the robot gets from place to place, how it moves in its environment (p. 15)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Role of the Interface: The interface is the mechanism of communication between the person and the robot (p. 15).",
-            "right": "Step 3 - Select Mobility Drive Mechanism: Mobility can be achieved with wheels, legs, fins, propellers, and much (p. 15)."
+            "right": "Step 3 - Select Mobility Drive Mechanism: Mobility can be achieved with wheels, legs, fins, propellers (p. 15)."
           }
         ]
       },
@@ -878,9 +876,12 @@
         "pamphlet_page_ref": "p. 15, p. 17"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Robotics Workbook organizer table and practical demonstration for Req 3.",
+      "homework_verification_note": "Lead an interactive counselor discussion verifying that the Scout can articulate real-world examples for Robotics Requirement 3 (five core fields of robotics) before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/robotics_req_3_nano_hero.png",
-      "workbook_diagram_caption": "Scouts and counselors collaborate around a wooden picnic table to assemble an all-terrain tracked rover."
+      "workbook_diagram_caption": "Scouts and counselors collaborate around a wooden picnic table to assemble an all-terrain tracked rover.",
+      "number": "3",
+      "description": "General Knowledge. Discuss with your counselor three of the five major fields of robotics (human-robot interface, mobility, manipulation, programming, sensors) and their importance to robotics development. Discuss either the three fields as they relate to a single robot system OR talk about each field in general. Find pictures or at least one video to aid your discussion.",
+      "workbook_visual_caption": "Scouts and counselors collaborate around a wooden picnic table to assemble an all-terrain tracked rover."
     },
     {
       "req_id": "4",
@@ -924,9 +925,7 @@
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
             "misconception": "You should build your first robot idea immediately and show your counselor only after construction is finished.",
-            "fact": "You must choose your robot's task with your counselor's approval and discuss several possible design ideas before building it (p. 32).",
-            "fact_correction": "You must choose your robot's task with your counselor's approval and discuss several possible design ideas before building it (p. 32).",
-            "pamphlet_page_ref": "p. 32, p. 33"
+            "fact": "You must choose your robot's task with your counselor's approval and discuss several possible design ideas before building it (p. 32)."
           },
           "starting_requirement_gate": {
             "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -958,13 +957,14 @@
           "sub_req_label": "4a",
           "sub_req_text": "With your counselor's approval, choose a task for the robot or robotic subsystem that you plan to build. Include sensor feedback and programming in the task. Document this information in your robot engineering notebook.",
           "topic_title": "Req 4a: Task Selection and Notebook Setup",
-          "pamphlet_summary": "Task Selection and Notebook Setup: Describe the type of robot you want tobuild (flying, underwater, boat, land, tank drive, wheeled, etc.). Task (p. 32).",
+          "pamphlet_summary": "Task Selection and Notebook Setup: Put your name in your robot engineering notebook, and include these sections, Robot (p. 32).",
           "pamphlet_excerpts": [
-            "Task Selection and Notebook Setup: Describe the type of robot you want tobuild (flying, underwater, boat, land, tank drive, wheeled, etc.). Task (p. 32)."
+            "Task Selection and Notebook Setup: Put your name in your robot engineering notebook, and include these sections, Robot (p. 32)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
-          "title": "Req 4a: Your Counselor's Approval Choose a Task",
-          "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
+          "title": "Req 4a: Task Selection and Notebook Setup",
+          "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
         },
         {
           "sub_id": "4b",
@@ -1001,9 +1001,7 @@
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
             "misconception": "A robot built for requirement 4 can rely solely on pre-timed motor movements without any sensors.",
-            "fact": "Your robot design must incorporate sensor feedback, programming, and at least two degrees of freedom to accomplish its chosen task (p. 32).",
-            "fact_correction": "Your robot design must incorporate sensor feedback, programming, and at least two degrees of freedom to accomplish its chosen task (p. 32).",
-            "pamphlet_page_ref": "p. 32, p. 33"
+            "fact": "Your robot design must incorporate sensor feedback, programming, and at least two degrees of freedom to accomplish its chosen task (p. 32)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1034,7 +1032,9 @@
           "pamphlet_excerpts": [
             "Sensors and Degrees of Freedom: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
+          "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
         },
         {
           "sub_id": "4c",
@@ -1057,19 +1057,17 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement."
+              "1. Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement"
             ],
             "rows": [
-              "1. Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement."
+              "1. Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
             "misconception": "Only the final source code file matters when documenting your robot's software.",
-            "fact": "Engineers record pseudocode or flowcharts as well as subsequent code modifications in the engineering notebook to track how the logic evolved (p. 32).",
-            "fact_correction": "Engineers record pseudocode or flowcharts as well as subsequent code modifications in the engineering notebook to track how the logic evolved (p. 32).",
-            "pamphlet_page_ref": "p. 32, p. 33"
+            "fact": "Engineers record pseudocode or flowcharts as well as subsequent code modifications in the engineering notebook to track how the logic evolved (p. 32)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1096,11 +1094,13 @@
           "sub_req_label": "4c",
           "sub_req_text": "Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement.",
           "topic_title": "Req 4c: Original Robot Subsystem Construction",
-          "pamphlet_summary": "Original Robot Subsystem Construction: Discuss with your counselor several possible ideas for your robotdesign before building it. Tests (p. 32).",
+          "pamphlet_summary": "Original Robot Subsystem Construction: Robot design, construction, and testing, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 32).",
           "pamphlet_excerpts": [
-            "Original Robot Subsystem Construction: Discuss with your counselor several possible ideas for your robotdesign before building it. Tests (p. 32)."
+            "Original Robot Subsystem Construction: Robot design, construction, and testing, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 32)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
+          "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
         },
         {
           "sub_id": "4d",
@@ -1114,7 +1114,7 @@
               "text": "Program your robot to perform the task you chose for your robot in 4(a). Include a sample of your program's source code in your robot engineering notebook.",
               "resources": [
                 {
-                  "title": "VEXcode VR (website)",
+                  "title": "VEX code VR (website)",
                   "url": "https://www.vexrobotics.com/vexcode/vr?srsltid=AfmBOopvcCE5uFUVB__bxV0UiLP20ZZQwq0WrNHHJWuIQUDXmLAwl8UL%5C"
                 }
               ],
@@ -1134,21 +1134,19 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Program your robot to perform the task you chose for your robot in 4(a).",
-                  "2. Include a sample of your program's source code in your robot engineering notebook."
+                  "1. Program your robot to perform the task you chose for your robot in 4",
+                  "2. Include a sample of your program's source code in your robot engineering notebook"
                 ],
                 "rows": [
-                  "1. Program your robot to perform the task you chose for your robot in 4(a).",
-                  "2. Include a sample of your program's source code in your robot engineering notebook."
+                  "1. Program your robot to perform the task you chose for your robot in 4",
+                  "2. Include a sample of your program's source code in your robot engineering notebook"
                 ],
                 "min_rows": 2
               },
               "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
               "common_misconception_pair": {
-                "misconception": "A robot built for requirement 4 can rely solely on pre-timed motor movements without any sensors.",
-                "fact": "Your robot design must incorporate sensor feedback, programming, and at least two degrees of freedom to accomplish its chosen task (p. 32).",
-                "fact_correction": "Your robot design must incorporate sensor feedback, programming, and at least two degrees of freedom to accomplish its chosen task (p. 32).",
-                "pamphlet_page_ref": "p. 32, p. 33"
+                "misconception": "In Robotics Requirement 4d(1), many Scouts assume program your robot to perform only requires a general overview rather than specific details on program your robot to perform the task you chose for your robot in 4.",
+                "fact": "The official Robotics pamphlet for Requirement 4d(1) specifies that Scouts must thoroughly document program your robot to perform and explain program your robot to perform the task you chose for your robot in 4 during counselor review."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1175,11 +1173,13 @@
               "sub_req_label": "4d(1)",
               "sub_req_text": "Program your robot to perform the task you chose for your robot in 4(a). Include a sample of your program's source code in your robot engineering notebook.",
               "topic_title": "Req 4d(1): Program your robot to perform",
-              "pamphlet_summary": "Program your robot to perform: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32).",
+              "pamphlet_summary": "Program your robot to perform: Put your name in your robot engineering notebook, and include these sections, Robot (p. 32).",
               "pamphlet_excerpts": [
-                "Program your robot to perform: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32)."
+                "Program your robot to perform: Put your name in your robot engineering notebook, and include these sections, Robot (p. 32)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
+              "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+              "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
             },
             {
               "sub_id": "4d(2)",
@@ -1211,23 +1211,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a).",
-                  "2. Include procedures that show activities based on sensor inputs.",
-                  "3. Place this in your robot engineering notebook."
+                  "1. Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4",
+                  "2. Include procedures that show activities based on sensor inputs",
+                  "3. Place this in your robot engineering notebook"
                 ],
                 "rows": [
-                  "1. Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a).",
-                  "2. Include procedures that show activities based on sensor inputs.",
-                  "3. Place this in your robot engineering notebook."
+                  "1. Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4",
+                  "2. Include procedures that show activities based on sensor inputs",
+                  "3. Place this in your robot engineering notebook"
                 ],
                 "min_rows": 3
               },
               "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
               "common_misconception_pair": {
-                "misconception": "Only the final source code file matters when documenting your robot's software.",
-                "fact": "Engineers record pseudocode or flowcharts as well as subsequent code modifications in the engineering notebook to track how the logic evolved (p. 32).",
-                "fact_correction": "Engineers record pseudocode or flowcharts as well as subsequent code modifications in the engineering notebook to track how the logic evolved (p. 32).",
-                "pamphlet_page_ref": "p. 32, p. 33"
+                "misconception": "When preparing Robotics Requirement 4d(2) (Flowchart of The Desired), Scouts sometimes overlook the concrete pamphlet benchmarks covering a flowchart of the desired steps to program your robot for accomplishing the task in 4.",
+                "fact": "Counselor verification for Robotics Requirement 4d(2) requires concrete workbook evidence on flowchart of the desired, specifically addressing a flowchart of the desired steps to program your robot for accomplishing the task in 4."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1254,11 +1252,13 @@
               "sub_req_label": "4d(2)",
               "sub_req_text": "Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a). Include procedures that show activities based on sensor inputs. Place this in your robot engineering notebook.",
               "topic_title": "Req 4d(2): Flowchart of The Desired",
-              "pamphlet_summary": "Flowchart of The Desired: Discuss with your counselor several possible ideas for your robotdesign before building it. Tests (p. 32).",
+              "pamphlet_summary": "Flowchart of The Desired: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32).",
               "pamphlet_excerpts": [
-                "Flowchart of The Desired: Discuss with your counselor several possible ideas for your robotdesign before building it. Tests (p. 32)."
+                "Flowchart of The Desired: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
+              "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+              "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -1287,10 +1287,8 @@
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
-            "misconception": "You should build your first robot idea immediately and show your counselor only after construction is finished.",
-            "fact": "You must choose your robot's task with your counselor's approval and discuss several possible design ideas before building it (p. 32).",
-            "fact_correction": "You must choose your robot's task with your counselor's approval and discuss several possible design ideas before building it (p. 32).",
-            "pamphlet_page_ref": "p. 32, p. 33"
+            "misconception": "During Robotics Requirement 4d, Scouts can underestimate how directly mastery of robot programming and flowcharts depends on understanding the programming options available for your robot.",
+            "fact": "Scouting America standards for Robotics Requirement 4d require complete workbook entries on robot programming and flowcharts to demonstrate full understanding of the programming options available for your robot."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1317,12 +1315,14 @@
           "sub_req_label": "4d",
           "sub_req_text": "Discuss with your counselor the programming options available for your robot. Then do ONE of the following: (1) Program your robot to perform the task you chose for your robot in 4(a). Include a sample of your program's source code in your robot engineering notebook. (2) Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a). Include procedures that show activities based on sensor inputs. Place this in your robot engineering notebook.",
           "topic_title": "Req 4d: Robot Programming and Flowcharts",
-          "pamphlet_summary": "Robot Programming and Flowcharts: Put your name in your robot engineering notebook, and include these sections: Robot (p. 32).",
+          "pamphlet_summary": "Robot Programming and Flowcharts: The Robotics pamphlet for Requirement 4d details the programming options available for your robot, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32).",
           "pamphlet_excerpts": [
-            "Robot Programming and Flowcharts: Put your name in your robot engineering notebook, and include these sections: Robot (p. 32)."
+            "Robot Programming and Flowcharts: The Robotics pamphlet for Requirement 4d details the programming options available for your robot, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 4d: Programming Options Available for Your Robot"
+          "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
+          "title": "Req 4d: Robot Programming and Flowcharts",
+          "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
         },
         {
           "sub_id": "4e",
@@ -1358,10 +1358,8 @@
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
-            "misconception": "You should build your first robot idea immediately and show your counselor only after construction is finished.",
-            "fact": "You must choose your robot's task with your counselor's approval and discuss several possible design ideas before building it (p. 32).",
-            "fact_correction": "You must choose your robot's task with your counselor's approval and discuss several possible design ideas before building it (p. 32).",
-            "pamphlet_page_ref": "p. 32, p. 33"
+            "misconception": "In Robotics Requirement 4e, many Scouts assume performance testing and design iteration only requires a general overview rather than specific details on test your robot and record the results in your robot engineering notebook.",
+            "fact": "The official Robotics pamphlet for Requirement 4e specifies that Scouts must thoroughly document performance testing and design iteration and explain test your robot and record the results in your robot engineering notebook during counselor review."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1388,11 +1386,13 @@
           "sub_req_label": "4e",
           "sub_req_text": "Test your robot and record the results in your robot engineering notebook. Include suggestions on how you could improve your robot, as well as pictures or sketches of your finished robot.",
           "topic_title": "Req 4e: Performance Testing and Design Iteration",
-          "pamphlet_summary": "Performance Testing and Design Iteration: Describe the type of robot you want tobuild (flying, underwater, boat, land, tank drive, wheeled, etc.). Task (p. 32).",
+          "pamphlet_summary": "Performance Testing and Design Iteration: The Robotics pamphlet for Requirement 4e details test your robot and record the results in your robot engineering notebook, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32).",
           "pamphlet_excerpts": [
-            "Performance Testing and Design Iteration: Describe the type of robot you want tobuild (flying, underwater, boat, land, tank drive, wheeled, etc.). Task (p. 32)."
+            "Performance Testing and Design Iteration: The Robotics pamphlet for Requirement 4e details test your robot and record the results in your robot engineering notebook, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
+          "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
         }
       ],
       "resources": [
@@ -1409,7 +1409,7 @@
           "url": "https://youtu.be/55O-DGeoFic?list=PLHGEvyG5wuthXQZzTc-mLwFrP5F6_1Lce"
         },
         {
-          "title": "VEXcode VR (website)",
+          "title": "VEX code VR (website)",
           "url": "https://www.vexrobotics.com/vexcode/vr?srsltid=AfmBOopvcCE5uFUVB__bxV0UiLP20ZZQwq0WrNHHJWuIQUDXmLAwl8UL%5C"
         },
         {
@@ -1433,7 +1433,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Robotics Requirement 4 activities.",
+      "safety_callout": "Review task hazards with your counselor before starting Robotics Requirement 4 on robot design, construction, and testing: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
       "pamphlet_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
       "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1451,26 +1451,24 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. (4a) Task for The Robot or",
-          "2. (4b) Robot The Robot",
-          "3. (4c) Robot or Robotic Subsystem",
-          "4. (4d) Discuss With Your Counselor The",
-          "5. (4e) Robot and Record The Results"
+          "1. (4a) With your counselor's approval, choose a task for the robot or robotic subsystem that you plan to build",
+          "2. (4b) Design your robot",
+          "3. (4c) Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement",
+          "4. (4d) Discuss with your counselor the programming options available for your robot",
+          "5. (4e) Test your robot and record the results in your robot engineering notebook"
         ],
         "rows": [
-          "1. (4a) Task for The Robot or",
-          "2. (4b) Robot The Robot",
-          "3. (4c) Robot or Robotic Subsystem",
-          "4. (4d) Discuss With Your Counselor The",
-          "5. (4e) Robot and Record The Results"
+          "1. (4a) With your counselor's approval, choose a task for the robot or robotic subsystem that you plan to build",
+          "2. (4b) Design your robot",
+          "3. (4c) Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement",
+          "4. (4d) Discuss with your counselor the programming options available for your robot",
+          "5. (4e) Test your robot and record the results in your robot engineering notebook"
         ],
         "min_rows": 5
       },
       "common_misconception_pair": {
         "misconception": "You should erase failed design ideas and unsuccessful test runs from your robot engineering notebook so only the working design remains.",
-        "fact": "Your robot engineering notebook must document the tests and the designs that did not work that led to your final robot design, along with your pseudocode, flowcharts, and code modifications (p. 32).",
-        "fact_correction": "Your robot engineering notebook must document the tests and the designs that did not work that led to your final robot design, along with your pseudocode, flowcharts, and code modifications (p. 32).",
-        "pamphlet_page_ref": "p. 32, p. 33"
+        "fact": "Your robot engineering notebook must document the tests and the designs that did not work that led to your final robot design, along with your pseudocode, flowcharts, and code modifications (p. 32)."
       },
       "starting_requirement_gate": {
         "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -1499,19 +1497,19 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Engineering Notebook Structure: Put your name in your robot engineering notebook, and include these sections: Robot (p. 32).",
+        "Engineering Notebook Structure: Put your name in your robot engineering notebook, and include these sections, Robot (p. 32).",
         "Robot Type and Task: Describe the type of robot you want to build (flying, underwater, boat, land, tank drive, wheeled, etc.). Task (p. 32).",
         "Brainstorming Design Alternatives: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32).",
-        "Pre-Build Counselor Design Review: Discuss with your counselor several possible ideas for your robot design before building it. Tests (p. 32)."
+        "Robot Design, Construction, and Testing: Robot design, construction, and testing, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 32)."
       ],
       "step_by_step_procedure": [
         "Step 1 - Define Task and Concepts: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32).",
-        "Step 2 - Review Designs With Counselor: Discuss with your counselor several possible ideas for your robot design before building it. Tests (p. 32).",
+        "Robot Design, Construction, and Testing: Robot design, construction, and testing, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 32).",
         "Step 3 - Log Failed Design Tests: Describe the tests and the designs that did not work that lead to the final robot design. Pseudo Code (p. 32).",
         "Step 4 - Record Flowchart and Code: Include the code or flowchart you used. on other robot Code Modifications (p. 32)."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 safety glasses, robot chassis/drivetrain kit, servos/motors, and sensor suite",
+        "ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite",
         "Microcontroller brick or board, charged battery pack, and programming laptop/tablet with USB cable",
         "Robotics Engineering Notebook (design sketches, CAD/pseudo-code, test trials, and modifications)",
         "Hex drivers, needle-nose pliers, zip ties, and marked competition test field"
@@ -1520,30 +1518,30 @@
         "left_header": "Initial Brainstormed Robot Design Concepts",
         "right_header": "Tested and Refined Final Prototype",
         "left_points": [
-          " (p. 32).",
+          "Core principles and practical standards for Robot Design, Construction, and Testing (p. 32).",
           "(4b) Sensors and Degrees of Freedom: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32).",
           "Brainstorming Design Alternatives: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32)."
         ],
         "right_points": [
-          "(4c) Original Robot Subsystem Construction: Discuss with your counselor several possible ideas for your robotdesign before building it (p. 32).",
-          "(4d) Robot Programming and Flowcharts: Put your name in your robot engineering notebook, and include these sections: Robot (p. 32).",
-          " (p. 32)."
+          "Robot Design, Construction, and Testing: Review the Robotics pamphlet standards for robot design, construction, and testing, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 32).",
+          "(4d) Robot Programming and Flowcharts: Put your name in your robot engineering notebook, and include these sections, Robot (p. 32).",
+          "Core principles and practical standards for Robot Design, Construction, and Testing (p. 32)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": " (p. 32).",
-            "right": "(4c) Original Robot Subsystem Construction: Discuss with your counselor several possible ideas for your robotdesign before building it (p. 32)."
+            "attribute": "Robot Design, Construction, and Testing",
+            "left": "Core principles and practical standards for Robot Design, Construction, and Testing (p. 32).",
+            "right": "Robot Design, Construction, and Testing: Review the Robotics pamphlet standards for robot design, construction, and testing, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 32)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "(4b) Sensors and Degrees of Freedom: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32).",
-            "right": "(4d) Robot Programming and Flowcharts: Put your name in your robot engineering notebook, and include these sections: Robot (p. 32)."
+            "right": "(4d) Robot Programming and Flowcharts: Put your name in your robot engineering notebook, and include these sections, Robot (p. 32)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Brainstorming Design Alternatives: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32).",
-            "right": " (p. 32)."
+            "right": "Core principles and practical standards for Robot Design, Construction, and Testing (p. 32)."
           }
         ]
       },
@@ -1551,12 +1549,12 @@
         "title": "Robotics Req 4 Exemplar Workbook Entry: Robot Design, Construction, and Testing",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a (Task Selection and)": "Describe the type of robot you want tobuild (flying, underwater, boat, land, tank drive, wheeled, etc.). Task (p. 32).",
-          "Req 4b (Sensors and Degrees)": "Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32).",
-          "Req 4c (Original Robot Subsystem)": "Discuss with your counselor several possible ideas for your robotdesign before building it. Tests (p. 32).",
-          "Req 4d (Robot Programming and)": "Put your name in your robot engineering notebook, and include these sections: Robot (p. 32)."
+          "Req 4a (Task Selection and Notebook Setup)": "Describe the type of robot you want to build (flying, underwater, boat, land, tank drive, wheeled, etc.). Task (p. 32).",
+          "Req 4b (Sensors and Degrees of Freedom)": "Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32).",
+          "Req 4c (Original Robot Subsystem Construction)": "Robot Design, Construction, and Testing: Robot design, construction, and testing, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 32).",
+          "Req 4d (Robot Programming and Flowcharts)": "Put your name in your robot engineering notebook, and include these sections: Robot (p. 32)."
         },
-        "sample_output": "Robot Design, Construction, and Testing: Describe the type of robot you want tobuild (flying, underwater, boat, land, tank drive, wheeled, etc.) (p. 32).",
+        "sample_output": "Robot Design, Construction, and Testing: Describe the type of robot you want to build (flying, underwater, boat, land, tank drive, wheeled, etc.). Task (p. 32).",
         "counselor_tip": "For Robotics Requirement 4 (Robot Design, Construction, and Testing), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33))."
       },
       "quiz_item": {
@@ -1581,9 +1579,12 @@
         "pamphlet_page_ref": "p. 32, p. 33"
       },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Robotics Workbook organizer table and practical demonstration for Req 4.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Robotics Requirement 4 (robot design, construction, and testing) across all 5 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
-      "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
+      "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+      "number": "4",
+      "description": "Design, Build, Program, Test. Do the following: (a) With your counselor's approval, choose a task for the robot or robotic subsystem that you plan to build. Include sensor feedback and programming in the task. Document this information in your robot engineering notebook. (b) Design your robot. The robot design should use sensors and programming and have at least 2 degrees of freedom. Document the design in your robot engineering notebook using drawings and a written description. (c) Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement 4(a). (d) Discuss with your counselor the programming options available for your robot. Then do ONE of the following: (1) Program your robot to perform the task you chose for your robot in 4(a). Include a sample of your program's source code in your robot engineering notebook. (2) Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a). Include procedures that show activities based on sensor inputs. Place this in your robot engineering notebook. (e) Test your robot and record the results in your robot engineering notebook. Include suggestions on how you could improve your robot, as well as pictures or sketches of your finished robot.",
+      "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
     },
     {
       "req_id": "5",
@@ -1613,19 +1614,17 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate for your counselor the robot you built in requirement 4."
+              "1. Demonstrate for your counselor the robot you built in requirement 4"
             ],
             "rows": [
-              "1. Demonstrate for your counselor the robot you built in requirement 4."
+              "1. Demonstrate for your counselor the robot you built in requirement 4"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
             "misconception": "Plain unlined paper is always preferred over graph paper for a robotics notebook.",
-            "fact": "A notebook with graph paper is especially helpful because it allows you to draw accurate scale pictures of your robot designs (p. 32).",
-            "fact_correction": "A notebook with graph paper is especially helpful because it allows you to draw accurate scale pictures of your robot designs (p. 32).",
-            "pamphlet_page_ref": "p. 32, p. 33"
+            "fact": "A notebook with graph paper is especially helpful because it allows you to draw accurate scale pictures of your robot designs (p. 32)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1652,12 +1651,13 @@
           "sub_req_label": "5a",
           "sub_req_text": "Demonstrate for your counselor the robot you built in requirement 4.",
           "topic_title": "Req 5a: Live Robot Task Demonstration",
-          "pamphlet_summary": "Live Robot Task Demonstration: Thepurpose of the notebook is to document the design process foryour robot (p. 32).",
+          "pamphlet_summary": "Live Robot Task Demonstration: The Robotics pamphlet for Requirement 5a details for your counselor the robot you built in requirement 4, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32).",
           "pamphlet_excerpts": [
-            "Live Robot Task Demonstration: Thepurpose of the notebook is to document the design process foryour robot (p. 32)."
+            "Live Robot Task Demonstration: The Robotics pamphlet for Requirement 5a details for your counselor the robot you built in requirement 4, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 32)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img2.png",
-          "workbook_diagram_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation."
+          "workbook_diagram_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation.",
+          "workbook_visual_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation."
         },
         {
           "sub_id": "5b",
@@ -1680,21 +1680,19 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Share your robot engineering notebook with your counselor.",
-              "2. Talk about how well your robot accomplished the task, the improvements you would make in your next design, and what you learned..."
+              "1. Share your robot engineering notebook with your counselor",
+              "2. Talk about how well your robot accomplished the task, the improvements you would make in your next design, and what you learned about the design process"
             ],
             "rows": [
-              "1. Share your robot engineering notebook with your counselor.",
-              "2. Talk about how well your robot accomplished the task, the improvements you would make in your next design, and what you learned..."
+              "1. Share your robot engineering notebook with your counselor",
+              "2. Talk about how well your robot accomplished the task, the improvements you would make in your next design, and what you learned about the design process"
             ],
             "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
             "misconception": "Once the robot runs once for your counselor, there is no need to discuss how the design could be improved.",
-            "fact": "Requirement 5 includes reviewing how well the robot accomplished its task and discussing specific improvements you would make in your next design iteration (p. 32).",
-            "fact_correction": "Requirement 5 includes reviewing how well the robot accomplished its task and discussing specific improvements you would make in your next design iteration (p. 32).",
-            "pamphlet_page_ref": "p. 32, p. 33"
+            "fact": "Requirement 5 includes reviewing how well the robot accomplished its task and discussing specific improvements you would make in your next design iteration (p. 32)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1721,11 +1719,13 @@
           "sub_req_label": "5b",
           "sub_req_text": "Share your robot engineering notebook with your counselor. Talk about how well your robot accomplished the task, the improvements you would make in your next design, and what you learned about the design process.",
           "topic_title": "Req 5b: Engineering Notebook and Design Reflection",
-          "pamphlet_summary": "Engineering Notebook and Design Reflection: The documentation will be helpful as you improve therobot design (p. 32).",
+          "pamphlet_summary": "Engineering Notebook and Design Reflection: You will need to keep a robot engineering notebook, just like arobotics engineer's (p. 32).",
           "pamphlet_excerpts": [
-            "Engineering Notebook and Design Reflection: The documentation will be helpful as you improve therobot design (p. 32)."
+            "Engineering Notebook and Design Reflection: You will need to keep a robot engineering notebook, just like arobotics engineer's (p. 32)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img2.png",
+          "workbook_diagram_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation.",
+          "workbook_visual_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation."
         }
       ],
       "resources": [],
@@ -1741,7 +1741,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Robotics Requirement 5 activities.",
+      "safety_callout": "Review task hazards with your counselor before starting Robotics Requirement 5 on robot demonstration and notebook review: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
       "pamphlet_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
       "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1770,9 +1770,7 @@
       },
       "common_misconception_pair": {
         "misconception": "The robot engineering notebook is just a rough scratchpad for yourself and does not need to be clear enough for anyone else to read.",
-        "fact": "Your robot engineering notebook documents your entire design process and serves as a communication tool to share scale drawings, test outcomes, and future improvements with your counselor (p. 32).",
-        "fact_correction": "Your robot engineering notebook documents your entire design process and serves as a communication tool to share scale drawings, test outcomes, and future improvements with your counselor (p. 32).",
-        "pamphlet_page_ref": "p. 32, p. 33"
+        "fact": "Your robot engineering notebook documents your entire design process and serves as a communication tool to share scale drawings, test outcomes, and future improvements with your counselor (p. 32)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1808,7 +1806,7 @@
         "Step 4 - Draw Scale Robot Sketches: The kind with graph paper allows you to draw scale pictures of your robot designs (p. 32)."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 safety glasses, robot chassis/drivetrain kit, servos/motors, and sensor suite",
+        "ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite",
         "Microcontroller brick or board, charged battery pack, and programming laptop/tablet with USB cable",
         "Robotics Engineering Notebook (design sketches, CAD/pseudo-code, test trials, and modifications)",
         "Hex drivers, needle-nose pliers, zip ties, and marked competition test field"
@@ -1817,28 +1815,28 @@
         "left_header": "Live Physical Robot Task Demonstration",
         "right_header": "Written Engineering Notebook Design Review",
         "left_points": [
-          "(5a) Live Robot Task Demonstration: Thepurpose of the notebook is to document the design process foryour robot (p. 32).",
+          "(5a) Live Robot Task Demonstration: The purpose of the notebook is to document the design process for your robot (p. 32).",
           "Full Requirement Documentation: You will use the notebook to document the completion of each requirement for the Robotics merit badge (p. 32).",
           "Capturing the Design Process: The purpose of the notebook is to document the design process for your robot (p. 32)."
         ],
         "right_points": [
-          "(5b) Engineering Notebook and Design Reflection: The documentation will be helpful as you improve therobot design (p. 32).",
+          "(5b) Engineering Notebook and Design Reflection: The documentation will be helpful as you improve the robot design (p. 32).",
           "Step 2 - Identify Future Design Improvements: The documentation will be helpful as you improve the robot design (p. 32).",
           "Step 3 - Present Notebook to Counselor: It is also a valuable way to communicate to others, like your counselor (p. 32)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(5a) Live Robot Task Demonstration: Thepurpose of the notebook is to document the design process foryour robot (p. 32).",
-            "right": "(5b) Engineering Notebook and Design Reflection: The documentation will be helpful as you improve therobot design (p. 32)."
+            "attribute": "Live Robot Task Demonstration",
+            "left": "(5a) Live Robot Task Demonstration: The purpose of the notebook is to document the design process for your robot (p. 32).",
+            "right": "(5b) Engineering Notebook and Design Reflection: The documentation will be helpful as you improve the robot design (p. 32)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Full Requirement Documentation: You will use the notebook to document the completion of each requirement for the Robotics merit badge (p. 32).",
             "right": "Step 2 - Identify Future Design Improvements: The documentation will be helpful as you improve the robot design (p. 32)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Capturing the Design Process: The purpose of the notebook is to document the design process for your robot (p. 32).",
             "right": "Step 3 - Present Notebook to Counselor: It is also a valuable way to communicate to others, like your counselor (p. 32)."
           }
@@ -1848,10 +1846,10 @@
         "title": "Robotics Req 5 Exemplar Workbook Entry: Robot Demonstration and Notebook Review",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 5a (Live Robot Task)": "Thepurpose of the notebook is to document the design process foryour robot (p. 32).",
-          "Req 5b (Engineering Notebook and)": "The documentation will be helpful as you improve therobot design (p. 32)."
+          "Req 5a (Live Robot Task Demonstration)": "The purpose of the notebook is to document the design process for your robot (p. 32).",
+          "Req 5b (Engineering Notebook and Design Reflection)": "The documentation will be helpful as you improve the robot design (p. 32)."
         },
-        "sample_output": "Robot Demonstration and Notebook Review: Thepurpose of the notebook is to document the design process foryour robot (p. 32).",
+        "sample_output": "Robot Demonstration and Notebook Review: The purpose of the notebook is to document the design process for your robot (p. 32).",
         "counselor_tip": "For Robotics Requirement 5 (Robot Demonstration and Notebook Review), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33))."
       },
       "quiz_item": {
@@ -1876,9 +1874,12 @@
         "pamphlet_page_ref": "p. 32, p. 33"
       },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Robotics Workbook organizer table and practical demonstration for Req 5.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Robotics Requirement 5 (robot demonstration and notebook review) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img2.png",
-      "workbook_diagram_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation."
+      "workbook_diagram_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation.",
+      "number": "5",
+      "description": "Demonstrate. Do the following: (a) Demonstrate for your counselor the robot you built in requirement 4. (b) Share your robot engineering notebook with your counselor. Talk about how well your robot accomplished the task, the improvements you would make in your next design, and what you learned about the design process.",
+      "workbook_visual_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation."
     },
     {
       "req_id": "6",
@@ -1908,19 +1909,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Attend a robotics competition and report to your counselor what you saw and learned about the competition and how teams are organized..."
+              "1. Attend a robotics competition and report to your counselor what you saw and learned about the competition and how teams are organized and managed"
             ],
             "rows": [
-              "1. Attend a robotics competition and report to your counselor what you saw and learned about the competition and how teams are organized..."
+              "1. Attend a robotics competition and report to your counselor what you saw and learned about the competition and how teams are organized and managed"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75)",
           "common_misconception_pair": {
             "misconception": "Youth robotics competitions are only open to college engineering students.",
-            "fact": "Programs like Botball serve elementary through high school students, while BEST Robotics runs sports-like competitions for middle and high school teams (p. 71).",
-            "fact_correction": "Programs like Botball serve elementary through high school students, while BEST Robotics runs sports-like competitions for middle and high school teams (p. 71).",
-            "pamphlet_page_ref": "p. 71, p. 75"
+            "fact": "Programs like Botball serve elementary through high school students, while BEST Robotics runs sports-like competitions for middle and high school teams (p. 71)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1947,12 +1946,13 @@
           "sub_req_label": "6a",
           "sub_req_text": "Attend a robotics competition and report to your counselor what you saw and learned about the competition and how teams are organized and managed.",
           "topic_title": "Req 6a: Live Competition Observation and Report",
-          "pamphlet_summary": "Live Competition Observation and Report: The Botball Educational Robotics Program is an elementary through high schoolcompetition that uses time-trial scoring (p. 71).",
+          "pamphlet_summary": "Live Competition Observation and Report: Boosting Engineering Science and Technology (BEST™), founded in 1993, runs a school-based, sports-like robotics competition for middle and high school (p. 71).",
           "pamphlet_excerpts": [
-            "Live Competition Observation and Report: The Botball Educational Robotics Program is an elementary through high schoolcompetition that uses time-trial scoring (p. 71)."
+            "Live Competition Observation and Report: Boosting Engineering Science and Technology (BEST™), founded in 1993, runs a school-based, sports-like robotics competition for middle and high school (p. 71)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p071_img1.png",
-          "workbook_diagram_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match."
+          "workbook_diagram_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match.",
+          "workbook_visual_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match."
         },
         {
           "sub_id": "6b",
@@ -1975,21 +1975,19 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Learn about three youth robotics competitions.",
-              "2. Tell your counselor about these, including the type of competition, time commitment, age of the participants, and how many teams..."
+              "1. Learn about three youth robotics competitions",
+              "2. Tell your counselor about these, including the type of competition, time commitment, age of the participants, and how many teams"
             ],
             "rows": [
-              "1. Learn about three youth robotics competitions.",
-              "2. Tell your counselor about these, including the type of competition, time commitment, age of the participants, and how many teams..."
+              "1. Learn about three youth robotics competitions",
+              "2. Tell your counselor about these, including the type of competition, time commitment, age of the participants, and how many teams"
             ],
             "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75)",
           "common_misconception_pair": {
             "misconception": "Autonomous competitions force every team to use the exact same mechanical chassis and controller brand.",
-            "fact": "Some competitions, including Botball, require autonomous operation while allowing many types of robotics controllers and construction methods under their rules (p. 71).",
-            "fact_correction": "Some competitions, including Botball, require autonomous operation while allowing many types of robotics controllers and construction methods under their rules (p. 71).",
-            "pamphlet_page_ref": "p. 71, p. 75"
+            "fact": "Some competitions, including Botball, require autonomous operation while allowing many types of robotics controllers and construction methods under their rules (p. 71)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2016,11 +2014,13 @@
           "sub_req_label": "6b",
           "sub_req_text": "Learn about three youth robotics competitions. Tell your counselor about these, including the type of competition, time commitment, age of the participants, and how many teams are involved.",
           "topic_title": "Req 6b: Youth Robotics Competition Comparison",
-          "pamphlet_summary": "Youth Robotics Competition Comparison: The Association for Unmanned Vehicle Systems International Foundation conducts robotic competitions for high school and college students (p. 71).",
+          "pamphlet_summary": "Youth Robotics Competition Comparison: The Botball Educational Robotics Program is an elementary through high school competition that uses time-trial scoring (p. 71).",
           "pamphlet_excerpts": [
-            "Youth Robotics Competition Comparison: The Association for Unmanned Vehicle Systems International Foundation conducts robotic competitions for high school and college students (p. 71)."
+            "Youth Robotics Competition Comparison: The Botball Educational Robotics Program is an elementary through high school competition that uses time-trial scoring (p. 71)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/robotics_p071_img1.png",
+          "workbook_diagram_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match.",
+          "workbook_visual_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match."
         }
       ],
       "resources": [
@@ -2045,7 +2045,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Enable",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Robotics Requirement 6 activities.",
+      "safety_callout": "Review task hazards with your counselor before starting Robotics Requirement 6 on youth robotics competitions and teams: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
       "pamphlet_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75)",
       "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2074,9 +2074,7 @@
       },
       "common_misconception_pair": {
         "misconception": "All youth robotics competitions use remote-controlled drivers during matches.",
-        "fact": "Competitions differ in control rules; for example, the Botball Educational Robotics Program uses time-trial scoring where competing robots are strictly autonomous (p. 71).",
-        "fact_correction": "Competitions differ in control rules; for example, the Botball Educational Robotics Program uses time-trial scoring where competing robots are strictly autonomous (p. 71).",
-        "pamphlet_page_ref": "p. 71, p. 75"
+        "fact": "Competitions differ in control rules; for example, the Botball Educational Robotics Program uses time-trial scoring where competing robots are strictly autonomous (p. 71)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2112,7 +2110,7 @@
         "Step 4 - Compare Autonomous Controller Rules: The robots are autonomous only, and the rules allow many types of robotics controllers and construction (p. 71)."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 safety glasses, robot chassis/drivetrain kit, servos/motors, and sensor suite",
+        "ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite",
         "Microcontroller brick or board, charged battery pack, and programming laptop/tablet with USB cable",
         "Robotics Engineering Notebook (design sketches, CAD/pseudo-code, test trials, and modifications)",
         "Hex drivers, needle-nose pliers, zip ties, and marked competition test field"
@@ -2121,29 +2119,29 @@
         "left_header": "Attending a Live Robotics Tournament",
         "right_header": "Researching Three Youth Robotics Leagues",
         "left_points": [
-          "(6a) Live Competition Observation and Report: The Botball Educational Robotics Program is an elementary through high schoolcompetition (p. 71).",
-          "BEST School Robotics Competition: Boosting Engineering Science and Technology (BEST™), founded in 1993, runs a school-based (p. 71).",
-          "Researching Youth Robotics Leagues: For information, search the internet (with your parent or guardian's permission) for \"BEST (p. 71)."
+          "(6a) Live Competition Observation and Report: The Botball Educational Robotics Program is an elementary through high school competition that uses time-trial scoring (p. 71).",
+          "BEST School Robotics Competition: Boosting Engineering Science and Technology (BEST™), founded in 1993, runs a school-based, sports-like robotics competition for middle and high school (p. 71).",
+          "Researching Youth Robotics Leagues: For information, search the internet (with your parent or guardian's permission) for \"BEST robotics.\" Botball® (p. 71)."
         ],
         "right_points": [
-          "(6b) Youth Robotics Competition Comparison: The Association for Unmanned Vehicle Systems International Foundation conducts robotic (p. 71).",
-          "Step 2 - Examine Time-Trial Scoring Rules: The Botball Educational Robotics Program is an elementary through high school competition (p. 71).",
+          "(6b) Youth Robotics Competition Comparison: The Association for Unmanned Vehicle Systems International Foundation conducts robotic competitions for high school and college students (p. 71).",
+          "Step 2 - Examine Time-Trial Scoring Rules: The Botball Educational Robotics Program is an elementary through high school competition that uses time-trial scoring (p. 71).",
           "Step 3 - Locate Regional Tournament Events: Tournaments are held throughout the United States (p. 71)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(6a) Live Competition Observation and Report: The Botball Educational Robotics Program is an elementary through high schoolcompetition (p. 71).",
-            "right": "(6b) Youth Robotics Competition Comparison: The Association for Unmanned Vehicle Systems International Foundation conducts robotic (p. 71)."
+            "attribute": "Live Competition Observation and Report",
+            "left": "(6a) Live Competition Observation and Report: The Botball Educational Robotics Program is an elementary through high school competition that uses time-trial scoring (p. 71).",
+            "right": "(6b) Youth Robotics Competition Comparison: The Association for Unmanned Vehicle Systems International Foundation conducts robotic competitions for high school and college students (p. 71)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "BEST School Robotics Competition: Boosting Engineering Science and Technology (BEST™), founded in 1993, runs a school-based (p. 71).",
-            "right": "Step 2 - Examine Time-Trial Scoring Rules: The Botball Educational Robotics Program is an elementary through high school competition (p. 71)."
+            "attribute": "Practical Field Application",
+            "left": "BEST School Robotics Competition: Boosting Engineering Science and Technology (BEST™), founded in 1993, runs a school-based, sports-like robotics competition for middle and high school (p. 71).",
+            "right": "Step 2 - Examine Time-Trial Scoring Rules: The Botball Educational Robotics Program is an elementary through high school competition that uses time-trial scoring (p. 71)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "Researching Youth Robotics Leagues: For information, search the internet (with your parent or guardian's permission) for \"BEST (p. 71).",
+            "attribute": "Safety & Verification Standard",
+            "left": "Researching Youth Robotics Leagues: For information, search the internet (with your parent or guardian's permission) for \"BEST robotics.\" Botball® (p. 71).",
             "right": "Step 3 - Locate Regional Tournament Events: Tournaments are held throughout the United States (p. 71)."
           }
         ]
@@ -2152,10 +2150,10 @@
         "title": "Robotics Req 6 Exemplar Workbook Entry: Youth Robotics Competitions and Teams",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 6a (Live Competition)": "The Botball Educational Robotics Program is an elementary through high schoolcompetition that uses time-trial scoring (p. 71).",
-          "Req 6b (Youth Robotics Competition)": "The Association for Unmanned Vehicle Systems International Foundation conducts robotic competitions for high school and college students (p. 71)."
+          "Req 6a (Live Competition Observation and Report)": "The Botball Educational Robotics Program is an elementary through high school competition that uses time-trial scoring (p. 71).",
+          "Req 6b (Youth Robotics Competition Comparison)": "The Association for Unmanned Vehicle Systems International Foundation conducts robotic competitions for high school and college students (p. 71)."
         },
-        "sample_output": "Youth Robotics Competitions and Teams: The Botball Educational Robotics Program is an elementary through high schoolcompetition that uses (p. 71).",
+        "sample_output": "Youth Robotics Competitions and Teams: The Botball Educational Robotics Program is an elementary through high school competition that uses time-trial scoring (p. 71).",
         "counselor_tip": "For Robotics Requirement 6 (Youth Robotics Competitions and Teams), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75))."
       },
       "quiz_item": {
@@ -2180,9 +2178,12 @@
         "pamphlet_page_ref": "p. 71, p. 75"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Robotics Workbook organizer table and practical demonstration for Req 6.",
+      "homework_verification_note": "Review the Scout's written plan, menu, checklist, or preparation log before sign-off for Robotics Requirement 6 (youth robotics competitions and teams) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/robotics_p071_img1.png",
-      "workbook_diagram_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match."
+      "workbook_diagram_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match.",
+      "number": "6",
+      "description": "Competitions. Do ONE of the following. (a) Attend a robotics competition and report to your counselor what you saw and learned about the competition and how teams are organized and managed. (b) Learn about three youth robotics competitions. Tell your counselor about these, including the type of competition, time commitment, age of the participants, and how many teams are involved.",
+      "workbook_visual_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match."
     },
     {
       "req_id": "7",
@@ -2237,9 +2238,7 @@
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)",
           "common_misconception_pair": {
             "misconception": "High school students should wait until college before getting involved in hands-on robotics.",
-            "fact": "Students should take classes in math, physics, computers, and design now while gaining hands-on experience in robotics or engineering clubs (p. 31).",
-            "fact_correction": "Students should take classes in math, physics, computers, and design now while gaining hands-on experience in robotics or engineering clubs (p. 31).",
-            "pamphlet_page_ref": "p. 31, p. 77"
+            "fact": "Students should take classes in math, physics, computers, and design now while gaining hands-on experience in robotics or engineering clubs (p. 31)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2266,12 +2265,13 @@
           "sub_req_label": "7a",
           "sub_req_text": "Identify three career opportunities that would use skills and knowledge in robotics. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.",
           "topic_title": "Req 7a: Robotics Career Paths and Education",
-          "pamphlet_summary": "Robotics Career Paths and Education: From deep seas to deep space to your closet at home, robots are everywhere (p. 31).",
+          "pamphlet_summary": "Robotics Career Paths and Education: Only a few of the possible career paths are discussed here (p. 31).",
           "pamphlet_excerpts": [
-            "Robotics Career Paths and Education: From deep seas to deep space to your closet at home, robots are everywhere (p. 31)."
+            "Robotics Career Paths and Education: Only a few of the possible career paths are discussed here (p. 31)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p021_img1.png",
-          "workbook_diagram_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility."
+          "workbook_diagram_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility.",
+          "workbook_visual_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility."
         },
         {
           "sub_id": "7b",
@@ -2311,23 +2311,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify how you might use the skills and knowledge in robotics to pursue a personal hobby.",
-              "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment...",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued."
+              "1. Identify how you might use the skills and knowledge in robotics to pursue a personal hobby",
+              "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
             ],
             "rows": [
-              "1. Identify how you might use the skills and knowledge in robotics to pursue a personal hobby.",
-              "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment...",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued."
+              "1. Identify how you might use the skills and knowledge in robotics to pursue a personal hobby",
+              "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
             ],
             "min_rows": 3
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)",
           "common_misconception_pair": {
             "misconception": "High school graduation alone is sufficient formal training for most professional robotics engineering and technician roles.",
-            "fact": "You will need education beyond a high school diploma, such as a two-year associate degree or a four-year engineering degree, to work professionally with robots (p. 31).",
-            "fact_correction": "You will need education beyond a high school diploma, such as a two-year associate degree or a four-year engineering degree, to work professionally with robots (p. 31).",
-            "pamphlet_page_ref": "p. 31, p. 77"
+            "fact": "You will need education beyond a high school diploma, such as a two-year associate degree or a four-year engineering degree, to work professionally with robots (p. 31)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2354,12 +2352,14 @@
           "sub_req_label": "7b",
           "sub_req_text": "Identify how you might use the skills and knowledge in robotics to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
           "topic_title": "Req 7b: Personal Robotics Hobbies and Clubs",
-          "pamphlet_summary": "Personal Robotics Hobbies and Clubs: Only a few of the possible career paths arediscussed here (p. 31).",
+          "pamphlet_summary": "Personal Robotics Hobbies and Clubs: Get as much practical, hands-on experience as possible by participating in clubs or organizations pertaining to robotics or engineering (p. 31).",
           "pamphlet_excerpts": [
-            "Personal Robotics Hobbies and Clubs: Only a few of the possible career paths arediscussed here (p. 31)."
+            "Personal Robotics Hobbies and Clubs: Get as much practical, hands-on experience as possible by participating in clubs or organizations pertaining to robotics or engineering (p. 31)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 7b: Use the Skills and Knowledge in Robotics"
+          "workbook_diagram_url": "assets/pamphlet_images/robotics_p021_img1.png",
+          "title": "Req 7b: Personal Robotics Hobbies and Clubs",
+          "workbook_diagram_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility.",
+          "workbook_visual_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility."
         }
       ],
       "resources": [
@@ -2400,7 +2400,7 @@
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Robotics Requirement 7 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Robotics Requirement 7 on robotics careers, education, and hobbies under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)",
       "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -2433,9 +2433,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Every career working professionally with robots requires a four-year university bachelor's or graduate degree.",
-        "fact": "While working professionally with robots requires education beyond high school, many junior and community colleges offer associate degrees in robotics and automation for robotics technicians (p. 31).",
-        "fact_correction": "While working professionally with robots requires education beyond high school, many junior and community colleges offer associate degrees in robotics and automation for robotics technicians (p. 31).",
-        "pamphlet_page_ref": "p. 31, p. 77"
+        "fact": "While working professionally with robots requires education beyond high school, many junior and community colleges offer associate degrees in robotics and automation for robotics technicians (p. 31)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2480,23 +2478,23 @@
           "Foundational STEM Coursework: Take as many classes as possible in math, physics, computers, and design (p. 31)."
         ],
         "right_points": [
-          "(7b) Personal Robotics Hobbies and Clubs: Only a few of the possible career paths arediscussed here (p. 31).",
-          "Step 2 - Join Robotics and Engineering Clubs: Get as much practical, hands-on experience as possible by participating in clubs (p. 31).",
+          "(7b) Personal Robotics Hobbies and Clubs: Only a few of the possible career paths are discussed here (p. 31).",
+          "Step 2 - Join Robotics and Engineering Clubs: Get as much practical, hands-on experience as possible by participating in clubs or organizations pertaining to robotics or engineering (p. 31).",
           "Step 3 - Plan Post-Secondary Education: You will need more than a high school degree to work with robots (p. 31)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Robotics Career Paths and Education",
             "left": "(7a) Robotics Career Paths and Education: From deep seas to deep space to your closet at home, robots are everywhere (p. 31).",
-            "right": "(7b) Personal Robotics Hobbies and Clubs: Only a few of the possible career paths arediscussed here (p. 31)."
+            "right": "(7b) Personal Robotics Hobbies and Clubs: Only a few of the possible career paths are discussed here (p. 31)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Diverse Robotics Career Paths: Only a few of the possible career paths are discussed here (p. 31).",
-            "right": "Step 2 - Join Robotics and Engineering Clubs: Get as much practical, hands-on experience as possible by participating in clubs (p. 31)."
+            "right": "Step 2 - Join Robotics and Engineering Clubs: Get as much practical, hands-on experience as possible by participating in clubs or organizations pertaining to robotics or engineering (p. 31)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Foundational STEM Coursework: Take as many classes as possible in math, physics, computers, and design (p. 31).",
             "right": "Step 3 - Plan Post-Secondary Education: You will need more than a high school degree to work with robots (p. 31)."
           }
@@ -2506,8 +2504,8 @@
         "title": "Robotics Req 7 Exemplar Workbook Entry: Robotics Careers, Education, and Hobbies",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 7a (Robotics Career Paths)": "From deep seas to deep space to your closet at home, robots are everywhere (p. 31).",
-          "Req 7b (Personal Robotics Hobbies)": "Only a few of the possible career paths arediscussed here (p. 31)."
+          "Req 7a (Robotics Career Paths and Education)": "From deep seas to deep space to your closet at home, robots are everywhere (p. 31).",
+          "Req 7b (Personal Robotics Hobbies and Clubs)": "Only a few of the possible career paths are discussed here (p. 31)."
         },
         "sample_output": "Robotics Careers, Education, and Hobbies: From deep seas to deep space to your closet at home, robots are everywhere (p. 31).",
         "counselor_tip": "For Robotics Requirement 7 (Robotics Careers, Education, and Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77))."
@@ -2534,9 +2532,12 @@
         "pamphlet_page_ref": "p. 31, p. 77"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Robotics Workbook organizer table and practical demonstration for Req 7.",
+      "homework_verification_note": "Quiz the Scout on each specimen, symbol, or component identified in their organizer table for Robotics Requirement 7 (robotics careers, education, and hobbies) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/robotics_p021_img1.png",
-      "workbook_diagram_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility."
+      "workbook_diagram_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility.",
+      "number": "7",
+      "description": "Do ONE of the following: (a) Identify three career opportunities that would use skills and knowledge in robotics. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. (b) Identify how you might use the skills and knowledge in robotics to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
+      "workbook_visual_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility."
     }
   ],
   "badge_slug": "robotics",
@@ -2711,7 +2712,7 @@
   "quartermaster_manifest": {
     "badge_name": "Robotics",
     "patrol_equipment": [
-      "ANSI Z87.1 safety glasses, robot chassis/drivetrain kit, servos/motors, and sensor suite",
+      "ANSI Z87.1 safety glasses, robot chassis/drive train kit, servos/motors, and sensor suite",
       "Microcontroller brick or board, charged battery pack, and programming laptop/tablet with USB cable",
       "Robotics Engineering Notebook (design sketches, CAD/pseudo-code, test trials, and modifications)",
       "Hex drivers, needle-nose pliers, zip ties, and marked competition test field"
@@ -2722,5 +2723,12 @@
       "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
       "Field notebook, pen/pencil, and personal safety equipment (PPE)"
     ]
+  },
+  "source_url": "https://www.scouting.org/merit-badges/robotics/",
+  "scouting_org_url": "https://www.scouting.org/merit-badges/robotics/",
+  "local_grounding_spec": {
+    "council_jurisdiction": "Local BSA Council & Municipal Code",
+    "facility_type": "Approved Robotics field site or counselor workspace",
+    "emergency_contact_protocol": "BSA Two-Deep Leadership & Local EMS (911)"
   }
 }

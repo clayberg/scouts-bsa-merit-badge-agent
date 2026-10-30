@@ -74,7 +74,7 @@ openssl rand -hex 32 | gcloud secrets versions add bsa-hitl-secret-key \
 ```
 
 ### 2.3 Step 3: Run the Cloud Build canary pipeline (`cloudbuild.yaml`)
-`cloudbuild.yaml` runs `ruff check`, `pytest tests/` (`133/133` passing automated tests [`112` unit/integration + `21` golden eval] with `0` warnings), load testing (`tests/load/load_test.py` and `tests/load/locustfile.py`), and the 20-badge golden evaluation suite (`scripts/run_eval.py` and `scripts/eval_gate.py`). If any check fails, the build stops before touching Cloud Run. When all checks pass, it deploys a `canary` revision at `10%` traffic, checks `/readiness`, and promotes the revision to `100%` (or rolls back automatically if the canary probe fails):
+`cloudbuild.yaml` runs `ruff check`, `pytest tests/` (`220+` passing automated tests [`112` unit/integration + `21` golden eval] with `0` warnings), load testing (`tests/load/load_test.py` and `tests/load/locustfile.py`), and the 20-badge golden evaluation suite (`scripts/run_eval.py` and `scripts/eval_gate.py`). If any check fails, the build stops before touching Cloud Run. When all checks pass, it deploys a `canary` revision at `10%` traffic, checks `/readiness`, and promotes the revision to `100%` (or rolls back automatically if the canary probe fails):
 
 ```bash
 gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}"
@@ -165,7 +165,7 @@ gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}
     ```
 
 ### Playbook F: Emergency FinOps budget freeze & zero-code model deprecation cutover (`config/models.yaml`)
-- **Emergency Live Image Freeze**: `FinOpsBudgetPlugin` (`max_budget_usd = $1.00`) automatically steps down `DARK_SLATE` (`STUDIO`) requests to `WARM_CREAM` (`BEAUTIFIED`) using the `4,124` pre-bundled visual assets across `149` badges (`$0.00` image cost). To freeze opt-in `$0.08` Nano Banana studio calls during a budget freeze without redeploying code, set `DISABLE_LIVE_IMAGE_GENERATION=true` or `MAX_WORKFLOW_BUDGET_USD=0.25` in Cloud Run environment variables.
+- **Emergency Live Image Freeze**: `FinOpsBudgetPlugin` (`max_budget_usd = $1.00`) automatically steps down `DARK_SLATE` (`STUDIO`) requests to `WARM_CREAM` (`BEAUTIFIED`) using the `5,625` pre-bundled visual assets across `149` badges (`$0.00` image cost). To freeze opt-in `$0.08` Nano Banana studio calls during a budget freeze without redeploying code, set `DISABLE_LIVE_IMAGE_GENERATION=true` or `MAX_WORKFLOW_BUDGET_USD=0.25` in Cloud Run environment variables.
 - **Zero-Code Model Deprecation Cutover**:
   1. Update `primary_model` or `fast_model` in `config/models.yaml` (or set `BSA_REASONING_MODEL` / `BSA_FAST_MODEL` environment variables).
   2. Run `.venv/bin/python3 scripts/run_eval.py` to verify `Recall@3 == 1.0000`, `0` requirement drift, and `100%` AABB slide geometry conformance on the new model.

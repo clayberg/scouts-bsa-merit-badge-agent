@@ -17,7 +17,7 @@ This repository is governed by an automated AI-Assisted Engineering Harness desi
      2. **Physical GCP Infrastructure, IAM & Security Perimeter Diagram**
 4. **Bidirectional (Ingress + Egress) 3-Layer Context-Aware PII Scrubbing & YPT Guardrails (Rubric B3.3 & B3.4)**:
    - `ScoutsBSAModelArmorPlugin` (`src/agents/guardrails.py`) and `src/observability/logging_setup.py` enforce ingress prompt-injection defense, BSA Youth Protection (YPT) two-deep leadership rules, tool-argument sanitization, and outbound SSE/REST egress PII scrubbing (`scrub_pii_from_structure()` and `scrub_pii_before_sink()`).
-   - Phone redaction uses a **3-Layer Context-Aware Filter (`v2.2`)**: Layer 1 excludes 10-digit IDs inside URLs/filenames (preserving all 92 official Scouting America Vimeo video links and PDF worksheets across 18 badges); Layer 2 allowlists NANPA toll-free prefixes (`800/888/877/866/855/844/833`) and canonical emergency/institutional hotlines (`1-800-222-1222` Poison Control on First Aid Slide 3, `911`, `988`, `800-323-0736` BSA Scout Shop, `202-633-1000` Smithsonian switchboard); Layer 3 applies a `±55`-character institutional vs. personal hotword window while redacting all personal youth/parent/counselor phone numbers (`[REDACTED_PHONE]`). Counselor email addresses and personal phone numbers are never transmitted to Gemini or written to telemetry logs.
+   - Phone redaction uses a **3-Layer Context-Aware Filter (`V36`)**: Layer 1 excludes 10-digit IDs inside URLs/filenames (preserving all 92 official Scouting America Vimeo video links and PDF worksheets across 18 badges); Layer 2 allowlists NANPA toll-free prefixes (`800/888/877/866/855/844/833`) and canonical emergency/institutional hotlines (`1-800-222-1222` Poison Control on First Aid Slide 3, `911`, `988`, `800-323-0736` BSA Scout Shop, `202-633-1000` Smithsonian switchboard); Layer 3 applies a `±55`-character institutional vs. personal hotword window while redacting all personal youth/parent/counselor phone numbers (`[REDACTED_PHONE]`). Counselor email addresses and personal phone numbers are never transmitted to Gemini or written to telemetry logs.
 5. **Honest Dual Latency Telemetry (Rubric B4.2 & B5.1)**:
    - `ZeroPiiTelemetryStore` (`src/observability/telemetry.py`) tracks and reports both **First Status Event (`first_status_event_ms`)** and **True First Meaningful Content Token (`true_first_content_token_ms` / `true_ttft_ms`)** (`p50`/`p95`). Never stop the TTFT clock on an initial status banner.
 6. **Deterministic + Rubric Golden Dataset Evals & 5% Online Audit Sampling (Rubric B1.4)**:
@@ -36,7 +36,7 @@ This repository is governed by an automated AI-Assisted Engineering Harness desi
 - **Tiered Model Routing**:
   - `gemini-2.5-pro`: Complex multi-requirement curriculum synthesis and 12-archetype pedagogical storyboarding (`PamphletResearchAgent`, `SlideContentPlannerAgent`).
   - `gemini-2.5-flash`: High-throughput regional grounding, visual styling, PowerPoint assembly, and critic verification (`WebSearchGroundingAgent`, `ResearchCoverageCriticAgent`, `SlideBeautifierAgent`, `PowerPointBuilderAgent`, `BSABrandAndSafetyReviewAgent`).
-- **FinOps Ceiling**: Enforce `FinOpsBudgetPlugin` (`max_budget_usd = $1.00` hard ceiling) and prefer the `4,124` pre-bundled visual assets across all `149` badges (`$0.00` runtime image cost, with automatic on-demand GitHub Raw batch hydration via `src/tools/asset_hydrator.py` if local media is absent).
+- **FinOps Ceiling**: Enforce `FinOpsBudgetPlugin` (`max_budget_usd = $1.00` hard ceiling) and prefer the `5,625` pre-bundled visual assets across all `149` badges (`$0.00` runtime image cost, with automatic on-demand GitHub Raw batch hydration via `src/tools/asset_hydrator.py` if local media is absent).
 
 ---
 
@@ -48,7 +48,7 @@ Before committing code, pushing to remotes, or packaging `repo.bundle`, you MUST
    ```bash
    .venv/bin/ruff check src/ tests/ scripts/
    ```
-1. **Test Suite (`133/133`+ passing unit, security, fault-injection, and golden eval tests)**:
+1. **Test Suite (`220+`+ passing unit, security, fault-injection, and golden eval tests)**:
    ```bash
    .venv/bin/pytest tests/ tests/eval_golden_suite.py -q
    ```

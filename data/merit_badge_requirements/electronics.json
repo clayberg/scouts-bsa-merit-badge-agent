@@ -37,7 +37,7 @@
       "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electronics Requirement 1 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Electronics Requirement 1 on electronic device safety precautions under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54)",
       "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54)",
       "syllabus_bucket": "In-Class Concept",
@@ -55,18 +55,18 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices."
+          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices",
+          "2. Practical execution and real-world examples for Electronic Device Safety Precautions"
         ],
         "rows": [
-          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices."
+          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices",
+          "2. Practical execution and real-world examples for Electronic Device Safety Precautions"
         ],
-        "min_rows": 1
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Unplugging an electronic device immediately removes all electrical shock hazards inside the chassis.",
-        "fact": "Large electrolytic capacitors can store dangerous electrical charges long after a device is unplugged and must be safely discharged before servicing (p. 9).",
-        "fact_correction": "Large electrolytic capacitors can store dangerous electrical charges long after a device is unplugged and must be safely discharged before servicing (p. 9).",
-        "pamphlet_page_ref": "p. 9, p. 54"
+        "fact": "Large electrolytic capacitors can store dangerous electrical charges long after a device is unplugged and must be safely discharged before servicing (p. 9)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -106,29 +106,29 @@
         "left_header": "High Voltage Shock Prevention",
         "right_header": "Soldering Iron Thermal Protection",
         "left_points": [
-          "Everyday Electronic Devices: History and Introduction. today, including computers, audio equipment, cell phones, appliances (p. 9).",
-          "Initial Counselor Discussion: How to Earn the Electronics Merit Badge The first step in earning your Electronics merit badge (p. 9).",
-          "Essential Safety Precautions: To fulfill requirement 1, learn about the precautions you should take when using, building, altering (p. 9)."
+          "Everyday Electronic Devices: History and Introduction. today, including computers, audio equipment, cell phones, appliances, and automobiles (p. 9).",
+          "Initial Counselor Discussion: How to Earn the Electronics Merit Badge The first step in earning your Electronics merit badge is to discuss the requirements with your merit badge (p. 9).",
+          "Essential Safety Precautions: To fulfill requirement 1, learn about the precautions you should take when using, building, altering, or repairing electronic devices (p. 9)."
         ],
         "right_points": [
-          "Step 1 - Review Safety Precautions: To fulfill requirement 1, learn about the precautions you should take when using, building (p. 9).",
+          "Step 1 - Review Safety Precautions: To fulfill requirement 1, learn about the precautions you should take when using, building, altering, or repairing electronic devices (p. 9).",
           "Step 2 - Inspect Vulnerable Components: Many electronic components (parts) could be Tips for Repairing Electronic Devices 1 (p. 9).",
           "Step 3 - Disconnect Circuit Power: Be sure to turn off and unplug the power before operating on any electronic circuit (p. 9)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "Everyday Electronic Devices: History and Introduction. today, including computers, audio equipment, cell phones, appliances (p. 9).",
-            "right": "Step 1 - Review Safety Precautions: To fulfill requirement 1, learn about the precautions you should take when using, building (p. 9)."
+            "attribute": "Everyday Electronic Devices",
+            "left": "Everyday Electronic Devices: History and Introduction. today, including computers, audio equipment, cell phones, appliances, and automobiles (p. 9).",
+            "right": "Step 1 - Review Safety Precautions: To fulfill requirement 1, learn about the precautions you should take when using, building, altering, or repairing electronic devices (p. 9)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Initial Counselor Discussion: How to Earn the Electronics Merit Badge The first step in earning your Electronics merit badge (p. 9).",
+            "attribute": "Practical Field Application",
+            "left": "Initial Counselor Discussion: How to Earn the Electronics Merit Badge The first step in earning your Electronics merit badge is to discuss the requirements with your merit badge (p. 9).",
             "right": "Step 2 - Inspect Vulnerable Components: Many electronic components (parts) could be Tips for Repairing Electronic Devices 1 (p. 9)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "Essential Safety Precautions: To fulfill requirement 1, learn about the precautions you should take when using, building, altering (p. 9).",
+            "attribute": "Safety & Verification Standard",
+            "left": "Essential Safety Precautions: To fulfill requirement 1, learn about the precautions you should take when using, building, altering, or repairing electronic devices (p. 9).",
             "right": "Step 3 - Disconnect Circuit Power: Be sure to turn off and unplug the power before operating on any electronic circuit (p. 9)."
           }
         ]
@@ -142,7 +142,7 @@
           "Essential Safety Precautions": "To fulfill requirement 1, learn about the precautions you should take when using, building, altering, or repairing electronic devices (p. 9).",
           "Component Repair Guidelines": "Many electronic components (parts) could be Tips for Repairing Electronic Devices 1 (p. 9)."
         },
-        "sample_output": "Electronic Device Safety Precautions: History and Introduction. today, including computers, audio equipment, cell phones, appliances (p. 9).",
+        "sample_output": "Electronic Device Safety Precautions: History and Introduction. today, including computers, audio equipment, cell phones, appliances, and automobiles (p. 9).",
         "counselor_tip": "For Electronics Requirement 1 (Electronic Device Safety Precautions), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electronics Merit Badge Pamphlet (p. 9, p. 54))."
       },
       "quiz_item": {
@@ -167,9 +167,12 @@
         "pamphlet_page_ref": "p. 9, p. 54"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 1.",
+      "homework_verification_note": "Check that the Scout describes each required detail accurately with supporting notes in their workbook for Electronics Requirement 1 (electronic device safety precautions) before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/electronics_req_1_nano_hero.png",
-      "workbook_diagram_caption": "Panels showcase historic electronic inventions, circuit components, schematic symbols, and soldering technique."
+      "workbook_diagram_caption": "Panels showcase historic electronic inventions, circuit components, schematic symbols, and soldering technique.",
+      "number": "1",
+      "description": "Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices.",
+      "workbook_visual_caption": "Panels showcase historic electronic inventions, circuit components, schematic symbols, and soldering technique."
     },
     {
       "req_id": "2",
@@ -195,17 +198,17 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
             "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Simple Schematic)",
             "headers": [
-              "Req 2a Study Prompt",
-              "Key Pamphlet Facts & Definitions",
-              "Field Example & Counselor Conference Notes"
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
             ],
             "column_headers": [
-              "Req 2a Study Prompt",
-              "Key Pamphlet Facts & Definitions",
-              "Field Example & Counselor Conference Notes"
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
             ],
             "row_labels": [
               "1. Draw a simple schematic diagram.",
@@ -224,9 +227,7 @@
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
           "common_misconception_pair": {
             "misconception": "Resistors are only used to generate heat inside electronic circuits.",
-            "fact": "Resistors limit electrical current flow and divide voltages to set proper operating conditions for other parts (p. 38).",
-            "fact_correction": "Resistors limit electrical current flow and divide voltages to set proper operating conditions for other parts (p. 38).",
-            "pamphlet_page_ref": "p. 10, p. 38"
+            "fact": "Resistors limit electrical current flow and divide voltages to set proper operating conditions for other parts (p. 38)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -253,12 +254,13 @@
           "sub_req_label": "2a",
           "sub_req_text": "Draw a simple schematic diagram. It must show resistors, capacitors, and transistors or integrated circuits. Use the correct symbols. Label all parts.",
           "topic_title": "Req 2a: Drawing Circuit Schematic Symbols",
-          "pamphlet_summary": "Drawing Circuit Schematic Symbols: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10).",
+          "pamphlet_summary": "Drawing Circuit Schematic Symbols: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10).",
           "pamphlet_excerpts": [
-            "Drawing Circuit Schematic Symbols: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10)."
+            "Drawing Circuit Schematic Symbols: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p007_img1.png",
-          "workbook_diagram_caption": "Field reference diagram showing Electronics Requirement 2 equipment, technique, and verification milestones for Electronics Requirement 2 (img1)."
+          "workbook_diagram_caption": "Needle-nose pliers allow delicate bending and holding of electronic components.",
+          "workbook_visual_caption": "Needle-nose pliers allow delicate bending and holding of electronic components."
         },
         {
           "sub_id": "2b",
@@ -290,19 +292,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell the purpose of each part."
+              "1. Tell the purpose of each part"
             ],
             "rows": [
-              "1. Tell the purpose of each part."
+              "1. Tell the purpose of each part"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
           "common_misconception_pair": {
             "misconception": "Capacitors allow steady direct current to pass straight through them while blocking alternating signals.",
-            "fact": "Capacitors store electrical energy in an electrostatic field, blocking direct current while allowing alternating current signals to pass (p. 38).",
-            "fact_correction": "Capacitors store electrical energy in an electrostatic field, blocking direct current while allowing alternating current signals to pass (p. 38).",
-            "pamphlet_page_ref": "p. 10, p. 38"
+            "fact": "Capacitors store electrical energy in an electrostatic field, blocking direct current while allowing alternating current signals to pass (p. 38)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -329,11 +329,13 @@
           "sub_req_label": "2b",
           "sub_req_text": "Tell the purpose of each part.",
           "topic_title": "Req 2b: Explaining Electronic Component Purposes",
-          "pamphlet_summary": "Explaining Electronic Component Purposes: Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10).",
+          "pamphlet_summary": "Explaining Electronic Component Purposes: The Electronics pamphlet for Requirement 2b details the purpose of each part, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
           "pamphlet_excerpts": [
-            "Explaining Electronic Component Purposes: Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10)."
+            "Explaining Electronic Component Purposes: The Electronics pamphlet for Requirement 2b details the purpose of each part, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p012_img5.png",
+          "workbook_diagram_caption": "Needle-nose pliers allow delicate bending and holding of electronic components.",
+          "workbook_visual_caption": "Needle-nose pliers allow delicate bending and holding of electronic components."
         }
       ],
       "resources": [
@@ -366,22 +368,22 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electronics Requirement 2 activities.",
+      "safety_callout": "Review task hazards with your counselor before starting Electronics Requirement 2 on schematic diagrams and component functions: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
       "pamphlet_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
       "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "RULED_EXPLAIN_BOX",
+        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
         "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Simple Schematic)",
         "headers": [
-          "Req 2 Study Prompt",
-          "Key Pamphlet Facts & Definitions",
-          "Field Example & Counselor Conference Notes"
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
         ],
         "column_headers": [
-          "Req 2 Study Prompt",
-          "Key Pamphlet Facts & Definitions",
-          "Field Example & Counselor Conference Notes"
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
         ],
         "row_labels": [
           "1. (2a) Simple Schematic",
@@ -395,9 +397,7 @@
       },
       "common_misconception_pair": {
         "misconception": "A schematic diagram shows the exact physical layout and wire lengths of a finished circuit board.",
-        "fact": "A schematic diagram uses standardized symbols to illustrate how components connect electrically rather than where they sit physically (p. 38).",
-        "fact_correction": "A schematic diagram uses standardized symbols to illustrate how components connect electrically rather than where they sit physically (p. 38).",
-        "pamphlet_page_ref": "p. 10, p. 38"
+        "fact": "A schematic diagram uses standardized symbols to illustrate how components connect electrically rather than where they sit physically (p. 38)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -422,7 +422,7 @@
       ],
       "pamphlet_excerpts": [
         "Foundational Safety Habits: Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10).",
-        "Expanding Safety Checklists: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10).",
+        "Expanding Safety Checklists: As you read this pamphlet and work on the requirements, pay attention to safety and see whether you can add to this list (p. 10).",
         "Studying Schematic Diagrams: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10).",
         "Required Circuit Components: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10)."
       ],
@@ -442,30 +442,30 @@
         "left_header": "Passive Resistors and Capacitors",
         "right_header": "Active Transistors and Integrated Circuits",
         "left_points": [
-          "(2a) Drawing Circuit Schematic Symbols: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10).",
-          "Expanding Safety Checklists: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add (p. 10).",
-          "Studying Schematic Diagrams: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram (p. 10)."
+          "(2a) Drawing Circuit Schematic Symbols: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10).",
+          "Expanding Safety Checklists: As you read this pamphlet and work on the requirements, pay attention to safety and see whether you can add to this list (p. 10).",
+          "Studying Schematic Diagrams: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10)."
         ],
         "right_points": [
-          "(2b) Explaining Electronic Component Purposes: Here are some basic safety precautions; there are more safety suggestions later in this (p. 10).",
+          "Schematic Diagrams and Component Functions: Review the Electronics pamphlet standards for schematic diagrams and component functions, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 10).",
           "Step 2 - Draw Core Components: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10).",
-          "Step 3 - Label Every Symbol: Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each (p. 10)."
+          "Step 3 - Label Every Symbol: Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each component (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(2a) Drawing Circuit Schematic Symbols: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10).",
-            "right": "(2b) Explaining Electronic Component Purposes: Here are some basic safety precautions; there are more safety suggestions later in this (p. 10)."
+            "attribute": "Drawing Circuit Schematic Symbols",
+            "left": "(2a) Drawing Circuit Schematic Symbols: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10).",
+            "right": "Schematic Diagrams and Component Functions: Review the Electronics pamphlet standards for schematic diagrams and component functions, record accurate field observations in your workbook, and demonstrate safe execution during your counselor review (p. 10)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Expanding Safety Checklists: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add (p. 10).",
+            "attribute": "Practical Field Application",
+            "left": "Expanding Safety Checklists: As you read this pamphlet and work on the requirements, pay attention to safety and see whether you can add to this list (p. 10).",
             "right": "Step 2 - Draw Core Components: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "Studying Schematic Diagrams: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram (p. 10).",
-            "right": "Step 3 - Label Every Symbol: Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each (p. 10)."
+            "attribute": "Safety & Verification Standard",
+            "left": "Studying Schematic Diagrams: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10).",
+            "right": "Step 3 - Label Every Symbol: Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each component (p. 10)."
           }
         ]
       },
@@ -473,10 +473,10 @@
         "title": "Electronics Req 2 Exemplar Workbook Entry: Schematic Diagrams and Component Functions",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 2a (Drawing Circuit Schematic)": "Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10).",
-          "Req 2b (Explaining Electronic)": "Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10)."
+          "Req 2a (Drawing Circuit Schematic Symbols)": "Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10).",
+          "Req 2b (Explaining Electronic Component Purposes)": "Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10)."
         },
-        "sample_output": "Schematic Diagrams and Component Functions: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10).",
+        "sample_output": "Schematic Diagrams and Component Functions: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10).",
         "counselor_tip": "For Electronics Requirement 2 (Schematic Diagrams and Component Functions), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38))."
       },
       "quiz_item": {
@@ -501,9 +501,12 @@
         "pamphlet_page_ref": "p. 10, p. 38"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 2.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Electronics Requirement 2 (schematic diagrams and component functions) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/electronics_req_2_nano_hero.png",
-      "workbook_diagram_caption": "Scouts wearing protective safety goggles solder electronic components onto a circuit board at camp."
+      "workbook_diagram_caption": "Scouts wearing protective safety goggles solder electronic components onto a circuit board at camp.",
+      "number": "2",
+      "description": "Do the following: (a) Draw a simple schematic diagram. It must show resistors, capacitors, and transistors or integrated circuits. Use the correct symbols. Label all parts. (b) Tell the purpose of each part.",
+      "workbook_visual_caption": "Scouts wearing protective safety goggles solder electronic components onto a circuit board at camp."
     },
     {
       "req_id": "3",
@@ -542,19 +545,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show the right way to solder and desolder."
+              "1. Show the right way to solder and desolder"
             ],
             "rows": [
-              "1. Show the right way to solder and desolder."
+              "1. Show the right way to solder and desolder"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
           "common_misconception_pair": {
             "misconception": "Holding the soldering iron on a transistor lead for thirty seconds guarantees a stronger bond.",
-            "fact": "Excessive heat duration travels up component leads and permanently destroys delicate semiconductor junctions inside transistors and diodes (p. 13).",
-            "fact_correction": "Excessive heat duration travels up component leads and permanently destroys delicate semiconductor junctions inside transistors and diodes (p. 13).",
-            "pamphlet_page_ref": "p. 13, p. 49"
+            "fact": "Excessive heat duration travels up component leads and permanently destroys delicate semiconductor junctions inside transistors and diodes (p. 13)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -581,13 +582,14 @@
           "sub_req_label": "3a",
           "sub_req_text": "Show the right way to solder and desolder.",
           "topic_title": "Req 3a: Soldering and Desoldering Connections",
-          "pamphlet_summary": "Soldering and Desoldering Connections: Poor connections look crystalline andgrainy, or the solder tends to blob (p. 13).",
+          "pamphlet_summary": "Soldering and Desoldering Connections: Poor connections look crystalline and grainy, or the solder tends to blob (p. 13).",
           "pamphlet_excerpts": [
-            "Soldering and Desoldering Connections: Poor connections look crystalline andgrainy, or the solder tends to blob (p. 13)."
+            "Soldering and Desoldering Connections: Poor connections look crystalline and grainy, or the solder tends to blob (p. 13)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p012_img1.png",
-          "title": "Req 3a: Right Way to Solder and Desolder",
-          "workbook_diagram_caption": "Field reference diagram showing Electronics Requirement 3 equipment, technique, and verification milestones for Electronics Requirement 3 (img1)."
+          "title": "Req 3a: Soldering and Desoldering Connections",
+          "workbook_diagram_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder.",
+          "workbook_visual_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder."
         },
         {
           "sub_id": "3b",
@@ -615,19 +617,17 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to avoid heat damage to electronic components."
+              "1. Show how to avoid heat damage to electronic components"
             ],
             "rows": [
-              "1. Show how to avoid heat damage to electronic components."
+              "1. Show how to avoid heat damage to electronic components"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
           "common_misconception_pair": {
             "misconception": "Acid-core plumbing solder works well for assembling printed circuit boards.",
-            "fact": "Only rosin-core or no-clean electronic solder should be used on circuits because acid flux corrodes copper traces and electrical leads (p. 49).",
-            "fact_correction": "Only rosin-core or no-clean electronic solder should be used on circuits because acid flux corrodes copper traces and electrical leads (p. 49).",
-            "pamphlet_page_ref": "p. 13, p. 49"
+            "fact": "Only rosin-core or no-clean electronic solder should be used on circuits because acid flux corrodes copper traces and electrical leads (p. 49)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -654,11 +654,13 @@
           "sub_req_label": "3b",
           "sub_req_text": "Show how to avoid heat damage to electronic components.",
           "topic_title": "Req 3b: Preventing Component Heat Damage",
-          "pamphlet_summary": "Preventing Component Heat Damage: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection (p. 13).",
+          "pamphlet_summary": "Preventing Component Heat Damage: The Electronics pamphlet for Requirement 3b details how to avoid heat damage to electronic components, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 13).",
           "pamphlet_excerpts": [
-            "Preventing Component Heat Damage: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection (p. 13)."
+            "Preventing Component Heat Damage: The Electronics pamphlet for Requirement 3b details how to avoid heat damage to electronic components, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 13)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p013_img1.png",
+          "workbook_diagram_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder.",
+          "workbook_visual_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder."
         },
         {
           "sub_id": "3c",
@@ -698,9 +700,7 @@
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
           "common_misconception_pair": {
             "misconception": "Scraping or prying a hot component lead is the fastest way to desolder a mistake on a printed circuit board.",
-            "fact": "Using a braided copper wick or vacuum solder sucker removes molten solder cleanly without lifting copper foil pads off the board (p. 13).",
-            "fact_correction": "Using a braided copper wick or vacuum solder sucker removes molten solder cleanly without lifting copper foil pads off the board (p. 13).",
-            "pamphlet_page_ref": "p. 13, p. 49"
+            "fact": "Using a braided copper wick or vacuum solder sucker removes molten solder cleanly without lifting copper foil pads off the board (p. 13)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -727,11 +727,13 @@
           "sub_req_label": "3c",
           "sub_req_text": "Tell about the function of a printed circuit board. Tell what precautions should be observed when soldering printed circuit boards.",
           "topic_title": "Req 3c: Printed Circuit Board Care",
-          "pamphlet_summary": "Printed Circuit Board Care: In case you accidentally make a wrong connection or have tomove a component that has been placed incorrectly, you shouldlearn how to desolder (p. 13).",
+          "pamphlet_summary": "Printed Circuit Board Care: The Electronics pamphlet for Requirement 3c details about the function of a printed circuit board, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 13).",
           "pamphlet_excerpts": [
-            "Printed Circuit Board Care: In case you accidentally make a wrong connection or have tomove a component that has been placed incorrectly, you shouldlearn how to desolder (p. 13)."
+            "Printed Circuit Board Care: The Electronics pamphlet for Requirement 3c details about the function of a printed circuit board, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 13)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p013_img1.png",
+          "workbook_diagram_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder.",
+          "workbook_visual_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder."
         }
       ],
       "resources": [
@@ -764,7 +766,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electronics Requirement 3 activities.",
+      "safety_callout": "Review task hazards with your counselor before starting Electronics Requirement 3 on soldering techniques and circuit boards: inspect tools and work surfaces before use, keep bystanders clear of active demonstrations, and follow BSA Guide to Safe Scouting supervision standards.",
       "pamphlet_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
       "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -782,22 +784,20 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. (3a) Right Way to Solder and",
-          "2. (3b) Avoid Heat Damage to Electronic",
-          "3. (3c) Function of A Printed Circuit"
+          "1. (3a) Show the right way to solder and desolder",
+          "2. (3b) Show how to avoid heat damage to electronic components",
+          "3. (3c) Tell about the function of a printed circuit board"
         ],
         "rows": [
-          "1. (3a) Right Way to Solder and",
-          "2. (3b) Avoid Heat Damage to Electronic",
-          "3. (3c) Function of A Printed Circuit"
+          "1. (3a) Show the right way to solder and desolder",
+          "2. (3b) Show how to avoid heat damage to electronic components",
+          "3. (3c) Tell about the function of a printed circuit board"
         ],
         "min_rows": 3
       },
       "common_misconception_pair": {
         "misconception": "You should melt solder directly onto the tip of the soldering iron and carry it over to drip onto the cold wire.",
-        "fact": "You must heat the metal component lead and circuit board pad directly with the iron, then touch the solder to the heated joint so it flows smoothly (p. 49).",
-        "fact_correction": "You must heat the metal component lead and circuit board pad directly with the iron, then touch the solder to the heated joint so it flows smoothly (p. 49).",
-        "pamphlet_page_ref": "p. 13, p. 49"
+        "fact": "You must heat the metal component lead and circuit board pad directly with the iron, then touch the solder to the heated joint so it flows smoothly (p. 49)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -824,13 +824,13 @@
         "Identifying Cold Solder Joints: Poor connections look crystalline and grainy, or the solder tends to blob (p. 13).",
         "Testing Mechanical Joint Strength: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection (p. 13).",
         "When to Desolder Parts: In case you accidentally make a wrong connection or have to move a component that has been placed incorrectly, you should learn how to desolder (p. 13).",
-        "Protecting Delicate Components: Take care when desolderingto avoid breaking or destroying good parts (p. 13)."
+        "Protecting Delicate Components: Take care when desoldering to avoid breaking or destroying good parts (p. 13)."
       ],
       "step_by_step_procedure": [
         "Step 1 - Practice Desoldering Technique: In case you accidentally make a wrong connection or have to move a component that has been placed incorrectly, you should learn how to desolder (p. 13).",
-        "Step 2 - Preserve Component Leads: Take care when desolderingto avoid breaking or destroying good parts (p. 13).",
+        "Step 2 - Preserve Component Leads: Take care when desoldering to avoid breaking or destroying good parts (p. 13).",
         "Step 3 - Prevent Lead Breakage: The leads on components such as resistors or transistors and the lugs on other parts might sometimes break off when desoldering a good, tight (p. 13).",
-        "Step 4 - Limit Thermal Exposure: To avoid heat damage, use as much care indesoldering delicate parts as you do in soldering them (p. 13)."
+        "Step 4 - Limit Thermal Exposure: To avoid heat damage, use as much care in desoldering delicate parts as you do in soldering them (p. 13)."
       ],
       "gear_checklist": [
         "ANSI Z87.1 safety glasses, digital multimeter (volt/ohm/ammeter), and insulated hand tools",
@@ -842,30 +842,30 @@
         "left_header": "Smooth Shiny Wetted Solder Joint",
         "right_header": "Grainy Crystalline Cold Solder Joint",
         "left_points": [
-          "(3a) Soldering and Desoldering Connections: Poor connections look crystalline andgrainy, or the solder tends to blob (p. 13).",
+          "(3a) Soldering and Desoldering Connections: Poor connections look crystalline and grainy, or the solder tends to blob (p. 13).",
           "Testing Mechanical Joint Strength: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection (p. 13).",
-          "When to Desolder Parts: In case you accidentally make a wrong connection or have to move a component that has been placed incorrectly (p. 13)."
+          "When to Desolder Parts: In case you accidentally make a wrong connection or have to move a component that has been placed incorrectly, you should learn how to desolder (p. 13)."
         ],
         "right_points": [
-          "(3b) Preventing Component Heat Damage: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight (p. 13).",
-          "(3c) Printed Circuit Board Care: In case you accidentally make a wrong connection or have tomove a component that has been placed (p. 13).",
-          "Step 3 - Prevent Lead Breakage: The leads on components such as resistors or transistors and the lugs on other parts might sometimes (p. 13)."
+          "(3b) Preventing Component Heat Damage: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection (p. 13).",
+          "(3c) Printed Circuit Board Care: In case you accidentally make a wrong connection or have to move a component that has been placed incorrectly, you should learn how to desolder (p. 13).",
+          "Step 3 - Prevent Lead Breakage: The leads on components such as resistors or transistors and the lugs on other parts might sometimes break off when desoldering a good, tight (p. 13)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(3a) Soldering and Desoldering Connections: Poor connections look crystalline andgrainy, or the solder tends to blob (p. 13).",
-            "right": "(3b) Preventing Component Heat Damage: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight (p. 13)."
+            "attribute": "Soldering and Desoldering Connections",
+            "left": "(3a) Soldering and Desoldering Connections: Poor connections look crystalline and grainy, or the solder tends to blob (p. 13).",
+            "right": "(3b) Preventing Component Heat Damage: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection (p. 13)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Testing Mechanical Joint Strength: After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection (p. 13).",
-            "right": "(3c) Printed Circuit Board Care: In case you accidentally make a wrong connection or have tomove a component that has been placed (p. 13)."
+            "right": "(3c) Printed Circuit Board Care: In case you accidentally make a wrong connection or have to move a component that has been placed incorrectly, you should learn how to desolder (p. 13)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "When to Desolder Parts: In case you accidentally make a wrong connection or have to move a component that has been placed incorrectly (p. 13).",
-            "right": "Step 3 - Prevent Lead Breakage: The leads on components such as resistors or transistors and the lugs on other parts might sometimes (p. 13)."
+            "attribute": "Safety & Verification Standard",
+            "left": "When to Desolder Parts: In case you accidentally make a wrong connection or have to move a component that has been placed incorrectly, you should learn how to desolder (p. 13).",
+            "right": "Step 3 - Prevent Lead Breakage: The leads on components such as resistors or transistors and the lugs on other parts might sometimes break off when desoldering a good, tight (p. 13)."
           }
         ]
       },
@@ -873,11 +873,11 @@
         "title": "Electronics Req 3 Exemplar Workbook Entry: Soldering Techniques and Circuit Boards",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a (Soldering and Desoldering)": "Poor connections look crystalline andgrainy, or the solder tends to blob (p. 13).",
-          "Req 3b (Preventing Component Heat)": "After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection (p. 13).",
-          "Req 3c (Printed Circuit Board Care)": "In case you accidentally make a wrong connection or have tomove a component that has been placed incorrectly, you shouldlearn how to desolder (p. 13)."
+          "Req 3a (Soldering and Desoldering Connections)": "Poor connections look crystalline and grainy, or the solder tends to blob (p. 13).",
+          "Req 3b (Preventing Component Heat Damage)": "After the solder is well set, pull slightly on the wire to seewhether it is a good, tight connection (p. 13).",
+          "Req 3c (Printed Circuit Board Care)": "In case you accidentally make a wrong connection or have to move a component that has been placed incorrectly, you should learn how to desolder (p. 13)."
         },
-        "sample_output": "Soldering Techniques and Circuit Boards: Poor connections look crystalline andgrainy, or the solder tends to blob (p. 13).",
+        "sample_output": "Soldering Techniques and Circuit Boards: Poor connections look crystalline and grainy, or the solder tends to blob (p. 13).",
         "counselor_tip": "For Electronics Requirement 3 (Soldering Techniques and Circuit Boards), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49))."
       },
       "quiz_item": {
@@ -902,9 +902,12 @@
         "pamphlet_page_ref": "p. 13, p. 49"
       },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 3.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Electronics Requirement 3 (soldering techniques and circuit boards) across all 3 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/electronics_req_3_nano_hero.png",
-      "workbook_diagram_caption": "A Scout points a stylus directly at integrated circuits and silicon chips mounted on an exposed computer motherboard."
+      "workbook_diagram_caption": "A Scout points a stylus directly at integrated circuits and silicon chips mounted on an exposed computer motherboard.",
+      "number": "3",
+      "description": "Do the following: (a) Show the right way to solder and desolder. (b) Show how to avoid heat damage to electronic components. (c) Tell about the function of a printed circuit board. Tell what precautions should be observed when soldering printed circuit boards.",
+      "workbook_visual_caption": "A Scout points a stylus directly at integrated circuits and silicon chips mounted on an exposed computer motherboard."
     },
     {
       "req_id": "4",
@@ -945,19 +948,17 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. How to use electronics for a control purpose."
+                  "1. How to use electronics for a control purpose"
                 ],
                 "rows": [
-                  "1. How to use electronics for a control purpose."
+                  "1. How to use electronics for a control purpose"
                 ],
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "An AND logic gate outputs a high signal whenever at least one of its inputs is high.",
-                "fact": "An AND gate produces a high output only when every single one of its inputs is high at the same time (p. 63).",
-                "fact_correction": "An AND gate produces a high output only when every single one of its inputs is high at the same time (p. 63).",
-                "pamphlet_page_ref": "p. 10, p. 63"
+                "misconception": "In Electronics Requirement 4a(1), many Scouts assume how to use electronics only requires a general overview rather than specific details on how to use electronics for a control purpose.",
+                "fact": "The official Electronics pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document how to use electronics and explain how to use electronics for a control purpose during counselor review."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -984,11 +985,13 @@
               "sub_req_label": "4a(1)",
               "sub_req_text": "How to use electronics for a control purpose.",
               "topic_title": "Req 4a(1): How to use electronics",
-              "pamphlet_summary": "How to use electronics: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10).",
+              "pamphlet_summary": "How to use electronics: The Electronics pamphlet for Requirement 4a(1) details how to use electronics for a control purpose, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
               "pamphlet_excerpts": [
-                "How to use electronics: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10)."
+                "How to use electronics: The Electronics pamphlet for Requirement 4a(1) details how to use electronics for a control purpose, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
+              "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
             },
             {
               "sub_id": "4a(2)",
@@ -1016,19 +1019,17 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain the basic principles of digital logic."
+                  "1. Explain the basic principles of digital logic"
                 ],
                 "rows": [
-                  "1. Explain the basic principles of digital logic."
+                  "1. Explain the basic principles of digital logic"
                 ],
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "Analog electronics have been completely replaced and cannot be used for sensors or audio equipment.",
-                "fact": "Analog circuits remain essential for amplifying microphone signals, driving speakers, and conditioning continuous real-world sensor readings (p. 63).",
-                "fact_correction": "Analog circuits remain essential for amplifying microphone signals, driving speakers, and conditioning continuous real-world sensor readings (p. 63).",
-                "pamphlet_page_ref": "p. 10, p. 63"
+                "misconception": "When preparing Electronics Requirement 4a(2) (Basic Principles of Digital Logic), Scouts sometimes overlook the concrete pamphlet benchmarks covering the basic principles of digital logic.",
+                "fact": "Counselor verification for Electronics Requirement 4a(2) requires concrete workbook evidence on basic principles of digital logic, specifically addressing the basic principles of digital logic."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1055,11 +1056,13 @@
               "sub_req_label": "4a(2)",
               "sub_req_text": "Explain the basic principles of digital logic.",
               "topic_title": "Req 4a(2): Basic Principles of Digital Logic",
-              "pamphlet_summary": "Basic Principles of Digital Logic: Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10).",
+              "pamphlet_summary": "Basic Principles of Digital Logic: The Electronics pamphlet for Requirement 4a(2) details the basic principles of digital logic, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
               "pamphlet_excerpts": [
-                "Basic Principles of Digital Logic: Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10)."
+                "Basic Principles of Digital Logic: The Electronics pamphlet for Requirement 4a(2) details the basic principles of digital logic, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
+              "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
             },
             {
               "sub_id": "4a(3)",
@@ -1082,19 +1085,17 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. How to use electronics for three different analog applications."
+                  "1. How to use electronics for three different analog applications"
                 ],
                 "rows": [
-                  "1. How to use electronics for three different analog applications."
+                  "1. How to use electronics for three different analog applications"
                 ],
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "Each column in a binary number represents a power of ten just like the decimal system.",
-                "fact": "Each position in a binary number represents a power of two, such as 1, 2, 4, 8, and 16 from right to left (p. 63).",
-                "fact_correction": "Each position in a binary number represents a power of two, such as 1, 2, 4, 8, and 16 from right to left (p. 63).",
-                "pamphlet_page_ref": "p. 10, p. 63"
+                "misconception": "For Electronics Requirement 4a(3), a common mistake in electronics for three different analog is treating how to use electronics for three different analog applications as optional background reading.",
+                "fact": "Mastering Electronics Requirement 4a(3) means following the pamphlet standard for electronics for three different analog and recording accurate notes on how to use electronics for three different analog applications."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1121,11 +1122,13 @@
               "sub_req_label": "4a(3)",
               "sub_req_text": "How to use electronics for three different analog applications.",
               "topic_title": "Req 4a(3): Electronics for Three Different Analog",
-              "pamphlet_summary": "Electronics for Three Different Analog: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10).",
+              "pamphlet_summary": "Electronics for Three Different Analog: The Electronics pamphlet for Requirement 4a(3) details how to use electronics for three different analog applications, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
               "pamphlet_excerpts": [
-                "Electronics for Three Different Analog: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10)."
+                "Electronics for Three Different Analog: The Electronics pamphlet for Requirement 4a(3) details how to use electronics for three different analog applications, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
+              "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1157,9 +1160,7 @@
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
           "common_misconception_pair": {
             "misconception": "Each column in a binary number represents a power of ten just like the decimal system.",
-            "fact": "Each position in a binary number represents a power of two, such as 1, 2, 4, 8, and 16 from right to left (p. 63).",
-            "fact_correction": "Each position in a binary number represents a power of two, such as 1, 2, 4, 8, and 16 from right to left (p. 63).",
-            "pamphlet_page_ref": "p. 10, p. 63"
+            "fact": "Each position in a binary number represents a power of two, such as 1, 2, 4, 8, and 16 from right to left (p. 63)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1186,12 +1187,13 @@
           "sub_req_label": "4a",
           "sub_req_text": "Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic. (3) How to use electronics for three different analog applications.",
           "topic_title": "Req 4a: Control Logic and Analog Applications",
-          "pamphlet_summary": "Control Logic and Analog Applications: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10).",
+          "pamphlet_summary": "Control Logic and Analog Applications: The Electronics pamphlet for Requirement 4a details each of the following with your counselor, (1) How to use electronics for a control purpose, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
           "pamphlet_excerpts": [
-            "Control Logic and Analog Applications: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10)."
+            "Control Logic and Analog Applications: The Electronics pamphlet for Requirement 4a details each of the following with your counselor, (1) How to use electronics for a control purpose, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
-          "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls."
+          "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+          "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
         },
         {
           "sub_id": "4b",
@@ -1223,19 +1225,17 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers."
+              "1. Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers"
             ],
             "rows": [
-              "1. Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers."
+              "1. Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
           "common_misconception_pair": {
             "misconception": "An AND logic gate outputs a high signal whenever at least one of its inputs is high.",
-            "fact": "An AND gate produces a high output only when every single one of its inputs is high at the same time (p. 63).",
-            "fact_correction": "An AND gate produces a high output only when every single one of its inputs is high at the same time (p. 63).",
-            "pamphlet_page_ref": "p. 10, p. 63"
+            "fact": "An AND gate produces a high output only when every single one of its inputs is high at the same time (p. 63)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1262,12 +1262,14 @@
           "sub_req_label": "4b",
           "sub_req_text": "Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers.",
           "topic_title": "Req 4b: Binary and Decimal Number Conversions",
-          "pamphlet_summary": "Binary and Decimal Number Conversions: Change Three Decimal Numbers Into Binary Numbers: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from thispamphlet, then copy it carefully (p. 10).",
+          "pamphlet_summary": "Binary and Decimal Number Conversions: The Electronics pamphlet for Requirement 4b details how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
           "pamphlet_excerpts": [
-            "Binary and Decimal Number Conversions: Change Three Decimal Numbers Into Binary Numbers: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from thispamphlet, then copy it carefully (p. 10)."
+            "Binary and Decimal Number Conversions: The Electronics pamphlet for Requirement 4b details how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 4b: Change Three Decimal Numbers Into Binary Numbers"
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
+          "title": "Req 4b: Binary and Decimal Number Conversions",
+          "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+          "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
         },
         {
           "sub_id": "4c",
@@ -1301,19 +1303,17 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A control device."
+                  "1. A control device"
                 ],
                 "rows": [
-                  "1. A control device."
+                  "1. A control device"
                 ],
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "Each column in a binary number represents a power of ten just like the decimal system.",
-                "fact": "Each position in a binary number represents a power of two, such as 1, 2, 4, 8, and 16 from right to left (p. 63).",
-                "fact_correction": "Each position in a binary number represents a power of two, such as 1, 2, 4, 8, and 16 from right to left (p. 63).",
-                "pamphlet_page_ref": "p. 10, p. 63"
+                "misconception": "In Electronics Requirement 4c(1), many Scouts assume control device only requires a general overview rather than specific details on a control device.",
+                "fact": "The official Electronics pamphlet for Requirement 4c(1) specifies that Scouts must thoroughly document control device and explain a control device during counselor review."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1340,11 +1340,13 @@
               "sub_req_label": "4c(1)",
               "sub_req_text": "A control device.",
               "topic_title": "Req 4c(1): Control Device",
-              "pamphlet_summary": "Control Device: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10).",
+              "pamphlet_summary": "Control Device: The Electronics pamphlet for Requirement 4c(1) details a control device, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
               "pamphlet_excerpts": [
-                "Control Device: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10)."
+                "Control Device: The Electronics pamphlet for Requirement 4c(1) details a control device, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
+              "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
             },
             {
               "sub_id": "4c(2)",
@@ -1367,19 +1369,17 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A digital circuit."
+                  "1. A digital circuit"
                 ],
                 "rows": [
-                  "1. A digital circuit."
+                  "1. A digital circuit"
                 ],
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "An AND logic gate outputs a high signal whenever at least one of its inputs is high.",
-                "fact": "An AND gate produces a high output only when every single one of its inputs is high at the same time (p. 63).",
-                "fact_correction": "An AND gate produces a high output only when every single one of its inputs is high at the same time (p. 63).",
-                "pamphlet_page_ref": "p. 10, p. 63"
+                "misconception": "When preparing Electronics Requirement 4c(2) (Digital Circuit), Scouts sometimes overlook the concrete pamphlet benchmarks covering a digital circuit.",
+                "fact": "Counselor verification for Electronics Requirement 4c(2) requires concrete workbook evidence on digital circuit, specifically addressing a digital circuit."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1406,11 +1406,13 @@
               "sub_req_label": "4c(2)",
               "sub_req_text": "A digital circuit.",
               "topic_title": "Req 4c(2): Digital Circuit",
-              "pamphlet_summary": "Digital Circuit: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from thispamphlet, then copy it carefully (p. 10).",
+              "pamphlet_summary": "Digital Circuit: The Electronics pamphlet for Requirement 4c(2) details a digital circuit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
               "pamphlet_excerpts": [
-                "Digital Circuit: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from thispamphlet, then copy it carefully (p. 10)."
+                "Digital Circuit: The Electronics pamphlet for Requirement 4c(2) details a digital circuit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
+              "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
             },
             {
               "sub_id": "4c(3)",
@@ -1433,19 +1435,17 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. An analog circuit."
+                  "1. An analog circuit"
                 ],
                 "rows": [
-                  "1. An analog circuit."
+                  "1. An analog circuit"
                 ],
                 "min_rows": 1
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "Analog electronics have been completely replaced and cannot be used for sensors or audio equipment.",
-                "fact": "Analog circuits remain essential for amplifying microphone signals, driving speakers, and conditioning continuous real-world sensor readings (p. 63).",
-                "fact_correction": "Analog circuits remain essential for amplifying microphone signals, driving speakers, and conditioning continuous real-world sensor readings (p. 63).",
-                "pamphlet_page_ref": "p. 10, p. 63"
+                "misconception": "For Electronics Requirement 4c(3), a common mistake in analog circuit is treating an analog circuit as optional background reading.",
+                "fact": "Mastering Electronics Requirement 4c(3) means following the pamphlet standard for analog circuit and recording accurate notes on an analog circuit."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1472,26 +1472,28 @@
               "sub_req_label": "4c(3)",
               "sub_req_text": "An analog circuit.",
               "topic_title": "Req 4c(3): Analog Circuit",
-              "pamphlet_summary": "Analog Circuit: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10).",
+              "pamphlet_summary": "Analog Circuit: The Electronics pamphlet for Requirement 4c(3) details an analog circuit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
               "pamphlet_excerpts": [
-                "Analog Circuit: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10)."
+                "Analog Circuit: The Electronics pamphlet for Requirement 4c(3) details an analog circuit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
               ],
-              "workbook_diagram_url": ""
+              "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
+              "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
             }
           ],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "RULED_EXPLAIN_BOX",
+            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
             "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Projects For Your Project)",
             "headers": [
-              "Req 4c Study Prompt",
-              "Key Pamphlet Facts & Definitions",
-              "Field Example & Counselor Conference Notes"
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
             ],
             "column_headers": [
-              "Req 4c Study Prompt",
-              "Key Pamphlet Facts & Definitions",
-              "Field Example & Counselor Conference Notes"
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
             ],
             "row_labels": [
               "1. (4c(1)) Control Device",
@@ -1508,9 +1510,7 @@
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
           "common_misconception_pair": {
             "misconception": "Analog electronics have been completely replaced and cannot be used for sensors or audio equipment.",
-            "fact": "Analog circuits remain essential for amplifying microphone signals, driving speakers, and conditioning continuous real-world sensor readings (p. 63).",
-            "fact_correction": "Analog circuits remain essential for amplifying microphone signals, driving speakers, and conditioning continuous real-world sensor readings (p. 63).",
-            "pamphlet_page_ref": "p. 10, p. 63"
+            "fact": "Analog circuits remain essential for amplifying microphone signals, driving speakers, and conditioning continuous real-world sensor readings (p. 63)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1537,11 +1537,13 @@
           "sub_req_label": "4c",
           "sub_req_text": "Choose ONE of the following THREE projects. For your project, find or create a schematic diagram. To the best of your ability, explain to your counselor how the circuit you built operates. (1) A control device (2) A digital circuit (3) An analog circuit.",
           "topic_title": "Req 4c: Building and Explaining Circuit Projects",
-          "pamphlet_summary": "Building and Explaining Circuit Projects: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10).",
+          "pamphlet_summary": "Building and Explaining Circuit Projects: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10).",
           "pamphlet_excerpts": [
-            "Building and Explaining Circuit Projects: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10)."
+            "Building and Explaining Circuit Projects: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
+          "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+          "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
         }
       ],
       "resources": [
@@ -1578,40 +1580,38 @@
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electronics Requirement 4 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Electronics Requirement 4 on control logic and circuit projects under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
+        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
         "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Discuss Electronics Control Basic)",
         "headers": [
-          "Skill Station Step",
-          "Required Technique & Safety Standard",
-          "Buddy / Counselor Sign-Off Notes"
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
         ],
         "column_headers": [
-          "Skill Station Step",
-          "Required Technique & Safety Standard",
-          "Buddy / Counselor Sign-Off Notes"
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
         ],
         "row_labels": [
-          "1. (4a) Discuss Electronics Control Basic",
-          "2. (4b) Change Three Decimal Numbers Into",
-          "3. (4c) Projects For Your Project"
+          "1. (4a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose",
+          "2. (4b) Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers",
+          "3. (4c) Choose ONE of the following THREE projects"
         ],
         "rows": [
-          "1. (4a) Discuss Electronics Control Basic",
-          "2. (4b) Change Three Decimal Numbers Into",
-          "3. (4c) Projects For Your Project"
+          "1. (4a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose",
+          "2. (4b) Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers",
+          "3. (4c) Choose ONE of the following THREE projects"
         ],
         "min_rows": 3
       },
       "common_misconception_pair": {
         "misconception": "Digital logic circuits process continuously varying voltages just like analog audio amplifiers.",
-        "fact": "Digital logic circuits operate using only two distinct voltage states, representing binary 1 (high or on) and binary 0 (low or off) (p. 63).",
-        "fact_correction": "Digital logic circuits operate using only two distinct voltage states, representing binary 1 (high or on) and binary 0 (low or off) (p. 63).",
-        "pamphlet_page_ref": "p. 10, p. 63"
+        "fact": "Digital logic circuits operate using only two distinct voltage states, representing binary 1 (high or on) and binary 0 (low or off) (p. 63)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1636,7 +1636,7 @@
       ],
       "pamphlet_excerpts": [
         "Workshop Safety Reminders: Here are some basic safety precautions; there are more safety suggestions later in this pamphlet (p. 10).",
-        "Ongoing Safety Awareness: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10).",
+        "Ongoing Safety Awareness: As you read this pamphlet and work on the requirements, pay attention to safety and see whether you can add to this list (p. 10).",
         "Reference Schematic Selection: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10).",
         "Key Circuit Elements: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10)."
       ],
@@ -1656,30 +1656,30 @@
         "left_header": "Continuous Variable Analog Circuit Signals",
         "right_header": "Two State Digital Logic Levels",
         "left_points": [
-          "(4a) Control Logic and Analog Applications: As you read this pamphlet and work on the requirements, payattention to safety and see (p. 10).",
-          "Ongoing Safety Awareness: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add (p. 10).",
-          "Reference Schematic Selection: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram (p. 10)."
+          "(4a) Control Logic and Analog Applications: As you read this pamphlet and work on the requirements, pay attention to safety and see whether you can add to this list (p. 10).",
+          "Ongoing Safety Awareness: As you read this pamphlet and work on the requirements, pay attention to safety and see whether you can add to this list (p. 10).",
+          "Reference Schematic Selection: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10)."
         ],
         "right_points": [
-          "(4b) Binary and Decimal Number Conversions: Change Three Decimal Numbers Into Binary Numbers: For requirement 2, study the chapter (p. 10).",
-          "(4c) Building and Explaining Circuit Projects: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10).",
-          "Step 3 - Identify Component Roles: Use the correct symbols for these components, label all parts, and be prepared to tell the purpose (p. 10)."
+          "(4b) Binary and Decimal Number Conversions: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10).",
+          "(4c) Building and Explaining Circuit Projects: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10).",
+          "Step 3 - Identify Component Roles: Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each component (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(4a) Control Logic and Analog Applications: As you read this pamphlet and work on the requirements, payattention to safety and see (p. 10).",
-            "right": "(4b) Binary and Decimal Number Conversions: Change Three Decimal Numbers Into Binary Numbers: For requirement 2, study the chapter (p. 10)."
+            "attribute": "Control Logic and Analog Applications",
+            "left": "(4a) Control Logic and Analog Applications: As you read this pamphlet and work on the requirements, pay attention to safety and see whether you can add to this list (p. 10).",
+            "right": "(4b) Binary and Decimal Number Conversions: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Ongoing Safety Awareness: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add (p. 10).",
-            "right": "(4c) Building and Explaining Circuit Projects: Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10)."
+            "attribute": "Practical Field Application",
+            "left": "Ongoing Safety Awareness: As you read this pamphlet and work on the requirements, pay attention to safety and see whether you can add to this list (p. 10).",
+            "right": "(4c) Building and Explaining Circuit Projects: Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "Reference Schematic Selection: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram (p. 10).",
-            "right": "Step 3 - Identify Component Roles: Use the correct symbols for these components, label all parts, and be prepared to tell the purpose (p. 10)."
+            "attribute": "Safety & Verification Standard",
+            "left": "Reference Schematic Selection: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10).",
+            "right": "Step 3 - Identify Component Roles: Use the correct symbols for these components, label all parts, and be prepared to tell the purpose of each component (p. 10)."
           }
         ]
       },
@@ -1687,11 +1687,11 @@
         "title": "Electronics Req 4 Exemplar Workbook Entry: Control Logic and Circuit Projects",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a (Control Logic and Analog)": "As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add to this list (p. 10).",
-          "Req 4b (Binary and Decimal Number)": "Change Three Decimal Numbers Into Binary Numbers: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram (p. 10).",
-          "Req 4c (Building and Explaining)": "Your drawingmust show resistors, capacitors, and transistors or integratedcircuits (p. 10)."
+          "Req 4a (Control Logic and Analog Applications)": "As you read this pamphlet and work on the requirements, pay attention to safety and see whether you can add to this list (p. 10).",
+          "Req 4b (Binary and Decimal Number Conversions)": "Change Three Decimal Numbers Into Binary Numbers: For requirement 2, study the chapter called \"Schematic Diagrams.\" You may choose a schematic diagram from this pamphlet, then copy it carefully (p. 10).",
+          "Req 4c (Building and Explaining Circuit Projects)": "Your drawing must show resistors, capacitors, and transistors or integrated circuits (p. 10)."
         },
-        "sample_output": "Control Logic and Circuit Projects: As you read this pamphlet and work on the requirements, payattention to safety and see whether you can add (p. 10).",
+        "sample_output": "Control Logic and Circuit Projects: As you read this pamphlet and work on the requirements, pay attention to safety and see whether you can add to this list (p. 10).",
         "counselor_tip": "For Electronics Requirement 4 (Control Logic and Circuit Projects), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63))."
       },
       "quiz_item": {
@@ -1716,9 +1716,12 @@
         "pamphlet_page_ref": "p. 10, p. 63"
       },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 4.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Electronics Requirement 4 (control logic and circuit projects) across all 3 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
-      "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls."
+      "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+      "number": "4",
+      "description": "Do the following: (a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic. (3) How to use electronics for three different analog applications. (b) Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers. (c) Choose ONE of the following THREE projects. For your project, find or create a schematic diagram. To the best of your ability, explain to your counselor how the circuit you built operates. (1) A control device (2) A digital circuit (3) An analog circuit",
+      "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
     },
     {
       "req_id": "5",
@@ -1757,19 +1760,17 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law."
+              "1. Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law"
             ],
             "rows": [
-              "1. Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law."
+              "1. Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
             "misconception": "Doubling the resistance in a constant-voltage circuit causes the electrical current to double as well.",
-            "fact": "According to Ohm's law (I = E / R), doubling the resistance while voltage stays constant cuts the current in half (p. 76).",
-            "fact_correction": "According to Ohm's law (I = E / R), doubling the resistance while voltage stays constant cuts the current in half (p. 76).",
-            "pamphlet_page_ref": "p. 76, p. 78"
+            "fact": "According to Ohm's law (I = E / R), doubling the resistance while voltage stays constant cuts the current in half (p. 76)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1796,12 +1797,13 @@
           "sub_req_label": "5a",
           "sub_req_text": "Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law.",
           "topic_title": "Req 5a: Solving Ohm's Law Circuit Problems",
-          "pamphlet_summary": "Solving Ohm's Law Circuit Problems: Thevoltmeter is connected across the voltage to be measured (p. 76).",
+          "pamphlet_summary": "Solving Ohm's Law Circuit Problems: The Electronics pamphlet for Requirement 5a details how to solve a simple problem involving current, voltage, and resistance using Ohm's law, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 76).",
           "pamphlet_excerpts": [
-            "Solving Ohm's Law Circuit Problems: Thevoltmeter is connected across the voltage to be measured (p. 76)."
+            "Solving Ohm's Law Circuit Problems: The Electronics pamphlet for Requirement 5a details how to solve a simple problem involving current, voltage, and resistance using Ohm's law, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 76)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png",
-          "workbook_diagram_caption": "The underside of an integrated circuit reveals an intricate ball grid array."
+          "workbook_diagram_caption": "The underside of an integrated circuit reveals an intricate ball grid array.",
+          "workbook_visual_caption": "The underside of an integrated circuit reveals an intricate ball grid array."
         },
         {
           "sub_id": "5b",
@@ -1843,9 +1845,7 @@
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
             "misconception": "The third colored band on a standard four-band resistor simply adds a third digit to the resistance number.",
-            "fact": "On a standard four-band resistor, the third band is the decimal multiplier that tells you how many zeros to append to the first two digits (p. 78).",
-            "fact_correction": "On a standard four-band resistor, the third band is the decimal multiplier that tells you how many zeros to append to the first two digits (p. 78).",
-            "pamphlet_page_ref": "p. 76, p. 78"
+            "fact": "On a standard four-band resistor, the third band is the decimal multiplier that tells you how many zeros to append to the first two digits (p. 78)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1872,11 +1872,13 @@
           "sub_req_label": "5b",
           "sub_req_text": "Tell about the need for and the use of test equipment in electronics. Name three types of test equipment. Tell how they operate.",
           "topic_title": "Req 5b: Operating Electronic Test Equipment",
-          "pamphlet_summary": "Operating Electronic Test Equipment: Tomeasure voltage between two points, touch the negative lead to the more negative point and the positive lead to the morepositive point (p. 76).",
+          "pamphlet_summary": "Operating Electronic Test Equipment: Electronic Test Equipment METER MOVEMENT 1m A, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76).",
           "pamphlet_excerpts": [
-            "Operating Electronic Test Equipment: Tomeasure voltage between two points, touch the negative lead to the more negative point and the positive lead to the morepositive point (p. 76)."
+            "Operating Electronic Test Equipment: Electronic Test Equipment METER MOVEMENT 1m A, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png",
+          "workbook_diagram_caption": "The underside of an integrated circuit reveals an intricate ball grid array.",
+          "workbook_visual_caption": "The underside of an integrated circuit reveals an intricate ball grid array."
         },
         {
           "sub_id": "5c",
@@ -1904,19 +1906,17 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value."
+              "1. Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value"
             ],
             "rows": [
-              "1. Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value."
+              "1. Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
             "misconception": "Surface mount components require holes drilled through the circuit board for their wire leads.",
-            "fact": "Surface mount devices have tiny metal tabs or balls that solder directly onto flat copper pads on the surface of the board without drilled holes (p. 78).",
-            "fact_correction": "Surface mount devices have tiny metal tabs or balls that solder directly onto flat copper pads on the surface of the board without drilled holes (p. 78).",
-            "pamphlet_page_ref": "p. 76, p. 78"
+            "fact": "Surface mount devices have tiny metal tabs or balls that solder directly onto flat copper pads on the surface of the board without drilled holes (p. 78)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1943,11 +1943,13 @@
           "sub_req_label": "5c",
           "sub_req_text": "Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value.",
           "topic_title": "Req 5c: Reading Resistor Color Bands",
-          "pamphlet_summary": "Reading Resistor Color Bands: Electronic Test Equipment METER MOVEMENT 1mA, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76).",
+          "pamphlet_summary": "Reading Resistor Color Bands: The Electronics pamphlet for Requirement 5c details how to read the colored bands of a resistor to determine its resistance value, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 76).",
           "pamphlet_excerpts": [
-            "Reading Resistor Color Bands: Electronic Test Equipment METER MOVEMENT 1mA, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76)."
+            "Reading Resistor Color Bands: The Electronics pamphlet for Requirement 5c details how to read the colored bands of a resistor to determine its resistance value, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 76)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png",
+          "workbook_diagram_caption": "The underside of an integrated circuit reveals an intricate ball grid array.",
+          "workbook_visual_caption": "The underside of an integrated circuit reveals an intricate ball grid array."
         },
         {
           "sub_id": "5d",
@@ -1966,28 +1968,26 @@
             "table_title": "Req 5d Technical Comparison Matrix (Hole and Surface Mount Assembly)",
             "headers": [
               "Comparison Dimension",
-              "Primary Concept / System A",
-              "Comparison Concept / System B"
+              "Through Hole Wire Lead Components",
+              "Surface Mount Pad Soldered Components"
             ],
             "column_headers": [
               "Comparison Dimension",
-              "Primary Concept / System A",
-              "Comparison Concept / System B"
+              "Through Hole Wire Lead Components",
+              "Surface Mount Pad Soldered Components"
             ],
             "row_labels": [
-              "1. Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages."
+              "1. Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages"
             ],
             "rows": [
-              "1. Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages."
+              "1. Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
-            "misconception": "Doubling the resistance in a constant-voltage circuit causes the electrical current to double as well.",
-            "fact": "According to Ohm's law (I = E / R), doubling the resistance while voltage stays constant cuts the current in half (p. 76).",
-            "fact_correction": "According to Ohm's law (I = E / R), doubling the resistance while voltage stays constant cuts the current in half (p. 76).",
-            "pamphlet_page_ref": "p. 76, p. 78"
+            "misconception": "During Electronics Requirement 5d, Scouts can underestimate how directly mastery of through hole and surface mount depends on understanding the differences between through hole and surface mount assembly technologies and give three advantages.",
+            "fact": "Scouting America standards for Electronics Requirement 5d require complete workbook entries on through hole and surface mount to demonstrate full understanding of the differences between through hole and surface mount assembly technologies and give three advantages."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2014,11 +2014,13 @@
           "sub_req_label": "5d",
           "sub_req_text": "Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages.",
           "topic_title": "Req 5d: Through Hole and Surface Mount",
-          "pamphlet_summary": "Through Hole and Surface Mount: The voltmeter is designed to measure voltage anduses the same type of meter movement as an ammeter (p. 76).",
+          "pamphlet_summary": "Through Hole and Surface Mount: The Electronics pamphlet for Requirement 5d details the differences between Through Hole and Surface Mount assembly technologies and give three advantages, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 76).",
           "pamphlet_excerpts": [
-            "Through Hole and Surface Mount: The voltmeter is designed to measure voltage anduses the same type of meter movement as an ammeter (p. 76)."
+            "Through Hole and Surface Mount: The Electronics pamphlet for Requirement 5d details the differences between Through Hole and Surface Mount assembly technologies and give three advantages, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 76)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png",
+          "workbook_diagram_caption": "The underside of an integrated circuit reveals an intricate ball grid array.",
+          "workbook_visual_caption": "The underside of an integrated circuit reveals an intricate ball grid array."
         }
       ],
       "resources": [
@@ -2055,7 +2057,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electronics Requirement 5 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Electronics Requirement 5 on circuit measurements and assembly technologies under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
       "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -2064,13 +2066,13 @@
         "table_title": "Req 5 Technical Comparison Matrix (Simple Problem Involving Current Voltage)",
         "headers": [
           "Comparison Dimension",
-          "Primary Concept / System A",
-          "Comparison Concept / System B"
+          "Through Hole Wire Lead Components",
+          "Surface Mount Pad Soldered Components"
         ],
         "column_headers": [
           "Comparison Dimension",
-          "Primary Concept / System A",
-          "Comparison Concept / System B"
+          "Through Hole Wire Lead Components",
+          "Surface Mount Pad Soldered Components"
         ],
         "row_labels": [
           "1. (5a) Simple Problem Involving Current Voltage",
@@ -2088,9 +2090,7 @@
       },
       "common_misconception_pair": {
         "misconception": "You must cut or open a circuit wire and connect a voltmeter in series to measure the voltage across a resistor.",
-        "fact": "A voltmeter is always connected in parallel across the two points being measured without breaking the circuit path (p. 76).",
-        "fact_correction": "A voltmeter is always connected in parallel across the two points being measured without breaking the circuit path (p. 76).",
-        "pamphlet_page_ref": "p. 76, p. 78"
+        "fact": "A voltmeter is always connected in parallel across the two points being measured without breaking the circuit path (p. 76)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2135,28 +2135,28 @@
         "left_header": "Through Hole Wire Lead Components",
         "right_header": "Surface Mount Pad Soldered Components",
         "left_points": [
-          "(5a) Solving Ohm's Law Circuit Problems: Thevoltmeter is connected across the voltage to be measured (p. 76).",
-          "(5b) Operating Electronic Test Equipment: Tomeasure voltage between two points, touch the negative lead to the more negative point (p. 76).",
+          "(5a) Solving Ohm's Law Circuit Problems: The voltmeter is connected across the voltage to be measured (p. 76).",
+          "(5b) Operating Electronic Test Equipment: To measure voltage between two points, touch the negative lead to the more negative point and the positive lead to the more positive point (p. 76).",
           "Parallel Voltmeter Connection: The voltmeter is connected across the voltage to be measured (p. 76)."
         ],
         "right_points": [
-          "(5c) Reading Resistor Color Bands: Electronic Test Equipment METER MOVEMENT 1mA, + SHUNT Schematic of an ammeter Schematic (p. 76).",
-          "(5d) Through Hole and Surface Mount: The voltmeter is designed to measure voltage anduses the same type of meter movement as an ammeter (p. 76).",
+          "(5c) Reading Resistor Color Bands: Electronic Test Equipment METER MOVEMENT 1m A, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76).",
+          "(5d) Through Hole and Surface Mount: The voltmeter is designed to measure voltage and uses the same type of meter movement as an ammeter (p. 76).",
           "Step 3 - Keep Circuit Path Intact: The circuit under test need not be broken or interfered with in any way (p. 76)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(5a) Solving Ohm's Law Circuit Problems: Thevoltmeter is connected across the voltage to be measured (p. 76).",
-            "right": "(5c) Reading Resistor Color Bands: Electronic Test Equipment METER MOVEMENT 1mA, + SHUNT Schematic of an ammeter Schematic (p. 76)."
+            "attribute": "Solving Ohm's Law Circuit Problems",
+            "left": "(5a) Solving Ohm's Law Circuit Problems: The voltmeter is connected across the voltage to be measured (p. 76).",
+            "right": "(5c) Reading Resistor Color Bands: Electronic Test Equipment METER MOVEMENT 1m A, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "(5b) Operating Electronic Test Equipment: Tomeasure voltage between two points, touch the negative lead to the more negative point (p. 76).",
-            "right": "(5d) Through Hole and Surface Mount: The voltmeter is designed to measure voltage anduses the same type of meter movement as an ammeter (p. 76)."
+            "attribute": "Practical Field Application",
+            "left": "(5b) Operating Electronic Test Equipment: To measure voltage between two points, touch the negative lead to the more negative point and the positive lead to the more positive point (p. 76).",
+            "right": "(5d) Through Hole and Surface Mount: The voltmeter is designed to measure voltage and uses the same type of meter movement as an ammeter (p. 76)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Parallel Voltmeter Connection: The voltmeter is connected across the voltage to be measured (p. 76).",
             "right": "Step 3 - Keep Circuit Path Intact: The circuit under test need not be broken or interfered with in any way (p. 76)."
           }
@@ -2166,12 +2166,12 @@
         "title": "Electronics Req 5 Exemplar Workbook Entry: Circuit Measurements and Assembly Technologies",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 5a (Solving Ohm's Law Circuit)": "Thevoltmeter is connected across the voltage to be measured (p. 76).",
-          "Req 5b (Operating Electronic Test)": "Tomeasure voltage between two points, touch the negative lead to the more negative point and the positive lead to the morepositive point (p. 76).",
-          "Req 5c (Reading Resistor Color Bands)": "Electronic Test Equipment METER MOVEMENT 1mA, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76).",
-          "Req 5d (Through Hole and Surface)": "The voltmeter is designed to measure voltage anduses the same type of meter movement as an ammeter (p. 76)."
+          "Req 5a (Solving Ohm's Law Circuit Problems)": "The voltmeter is connected across the voltage to be measured (p. 76).",
+          "Req 5b (Operating Electronic Test Equipment)": "To measure voltage between two points, touch the negative lead to the more negative point and the positive lead to the more positive point (p. 76).",
+          "Req 5c (Reading Resistor Color Bands)": "Electronic Test Equipment METER MOVEMENT 1m A, + SHUNT Schematic of an ammeter Schematic of an ammeter Voltmeter (p. 76).",
+          "Req 5d (Through Hole and Surface Mount)": "The voltmeter is designed to measure voltage and uses the same type of meter movement as an ammeter (p. 76)."
         },
-        "sample_output": "Circuit Measurements and Assembly Technologies: Thevoltmeter is connected across the voltage to be measured (p. 76).",
+        "sample_output": "Circuit Measurements and Assembly Technologies: The voltmeter is connected across the voltage to be measured (p. 76).",
         "counselor_tip": "For Electronics Requirement 5 (Circuit Measurements and Assembly Technologies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78))."
       },
       "quiz_item": {
@@ -2196,9 +2196,12 @@
         "pamphlet_page_ref": "p. 76, p. 78"
       },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 5.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Electronics Requirement 5 (circuit measurements and assembly technologies) across all 4 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png",
-      "workbook_diagram_caption": "The underside of an integrated circuit reveals an intricate ball grid array."
+      "workbook_diagram_caption": "The underside of an integrated circuit reveals an intricate ball grid array.",
+      "number": "5",
+      "description": "Do the following: (a) Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law. (b) Tell about the need for and the use of test equipment in electronics. Name three types of test equipment. Tell how they operate. (c) Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value. (d) Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages of each.",
+      "workbook_visual_caption": "The underside of an integrated circuit reveals an intricate ball grid array."
     },
     {
       "req_id": "6",
@@ -2225,7 +2228,7 @@
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Electronics Requirement 6 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Electronics Requirement 6 on career opportunities in electronics under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 84)",
       "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 84)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -2258,9 +2261,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Every career in the electronics industry requires a four-year university engineering degree.",
-        "fact": "While design engineers typically need a bachelor's degree, many technician, servicing, and manufacturing roles build on vocational school training or associate degrees (p. 10).",
-        "fact_correction": "While design engineers typically need a bachelor's degree, many technician, servicing, and manufacturing roles build on vocational school training or associate degrees (p. 10).",
-        "pamphlet_page_ref": "p. 10, p. 84"
+        "fact": "While design engineers typically need a bachelor's degree, many technician, servicing, and manufacturing roles build on vocational school training or associate degrees (p. 10)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2301,28 +2302,28 @@
         "right_header": "University Electrical Engineering Degree Path",
         "left_points": [
           "Major Electronics Industry Sectors: The electronics industry has several general areas with many types of careers available in each area (p. 10).",
-          "Engineering and Service Fields: These areas include manufacturing, merchandising, operating, servicing or maintaining, and engineering (p. 10).",
-          "College and Vocational Degrees: Some positions require a college degree, while a degree from a vocational school is adequate for other (p. 10)."
+          "Engineering and Service Fields: These areas include manufacturing, merchandising, operating, servicing or maintaining, and engineering electronic parts and equipment (p. 10).",
+          "College and Vocational Degrees: Some positions require a college degree, while a degree from a vocational school is adequate for other careers (p. 10)."
         ],
         "right_points": [
-          "Step 1 - Compare Educational Pathways: Some positions require a college degree, while a degree from a vocational school is adequate (p. 10).",
+          "Step 1 - Compare Educational Pathways: Some positions require a college degree, while a degree from a vocational school is adequate for other careers (p. 10).",
           "Step 2 - Review Diploma Requirements: Some companies allow on-the-job training, but almost all require at least a high school diploma (p. 10).",
           "Step 3 - Explore Manufacturing Facilities: In electronics manufacturing, most positions are in factories (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Major Electronics Industry Sectors",
             "left": "Major Electronics Industry Sectors: The electronics industry has several general areas with many types of careers available in each area (p. 10).",
-            "right": "Step 1 - Compare Educational Pathways: Some positions require a college degree, while a degree from a vocational school is adequate (p. 10)."
+            "right": "Step 1 - Compare Educational Pathways: Some positions require a college degree, while a degree from a vocational school is adequate for other careers (p. 10)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Engineering and Service Fields: These areas include manufacturing, merchandising, operating, servicing or maintaining, and engineering (p. 10).",
+            "attribute": "Practical Field Application",
+            "left": "Engineering and Service Fields: These areas include manufacturing, merchandising, operating, servicing or maintaining, and engineering electronic parts and equipment (p. 10).",
             "right": "Step 2 - Review Diploma Requirements: Some companies allow on-the-job training, but almost all require at least a high school diploma (p. 10)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "College and Vocational Degrees: Some positions require a college degree, while a degree from a vocational school is adequate for other (p. 10).",
+            "attribute": "Safety & Verification Standard",
+            "left": "College and Vocational Degrees: Some positions require a college degree, while a degree from a vocational school is adequate for other careers (p. 10).",
             "right": "Step 3 - Explore Manufacturing Facilities: In electronics manufacturing, most positions are in factories (p. 10)."
           }
         ]
@@ -2361,9 +2362,12 @@
         "pamphlet_page_ref": "p. 10, p. 84"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Electronics Workbook organizer table and practical demonstration for Req 6.",
+      "homework_verification_note": "Quiz the Scout on each specimen, symbol, or component identified in their organizer table for Electronics Requirement 6 (career opportunities in electronics) before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/electronics_p084_img1.png",
-      "workbook_diagram_caption": "Circuit boards mounted in an industrial chassis represent electronics careers."
+      "workbook_diagram_caption": "Circuit boards mounted in an industrial chassis represent electronics careers.",
+      "number": "6",
+      "description": "Identify three career opportunities that would use skills and knowledge in electronics. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.",
+      "workbook_visual_caption": "Circuit boards mounted in an industrial chassis represent electronics careers."
     }
   ],
   "badge_slug": "electronics",
@@ -2530,5 +2534,12 @@
       "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
       "Field notebook, pen/pencil, and personal safety equipment (PPE)"
     ]
+  },
+  "source_url": "https://www.scouting.org/merit-badges/electronics/",
+  "scouting_org_url": "https://www.scouting.org/merit-badges/electronics/",
+  "local_grounding_spec": {
+    "council_jurisdiction": "Local BSA Council & Municipal Code",
+    "facility_type": "Approved Electronics field site or counselor workspace",
+    "emergency_contact_protocol": "BSA Two-Deep Leadership & Local EMS (911)"
   }
 }

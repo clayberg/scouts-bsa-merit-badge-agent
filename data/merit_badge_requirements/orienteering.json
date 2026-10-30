@@ -49,7 +49,7 @@
       "action_verb": "Show",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 1 activities.",
+      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Orienteering Requirement 1: travel with a buddy, carry the Scout Basic Essentials and water while studying first aid and injury prevention, and respect wildlife distance and Leave No Trace guidelines.",
       "pamphlet_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)",
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -67,20 +67,18 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, scratches, blisters,...",
-          "2. Explain to your counselor why you should be able to identify poisonous plants and poisonous animals that are found in your area."
+          "1. Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, scratches, blisters, snakebite, insect stings, tick",
+          "2. Explain to your counselor why you should be able to identify poisonous plants and poisonous animals that are found in your area"
         ],
         "rows": [
-          "1. Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, scratches, blisters,...",
-          "2. Explain to your counselor why you should be able to identify poisonous plants and poisonous animals that are found in your area."
+          "1. Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, scratches, blisters, snakebite, insect stings, tick",
+          "2. Explain to your counselor why you should be able to identify poisonous plants and poisonous animals that are found in your area"
         ],
         "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Dehydration is only a serious threat when running an orienteering course in hot summer weather.",
-        "fact": "Both hot weather and cold weather can lead to dehydration during the physical exertion of an orienteering course (p. 66).",
-        "fact_correction": "Both hot weather and cold weather can lead to dehydration during the physical exertion of an orienteering course (p. 66).",
-        "pamphlet_page_ref": "p. 66, p. 71"
+        "fact": "Both hot weather and cold weather can lead to dehydration during the physical exertion of an orienteering course (p. 66)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -112,7 +110,7 @@
       "step_by_step_procedure": [
         "Step 1 - Watch for Trail Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66).",
         "Step 2 - Review Common Injury Treatments: Before going out, spend a fewminutes reviewing possible injuries and their treatment (p. 66).",
-        "Step 3 - Maintain Fitness and Rest: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit before going out on an orienteeringcourse (p. 66).",
+        "Step 3 - Maintain Fitness and Rest: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit before going out on an orienteering course (p. 66).",
         "Step 4 - Eat Well Before Competing: A normal night's sleep and healthy meals will help you endure the rigors of the course and decrease the possibility of a physical or mental slip (p. 66)."
       ],
       "gear_checklist": [
@@ -125,30 +123,30 @@
         "left_header": "Hot Weather Heat Illnesses",
         "right_header": "Cold Weather Hypothermia Risks",
         "left_points": [
-          "Rugged Terrain Physical Demands: Orienteering is a physically demanding activity that takes place over several kilometers of very mixed (p. 66).",
-          "Weather Related Health Risks: Hot weather may result in sunburn, heatstroke, heat exhaustion, and dehydration, while cold weather can (p. 66).",
+          "Rugged Terrain Physical Demands: Orienteering is a physically demanding activity that takes place over several kilometers of very mixed and often rugged terrain (p. 66).",
+          "Weather Related Health Risks: Hot weather may result in sunburn, heatstroke, heat exhaustion, and dehydration, while cold weather can lead to hypothermia and dehydration (p. 66).",
           "Wildlife and Plant Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66)."
         ],
         "right_points": [
           "Step 1 - Watch for Trail Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66).",
           "Step 2 - Review Common Injury Treatments: Before going out, spend a fewminutes reviewing possible injuries and their treatment (p. 66).",
-          "Step 3 - Maintain Fitness and Rest: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit (p. 66)."
+          "Step 3 - Maintain Fitness and Rest: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit before going out on an orienteering course (p. 66)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "Rugged Terrain Physical Demands: Orienteering is a physically demanding activity that takes place over several kilometers of very mixed (p. 66).",
+            "attribute": "Rugged Terrain Physical Demands",
+            "left": "Rugged Terrain Physical Demands: Orienteering is a physically demanding activity that takes place over several kilometers of very mixed and often rugged terrain (p. 66).",
             "right": "Step 1 - Watch for Trail Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Weather Related Health Risks: Hot weather may result in sunburn, heatstroke, heat exhaustion, and dehydration, while cold weather can (p. 66).",
+            "attribute": "Practical Field Application",
+            "left": "Weather Related Health Risks: Hot weather may result in sunburn, heatstroke, heat exhaustion, and dehydration, while cold weather can lead to hypothermia and dehydration (p. 66).",
             "right": "Step 2 - Review Common Injury Treatments: Before going out, spend a fewminutes reviewing possible injuries and their treatment (p. 66)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Wildlife and Plant Hazards: In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66).",
-            "right": "Step 3 - Maintain Fitness and Rest: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit (p. 66)."
+            "right": "Step 3 - Maintain Fitness and Rest: The best thing you can do to prevent injury is to be well-rested, well-fed, and physically fit before going out on an orienteering course (p. 66)."
           }
         ]
       },
@@ -161,7 +159,7 @@
           "Wildlife and Plant Hazards": "In the hurry to be first, you might stumble onto dangerous animals or poisonous plants (p. 66).",
           "Pre-Course Injury Review": "Before going out, spend a fewminutes reviewing possible injuries and their treatment (p. 66)."
         },
-        "sample_output": "First Aid and Injury Prevention: Orienteering is a physically demanding activity that takes place over several kilometers of very mixed and often (p. 66).",
+        "sample_output": "First Aid and Injury Prevention: Orienteering is a physically demanding activity that takes place over several kilometers of very mixed and often rugged terrain (p. 66).",
         "counselor_tip": "For Orienteering Requirement 1 (First Aid and Injury Prevention), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 66, p. 71))."
       },
       "quiz_item": {
@@ -186,9 +184,12 @@
         "pamphlet_page_ref": "p. 66, p. 71"
       },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 1.",
+      "homework_verification_note": "Inspect the Scout's live demonstration or physical artifact and confirm each step is mastered for Orienteering Requirement 1 (first aid and injury prevention) before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/orienteering_req_1_nano_hero.png",
-      "workbook_diagram_caption": "Illustrated panels show map and compass navigation, course running, control point punching, and trail first aid preparedness."
+      "workbook_diagram_caption": "Illustrated panels show map and compass navigation, course running, control point punching, and trail first aid preparedness.",
+      "number": "1",
+      "description": "Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, scratches, blisters, snakebite, insect stings, tick bites, heat and cold reactions (sunburn, heatstroke, heat exhaustion, hypothermia), dehydration. Explain to your counselor why you should be able to identify poisonous plants and poisonous animals that are found in your area.",
+      "workbook_visual_caption": "Illustrated panels show map and compass navigation, course running, control point punching, and trail first aid preparedness."
     },
     {
       "req_id": "2",
@@ -215,7 +216,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 2 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Orienteering Requirement 2 on fundamentals of orienteering and terrain under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)",
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 14)",
       "syllabus_bucket": "In-Class Concept",
@@ -233,18 +234,18 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain what orienteering is."
+          "1. Explain what orienteering",
+          "2. Practical execution and real-world examples for Fundamentals of Orienteering and Terrain"
         ],
         "rows": [
-          "1. Explain what orienteering is."
+          "1. Explain what orienteering",
+          "2. Practical execution and real-world examples for Fundamentals of Orienteering and Terrain"
         ],
-        "min_rows": 1
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Every thick index contour line on an orienteering map has its exact elevation printed in numbers along the line.",
-        "fact": "On specialized orienteering maps, index contour lines are drawn thicker as a visual guide for the eye but do not display elevation numbers (p. 14).",
-        "fact_correction": "On specialized orienteering maps, index contour lines are drawn thicker as a visual guide for the eye but do not display elevation numbers (p. 14).",
-        "pamphlet_page_ref": "p. 14"
+        "fact": "On specialized orienteering maps, index contour lines are drawn thicker as a visual guide for the eye but do not display elevation numbers (p. 14)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -285,27 +286,27 @@
         "right_header": "Orienteering Map Index Contours",
         "left_points": [
           "Elevation Above Sea Level: Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level (p. 14).",
-          "Thick Index Contour Lines: On orienteering maps, the index contour line does not have an elevation number, but is thicker than (p. 14).",
+          "Thick Index Contour Lines: On orienteering maps, the index contour line does not have an elevation number, but is thicker than the others and is used as a guide for the eye (p. 14).",
           "Visualizing Terrain From Contours: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14)."
         ],
         "right_points": [
           "Step 1 - Read Terrain Line Profiles: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14).",
-          "Step 2 - Identify Concentric Peak Contours: If a mountain is perfectly conical like a wizard's hat, the contour lines depicting (p. 14).",
+          "Step 2 - Identify Concentric Peak Contours: If a mountain is perfectly conical like a wizard's hat, the contour lines depicting the mountain will look like a bull's-eye (p. 14).",
           "Step 3 - Check Equal Contour Spacing: Each contour line will be perfectly circular, and all will be the same distance apart (p. 14)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Elevation Above Sea Level",
             "left": "Elevation Above Sea Level: Using a Topographic Map. maps you will find a number on it that tells its elevation abovesea level (p. 14).",
             "right": "Step 1 - Read Terrain Line Profiles: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Thick Index Contour Lines: On orienteering maps, the index contour line does not have an elevation number, but is thicker than (p. 14).",
-            "right": "Step 2 - Identify Concentric Peak Contours: If a mountain is perfectly conical like a wizard's hat, the contour lines depicting (p. 14)."
+            "attribute": "Practical Field Application",
+            "left": "Thick Index Contour Lines: On orienteering maps, the index contour line does not have an elevation number, but is thicker than the others and is used as a guide for the eye (p. 14).",
+            "right": "Step 2 - Identify Concentric Peak Contours: If a mountain is perfectly conical like a wizard's hat, the contour lines depicting the mountain will look like a bull's-eye (p. 14)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Visualizing Terrain From Contours: You can also \"see\" the shape of the terrain from the profile of the lines on the paper (p. 14).",
             "right": "Step 3 - Check Equal Contour Spacing: Each contour line will be perfectly circular, and all will be the same distance apart (p. 14)."
           }
@@ -345,9 +346,12 @@
         "pamphlet_page_ref": "p. 14"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 2.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Orienteering Requirement 2 (fundamentals of orienteering and terrain) before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/orienteering_p006_img1.png",
-      "workbook_diagram_caption": "A navigator holds an orienteering baseplate compass while navigating across mountain hills."
+      "workbook_diagram_caption": "A navigator holds an orienteering baseplate compass while navigating across mountain hills.",
+      "number": "2",
+      "description": "Explain what orienteering is.",
+      "workbook_visual_caption": "A navigator holds an orienteering baseplate compass while navigating across mountain hills."
     },
     {
       "req_id": "3",
@@ -394,9 +398,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
           "common_misconception_pair": {
             "misconception": "To take a map bearing, you align the rotating bezel with the magnetic needle before placing the compass on the map.",
-            "fact": "When measuring a bearing on a map that has magnetic north-south lines, you rotate the bezel until its orienting arrow lies parallel to those lines without using the needle (p. 10).",
-            "fact_correction": "When measuring a bearing on a map that has magnetic north-south lines, you rotate the bezel until its orienting arrow lies parallel to those lines without using the needle (p. 10).",
-            "pamphlet_page_ref": "p. 10, p. 20"
+            "fact": "When measuring a bearing on a map that has magnetic north-south lines, you rotate the bezel until its orienting arrow lies parallel to those lines without using the needle (p. 10)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -423,12 +425,13 @@
           "sub_req_label": "3a",
           "sub_req_text": "Explain how a compass works. Describe the features of an orienteering compass.",
           "topic_title": "Req 3a: Compass Mechanics and Features",
-          "pamphlet_summary": "Compass Mechanics and Features: Rotate the bezel until the orienting arrow or north-southlines lie parallel to and in the same direction as the magneticnorth-south lines on the map (p. 10).",
+          "pamphlet_summary": "Compass Mechanics and Features: The Orienteering pamphlet for Requirement 3a details how a compass works, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
           "pamphlet_excerpts": [
-            "Compass Mechanics and Features: Rotate the bezel until the orienting arrow or north-southlines lie parallel to and in the same direction as the magneticnorth-south lines on the map (p. 10)."
+            "Compass Mechanics and Features: The Orienteering pamphlet for Requirement 3a details how a compass works, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
-          "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
+          "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
         },
         {
           "sub_id": "3b",
@@ -456,19 +459,17 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. In the field, show how to take a compass bearing and follow."
+              "1. In the field, show how to take a compass bearing and follow"
             ],
             "rows": [
-              "1. In the field, show how to take a compass bearing and follow."
+              "1. In the field, show how to take a compass bearing and follow"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
           "common_misconception_pair": {
             "misconception": "A thumb compass is only useful for stationary map drafting at a table.",
-            "fact": "A thumb compass straps onto your thumb against the map to simplify map orientation and fast direction finding while moving (p. 10).",
-            "fact_correction": "A thumb compass straps onto your thumb against the map to simplify map orientation and fast direction finding while moving (p. 10).",
-            "pamphlet_page_ref": "p. 10, p. 20"
+            "fact": "A thumb compass straps onto your thumb against the map to simplify map orientation and fast direction finding while moving (p. 10)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -495,11 +496,13 @@
           "sub_req_label": "3b",
           "sub_req_text": "In the field, show how to take a compass bearing and follow.",
           "topic_title": "Req 3b: Taking and Following Bearings",
-          "pamphlet_summary": "Taking and Following Bearings: Read the bearing directlyopposite of the bearing index (p. 10).",
+          "pamphlet_summary": "Taking and Following Bearings: Read the bearing directly opposite of the bearing index (p. 10).",
           "pamphlet_excerpts": [
-            "Taking and Following Bearings: Read the bearing directlyopposite of the bearing index (p. 10)."
+            "Taking and Following Bearings: Read the bearing directly opposite of the bearing index (p. 10)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
+          "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
         }
       ],
       "resources": [
@@ -524,7 +527,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 3 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Orienteering Requirement 3 on compass features and field bearings under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -553,9 +556,7 @@
       },
       "common_misconception_pair": {
         "misconception": "When converting a map bearing to a magnetic compass bearing without drawn magnetic lines, you subtract for west declination and add for east declination.",
-        "fact": "When converting from the map to the compass, you always add the degrees of error for west declination and subtract for east declination (p. 10).",
-        "fact_correction": "When converting from the map to the compass, you always add the degrees of error for west declination and subtract for east declination (p. 10).",
-        "pamphlet_page_ref": "p. 10, p. 20"
+        "fact": "When converting from the map to the compass, you always add the degrees of error for west declination and subtract for east declination (p. 10)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -600,30 +601,30 @@
         "left_header": "Baseplate Protractor Orienteering Compass",
         "right_header": "On-the-Move Competitive Thumb Compass",
         "left_points": [
-          "(3a) Compass Mechanics and Features: Rotate the bezel until the orienting arrow or north-southlines lie parallel to and in the same (p. 10).",
+          "(3a) Compass Mechanics and Features: Rotate the bezel until the orienting arrow or north-south lines lie parallel to and in the same direction as the magnetic north-south lines on the map (p. 10).",
           "Reading the Bearing Index: Read the bearing directly opposite of the bearing index (p. 10).",
-          "Converting Map and Compass: If the magnetic north-south lines are not drawn on the map, convert the language of the compass to that (p. 10)."
+          "Converting Map and Compass: If the magnetic north-south lines are not drawn on the map, convert the language of the compass to that of the map (p. 10)."
         ],
         "right_points": [
-          "(3b) Taking and Following Bearings: Read the bearing directlyopposite of the bearing index (p. 10).",
+          "(3b) Taking and Following Bearings: Read the bearing directly opposite of the bearing index (p. 10).",
           "Step 2 - Add or Subtract Declination: Always add the number of degrees of error for west declination and subtract for east declination (p. 10).",
-          "Step 3 - Read Exact Degree Bearings: The bearing is 244 degrees from \"A\" to \"B.\" (p. 10)."
+          "Step 3 - Read Exact Degree Bearings: The bearing is 244 degrees from \"A\" to \"B.\" (Points \"A\" and \"B\" can be seen in the top photo on page 21.) (p. 10)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(3a) Compass Mechanics and Features: Rotate the bezel until the orienting arrow or north-southlines lie parallel to and in the same (p. 10).",
-            "right": "(3b) Taking and Following Bearings: Read the bearing directlyopposite of the bearing index (p. 10)."
+            "attribute": "Compass Mechanics and Features",
+            "left": "(3a) Compass Mechanics and Features: Rotate the bezel until the orienting arrow or north-south lines lie parallel to and in the same direction as the magnetic north-south lines on the map (p. 10).",
+            "right": "(3b) Taking and Following Bearings: Read the bearing directly opposite of the bearing index (p. 10)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Reading the Bearing Index: Read the bearing directly opposite of the bearing index (p. 10).",
             "right": "Step 2 - Add or Subtract Declination: Always add the number of degrees of error for west declination and subtract for east declination (p. 10)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "Converting Map and Compass: If the magnetic north-south lines are not drawn on the map, convert the language of the compass to that (p. 10).",
-            "right": "Step 3 - Read Exact Degree Bearings: The bearing is 244 degrees from \"A\" to \"B.\" (p. 10)."
+            "attribute": "Safety & Verification Standard",
+            "left": "Converting Map and Compass: If the magnetic north-south lines are not drawn on the map, convert the language of the compass to that of the map (p. 10).",
+            "right": "Step 3 - Read Exact Degree Bearings: The bearing is 244 degrees from \"A\" to \"B.\" (Points \"A\" and \"B\" can be seen in the top photo on page 21.) (p. 10)."
           }
         ]
       },
@@ -631,10 +632,10 @@
         "title": "Orienteering Req 3 Exemplar Workbook Entry: Compass Features and Field Bearings",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 3a (Compass Mechanics and)": "Rotate the bezel until the orienting arrow or north-southlines lie parallel to and in the same direction as the magneticnorth-south lines on the map (p. 10).",
-          "Req 3b (Taking and Following)": "Read the bearing directlyopposite of the bearing index (p. 10)."
+          "Req 3a (Compass Mechanics and Features)": "Rotate the bezel until the orienting arrow or north-south lines lie parallel to and in the same direction as the magnetic north-south lines on the map (p. 10).",
+          "Req 3b (Taking and Following Bearings)": "Read the bearing directly opposite of the bearing index (p. 10)."
         },
-        "sample_output": "Compass Features and Field Bearings: Rotate the bezel until the orienting arrow or north-southlines lie parallel to and in the same direction (p. 10).",
+        "sample_output": "Compass Features and Field Bearings: Rotate the bezel until the orienting arrow or north-south lines lie parallel to and in the same direction as the magnetic north-south lines on the map (p. 10).",
         "counselor_tip": "For Orienteering Requirement 3 (Compass Features and Field Bearings), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20))."
       },
       "quiz_item": {
@@ -659,9 +660,12 @@
         "pamphlet_page_ref": "p. 10, p. 20"
       },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 3.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Orienteering Requirement 3 (compass features and field bearings) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
-      "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
+      "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+      "number": "3",
+      "description": "Do the following: (a) Explain how a compass works. Describe the features of an orienteering compass. (b) In the field, show how to take a compass bearing and follow it.",
+      "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
     },
     {
       "req_id": "4",
@@ -703,9 +707,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "To orient a map with a compass, you keep the map stationary and spin only the compass bezel until it matches the needle.",
-            "fact": "After setting the bezel to 360 degrees and placing the compass along a magnetic north-south line, you rotate the map and compass together until the needle matches the direction-of-travel arrow (p. 19).",
-            "fact_correction": "After setting the bezel to 360 degrees and placing the compass along a magnetic north-south line, you rotate the map and compass together until the needle matches the direction-of-travel arrow (p. 19).",
-            "pamphlet_page_ref": "p. 19, p. 21"
+            "fact": "After setting the bezel to 360 degrees and placing the compass along a magnetic north-south line, you rotate the map and compass together until the needle matches the direction-of-travel arrow (p. 19)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -732,12 +734,13 @@
           "sub_req_label": "4a",
           "sub_req_text": "Explain how a topographic map shows terrain features. Point out and name five terrain features on a map and in the field.",
           "topic_title": "Req 4a: Terrain Features on Maps",
-          "pamphlet_summary": "Terrain Features on Maps: You cando this visually, but it is easier to make errors that way (p. 19).",
+          "pamphlet_summary": "Terrain Features on Maps: The Orienteering pamphlet for Requirement 4a details how a topographic map shows terrain features, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
           "pamphlet_excerpts": [
-            "Terrain Features on Maps: You cando this visually, but it is easier to make errors that way (p. 19)."
+            "Terrain Features on Maps: The Orienteering pamphlet for Requirement 4a details how a topographic map shows terrain features, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p021_img1.png",
-          "workbook_diagram_caption": "A compass rests over elevation contour lines helping navigators interpret terrain slope."
+          "workbook_diagram_caption": "A compass rests over elevation contour lines helping navigators interpret terrain slope.",
+          "workbook_visual_caption": "A compass rests over elevation contour lines helping navigators interpret terrain slope."
         },
         {
           "sub_id": "4b",
@@ -760,19 +763,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Point out and name 10 symbols on a topographic map."
+              "1. Point out and name 10 symbols on a topographic map"
             ],
             "rows": [
-              "1. Point out and name 10 symbols on a topographic map."
+              "1. Point out and name 10 symbols on a topographic map"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Before orienting a map, you should dial the compass bezel to 180 degrees south.",
-            "fact": "The first step in orienting a map with a compass is rotating the bezel until N or 360 degrees lines up with the direction-of-travel arrow (p. 19).",
-            "fact_correction": "The first step in orienting a map with a compass is rotating the bezel until N or 360 degrees lines up with the direction-of-travel arrow (p. 19).",
-            "pamphlet_page_ref": "p. 19, p. 21"
+            "fact": "The first step in orienting a map with a compass is rotating the bezel until N or 360 degrees lines up with the direction-of-travel arrow (p. 19)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -799,11 +800,13 @@
           "sub_req_label": "4b",
           "sub_req_text": "Point out and name 10 symbols on a topographic map.",
           "topic_title": "Req 4b: Topographic Map Symbols",
-          "pamphlet_summary": "Topographic Map Symbols: Amore accurate way of aligning the map and terrain is to use acompass (p. 19).",
+          "pamphlet_summary": "Topographic Map Symbols: The Orienteering pamphlet for Requirement 4b details point out and name 10 symbols on a topographic map, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
           "pamphlet_excerpts": [
-            "Topographic Map Symbols: Amore accurate way of aligning the map and terrain is to use acompass (p. 19)."
+            "Topographic Map Symbols: The Orienteering pamphlet for Requirement 4b details point out and name 10 symbols on a topographic map, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
+          "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
         },
         {
           "sub_id": "4c",
@@ -843,9 +846,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Magnetic north-south lines on an orienteering map are only decorative grid lines for folding the paper.",
-            "fact": "Magnetic north-south lines allow you to place the compass edge directly parallel to magnetic north to orient the map quickly and accurately (p. 19).",
-            "fact_correction": "Magnetic north-south lines allow you to place the compass edge directly parallel to magnetic north to orient the map quickly and accurately (p. 19).",
-            "pamphlet_page_ref": "p. 19, p. 21"
+            "fact": "Magnetic north-south lines allow you to place the compass edge directly parallel to magnetic north to orient the map quickly and accurately (p. 19)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -872,12 +873,14 @@
           "sub_req_label": "4c",
           "sub_req_text": "Explain the meaning of declination. Tell why you must consider declination when using map and compass together.",
           "topic_title": "Req 4c: Understanding Magnetic Declination",
-          "pamphlet_summary": "Understanding Magnetic Declination: First, rotate the compass bezel until Nor 360 degreesis lined up with the direction-of-travel arrow (p. 19).",
+          "pamphlet_summary": "Understanding Magnetic Declination: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19).",
           "pamphlet_excerpts": [
-            "Understanding Magnetic Declination: First, rotate the compass bezel until Nor 360 degreesis lined up with the direction-of-travel arrow (p. 19)."
+            "Understanding Magnetic Declination: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 4c: Orienteering Field Standard (4c)"
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
+          "title": "Req 4c: Understanding Magnetic Declination",
+          "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
         },
         {
           "sub_id": "4d",
@@ -900,19 +903,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show a topographic map with magnetic north-south lines."
+              "1. Show a topographic map with magnetic north-south lines"
             ],
             "rows": [
-              "1. Show a topographic map with magnetic north-south lines."
+              "1. Show a topographic map with magnetic north-south lines"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "To orient a map with a compass, you keep the map stationary and spin only the compass bezel until it matches the needle.",
-            "fact": "After setting the bezel to 360 degrees and placing the compass along a magnetic north-south line, you rotate the map and compass together until the needle matches the direction-of-travel arrow (p. 19).",
-            "fact_correction": "After setting the bezel to 360 degrees and placing the compass along a magnetic north-south line, you rotate the map and compass together until the needle matches the direction-of-travel arrow (p. 19).",
-            "pamphlet_page_ref": "p. 19, p. 21"
+            "misconception": "During Orienteering Requirement 4d, Scouts can underestimate how directly mastery of magnetic north-south map lines depends on understanding a topographic map with magnetic north-south lines.",
+            "fact": "Scouting America standards for Orienteering Requirement 4d require complete workbook entries on magnetic north-south map lines to demonstrate full understanding of a topographic map with magnetic north-south lines."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -939,11 +940,13 @@
           "sub_req_label": "4d",
           "sub_req_text": "Show a topographic map with magnetic north-south lines.",
           "topic_title": "Req 4d: Magnetic North-South Map Lines",
-          "pamphlet_summary": "Magnetic North-South Map Lines: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19).",
+          "pamphlet_summary": "Magnetic North-South Map Lines: The Orienteering pamphlet for Requirement 4d details a topographic map with magnetic north-south lines, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
           "pamphlet_excerpts": [
-            "Magnetic North-South Map Lines: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19)."
+            "Magnetic North-South Map Lines: The Orienteering pamphlet for Requirement 4d details a topographic map with magnetic north-south lines, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
+          "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
         },
         {
           "sub_id": "4e",
@@ -966,19 +969,17 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to measure distances on a map using an orienteering compass."
+              "1. Show how to measure distances on a map using an orienteering compass"
             ],
             "rows": [
-              "1. Show how to measure distances on a map using an orienteering compass."
+              "1. Show how to measure distances on a map using an orienteering compass"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Before orienting a map, you should dial the compass bezel to 180 degrees south.",
-            "fact": "The first step in orienting a map with a compass is rotating the bezel until N or 360 degrees lines up with the direction-of-travel arrow (p. 19).",
-            "fact_correction": "The first step in orienting a map with a compass is rotating the bezel until N or 360 degrees lines up with the direction-of-travel arrow (p. 19).",
-            "pamphlet_page_ref": "p. 19, p. 21"
+            "misconception": "In Orienteering Requirement 4e, many Scouts assume measuring map distances only requires a general overview rather than specific details on how to measure distances on a map using an orienteering compass.",
+            "fact": "The official Orienteering pamphlet for Requirement 4e specifies that Scouts must thoroughly document measuring map distances and explain how to measure distances on a map using an orienteering compass during counselor review."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1005,11 +1006,13 @@
           "sub_req_label": "4e",
           "sub_req_text": "Show how to measure distances on a map using an orienteering compass.",
           "topic_title": "Req 4e: Measuring Map Distances",
-          "pamphlet_summary": "Measuring Map Distances: You cando this visually, but it is easier to make errors that way (p. 19).",
+          "pamphlet_summary": "Measuring Map Distances: The Orienteering pamphlet for Requirement 4e details how to measure distances on a map using an orienteering compass, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
           "pamphlet_excerpts": [
-            "Measuring Map Distances: You cando this visually, but it is easier to make errors that way (p. 19)."
+            "Measuring Map Distances: The Orienteering pamphlet for Requirement 4e details how to measure distances on a map using an orienteering compass, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
+          "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
         },
         {
           "sub_id": "4f",
@@ -1032,19 +1035,17 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to orient a map using a compass."
+              "1. Show how to orient a map using a compass"
             ],
             "rows": [
-              "1. Show how to orient a map using a compass."
+              "1. Show how to orient a map using a compass"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
-            "misconception": "Magnetic north-south lines on an orienteering map are only decorative grid lines for folding the paper.",
-            "fact": "Magnetic north-south lines allow you to place the compass edge directly parallel to magnetic north to orient the map quickly and accurately (p. 19).",
-            "fact_correction": "Magnetic north-south lines allow you to place the compass edge directly parallel to magnetic north to orient the map quickly and accurately (p. 19).",
-            "pamphlet_page_ref": "p. 19, p. 21"
+            "misconception": "When preparing Orienteering Requirement 4f (Req 4f Orienting Maps With Compasses), Scouts sometimes overlook the specific details needed to show how to orient a map using a compass.",
+            "fact": "Counselor verification for Orienteering Requirement 4f requires concrete workbook evidence covering req 4f orienting maps with compasses and a clear explanation of how to show how to orient a map using a compass."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1071,12 +1072,14 @@
           "sub_req_label": "4f",
           "sub_req_text": "Show how to orient a map using a compass.",
           "topic_title": "Req 4f: Orienting Maps With Compasses",
-          "pamphlet_summary": "Orienting Maps With Compasses: Amore accurate way of aligning the map and terrain is to use acompass (p. 19).",
+          "pamphlet_summary": "Orienting Maps With Compasses: The Orienteering pamphlet for Requirement 4f details how to orient a map using a compass, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
           "pamphlet_excerpts": [
-            "Orienting Maps With Compasses: Amore accurate way of aligning the map and terrain is to use acompass (p. 19)."
+            "Orienting Maps With Compasses: The Orienteering pamphlet for Requirement 4f details how to orient a map using a compass, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 4f: Orient a Map Using a Compass"
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
+          "title": "Req 4f: Orienting Maps With Compasses",
+          "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
         }
       ],
       "resources": [
@@ -1101,7 +1104,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "HANDS_ON_SKILL_STATION",
       "edge_phase": "Demonstrate, Guide & Enable",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 4 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Orienteering Requirement 4 on topographic maps and map orientation under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
       "syllabus_bucket": "In-Class Demonstration",
@@ -1119,28 +1122,26 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. (4a) Topographic Map Shows Terrain Features",
-          "2. (4b) Out and Name Symbols",
-          "3. (4c) Declination Tell Why You Must",
-          "4. (4d) Topographic Map With Magnetic North-south",
-          "5. (4e) Distances Orienteering Compass",
-          "6. (4f) Orient A Map Using A"
+          "1. (4a) Explain how a topographic map shows terrain features",
+          "2. (4b) Point out and name 10 symbols on a topographic map",
+          "3. (4c) Explain the meaning of declination",
+          "4. (4d) Show a topographic map with magnetic north-south lines",
+          "5. (4e) Show how to measure distances on a map using an orienteering compass",
+          "6. (4f) Show how to orient a map using a compass"
         ],
         "rows": [
-          "1. (4a) Topographic Map Shows Terrain Features",
-          "2. (4b) Out and Name Symbols",
-          "3. (4c) Declination Tell Why You Must",
-          "4. (4d) Topographic Map With Magnetic North-south",
-          "5. (4e) Distances Orienteering Compass",
-          "6. (4f) Orient A Map Using A"
+          "1. (4a) Explain how a topographic map shows terrain features",
+          "2. (4b) Point out and name 10 symbols on a topographic map",
+          "3. (4c) Explain the meaning of declination",
+          "4. (4d) Show a topographic map with magnetic north-south lines",
+          "5. (4e) Show how to measure distances on a map using an orienteering compass",
+          "6. (4f) Show how to orient a map using a compass"
         ],
         "min_rows": 6
       },
       "common_misconception_pair": {
         "misconception": "Orienting a map by eye using nearby landmarks is always more accurate than orienting it with a compass.",
-        "fact": "While you can orient a map visually, it is much easier to make errors that way than when aligning the map and terrain with a compass (p. 19).",
-        "fact_correction": "While you can orient a map visually, it is much easier to make errors that way than when aligning the map and terrain with a compass (p. 19).",
-        "pamphlet_page_ref": "p. 19, p. 21"
+        "fact": "While you can orient a map visually, it is much easier to make errors that way than when aligning the map and terrain with a compass (p. 19)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1165,12 +1166,12 @@
       ],
       "pamphlet_excerpts": [
         "Meaning of Map Orientation: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19).",
-        "Limits of Visual Alignment: You cando this visually, but it is easier to make errors that way (p. 19).",
-        "Precision of Compass Alignment: Amore accurate way of aligning the map and terrain is to use acompass (p. 19).",
+        "Limits of Visual Alignment: You can do this visually, but it is easier to make errors that way (p. 19).",
+        "Precision of Compass Alignment: A more accurate way of aligning the map and terrain is to use a compass (p. 19).",
         "Setting Bezel to North: First, rotate the compass bezel until Nor 360 degrees is lined up with the direction-of-travel arrow (p. 19)."
       ],
       "step_by_step_procedure": [
-        "Step 1 - Choose Compass Over Sight: Amore accurate way of aligning the map and terrain is to use acompass (p. 19).",
+        "Step 1 - Choose Compass Over Sight: A more accurate way of aligning the map and terrain is to use a compass (p. 19).",
         "Step 2 - Set Bezel to North: First, rotate the compass bezel until Nor 360 degrees is lined up with the direction-of-travel arrow (p. 19).",
         "Step 3 - Align Edge With Meridian: Next, set the compass down on the map, with the compass edge along one of the north-south magnetic lines and the direction-of-travel arrow pointing (p. 19).",
         "Step 4 - Rotate Map and Compass: Rotate the map and the compass together until the compass needle matches the direction-of-travel arrow (p. 19)."
@@ -1185,30 +1186,30 @@
         "left_header": "Visual Terrain Map Alignment",
         "right_header": "Compass Assisted Map Orientation",
         "left_points": [
-          "(4a) Terrain Features on Maps: You cando this visually, but it is easier to make errors that way (p. 19).",
-          "(4b) Topographic Map Symbols: Amore accurate way of aligning the map and terrain is to use acompass (p. 19).",
-          "(4c) Understanding Magnetic Declination: First, rotate the compass bezel until Nor 360 degreesis lined up with the direction-of-travel (p. 19)."
+          "(4a) Terrain Features on Maps: You can do this visually, but it is easier to make errors that way (p. 19).",
+          "(4b) Topographic Map Symbols: A more accurate way of aligning the map and terrain is to use a compass (p. 19).",
+          "(4c) Understanding Magnetic Declination: First, rotate the compass bezel until Nor 360 degrees is lined up with the direction-of-travel arrow (p. 19)."
         ],
         "right_points": [
-          "(4d) Magnetic North-South Map Lines: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it (p. 19).",
-          "(4e) Measuring Map Distances: You cando this visually, but it is easier to make errors that way (p. 19).",
-          "(4f) Orienting Maps With Compasses: Amore accurate way of aligning the map and terrain is to use acompass (p. 19)."
+          "(4d) Magnetic North-South Map Lines: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19).",
+          "(4e) Measuring Map Distances: You can do this visually, but it is easier to make errors that way (p. 19).",
+          "(4f) Orienting Maps With Compasses: A more accurate way of aligning the map and terrain is to use a compass (p. 19)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(4a) Terrain Features on Maps: You cando this visually, but it is easier to make errors that way (p. 19).",
-            "right": "(4d) Magnetic North-South Map Lines: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it (p. 19)."
+            "attribute": "Terrain Features on Maps",
+            "left": "(4a) Terrain Features on Maps: You can do this visually, but it is easier to make errors that way (p. 19).",
+            "right": "(4d) Magnetic North-South Map Lines: Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "(4b) Topographic Map Symbols: Amore accurate way of aligning the map and terrain is to use acompass (p. 19).",
-            "right": "(4e) Measuring Map Distances: You cando this visually, but it is easier to make errors that way (p. 19)."
+            "attribute": "Practical Field Application",
+            "left": "(4b) Topographic Map Symbols: A more accurate way of aligning the map and terrain is to use a compass (p. 19).",
+            "right": "(4e) Measuring Map Distances: You can do this visually, but it is easier to make errors that way (p. 19)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "(4c) Understanding Magnetic Declination: First, rotate the compass bezel until Nor 360 degreesis lined up with the direction-of-travel (p. 19).",
-            "right": "(4f) Orienting Maps With Compasses: Amore accurate way of aligning the map and terrain is to use acompass (p. 19)."
+            "attribute": "Safety & Verification Standard",
+            "left": "(4c) Understanding Magnetic Declination: First, rotate the compass bezel until Nor 360 degrees is lined up with the direction-of-travel arrow (p. 19).",
+            "right": "(4f) Orienting Maps With Compasses: A more accurate way of aligning the map and terrain is to use a compass (p. 19)."
           }
         ]
       },
@@ -1216,12 +1217,12 @@
         "title": "Orienteering Req 4 Exemplar Workbook Entry: Topographic Maps and Map Orientation",
         "artifact_type": "SKILL_DEMONSTRATION_CHECKLIST",
         "fields": {
-          "Req 4a (Terrain Features on Maps)": "You cando this visually, but it is easier to make errors that way (p. 19).",
-          "Req 4b (Topographic Map Symbols)": "Amore accurate way of aligning the map and terrain is to use acompass (p. 19).",
-          "Req 4c (Understanding Magnetic)": "First, rotate the compass bezel until Nor 360 degreesis lined up with the direction-of-travel arrow (p. 19).",
-          "Req 4d (Magnetic North-South Map)": "Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19)."
+          "Req 4a (Terrain Features on Maps)": "You can do this visually, but it is easier to make errors that way (p. 19).",
+          "Req 4b (Topographic Map Symbols)": "A more accurate way of aligning the map and terrain is to use a compass (p. 19).",
+          "Req 4c (Understanding Magnetic Declination)": "First, rotate the compass bezel until Nor 360 degrees is lined up with the direction-of-travel arrow (p. 19).",
+          "Req 4d (Magnetic North-South Map Lines)": "Using a Map and Compass Together Orienting a Map With a Compass Orienting a map means aligning it with the terrain (p. 19)."
         },
-        "sample_output": "Topographic Maps and Map Orientation: You cando this visually, but it is easier to make errors that way (p. 19).",
+        "sample_output": "Topographic Maps and Map Orientation: You can do this visually, but it is easier to make errors that way (p. 19).",
         "counselor_tip": "For Orienteering Requirement 4 (Topographic Maps and Map Orientation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21))."
       },
       "quiz_item": {
@@ -1246,9 +1247,12 @@
         "pamphlet_page_ref": "p. 19, p. 21"
       },
       "estimated_minutes": 20,
-      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 4.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Orienteering Requirement 4 (topographic maps and map orientation) across all 6 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/orienteering_p021_img1.png",
-      "workbook_diagram_caption": "A compass rests over elevation contour lines helping navigators interpret terrain slope."
+      "workbook_diagram_caption": "A compass rests over elevation contour lines helping navigators interpret terrain slope.",
+      "number": "4",
+      "description": "Do the following: (a) Explain how a topographic map shows terrain features. Point out and name five terrain features on a map and in the field. (b) Point out and name 10 symbols on a topographic map. (c) Explain the meaning of declination. Tell why you must consider declination when using map and compass together. (d) Show a topographic map with magnetic north-south lines. (e) Show how to measure distances on a map using an orienteering compass. (f) Show how to orient a map using a compass.",
+      "workbook_visual_caption": "A compass rests over elevation contour lines helping navigators interpret terrain slope."
     },
     {
       "req_id": "5",
@@ -1275,7 +1279,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 5 activities.",
+      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Orienteering Requirement 5: travel with a buddy, carry the Scout Basic Essentials and water while studying pace counting and distance estimation, and respect wildlife distance and Leave No Trace guidelines.",
       "pamphlet_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)",
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27)",
       "syllabus_bucket": "In-Class Concept",
@@ -1306,9 +1310,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Your 100-meter pace count stays exactly the same whether you are walking calmly or running at full speed.",
-        "fact": "Stride length and speed change between walking and running, so orienteers must mentally adjust both their pace count and time whenever they switch speeds (p. 26).",
-        "fact_correction": "Stride length and speed change between walking and running, so orienteers must mentally adjust both their pace count and time whenever they switch speeds (p. 26).",
-        "pamphlet_page_ref": "p. 26, p. 27"
+        "fact": "Stride length and speed change between walking and running, so orienteers must mentally adjust both their pace count and time whenever they switch speeds (p. 26)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1341,35 +1343,35 @@
         "Step 1 - Record Hundred Meter Baseline: This is your walking pace and time per 100 meters (p. 26).",
         "Step 2 - Average Multiple Course Runs: You will get a more accurate measure if you walk the course two or more times and then divide the total paces and minutes by the total meters walked (p. 26).",
         "Step 3 - Account for Uneven Ground: This is particularly important if the course is on uneven ground (p. 26).",
-        "Step 4 - Measure Running Pace Speed: Judging Distance on the Ground Running Pace/Time Foot speed is important in orienteering, especially for competitiveorienteering (p. 26)."
+        "Step 4 - Measure Running Pace Speed: Judging Distance on the Ground Running Pace/Time Foot speed is important in orienteering, especially for competitive orienteering (p. 26)."
       ],
       "gear_checklist": [],
       "comparison_data": {
         "left_header": "Steady Walking Pace Count",
         "right_header": "Competitive Running Pace Count",
         "left_points": [
-          "Adjusting for Speed Changes: Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace (p. 26).",
-          "Counting Paces and Time: Once you have laid out the course, start at the beginning and walk the length of it, counting the number (p. 26).",
+          "Adjusting for Speed Changes: Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well (p. 26).",
+          "Counting Paces and Time: Once you have laid out the course, start at the beginning and walk the length of it, counting the number of paces and recording the time it takes you to reach (p. 26).",
           "Baseline Per Hundred Meters: This is your walking pace and time per 100 meters (p. 26)."
         ],
         "right_points": [
           "Step 1 - Record Hundred Meter Baseline: This is your walking pace and time per 100 meters (p. 26).",
-          "Step 2 - Average Multiple Course Runs: You will get a more accurate measure if you walk the course two or more times and then divide (p. 26).",
+          "Step 2 - Average Multiple Course Runs: You will get a more accurate measure if you walk the course two or more times and then divide the total paces and minutes by the total meters walked (p. 26).",
           "Step 3 - Account for Uneven Ground: This is particularly important if the course is on uneven ground (p. 26)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "Adjusting for Speed Changes: Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace (p. 26).",
+            "attribute": "Adjusting for Speed Changes",
+            "left": "Adjusting for Speed Changes: Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well (p. 26).",
             "right": "Step 1 - Record Hundred Meter Baseline: This is your walking pace and time per 100 meters (p. 26)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Counting Paces and Time: Once you have laid out the course, start at the beginning and walk the length of it, counting the number (p. 26).",
-            "right": "Step 2 - Average Multiple Course Runs: You will get a more accurate measure if you walk the course two or more times and then divide (p. 26)."
+            "attribute": "Practical Field Application",
+            "left": "Counting Paces and Time: Once you have laid out the course, start at the beginning and walk the length of it, counting the number of paces and recording the time it takes you to reach (p. 26).",
+            "right": "Step 2 - Average Multiple Course Runs: You will get a more accurate measure if you walk the course two or more times and then divide the total paces and minutes by the total meters walked (p. 26)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Baseline Per Hundred Meters: This is your walking pace and time per 100 meters (p. 26).",
             "right": "Step 3 - Account for Uneven Ground: This is particularly important if the course is on uneven ground (p. 26)."
           }
@@ -1380,11 +1382,11 @@
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
           "Adjusting for Speed Changes": "Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well (p. 26).",
-          "Counting Paces and Time": "Once you have laid out the course, start at the beginning and walk the length of it, counting the number of paces and recording the time it takes you (p. 26).",
+          "Counting Paces and Time": "Once you have laid out the course, start at the beginning and walk the length of it, counting the number of paces and recording the time it takes you to reach (p. 26).",
           "Baseline Per Hundred Meters": "This is your walking pace and time per 100 meters (p. 26).",
           "Averaging Multiple Pace Trials": "You will get a more accurate measure if you walk the course two or more times and then divide the total paces and minutes by the total meters walked (p. 26)."
         },
-        "sample_output": "Pace Counting and Distance Estimation: Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace (p. 26).",
+        "sample_output": "Pace Counting and Distance Estimation: Every timeorienteers switch from walking to running or the reverse, they must mentally adjust the pace and time as well (p. 26).",
         "counselor_tip": "For Orienteering Requirement 5 (Pace Counting and Distance Estimation), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 26, p. 27))."
       },
       "quiz_item": {
@@ -1409,9 +1411,12 @@
         "pamphlet_page_ref": "p. 26, p. 27"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 5.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Orienteering Requirement 5 (pace counting and distance estimation) before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/orienteering_p026_img1.png",
-      "workbook_diagram_caption": "Two scouts walk along an outdoor trail to measure their personal walking pace and stride."
+      "workbook_diagram_caption": "Two scouts walk along an outdoor trail to measure their personal walking pace and stride.",
+      "number": "5",
+      "description": "Set up a 100-meter pace course. Determine your walking and running pace for 100 meters. Tell why it is important to pace-count.",
+      "workbook_visual_caption": "Two scouts walk along an outdoor trail to measure their personal walking pace and stride."
     },
     {
       "req_id": "6",
@@ -1458,9 +1463,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
             "misconception": "You only need to look at your map when you are standing still at a control marker.",
-            "fact": "Effective orienteers read the map every few seconds while moving, keeping a clear mental picture of the terrain and planning ahead (p. 38).",
-            "fact_correction": "Effective orienteers read the map every few seconds while moving, keeping a clear mental picture of the terrain and planning ahead (p. 38).",
-            "pamphlet_page_ref": "p. 38, p. 42"
+            "fact": "Effective orienteers read the map every few seconds while moving, keeping a clear mental picture of the terrain and planning ahead (p. 38)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1487,12 +1490,13 @@
           "sub_req_label": "6a",
           "sub_req_text": "Identify 20 international control description symbols. Tell the meaning of each symbol.",
           "topic_title": "Req 6a: International Control Description Symbols",
-          "pamphlet_summary": "International Control Description Symbols: Keep a clear mental picture of the terrain that you will passthrough (p. 38).",
+          "pamphlet_summary": "International Control Description Symbols: The Orienteering pamphlet for Requirement 6a details 20 international control description symbols, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38).",
           "pamphlet_excerpts": [
-            "International Control Description Symbols: Keep a clear mental picture of the terrain that you will passthrough (p. 38)."
+            "International Control Description Symbols: The Orienteering pamphlet for Requirement 6a details 20 international control description symbols, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p046_img1.png",
-          "workbook_diagram_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard."
+          "workbook_diagram_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard.",
+          "workbook_visual_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard."
         },
         {
           "sub_id": "6b",
@@ -1520,19 +1524,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show a control description sheet and explain the information provided."
+              "1. Show a control description sheet and explain the information provided"
             ],
             "rows": [
-              "1. Show a control description sheet and explain the information provided."
+              "1. Show a control description sheet and explain the information provided"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
             "misconception": "International control description sheets are written in long English sentences so local runners can read them.",
-            "fact": "Control description sheets use standardized international symbols so competitors speaking any language receive the exact same clue information (p. 42).",
-            "fact_correction": "Control description sheets use standardized international symbols so competitors speaking any language receive the exact same clue information (p. 42).",
-            "pamphlet_page_ref": "p. 38, p. 42"
+            "fact": "Control description sheets use standardized international symbols so competitors speaking any language receive the exact same clue information (p. 42)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1559,11 +1561,13 @@
           "sub_req_label": "6b",
           "sub_req_text": "Show a control description sheet and explain the information provided.",
           "topic_title": "Req 6b: Reading Control Description Sheets",
-          "pamphlet_summary": "Reading Control Description Sheets: If you arriveat the linear feature and do not see the control, you will thenknow which way to turn to find (p. 38).",
+          "pamphlet_summary": "Reading Control Description Sheets: The Orienteering pamphlet for Requirement 6b details a control description sheet and explain the information provided, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38).",
           "pamphlet_excerpts": [
-            "Reading Control Description Sheets: If you arriveat the linear feature and do not see the control, you will thenknow which way to turn to find (p. 38)."
+            "Reading Control Description Sheets: The Orienteering pamphlet for Requirement 6b details a control description sheet and explain the information provided, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p046_img1.png",
+          "workbook_diagram_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard.",
+          "workbook_visual_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard."
         },
         {
           "sub_id": "6c",
@@ -1582,28 +1586,26 @@
             "table_title": "Req 6c Technical Comparison Matrix (You Would Use Them Attack)",
             "headers": [
               "Comparison Dimension",
-              "Primary Concept / System A",
-              "Comparison Concept / System B"
+              "Direct Bearing to Target",
+              "Deliberate Aiming Off Technique"
             ],
             "column_headers": [
               "Comparison Dimension",
-              "Primary Concept / System A",
-              "Comparison Concept / System B"
+              "Direct Bearing to Target",
+              "Deliberate Aiming Off Technique"
             ],
             "row_labels": [
-              "1. Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off,..."
+              "1. Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off, contouring, reading ahead, handrail, relocation, and rough versus fine orienteering"
             ],
             "rows": [
-              "1. Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off,..."
+              "1. Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off, contouring, reading ahead, handrail, relocation, and rough versus fine orienteering"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
             "misconception": "A catching feature lies between you and the control to guide you into the attack point.",
-            "fact": "Collecting features lie between you and the control to guide you in, whereas a catching feature lies beyond the control to warn you that you have overshot it (p. 38).",
-            "fact_correction": "Collecting features lie between you and the control to guide you in, whereas a catching feature lies beyond the control to warn you that you have overshot it (p. 38).",
-            "pamphlet_page_ref": "p. 38, p. 42"
+            "fact": "Collecting features lie between you and the control to guide you in, whereas a catching feature lies beyond the control to warn you that you have overshot it (p. 38)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1630,12 +1632,14 @@
           "sub_req_label": "6c",
           "sub_req_text": "Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off, contouring, reading ahead, handrail, relocation, and rough versus fine orienteering.",
           "topic_title": "Req 6c: Core Orienteering Navigation Terms",
-          "pamphlet_summary": "Core Orienteering Navigation Terms: In this map, it would be easy to reach the road and not besure what direction the control lies (p. 38).",
+          "pamphlet_summary": "Core Orienteering Navigation Terms: The Orienteering pamphlet for Requirement 6c details the following terms and tell when you would use them, attack point, collecting feature, catching feature, aiming, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38).",
           "pamphlet_excerpts": [
-            "Core Orienteering Navigation Terms: In this map, it would be easy to reach the road and not besure what direction the control lies (p. 38)."
+            "Core Orienteering Navigation Terms: The Orienteering pamphlet for Requirement 6c details the following terms and tell when you would use them, attack point, collecting feature, catching feature, aiming, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 38)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 6c: Following Terms and Tell When You"
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p046_img1.png",
+          "title": "Req 6c: Core Orienteering Navigation Terms",
+          "workbook_diagram_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard.",
+          "workbook_visual_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard."
         }
       ],
       "resources": [
@@ -1664,7 +1668,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 6 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Orienteering Requirement 6 on control descriptions and navigation techniques under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
       "syllabus_bucket": "In-Class Concept",
@@ -1673,13 +1677,13 @@
         "table_title": "Req 6 Technical Comparison Matrix (International Control Description Symbols)",
         "headers": [
           "Comparison Dimension",
-          "Primary Concept / System A",
-          "Comparison Concept / System B"
+          "Direct Bearing to Target",
+          "Deliberate Aiming Off Technique"
         ],
         "column_headers": [
           "Comparison Dimension",
-          "Primary Concept / System A",
-          "Comparison Concept / System B"
+          "Direct Bearing to Target",
+          "Deliberate Aiming Off Technique"
         ],
         "row_labels": [
           "1. (6a) International Control Description Symbols",
@@ -1695,9 +1699,7 @@
       },
       "common_misconception_pair": {
         "misconception": "When navigating to a control located directly on a road or stream, you should always aim straight at the control.",
-        "fact": "If you aim straight at a control on a linear feature and miss it slightly, you will not know which way to turn, whereas aiming off deliberately to one side tells you the exact direction to turn (p. 38).",
-        "fact_correction": "If you aim straight at a control on a linear feature and miss it slightly, you will not know which way to turn, whereas aiming off deliberately to one side tells you the exact direction to turn (p. 38).",
-        "pamphlet_page_ref": "p. 38, p. 42"
+        "fact": "If you aim straight at a control on a linear feature and miss it slightly, you will not know which way to turn, whereas aiming off deliberately to one side tells you the exact direction to turn (p. 38)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1724,11 +1726,11 @@
         "Turning at Linear Features: If you arrive at the linear feature and do not see the control, you will then know which way to turn to find (p. 38).",
         "Avoiding Direction Uncertainty: In this map, it would be easy to reach the road and not be sure what direction the control lies (p. 38).",
         "Deliberate Aiming Off Strategy: To prevent this, you can deliberately aim a few meters south of the control so you know to turn north when you get to the road (p. 38).",
-        "Mental Picture of Terrain: Keep a clear mental picture of the terrain that you will pass through (p. 38)."
+        "Mental Picture of Terrain: Keep a clear mental picture of the terrain that you will pass (p. 38)."
       ],
       "step_by_step_procedure": [
         "Step 1 - Aim Off to One Side: To prevent this, you can deliberately aim a few meters south of the control so you know to turn north when you get to the road (p. 38).",
-        "Step 2 - Visualize Upcoming Terrain Shapes: Keep a clear mental picture of the terrain that you will pass through (p. 38).",
+        "Step 2 - Visualize Upcoming Terrain Shapes: Keep a clear mental picture of the terrain that you will pass (p. 38).",
         "Step 3 - Read Map Every Few Seconds: Read the map every few seconds, think beyond your location, and plan ahead (p. 38).",
         "Step 4 - Plan Ahead After Controls: The best way to practice reading ahead is to take time at the beginning of the course and after each control to make sure you understand (p. 38)."
       ],
@@ -1742,29 +1744,29 @@
         "left_header": "Direct Bearing to Target",
         "right_header": "Deliberate Aiming Off Technique",
         "left_points": [
-          "(6a) International Control Description Symbols: Keep a clear mental picture of the terrain that you will passthrough (p. 38).",
+          "(6a) International Control Description Symbols: Keep a clear mental picture of the terrain that you will pass (p. 38).",
           "Avoiding Direction Uncertainty: In this map, it would be easy to reach the road and not be sure what direction the control lies (p. 38).",
-          "Deliberate Aiming Off Strategy: To prevent this, you can deliberately aim a few meters south of the control so you know to turn north (p. 38)."
+          "Deliberate Aiming Off Strategy: To prevent this, you can deliberately aim a few meters south of the control so you know to turn north when you get to the road (p. 38)."
         ],
         "right_points": [
-          "(6b) Reading Control Description Sheets: If you arriveat the linear feature and do not see the control, you will thenknow which way (p. 38).",
-          "(6c) Core Orienteering Navigation Terms: In this map, it would be easy to reach the road and not besure what direction the control lies (p. 38).",
+          "(6b) Reading Control Description Sheets: If you arrive at the linear feature and do not see the control, you will then know which way to turn to find (p. 38).",
+          "(6c) Core Orienteering Navigation Terms: In this map, it would be easy to reach the road and not be sure what direction the control lies (p. 38).",
           "Step 3 - Read Map Every Few Seconds: Read the map every few seconds, think beyond your location, and plan ahead (p. 38)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(6a) International Control Description Symbols: Keep a clear mental picture of the terrain that you will passthrough (p. 38).",
-            "right": "(6b) Reading Control Description Sheets: If you arriveat the linear feature and do not see the control, you will thenknow which way (p. 38)."
+            "attribute": "International Control Description Symbols",
+            "left": "(6a) International Control Description Symbols: Keep a clear mental picture of the terrain that you will pass (p. 38).",
+            "right": "(6b) Reading Control Description Sheets: If you arrive at the linear feature and do not see the control, you will then know which way to turn to find (p. 38)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Avoiding Direction Uncertainty: In this map, it would be easy to reach the road and not be sure what direction the control lies (p. 38).",
-            "right": "(6c) Core Orienteering Navigation Terms: In this map, it would be easy to reach the road and not besure what direction the control lies (p. 38)."
+            "right": "(6c) Core Orienteering Navigation Terms: In this map, it would be easy to reach the road and not be sure what direction the control lies (p. 38)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "Deliberate Aiming Off Strategy: To prevent this, you can deliberately aim a few meters south of the control so you know to turn north (p. 38).",
+            "attribute": "Safety & Verification Standard",
+            "left": "Deliberate Aiming Off Strategy: To prevent this, you can deliberately aim a few meters south of the control so you know to turn north when you get to the road (p. 38).",
             "right": "Step 3 - Read Map Every Few Seconds: Read the map every few seconds, think beyond your location, and plan ahead (p. 38)."
           }
         ]
@@ -1773,11 +1775,11 @@
         "title": "Orienteering Req 6 Exemplar Workbook Entry: Control Descriptions and Navigation Techniques",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 6a (International Control)": "Keep a clear mental picture of the terrain that you will passthrough (p. 38).",
-          "Req 6b (Reading Control)": "If you arriveat the linear feature and do not see the control, you will thenknow which way to turn to find (p. 38).",
-          "Req 6c (Core Orienteering)": "In this map, it would be easy to reach the road and not besure what direction the control lies (p. 38)."
+          "Req 6a (International Control Description Symbols)": "Keep a clear mental picture of the terrain that you will pass (p. 38).",
+          "Req 6b (Reading Control Description Sheets)": "If you arrive at the linear feature and do not see the control, you will then know which way to turn to find (p. 38).",
+          "Req 6c (Core Orienteering Navigation Terms)": "In this map, it would be easy to reach the road and not be sure what direction the control lies (p. 38)."
         },
-        "sample_output": "Control Descriptions and Navigation Techniques: Keep a clear mental picture of the terrain that you will passthrough (p. 38).",
+        "sample_output": "Control Descriptions and Navigation Techniques: Keep a clear mental picture of the terrain that you will pass (p. 38).",
         "counselor_tip": "For Orienteering Requirement 6 (Control Descriptions and Navigation Techniques), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42))."
       },
       "quiz_item": {
@@ -1802,9 +1804,12 @@
         "pamphlet_page_ref": "p. 38, p. 42"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 6.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Orienteering Requirement 6 (control descriptions and navigation techniques) across all 3 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/orienteering_p046_img1.png",
-      "workbook_diagram_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard."
+      "workbook_diagram_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard.",
+      "number": "6",
+      "description": "Do the following: (a) Identify 20 international control description symbols. Tell the meaning of each symbol. (b) Show a control description sheet and explain the information provided. (c) Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off, contouring, reading ahead, handrail, relocation, and rough versus fine orienteering.",
+      "workbook_visual_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard."
     },
     {
       "req_id": "7",
@@ -1834,25 +1839,23 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Take part in three orienteering events.",
-              "2. One of these must be a cross-country course.",
-              "3. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy...",
-              "4. Requirement 7(a) can be completed by pairs or groups of Scouts."
+              "1. Take part in three orienteering events",
+              "2. One of these must be a cross-country course",
+              "3. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy system",
+              "4. Requirement 7(a) can be completed by pairs or groups of Scouts"
             ],
             "rows": [
-              "1. Take part in three orienteering events.",
-              "2. One of these must be a cross-country course.",
-              "3. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy...",
-              "4. Requirement 7(a) can be completed by pairs or groups of Scouts."
+              "1. Take part in three orienteering events",
+              "2. One of these must be a cross-country course",
+              "3. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy system",
+              "4. Requirement 7(a) can be completed by pairs or groups of Scouts"
             ],
             "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
             "misconception": "In a cross-country orienteering event, competitors may visit the control markers in any order they choose.",
-            "fact": "On a cross-country course, every competitor must visit the same controls in the exact sequence specified on the master map and control description sheet (p. 56).",
-            "fact_correction": "On a cross-country course, every competitor must visit the same controls in the exact sequence specified on the master map and control description sheet (p. 56).",
-            "pamphlet_page_ref": "p. 30, p. 56"
+            "fact": "On a cross-country course, every competitor must visit the same controls in the exact sequence specified on the master map and control description sheet (p. 56)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1879,12 +1882,13 @@
           "sub_req_label": "7a",
           "sub_req_text": "Take part in three orienteering events. One of these must be a cross-country course. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy system. Requirement 7(a) can be completed by pairs or groups of Scouts.",
           "topic_title": "Req 7a: Completing Three Orienteering Events",
-          "pamphlet_summary": "Completing Three Orienteering Events: Creating a map from scratch requires a little preliminaryscouting of the area (p. 30).",
+          "pamphlet_summary": "Completing Three Orienteering Events: The Orienteering pamphlet for Requirement 7a details take part in three orienteering events, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
           "pamphlet_excerpts": [
-            "Completing Three Orienteering Events: Creating a map from scratch requires a little preliminaryscouting of the area (p. 30)."
+            "Completing Three Orienteering Events: The Orienteering pamphlet for Requirement 7a details take part in three orienteering events, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p028_img1.png",
-          "workbook_diagram_caption": "A competitor punches an electronic timing stick into a control marker station on course."
+          "workbook_diagram_caption": "A competitor punches an electronic timing stick into a control marker station on course.",
+          "workbook_visual_caption": "A competitor punches an electronic timing stick into a control marker station on course."
         },
         {
           "sub_id": "7b",
@@ -1907,25 +1911,19 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. (1) a copy of the master map and control description sheet,",
-              "2. (2) a copy of the route you took on the course,",
-              "3. (3) a discussion of how you could improve your time between control points, and",
-              "4. (4) a list of your major weaknesses on this course. Describe what you could do to improve."
+              "1. After each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route you took on the course, (3)",
+              "2. Describe what you could do to improve"
             ],
             "rows": [
-              "1. (1) a copy of the master map and control description sheet,",
-              "2. (2) a copy of the route you took on the course,",
-              "3. (3) a discussion of how you could improve your time between control points, and",
-              "4. (4) a list of your major weaknesses on this course. Describe what you could do to improve."
+              "1. After each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route you took on the course, (3)",
+              "2. Describe what you could do to improve"
             ],
-            "min_rows": 4
+            "min_rows": 2
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
             "misconception": "Once you cross the finish line of an orienteering event, there is nothing left to document for the merit badge.",
-            "fact": "After each of your three events, you must write a report including the master map, control description sheet, your route choices, time, and how you would improve your route (p. 56).",
-            "fact_correction": "After each of your three events, you must write a report including the master map, control description sheet, your route choices, time, and how you would improve your route (p. 56).",
-            "pamphlet_page_ref": "p. 30, p. 56"
+            "fact": "After each of your three events, you must write a report including the master map, control description sheet, your route choices, time, and how you would improve your route (p. 56)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1952,11 +1950,13 @@
           "sub_req_label": "7b",
           "sub_req_text": "After each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route you took on the course, (3) a discussion of how you could improve your time between control points, and (4) a list of your major weaknesses on this course. Describe what you could do to improve.",
           "topic_title": "Req 7b: Writing Post-Event Course Reports",
-          "pamphlet_summary": "Writing Post-Event Course Reports: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
+          "pamphlet_summary": "Writing Post-Event Course Reports: The Orienteering pamphlet for Requirement 7b details after each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
           "pamphlet_excerpts": [
-            "Writing Post-Event Course Reports: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30)."
+            "Writing Post-Event Course Reports: The Orienteering pamphlet for Requirement 7b details after each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p028_img1.png",
+          "workbook_diagram_caption": "A competitor punches an electronic timing stick into a control marker station on course.",
+          "workbook_visual_caption": "A competitor punches an electronic timing stick into a control marker station on course."
         }
       ],
       "resources": [],
@@ -1972,7 +1972,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 7 activities.",
+      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Orienteering Requirement 7 on participating in orienteering events under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
       "pamphlet_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
       "syllabus_bucket": "Make-Up Eligible",
@@ -2001,9 +2001,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Because competitive orienteering is an individual sport, Scouts must always run courses completely alone without a buddy.",
-        "fact": "Scouting America Youth Protection procedures call for using the buddy system, so Scouts can complete orienteering events together in pairs or groups (p. 56).",
-        "fact_correction": "Scouting America Youth Protection procedures call for using the buddy system, so Scouts can complete orienteering events together in pairs or groups (p. 56).",
-        "pamphlet_page_ref": "p. 30, p. 56"
+        "fact": "Scouting America Youth Protection procedures call for using the buddy system, so Scouts can complete orienteering events together in pairs or groups (p. 56)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2048,30 +2046,30 @@
         "left_header": "Cross-Country Point-to-Point Course",
         "right_header": "Timed Score Orienteering Event",
         "left_points": [
-          "(7a) Completing Three Orienteering Events: Creating a map from scratch requires a little preliminaryscouting of the area (p. 30).",
-          "Inspecting Terrain and Hazards: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural (p. 30).",
+          "(7a) Completing Three Orienteering Events: Creating a map from scratch requires a little preliminary scouting of the area (p. 30).",
+          "Inspecting Terrain and Hazards: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
           "Recording Field Notes: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30)."
         ],
         "right_points": [
-          "(7b) Writing Post-Event Course Reports: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation (p. 30).",
+          "(7b) Writing Post-Event Course Reports: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
           "Step 2 - Identify Potential Control Sites: This will begin to give you ideas about how and where you can lay out the course (p. 30).",
-          "Step 3 - Plot a Rough Course: Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course in your (p. 30)."
+          "Step 3 - Plot a Rough Course: Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course in your notebook (p. 30)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(7a) Completing Three Orienteering Events: Creating a map from scratch requires a little preliminaryscouting of the area (p. 30).",
-            "right": "(7b) Writing Post-Event Course Reports: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation (p. 30)."
+            "attribute": "Completing Three Orienteering Events",
+            "left": "(7a) Completing Three Orienteering Events: Creating a map from scratch requires a little preliminary scouting of the area (p. 30).",
+            "right": "(7b) Writing Post-Event Course Reports: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Inspecting Terrain and Hazards: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural (p. 30).",
+            "attribute": "Practical Field Application",
+            "left": "Inspecting Terrain and Hazards: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
             "right": "Step 2 - Identify Potential Control Sites: This will begin to give you ideas about how and where you can lay out the course (p. 30)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Recording Field Notes: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30).",
-            "right": "Step 3 - Plot a Rough Course: Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course in your (p. 30)."
+            "right": "Step 3 - Plot a Rough Course: Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course in your notebook (p. 30)."
           }
         ]
       },
@@ -2079,10 +2077,10 @@
         "title": "Orienteering Req 7 Exemplar Workbook Entry: Participating in Orienteering Events",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 7a (Completing Three)": "Creating a map from scratch requires a little preliminaryscouting of the area (p. 30).",
-          "Req 7b (Writing Post-Event Course)": "Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30)."
+          "Req 7a (Completing Three Orienteering Events)": "Creating a map from scratch requires a little preliminary scouting of the area (p. 30).",
+          "Req 7b (Writing Post-Event Course Reports)": "Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30)."
         },
-        "sample_output": "Participating in Orienteering Events: Creating a map from scratch requires a little preliminaryscouting of the area (p. 30).",
+        "sample_output": "Participating in Orienteering Events: Creating a map from scratch requires a little preliminary scouting of the area (p. 30).",
         "counselor_tip": "For Orienteering Requirement 7 (Participating in Orienteering Events), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56))."
       },
       "quiz_item": {
@@ -2107,9 +2105,12 @@
         "pamphlet_page_ref": "p. 30, p. 56"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 7.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Orienteering Requirement 7 (participating in orienteering events) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/orienteering_p028_img1.png",
-      "workbook_diagram_caption": "A competitor punches an electronic timing stick into a control marker station on course."
+      "workbook_diagram_caption": "A competitor punches an electronic timing stick into a control marker station on course.",
+      "number": "7",
+      "description": "Do the following: (a) Take part in three orienteering events. One of these must be a cross-country course. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy system. Requirement 7(a) can be completed by pairs or groups of Scouts. (b) After each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route you took on the course, (3) a discussion of how you could improve your time between control points, and (4) a list of your major weaknesses on this course. Describe what you could do to improve.",
+      "workbook_visual_caption": "A competitor punches an electronic timing stick into a control marker station on course."
     },
     {
       "req_id": "8",
@@ -2151,9 +2152,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
             "misconception": "Every control point in a score orienteering event must be assigned the exact same point value regardless of distance or difficulty.",
-            "fact": "In a score orienteering course, the 12 or more control points are assigned different point values based on their distance from the start and navigation difficulty (p. 56).",
-            "fact_correction": "In a score orienteering course, the 12 or more control points are assigned different point values based on their distance from the start and navigation difficulty (p. 56).",
-            "pamphlet_page_ref": "p. 30, p. 56"
+            "fact": "In a score orienteering course, the 12 or more control points are assigned different point values based on their distance from the start and navigation difficulty (p. 56)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2180,12 +2179,13 @@
           "sub_req_label": "8a",
           "sub_req_text": "Set up a cross-country course that is at least 2,000 meters long with at least five control markers. Prepare the master map and control description sheet.",
           "topic_title": "Req 8a: Setting Up Cross-Country Courses",
-          "pamphlet_summary": "Setting Up Cross-Country Courses: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
+          "pamphlet_summary": "Setting Up Cross-Country Courses: The Orienteering pamphlet for Requirement 8a details set up a cross-country course that is at least 2,000 meters long with at least five control markers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
           "pamphlet_excerpts": [
-            "Setting Up Cross-Country Courses: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30)."
+            "Setting Up Cross-Country Courses: The Orienteering pamphlet for Requirement 8a details set up a cross-country course that is at least 2,000 meters long with at least five control markers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p027_img1.png",
-          "workbook_diagram_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route."
+          "workbook_diagram_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route.",
+          "workbook_visual_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route."
         },
         {
           "sub_id": "8b",
@@ -2227,9 +2227,7 @@
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
             "misconception": "Your very first rough sketch of a course in your field notebook is final and should never be changed.",
-            "fact": "The rough course plotted after initial reconnaissance is only a working model that you modify and fine-tune when you return to map and set the area (p. 30).",
-            "fact_correction": "The rough course plotted after initial reconnaissance is only a working model that you modify and fine-tune when you return to map and set the area (p. 30).",
-            "pamphlet_page_ref": "p. 30, p. 56"
+            "fact": "The rough course plotted after initial reconnaissance is only a working model that you modify and fine-tune when you return to map and set the area (p. 30)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -2256,11 +2254,13 @@
           "sub_req_label": "8b",
           "sub_req_text": "Set up a score orienteering course with at least 12 control points and a time limit of at least 60 minutes. Set point values for each control. Prepare the master map and control description sheet.",
           "topic_title": "Req 8b: Setting Up Score Courses",
-          "pamphlet_summary": "Setting Up Score Courses: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30).",
+          "pamphlet_summary": "Setting Up Score Courses: The Orienteering pamphlet for Requirement 8b details set up a score orienteering course with at least 12 control points and a time limit of at least 60 minutes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
           "pamphlet_excerpts": [
-            "Setting Up Score Courses: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30)."
+            "Setting Up Score Courses: The Orienteering pamphlet for Requirement 8b details set up a score orienteering course with at least 12 control points and a time limit of at least 60 minutes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/orienteering_p027_img1.png",
+          "workbook_diagram_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route.",
+          "workbook_visual_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route."
         }
       ],
       "resources": [
@@ -2281,7 +2281,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 8 activities.",
+      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Orienteering Requirement 8: travel with a buddy, carry the Scout Basic Essentials and water while studying designing an orienteering course, and respect wildlife distance and Leave No Trace guidelines.",
       "pamphlet_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
       "syllabus_bucket": "In-Class Concept",
@@ -2310,9 +2310,7 @@
       },
       "common_misconception_pair": {
         "misconception": "You can design a safe and accurate orienteering course entirely from a desk without ever visiting the terrain beforehand.",
-        "fact": "Setting up a course requires spending about a half-day scouting the terrain, vegetation, features, and hazards in person with a notebook before finalizing the layout (p. 30).",
-        "fact_correction": "Setting up a course requires spending about a half-day scouting the terrain, vegetation, features, and hazards in person with a notebook before finalizing the layout (p. 30).",
-        "pamphlet_page_ref": "p. 30, p. 56"
+        "fact": "Setting up a course requires spending about a half-day scouting the terrain, vegetation, features, and hazards in person with a notebook before finalizing the layout (p. 30)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2352,30 +2350,30 @@
         "left_header": "Five-Control Cross-Country Course Setup",
         "right_header": "Twelve-Control Score Course Setup",
         "left_points": [
-          "(8a) Setting Up Cross-Country Courses: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation (p. 30).",
-          "Surveying Features and Hazards: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural (p. 30).",
+          "(8a) Setting Up Cross-Country Courses: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
+          "Surveying Features and Hazards: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
           "Logging Site Details: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30)."
         ],
         "right_points": [
-          "(8b) Setting Up Score Courses: Take a small notebook along to record information about the site that you want to remember as you make (p. 30).",
+          "(8b) Setting Up Score Courses: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30).",
           "Step 2 - Select Control Marker Locations: This will begin to give you ideas about how and where you can lay out the course (p. 30).",
-          "Step 3 - Draft Rough Course Layout: Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course (p. 30)."
+          "Step 3 - Draft Rough Course Layout: Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course in your notebook (p. 30)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(8a) Setting Up Cross-Country Courses: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation (p. 30).",
-            "right": "(8b) Setting Up Score Courses: Take a small notebook along to record information about the site that you want to remember as you make (p. 30)."
+            "attribute": "Setting Up Cross-Country Courses",
+            "left": "(8a) Setting Up Cross-Country Courses: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
+            "right": "(8b) Setting Up Score Courses: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Surveying Features and Hazards: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural (p. 30).",
+            "attribute": "Practical Field Application",
+            "left": "Surveying Features and Hazards: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
             "right": "Step 2 - Select Control Marker Locations: This will begin to give you ideas about how and where you can lay out the course (p. 30)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Logging Site Details: Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30).",
-            "right": "Step 3 - Draft Rough Course Layout: Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course (p. 30)."
+            "right": "Step 3 - Draft Rough Course Layout: Take a few minutes after your reconnaissance (inspection) of the area to plot a rough course in your notebook (p. 30)."
           }
         ]
       },
@@ -2383,10 +2381,10 @@
         "title": "Orienteering Req 8 Exemplar Workbook Entry: Designing an Orienteering Course",
         "artifact_type": "RULED_EXPLAIN_BOX",
         "fields": {
-          "Req 8a (Setting Up Cross-Country)": "Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
+          "Req 8a (Setting Up Cross-Country Courses)": "Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
           "Req 8b (Setting Up Score Courses)": "Take a small notebook along to record information about the site that you want to remember as you make your map (p. 30)."
         },
-        "sample_output": "Designing an Orienteering Course: Take a half-day to thoroughly familiarizeyourself with things such as the terrain, vegetation, natural (p. 30).",
+        "sample_output": "Designing an Orienteering Course: Take a half-day to thoroughly familiarize yourself with things such as the terrain, vegetation, natural and artificial features, hazards, and potential (p. 30).",
         "counselor_tip": "For Orienteering Requirement 8 (Designing an Orienteering Course), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56))."
       },
       "quiz_item": {
@@ -2411,9 +2409,12 @@
         "pamphlet_page_ref": "p. 30, p. 56"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 8.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Orienteering Requirement 8 (designing an orienteering course) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/orienteering_p027_img1.png",
-      "workbook_diagram_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route."
+      "workbook_diagram_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route.",
+      "number": "8",
+      "description": "Do ONE of the following: (a) Set up a cross-country course that is at least 2,000 meters long with at least five control markers. Prepare the master map and control description sheet. (b) Set up a score orienteering course with at least 12 control points and a time limit of at least 60 minutes. Set point values for each control. Prepare the master map and control description sheet.",
+      "workbook_visual_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route."
     },
     {
       "req_id": "9",
@@ -2435,7 +2436,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 9 activities.",
+      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Orienteering Requirement 9: travel with a buddy, carry the Scout Basic Essentials and water while studying officiating an orienteering event, and respect wildlife distance and Leave No Trace guidelines.",
       "pamphlet_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53)",
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 35, p. 53)",
       "syllabus_bucket": "In-Class Concept",
@@ -2464,9 +2465,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Competitors are allowed to use handheld GPS receivers or smartphone mapping apps alongside their compass during a sanctioned orienteering race.",
-        "fact": "Under Orienteering USA rules, using any navigational aid other than a magnetic compass during a race is strictly prohibited (p. 35).",
-        "fact_correction": "Under Orienteering USA rules, using any navigational aid other than a magnetic compass during a race is strictly prohibited (p. 35).",
-        "pamphlet_page_ref": "p. 35, p. 53"
+        "fact": "Under Orienteering USA rules, using any navigational aid other than a magnetic compass during a race is strictly prohibited (p. 35)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2507,28 +2506,28 @@
         "right_header": "Finish Timer and Safety Check",
         "left_points": [
           "Orienteering USA Governing Body: Orienteering USA is the ruling body for sanctioned orienteering events in the United States (p. 35).",
-          "Official Rules and Conduct: Its rule book is comprehensive and addresses the technicalities of holding an event, as well as conduct (p. 35).",
-          "Consulting the Rule Book: A few general rules are provided below, but for detailed information, it is best to consult the rule book (p. 35)."
+          "Official Rules and Conduct: Its rule book is comprehensive and addresses the technicalities of holding an event, as well as conduct that is expected of the participants (p. 35).",
+          "Consulting the Rule Book: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA (p. 35)."
         ],
         "right_points": [
-          "Step 1 - Review Official OUSA Rules: A few general rules are provided below, but for detailed information, it is best to consult (p. 35).",
-          "Step 2 - Screen Out Unfair Advantages: Competitors who have prior knowledge of the course that will give them an unfair advantage (p. 35).",
+          "Step 1 - Review Official OUSA Rules: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA (p. 35).",
+          "Step 2 - Screen Out Unfair Advantages: Competitors who have prior knowledge of the course that will give them an unfair advantage should not participate (p. 35).",
           "Step 3 - Prohibit Pre-Event Course Inspection: Investigation of the course before an event is forbidden (p. 35)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Orienteering USA Governing Body",
             "left": "Orienteering USA Governing Body: Orienteering USA is the ruling body for sanctioned orienteering events in the United States (p. 35).",
-            "right": "Step 1 - Review Official OUSA Rules: A few general rules are provided below, but for detailed information, it is best to consult (p. 35)."
+            "right": "Step 1 - Review Official OUSA Rules: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA (p. 35)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Official Rules and Conduct: Its rule book is comprehensive and addresses the technicalities of holding an event, as well as conduct (p. 35).",
-            "right": "Step 2 - Screen Out Unfair Advantages: Competitors who have prior knowledge of the course that will give them an unfair advantage (p. 35)."
+            "attribute": "Practical Field Application",
+            "left": "Official Rules and Conduct: Its rule book is comprehensive and addresses the technicalities of holding an event, as well as conduct that is expected of the participants (p. 35).",
+            "right": "Step 2 - Screen Out Unfair Advantages: Competitors who have prior knowledge of the course that will give them an unfair advantage should not participate (p. 35)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "Consulting the Rule Book: A few general rules are provided below, but for detailed information, it is best to consult the rule book (p. 35).",
+            "attribute": "Safety & Verification Standard",
+            "left": "Consulting the Rule Book: A few general rules are provided below, but for detailed information, it is best to consult the rule book or to contact the OUSA (p. 35).",
             "right": "Step 3 - Prohibit Pre-Event Course Inspection: Investigation of the course before an event is forbidden (p. 35)."
           }
         ]
@@ -2567,9 +2566,12 @@
         "pamphlet_page_ref": "p. 35, p. 53"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 9.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Orienteering Requirement 9 (officiating an orienteering event) before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/orienteering_p048_img1.png",
-      "workbook_diagram_caption": "Two scouts study an orienteering map together in the woods to select the fastest route choice."
+      "workbook_diagram_caption": "Two scouts study an orienteering map together in the woods to select the fastest route choice.",
+      "number": "9",
+      "description": "Act as an official during an orienteering event. This may be during the running of the course you set up for requirement 8.",
+      "workbook_visual_caption": "Two scouts study an orienteering map together in the woods to select the fastest route choice."
     },
     {
       "req_id": "10",
@@ -2591,7 +2593,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Orienteering Requirement 10 activities.",
+      "safety_callout": "Follow BSA Guide to Safe Scouting field protocols for Orienteering Requirement 10: travel with a buddy, carry the Scout Basic Essentials and water while studying teaching orienteering techniques to scouts, and respect wildlife distance and Leave No Trace guidelines.",
       "pamphlet_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43)",
       "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43)",
       "syllabus_bucket": "In-Class Concept",
@@ -2609,18 +2611,18 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Teach orienteering techniques to your patrol, troop, or crew."
+          "1. Teach orienteering techniques to your patrol, troop, or crew",
+          "2. Practical execution and real-world examples for Teaching Orienteering Techniques to Scouts"
         ],
         "rows": [
-          "1. Teach orienteering techniques to your patrol, troop, or crew."
+          "1. Teach orienteering techniques to your patrol, troop, or crew",
+          "2. Practical execution and real-world examples for Teaching Orienteering Techniques to Scouts"
         ],
-        "min_rows": 1
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "A handrail in orienteering refers only to a wooden or metal safety railing built along a steep park staircase.",
-        "fact": "In orienteering, a handrail is any linear feature you can follow toward a control, ranging from obvious trails and roads to ridge lines, valleys, or tree lines (p. 41).",
-        "fact_correction": "In orienteering, a handrail is any linear feature you can follow toward a control, ranging from obvious trails and roads to ridge lines, valleys, or tree lines (p. 41).",
-        "pamphlet_page_ref": "p. 41, p. 43"
+        "fact": "In orienteering, a handrail is any linear feature you can follow toward a control, ranging from obvious trails and roads to ridge lines, valleys, or tree lines (p. 41)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -2666,24 +2668,24 @@
         ],
         "right_points": [
           "Step 1 - Follow Linear Trail Handrails: The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41).",
-          "Step 2 - Check Off Passing Landmarks: Collecting, Check-Off, and Catching Features Always look around and take note of the features you (p. 41).",
-          "Step 3 - Spot Large Collecting Features: There may be some obvious features along the route, such as a large pond or small lake, that (p. 41)."
+          "Step 2 - Check Off Passing Landmarks: Collecting, Check-Off, and Catching Features Always look around and take note of the features you pass as you move toward the next control (p. 41).",
+          "Step 3 - Spot Large Collecting Features: There may be some obvious features along the route, such as a large pond or small lake, that will help send you in the right direction (p. 41)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Natural Terrain Handrails",
             "left": "Natural Terrain Handrails: More obscure handrails might be ridge lines, valleys, tree lines, forest fire burns, or avalanche scars (p. 41).",
             "right": "Step 1 - Follow Linear Trail Handrails: The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Handrails on Beginner Courses: Beginners' courses rely heavily on handrails to help the novice get to each control (p. 41).",
-            "right": "Step 2 - Check Off Passing Landmarks: Collecting, Check-Off, and Catching Features Always look around and take note of the features you (p. 41)."
+            "right": "Step 2 - Check Off Passing Landmarks: Collecting, Check-Off, and Catching Features Always look around and take note of the features you pass as you move toward the next control (p. 41)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Trails as Simple Handrails: The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41).",
-            "right": "Step 3 - Spot Large Collecting Features: There may be some obvious features along the route, such as a large pond or small lake, that (p. 41)."
+            "right": "Step 3 - Spot Large Collecting Features: There may be some obvious features along the route, such as a large pond or small lake, that will help send you in the right direction (p. 41)."
           }
         ]
       },
@@ -2696,7 +2698,7 @@
           "Trails as Simple Handrails": "The route for the easiest courses may actually go right down a trail or road, the handrail (p. 41).",
           "Tracking Features While Moving": "Collecting, Check-Off, and Catching Features Always look around and take note of the features you pass as you move toward the next control (p. 41)."
         },
-        "sample_output": "Teaching Orienteering Techniques to Scouts: More obscure handrails might be ridge lines, valleys, tree lines, forest fire burns, or avalanche (p. 41).",
+        "sample_output": "Teaching Orienteering Techniques to Scouts: More obscure handrails might be ridge lines, valleys, tree lines, forest fire burns, or avalanche scars (p. 41).",
         "counselor_tip": "For Orienteering Requirement 10 (Teaching Orienteering Techniques to Scouts), verify the Scout's own observations and specific pamphlet details (Official Scouting America Orienteering Merit Badge Pamphlet (p. 41, p. 43))."
       },
       "quiz_item": {
@@ -2721,9 +2723,12 @@
         "pamphlet_page_ref": "p. 41, p. 43"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Orienteering Workbook organizer table and practical demonstration for Req 10.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Orienteering Requirement 10 (teaching orienteering techniques to scouts) before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/orienteering_p050_img1.png",
-      "workbook_diagram_caption": "Scouts find an orange and white three-sided control marker hanging on a woodland tree trunk."
+      "workbook_diagram_caption": "Scouts find an orange and white three-sided control marker hanging on a woodland tree trunk.",
+      "number": "10",
+      "description": "Teach orienteering techniques to your patrol, troop, or crew.",
+      "workbook_visual_caption": "Scouts find an orange and white three-sided control marker hanging on a woodland tree trunk."
     }
   ],
   "badge_slug": "orienteering",
@@ -2978,5 +2983,12 @@
       "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
       "Field notebook, pen/pencil, and personal safety equipment (PPE)"
     ]
+  },
+  "source_url": "https://www.scouting.org/merit-badges/orienteering/",
+  "scouting_org_url": "https://www.scouting.org/merit-badges/orienteering/",
+  "local_grounding_spec": {
+    "council_jurisdiction": "Local BSA Council & Municipal Code",
+    "facility_type": "Approved Orienteering field site or counselor workspace",
+    "emergency_contact_protocol": "BSA Two-Deep Leadership & Local EMS (911)"
   }
 }

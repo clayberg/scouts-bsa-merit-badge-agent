@@ -4523,16 +4523,28 @@ def _merge_curated_with_official_requirements(
     for off_r in official_reqs:
         r_num = str(off_r.get("req_number", ""))
         if r_num in curated_by_num:
-            m_req = dict(curated_by_num[r_num])
+            c_req = dict(curated_by_num[r_num])
+            m_req = dict(c_req)
+            m_req.update(off_r)
             m_req["req_id"] = r_num
             m_req["req_number"] = r_num
             m_req["parent_id"] = None
-            m_req["req_text"] = off_r.get("req_text") or m_req.get("req_text", "")
-            m_req["sub_requirements"] = list(off_r.get("sub_requirements") or [])
-            for extra_k in (
+            m_req["req_text"] = off_r.get("req_text") or c_req.get("req_text", "")
+            m_req["sub_requirements"] = list(off_r.get("sub_requirements") or c_req.get("sub_requirements") or [])
+            for fallback_k in (
+                "topic_title",
+                "action_verb",
+                "execution_mode",
                 "syllabus_bucket",
-                "workbook_organizer",
                 "pamphlet_page_citation",
+                "pamphlet_excerpts",
+                "step_by_step_procedure",
+                "worked_example",
+                "comparison_data",
+                "quiz_item",
+                "safety_callout",
+                "gear_checklist",
+                "workbook_organizer",
                 "common_misconception_pair",
                 "starting_requirement_gate",
                 "curated_resources",
@@ -4541,27 +4553,23 @@ def _merge_curated_with_official_requirements(
                 "workbook_diagram_url",
                 "workbook_diagram_caption",
             ):
-                if off_r.get(extra_k) is not None and not m_req.get(extra_k):
-                    m_req[extra_k] = off_r[extra_k]
+                if not m_req.get(fallback_k) and c_req.get(fallback_k):
+                    m_req[fallback_k] = c_req[fallback_k]
+            if (
+                c_req.get("topic_title")
+                and off_r.get("topic_heading")
+                and str(off_r.get("topic_heading")).lower() in str(c_req.get("topic_title")).lower()
+            ):
+                m_req["topic_title"] = str(c_req["topic_title"])
             if m_req.get("topic_title"):
                 m_req["topic_title"] = re.sub(
                     r"^Req\s+[0-9a-zA-Z]+\s*:",
                     f"Req {r_num}:",
                     str(m_req["topic_title"]),
                 )
-            if m_req.get("topic_slides"):
-                updated_ts = []
-                for ts in m_req["topic_slides"]:
-                    ts_c = dict(ts)
-                    if ts_c.get("title"):
-                        # Only rewrite bare parent requirement numbers that changed, preserving sub-requirement suffixes like Req 4c or Req 13e
-                        ts_c["title"] = re.sub(
-                            r"\b(Req(?:uirement)?)\s+(\d+)([a-zA-Z]*)\b",
-                            lambda m: f"{m.group(1)} {r_num}{m.group(3)}" if m.group(2) != r_num else m.group(0),
-                            str(ts_c["title"]),
-                        )
-                    updated_ts.append(ts_c)
-                m_req["topic_slides"] = updated_ts
+            # Drop legacy static topic_slides from BENCHMARK_BADGES_DATA so decompose_requirement_into_topic_slides
+            # dynamically builds slides from the authoritative V36 official requirement data.
+            m_req.pop("topic_slides", None)
             merged_reqs.append(m_req)
         else:
             m_off = dict(off_r)
@@ -5139,7 +5147,7 @@ def get_badge_option_tracks(badge_name: str) -> List[Dict[str, Any]]:
             for sr in opt_subs:
                 txt = str(sr.get("text") or "").strip()
                 m = re.match(
-                    r"^Option\s+([A-Z1-9])(?:\s*[\u2014\u2013\-:]\s*|\s+)([^.]+)",
+                    r"^Option\s+([A-Z1-9])(?:\s*[\u2014\u2013\-:,]\s*|\s+)([^.]+)",
                     txt,
                     flags=re.IGNORECASE,
                 )
@@ -5301,8 +5309,8 @@ def _unroll_multi_option_requirements(
         if badge_lower == "golf":
             for sr in active_opt_subs:
                 txt = str(sr.get("text") or "").strip()
-                m = re.match(r"^Option\s+([A-Z1-9])(?:\s*[\u2014\u2013\-:]\s*|\s+)([^.]+)", txt, flags=re.IGNORECASE)
-                opt_k = m.group(1).upper() if m else "A"
+                m = re.match(r"^Option\s+([A-Z1-9])(?:\s*[\u2014\u2013\-:,]\s*|\s+)([^.]+)", txt, flags=re.IGNORECASE)
+                opt_k = m.group(1).upper() if m else str(sr.get("option_key") or sr.get("label") or "A").strip("()").upper()
                 opt_title = _clean_option_title(m.group(2).strip() if m else f"Option {opt_k}", opt_k)
                 base_sub_id = str(sr.get("sub_id") or f"2{opt_k.lower()}")
                 children = list(sr.get("children") or [])
@@ -5448,7 +5456,7 @@ def _unroll_multi_option_requirements(
         # Case 2: All Other Multi-Option Badges
         for sr in active_opt_subs:
             txt = str(sr.get("text") or "").strip()
-            m = re.match(r"^Option\s+([A-Z1-9])(?:\s*[\u2014\u2013\-:]\s*|\s+)([^.]+)", txt, flags=re.IGNORECASE)
+            m = re.match(r"^Option\s+([A-Z1-9])(?:\s*[\u2014\u2013\-:,]\s*|\s+)([^.]+)", txt, flags=re.IGNORECASE)
             if m:
                 opt_k = m.group(1).upper()
                 raw_opt_title = m.group(2).strip()
@@ -5848,14 +5856,17 @@ def _resolve_workbook_diagram_url(
             "6b": "assets/ai_illustrations/first_aid_burns_epi_visual.png",
             "7d": "assets/ai_illustrations/first_aid_cpr_aed_visual.png",
             "8d(1)": "assets/ai_illustrations/first_aid_splinting_carries_visual.png",
+            "9a": "assets/pamphlet_images/first_aid_p066_img1.png",
             "10a": "assets/ai_illustrations/first_aid_bites_stings_ticks_visual.png",
             "11c": "assets/ai_illustrations/first_aid_heat_hypothermia_visual.png",
             "12a": "assets/ai_illustrations/first_aid_req_12_topic_visual.png",
             "13e": "assets/ai_illustrations/first_aid_stroke_fast_seizure_visual.png",
             "14": "assets/ai_illustrations/first_aid_req_14_topic_visual.png",
+            "14a": "assets/ai_illustrations/first_aid_req_14_topic_visual.png",
             "15b": "assets/ai_illustrations/first_aid_req_15_topic_visual.png",
         }
-        return first_aid_exact_map.get(r_clean, "")
+        if r_clean in first_aid_exact_map:
+            return first_aid_exact_map[r_clean]
 
     # 2. Exact subject-matter diagram mapping for Weather (12 requirements)
     if b_low == "weather":
@@ -5949,6 +5960,10 @@ def _is_comma_chopped_or_boilerplate_row(row_str: str) -> bool:
         "milestone 1 observation & measurements",
         "milestone 2 observation & measurements",
         "final summary, totals & counselor review",
+        "practical execution and real-world examples for ",
+        "step-by-step field procedure and execution for ",
+        "safety checks, observations, and counselor review for ",
+        "safety checks, measurements, and counselor verification for ",
     )
     if any(bp in sl for bp in boilerplate_patterns):
         return True
@@ -5974,13 +5989,60 @@ def _is_comma_chopped_or_boilerplate_row(row_str: str) -> bool:
         " of", " the", " a", " an", " to", " for", " with", " your", " and", " or",
         " in", " on", " at", " by", " from", " as", " such as", " including",
         " parent or guardian's", " week's", " counselor's",
+        "(e.", "(i.", " e.", " i.", " vs.",
     )):
+        return True
+    if sl.startswith(("g.,", "e.,", "g. ", "e. ")):
         return True
     return False
 
 
+def _clean_row_clause_without_ellipsis(text: str, max_chars: int = 220) -> str:
+    """Trims a requirement prompt clause cleanly at a natural boundary without ellipses ('...') or unbalanced parens."""
+    import re
+
+    s = re.sub(r"\s+", " ", str(text or "")).strip().rstrip("…")
+    if s.endswith("..."):
+        s = s[:-3].strip()
+    if not s:
+        return ""
+    if len(s) > max_chars:
+        window = s[:max_chars]
+        split_done = False
+        for sep in (". ", "; ", ", which ", ", where ", ", while ", ", including ", ", such as ", ", and ", ", or "):
+            pos = window.rfind(sep)
+            if pos >= 55 and window[:pos].count("(") == window[:pos].count(")"):
+                s = window[:pos].strip()
+                split_done = True
+                break
+        if not split_done:
+            s = window.rsplit(" ", 1)[0].strip()
+    if s.count("(") > s.count(")"):
+        last_open = s.rfind("(")
+        if last_open >= 24:
+            s = s[:last_open].strip()
+        else:
+            s = s.replace("(", "")
+    elif s.count(")") > s.count("("):
+        s = s.replace(")", "")
+    _dangling_tail = {
+        "a", "an", "the", "of", "in", "to", "for", "with", "on", "at", "from", "by",
+        "as", "into", "through", "after", "over", "between", "under", "and", "or",
+        "but", "that", "which", "who", "where", "when", "while", "your", "their",
+        "our", "its", "this", "these", "those", "such", "including", "e.g", "i.e", "vs",
+    }
+    words = s.rstrip(" ,;:-").split()
+    while len(words) > 4:
+        last_w = re.sub(r"^[^A-Za-z0-9']+|[^A-Za-z0-9'.]+$", "", words[-1]).lower().rstrip(".")
+        if not last_w or last_w in _dangling_tail:
+            words.pop()
+        else:
+            break
+    return " ".join(words).rstrip(" ,;:-")
+
+
 def _derive_clean_rows_from_req_text(req_num: str, req_text: str, verb: str) -> List[str]:
-    """Derives 1 to 4 clean, complete requirement prompt rows from verbatim `req_text` without comma-chopping."""
+    """Derives 1 to 4 clean, complete requirement prompt rows from verbatim `req_text` without comma-chopping or ellipses."""
     import re
 
     clean_txt = _clean_ocr_and_prefix_text(str(req_text or "").strip())
@@ -5993,24 +6055,39 @@ def _derive_clean_rows_from_req_text(req_num: str, req_text: str, verb: str) -> 
     if len(paren_items) >= 2:
         out_p: List[str] = []
         for idx_p, item in enumerate(paren_items[:12], start=1):
-            clipped = item if len(item) <= 135 else item[:132].rsplit(" ", 1)[0] + "..."
+            clipped = _clean_row_clause_without_ellipsis(item, max_chars=220)
             out_p.append(f"{idx_p}. {clipped}")
         return out_p
 
-    # Split on sentence boundaries (never commas!)
+    # Protect abbreviations (e.g., i.e., vs., U.S., Dr., Mr., St., No., Fig., pp., Req.) before sentence splitting
+    _abbr_tok = "\x00"
+    prot_txt = re.sub(
+        r"\b(e\.g|i\.e|vs|U\.S|Dr|Mr|Mrs|Ms|St|Mt|Ft|ft|in|oz|lbs?|min|sec|hr|No|Nos|Fig|Figs|pp?|Reqs?|Sec|approx)\.",
+        lambda m: f"{m.group(1)}{_abbr_tok}",
+        clean_txt,
+        flags=re.IGNORECASE,
+    )
+    prot_txt = re.sub(r"\(([eEiI])\.\s*([gGeE])\.", lambda m: f"({m.group(1)}{_abbr_tok}{m.group(2)}{_abbr_tok}", prot_txt)
+
+    # Split on genuine sentence boundaries (never commas or protected abbreviations!)
+    raw_sents = [
+        s.replace(_abbr_tok, ".").strip()
+        for s in re.split(r"(?<=[.?!])\s+", prot_txt)
+        if s.strip()
+    ]
     sentences = [
-        s.strip()
-        for s in re.split(r"(?<=[.?!])\s+", clean_txt)
-        if s.strip() and not re.match(r"^(?:Do|Complete|Discuss|Explain|Choose)\s+(?:the\s+following|ONE|ALL)\s*[:.]?$", s.strip(), flags=re.IGNORECASE)
+        s
+        for s in raw_sents
+        if not re.match(r"^(?:Do|Complete|Discuss|Explain|Choose)\s+(?:the\s+following|ONE|ALL)\s*[:.]?$", s, flags=re.IGNORECASE)
     ]
     if len(sentences) >= 2:
         out_s: List[str] = []
         for idx_s, sent in enumerate(sentences[:4], start=1):
-            clipped = sent if len(sent) <= 135 else sent[:132].rsplit(" ", 1)[0] + "..."
+            clipped = _clean_row_clause_without_ellipsis(sent, max_chars=220)
             out_s.append(f"{idx_s}. {clipped}")
         return out_s
 
-    clipped_single = clean_txt if len(clean_txt) <= 140 else clean_txt[:137].rsplit(" ", 1)[0] + "..."
+    clipped_single = _clean_row_clause_without_ellipsis(clean_txt, max_chars=220)
     return [f"1. {clipped_single}"]
 
 
@@ -6021,6 +6098,7 @@ def _sanitize_workbook_organizer_runtime(
     verb: str,
     parent_text: str = "",
     badge_name: str = "",
+    comparison_data: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Fixes sub-requirement organizer specialization, table over-replication, unused enums, and broken clause row_labels at runtime."""
     import re
@@ -6032,6 +6110,41 @@ def _sanitize_workbook_organizer_runtime(
     ptl = str(parent_text or "").strip().lower()
     org_type = str(out.get("organizer_type") or "RULED_EXPLAIN_BOX").strip().upper()
     rows = [_clean_ocr_and_prefix_text(str(r)) for r in (out.get("row_labels") or []) if str(r).strip()]
+
+    # 0. Replace generic COMPARE_CONTRAST_2COL headers ('Primary Concept / System A', 'Secondary Concept / System B')
+    # with actual comparison_data['left_header'] and comparison_data['right_header'] or concrete subject headers
+    cur_headers = [str(h).strip() for h in (out.get("headers") or out.get("column_headers") or []) if str(h).strip()]
+    has_generic_comp_hdr = any(
+        "primary concept / system a" in h.lower() or "secondary concept / system b" in h.lower()
+        for h in cur_headers
+    )
+    if has_generic_comp_hdr or (org_type == "COMPARE_CONTRAST_2COL" and not cur_headers):
+        comp_d = comparison_data if isinstance(comparison_data, dict) else {}
+        left_h = str(comp_d.get("left_header") or "").strip()
+        right_h = str(comp_d.get("right_header") or "").strip()
+        if not (left_h and right_h):
+            m_between = re.search(
+                r"\b(?:between|compare|contrast|distinguish)\s+([A-Za-z0-9 ,/'\-]{3,38}?)\s+(?:and|vs\.?|versus|with)\s+([A-Za-z0-9 ,/'\-]{3,38}?)(?:[.;:?]|$)",
+                str(req_text or parent_text or ""),
+                flags=re.IGNORECASE,
+            )
+            if m_between:
+                left_h = m_between.group(1).strip(" .,:;-").title()
+                right_h = m_between.group(2).strip(" .,:;-").title()
+        if left_h and right_h:
+            out["headers"] = [
+                f"Req {req_num} Comparison Aspect",
+                left_h,
+                right_h,
+            ]
+            out["column_headers"] = list(out["headers"])
+        else:
+            out["headers"] = [
+                f"Req {req_num} Concept / Prompt",
+                f"Req {req_num} Key Characteristics & Mechanism",
+                "Key Difference & Field Application",
+            ]
+            out["column_headers"] = list(out["headers"])
 
     # 0A. Cooking: Scope MEAL_PLANNER_AND_COST_TABLE strictly to actual menu/recipe planning sub-requirements (4a, 4c, 5a, 5b, 5c, 6a, 6c)
     cooking_menu_ids = {"4a", "4c", "5a", "5b", "5c", "6a", "6c"}
@@ -6474,11 +6587,18 @@ def _sanitize_workbook_organizer_runtime(
         repaired_rows.append(cur)
         idx_r += 1
 
-    # Filter out dead boilerplate filler rows and heal comma-chopped fragments
-    valid_rows = [r for r in repaired_rows if not _is_comma_chopped_or_boilerplate_row(r)]
-    if not valid_rows or len(valid_rows) < len(repaired_rows) and any(_is_comma_chopped_or_boilerplate_row(r) for r in repaired_rows[:1]):
+    # Filter out dead boilerplate filler rows and heal comma-chopped or abbreviation-split fragments
+    valid_rows = [
+        _clean_row_clause_without_ellipsis(r, max_chars=220)
+        for r in repaired_rows
+        if not _is_comma_chopped_or_boilerplate_row(r)
+    ]
+    if (
+        not valid_rows
+        or (len(valid_rows) < len(repaired_rows) and any(_is_comma_chopped_or_boilerplate_row(r) for r in repaired_rows))
+    ):
         derived_rows = _derive_clean_rows_from_req_text(req_num, req_text, verb)
-        repaired_rows = derived_rows if not valid_rows else valid_rows
+        repaired_rows = derived_rows if derived_rows else valid_rows
     else:
         repaired_rows = valid_rows
 
@@ -6504,9 +6624,11 @@ def _build_child_workbook_organizer(
     parent_org: Dict[str, Any],
     parent_text: str,
     badge_name: str = "",
+    comparison_data: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Builds a child/grandchild workbook_organizer without blindly copying parent row_labels."""
     explicit_org = child_node.get("workbook_organizer")
+    eff_comp = child_node.get("comparison_data") or comparison_data
     parent_rows = list((parent_org or {}).get("row_labels") or [])
     if isinstance(explicit_org, dict) and explicit_org:
         base_org = dict(explicit_org)
@@ -6543,7 +6665,13 @@ def _build_child_workbook_organizer(
             "pre_approval_gate": "approval" in child_text.lower(),
         }
     return _sanitize_workbook_organizer_runtime(
-        base_org, child_id, child_text, child_verb, parent_text=parent_text, badge_name=badge_name
+        base_org,
+        child_id,
+        child_text,
+        child_verb,
+        parent_text=parent_text,
+        badge_name=badge_name,
+        comparison_data=eff_comp,
     )
 
 
@@ -6563,6 +6691,39 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
     units: List[Dict[str, Any]] = []
     seen_diagrams: set = set()
     seen_misconceptions: set = set()
+
+    # Build a per-badge pool of authentic interior pamphlet figures so unrolled sub-requirements
+    # (1a, 1b, 1c, etc.) can receive distinct unused diagrams instead of suppressing all diagrams after 1a.
+    b_slug = re.sub(r"[^a-z0-9]+", "_", str(badge_name or "").strip().lower()).strip("_")
+    reserved_explicit_diags: set = set()
+    for _r_it in (reqs or []):
+        _d0 = str(_r_it.get("workbook_diagram_url") or "").strip().lstrip("/")
+        if _d0:
+            reserved_explicit_diags.add(_d0)
+        for _sr_it in (_r_it.get("sub_requirements") or []):
+            if isinstance(_sr_it, dict):
+                _d1 = str(_sr_it.get("workbook_diagram_url") or "").strip().lstrip("/")
+                if _d1:
+                    reserved_explicit_diags.add(_d1)
+                for _ch_it in (_sr_it.get("children") or []):
+                    if isinstance(_ch_it, dict):
+                        _d2 = str(_ch_it.get("workbook_diagram_url") or "").strip().lstrip("/")
+                        if _d2:
+                            reserved_explicit_diags.add(_d2)
+    pamphlet_pool: List[str] = [
+        fig_p
+        for fig_p in (_get_pamphlet_badge_diagram_index().get(b_slug) or [])
+        if fig_p not in reserved_explicit_diags
+    ]
+    pool_cursor = [0]
+
+    def _pop_next_unused_badge_diagram() -> str:
+        while pool_cursor[0] < len(pamphlet_pool):
+            cand_fig = pamphlet_pool[pool_cursor[0]]
+            pool_cursor[0] += 1
+            if cand_fig not in seen_diagrams and cand_fig not in reserved_explicit_diags:
+                return cand_fig
+        return ""
 
     def _claim_unique_misconception(
         cand: Optional[Dict[str, Any]],
@@ -6599,8 +6760,14 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             )
         ).strip()
         r_cit = str(r.get("pamphlet_page_citation") or r.get("pamphlet_citation") or "Official BSA Pamphlet").strip()
+        r_comp = r.get("comparison_data") if isinstance(r.get("comparison_data"), dict) else None
         r_org = _sanitize_workbook_organizer_runtime(
-            dict(r.get("workbook_organizer") or {}), r_num, r_text, r_verb, badge_name=badge_name
+            dict(r.get("workbook_organizer") or {}),
+            r_num,
+            r_text,
+            r_verb,
+            badge_name=badge_name,
+            comparison_data=r_comp,
         )
         raw_r_mis = dict(r.get("common_misconception_pair") or {})
         if not raw_r_mis:
@@ -6731,7 +6898,14 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             sr_bucket = str(sr.get("syllabus_bucket") or r_bucket).strip()
             sr_cit = str(sr.get("pamphlet_page_citation") or sr.get("pamphlet_citation") or r_cit).strip()
             sr_org = _build_child_workbook_organizer(
-                sr, sr_id, sr_text, sr_verb, r_org, r_text, badge_name=badge_name
+                sr,
+                sr_id,
+                sr_text,
+                sr_verb,
+                r_org,
+                r_text,
+                badge_name=badge_name,
+                comparison_data=r_comp,
             )
 
             sr_mis = _claim_unique_misconception(
@@ -6822,10 +6996,15 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             seen_sr_row_tuples.add(sr_row_tup)
 
             sr_is_group_header = bool(children) and not children_are_short_condition_rows
-            if sr_is_group_header or sr_diag in seen_diagrams:
+            if sr_is_group_header:
                 sr_diag_emit = ""
             else:
-                sr_diag_emit = sr_diag
+                if not sr_diag or sr_diag in seen_diagrams:
+                    if not req_diag_emitted and r_diag and r_diag not in seen_diagrams:
+                        sr_diag = r_diag
+                    else:
+                        sr_diag = _pop_next_unused_badge_diagram()
+                sr_diag_emit = sr_diag if (sr_diag and sr_diag not in seen_diagrams) else ""
                 if sr_diag_emit:
                     seen_diagrams.add(sr_diag_emit)
                     req_diag_emitted = True
@@ -6893,7 +7072,14 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 ch_bucket = str(ch.get("syllabus_bucket") or sr_bucket).strip()
                 ch_cit = str(ch.get("pamphlet_page_citation") or ch.get("pamphlet_citation") or sr_cit).strip()
                 ch_org = _build_child_workbook_organizer(
-                    ch, ch_id, ch_text, ch_verb, sr_org, sr_text, badge_name=badge_name
+                    ch,
+                    ch_id,
+                    ch_text,
+                    ch_verb,
+                    sr_org,
+                    sr_text,
+                    badge_name=badge_name,
+                    comparison_data=sr.get("comparison_data") or r_comp,
                 )
                 ch_mis = _claim_unique_misconception(
                     ch.get("common_misconception_pair"), ch_id, ch_text, ch_verb, ch_cit
@@ -6958,6 +7144,11 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                     ch_text,
                     str(ch.get("workbook_diagram_url") or (r_diag if not req_diag_emitted else "")),
                 )
+                if not ch_diag or ch_diag in seen_diagrams:
+                    if not req_diag_emitted and r_diag and r_diag not in seen_diagrams:
+                        ch_diag = r_diag
+                    else:
+                        ch_diag = _pop_next_unused_badge_diagram()
                 if ch_diag in seen_diagrams:
                     ch_diag = ""
                 elif ch_diag:
@@ -7497,8 +7688,8 @@ def generate_fillable_scout_workbook_html(
         if p_key and p_key not in raw_parent_titles:
             t_raw = str(r_item.get("topic_title") or r_item.get("title") or r_item.get("req_text") or "").strip()
             t_clean = re.sub(r"^(?:Requirement\s+\S+\s*[:\-\u2013\u2014]\s*)", "", t_raw, flags=re.IGNORECASE).strip()
-            if len(t_clean) > 48:
-                t_clean = t_clean[:45].rsplit(" ", 1)[0] + "..."
+            if len(t_clean) > 56:
+                t_clean = _clean_row_clause_without_ellipsis(t_clean, max_chars=56)
             raw_parent_titles[p_key] = t_clean or f"Requirement {p_key}"
 
     for u in unrolled_units:
@@ -7514,8 +7705,8 @@ def generate_fillable_scout_workbook_html(
         if p_num not in parent_groups_map:
             parent_groups_order.append(p_num)
             p_title = raw_parent_titles.get(p_num) or str(u.get("topic_title") or u.get("title") or f"Requirement {p_num}").strip()
-            if len(p_title) > 48:
-                p_title = p_title[:45].rsplit(" ", 1)[0] + "..."
+            if len(p_title) > 56:
+                p_title = _clean_row_clause_without_ellipsis(p_title, max_chars=56)
             parent_groups_map[p_num] = {
                 "parent_num": p_num,
                 "parent_title": p_title,

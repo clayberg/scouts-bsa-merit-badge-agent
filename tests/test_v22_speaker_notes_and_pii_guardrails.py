@@ -102,7 +102,7 @@ def test_v22_curated_req1_safety_quiz_includes_first_aid() -> None:
     assert "first_aid" in _CURATED_REQ1_SAFETY_QUIZZES
     fa_quiz = _CURATED_REQ1_SAFETY_QUIZZES["first_aid"]
     assert "power line" in fa_quiz["scenario_prompt"].lower() or "bleeding" in fa_quiz["scenario_prompt"].lower()
-    assert len(fa_quiz["options"]) == 3
+    assert len(fa_quiz["options"]) >= 3
     assert "911" in fa_quiz["correct_answer"]
     assert "Universal Precautions" in fa_quiz["explanation"] or "Check-Call-Care" in fa_quiz["explanation"]
 

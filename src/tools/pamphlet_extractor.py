@@ -334,7 +334,7 @@ def _badge_stem_roots(badge_name: str) -> List[str]:
     return roots
 
 
-def _ensure_complete_caption_sentence(text: str, max_chars: int = 125) -> str:
+def _ensure_complete_caption_sentence(text: str, max_chars: int = 160) -> str:
     """Ensures a caption is a complete, natural sentence without mid-clause truncation or dangling stopwords."""
     s = re.sub(r"\s+", " ", str(text or "")).strip()
     if not s:
@@ -342,11 +342,14 @@ def _ensure_complete_caption_sentence(text: str, max_chars: int = 125) -> str:
     # Strip trailing or inline parenthetical page/requirement citations like "(p. 31, p. 32)" or "(Req. 1)"
     s = re.sub(r"\s*\(\s*(?:pp?\.?|pages?)\s*\d+[^)]*\)", "", s, flags=re.IGNORECASE).strip()
     s = re.sub(r"\s*\(\s*(?:pp?\.?|pages?|Req\.?|Reqs\.?)\s*\d*$", "", s, flags=re.IGNORECASE).strip()
-    # Strip leading "Heading: " prefix if the remainder is a full sentence
+    # Strip leading "Heading: " prefix if the remainder is a full sentence, and remove any remaining colons
     if ": " in s:
         head, tail = s.split(": ", 1)
         if (len(head) <= 68 or "(req" in head.lower()) and len(tail) >= 24 and tail[0].isupper():
             s = tail.strip()
+        else:
+            s = f"{head.strip()}, {tail.strip()}"
+    s = s.replace(":", " -")
     # Protect common abbreviations so ". " inside "Req. 1", "p. 12", "U.S.", "Dr.", "ft.", etc. never triggers a sentence split
     _abbrev_token = "\x00"
     s_prot = re.sub(
@@ -447,7 +450,7 @@ def strip_pamphlet_and_req_caption_prefixes(caption: str, badge_name: str = "") 
     s = re.sub(r"^(?:Requirement|Req\.?)\s+[0-9a-zA-Z().\-]+\s*[:—\-]\s*", "", s, flags=re.IGNORECASE).strip()
     if s and s[0].islower():
         s = s[0].upper() + s[1:]
-    return s
+    return _ensure_complete_caption_sentence(s, max_chars=160)
 
 
 def analyze_and_match_pamphlet_image(
@@ -1368,7 +1371,7 @@ def _derive_topic_title(req_number: str, req_text: str, pamphlet_heading: str = 
         topic = "Archery Gear Care, Tabs & Armguards"
         return topic if str(req_number).lower() == "overview" else f"Req {req_number}: {topic}"
     if "option a" in lower_raw and "option b" in lower_raw:
-        opt_matches = re.findall(r"Option\s+([A-Z])\s*[—–-]\s*([A-Za-z0-9 &/()-]+?)(?=\.\s|\s+\([1a]\)|$)", cleaned)
+        opt_matches = re.findall(r"Option\s+([A-Z])\s*[—–\-:,]\s*([A-Za-z0-9 &/()-]+?)(?=\.\s|\s+\([1a]\)|$)", cleaned)
         if len(opt_matches) >= 2:
             opt_summary = " / ".join(f"{name.strip()}" for _, name in opt_matches[:3])
             return opt_summary if str(req_number).lower() == "overview" else f"Req {req_number}: {opt_summary}"
@@ -2288,8 +2291,11 @@ def decompose_requirement_into_topic_slides(
                 explicit_quiz=req_dict.get("quiz_item"),
             )
             if eff_q:
+                is_haz_q = _is_emergency_or_hazard_context(badge_name, req_text, base_title)
+                q_suffix_paren = "(Safety Scenario)" if is_haz_q else "(Scenario Check)"
+                q_suffix_colon = ": Patrol Safety Scenario" if is_haz_q else ": Verification & Concept Scenario"
                 resolved_slides.append({
-                    "title": f"{base_title} (Safety Scenario)" if ": " in base_title else f"{base_title}: Patrol Safety Scenario",
+                    "title": f"{base_title} {q_suffix_paren}" if ": " in base_title else f"{base_title}{q_suffix_colon}",
                     "layout": "SOCRATIC_CHECKPOINT_QUIZ",
                     "quiz_item": eff_q,
                     "bullets": [
@@ -2449,10 +2455,10 @@ def decompose_requirement_into_topic_slides(
             used_on_visual_slide_norms.add(re.sub(r"[^a-z0-9]+", " ", vb.lower()).strip()[:55])
         generated.append({
             "title": f"{base_title} (Visual Guide)" if ": " in base_title else f"{base_title}: Field Visual & Key Principles",
-            "layout": "SPLIT_VISUAL_EXPLAINER" if vis_img else "CONCEPT_TEXT_SLIDE",
+            "layout": ("FULL_BLEED_IMAGE_EXPLAINER" if req_index % 4 == 2 else "SPLIT_VISUAL_EXPLAINER") if vis_img else "CONCEPT_TEXT_SLIDE",
             "bullets": vis_bullets,
             "image_path": vis_img,
-            "caption": vis_cap or base_title,
+            "caption": _ensure_complete_caption_sentence(vis_cap or base_title, max_chars=160) if vis_img else "",
         })
     else:
         # Single-part requirement: teach the fresh pamphlet points not shown on REQUIREMENT_INTRO
@@ -2477,13 +2483,13 @@ def decompose_requirement_into_topic_slides(
             used_image_paths.add(str(topic_vis_path))
             slide_img, slide_cap = str(topic_vis_path), topic_vis_caption
         else:
-            slide_img, slide_cap = None, base_title
+            slide_img, slide_cap = None, ""
         generated.append({
             "title": f"{base_title} (Core Principles)" if ": " in base_title else f"{base_title}: Core Principles & Field Reference",
-            "layout": "SPLIT_VISUAL_EXPLAINER" if slide_img else "CONCEPT_TEXT_SLIDE",
+            "layout": ("FULL_BLEED_IMAGE_EXPLAINER" if req_index % 4 == 2 else "SPLIT_VISUAL_EXPLAINER") if slide_img else "CONCEPT_TEXT_SLIDE",
             "bullets": deep_bullets,
             "image_path": slide_img,
-            "caption": slide_cap or base_title,
+            "caption": _ensure_complete_caption_sentence(slide_cap or base_title, max_chars=160) if slide_img else "",
         })
 
     # B. Step-by-Step Execution Procedure (Demonstrate Phase) — full-width 2x2 grid for maximum clarity
@@ -2587,8 +2593,11 @@ def decompose_requirement_into_topic_slides(
         explicit_quiz=quiz_item,
     )
     if effective_quiz:
+        is_haz_q2 = _is_emergency_or_hazard_context(badge_name, req_text, base_title)
+        q2_paren = "(Safety Scenario)" if is_haz_q2 else "(Scenario Check)"
+        q2_colon = ": Patrol Safety Scenario" if is_haz_q2 else ": Verification & Concept Scenario"
         generated.append({
-            "title": f"{base_title} (Safety Scenario)" if ": " in base_title else f"{base_title}: Patrol Safety Scenario",
+            "title": f"{base_title} {q2_paren}" if ": " in base_title else f"{base_title}{q2_colon}",
             "layout": "SOCRATIC_CHECKPOINT_QUIZ",
             "quiz_item": effective_quiz,
             "bullets": [
@@ -2604,6 +2613,75 @@ def decompose_requirement_into_topic_slides(
     return generated[:7]
 
 
+_EMERGENCY_OR_HAZARD_BADGES: set = {
+    "first aid", "emergency preparedness", "lifesaving", "wilderness survival",
+    "search and rescue", "fire safety", "safety", "traffic safety", "crime prevention",
+    "public health", "medicine", "swimming", "canoeing", "kayaking", "whitewater",
+    "small-boat sailing", "motorboating", "water sports", "scuba diving", "rowing",
+    "climbing", "caving", "rifle shooting", "shotgun shooting", "archery", "cycling",
+    "skating", "snow sports", "camping", "backpacking", "hiking", "cooking", "weather",
+    "electricity", "welding", "automotive maintenance", "chemistry", "aviation",
+    "horsemanship", "athletics", "personal fitness", "sports", "robotics",
+}
+
+
+def _is_emergency_or_hazard_context(badge_name: str, req_text: str = "", title: str = "") -> bool:
+    """Returns True if the badge or requirement involves physical safety, hazards, or emergency response."""
+    b_low = str(badge_name or "").strip().lower()
+    if b_low in _EMERGENCY_OR_HAZARD_BADGES:
+        return True
+    blob = f"{req_text} {title}".lower()
+    hazard_kws = (
+        "safety", "hazard", "injury", "injuries", "first aid", "first-aid",
+        "emergency", "emergencies", "rescue", "precaution", "danger", "protective",
+        "cpr", "triage", "bleed", "burn", "shock", "chok", "drown", "hypothermia",
+        "heatstroke", "poison", "lightning", "severe weather", "accident", "misfire", "capsize",
+    )
+    return any(kw in blob for kw in hazard_kws)
+
+
+def _ensure_four_quiz_options(
+    quiz_dict: Dict[str, Any],
+    badge_name: str = "",
+    base_title: str = "",
+) -> Dict[str, Any]:
+    """Ensures a quiz dictionary always has exactly 4 options (A, B, C, D)."""
+    if not isinstance(quiz_dict, dict):
+        return quiz_dict
+    out = dict(quiz_dict)
+    raw_opts = [str(o).strip() for o in (out.get("options") or out.get("choices") or []) if str(o).strip()]
+    if not raw_opts:
+        return out
+    clean_bodies = [
+        re.sub(r"^(?:Option\s+[A-D]\s*[:.\-—–]\s*|\(?[A-D]\)\s*|[A-D]\.\s*)", "", o, flags=re.IGNORECASE).strip()
+        for o in raw_opts[:4]
+    ]
+    topic_label = re.sub(r"^Req(?:uirement)?\s+[0-9a-zA-Z().\-]+\s*[:\-]\s*", "", str(base_title or badge_name or "this requirement")).strip()
+    while len(clean_bodies) < 4:
+        if str(badge_name or "").strip().lower() == "first aid":
+            clean_bodies.append(
+                "Remove any embedded debris from the deep wound with tweezers before checking scene safety."
+            )
+        else:
+            clean_bodies.append(
+                f"Proceed with {topic_label} before verifying the {badge_name or 'Merit Badge'} Pamphlet criteria with your buddy and counselor."
+            )
+    labeled_opts = [f"{chr(65 + i)}. {b}" for i, b in enumerate(clean_bodies[:4])]
+    c_idx = out.get("correct_index")
+    ans = str(out.get("correct_answer") or out.get("correct_option") or "").strip()
+    if not isinstance(c_idx, int) or not (0 <= c_idx < 4):
+        m_let = re.match(r"^\s*(?:Option\s+)?([A-D])\b", ans, flags=re.IGNORECASE)
+        c_idx = (ord(m_let.group(1).upper()) - 65) if m_let else 1
+    c_let = chr(65 + c_idx)
+    out["options"] = labeled_opts
+    out["choices"] = list(labeled_opts)
+    out["correct_index"] = c_idx
+    out["correct_letter"] = c_let
+    if not ans or not re.match(rf"^{c_let}\.\s+", ans):
+        out["correct_answer"] = labeled_opts[c_idx]
+    return out
+
+
 _CURATED_REQ1_SAFETY_QUIZZES: Dict[str, Dict[str, Any]] = {
     "first_aid": {
         "scenario_prompt": "During a woodland trail hike, your patrol discovers an adult hiker lying at the base of a wet rock ledge with bright red blood spurting from a lower-leg wound and a downed power line 25 feet uphill. What is your patrol's immediate first-aid sequence?",
@@ -2612,11 +2690,13 @@ _CURATED_REQ1_SAFETY_QUIZZES: Dict[str, Dict[str, Any]] = {
             "A. Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
             "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
             "C. Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
+            "D. Remove any embedded rock fragments from the wound with bare hands before calling 911 or checking scene safety.",
         ],
         "choices": [
             "A. Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
             "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
             "C. Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
+            "D. Remove any embedded rock fragments from the wound with bare hands before calling 911 or checking scene safety.",
         ],
         "correct_index": 1,
         "correct_letter": "B",
@@ -3141,7 +3221,7 @@ def _get_selective_safety_quiz_for_requirement(
 
     curated = _CURATED_REQ1_SAFETY_QUIZZES.get(slug)
     if curated:
-        return dict(curated)
+        return _ensure_four_quiz_options(dict(curated), badge_name=badge_name, base_title=base_title)
 
     if isinstance(explicit_quiz, dict):
         raw_opts = [str(o).strip() for o in (explicit_quiz.get("options") or []) if str(o).strip()]
@@ -3150,31 +3230,23 @@ def _get_selective_safety_quiz_for_requirement(
         exp = str(explicit_quiz.get("explanation") or "").strip()
         opts_blob = (prompt + " " + " ".join(raw_opts) + " " + ans + " " + exp).lower()
         if (
-            len(raw_opts) >= 4
+            len(raw_opts) >= 3
             and prompt
             and not any(marker in opts_blob for marker in _BOILERPLATE_QUIZ_REJECTION_SUBSTRINGS)
         ):
-            clean_bodies = [
-                re.sub(r"^(?:Option\s+[A-D]\s*[:.\-—–]\s*|\(?[A-D]\)\s*|[A-D]\.\s*)", "", o, flags=re.IGNORECASE).strip()
-                for o in raw_opts[:4]
-            ]
-            labeled_opts = [f"{chr(65 + i)}. {b}" for i, b in enumerate(clean_bodies)]
-            c_idx = explicit_quiz.get("correct_index")
-            if not isinstance(c_idx, int) or not (0 <= c_idx < 4):
-                m_let = re.match(r"^\s*(?:Option\s+)?([A-D])\b", ans, flags=re.IGNORECASE)
-                c_idx = (ord(m_let.group(1).upper()) - 65) if m_let else 1
-            c_let = chr(65 + c_idx)
-            c_ans = f"{c_let}. {clean_bodies[c_idx]}"
-            return {
-                "scenario_prompt": prompt,
-                "question": str(explicit_quiz.get("question") or prompt).strip(),
-                "options": labeled_opts,
-                "choices": list(labeled_opts),
-                "correct_index": c_idx,
-                "correct_letter": c_let,
-                "correct_answer": c_ans,
-                "explanation": exp,
-            }
+            return _ensure_four_quiz_options(
+                {
+                    "scenario_prompt": prompt,
+                    "question": str(explicit_quiz.get("question") or prompt).strip(),
+                    "options": raw_opts,
+                    "choices": list(raw_opts),
+                    "correct_index": explicit_quiz.get("correct_index"),
+                    "correct_answer": ans,
+                    "explanation": exp,
+                },
+                badge_name=badge_name,
+                base_title=base_title,
+            )
 
     if req_index == 0:
         clean_t = re.sub(r"\s*\(Reqs?\s+[^)]+\)", "", str(base_title or f"{badge_name} Fundamentals")).strip()

@@ -41,7 +41,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Painting Requirement 1 activities.",
+      "safety_callout": "Work in a ventilated studio area for Painting Requirement 1: check safety data labels on pigments, glazes, clay dust, and solvents used for surface preparation and coating safety, wash hands thoroughly after handling media, and leave kiln operations to qualified adults.",
       "pamphlet_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 18, p. 64)",
       "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 18, p. 64)",
       "syllabus_bucket": "In-Class Concept",
@@ -59,18 +59,18 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the proper safety procedures to follow when preparing surfaces and applying coatings."
+          "1. Explain the proper safety procedures to follow when preparing surfaces and applying coatings",
+          "2. Practical execution and real-world examples for Surface Preparation and Coating Safety"
         ],
         "rows": [
-          "1. Explain the proper safety procedures to follow when preparing surfaces and applying coatings."
+          "1. Explain the proper safety procedures to follow when preparing surfaces and applying coatings",
+          "2. Practical execution and real-world examples for Surface Preparation and Coating Safety"
         ],
-        "min_rows": 1
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Rushing through surface scraping and ladder placement is harmless as long as you wear old clothes while painting.",
-        "fact": "Careful surface preparation and proper ladder setup are essential precautions that prevent serious falls, chemical exposure, and dust inhalation before and during painting (p. 18).",
-        "fact_correction": "Careful surface preparation and proper ladder setup are essential precautions that prevent serious falls, chemical exposure, and dust inhalation before and during painting (p. 18).",
-        "pamphlet_page_ref": "p. 18, p. 64"
+        "fact": "Careful surface preparation and proper ladder setup are essential precautions that prevent serious falls, chemical exposure, and dust inhalation before and during painting (p. 18)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -105,7 +105,12 @@
         "Step 3 - Select Scout-Appropriate Gear: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 18).",
         "Step 4 - Prepare Wood Finishes Safely: Wood finishing is the application of transparent or semi transparent coatings to protect the surface, accentuate the grain, and enhance (p. 18)."
       ],
-      "gear_checklist": [],
+      "gear_checklist": [
+        "Official Painting merit badge pamphlet and studio sketch book for Req 1",
+        "Selected studio media, brushes, modeling tools, or drawing instruments",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths",
+        "Labeled portfolio work or finished studio piece for Surface Preparation and Coating Safety"
+      ],
       "comparison_data": {
         "left_header": "Surface Preparation Safety Habits",
         "right_header": "Coating Application Safety Controls",
@@ -116,24 +121,24 @@
         ],
         "right_points": [
           "Step 1 - Follow Safety Precautions: Taking these precautions can help prevent injury (p. 18).",
-          "Step 2 - Identify Climbing Equipment: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended (p. 18).",
-          "Step 3 - Select Scout-Appropriate Gear: While it is helpful to know this special equipment exists, you are not required to use any (p. 18)."
+          "Step 2 - Identify Climbing Equipment: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 18).",
+          "Step 3 - Select Scout-Appropriate Gear: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 18)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Constant Ladder Awareness",
             "left": "Constant Ladder Awareness: Think of safety all the time while using a ladder (p. 18).",
             "right": "Step 1 - Follow Safety Precautions: Taking these precautions can help prevent injury (p. 18)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Proper Ladder Setup: Take the time to properly set up the ladder and to use it properly (p. 18).",
-            "right": "Step 2 - Identify Climbing Equipment: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended (p. 18)."
+            "right": "Step 2 - Identify Climbing Equipment: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 18)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Preventing Jobsite Injuries: Taking these precautions can help prevent injury (p. 18).",
-            "right": "Step 3 - Select Scout-Appropriate Gear: While it is helpful to know this special equipment exists, you are not required to use any (p. 18)."
+            "right": "Step 3 - Select Scout-Appropriate Gear: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 18)."
           }
         ]
       },
@@ -171,9 +176,12 @@
         "pamphlet_page_ref": "p. 18, p. 64"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Painting Workbook organizer table and practical demonstration for Req 1.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Painting Requirement 1 (surface preparation and coating safety) before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/painting_req_1_nano_hero.png",
-      "workbook_diagram_caption": "Illustrated panels display essential protective gear, wood surface scraping, and outdoor paint application techniques."
+      "workbook_diagram_caption": "Illustrated panels display essential protective gear, wood surface scraping, and outdoor paint application techniques.",
+      "number": "1",
+      "description": "Explain the proper safety procedures to follow when preparing surfaces and applying coatings.",
+      "workbook_visual_caption": "Illustrated panels display essential protective gear, wood surface scraping, and outdoor paint application techniques."
     },
     {
       "req_id": "2",
@@ -208,19 +216,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain three ways that coatings can improve a surface."
+              "1. Explain three ways that coatings can improve a surface"
             ],
             "rows": [
-              "1. Explain three ways that coatings can improve a surface."
+              "1. Explain three ways that coatings can improve a surface"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
             "misconception": "Terms like eggshell, satin, and semi-gloss represent identical gloss levels across every paint brand.",
-            "fact": "Because there are no industry-wide standard definitions for sheen terms, actual gloss levels can vary noticeably from one manufacturer to another (p. 43).",
-            "fact_correction": "Because there are no industry-wide standard definitions for sheen terms, actual gloss levels can vary noticeably from one manufacturer to another (p. 43).",
-            "pamphlet_page_ref": "p. 43, p. 51"
+            "fact": "Because there are no industry-wide standard definitions for sheen terms, actual gloss levels can vary noticeably from one manufacturer to another (p. 43)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -247,12 +253,13 @@
           "sub_req_label": "2a",
           "sub_req_text": "Explain three ways that coatings can improve a surface.",
           "topic_title": "Req 2a: How Coatings Improve Surfaces",
-          "pamphlet_summary": "How Coatings Improve Surfaces: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semigloss, and high or full gloss (p. 43).",
+          "pamphlet_summary": "How Coatings Improve Surfaces: The Painting pamphlet for Requirement 2a details three ways that coatings can improve a surface, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 43).",
           "pamphlet_excerpts": [
-            "How Coatings Improve Surfaces: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semigloss, and high or full gloss (p. 43)."
+            "How Coatings Improve Surfaces: The Painting pamphlet for Requirement 2a details three ways that coatings can improve a surface, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 43)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/painting_p007_img1.png",
-          "workbook_diagram_caption": "Field reference diagram showing Painting Requirement 2 equipment, technique, and verification milestones for Painting Requirement 2 (img1)."
+          "workbook_diagram_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
+          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller."
         },
         {
           "sub_id": "2b",
@@ -275,28 +282,26 @@
             "table_title": "Req 2b Technical Comparison Matrix (Oil-based Paints Acrylic-based Paints and)",
             "headers": [
               "Comparison Dimension",
-              "Primary Concept / System A",
-              "Comparison Concept / System B"
+              "Oil-Based and Alkyd Coatings",
+              "Water-Based Latex and Acrylics"
             ],
             "column_headers": [
               "Comparison Dimension",
-              "Primary Concept / System A",
-              "Comparison Concept / System B"
+              "Oil-Based and Alkyd Coatings",
+              "Water-Based Latex and Acrylics"
             ],
             "row_labels": [
-              "1. Explain the differences between oil-based paints, acrylic-based paints, and water-based paints."
+              "1. Explain the differences between oil-based paints, acrylic-based paints, and water-based paints"
             ],
             "rows": [
-              "1. Explain the differences between oil-based paints, acrylic-based paints, and water-based paints."
+              "1. Explain the differences between oil-based paints, acrylic-based paints, and water-based paints"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
             "misconception": "Flat paint is the best choice for kitchen cabinets, doors, and bathroom trim because it hides fingerprints.",
-            "fact": "High-traffic trim, cabinets, and doors need enamel or semi-gloss finishes for superior moisture and abrasion resistance, whereas flat paint is suited for low-traffic ceilings and walls (p. 43).",
-            "fact_correction": "High-traffic trim, cabinets, and doors need enamel or semi-gloss finishes for superior moisture and abrasion resistance, whereas flat paint is suited for low-traffic ceilings and walls (p. 43).",
-            "pamphlet_page_ref": "p. 43, p. 51"
+            "fact": "High-traffic trim, cabinets, and doors need enamel or semi-gloss finishes for superior moisture and abrasion resistance, whereas flat paint is suited for low-traffic ceilings and walls (p. 43)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -323,12 +328,14 @@
           "sub_req_label": "2b",
           "sub_req_text": "Explain the differences between oil-based paints, acrylic-based paints, and water-based paints.",
           "topic_title": "Req 2b: Oil, Acrylic, and Water-Based Paints",
-          "pamphlet_summary": "Oil, Acrylic, and Water-Based Paints: Sheen is a critical characteristic that refers to the degree ofshine or gloss of any coating or surface (p. 43).",
+          "pamphlet_summary": "Oil, Acrylic, and Water-Based Paints: The Painting pamphlet for Requirement 2b details the differences between oil-based paints, acrylic-based paints, and water-based paints, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 43).",
           "pamphlet_excerpts": [
-            "Oil, Acrylic, and Water-Based Paints: Sheen is a critical characteristic that refers to the degree ofshine or gloss of any coating or surface (p. 43)."
+            "Oil, Acrylic, and Water-Based Paints: The Painting pamphlet for Requirement 2b details the differences between oil-based paints, acrylic-based paints, and water-based paints, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 43)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 2b: Differences Between Oil-based Paints Acrylic-based Paints"
+          "workbook_diagram_url": "assets/pamphlet_images/painting_p041_img1.png",
+          "title": "Req 2b: Oil, Acrylic, and Water-Based Paints",
+          "workbook_diagram_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
+          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller."
         },
         {
           "sub_id": "2c",
@@ -356,19 +363,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen."
+              "1. Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen"
             ],
             "rows": [
-              "1. Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen."
+              "1. Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
             "misconception": "Wood stain alone forms a thick protective film that shields exterior furniture from rain and scratches.",
-            "fact": "Wood stain primarily adds color to highlight the grain, while clear varnish or polyurethane is needed to provide a durable protective film over the wood (p. 51).",
-            "fact_correction": "Wood stain primarily adds color to highlight the grain, while clear varnish or polyurethane is needed to provide a durable protective film over the wood (p. 51).",
-            "pamphlet_page_ref": "p. 43, p. 51"
+            "fact": "Wood stain primarily adds color to highlight the grain, while clear varnish or polyurethane is needed to provide a durable protective film over the wood (p. 51)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -395,12 +400,14 @@
           "sub_req_label": "2c",
           "sub_req_text": "Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen.",
           "topic_title": "Req 2c: Enamel, Flat, Stain, and Varnish",
-          "pamphlet_summary": "Enamel, Flat, Stain, and Varnish: The sheen currently on the surface can determine the amount of surface preparationrequired (p. 43).",
+          "pamphlet_summary": "Enamel, Flat, Stain, and Varnish: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semi gloss, and high or full gloss (p. 43).",
           "pamphlet_excerpts": [
-            "Enamel, Flat, Stain, and Varnish: The sheen currently on the surface can determine the amount of surface preparationrequired (p. 43)."
+            "Enamel, Flat, Stain, and Varnish: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semi gloss, and high or full gloss (p. 43)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 2c: Where You Would Apply Enamel Paint Flat"
+          "workbook_diagram_url": "assets/pamphlet_images/painting_p041_img1.png",
+          "title": "Req 2c: Enamel, Flat, Stain, and Varnish",
+          "workbook_diagram_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
+          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller."
         },
         {
           "sub_id": "2d",
@@ -423,19 +430,17 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell why each is best for these uses."
+              "1. Tell why each is best for these uses"
             ],
             "rows": [
-              "1. Tell why each is best for these uses."
+              "1. Tell why each is best for these uses"
             ],
             "min_rows": 1
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
-            "misconception": "Terms like eggshell, satin, and semi-gloss represent identical gloss levels across every paint brand.",
-            "fact": "Because there are no industry-wide standard definitions for sheen terms, actual gloss levels can vary noticeably from one manufacturer to another (p. 43).",
-            "fact_correction": "Because there are no industry-wide standard definitions for sheen terms, actual gloss levels can vary noticeably from one manufacturer to another (p. 43).",
-            "pamphlet_page_ref": "p. 43, p. 51"
+            "misconception": "During Painting Requirement 2d, Scouts can underestimate how directly mastery of matching coatings to specific surfaces depends on understanding why each is best for these uses.",
+            "fact": "Scouting America standards for Painting Requirement 2d require complete workbook entries on matching coatings to specific surfaces to demonstrate full understanding of why each is best for these uses."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -462,11 +467,13 @@
           "sub_req_label": "2d",
           "sub_req_text": "Tell why each is best for these uses.",
           "topic_title": "Req 2d: Matching Coatings to Specific Surfaces",
-          "pamphlet_summary": "Matching Coatings to Specific Surfaces: Theabrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43).",
+          "pamphlet_summary": "Matching Coatings to Specific Surfaces: The Painting pamphlet for Requirement 2d details why each is best for these uses, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 43).",
           "pamphlet_excerpts": [
-            "Matching Coatings to Specific Surfaces: Theabrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43)."
+            "Matching Coatings to Specific Surfaces: The Painting pamphlet for Requirement 2d details why each is best for these uses, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 43)."
           ],
-          "workbook_diagram_url": ""
+          "workbook_diagram_url": "assets/pamphlet_images/painting_p041_img1.png",
+          "workbook_diagram_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
+          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller."
         }
       ],
       "resources": [
@@ -499,7 +506,7 @@
       "action_verb": "Demonstrate",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Painting Requirement 2 activities.",
+      "safety_callout": "Work in a ventilated studio area for Painting Requirement 2: check safety data labels on pigments, glazes, clay dust, and solvents used for coating types, sheens, and applications, wash hands thoroughly after handling media, and leave kiln operations to qualified adults.",
       "pamphlet_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
       "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
       "syllabus_bucket": "In-Class Concept",
@@ -508,33 +515,31 @@
         "table_title": "Req 2 Technical Comparison Matrix (Coatings Can Improve A Surface)",
         "headers": [
           "Comparison Dimension",
-          "Primary Concept / System A",
-          "Comparison Concept / System B"
+          "Oil-Based and Alkyd Coatings",
+          "Water-Based Latex and Acrylics"
         ],
         "column_headers": [
           "Comparison Dimension",
-          "Primary Concept / System A",
-          "Comparison Concept / System B"
+          "Oil-Based and Alkyd Coatings",
+          "Water-Based Latex and Acrylics"
         ],
         "row_labels": [
-          "1. (2a) Coatings Can Improve A Surface",
-          "2. (2b) Oil-based Paints Acrylic-based Paints and",
-          "3. (2c) You Would Apply Enamel Paint",
-          "4. (2d) Painting Requirement 2d Techniques"
+          "1. (2a) Explain three ways that coatings can improve a surface",
+          "2. (2b) Explain the differences between oil-based paints, acrylic-based paints, and water-based paints",
+          "3. (2c) Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen",
+          "4. (2d) Tell why each is best for these uses"
         ],
         "rows": [
-          "1. (2a) Coatings Can Improve A Surface",
-          "2. (2b) Oil-based Paints Acrylic-based Paints and",
-          "3. (2c) You Would Apply Enamel Paint",
-          "4. (2d) Painting Requirement 2d Techniques"
+          "1. (2a) Explain three ways that coatings can improve a surface",
+          "2. (2b) Explain the differences between oil-based paints, acrylic-based paints, and water-based paints",
+          "3. (2c) Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen",
+          "4. (2d) Tell why each is best for these uses"
         ],
         "min_rows": 4
       },
       "common_misconception_pair": {
         "misconception": "Paint sheen only affects how shiny a wall looks and has no impact on how easy the surface is to clean or how long it lasts.",
-        "fact": "Sheen directly determines a coating's abrasion resistance, chemical resistance, washability, and the amount of preparation needed before repainting (p. 43).",
-        "fact_correction": "Sheen directly determines a coating's abrasion resistance, chemical resistance, washability, and the amount of preparation needed before repainting (p. 43).",
-        "pamphlet_page_ref": "p. 43, p. 51"
+        "fact": "Sheen directly determines a coating's abrasion resistance, chemical resistance, washability, and the amount of preparation needed before repainting (p. 43)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -570,39 +575,39 @@
         "Step 4 - Match Sheen to Surface: The type of sheen you choose will depend on what you are painting (p. 43)."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Three ways that coatings can improve",
-        "Inspected hand and power tools with intact guards and ventilation setup for Painting",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 2",
+        "Selected studio media, brushes, modeling tools, or drawing instruments",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths",
+        "Labeled portfolio work or finished studio piece for Coating Types, Sheens, and Applications"
       ],
       "comparison_data": {
         "left_header": "Oil-Based and Alkyd Coatings",
         "right_header": "Water-Based Latex and Acrylics",
         "left_points": [
-          "(2a) How Coatings Improve Surfaces: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low (p. 43).",
-          "(2b) Oil, Acrylic, and Water-Based Paints: Sheen is a critical characteristic that refers to the degree ofshine or gloss of any coating (p. 43).",
+          "(2a) How Coatings Improve Surfaces: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semi gloss, and high or full gloss (p. 43).",
+          "(2b) Oil, Acrylic, and Water-Based Paints: Sheen is a critical characteristic that refers to the degree of shine or gloss of any coating or surface (p. 43).",
           "Durability and Appearance: The abrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43)."
         ],
         "right_points": [
-          "(2c) Enamel, Flat, Stain, and Varnish: The sheen currently on the surface can determine the amount of surface preparationrequired (p. 43).",
-          "(2d) Matching Coatings to Specific Surfaces: Theabrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43).",
-          "Step 3 - Check Manufacturer Standards: Because there are no industry wide standard definitions of these terms, gloss levels may vary (p. 43)."
+          "(2c) Enamel, Flat, Stain, and Varnish: The sheen currently on the surface can determine the amount of surface preparation required (p. 43).",
+          "(2d) Matching Coatings to Specific Surfaces: The abrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43).",
+          "Step 3 - Check Manufacturer Standards: Because there are no industry wide standard definitions of these terms, gloss levels may vary from one manufacturer to another (p. 43)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(2a) How Coatings Improve Surfaces: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low (p. 43).",
-            "right": "(2c) Enamel, Flat, Stain, and Varnish: The sheen currently on the surface can determine the amount of surface preparationrequired (p. 43)."
+            "attribute": "How Coatings Improve Surfaces",
+            "left": "(2a) How Coatings Improve Surfaces: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semi gloss, and high or full gloss (p. 43).",
+            "right": "(2c) Enamel, Flat, Stain, and Varnish: The sheen currently on the surface can determine the amount of surface preparation required (p. 43)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "(2b) Oil, Acrylic, and Water-Based Paints: Sheen is a critical characteristic that refers to the degree ofshine or gloss of any coating (p. 43).",
-            "right": "(2d) Matching Coatings to Specific Surfaces: Theabrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43)."
+            "attribute": "Practical Field Application",
+            "left": "(2b) Oil, Acrylic, and Water-Based Paints: Sheen is a critical characteristic that refers to the degree of shine or gloss of any coating or surface (p. 43).",
+            "right": "(2d) Matching Coatings to Specific Surfaces: The abrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Durability and Appearance: The abrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43).",
-            "right": "Step 3 - Check Manufacturer Standards: Because there are no industry wide standard definitions of these terms, gloss levels may vary (p. 43)."
+            "right": "Step 3 - Check Manufacturer Standards: Because there are no industry wide standard definitions of these terms, gloss levels may vary from one manufacturer to another (p. 43)."
           }
         ]
       },
@@ -610,12 +615,12 @@
         "title": "Painting Req 2 Exemplar Workbook Entry: Coating Types, Sheens, and Applications",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a (How Coatings Improve)": "The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semigloss, and high or full gloss (p. 43).",
-          "Req 2b (Oil, Acrylic, and)": "Sheen is a critical characteristic that refers to the degree ofshine or gloss of any coating or surface (p. 43).",
-          "Req 2c (Enamel, Flat, Stain)": "The sheen currently on the surface can determine the amount of surface preparationrequired (p. 43).",
-          "Req 2d (Matching Coatings to)": "Theabrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43)."
+          "Req 2a (How Coatings Improve Surfaces)": "The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semi gloss, and high or full gloss (p. 43).",
+          "Req 2b (Oil, Acrylic, and Water-Based Paints)": "Sheen is a critical characteristic that refers to the degree of shine or gloss of any coating or surface (p. 43).",
+          "Req 2c (Enamel, Flat, Stain, and Varnish)": "The sheen currently on the surface can determine the amount of surface preparation required (p. 43).",
+          "Req 2d (Matching Coatings to Specific Surfaces)": "The abrasion resistance, chemical resistance, and overall beauty of the painted area (p. 43)."
         },
-        "sample_output": "Coating Types, Sheens, and Applications: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster (p. 43).",
+        "sample_output": "Coating Types, Sheens, and Applications: The typical full sheen range, from lowest to highest, includes flat or matte, eggshell or low luster, satin or pearl, semi gloss, and high or full gloss (p. 43).",
         "counselor_tip": "For Painting Requirement 2 (Coating Types, Sheens, and Applications), verify the Scout's own observations and specific pamphlet details (Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51))."
       },
       "quiz_item": {
@@ -640,9 +645,12 @@
         "pamphlet_page_ref": "p. 43, p. 51"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Painting Workbook organizer table and practical demonstration for Req 2.",
+      "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Painting Requirement 2 (coating types, sheens, and applications) across all 4 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/painting_req_2_nano_hero.png",
-      "workbook_diagram_caption": "Two Scouts mix oil paints on a palette while painting a scenic mountain landscape on an outdoor easel."
+      "workbook_diagram_caption": "Two Scouts mix oil paints on a palette while painting a scenic mountain landscape on an outdoor easel.",
+      "number": "2",
+      "description": "Do the following: (a) Explain three ways that coatings can improve a surface. (b) Explain the differences between oil-based paints, acrylic-based paints, and water-based paints. (c) Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen. (d) Tell why each is best for these uses.",
+      "workbook_visual_caption": "Two Scouts mix oil paints on a palette while painting a scenic mountain landscape on an outdoor easel."
     },
     {
       "req_id": "3",
@@ -669,7 +677,7 @@
       "action_verb": "Prepare",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Painting Requirement 3 activities.",
+      "safety_callout": "Work in a ventilated studio area for Painting Requirement 3: check safety data labels on pigments, glazes, clay dust, and solvents used for patching, priming, and painting surfaces, wash hands thoroughly after handling media, and leave kiln operations to qualified adults.",
       "pamphlet_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 51, p. 55)",
       "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 51, p. 55)",
       "syllabus_bucket": "In-Class Concept",
@@ -687,22 +695,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Prepare and paint two different surfaces using patching materials or caulking and the proper primers and topcoats.",
-          "2. Suggested projects include an interior or exterior wall, a door, a piece of furniture, a concrete wall or floor, a porch rail, or a...",
-          "3. Your counselor must preapprove the projects."
+          "1. Prepare and paint two different surfaces using patching materials or caulking and the proper primers and topcoats",
+          "2. Suggested projects include an interior or exterior wall, a door, a piece of furniture, a concrete wall or floor, a porch rail, or a fence",
+          "3. Your counselor must preapprove the projects"
         ],
         "rows": [
-          "1. Prepare and paint two different surfaces using patching materials or caulking and the proper primers and topcoats.",
-          "2. Suggested projects include an interior or exterior wall, a door, a piece of furniture, a concrete wall or floor, a porch rail, or a...",
-          "3. Your counselor must preapprove the projects."
+          "1. Prepare and paint two different surfaces using patching materials or caulking and the proper primers and topcoats",
+          "2. Suggested projects include an interior or exterior wall, a door, a piece of furniture, a concrete wall or floor, a porch rail, or a fence",
+          "3. Your counselor must preapprove the projects"
         ],
         "min_rows": 3
       },
       "common_misconception_pair": {
         "misconception": "Primer is just watered-down topcoat paint that you can skip if you apply two thick coats of finish paint.",
-        "fact": "Applying primer is the final stage of surface preparation that seals porous material, protects the substrate, and ensures the topcoat adheres properly (p. 51).",
-        "fact_correction": "Applying primer is the final stage of surface preparation that seals porous material, protects the substrate, and ensures the topcoat adheres properly (p. 51).",
-        "pamphlet_page_ref": "p. 51, p. 55"
+        "fact": "Applying primer is the final stage of surface preparation that seals porous material, protects the substrate, and ensures the topcoat adheres properly (p. 51)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -738,10 +744,10 @@
         "Step 4 - Remove Loose Plaster Dust: Make sure primers for plaster surfaces are alkali-resistant and that plaster dust is removed first (p. 51)."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Prepare and paint two different surfaces",
-        "Inspected hand and power tools with intact guards and ventilation setup for Painting",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 3",
+        "Selected studio media, brushes, modeling tools, or drawing instruments",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths",
+        "Labeled portfolio work or finished studio piece for Patching, Priming, and Painting Surfaces"
       ],
       "comparison_data": {
         "left_header": "Porous Wood and Drywall Primers",
@@ -752,25 +758,25 @@
           "Substrate-Specific Primers: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other metals (p. 51)."
         ],
         "right_points": [
-          "Step 1 - Select Substrate Primer: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other (p. 51).",
+          "Step 1 - Select Substrate Primer: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other metals (p. 51).",
           "Step 2 - Prime Bare Wood Surfaces: Wood primers are available in oil-based or water-based products and can be used indoors or outdoors (p. 51).",
-          "Step 3 - Apply Alkali-Resistant Masonry Primer: Exterior masonry surfaces are often highly alkaline, so be sure to use primers (p. 51)."
+          "Step 3 - Apply Alkali-Resistant Masonry Primer: Exterior masonry surfaces are often highly alkaline, so be sure to use primers on surfaces that are alkali-resistant (p. 51)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Primer as Final Prep",
             "left": "Primer as Final Prep: Applying primer, the first coat of paint, also is the last stage of surface preparation (p. 51).",
-            "right": "Step 1 - Select Substrate Primer: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other (p. 51)."
+            "right": "Step 1 - Select Substrate Primer: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other metals (p. 51)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Bonding and Sealing Functions: The primer makes the next coat stick to the surface, protects the substrate, and seals the surface (p. 51).",
             "right": "Step 2 - Prime Bare Wood Surfaces: Wood primers are available in oil-based or water-based products and can be used indoors or outdoors (p. 51)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Substrate-Specific Primers: There are different primers for wood, concrete and masonry, plaster and drywall, steel, and other metals (p. 51).",
-            "right": "Step 3 - Apply Alkali-Resistant Masonry Primer: Exterior masonry surfaces are often highly alkaline, so be sure to use primers (p. 51)."
+            "right": "Step 3 - Apply Alkali-Resistant Masonry Primer: Exterior masonry surfaces are often highly alkaline, so be sure to use primers on surfaces that are alkali-resistant (p. 51)."
           }
         ]
       },
@@ -808,9 +814,12 @@
         "pamphlet_page_ref": "p. 51, p. 55"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Painting Workbook organizer table and practical demonstration for Req 3.",
+      "homework_verification_note": "Review the Scout's written plan, menu, checklist, or preparation log before sign-off for Painting Requirement 3 (patching, priming, and painting surfaces) before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/painting_req_3_nano_hero.png",
-      "workbook_diagram_caption": "Scouts and an adult leader apply white protective paint to a handmade wooden birdhouse at an outdoor workbench."
+      "workbook_diagram_caption": "Scouts and an adult leader apply white protective paint to a handmade wooden birdhouse at an outdoor workbench.",
+      "number": "3",
+      "description": "Prepare and paint two different surfaces using patching materials or caulking and the proper primers and topcoats. Suggested projects include an interior or exterior wall, a door, a piece of furniture, a concrete wall or floor, a porch rail, or a fence. Your counselor must preapprove the projects.",
+      "workbook_visual_caption": "Scouts and an adult leader apply white protective paint to a handmade wooden birdhouse at an outdoor workbench."
     },
     {
       "req_id": "4",
@@ -841,7 +850,7 @@
       "action_verb": "Prepare",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Painting Requirement 4 activities.",
+      "safety_callout": "Work in a ventilated studio area for Painting Requirement 4: check safety data labels on pigments, glazes, clay dust, and solvents used for color wheel and harmonizing schemes, wash hands thoroughly after handling media, and leave kiln operations to qualified adults.",
       "pamphlet_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 31, p. 38)",
       "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 31, p. 38)",
       "syllabus_bucket": "In-Class Concept",
@@ -859,18 +868,18 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Prepare and paint an item using harmonizing colors that you have selected using the color wheel in the Painting merit badge pamphlet."
+          "1. Prepare and paint an item using harmonizing colors that you have selected using the color wheel in the Painting merit badge pamphlet",
+          "2. Practical execution and real-world examples for Color Wheel and Harmonizing Schemes"
         ],
         "rows": [
-          "1. Prepare and paint an item using harmonizing colors that you have selected using the color wheel in the Painting merit badge pamphlet."
+          "1. Prepare and paint an item using harmonizing colors that you have selected using the color wheel in the Painting merit badge pamphlet",
+          "2. Practical execution and real-world examples for Color Wheel and Harmonizing Schemes"
         ],
-        "min_rows": 1
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Harmonizing colors only mean picking two shades of the exact same paint color, such as light blue and dark blue.",
-        "fact": "The 12-part traditional color wheel allows painters to build harmonious schemes using complementary, analogous, or triadic combinations of primary, secondary, and intermediate colors (p. 31).",
-        "fact_correction": "The 12-part traditional color wheel allows painters to build harmonious schemes using complementary, analogous, or triadic combinations of primary, secondary, and intermediate colors (p. 31).",
-        "pamphlet_page_ref": "p. 31, p. 38"
+        "fact": "The 12-part traditional color wheel allows painters to build harmonious schemes using complementary, analogous, or triadic combinations of primary, secondary, and intermediate colors (p. 31)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -903,13 +912,13 @@
         "Step 1 - Locate Secondary Colors: The three secondary colors form a second triangle (p. 31).",
         "Step 2 - Identify Intermediate Colors: An intermediate color falls between each primary and secondary color (p. 31).",
         "Step 3 - Select Harmonious Scheme: Traditional color wheel When you are ready to paint, use the color wheel to choose a harmonious color scheme (p. 31).",
-        "Step 4 - Combine Twelve Wheel Colors: This basic wheel has 12 colors, a combination of primary colors (red, yellow, blue), secondary colors (green, orange, purple), and sixtertiary (p. 31)."
+        "Step 4 - Combine Twelve Wheel Colors: This basic wheel has 12 colors, a combination of primary colors (red, yellow, blue), secondary colors (green, orange, purple), and six tertiary (p. 31)."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Prepare and paint an item",
-        "Inspected hand and power tools with intact guards and ventilation setup for Painting",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 4",
+        "Selected studio media, brushes, modeling tools, or drawing instruments",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths",
+        "Labeled portfolio work or finished studio piece for Color Wheel and Harmonizing Schemes"
       ],
       "comparison_data": {
         "left_header": "Primary and Secondary Color Triangles",
@@ -922,23 +931,23 @@
         "right_points": [
           "Step 1 - Locate Secondary Colors: The three secondary colors form a second triangle (p. 31).",
           "Step 2 - Identify Intermediate Colors: An intermediate color falls between each primary and secondary color (p. 31).",
-          "Step 3 - Select Harmonious Scheme: Traditional color wheel When you are ready to paint, use the color wheel to choose a harmonious (p. 31)."
+          "Step 3 - Select Harmonious Scheme: On the traditional color wheel shown here, you can see that the primary colors form a triangle (p. 31)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "How Colors Blend",
             "left": "How Colors Blend: The color wheel illustrates how colors blend together (p. 31).",
             "right": "Step 1 - Locate Secondary Colors: The three secondary colors form a second triangle (p. 31)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Primary Color Triangle: On the traditional color wheel shown here, you can see that the primary colors form a triangle (p. 31).",
             "right": "Step 2 - Identify Intermediate Colors: An intermediate color falls between each primary and secondary color (p. 31)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Secondary Color Triangle: The three secondary colors form a second triangle (p. 31).",
-            "right": "Step 3 - Select Harmonious Scheme: Traditional color wheel When you are ready to paint, use the color wheel to choose a harmonious (p. 31)."
+            "right": "Step 3 - Select Harmonious Scheme: On the traditional color wheel shown here, you can see that the primary colors form a triangle (p. 31)."
           }
         ]
       },
@@ -976,9 +985,12 @@
         "pamphlet_page_ref": "p. 31, p. 38"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Painting Workbook organizer table and practical demonstration for Req 4.",
+      "homework_verification_note": "Review the Scout's written plan, menu, checklist, or preparation log before sign-off for Painting Requirement 4 (color wheel and harmonizing schemes) before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/painting_p033_img1.png",
-      "workbook_diagram_caption": "Rich green walls and fireplace mantle create an elegant monochromatic dining room."
+      "workbook_diagram_caption": "Rich green walls and fireplace mantle create an elegant monochromatic dining room.",
+      "number": "4",
+      "description": "Prepare and paint an item using harmonizing colors that you have selected using the color wheel in the Painting merit badge pamphlet.",
+      "workbook_visual_caption": "Rich green walls and fireplace mantle create an elegant monochromatic dining room."
     },
     {
       "req_id": "5",
@@ -1009,7 +1021,7 @@
       "action_verb": "Show",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Painting Requirement 5 activities.",
+      "safety_callout": "Work in a ventilated studio area for Painting Requirement 5: check safety data labels on pigments, glazes, clay dust, and solvents used for tool use, cleaning, and storage, wash hands thoroughly after handling media, and leave kiln operations to qualified adults.",
       "pamphlet_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 54, p. 57)",
       "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 54, p. 57)",
       "syllabus_bucket": "In-Class Concept",
@@ -1027,18 +1039,18 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Show the right way to use, clean, maintain, and store painting equipment."
+          "1. Show the right way to use, clean, maintain, and store painting equipment",
+          "2. Practical execution and real-world examples for Tool Use, Cleaning, and Storage"
         ],
         "rows": [
-          "1. Show the right way to use, clean, maintain, and store painting equipment."
+          "1. Show the right way to use, clean, maintain, and store painting equipment",
+          "2. Practical execution and real-world examples for Tool Use, Cleaning, and Storage"
         ],
-        "min_rows": 1
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "It is faster and more economical to let paint dry on brushes and soak them in harsh chemical stripper the next weekend.",
-        "fact": "Cleaning brushes immediately after use takes only a few minutes, whereas dried paint requires expensive cleaners that take hours of work and can ruin the bristles (p. 54).",
-        "fact_correction": "Cleaning brushes immediately after use takes only a few minutes, whereas dried paint requires expensive cleaners that take hours of work and can ruin the bristles (p. 54).",
-        "pamphlet_page_ref": "p. 54, p. 57"
+        "fact": "Cleaning brushes immediately after use takes only a few minutes, whereas dried paint requires expensive cleaners that take hours of work and can ruin the bristles (p. 54)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1074,39 +1086,39 @@
         "Step 4 - Wrap Overnight in Foil: If the same brush and paint have been used over several days, store the brush for the night (with most of the paint wiped off) in tightly folded aluminum (p. 54)."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Right Painting Equipment",
-        "Inspected hand and power tools with intact guards and ventilation setup for Painting",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 5",
+        "Selected studio media, brushes, modeling tools, or drawing instruments",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths",
+        "Labeled portfolio work or finished studio piece for Tool Use, Cleaning, and Storage"
       ],
       "comparison_data": {
         "left_header": "Overnight Aluminum Foil Wrapping",
         "right_header": "Complete End-of-Project Cleaning and Storage",
         "left_points": [
-          "Immediate Tool Cleaning: Care and Storage of Equipment The most important part of taking care of any paint application tool (p. 54).",
-          "Avoiding Costly Tool Damage: Failure to do so can cost you more time and more money spent on special cleaners, which in some cases may (p. 54).",
+          "Immediate Tool Cleaning: Care and Storage of Equipment The most important part of taking care of any paint application tool or equipment is cleaning it immediately (p. 54).",
+          "Avoiding Costly Tool Damage: Failure to do so can cost you more time and more money spent on special cleaners, which in some cases may ruin the tool (p. 54).",
           "Extending Brush Lifespan: If you clean your brushes after each use, they will last along time (p. 54)."
         ],
         "right_points": [
           "Step 1 - Wash Brushes Immediately: If you clean your brushes after each use, they will last along time (p. 54).",
           "Step 2 - Rinse Out Wet Paint: Cleaning takes only a few minutes and saves hours of work and, quite possibly, the cost of replacement (p. 54).",
-          "Step 3 - Prevent Hardened Bristles: If paint is allowed to harden in a brush, cleaning that brush becomes adifficult and time-consuming (p. 54)."
+          "Step 3 - Prevent Hardened Bristles: If paint is allowed to harden in a brush, cleaning that brush becomes adifficult and time-consuming task, one that could have been easily avoided (p. 54)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "Immediate Tool Cleaning: Care and Storage of Equipment The most important part of taking care of any paint application tool (p. 54).",
+            "attribute": "Immediate Tool Cleaning",
+            "left": "Immediate Tool Cleaning: Care and Storage of Equipment The most important part of taking care of any paint application tool or equipment is cleaning it immediately (p. 54).",
             "right": "Step 1 - Wash Brushes Immediately: If you clean your brushes after each use, they will last along time (p. 54)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Avoiding Costly Tool Damage: Failure to do so can cost you more time and more money spent on special cleaners, which in some cases may (p. 54).",
+            "attribute": "Practical Field Application",
+            "left": "Avoiding Costly Tool Damage: Failure to do so can cost you more time and more money spent on special cleaners, which in some cases may ruin the tool (p. 54).",
             "right": "Step 2 - Rinse Out Wet Paint: Cleaning takes only a few minutes and saves hours of work and, quite possibly, the cost of replacement (p. 54)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Extending Brush Lifespan: If you clean your brushes after each use, they will last along time (p. 54).",
-            "right": "Step 3 - Prevent Hardened Bristles: If paint is allowed to harden in a brush, cleaning that brush becomes adifficult and time-consuming (p. 54)."
+            "right": "Step 3 - Prevent Hardened Bristles: If paint is allowed to harden in a brush, cleaning that brush becomes adifficult and time-consuming task, one that could have been easily avoided (p. 54)."
           }
         ]
       },
@@ -1119,7 +1131,7 @@
           "Extending Brush Lifespan": "If you clean your brushes after each use, they will last along time (p. 54).",
           "Saving Time and Money": "Cleaning takes only a few minutes and saves hours of work and, quite possibly, the cost of replacement (p. 54)."
         },
-        "sample_output": "Tool Use, Cleaning, and Storage: Care and Storage of Equipment The most important part of taking care of any paint application tool or equipment (p. 54).",
+        "sample_output": "Tool Use, Cleaning, and Storage: Care and Storage of Equipment The most important part of taking care of any paint application tool or equipment is cleaning it immediately (p. 54).",
         "counselor_tip": "For Painting Requirement 5 (Tool Use, Cleaning, and Storage), verify the Scout's own observations and specific pamphlet details (Official Scouting America Painting Merit Badge Pamphlet (p. 54, p. 57))."
       },
       "quiz_item": {
@@ -1144,9 +1156,12 @@
         "pamphlet_page_ref": "p. 54, p. 57"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Painting Workbook organizer table and practical demonstration for Req 5.",
+      "homework_verification_note": "Inspect the Scout's live demonstration or physical artifact and confirm each step is mastered for Painting Requirement 5 (tool use, cleaning, and storage) before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/painting_p054_img1.png",
-      "workbook_diagram_caption": "Various sash and flat paintbrushes are designed for precise trim and wall coverage."
+      "workbook_diagram_caption": "Various sash and flat paintbrushes are designed for precise trim and wall coverage.",
+      "number": "5",
+      "description": "Show the right way to use, clean, maintain, and store painting equipment.",
+      "workbook_visual_caption": "Various sash and flat paintbrushes are designed for precise trim and wall coverage."
     },
     {
       "req_id": "6",
@@ -1173,7 +1188,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Painting Requirement 6 activities.",
+      "safety_callout": "Work in a ventilated studio area for Painting Requirement 6: check safety data labels on pigments, glazes, clay dust, and solvents used for ladder safety and protective gear, wash hands thoroughly after handling media, and leave kiln operations to qualified adults.",
       "pamphlet_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 14, p. 18)",
       "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 14, p. 18)",
       "syllabus_bucket": "In-Class Concept",
@@ -1191,18 +1206,18 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the importance of ladder safety, personal hygiene, and the use of personal protective equipment when painting."
+          "1. Explain the importance of ladder safety, personal hygiene, and the use of personal protective equipment when painting",
+          "2. Practical execution and real-world examples for Ladder Safety and Protective Gear"
         ],
         "rows": [
-          "1. Explain the importance of ladder safety, personal hygiene, and the use of personal protective equipment when painting."
+          "1. Explain the importance of ladder safety, personal hygiene, and the use of personal protective equipment when painting",
+          "2. Practical execution and real-world examples for Ladder Safety and Protective Gear"
         ],
-        "min_rows": 1
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Stretching far to the side from the top step of a stepladder saves time and is safe if you hold onto the gutter.",
-        "fact": "Proper ladder setup and usage require keeping your body centered between the side rails and taking the time to reposition the ladder rather than overreaching (p. 14).",
-        "fact_correction": "Proper ladder setup and usage require keeping your body centered between the side rails and taking the time to reposition the ladder rather than overreaching (p. 14).",
-        "pamphlet_page_ref": "p. 14, p. 18"
+        "fact": "Proper ladder setup and usage require keeping your body centered between the side rails and taking the time to reposition the ladder rather than overreaching (p. 14)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1238,10 +1253,10 @@
         "Step 4 - Practice Personal Hygiene: Using painting products and equipment requires some basic knowledge to stay safe and help protect the environment (p. 14)."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Ladder Safety Personal Hygiene",
-        "Inspected hand and power tools with intact guards and ventilation setup for Painting",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 6",
+        "Selected studio media, brushes, modeling tools, or drawing instruments",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths",
+        "Labeled portfolio work or finished studio piece for Ladder Safety and Protective Gear"
       ],
       "comparison_data": {
         "left_header": "Safe Ladder Setup and Climbing",
@@ -1253,24 +1268,24 @@
         ],
         "right_points": [
           "Step 1 - Inspect Protective Gear: Taking these precautions can help prevent injury (p. 14).",
-          "Step 2 - Choose Proper Ladders: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work (p. 14).",
-          "Step 3 - Maintain Three-Point Contact: While it is helpful to know this special equipment exists, you are not required to use any of it (p. 14)."
+          "Step 2 - Choose Proper Ladders: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 14).",
+          "Step 3 - Maintain Three-Point Contact: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 14)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Continuous Ladder Vigilance",
             "left": "Continuous Ladder Vigilance: Think of safety all the time while using a ladder (p. 14).",
             "right": "Step 1 - Inspect Protective Gear: Taking these precautions can help prevent injury (p. 14)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Safe Ladder Positioning: Take the time to properly set up the ladder and to use it properly (p. 14).",
-            "right": "Step 2 - Choose Proper Ladders: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work (p. 14)."
+            "right": "Step 2 - Choose Proper Ladders: Other types of ladders and climbing equipment include scaffolding, personnel lifts, and suspended work platforms (p. 14)."
           },
           {
-            "attribute": "Dimension 3",
+            "attribute": "Safety & Verification Standard",
             "left": "Injury Prevention Habits: Taking these precautions can help prevent injury (p. 14).",
-            "right": "Step 3 - Maintain Three-Point Contact: While it is helpful to know this special equipment exists, you are not required to use any of it (p. 14)."
+            "right": "Step 3 - Maintain Three-Point Contact: While it is helpful to know this special equipment exists, you are not required to use any of it to earn the Painting merit badge (p. 14)."
           }
         ]
       },
@@ -1308,9 +1323,12 @@
         "pamphlet_page_ref": "p. 14, p. 18"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Painting Workbook organizer table and practical demonstration for Req 6.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Painting Requirement 6 (ladder safety and protective gear) before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/painting_p017_img1.png",
-      "workbook_diagram_caption": "Essential surface preparation tools include scrapers, brushes, and a caulk gun."
+      "workbook_diagram_caption": "Essential surface preparation tools include scrapers, brushes, and a caulk gun.",
+      "number": "6",
+      "description": "Explain the importance of ladder safety, personal hygiene, and the use of personal protective equipment when painting.",
+      "workbook_visual_caption": "Essential surface preparation tools include scrapers, brushes, and a caulk gun."
     },
     {
       "req_id": "7",
@@ -1341,7 +1359,7 @@
       "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Painting Requirement 7 activities.",
+      "safety_callout": "Work in a ventilated studio area for Painting Requirement 7: check safety data labels on pigments, glazes, clay dust, and solvents used for environmental and health hazards, wash hands thoroughly after handling media, and leave kiln operations to qualified adults.",
       "pamphlet_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 14, p. 22)",
       "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 14, p. 22)",
       "syllabus_bucket": "In-Class Concept",
@@ -1359,18 +1377,18 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain some of the environmental and health issues concerning removing paint, applying paint, and discarding old paint."
+          "1. Explain some of the environmental and health issues concerning removing paint, applying paint, and discarding old paint",
+          "2. Practical execution and real-world examples for Environmental and Health Hazards"
         ],
         "rows": [
-          "1. Explain some of the environmental and health issues concerning removing paint, applying paint, and discarding old paint."
+          "1. Explain some of the environmental and health issues concerning removing paint, applying paint, and discarding old paint",
+          "2. Practical execution and real-world examples for Environmental and Health Hazards"
         ],
-        "min_rows": 1
+        "min_rows": 2
       },
       "common_misconception_pair": {
         "misconception": "Leftover liquid paint and mineral spirits can be poured down a storm drain or household sink if diluted with plenty of water.",
-        "fact": "Solvents, leftover paints, paint chips, and lead-contaminated dust are hazardous materials that must be disposed of properly through approved community collection programs (p. 14).",
-        "fact_correction": "Solvents, leftover paints, paint chips, and lead-contaminated dust are hazardous materials that must be disposed of properly through approved community collection programs (p. 14).",
-        "pamphlet_page_ref": "p. 14, p. 22"
+        "fact": "Solvents, leftover paints, paint chips, and lead-contaminated dust are hazardous materials that must be disposed of properly through approved community collection programs (p. 14)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -1405,34 +1423,39 @@
         "Step 3 - Apply Solvent Safety Rules: Follow the same safety guidelines for solvents and solvent-based paints (p. 14).",
         "Step 4 - Maintain Fresh Air Supply: Inhaling too many solvent vapors can make breathing difficult, lowering the oxygen level in the body (p. 14)."
       ],
-      "gear_checklist": [],
+      "gear_checklist": [
+        "Official Painting merit badge pamphlet and studio sketch book for Req 7",
+        "Selected studio media, brushes, modeling tools, or drawing instruments",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths",
+        "Labeled portfolio work or finished studio piece for Environmental and Health Hazards"
+      ],
       "comparison_data": {
         "left_header": "Solvent Vapor and Lead Dust Hazards",
         "right_header": "Eco-Friendly Paint Disposal Practices",
         "left_points": [
           "Hazardous Waste Disposal: Solvents, paints, paint chips, and dust that may contain lead must be disposed of properly (p. 14).",
           "Dangerous Paint Ingredients: Paint ingredients, when mishandled, can be dangerous (p. 14).",
-          "Common Paint Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin (p. 14)."
+          "Common Paint Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin the paint and during cleanup (p. 14)."
         ],
         "right_points": [
-          "Step 1 - Identify Thinning Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used (p. 14).",
+          "Step 1 - Identify Thinning Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin the paint and during cleanup (p. 14).",
           "Step 2 - Protect Bystanders From Fumes: Solvents are particularly hazardous to the painter and others who may be exposed to them (p. 14).",
           "Step 3 - Apply Solvent Safety Rules: Follow the same safety guidelines for solvents and solvent-based paints (p. 14)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
+            "attribute": "Hazardous Waste Disposal",
             "left": "Hazardous Waste Disposal: Solvents, paints, paint chips, and dust that may contain lead must be disposed of properly (p. 14).",
-            "right": "Step 1 - Identify Thinning Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used (p. 14)."
+            "right": "Step 1 - Identify Thinning Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin the paint and during cleanup (p. 14)."
           },
           {
-            "attribute": "Dimension 2",
+            "attribute": "Practical Field Application",
             "left": "Dangerous Paint Ingredients: Paint ingredients, when mishandled, can be dangerous (p. 14).",
             "right": "Step 2 - Protect Bystanders From Fumes: Solvents are particularly hazardous to the painter and others who may be exposed to them (p. 14)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "Common Paint Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin (p. 14).",
+            "attribute": "Safety & Verification Standard",
+            "left": "Common Paint Solvents: Solvents, such as mineral spirits, xylol, and naphtha, are present in some paints and are used to reduce or thin the paint and during cleanup (p. 14).",
             "right": "Step 3 - Apply Solvent Safety Rules: Follow the same safety guidelines for solvents and solvent-based paints (p. 14)."
           }
         ]
@@ -1471,9 +1494,12 @@
         "pamphlet_page_ref": "p. 14, p. 22"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Painting Workbook organizer table and practical demonstration for Req 7.",
+      "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Painting Requirement 7 (environmental and health hazards) before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/painting_p021_img1.png",
-      "workbook_diagram_caption": "A painter safely rolls paint onto an interior wall while standing on a stepladder."
+      "workbook_diagram_caption": "A painter safely rolls paint onto an interior wall while standing on a stepladder.",
+      "number": "7",
+      "description": "Explain some of the environmental and health issues concerning removing paint, applying paint, and discarding old paint.",
+      "workbook_visual_caption": "A painter safely rolls paint onto an interior wall while standing on a stepladder."
     },
     {
       "req_id": "8",
@@ -1516,25 +1542,23 @@
               "Professional Interview / Source Notes"
             ],
             "row_labels": [
-              "1. Explore careers related to this merit badge.",
-              "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement.",
-              "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a...",
-              "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career."
+              "1. Explore careers related to this merit badge",
+              "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement",
+              "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
+              "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
             "rows": [
-              "1. Explore careers related to this merit badge.",
-              "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement.",
-              "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a...",
-              "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career."
+              "1. Explore careers related to this merit badge",
+              "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement",
+              "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
+              "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
             "min_rows": 4
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)",
           "common_misconception_pair": {
             "misconception": "Trade organizations like the NCCER only sell paint supplies and do not provide educational training or safety standards.",
-            "fact": "The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, and management education for the trade (p. 69).",
-            "fact_correction": "The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, and management education for the trade (p. 69).",
-            "pamphlet_page_ref": "p. 69, p. 79"
+            "fact": "The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, and management education for the trade (p. 69)."
           },
           "starting_requirement_gate": {
             "gate_type": "PARENT_CONSENT_GATE",
@@ -1566,12 +1590,13 @@
           "sub_req_label": "8a",
           "sub_req_text": "Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
           "topic_title": "Req 8a: Exploring Professional Painting Careers",
-          "pamphlet_summary": "Exploring Professional Painting Careers: This site offers \"expert advice and help for do-it-yourselfers\" and allows users topost questions to experts (p. 69).",
+          "pamphlet_summary": "Exploring Professional Painting Careers: The Painting pamphlet for Requirement 8a details explore careers related to this merit badge, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 69).",
           "pamphlet_excerpts": [
-            "Exploring Professional Painting Careers: This site offers \"expert advice and help for do-it-yourselfers\" and allows users topost questions to experts (p. 69)."
+            "Exploring Professional Painting Careers: The Painting pamphlet for Requirement 8a details explore careers related to this merit badge, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 69)."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/painting_p066_img1.png",
-          "workbook_diagram_caption": "A decorative metal patio chair is coated in durable light blue enamel paint."
+          "workbook_diagram_caption": "A decorative metal patio chair is coated in durable light blue enamel paint.",
+          "workbook_visual_caption": "A decorative metal patio chair is coated in durable light blue enamel paint."
         },
         {
           "sub_id": "8b",
@@ -1579,7 +1604,7 @@
           "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
           "resources": [
             {
-              "title": "Easy Wall Painting DIY I Balcony makeover I Yoga wall art (video)",
+              "title": "Easy Wall Painting DIY I Balcony make over I Yoga wall art (video)",
               "url": "https://youtu.be/UpImD3qedKw"
             }
           ],
@@ -1613,9 +1638,7 @@
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)",
           "common_misconception_pair": {
             "misconception": "Skills learned in the Painting merit badge are only useful if you become a full-time commercial contractor.",
-            "fact": "Painting skills support rewarding lifelong hobbies including decorative mural creation, furniture refinishing, and historic home restoration (p. 69).",
-            "fact_correction": "Painting skills support rewarding lifelong hobbies including decorative mural creation, furniture refinishing, and historic home restoration (p. 69).",
-            "pamphlet_page_ref": "p. 69, p. 79"
+            "fact": "Painting skills support rewarding lifelong hobbies including decorative mural creation, furniture refinishing, and historic home restoration (p. 69)."
           },
           "starting_requirement_gate": null,
           "curated_resources": [
@@ -1642,12 +1665,14 @@
           "sub_req_label": "8b",
           "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
           "topic_title": "Req 8b: Pursuing Painting Hobbies and Lifestyles",
-          "pamphlet_summary": "Pursuing Painting Hobbies and Lifestyles: The NCCER develops and publishes standardized construction and maintenancecurricula, safety programs, managementeducation, industry image materials (p. 69).",
+          "pamphlet_summary": "Pursuing Painting Hobbies and Lifestyles: The Painting pamphlet for Requirement 8b details explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 69).",
           "pamphlet_excerpts": [
-            "Pursuing Painting Hobbies and Lifestyles: The NCCER develops and publishes standardized construction and maintenancecurricula, safety programs, managementeducation, industry image materials (p. 69)."
+            "Pursuing Painting Hobbies and Lifestyles: The Painting pamphlet for Requirement 8b details explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 69)."
           ],
-          "workbook_diagram_url": "",
-          "title": "Req 8b: Explore How You Could Use Knowledge"
+          "workbook_diagram_url": "assets/pamphlet_images/painting_p066_img1.png",
+          "title": "Req 8b: Pursuing Painting Hobbies and Lifestyles",
+          "workbook_diagram_caption": "A decorative metal patio chair is coated in durable light blue enamel paint.",
+          "workbook_visual_caption": "A decorative metal patio chair is coated in durable light blue enamel paint."
         }
       ],
       "resources": [
@@ -1664,7 +1689,7 @@
           "url": "https://www.bls.gov/ooh/construction-and-extraction/painters-construction-and-maintenance.htm"
         },
         {
-          "title": "Easy Wall Painting DIY I Balcony makeover I Yoga wall art (video)",
+          "title": "Easy Wall Painting DIY I Balcony make over I Yoga wall art (video)",
           "url": "https://youtu.be/UpImD3qedKw"
         }
       ],
@@ -1680,7 +1705,7 @@
       "action_verb": "Prepare",
       "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Follow the BSA Guide to Safe Scouting, wear appropriate PPE, and use the Buddy System during all Painting Requirement 8 activities.",
+      "safety_callout": "Work in a ventilated studio area for Painting Requirement 8: check safety data labels on pigments, glazes, clay dust, and solvents used for painting careers and lifelong hobbies, wash hands thoroughly after handling media, and leave kiln operations to qualified adults.",
       "pamphlet_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)",
       "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)",
       "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1713,9 +1738,7 @@
       },
       "common_misconception_pair": {
         "misconception": "Becoming a skilled professional painter requires only reading books rather than hands-on field experience.",
-        "fact": "The best way to master the painting craft is through on-the-job training, such as a structured three-year apprenticeship that builds both technical skill and work experience (p. 69).",
-        "fact_correction": "The best way to master the painting craft is through on-the-job training, such as a structured three-year apprenticeship that builds both technical skill and work experience (p. 69).",
-        "pamphlet_page_ref": "p. 69, p. 79"
+        "fact": "The best way to master the painting craft is through on-the-job training, such as a structured three-year apprenticeship that builds both technical skill and work experience (p. 69)."
       },
       "starting_requirement_gate": {
         "gate_type": "PARENT_CONSENT_GATE",
@@ -1752,43 +1775,43 @@
       "step_by_step_procedure": [
         "Step 1 - Research Industry Training Programs: The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, management education, industry image materials (p. 69).",
         "Step 2 - Explore Home Improvement Resources: This site gives \"old-house enthusiasts\" ideas and advice on many home improvement tasks, products, and suppliers (p. 69).",
-        "Step 3 - Seek On-the-Job Experience: Training in the Craft The best way to learn the painting craft is to get on-the-jobtraining (p. 69).",
+        "Step 3 - Seek On-the-Job Experience: Training in the Craft The best way to learn the painting craft is to get on-the-job training (p. 69).",
         "Step 4 - Complete Trade Apprenticeship: A three-year apprenticeship is a satisfactory way toget not only the training but also the experience necessary to secure your own position (p. 69)."
       ],
       "gear_checklist": [
-        "ANSI Z87.1 wrap-around safety glasses, hearing protection, work gloves, and shop apron",
-        "Tape measure, square, layout pencil, clamps, and material stock for Painting Careers and Pathways",
-        "Inspected hand and power tools with intact guards and ventilation setup for Painting",
-        "Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet"
+        "Official Painting merit badge pamphlet and studio sketch book for Req 8",
+        "Selected studio media, brushes, modeling tools, or drawing instruments",
+        "Protective studio apron, water basin or palette, and clean lint-free cloths",
+        "Labeled portfolio work or finished studio piece for Painting Careers and Lifelong Hobbies"
       ],
       "comparison_data": {
         "left_header": "Professional Trade Apprenticeships and Careers",
         "right_header": "Personal Home Improvement and Artistic Hobbies",
         "left_points": [
-          "(8a) Exploring Professional Painting Careers: This site offers \"expert advice and help for do-it-yourselfers\" and allows users topost (p. 69).",
-          "Expert Do-It-Yourself Advice: This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions (p. 69).",
-          "Standardized Trade Curricula: The NCCER develops and publishes standardized construction and maintenance curricula, safety programs (p. 69)."
+          "(8a) Exploring Professional Painting Careers: This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions to experts (p. 69).",
+          "Expert Do-It-Yourself Advice: This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions to experts (p. 69).",
+          "Standardized Trade Curricula: The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, management education, industry image materials (p. 69)."
         ],
         "right_points": [
-          "(8b) Pursuing Painting Hobbies and Lifestyles: The NCCER develops and publishes standardized construction and maintenancecurricula (p. 69).",
-          "Step 2 - Explore Home Improvement Resources: This site gives \"old-house enthusiasts\" ideas and advice on many home improvement tasks (p. 69).",
-          "Step 3 - Seek On-the-Job Experience: Training in the Craft The best way to learn the painting craft is to get on-the-jobtraining (p. 69)."
+          "(8b) Pursuing Painting Hobbies and Lifestyles: The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, management education, industry image materials (p. 69).",
+          "Step 2 - Explore Home Improvement Resources: This site gives \"old-house enthusiasts\" ideas and advice on many home improvement tasks, products, and suppliers (p. 69).",
+          "Step 3 - Seek On-the-Job Experience: Training in the Craft The best way to learn the painting craft is to get on-the-job training (p. 69)."
         ],
         "rows": [
           {
-            "attribute": "Dimension 1",
-            "left": "(8a) Exploring Professional Painting Careers: This site offers \"expert advice and help for do-it-yourselfers\" and allows users topost (p. 69).",
-            "right": "(8b) Pursuing Painting Hobbies and Lifestyles: The NCCER develops and publishes standardized construction and maintenancecurricula (p. 69)."
+            "attribute": "Exploring Professional Painting Careers",
+            "left": "(8a) Exploring Professional Painting Careers: This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions to experts (p. 69).",
+            "right": "(8b) Pursuing Painting Hobbies and Lifestyles: The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, management education, industry image materials (p. 69)."
           },
           {
-            "attribute": "Dimension 2",
-            "left": "Expert Do-It-Yourself Advice: This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions (p. 69).",
-            "right": "Step 2 - Explore Home Improvement Resources: This site gives \"old-house enthusiasts\" ideas and advice on many home improvement tasks (p. 69)."
+            "attribute": "Practical Field Application",
+            "left": "Expert Do-It-Yourself Advice: This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions to experts (p. 69).",
+            "right": "Step 2 - Explore Home Improvement Resources: This site gives \"old-house enthusiasts\" ideas and advice on many home improvement tasks, products, and suppliers (p. 69)."
           },
           {
-            "attribute": "Dimension 3",
-            "left": "Standardized Trade Curricula: The NCCER develops and publishes standardized construction and maintenance curricula, safety programs (p. 69).",
-            "right": "Step 3 - Seek On-the-Job Experience: Training in the Craft The best way to learn the painting craft is to get on-the-jobtraining (p. 69)."
+            "attribute": "Safety & Verification Standard",
+            "left": "Standardized Trade Curricula: The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, management education, industry image materials (p. 69).",
+            "right": "Step 3 - Seek On-the-Job Experience: Training in the Craft The best way to learn the painting craft is to get on-the-job training (p. 69)."
           }
         ]
       },
@@ -1796,10 +1819,10 @@
         "title": "Painting Req 8 Exemplar Workbook Entry: Painting Careers and Lifelong Hobbies",
         "artifact_type": "CAREER_EXPLORATION_CARD",
         "fields": {
-          "Req 8a (Exploring Professional)": "This site offers \"expert advice and help for do-it-yourselfers\" and allows users topost questions to experts (p. 69).",
-          "Req 8b (Pursuing Painting Hobbies)": "The NCCER develops and publishes standardized construction and maintenancecurricula, safety programs, managementeducation, industry image materials (p. 69)."
+          "Req 8a (Exploring Professional Painting Careers)": "This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions to experts (p. 69).",
+          "Req 8b (Pursuing Painting Hobbies and Lifestyles)": "The NCCER develops and publishes standardized construction and maintenance curricula, safety programs, management education, industry image materials (p. 69)."
         },
-        "sample_output": "Painting Careers and Lifelong Hobbies: This site offers \"expert advice and help for do-it-yourselfers\" and allows users topost questions (p. 69).",
+        "sample_output": "Painting Careers and Lifelong Hobbies: This site offers \"expert advice and help for do-it-yourselfers\" and allows users to post questions to experts (p. 69).",
         "counselor_tip": "For Painting Requirement 8 (Painting Careers and Lifelong Hobbies), verify the Scout's own observations and specific pamphlet details (Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79))."
       },
       "quiz_item": {
@@ -1824,9 +1847,12 @@
         "pamphlet_page_ref": "p. 69, p. 79"
       },
       "estimated_minutes": 15,
-      "homework_verification_note": "Verify completed Painting Workbook organizer table and practical demonstration for Req 8.",
+      "homework_verification_note": "Review the Scout's written plan, menu, checklist, or preparation log before sign-off for Painting Requirement 8 (painting careers and lifelong hobbies) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/painting_p066_img1.png",
-      "workbook_diagram_caption": "A decorative metal patio chair is coated in durable light blue enamel paint."
+      "workbook_diagram_caption": "A decorative metal patio chair is coated in durable light blue enamel paint.",
+      "number": "8",
+      "description": "Do ONE of the following: (a) Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
+      "workbook_visual_caption": "A decorative metal patio chair is coated in durable light blue enamel paint."
     }
   ],
   "badge_slug": "painting",
@@ -2039,5 +2065,12 @@
       "Signed Application for Merit Badge (Blue Card #34124) or Scoutbook connection",
       "Field notebook, pen/pencil, and personal safety equipment (PPE)"
     ]
+  },
+  "source_url": "https://www.scouting.org/merit-badges/painting/",
+  "scouting_org_url": "https://www.scouting.org/merit-badges/painting/",
+  "local_grounding_spec": {
+    "council_jurisdiction": "Local BSA Council & Municipal Code",
+    "facility_type": "Approved Painting field site or counselor workspace",
+    "emergency_contact_protocol": "BSA Two-Deep Leadership & Local EMS (911)"
   }
 }

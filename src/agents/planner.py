@@ -414,7 +414,38 @@ def _load_precomputed_facilitator_notes() -> Dict[str, str]:
             return _PRECOMPUTED_FACILITATOR_NOTES_CACHE
         loaded = json.loads(notes_path.read_text(encoding="utf-8"))
         if isinstance(loaded, dict):
-            _PRECOMPUTED_FACILITATOR_NOTES_CACHE = {str(k): str(v) for k, v in loaded.items()}
+            flat_map: Dict[str, str] = {}
+            if isinstance(loaded.get("badges"), dict):
+                for b_key, b_val in loaded["badges"].items():
+                    b_norm = str(b_key).replace("-", "_")
+                    if isinstance(b_val, dict):
+                        notes_obj = b_val.get("notes") or b_val.get("requirements") or b_val
+                        if isinstance(notes_obj, dict):
+                            for r_key, r_val in notes_obj.items():
+                                if isinstance(r_val, str):
+                                    flat_map[f"{b_norm}::{r_key}::0"] = r_val
+                                elif isinstance(r_val, list):
+                                    for idx_n, n_str in enumerate(r_val):
+                                        flat_map[f"{b_norm}::{r_key}::{idx_n}"] = str(n_str)
+                                elif isinstance(r_val, dict):
+                                    for idx_k, n_str in r_val.items():
+                                        flat_map[f"{b_norm}::{r_key}::{idx_k}"] = str(n_str)
+            else:
+                for k, v in loaded.items():
+                    ks = str(k)
+                    vs = str(v)
+                    flat_map[ks] = vs
+                    parts = ks.split("::")
+                    if len(parts) >= 2:
+                        u_s = parts[0].replace("_", "-")
+                        f_s = parts[0].replace("-", "_")
+                        rest = "::".join(parts[1:])
+                        flat_map[f"{u_s}::{rest}"] = vs
+                        flat_map[f"{f_s}::{rest}"] = vs
+                        if parts[-1] == "0" and len(parts) == 3:
+                            flat_map[f"{u_s}::{parts[1]}"] = vs
+                            flat_map[f"{f_s}::{parts[1]}"] = vs
+            _PRECOMPUTED_FACILITATOR_NOTES_CACHE = flat_map
             _PRECOMPUTED_FACILITATOR_NOTES_MTIME = cur_mtime
             return _PRECOMPUTED_FACILITATOR_NOTES_CACHE
     except Exception:
@@ -422,25 +453,126 @@ def _load_precomputed_facilitator_notes() -> Dict[str, str]:
     return {}
 
 
+def _extract_precomputed_note_parts(raw_note: str) -> Tuple[str, str, List[str]]:
+    """Extracts sanitized (myth, fact, extra_insights) from a precomputed facilitator note entry."""
+    import re
+
+    if not raw_note or not str(raw_note).strip():
+        return "", "", []
+    text = _sanitize_no_ellipsis_or_emdash(str(raw_note))
+    # Strip any truncated trailing '(p.' or '(pp.' fragments
+    text = re.sub(r"\s*\(\s*pp?\.?\s*\d*[^)]*$", "", text, flags=re.IGNORECASE)
+
+    myth_out = ""
+    fact_out = ""
+    m_misc = re.search(
+        r"\[COMMON MISCONCEPTION TO CORRECT\]\s*Myth:\s*(.+?)\s*\|\s*BSA Pamphlet Fact:\s*(.+?)(?=\n\[|$)",
+        text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    if m_misc:
+        myth_cand = re.sub(r"\s*\(\s*pp?\.?\s*\d*[^)]*$", "", m_misc.group(1).strip()).strip()
+        fact_cand = re.sub(r"\s*\(\s*pp?\.?\s*\d*[^)]*$", "", m_misc.group(2).strip()).strip()
+        # Deduplicate repeated sentences inside fact_cand
+        fact_sents = [s.strip() for s in re.split(r"(?<=[.?!])\s+", fact_cand) if s.strip()]
+        dedup_f: List[str] = []
+        for fs in fact_sents:
+            if fs.lower() not in {x.lower() for x in dedup_f}:
+                dedup_f.append(fs)
+        fact_cand = " ".join(dedup_f).strip()
+        if not _is_generic_meta_misconception(myth_cand, fact_cand):
+            myth_out, fact_out = myth_cand, fact_cand
+
+    insights: List[str] = []
+    m_key = re.search(
+        r"\[EXPECTED PAMPHLET ANSWER KEY\]\s*(.+?)(?=\[Expected Answer:|\n\[|$)",
+        text,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    if m_key:
+        raw_k = m_key.group(1).strip()
+        raw_k = re.sub(r"^Citation:\s*[^.]+\.\s*", "", raw_k, flags=re.IGNORECASE).strip()
+        raw_k = re.sub(r"\s*\(\s*pp?\.?\s*\d*[^)]*$", "", raw_k, flags=re.IGNORECASE).strip()
+        if len(raw_k) >= 25 and "(" not in raw_k[-6:]:
+            insights.append(raw_k)
+
+    return myth_out, fact_out, insights
+
+
+def _conjugate_third_person_singular(verb_phrase: str) -> str:
+    """Conjugates an action verb or compound verb phrase ('discuss', 'research and discuss') to 3rd-person singular."""
+    import re
+
+    def _conj_single(v: str) -> str:
+        w = v.strip().lower()
+        if not w:
+            return "explains"
+        irregular = {
+            "be": "is",
+            "have": "has",
+            "do": "does",
+            "go": "goes",
+        }
+        if w in irregular:
+            return irregular[w]
+        if w.endswith(("ss", "sh", "ch", "x", "z", "o")):
+            return f"{w}es"
+        if len(w) > 2 and w.endswith("y") and w[-2] not in "aeiou":
+            return f"{w[:-1]}ies"
+        if w.endswith("s"):
+            return w
+        return f"{w}s"
+
+    vp = str(verb_phrase or "explain").strip().lower()
+    if " and " in vp:
+        parts = [p.strip() for p in vp.split(" and ", 1)]
+        return f"{_conjugate_third_person_singular(parts[0])} and {_conjugate_third_person_singular(parts[1])}"
+    tokens = [t for t in re.split(r"\s+", vp) if t]
+    if not tokens:
+        return "explains"
+    if len(tokens) >= 2 and tokens[0].endswith("ly") and tokens[0] not in {"apply", "fly", "reply", "supply", "multiply"}:
+        return f"{tokens[0]} {_conj_single(tokens[1])}"
+    return _conj_single(tokens[0])
+
+
 def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> str:
     """Extracts a concrete subject-matter topic phrase from a card's anchor and body.
 
-    Avoids returning bare requirement labels ('Requirement 1a') or generic meta-headers
-    ('Visual Inventory', 'Core Requirement Focus') so Socratic questions and rubrics read naturally.
+    Avoids returning bare requirement labels ('Requirement 1a'), generic meta-headers
+    ('Visual Inventory', 'Core Requirement Focus'), or leading verbs/interrogatives
+    ('Why chess...', 'Connect the visual diagram...') so Socratic questions and rubrics read naturally.
     """
     import re
 
     clean_anc = _sanitize_no_ellipsis_or_emdash(str(anchor or "").strip())
     clean_bdy = _sanitize_no_ellipsis_or_emdash(str(body or "").strip())
 
-    # Strip structural headers like 'Core Standard 1 (Req 1):' or 'Primary Standard' or 'Option A:'
+    # Extract inner topic when anchor is 'Field Reference (Req 1: History of Chess)' or 'Pamphlet Verification (...)'
+    m_ref_paren = re.match(
+        r"^(?:Field\s+Reference|Pamphlet\s+Verification|Buddy\s+Check|Practical\s+Execution|Counselor\s+Conference\s+Check)\s*\(([^)]+)\)$",
+        clean_anc,
+        flags=re.IGNORECASE,
+    )
+    if m_ref_paren:
+        inner_ref = re.sub(r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.()]+\s*[:\-]?\s*)", "", m_ref_paren.group(1).strip(), flags=re.IGNORECASE).strip()
+        if len(inner_ref) >= 4:
+            clean_anc = inner_ref
+
+    # Strip structural headers like 'Core Standard 1 (Req 1):' or 'Primary Standard' or 'Option A:' or 'Workbook Entry 1'
     clean_anc = re.sub(
-        r"^(?:Core\s+Standard\s+\d+\s*(?:\([^)]*\))?|Primary\s+Standard|Field\s+Evidence\s+Recorded|Safety\s*&\s*Verification|Option\s+[A-Z0-9]+|Pamphlet\s+Reference\s+Anchor|Core\s+Technical\s+Principle|Applied\s+Field\s+Mechanism|Preventive\s+Controls\s*&\s*PPE|Primary\s+Field\s+Hazard|Step-by-Step\s+Execution|Field\s+Verification|Equipment\s*&\s*Station\s+Setup|Practical\s+Verification\s*&\s*Sign-Off|Step\s+\d+\s*[-:]\s*[^:]+)\s*[:\-]?\s*",
+        r"^(?:Core\s+Standard\s+\d+\s*(?:\([^)]*\))?|Primary\s+Standard|Field\s+Evidence\s+Recorded|Safety\s*&\s*Verification|Option\s+[A-Z0-9]+|Pamphlet\s+Reference\s+Anchor|Core\s+Technical\s+Principle|Applied\s+Field\s+Mechanism|Preventive\s+Controls\s*&\s*PPE|Primary\s+Field\s+Hazard|Step-by-Step\s+Execution|Field\s+Verification|Equipment\s*&\s*Station\s+Setup|Practical\s+Verification\s*&\s*Sign-Off|Step\s+\d+\s*[-:]\s*[^:]+|Field\s+Reference|Pamphlet\s+Verification|Buddy\s+Check|Practical\s+Execution|Counselor\s+Conference\s+Check|Preparation\s*&\s*Study|Equipment\s*&\s*Safety\s+Check|Hands-On\s+Demonstration|Counselor\s+Verification|Workbook\s+Entry\s+\d+|Key\s+Point\s+\d+)\s*[:\-]?\s*",
         "",
         clean_anc,
         flags=re.IGNORECASE,
     ).strip()
     clean_anc = re.sub(r"\s+(?:Principle|Standard)\s+\d+$", "", clean_anc, flags=re.IGNORECASE).strip()
+
+    _leading_verb_or_wh_re = (
+        r"^(?:Explain(?!\s+Phase)|Discuss|Describe|Demonstrate(?!\s+Phase)|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do|"
+        r"Prevent|Avoid|Always|Never|Every|Ever|Connect|Trace|Apply|Practice|Present|Record|Check|Verify|Complete|Study|Research|"
+        r"Compare|Contrast|Make|Build|Create|Select|Choose|Use|Keep|Write|Draw|Sketch|Visit|Attend|Interview|Share|Read|Watch|"
+        r"Play|Set|Teach|Learn|Understand|Know|Why|How|What|When|Where|Which|Who|Whether)\b"
+    )
 
     # Case 1: 'Requirement 1a (Scene Safety & 3 Cs)' -> 'Scene Safety & 3 Cs'
     m_paren = re.match(
@@ -450,7 +582,7 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
     )
     if m_paren and len(m_paren.group(1).strip()) >= 3:
         paren_topic = m_paren.group(1).strip()
-        if not re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do)\b", paren_topic, flags=re.IGNORECASE):
+        if not re.match(_leading_verb_or_wh_re, paren_topic, flags=re.IGNORECASE):
             return paren_topic
 
     # Strip leading 'Requirement 1a:' or 'Req 1a -' or '(1)' from anchor
@@ -465,11 +597,7 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
         re.match(r"^(?:Req(?:uirement)?\s*|Option\s*)?[()0-9a-zA-Z.]+$", stripped_anc or clean_anc, flags=re.IGNORECASE)
     )
     is_verb_clause = bool(
-        re.match(
-            r"^(?:Explain(?!\s+Phase)|Discuss|Describe|Demonstrate(?!\s+Phase)|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do|Prevent|Avoid|Always|Never|Every|Ever)\b",
-            stripped_anc,
-            flags=re.IGNORECASE,
-        )
+        re.match(_leading_verb_or_wh_re, stripped_anc, flags=re.IGNORECASE)
     )
     if (
         stripped_anc
@@ -494,7 +622,7 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
             derived
             and len(derived) >= 4
             and derived.lower() not in {"requirement overview", "core standard", "field execution"}
-            and not re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell)\b", derived, flags=re.IGNORECASE)
+            and not re.match(_leading_verb_or_wh_re, derived, flags=re.IGNORECASE)
         ):
             return derived
     except Exception:
@@ -502,20 +630,22 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
     if " - " in candidate:
         left_seg = candidate.split(" - ", 1)[0].strip()
         if 2 <= len(left_seg.split()) <= 8 and not re.match(
-            r"^(?:explain|discuss|describe|demonstrate|show|identify|tell)\b",
+            _leading_verb_or_wh_re,
             left_seg,
             flags=re.IGNORECASE,
         ):
             return left_seg.rstrip(".,;:")
 
     candidate = re.sub(
-        r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|List|Name|Review|Obtain|Master|Inspect|Define|Perform)\s+"
-        r"(?:the\s+(?:steps\s+necessary\s+to|precautions\s+you\s+must\s+take\s+to|importance\s+of|meaning\s+of|difference\s+between|core\s+principles\s+of|term)\s+|"
-        r"evaluation\s+of\s+and\s+|all\s+sub-parts\s+of\s+|how\s+you\s+would\s+|how\s+to\s+|why\s+|what\s+|a\s+)?",
+        r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|List|Name|Review|Obtain|Master|Inspect|Define|Perform|"
+        r"Connect|Trace|Apply|Practice|Present|Record|Check|Verify|Complete|Study|Research|Compare|Contrast|Make|Build|Use|Keep)\s+"
+        r"(?:the\s+(?:steps\s+necessary\s+to|precautions\s+you\s+must\s+take\s+to|importance\s+of|meaning\s+of|difference\s+between|core\s+principles\s+of|key\s+components\s+of|term)\s+|"
+        r"evaluation\s+of\s+and\s+|all\s+sub-parts\s+of\s+|how\s+you\s+would\s+|how\s+to\s+|how\s+|why\s+|what\s+|when\s+|where\s+|a\s+)?",
         "",
         candidate,
         flags=re.IGNORECASE,
     ).strip()
+    candidate = re.sub(r"^(?:why|how|what|when|where|whether)\s+", "", candidate, flags=re.IGNORECASE).strip()
 
     clause = re.split(r"[.;,]|(?:\s+-\s+)", candidate)[0].strip()
     words = clause.split()
@@ -547,12 +677,22 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
             "that",
             "you",
             "may",
+            "is",
+            "are",
+            "was",
+            "were",
+            "applies",
+            "apply",
         }
         or words[-1].lower().endswith("'s")
     ):
         words.pop()
     phrase = " ".join(words).strip(" .,:;-")
-    return phrase if len(phrase) >= 4 else _sanitize_no_ellipsis_or_emdash(fallback)
+    phrase = re.sub(r"^(?:why|how|what|when|where|connect|trace|review|apply)\s+", "", phrase, flags=re.IGNORECASE).strip()
+    if len(phrase) >= 4:
+        return phrase
+    fb_clean = re.sub(r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.()]+\s*[:\-]?\s*)", "", _sanitize_no_ellipsis_or_emdash(fallback), flags=re.IGNORECASE).strip()
+    return fb_clean or _sanitize_no_ellipsis_or_emdash(fallback)
 
 
 def _is_generic_meta_misconception(myth_str: str, fact_str: str = "") -> bool:
@@ -802,10 +942,20 @@ def _synthesize_subject_matter_misconception(
             if opt_clean and opt_clean[:25].lower() not in ans.lower() and ans[-25:].lower() not in opt_clean.lower():
                 distractor = opt_clean
                 break
+        is_actual_emergency_badge = clean_badge.strip().lower() in {
+            "first aid", "emergency preparedness", "lifesaving",
+            "wilderness survival", "search and rescue", "fire safety",
+        }
         if distractor:
-            myth = f"In a real-world {clean_badge} emergency, taking the shortcut of \"{distractor}\"."
+            if is_actual_emergency_badge:
+                myth = f"In a real-world {clean_badge} emergency, taking the shortcut of \"{distractor}\"."
+            else:
+                myth = f"When completing {clean_badge} {req_scope_str}, taking the shortcut of \"{distractor}\"."
         else:
-            myth = f"Reacting impulsively during a {clean_title} scenario before sizing up scene hazards and buddy safety."
+            if is_actual_emergency_badge:
+                myth = f"Reacting impulsively during a {clean_title} scenario before sizing up scene hazards and buddy safety."
+            else:
+                myth = f"Rushing through {clean_title} without verifying the official {clean_badge} Merit Badge Pamphlet standard first."
         fact = f"{ans}. {expl}."
         return myth, fact
 
@@ -947,10 +1097,16 @@ def _build_slide_teaching_notes(
         _extract_meaningful_topic_phrase(a, b, clean_title)
         for a, b in parsed_points
     ]
+    from src.tools.pamphlet_extractor import _is_emergency_or_hazard_context
+    is_hazard_ctx = _is_emergency_or_hazard_context(clean_badge, clean_req_text, clean_title)
+
     # Deduplicate meaningful_topics while preserving order
     dedup_topics: List[str] = []
     if arch == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value or quiz_item:
-        dedup_topics = ["scene safety assessment", "emergency action sequence", "BSA Pamphlet safety rationale"]
+        if is_hazard_ctx:
+            dedup_topics = ["scene safety assessment", "emergency action sequence", "BSA Pamphlet safety rationale"]
+        else:
+            dedup_topics = ["requirement scenario analysis", "verified BSA Pamphlet procedure", "practical decision rationale"]
     else:
         for mt in meaningful_topics:
             if mt and mt.lower() not in {x.lower() for x in dedup_topics}:
@@ -964,10 +1120,36 @@ def _build_slide_teaching_notes(
     slide_seed = title_seed + req_seed * 7 + max(0, int(slide_idx_in_req)) * 13
     tpl_idx = slide_seed % 6
 
+    # Consult precomputed facilitator notes (data/precomputed_facilitator_notes_149.json)
+    b_slug = re.sub(r"[^a-z0-9]+", "_", clean_badge.lower()).strip("_")
+    _role_map = {
+        "REQUIREMENT_INTRO": 0,
+        "CONCEPT_OVERVIEW": 0,
+        "CONCEPT_TEXT_SLIDE": 0,
+        "STEP_BY_STEP_PROCEDURE_4CARD": 1,
+        "HANDS_ON_STATION": 1,
+        "WORKED_EXAMPLE_TEMPLATE": 2,
+        "PREREQUISITE_LOG_TRACKER": 2,
+        "DIFFERENTIAL_COMPARISON_2COL": 3,
+        "GEAR_CHECKLIST_GRID": 4,
+        "SPLIT_VISUAL_EXPLAINER": 5,
+        "FULL_BLEED_IMAGE_EXPLAINER": 5,
+        "SOCRATIC_CHECKPOINT_QUIZ": 6,
+    }
+    role_idx = _role_map.get(arch, min(6, max(0, int(slide_idx_in_req))))
+    precomp_map = _load_precomputed_facilitator_notes()
+    lookup_req_id = sub_range_label.split("-")[0] if sub_range_label else clean_req
+    raw_precomp_note = (
+        precomp_map.get(f"{b_slug}::{lookup_req_id}::{role_idx}")
+        or precomp_map.get(f"{b_slug}::{clean_req}::{role_idx}")
+        or ""
+    )
+    precomp_myth, precomp_fact, precomp_insights = _extract_precomputed_note_parts(raw_precomp_note)
+
     # Build & rotate extra_insights (pamphlet_excerpts) by slide_idx_in_req so consecutive slides
     # for the same requirement never quote the exact same two pamphlet sentences.
     raw_excerpts_pool: List[str] = []
-    for raw_ex in list(req_data.get("pamphlet_excerpts") or []) + list(req_data.get("step_by_step_procedure") or []):
+    for raw_ex in list(req_data.get("pamphlet_excerpts") or []) + list(req_data.get("step_by_step_procedure") or []) + precomp_insights:
         clean_ex = _sanitize_no_ellipsis_or_emdash(str(raw_ex))
         if clean_ex and clean_ex not in pts and clean_ex not in raw_excerpts_pool:
             raw_excerpts_pool.append(clean_ex)
@@ -1040,6 +1222,14 @@ def _build_slide_teaching_notes(
 
     if (slide_idx_in_req == 0 or matched_sub_ids) and not _is_generic_meta_misconception(raw_myth, raw_fact):
         myth_txt, fact_txt = raw_myth, raw_fact
+    elif precomp_myth and precomp_fact and not _is_generic_meta_misconception(precomp_myth, precomp_fact) and arch not in (
+        SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value,
+        SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value,
+        SlideArchetype.GEAR_CHECKLIST_GRID.value,
+        SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value,
+        SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value,
+    ):
+        myth_txt, fact_txt = precomp_myth, precomp_fact
     elif sub_misc_candidates and arch not in (
         SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value,
         SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value,
@@ -1163,15 +1353,27 @@ def _build_slide_teaching_notes(
         else ""
     )
 
-    est_minutes = str(req_data.get("estimated_minutes") or (4 if execution_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value else 3))
-    if not est_minutes.endswith("min"):
-        est_minutes = f"{est_minutes} min"
+    raw_est = req_data.get("estimated_minutes")
+    default_slide_mins = 4 if execution_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value else 3
+    if isinstance(raw_est, (int, float)):
+        per_slide_m = max(2, min(4, round(float(raw_est) / 5.0))) if raw_est > 5 else max(2, int(raw_est))
+        est_minutes = f"{per_slide_m} min"
+    elif isinstance(raw_est, str) and raw_est.strip():
+        m_num = re.search(r"(\d+)", raw_est)
+        if m_num and int(m_num.group(1)) > 5:
+            per_slide_m = max(2, min(4, round(int(m_num.group(1)) / 5.0)))
+            est_minutes = f"{per_slide_m} min"
+        else:
+            est_minutes = raw_est.strip() if raw_est.strip().endswith("min") else f"{raw_est.strip()} min"
+    else:
+        est_minutes = f"{default_slide_mins} min"
 
     action_verb = str(req_data.get("action_verb") or "").strip().lower()
     _valid_verbs = {"explain", "discuss", "describe", "demonstrate", "show", "identify", "prepare", "list", "review", "verify", "complete", "perform"}
     if action_verb not in _valid_verbs:
         m_verb = re.match(r"^(explain|discuss|describe|demonstrate|show|identify|prepare|list|review|perform)\b", clean_req_text, flags=re.IGNORECASE)
         action_verb = m_verb.group(1).lower() if m_verb else ("demonstrate" if execution_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value else "explain")
+    action_verb_3p = _conjugate_third_person_singular(action_verb)
 
     # 1. [PACING & MODALITY] — 6 archetype- & index-differentiated facilitator walkthroughs
     pacing_walkthroughs = [
@@ -1221,9 +1423,14 @@ def _build_slide_teaching_notes(
         scenario = _sanitize_no_ellipsis_or_emdash(
             str(qi.get("scenario_prompt") or (pts[0] if pts else f"How should your patrol apply {clean_title}?"))
         )
-        ask_block = (
-            f"[ASK SCOUTS FIRST] Pose this scenario to buddy pairs before revealing the answer key: \"{scenario}\" Which option do you choose first, and what hazard does it prevent?"
-        )
+        if is_hazard_ctx:
+            ask_block = (
+                f"[ASK SCOUTS FIRST] Pose this scenario to buddy pairs before revealing the answer key: \"{scenario}\" Which option do you choose first, and what hazard does it prevent?"
+            )
+        else:
+            ask_block = (
+                f"[ASK SCOUTS FIRST] Pose this scenario to buddy pairs before revealing the answer key: \"{scenario}\" Which option do you choose first, and why does it satisfy the {clean_badge} Merit Badge Pamphlet standard?"
+            )
     elif arch == SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value:
         proc_asks = [
             f"[ASK SCOUTS FIRST] Why must your buddy pair complete {topic_1} before moving to {topic_2} during \"{clean_title},\" and what goes wrong if Step 1 is skipped?",
@@ -1357,8 +1564,9 @@ def _build_slide_teaching_notes(
         ]
         demo_action = demo_actions[tpl_idx]
     elif arch == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value or quiz_item:
+        q_rule_noun = "key safety rule" if is_hazard_ctx else "key pamphlet principle"
         demo_action = (
-            f"[Pause for patrol decision check and hold up the {clean_badge} Workbook] Have each buddy pair justify their chosen response for {clean_title} and record the key safety rule under {req_display_label} ({wb_type_clean})."
+            f"[Pause for patrol decision check and hold up the {clean_badge} Workbook] Have each buddy pair justify their chosen response for {clean_title} and record the {q_rule_noun} under {req_display_label} ({wb_type_clean})."
         )
     elif arch == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value or comparison_data:
         demo_action = (
@@ -1379,8 +1587,8 @@ def _build_slide_teaching_notes(
         f"Sign-Off Standard (Scout Workbook {req_display_label} • {wb_type_clean}): Each Scout must individually {action_verb} {topic_summary} per {page_cite}.",
         f"Blue Card (#34124) Verification ({req_display_label} • {wb_type_clean}): Confirm each Scout can accurately {action_verb} {topic_1} and {topic_2} grounded in {page_cite}.",
         f"Counselor Sign-Off Rubric (Scout Workbook {req_display_label} • {wb_type_clean}): Verify individual mastery of {topic_summary} against {page_cite}.",
-        f"Advancement Check ({req_display_label} • {wb_type_clean}): Under Guide to Advancement Section 7.0.3.2, each Scout personally {action_verb}s {topic_1} and {topic_2} ({page_cite}).",
-        f"Verification Standard (Scout Workbook {req_display_label} • {wb_type_clean}): Initial {req_display_label} once the Scout clearly {action_verb}s {topic_summary} per {page_cite}.",
+        f"Advancement Check ({req_display_label} • {wb_type_clean}): Under Guide to Advancement Section 7.0.3.2, each Scout personally {action_verb_3p} {topic_1} and {topic_2} ({page_cite}).",
+        f"Verification Standard (Scout Workbook {req_display_label} • {wb_type_clean}): Initial {req_display_label} once the Scout clearly {action_verb_3p} {topic_summary} per {page_cite}.",
         f"Sign-Off Criteria ({req_display_label} • {wb_type_clean}): Check that the Scout's verbal or hands-on response covers {topic_1} and {topic_2} ({page_cite}).",
     ]
     rubric_block = f"[DEMONSTRATION & SIGN-OFF RUBRIC] {demo_action} {signoff_templates[tpl_idx]}"
@@ -1441,7 +1649,7 @@ def _build_keynote_presenter_notes(
 def _polish_slide_bullet_for_card(
     raw_bullet: str,
     fallback_anchor: str = "Key Principle",
-    max_anchor_chars: int = 34,
+    max_anchor_chars: int = 44,
     max_body_words: int = 15,
     max_body_chars: int = 96,
 ) -> str:
@@ -1458,8 +1666,11 @@ def _polish_slide_bullet_for_card(
     if not txt:
         return ""
 
-    # Clean PDF extraction noise (ISBN, catalog numbers, all-caps series headers, glued camelCase words)
+    # Clean PDF extraction noise (ISBN, catalog numbers, all-caps series headers, bare page citations, glued camelCase words)
     txt = re.sub(r"\b(?:ISBN\s*[0-9\-X]+|35\d{3}|MERIT BADGE SERIES|BOY SCOUTS OF AMERICA)\b", "", txt, flags=re.IGNORECASE)
+    txt = re.sub(r"^(?:pp?\.?\s*\d+(?:\s*[-–,]\s*\d+)?\s*[:.\-]?\s*)+", "", txt, flags=re.IGNORECASE).strip()
+    if not txt or re.match(r"^(?:pp?\.?\s*\d+(?:\s*[-–,]\s*\d+)?\.?)$", txt, flags=re.IGNORECASE):
+        return ""
     _keep_camel = {"Scoutbook", "PowerPoint", "YouTube", "JavaScript", "GitHub", "PlayStation", "eSports", "McDonald", " McDonalds", "iPhone", "iPad", "macOS", "OneDrive", "SharePoint", " WordPress", "LinkedIn", "GameCube", "SmartBoard", " RoboCup", "FirstNet", "AmeriCorps", "PeaceCorps", " JetBlue", "FedEx", "MasterCard", "QuickBooks", " AutoCAD", "SolidWorks"}
     def _unglue_camel(m: re.Match) -> str:
         full_w = m.group(0)
@@ -1475,10 +1686,13 @@ def _polish_slide_bullet_for_card(
         clean_a = clean_a.split("(", 1)[0].strip()
     elif clean_a.count("(") != clean_a.count(")"):
         clean_a = clean_a.replace("(", "").replace(")", "").strip()
-    if len(clean_a) < 3:
+    if len(clean_a) < 3 or re.match(r"^pp?\.?\s*\d+$", clean_a, flags=re.IGNORECASE):
         clean_a = _concise_anchor_title(fallback_anchor, max_chars=max_anchor_chars)
 
-    body_src = raw_b if raw_b else txt
+    body_src = (raw_b if raw_b else txt).strip()
+    body_src = re.sub(r"^(?:pp?\.?\s*\d+(?:\s*[-–,]\s*\d+)?\s*[:.\-]?\s*)+", "", body_src, flags=re.IGNORECASE).strip()
+    if not body_src or re.match(r"^(?:pp?\.?\s*\d+(?:\s*[-–,]\s*\d+)?\.?)$", body_src, flags=re.IGNORECASE):
+        return ""
     # Remove unbalanced parentheses before concising
     if body_src.count("(") != body_src.count(")"):
         body_src = re.sub(r"\([^)]*$", "", body_src).replace("(", "").replace(")", "").strip()
@@ -1506,7 +1720,7 @@ def _polish_slide_bullet_for_card(
     _abbrev_tails = {
         "e.g", "i.e", "u.s", "dr", "mr", "mrs", "ms", "st", "ft", "in", "oz", "lb",
         "lbs", "sec", "min", "hr", "hrs", "fig", "figs", "no", "nos", "vol", "ch",
-        "pp", "approx", "vs", "etc", "dept", "assn", "inc", "corp", "co", "jr", "sr",
+        "pp", "p", "approx", "vs", "etc", "dept", "assn", "inc", "corp", "co", "jr", "sr",
     }
     b_words = clean_b.rstrip(".!?\"') -").split()
     while len(b_words) > 3:
@@ -1516,8 +1730,10 @@ def _polish_slide_bullet_for_card(
         else:
             break
     clean_b = " ".join(b_words).rstrip(" ,;:-.")
-    if len(clean_b) < 14:
-        clean_b = f"{clean_b} during field practice"
+    if not clean_b or re.match(r"^(?:pp?\.?\s*\d+)$", clean_b, flags=re.IGNORECASE):
+        return ""
+    if len(clean_b) < 16:
+        clean_b = f"Explain and verify {clean_b} with your counselor"
     if not clean_b.endswith((".", "!", "?")):
         clean_b += "."
 
@@ -1537,7 +1753,7 @@ def _polish_slide_bullets_list(
     bullets: List[str],
     max_count: int = 4,
     max_total_chars: int = 435,
-    max_anchor_chars: int = 34,
+    max_anchor_chars: int = 44,
     max_body_words: int = 15,
     max_body_chars: int = 96,
     deck_seen_norms: Optional[set] = None,
@@ -1547,6 +1763,7 @@ def _polish_slide_bullets_list(
 ) -> List[str]:
     """Polishes a list of slide bullets to fit card bounds, stay under 435 total chars, and avoid deck-wide duplicates."""
     import re
+    from src.tools.pptx_builder import _concise_anchor_title
 
     out: List[str] = []
     local_seen: set = set()
@@ -1569,8 +1786,10 @@ def _polish_slide_bullets_list(
             # Disambiguate with slide context so two slides in the same deck never share an identical bullet
             if ": " in polished:
                 anc_p, bod_p = polished.split(": ", 1)
-                short_ctx = re.sub(r"[^A-Za-z0-9 &/-]+", "", slide_title or f"Req {req_num}").strip()[:18].strip()
-                new_anc = f"{anc_p[:20].strip()} ({short_ctx})" if short_ctx and short_ctx.lower() not in anc_p.lower() else f"{anc_p[:24].strip()} {idx_b + 1}"
+                raw_ctx = re.sub(r"[^A-Za-z0-9 &/-]+", "", slide_title or f"Req {req_num}").strip()
+                short_ctx = _concise_anchor_title(raw_ctx, max_chars=20)
+                trimmed_anc = _concise_anchor_title(anc_p, max_chars=24)
+                new_anc = f"{trimmed_anc} ({short_ctx})" if short_ctx and short_ctx.lower() not in anc_p.lower() else f"{trimmed_anc} {idx_b + 1}"
                 polished = _polish_slide_bullet_for_card(
                     f"{new_anc}: {bod_p}",
                     fallback_anchor=new_anc,
@@ -1592,12 +1811,12 @@ def _polish_slide_bullets_list(
                 _polish_slide_bullet_for_card(
                     b_it,
                     fallback_anchor=f"Key Point {idx_b + 1}",
-                    max_anchor_chars=min(28, max_anchor_chars),
+                    max_anchor_chars=min(36, max_anchor_chars),
                     max_body_words=12,
                     max_body_chars=74,
                 )
             )
-        out = tighter
+        out = [x for x in tighter if x]
     return out
 
 
@@ -1653,6 +1872,8 @@ def _infer_action_verb_badge(req_text: str, anchor: str, body: str, idx_s: int) 
 
 def _build_cards_for_req(req: Dict[str, Any], bullets: List[str]) -> List[Dict[str, Any]]:
     """Builds 4 structured card dictionaries with action-verb badges aligned with the primary slide bullets and pamphlet steps."""
+    from src.tools.pptx_builder import _concise_anchor_title
+
     steps = [str(b) for b in (bullets or [])[:4] if str(b).strip()]
     for raw_item in list(req.get("step_by_step_procedure") or []) + list(req.get("pamphlet_excerpts") or []):
         clean_item = _sanitize_no_ellipsis_or_emdash(str(raw_item))
@@ -1668,7 +1889,7 @@ def _build_cards_for_req(req: Dict[str, Any], bullets: List[str]) -> List[Dict[s
         verb_badge, verb_color = _infer_action_verb_badge(req_txt, anchor, body, idx_s)
         cards.append({
             "badge_label": verb_badge,
-            "anchor_title": anchor.strip()[:36] or f"Step {idx_s}",
+            "anchor_title": _concise_anchor_title(anchor.strip(), max_chars=44) or f"Step {idx_s}",
             "body_text": body.strip() or clean_s,
             "accent_color_hex": verb_color or colors[(idx_s - 1) % len(colors)],
         })
@@ -1807,7 +2028,7 @@ def generate_slide_storyboard(
                 f"Complete all {len(requirements)} official requirements and review each topic with your Merit Badge Counselor."
             ),
             cards=triage_cards[:15],
-            visual_caption=f"{clean_badge} Merit Badge Overview",
+            visual_caption="",
             diagram_type="triage_matrix",
         )
     )
@@ -1966,6 +2187,13 @@ def generate_slide_storyboard(
                     selected_topic_slides.append(quiz_candidates[0])
             first_topic_shows_req = True
 
+        from src.tools.pamphlet_extractor import (
+            _ensure_complete_caption_sentence,
+            _ensure_four_quiz_options,
+            _is_emergency_or_hazard_context,
+        )
+        from src.tools.pptx_builder import _concise_anchor_title
+
         # Topic Instruction & Full-Page Diagram Slides for Requirement N
         for t_idx, ts in enumerate(selected_topic_slides, start=1):
             ts_title = _sanitize_no_ellipsis_or_emdash(str(ts.get("title") or f"{clean_section_title} (Part {t_idx})"))
@@ -1980,12 +2208,12 @@ def generate_slide_storyboard(
             if isinstance(ts_comp, dict):
                 ts_comp = dict(ts_comp)
                 ts_comp["left_points"] = [
-                    _polish_slide_bullet_for_card(str(lp), fallback_anchor=f"Left Point {i_lp + 1}", max_anchor_chars=30, max_body_words=15, max_body_chars=96)
+                    _polish_slide_bullet_for_card(str(lp), fallback_anchor=f"Left Point {i_lp + 1}", max_anchor_chars=42, max_body_words=15, max_body_chars=96)
                     for i_lp, lp in enumerate(list(ts_comp.get("left_points") or [])[:4])
                     if str(lp).strip()
                 ]
                 ts_comp["right_points"] = [
-                    _polish_slide_bullet_for_card(str(rp), fallback_anchor=f"Right Point {i_rp + 1}", max_anchor_chars=30, max_body_words=15, max_body_chars=96)
+                    _polish_slide_bullet_for_card(str(rp), fallback_anchor=f"Right Point {i_rp + 1}", max_anchor_chars=42, max_body_words=15, max_body_chars=96)
                     for i_rp, rp in enumerate(list(ts_comp.get("right_points") or [])[:4])
                     if str(rp).strip()
                 ]
@@ -2000,13 +2228,13 @@ def generate_slide_storyboard(
                 polished_fields: Dict[str, str] = {}
                 for k_f, v_f in list(ts_we["fields"].items())[:4]:
                     pol_kv = _polish_slide_bullet_for_card(
-                        f"{k_f}: {v_f}", fallback_anchor=str(k_f), max_anchor_chars=32, max_body_words=15, max_body_chars=96
+                        f"{k_f}: {v_f}", fallback_anchor=str(k_f), max_anchor_chars=42, max_body_words=15, max_body_chars=96
                     )
                     if ": " in pol_kv:
                         pk, pv = pol_kv.split(": ", 1)
                         polished_fields[pk] = pv
                     else:
-                        polished_fields[str(k_f)[:32]] = pol_kv
+                        polished_fields[_concise_anchor_title(str(k_f), max_chars=42)] = pol_kv
                 ts_we["fields"] = polished_fields
 
             ts_quiz = ts.get("quiz_item") or (
@@ -2014,9 +2242,11 @@ def generate_slide_storyboard(
             )
             if hasattr(ts_quiz, "model_dump"):
                 ts_quiz = ts_quiz.model_dump()
+            if isinstance(ts_quiz, dict):
+                ts_quiz = _ensure_four_quiz_options(ts_quiz, badge_name=clean_badge, base_title=clean_section_title)
 
             ts_gear = [
-                _polish_slide_bullet_for_card(str(g), fallback_anchor=f"Item {i_g + 1}", max_anchor_chars=32, max_body_words=15, max_body_chars=96)
+                _polish_slide_bullet_for_card(str(g), fallback_anchor=f"Item {i_g + 1}", max_anchor_chars=42, max_body_words=15, max_body_chars=96)
                 for i_g, g in enumerate(
                     (ts.get("gear_checklist") or (
                         req.get("gear_checklist") if ts_layout == SlideArchetype.GEAR_CHECKLIST_GRID.value else []
@@ -2026,17 +2256,22 @@ def generate_slide_storyboard(
             ]
 
             if ts_layout == SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value and isinstance(ts_quiz, dict):
+                rationale_label = (
+                    "Safety Rationale"
+                    if _is_emergency_or_hazard_context(clean_badge, req_text, ts_title)
+                    else "Pamphlet Rationale"
+                )
                 ts_bullets = [
                     f"Scenario Prompt: {_sanitize_no_ellipsis_or_emdash(str(ts_quiz.get('scenario_prompt') or ''))}",
                     f"Correct Action: {_sanitize_no_ellipsis_or_emdash(str(ts_quiz.get('correct_answer') or ''))}",
-                    f"Clinical Rationale: {_sanitize_no_ellipsis_or_emdash(str(ts_quiz.get('explanation') or ''))}",
+                    f"{rationale_label}: {_sanitize_no_ellipsis_or_emdash(str(ts_quiz.get('explanation') or ''))}",
                 ]
             else:
                 ts_bullets = _polish_slide_bullets_list(
                     [str(b) for b in raw_ts_bullets if str(b).strip()],
                     max_count=4,
                     max_total_chars=435,
-                    max_anchor_chars=32 if ts_layout == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value else 34,
+                    max_anchor_chars=42 if ts_layout == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value else 44,
                     max_body_words=15,
                     max_body_chars=96,
                     deck_seen_norms=deck_seen_bullet_norms,
@@ -2047,7 +2282,13 @@ def generate_slide_storyboard(
 
             ts_cards = _build_cards_for_req({"req_text": req_text, "step_by_step_procedure": ts_bullets}, ts_bullets)
             ts_img = ts.get("image_path")
-            ts_caption = _sanitize_no_ellipsis_or_emdash(str(ts.get("caption") or ts_title))
+            if ts_img:
+                raw_ts_cap = _sanitize_no_ellipsis_or_emdash(str(ts.get("caption") or ""))
+                if not raw_ts_cap or raw_ts_cap.strip().lower().rstrip(".") == ts_title.strip().lower().rstrip("."):
+                    raw_ts_cap = f"{clean_badge} Requirement {req_num} visual guide illustrating {clean_section_title}"
+                ts_caption = _ensure_complete_caption_sentence(raw_ts_cap, max_chars=160)
+            else:
+                ts_caption = ""
 
             # Only show the requirement text on the first slide of the sequence (if not already shown)
             show_req_on_this_slide = first_topic_shows_req and (t_idx == 1)

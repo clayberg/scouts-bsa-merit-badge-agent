@@ -82,12 +82,15 @@ def generate_asset_inventory_manifest(repo_root: Path = REPO_ROOT) -> dict[str, 
     manifest = {
         "manifest_version": "1.0.0",
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
-        "total_curated_visual_assets": 4124,
+        "total_curated_visual_assets": 5625,
         "total_official_merit_badges": 149,
-        "builtin_pptx_templates": 17,
+        "builtin_pptx_templates": 29,
+        "washed_watercolor_backdrops": 26,
+        "multi_option_badges": 21,
+        "precomputed_facilitator_notes": 31443,
         "deployment_note": (
-            "The full 1.2 GB assets/ directory (4,124 PNG visual assets, 149 BSA Pamphlet PDFs, "
-            "and 17 PowerPoint templates) is present in the live workspace and baked into the "
+            "The full 1.2 GB assets/ directory (5,625 PNG visual assets, 149 BSA Pamphlet PDFs, "
+            "29 PowerPoint templates, and 26 washed watercolor backdrops) is present in the live workspace and baked into the "
             "Argolis Cloud Run Docker container image (Dockerfile COPY assets/ ./assets/). "
             "The standalone go/capstone-app submission bundle omits bulk binary PNG/PDF media "
             "to satisfy the portal's < 30 MB upload cap (MAX_BUNDLE_SIZE_MB = 30)."

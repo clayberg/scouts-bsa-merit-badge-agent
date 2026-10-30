@@ -1743,8 +1743,9 @@ def _draw_pdf_workbook_diagram_card(
             explicit_caption="",
             r_title=clean_diag_title,
         )
-        if len(resolved_cap) > 108:
-            resolved_cap = resolved_cap[:105].rsplit(" ", 1)[0] + "..."
+        if len(resolved_cap) > 112:
+            from src.tools.scouting_scraper import _clean_row_clause_without_ellipsis
+            resolved_cap = _clean_row_clause_without_ellipsis(resolved_cap, max_chars=112)
         page.insert_text(
             fitz.Point(38.0, y_cursor + 11.5),
             _sanitize_pdf_text(f"Figure (Req {r_num}): {resolved_cap}"),
@@ -1924,7 +1925,7 @@ def generate_fillable_scout_workbook_pdf(
             if not u.get("is_group_header") and "prereq" not in str(u.get("syllabus_bucket") or "").lower()
         ]
         prereq_str = ", ".join(prereq_nums[:10]) if prereq_nums else "Read Official Merit Badge Pamphlet Chapter 1"
-        inclass_str = ", ".join(inclass_nums[:14]) + ("..." if len(inclass_nums) > 14 else "") if inclass_nums else "All Core Requirements"
+        inclass_str = ", ".join(inclass_nums[:14]) + (f" (+{len(inclass_nums) - 14} more)" if len(inclass_nums) > 14 else "") if inclass_nums else "All Core Requirements"
         cpp_summary_text = (
             f"Class Preparation Summary (CPP)  |  1. Do Before Session 1 (Prerequisites): Reqs {prereq_str}\n"
             f"2. Bring to Every Session: Signed Blue Card (#34124), {resolved_badge} Pamphlet, this Fillable Workbook, & Scout Basic Essentials\n"
@@ -2043,6 +2044,14 @@ def generate_fillable_scout_workbook_pdf(
         org_type_friendly = _format_workbook_organizer_label(org_type)
         org_label = _format_workbook_organizer_label(r_num, org_type)
         headers = [str(h) for h in (org.get("headers") or ["Concept / Step", "Scout Notes & Field Evidence", "Key Examples & Verification"])]
+        if any("primary concept / system a" in h.lower() or "secondary concept / system b" in h.lower() for h in headers):
+            comp_u = u.get("comparison_data") if isinstance(u.get("comparison_data"), dict) else {}
+            lh_u = str(comp_u.get("left_header") or "").strip()
+            rh_u = str(comp_u.get("right_header") or "").strip()
+            if lh_u and rh_u:
+                headers = [f"Req {r_num} Comparison Aspect", lh_u, rh_u]
+            else:
+                headers = [f"Req {r_num} Concept / Prompt", f"Req {r_num} Key Characteristics", "Key Difference & Field Application"]
         if len(headers) < 3:
             headers = headers + ["Key Examples & Verification"] * (3 - len(headers))
         row_labels = [str(rl) for rl in (org.get("row_labels") or ["1. Core explanation & evidence"]) if str(rl).strip()] or ["1. Core explanation & evidence"]

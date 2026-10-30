@@ -3348,9 +3348,9 @@ def test_submission_bundle_manifest_and_smoke_test() -> None:
     from scripts.smoke_test_deployment import run_inprocess_smoke_test
 
     manifest = generate_asset_inventory_manifest()
-    assert manifest["total_curated_visual_assets"] == 4124
+    assert manifest["total_curated_visual_assets"] == 5625
     assert manifest["total_official_merit_badges"] == 149
-    assert manifest["builtin_pptx_templates"] == 17
+    assert manifest["builtin_pptx_templates"] == 29
     assert len(manifest["sample_sha256_verifications"]) >= 6
 
     smoke = run_inprocess_smoke_test()
