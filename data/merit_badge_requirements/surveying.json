@@ -81,8 +81,10 @@
         "min_rows": 2
       },
       "common_misconception_pair": {
-        "misconception": "Many Scouts assume that a hypothermia victim is recovering once their shivering stops.",
-        "fact": "When a hypothermia victim stops shivering, their body temperature is actually dropping further into a dangerous stage (p. 15)."
+        "misconception": "Rushing into Field First Aid and Hazard Awareness (Req 1) without verifying the specific field criteria and safety checks first.",
+        "fact": "For Surveying Requirement 1 (Field First Aid and Hazard Awareness), As the victim becomes colder, however, the shivering will stop (p. 15).",
+        "myth": "Rushing into Field First Aid and Hazard Awareness (Req 1) without verifying the specific field criteria and safety checks first.",
+        "fact_correction": "For Surveying Requirement 1 (Field First Aid and Hazard Awareness), As the victim becomes colder, however, the shivering will stop (p. 15)."
       },
       "starting_requirement_gate": null,
       "curated_resources": [
@@ -268,7 +270,7 @@
           "sub_req_label": "2a",
           "sub_req_text": "Set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one of the other corners for reference and, using radial measurement methods, record the angle turned and the distance measured to each of the remaining corners, as directed by your counselor. Record the angle and distance to five topographic features (trees, shrubs, rocks, etc.) near your work area.",
           "topic_title": "Req 2a: Radial Angle and Distance Measurements",
-          "pamphlet_summary": "Radial Angle and Distance Measurements: The Surveying pamphlet for Requirement 2a details set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
+          "pamphlet_summary": "For Surveying Requirement 2a (Radial Angle and Distance Measurements): The Surveying pamphlet for Requirement 2a details set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
           "pamphlet_excerpts": [
             "Radial Angle and Distance Measurements: The Surveying pamphlet for Requirement 2a details set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
           ],
@@ -340,7 +342,7 @@
           "sub_req_label": "2b",
           "sub_req_text": "Measure to three of the same points with GPS measurement and compare the distances between the points measured.",
           "topic_title": "Req 2b: GPS Coordinate Distance Comparison",
-          "pamphlet_summary": "GPS Coordinate Distance Comparison: The Surveying pamphlet for Requirement 2b details measure to three of the same points with GPS measurement and compare the distances between the points measured, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
+          "pamphlet_summary": "For Surveying Requirement 2b (GPS Coordinate Distance Comparison): The Surveying pamphlet for Requirement 2b details measure to three of the same points with GPS measurement and compare the distances between the points measured, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
           "pamphlet_excerpts": [
             "GPS Coordinate Distance Comparison: The Surveying pamphlet for Requirement 2b details measure to three of the same points with GPS measurement and compare the distances between the points measured, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
           ],
@@ -441,17 +443,15 @@
         "Buddy-pair checklist and counselor review rubric"
       ],
       "comparison_data": {
-        "left_header": "Optical Radial Angle and Distance",
-        "right_header": "Direct Satellite GPS Coordinate Fixing",
+        "left_header": "Req 2a: Radial Angle and Distance Measurem",
+        "right_header": "Req 2b: GPS Coordinate Distance Comparison",
         "left_points": [
-          "(2a) Radial Angle and Distance Measurements: GPS receivers process signals from the satellites to calculate location (p. 19).",
-          "Survey Computation and Plotting: It also involves extensive computation (much of which is done with a computer) and map drawing (much of which is done with a computer-controlled printer) (p. 19).",
-          "Satellite and Receiver Hardware: The Global Positioning System (GPS) uses artificial Earth satellites and portable computers equipped with receivers (p. 19)."
+          "(2a) Radial Angle and Distance Measurements: The Surveying pamphlet for Requirement 2a details set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
+          "Survey Computation and Plotting: It also involves extensive computation (much of which is done with a computer) and map drawing (much of which is done with a computer-controlled printer) (p. 19)."
         ],
         "right_points": [
-          "(2b) GPS Coordinate Distance Comparison: Surveying involves measuring horizontal and vertical distances and angles (p. 19).",
-          "Step 2 - Process Incoming Satellite Signals: GPS receivers process signals from the satellites to calculate location (p. 19).",
-          "Step 3 - Record Position and Elevation: This allows you to find your position (latitude, longitude, and elevation) almost anywhere on Earth, quickly and accurately, in almost (p. 19)."
+          "(2b) GPS Coordinate Distance Comparison: The Surveying pamphlet for Requirement 2b details measure to three of the same points with GPS measurement and compare the distances between the points measured, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
+          "Satellite and Receiver Hardware: The Global Positioning System (GPS) uses artificial Earth satellites and portable computers equipped with receivers (p. 19)."
         ],
         "rows": [
           {
@@ -475,8 +475,8 @@
         "title": "Surveying Req 2 Exemplar Workbook Entry: Radial Lot Surveying and GPS Comparison",
         "artifact_type": "COMPARE_CONTRAST_2COL",
         "fields": {
-          "Req 2a (Radial Angle and Distance Measurements)": "GPS receivers process signals from the satellites to calculate location (p. 19).",
-          "Req 2b (GPS Coordinate Distance Comparison)": "Surveying involves measuring horizontal and vertical distances and angles (p. 19)."
+          "Req 2a (Radial Angle and Distance Measurem": "The Surveying pamphlet for Requirement 2a details set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19).",
+          "Req 2b (GPS Coordinate Distance Comparison": "The Surveying pamphlet for Requirement 2b details measure to three of the same points with GPS measurement and compare the distances between the points measured, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 19)."
         },
         "sample_output": "Radial Lot Surveying and GPS Comparison: GPS receivers process signals from the satellites to calculate location (p. 19).",
         "counselor_tip": "For Surveying Requirement 2 (Radial Lot Surveying and GPS Comparison), verify the Scout's own observations and specific pamphlet details (Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23))."
@@ -1027,7 +1027,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Surveying Requirement 6 on emerging drone and laser scanning systems under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
+      "safety_callout": "BSA Youth Protection & Buddy System (Req 6): Complete all Emerging Drone and Laser Scanning Systems discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
       "pamphlet_citation": "Official Scouting America Surveying Merit Badge Pamphlet (p. 12, p. 40)",
       "pamphlet_page_citation": "Official Scouting America Surveying Merit Badge Pamphlet (p. 12, p. 40)",
       "syllabus_bucket": "In-Class Concept",
@@ -1193,7 +1193,7 @@
       "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Surveying Requirement 7 on how satellite navigation transforms modern surveying under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
+      "safety_callout": "BSA Youth Protection & Buddy System (Req 7): Complete all How Satellite Navigation Transforms Modern Surveying discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
       "pamphlet_citation": "Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 12)",
       "pamphlet_page_citation": "Official Scouting America Surveying Merit Badge Pamphlet (p. 11, p. 12)",
       "syllabus_bucket": "In-Class Concept",
@@ -1355,7 +1355,7 @@
       "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
-      "safety_callout": "Conduct all counselor discussions, community interviews, and research for Surveying Requirement 8 on surveying careers, licensure, and education under BSA Youth Protection two-deep leadership, copying a parent or guardian on any external correspondence.",
+      "safety_callout": "BSA Youth Protection & Buddy System (Req 8): Complete all Surveying Careers, Licensure, and Education discussions and demonstrations with Two-Deep Leadership and your patrol buddy.",
       "pamphlet_citation": "Official Scouting America Surveying Merit Badge Pamphlet (p. 10, p. 61)",
       "pamphlet_page_citation": "Official Scouting America Surveying Merit Badge Pamphlet (p. 10, p. 61)",
       "syllabus_bucket": "Make-Up Eligible",

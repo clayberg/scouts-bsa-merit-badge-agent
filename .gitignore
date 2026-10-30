@@ -39,7 +39,9 @@ htmlcov/
 
 # Generated presentations, workbooks & runtime caches
 *.pptx
-deliverables/
+deliverables/*
+!deliverables/*_Counselor_Workbook.md
+!deliverables/FDE_Capstone_Executive_Readout.pptx
 output_decks/
 scouts_bsa_sessions.db
 scratch_assets/

@@ -561,10 +561,22 @@ def beautify_slide_storyboard(
     )
     if not raw_reqs_list:
         try:
+            import re as _re
             from src.tools.scouting_scraper import BENCHMARK_BADGES_DATA
 
-            bm_entry = BENCHMARK_BADGES_DATA.get(badge_name.lower()) or {}
-            raw_reqs_list = list(bm_entry.get("requirements") or [])
+            _slug = _re.sub(r"[^a-z0-9]+", "-", str(badge_name or "").strip().lower()).strip("-")
+            _json_path = PROJECT_ROOT / "data" / "merit_badge_requirements" / f"{_slug}.json"
+            if _json_path.exists():
+                _official_data = json.loads(_json_path.read_text(encoding="utf-8"))
+                raw_reqs_list = list(_official_data.get("requirements") or [])
+            if not raw_reqs_list:
+                bm_entry = (
+                    BENCHMARK_BADGES_DATA.get(badge_name)
+                    or BENCHMARK_BADGES_DATA.get(badge_name.title())
+                    or BENCHMARK_BADGES_DATA.get(badge_name.lower())
+                    or {}
+                )
+                raw_reqs_list = list(bm_entry.get("requirements") or [])
         except Exception:
             raw_reqs_list = []
 
@@ -757,10 +769,9 @@ def beautify_slide_storyboard(
                             bps.insert(0, delegation_bullet)
                         slide["bullet_points"] = bps
 
-            # 4. General Local Grounding injection for any requirement across all 144 badges with requires_local_lookup=True
+            # 4. General Local Grounding injection for any requirement across all 149 badges with requires_local_lookup=True
             elif req_cit.get("requires_local_lookup") and req_cit.get("local_grounding_callout"):
                 callout_txt = str(req_cit.get("local_grounding_callout") or "").strip()
-                slide["local_grounding_callout"] = callout_txt
                 is_weather_non_forecast_req = badge_name.lower() == "weather" and base_req_num not in ("3", "10")
                 if (
                     not is_weather_non_forecast_req
@@ -769,6 +780,7 @@ def beautify_slide_storyboard(
                     and arch in ("SPLIT_VISUAL_EXPLAINER", "CONCEPT_TEXT_SLIDE")
                     and not slide.get("verbatim_requirement_text")
                 ):
+                    slide["local_grounding_callout"] = callout_txt
                     bps = list(slide.get("bullet_points") or [])
                     short_callout = callout_txt if len(callout_txt) <= 165 else callout_txt[:162].rsplit(" ", 1)[0] + "..."
                     if not any(disp_loc in str(b) for b in bps):

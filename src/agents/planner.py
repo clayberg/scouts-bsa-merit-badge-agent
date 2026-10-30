@@ -9,6 +9,7 @@ multi-archetype slide storyboard with:
 - Keynote/Demo voice presenter notes (`[SAY]`, `[DEMONSTRATE]`, `[ASK SCOUTS]`, <=16 words/clause, zero em-dashes).
 """
 
+import re
 from typing import Any, Dict, List, Optional, Tuple
 from google import adk
 from pydantic import BaseModel, Field
@@ -491,7 +492,8 @@ def _extract_precomputed_note_parts(raw_note: str) -> Tuple[str, str, List[str]]
     )
     if m_key:
         raw_k = m_key.group(1).strip()
-        raw_k = re.sub(r"^Citation:\s*[^.]+\.\s*", "", raw_k, flags=re.IGNORECASE).strip()
+        raw_k = re.sub(r"^Citation:\s*(?:[^(]+\([^)]+\)|[^.]+)\.\s*", "", raw_k, flags=re.IGNORECASE).strip()
+        raw_k = re.sub(r"^\d+,\s*pp?\.?\s*\d+[^)]*\)\.\s*", "", raw_k, flags=re.IGNORECASE).strip()
         raw_k = re.sub(r"\s*\(\s*pp?\.?\s*\d*[^)]*$", "", raw_k, flags=re.IGNORECASE).strip()
         if len(raw_k) >= 25 and "(" not in raw_k[-6:]:
             insights.append(raw_k)
@@ -560,7 +562,7 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
 
     # Strip structural headers like 'Core Standard 1 (Req 1):' or 'Primary Standard' or 'Option A:' or 'Workbook Entry 1'
     clean_anc = re.sub(
-        r"^(?:Core\s+Standard\s+\d+\s*(?:\([^)]*\))?|Primary\s+Standard|Field\s+Evidence\s+Recorded|Safety\s*&\s*Verification|Option\s+[A-Z0-9]+|Pamphlet\s+Reference\s+Anchor|Core\s+Technical\s+Principle|Applied\s+Field\s+Mechanism|Preventive\s+Controls\s*&\s*PPE|Primary\s+Field\s+Hazard|Step-by-Step\s+Execution|Field\s+Verification|Equipment\s*&\s*Station\s+Setup|Practical\s+Verification\s*&\s*Sign-Off|Step\s+\d+\s*[-:]\s*[^:]+|Field\s+Reference|Pamphlet\s+Verification|Buddy\s+Check|Practical\s+Execution|Counselor\s+Conference\s+Check|Preparation\s*&\s*Study|Equipment\s*&\s*Safety\s+Check|Hands-On\s+Demonstration|Counselor\s+Verification|Workbook\s+Entry\s+\d+|Key\s+Point\s+\d+)\s*[:\-]?\s*",
+        r"^(?:Core\s+Standard\s+\d+\s*(?:\([^)]*\))?|Primary\s+Standard|Field\s+Evidence\s+Recorded|Safety\s*&\s*Verification|Option\s+[A-Z0-9]+|Pamphlet\s+Reference\s+Anchor|Core\s+Technical\s+Principle|Applied\s+Field\s+Mechanism|Preventive\s+Controls\s*&\s*PPE|Primary\s+Field\s+Hazard|Step-by-Step\s+Execution|Field\s+Verification|Equipment\s*&\s*Station\s+Setup|Practical\s+Verification\s*&\s*Sign-Off|Step\s+\d+\s*[-:]\s*|Field\s+Reference|Pamphlet\s+Verification|Buddy\s+Check|Practical\s+Execution|Counselor\s+Conference\s+Check|Preparation\s*&\s*Study|Equipment\s*&\s*Safety\s+Check|Hands-On\s+Demonstration|Counselor\s+Verification|Workbook\s+Entry\s+\d+|Key\s+Point\s+\d+)\s*[:\-]?\s*",
         "",
         clean_anc,
         flags=re.IGNORECASE,
@@ -702,6 +704,9 @@ def _is_generic_meta_misconception(myth_str: str, fact_str: str = "") -> bool:
     if not m_low or not f_low:
         return True
     generic_markers = (
+        "many scouts assume",
+        "only requires a general overview",
+        "according to the official merit badge pamphlet, scouts must demonstrate",
         "assuming a quick verbal summary",
         "reading a short definition",
         "reading a brief summary of",
@@ -888,14 +893,20 @@ def _scope_req_dict_for_slide(
         if sub_excerpts:
             scoped["pamphlet_excerpts"] = sub_excerpts + list(scoped.get("pamphlet_excerpts") or [])
 
-        # Scope common_misconception_pair: pick non-generic sub-req misconception if present, else clear for synthesis
+        # Scope common_misconception_pair: pick non-generic sub-req misconception distinct from parent if present, else clear for synthesis
+        parent_mp_raw = (req_data or {}).get("common_misconception_pair")
+        parent_myth_norm = (
+            str(parent_mp_raw.get("misconception") or parent_mp_raw.get("myth") or "").strip().lower()
+            if isinstance(parent_mp_raw, dict)
+            else ""
+        )
         chosen_sub_misc: Optional[Dict[str, Any]] = None
         for sr in matched_subs:
             mp = sr.get("common_misconception_pair")
             if isinstance(mp, dict):
                 m_val = str(mp.get("misconception") or mp.get("myth") or "")
                 f_val = str(mp.get("fact") or mp.get("fact_correction") or "")
-                if not _is_generic_meta_misconception(m_val, f_val):
+                if not _is_generic_meta_misconception(m_val, f_val) and m_val.strip().lower() != parent_myth_norm:
                     chosen_sub_misc = mp
                     break
         scoped["common_misconception_pair"] = chosen_sub_misc
@@ -1205,39 +1216,48 @@ def _build_slide_teaching_notes(
 
     req_display_label = f"Reqs {sub_range_label}" if sub_range_label and "-" in sub_range_label else f"Requirement {sub_range_label or clean_req}"
 
-    # Determine misconception pair: use curated non-generic misconception on the lead slide or sub-req slide,
-    # rotate through sub-requirement misconceptions on child slides when available, and synthesize a concrete,
-    # slide-scoped subject-matter misconception whenever generic or missing.
+    # Determine misconception pair: use curated non-generic misconception on the lead slide (slide_idx_in_req == 0),
+    # rotate through distinct sub-requirement misconceptions on child slides when available, and synthesize a concrete,
+    # slide-scoped subject-matter misconception whenever generic or already used on the lead slide.
+    parent_mp_dict = (req_dict or {}).get("common_misconception_pair") if isinstance((req_dict or {}).get("common_misconception_pair"), dict) else {}
+    parent_myth_norm = _sanitize_no_ellipsis_or_emdash(str(parent_mp_dict.get("misconception") or parent_mp_dict.get("myth") or "")).strip().lower()
+
     misc_pair = req_data.get("common_misconception_pair") if isinstance(req_data.get("common_misconception_pair"), dict) else {}
     raw_myth = _sanitize_no_ellipsis_or_emdash(str(misc_pair.get("misconception") or misc_pair.get("myth") or ""))
     raw_fact = _sanitize_no_ellipsis_or_emdash(str(misc_pair.get("fact") or misc_pair.get("fact_correction") or ""))
 
     sub_misc_candidates: List[Tuple[str, str]] = []
+    seen_sub_myths: set = {parent_myth_norm} if parent_myth_norm else set()
     for sr_item in list((req_dict or {}).get("sub_requirements") or []):
         if isinstance(sr_item, dict) and isinstance(sr_item.get("common_misconception_pair"), dict):
             sm = _sanitize_no_ellipsis_or_emdash(str(sr_item["common_misconception_pair"].get("misconception") or sr_item["common_misconception_pair"].get("myth") or ""))
             sf = _sanitize_no_ellipsis_or_emdash(str(sr_item["common_misconception_pair"].get("fact") or sr_item["common_misconception_pair"].get("fact_correction") or ""))
-            if not _is_generic_meta_misconception(sm, sf):
+            sm_low = sm.strip().lower()
+            if not _is_generic_meta_misconception(sm, sf) and sm_low not in seen_sub_myths:
+                seen_sub_myths.add(sm_low)
                 sub_misc_candidates.append((sm, sf))
 
-    if (slide_idx_in_req == 0 or matched_sub_ids) and not _is_generic_meta_misconception(raw_myth, raw_fact):
-        myth_txt, fact_txt = raw_myth, raw_fact
-    elif precomp_myth and precomp_fact and not _is_generic_meta_misconception(precomp_myth, precomp_fact) and arch not in (
+    _specialized_archs = (
         SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value,
         SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value,
         SlideArchetype.GEAR_CHECKLIST_GRID.value,
         SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value,
         SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value,
+    )
+    if slide_idx_in_req == 0 and not _is_generic_meta_misconception(raw_myth, raw_fact):
+        myth_txt, fact_txt = raw_myth, raw_fact
+    elif slide_idx_in_req > 0 and matched_sub_ids and not _is_generic_meta_misconception(raw_myth, raw_fact) and raw_myth.strip().lower() != parent_myth_norm:
+        myth_txt, fact_txt = raw_myth, raw_fact
+    elif slide_idx_in_req > 0 and sub_misc_candidates and arch not in _specialized_archs and (slide_idx_in_req - 1) < len(sub_misc_candidates):
+        myth_txt, fact_txt = sub_misc_candidates[slide_idx_in_req - 1]
+    elif (
+        precomp_myth
+        and precomp_fact
+        and not _is_generic_meta_misconception(precomp_myth, precomp_fact)
+        and (slide_idx_in_req == 0 or precomp_myth.strip().lower() != parent_myth_norm)
+        and arch not in _specialized_archs
     ):
         myth_txt, fact_txt = precomp_myth, precomp_fact
-    elif sub_misc_candidates and arch not in (
-        SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value,
-        SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value,
-        SlideArchetype.GEAR_CHECKLIST_GRID.value,
-        SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value,
-        SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value,
-    ):
-        myth_txt, fact_txt = sub_misc_candidates[(slide_idx_in_req - 1) % len(sub_misc_candidates)]
     else:
         myth_txt, fact_txt = _synthesize_subject_matter_misconception(
             clean_badge=clean_badge,
@@ -1517,9 +1537,13 @@ def _build_slide_teaching_notes(
     elif comparison_data and isinstance(comparison_data, dict):
         left_h = _sanitize_no_ellipsis_or_emdash(str(comparison_data.get("left_header") or topic_1))
         right_h = _sanitize_no_ellipsis_or_emdash(str(comparison_data.get("right_header") or topic_2))
+        l_pts_raw = [str(x).strip() for x in (comparison_data.get("left_points") or []) if str(x).strip()]
+        r_pts_raw = [str(x).strip() for x in (comparison_data.get("right_points") or []) if str(x).strip()]
+        l_summary = _sanitize_no_ellipsis_or_emdash(l_pts_raw[0].rstrip(".")) if l_pts_raw else first_body.rstrip(".")
+        r_summary = _sanitize_no_ellipsis_or_emdash(r_pts_raw[0].rstrip(".")) if r_pts_raw else second_body.rstrip(".")
         key_block = (
             f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {page_cite}. {supplementary_detail} "
-            f"[Expected Answer: Contrast {left_h} ({first_body.rstrip('.')}) against {right_h} ({second_body.rstrip('.')}).]"
+            f"[Expected Answer: Contrast {left_h} ({l_summary}) against {right_h} ({r_summary}).]"
         )
     else:
         if extra_insights:
@@ -1546,8 +1570,6 @@ def _build_slide_teaching_notes(
         )
 
     # 4. [COMMON MISCONCEPTION TO CORRECT]
-    if slide_idx_in_req > 0 and f"({clean_title})" not in fact_txt:
-        fact_txt = f"{fact_txt.rstrip('.')} (Slide Focus - {clean_title}: verify {topic_1} and {topic_2})."
     misc_block = (
         f"[COMMON MISCONCEPTION TO CORRECT] Myth: {myth_txt} | BSA Pamphlet Fact: {fact_txt}"
     )
@@ -1678,6 +1700,23 @@ def _polish_slide_bullet_for_card(
             return full_w
         return f"{m.group(1)} {m.group(2)}"
     txt = re.sub(r"\b([a-z]{4,})([A-Z][a-z]{3,})\b", _unglue_camel, txt)
+    _ocr_glued_map = {
+        "whohave": "who have",
+        "along-sleeved": "a long-sleeved",
+        "toavoid": "to avoid",
+        "thevictim": "the victim",
+        "inwhich": "in which",
+        "suchas": "such as",
+        "aswell": "as well",
+        "atleast": "at least",
+        "morethan": "more than",
+        "beable": "be able",
+        "makea": "make a",
+        "witha": "with a",
+        "froma": "from a",
+    }
+    for bad_w, good_w in _ocr_glued_map.items():
+        txt = re.sub(rf"\b{re.escape(bad_w)}\b", good_w, txt, flags=re.IGNORECASE)
     txt = re.sub(r"\s{2,}", " ", txt).strip()
 
     raw_a, raw_b = _split_anchor_and_body(txt, fallback_anchor)
@@ -1886,10 +1925,11 @@ def _build_cards_for_req(req: Dict[str, Any], bullets: List[str]) -> List[Dict[s
     for idx_s, raw_step in enumerate(steps[:4], start=1):
         clean_s = _sanitize_no_ellipsis_or_emdash(str(raw_step))
         anchor, body = _split_anchor_and_detail(clean_s, fallback_anchor=f"Step {idx_s}")
-        verb_badge, verb_color = _infer_action_verb_badge(req_txt, anchor, body, idx_s)
+        anchor_clean = re.sub(r"^Step\s+\d+\s*[-:]\s*", "", anchor.strip(), flags=re.IGNORECASE).strip() or anchor.strip()
+        verb_badge, verb_color = _infer_action_verb_badge(req_txt, anchor_clean, body, idx_s)
         cards.append({
             "badge_label": verb_badge,
-            "anchor_title": _concise_anchor_title(anchor.strip(), max_chars=44) or f"Step {idx_s}",
+            "anchor_title": _concise_anchor_title(anchor_clean, max_chars=44) or f"Step {idx_s}",
             "body_text": body.strip() or clean_s,
             "accent_color_hex": verb_color or colors[(idx_s - 1) % len(colors)],
         })

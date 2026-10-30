@@ -1844,40 +1844,48 @@ def _build_sub_requirement_slides(
             raw_lbl = str(sr.get("sub_id") or sr.get("id") or sr.get("sub_req_label") or f"{req_num}{chr(97 + s_idx)}").strip()
             sr_id = f"{req_num}{raw_lbl}" if len(raw_lbl) == 1 and raw_lbl.isalpha() and not str(req_num).endswith(raw_lbl) else raw_lbl
             raw_sr_txt = str(sr.get("text") or sr.get("sub_req_text") or "").strip()
+            curated_sr_topic = re.sub(
+                rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*",
+                "",
+                str(sr.get("topic_title") or sr.get("title") or "").strip(),
+                flags=re.IGNORECASE,
+            ).strip(" .:;()")
+            if re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do|How|Why|What|When|Where|The\s+steps)\b", curated_sr_topic, flags=re.IGNORECASE):
+                curated_sr_topic = ""
             sr_txt = _enrich_sub_requirement_text(
                 badge_name, req_num, sr_id, raw_sr_txt, req_text, pages_map, extended_pages
             )
             if " — " in sr_txt:
                 topic_head, topic_body = sr_txt.split(" — ", 1)
-                clean_head = re.sub(rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*", "", topic_head.strip(), flags=re.IGNORECASE).rstrip(".:;")
+                clean_head = curated_sr_topic or re.sub(rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*", "", topic_head.strip(), flags=re.IGNORECASE).rstrip(".:;")
                 clean_head = re.sub(r"\s*\([^)]*\)", "", clean_head).strip()
-                if re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do)\b", clean_head, flags=re.IGNORECASE):
+                if re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do|How|Why|What|When|Where|The\s+steps)\b", clean_head, flags=re.IGNORECASE):
                     clean_head = _derive_topic_title(sr_id, raw_sr_txt or clean_head).replace(f"Req {sr_id}:", "").strip()
                 combined = f"Requirement {sr_id} ({clean_head}): {topic_body.strip()}"
-                if clean_head and len(clean_head.split()) <= 5:
+                if clean_head and len(clean_head.split()) <= 6:
                     chunk_short_topics.append(clean_head)
             elif ": " in sr_txt[:60]:
                 topic_head, topic_body = sr_txt.split(": ", 1)
-                clean_head = re.sub(rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*", "", topic_head.strip(), flags=re.IGNORECASE).rstrip(".:;")
+                clean_head = curated_sr_topic or re.sub(rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*", "", topic_head.strip(), flags=re.IGNORECASE).rstrip(".:;")
                 clean_head = re.sub(r"\s*\([^)]*\)", "", clean_head).strip()
-                if re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do)\b", clean_head, flags=re.IGNORECASE):
+                if re.match(r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do|How|Why|What|When|Where|The\s+steps)\b", clean_head, flags=re.IGNORECASE):
                     clean_head = _derive_topic_title(sr_id, raw_sr_txt or clean_head).replace(f"Req {sr_id}:", "").strip()
                 combined = f"Requirement {sr_id} ({clean_head}): {topic_body.strip()}"
-                if clean_head and len(clean_head.split()) <= 5:
+                if clean_head and len(clean_head.split()) <= 6:
                     chunk_short_topics.append(clean_head)
             elif raw_sr_txt and len(raw_sr_txt.split()) <= 7:
-                sr_topic = _derive_topic_title(sr_id, raw_sr_txt).replace(f"Req {sr_id}:", "").strip()
+                sr_topic = curated_sr_topic or _derive_topic_title(sr_id, raw_sr_txt).replace(f"Req {sr_id}:", "").strip()
                 if sr_txt.lower().startswith(sr_topic.lower()):
                     combined = f"Requirement {sr_id}: {sr_txt}"
                 else:
                     combined = f"Requirement {sr_id} ({sr_topic}): {sr_txt}"
-                if sr_topic and len(sr_topic.split()) <= 5:
+                if sr_topic and len(sr_topic.split()) <= 6:
                     chunk_short_topics.append(sr_topic)
             else:
-                sr_topic = _derive_topic_title(sr_id, raw_sr_txt or sr_txt).replace(f"Req {sr_id}:", "").strip()
-                if sr_topic and len(sr_topic.split()) <= 5:
+                sr_topic = curated_sr_topic or _derive_topic_title(sr_id, raw_sr_txt or sr_txt).replace(f"Req {sr_id}:", "").strip()
+                if sr_topic and len(sr_topic.split()) <= 6:
                     chunk_short_topics.append(sr_topic)
-                combined = f"Requirement {sr_id} ({sr_topic}): {sr_txt}" if sr_topic and len(sr_topic) <= 32 else f"Requirement {sr_id}: {sr_txt}"
+                combined = f"Requirement {sr_id} ({sr_topic}): {sr_txt}" if sr_topic and len(sr_topic) <= 38 else f"Requirement {sr_id}: {sr_txt}"
             chunk_bullets.append(combined)
 
         first_raw = str(chunk[0].get("sub_id") or chunk[0].get("id") or chunk[0].get("sub_req_label") or f"{req_num}a").strip()
